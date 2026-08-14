@@ -1,0 +1,29 @@
+{
+  "name": "does-it-install",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A continuously tested index of public MCP servers: does each one still install and connect today?",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:smoke": "vitest run --config vitest.smoke.config.ts",
+    "catalog": "tsx src/catalog/cli.ts",
+    "sweep": "tsx src/harness/cli.ts",
+    "merge": "tsx src/history/cli.ts",
+    "badges": "tsx src/badges/cli.ts",
+    "site": "tsx src/site/cli.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  }
+}

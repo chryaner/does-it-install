@@ -1,0 +1,54 @@
+{
+  "comment": "Curated seed entries. These are probed even if absent from the registry, and are the only servers the smoke tests may install (well-known official packages).",
+  "servers": [
+    {
+      "id": "seed/server-everything",
+      "title": "Everything (reference server)",
+      "description": "Official MCP reference server exercising every protocol feature.",
+      "repoUrl": "https://github.com/modelcontextprotocol/servers",
+      "packages": [
+        {
+          "kind": "npm",
+          "identifier": "@modelcontextprotocol/server-everything",
+          "transport": "stdio",
+          "env": []
+        }
+      ],
+      "remotes": [],
+      "rank": 1
+    },
+    {
+      "id": "seed/server-memory",
+      "title": "Memory (reference server)",
+      "description": "Official MCP reference server: knowledge-graph memory.",
+      "repoUrl": "https://github.com/modelcontextprotocol/servers",
+      "packages": [
+        {
+          "kind": "npm",
+          "identifier": "@modelcontextprotocol/server-memory",
+          "transport": "stdio",
+          "env": []
+        }
+      ],
+      "remotes": [],
+      "rank": 2
+    },
+    {
+      "id": "seed/server-filesystem",
+      "title": "Filesystem (reference server)",
+      "description": "Official MCP reference server: filesystem access.",
+      "repoUrl": "https://github.com/modelcontextprotocol/servers",
+      "packages": [
+        {
+          "kind": "npm",
+          "identifier": "@modelcontextprotocol/server-filesystem",
+          "packageArguments": ["."],
+          "transport": "stdio",
+          "env": []
+        }
+      ],
+      "remotes": [],
+      "rank": 3
+    }
+  ]
+}
