@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:09.525Z",
+        "errorExcerpt": "connect failed: HTTP 404: Streamable HTTP error: Error POSTing to endpoint: Server not found",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-09Z-35e1e7",
+        "status": "connect_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:00.382Z",
+        "errorExcerpt": "connect failed: HTTP 404: Streamable HTTP error: Error POSTing to endpoint: Server not found",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-00Z-e49a74",
+        "status": "connect_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:35.929Z",
+        "errorExcerpt": "connect failed: HTTP 404: Streamable HTTP error: Error POSTing to endpoint: Server not found",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-35Z-992a9c",
+        "status": "connect_failed"
+      }
+    ]
+  },
+  "serverId": "ai.smithery/Parc-Dev-task-breakdown-server",
+  "slug": "ai.smithery__parc-dev-task-breakdown-server"
+}

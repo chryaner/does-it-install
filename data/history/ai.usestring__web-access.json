@@ -1,0 +1,48 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:10.254Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-10Z-ab7350",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "web_access_fetch",
+          "web_access_search",
+          "web_access_sitemap"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:03.495Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-03Z-54916a",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "web_access_fetch",
+          "web_access_search",
+          "web_access_sitemap"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:28.035Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-28Z-411933",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "web_access_fetch",
+          "web_access_search",
+          "web_access_sitemap"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.usestring/web-access",
+  "slug": "ai.usestring__web-access"
+}

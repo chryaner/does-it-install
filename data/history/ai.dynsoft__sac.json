@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-14T20:23:09.525Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading uvloop (1.3MiB)\n Downloaded uvloop\nInstalled 40 packages in 54ms\nAn executable named `sac-sdk` is not provided by package `sac-sdk`.\nThe following executables are available:\n- sac\n\nUse `uv tool run --from sac-sdk sac` instead.",
+        "method": "pypi",
+        "runId": "2026-08-14T20-23-09Z-35e1e7",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-14T18:53:44.569Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading uvloop (1.3MiB)\n Downloaded uvloop\nInstalled 40 packages in 43ms\nAn executable named `sac-sdk` is not provided by package `sac-sdk`.\nThe following executables are available:\n- sac\n\nUse `uv tool run --from sac-sdk sac` instead.",
         "method": "pypi",
@@ -11,6 +18,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-14T20:23:00.382Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading uvloop (4.2MiB)\n Downloaded uvloop\nInstalled 40 packages in 16ms\nAn executable named `sac-sdk` is not provided by package `sac-sdk`.\nThe following executables are available:\n- sac\n\nUse `uv tool run --from sac-sdk sac` instead.",
+        "method": "pypi",
+        "runId": "2026-08-14T20-23-00Z-e49a74",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-14T18:53:48.539Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading uvloop (4.2MiB)\n Downloaded uvloop\nInstalled 40 packages in 17ms\nAn executable named `sac-sdk` is not provided by package `sac-sdk`.\nThe following executables are available:\n- sac\n\nUse `uv tool run --from sac-sdk sac` instead.",
         "method": "pypi",
@@ -19,6 +33,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-14T20:23:35.929Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 41 packages in 2.84s\nAn executable named `sac-sdk` is not provided by package `sac-sdk`.\nThe following executables are available:\n- sac.exe\n\nUse `uv tool run --from sac-sdk sac.exe` instead.",
+        "method": "pypi",
+        "runId": "2026-08-14T20-23-35Z-992a9c",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-14T18:54:09.596Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 41 packages in 5.17s\nAn executable named `sac-sdk` is not provided by package `sac-sdk`.\nThe following executables are available:\n- sac.exe\n\nUse `uv tool run --from sac-sdk sac.exe` instead.",

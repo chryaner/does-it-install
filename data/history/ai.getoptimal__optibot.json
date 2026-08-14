@@ -1,0 +1,105 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:05.405Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "review_local_changes",
+          "review_branch",
+          "review_diff_file",
+          "login",
+          "logout",
+          "check_auth",
+          "create_api_key",
+          "list_api_keys",
+          "delete_api_key",
+          "list_organizations",
+          "get_current_organization",
+          "switch_organization",
+          "get_status",
+          "trigger_security_scan",
+          "list_security_scans",
+          "get_security_scan",
+          "get_security_usage",
+          "get_security_pricing",
+          "list_scannable_repos",
+          "get_security_config",
+          "update_security_config",
+          "setup_ci"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:06.300Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "review_local_changes",
+          "review_branch",
+          "review_diff_file",
+          "login",
+          "logout",
+          "check_auth",
+          "create_api_key",
+          "list_api_keys",
+          "delete_api_key",
+          "list_organizations",
+          "get_current_organization",
+          "switch_organization",
+          "get_status",
+          "trigger_security_scan",
+          "list_security_scans",
+          "get_security_scan",
+          "get_security_usage",
+          "get_security_pricing",
+          "list_scannable_repos",
+          "get_security_config",
+          "update_security_config",
+          "setup_ci"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "review_local_changes",
+          "review_branch",
+          "review_diff_file",
+          "login",
+          "logout",
+          "check_auth",
+          "create_api_key",
+          "list_api_keys",
+          "delete_api_key",
+          "list_organizations",
+          "get_current_organization",
+          "switch_organization",
+          "get_status",
+          "trigger_security_scan",
+          "list_security_scans",
+          "get_security_scan",
+          "get_security_usage",
+          "get_security_pricing",
+          "list_scannable_repos",
+          "get_security_config",
+          "update_security_config",
+          "setup_ci"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.getoptimal/optibot",
+  "slug": "ai.getoptimal__optibot"
+}

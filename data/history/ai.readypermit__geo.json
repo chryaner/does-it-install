@@ -1,0 +1,63 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:10.254Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-10Z-ab7350",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "analyze_property",
+          "get_buildability_score",
+          "lookup_zoning",
+          "check_flood_zone",
+          "check_environmental_risks",
+          "search_comparable_sales",
+          "calculate_buildable_envelope",
+          "submit_correction"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:03.495Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-03Z-54916a",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "analyze_property",
+          "get_buildability_score",
+          "lookup_zoning",
+          "check_flood_zone",
+          "check_environmental_risks",
+          "search_comparable_sales",
+          "calculate_buildable_envelope",
+          "submit_correction"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:28.035Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-28Z-411933",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "analyze_property",
+          "get_buildability_score",
+          "lookup_zoning",
+          "check_flood_zone",
+          "check_environmental_risks",
+          "search_comparable_sales",
+          "calculate_buildable_envelope",
+          "submit_correction"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.readypermit/geo",
+  "slug": "ai.readypermit__geo"
+}

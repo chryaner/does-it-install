@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:09.525Z",
+        "errorExcerpt": "handshake failed: Streamable HTTP error: Error POSTing to endpoint: {\"timestamp\":1786739085406,\"businessStatus\":42007,\"status\":401,\"message\":\"API Key required\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-09Z-35e1e7",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:00.382Z",
+        "errorExcerpt": "handshake failed: Streamable HTTP error: Error POSTing to endpoint: {\"timestamp\":1786739053495,\"businessStatus\":42007,\"status\":401,\"message\":\"API Key required\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-00Z-e49a74",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:35.929Z",
+        "errorExcerpt": "handshake failed: Streamable HTTP error: Error POSTing to endpoint: {\"timestamp\":1786740210291,\"businessStatus\":42007,\"status\":401,\"message\":\"API Key required\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-35Z-992a9c",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "ai.moxt/mcp-workspace",
+  "slug": "ai.moxt__mcp-workspace"
+}

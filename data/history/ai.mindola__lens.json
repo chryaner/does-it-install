@@ -1,0 +1,48 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:05.405Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "create_digital_twin_lens",
+          "add_lens_knowledge",
+          "get_lens_status"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:06.300Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "create_digital_twin_lens",
+          "add_lens_knowledge",
+          "get_lens_status"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "create_digital_twin_lens",
+          "add_lens_knowledge",
+          "get_lens_status"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.mindola/lens",
+  "slug": "ai.mindola__lens"
+}

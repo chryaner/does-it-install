@@ -1,0 +1,87 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:10.254Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-10Z-ab7350",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "spala_help",
+          "spala_get_onboarding",
+          "spala_get_tool_map",
+          "docs_search",
+          "template_list",
+          "addon_list",
+          "spala_start",
+          "account_status",
+          "account_setup",
+          "organization_create",
+          "project_list",
+          "project_create",
+          "project_connect",
+          "project_select",
+          "project_get_mcp_manifest",
+          "project_get_public_context"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:03.495Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-03Z-54916a",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "spala_help",
+          "spala_get_onboarding",
+          "spala_get_tool_map",
+          "docs_search",
+          "template_list",
+          "addon_list",
+          "spala_start",
+          "account_status",
+          "account_setup",
+          "organization_create",
+          "project_list",
+          "project_create",
+          "project_connect",
+          "project_select",
+          "project_get_mcp_manifest",
+          "project_get_public_context"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:28.035Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-28Z-411933",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "spala_help",
+          "spala_get_onboarding",
+          "spala_get_tool_map",
+          "docs_search",
+          "template_list",
+          "addon_list",
+          "spala_start",
+          "account_status",
+          "account_setup",
+          "organization_create",
+          "project_list",
+          "project_create",
+          "project_connect",
+          "project_select",
+          "project_get_mcp_manifest",
+          "project_get_public_context"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.spala/public-mcp",
+  "slug": "ai.spala__public-mcp"
+}

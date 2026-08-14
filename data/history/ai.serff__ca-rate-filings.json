@@ -1,0 +1,90 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:05.405Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "search_filings",
+          "search_summary_embeds",
+          "search_actuarial_embeds",
+          "search_filing_embeds",
+          "get_filing_extracts",
+          "get_filing_extract_meta",
+          "get_filing_source_file_link",
+          "get_filing_summary",
+          "get_filing_references",
+          "get_filing_lineage",
+          "list_filing_source_files",
+          "search_products",
+          "get_product",
+          "get_product_siblings",
+          "get_product_ancestors",
+          "mcp_account",
+          "mcp_health"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:06.300Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "search_filings",
+          "search_summary_embeds",
+          "search_actuarial_embeds",
+          "search_filing_embeds",
+          "get_filing_extracts",
+          "get_filing_extract_meta",
+          "get_filing_source_file_link",
+          "get_filing_summary",
+          "get_filing_references",
+          "get_filing_lineage",
+          "list_filing_source_files",
+          "search_products",
+          "get_product",
+          "get_product_siblings",
+          "get_product_ancestors",
+          "mcp_account",
+          "mcp_health"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "search_filings",
+          "search_summary_embeds",
+          "search_actuarial_embeds",
+          "search_filing_embeds",
+          "get_filing_extracts",
+          "get_filing_extract_meta",
+          "get_filing_source_file_link",
+          "get_filing_summary",
+          "get_filing_references",
+          "get_filing_lineage",
+          "list_filing_source_files",
+          "search_products",
+          "get_product",
+          "get_product_siblings",
+          "get_product_ancestors",
+          "mcp_account",
+          "mcp_health"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.serff/ca-rate-filings",
+  "slug": "ai.serff__ca-rate-filings"
+}

@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:05.405Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"object\":\"error\",\"id\":\"err_af4c91da-6fdd-4bb4-bc1c-cf040a0d7ddf\",\"code\":\"missing_api_key\",\"type\":\"authentication_error\",\"message\":\"Authentication required. Mint an API key at https://secapi.ai/app/api-keys and pass it as the x-api-key header on every request.\",\"requestId\":\"req_b39f6291-5629-43f7-84be-e4a4b5a7fe68\",\"traceparent\":\"00-2b2ab42041476bc73b862036146f5cf9-807f205975196faa-01\",\"details\":{\"docsUrl\":\"https://docs.secapi.ai/auth-and-pricing\",\"dashboardUrl\":\"https://secapi.ai/app/api-keys\"}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:06.300Z",
+        "errorExcerpt": "handshake failed: Streamable HTTP error: Error POSTing to endpoint: {\"object\":\"error\",\"id\":\"err_c0d65c18-eda4-4306-b144-2ed600a6170f\",\"code\":\"missing_api_key\",\"type\":\"authentication_error\",\"message\":\"Authentication required. Mint an API key at https://secapi.ai/app/api-keys and pass it as the x-api-key header on every request.\",\"requestId\":\"req_3750d1da-cd16-4886-bd53-13e5687c411f\",\"traceparent\":\"00-9303854017d4e1ca090000b49edaa2cf-7678099935f197d6-01\",\"details\":{\"docsUrl\":\"https://docs.secapi.ai/auth-and-pricing\",\"dashboardUrl\":\"https://secapi.ai/app/api-keys\"}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"object\":\"error\",\"id\":\"err_7023b4b3-673d-498c-bc15-597fbfb7688b\",\"code\":\"missing_api_key\",\"type\":\"authentication_error\",\"message\":\"Authentication required. Mint an API key at https://secapi.ai/app/api-keys and pass it as the x-api-key header on every request.\",\"requestId\":\"req_d4e8c142-5142-444c-a94f-3eaf6021bdf6\",\"traceparent\":\"00-9cd69b20cb10fe8f7036bf81c93e7a57-d7d8c7b9bca20925-01\",\"details\":{\"docsUrl\":\"https://docs.secapi.ai/auth-and-pricing\",\"dashboardUrl\":\"https://secapi.ai/app/api-keys\"}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "ai.secapi/secapi",
+  "slug": "ai.secapi__secapi"
+}

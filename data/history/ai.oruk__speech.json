@@ -1,0 +1,60 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:09.525Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-09Z-35e1e7",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "oruk_analyze_speech",
+          "oruk_transcribe_audio",
+          "oruk_analyze_tone",
+          "oruk_check_credits",
+          "oruk_create_trial_key",
+          "oruk_list_models",
+          "oruk_get_started"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:00.382Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-00Z-e49a74",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "oruk_analyze_speech",
+          "oruk_transcribe_audio",
+          "oruk_analyze_tone",
+          "oruk_check_credits",
+          "oruk_create_trial_key",
+          "oruk_list_models",
+          "oruk_get_started"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:35.929Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-35Z-992a9c",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "oruk_analyze_speech",
+          "oruk_transcribe_audio",
+          "oruk_analyze_tone",
+          "oruk_check_credits",
+          "oruk_create_trial_key",
+          "oruk_list_models",
+          "oruk_get_started"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.oruk/speech",
+  "slug": "ai.oruk__speech"
+}

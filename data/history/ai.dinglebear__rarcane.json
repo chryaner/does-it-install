@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-14T20:23:10.254Z",
+        "errorExcerpt": "npm install @dinglebear/rarcane@0.4.4 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path /private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-JPEtKV/node_modules/@dinglebear/rarcane\nnpm error command failed\nnpm error command sh -c node scripts/install.js\nnpm error rarcane: Unsupported platform darwin/arm64. Supported targets: linux/x64, win32/x64.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-JPEtKV/.npm-cache/_logs/2026-08-14T20_24_32_707Z-debug-0.log",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-10Z-ab7350",
+        "status": "install_failed"
+      },
+      {
         "date": "2026-08-14T18:53:45.798Z",
         "errorExcerpt": "npm install @dinglebear/rarcane@0.4.4 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path /private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-I2OITy/node_modules/@dinglebear/rarcane\nnpm error command failed\nnpm error command sh -c node scripts/install.js\nnpm error rarcane: Unsupported platform darwin/arm64. Supported targets: linux/x64, win32/x64.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-I2OITy/.npm-cache/_logs/2026-08-14T18_55_08_571Z-debug-0.log",
         "method": "npm",
@@ -10,6 +17,16 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-08-14T20:23:03.495Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-03Z-54916a",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "arcane"
+        ]
+      },
       {
         "date": "2026-08-14T18:53:41.622Z",
         "method": "npm",
@@ -22,6 +39,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-14T20:23:28.035Z",
+        "errorExcerpt": "npm install @dinglebear/rarcane@0.4.4 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-3MCcSZ\\node_modules\\@dinglebear\\rarcane\nnpm error command failed\nnpm error command C:\\Windows\\system32\\cmd.exe /d /s /c node scripts/install.js\nnpm error rarcane: downloading https://github.com/dinglebear-ai/rarcane/releases/download/v0.4.4/rarcane-windows-x86_64.tar.gz\nnpm error rarcane: tar (child): Cannot connect to C: resolve failed\nnpm error\nnpm error gzip: stdin: unexpected end of file\nnpm error tar: Child returned status 128\nnpm error tar: Error is not recoverable: exiting now\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-3MCcSZ\\.npm-cache\\_logs\\2026-08-14T20_40_02_245Z-debug-0.log",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-28Z-411933",
+        "status": "install_failed"
+      },
       {
         "date": "2026-08-14T18:53:58.370Z",
         "errorExcerpt": "npm install @dinglebear/rarcane@0.4.4 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-Vo6Yat\\node_modules\\@dinglebear\\rarcane\nnpm error command failed\nnpm error command C:\\Windows\\system32\\cmd.exe /d /s /c node scripts/install.js\nnpm error rarcane: downloading https://github.com/dinglebear-ai/rarcane/releases/download/v0.4.4/rarcane-windows-x86_64.tar.gz\nnpm error rarcane: tar (child): Cannot connect to C: resolve failed\nnpm error\nnpm error gzip: stdin: unexpected end of file\nnpm error tar: Child returned status 128\nnpm error tar: Error is not recoverable: exiting now\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-Vo6Yat\\.npm-cache\\_logs\\2026-08-14T19_07_21_544Z-debug-0.log",

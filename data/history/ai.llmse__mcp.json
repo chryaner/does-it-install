@@ -1,0 +1,69 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:09.525Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-09Z-35e1e7",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "classify_url",
+          "select_advertiser",
+          "analyze_seo",
+          "analyze_eeat",
+          "analyze_aeo",
+          "analyze_wcag",
+          "analyze_garm",
+          "analyze_readability",
+          "audit",
+          "find_similar_sites"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:00.382Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-00Z-e49a74",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "classify_url",
+          "select_advertiser",
+          "analyze_seo",
+          "analyze_eeat",
+          "analyze_aeo",
+          "analyze_wcag",
+          "analyze_garm",
+          "analyze_readability",
+          "audit",
+          "find_similar_sites"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:35.929Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-35Z-992a9c",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "classify_url",
+          "select_advertiser",
+          "analyze_seo",
+          "analyze_eeat",
+          "analyze_aeo",
+          "analyze_wcag",
+          "analyze_garm",
+          "analyze_readability",
+          "audit",
+          "find_similar_sites"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.llmse/mcp",
+  "slug": "ai.llmse__mcp"
+}

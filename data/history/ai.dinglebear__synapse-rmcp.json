@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-14T20:23:09.525Z",
+        "errorExcerpt": "npm install synapse-rmcp@0.5.4 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for synapse-rmcp@0.5.4.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-eAaSGQ/.npm-cache/_logs/2026-08-14T20_24_19_850Z-debug-0.log",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-09Z-35e1e7",
+        "status": "install_failed"
+      },
+      {
         "date": "2026-08-14T18:53:44.569Z",
         "errorExcerpt": "npm install synapse-rmcp@0.5.4 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for synapse-rmcp@0.5.4.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-wRDqkQ/.npm-cache/_logs/2026-08-14T18_54_59_346Z-debug-0.log",
         "method": "npm",
@@ -11,6 +18,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-14T20:23:00.382Z",
+        "errorExcerpt": "npm install synapse-rmcp@0.5.4 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for synapse-rmcp@0.5.4.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /tmp/does-it-install/dii-npm-AQod1n/.npm-cache/_logs/2026-08-14T20_23_47_912Z-debug-0.log",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-00Z-e49a74",
+        "status": "install_failed"
+      },
+      {
         "date": "2026-08-14T18:53:48.539Z",
         "errorExcerpt": "npm install synapse-rmcp@0.5.4 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for synapse-rmcp@0.5.4.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /tmp/does-it-install/dii-npm-tH7eut/.npm-cache/_logs/2026-08-14T18_54_40_986Z-debug-0.log",
         "method": "npm",
@@ -19,6 +33,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-14T20:23:35.929Z",
+        "errorExcerpt": "npm install synapse-rmcp@0.5.4 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for synapse-rmcp@0.5.4.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-eQW1ti\\.npm-cache\\_logs\\2026-08-14T20_39_33_558Z-debug-0.log",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-35Z-992a9c",
+        "status": "install_failed"
+      },
       {
         "date": "2026-08-14T18:54:09.596Z",
         "errorExcerpt": "npm install synapse-rmcp@0.5.4 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for synapse-rmcp@0.5.4.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-J9NtNB\\.npm-cache\\_logs\\2026-08-14T19_09_27_755Z-debug-0.log",

@@ -1,0 +1,45 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:09.525Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-09Z-35e1e7",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "search",
+          "get_by_id"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:00.382Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-00Z-e49a74",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "search",
+          "get_by_id"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:35.929Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-35Z-992a9c",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "search",
+          "get_by_id"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.sharebench/registry",
+  "slug": "ai.sharebench__registry"
+}

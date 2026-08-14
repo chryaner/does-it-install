@@ -1,0 +1,54 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:10.254Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-10Z-ab7350",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "check_model",
+          "list_retiring_models",
+          "suggest_replacement",
+          "search_models",
+          "recent_lifecycle_changes"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:03.495Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-03Z-54916a",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "check_model",
+          "list_retiring_models",
+          "suggest_replacement",
+          "search_models",
+          "recent_lifecycle_changes"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:28.035Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-28Z-411933",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "check_model",
+          "list_retiring_models",
+          "suggest_replacement",
+          "search_models",
+          "recent_lifecycle_changes"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.llmintel/model-lifecycle",
+  "slug": "ai.llmintel__model-lifecycle"
+}

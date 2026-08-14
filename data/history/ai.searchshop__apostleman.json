@@ -1,0 +1,81 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:09.525Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-09Z-35e1e7",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "shop",
+          "skincare_recommend",
+          "recommend",
+          "skincare_cart",
+          "skincare_report_issue",
+          "search_research_notes",
+          "get_research_note",
+          "search_products",
+          "get_product",
+          "compare_products",
+          "create_checkout",
+          "check_compatibility",
+          "check_inventory",
+          "deals_discounts"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:00.382Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-00Z-e49a74",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "shop",
+          "skincare_recommend",
+          "recommend",
+          "skincare_cart",
+          "skincare_report_issue",
+          "search_research_notes",
+          "get_research_note",
+          "search_products",
+          "get_product",
+          "compare_products",
+          "create_checkout",
+          "check_compatibility",
+          "check_inventory",
+          "deals_discounts"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:35.929Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-35Z-992a9c",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "shop",
+          "skincare_recommend",
+          "recommend",
+          "skincare_cart",
+          "skincare_report_issue",
+          "search_research_notes",
+          "get_research_note",
+          "search_products",
+          "get_product",
+          "compare_products",
+          "create_checkout",
+          "check_compatibility",
+          "check_inventory",
+          "deals_discounts"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.searchshop/apostleman",
+  "slug": "ai.searchshop__apostleman"
+}

@@ -1,0 +1,90 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:05.405Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "check_upgrade_eligibility",
+          "start_eligibility_check",
+          "mint_eligibility_session",
+          "get_eligibility_result",
+          "place_bid",
+          "modify_bid",
+          "get_bid_status",
+          "predict_bid_success",
+          "start_watch",
+          "get_watch_status",
+          "ask_upgrade_agent",
+          "partner_question_insights",
+          "usage_totals",
+          "list_partners",
+          "get_partner_info",
+          "get_upgrade_pricing",
+          "search_upgrade_options"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:06.300Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "check_upgrade_eligibility",
+          "start_eligibility_check",
+          "mint_eligibility_session",
+          "get_eligibility_result",
+          "place_bid",
+          "modify_bid",
+          "get_bid_status",
+          "predict_bid_success",
+          "start_watch",
+          "get_watch_status",
+          "ask_upgrade_agent",
+          "partner_question_insights",
+          "usage_totals",
+          "list_partners",
+          "get_partner_info",
+          "get_upgrade_pricing",
+          "search_upgrade_options"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "check_upgrade_eligibility",
+          "start_eligibility_check",
+          "mint_eligibility_session",
+          "get_eligibility_result",
+          "place_bid",
+          "modify_bid",
+          "get_bid_status",
+          "predict_bid_success",
+          "start_watch",
+          "get_watch_status",
+          "ask_upgrade_agent",
+          "partner_question_insights",
+          "usage_totals",
+          "list_partners",
+          "get_partner_info",
+          "get_upgrade_pricing",
+          "search_upgrade_options"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.upgradeagent/upgrade-agent",
+  "slug": "ai.upgradeagent__upgrade-agent"
+}

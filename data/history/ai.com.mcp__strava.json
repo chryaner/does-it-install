@@ -2,6 +2,28 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-14T20:23:05.405Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "getStats",
+          "getLoggedInAthlete",
+          "getLoggedInAthleteStarredSegments",
+          "getEffortsBySegmentId",
+          "exploreSegments",
+          "getSegmentEffortById",
+          "getClubById",
+          "getClubMembersById",
+          "getClubAdminsById",
+          "getClubActivitiesById",
+          "getLoggedInAthleteClubs",
+          "getGearById",
+          "getRoutesByAthleteId"
+        ]
+      },
+      {
         "date": "2026-08-14T18:53:40.526Z",
         "method": "remote-http",
         "runId": "2026-08-14T18-53-40Z-4137a6",
@@ -26,6 +48,28 @@
     ],
     "linux": [
       {
+        "date": "2026-08-14T20:23:06.300Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "getStats",
+          "getLoggedInAthlete",
+          "getLoggedInAthleteStarredSegments",
+          "getEffortsBySegmentId",
+          "exploreSegments",
+          "getSegmentEffortById",
+          "getClubById",
+          "getClubMembersById",
+          "getClubAdminsById",
+          "getClubActivitiesById",
+          "getLoggedInAthleteClubs",
+          "getGearById",
+          "getRoutesByAthleteId"
+        ]
+      },
+      {
         "date": "2026-08-14T18:53:40.683Z",
         "method": "remote-http",
         "runId": "2026-08-14T18-53-40Z-231362",
@@ -49,6 +93,28 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "getStats",
+          "getLoggedInAthlete",
+          "getLoggedInAthleteStarredSegments",
+          "getEffortsBySegmentId",
+          "exploreSegments",
+          "getSegmentEffortById",
+          "getClubById",
+          "getClubMembersById",
+          "getClubAdminsById",
+          "getClubActivitiesById",
+          "getLoggedInAthleteClubs",
+          "getGearById",
+          "getRoutesByAthleteId"
+        ]
+      },
       {
         "date": "2026-08-14T18:54:09.525Z",
         "method": "remote-http",

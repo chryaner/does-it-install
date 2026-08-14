@@ -1,0 +1,99 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:10.254Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-10Z-ab7350",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "search_images",
+          "get_image",
+          "find_similar",
+          "find_related",
+          "browse_images",
+          "get_user_profile",
+          "get_leaderboard",
+          "browse_by_tag",
+          "browse_by_category",
+          "list_categories",
+          "get_tag_profile",
+          "get_mutation_group",
+          "search_text_in_image",
+          "find_meme_for_text",
+          "popular_tags",
+          "tag_autocomplete",
+          "cite_image",
+          "reverse_image_search",
+          "submit_image",
+          "generate_meme"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:03.495Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-03Z-54916a",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "search_images",
+          "get_image",
+          "find_similar",
+          "find_related",
+          "browse_images",
+          "get_user_profile",
+          "get_leaderboard",
+          "browse_by_tag",
+          "browse_by_category",
+          "list_categories",
+          "get_tag_profile",
+          "get_mutation_group",
+          "search_text_in_image",
+          "find_meme_for_text",
+          "popular_tags",
+          "tag_autocomplete",
+          "cite_image",
+          "reverse_image_search",
+          "submit_image",
+          "generate_meme"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:28.035Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-28Z-411933",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "search_images",
+          "get_image",
+          "find_similar",
+          "find_related",
+          "browse_images",
+          "get_user_profile",
+          "get_leaderboard",
+          "browse_by_tag",
+          "browse_by_category",
+          "list_categories",
+          "get_tag_profile",
+          "get_mutation_group",
+          "search_text_in_image",
+          "find_meme_for_text",
+          "popular_tags",
+          "tag_autocomplete",
+          "cite_image",
+          "reverse_image_search",
+          "submit_image",
+          "generate_meme"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.memestack/mcp",
+  "slug": "ai.memestack__mcp"
+}

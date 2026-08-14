@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-14T20:23:05.405Z",
+        "errorExcerpt": "connect failed: connect timed out after 22000ms",
+        "method": "remote-sse",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "timeout"
+      },
+      {
         "date": "2026-08-14T18:53:40.526Z",
         "errorExcerpt": "connect failed: connect timed out after 22000ms",
         "method": "remote-sse",
@@ -11,6 +18,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-14T20:23:06.300Z",
+        "errorExcerpt": "connect failed: connect timed out after 22000ms",
+        "method": "remote-sse",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "timeout"
+      },
+      {
         "date": "2026-08-14T18:53:40.683Z",
         "errorExcerpt": "connect failed: connect timed out after 22000ms",
         "method": "remote-sse",
@@ -19,6 +33,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "errorExcerpt": "connect failed: connect timed out after 22000ms",
+        "method": "remote-sse",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "timeout"
+      },
       {
         "date": "2026-08-14T18:54:09.525Z",
         "errorExcerpt": "connect failed: connect timed out after 22000ms",

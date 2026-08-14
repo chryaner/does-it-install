@@ -1,0 +1,69 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:09.525Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-09Z-35e1e7",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "create_video_from_url",
+          "create_analysis",
+          "validate_analysis",
+          "create_analysis_batch",
+          "get_analysis",
+          "wait_for_analysis",
+          "list_models",
+          "get_usage",
+          "get_credits",
+          "get_test_fixture"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:00.382Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-00Z-e49a74",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "create_video_from_url",
+          "create_analysis",
+          "validate_analysis",
+          "create_analysis_batch",
+          "get_analysis",
+          "wait_for_analysis",
+          "list_models",
+          "get_usage",
+          "get_credits",
+          "get_test_fixture"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:35.929Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-35Z-992a9c",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "create_video_from_url",
+          "create_analysis",
+          "validate_analysis",
+          "create_analysis_batch",
+          "get_analysis",
+          "wait_for_analysis",
+          "list_models",
+          "get_usage",
+          "get_credits",
+          "get_test_fixture"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.primateintelligence/mcp",
+  "slug": "ai.primateintelligence__mcp"
+}

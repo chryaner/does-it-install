@@ -2,6 +2,17 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-14T20:23:10.254Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-10Z-ab7350",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "environment_near",
+          "drinking_water"
+        ]
+      },
+      {
         "date": "2026-08-14T18:53:45.798Z",
         "method": "remote-http",
         "runId": "2026-08-14T18-53-45Z-4278f0",
@@ -15,6 +26,17 @@
     ],
     "linux": [
       {
+        "date": "2026-08-14T20:23:03.495Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-03Z-54916a",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "environment_near",
+          "drinking_water"
+        ]
+      },
+      {
         "date": "2026-08-14T18:53:41.622Z",
         "method": "remote-http",
         "runId": "2026-08-14T18-53-41Z-0bdee1",
@@ -27,6 +49,17 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-14T20:23:28.035Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-28Z-411933",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "environment_near",
+          "drinking_water"
+        ]
+      },
       {
         "date": "2026-08-14T18:53:58.370Z",
         "method": "remote-http",

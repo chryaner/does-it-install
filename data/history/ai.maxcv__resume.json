@@ -1,0 +1,45 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:05.405Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "score_cv",
+          "tailor_cv"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:06.300Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "score_cv",
+          "tailor_cv"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "score_cv",
+          "tailor_cv"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.maxcv/resume",
+  "slug": "ai.maxcv__resume"
+}

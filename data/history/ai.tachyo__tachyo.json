@@ -1,0 +1,111 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:09.525Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-09Z-35e1e7",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "verify__request_verification_challenge",
+          "verify__verify_wallet_ownership",
+          "tokensafety__check_token_safety",
+          "marketsummary__get_market_summary",
+          "marketsummary__ask_market",
+          "marketsummary__get_trending",
+          "marketsummary__get_digest",
+          "marketsummary__get_ticker_dossier",
+          "marketsummary__find_setups",
+          "marketsummary__find_longs",
+          "marketsummary__find_shorts",
+          "marketsummary__get_btc_rotation",
+          "marketsummary__get_token_momentum_card",
+          "marketsummary__get_sector_heatmap",
+          "marketsummary__get_market_regime",
+          "marketsummary__get_market_breadth",
+          "marketsummary__track_narrative",
+          "marketsummary__get_buzz_score",
+          "marketsummary__get_attention_shifts",
+          "marketsummary__attention_vs_price_divergence",
+          "marketsummary__get_conviction_gap",
+          "marketsummary__get_smart_money_flow",
+          "marketsummary__get_liquidity",
+          "marketsummary__get_whale_alerts"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:00.382Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-00Z-e49a74",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "verify__request_verification_challenge",
+          "verify__verify_wallet_ownership",
+          "tokensafety__check_token_safety",
+          "marketsummary__get_market_summary",
+          "marketsummary__ask_market",
+          "marketsummary__get_trending",
+          "marketsummary__get_digest",
+          "marketsummary__get_ticker_dossier",
+          "marketsummary__find_setups",
+          "marketsummary__find_longs",
+          "marketsummary__find_shorts",
+          "marketsummary__get_btc_rotation",
+          "marketsummary__get_token_momentum_card",
+          "marketsummary__get_sector_heatmap",
+          "marketsummary__get_market_regime",
+          "marketsummary__get_market_breadth",
+          "marketsummary__track_narrative",
+          "marketsummary__get_buzz_score",
+          "marketsummary__get_attention_shifts",
+          "marketsummary__attention_vs_price_divergence",
+          "marketsummary__get_conviction_gap",
+          "marketsummary__get_smart_money_flow",
+          "marketsummary__get_liquidity",
+          "marketsummary__get_whale_alerts"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:35.929Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-35Z-992a9c",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "verify__request_verification_challenge",
+          "verify__verify_wallet_ownership",
+          "tokensafety__check_token_safety",
+          "marketsummary__get_market_summary",
+          "marketsummary__ask_market",
+          "marketsummary__get_trending",
+          "marketsummary__get_digest",
+          "marketsummary__get_ticker_dossier",
+          "marketsummary__find_setups",
+          "marketsummary__find_longs",
+          "marketsummary__find_shorts",
+          "marketsummary__get_btc_rotation",
+          "marketsummary__get_token_momentum_card",
+          "marketsummary__get_sector_heatmap",
+          "marketsummary__get_market_regime",
+          "marketsummary__get_market_breadth",
+          "marketsummary__track_narrative",
+          "marketsummary__get_buzz_score",
+          "marketsummary__get_attention_shifts",
+          "marketsummary__attention_vs_price_divergence",
+          "marketsummary__get_conviction_gap",
+          "marketsummary__get_smart_money_flow",
+          "marketsummary__get_liquidity",
+          "marketsummary__get_whale_alerts"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.tachyo/tachyo",
+  "slug": "ai.tachyo__tachyo"
+}

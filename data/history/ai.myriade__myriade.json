@@ -1,0 +1,75 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:05.405Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "myriade_list_databases",
+          "myriade_get_database_info",
+          "myriade_list_tables",
+          "myriade_get_table_schema",
+          "myriade_query",
+          "myriade_get_query_results",
+          "myriade_sample_data",
+          "myriade_search_catalog",
+          "myriade_read_asset",
+          "myriade_update_asset",
+          "myriade_request_catalog_change",
+          "myriade_ask"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:06.300Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "myriade_list_databases",
+          "myriade_get_database_info",
+          "myriade_list_tables",
+          "myriade_get_table_schema",
+          "myriade_query",
+          "myriade_get_query_results",
+          "myriade_sample_data",
+          "myriade_search_catalog",
+          "myriade_read_asset",
+          "myriade_update_asset",
+          "myriade_request_catalog_change",
+          "myriade_ask"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "myriade_list_databases",
+          "myriade_get_database_info",
+          "myriade_list_tables",
+          "myriade_get_table_schema",
+          "myriade_query",
+          "myriade_get_query_results",
+          "myriade_sample_data",
+          "myriade_search_catalog",
+          "myriade_read_asset",
+          "myriade_update_asset",
+          "myriade_request_catalog_change",
+          "myriade_ask"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.myriade/myriade",
+  "slug": "ai.myriade__myriade"
+}

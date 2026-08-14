@@ -1,0 +1,78 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:10.254Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-10Z-ab7350",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "search",
+          "search_meaning",
+          "lookup",
+          "verify",
+          "get_section",
+          "table_of_contents",
+          "random_beyt",
+          "get_range",
+          "find_sections",
+          "explain",
+          "search_divan",
+          "search_divan_meaning",
+          "get_ghazal"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:03.495Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-03Z-54916a",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "search",
+          "search_meaning",
+          "lookup",
+          "verify",
+          "get_section",
+          "table_of_contents",
+          "random_beyt",
+          "get_range",
+          "find_sections",
+          "explain",
+          "search_divan",
+          "search_divan_meaning",
+          "get_ghazal"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:28.035Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-28Z-411933",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "search",
+          "search_meaning",
+          "lookup",
+          "verify",
+          "get_section",
+          "table_of_contents",
+          "random_beyt",
+          "get_range",
+          "find_sections",
+          "explain",
+          "search_divan",
+          "search_divan_meaning",
+          "get_ghazal"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.masnavi/masnavi",
+  "slug": "ai.masnavi__masnavi"
+}

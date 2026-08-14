@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-14T20:23:09.525Z",
+        "errorExcerpt": "ctxl declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-09Z-35e1e7",
+        "status": "spawn_failed"
+      },
+      {
         "date": "2026-08-14T18:53:44.569Z",
         "errorExcerpt": "ctxl declares no runnable \"bin\" entry, so there is nothing to spawn",
         "method": "npm",
@@ -11,6 +18,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-14T20:23:00.382Z",
+        "errorExcerpt": "ctxl declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-00Z-e49a74",
+        "status": "spawn_failed"
+      },
+      {
         "date": "2026-08-14T18:53:48.539Z",
         "errorExcerpt": "ctxl declares no runnable \"bin\" entry, so there is nothing to spawn",
         "method": "npm",
@@ -19,6 +33,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-14T20:23:35.929Z",
+        "errorExcerpt": "ctxl declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-35Z-992a9c",
+        "status": "spawn_failed"
+      },
       {
         "date": "2026-08-14T18:54:09.596Z",
         "errorExcerpt": "ctxl declares no runnable \"bin\" entry, so there is nothing to spawn",

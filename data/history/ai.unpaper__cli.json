@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:05.405Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: id JSON\nUnexpected token 'c', \"  check <tpl\"... is not valid JSON\nUnexpected token 's', \"  starter [-\"... is not valid JSON\nUnexpected token 'e', \"  templatize \"... is not valid JSON\nUnexpected token 'p', \"  patterns [\"... is not valid JSON\nUnexpected token 'i', \"  import <de\"... is not valid JSON\nUnexpected token 'r', \"  rehydrate \"... is not valid JSON\nUnexpected token 'm', \"  mcp       \"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'D', \"Docs: http\"... is not valid JSON",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:06.300Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: id JSON\nUnexpected token 'c', \"  check <tpl\"... is not valid JSON\nUnexpected token 's', \"  starter [-\"... is not valid JSON\nUnexpected token 'e', \"  templatize \"... is not valid JSON\nUnexpected token 'p', \"  patterns [\"... is not valid JSON\nUnexpected token 'i', \"  import <de\"... is not valid JSON\nUnexpected token 'r', \"  rehydrate \"... is not valid JSON\nUnexpected token 'm', \"  mcp       \"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'D', \"Docs: http\"... is not valid JSON",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: id JSON\nUnexpected token 'c', \"  check <tpl\"... is not valid JSON\nUnexpected token 's', \"  starter [-\"... is not valid JSON\nUnexpected token 'e', \"  templatize \"... is not valid JSON\nUnexpected token 'p', \"  patterns [\"... is not valid JSON\nUnexpected token 'i', \"  import <de\"... is not valid JSON\nUnexpected token 'r', \"  rehydrate \"... is not valid JSON\nUnexpected token 'm', \"  mcp       \"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'D', \"Docs: http\"... is not valid JSON",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "ai.unpaper/cli",
+  "slug": "ai.unpaper__cli"
+}

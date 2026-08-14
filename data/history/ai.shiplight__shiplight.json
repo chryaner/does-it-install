@@ -1,0 +1,61 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:05.405Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "new_session",
+          "save_storage_state",
+          "close_session",
+          "navigate",
+          "get_page_info",
+          "inspect_page",
+          "act",
+          "get_locators",
+          "get_browser_console_logs",
+          "get_browser_network_logs",
+          "generate_html_report",
+          "attach_to_browser"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:06.300Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "new_session",
+          "save_storage_state",
+          "close_session",
+          "navigate",
+          "get_page_info",
+          "inspect_page",
+          "act",
+          "get_locators",
+          "get_browser_console_logs",
+          "get_browser_network_logs",
+          "generate_html_report",
+          "attach_to_browser"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "errorExcerpt": "npm install @shiplightai/mcp@0.2.1 timed out after 300s",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "ai.shiplight/shiplight",
+  "slug": "ai.shiplight__shiplight"
+}

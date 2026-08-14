@@ -1,0 +1,93 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:09.525Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-09Z-35e1e7",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "list_sports",
+          "list_events",
+          "get_event",
+          "batch_get_events",
+          "query_events",
+          "get_live_score",
+          "get_odds",
+          "get_odds_history",
+          "get_stats",
+          "get_splits",
+          "get_intelligence",
+          "list_teams",
+          "search_players",
+          "get_team",
+          "get_player",
+          "get_player_events",
+          "list_seasons",
+          "estimate_cost"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:00.382Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-00Z-e49a74",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "list_sports",
+          "list_events",
+          "get_event",
+          "batch_get_events",
+          "query_events",
+          "get_live_score",
+          "get_odds",
+          "get_odds_history",
+          "get_stats",
+          "get_splits",
+          "get_intelligence",
+          "list_teams",
+          "search_players",
+          "get_team",
+          "get_player",
+          "get_player_events",
+          "list_seasons",
+          "estimate_cost"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:35.929Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-35Z-992a9c",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "list_sports",
+          "list_events",
+          "get_event",
+          "batch_get_events",
+          "query_events",
+          "get_live_score",
+          "get_odds",
+          "get_odds_history",
+          "get_stats",
+          "get_splits",
+          "get_intelligence",
+          "list_teams",
+          "search_players",
+          "get_team",
+          "get_player",
+          "get_player_events",
+          "list_seasons",
+          "estimate_cost"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.lumify/sports-intelligence",
+  "slug": "ai.lumify__sports-intelligence"
+}

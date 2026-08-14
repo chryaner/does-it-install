@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:10.254Z",
+        "errorExcerpt": "npm install marketintell@0.2.1 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for marketintell@0.2.1.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-aY90gJ/.npm-cache/_logs/2026-08-14T20_24_54_449Z-debug-0.log",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-10Z-ab7350",
+        "status": "install_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:03.495Z",
+        "errorExcerpt": "npm install marketintell@0.2.1 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for marketintell@0.2.1.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /tmp/does-it-install/dii-npm-xunMhq/.npm-cache/_logs/2026-08-14T20_24_21_669Z-debug-0.log",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-03Z-54916a",
+        "status": "install_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:28.035Z",
+        "errorExcerpt": "npm install marketintell@0.2.1 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for marketintell@0.2.1.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-jzm1q4\\.npm-cache\\_logs\\2026-08-14T20_44_50_325Z-debug-0.log",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-28Z-411933",
+        "status": "install_failed"
+      }
+    ]
+  },
+  "serverId": "ai.marketintell/marketintell",
+  "slug": "ai.marketintell__marketintell"
+}

@@ -1,0 +1,99 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:05.405Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "authenticate",
+          "logout",
+          "create_user_style",
+          "update_user_style",
+          "delete_user_style",
+          "list_available_styles",
+          "list_available_models",
+          "get_style_usage",
+          "get_balance",
+          "estimate_inference_cost",
+          "create_inference",
+          "list_edit_tools",
+          "fix_pixel_art",
+          "run_edit_tool",
+          "estimate_edit_tool_cost",
+          "get_inference_result",
+          "start_inference_job",
+          "get_inference_job",
+          "list_inference_jobs",
+          "get_service_status"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:06.300Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "authenticate",
+          "logout",
+          "create_user_style",
+          "update_user_style",
+          "delete_user_style",
+          "list_available_styles",
+          "list_available_models",
+          "get_style_usage",
+          "get_balance",
+          "estimate_inference_cost",
+          "create_inference",
+          "list_edit_tools",
+          "fix_pixel_art",
+          "run_edit_tool",
+          "estimate_edit_tool_cost",
+          "get_inference_result",
+          "start_inference_job",
+          "get_inference_job",
+          "list_inference_jobs",
+          "get_service_status"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "authenticate",
+          "logout",
+          "create_user_style",
+          "update_user_style",
+          "delete_user_style",
+          "list_available_styles",
+          "list_available_models",
+          "get_style_usage",
+          "get_balance",
+          "estimate_inference_cost",
+          "create_inference",
+          "list_edit_tools",
+          "fix_pixel_art",
+          "run_edit_tool",
+          "estimate_edit_tool_cost",
+          "get_inference_result",
+          "start_inference_job",
+          "get_inference_job",
+          "list_inference_jobs",
+          "get_service_status"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.retrodiffusion/pixel-art",
+  "slug": "ai.retrodiffusion__pixel-art"
+}

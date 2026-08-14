@@ -1,0 +1,63 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:10.254Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-10Z-ab7350",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "ping",
+          "check_visibility",
+          "review_gap",
+          "check_facts",
+          "run_scan",
+          "start_deep_report",
+          "check_report_status",
+          "get_report_result"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:03.495Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-03Z-54916a",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "ping",
+          "check_visibility",
+          "review_gap",
+          "check_facts",
+          "run_scan",
+          "start_deep_report",
+          "check_report_status",
+          "get_report_result"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:28.035Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-28Z-411933",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "ping",
+          "check_visibility",
+          "review_gap",
+          "check_facts",
+          "run_scan",
+          "start_deep_report",
+          "check_report_status",
+          "get_report_result"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.moonlings/moonlings",
+  "slug": "ai.moonlings__moonlings"
+}

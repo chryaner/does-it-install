@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-14T20:23:10.254Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading cryptography (3.8MiB)\nDownloading pygments (1.2MiB)\nDownloading beartype (1.3MiB)\nDownloading pydantic-core (1.9MiB)\n Downloaded pydantic-core\n Downloaded cryptography\n Downloaded pygments\n Downloaded beartype\nInstalled 67 packages in 67ms\nAn executable named `deinai-mcp` is not provided by package `deinai-mcp`.\nThe following executables are available:\n- deinai-mcp-match\n\nUse `uv tool run --from deinai-mcp deinai-mcp-match` instead.",
+        "method": "pypi",
+        "runId": "2026-08-14T20-23-10Z-ab7350",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-14T18:53:45.798Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading cryptography (3.8MiB)\nDownloading pygments (1.2MiB)\nDownloading beartype (1.3MiB)\nDownloading pydantic-core (1.9MiB)\n Downloaded pydantic-core\n Downloaded cryptography\n Downloaded pygments\n Downloaded beartype\nInstalled 67 packages in 107ms\nAn executable named `deinai-mcp` is not provided by package `deinai-mcp`.\nThe following executables are available:\n- deinai-mcp-match\n\nUse `uv tool run --from deinai-mcp deinai-mcp-match` instead.",
         "method": "pypi",
@@ -11,6 +18,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-14T20:23:03.495Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading beartype (1.3MiB)\nDownloading cryptography (4.5MiB)\nDownloading pygments (1.2MiB)\nDownloading pydantic-core (2.0MiB)\n Downloaded pydantic-core\n Downloaded cryptography\n Downloaded pygments\n Downloaded beartype\nInstalled 69 packages in 49ms\nAn executable named `deinai-mcp` is not provided by package `deinai-mcp`.\nThe following executables are available:\n- deinai-mcp-match\n\nUse `uv tool run --from deinai-mcp deinai-mcp-match` instead.",
+        "method": "pypi",
+        "runId": "2026-08-14T20-23-03Z-54916a",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-14T18:53:41.622Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading pydantic-core (2.0MiB)\nDownloading beartype (1.3MiB)\nDownloading pygments (1.2MiB)\nDownloading cryptography (4.5MiB)\n Downloaded pydantic-core\n Downloaded cryptography\n Downloaded pygments\n Downloaded beartype\nInstalled 69 packages in 37ms\nAn executable named `deinai-mcp` is not provided by package `deinai-mcp`.\nThe following executables are available:\n- deinai-mcp-match\n\nUse `uv tool run --from deinai-mcp deinai-mcp-match` instead.",
         "method": "pypi",
@@ -19,6 +33,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-14T20:23:28.035Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading cryptography (3.7MiB)\nDownloading pygments (1.2MiB)\nDownloading beartype (1.3MiB)\nDownloading pydantic-core (2.0MiB)\nDownloading pywin32 (6.6MiB)\n Downloaded pydantic-core\n Downloaded cryptography\n Downloaded pygments\n Downloaded beartype\n Downloaded pywin32\nInstalled 70 packages in 19.23s\nAn executable named `deinai-mcp` is not provided by package `deinai-mcp`.\nThe following executables are available:\n- deinai-mcp-match.exe\n\nUse `uv tool run --from deinai-mcp deinai-mcp-match.exe` instead.",
+        "method": "pypi",
+        "runId": "2026-08-14T20-23-28Z-411933",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-14T18:53:58.370Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading cryptography (3.7MiB)\nDownloading beartype (1.3MiB)\nDownloading pygments (1.2MiB)\nDownloading pydantic-core (2.0MiB)\nDownloading pywin32 (6.6MiB)\n Downloaded pydantic-core\n Downloaded cryptography\n Downloaded pygments\n Downloaded beartype\n Downloaded pywin32\nInstalled 70 packages in 8.18s\nAn executable named `deinai-mcp` is not provided by package `deinai-mcp`.\nThe following executables are available:\n- deinai-mcp-match.exe\n\nUse `uv tool run --from deinai-mcp deinai-mcp-match.exe` instead.",

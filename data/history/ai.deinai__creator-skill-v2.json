@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-14T20:23:09.525Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading beartype (1.3MiB)\nDownloading cryptography (3.8MiB)\nDownloading stripe (2.1MiB)\n Downloaded cryptography\n Downloaded beartype\n Downloaded stripe\nInstalled 75 packages in 190ms\nAn executable named `creator-skill-v2` is not provided by package `creator-skill-v2`.\nThe following executables are available:\n- creator-skill-v2-match\n\nUse `uv tool run --from creator-skill-v2 creator-skill-v2-match` instead.",
+        "method": "pypi",
+        "runId": "2026-08-14T20-23-09Z-35e1e7",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-14T18:53:44.569Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading beartype (1.3MiB)\nDownloading cryptography (3.8MiB)\nDownloading stripe (2.1MiB)\n Downloaded cryptography\n Downloaded beartype\n Downloaded stripe\nInstalled 75 packages in 189ms\nAn executable named `creator-skill-v2` is not provided by package `creator-skill-v2`.\nThe following executables are available:\n- creator-skill-v2-match\n\nUse `uv tool run --from creator-skill-v2 creator-skill-v2-match` instead.",
         "method": "pypi",
@@ -11,6 +18,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-14T20:23:00.382Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading cryptography (4.5MiB)\nDownloading beartype (1.3MiB)\nDownloading stripe (2.1MiB)\nDownloading asyncpg (3.4MiB)\n Downloaded asyncpg\n Downloaded cryptography\n Downloaded beartype\n Downloaded stripe\nInstalled 77 packages in 63ms\nAn executable named `creator-skill-v2` is not provided by package `creator-skill-v2`.\nThe following executables are available:\n- creator-skill-v2-match\n\nUse `uv tool run --from creator-skill-v2 creator-skill-v2-match` instead.",
+        "method": "pypi",
+        "runId": "2026-08-14T20-23-00Z-e49a74",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-14T18:53:48.539Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading beartype (1.3MiB)\nDownloading cryptography (4.5MiB)\nDownloading asyncpg (3.4MiB)\nDownloading stripe (2.1MiB)\n Downloaded asyncpg\n Downloaded cryptography\n Downloaded beartype\n Downloaded stripe\nInstalled 77 packages in 66ms\nAn executable named `creator-skill-v2` is not provided by package `creator-skill-v2`.\nThe following executables are available:\n- creator-skill-v2-match\n\nUse `uv tool run --from creator-skill-v2 creator-skill-v2-match` instead.",
         "method": "pypi",
@@ -19,6 +33,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-14T20:23:35.929Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading stripe (2.1MiB)\nDownloading pywin32 (6.6MiB)\nDownloading beartype (1.3MiB)\nDownloading cryptography (3.7MiB)\n Downloaded cryptography\n Downloaded beartype\n Downloaded pywin32\n Downloaded stripe\nInstalled 79 packages in 26.62s\nAn executable named `creator-skill-v2` is not provided by package `creator-skill-v2`.\nThe following executables are available:\n- creator-skill-v2-match.exe\n\nUse `uv tool run --from creator-skill-v2 creator-skill-v2-match.exe` instead.",
+        "method": "pypi",
+        "runId": "2026-08-14T20-23-35Z-992a9c",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-14T18:54:09.596Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading stripe (2.1MiB)\nDownloading beartype (1.3MiB)\nDownloading cryptography (3.7MiB)\nDownloading pywin32 (6.6MiB)\n Downloaded cryptography\n Downloaded beartype\n Downloaded pywin32\n Downloaded stripe\nInstalled 79 packages in 29.71s\nAn executable named `creator-skill-v2` is not provided by package `creator-skill-v2`.\nThe following executables are available:\n- creator-skill-v2-match.exe\n\nUse `uv tool run --from creator-skill-v2 creator-skill-v2-match.exe` instead.",

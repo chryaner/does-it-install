@@ -1,0 +1,81 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:10.254Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-10Z-ab7350",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "search_agents",
+          "get_site_details",
+          "get_stats",
+          "submit_site",
+          "check_url",
+          "verify_mcp",
+          "register_monitor",
+          "list_categories",
+          "get_top_sites",
+          "recent_additions",
+          "find_mcp_servers",
+          "record_action_interest",
+          "prepare_provider_action",
+          "handoff_provider_action"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:03.495Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-03Z-54916a",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "search_agents",
+          "get_site_details",
+          "get_stats",
+          "submit_site",
+          "check_url",
+          "verify_mcp",
+          "register_monitor",
+          "list_categories",
+          "get_top_sites",
+          "recent_additions",
+          "find_mcp_servers",
+          "record_action_interest",
+          "prepare_provider_action",
+          "handoff_provider_action"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:28.035Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-28Z-411933",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "search_agents",
+          "get_site_details",
+          "get_stats",
+          "submit_site",
+          "check_url",
+          "verify_mcp",
+          "register_monitor",
+          "list_categories",
+          "get_top_sites",
+          "recent_additions",
+          "find_mcp_servers",
+          "record_action_interest",
+          "prepare_provider_action",
+          "handoff_provider_action"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.nothumansearch/search",
+  "slug": "ai.nothumansearch__search"
+}

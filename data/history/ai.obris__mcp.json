@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:10.254Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 40 packages in 47ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/HT2z_lSGSJ2ezl7Q/bin/obris-mcp\", line 6, in <module>\n    from obris_mcp.main import main\n  File \"/Users/runner/.cache/uv/archive-v0/HT2z_lSGSJ2ezl7Q/lib/python3.14/site-packages/obris_mcp/main.py\", line 9, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-14T20-23-10Z-ab7350",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:03.495Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 40 packages in 22ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/Dny_3J-1z85h4oLt/bin/obris-mcp\", line 6, in <module>\n    from obris_mcp.main import main\n  File \"/home/runner/.cache/uv/archive-v0/Dny_3J-1z85h4oLt/lib/python3.12/site-packages/obris_mcp/main.py\", line 9, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-14T20-23-03Z-54916a",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:28.035Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 42 packages in 6.86s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\aaP8aua3-Tf075Cr\\Scripts\\obris-mcp.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\aaP8aua3-Tf075Cr\\Lib\\site-packages\\obris_mcp\\main.py\", line 9, in <module>\r\n    from mcp.server.fastmcp import FastMCP\r\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-14T20-23-28Z-411933",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "ai.obris/mcp",
+  "slug": "ai.obris__mcp"
+}

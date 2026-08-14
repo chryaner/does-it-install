@@ -1,0 +1,45 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:10.254Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-10Z-ab7350",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "lookup_mac",
+          "submit_correction"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:03.495Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-03Z-54916a",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "lookup_mac",
+          "submit_correction"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:28.035Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-28Z-411933",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "lookup_mac",
+          "submit_correction"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.ssid/ssid-mcp",
+  "slug": "ai.ssid__ssid-mcp"
+}

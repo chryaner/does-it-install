@@ -1,0 +1,75 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:09.525Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-09Z-35e1e7",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "vaaya_test_connection",
+          "vaaya_onboard",
+          "vaaya_account",
+          "vaaya_logout",
+          "consult",
+          "use",
+          "result",
+          "session",
+          "close",
+          "llm",
+          "logout",
+          "reauthorize"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:00.382Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-00Z-e49a74",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "vaaya_test_connection",
+          "vaaya_onboard",
+          "vaaya_account",
+          "vaaya_logout",
+          "consult",
+          "use",
+          "result",
+          "session",
+          "close",
+          "llm",
+          "logout",
+          "reauthorize"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:35.929Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-35Z-992a9c",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "vaaya_test_connection",
+          "vaaya_onboard",
+          "vaaya_account",
+          "vaaya_logout",
+          "consult",
+          "use",
+          "result",
+          "session",
+          "close",
+          "llm",
+          "logout",
+          "reauthorize"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.vaaya/mcp",
+  "slug": "ai.vaaya__mcp"
+}

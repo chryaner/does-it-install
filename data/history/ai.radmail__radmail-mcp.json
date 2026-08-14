@@ -1,0 +1,75 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:10.254Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-10Z-ab7350",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "triage",
+          "triage_inbox",
+          "list_right_now",
+          "why_surfaced",
+          "draft_reply",
+          "list_commitments",
+          "search",
+          "read_email",
+          "provision_sandbox",
+          "report_need",
+          "request_capability",
+          "radmail_learning_insights"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:03.495Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-03Z-54916a",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "triage",
+          "triage_inbox",
+          "list_right_now",
+          "why_surfaced",
+          "draft_reply",
+          "list_commitments",
+          "search",
+          "read_email",
+          "provision_sandbox",
+          "report_need",
+          "request_capability",
+          "radmail_learning_insights"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:28.035Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-28Z-411933",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "triage",
+          "triage_inbox",
+          "list_right_now",
+          "why_surfaced",
+          "draft_reply",
+          "list_commitments",
+          "search",
+          "read_email",
+          "provision_sandbox",
+          "report_need",
+          "request_capability",
+          "radmail_learning_insights"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.radmail/radmail-mcp",
+  "slug": "ai.radmail__radmail-mcp"
+}

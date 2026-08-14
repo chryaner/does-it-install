@@ -1,0 +1,84 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:10.254Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-10Z-ab7350",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "dedupq_check",
+          "dedupq_complete",
+          "burnrate_estimate",
+          "burnrate_track",
+          "burnrate_optimize",
+          "burnrate_budget",
+          "qualitygate_validate",
+          "guardrail_check",
+          "guardrail_create_policy",
+          "pitfalldb_query",
+          "pitfalldb_report",
+          "rigor_plan",
+          "rigor_execute",
+          "rigor_status",
+          "rigor_workflows"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:03.495Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-03Z-54916a",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "dedupq_check",
+          "dedupq_complete",
+          "burnrate_estimate",
+          "burnrate_track",
+          "burnrate_optimize",
+          "burnrate_budget",
+          "qualitygate_validate",
+          "guardrail_check",
+          "guardrail_create_policy",
+          "pitfalldb_query",
+          "pitfalldb_report",
+          "rigor_plan",
+          "rigor_execute",
+          "rigor_status",
+          "rigor_workflows"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:28.035Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-28Z-411933",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "dedupq_check",
+          "dedupq_complete",
+          "burnrate_estimate",
+          "burnrate_track",
+          "burnrate_optimize",
+          "burnrate_budget",
+          "qualitygate_validate",
+          "guardrail_check",
+          "guardrail_create_policy",
+          "pitfalldb_query",
+          "pitfalldb_report",
+          "rigor_plan",
+          "rigor_execute",
+          "rigor_status",
+          "rigor_workflows"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.plith/plith",
+  "slug": "ai.plith__plith"
+}

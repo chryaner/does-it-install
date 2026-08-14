@@ -1,0 +1,72 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:10.254Z",
+        "method": "pypi",
+        "runId": "2026-08-14T20-23-10Z-ab7350",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "get_metric_catalog",
+          "list_workspaces",
+          "get_overview",
+          "analyze_competitors",
+          "analyze_prompts",
+          "analyze_sources",
+          "analyze_responses",
+          "export_data",
+          "get_reports",
+          "get_insights",
+          "get_actions"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:03.495Z",
+        "method": "pypi",
+        "runId": "2026-08-14T20-23-03Z-54916a",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "get_metric_catalog",
+          "list_workspaces",
+          "get_overview",
+          "analyze_competitors",
+          "analyze_prompts",
+          "analyze_sources",
+          "analyze_responses",
+          "export_data",
+          "get_reports",
+          "get_insights",
+          "get_actions"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:28.035Z",
+        "method": "pypi",
+        "runId": "2026-08-14T20-23-28Z-411933",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "get_metric_catalog",
+          "list_workspaces",
+          "get_overview",
+          "analyze_competitors",
+          "analyze_prompts",
+          "analyze_sources",
+          "analyze_responses",
+          "export_data",
+          "get_reports",
+          "get_insights",
+          "get_actions"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.nudg3/brand-intelligence",
+  "slug": "ai.nudg3__brand-intelligence"
+}

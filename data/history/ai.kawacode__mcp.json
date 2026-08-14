@@ -1,0 +1,105 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:09.525Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-09Z-35e1e7",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "get_relevant_context",
+          "check_active_intent",
+          "create_and_activate_intent",
+          "activate_intent",
+          "resume_intent",
+          "get_intents_for_file",
+          "list_team_intents",
+          "complete_intent",
+          "update_intent",
+          "log_work",
+          "record_decision",
+          "get_session_decisions",
+          "get_project_decisions",
+          "get_decision_detail",
+          "edit_session_decision",
+          "detect_intent_conflicts",
+          "infer_history",
+          "pre_edit_decision_check",
+          "pre_edit_acknowledge",
+          "get_resolution_context",
+          "arbiter_resolve",
+          "arbiter_apply"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:00.382Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-00Z-e49a74",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "get_relevant_context",
+          "check_active_intent",
+          "create_and_activate_intent",
+          "activate_intent",
+          "resume_intent",
+          "get_intents_for_file",
+          "list_team_intents",
+          "complete_intent",
+          "update_intent",
+          "log_work",
+          "record_decision",
+          "get_session_decisions",
+          "get_project_decisions",
+          "get_decision_detail",
+          "edit_session_decision",
+          "detect_intent_conflicts",
+          "infer_history",
+          "pre_edit_decision_check",
+          "pre_edit_acknowledge",
+          "get_resolution_context",
+          "arbiter_resolve",
+          "arbiter_apply"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:35.929Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-35Z-992a9c",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "get_relevant_context",
+          "check_active_intent",
+          "create_and_activate_intent",
+          "activate_intent",
+          "resume_intent",
+          "get_intents_for_file",
+          "list_team_intents",
+          "complete_intent",
+          "update_intent",
+          "log_work",
+          "record_decision",
+          "get_session_decisions",
+          "get_project_decisions",
+          "get_decision_detail",
+          "edit_session_decision",
+          "detect_intent_conflicts",
+          "infer_history",
+          "pre_edit_decision_check",
+          "pre_edit_acknowledge",
+          "get_resolution_context",
+          "arbiter_resolve",
+          "arbiter_apply"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.kawacode/mcp",
+  "slug": "ai.kawacode__mcp"
+}

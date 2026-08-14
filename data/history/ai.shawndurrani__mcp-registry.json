@@ -1,0 +1,51 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:10.254Z",
+        "method": "remote-sse",
+        "runId": "2026-08-14T20-23-10Z-ab7350",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "health",
+          "searchServers",
+          "probeSse",
+          "makeClientConfig"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:03.495Z",
+        "method": "remote-sse",
+        "runId": "2026-08-14T20-23-03Z-54916a",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "health",
+          "searchServers",
+          "probeSse",
+          "makeClientConfig"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:28.035Z",
+        "method": "remote-sse",
+        "runId": "2026-08-14T20-23-28Z-411933",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "health",
+          "searchServers",
+          "probeSse",
+          "makeClientConfig"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.shawndurrani/mcp-registry",
+  "slug": "ai.shawndurrani__mcp-registry"
+}

@@ -1,0 +1,66 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:05.405Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "provision",
+          "verify_number",
+          "schedule",
+          "list_schedules",
+          "cancel_schedule",
+          "send",
+          "reply",
+          "list_messages",
+          "status"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:06.300Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "provision",
+          "verify_number",
+          "schedule",
+          "list_schedules",
+          "cancel_schedule",
+          "send",
+          "reply",
+          "list_messages",
+          "status"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "provision",
+          "verify_number",
+          "schedule",
+          "list_schedules",
+          "cancel_schedule",
+          "send",
+          "reply",
+          "list_messages",
+          "status"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.kontato/kontato",
+  "slug": "ai.kontato__kontato"
+}

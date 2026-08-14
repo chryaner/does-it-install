@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:05.405Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32001,\"message\":\"SIXTA Connect needs a free API key. Get one in ~30 seconds at https://connect.sixta.ai/portal (email sign-in, no password), then add it as 'Authorization: Bearer <key>' — or, for clients that can't send headers, use the in-path URL https://connect.sixta.ai/mcp/<key>.\"},\"id\":null} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:06.300Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32001,\"message\":\"SIXTA Connect needs a free API key. Get one in ~30 seconds at https://connect.sixta.ai/portal (email sign-in, no password), then add it as 'Authorization: Bearer <key>' — or, for clients that can't send headers, use the in-path URL https://connect.sixta.ai/mcp/<key>.\"},\"id\":null} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32001,\"message\":\"SIXTA Connect needs a free API key. Get one in ~30 seconds at https://connect.sixta.ai/portal (email sign-in, no password), then add it as 'Authorization: Bearer <key>' — or, for clients that can't send headers, use the in-path URL https://connect.sixta.ai/mcp/<key>.\"},\"id\":null} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "ai.sixta/sixta-connect",
+  "slug": "ai.sixta__sixta-connect"
+}

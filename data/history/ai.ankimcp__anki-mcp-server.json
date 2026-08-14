@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-14T20:23:10.254Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: 3 (line 1 column 4)\nUnexpected token '\u001b', \"    \u001b[35mconte\"... is not valid JSON\nExpected ',' or ']' after array element in JSON at position 3 (line 1 column 4)\nUnexpected token '\u001b', \"    \u001b[35mconte\"... is not valid JSON\nExpected ',' or ']' after array element in JSON at position 3 (line 1 column 4)\nUnexpected token '\u001b', \"    \u001b[35mconte\"... is not valid JSON\nExpected ',' or ']' after array element in JSON at position 3 (line 1 column 4)\nUnexpected token '\u001b', \"    \u001b[35mconte\"... is not valid JSON",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-10Z-ab7350",
+        "status": "timeout"
+      },
+      {
         "date": "2026-08-14T18:53:45.798Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: 3 (line 1 column 4)\nUnexpected token '\u001b', \"    \u001b[35mconte\"... is not valid JSON\nExpected ',' or ']' after array element in JSON at position 3 (line 1 column 4)\nUnexpected token '\u001b', \"    \u001b[35mconte\"... is not valid JSON\nExpected ',' or ']' after array element in JSON at position 3 (line 1 column 4)\nUnexpected token '\u001b', \"    \u001b[35mconte\"... is not valid JSON\nExpected ',' or ']' after array element in JSON at position 3 (line 1 column 4)\nUnexpected token '\u001b', \"    \u001b[35mconte\"... is not valid JSON",
         "method": "npm",
@@ -11,6 +18,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-14T20:23:03.495Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: 3 (line 1 column 4)\nUnexpected token '\u001b', \"    \u001b[35mconte\"... is not valid JSON\nExpected ',' or ']' after array element in JSON at position 3 (line 1 column 4)\nUnexpected token '\u001b', \"    \u001b[35mconte\"... is not valid JSON\nExpected ',' or ']' after array element in JSON at position 3 (line 1 column 4)\nUnexpected token '\u001b', \"    \u001b[35mconte\"... is not valid JSON\nExpected ',' or ']' after array element in JSON at position 3 (line 1 column 4)\nUnexpected token '\u001b', \"    \u001b[35mconte\"... is not valid JSON",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-03Z-54916a",
+        "status": "timeout"
+      },
+      {
         "date": "2026-08-14T18:53:41.622Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: 3 (line 1 column 4)\nUnexpected token '\u001b', \"    \u001b[35mconte\"... is not valid JSON\nExpected ',' or ']' after array element in JSON at position 3 (line 1 column 4)\nUnexpected token '\u001b', \"    \u001b[35mconte\"... is not valid JSON\nExpected ',' or ']' after array element in JSON at position 3 (line 1 column 4)\nUnexpected token '\u001b', \"    \u001b[35mconte\"... is not valid JSON\nExpected ',' or ']' after array element in JSON at position 3 (line 1 column 4)\nUnexpected token '\u001b', \"    \u001b[35mconte\"... is not valid JSON",
         "method": "npm",
@@ -19,6 +33,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-14T20:23:28.035Z",
+        "errorExcerpt": "npm install @ankimcp/anki-mcp-server@0.24.0 timed out after 300s",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-28Z-411933",
+        "status": "timeout"
+      },
       {
         "date": "2026-08-14T18:53:58.370Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: 3 (line 1 column 4)\nUnexpected token '\u001b', \"    \u001b[35mconte\"... is not valid JSON\nExpected ',' or ']' after array element in JSON at position 3 (line 1 column 4)\nUnexpected token '\u001b', \"    \u001b[35mconte\"... is not valid JSON\nExpected ',' or ']' after array element in JSON at position 3 (line 1 column 4)\nUnexpected token '\u001b', \"    \u001b[35mconte\"... is not valid JSON\nExpected ',' or ']' after array element in JSON at position 3 (line 1 column 4)\nUnexpected token '\u001b', \"    \u001b[35mconte\"... is not valid JSON",

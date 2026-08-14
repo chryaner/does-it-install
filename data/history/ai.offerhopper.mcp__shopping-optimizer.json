@@ -1,0 +1,42 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:09.525Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-09Z-35e1e7",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "plan_optimal_shopping_route"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:00.382Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-00Z-e49a74",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "plan_optimal_shopping_route"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:35.929Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-35Z-992a9c",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "plan_optimal_shopping_route"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.offerhopper.mcp/shopping-optimizer",
+  "slug": "ai.offerhopper.mcp__shopping-optimizer"
+}

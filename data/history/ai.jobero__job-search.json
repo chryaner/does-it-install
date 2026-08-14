@@ -1,0 +1,54 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:05.405Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "get_pricing",
+          "register_agent",
+          "start_job_search",
+          "quick_job_search",
+          "get_search_status"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:06.300Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "get_pricing",
+          "register_agent",
+          "start_job_search",
+          "quick_job_search",
+          "get_search_status"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "get_pricing",
+          "register_agent",
+          "start_job_search",
+          "quick_job_search",
+          "get_search_status"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.jobero/job-search",
+  "slug": "ai.jobero__job-search"
+}

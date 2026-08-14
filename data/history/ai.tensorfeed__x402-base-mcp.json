@@ -1,0 +1,67 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:10.254Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-10Z-ab7350",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "balance",
+          "usdc_balance",
+          "block_number",
+          "get_tx_receipt",
+          "call",
+          "recent_transfers",
+          "verify_x402_settlement",
+          "parse_x402_manifest",
+          "usdc_recent_payments_to",
+          "probe_x402_endpoint",
+          "decode_x402_payment_payload",
+          "verify_afta_federation",
+          "tf_payment_lookup",
+          "x402_publisher_health",
+          "afta_federation_members"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:03.495Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-03Z-54916a",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "balance",
+          "usdc_balance",
+          "block_number",
+          "get_tx_receipt",
+          "call",
+          "recent_transfers",
+          "verify_x402_settlement",
+          "parse_x402_manifest",
+          "usdc_recent_payments_to",
+          "probe_x402_endpoint",
+          "decode_x402_payment_payload",
+          "verify_afta_federation",
+          "tf_payment_lookup",
+          "x402_publisher_health",
+          "afta_federation_members"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:28.035Z",
+        "errorExcerpt": "npm install @tensorfeed/x402-base-mcp@0.2.1 timed out after 300s",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-28Z-411933",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "ai.tensorfeed/x402-base-mcp",
+  "slug": "ai.tensorfeed__x402-base-mcp"
+}

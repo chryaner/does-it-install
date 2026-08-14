@@ -1,0 +1,96 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:10.254Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-10Z-ab7350",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "request_access",
+          "check_access_status",
+          "get_auth_status",
+          "logout",
+          "list_workspaces",
+          "health_check",
+          "get_queue_stats",
+          "get_api_info",
+          "import_from_url",
+          "list_files",
+          "delete_file",
+          "list_videos",
+          "get_video_status",
+          "get_media_stats",
+          "catalog_list_assets",
+          "catalog_get_asset",
+          "catalog_search_assets",
+          "media_derive",
+          "media_derive_srcset"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:03.495Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-03Z-54916a",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "request_access",
+          "check_access_status",
+          "get_auth_status",
+          "logout",
+          "list_workspaces",
+          "health_check",
+          "get_queue_stats",
+          "get_api_info",
+          "import_from_url",
+          "list_files",
+          "delete_file",
+          "list_videos",
+          "get_video_status",
+          "get_media_stats",
+          "catalog_list_assets",
+          "catalog_get_asset",
+          "catalog_search_assets",
+          "media_derive",
+          "media_derive_srcset"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:28.035Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-28Z-411933",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "request_access",
+          "check_access_status",
+          "get_auth_status",
+          "logout",
+          "list_workspaces",
+          "health_check",
+          "get_queue_stats",
+          "get_api_info",
+          "import_from_url",
+          "list_files",
+          "delete_file",
+          "list_videos",
+          "get_video_status",
+          "get_media_stats",
+          "catalog_list_assets",
+          "catalog_get_asset",
+          "catalog_search_assets",
+          "media_derive",
+          "media_derive_srcset"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.spideriq/media",
+  "slug": "ai.spideriq__media"
+}

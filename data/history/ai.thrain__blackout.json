@@ -1,0 +1,41 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:10.254Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-10Z-ab7350",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "check_pdf",
+          "redact_pdf"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:03.495Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-03Z-54916a",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "check_pdf",
+          "redact_pdf"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:28.035Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-28Z-411933",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "ai.thrain/blackout",
+  "slug": "ai.thrain__blackout"
+}

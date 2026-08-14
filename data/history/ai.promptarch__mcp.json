@@ -1,0 +1,48 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:10.254Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-10Z-ab7350",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "promptarch_lint_artifact",
+          "promptarch_list_artifact_types",
+          "promptarch_generate_artifact"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:03.495Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-03Z-54916a",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "promptarch_lint_artifact",
+          "promptarch_list_artifact_types",
+          "promptarch_generate_artifact"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:28.035Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-28Z-411933",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "promptarch_lint_artifact",
+          "promptarch_list_artifact_types",
+          "promptarch_generate_artifact"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.promptarch/mcp",
+  "slug": "ai.promptarch__mcp"
+}

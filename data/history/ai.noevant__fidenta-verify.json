@@ -1,0 +1,54 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:05.405Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "verify_claims",
+          "estimate_claims",
+          "top_up",
+          "recall_claim",
+          "check_usage"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:06.300Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "verify_claims",
+          "estimate_claims",
+          "top_up",
+          "recall_claim",
+          "check_usage"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "verify_claims",
+          "estimate_claims",
+          "top_up",
+          "recall_claim",
+          "check_usage"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.noevant/fidenta-verify",
+  "slug": "ai.noevant__fidenta-verify"
+}

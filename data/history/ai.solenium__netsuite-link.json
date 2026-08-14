@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:05.405Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Invalid or missing credentials. Provide a valid \\\"X-Api-Key\\\" header or OAuth Bearer token.\",\"type\":\"AuthError\",\"traceId\":\"ad00f2c8-5024-4cff-9753-7ff94474478c\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:06.300Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Invalid or missing credentials. Provide a valid \\\"X-Api-Key\\\" header or OAuth Bearer token.\",\"type\":\"AuthError\",\"traceId\":\"9f5024b9-3a70-4f43-a3ec-f4c3c14d5bc7\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Invalid or missing credentials. Provide a valid \\\"X-Api-Key\\\" header or OAuth Bearer token.\",\"type\":\"AuthError\",\"traceId\":\"5e83b202-6b68-4125-8f51-b3032279fee1\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "ai.solenium/netsuite-link",
+  "slug": "ai.solenium__netsuite-link"
+}

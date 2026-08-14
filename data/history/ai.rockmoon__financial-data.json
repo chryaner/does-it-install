@@ -1,0 +1,96 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:05.405Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "search_companies",
+          "get_company",
+          "get_financials",
+          "get_income_statement",
+          "get_balance_sheet",
+          "get_cash_flow",
+          "get_filing_source",
+          "get_prices",
+          "get_segments",
+          "get_segments_trend",
+          "get_major_shareholders",
+          "get_director_holdings",
+          "get_insider_trades",
+          "get_institutional_holdings",
+          "get_large_holdings_events",
+          "get_metrics",
+          "screen_companies",
+          "get_metrics_history",
+          "compare_metrics"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:06.300Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "search_companies",
+          "get_company",
+          "get_financials",
+          "get_income_statement",
+          "get_balance_sheet",
+          "get_cash_flow",
+          "get_filing_source",
+          "get_prices",
+          "get_segments",
+          "get_segments_trend",
+          "get_major_shareholders",
+          "get_director_holdings",
+          "get_insider_trades",
+          "get_institutional_holdings",
+          "get_large_holdings_events",
+          "get_metrics",
+          "screen_companies",
+          "get_metrics_history",
+          "compare_metrics"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "search_companies",
+          "get_company",
+          "get_financials",
+          "get_income_statement",
+          "get_balance_sheet",
+          "get_cash_flow",
+          "get_filing_source",
+          "get_prices",
+          "get_segments",
+          "get_segments_trend",
+          "get_major_shareholders",
+          "get_director_holdings",
+          "get_insider_trades",
+          "get_institutional_holdings",
+          "get_large_holdings_events",
+          "get_metrics",
+          "screen_companies",
+          "get_metrics_history",
+          "compare_metrics"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.rockmoon/financial-data",
+  "slug": "ai.rockmoon__financial-data"
+}

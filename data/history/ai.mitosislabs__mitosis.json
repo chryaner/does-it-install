@@ -1,0 +1,81 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:05.405Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "cortex_ask",
+          "cortex_recall",
+          "cortex_manifest",
+          "cortex_status",
+          "cortex_connectable_sources",
+          "cortex_connect_link",
+          "cortex_remember",
+          "cortex_ingest_conversation",
+          "search",
+          "fetch",
+          "get_pricing",
+          "get_platform_status",
+          "search_docs",
+          "list_skills"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:06.300Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "cortex_ask",
+          "cortex_recall",
+          "cortex_manifest",
+          "cortex_status",
+          "cortex_connectable_sources",
+          "cortex_connect_link",
+          "cortex_remember",
+          "cortex_ingest_conversation",
+          "search",
+          "fetch",
+          "get_pricing",
+          "get_platform_status",
+          "search_docs",
+          "list_skills"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "cortex_ask",
+          "cortex_recall",
+          "cortex_manifest",
+          "cortex_status",
+          "cortex_connectable_sources",
+          "cortex_connect_link",
+          "cortex_remember",
+          "cortex_ingest_conversation",
+          "search",
+          "fetch",
+          "get_pricing",
+          "get_platform_status",
+          "search_docs",
+          "list_skills"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.mitosislabs/mitosis",
+  "slug": "ai.mitosislabs__mitosis"
+}

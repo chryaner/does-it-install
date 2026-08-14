@@ -1,0 +1,84 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:10.254Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-10Z-ab7350",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "list_models",
+          "fetch_ensembl_sequence",
+          "fetch_region",
+          "fetch_gene_for_expression",
+          "load_demo_sequence",
+          "store_inline_sequence",
+          "predict_promoter",
+          "predict_splice",
+          "predict_enhancer",
+          "predict_chromatin",
+          "predict_expression",
+          "find_genes",
+          "find_genes_and_predict_expression",
+          "get_job",
+          "list_jobs"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:03.495Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-03Z-54916a",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "list_models",
+          "fetch_ensembl_sequence",
+          "fetch_region",
+          "fetch_gene_for_expression",
+          "load_demo_sequence",
+          "store_inline_sequence",
+          "predict_promoter",
+          "predict_splice",
+          "predict_enhancer",
+          "predict_chromatin",
+          "predict_expression",
+          "find_genes",
+          "find_genes_and_predict_expression",
+          "get_job",
+          "list_jobs"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:28.035Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-28Z-411933",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "list_models",
+          "fetch_ensembl_sequence",
+          "fetch_region",
+          "fetch_gene_for_expression",
+          "load_demo_sequence",
+          "store_inline_sequence",
+          "predict_promoter",
+          "predict_splice",
+          "predict_enhancer",
+          "predict_chromatin",
+          "predict_expression",
+          "find_genes",
+          "find_genes_and_predict_expression",
+          "get_job",
+          "list_jobs"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.genomicintelligence/genomic-intelligence",
+  "slug": "ai.genomicintelligence__genomic-intelligence"
+}

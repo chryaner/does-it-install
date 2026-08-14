@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-14T20:23:10.254Z",
+        "errorExcerpt": "npm install ytdl-rmcp@1.0.2 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for ytdl-rmcp@1.0.2.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-7Xfk58/.npm-cache/_logs/2026-08-14T20_24_33_919Z-debug-0.log",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-10Z-ab7350",
+        "status": "install_failed"
+      },
+      {
         "date": "2026-08-14T18:53:45.798Z",
         "errorExcerpt": "npm install ytdl-rmcp@1.0.2 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for ytdl-rmcp@1.0.2.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-MUyMi0/.npm-cache/_logs/2026-08-14T18_55_10_240Z-debug-0.log",
         "method": "npm",
@@ -11,6 +18,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-14T20:23:03.495Z",
+        "errorExcerpt": "npm install ytdl-rmcp@1.0.2 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for ytdl-rmcp@1.0.2.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /tmp/does-it-install/dii-npm-htRxeb/.npm-cache/_logs/2026-08-14T20_24_05_380Z-debug-0.log",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-03Z-54916a",
+        "status": "install_failed"
+      },
+      {
         "date": "2026-08-14T18:53:41.622Z",
         "errorExcerpt": "npm install ytdl-rmcp@1.0.2 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for ytdl-rmcp@1.0.2.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /tmp/does-it-install/dii-npm-LqvIyr/.npm-cache/_logs/2026-08-14T18_54_29_176Z-debug-0.log",
         "method": "npm",
@@ -19,6 +33,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-14T20:23:28.035Z",
+        "errorExcerpt": "npm install ytdl-rmcp@1.0.2 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for ytdl-rmcp@1.0.2.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-IAD2r3\\.npm-cache\\_logs\\2026-08-14T20_40_19_284Z-debug-0.log",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-28Z-411933",
+        "status": "install_failed"
+      },
       {
         "date": "2026-08-14T18:53:58.370Z",
         "errorExcerpt": "npm install ytdl-rmcp@1.0.2 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for ytdl-rmcp@1.0.2.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-cor5FA\\.npm-cache\\_logs\\2026-08-14T19_07_33_675Z-debug-0.log",

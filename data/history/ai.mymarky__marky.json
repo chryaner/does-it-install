@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:10.254Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":{\"type\":\"authentication_error\",\"code\":\"authentication_required\",\"message\":\"Missing Authorization header\",\"doc_url\":\"https://docs.mymarky.ai/errors#authentication_required\",\"request_id\":\"req_96daca9732cd65284c0ea99c\"}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-10Z-ab7350",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:03.495Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":{\"type\":\"authentication_error\",\"code\":\"authentication_required\",\"message\":\"Missing Authorization header\",\"doc_url\":\"https://docs.mymarky.ai/errors#authentication_required\",\"request_id\":\"req_390c4e3aa546b46642ce51cb\"}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-03Z-54916a",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:28.035Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":{\"type\":\"authentication_error\",\"code\":\"authentication_required\",\"message\":\"Missing Authorization header\",\"doc_url\":\"https://docs.mymarky.ai/errors#authentication_required\",\"request_id\":\"req_d952a98e49b3b57ea9874aab\"}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-28Z-411933",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "ai.mymarky/marky",
+  "slug": "ai.mymarky__marky"
+}

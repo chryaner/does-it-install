@@ -1,0 +1,66 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:05.405Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "lookup_company_compensation",
+          "predict_say_on_pay_risk",
+          "benchmark_executive_pay",
+          "compare_companies",
+          "generate_governance_alpha_card",
+          "price_product",
+          "place_order",
+          "fulfill_paid_order",
+          "list_skus"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:06.300Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "lookup_company_compensation",
+          "predict_say_on_pay_risk",
+          "benchmark_executive_pay",
+          "compare_companies",
+          "generate_governance_alpha_card",
+          "price_product",
+          "place_order",
+          "fulfill_paid_order",
+          "list_skus"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "lookup_company_compensation",
+          "predict_say_on_pay_risk",
+          "benchmark_executive_pay",
+          "compare_companies",
+          "generate_governance_alpha_card",
+          "price_product",
+          "place_order",
+          "fulfill_paid_order",
+          "list_skus"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.velarion/company-intelligence",
+  "slug": "ai.velarion__company-intelligence"
+}

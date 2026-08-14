@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:09.525Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"invalid_token\",\"error_description\":\"Missing Authorization header\",\"help\":\"This endpoint requires a Bearer token obtained via OAuth or agent pairing.\",\"oauth_metadata_url\":\"https://mcp.hivewiki.ai/.well-known/oauth-authorization-server\",\"agent_pairing\":{\"description\":\"Headless agent pairing for non-browser clients\",\"documentation_url\":\"https://mcp.hivewiki.ai/agent\",\"registration_endpoint\":\"https://mcp.hivewiki.ai/agent/register\"}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-09Z-35e1e7",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:00.382Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"invalid_token\",\"error_description\":\"Missing Authorization header\",\"help\":\"This endpoint requires a Bearer token obtained via OAuth or agent pairing.\",\"oauth_metadata_url\":\"https://mcp.hivewiki.ai/.well-known/oauth-authorization-server\",\"agent_pairing\":{\"description\":\"Headless agent pairing for non-browser clients\",\"documentation_url\":\"https://mcp.hivewiki.ai/agent\",\"registration_endpoint\":\"https://mcp.hivewiki.ai/agent/register\"}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-00Z-e49a74",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:35.929Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"invalid_token\",\"error_description\":\"Missing Authorization header\",\"help\":\"This endpoint requires a Bearer token obtained via OAuth or agent pairing.\",\"oauth_metadata_url\":\"https://mcp.hivewiki.ai/.well-known/oauth-authorization-server\",\"agent_pairing\":{\"description\":\"Headless agent pairing for non-browser clients\",\"documentation_url\":\"https://mcp.hivewiki.ai/agent\",\"registration_endpoint\":\"https://mcp.hivewiki.ai/agent/register\"}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-35Z-992a9c",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "ai.hivewiki/hivewiki",
+  "slug": "ai.hivewiki__hivewiki"
+}

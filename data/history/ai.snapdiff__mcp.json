@@ -1,0 +1,57 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:10.254Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-10Z-ab7350",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "snapdiff_compare_pages",
+          "snapdiff_capture_screenshot",
+          "snapdiff_capture_baseline",
+          "snapdiff_check_build",
+          "snapdiff_verify_ui_change",
+          "snapdiff_html_to_image"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:03.495Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-03Z-54916a",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "snapdiff_compare_pages",
+          "snapdiff_capture_screenshot",
+          "snapdiff_capture_baseline",
+          "snapdiff_check_build",
+          "snapdiff_verify_ui_change",
+          "snapdiff_html_to_image"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:28.035Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-28Z-411933",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "snapdiff_compare_pages",
+          "snapdiff_capture_screenshot",
+          "snapdiff_capture_baseline",
+          "snapdiff_check_build",
+          "snapdiff_verify_ui_change",
+          "snapdiff_html_to_image"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.snapdiff/mcp",
+  "slug": "ai.snapdiff__mcp"
+}

@@ -1,0 +1,57 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:10.254Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-10Z-ab7350",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "verify_email",
+          "verify_emails",
+          "find_email",
+          "find_emails",
+          "get_credits",
+          "get_job"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:03.495Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-03Z-54916a",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "verify_email",
+          "verify_emails",
+          "find_email",
+          "find_emails",
+          "get_credits",
+          "get_job"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:28.035Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-28Z-411933",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "verify_email",
+          "verify_emails",
+          "find_email",
+          "find_emails",
+          "get_credits",
+          "get_job"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.verifox/email-verifier",
+  "slug": "ai.verifox__email-verifier"
+}

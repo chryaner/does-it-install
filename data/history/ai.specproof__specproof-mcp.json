@@ -1,0 +1,90 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:09.525Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-09Z-35e1e7",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "get_spec_references",
+          "get_spec_dependents",
+          "get_relationship_graph",
+          "get_spec_metadata",
+          "get_most_referenced_specs",
+          "get_series_overview",
+          "search_specifications",
+          "semantic_search",
+          "get_document_content",
+          "list_documents",
+          "get_requirements",
+          "generate_tests",
+          "diff_spec_versions",
+          "get_schema_definitions",
+          "get_rfc_lineage",
+          "build_cross_spec_suite",
+          "get_database_stats"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:00.382Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-00Z-e49a74",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "get_spec_references",
+          "get_spec_dependents",
+          "get_relationship_graph",
+          "get_spec_metadata",
+          "get_most_referenced_specs",
+          "get_series_overview",
+          "search_specifications",
+          "semantic_search",
+          "get_document_content",
+          "list_documents",
+          "get_requirements",
+          "generate_tests",
+          "diff_spec_versions",
+          "get_schema_definitions",
+          "get_rfc_lineage",
+          "build_cross_spec_suite",
+          "get_database_stats"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:35.929Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-35Z-992a9c",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "get_spec_references",
+          "get_spec_dependents",
+          "get_relationship_graph",
+          "get_spec_metadata",
+          "get_most_referenced_specs",
+          "get_series_overview",
+          "search_specifications",
+          "semantic_search",
+          "get_document_content",
+          "list_documents",
+          "get_requirements",
+          "generate_tests",
+          "diff_spec_versions",
+          "get_schema_definitions",
+          "get_rfc_lineage",
+          "build_cross_spec_suite",
+          "get_database_stats"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.specproof/specproof-mcp",
+  "slug": "ai.specproof__specproof-mcp"
+}

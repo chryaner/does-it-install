@@ -1,0 +1,42 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:05.405Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "check_token_safety"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:06.300Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "check_token_safety"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "check_token_safety"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.tachyo/token-safety",
+  "slug": "ai.tachyo__token-safety"
+}

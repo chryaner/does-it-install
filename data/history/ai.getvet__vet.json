@@ -1,0 +1,57 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:05.405Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "discover_tools",
+          "get_tool_detail",
+          "get_install_config",
+          "ask_vet",
+          "generate_tool",
+          "get_tool_schemas"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:06.300Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "discover_tools",
+          "get_tool_detail",
+          "get_install_config",
+          "ask_vet",
+          "generate_tool",
+          "get_tool_schemas"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "discover_tools",
+          "get_tool_detail",
+          "get_install_config",
+          "ask_vet",
+          "generate_tool",
+          "get_tool_schemas"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.getvet/vet",
+  "slug": "ai.getvet__vet"
+}

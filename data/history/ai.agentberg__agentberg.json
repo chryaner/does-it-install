@@ -2,6 +2,26 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-14T20:23:05.405Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "publish_finding",
+          "add_trade",
+          "query_findings",
+          "vote",
+          "submit_trade",
+          "get_skills",
+          "get_skill",
+          "query_network_brief",
+          "get_agent_status",
+          "get_ticker_brief",
+          "get_consensus_alerts"
+        ]
+      },
+      {
         "date": "2026-08-14T18:53:40.526Z",
         "method": "remote-http",
         "runId": "2026-08-14T18-53-40Z-4137a6",
@@ -24,6 +44,26 @@
     ],
     "linux": [
       {
+        "date": "2026-08-14T20:23:06.300Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "publish_finding",
+          "add_trade",
+          "query_findings",
+          "vote",
+          "submit_trade",
+          "get_skills",
+          "get_skill",
+          "query_network_brief",
+          "get_agent_status",
+          "get_ticker_brief",
+          "get_consensus_alerts"
+        ]
+      },
+      {
         "date": "2026-08-14T18:53:40.683Z",
         "method": "remote-http",
         "runId": "2026-08-14T18-53-40Z-231362",
@@ -45,6 +85,26 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "publish_finding",
+          "add_trade",
+          "query_findings",
+          "vote",
+          "submit_trade",
+          "get_skills",
+          "get_skill",
+          "query_network_brief",
+          "get_agent_status",
+          "get_ticker_brief",
+          "get_consensus_alerts"
+        ]
+      },
       {
         "date": "2026-08-14T18:54:09.525Z",
         "method": "remote-http",

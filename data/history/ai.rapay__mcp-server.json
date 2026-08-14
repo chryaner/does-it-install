@@ -1,0 +1,60 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:09.525Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-09Z-35e1e7",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "ra_send",
+          "ra_refund",
+          "ra_balance",
+          "ra_history",
+          "ra_whoami",
+          "ra_dashboard",
+          "ra_dispute"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:00.382Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-00Z-e49a74",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "ra_send",
+          "ra_refund",
+          "ra_balance",
+          "ra_history",
+          "ra_whoami",
+          "ra_dashboard",
+          "ra_dispute"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:35.929Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-35Z-992a9c",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "ra_send",
+          "ra_refund",
+          "ra_balance",
+          "ra_history",
+          "ra_whoami",
+          "ra_dashboard",
+          "ra_dispute"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.rapay/mcp-server",
+  "slug": "ai.rapay__mcp-server"
+}

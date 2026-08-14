@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:09.525Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error_description\":\"authenticate with an OAuth 2.1 access token from the flow advertised at resource_metadata, or with a plori API key (Authorization: Bearer plori_sk_...)\",\"resource_metadata\":\"https://api.plori.ai/.well-known/oauth-protected-resource/mcp\",\"documentation_url\":\"https://plori.ai/auth.md\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-09Z-35e1e7",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:00.382Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error_description\":\"authenticate with an OAuth 2.1 access token from the flow advertised at resource_metadata, or with a plori API key (Authorization: Bearer plori_sk_...)\",\"resource_metadata\":\"https://api.plori.ai/.well-known/oauth-protected-resource/mcp\",\"documentation_url\":\"https://plori.ai/auth.md\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-00Z-e49a74",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:35.929Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error_description\":\"authenticate with an OAuth 2.1 access token from the flow advertised at resource_metadata, or with a plori API key (Authorization: Bearer plori_sk_...)\",\"resource_metadata\":\"https://api.plori.ai/.well-known/oauth-protected-resource/mcp\",\"documentation_url\":\"https://plori.ai/auth.md\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-35Z-992a9c",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "ai.plori/plori",
+  "slug": "ai.plori__plori"
+}

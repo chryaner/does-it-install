@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:09.525Z",
+        "errorExcerpt": "connect failed: SSE error: Non-200 status code (502)",
+        "method": "remote-sse",
+        "runId": "2026-08-14T20-23-09Z-35e1e7",
+        "status": "connect_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:00.382Z",
+        "errorExcerpt": "connect failed: SSE error: Non-200 status code (502)",
+        "method": "remote-sse",
+        "runId": "2026-08-14T20-23-00Z-e49a74",
+        "status": "connect_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:35.929Z",
+        "errorExcerpt": "connect failed: SSE error: Non-200 status code (502)",
+        "method": "remote-sse",
+        "runId": "2026-08-14T20-23-35Z-992a9c",
+        "status": "connect_failed"
+      }
+    ]
+  },
+  "serverId": "ai.hostprofit/mcp",
+  "slug": "ai.hostprofit__mcp"
+}

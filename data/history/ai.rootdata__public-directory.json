@@ -1,0 +1,63 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:10.254Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-10Z-ab7350",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "search_dsos",
+          "get_dso_profile",
+          "search_practices",
+          "get_practice_profile",
+          "list_top_dsos",
+          "compare_dsos",
+          "search_blog_articles",
+          "root_data_faq"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:03.495Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-03Z-54916a",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "search_dsos",
+          "get_dso_profile",
+          "search_practices",
+          "get_practice_profile",
+          "list_top_dsos",
+          "compare_dsos",
+          "search_blog_articles",
+          "root_data_faq"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:28.035Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-28Z-411933",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "search_dsos",
+          "get_dso_profile",
+          "search_practices",
+          "get_practice_profile",
+          "list_top_dsos",
+          "compare_dsos",
+          "search_blog_articles",
+          "root_data_faq"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.rootdata/public-directory",
+  "slug": "ai.rootdata__public-directory"
+}

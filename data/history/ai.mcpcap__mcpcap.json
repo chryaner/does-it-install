@@ -1,0 +1,66 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:05.405Z",
+        "method": "pypi",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "analyze_dns_packets",
+          "analyze_dhcp_packets",
+          "analyze_icmp_packets",
+          "analyze_capinfos",
+          "analyze_tcp_connections",
+          "analyze_tcp_anomalies",
+          "analyze_tcp_retransmissions",
+          "analyze_traffic_flow",
+          "analyze_sip_packets"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:06.300Z",
+        "method": "pypi",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "analyze_dns_packets",
+          "analyze_dhcp_packets",
+          "analyze_icmp_packets",
+          "analyze_capinfos",
+          "analyze_tcp_connections",
+          "analyze_tcp_anomalies",
+          "analyze_tcp_retransmissions",
+          "analyze_traffic_flow",
+          "analyze_sip_packets"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "method": "pypi",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "analyze_dns_packets",
+          "analyze_dhcp_packets",
+          "analyze_icmp_packets",
+          "analyze_capinfos",
+          "analyze_tcp_connections",
+          "analyze_tcp_anomalies",
+          "analyze_tcp_retransmissions",
+          "analyze_traffic_flow",
+          "analyze_sip_packets"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.mcpcap/mcpcap",
+  "slug": "ai.mcpcap__mcpcap"
+}

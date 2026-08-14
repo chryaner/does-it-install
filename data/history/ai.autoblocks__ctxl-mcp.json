@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-14T20:23:05.405Z",
+        "errorExcerpt": "ctxl-mcp declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "spawn_failed"
+      },
+      {
         "date": "2026-08-14T18:53:40.526Z",
         "errorExcerpt": "ctxl-mcp declares no runnable \"bin\" entry, so there is nothing to spawn",
         "method": "npm",
@@ -11,6 +18,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-14T20:23:06.300Z",
+        "errorExcerpt": "ctxl-mcp declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "spawn_failed"
+      },
+      {
         "date": "2026-08-14T18:53:40.683Z",
         "errorExcerpt": "ctxl-mcp declares no runnable \"bin\" entry, so there is nothing to spawn",
         "method": "npm",
@@ -19,6 +33,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "errorExcerpt": "ctxl-mcp declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "spawn_failed"
+      },
       {
         "date": "2026-08-14T18:54:09.525Z",
         "errorExcerpt": "ctxl-mcp declares no runnable \"bin\" entry, so there is nothing to spawn",

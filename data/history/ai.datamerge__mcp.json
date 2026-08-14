@@ -2,6 +2,38 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-14T20:23:05.405Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "configure_datamerge",
+          "start_company_enrichment",
+          "get_company_enrichment_result",
+          "start_company_enrichment_and_wait",
+          "run_company_enrichment",
+          "run_contact_enrich",
+          "run_contact_search",
+          "get_company",
+          "get_company_hierarchy",
+          "contact_search",
+          "get_contact_search_status",
+          "contact_enrich",
+          "get_contact_enrich_status",
+          "get_contact",
+          "list_lists",
+          "create_list",
+          "get_list_items",
+          "remove_list_item",
+          "delete_list",
+          "get_credits_balance",
+          "health_check",
+          "contact_search_unenriched",
+          "run_contact_search_unenriched"
+        ]
+      },
+      {
         "date": "2026-08-14T18:53:40.526Z",
         "method": "remote-http",
         "runId": "2026-08-14T18-53-40Z-4137a6",
@@ -36,6 +68,38 @@
     ],
     "linux": [
       {
+        "date": "2026-08-14T20:23:06.300Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "configure_datamerge",
+          "start_company_enrichment",
+          "get_company_enrichment_result",
+          "start_company_enrichment_and_wait",
+          "run_company_enrichment",
+          "run_contact_enrich",
+          "run_contact_search",
+          "get_company",
+          "get_company_hierarchy",
+          "contact_search",
+          "get_contact_search_status",
+          "contact_enrich",
+          "get_contact_enrich_status",
+          "get_contact",
+          "list_lists",
+          "create_list",
+          "get_list_items",
+          "remove_list_item",
+          "delete_list",
+          "get_credits_balance",
+          "health_check",
+          "contact_search_unenriched",
+          "run_contact_search_unenriched"
+        ]
+      },
+      {
         "date": "2026-08-14T18:53:40.683Z",
         "errorExcerpt": "listTools failed: MCP error -32001: Request timed out",
         "method": "remote-http",
@@ -44,6 +108,38 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "configure_datamerge",
+          "start_company_enrichment",
+          "get_company_enrichment_result",
+          "start_company_enrichment_and_wait",
+          "run_company_enrichment",
+          "run_contact_enrich",
+          "run_contact_search",
+          "get_company",
+          "get_company_hierarchy",
+          "contact_search",
+          "get_contact_search_status",
+          "contact_enrich",
+          "get_contact_enrich_status",
+          "get_contact",
+          "list_lists",
+          "create_list",
+          "get_list_items",
+          "remove_list_item",
+          "delete_list",
+          "get_credits_balance",
+          "health_check",
+          "contact_search_unenriched",
+          "run_contact_search_unenriched"
+        ]
+      },
       {
         "date": "2026-08-14T18:54:09.525Z",
         "errorExcerpt": "listTools failed: MCP error -32001: Request timed out",

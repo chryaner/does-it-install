@@ -1,0 +1,96 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:05.405Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "list_authors",
+          "list_works",
+          "search_corpus",
+          "get_work",
+          "get_passage",
+          "cite_passage",
+          "get_parallel_passage",
+          "get_work_context",
+          "search_parallel",
+          "search_entities",
+          "get_entity",
+          "find_mentions",
+          "search_letters",
+          "search_greek_phrases",
+          "get_crossrefs",
+          "get_allusions",
+          "get_language_availability",
+          "build_source_pack",
+          "get_author_persona"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:06.300Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "list_authors",
+          "list_works",
+          "search_corpus",
+          "get_work",
+          "get_passage",
+          "cite_passage",
+          "get_parallel_passage",
+          "get_work_context",
+          "search_parallel",
+          "search_entities",
+          "get_entity",
+          "find_mentions",
+          "search_letters",
+          "search_greek_phrases",
+          "get_crossrefs",
+          "get_allusions",
+          "get_language_availability",
+          "build_source_pack",
+          "get_author_persona"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "list_authors",
+          "list_works",
+          "search_corpus",
+          "get_work",
+          "get_passage",
+          "cite_passage",
+          "get_parallel_passage",
+          "get_work_context",
+          "search_parallel",
+          "search_entities",
+          "get_entity",
+          "find_mentions",
+          "search_letters",
+          "search_greek_phrases",
+          "get_crossrefs",
+          "get_allusions",
+          "get_language_availability",
+          "build_source_pack",
+          "get_author_persona"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.hermitsh/texts",
+  "slug": "ai.hermitsh__texts"
+}

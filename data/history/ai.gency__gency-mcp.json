@@ -1,0 +1,102 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:05.405Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "login",
+          "logout",
+          "auth_status",
+          "get_team",
+          "list_workspaces",
+          "create_workspace",
+          "update_workspace",
+          "list_templates",
+          "list_products",
+          "get_product",
+          "create_product",
+          "update_product_status",
+          "get_upload_url",
+          "download_product_image",
+          "upload_image",
+          "prepare_product_images",
+          "get_me",
+          "list_users",
+          "get_user",
+          "get_credits",
+          "search_docs"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:06.300Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "login",
+          "logout",
+          "auth_status",
+          "get_team",
+          "list_workspaces",
+          "create_workspace",
+          "update_workspace",
+          "list_templates",
+          "list_products",
+          "get_product",
+          "create_product",
+          "update_product_status",
+          "get_upload_url",
+          "download_product_image",
+          "upload_image",
+          "prepare_product_images",
+          "get_me",
+          "list_users",
+          "get_user",
+          "get_credits",
+          "search_docs"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "login",
+          "logout",
+          "auth_status",
+          "get_team",
+          "list_workspaces",
+          "create_workspace",
+          "update_workspace",
+          "list_templates",
+          "list_products",
+          "get_product",
+          "create_product",
+          "update_product_status",
+          "get_upload_url",
+          "download_product_image",
+          "upload_image",
+          "prepare_product_images",
+          "get_me",
+          "list_users",
+          "get_user",
+          "get_credits",
+          "search_docs"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.gency/gency-mcp",
+  "slug": "ai.gency__gency-mcp"
+}

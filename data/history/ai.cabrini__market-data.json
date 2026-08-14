@@ -2,6 +2,30 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-14T20:23:09.525Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-09Z-35e1e7",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "query_minute_bars",
+          "list_tickers",
+          "query_range",
+          "query_batch",
+          "scan_market",
+          "query_daily",
+          "get_brief",
+          "get_company",
+          "get_fundamentals",
+          "get_insiders",
+          "get_filings",
+          "get_bars",
+          "get_sample",
+          "get_pricing",
+          "get_stats"
+        ]
+      },
+      {
         "date": "2026-08-14T18:53:44.569Z",
         "method": "remote-http",
         "runId": "2026-08-14T18-53-44Z-32e0cb",
@@ -28,6 +52,30 @@
     ],
     "linux": [
       {
+        "date": "2026-08-14T20:23:00.382Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-00Z-e49a74",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "query_minute_bars",
+          "list_tickers",
+          "query_range",
+          "query_batch",
+          "scan_market",
+          "query_daily",
+          "get_brief",
+          "get_company",
+          "get_fundamentals",
+          "get_insiders",
+          "get_filings",
+          "get_bars",
+          "get_sample",
+          "get_pricing",
+          "get_stats"
+        ]
+      },
+      {
         "date": "2026-08-14T18:53:48.539Z",
         "method": "remote-http",
         "runId": "2026-08-14T18-53-48Z-b2b0dd",
@@ -53,6 +101,30 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-14T20:23:35.929Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-35Z-992a9c",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "query_minute_bars",
+          "list_tickers",
+          "query_range",
+          "query_batch",
+          "scan_market",
+          "query_daily",
+          "get_brief",
+          "get_company",
+          "get_fundamentals",
+          "get_insiders",
+          "get_filings",
+          "get_bars",
+          "get_sample",
+          "get_pricing",
+          "get_stats"
+        ]
+      },
       {
         "date": "2026-08-14T18:54:09.596Z",
         "method": "remote-http",

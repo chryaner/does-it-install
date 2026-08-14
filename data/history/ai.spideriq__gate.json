@@ -1,0 +1,96 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:10.254Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-10Z-ab7350",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "request_access",
+          "check_access_status",
+          "get_auth_status",
+          "logout",
+          "list_workspaces",
+          "health_check",
+          "get_queue_stats",
+          "get_api_info",
+          "gate_chat",
+          "gate_models",
+          "gate_aliases",
+          "gate_health",
+          "gate_stats",
+          "gate_usage",
+          "gate_agents",
+          "gate_providers",
+          "gate_traces",
+          "gate_trace_detail",
+          "gate_trace_stats"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:03.495Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-03Z-54916a",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "request_access",
+          "check_access_status",
+          "get_auth_status",
+          "logout",
+          "list_workspaces",
+          "health_check",
+          "get_queue_stats",
+          "get_api_info",
+          "gate_chat",
+          "gate_models",
+          "gate_aliases",
+          "gate_health",
+          "gate_stats",
+          "gate_usage",
+          "gate_agents",
+          "gate_providers",
+          "gate_traces",
+          "gate_trace_detail",
+          "gate_trace_stats"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:28.035Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-28Z-411933",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "request_access",
+          "check_access_status",
+          "get_auth_status",
+          "logout",
+          "list_workspaces",
+          "health_check",
+          "get_queue_stats",
+          "get_api_info",
+          "gate_chat",
+          "gate_models",
+          "gate_aliases",
+          "gate_health",
+          "gate_stats",
+          "gate_usage",
+          "gate_agents",
+          "gate_providers",
+          "gate_traces",
+          "gate_trace_detail",
+          "gate_trace_stats"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.spideriq/gate",
+  "slug": "ai.spideriq__gate"
+}

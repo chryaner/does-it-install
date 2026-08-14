@@ -1,0 +1,48 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:09.525Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-09Z-35e1e7",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "get_risk_state",
+          "get_market_structure",
+          "get_playbook_status"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:00.382Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-00Z-e49a74",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "get_risk_state",
+          "get_market_structure",
+          "get_playbook_status"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:35.929Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-35Z-992a9c",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "get_risk_state",
+          "get_market_structure",
+          "get_playbook_status"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.riskstate/mcp",
+  "slug": "ai.riskstate__mcp"
+}

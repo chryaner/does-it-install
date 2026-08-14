@@ -1,0 +1,123 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:10.254Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-10Z-ab7350",
+        "status": "pass",
+        "toolCount": 28,
+        "toolNames": [
+          "ping",
+          "datasets_list",
+          "datasets_describe",
+          "datasets_search",
+          "catalog_list",
+          "catalog_describe",
+          "catalog_preview",
+          "feedback_submit",
+          "catalog_request",
+          "market_price_history",
+          "market_quote",
+          "market_company_profile",
+          "market_fundamentals",
+          "market_symbol_search",
+          "market_analyst_ratings",
+          "market_earnings",
+          "market_etf_holdings",
+          "macro_calendar",
+          "macro_indicator",
+          "news_stock",
+          "news_general",
+          "news_impacts",
+          "news_article",
+          "macro_current_conditions",
+          "politics_us_congress_trades",
+          "politics_us_congress_aggregate",
+          "account_request_upgrade",
+          "account_upgrade_status"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:03.495Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-03Z-54916a",
+        "status": "pass",
+        "toolCount": 28,
+        "toolNames": [
+          "ping",
+          "datasets_list",
+          "datasets_describe",
+          "datasets_search",
+          "catalog_list",
+          "catalog_describe",
+          "catalog_preview",
+          "feedback_submit",
+          "catalog_request",
+          "market_price_history",
+          "market_quote",
+          "market_company_profile",
+          "market_fundamentals",
+          "market_symbol_search",
+          "market_analyst_ratings",
+          "market_earnings",
+          "market_etf_holdings",
+          "macro_calendar",
+          "macro_indicator",
+          "news_stock",
+          "news_general",
+          "news_impacts",
+          "news_article",
+          "macro_current_conditions",
+          "politics_us_congress_trades",
+          "politics_us_congress_aggregate",
+          "account_request_upgrade",
+          "account_upgrade_status"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:28.035Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-28Z-411933",
+        "status": "pass",
+        "toolCount": 28,
+        "toolNames": [
+          "ping",
+          "datasets_list",
+          "datasets_describe",
+          "datasets_search",
+          "catalog_list",
+          "catalog_describe",
+          "catalog_preview",
+          "feedback_submit",
+          "catalog_request",
+          "market_price_history",
+          "market_quote",
+          "market_company_profile",
+          "market_fundamentals",
+          "market_symbol_search",
+          "market_analyst_ratings",
+          "market_earnings",
+          "market_etf_holdings",
+          "macro_calendar",
+          "macro_indicator",
+          "news_stock",
+          "news_general",
+          "news_impacts",
+          "news_article",
+          "macro_current_conditions",
+          "politics_us_congress_trades",
+          "politics_us_congress_aggregate",
+          "account_request_upgrade",
+          "account_upgrade_status"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.unquant/unquant",
+  "slug": "ai.unquant__unquant"
+}

@@ -2,6 +2,26 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-14T20:23:10.254Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-10Z-ab7350",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "scan_site",
+          "get_scan",
+          "get_scan_status",
+          "get_report",
+          "get_evidence",
+          "export_findings",
+          "list_findings",
+          "get_pre_consent_cookies_trackers",
+          "explain_finding",
+          "get_latest_domain_scan",
+          "get_latest_domain_pre_consent_cookies_trackers"
+        ]
+      },
+      {
         "date": "2026-08-14T18:53:45.798Z",
         "method": "npm",
         "runId": "2026-08-14T18-53-45Z-4278f0",
@@ -24,6 +44,26 @@
     ],
     "linux": [
       {
+        "date": "2026-08-14T20:23:03.495Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-03Z-54916a",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "scan_site",
+          "get_scan",
+          "get_scan_status",
+          "get_report",
+          "get_evidence",
+          "export_findings",
+          "list_findings",
+          "get_pre_consent_cookies_trackers",
+          "explain_finding",
+          "get_latest_domain_scan",
+          "get_latest_domain_pre_consent_cookies_trackers"
+        ]
+      },
+      {
         "date": "2026-08-14T18:53:41.622Z",
         "method": "npm",
         "runId": "2026-08-14T18-53-41Z-0bdee1",
@@ -45,6 +85,26 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-14T20:23:28.035Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-28Z-411933",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "scan_site",
+          "get_scan",
+          "get_scan_status",
+          "get_report",
+          "get_evidence",
+          "export_findings",
+          "list_findings",
+          "get_pre_consent_cookies_trackers",
+          "explain_finding",
+          "get_latest_domain_scan",
+          "get_latest_domain_pre_consent_cookies_trackers"
+        ]
+      },
       {
         "date": "2026-08-14T18:53:58.370Z",
         "method": "npm",

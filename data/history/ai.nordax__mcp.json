@@ -1,0 +1,78 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:10.254Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-10Z-ab7350",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "search_entities",
+          "get_entity",
+          "list_entities_by_category",
+          "get_entity_verification",
+          "attest_entity",
+          "resolve_entity",
+          "get_entity_credential",
+          "submit_feedback",
+          "issue_hap_authorization",
+          "verify_hap_authorization",
+          "check_authorization_status",
+          "search",
+          "fetch"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:03.495Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-03Z-54916a",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "search_entities",
+          "get_entity",
+          "list_entities_by_category",
+          "get_entity_verification",
+          "attest_entity",
+          "resolve_entity",
+          "get_entity_credential",
+          "submit_feedback",
+          "issue_hap_authorization",
+          "verify_hap_authorization",
+          "check_authorization_status",
+          "search",
+          "fetch"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:28.035Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-28Z-411933",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "search_entities",
+          "get_entity",
+          "list_entities_by_category",
+          "get_entity_verification",
+          "attest_entity",
+          "resolve_entity",
+          "get_entity_credential",
+          "submit_feedback",
+          "issue_hap_authorization",
+          "verify_hap_authorization",
+          "check_authorization_status",
+          "search",
+          "fetch"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.nordax/mcp",
+  "slug": "ai.nordax__mcp"
+}

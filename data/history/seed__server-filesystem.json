@@ -2,6 +2,29 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-14T20:23:05.405Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "read_file",
+          "read_text_file",
+          "read_media_file",
+          "read_multiple_files",
+          "write_file",
+          "edit_file",
+          "create_directory",
+          "list_directory",
+          "list_directory_with_sizes",
+          "directory_tree",
+          "move_file",
+          "search_files",
+          "get_file_info",
+          "list_allowed_directories"
+        ]
+      },
+      {
         "date": "2026-08-14T18:53:45.798Z",
         "method": "npm",
         "runId": "2026-08-14T18-53-45Z-4278f0",
@@ -26,6 +49,29 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-08-14T20:23:06.300Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "read_file",
+          "read_text_file",
+          "read_media_file",
+          "read_multiple_files",
+          "write_file",
+          "edit_file",
+          "create_directory",
+          "list_directory",
+          "list_directory_with_sizes",
+          "directory_tree",
+          "move_file",
+          "search_files",
+          "get_file_info",
+          "list_allowed_directories"
+        ]
+      },
       {
         "date": "2026-08-14T18:53:41.622Z",
         "method": "npm",
@@ -74,6 +120,29 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "read_file",
+          "read_text_file",
+          "read_media_file",
+          "read_multiple_files",
+          "write_file",
+          "edit_file",
+          "create_directory",
+          "list_directory",
+          "list_directory_with_sizes",
+          "directory_tree",
+          "move_file",
+          "search_files",
+          "get_file_info",
+          "list_allowed_directories"
+        ]
+      },
       {
         "date": "2026-08-14T18:53:58.370Z",
         "method": "npm",

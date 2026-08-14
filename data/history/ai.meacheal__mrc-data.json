@@ -1,0 +1,99 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:09.525Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-09Z-35e1e7",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "search_suppliers",
+          "get_supplier_detail",
+          "search_fabrics",
+          "get_fabric_detail",
+          "search_clusters",
+          "compare_clusters",
+          "detect_discrepancy",
+          "get_supplier_fabrics",
+          "get_fabric_suppliers",
+          "get_product_categories",
+          "get_province_distribution",
+          "recommend_suppliers",
+          "analyze_market",
+          "estimate_cost",
+          "check_compliance",
+          "assess_supplier_credibility",
+          "find_alternatives",
+          "compare_suppliers",
+          "get_cluster_suppliers",
+          "get_stats"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:00.382Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-00Z-e49a74",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "search_suppliers",
+          "get_supplier_detail",
+          "search_fabrics",
+          "get_fabric_detail",
+          "search_clusters",
+          "compare_clusters",
+          "detect_discrepancy",
+          "get_supplier_fabrics",
+          "get_fabric_suppliers",
+          "get_product_categories",
+          "get_province_distribution",
+          "recommend_suppliers",
+          "analyze_market",
+          "estimate_cost",
+          "check_compliance",
+          "assess_supplier_credibility",
+          "find_alternatives",
+          "compare_suppliers",
+          "get_cluster_suppliers",
+          "get_stats"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:35.929Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-35Z-992a9c",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "search_suppliers",
+          "get_supplier_detail",
+          "search_fabrics",
+          "get_fabric_detail",
+          "search_clusters",
+          "compare_clusters",
+          "detect_discrepancy",
+          "get_supplier_fabrics",
+          "get_fabric_suppliers",
+          "get_product_categories",
+          "get_province_distribution",
+          "recommend_suppliers",
+          "analyze_market",
+          "estimate_cost",
+          "check_compliance",
+          "assess_supplier_credibility",
+          "find_alternatives",
+          "compare_suppliers",
+          "get_cluster_suppliers",
+          "get_stats"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.meacheal/mrc-data",
+  "slug": "ai.meacheal__mrc-data"
+}

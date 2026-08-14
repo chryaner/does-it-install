@@ -1,0 +1,78 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:05.405Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "one_shot",
+          "get_deploy_result",
+          "link_account",
+          "list_models",
+          "list_deployed",
+          "top_up",
+          "generate_strategy",
+          "browse_community",
+          "find_strategy",
+          "get_strategy_code",
+          "get_quote",
+          "get_model_chart",
+          "stream_test"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:06.300Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "one_shot",
+          "get_deploy_result",
+          "link_account",
+          "list_models",
+          "list_deployed",
+          "top_up",
+          "generate_strategy",
+          "browse_community",
+          "find_strategy",
+          "get_strategy_code",
+          "get_quote",
+          "get_model_chart",
+          "stream_test"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "one_shot",
+          "get_deploy_result",
+          "link_account",
+          "list_models",
+          "list_deployed",
+          "top_up",
+          "generate_strategy",
+          "browse_community",
+          "find_strategy",
+          "get_strategy_code",
+          "get_quote",
+          "get_model_chart",
+          "stream_test"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.quantifyme/quantifyme",
+  "slug": "ai.quantifyme__quantifyme"
+}

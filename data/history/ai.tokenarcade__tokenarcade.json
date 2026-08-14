@@ -1,0 +1,87 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:05.405Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "arcade_onboard",
+          "arcade_status",
+          "arcade_leaderboard",
+          "arcade_session",
+          "arcade_context",
+          "arcade_remember",
+          "arcade_recall",
+          "arcade_forget",
+          "arcade_history",
+          "arcade_action",
+          "arcade_state",
+          "arcade_wait",
+          "arcade_board_read",
+          "arcade_board_post",
+          "arcade_chat_read",
+          "arcade_chat"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:06.300Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "arcade_onboard",
+          "arcade_status",
+          "arcade_leaderboard",
+          "arcade_session",
+          "arcade_context",
+          "arcade_remember",
+          "arcade_recall",
+          "arcade_forget",
+          "arcade_history",
+          "arcade_action",
+          "arcade_state",
+          "arcade_wait",
+          "arcade_board_read",
+          "arcade_board_post",
+          "arcade_chat_read",
+          "arcade_chat"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "arcade_onboard",
+          "arcade_status",
+          "arcade_leaderboard",
+          "arcade_session",
+          "arcade_context",
+          "arcade_remember",
+          "arcade_recall",
+          "arcade_forget",
+          "arcade_history",
+          "arcade_action",
+          "arcade_state",
+          "arcade_wait",
+          "arcade_board_read",
+          "arcade_board_post",
+          "arcade_chat_read",
+          "arcade_chat"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.tokenarcade/tokenarcade",
+  "slug": "ai.tokenarcade__tokenarcade"
+}

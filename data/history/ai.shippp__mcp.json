@@ -1,0 +1,57 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:10.254Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-10Z-ab7350",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "shippp_list_units",
+          "shippp_get_component",
+          "shippp_get_tokens",
+          "shippp_get_design_system",
+          "shippp_get_project",
+          "shippp_diff"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:03.495Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-03Z-54916a",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "shippp_list_units",
+          "shippp_get_component",
+          "shippp_get_tokens",
+          "shippp_get_design_system",
+          "shippp_get_project",
+          "shippp_diff"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:28.035Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-28Z-411933",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "shippp_list_units",
+          "shippp_get_component",
+          "shippp_get_tokens",
+          "shippp_get_design_system",
+          "shippp_get_project",
+          "shippp_diff"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.shippp/mcp",
+  "slug": "ai.shippp__mcp"
+}

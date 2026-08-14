@@ -1,0 +1,60 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:09.525Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-09Z-35e1e7",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "browse_apis",
+          "get_pricing",
+          "check_balance",
+          "get_usage",
+          "rate_seller",
+          "call_api",
+          "describe_endpoint"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:00.382Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-00Z-e49a74",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "browse_apis",
+          "get_pricing",
+          "check_balance",
+          "get_usage",
+          "rate_seller",
+          "call_api",
+          "describe_endpoint"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:35.929Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-35Z-992a9c",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "browse_apis",
+          "get_pricing",
+          "check_balance",
+          "get_usage",
+          "rate_seller",
+          "call_api",
+          "describe_endpoint"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.proxygate/mcp",
+  "slug": "ai.proxygate__mcp"
+}

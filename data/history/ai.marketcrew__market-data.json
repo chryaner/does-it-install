@@ -1,0 +1,84 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:05.405Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "get_price_history",
+          "get_technical_indicators",
+          "get_relative_strength",
+          "get_key_levels",
+          "get_intermarket",
+          "get_market_breadth",
+          "get_sentiment_data",
+          "get_macro_context",
+          "get_crypto_context",
+          "get_instrument_info",
+          "get_event_stats",
+          "public_instrument_news",
+          "public_search_news",
+          "get_ta_methodology",
+          "get_monitoring_options"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:06.300Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "get_price_history",
+          "get_technical_indicators",
+          "get_relative_strength",
+          "get_key_levels",
+          "get_intermarket",
+          "get_market_breadth",
+          "get_sentiment_data",
+          "get_macro_context",
+          "get_crypto_context",
+          "get_instrument_info",
+          "get_event_stats",
+          "public_instrument_news",
+          "public_search_news",
+          "get_ta_methodology",
+          "get_monitoring_options"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "get_price_history",
+          "get_technical_indicators",
+          "get_relative_strength",
+          "get_key_levels",
+          "get_intermarket",
+          "get_market_breadth",
+          "get_sentiment_data",
+          "get_macro_context",
+          "get_crypto_context",
+          "get_instrument_info",
+          "get_event_stats",
+          "public_instrument_news",
+          "public_search_news",
+          "get_ta_methodology",
+          "get_monitoring_options"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.marketcrew/market-data",
+  "slug": "ai.marketcrew__market-data"
+}

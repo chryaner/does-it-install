@@ -1,0 +1,69 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:09.525Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-09Z-35e1e7",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "verify_dossier",
+          "read_dossier",
+          "list_dossiers",
+          "search_dossiers",
+          "resolve_graph",
+          "verify_graph",
+          "start_journey",
+          "step_complete",
+          "get_journey_status",
+          "cancel_journey"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:00.382Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-00Z-e49a74",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "verify_dossier",
+          "read_dossier",
+          "list_dossiers",
+          "search_dossiers",
+          "resolve_graph",
+          "verify_graph",
+          "start_journey",
+          "step_complete",
+          "get_journey_status",
+          "cancel_journey"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:35.929Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-35Z-992a9c",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "verify_dossier",
+          "read_dossier",
+          "list_dossiers",
+          "search_dossiers",
+          "resolve_graph",
+          "verify_graph",
+          "start_journey",
+          "step_complete",
+          "get_journey_status",
+          "cancel_journey"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.imboard/dossier",
+  "slug": "ai.imboard__dossier"
+}

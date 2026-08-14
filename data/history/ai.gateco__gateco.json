@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-14T20:23:09.525Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: \"          Suggest cl\"... is not valid JSON\nUnexpected token 'r', \"    retroactiv\"... is not valid JSON\nUnexpected token 'S', ...\"          Scan and r\"... is not valid JSON\nUnexpected token 'a', \"    audit     \"... is not valid JSON\nUnexpected token 'm', \"    mcp       \"... is not valid JSON\nUnexpected token 'q', \"    query     \"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'o', \"options:\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\n--- stderr (tail) ---\nInstalled 12 packages in 9ms",
+        "method": "pypi",
+        "runId": "2026-08-14T20-23-09Z-35e1e7",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-14T18:53:44.569Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: \"          Suggest cl\"... is not valid JSON\nUnexpected token 'r', \"    retroactiv\"... is not valid JSON\nUnexpected token 'S', ...\"          Scan and r\"... is not valid JSON\nUnexpected token 'a', \"    audit     \"... is not valid JSON\nUnexpected token 'm', \"    mcp       \"... is not valid JSON\nUnexpected token 'q', \"    query     \"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'o', \"options:\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\n--- stderr (tail) ---\nInstalled 12 packages in 9ms",
         "method": "pypi",
@@ -11,6 +18,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-14T20:23:00.382Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: \"          Suggest cl\"... is not valid JSON\nUnexpected token 'r', \"    retroactiv\"... is not valid JSON\nUnexpected token 'S', ...\"          Scan and r\"... is not valid JSON\nUnexpected token 'a', \"    audit     \"... is not valid JSON\nUnexpected token 'm', \"    mcp       \"... is not valid JSON\nUnexpected token 'q', \"    query     \"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'o', \"options:\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\n--- stderr (tail) ---\nInstalled 12 packages in 6ms",
+        "method": "pypi",
+        "runId": "2026-08-14T20-23-00Z-e49a74",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-14T18:53:48.539Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: \"          Suggest cl\"... is not valid JSON\nUnexpected token 'r', \"    retroactiv\"... is not valid JSON\nUnexpected token 'S', ...\"          Scan and r\"... is not valid JSON\nUnexpected token 'a', \"    audit     \"... is not valid JSON\nUnexpected token 'm', \"    mcp       \"... is not valid JSON\nUnexpected token 'q', \"    query     \"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'o', \"options:\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\n--- stderr (tail) ---\nInstalled 12 packages in 6ms",
         "method": "pypi",
@@ -19,6 +33,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-14T20:23:35.929Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: \"          Suggest cl\"... is not valid JSON\nUnexpected token 'r', \"    retroactiv\"... is not valid JSON\nUnexpected token 'S', ...\"          Scan and r\"... is not valid JSON\nUnexpected token 'a', \"    audit     \"... is not valid JSON\nUnexpected token 'm', \"    mcp       \"... is not valid JSON\nUnexpected token 'q', \"    query     \"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'o', \"options:\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\n--- stderr (tail) ---\nInstalled 12 packages in 222ms",
+        "method": "pypi",
+        "runId": "2026-08-14T20-23-35Z-992a9c",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-14T18:54:09.596Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: \"          Suggest cl\"... is not valid JSON\nUnexpected token 'r', \"    retroactiv\"... is not valid JSON\nUnexpected token 'S', ...\"          Scan and r\"... is not valid JSON\nUnexpected token 'a', \"    audit     \"... is not valid JSON\nUnexpected token 'm', \"    mcp       \"... is not valid JSON\nUnexpected token 'q', \"    query     \"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'o', \"options:\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\n--- stderr (tail) ---\nInstalled 12 packages in 273ms",

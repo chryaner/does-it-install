@@ -1,0 +1,95 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:10.254Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-10Z-ab7350",
+        "status": "pass",
+        "toolCount": 29,
+        "toolNames": [
+          "list_credentials",
+          "store_credential",
+          "use_credential",
+          "grant_app_access",
+          "list_app_access",
+          "revoke_app_access",
+          "audit_log",
+          "list_payment_cards",
+          "operate_pay",
+          "operate_payment_status",
+          "operate_payment_await",
+          "operate_start",
+          "operate_observe",
+          "operate_act",
+          "operate_cart_add",
+          "operate_form_select_many",
+          "operate_captcha_gate",
+          "operate_await_verification",
+          "operate_extract",
+          "operate_login",
+          "operate_prepare_login",
+          "operate_store_login",
+          "operate_seal_vault_credential",
+          "operate_recipe_save",
+          "operate_recipe_run",
+          "operate_remember",
+          "operate_use",
+          "operate_finish_task",
+          "operate_finish"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:03.495Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-03Z-54916a",
+        "status": "pass",
+        "toolCount": 29,
+        "toolNames": [
+          "list_credentials",
+          "store_credential",
+          "use_credential",
+          "grant_app_access",
+          "list_app_access",
+          "revoke_app_access",
+          "audit_log",
+          "list_payment_cards",
+          "operate_pay",
+          "operate_payment_status",
+          "operate_payment_await",
+          "operate_start",
+          "operate_observe",
+          "operate_act",
+          "operate_cart_add",
+          "operate_form_select_many",
+          "operate_captcha_gate",
+          "operate_await_verification",
+          "operate_extract",
+          "operate_login",
+          "operate_prepare_login",
+          "operate_store_login",
+          "operate_seal_vault_credential",
+          "operate_recipe_save",
+          "operate_recipe_run",
+          "operate_remember",
+          "operate_use",
+          "operate_finish_task",
+          "operate_finish"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:28.035Z",
+        "errorExcerpt": "npm install @trusty-squire/mcp@1.1.9-rc.20 timed out after 300s",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-28Z-411933",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "ai.trustysquire/trusty-squire",
+  "slug": "ai.trustysquire__trusty-squire"
+}

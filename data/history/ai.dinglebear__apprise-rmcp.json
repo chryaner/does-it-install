@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-14T20:23:05.405Z",
+        "errorExcerpt": "npm install apprise-rmcp@0.1.3 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for apprise-rmcp@0.1.3.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-647Xyi/.npm-cache/_logs/2026-08-14T20_23_53_933Z-debug-0.log",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "install_failed"
+      },
+      {
         "date": "2026-08-14T18:53:40.526Z",
         "errorExcerpt": "npm install apprise-rmcp@0.1.3 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for apprise-rmcp@0.1.3.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-yJ2DTh/.npm-cache/_logs/2026-08-14T18_54_19_396Z-debug-0.log",
         "method": "npm",
@@ -11,6 +18,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-14T20:23:06.300Z",
+        "errorExcerpt": "npm install apprise-rmcp@0.1.3 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for apprise-rmcp@0.1.3.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /tmp/does-it-install/dii-npm-vygM71/.npm-cache/_logs/2026-08-14T20_23_46_085Z-debug-0.log",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "install_failed"
+      },
+      {
         "date": "2026-08-14T18:53:40.683Z",
         "errorExcerpt": "npm install apprise-rmcp@0.1.3 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for apprise-rmcp@0.1.3.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /tmp/does-it-install/dii-npm-l5tj96/.npm-cache/_logs/2026-08-14T18_54_20_010Z-debug-0.log",
         "method": "npm",
@@ -19,6 +33,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "errorExcerpt": "npm install apprise-rmcp@0.1.3 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for apprise-rmcp@0.1.3.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-UaeN0G\\.npm-cache\\_logs\\2026-08-14T20_35_42_178Z-debug-0.log",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "install_failed"
+      },
       {
         "date": "2026-08-14T18:54:09.525Z",
         "errorExcerpt": "npm install apprise-rmcp@0.1.3 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for apprise-rmcp@0.1.3.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-cVWGbS\\.npm-cache\\_logs\\2026-08-14T19_07_07_751Z-debug-0.log",

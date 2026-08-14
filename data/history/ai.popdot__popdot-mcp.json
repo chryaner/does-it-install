@@ -1,0 +1,54 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:05.405Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "try_domain",
+          "search_domains",
+          "get_price_quote",
+          "check_availability",
+          "rent_domain"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:06.300Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "try_domain",
+          "search_domains",
+          "get_price_quote",
+          "check_availability",
+          "rent_domain"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "try_domain",
+          "search_domains",
+          "get_price_quote",
+          "check_availability",
+          "rent_domain"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.popdot/popdot-mcp",
+  "slug": "ai.popdot__popdot-mcp"
+}

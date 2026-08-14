@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:09.525Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[matih-mcp] No endpoint. Set MATIH_MCP_ENDPOINT (e.g. https://app.matih.ai/api/v1/mcp) or pass it as an argument.",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-09Z-35e1e7",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:00.382Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[matih-mcp] No endpoint. Set MATIH_MCP_ENDPOINT (e.g. https://app.matih.ai/api/v1/mcp) or pass it as an argument.",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-00Z-e49a74",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:35.929Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[matih-mcp] No endpoint. Set MATIH_MCP_ENDPOINT (e.g. https://app.matih.ai/api/v1/mcp) or pass it as an argument.",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-35Z-992a9c",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "ai.matih/mcp",
+  "slug": "ai.matih__mcp"
+}

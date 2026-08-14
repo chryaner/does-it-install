@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:05.405Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[kaduno-pullpush-mcp] Failed to connect to PullPush API at https://api.pullpush.ai/mcp\n  Error: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32001,\"message\":\"Authentication required. Provide a valid Bearer token.\"},\"id\":null}\n\n  Check that:\n  - The API is running and reachable\n  - Your PULLPUSH_API_KEY is valid\n  - PULLPUSH_API_URL is correct (current: https://api.pullpush.ai)\n\n  Common fixes:\n  - Get a key from your PullPush admin panel → Settings → API Keys\n  - For self-hosted: set PULLPUSH_API_URL=https://your-instance.com",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:06.300Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[kaduno-pullpush-mcp] Failed to connect to PullPush API at https://api.pullpush.ai/mcp\n  Error: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32001,\"message\":\"Authentication required. Provide a valid Bearer token.\"},\"id\":null}\n\n  Check that:\n  - The API is running and reachable\n  - Your PULLPUSH_API_KEY is valid\n  - PULLPUSH_API_URL is correct (current: https://api.pullpush.ai)\n\n  Common fixes:\n  - Get a key from your PullPush admin panel → Settings → API Keys\n  - For self-hosted: set PULLPUSH_API_URL=https://your-instance.com",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[kaduno-pullpush-mcp] Failed to connect to PullPush API at https://api.pullpush.ai/mcp\n  Error: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32001,\"message\":\"Authentication required. Provide a valid Bearer token.\"},\"id\":null}\n\n  Check that:\n  - The API is running and reachable\n  - Your PULLPUSH_API_KEY is valid\n  - PULLPUSH_API_URL is correct (current: https://api.pullpush.ai)\n\n  Common fixes:\n  - Get a key from your PullPush admin panel → Settings → API Keys\n  - For self-hosted: set PULLPUSH_API_URL=https://your-instance.com",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "ai.pullpush/pullpush-mcp",
+  "slug": "ai.pullpush__pullpush-mcp"
+}

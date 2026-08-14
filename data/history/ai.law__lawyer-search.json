@@ -1,0 +1,60 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:05.405Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "search_lawyers",
+          "get_lawyer_profile",
+          "find_lawyer_by_name",
+          "get_practice_areas",
+          "get_jurisdictions",
+          "match_lawyer_to_matter",
+          "get_legal_cost_estimate"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:06.300Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "search_lawyers",
+          "get_lawyer_profile",
+          "find_lawyer_by_name",
+          "get_practice_areas",
+          "get_jurisdictions",
+          "match_lawyer_to_matter",
+          "get_legal_cost_estimate"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "search_lawyers",
+          "get_lawyer_profile",
+          "find_lawyer_by_name",
+          "get_practice_areas",
+          "get_jurisdictions",
+          "match_lawyer_to_matter",
+          "get_legal_cost_estimate"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.law/lawyer-search",
+  "slug": "ai.law__lawyer-search"
+}

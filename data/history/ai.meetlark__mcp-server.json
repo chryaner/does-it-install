@@ -1,0 +1,57 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:05.405Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "meetlark_create_poll",
+          "meetlark_get_results",
+          "meetlark_vote",
+          "meetlark_get_admin_view",
+          "meetlark_close_poll",
+          "meetlark_reopen_poll"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:06.300Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "meetlark_create_poll",
+          "meetlark_get_results",
+          "meetlark_vote",
+          "meetlark_get_admin_view",
+          "meetlark_close_poll",
+          "meetlark_reopen_poll"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "meetlark_create_poll",
+          "meetlark_get_results",
+          "meetlark_vote",
+          "meetlark_get_admin_view",
+          "meetlark_close_poll",
+          "meetlark_reopen_poll"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.meetlark/mcp-server",
+  "slug": "ai.meetlark__mcp-server"
+}

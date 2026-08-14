@@ -2,6 +2,32 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-14T20:23:05.405Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "search_firms",
+          "count_firms_by",
+          "get_firm",
+          "list_firm_kinds",
+          "find_opportunities",
+          "search_news",
+          "search_concepts",
+          "get_concept",
+          "list_studies",
+          "get_day_rate_benchmark",
+          "list_sap_modules",
+          "query_knowledge_graph",
+          "get_concept_card",
+          "get_study",
+          "find_sap_clients",
+          "get_sap_client_profile",
+          "get_firm_intel"
+        ]
+      },
+      {
         "date": "2026-08-14T18:53:40.526Z",
         "method": "remote-http",
         "runId": "2026-08-14T18-53-40Z-4137a6",
@@ -30,6 +56,32 @@
     ],
     "linux": [
       {
+        "date": "2026-08-14T20:23:06.300Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "search_firms",
+          "count_firms_by",
+          "get_firm",
+          "list_firm_kinds",
+          "find_opportunities",
+          "search_news",
+          "search_concepts",
+          "get_concept",
+          "list_studies",
+          "get_day_rate_benchmark",
+          "list_sap_modules",
+          "query_knowledge_graph",
+          "get_concept_card",
+          "get_study",
+          "find_sap_clients",
+          "get_sap_client_profile",
+          "get_firm_intel"
+        ]
+      },
+      {
         "date": "2026-08-14T18:53:40.683Z",
         "method": "remote-http",
         "runId": "2026-08-14T18-53-40Z-231362",
@@ -57,6 +109,32 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "search_firms",
+          "count_firms_by",
+          "get_firm",
+          "list_firm_kinds",
+          "find_opportunities",
+          "search_news",
+          "search_concepts",
+          "get_concept",
+          "list_studies",
+          "get_day_rate_benchmark",
+          "list_sap_modules",
+          "query_knowledge_graph",
+          "get_concept_card",
+          "get_study",
+          "find_sap_clients",
+          "get_sap_client_profile",
+          "get_firm_intel"
+        ]
+      },
       {
         "date": "2026-08-14T18:54:09.525Z",
         "method": "remote-http",

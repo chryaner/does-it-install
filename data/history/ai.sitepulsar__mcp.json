@@ -1,0 +1,78 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:09.525Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-09Z-35e1e7",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "check_agent_readiness",
+          "run_audit",
+          "get_audit",
+          "get_audit_detail",
+          "compare_aeo",
+          "get_fixes",
+          "get_audit_full",
+          "search_companies",
+          "probe_agent_discovery",
+          "probe_ucp_readiness",
+          "probe_mcp_functional",
+          "scan_product_page",
+          "scan_visibility"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:00.382Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-00Z-e49a74",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "check_agent_readiness",
+          "run_audit",
+          "get_audit",
+          "get_audit_detail",
+          "compare_aeo",
+          "get_fixes",
+          "get_audit_full",
+          "search_companies",
+          "probe_agent_discovery",
+          "probe_ucp_readiness",
+          "probe_mcp_functional",
+          "scan_product_page",
+          "scan_visibility"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:35.929Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-35Z-992a9c",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "check_agent_readiness",
+          "run_audit",
+          "get_audit",
+          "get_audit_detail",
+          "compare_aeo",
+          "get_fixes",
+          "get_audit_full",
+          "search_companies",
+          "probe_agent_discovery",
+          "probe_ucp_readiness",
+          "probe_mcp_functional",
+          "scan_product_page",
+          "scan_visibility"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.sitepulsar/mcp",
+  "slug": "ai.sitepulsar__mcp"
+}

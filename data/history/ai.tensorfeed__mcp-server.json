@@ -1,0 +1,111 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:05.405Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "get_ai_news",
+          "find_tensorfeed_data",
+          "get_ai_status",
+          "is_service_down",
+          "get_model_pricing",
+          "account_status",
+          "route_verdict",
+          "provider_reliability_verdict",
+          "x402_settlement_verdict",
+          "x402_publisher_verdict",
+          "stack_safety_verdict",
+          "benchmark_trust_verdict",
+          "failover_verdict",
+          "ssvc_verdict",
+          "pricing_series",
+          "benchmark_series",
+          "status_uptime",
+          "status_leaderboard",
+          "whats_new",
+          "compare_models",
+          "provider_deepdive",
+          "list_watches",
+          "create_watch",
+          "delete_watch"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:06.300Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "get_ai_news",
+          "find_tensorfeed_data",
+          "get_ai_status",
+          "is_service_down",
+          "get_model_pricing",
+          "account_status",
+          "route_verdict",
+          "provider_reliability_verdict",
+          "x402_settlement_verdict",
+          "x402_publisher_verdict",
+          "stack_safety_verdict",
+          "benchmark_trust_verdict",
+          "failover_verdict",
+          "ssvc_verdict",
+          "pricing_series",
+          "benchmark_series",
+          "status_uptime",
+          "status_leaderboard",
+          "whats_new",
+          "compare_models",
+          "provider_deepdive",
+          "list_watches",
+          "create_watch",
+          "delete_watch"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "get_ai_news",
+          "find_tensorfeed_data",
+          "get_ai_status",
+          "is_service_down",
+          "get_model_pricing",
+          "account_status",
+          "route_verdict",
+          "provider_reliability_verdict",
+          "x402_settlement_verdict",
+          "x402_publisher_verdict",
+          "stack_safety_verdict",
+          "benchmark_trust_verdict",
+          "failover_verdict",
+          "ssvc_verdict",
+          "pricing_series",
+          "benchmark_series",
+          "status_uptime",
+          "status_leaderboard",
+          "whats_new",
+          "compare_models",
+          "provider_deepdive",
+          "list_watches",
+          "create_watch",
+          "delete_watch"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.tensorfeed/mcp-server",
+  "slug": "ai.tensorfeed__mcp-server"
+}

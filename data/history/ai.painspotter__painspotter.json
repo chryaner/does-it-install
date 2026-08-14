@@ -1,0 +1,60 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:05.405Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "get_overview",
+          "get_opportunity",
+          "query_opportunities",
+          "list_trending_themes",
+          "get_theme",
+          "list_blog_posts",
+          "get_blog_post"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:06.300Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "get_overview",
+          "get_opportunity",
+          "query_opportunities",
+          "list_trending_themes",
+          "get_theme",
+          "list_blog_posts",
+          "get_blog_post"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "get_overview",
+          "get_opportunity",
+          "query_opportunities",
+          "list_trending_themes",
+          "get_theme",
+          "list_blog_posts",
+          "get_blog_post"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.painspotter/painspotter",
+  "slug": "ai.painspotter__painspotter"
+}

@@ -1,0 +1,114 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:05.405Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "pass",
+        "toolCount": 25,
+        "toolNames": [
+          "search_literature",
+          "search_patents",
+          "search_clinical_trials",
+          "get_clinical_trial",
+          "search_grants",
+          "get_grant",
+          "search_device510k",
+          "get_device510k",
+          "search_510k_summaries",
+          "get_510k_summary",
+          "search_mhra",
+          "get_mhra_alert",
+          "search_maude",
+          "get_maude_report",
+          "search_faers",
+          "get_faers_report",
+          "search_drugs",
+          "get_drug",
+          "create_collection",
+          "get_collection",
+          "search_collections",
+          "update_collection",
+          "delete_collection",
+          "add_dois_to_collection",
+          "remove_dois_from_collection"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:06.300Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "pass",
+        "toolCount": 25,
+        "toolNames": [
+          "search_literature",
+          "search_patents",
+          "search_clinical_trials",
+          "get_clinical_trial",
+          "search_grants",
+          "get_grant",
+          "search_device510k",
+          "get_device510k",
+          "search_510k_summaries",
+          "get_510k_summary",
+          "search_mhra",
+          "get_mhra_alert",
+          "search_maude",
+          "get_maude_report",
+          "search_faers",
+          "get_faers_report",
+          "search_drugs",
+          "get_drug",
+          "create_collection",
+          "get_collection",
+          "search_collections",
+          "update_collection",
+          "delete_collection",
+          "add_dois_to_collection",
+          "remove_dois_from_collection"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "pass",
+        "toolCount": 25,
+        "toolNames": [
+          "search_literature",
+          "search_patents",
+          "search_clinical_trials",
+          "get_clinical_trial",
+          "search_grants",
+          "get_grant",
+          "search_device510k",
+          "get_device510k",
+          "search_510k_summaries",
+          "get_510k_summary",
+          "search_mhra",
+          "get_mhra_alert",
+          "search_maude",
+          "get_maude_report",
+          "search_faers",
+          "get_faers_report",
+          "search_drugs",
+          "get_drug",
+          "create_collection",
+          "get_collection",
+          "search_collections",
+          "update_collection",
+          "delete_collection",
+          "add_dois_to_collection",
+          "remove_dois_from_collection"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.scite/mcp",
+  "slug": "ai.scite__mcp"
+}

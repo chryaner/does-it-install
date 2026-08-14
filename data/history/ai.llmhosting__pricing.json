@@ -1,0 +1,54 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:09.525Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-09Z-35e1e7",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "search_models",
+          "get_model_prices",
+          "list_gpus",
+          "cheapest_gpu",
+          "gpu_price_history"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:00.382Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-00Z-e49a74",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "search_models",
+          "get_model_prices",
+          "list_gpus",
+          "cheapest_gpu",
+          "gpu_price_history"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:35.929Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-35Z-992a9c",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "search_models",
+          "get_model_prices",
+          "list_gpus",
+          "cheapest_gpu",
+          "gpu_price_history"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.llmhosting/pricing",
+  "slug": "ai.llmhosting__pricing"
+}

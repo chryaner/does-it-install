@@ -1,0 +1,81 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:10.254Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-10Z-ab7350",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "tools.get",
+          "categories.list",
+          "mcp.score_server",
+          "products.get_mcp_setup",
+          "products.get",
+          "tools.find_for_task",
+          "directory.overview",
+          "rankings.get",
+          "tools.search",
+          "tools.list_by_name",
+          "tools.changes",
+          "products.search",
+          "products.find_agent_ready",
+          "products.find_by_capability"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:03.495Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-03Z-54916a",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "tools.get",
+          "categories.list",
+          "mcp.score_server",
+          "products.get_mcp_setup",
+          "products.get",
+          "tools.find_for_task",
+          "directory.overview",
+          "rankings.get",
+          "tools.search",
+          "tools.list_by_name",
+          "tools.changes",
+          "products.search",
+          "products.find_agent_ready",
+          "products.find_by_capability"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:28.035Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-28Z-411933",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "tools.get",
+          "categories.list",
+          "mcp.score_server",
+          "products.get_mcp_setup",
+          "products.get",
+          "tools.find_for_task",
+          "directory.overview",
+          "rankings.get",
+          "tools.search",
+          "tools.list_by_name",
+          "tools.changes",
+          "products.search",
+          "products.find_agent_ready",
+          "products.find_by_capability"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.revuo/revuo",
+  "slug": "ai.revuo__revuo"
+}

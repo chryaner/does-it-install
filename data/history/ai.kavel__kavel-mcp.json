@@ -1,0 +1,51 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:10.254Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-10Z-ab7350",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "list_kavel_tools",
+          "build_kavel_prompt",
+          "open_in_kavel",
+          "list_kavel_models"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:03.495Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-03Z-54916a",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "list_kavel_tools",
+          "build_kavel_prompt",
+          "open_in_kavel",
+          "list_kavel_models"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:28.035Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-28Z-411933",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "list_kavel_tools",
+          "build_kavel_prompt",
+          "open_in_kavel",
+          "list_kavel_models"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.kavel/kavel-mcp",
+  "slug": "ai.kavel__kavel-mcp"
+}

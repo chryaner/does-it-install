@@ -1,0 +1,63 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:05.405Z",
+        "method": "pypi",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "sugra_entity_screen",
+          "sugra_entity_lookup",
+          "search_endpoints",
+          "describe_endpoint",
+          "call_endpoint",
+          "list_toolsets",
+          "fetch_data",
+          "list_sources"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:06.300Z",
+        "method": "pypi",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "sugra_entity_screen",
+          "sugra_entity_lookup",
+          "search_endpoints",
+          "describe_endpoint",
+          "call_endpoint",
+          "list_toolsets",
+          "fetch_data",
+          "list_sources"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "method": "pypi",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "sugra_entity_screen",
+          "sugra_entity_lookup",
+          "search_endpoints",
+          "describe_endpoint",
+          "call_endpoint",
+          "list_toolsets",
+          "fetch_data",
+          "list_sources"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.sugra/api-mcp",
+  "slug": "ai.sugra__api-mcp"
+}

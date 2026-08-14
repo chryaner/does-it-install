@@ -1,0 +1,75 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:05.405Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "cross_lens_verify",
+          "sigil_verify_supply_path",
+          "sigil_verify_ads_txt",
+          "sigil_verify_ip_type",
+          "sigil_verify_app_bundle",
+          "sigil_verify_supply_chain",
+          "sigil_traverse_supply_chain",
+          "sigil_score_entity",
+          "sigil_score_batch",
+          "sigil_atap_register_ait",
+          "sigil_atap_witness",
+          "sigil_generate_receipt"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:06.300Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "cross_lens_verify",
+          "sigil_verify_supply_path",
+          "sigil_verify_ads_txt",
+          "sigil_verify_ip_type",
+          "sigil_verify_app_bundle",
+          "sigil_verify_supply_chain",
+          "sigil_traverse_supply_chain",
+          "sigil_score_entity",
+          "sigil_score_batch",
+          "sigil_atap_register_ait",
+          "sigil_atap_witness",
+          "sigil_generate_receipt"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "cross_lens_verify",
+          "sigil_verify_supply_path",
+          "sigil_verify_ads_txt",
+          "sigil_verify_ip_type",
+          "sigil_verify_app_bundle",
+          "sigil_verify_supply_chain",
+          "sigil_traverse_supply_chain",
+          "sigil_score_entity",
+          "sigil_score_batch",
+          "sigil_atap_register_ait",
+          "sigil_atap_witness",
+          "sigil_generate_receipt"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.tunnelmind/sigil",
+  "slug": "ai.tunnelmind__sigil"
+}

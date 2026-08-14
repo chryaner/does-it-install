@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-14T20:23:10.254Z",
+        "errorExcerpt": "@contextlayer/mcp declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-10Z-ab7350",
+        "status": "spawn_failed"
+      },
+      {
         "date": "2026-08-14T18:53:45.798Z",
         "errorExcerpt": "@contextlayer/mcp declares no runnable \"bin\" entry, so there is nothing to spawn",
         "method": "npm",
@@ -11,6 +18,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-14T20:23:03.495Z",
+        "errorExcerpt": "@contextlayer/mcp declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-03Z-54916a",
+        "status": "spawn_failed"
+      },
+      {
         "date": "2026-08-14T18:53:41.622Z",
         "errorExcerpt": "@contextlayer/mcp declares no runnable \"bin\" entry, so there is nothing to spawn",
         "method": "npm",
@@ -19,6 +33,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-14T20:23:28.035Z",
+        "errorExcerpt": "@contextlayer/mcp declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-28Z-411933",
+        "status": "spawn_failed"
+      },
       {
         "date": "2026-08-14T18:53:58.370Z",
         "errorExcerpt": "@contextlayer/mcp declares no runnable \"bin\" entry, so there is nothing to spawn",

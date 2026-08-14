@@ -1,0 +1,69 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:09.525Z",
+        "method": "pypi",
+        "runId": "2026-08-14T20-23-09Z-35e1e7",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "get_context",
+          "get_raw_file",
+          "list_decisions",
+          "get_decision",
+          "diff_since_last_session",
+          "search_decisions",
+          "check_decision",
+          "propose_decision",
+          "flag_question",
+          "update_state"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:00.382Z",
+        "method": "pypi",
+        "runId": "2026-08-14T20-23-00Z-e49a74",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "get_context",
+          "get_raw_file",
+          "list_decisions",
+          "get_decision",
+          "diff_since_last_session",
+          "search_decisions",
+          "check_decision",
+          "propose_decision",
+          "flag_question",
+          "update_state"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:35.929Z",
+        "method": "pypi",
+        "runId": "2026-08-14T20-23-35Z-992a9c",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "get_context",
+          "get_raw_file",
+          "list_decisions",
+          "get_decision",
+          "diff_since_last_session",
+          "search_decisions",
+          "check_decision",
+          "propose_decision",
+          "flag_question",
+          "update_state"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.nauro/nauro",
+  "slug": "ai.nauro__nauro"
+}

@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:10.254Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"id\":0,\"error\":{\"code\":-32600,\"message\":\"Unauthorized: connect this server via claude.ai's custom-connector flow (OAuth) or paste a static token from https://superfact.ai/integrations as a Bearer header.\"}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-10Z-ab7350",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:03.495Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"id\":0,\"error\":{\"code\":-32600,\"message\":\"Unauthorized: connect this server via claude.ai's custom-connector flow (OAuth) or paste a static token from https://superfact.ai/integrations as a Bearer header.\"}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-03Z-54916a",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:28.035Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"id\":0,\"error\":{\"code\":-32600,\"message\":\"Unauthorized: connect this server via claude.ai's custom-connector flow (OAuth) or paste a static token from https://superfact.ai/integrations as a Bearer header.\"}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-28Z-411933",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "ai.superfact/superfact",
+  "slug": "ai.superfact__superfact"
+}

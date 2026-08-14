@@ -1,0 +1,57 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:05.405Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "get_human_state",
+          "ingest",
+          "get_trigger_memory",
+          "get_session_history",
+          "request_api_key",
+          "check_api_key_status"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:06.300Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "get_human_state",
+          "ingest",
+          "get_trigger_memory",
+          "get_session_history",
+          "request_api_key",
+          "check_api_key_status"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "get_human_state",
+          "ingest",
+          "get_trigger_memory",
+          "get_session_history",
+          "request_api_key",
+          "check_api_key_status"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.nefesh/human-state",
+  "slug": "ai.nefesh__human-state"
+}

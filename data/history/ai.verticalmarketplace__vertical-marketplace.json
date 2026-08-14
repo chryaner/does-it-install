@@ -1,0 +1,120 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:05.405Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "pass",
+        "toolCount": 27,
+        "toolNames": [
+          "about_marketplace",
+          "list_verticals",
+          "register_agent",
+          "get_platform_stats",
+          "submit_idea",
+          "contact_marketplace",
+          "become_seller",
+          "sell_data",
+          "browse_marketplace",
+          "preview_listing",
+          "buy_data",
+          "get_purchase",
+          "rate_listing",
+          "update_listing",
+          "deactivate_listing",
+          "listing_history",
+          "seller_dashboard",
+          "marketplace_stats",
+          "list_health_data",
+          "search_health_data",
+          "set_delivery_endpoint",
+          "get_wallet_balance",
+          "fund_wallet",
+          "setup_payment_method",
+          "configure_auto_recharge",
+          "bulk_purchase",
+          "wallet_transactions"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:06.300Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "pass",
+        "toolCount": 27,
+        "toolNames": [
+          "about_marketplace",
+          "list_verticals",
+          "register_agent",
+          "get_platform_stats",
+          "submit_idea",
+          "contact_marketplace",
+          "become_seller",
+          "sell_data",
+          "browse_marketplace",
+          "preview_listing",
+          "buy_data",
+          "get_purchase",
+          "rate_listing",
+          "update_listing",
+          "deactivate_listing",
+          "listing_history",
+          "seller_dashboard",
+          "marketplace_stats",
+          "list_health_data",
+          "search_health_data",
+          "set_delivery_endpoint",
+          "get_wallet_balance",
+          "fund_wallet",
+          "setup_payment_method",
+          "configure_auto_recharge",
+          "bulk_purchase",
+          "wallet_transactions"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "pass",
+        "toolCount": 27,
+        "toolNames": [
+          "about_marketplace",
+          "list_verticals",
+          "register_agent",
+          "get_platform_stats",
+          "submit_idea",
+          "contact_marketplace",
+          "become_seller",
+          "sell_data",
+          "browse_marketplace",
+          "preview_listing",
+          "buy_data",
+          "get_purchase",
+          "rate_listing",
+          "update_listing",
+          "deactivate_listing",
+          "listing_history",
+          "seller_dashboard",
+          "marketplace_stats",
+          "list_health_data",
+          "search_health_data",
+          "set_delivery_endpoint",
+          "get_wallet_balance",
+          "fund_wallet",
+          "setup_payment_method",
+          "configure_auto_recharge",
+          "bulk_purchase",
+          "wallet_transactions"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.verticalmarketplace/vertical-marketplace",
+  "slug": "ai.verticalmarketplace__vertical-marketplace"
+}

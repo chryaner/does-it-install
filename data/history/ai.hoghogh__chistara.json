@@ -1,0 +1,96 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:05.405Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-05Z-90f533",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "search_law_articles",
+          "lookup_law_article",
+          "search_case_law",
+          "search_circular",
+          "calculate_diyeh",
+          "calculate_litigation_fee",
+          "calculate_severance",
+          "search_advisory_opinions",
+          "lookup_annual_rate",
+          "lookup_sentencing_range",
+          "lookup_statute_of_limitations",
+          "lookup_procedure",
+          "calculate_mahrieh",
+          "calculate_inheritance",
+          "calculate_delay_penalty",
+          "calculate_stamp_duty",
+          "calculate_notary_fee",
+          "calculate_lawyer_fee",
+          "calculate_tax"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:06.300Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-06Z-df9438",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "search_law_articles",
+          "lookup_law_article",
+          "search_case_law",
+          "search_circular",
+          "calculate_diyeh",
+          "calculate_litigation_fee",
+          "calculate_severance",
+          "search_advisory_opinions",
+          "lookup_annual_rate",
+          "lookup_sentencing_range",
+          "lookup_statute_of_limitations",
+          "lookup_procedure",
+          "calculate_mahrieh",
+          "calculate_inheritance",
+          "calculate_delay_penalty",
+          "calculate_stamp_duty",
+          "calculate_notary_fee",
+          "calculate_lawyer_fee",
+          "calculate_tax"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:24.859Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T20-23-24Z-922917",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "search_law_articles",
+          "lookup_law_article",
+          "search_case_law",
+          "search_circular",
+          "calculate_diyeh",
+          "calculate_litigation_fee",
+          "calculate_severance",
+          "search_advisory_opinions",
+          "lookup_annual_rate",
+          "lookup_sentencing_range",
+          "lookup_statute_of_limitations",
+          "lookup_procedure",
+          "calculate_mahrieh",
+          "calculate_inheritance",
+          "calculate_delay_penalty",
+          "calculate_stamp_duty",
+          "calculate_notary_fee",
+          "calculate_lawyer_fee",
+          "calculate_tax"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.hoghogh/chistara",
+  "slug": "ai.hoghogh__chistara"
+}

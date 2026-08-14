@@ -1,0 +1,57 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T20:23:09.525Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-09Z-35e1e7",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "list_gates",
+          "get_gate",
+          "list_logs",
+          "get_recommendations",
+          "list_experiments",
+          "list_models"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T20:23:00.382Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-00Z-e49a74",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "list_gates",
+          "get_gate",
+          "list_logs",
+          "get_recommendations",
+          "list_experiments",
+          "list_models"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T20:23:35.929Z",
+        "method": "npm",
+        "runId": "2026-08-14T20-23-35Z-992a9c",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "list_gates",
+          "get_gate",
+          "list_logs",
+          "get_recommendations",
+          "list_experiments",
+          "list_models"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.verlon/mcp",
+  "slug": "ai.verlon__mcp"
+}
