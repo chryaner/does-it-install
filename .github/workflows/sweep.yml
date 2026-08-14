@@ -108,7 +108,7 @@ jobs:
       # unavailable the probes record `skipped`, never a failure, so an outage
       # upstream must not take the sweep down with it.
       - name: set up uv (optional)
-        uses: astral-sh/setup-uv@v10
+        uses: astral-sh/setup-uv@v7
         continue-on-error: true
         with:
           # Every probe resolves into its own throwaway environment, so a
