@@ -1,5 +1,5 @@
 /**
- * Loader for `data/seed.json` — the hand-curated entries that are catalogued
+ * Loader for `data/seed.json`, the hand-curated entries that are catalogued
  * whether or not the registry lists them.
  *
  * Unlike registry data, the seed file is ours: a typo in it is a repository

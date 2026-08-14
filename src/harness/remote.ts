@@ -1,8 +1,8 @@
 /**
  * remote probe: connect to a hosted endpoint over streamable HTTP (or legacy
- * SSE), initialize and list tools. We never send the headers a server declares
- * — we have no credentials — so "reachable but needs auth" is an expected and
- * useful outcome, recorded as `handshake_failed` with the HTTP detail.
+ * SSE), initialize and list tools. We never send the headers a server declares,
+ * because we have no credentials, so "reachable but needs auth" is an expected
+ * and useful outcome, recorded as `handshake_failed` with the HTTP detail.
  */
 import { Client } from '@modelcontextprotocol/sdk/client/index.js';
 import { SSEClientTransport } from '@modelcontextprotocol/sdk/client/sse.js';
@@ -51,7 +51,7 @@ export function classifyRemoteError(err: unknown): RemoteFailure {
       return {
         phase: 'handshake',
         status: 'handshake_failed',
-        detail: `${described} — endpoint reachable but requires credentials the harness does not send`
+        detail: `${described} (endpoint reachable but requires credentials the harness does not send)`
       };
     }
     return { phase: 'connect', status: 'connect_failed', detail: described };

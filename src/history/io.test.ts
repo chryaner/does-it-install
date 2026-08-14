@@ -40,6 +40,7 @@ const HISTORY: ServerHistory = {
         status: 'pass',
         method: 'npm',
         toolCount: 4,
+        toolNames: ['echo', 'add', 'printEnv', 'longRunningOperation'],
       },
       { runId: 'run-1', date: '2026-08-01T00:00:00.000Z', status: 'timeout', method: 'npm' },
     ],
@@ -275,5 +276,29 @@ describe('loadRunsDir', () => {
 describe('parseServerHistory', () => {
   it('rejects a document that is not an object', () => {
     expect(() => parseServerHistory('nope', 'slug')).toThrow(/history must be an object/);
+  });
+
+  it('round-trips the tool names of an entry', () => {
+    const parsed = parseServerHistory(JSON.parse(serializeHistory(HISTORY)), HISTORY.slug);
+
+    expect(parsed.platforms.linux?.[0]?.toolNames).toEqual([
+      'echo',
+      'add',
+      'printEnv',
+      'longRunningOperation',
+    ]);
+    expect(parsed.platforms.linux?.[1] && 'toolNames' in parsed.platforms.linux[1]).toBe(false);
+  });
+
+  it('treats a tool name that is not a string as corrupt', () => {
+    const document = {
+      serverId: 'x',
+      slug: 'broken',
+      platforms: { linux: [{ runId: 'r', date: 'd', status: 'pass', method: 'npm', toolNames: [7] }] },
+    };
+
+    expect(() => parseServerHistory(document, 'broken')).toThrow(
+      /toolNames\[0\] must be a non-empty string/,
+    );
   });
 });

@@ -2,7 +2,7 @@
  * Shared data contract for does-it-install.
  *
  * Every module (catalog, harness, history, badges, site) reads and writes
- * these shapes. Changes here are breaking changes for the whole pipeline —
+ * these shapes. Changes here are breaking changes for the whole pipeline:
  * the on-disk JSON files in data/ follow these interfaces exactly.
  *
  * Pipeline:

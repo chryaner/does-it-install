@@ -25,7 +25,7 @@ describe('escapeHtml', () => {
 
   it('leaves ordinary text and unicode alone', () => {
     expect(escapeHtml('')).toBe('');
-    expect(escapeHtml('server-everything 1.0 — ok')).toBe('server-everything 1.0 — ok');
+    expect(escapeHtml('server-everything 1.0 · café ok')).toBe('server-everything 1.0 · café ok');
   });
 });
 

@@ -1,6 +1,6 @@
 /**
  * The stdio half of the harness: spawn a command, run the MCP handshake against
- * it and list its tools. Used by both the npm and the pypi probe — they differ
+ * it and list its tools. Used by both the npm and the pypi probe, which differ
  * only in how they get to a runnable command line.
  */
 import { Client } from '@modelcontextprotocol/sdk/client/index.js';
@@ -100,7 +100,7 @@ function failedAt(
 /**
  * Runs an already-installed server: spawns `command args`, performs
  * `initialize` and `tools/list`, and always tears the child down again.
- * Never throws — every failure comes back as a status plus an error excerpt.
+ * Never throws: every failure comes back as a status plus an error excerpt.
  */
 export async function probeStdio(
   command: string,

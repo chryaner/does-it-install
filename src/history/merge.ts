@@ -4,13 +4,14 @@
  * The merge stage is re-run on every sweep and on re-uploaded artifacts, so it
  * has to be idempotent: a `runId` already recorded for a platform is never
  * added twice. Servers that no run mentions keep their existing history byte
- * for byte — rot data is the product, and a server dropping out of the catalog
+ * for byte: rot data is the product, and a server dropping out of the catalog
  * must not erase what we already know about it.
  */
 
 import {
   HISTORY_LIMIT,
   type HistoryEntry,
+  MAX_TOOL_NAMES,
   type ProbeResult,
   type RunFile,
   type ServerHistory,
@@ -77,6 +78,11 @@ function toEntry(run: RunFile, result: ProbeResult): HistoryEntry {
     method: result.method,
   };
   if (typeof result.toolCount === 'number') entry.toolCount = result.toolCount;
+  // The harness already caps this; re-capped here because run artifacts arrive
+  // from CI and history files are the thing we have to keep small.
+  if (result.toolNames !== undefined && result.toolNames.length > 0) {
+    entry.toolNames = result.toolNames.slice(0, MAX_TOOL_NAMES);
+  }
   if (result.errorExcerpt) entry.errorExcerpt = result.errorExcerpt;
   return entry;
 }

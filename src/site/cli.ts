@@ -6,8 +6,8 @@
  * `s/`, `methodology.html`, `404.html` and a `.nojekyll` marker so GitHub
  * Pages serves the directory as-is.
  *
- * Existing files in the output directory are left alone — the badge stage
- * writes `public/badge/` and must survive a site rebuild.
+ * Existing files in the output directory are left alone, because the badge
+ * stage writes `public/badge/` and must survive a site rebuild.
  */
 
 import { mkdir, writeFile } from 'node:fs/promises';

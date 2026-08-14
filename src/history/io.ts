@@ -3,9 +3,9 @@
  * `data/runs/<runId>-<platform>.json` (input, produced by the sweep) and
  * `data/history/<slug>.json` (input and output).
  *
- * Both are parsed defensively — run artifacts arrive from CI machines and
- * history files are committed to git where they can be hand-edited or land in
- * a bad merge. A file we cannot parse is reported on stderr and skipped, never
+ * Both are parsed defensively, because run artifacts arrive from CI machines
+ * and history files are committed to git where they can be hand-edited or land
+ * in a bad merge. A file we cannot parse is reported on stderr and skipped, never
  * repaired, deleted, or silently overwritten: `loadHistoryDir` hands back the
  * slugs it skipped so `saveHistoryDir` can leave those files untouched for a
  * human to look at.
@@ -208,14 +208,16 @@ function parseHistoryEntry(value: unknown): HistoryEntry {
   };
   const toolCount = optionalNumber(record['toolCount'], 'toolCount');
   if (toolCount !== undefined) entry.toolCount = toolCount;
+  const toolNames = optionalStringArray(record['toolNames'], 'toolNames');
+  if (toolNames) entry.toolNames = toolNames;
   const errorExcerpt = optionalString(record['errorExcerpt'], 'errorExcerpt');
   if (errorExcerpt) entry.errorExcerpt = errorExcerpt;
   return entry;
 }
 
 /**
- * Validate a parsed run artifact. Identity and results are required — merging
- * without them would corrupt history — while descriptive metadata
+ * Validate a parsed run artifact. Identity and results are required, because
+ * merging without them would corrupt history. Descriptive metadata
  * (harness/node/os versions, per-result timings) falls back to a default so a
  * run from a slightly different harness build is still usable.
  */

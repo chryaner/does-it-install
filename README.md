@@ -5,21 +5,22 @@ and connect today?
 
 The directories list servers. Nobody tests them. An entry can sit in a registry
 for a year after its package stopped resolving, its entry point got renamed, or
-its hosted endpoint went away — and you find out by pasting the config into
+its hosted endpoint went away, and you find out by pasting the config into
 your client and watching it fail.
 
 This project installs each catalogued server from scratch on Linux, macOS and
 Windows, performs a real MCP handshake, asks for its tool list, and publishes
-what happened — including the actual error text when it breaks — as a static
+what happened, including the actual error text when it breaks, as a static
 site with per-server pages, green/red history strips, and shields.io badges
 maintainers can embed.
 
-Scope, stated plainly: the index covers the top-ranked slice of the official
-MCP registry (a few hundred servers) plus a curated seed file, refreshed
-weekly. It is not every MCP server ever published, and a green badge means
-"installed and answered `tools/list` last Monday", not "good", "safe" or
-"maintained". [docs/METHODOLOGY.md](docs/METHODOLOGY.md) is precise about what
-each result does and does not claim.
+Scope: the index covers the first few hundred servers the official MCP registry
+lists (registry order, which is roughly alphabetical, not a popularity
+ranking), plus a curated seed file, refreshed weekly. It is not every MCP
+server ever published, and a green badge means "installed and answered
+`tools/list` last Monday", not "good", "safe" or "maintained".
+[docs/METHODOLOGY.md](docs/METHODOLOGY.md) is precise about what each result
+does and does not claim.
 
 ## Badges
 
@@ -30,7 +31,7 @@ overall badge in your own README:
 [![does it install](https://img.shields.io/endpoint?url=https://chryaner.github.io/does-it-install/badge/io.github.owner__name.json)](https://chryaner.github.io/does-it-install/s/io.github.owner__name.html)
 ```
 
-Replace `io.github.owner__name` with your server's slug — its id lowercased
+Replace `io.github.owner__name` with your server's slug: its id lowercased
 with `/` replaced by `__`. The exact URL is printed on your server's page. For
 a single platform, use `badge/<slug>-linux.json`, `-darwin` or `-win32`.
 
@@ -59,15 +60,15 @@ up, required environment variables are filled with a placeholder (never real
 credentials) and reported on the page, and remote endpoints that answer
 401/403 are recorded as "reachable but needs auth" rather than as dead.
 
-Full details — catalog sources, ranking, sharding, the env and remote-auth
+Full details (catalog sources, ranking, sharding, the env and remote-auth
 policies, badge semantics, and the limitations that matter when you read a red
-badge — are in [docs/METHODOLOGY.md](docs/METHODOLOGY.md). The design is in
+badge) are in [docs/METHODOLOGY.md](docs/METHODOLOGY.md). The design is in
 [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 
 ## Safety
 
 **The harness installs and executes third-party code. That is the whole point
-of it, and it is why sweeps belong in disposable environments only** —
+of it, and it is why sweeps belong in disposable environments only**:
 throwaway CI runners, containers or VMs you can delete. Do not run a full sweep
 on a machine you care about.
 
@@ -78,7 +79,7 @@ your real tokens are not handed to anything it runs.
 
 ## Running it locally
 
-Requires Node 22. `uv` is optional — without it, PyPI servers are recorded
+Requires Node 22. `uv` is optional, and without it PyPI servers are recorded
 `skipped` rather than failed.
 
 ```sh
@@ -101,7 +102,7 @@ npm run site                                    # public/index.html, public/s/<s
 Open `public/index.html` in a browser to see the result.
 
 To work against the real registry, drop `--offline` and cap the sweep instead
-of running the whole catalog — in a disposable environment, per the section
+of running the whole catalog, in a disposable environment, per the section
 above:
 
 ```sh
@@ -115,7 +116,7 @@ npm run sweep -- --top 25 --methods npm --concurrency 4
 ## Adding or fixing a server
 
 - **Missing?** Publish it to the [official MCP
-  registry](https://registry.modelcontextprotocol.io) — the weekly sweep reads
+  registry](https://registry.modelcontextprotocol.io). The weekly sweep reads
   `version=latest` and picks new entries up automatically.
 - **In the registry but its record is wrong or unprobeable?** Open a PR adding
   an entry to `data/seed.json`. Seed entries win on id collision, so they are
@@ -123,8 +124,8 @@ npm run sweep -- --top 25 --methods npm --concurrency 4
   arguments a server needs to start. The shape is `ServerEntry` in
   `src/types.ts` minus the fields the builder fills in (`slug`, `source`).
 - **Badge wrong?** Open an issue with a link to the server page and the error
-  excerpt it shows. Known causes of false negatives — placeholder credentials
-  and guessed PyPI console scripts — are listed under "Known limitations" in
+  excerpt it shows. Known causes of false negatives (placeholder credentials
+  and guessed PyPI console scripts) are listed under "Known limitations" in
   the methodology.
 
 Results are never edited by hand. If a server is red and should not be, the fix
@@ -134,7 +135,7 @@ is in the catalog entry or in the harness, not in `data/history/`.
 
 | Path | What lives there |
 | --- | --- |
-| `src/types.ts` | the data contract — every on-disk shape, nothing else defines them |
+| `src/types.ts` | the data contract: every on-disk shape, nothing else defines them |
 | `src/catalog/` | registry + `data/seed.json` → `data/catalog.json` |
 | `src/harness/` | the probe: install, spawn, handshake, `tools/list`, per-OS sharding |
 | `src/history/` | run artifacts → `data/history/<slug>.json` (idempotent merge) |
@@ -153,7 +154,7 @@ is in the catalog entry or in the harness, not in `data/history/`.
 
 Unit tests are colocated (`*.test.ts`) and must pass without network access;
 smoke tests (`*.smoke.test.ts`) are the ones allowed to install real packages.
-Run `npm run typecheck && npm test` before opening a PR — CI runs the same
+Run `npm run typecheck && npm test` before opening a PR. CI runs the same
 commands, plus the smoke job.
 
 There is no license file in this repository yet, so no license is granted;

@@ -3,6 +3,8 @@ import type { Catalog, HistoryEntry, ServerEntry, ServerHistory } from '../types
 import { buildPages, type Page, type SiteOptions } from './pages.js';
 
 const XSS = '<script>alert(1)</script>';
+/** A tool name a server could publish; names reach the page verbatim otherwise. */
+const TOOL_XSS = '<img src=x onerror=alert(1)>';
 
 const OPTIONS: SiteOptions = {
   base: '/dii/',
@@ -78,10 +80,16 @@ const HISTORIES = new Map<string, ServerHistory>([
       platforms: {
         // newest first, as merge writes them
         linux: [
-          entry({ date: '2026-08-14T03:00:00.000Z', status: 'pass', toolCount: 12 }),
+          entry({
+            date: '2026-08-14T03:00:00.000Z',
+            status: 'pass',
+            toolCount: 12,
+            toolNames: ['echo', TOOL_XSS],
+          }),
           entry({ date: '2026-08-07T03:00:00.000Z', status: 'pass', toolCount: 12 }),
           entry({ date: '2026-07-31T03:00:00.000Z', status: 'install_failed' }),
         ],
+        // No names recorded: older runs predate them.
         darwin: [entry({ date: '2026-08-14T03:00:00.000Z', status: 'pass', toolCount: 12 })],
       },
     },
@@ -237,6 +245,21 @@ describe('server page', () => {
     expect(passing).toContain('<code>tools/list</code> returned 12 tools.');
   });
 
+  it('lists the tool names of the latest passing probe, escaped', () => {
+    const linux = passing.slice(passing.indexOf('<h3>Linux</h3>'), passing.indexOf('<h3>macOS</h3>'));
+    const darwin = passing.slice(passing.indexOf('<h3>macOS</h3>'), passing.indexOf('<h3>Windows</h3>'));
+
+    expect(linux).toContain(
+      '<p class="tools"><code>echo</code> <code>&lt;img src=x onerror=alert(1)&gt;</code></p>',
+    );
+    expect(passing).not.toContain(TOOL_XSS);
+    // Older entries recorded no names, so only the count is shown.
+    expect(darwin).toContain('<code>tools/list</code> returned 12 tools.');
+    expect(darwin).not.toContain('<code>echo</code>');
+    // A platform that did not pass says nothing about tools at all.
+    expect(hostile).not.toContain('returned');
+  });
+
   it('greys out skipped platforms instead of failing them', () => {
     expect(hostile).toContain('<span class="verdict none">not tested</span>');
     expect(hostile).toContain('<span class="sq none" title="2026-08-14: skipped"></span>');
@@ -265,12 +288,45 @@ describe('server page', () => {
     expect(pageOf(rootPages, 'index.html')).toContain('href="/s/seed__everything.html"');
   });
 
+  it('shows the endpoint the probe would pick, not simply the first listed', () => {
+    const dual: ServerEntry = {
+      ...REMOTE,
+      slug: 'dual',
+      remotes: [
+        { type: 'sse', url: 'https://mcp.example.test/sse', headers: [] },
+        {
+          type: 'streamable-http',
+          url: 'https://mcp.example.test/http',
+          headers: [{ name: 'ACME_TOKEN', required: true, secret: true }],
+        },
+      ],
+    };
+
+    const page = pageOf(build({ generatedAt: '', servers: [dual] }), 's/dual.html');
+
+    expect(page).toContain('<pre class="cmd"><code>https://mcp.example.test/http</code></pre>');
+    expect(page).not.toContain('https://mcp.example.test/sse');
+    expect(page).toContain('Needs credentials: <code>ACME_TOKEN</code>');
+  });
+
+  it('falls back to the first remote when none is streamable http', () => {
+    const sseOnly: ServerEntry = {
+      ...REMOTE,
+      slug: 'sse-only',
+      remotes: [{ type: 'sse', url: 'https://mcp.example.test/sse', headers: [] }],
+    };
+
+    const page = pageOf(build({ generatedAt: '', servers: [sseOnly] }), 's/sse-only.html');
+
+    expect(page).toContain('<pre class="cmd"><code>https://mcp.example.test/sse</code></pre>');
+  });
+
   it('says so when there is nothing to install', () => {
     const orphan: ServerEntry = { ...REMOTE, slug: 'orphan', remotes: [], rank: 4 };
     const pagesWithOrphan = build({ generatedAt: '', servers: [orphan] });
     const page = pageOf(pagesWithOrphan, 's/orphan.html');
     expect(page).toContain('nothing for the sweep to install');
-    expect(pageOf(pagesWithOrphan, 'index.html')).toContain('<td>—</td>');
+    expect(pageOf(pagesWithOrphan, 'index.html')).toContain('<td>none</td>');
   });
 });
 

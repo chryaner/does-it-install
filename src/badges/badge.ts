@@ -34,7 +34,7 @@ const STATUS_FACES: Record<ProbeStatus, BadgeFace> = {
 /**
  * Worst-wins ranking for the overall badge, ordered by how early the probe
  * died: the earlier it broke, the more broken the server is. `skipped` outranks
- * `pass` on purpose — a platform we could not test is not evidence of health.
+ * `pass` on purpose: a platform we could not test is not evidence of health.
  * `timeout` sits with the phase it most often hides (a spawn that never
  * finishes handshaking).
  */
@@ -103,7 +103,7 @@ function overallBadge(statuses: readonly ProbeStatus[]): ShieldsBadge {
   return badgeForStatus(worst);
 }
 
-/** `skipped` is not a failure — we never got far enough to know. */
+/** `skipped` is not a failure: we never got far enough to know. */
 function isFailure(status: ProbeStatus): boolean {
   return status !== 'pass' && status !== 'skipped';
 }

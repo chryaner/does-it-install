@@ -73,30 +73,37 @@ describe('resolveEnv', () => {
     ...overrides
   });
 
-  it('fills required variables it cannot know with the placeholder', () => {
-    const { env, requiresEnv } = resolveEnv([spec({ name: 'ACME_TOKEN', required: true, secret: true })], {});
+  it('fills required variables with the placeholder', () => {
+    const { env, requiresEnv } = resolveEnv([spec({ name: 'ACME_TOKEN', required: true, secret: true })]);
     expect(env).toEqual({ ACME_TOKEN: ENV_PLACEHOLDER });
     expect(requiresEnv).toEqual(['ACME_TOKEN']);
   });
 
-  it('uses a non-secret value the runner already provides', () => {
-    const { env, requiresEnv } = resolveEnv([spec({ name: 'ACME_REGION', required: true })], { ACME_REGION: 'eu' });
-    expect(env).toEqual({ ACME_REGION: 'eu' });
-    expect(requiresEnv).toEqual([]);
+  it('never forwards a runner variable, secret or not', () => {
+    process.env.ACME_REGION = 'eu';
+    process.env.ACME_TOKEN = 'real-credential';
+    try {
+      const { env, requiresEnv } = resolveEnv([
+        spec({ name: 'ACME_REGION', required: true }),
+        spec({ name: 'ACME_TOKEN', required: true, secret: true })
+      ]);
+      expect(env).toEqual({ ACME_REGION: ENV_PLACEHOLDER, ACME_TOKEN: ENV_PLACEHOLDER });
+      expect(requiresEnv).toEqual(['ACME_REGION', 'ACME_TOKEN']);
+    } finally {
+      delete process.env.ACME_REGION;
+      delete process.env.ACME_TOKEN;
+    }
   });
 
-  it('never forwards a declared secret from the runner environment', () => {
-    const { env, requiresEnv } = resolveEnv([spec({ name: 'ACME_TOKEN', required: true, secret: true })], {
-      ACME_TOKEN: 'real-credential'
-    });
-    expect(env).toEqual({ ACME_TOKEN: ENV_PLACEHOLDER });
-    expect(requiresEnv).toEqual(['ACME_TOKEN']);
-  });
-
-  it('leaves optional variables unset', () => {
-    const { env, requiresEnv } = resolveEnv([spec({ name: 'ACME_DEBUG' })], {});
-    expect(env).toEqual({});
-    expect(requiresEnv).toEqual([]);
+  it('leaves optional variables unset even when the runner has them', () => {
+    process.env.ACME_DEBUG = '1';
+    try {
+      const { env, requiresEnv } = resolveEnv([spec({ name: 'ACME_DEBUG' })]);
+      expect(env).toEqual({});
+      expect(requiresEnv).toEqual([]);
+    } finally {
+      delete process.env.ACME_DEBUG;
+    }
   });
 });
 

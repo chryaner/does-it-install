@@ -44,7 +44,7 @@ export function newRunId(now: Date = new Date()): string {
  * Applies `--only`, `--top` and `--shard` to the rank-ordered catalog.
  * Sharding is deterministic: entry `k` of the resulting list goes to shard
  * `k % total`, so every shard of a run covers the catalog exactly once.
- * Throws on selections that cannot be satisfied — those are operator errors.
+ * Throws on selections that cannot be satisfied, since those are operator errors.
  */
 export function selectEntries(catalog: Catalog, selection: EntrySelection = {}): ServerEntry[] {
   let entries = [...(catalog.servers ?? [])].sort((a, b) => (a.rank ?? 0) - (b.rank ?? 0));

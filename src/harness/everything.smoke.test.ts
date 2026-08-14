@@ -2,8 +2,8 @@
  * End-to-end probes that really install from npm. Run with `npm run test:smoke`.
  *
  * Only the official @modelcontextprotocol packages from data/seed.json are
- * installed here — a smoke test must never execute arbitrary third-party code
- * on a developer's machine.
+ * installed here, because a smoke test must never execute arbitrary
+ * third-party code on a developer's machine.
  */
 import fs from 'node:fs/promises';
 import os from 'node:os';

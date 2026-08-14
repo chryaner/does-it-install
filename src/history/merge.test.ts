@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest';
 import {
   HISTORY_LIMIT,
   type HistoryEntry,
+  MAX_TOOL_NAMES,
   type Platform,
   type ProbeResult,
   type RunFile,
@@ -66,7 +67,7 @@ describe('mergeRuns', () => {
 
   it('carries the error excerpt and omits absent optional fields', () => {
     const run = makeRun('run-1', '2026-08-01T03:00:00.000Z', [
-      makeResult({ status: 'install_failed', errorExcerpt: 'E404 not found' }),
+      makeResult({ status: 'install_failed', errorExcerpt: 'E404 not found', toolNames: [] }),
     ]);
 
     const [entry] = entries(mergeRuns([run], new Map()), 'io.github.acme__thing', 'linux');
@@ -79,6 +80,31 @@ describe('mergeRuns', () => {
       errorExcerpt: 'E404 not found',
     });
     expect(entry && 'toolCount' in entry).toBe(false);
+    expect(entry && 'toolNames' in entry).toBe(false);
+  });
+
+  it('carries the tool names of a passing probe and stays idempotent', () => {
+    const run = makeRun('run-1', '2026-08-01T03:00:00.000Z', [
+      makeResult({ status: 'pass', toolCount: 2, toolNames: ['echo', 'add'] }),
+    ]);
+
+    const once = mergeRuns([run], new Map());
+    const [entry] = entries(once, 'io.github.acme__thing', 'linux');
+
+    expect(entry?.toolNames).toEqual(['echo', 'add']);
+    expect(mergeRuns([run], once)).toEqual(once);
+  });
+
+  it('caps tool names at MAX_TOOL_NAMES', () => {
+    const names = Array.from({ length: MAX_TOOL_NAMES + 3 }, (_unused, index) => `tool-${String(index)}`);
+    const run = makeRun('run-1', '2026-08-01T03:00:00.000Z', [
+      makeResult({ status: 'pass', toolCount: names.length, toolNames: names }),
+    ]);
+
+    const [entry] = entries(mergeRuns([run], new Map()), 'io.github.acme__thing', 'linux');
+
+    expect(entry?.toolNames).toHaveLength(MAX_TOOL_NAMES);
+    expect(entry?.toolNames?.at(-1)).toBe(`tool-${String(MAX_TOOL_NAMES - 1)}`);
   });
 
   it('is idempotent: merging the same run twice matches merging it once', () => {

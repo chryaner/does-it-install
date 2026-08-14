@@ -2,11 +2,26 @@
   "platforms": {
     "linux": [
       {
-        "date": "2026-08-14T16:18:34.707Z",
+        "date": "2026-08-14T16:36:20.718Z",
         "method": "npm",
-        "runId": "2026-08-14T16-18-34Z-f2101b",
+        "runId": "2026-08-14T16-36-20Z-53a736",
         "status": "pass",
-        "toolCount": 13
+        "toolCount": 13,
+        "toolNames": [
+          "echo",
+          "get-annotated-message",
+          "get-env",
+          "get-resource-links",
+          "get-resource-reference",
+          "get-structured-content",
+          "get-sum",
+          "get-tiny-image",
+          "gzip-file-as-resource",
+          "toggle-simulated-logging",
+          "toggle-subscriber-updates",
+          "trigger-long-running-operation",
+          "simulate-research-query"
+        ]
       }
     ]
   },

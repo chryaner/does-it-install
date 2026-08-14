@@ -45,7 +45,7 @@ export function href(base: string, path: string): string {
 /**
  * A third-party URL we are willing to link to, or undefined. Catalog entries
  * carry whatever the registry published, so anything that is not plain
- * http(s) — `javascript:` above all — is dropped rather than rendered.
+ * http(s) is dropped rather than rendered (`javascript:` above all).
  */
 export function safeUrl(raw: string | undefined): string | undefined {
   if (raw === undefined) return undefined;

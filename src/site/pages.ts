@@ -44,7 +44,7 @@ type Tone = 'pass' | 'fail' | 'none';
 
 const PITCH =
   'Every MCP server we can find, installed from scratch and put through a real MCP handshake ' +
-  'on Linux, macOS and Windows — with the actual error text when it breaks.';
+  'on Linux, macOS and Windows, with the actual error text when it breaks.';
 
 const PLATFORM_LABELS: Record<Platform, string> = {
   linux: 'Linux',
@@ -65,7 +65,7 @@ const STATUS_PHRASES: Record<ProbeStatus, string> = {
 
 interface Install {
   /** Distribution the sweep would pick: npm, then pypi, then remote. */
-  label: 'npm' | 'pypi' | 'remote' | '—';
+  label: 'npm' | 'pypi' | 'remote' | 'none';
   /** `npx <pkg>`, `uvx <pkg>`, or the endpoint URL. */
   command?: string;
   /** True when `command` is an endpoint rather than a shell command. */
@@ -144,10 +144,10 @@ ${countCard(views.length, 'servers')}
 ${rows}
 </tbody>
 </table></div>
-<p class="legend">Status dots are ${PLATFORMS.map((platform) => escapeHtml(PLATFORM_LABELS[platform])).join(' &middot; ')}, in that order &mdash; hover one for its result. A server counts as failing when its latest probe failed on any platform we tested.</p>
+<p class="legend">Status dots are ${PLATFORMS.map((platform) => escapeHtml(PLATFORM_LABELS[platform])).join(' &middot; ')}, in that order. Hover one for its result. A server counts as failing when its latest probe failed on any platform we tested.</p>
 <p class="legend">Site built ${escapeHtml(formatDateTime(options.generatedAt))}${catalog.generatedAt === '' ? '' : ` &middot; catalog generated ${escapeHtml(formatDateTime(catalog.generatedAt))}`}.</p>`;
 
-  return layout('does it install? — MCP server status', body, options.base);
+  return layout('does it install? · MCP server status', body, options.base);
 }
 
 function countCard(value: number, label: string, tone?: Tone): string {
@@ -171,7 +171,7 @@ function indexRow(view: ServerView, options: ResolvedOptions): string {
 <td class="dots">${dots}</td>
 <td><a class="name" href="${href(options.base, `s/${entry.slug}.html`)}">${escapeHtml(entry.title)}</a><span class="id">${escapeHtml(entry.id)}</span></td>
 <td>${escapeHtml(view.install.label)}</td>
-<td class="num">${view.toolCount === undefined ? '<span class="muted">—</span>' : String(view.toolCount)}</td>
+<td class="num">${view.toolCount === undefined ? '<span class="muted">n/a</span>' : String(view.toolCount)}</td>
 <td class="when">${view.lastChecked === undefined ? 'never' : escapeHtml(formatDate(view.lastChecked))}</td>
 </tr>`;
 }
@@ -199,7 +199,7 @@ function serverPage(view: ServerView, options: ResolvedOptions): string {
     `<pre class="cmd"><code>${escapeHtml(badge)}</code></pre>`,
   ];
 
-  return layout(`${entry.title} — does it install?`, sections.filter(Boolean).join('\n'), options.base);
+  return layout(`${entry.title} · does it install?`, sections.filter(Boolean).join('\n'), options.base);
 }
 
 /** Trailing " · Repository · Website · version 1.2.3 · listed from registry". */
@@ -221,7 +221,7 @@ function installBlock(install: Install): string {
   }
 
   const caption = install.hosted
-    ? 'Hosted endpoint — nothing to install; the probe connects straight to it:'
+    ? 'Hosted endpoint, so there is nothing to install. The probe connects straight to it:'
     : 'The sweep installs into a clean prefix, but this is the command a user would run:';
 
   const credentials =
@@ -229,7 +229,7 @@ function installBlock(install: Install): string {
       ? ''
       : `\n<p class="note">Needs credentials: ${install.requiresEnv
           .map((name) => `<code>${escapeHtml(name)}</code>`)
-          .join(', ')} — the probe used placeholder values, so a red result here can simply mean “no valid credentials”.</p>`;
+          .join(', ')}. The probe used placeholder values, so a red result here can simply mean “no valid credentials”.</p>`;
 
   return `<p class="muted">${escapeHtml(caption)}</p>
 <pre class="cmd"><code>${escapeHtml(install.command)}</code></pre>${credentials}`;
@@ -257,9 +257,7 @@ function platformBlock(view: ServerView, platform: Platform): string {
   const parts = [
     `<header><h3>${escapeHtml(label)}</h3><span class="verdict ${toneOf(latest.status)}">${escapeHtml(statusPhrase(latest.status))}</span><span class="muted">${when}</span></header>`,
     historyStrip(entries),
-    latest.status === 'pass' && latest.toolCount !== undefined
-      ? `<p class="tools"><code>tools/list</code> returned ${String(latest.toolCount)} tool${latest.toolCount === 1 ? '' : 's'}.</p>`
-      : '',
+    toolsBlock(latest),
     latest.status !== 'pass' && latest.errorExcerpt !== undefined
       ? `<pre class="err">${escapeHtml(latest.errorExcerpt)}</pre>`
       : '',
@@ -268,6 +266,22 @@ function platformBlock(view: ServerView, platform: Platform): string {
   return `<section class="platform">
 ${parts.filter(Boolean).join('\n')}
 </section>`;
+}
+
+/**
+ * What `tools/list` returned, for a passing probe only: the count, plus the
+ * names when the run recorded them (older history files have none). Tool names
+ * are chosen by the server, so every one is escaped.
+ */
+function toolsBlock(latest: HistoryEntry): string {
+  if (latest.status !== 'pass' || latest.toolCount === undefined) return '';
+
+  const count = `<p class="tools"><code>tools/list</code> returned ${String(latest.toolCount)} tool${latest.toolCount === 1 ? '' : 's'}.</p>`;
+  const names = latest.toolNames ?? [];
+  if (names.length === 0) return count;
+
+  return `${count}
+<p class="tools">${names.map((name) => `<code>${escapeHtml(name)}</code>`).join(' ')}</p>`;
 }
 
 /** Oldest run first, so the strip reads left to right like a calendar. */
@@ -292,12 +306,12 @@ function methodologyPage(options: ResolvedOptions): string {
 <p class="pitch">How a green or red square on this site is produced, and what it does not tell you.</p>
 
 <h2>What one probe does</h2>
-<p>Every server in the catalog is probed independently, in a disposable CI runner, with no shared state between servers. The sweep picks the first distribution it supports — npm, then PyPI, then a hosted endpoint — and walks these phases:</p>
+<p>Every server in the catalog is probed independently, in a disposable CI runner, with no shared state between servers. The sweep picks the first distribution it supports (npm, then PyPI, then a hosted endpoint) and walks these phases:</p>
 <ul>
-<li><b>install</b> — <code>npm install</code> into a fresh temporary prefix with a clean cache, or <code>uv tool run</code> for PyPI. Nothing is installed globally.</li>
-<li><b>spawn / connect</b> — the server binary is started over stdio, or the hosted endpoint is opened with the streamable-HTTP or legacy SSE transport.</li>
-<li><b>handshake</b> — a real MCP <code>initialize</code> round trip with the official SDK client.</li>
-<li><b>tools/list</b> — the tool list is requested; the count on each page comes from this response.</li>
+<li><b>install</b>: <code>npm install</code> into a fresh temporary prefix with a clean cache, or <code>uv tool run</code> for PyPI. Nothing is installed globally.</li>
+<li><b>spawn / connect</b>: the server binary is started over stdio, or the hosted endpoint is opened with the streamable-HTTP or legacy SSE transport.</li>
+<li><b>handshake</b>: an MCP <code>initialize</code> round trip with the official SDK client.</li>
+<li><b>tools/list</b>: the tool list is requested; the count on each page comes from this response.</li>
 </ul>
 <p>A server only shows green when every phase succeeded. Otherwise the status names the phase that broke, and the newest stderr output is kept and shown verbatim on the server page.</p>
 
@@ -308,22 +322,22 @@ function methodologyPage(options: ResolvedOptions): string {
 <p>We probe with no accounts anywhere. Environment variables a server declares as required are filled with the literal placeholder <code>${escapeHtml(ENV_PLACEHOLDER)}</code>, and every affected server page says so above its results. A server that needs a real API key can therefore install perfectly and still fail the handshake here.</p>
 
 <h2>Platforms and cadence</h2>
-<p>Probes run on ${PLATFORMS.map((platform) => escapeHtml(PLATFORM_LABELS[platform])).join(', ')} runners, weekly, plus manual re-runs. Each server keeps its last ${String(HISTORY_LIMIT)} results per platform — that is the history strip. Servers that disappear from the registry keep their pages: knowing when something stopped working is the point.</p>
+<p>Probes run on ${PLATFORMS.map((platform) => escapeHtml(PLATFORM_LABELS[platform])).join(', ')} runners, weekly, plus manual re-runs. Each server keeps its last ${String(HISTORY_LIMIT)} results per platform, which is what the history strip shows. Servers that disappear from the registry keep their pages: knowing when something stopped working is the point.</p>
 
-<h2>Honest caveats</h2>
+<h2>Caveats</h2>
 <ul>
 <li><b>Red does not always mean broken.</b> It can mean the server needs credentials we do not have, needs a runtime the runner lacks, or was published for one platform only.</li>
-<li><b>Hosted endpoints that answer 401 or 403</b> are recorded as a failed handshake with the HTTP detail. They are reachable — they simply require auth we do not send.</li>
+<li><b>Hosted endpoints that answer 401 or 403</b> are recorded as a failed handshake with the HTTP detail. They are reachable, but they require auth we do not send.</li>
 <li><b>Grey means untested</b>, never "bad": no supported distribution, an OCI-only server (not probed yet), or a runner missing <code>uv</code>.</li>
 <li><b>We test installation and the handshake, not behaviour.</b> A green square says the server starts and lists its tools; it says nothing about whether those tools work well.</li>
 <li><b>Results are a snapshot.</b> Registries, package versions and hosted endpoints all move between sweeps.</li>
 </ul>
 
 <h2>Corrections</h2>
-<p>Every result is reproducible from the command shown on the server page. If a result looks wrong, the error excerpt is the whole evidence we have — file an issue on the project repository with it.</p>
+<p>Every result is reproducible from the command shown on the server page. If a result looks wrong, the error excerpt is the whole evidence we have, so file an issue on the project repository with it.</p>
 </div>`;
 
-  return layout('Methodology — does it install?', body, options.base);
+  return layout('Methodology · does it install?', body, options.base);
 }
 
 function notFoundPage(options: ResolvedOptions): string {
@@ -331,7 +345,7 @@ function notFoundPage(options: ResolvedOptions): string {
 <p class="pitch">No page here. The server you are looking for may never have been catalogued.</p>
 <p><a href="${href(options.base, '')}">Back to all servers</a></p>`;
 
-  return layout('404 — does it install?', body, options.base);
+  return layout('404 · does it install?', body, options.base);
 }
 
 // -------------------------------------------------------------------- derive
@@ -411,7 +425,9 @@ function installOf(entry: ServerEntry): Install {
     };
   }
 
-  const remote = entry.remotes[0];
+  // Same choice the probe makes: streamable HTTP first, legacy SSE as fallback.
+  const remote =
+    entry.remotes.find((candidate) => candidate.type === 'streamable-http') ?? entry.remotes[0];
   if (remote !== undefined) {
     const url = safeUrl(remote.url);
     return {
@@ -422,7 +438,7 @@ function installOf(entry: ServerEntry): Install {
     };
   }
 
-  return { label: '—', hosted: false, requiresEnv: [] };
+  return { label: 'none', hosted: false, requiresEnv: [] };
 }
 
 function requiredNames(specs: readonly { name: string; required: boolean }[]): string[] {

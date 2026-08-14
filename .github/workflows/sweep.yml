@@ -3,7 +3,7 @@
 #
 # A red server is data, not a broken build: probe jobs never fail the sweep
 # (fail-fast is off, and the harness exits 0 with a run file full of red).
-# Only the harness itself failing — bad flags, unreadable catalog — is an error.
+# Only the harness itself failing (bad flags, unreadable catalog) is an error.
 name: sweep
 
 on:
@@ -58,11 +58,14 @@ jobs:
 
       - run: npm ci
 
-      # No --limit: the catalog is the full registry every week. `top` is a
-      # sweep-time cap, so trimming here would throw away ranking information
-      # the site and future sweeps still want.
+      # The registry serves 10,000+ entries; --limit 1000 keeps the weekly
+      # catalog bounded. It leaves headroom over the 300 the sweep probes, so
+      # `top` can grow without touching this job, and it is small enough that
+      # data/catalog.json is a sane thing to commit every week and the site is
+      # a sane number of pages to generate. Raise the cap deliberately, when
+      # probe capacity grows to match it.
       - name: build catalog
-        run: npm run catalog
+        run: npm run catalog -- --limit 1000
 
       - uses: actions/upload-artifact@v4
         with:
@@ -84,7 +87,7 @@ jobs:
         # NOTE: this list is static, and `--shard i/3` below hard-codes the
         # total to match it. GitHub Actions cannot build a matrix from a
         # workflow_dispatch input without an extra job that emits JSON, which
-        # is not worth it for v1 — so the `shard_total` input must stay 3
+        # is not worth it for v1, so the `shard_total` input must stay 3
         # unless this list and the `--shard` argument are edited together.
         # The catalog job fails fast if a dispatch disagrees.
         shard: [0, 1, 2]

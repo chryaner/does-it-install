@@ -1,8 +1,8 @@
 /**
  * probeServer: pick one distribution per catalogued server and probe it.
  *
- * Order is npm, then pypi, then remote (streamable HTTP before legacy SSE) —
- * the first one we know how to run wins. Everything else is `skipped`. This
+ * Order is npm, then pypi, then remote (streamable HTTP before legacy SSE).
+ * The first one we know how to run wins. Everything else is `skipped`. This
  * function never throws: a probe that blows up is still a data point.
  */
 import {
@@ -64,26 +64,21 @@ export function selectDistribution(
 /**
  * Builds the environment a server is spawned with.
  *
- * Required variables we cannot know get `ENV_PLACEHOLDER` and are reported in
- * `requiresEnv`, so pages can caveat the result. Values declared `secret` are
- * never forwarded from the runner's environment — the harness runs third-party
- * code and has no business handing it real credentials. Optional variables are
- * left unset.
+ * This never reads the runner's environment. A registry entry chooses the
+ * variable names, so anything we forwarded by name would be an exfiltration
+ * primitive: an entry could declare `GITHUB_TOKEN` and have the harness hand
+ * that value to third-party code that can phone home. Required variables,
+ * secret or not, get `ENV_PLACEHOLDER` and are reported in `requiresEnv` so
+ * pages can caveat the result; optional variables are left unset. The SDK's
+ * stdio transport merges its own safe defaults (PATH, HOME, ...) underneath,
+ * so servers still start.
  */
-export function resolveEnv(
-  specs: readonly EnvVarSpec[],
-  source: NodeJS.ProcessEnv = process.env
-): { env: Record<string, string>; requiresEnv: string[] } {
+export function resolveEnv(specs: readonly EnvVarSpec[]): { env: Record<string, string>; requiresEnv: string[] } {
   const env: Record<string, string> = {};
   const requiresEnv: string[] = [];
 
   for (const spec of specs) {
     if (!spec?.name) continue;
-    const known = spec.secret ? undefined : source[spec.name];
-    if (known !== undefined && known !== '') {
-      env[spec.name] = known;
-      continue;
-    }
     if (!spec.required) continue;
     env[spec.name] = ENV_PLACEHOLDER;
     if (!requiresEnv.includes(spec.name)) requiresEnv.push(spec.name);

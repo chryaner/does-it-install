@@ -150,11 +150,13 @@ function toEnvVars(raw: unknown): EnvVarSpec[] {
 /**
  * Flatten registry argument objects into a plain argv slice.
  *
- * A named argument contributes its flag name, followed by its value when the
- * registry pinned one. A positional argument contributes only its value.
- * Arguments with nothing concrete to contribute — placeholders the end user is
- * meant to fill in, described by `valueHint`/`format` alone — are skipped
- * entirely; the harness runs unattended and has no value to put there.
+ * Only arguments the registry pinned a concrete value on are emitted: a named
+ * argument contributes its flag name followed by that value, a positional one
+ * contributes just the value. Arguments with nothing concrete to contribute
+ * (placeholders the end user is meant to fill in, described by `valueHint` or
+ * `format` alone) are skipped entirely, flag included; the harness
+ * runs unattended and has no value to put there, and a bare flag missing its
+ * value usually breaks the invocation outright.
  */
 function flattenArguments(raw: unknown): string[] {
   const args: string[] = [];
@@ -163,14 +165,14 @@ function flattenArguments(raw: unknown): string[] {
 
     const type = asString(candidate['type']);
     const value = asString(candidate['value']);
+    if (!value) continue;
 
     if (type === 'named') {
       const name = asString(candidate['name']);
       if (!name) continue;
-      args.push(name);
-      if (value) args.push(value);
+      args.push(name, value);
     } else if (type === 'positional') {
-      if (value) args.push(value);
+      args.push(value);
     }
   }
   return args;

@@ -2,11 +2,22 @@
   "platforms": {
     "linux": [
       {
-        "date": "2026-08-14T16:18:34.707Z",
+        "date": "2026-08-14T16:36:20.718Z",
         "method": "npm",
-        "runId": "2026-08-14T16-18-34Z-f2101b",
+        "runId": "2026-08-14T16-36-20Z-53a736",
         "status": "pass",
-        "toolCount": 9
+        "toolCount": 9,
+        "toolNames": [
+          "create_entities",
+          "create_relations",
+          "add_observations",
+          "delete_entities",
+          "delete_observations",
+          "delete_relations",
+          "read_graph",
+          "search_nodes",
+          "open_nodes"
+        ]
       }
     ]
   },

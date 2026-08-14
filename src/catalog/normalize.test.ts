@@ -28,7 +28,8 @@ describe('normalizeRegistryItem', () => {
     expect(entry).toMatchObject({
       id: 'ai.agenttrust/mcp-server',
       slug: 'ai.agenttrust__mcp-server',
-      title: 'AgentTrust — Identity & Trust for A2A Agents',
+      // Escaped, not typed: the title is third-party text copied from the fixture.
+      title: 'AgentTrust \u2014 Identity & Trust for A2A Agents',
       version: '1.1.1',
       repoUrl: 'https://github.com/agenttrust/mcp-server',
       websiteUrl: 'https://agenttrust.ai',
@@ -125,6 +126,30 @@ describe('normalizeRegistryItem', () => {
       '@clize/clize',
       'clize-mcp',
     ]);
+  });
+
+  it('skips a named argument the registry pinned no value on, flag and all', () => {
+    const entry = normalizeRegistryItem({
+      server: {
+        name: 'test/named-args',
+        packages: [
+          {
+            registryType: 'npm',
+            identifier: 'ok-pkg',
+            runtimeArguments: [
+              // A bare `--directory` would break the invocation: the end user
+              // was meant to supply the path.
+              { type: 'named', name: '--directory', valueHint: 'path', isRequired: true },
+              { type: 'named', name: '--package', value: 'ok-pkg' },
+            ],
+            packageArguments: [{ type: 'named', name: '--verbose' }],
+          },
+        ],
+      },
+    });
+
+    expect(entry?.packages[0]?.runtimeArguments).toEqual(['--package', 'ok-pkg']);
+    expect(entry?.packages[0]?.packageArguments).toBeUndefined();
   });
 
   it('skips arguments whose value the end user is meant to supply', () => {

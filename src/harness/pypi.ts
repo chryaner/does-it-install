@@ -1,7 +1,7 @@
 /**
  * pypi probe: `uv tool run` (a.k.a. uvx) resolves, downloads and runs the
  * package's console script in one shot, into its own ephemeral environment.
- * If the runner has no `uv`, the server is skipped — never failed.
+ * If the runner has no `uv`, the server is skipped, never failed.
  */
 import { spawnSync } from 'node:child_process';
 import type { PackageSpec } from '../types.js';
@@ -9,14 +9,17 @@ import type { ProbeContext } from './options.js';
 import { skippedOutcome, type ProbeOutcome } from './outcome.js';
 import { probeStdio } from './stdio.js';
 
-/** Distribution names, optionally namespaced; anything else we refuse. */
-const PYPI_IDENTIFIER = /^[A-Za-z0-9][A-Za-z0-9._/-]*$/;
+/**
+ * PEP 503-ish distribution names. PyPI has no namespaces, and `/` would let an
+ * identifier read as a local path to `uv tool run --from`, so it is refused.
+ */
+const PYPI_IDENTIFIER = /^[A-Za-z0-9][A-Za-z0-9._-]*$/;
 /** Versions are pinned with `==`, so keep them to version characters. */
 const PYPI_VERSION = /^[\w.\-+!*]+$/;
 
 let uvChecked: boolean | undefined;
 
-/** Whether `uv` is on PATH. Checked once per process — it never changes. */
+/** Whether `uv` is on PATH. Checked once per process, since it never changes. */
 export function isUvAvailable(): boolean {
   if (uvChecked === undefined) {
     const result = spawnSync('uv', ['--version'], { stdio: 'ignore', windowsHide: true });
@@ -25,15 +28,10 @@ export function isUvAvailable(): boolean {
   return uvChecked;
 }
 
-/** Console script `uv tool run` should execute: the package's last segment. */
-export function consoleCommandFor(identifier: string): string {
-  const segments = identifier.split('/');
-  return segments[segments.length - 1] ?? identifier;
-}
-
 export function buildUvArgs(pkg: PackageSpec): string[] {
   const from = pkg.version ? `${pkg.identifier}==${pkg.version}` : pkg.identifier;
-  return ['tool', 'run', '--from', from, consoleCommandFor(pkg.identifier), ...(pkg.packageArguments ?? [])];
+  // Best guess at the console script: the distribution name itself.
+  return ['tool', 'run', '--from', from, pkg.identifier, ...(pkg.packageArguments ?? [])];
 }
 
 export async function probePypi(
@@ -52,7 +50,7 @@ export async function probePypi(
       method: 'pypi',
       status: 'skipped',
       phases: { install: { ok: false, durationMs: 0, detail: 'uv not available' } },
-      errorExcerpt: 'uv not available on PATH — install uv to probe PyPI servers'
+      errorExcerpt: 'uv not available on PATH, install uv to probe PyPI servers'
     };
   }
 

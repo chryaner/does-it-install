@@ -1,20 +1,13 @@
 import { describe, expect, it } from 'vitest';
 import type { PackageSpec } from '../types.js';
 import { DEFAULT_TIMEOUTS } from './options.js';
-import { buildUvArgs, consoleCommandFor, probePypi } from './pypi.js';
+import { buildUvArgs, probePypi } from './pypi.js';
 
 const spec = (overrides: Partial<PackageSpec> = {}): PackageSpec => ({
   kind: 'pypi',
   identifier: 'mcp-server-git',
   env: [],
   ...overrides
-});
-
-describe('consoleCommandFor', () => {
-  it('uses the last path segment of the distribution name', () => {
-    expect(consoleCommandFor('mcp-server-git')).toBe('mcp-server-git');
-    expect(consoleCommandFor('acme/mcp-server-git')).toBe('mcp-server-git');
-  });
 });
 
 describe('buildUvArgs', () => {
@@ -38,7 +31,7 @@ describe('buildUvArgs', () => {
 describe('probePypi', () => {
   const context = { workDir: '/does/not/matter', timeouts: DEFAULT_TIMEOUTS, env: {} };
 
-  it('skips — never fails — when the runner has no uv', async () => {
+  it('skips, never fails, when the runner has no uv', async () => {
     const outcome = await probePypi(spec(), context, () => false);
 
     expect(outcome.method).toBe('pypi');
@@ -49,6 +42,13 @@ describe('probePypi', () => {
 
   it('refuses a malformed identifier before running uv', async () => {
     const outcome = await probePypi(spec({ identifier: 'evil package' }), context, () => true);
+    expect(outcome.status).toBe('skipped');
+    expect(outcome.errorExcerpt).toContain('malformed pypi identifier');
+  });
+
+  it('refuses an identifier containing a path separator', async () => {
+    // `--from acme/mcp-server-git` would be read as a local path, not a name.
+    const outcome = await probePypi(spec({ identifier: 'acme/mcp-server-git' }), context, () => true);
     expect(outcome.status).toBe('skipped');
     expect(outcome.errorExcerpt).toContain('malformed pypi identifier');
   });

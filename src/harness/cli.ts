@@ -1,8 +1,8 @@
 /**
- * `npm run sweep` — probe catalogued servers and write one run file.
+ * `npm run sweep`: probe catalogued servers and write one run file.
  *
  * Servers that fail are the product, not an error: the process exits 0 with a
- * run file full of red. Exit 1 is reserved for the harness itself failing —
+ * run file full of red. Exit 1 is reserved for the harness itself failing:
  * bad flags, unreadable catalog, unwritable output.
  */
 import fs from 'node:fs/promises';
@@ -147,7 +147,7 @@ export function parseMethods(value: string): MethodFilter[] {
     .filter(name => name.length > 0);
   if (names.length === 0) throw new UsageError('--methods needs at least one of: npm, pypi, remote');
   for (const name of names) {
-    if (!isMethodFilter(name)) throw new UsageError(`unknown method "${name}" — expected npm, pypi or remote`);
+    if (!isMethodFilter(name)) throw new UsageError(`unknown method "${name}", expected npm, pypi or remote`);
   }
   return names.filter(isMethodFilter);
 }

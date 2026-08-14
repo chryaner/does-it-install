@@ -46,7 +46,7 @@ export class PhaseTimeoutError extends Error {
 /**
  * Races `work` against a timer. `Promise.race` subscribes to `work`, so a late
  * rejection after the timeout stays handled and never becomes an unhandled
- * rejection — but the underlying operation keeps running, so callers must still
+ * rejection. The underlying operation does keep running, so callers must still
  * tear down whatever they started.
  */
 export async function withTimeout<T>(work: Promise<T>, timeoutMs: number, phase: string): Promise<T> {

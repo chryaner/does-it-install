@@ -1,7 +1,7 @@
 # Methodology
 
-This is the long version of what a green check on this site means, and — more
-importantly — what it does not mean.
+This is the long version of what a green check on this site means, and, more
+importantly, what it does not mean.
 
 The project answers one narrow question per server: **on a clean machine, does
 this thing install, start, and speak MCP today?** It does not judge whether a
@@ -16,13 +16,13 @@ refers to (`ProbeStatus`, `HistoryEntry`, `ShieldsBadge`, …) are defined in
 
 Two sources, merged into one list of `ServerEntry` records:
 
-1. **The official MCP registry** —
+1. **The official MCP registry**:
    `https://registry.modelcontextprotocol.io/v0/servers?version=latest`, read
    with cursor pagination (`metadata.nextCursor`), 100 items per page, a 15 s
    budget per page and a hard stop at 100 pages so a bad cursor cannot loop
    forever. Only the `version=latest` view is read: we probe the version a new
    user would get, not the whole version history.
-2. **`data/seed.json`** — a small curated file of servers we always probe,
+2. **`data/seed.json`**: a small curated file of servers we always probe,
    including the official reference servers. Seed entries win on id collision,
    so a broken or unexpressive registry record can be corrected by hand.
 
@@ -36,11 +36,18 @@ A registry fetch failure never produces a quietly truncated catalog: the
 catalog stage fails loudly, and building from the seed alone requires asking
 for it with `--offline`.
 
+The weekly sweep does not build the whole registry. It passes `--limit 1000`,
+capping the merged list at 1000 entries: headroom over the 300 servers it
+probes, and small enough that `data/catalog.json` is a sane thing to commit
+every week and to render as one page per server. Running `npm run catalog`
+without `--limit` reads all 10,000+ entries, which is fine locally and is not
+what CI wants.
+
 ## 2. Ranking, top-N and sharding
 
 `rank` is assigned by the catalog builder: seed entries first, in the order the
 seed file gives them, then registry entries in registry order. **This is source
-order, not a popularity ranking** — the registry does not yet expose a usage
+order, not a popularity ranking**: the registry does not yet expose a usage
 signal we would trust.
 
 The sweep selects entries in this order:
@@ -63,8 +70,8 @@ knows how to run:
 | 1 | npm package | `npm install --prefix <fresh temp dir>` with a private cache, locate the package `bin`, spawn it over stdio |
 | 2 | PyPI package | `uv tool run --from <pkg>[==<version>] <console-script>` into uv's own ephemeral environment |
 | 3 | Remote endpoint | connect over streamable HTTP; legacy SSE if that is all the server declares |
-| — | OCI image | `skipped` — not implemented in v1 |
-| — | Nothing runnable | `skipped` |
+| n/a | OCI image | `skipped`, not implemented in v1 |
+| n/a | Nothing runnable | `skipped` |
 
 Nothing is installed globally, no state is shared between probes, temp
 directories are removed and child process trees are killed whether the probe
@@ -93,7 +100,7 @@ slow download is not misreported as a broken server.
 
 stderr is captured continuously while the child runs. On failure the newest
 4000 characters (`MAX_ERROR_EXCERPT`) are kept and published verbatim on the
-server page — the actual error text is the most useful thing this project has
+server page: the actual error text is the most useful thing this project has
 to offer.
 
 If `uv` is not on the runner's PATH, PyPI servers are recorded `skipped`, never
@@ -113,7 +120,7 @@ The harness has no credentials and does not want any.
   environment. The harness executes third-party code; handing it real tokens
   would be indefensible.
 
-The consequence is honest but worth stating plainly: a server that validates an
+The consequence is worth stating plainly: a server that validates an
 API key during startup will fail here even though it works fine for someone
 holding a real key. That is why `requiresEnv` exists and why those results are
 caveated rather than presented as a plain verdict.
@@ -148,8 +155,8 @@ failed catalog job stops the sweep from publishing.
 
 Every sweep writes `data/runs/<runId>-<platform>.json` per shard, which the
 merge stage folds into `data/history/<slug>.json`, keyed by platform, newest
-first, capped at `HISTORY_LIMIT` (30) entries per platform — roughly 30 weeks
-of green/red strip at the current cadence.
+first, capped at `HISTORY_LIMIT` (30) entries per platform, which is roughly 30
+weeks of green/red strip at the current cadence.
 
 Merging is idempotent: re-merging the same `runId` never duplicates an entry.
 History files for servers that have left the catalog are kept, because a server
@@ -195,18 +202,19 @@ entirely broken.
 - **The PyPI console script is guessed** as the last segment of the package
   identifier. A package whose entry point is named differently will show
   `spawn_failed` or `handshake_failed` even though the right command works.
-  These are worth reporting — a seed entry can override them.
+  These are worth reporting, since a seed entry can override them.
 - **Placeholder credentials cause false negatives** for servers that validate
   keys at startup (see section 4). Check `requiresEnv` on the server page
   before believing a red badge.
 - **Weekly granularity.** A result can be up to seven days old; the "last
   checked" timestamp on each page is authoritative, not the badge color.
-- **One version per server** — whatever `version=latest` resolves to, or the
+- **One version per server**: whatever `version=latest` resolves to, or the
   version pinned in the catalog entry. Older releases are not probed.
 - **Ranking is source order, not popularity**, so `--top 300` means "the first
   300 the sources listed", not "the 300 most used".
 - **One network vantage point.** Remote endpoints are reached from
   GitHub-hosted runners; a server that geo-blocks or rate-limits CI address
   ranges will look worse here than it is for a normal user.
-- **Coverage is bounded.** The published index is the top slice of the registry
-  plus the seed, not every MCP server in existence.
+- **Coverage is bounded.** The weekly catalog is capped at 1000 entries (the
+  seed, then the registry in registry order), and only the first 300 of those
+  are probed. That is not every MCP server in existence.

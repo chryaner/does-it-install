@@ -15,7 +15,7 @@ import { describeError, killIfAlive, RollingText } from './util.js';
 /** `npm` is a shell script on POSIX and a batch file on Windows. */
 const NPM_COMMAND = process.platform === 'win32' ? 'npm.cmd' : 'npm';
 
-/** `name`, `@scope/name` — anything else we refuse to hand to npm. */
+/** `name` or `@scope/name`. Anything else we refuse to hand to npm. */
 const NPM_IDENTIFIER = /^(@[a-z0-9][\w.-]*\/)?[a-z0-9][\w.-]*$/i;
 /** Version ranges are passed on the command line; keep them boring. */
 const NPM_VERSION = /^[\w.\-+~^><=*|\s]+$/;
@@ -148,7 +148,7 @@ async function resolveBinScript(prefix: string, identifier: string): Promise<Bin
 
   const relative = selectBinEntry(identifier, (manifest as { bin?: unknown }).bin);
   if (relative === undefined) {
-    return { error: `${identifier} declares no runnable "bin" entry — nothing to spawn` };
+    return { error: `${identifier} declares no runnable "bin" entry, so there is nothing to spawn` };
   }
 
   const script = path.resolve(packageDir, relative);
@@ -173,7 +173,7 @@ interface CommandResult {
  * Runs a command to completion, capturing output and enforcing a hard timeout.
  *
  * On Windows npm is a batch file, and since Node 18.20 spawning `.cmd` without
- * a shell throws EINVAL — so there we go through the shell and quote arguments
+ * a shell throws EINVAL, so there we go through the shell and quote arguments
  * ourselves. Elsewhere the command leads its own process group, so a timeout
  * can take out whatever npm spawned along with it.
  */
