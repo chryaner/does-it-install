@@ -95,10 +95,15 @@ Static generator, no framework, inline CSS, output to `public/`:
   tool names, badge markdown snippet, links to repo/site.
 - `methodology.html` from `docs/METHODOLOGY.md` content (hand-written HTML is
   fine; no markdown pipeline dependency).
+- `sitemap.xml` and `robots.txt`: index, methodology and every server page,
+  with `lastmod` from the newest probe a server has.
+- `index.json`: the whole dataset (server identity, page URL, install method,
+  latest result per platform) for consumers who should not have to scrape HTML.
 - Everything self-contained: no external JS/CSS/fonts. Escape ALL
   interpolated strings, because server descriptions and stderr are untrusted
   input.
-- Base path configurable (`--base /does-it-install/`) for GitHub Pages.
+- Base path configurable: `--base /` for the custom domain,
+  `--base /does-it-install/` for a GitHub Pages project site.
 
 ## CI (`.github/workflows/`)
 - `ci.yml` runs on PR/push: `npm ci`, typecheck, unit tests. Smoke job
@@ -120,5 +125,4 @@ Static generator, no framework, inline CSS, output to `public/`:
 
 ## v2 (explicitly out of scope now)
 Docker/OCI probes, Windows-specific install quirks pages, registry popularity
-ranking, per-host-app compatibility (Claude Desktop / Codex / Cline versions),
-JSON API endpoint for the directories to consume.
+ranking, per-host-app compatibility (Claude Desktop / Codex / Cline versions).

@@ -127,8 +127,35 @@ function countOf(html: string, needle: string): number {
   return html.split(needle).length - 1;
 }
 
+/** What a consumer of index.json gets, described independently of pages.ts. */
+interface FeedServer {
+  id: string;
+  slug: string;
+  title: string;
+  page: string;
+  repoUrl?: string;
+  install: string;
+  platforms: Record<string, { status: string; date: string; toolCount?: number }>;
+}
+
+interface Feed {
+  generatedAt: string;
+  site: string;
+  servers: FeedServer[];
+}
+
+function feedOf(pages: Map<string, string>): Feed {
+  return JSON.parse(pageOf(pages, 'index.json')) as Feed;
+}
+
+function serverOf(pages: Map<string, string>, slug: string): FeedServer {
+  const server = feedOf(pages).servers.find((candidate) => candidate.slug === slug);
+  if (server === undefined) throw new Error(`missing feed server ${slug}`);
+  return server;
+}
+
 describe('buildPages', () => {
-  it('emits an index, a page per server, methodology and 404', () => {
+  it('emits an index, a page per server, methodology, 404 and the machine files', () => {
     expect([...build().keys()]).toEqual([
       'index.html',
       's/seed__everything.html',
@@ -136,6 +163,9 @@ describe('buildPages', () => {
       's/io.github.acme__hosted.html',
       'methodology.html',
       '404.html',
+      'sitemap.xml',
+      'robots.txt',
+      'index.json',
     ]);
   });
 });
@@ -346,5 +376,100 @@ describe('methodology and 404 pages', () => {
     const notFound = pageOf(pages, '404.html');
     expect(notFound).toContain('<h1>404</h1>');
     expect(notFound).toContain('href="/dii/"');
+  });
+});
+
+describe('sitemap.xml', () => {
+  const sitemap = pageOf(build(), 'sitemap.xml');
+
+  it('lists the index, the methodology and every server page', () => {
+    expect(sitemap).toContain('<loc>https://example.test/dii/</loc>');
+    expect(sitemap).toContain('<loc>https://example.test/dii/methodology.html</loc>');
+    expect(sitemap).toContain('<loc>https://example.test/dii/s/seed__everything.html</loc>');
+    expect(countOf(sitemap, '<url>')).toBe(5); // index + methodology + 3 servers
+  });
+
+  it('leaves 404 and the machine files out', () => {
+    expect(sitemap).not.toContain('404.html');
+    expect(sitemap).not.toContain('robots.txt');
+    expect(sitemap).not.toContain('index.json');
+  });
+
+  it('dates a server page only when it has history', () => {
+    expect(sitemap).toContain(
+      '<url><loc>https://example.test/dii/s/seed__everything.html</loc><lastmod>2026-08-14</lastmod></url>',
+    );
+    expect(sitemap).toContain(
+      '<url><loc>https://example.test/dii/s/io.github.acme__hosted.html</loc></url>',
+    );
+  });
+
+  it('opens with the xml declaration and the sitemap namespace', () => {
+    expect(sitemap.startsWith('<?xml version="1.0" encoding="UTF-8"?>\n')).toBe(true);
+    expect(sitemap).toContain('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">');
+    expect(sitemap).not.toContain('<priority>');
+    expect(sitemap).not.toContain('<changefreq>');
+  });
+});
+
+describe('robots.txt', () => {
+  const robots = pageOf(build(), 'robots.txt');
+
+  it('allows everything and points at the sitemap', () => {
+    expect(robots).toContain('User-agent: *');
+    expect(robots).toContain('Allow: /');
+    expect(robots).toContain('Sitemap: https://example.test/dii/sitemap.xml');
+    expect(robots).not.toContain('Disallow');
+  });
+});
+
+describe('index.json', () => {
+  const pages = build();
+
+  it('is pretty-printed json with a trailing newline', () => {
+    const raw = pageOf(pages, 'index.json');
+    expect(raw.endsWith('}\n')).toBe(true);
+    expect(raw).toContain('\n  "servers": [');
+    expect(() => JSON.parse(raw)).not.toThrow();
+  });
+
+  it('records the build time, the site root and every server in rank order', () => {
+    const feed = feedOf(pages);
+    expect(feed.generatedAt).toBe(OPTIONS.generatedAt);
+    expect(feed.site).toBe('https://example.test/dii');
+    expect(feed.servers.map((server) => server.slug)).toEqual([
+      PASSING.slug,
+      HOSTILE.slug,
+      REMOTE.slug,
+    ]);
+  });
+
+  it('identifies a server by id, slug, title, page url and install method', () => {
+    const passing = serverOf(pages, PASSING.slug);
+    expect(passing.id).toBe(PASSING.id);
+    expect(passing.title).toBe(PASSING.title);
+    expect(passing.page).toBe('https://example.test/dii/s/seed__everything.html');
+    expect(passing.repoUrl).toBe(PASSING.repoUrl);
+    expect(passing.install).toBe('npm');
+    // JSON is data, not markup: hostile titles are carried verbatim.
+    expect(serverOf(pages, HOSTILE.slug).title).toBe(HOSTILE.title);
+  });
+
+  it('reports the latest entry for probed platforms only', () => {
+    expect(serverOf(pages, PASSING.slug).platforms).toEqual({
+      linux: { status: 'pass', date: '2026-08-14T03:00:00.000Z', toolCount: 12 },
+      darwin: { status: 'pass', date: '2026-08-14T03:00:00.000Z', toolCount: 12 },
+    });
+    expect(serverOf(pages, HOSTILE.slug).platforms).toEqual({
+      linux: { status: 'install_failed', date: '2026-08-14T03:00:00.000Z' },
+      win32: { status: 'skipped', date: '2026-08-14T03:00:00.000Z' },
+    });
+  });
+
+  it('omits repoUrl and leaves platforms empty when there is nothing to report', () => {
+    const remote = serverOf(pages, REMOTE.slug);
+    expect('repoUrl' in remote).toBe(false);
+    expect(remote.install).toBe('remote');
+    expect(remote.platforms).toEqual({});
   });
 });

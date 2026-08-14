@@ -24,7 +24,7 @@ import { escapeHtml, externalLink, href, layout, normalizeBase, safeUrl } from '
 export interface SiteOptions {
   /** URL prefix every link is built from, e.g. `/` or `/does-it-install/`. */
   base: string;
-  /** Absolute site root, used for badge snippets people paste elsewhere. */
+  /** Absolute site root: badge snippets, the sitemap and the JSON feed. */
   siteUrl: string;
   /** ISO timestamp of this build. */
   generatedAt: string;
@@ -33,6 +33,7 @@ export interface SiteOptions {
 /** One output file, path relative to the output directory, `/`-separated. */
 export interface Page {
   path: string;
+  /** File content. Named for the common case; sitemap.xml and friends ride along. */
   html: string;
 }
 
@@ -116,6 +117,9 @@ export function buildPages(
     })),
     { path: 'methodology.html', html: methodologyPage(resolved) },
     { path: '404.html', html: notFoundPage(resolved) },
+    { path: 'sitemap.xml', html: sitemapFile(views, resolved) },
+    { path: 'robots.txt', html: robotsFile(resolved) },
+    { path: 'index.json', html: feedFile(views, resolved) },
   ];
 }
 
@@ -180,7 +184,7 @@ function indexRow(view: ServerView, options: ResolvedOptions): string {
 
 function serverPage(view: ServerView, options: ResolvedOptions): string {
   const { entry, install } = view;
-  const badge = `[![does it install](https://img.shields.io/endpoint?url=${options.siteUrl}/badge/${entry.slug}.json)](${options.siteUrl}/s/${entry.slug}.html)`;
+  const badge = `[![does it install](https://img.shields.io/endpoint?url=${options.siteUrl}/badge/${entry.slug}.json)](${pageUrl(entry, options)})`;
 
   const sections = [
     `<p class="crumb"><a href="${href(options.base, '')}">&larr; All servers</a></p>`,
@@ -346,6 +350,114 @@ function notFoundPage(options: ResolvedOptions): string {
 <p><a href="${href(options.base, '')}">Back to all servers</a></p>`;
 
   return layout('404 · does it install?', body, options.base);
+}
+
+// ------------------------------------------------------- sitemap, robots, feed
+
+/**
+ * Sitemap over the pages worth crawling: the index, the methodology and every
+ * server page. 404.html is left out on purpose. A server page carries the date
+ * of its newest probe as `lastmod`, so a crawler can tell a page that moved
+ * this week from one that has not changed in months; a server with no history
+ * has no such date and gets no `lastmod` at all.
+ */
+function sitemapFile(views: readonly ServerView[], options: ResolvedOptions): string {
+  const urls = [
+    sitemapUrl(`${options.siteUrl}/`),
+    sitemapUrl(`${options.siteUrl}/methodology.html`),
+    ...views.map((view) => sitemapUrl(pageUrl(view.entry, options), view.lastChecked)),
+  ];
+
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${urls.join('\n')}
+</urlset>
+`;
+}
+
+/** `escapeHtml`'s entities are all valid XML, so URLs use the one escape path. */
+function sitemapUrl(loc: string, lastmod?: string): string {
+  const modified =
+    lastmod === undefined ? '' : `<lastmod>${escapeHtml(formatDate(lastmod))}</lastmod>`;
+  return `  <url><loc>${escapeHtml(loc)}</loc>${modified}</url>`;
+}
+
+/** Nothing here is private, so the only useful line is where the sitemap is. */
+function robotsFile(options: ResolvedOptions): string {
+  return `User-agent: *
+Allow: /
+
+Sitemap: ${options.siteUrl}/sitemap.xml
+`;
+}
+
+/** One platform's latest result, as the feed exposes it. */
+interface FeedPlatform {
+  status: ProbeStatus;
+  /** ISO timestamp of the probe, exactly as history recorded it. */
+  date: string;
+  toolCount?: number;
+}
+
+interface FeedServer {
+  id: string;
+  slug: string;
+  title: string;
+  page: string;
+  repoUrl?: string;
+  install: Install['label'];
+  platforms: Partial<Record<Platform, FeedPlatform>>;
+}
+
+interface Feed {
+  generatedAt: string;
+  site: string;
+  servers: FeedServer[];
+}
+
+/**
+ * The whole dataset as JSON, for anyone who wants the results without scraping
+ * the HTML. Rank order, same as the index. Platforms we never probed are
+ * absent rather than null, so `platforms` is empty for an untested server.
+ */
+function feedFile(views: readonly ServerView[], options: ResolvedOptions): string {
+  const feed: Feed = {
+    generatedAt: options.generatedAt,
+    site: options.siteUrl,
+    servers: views.map((view) => feedServer(view, options)),
+  };
+
+  return `${JSON.stringify(feed, null, 2)}\n`;
+}
+
+function feedServer(view: ServerView, options: ResolvedOptions): FeedServer {
+  const { entry } = view;
+  const platforms: Partial<Record<Platform, FeedPlatform>> = {};
+
+  for (const platform of PLATFORMS) {
+    const latest = view.latest.get(platform);
+    if (latest === undefined) continue;
+    platforms[platform] = {
+      status: latest.status,
+      date: latest.date,
+      ...(latest.toolCount === undefined ? {} : { toolCount: latest.toolCount }),
+    };
+  }
+
+  return {
+    id: entry.id,
+    slug: entry.slug,
+    title: entry.title,
+    page: pageUrl(entry, options),
+    ...(entry.repoUrl === undefined ? {} : { repoUrl: entry.repoUrl }),
+    install: view.install.label,
+    platforms,
+  };
+}
+
+/** Absolute URL of a server page, for consumers outside the site. */
+function pageUrl(entry: ServerEntry, options: ResolvedOptions): string {
+  return `${options.siteUrl}/s/${entry.slug}.html`;
 }
 
 // -------------------------------------------------------------------- derive

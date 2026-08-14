@@ -161,8 +161,11 @@ describe('run', () => {
       '.nojekyll',
       '404.html',
       'index.html',
+      'index.json',
       'methodology.html',
+      'robots.txt',
       's',
+      'sitemap.xml',
     ]);
     expect(await readdir(join(outDir, 's'))).toEqual(['seed__everything.html']);
     expect(await readFile(join(outDir, '.nojekyll'), 'utf8')).toBe('');
@@ -175,7 +178,10 @@ describe('run', () => {
     expect(server).toContain(
       'https://img.shields.io/endpoint?url=https://acme.github.io/does-it-install/badge/seed__everything.json',
     );
-    expect(stderr()).toContain('site: 1 servers, 1 with history, 4 pages');
+
+    const robots = await readFile(join(outDir, 'robots.txt'), 'utf8');
+    expect(robots).toContain('Sitemap: https://acme.github.io/does-it-install/sitemap.xml');
+    expect(stderr()).toContain('site: 1 servers, 1 with history, 7 pages');
   });
 
   it('treats a missing history directory as "everything untested"', async () => {

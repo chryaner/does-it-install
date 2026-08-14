@@ -28,7 +28,7 @@ Every server gets a shields.io endpoint badge, plus one per platform. Embed the
 overall badge in your own README:
 
 ```markdown
-[![does it install](https://img.shields.io/endpoint?url=https://chryaner.github.io/does-it-install/badge/io.github.owner__name.json)](https://chryaner.github.io/does-it-install/s/io.github.owner__name.html)
+[![does it install](https://img.shields.io/endpoint?url=https://doesitinstall.com/badge/io.github.owner__name.json)](https://doesitinstall.com/s/io.github.owner__name.html)
 ```
 
 Replace `io.github.owner__name` with your server's slug: its id lowercased
@@ -42,6 +42,14 @@ a single platform, use `badge/<slug>-linux.json`, `-darwin` or `-win32`.
 | `unreachable` / `times out` | remote endpoint did not answer in budget |
 | `failing on 1/3 platforms` | works somewhere, broken elsewhere |
 | `untested` | no supported distribution yet (e.g. Docker-only), or never probed |
+
+## Data
+
+The whole dataset is published as JSON at
+<https://doesitinstall.com/index.json>: every catalogued server with its page
+URL, install method and latest result per platform. Every sweep rewrites it, so
+it is never staler than the site itself. It is MIT licensed like the rest of
+the project, and attribution is appreciated rather than required.
 
 ## How the probe works
 

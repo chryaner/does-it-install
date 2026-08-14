@@ -3,8 +3,9 @@
  *                  [--out public] [--base /] [--site-url https://...]`
  *
  * Renders the static site: `index.html`, one page per catalogued server under
- * `s/`, `methodology.html`, `404.html` and a `.nojekyll` marker so GitHub
- * Pages serves the directory as-is.
+ * `s/`, `methodology.html`, `404.html`, `sitemap.xml`, `robots.txt`, the
+ * `index.json` status feed, and a `.nojekyll` marker so GitHub Pages serves
+ * the directory as-is.
  *
  * Existing files in the output directory are left alone, because the badge
  * stage writes `public/badge/` and must survive a site rebuild.
@@ -20,7 +21,7 @@ import { buildPages } from './pages.js';
 export const DEFAULT_CATALOG_PATH = 'data/catalog.json';
 export const DEFAULT_OUT_DIR = 'public';
 export const DEFAULT_BASE = '/';
-export const DEFAULT_SITE_URL = 'https://chryaner.github.io/does-it-install';
+export const DEFAULT_SITE_URL = 'https://doesitinstall.com';
 
 const USAGE = `Usage: npm run site -- [options]
 
@@ -31,8 +32,8 @@ Options:
   --history <dir>   History directory to read (default: ${DEFAULT_HISTORY_DIR})
   --out <dir>       Directory to write pages into (default: ${DEFAULT_OUT_DIR})
   --base <path>     URL prefix for every link (default: ${DEFAULT_BASE})
-  --site-url <url>  Absolute site root, used in badge snippets
-                    (default: ${DEFAULT_SITE_URL})
+  --site-url <url>  Absolute site root, used in badge snippets, the sitemap
+                    and the JSON feed (default: ${DEFAULT_SITE_URL})
   -h, --help        Show this help`;
 
 export interface SiteCliOptions {

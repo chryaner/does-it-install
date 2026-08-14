@@ -178,7 +178,7 @@ jobs:
         run: npm run badges
 
       - name: generate site
-        run: npm run site -- --base /does-it-install/ --site-url https://chryaner.github.io/does-it-install
+        run: npm run site -- --base / --site-url https://doesitinstall.com
 
       # data/history and data/catalog.json are the durable record; public/ and
       # data/runs/ are build outputs and stay untracked.
