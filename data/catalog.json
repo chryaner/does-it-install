@@ -1,0 +1,62 @@
+{
+  "generatedAt": "2026-08-14T16:18:33.995Z",
+  "servers": [
+    {
+      "id": "seed/server-everything",
+      "slug": "seed__server-everything",
+      "title": "Everything (reference server)",
+      "packages": [
+        {
+          "kind": "npm",
+          "identifier": "@modelcontextprotocol/server-everything",
+          "env": [],
+          "transport": "stdio"
+        }
+      ],
+      "remotes": [],
+      "source": "seed",
+      "rank": 1,
+      "description": "Official MCP reference server exercising every protocol feature.",
+      "repoUrl": "https://github.com/modelcontextprotocol/servers"
+    },
+    {
+      "id": "seed/server-memory",
+      "slug": "seed__server-memory",
+      "title": "Memory (reference server)",
+      "packages": [
+        {
+          "kind": "npm",
+          "identifier": "@modelcontextprotocol/server-memory",
+          "env": [],
+          "transport": "stdio"
+        }
+      ],
+      "remotes": [],
+      "source": "seed",
+      "rank": 2,
+      "description": "Official MCP reference server: knowledge-graph memory.",
+      "repoUrl": "https://github.com/modelcontextprotocol/servers"
+    },
+    {
+      "id": "seed/server-filesystem",
+      "slug": "seed__server-filesystem",
+      "title": "Filesystem (reference server)",
+      "packages": [
+        {
+          "kind": "npm",
+          "identifier": "@modelcontextprotocol/server-filesystem",
+          "env": [],
+          "transport": "stdio",
+          "packageArguments": [
+            "."
+          ]
+        }
+      ],
+      "remotes": [],
+      "source": "seed",
+      "rank": 3,
+      "description": "Official MCP reference server: filesystem access.",
+      "repoUrl": "https://github.com/modelcontextprotocol/servers"
+    }
+  ]
+}

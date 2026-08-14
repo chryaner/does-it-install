@@ -153,6 +153,8 @@ export interface HistoryEntry {
   status: ProbeStatus;
   method: ProbeMethod;
   toolCount?: number;
+  /** First MAX_TOOL_NAMES tool names from a passing probe. */
+  toolNames?: string[];
   errorExcerpt?: string;
 }
 
