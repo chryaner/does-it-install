@@ -34,6 +34,22 @@
       "rank": 2
     },
     {
+      "id": "seed/mcp-virtualbox",
+      "title": "VirtualBox",
+      "description": "Create, install and operate VirtualBox virtual machines from an AI assistant: lifecycle, display, input, guest control and networking tools.",
+      "repoUrl": "https://github.com/chryaner/mcp-virtualbox",
+      "packages": [
+        {
+          "kind": "npm",
+          "identifier": "mcp-virtualbox",
+          "transport": "stdio",
+          "env": []
+        }
+      ],
+      "remotes": [],
+      "rank": 4
+    },
+    {
       "id": "seed/server-filesystem",
       "title": "Filesystem (reference server)",
       "description": "Official MCP reference server: filesystem access.",
