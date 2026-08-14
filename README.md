@@ -157,5 +157,5 @@ smoke tests (`*.smoke.test.ts`) are the ones allowed to install real packages.
 Run `npm run typecheck && npm test` before opening a PR. CI runs the same
 commands, plus the smoke job.
 
-There is no license file in this repository yet, so no license is granted;
-treat the code as all rights reserved until one is added.
+Licensed under the [MIT License](LICENSE). That covers the code and the
+published test results alike: use the data, cite the pages, embed the badges.
