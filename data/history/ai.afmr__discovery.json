@@ -1,0 +1,51 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:44.569Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-44Z-32e0cb",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "discover_afmr",
+          "lookup_failure_mode",
+          "get_reputation_attestation_contract",
+          "get_lift_evidence_contract"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:48.539Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-48Z-b2b0dd",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "discover_afmr",
+          "lookup_failure_mode",
+          "get_reputation_attestation_contract",
+          "get_lift_evidence_contract"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:54:09.596Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-54-09Z-daced2",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "discover_afmr",
+          "lookup_failure_mode",
+          "get_reputation_attestation_contract",
+          "get_lift_evidence_contract"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.afmr/discovery",
+  "slug": "ai.afmr__discovery"
+}

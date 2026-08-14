@@ -1,0 +1,57 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:45.798Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-45Z-4278f0",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "search_articles",
+          "list_articles",
+          "get_article",
+          "cite_article",
+          "get_microsite_info",
+          "get_crisis_resources"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:41.622Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-41Z-0bdee1",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "search_articles",
+          "list_articles",
+          "get_article",
+          "cite_article",
+          "get_microsite_info",
+          "get_crisis_resources"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:53:58.370Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-58Z-12748a",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "search_articles",
+          "list_articles",
+          "get_article",
+          "cite_article",
+          "get_microsite_info",
+          "get_crisis_resources"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.childadhd/library",
+  "slug": "ai.childadhd__library"
+}

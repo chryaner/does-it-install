@@ -1,0 +1,66 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:40.526Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-40Z-4137a6",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "sec_report_list",
+          "sec_report_search",
+          "company_search",
+          "ticker_lookup",
+          "run_sql",
+          "get_table_schema",
+          "fiscal_utility",
+          "list_tables",
+          "news_search"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:40.683Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-40Z-231362",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "sec_report_list",
+          "sec_report_search",
+          "company_search",
+          "ticker_lookup",
+          "run_sql",
+          "get_table_schema",
+          "fiscal_utility",
+          "list_tables",
+          "news_search"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:54:09.525Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-54-09Z-decb78",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "sec_report_list",
+          "sec_report_search",
+          "company_search",
+          "ticker_lookup",
+          "run_sql",
+          "get_table_schema",
+          "fiscal_utility",
+          "list_tables",
+          "news_search"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.drillr/drillr",
+  "slug": "ai.drillr__drillr"
+}

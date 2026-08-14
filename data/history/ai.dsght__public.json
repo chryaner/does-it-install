@@ -1,0 +1,69 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:44.569Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-44Z-32e0cb",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "list_public_spaces",
+          "get_public_tensions",
+          "get_public_scenarios",
+          "get_public_report",
+          "search_spaces",
+          "list_countries",
+          "get_country_indicator",
+          "resolve_country_claim",
+          "extract_assumptions",
+          "detect_tensions"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:48.539Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-48Z-b2b0dd",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "list_public_spaces",
+          "get_public_tensions",
+          "get_public_scenarios",
+          "get_public_report",
+          "search_spaces",
+          "list_countries",
+          "get_country_indicator",
+          "resolve_country_claim",
+          "extract_assumptions",
+          "detect_tensions"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:54:09.596Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-54-09Z-daced2",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "list_public_spaces",
+          "get_public_tensions",
+          "get_public_scenarios",
+          "get_public_report",
+          "search_spaces",
+          "list_countries",
+          "get_country_indicator",
+          "resolve_country_claim",
+          "extract_assumptions",
+          "detect_tensions"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.dsght/public",
+  "slug": "ai.dsght__public"
+}

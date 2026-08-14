@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:40.526Z",
+        "errorExcerpt": "listTools failed: Streamable HTTP error: Error POSTing to endpoint: {\"success\":false,\"error\":\"Missing Bearer token\"}",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-40Z-4137a6",
+        "status": "tools_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:40.683Z",
+        "errorExcerpt": "listTools failed: Streamable HTTP error: Error POSTing to endpoint: {\"success\":false,\"error\":\"Missing Bearer token\"}",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-40Z-231362",
+        "status": "tools_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:54:09.525Z",
+        "errorExcerpt": "listTools failed: Streamable HTTP error: Error POSTing to endpoint: {\"success\":false,\"error\":\"Missing Bearer token\"}",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-54-09Z-decb78",
+        "status": "tools_failed"
+      }
+    ]
+  },
+  "serverId": "ai.autoposting/autoposting",
+  "slug": "ai.autoposting__autoposting"
+}

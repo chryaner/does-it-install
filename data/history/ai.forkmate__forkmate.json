@@ -1,0 +1,75 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:40.526Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-40Z-4137a6",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "whoami",
+          "get_day",
+          "get_range",
+          "get_preferences",
+          "log_meal",
+          "update_meal",
+          "delete_meal",
+          "get_pantry",
+          "add_pantry_item",
+          "remove_pantry_item",
+          "search_foods",
+          "lookup_barcode"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:40.683Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-40Z-231362",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "whoami",
+          "get_day",
+          "get_range",
+          "get_preferences",
+          "log_meal",
+          "update_meal",
+          "delete_meal",
+          "get_pantry",
+          "add_pantry_item",
+          "remove_pantry_item",
+          "search_foods",
+          "lookup_barcode"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:54:09.525Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-54-09Z-decb78",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "whoami",
+          "get_day",
+          "get_range",
+          "get_preferences",
+          "log_meal",
+          "update_meal",
+          "delete_meal",
+          "get_pantry",
+          "add_pantry_item",
+          "remove_pantry_item",
+          "search_foods",
+          "lookup_barcode"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.forkmate/forkmate",
+  "slug": "ai.forkmate__forkmate"
+}

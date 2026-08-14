@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:44.569Z",
+        "errorExcerpt": "npm install @dinglebear/rytdl@1.0.4 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path /private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-hyatsC/node_modules/@dinglebear/rytdl\nnpm error command failed\nnpm error command sh -c node scripts/install.js\nnpm error ytdl-rmcp: Unsupported platform darwin/arm64. Supported targets: linux/x64, win32/x64.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-hyatsC/.npm-cache/_logs/2026-08-14T18_54_59_067Z-debug-0.log",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-44Z-32e0cb",
+        "status": "install_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:48.539Z",
+        "errorExcerpt": "listTools failed: [\n  {\n    \"code\": \"invalid_value\",\n    \"values\": [\n      \"object\"\n    ],\n    \"path\": [\n      \"tools\",\n      2,\n      \"outputSchema\",\n      \"type\"\n    ],\n    \"message\": \"Invalid input: expected \\\"object\\\"\"\n  },\n  {\n    \"code\": \"invalid_value\",\n    \"values\": [\n      \"object\"\n    ],\n    \"path\": [\n      \"tools\",\n      7,\n      \"outputSchema\",\n      \"type\"\n    ],\n    \"message\": \"Invalid input: expected \\\"object\\\"\"\n  }\n]\n--- stderr (tail) ---\n2026-08-14T18:54:41.441279Z  INFO rytdl: rytdl serving over stdio\n2026-08-14T18:54:41.442445Z  INFO serve_inner: rmcp::service: Service initialized as server peer_info=Some(InitializeRequestParams { meta: None, protocol_version: ProtocolVersion(\"2025-11-25\"), capabilities: ClientCapabilities { experimental: None, extensions: None, roots: None, sampling: None, elicitation: None }, client_info: Implementation { name: \"does-it-install\", title: None, version: \"0.1.0\", description: None, icons: None, website_url: None } })\n2026-08-14T18:54:41.443833Z  INFO serve_inner: rmcp::service: received notification notification=InitializedNotification(NotificationNoParam { method: InitializedNotificationMethod, extensions: Extensions })\n2026-08-14T18:54:41.443921Z  INFO serve_inner: rmcp::handler::server: client initialized\n2026-08-14T18:54:41.447423Z  INFO serve_inner: rmcp::service: input stream terminated\n2026-08-14T18:54:41.447435Z  INFO serve_inner: rmcp::service: serve finished quit_reason=Closed",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-48Z-b2b0dd",
+        "status": "tools_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:54:09.596Z",
+        "errorExcerpt": "npm install @dinglebear/rytdl@1.0.4 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-L3SXHH\\node_modules\\@dinglebear\\rytdl\nnpm error command failed\nnpm error command C:\\Windows\\system32\\cmd.exe /d /s /c node scripts/install.js\nnpm error ytdl-rmcp: downloading https://github.com/dinglebear-ai/rytdl/releases/download/v1.0.4/ytdl-rmcp-windows-x86_64.tar.gz\nnpm error ytdl-rmcp: verified checksum for ytdl-rmcp-windows-x86_64.tar.gz\nnpm error ytdl-rmcp: tar (child): Cannot connect to C: resolve failed\nnpm error\nnpm error gzip: stdin: unexpected end of file\nnpm error tar: Child returned status 128\nnpm error tar: Error is not recoverable: exiting now\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-L3SXHH\\.npm-cache\\_logs\\2026-08-14T19_09_24_212Z-debug-0.log",
+        "method": "npm",
+        "runId": "2026-08-14T18-54-09Z-daced2",
+        "status": "install_failed"
+      }
+    ]
+  },
+  "serverId": "ai.dinglebear/rytdl",
+  "slug": "ai.dinglebear__rytdl"
+}

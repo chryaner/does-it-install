@@ -1,0 +1,63 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:40.526Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-40Z-4137a6",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "search_businesses",
+          "get_business",
+          "list_categories",
+          "request_service",
+          "search_by_service",
+          "get_reviews",
+          "get_service_catalog",
+          "check_business_availability",
+          "compare_businesses",
+          "search_by_city",
+          "search_providers",
+          "get_provider_details",
+          "submit_quote_request"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:40.683Z",
+        "errorExcerpt": "listTools failed: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32000,\"message\":\"Bad Request: Server not initialized\"},\"id\":null}",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-40Z-231362",
+        "status": "tools_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:54:09.525Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-54-09Z-decb78",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "search_businesses",
+          "get_business",
+          "list_categories",
+          "request_service",
+          "search_by_service",
+          "get_reviews",
+          "get_service_catalog",
+          "check_business_availability",
+          "compare_businesses",
+          "search_by_city",
+          "search_providers",
+          "get_provider_details",
+          "submit_quote_request"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.bezal/local-commerce",
+  "slug": "ai.bezal__local-commerce"
+}

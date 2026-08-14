@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:44.569Z",
+        "errorExcerpt": "container (oci) distributions are not probed in v1",
+        "method": "oci",
+        "runId": "2026-08-14T18-53-44Z-32e0cb",
+        "status": "skipped"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:48.539Z",
+        "errorExcerpt": "container (oci) distributions are not probed in v1",
+        "method": "oci",
+        "runId": "2026-08-14T18-53-48Z-b2b0dd",
+        "status": "skipped"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:54:09.596Z",
+        "errorExcerpt": "container (oci) distributions are not probed in v1",
+        "method": "oci",
+        "runId": "2026-08-14T18-54-09Z-daced2",
+        "status": "skipped"
+      }
+    ]
+  },
+  "serverId": "ai.apithreshold/apithreshold",
+  "slug": "ai.apithreshold__apithreshold"
+}

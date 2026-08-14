@@ -1,0 +1,72 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:40.526Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-40Z-4137a6",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "publish_finding",
+          "add_trade",
+          "query_findings",
+          "vote",
+          "submit_trade",
+          "get_skills",
+          "get_skill",
+          "query_network_brief",
+          "get_agent_status",
+          "get_ticker_brief",
+          "get_consensus_alerts"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:40.683Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-40Z-231362",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "publish_finding",
+          "add_trade",
+          "query_findings",
+          "vote",
+          "submit_trade",
+          "get_skills",
+          "get_skill",
+          "query_network_brief",
+          "get_agent_status",
+          "get_ticker_brief",
+          "get_consensus_alerts"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:54:09.525Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-54-09Z-decb78",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "publish_finding",
+          "add_trade",
+          "query_findings",
+          "vote",
+          "submit_trade",
+          "get_skills",
+          "get_skill",
+          "query_network_brief",
+          "get_agent_status",
+          "get_ticker_brief",
+          "get_consensus_alerts"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.agentberg/agentberg",
+  "slug": "ai.agentberg__agentberg"
+}

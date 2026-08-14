@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:45.798Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[mcp-registry] bolthub API Registry MCP\n[mcp-registry] One config → every API on the marketplace\nError: No wallet configured. Set one of the following:\n  LND_REST_HOST + LND_MACAROON         (recommended, fastest <200ms)\n  PHOENIXD_URL + PHOENIXD_PASSWORD     (fast <200ms, auto liquidity)\n  LNBITS_URL + LNBITS_ADMIN_KEY        (fast <300ms)\n  NWC_URI                              (easiest, but slower 1-3s)",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-45Z-4278f0",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:41.622Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[mcp-registry] bolthub API Registry MCP\n[mcp-registry] One config → every API on the marketplace\nError: No wallet configured. Set one of the following:\n  LND_REST_HOST + LND_MACAROON         (recommended, fastest <200ms)\n  PHOENIXD_URL + PHOENIXD_PASSWORD     (fast <200ms, auto liquidity)\n  LNBITS_URL + LNBITS_ADMIN_KEY        (fast <300ms)\n  NWC_URI                              (easiest, but slower 1-3s)",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-41Z-0bdee1",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:53:58.370Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[mcp-registry] bolthub API Registry MCP\n[mcp-registry] One config → every API on the marketplace\nError: No wallet configured. Set one of the following:\n  LND_REST_HOST + LND_MACAROON         (recommended, fastest <200ms)\n  PHOENIXD_URL + PHOENIXD_PASSWORD     (fast <200ms, auto liquidity)\n  LNBITS_URL + LNBITS_ADMIN_KEY        (fast <300ms)\n  NWC_URI                              (easiest, but slower 1-3s)",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-58Z-12748a",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "ai.bolthub/registry",
+  "slug": "ai.bolthub__registry"
+}

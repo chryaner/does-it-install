@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:45.798Z",
+        "errorExcerpt": "container (oci) distributions are not probed in v1",
+        "method": "oci",
+        "runId": "2026-08-14T18-53-45Z-4278f0",
+        "status": "skipped"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:41.622Z",
+        "errorExcerpt": "container (oci) distributions are not probed in v1",
+        "method": "oci",
+        "runId": "2026-08-14T18-53-41Z-0bdee1",
+        "status": "skipped"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:53:58.370Z",
+        "errorExcerpt": "container (oci) distributions are not probed in v1",
+        "method": "oci",
+        "runId": "2026-08-14T18-53-58Z-12748a",
+        "status": "skipped"
+      }
+    ]
+  },
+  "serverId": "ai.aliengiraffe/spotdb",
+  "slug": "ai.aliengiraffe__spotdb"
+}

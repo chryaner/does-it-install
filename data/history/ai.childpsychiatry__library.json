@@ -1,0 +1,57 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:40.526Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-40Z-4137a6",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "search_articles",
+          "list_articles",
+          "get_article",
+          "cite_article",
+          "get_microsite_info",
+          "get_crisis_resources"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:40.683Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-40Z-231362",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "search_articles",
+          "list_articles",
+          "get_article",
+          "cite_article",
+          "get_microsite_info",
+          "get_crisis_resources"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:54:09.525Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-54-09Z-decb78",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "search_articles",
+          "list_articles",
+          "get_article",
+          "cite_article",
+          "get_microsite_info",
+          "get_crisis_resources"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.childpsychiatry/library",
+  "slug": "ai.childpsychiatry__library"
+}

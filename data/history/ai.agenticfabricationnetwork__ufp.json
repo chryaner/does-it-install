@@ -1,0 +1,69 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:45.798Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-45Z-4278f0",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "get_fabrication_quote",
+          "refine_quote",
+          "poll_quote",
+          "finalize_quote",
+          "create_checkout",
+          "get_order_status",
+          "list_orders",
+          "reply_to_maker",
+          "leave_review",
+          "get_material_guide"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:41.622Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-41Z-0bdee1",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "get_fabrication_quote",
+          "refine_quote",
+          "poll_quote",
+          "finalize_quote",
+          "create_checkout",
+          "get_order_status",
+          "list_orders",
+          "reply_to_maker",
+          "leave_review",
+          "get_material_guide"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:53:58.370Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-58Z-12748a",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "get_fabrication_quote",
+          "refine_quote",
+          "poll_quote",
+          "finalize_quote",
+          "create_checkout",
+          "get_order_status",
+          "list_orders",
+          "reply_to_maker",
+          "leave_review",
+          "get_material_guide"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.agenticfabricationnetwork/ufp",
+  "slug": "ai.agenticfabricationnetwork__ufp"
+}

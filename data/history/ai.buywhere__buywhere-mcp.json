@@ -1,0 +1,54 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:45.798Z",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-45Z-4278f0",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "search_products",
+          "get_product",
+          "compare_products",
+          "get_deals",
+          "list_categories"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:41.622Z",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-41Z-0bdee1",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "search_products",
+          "get_product",
+          "compare_products",
+          "get_deals",
+          "list_categories"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:53:58.370Z",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-58Z-12748a",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "search_products",
+          "get_product",
+          "compare_products",
+          "get_deals",
+          "list_categories"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.buywhere/buywhere-mcp",
+  "slug": "ai.buywhere__buywhere-mcp"
+}

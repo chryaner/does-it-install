@@ -1,0 +1,51 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:44.569Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-44Z-32e0cb",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "one_minute_akari",
+          "audit_result_claim",
+          "get_one_minute_support",
+          "list_one_minute_states"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:48.539Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-48Z-b2b0dd",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "one_minute_akari",
+          "audit_result_claim",
+          "get_one_minute_support",
+          "list_one_minute_states"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:54:09.596Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-54-09Z-daced2",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "one_minute_akari",
+          "audit_result_claim",
+          "get_one_minute_support",
+          "list_one_minute_states"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.ai-akari/one-minute-akari",
+  "slug": "ai.ai-akari__one-minute-akari"
+}

@@ -1,0 +1,81 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:40.526Z",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-40Z-4137a6",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "list_drivers",
+          "request_call_approval",
+          "list_approvals",
+          "make_call",
+          "end_call",
+          "get_call_status",
+          "get_transcript",
+          "get_recording",
+          "send_sms",
+          "search_numbers",
+          "buy_number",
+          "configure_number",
+          "list_numbers",
+          "list_calls"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:40.683Z",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-40Z-231362",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "list_drivers",
+          "request_call_approval",
+          "list_approvals",
+          "make_call",
+          "end_call",
+          "get_call_status",
+          "get_transcript",
+          "get_recording",
+          "send_sms",
+          "search_numbers",
+          "buy_number",
+          "configure_number",
+          "list_numbers",
+          "list_calls"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:54:09.525Z",
+        "method": "npm",
+        "runId": "2026-08-14T18-54-09Z-decb78",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "list_drivers",
+          "request_call_approval",
+          "list_approvals",
+          "make_call",
+          "end_call",
+          "get_call_status",
+          "get_transcript",
+          "get_recording",
+          "send_sms",
+          "search_numbers",
+          "buy_number",
+          "configure_number",
+          "list_numbers",
+          "list_calls"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.callmcp/server",
+  "slug": "ai.callmcp__server"
+}

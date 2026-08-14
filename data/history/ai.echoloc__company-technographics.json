@@ -1,0 +1,48 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:40.526Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-40Z-4137a6",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "search_companies_by_technologies",
+          "get_company_by_domain",
+          "list_technologies"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:40.683Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-40Z-231362",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "search_companies_by_technologies",
+          "get_company_by_domain",
+          "list_technologies"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:54:09.525Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-54-09Z-decb78",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "search_companies_by_technologies",
+          "get_company_by_domain",
+          "list_technologies"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.echoloc/company-technographics",
+  "slug": "ai.echoloc__company-technographics"
+}

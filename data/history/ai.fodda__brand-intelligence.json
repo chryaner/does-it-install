@@ -1,0 +1,63 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:40.526Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-40Z-4137a6",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "get_my_account",
+          "list_graphs",
+          "get_capabilities",
+          "search_graph",
+          "get_neighbors",
+          "get_evidence",
+          "get_node",
+          "get_label_values",
+          "brand_tracker",
+          "get_supplemental_context",
+          "check_supplemental_status",
+          "generate_visual",
+          "read_url"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:40.683Z",
+        "errorExcerpt": "connect failed: HTTP 503: Streamable HTTP error: Error POSTing to endpoint: Service Unavailable",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-40Z-231362",
+        "status": "connect_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:54:09.525Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-54-09Z-decb78",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "get_my_account",
+          "list_graphs",
+          "get_capabilities",
+          "search_graph",
+          "get_neighbors",
+          "get_evidence",
+          "get_node",
+          "get_label_values",
+          "brand_tracker",
+          "get_supplemental_context",
+          "check_supplemental_status",
+          "generate_visual",
+          "read_url"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.fodda/brand-intelligence",
+  "slug": "ai.fodda__brand-intelligence"
+}

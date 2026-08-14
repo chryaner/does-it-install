@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:45.798Z",
+        "errorExcerpt": "@contextlayer/mcp declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-45Z-4278f0",
+        "status": "spawn_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:41.622Z",
+        "errorExcerpt": "@contextlayer/mcp declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-41Z-0bdee1",
+        "status": "spawn_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:53:58.370Z",
+        "errorExcerpt": "@contextlayer/mcp declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-58Z-12748a",
+        "status": "spawn_failed"
+      }
+    ]
+  },
+  "serverId": "ai.autoblocks/contextlayer-mcp",
+  "slug": "ai.autoblocks__contextlayer-mcp"
+}

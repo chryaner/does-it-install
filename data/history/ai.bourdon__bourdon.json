@@ -1,0 +1,84 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:44.569Z",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-44Z-32e0cb",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "query_agent_memory",
+          "list_recent_work",
+          "list_workstreams",
+          "list_notes",
+          "find_entity",
+          "list_agents",
+          "export_agents",
+          "commit_to_federation",
+          "get_cross_agent_summary",
+          "prepare_recognition_context",
+          "compile_codex_turn",
+          "get_deeper_context",
+          "list_memory_versions",
+          "explain_memory_change",
+          "rollback_agent_memory"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:48.539Z",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-48Z-b2b0dd",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "query_agent_memory",
+          "list_recent_work",
+          "list_workstreams",
+          "list_notes",
+          "find_entity",
+          "list_agents",
+          "export_agents",
+          "commit_to_federation",
+          "get_cross_agent_summary",
+          "prepare_recognition_context",
+          "compile_codex_turn",
+          "get_deeper_context",
+          "list_memory_versions",
+          "explain_memory_change",
+          "rollback_agent_memory"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:54:09.596Z",
+        "method": "npm",
+        "runId": "2026-08-14T18-54-09Z-daced2",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "query_agent_memory",
+          "list_recent_work",
+          "list_workstreams",
+          "list_notes",
+          "find_entity",
+          "list_agents",
+          "export_agents",
+          "commit_to_federation",
+          "get_cross_agent_summary",
+          "prepare_recognition_context",
+          "compile_codex_turn",
+          "get_deeper_context",
+          "list_memory_versions",
+          "explain_memory_change",
+          "rollback_agent_memory"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.bourdon/bourdon",
+  "slug": "ai.bourdon__bourdon"
+}

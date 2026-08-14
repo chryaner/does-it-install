@@ -1,0 +1,69 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:45.798Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-45Z-4278f0",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "ask_demand_discovery",
+          "get_validation_framework",
+          "get_product_details",
+          "explain_demand_signals",
+          "compare_validation_approaches",
+          "get_data_source_categories",
+          "start_demand_report",
+          "validate_real_demand",
+          "get_demand_report_status",
+          "start_agentic_launch"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:41.622Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-41Z-0bdee1",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "ask_demand_discovery",
+          "get_validation_framework",
+          "get_product_details",
+          "explain_demand_signals",
+          "compare_validation_approaches",
+          "get_data_source_categories",
+          "start_demand_report",
+          "validate_real_demand",
+          "get_demand_report_status",
+          "start_agentic_launch"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:53:58.370Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-58Z-12748a",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "ask_demand_discovery",
+          "get_validation_framework",
+          "get_product_details",
+          "explain_demand_signals",
+          "compare_validation_approaches",
+          "get_data_source_categories",
+          "start_demand_report",
+          "validate_real_demand",
+          "get_demand_report_status",
+          "start_agentic_launch"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.demanddiscovery/mcp",
+  "slug": "ai.demanddiscovery__mcp"
+}

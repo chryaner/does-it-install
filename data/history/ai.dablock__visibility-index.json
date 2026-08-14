@@ -1,0 +1,54 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:44.569Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-44Z-32e0cb",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "get_visibility_index",
+          "get_brand_visibility",
+          "list_tracked_brands",
+          "get_history",
+          "get_methodology"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:48.539Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-48Z-b2b0dd",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "get_visibility_index",
+          "get_brand_visibility",
+          "list_tracked_brands",
+          "get_history",
+          "get_methodology"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:54:09.596Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-54-09Z-daced2",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "get_visibility_index",
+          "get_brand_visibility",
+          "list_tracked_brands",
+          "get_history",
+          "get_methodology"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.dablock/visibility-index",
+  "slug": "ai.dablock__visibility-index"
+}

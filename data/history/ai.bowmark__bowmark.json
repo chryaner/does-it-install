@@ -1,0 +1,48 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:40.526Z",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-40Z-4137a6",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "get_library",
+          "run",
+          "register"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:40.683Z",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-40Z-231362",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "get_library",
+          "run",
+          "register"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:54:09.525Z",
+        "method": "npm",
+        "runId": "2026-08-14T18-54-09Z-decb78",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "get_library",
+          "run",
+          "register"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.bowmark/bowmark",
+  "slug": "ai.bowmark__bowmark"
+}

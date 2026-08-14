@@ -1,0 +1,66 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:40.526Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-40Z-4137a6",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "get_supplements_for_biomarker",
+          "get_interventions_for_biomarker",
+          "get_biomarkers_for_supplement",
+          "get_supplement_info",
+          "get_supplement_interactions",
+          "get_top_brands",
+          "search_supplements",
+          "search_conditions",
+          "get_supplements_for_condition"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:40.683Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-40Z-231362",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "get_supplements_for_biomarker",
+          "get_interventions_for_biomarker",
+          "get_biomarkers_for_supplement",
+          "get_supplement_info",
+          "get_supplement_interactions",
+          "get_top_brands",
+          "search_supplements",
+          "search_conditions",
+          "get_supplements_for_condition"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:54:09.525Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-54-09Z-decb78",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "get_supplements_for_biomarker",
+          "get_interventions_for_biomarker",
+          "get_biomarkers_for_supplement",
+          "get_supplement_info",
+          "get_supplement_interactions",
+          "get_top_brands",
+          "search_supplements",
+          "search_conditions",
+          "get_supplements_for_condition"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.aviado/health",
+  "slug": "ai.aviado__health"
+}

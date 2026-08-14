@@ -1,0 +1,60 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:44.569Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-44Z-32e0cb",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "auteng_publish_markdown",
+          "auteng_docs_create",
+          "auteng_docs_update",
+          "auteng_docs_list",
+          "auteng_docs_delete",
+          "auteng_docs_share",
+          "auteng_docs_recent"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:48.539Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-48Z-b2b0dd",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "auteng_publish_markdown",
+          "auteng_docs_create",
+          "auteng_docs_update",
+          "auteng_docs_list",
+          "auteng_docs_delete",
+          "auteng_docs_share",
+          "auteng_docs_recent"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:54:09.596Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-54-09Z-daced2",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "auteng_publish_markdown",
+          "auteng_docs_create",
+          "auteng_docs_update",
+          "auteng_docs_list",
+          "auteng_docs_delete",
+          "auteng_docs_share",
+          "auteng_docs_recent"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.auteng/mcp",
+  "slug": "ai.auteng__mcp"
+}

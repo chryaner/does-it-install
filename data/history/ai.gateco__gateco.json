@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:44.569Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: \"          Suggest cl\"... is not valid JSON\nUnexpected token 'r', \"    retroactiv\"... is not valid JSON\nUnexpected token 'S', ...\"          Scan and r\"... is not valid JSON\nUnexpected token 'a', \"    audit     \"... is not valid JSON\nUnexpected token 'm', \"    mcp       \"... is not valid JSON\nUnexpected token 'q', \"    query     \"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'o', \"options:\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\n--- stderr (tail) ---\nInstalled 12 packages in 9ms",
+        "method": "pypi",
+        "runId": "2026-08-14T18-53-44Z-32e0cb",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:48.539Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: \"          Suggest cl\"... is not valid JSON\nUnexpected token 'r', \"    retroactiv\"... is not valid JSON\nUnexpected token 'S', ...\"          Scan and r\"... is not valid JSON\nUnexpected token 'a', \"    audit     \"... is not valid JSON\nUnexpected token 'm', \"    mcp       \"... is not valid JSON\nUnexpected token 'q', \"    query     \"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'o', \"options:\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\n--- stderr (tail) ---\nInstalled 12 packages in 6ms",
+        "method": "pypi",
+        "runId": "2026-08-14T18-53-48Z-b2b0dd",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:54:09.596Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: \"          Suggest cl\"... is not valid JSON\nUnexpected token 'r', \"    retroactiv\"... is not valid JSON\nUnexpected token 'S', ...\"          Scan and r\"... is not valid JSON\nUnexpected token 'a', \"    audit     \"... is not valid JSON\nUnexpected token 'm', \"    mcp       \"... is not valid JSON\nUnexpected token 'q', \"    query     \"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'o', \"options:\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\n--- stderr (tail) ---\nInstalled 12 packages in 273ms",
+        "method": "pypi",
+        "runId": "2026-08-14T18-54-09Z-daced2",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "ai.gateco/gateco",
+  "slug": "ai.gateco__gateco"
+}

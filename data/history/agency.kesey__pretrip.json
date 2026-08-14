@@ -1,0 +1,45 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:40.526Z",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-40Z-4137a6",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "scan_content",
+          "get_coverage"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:40.683Z",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-40Z-231362",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "scan_content",
+          "get_coverage"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:54:09.525Z",
+        "method": "npm",
+        "runId": "2026-08-14T18-54-09Z-decb78",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "scan_content",
+          "get_coverage"
+        ]
+      }
+    ]
+  },
+  "serverId": "agency.kesey/pretrip",
+  "slug": "agency.kesey__pretrip"
+}

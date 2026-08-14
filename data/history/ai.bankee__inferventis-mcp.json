@@ -1,0 +1,99 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:40.526Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-40Z-4137a6",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "finnhub_stock_quote",
+          "financial_calculator",
+          "currency_rates",
+          "stripe_payments",
+          "platform_tool_finder",
+          "currency_fx_lite",
+          "financial_calculator_lite",
+          "currency_convert",
+          "open_banking_transactions",
+          "stock_price_lite",
+          "timezone_convert",
+          "crypto_price",
+          "crypto_price_lite",
+          "bank_accounts",
+          "currency_convert_lite",
+          "web_news_headlines",
+          "stripe_payment_records",
+          "crypto_fx_rates",
+          "currency_convert_open",
+          "web_url_reader"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:40.683Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-40Z-231362",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "finnhub_stock_quote",
+          "financial_calculator",
+          "currency_rates",
+          "stripe_payments",
+          "platform_tool_finder",
+          "currency_fx_lite",
+          "financial_calculator_lite",
+          "currency_convert",
+          "open_banking_transactions",
+          "stock_price_lite",
+          "timezone_convert",
+          "crypto_price",
+          "crypto_price_lite",
+          "bank_accounts",
+          "currency_convert_lite",
+          "web_news_headlines",
+          "stripe_payment_records",
+          "crypto_fx_rates",
+          "currency_convert_open",
+          "web_url_reader"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:54:09.525Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-54-09Z-decb78",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "finnhub_stock_quote",
+          "financial_calculator",
+          "currency_rates",
+          "stripe_payments",
+          "platform_tool_finder",
+          "currency_fx_lite",
+          "financial_calculator_lite",
+          "currency_convert",
+          "open_banking_transactions",
+          "stock_price_lite",
+          "timezone_convert",
+          "crypto_price",
+          "crypto_price_lite",
+          "bank_accounts",
+          "currency_convert_lite",
+          "web_news_headlines",
+          "stripe_payment_records",
+          "crypto_fx_rates",
+          "currency_convert_open",
+          "web_url_reader"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.bankee/inferventis-mcp",
+  "slug": "ai.bankee__inferventis-mcp"
+}

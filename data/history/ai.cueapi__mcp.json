@@ -1,0 +1,63 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:45.798Z",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-45Z-4278f0",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "cueapi_create_cue",
+          "cueapi_list_cues",
+          "cueapi_get_cue",
+          "cueapi_pause_cue",
+          "cueapi_resume_cue",
+          "cueapi_delete_cue",
+          "cueapi_list_executions",
+          "cueapi_report_outcome"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:41.622Z",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-41Z-0bdee1",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "cueapi_create_cue",
+          "cueapi_list_cues",
+          "cueapi_get_cue",
+          "cueapi_pause_cue",
+          "cueapi_resume_cue",
+          "cueapi_delete_cue",
+          "cueapi_list_executions",
+          "cueapi_report_outcome"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:53:58.370Z",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-58Z-12748a",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "cueapi_create_cue",
+          "cueapi_list_cues",
+          "cueapi_get_cue",
+          "cueapi_pause_cue",
+          "cueapi_resume_cue",
+          "cueapi_delete_cue",
+          "cueapi_list_executions",
+          "cueapi_report_outcome"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.cueapi/mcp",
+  "slug": "ai.cueapi__mcp"
+}
