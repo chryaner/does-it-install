@@ -320,7 +320,7 @@ function methodologyPage(options: ResolvedOptions): string {
 <p>A server only shows green when every phase succeeded. Otherwise the status names the phase that broke, and the newest stderr output is kept and shown verbatim on the server page.</p>
 
 <h2>Time budgets</h2>
-<p>Each phase has its own budget: 300s to install, 30s to spawn, 30s for the handshake, 15s for <code>tools/list</code>, and 20s to reach a hosted endpoint. Exceeding one records <em>timed out</em> against that phase rather than a generic failure.</p>
+<p>Each phase has its own budget: 600s to install, 30s to spawn, 30s for the handshake, 15s for <code>tools/list</code>, and 20s to reach a hosted endpoint. Exceeding one records <em>timed out</em> against that phase rather than a generic failure.</p>
 
 <h2>Credentials</h2>
 <p>We probe with no accounts anywhere. Environment variables a server declares as required are filled with the literal placeholder <code>${escapeHtml(ENV_PLACEHOLDER)}</code>, and every affected server page says so above its results. A server that needs a real API key can therefore install perfectly and still fail the handshake here.</p>

@@ -366,7 +366,7 @@ describe('methodology and 404 pages', () => {
   it('documents the probe, the placeholders and the caveats', () => {
     const methodology = pageOf(pages, 'methodology.html');
     expect(methodology).toContain('<code>DOES_IT_INSTALL_PLACEHOLDER</code>');
-    expect(methodology).toContain('300s to install');
+    expect(methodology).toContain('600s to install');
     expect(methodology).toContain('last 30 results per platform');
     expect(methodology).toContain('401 or 403');
     expect(methodology).toContain('Linux, macOS, Windows');

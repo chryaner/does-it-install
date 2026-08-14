@@ -55,7 +55,7 @@ then remote) and probe it:
 - **oci**: `skipped` in v1.
 - Required env vars are filled with `ENV_PLACEHOLDER` and recorded in
   `requiresEnv` so pages can caveat the result.
-- Per-phase timeouts (install 300s, spawn 30s, handshake 30s, tools 15s,
+- Per-phase timeouts (install 600s, spawn 30s, handshake 30s, tools 15s,
   remote connect 20s). A phase timeout yields status `timeout` with the phase
   recorded in `phases`.
 - stderr is captured continuously; on failure the excerpt keeps the newest

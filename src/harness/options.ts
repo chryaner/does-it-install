@@ -20,7 +20,9 @@ export interface ProbeTimeouts {
 }
 
 export const DEFAULT_TIMEOUTS: ProbeTimeouts = {
-  install: 300_000,
+  // 600s: Windows runners build optional native deps and scan every write,
+  // so a package that installs in 20s on Linux can legitimately need minutes.
+  install: 600_000,
   spawn: 30_000,
   handshake: 30_000,
   listTools: 15_000,

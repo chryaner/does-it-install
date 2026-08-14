@@ -57,7 +57,7 @@ Five phases per server, each with its own budget:
 
 | Phase | Budget | What it means |
 | --- | --- | --- |
-| install | 300 s | `npm install` into a fresh temp prefix, or `uv tool run` from PyPI |
+| install | 600 s | `npm install` into a fresh temp prefix, or `uv tool run` from PyPI |
 | spawn | 30 s | the installed binary actually starts |
 | connect | 20 s | remote endpoints only: reaching the hosted URL |
 | handshake | 30 s | MCP `initialize` round trip |

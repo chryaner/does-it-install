@@ -83,7 +83,7 @@ produces a result row and nothing more.
 
 | Phase | Budget | Applies to | Status if it fails |
 | --- | --- | --- | --- |
-| `install` | 300 s | npm, PyPI | `install_failed` |
+| `install` | 600 s | npm, PyPI | `install_failed` |
 | `spawn` | 30 s | npm, PyPI | `spawn_failed` |
 | `connect` | 20 s | remote | `connect_failed` |
 | `handshake` (MCP `initialize`) | 30 s | all | `handshake_failed` |
