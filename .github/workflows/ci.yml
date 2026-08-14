@@ -1,0 +1,74 @@
+# Pull-request gate. Types and unit tests first, then one real pass through
+# all five pipeline stages against the official reference servers.
+# Nothing here publishes anything or writes to data/ on the default branch.
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: typecheck + unit tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm test
+
+  smoke:
+    name: smoke probes + pipeline end-to-end
+    needs: test
+    runs-on: ubuntu-latest
+    # Real npm installs and MCP handshakes: slower than the unit tests, but
+    # still bounded well under the sweep's budget.
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      # Installs the servers in data/seed.json for real and asserts each one
+      # hands back a tool list.
+      - name: smoke tests
+        run: npm run test:smoke
+
+      # The same five stages the weekly sweep runs, wired together, but scoped
+      # to one seed server so a broken stage boundary fails here and not in
+      # production. --offline keeps the catalog off the network.
+      - name: pipeline end-to-end
+        run: |
+          set -euo pipefail
+          npm run catalog -- --offline
+          npm run sweep -- --only seed/server-everything
+          npm run merge
+          npm run badges
+          npm run site
+
+      - name: assert the site was generated
+        run: |
+          if [ ! -f public/index.html ]; then
+            echo "site stage produced no public/index.html" >&2
+            exit 1
+          fi

@@ -1,0 +1,198 @@
+# The weekly sweep: rebuild the catalog, probe it on three operating systems,
+# merge the results into history, and publish the site to GitHub Pages.
+#
+# A red server is data, not a broken build: probe jobs never fail the sweep
+# (fail-fast is off, and the harness exits 0 with a run file full of red).
+# Only the harness itself failing — bad flags, unreadable catalog — is an error.
+name: sweep
+
+on:
+  schedule:
+    # Mondays, 03:00 UTC.
+    - cron: '0 3 * * 1'
+  workflow_dispatch:
+    inputs:
+      top:
+        description: 'Probe only the N highest-ranked servers'
+        required: false
+        default: '300'
+      shard_total:
+        description: 'Number of probe shards. Must stay 3 (see the probe matrix)'
+        required: false
+        default: '3'
+
+# One sweep at a time, and never cancel a running one: a cancelled sweep loses
+# the run artifacts its probe jobs already produced.
+concurrency:
+  group: sweep
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  catalog:
+    name: build catalog
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      # The shard count lives in two places that cannot see each other (see the
+      # comment on the probe matrix), so refuse to run rather than silently
+      # probe a third of the catalog.
+      - name: check shard_total matches the probe matrix
+        env:
+          SHARD_TOTAL: ${{ inputs.shard_total || '3' }}
+        run: |
+          if [ "$SHARD_TOTAL" != "3" ]; then
+            echo "shard_total=$SHARD_TOTAL, but the probe matrix is hard-coded to 3 shards." >&2
+            echo "Edit the matrix in .github/workflows/sweep.yml to change the shard count." >&2
+            exit 1
+          fi
+
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      # No --limit: the catalog is the full registry every week. `top` is a
+      # sweep-time cap, so trimming here would throw away ranking information
+      # the site and future sweeps still want.
+      - name: build catalog
+        run: npm run catalog
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: catalog
+          path: data/catalog.json
+          if-no-files-found: error
+          retention-days: 7
+
+  probe:
+    name: probe ${{ matrix.os }} shard ${{ matrix.shard }}
+    needs: catalog
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 120
+    strategy:
+      # A shard that dies takes its own results with it and nothing else.
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+        # NOTE: this list is static, and `--shard i/3` below hard-codes the
+        # total to match it. GitHub Actions cannot build a matrix from a
+        # workflow_dispatch input without an extra job that emits JSON, which
+        # is not worth it for v1 — so the `shard_total` input must stay 3
+        # unless this list and the `--shard` argument are edited together.
+        # The catalog job fails fast if a dispatch disagrees.
+        shard: [0, 1, 2]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: catalog
+          path: data
+
+      # PyPI servers are probed through `uv tool run`. If this action is
+      # unavailable the probes record `skipped`, never a failure, so an outage
+      # upstream must not take the sweep down with it.
+      - name: set up uv (optional)
+        uses: astral-sh/setup-uv@v5
+        continue-on-error: true
+
+      - run: npm ci
+
+      # Runs third-party code. That is the point, and it is why this only ever
+      # happens on a disposable runner.
+      - name: probe
+        shell: bash
+        env:
+          TOP: ${{ inputs.top || '300' }}
+        run: npm run sweep -- --catalog data/catalog.json --top "$TOP" --shard ${{ matrix.shard }}/3
+
+      - uses: actions/upload-artifact@v4
+        # Keep whatever the sweep managed to write even if a later step fails.
+        if: always()
+        with:
+          name: runs-${{ matrix.os }}-${{ matrix.shard }}
+          path: data/runs/
+          if-no-files-found: warn
+          retention-days: 7
+
+  publish:
+    name: merge, commit and deploy
+    needs: [catalog, probe]
+    # Publish whatever came back. Missing platforms show up as gaps in the
+    # history strips, which is better than skipping a week entirely. A failed
+    # catalog job, on the other hand, means there is nothing to publish.
+    if: always() && needs.catalog.result == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write # commit data/catalog.json + data/history back
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: catalog
+          path: data
+
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: runs-*
+          merge-multiple: true
+          path: data/runs
+
+      - run: npm ci
+
+      - name: merge run artifacts into history
+        run: npm run merge
+
+      - name: generate badges
+        run: npm run badges
+
+      - name: generate site
+        run: npm run site -- --base /does-it-install/ --site-url https://chryaner.github.io/does-it-install
+
+      # data/history and data/catalog.json are the durable record; public/ and
+      # data/runs/ are build outputs and stay untracked.
+      - name: commit catalog and history
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/history data/catalog.json
+          if git diff --staged --quiet; then
+            echo "no catalog or history changes to commit" >&2
+            exit 0
+          fi
+          git commit -m "sweep: refresh catalog and history ($(date -u +%Y-%m-%d))"
+          git push origin "HEAD:$DEFAULT_BRANCH"
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - id: deploy
+        uses: actions/deploy-pages@v4
