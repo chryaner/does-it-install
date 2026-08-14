@@ -1,0 +1,123 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:44.569Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-44Z-32e0cb",
+        "status": "pass",
+        "toolCount": 28,
+        "toolNames": [
+          "ai_project_estimator",
+          "blog_explorer",
+          "fetch",
+          "get_blog_posts",
+          "get_company_info",
+          "get_comparison",
+          "get_featured_glossary_terms",
+          "get_glossary_by_tech_stack",
+          "get_glossary_term",
+          "get_guide",
+          "get_location_page",
+          "get_page",
+          "get_pricing",
+          "get_related_glossary_terms",
+          "get_services",
+          "list_comparisons",
+          "list_glossary_categories",
+          "list_guides",
+          "list_location_pages",
+          "request_consultation",
+          "search",
+          "search_blog_knowledge",
+          "search_comparisons",
+          "search_content",
+          "search_glossary",
+          "search_guides",
+          "search_location_pages",
+          "search_pages"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:48.539Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-48Z-b2b0dd",
+        "status": "pass",
+        "toolCount": 28,
+        "toolNames": [
+          "ai_project_estimator",
+          "blog_explorer",
+          "fetch",
+          "get_blog_posts",
+          "get_company_info",
+          "get_comparison",
+          "get_featured_glossary_terms",
+          "get_glossary_by_tech_stack",
+          "get_glossary_term",
+          "get_guide",
+          "get_location_page",
+          "get_page",
+          "get_pricing",
+          "get_related_glossary_terms",
+          "get_services",
+          "list_comparisons",
+          "list_glossary_categories",
+          "list_guides",
+          "list_location_pages",
+          "request_consultation",
+          "search",
+          "search_blog_knowledge",
+          "search_comparisons",
+          "search_content",
+          "search_glossary",
+          "search_guides",
+          "search_location_pages",
+          "search_pages"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:54:09.596Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-54-09Z-daced2",
+        "status": "pass",
+        "toolCount": 28,
+        "toolNames": [
+          "ai_project_estimator",
+          "blog_explorer",
+          "fetch",
+          "get_blog_posts",
+          "get_company_info",
+          "get_comparison",
+          "get_featured_glossary_terms",
+          "get_glossary_by_tech_stack",
+          "get_glossary_term",
+          "get_guide",
+          "get_location_page",
+          "get_page",
+          "get_pricing",
+          "get_related_glossary_terms",
+          "get_services",
+          "list_comparisons",
+          "list_glossary_categories",
+          "list_guides",
+          "list_location_pages",
+          "request_consultation",
+          "search",
+          "search_blog_knowledge",
+          "search_comparisons",
+          "search_content",
+          "search_glossary",
+          "search_guides",
+          "search_location_pages",
+          "search_pages"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.contextstudios/mcp",
+  "slug": "ai.contextstudios__mcp"
+}

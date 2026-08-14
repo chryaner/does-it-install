@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:45.798Z",
+        "errorExcerpt": "npm install @dinglebear/runifi@0.2.5 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path /private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-D4kiuU/node_modules/@dinglebear/runifi\nnpm error command failed\nnpm error command sh -c node scripts/install.js\nnpm error unifi-rmcp: Unsupported platform darwin/arm64. Supported targets: linux/x64, win32/x64.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-D4kiuU/.npm-cache/_logs/2026-08-14T18_55_09_085Z-debug-0.log",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-45Z-4278f0",
+        "status": "install_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:41.622Z",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-41Z-0bdee1",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "unifi"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:53:58.370Z",
+        "errorExcerpt": "npm install @dinglebear/runifi@0.2.5 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-ygMfiT\\node_modules\\@dinglebear\\runifi\nnpm error command failed\nnpm error command C:\\Windows\\system32\\cmd.exe /d /s /c node scripts/install.js\nnpm error unifi-rmcp: downloading https://github.com/dinglebear-ai/runifi/releases/download/v0.2.5/runifi-windows-x86_64.tar.gz\nnpm error unifi-rmcp: verified checksum for runifi-windows-x86_64.tar.gz\nnpm error unifi-rmcp: tar (child): Cannot connect to C: resolve failed\nnpm error\nnpm error gzip: stdin: unexpected end of file\nnpm error tar: Child returned status 128\nnpm error tar: Error is not recoverable: exiting now\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-ygMfiT\\.npm-cache\\_logs\\2026-08-14T19_07_25_322Z-debug-0.log",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-58Z-12748a",
+        "status": "install_failed"
+      }
+    ]
+  },
+  "serverId": "ai.dinglebear/runifi",
+  "slug": "ai.dinglebear__runifi"
+}

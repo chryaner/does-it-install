@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:45.798Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"invalid_token\",\"error_description\":\"Missing Authorization header\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-45Z-4278f0",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:41.622Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"invalid_token\",\"error_description\":\"Missing Authorization header\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-41Z-0bdee1",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:53:58.370Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"invalid_token\",\"error_description\":\"Missing Authorization header\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-58Z-12748a",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "ai.docuguru/docuguru",
+  "slug": "ai.docuguru__docuguru"
+}

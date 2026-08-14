@@ -1,0 +1,66 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:44.569Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-44Z-32e0cb",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "goji_search",
+          "goji_explain_term",
+          "goji_browse_glossary",
+          "goji_get_service",
+          "goji_answer_faq",
+          "goji_guide_contents",
+          "goji_read_guide_chapter",
+          "goji_read_guide",
+          "goji_start_enquiry"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:48.539Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-48Z-b2b0dd",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "goji_search",
+          "goji_explain_term",
+          "goji_browse_glossary",
+          "goji_get_service",
+          "goji_answer_faq",
+          "goji_guide_contents",
+          "goji_read_guide_chapter",
+          "goji_read_guide",
+          "goji_start_enquiry"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:54:09.596Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-54-09Z-daced2",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "goji_search",
+          "goji_explain_term",
+          "goji_browse_glossary",
+          "goji_get_service",
+          "goji_answer_faq",
+          "goji_guide_contents",
+          "goji_read_guide_chapter",
+          "goji_read_guide",
+          "goji_start_enquiry"
+        ]
+      }
+    ]
+  },
+  "serverId": "agency.goji/goji",
+  "slug": "agency.goji__goji"
+}

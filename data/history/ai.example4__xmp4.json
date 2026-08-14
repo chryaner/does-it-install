@@ -1,0 +1,87 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:45.798Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-45Z-4278f0",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "xmp4_callees",
+          "xmp4_callers",
+          "xmp4_deps",
+          "xmp4_grep",
+          "xmp4_guide",
+          "xmp4_hierarchy",
+          "xmp4_info",
+          "xmp4_outline",
+          "xmp4_projects",
+          "xmp4_search",
+          "xmp4_server",
+          "xmp4_source",
+          "xmp4_symbol_at",
+          "xmp4_tests_for",
+          "xmp4_usages",
+          "xmp4_view"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:41.622Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-41Z-0bdee1",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "xmp4_callees",
+          "xmp4_callers",
+          "xmp4_deps",
+          "xmp4_grep",
+          "xmp4_guide",
+          "xmp4_hierarchy",
+          "xmp4_info",
+          "xmp4_outline",
+          "xmp4_projects",
+          "xmp4_search",
+          "xmp4_server",
+          "xmp4_source",
+          "xmp4_symbol_at",
+          "xmp4_tests_for",
+          "xmp4_usages",
+          "xmp4_view"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:53:58.370Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-58Z-12748a",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "xmp4_callees",
+          "xmp4_callers",
+          "xmp4_deps",
+          "xmp4_grep",
+          "xmp4_guide",
+          "xmp4_hierarchy",
+          "xmp4_info",
+          "xmp4_outline",
+          "xmp4_projects",
+          "xmp4_search",
+          "xmp4_server",
+          "xmp4_source",
+          "xmp4_symbol_at",
+          "xmp4_tests_for",
+          "xmp4_usages",
+          "xmp4_view"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.example4/xmp4",
+  "slug": "ai.example4__xmp4"
+}

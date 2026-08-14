@@ -1,0 +1,54 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:45.798Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-45Z-4278f0",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "b4_browse",
+          "b4_score",
+          "b4_audit",
+          "b4_compare",
+          "b4_recommend"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:41.622Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-41Z-0bdee1",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "b4_browse",
+          "b4_score",
+          "b4_audit",
+          "b4_compare",
+          "b4_recommend"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:53:58.370Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-58Z-12748a",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "b4_browse",
+          "b4_score",
+          "b4_audit",
+          "b4_compare",
+          "b4_recommend"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.benroberts/b4-index",
+  "slug": "ai.benroberts__b4-index"
+}

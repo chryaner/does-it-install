@@ -1,0 +1,57 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:45.798Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-45Z-4278f0",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "list_metrics",
+          "describe_metric",
+          "get_payment_requirements",
+          "get_metric",
+          "compute_portfolio_var",
+          "compute_spread_greeks"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:41.622Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-41Z-0bdee1",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "list_metrics",
+          "describe_metric",
+          "get_payment_requirements",
+          "get_metric",
+          "compute_portfolio_var",
+          "compute_spread_greeks"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:53:58.370Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-58Z-12748a",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "list_metrics",
+          "describe_metric",
+          "get_payment_requirements",
+          "get_metric",
+          "compute_portfolio_var",
+          "compute_spread_greeks"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.dripmetrics/mcp",
+  "slug": "ai.dripmetrics__mcp"
+}

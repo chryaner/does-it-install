@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:44.569Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[@agentutility/mcp-wordmint] FATAL: X402_PRIVATE_KEY env var is required.\nSet it to a hex-encoded EVM private key with USDC balance on Base (chain 8453).\nUSDC on Base: 0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-44Z-32e0cb",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:48.539Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[@agentutility/mcp-wordmint] FATAL: X402_PRIVATE_KEY env var is required.\nSet it to a hex-encoded EVM private key with USDC balance on Base (chain 8453).\nUSDC on Base: 0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-48Z-b2b0dd",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:54:09.596Z",
+        "errorExcerpt": "npm install @agentutility/mcp-wordmint@0.16.1 timed out after 300s",
+        "method": "npm",
+        "runId": "2026-08-14T18-54-09Z-daced2",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "ai.agentutility/mcp-wordmint",
+  "slug": "ai.agentutility__mcp-wordmint"
+}

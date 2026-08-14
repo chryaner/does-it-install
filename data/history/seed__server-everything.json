@@ -1,10 +1,80 @@
 {
   "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:44.569Z",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-44Z-32e0cb",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "echo",
+          "get-annotated-message",
+          "get-env",
+          "get-resource-links",
+          "get-resource-reference",
+          "get-structured-content",
+          "get-sum",
+          "get-tiny-image",
+          "gzip-file-as-resource",
+          "toggle-simulated-logging",
+          "toggle-subscriber-updates",
+          "trigger-long-running-operation",
+          "simulate-research-query"
+        ]
+      }
+    ],
     "linux": [
+      {
+        "date": "2026-08-14T18:53:48.539Z",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-48Z-b2b0dd",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "echo",
+          "get-annotated-message",
+          "get-env",
+          "get-resource-links",
+          "get-resource-reference",
+          "get-structured-content",
+          "get-sum",
+          "get-tiny-image",
+          "gzip-file-as-resource",
+          "toggle-simulated-logging",
+          "toggle-subscriber-updates",
+          "trigger-long-running-operation",
+          "simulate-research-query"
+        ]
+      },
       {
         "date": "2026-08-14T16:36:20.718Z",
         "method": "npm",
         "runId": "2026-08-14T16-36-20Z-53a736",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "echo",
+          "get-annotated-message",
+          "get-env",
+          "get-resource-links",
+          "get-resource-reference",
+          "get-structured-content",
+          "get-sum",
+          "get-tiny-image",
+          "gzip-file-as-resource",
+          "toggle-simulated-logging",
+          "toggle-subscriber-updates",
+          "trigger-long-running-operation",
+          "simulate-research-query"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:54:09.596Z",
+        "method": "npm",
+        "runId": "2026-08-14T18-54-09Z-daced2",
         "status": "pass",
         "toolCount": 13,
         "toolNames": [

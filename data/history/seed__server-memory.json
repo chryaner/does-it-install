@@ -1,10 +1,68 @@
 {
   "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:40.526Z",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-40Z-4137a6",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "create_entities",
+          "create_relations",
+          "add_observations",
+          "delete_entities",
+          "delete_observations",
+          "delete_relations",
+          "read_graph",
+          "search_nodes",
+          "open_nodes"
+        ]
+      }
+    ],
     "linux": [
+      {
+        "date": "2026-08-14T18:53:40.683Z",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-40Z-231362",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "create_entities",
+          "create_relations",
+          "add_observations",
+          "delete_entities",
+          "delete_observations",
+          "delete_relations",
+          "read_graph",
+          "search_nodes",
+          "open_nodes"
+        ]
+      },
       {
         "date": "2026-08-14T16:36:20.718Z",
         "method": "npm",
         "runId": "2026-08-14T16-36-20Z-53a736",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "create_entities",
+          "create_relations",
+          "add_observations",
+          "delete_entities",
+          "delete_observations",
+          "delete_relations",
+          "read_graph",
+          "search_nodes",
+          "open_nodes"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:54:09.525Z",
+        "method": "npm",
+        "runId": "2026-08-14T18-54-09Z-decb78",
         "status": "pass",
         "toolCount": 9,
         "toolNames": [

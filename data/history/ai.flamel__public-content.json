@@ -1,0 +1,66 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:45.798Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-45Z-4278f0",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "get_company_overview",
+          "search_flamel_content",
+          "list_blog_posts",
+          "get_blog_post",
+          "list_blog_categories",
+          "list_case_studies",
+          "get_case_study",
+          "list_faqs",
+          "list_testimonials"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:41.622Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-41Z-0bdee1",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "get_company_overview",
+          "search_flamel_content",
+          "list_blog_posts",
+          "get_blog_post",
+          "list_blog_categories",
+          "list_case_studies",
+          "get_case_study",
+          "list_faqs",
+          "list_testimonials"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:53:58.370Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-58Z-12748a",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "get_company_overview",
+          "search_flamel_content",
+          "list_blog_posts",
+          "get_blog_post",
+          "list_blog_categories",
+          "list_case_studies",
+          "get_case_study",
+          "list_faqs",
+          "list_testimonials"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.flamel/public-content",
+  "slug": "ai.flamel__public-content"
+}

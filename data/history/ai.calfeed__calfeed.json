@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:44.569Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"invalid_token\",\"error_description\":\"No authorization provided\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-44Z-32e0cb",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:48.539Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"invalid_token\",\"error_description\":\"No authorization provided\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-48Z-b2b0dd",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:54:09.596Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"invalid_token\",\"error_description\":\"No authorization provided\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-54-09Z-daced2",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "ai.calfeed/calfeed",
+  "slug": "ai.calfeed__calfeed"
+}

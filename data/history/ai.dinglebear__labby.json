@@ -1,0 +1,43 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:44.569Z",
+        "errorExcerpt": "npm install @dinglebear/labby@1.8.9 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path /private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-vsu6nG/node_modules/@dinglebear/labby\nnpm error command failed\nnpm error command sh -c node scripts/install.js\nnpm error labby: Unsupported platform darwin/arm64. Supported targets: linux/x64, win32/x64.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-vsu6nG/.npm-cache/_logs/2026-08-14T18_54_56_764Z-debug-0.log",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-44Z-32e0cb",
+        "status": "install_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:48.539Z",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-48Z-b2b0dd",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "gateway",
+          "doctor",
+          "setup",
+          "snippets",
+          "server_logs",
+          "fs",
+          "add_server",
+          "gateway_status"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:54:09.596Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n19:09:20   INFO  starting serve command  transport=Stdio  phase=serve.start  requested_service_count=0  subsystem=cli\n19:09:21   INFO  starting labby serve bootstrap  transport=Stdio  bind_host=127.0.0.1  bind_port=8765  config_path=C:\\Users\\runneradmin\\.config/labby/config.toml  phase=bootstrap.start  requested_service_count=0  subsystem=startup\n19:09:21   INFO  service registry ready  phase=bootstrap.registry  selected_service_count=6  subsystem=startup\n19:09:21   INFO  http auth configuration resolved  auth_mode=Bearer  bearer_token_configured=false  phase=auth.config  public_url_configured=false  subsystem=api_server\n19:09:21   INFO  upstream oauth runtime disabled because no public url is configured  phase=oauth.runtime.disabled  subsystem=gateway_client\n19:09:21   INFO  preparing lazy upstream gateway catalog  oauth_upstream_count=0  phase=discovery.lazy.start  subsystem=gateway_client  upstream_count=0",
+        "method": "npm",
+        "runId": "2026-08-14T18-54-09Z-daced2",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "ai.dinglebear/labby",
+  "slug": "ai.dinglebear__labby"
+}

@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:44.569Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND mcp-github-registry.explorium.ai",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-44Z-32e0cb",
+        "status": "connect_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:48.539Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND mcp-github-registry.explorium.ai",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-48Z-b2b0dd",
+        "status": "connect_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:54:09.596Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND mcp-github-registry.explorium.ai",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-54-09Z-daced2",
+        "status": "connect_failed"
+      }
+    ]
+  },
+  "serverId": "ai.explorium/mcp-explorium",
+  "slug": "ai.explorium__mcp-explorium"
+}

@@ -1,0 +1,60 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:45.798Z",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-45Z-4278f0",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "upload_audio",
+          "upload_image",
+          "list_models",
+          "generate_music_video",
+          "get_task_status",
+          "get_task_result",
+          "get_credit_balance"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:41.622Z",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-41Z-0bdee1",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "upload_audio",
+          "upload_image",
+          "list_models",
+          "generate_music_video",
+          "get_task_status",
+          "get_task_result",
+          "get_credit_balance"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:53:58.370Z",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-58Z-12748a",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "upload_audio",
+          "upload_image",
+          "list_models",
+          "generate_music_video",
+          "get_task_status",
+          "get_task_result",
+          "get_credit_balance"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.bizmuse/bizmuse",
+  "slug": "ai.bizmuse__bizmuse"
+}

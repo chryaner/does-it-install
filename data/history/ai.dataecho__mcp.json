@@ -1,0 +1,117 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:45.798Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-45Z-4278f0",
+        "status": "pass",
+        "toolCount": 26,
+        "toolNames": [
+          "platform_info",
+          "request_login_code",
+          "verify_login_code",
+          "publish_site",
+          "claim_site",
+          "list_sites",
+          "search_sites",
+          "get_site",
+          "update_site_metadata",
+          "delete_site",
+          "app_status",
+          "list_drives",
+          "create_drive",
+          "drive_list_files",
+          "drive_read_file",
+          "drive_write_file",
+          "drive_delete_file",
+          "drive_move_file",
+          "drive_share",
+          "drive_tokens",
+          "drive_revoke_token",
+          "drive_history",
+          "drive_restore",
+          "list_variables",
+          "set_variable",
+          "delete_variable"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:41.622Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-41Z-0bdee1",
+        "status": "pass",
+        "toolCount": 26,
+        "toolNames": [
+          "platform_info",
+          "request_login_code",
+          "verify_login_code",
+          "publish_site",
+          "claim_site",
+          "list_sites",
+          "search_sites",
+          "get_site",
+          "update_site_metadata",
+          "delete_site",
+          "app_status",
+          "list_drives",
+          "create_drive",
+          "drive_list_files",
+          "drive_read_file",
+          "drive_write_file",
+          "drive_delete_file",
+          "drive_move_file",
+          "drive_share",
+          "drive_tokens",
+          "drive_revoke_token",
+          "drive_history",
+          "drive_restore",
+          "list_variables",
+          "set_variable",
+          "delete_variable"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:53:58.370Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-58Z-12748a",
+        "status": "pass",
+        "toolCount": 26,
+        "toolNames": [
+          "platform_info",
+          "request_login_code",
+          "verify_login_code",
+          "publish_site",
+          "claim_site",
+          "list_sites",
+          "search_sites",
+          "get_site",
+          "update_site_metadata",
+          "delete_site",
+          "app_status",
+          "list_drives",
+          "create_drive",
+          "drive_list_files",
+          "drive_read_file",
+          "drive_write_file",
+          "drive_delete_file",
+          "drive_move_file",
+          "drive_share",
+          "drive_tokens",
+          "drive_revoke_token",
+          "drive_history",
+          "drive_restore",
+          "list_variables",
+          "set_variable",
+          "delete_variable"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.dataecho/mcp",
+  "slug": "ai.dataecho__mcp"
+}

@@ -1,0 +1,84 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:44.569Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-44Z-32e0cb",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "get_my_account",
+          "list_graphs",
+          "get_capabilities",
+          "search_graph",
+          "get_neighbors",
+          "get_evidence",
+          "get_node",
+          "get_label_values",
+          "get_supplemental_context",
+          "check_supplemental_status",
+          "search_statistics",
+          "search_insights",
+          "get_validated_trends",
+          "generate_visual",
+          "read_url"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:48.539Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-48Z-b2b0dd",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "get_my_account",
+          "list_graphs",
+          "get_capabilities",
+          "search_graph",
+          "get_neighbors",
+          "get_evidence",
+          "get_node",
+          "get_label_values",
+          "get_supplemental_context",
+          "check_supplemental_status",
+          "search_statistics",
+          "search_insights",
+          "get_validated_trends",
+          "generate_visual",
+          "read_url"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:54:09.596Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-54-09Z-daced2",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "get_my_account",
+          "list_graphs",
+          "get_capabilities",
+          "search_graph",
+          "get_neighbors",
+          "get_evidence",
+          "get_node",
+          "get_label_values",
+          "get_supplemental_context",
+          "check_supplemental_status",
+          "search_statistics",
+          "search_insights",
+          "get_validated_trends",
+          "generate_visual",
+          "read_url"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.fodda/topic-research",
+  "slug": "ai.fodda__topic-research"
+}

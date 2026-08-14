@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:40.526Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[@agentutility/mcp-edge-market] FATAL: X402_PRIVATE_KEY env var is required.\nSet it to a hex-encoded EVM private key with USDC balance on Base (chain 8453).\nUSDC on Base: 0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-40Z-4137a6",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:40.683Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[@agentutility/mcp-edge-market] FATAL: X402_PRIVATE_KEY env var is required.\nSet it to a hex-encoded EVM private key with USDC balance on Base (chain 8453).\nUSDC on Base: 0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-40Z-231362",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:54:09.525Z",
+        "errorExcerpt": "npm install @agentutility/mcp-edge-market@0.15.6 timed out after 300s",
+        "method": "npm",
+        "runId": "2026-08-14T18-54-09Z-decb78",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "ai.agentutility/mcp-edge-market",
+  "slug": "ai.agentutility__mcp-edge-market"
+}

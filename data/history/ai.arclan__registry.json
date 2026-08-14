@@ -1,0 +1,51 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:45.798Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-45Z-4278f0",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "query_registry",
+          "get_server",
+          "recommend_server",
+          "report_server"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:41.622Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-41Z-0bdee1",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "query_registry",
+          "get_server",
+          "recommend_server",
+          "report_server"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:53:58.370Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-58Z-12748a",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "query_registry",
+          "get_server",
+          "recommend_server",
+          "report_server"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.arclan/registry",
+  "slug": "ai.arclan__registry"
+}

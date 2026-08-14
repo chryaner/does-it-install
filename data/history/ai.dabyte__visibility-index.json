@@ -1,0 +1,54 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:40.526Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-40Z-4137a6",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "get_visibility_index",
+          "get_brand_visibility",
+          "list_tracked_brands",
+          "get_history",
+          "get_methodology"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:40.683Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-40Z-231362",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "get_visibility_index",
+          "get_brand_visibility",
+          "list_tracked_brands",
+          "get_history",
+          "get_methodology"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:54:09.525Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-54-09Z-decb78",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "get_visibility_index",
+          "get_brand_visibility",
+          "list_tracked_brands",
+          "get_history",
+          "get_methodology"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.dabyte/visibility-index",
+  "slug": "ai.dabyte__visibility-index"
+}

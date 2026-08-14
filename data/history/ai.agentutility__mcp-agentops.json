@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:45.798Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[@agentutility/mcp-agentops] FATAL: X402_PRIVATE_KEY env var is required.\nSet it to a hex-encoded EVM private key with USDC balance on Base (chain 8453).\nUSDC on Base: 0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-45Z-4278f0",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:41.622Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[@agentutility/mcp-agentops] FATAL: X402_PRIVATE_KEY env var is required.\nSet it to a hex-encoded EVM private key with USDC balance on Base (chain 8453).\nUSDC on Base: 0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-41Z-0bdee1",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:53:58.370Z",
+        "errorExcerpt": "npm install @agentutility/mcp-agentops@0.1.1 timed out after 300s",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-58Z-12748a",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "ai.agentutility/mcp-agentops",
+  "slug": "ai.agentutility__mcp-agentops"
+}

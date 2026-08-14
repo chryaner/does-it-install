@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:40.526Z",
+        "errorExcerpt": "npm install cortex-rmcp@3.9.1 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for cortex-rmcp@3.9.1.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-6a6ssy/.npm-cache/_logs/2026-08-14T18_54_19_873Z-debug-0.log",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-40Z-4137a6",
+        "status": "install_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:40.683Z",
+        "errorExcerpt": "npm install cortex-rmcp@3.9.1 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for cortex-rmcp@3.9.1.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /tmp/does-it-install/dii-npm-ossMiT/.npm-cache/_logs/2026-08-14T18_54_20_422Z-debug-0.log",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-40Z-231362",
+        "status": "install_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:54:09.525Z",
+        "errorExcerpt": "npm install cortex-rmcp@3.9.1 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for cortex-rmcp@3.9.1.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-cjDjnC\\.npm-cache\\_logs\\2026-08-14T19_07_07_866Z-debug-0.log",
+        "method": "npm",
+        "runId": "2026-08-14T18-54-09Z-decb78",
+        "status": "install_failed"
+      }
+    ]
+  },
+  "serverId": "ai.dinglebear/cortex-rmcp",
+  "slug": "ai.dinglebear__cortex-rmcp"
+}

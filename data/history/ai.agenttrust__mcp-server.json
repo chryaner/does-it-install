@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:40.526Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nFatal error: Error: Agent identity is not fully configured. Run `agenttrust-mcp init` or set AGENTTRUST_SLUG and AGENTTRUST_AGENT_ID.\n    at makeError (file:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-Ss27uk/node_modules/@agenttrust/mcp-server/dist/index.js:24:12)\n    at ensureConfigReady (file:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-Ss27uk/node_modules/@agenttrust/mcp-server/dist/index.js:986:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async runStdioServer (file:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-Ss27uk/node_modules/@agenttrust/mcp-server/dist/index.js:991:5)\n    at async main (file:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-Ss27uk/node_modules/@agenttrust/mcp-server/dist/index.js:1072:5)",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-40Z-4137a6",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:40.683Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nFatal error: Error: Agent identity is not fully configured. Run `agenttrust-mcp init` or set AGENTTRUST_SLUG and AGENTTRUST_AGENT_ID.\n    at makeError (file:///tmp/does-it-install/dii-npm-FlKVrh/node_modules/@agenttrust/mcp-server/dist/index.js:24:12)\n    at ensureConfigReady (file:///tmp/does-it-install/dii-npm-FlKVrh/node_modules/@agenttrust/mcp-server/dist/index.js:986:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async runStdioServer (file:///tmp/does-it-install/dii-npm-FlKVrh/node_modules/@agenttrust/mcp-server/dist/index.js:991:5)\n    at async main (file:///tmp/does-it-install/dii-npm-FlKVrh/node_modules/@agenttrust/mcp-server/dist/index.js:1072:5)",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-40Z-231362",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:54:09.525Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nFatal error: Error: Agent identity is not fully configured. Run `agenttrust-mcp init` or set AGENTTRUST_SLUG and AGENTTRUST_AGENT_ID.\n    at makeError (file:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-6bsP71/node_modules/@agenttrust/mcp-server/dist/index.js:24:12)\n    at ensureConfigReady (file:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-6bsP71/node_modules/@agenttrust/mcp-server/dist/index.js:986:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async runStdioServer (file:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-6bsP71/node_modules/@agenttrust/mcp-server/dist/index.js:991:5)\n    at async main (file:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-6bsP71/node_modules/@agenttrust/mcp-server/dist/index.js:1072:5)",
+        "method": "npm",
+        "runId": "2026-08-14T18-54-09Z-decb78",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "ai.agenttrust/mcp-server",
+  "slug": "ai.agenttrust__mcp-server"
+}

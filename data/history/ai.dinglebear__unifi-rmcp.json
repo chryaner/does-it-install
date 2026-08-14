@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:45.798Z",
+        "errorExcerpt": "npm install unifi-rmcp@0.2.4 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for unifi-rmcp@0.2.4.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-Oov5eG/.npm-cache/_logs/2026-08-14T18_55_09_597Z-debug-0.log",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-45Z-4278f0",
+        "status": "install_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:41.622Z",
+        "errorExcerpt": "npm install unifi-rmcp@0.2.4 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for unifi-rmcp@0.2.4.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /tmp/does-it-install/dii-npm-3wMdac/.npm-cache/_logs/2026-08-14T18_54_28_722Z-debug-0.log",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-41Z-0bdee1",
+        "status": "install_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:53:58.370Z",
+        "errorExcerpt": "npm install unifi-rmcp@0.2.4 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for unifi-rmcp@0.2.4.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-xhOFP5\\.npm-cache\\_logs\\2026-08-14T19_07_28_942Z-debug-0.log",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-58Z-12748a",
+        "status": "install_failed"
+      }
+    ]
+  },
+  "serverId": "ai.dinglebear/unifi-rmcp",
+  "slug": "ai.dinglebear__unifi-rmcp"
+}

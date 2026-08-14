@@ -1,0 +1,123 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:45.798Z",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-45Z-4278f0",
+        "status": "pass",
+        "toolCount": 28,
+        "toolNames": [
+          "search_products",
+          "get_product",
+          "get_categories",
+          "check_balance",
+          "create_order",
+          "get_orders",
+          "get_recommendations",
+          "buy_nomd",
+          "get_audience_data",
+          "list_audiences",
+          "get_business_profile",
+          "get_product_info",
+          "fetch_url",
+          "dispatch_email_campaign",
+          "dispatch_voice_campaign",
+          "dispatch_sms_campaign",
+          "configure_landing_page",
+          "dispatch_landing_pages",
+          "send_landing_chat",
+          "list_workflow_templates",
+          "start_workflow",
+          "place_bid",
+          "withdraw_bid",
+          "list_my_inbox",
+          "get_agent_profile",
+          "edit_agent_profile",
+          "get_settlement_status",
+          "list_my_settlements"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:41.622Z",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-41Z-0bdee1",
+        "status": "pass",
+        "toolCount": 28,
+        "toolNames": [
+          "search_products",
+          "get_product",
+          "get_categories",
+          "check_balance",
+          "create_order",
+          "get_orders",
+          "get_recommendations",
+          "buy_nomd",
+          "get_audience_data",
+          "list_audiences",
+          "get_business_profile",
+          "get_product_info",
+          "fetch_url",
+          "dispatch_email_campaign",
+          "dispatch_voice_campaign",
+          "dispatch_sms_campaign",
+          "configure_landing_page",
+          "dispatch_landing_pages",
+          "send_landing_chat",
+          "list_workflow_templates",
+          "start_workflow",
+          "place_bid",
+          "withdraw_bid",
+          "list_my_inbox",
+          "get_agent_profile",
+          "edit_agent_profile",
+          "get_settlement_status",
+          "list_my_settlements"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:53:58.370Z",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-58Z-12748a",
+        "status": "pass",
+        "toolCount": 28,
+        "toolNames": [
+          "search_products",
+          "get_product",
+          "get_categories",
+          "check_balance",
+          "create_order",
+          "get_orders",
+          "get_recommendations",
+          "buy_nomd",
+          "get_audience_data",
+          "list_audiences",
+          "get_business_profile",
+          "get_product_info",
+          "fetch_url",
+          "dispatch_email_campaign",
+          "dispatch_voice_campaign",
+          "dispatch_sms_campaign",
+          "configure_landing_page",
+          "dispatch_landing_pages",
+          "send_landing_chat",
+          "list_workflow_templates",
+          "start_workflow",
+          "place_bid",
+          "withdraw_bid",
+          "list_my_inbox",
+          "get_agent_profile",
+          "edit_agent_profile",
+          "get_settlement_status",
+          "list_my_settlements"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.autonomad/computeback",
+  "slug": "ai.autonomad__computeback"
+}

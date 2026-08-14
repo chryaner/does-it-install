@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:44.569Z",
+        "errorExcerpt": "ctxl declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-44Z-32e0cb",
+        "status": "spawn_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:48.539Z",
+        "errorExcerpt": "ctxl declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "method": "npm",
+        "runId": "2026-08-14T18-53-48Z-b2b0dd",
+        "status": "spawn_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:54:09.596Z",
+        "errorExcerpt": "ctxl declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "method": "npm",
+        "runId": "2026-08-14T18-54-09Z-daced2",
+        "status": "spawn_failed"
+      }
+    ]
+  },
+  "serverId": "ai.autoblocks/ctxl",
+  "slug": "ai.autoblocks__ctxl"
+}

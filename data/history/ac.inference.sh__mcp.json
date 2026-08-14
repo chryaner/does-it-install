@@ -1,0 +1,114 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-14T18:53:44.569Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-44Z-32e0cb",
+        "status": "pass",
+        "toolCount": 25,
+        "toolNames": [
+          "app_get",
+          "app_list",
+          "app_run",
+          "knowledge_create",
+          "knowledge_delete",
+          "knowledge_get",
+          "knowledge_list",
+          "knowledge_search",
+          "mcp_connect",
+          "mcp_disconnect",
+          "mcp_get",
+          "mcp_list",
+          "mcp_run",
+          "mcp_search",
+          "mcp_tools",
+          "skill_files",
+          "skill_search",
+          "skill_store",
+          "skill_upload",
+          "skill_use",
+          "skill_view",
+          "task_cancel",
+          "task_get",
+          "task_list",
+          "task_logs"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-14T18:53:48.539Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-53-48Z-b2b0dd",
+        "status": "pass",
+        "toolCount": 25,
+        "toolNames": [
+          "app_get",
+          "app_list",
+          "app_run",
+          "knowledge_create",
+          "knowledge_delete",
+          "knowledge_get",
+          "knowledge_list",
+          "knowledge_search",
+          "mcp_connect",
+          "mcp_disconnect",
+          "mcp_get",
+          "mcp_list",
+          "mcp_run",
+          "mcp_search",
+          "mcp_tools",
+          "skill_files",
+          "skill_search",
+          "skill_store",
+          "skill_upload",
+          "skill_use",
+          "skill_view",
+          "task_cancel",
+          "task_get",
+          "task_list",
+          "task_logs"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-14T18:54:09.596Z",
+        "method": "remote-http",
+        "runId": "2026-08-14T18-54-09Z-daced2",
+        "status": "pass",
+        "toolCount": 25,
+        "toolNames": [
+          "app_get",
+          "app_list",
+          "app_run",
+          "knowledge_create",
+          "knowledge_delete",
+          "knowledge_get",
+          "knowledge_list",
+          "knowledge_search",
+          "mcp_connect",
+          "mcp_disconnect",
+          "mcp_get",
+          "mcp_list",
+          "mcp_run",
+          "mcp_search",
+          "mcp_tools",
+          "skill_files",
+          "skill_search",
+          "skill_store",
+          "skill_upload",
+          "skill_use",
+          "skill_view",
+          "task_cancel",
+          "task_get",
+          "task_list",
+          "task_logs"
+        ]
+      }
+    ]
+  },
+  "serverId": "ac.inference.sh/mcp",
+  "slug": "ac.inference.sh__mcp"
+}
