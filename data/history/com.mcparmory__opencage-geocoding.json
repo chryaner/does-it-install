@@ -1,0 +1,48 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.684Z",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "search_location",
+          "search_location_xml",
+          "search_geojson"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.605Z",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "search_location",
+          "search_location_xml",
+          "search_geojson"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "search_location",
+          "search_location_xml",
+          "search_geojson"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.mcparmory/opencage-geocoding",
+  "slug": "com.mcparmory__opencage-geocoding"
+}

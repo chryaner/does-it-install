@@ -1,0 +1,93 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:17.022Z",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-17Z-8b8e8b",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_context",
+          "get_context",
+          "update_context",
+          "upload_extension",
+          "get_extension",
+          "delete_extension",
+          "list_projects",
+          "get_project",
+          "get_project_usage",
+          "list_sessions",
+          "create_session",
+          "get_session",
+          "release_session",
+          "get_session_debug_urls",
+          "list_session_downloads",
+          "get_session_logs",
+          "get_session_recording",
+          "upload_session_file"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.415Z",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-20Z-238791",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_context",
+          "get_context",
+          "update_context",
+          "upload_extension",
+          "get_extension",
+          "delete_extension",
+          "list_projects",
+          "get_project",
+          "get_project_usage",
+          "list_sessions",
+          "create_session",
+          "get_session",
+          "release_session",
+          "get_session_debug_urls",
+          "list_session_downloads",
+          "get_session_logs",
+          "get_session_recording",
+          "upload_session_file"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:50:04.636Z",
+        "method": "pypi",
+        "runId": "2026-08-15T01-50-04Z-2bdea0",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_context",
+          "get_context",
+          "update_context",
+          "upload_extension",
+          "get_extension",
+          "delete_extension",
+          "list_projects",
+          "get_project",
+          "get_project_usage",
+          "list_sessions",
+          "create_session",
+          "get_session",
+          "release_session",
+          "get_session_debug_urls",
+          "list_session_downloads",
+          "get_session_logs",
+          "get_session_recording",
+          "upload_session_file"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.mcparmory/browserbase",
+  "slug": "com.mcparmory__browserbase"
+}

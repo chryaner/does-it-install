@@ -1,0 +1,69 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.684Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "ping",
+          "get_municipality_context",
+          "get_station_context",
+          "get_toilet_by_station",
+          "get_public_toilet_by_city",
+          "get_station_hazard",
+          "station_search",
+          "get_active_alerts",
+          "get_station_alerts",
+          "get_train_status"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.605Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "ping",
+          "get_municipality_context",
+          "get_station_context",
+          "get_toilet_by_station",
+          "get_public_toilet_by_city",
+          "get_station_hazard",
+          "station_search",
+          "get_active_alerts",
+          "get_station_alerts",
+          "get_train_status"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "ping",
+          "get_municipality_context",
+          "get_station_context",
+          "get_toilet_by_station",
+          "get_public_toilet_by_city",
+          "get_station_hazard",
+          "station_search",
+          "get_active_alerts",
+          "get_station_alerts",
+          "get_train_status"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.gachi-tokusuru/japan-data-api",
+  "slug": "com.gachi-tokusuru__japan-data-api"
+}

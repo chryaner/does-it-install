@@ -1,0 +1,57 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.419Z",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-18Z-df0f6c",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "get_credits_balance",
+          "get_webpage",
+          "search_web_content",
+          "list_research_tasks",
+          "create_research_task",
+          "get_research"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:21.179Z",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-21Z-2de383",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "get_credits_balance",
+          "get_webpage",
+          "search_web_content",
+          "list_research_tasks",
+          "create_research_task",
+          "get_research"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:32.941Z",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-32Z-2e0add",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "get_credits_balance",
+          "get_webpage",
+          "search_web_content",
+          "list_research_tasks",
+          "create_research_task",
+          "get_research"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.mcparmory/linkup",
+  "slug": "com.mcparmory__linkup"
+}

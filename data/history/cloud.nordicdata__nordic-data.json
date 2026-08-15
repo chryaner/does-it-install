@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.684Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Upstream 526: {\"type\":\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-5xx-errors/error-526/\",\"title\":\"Error 526: Invalid SSL certificate\",\"status\":526,\"detail\":\"The TLS certi\n--- stderr (tail) ---\n[nordic-data-mcp] bridge ready · endpoint=https://api.nordicdata.cloud/mcp",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.605Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Upstream 526: {\"type\":\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-5xx-errors/error-526/\",\"title\":\"Error 526: Invalid SSL certificate\",\"status\":526,\"detail\":\"The TLS certi\n--- stderr (tail) ---\n[nordic-data-mcp] bridge ready · endpoint=https://api.nordicdata.cloud/mcp",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Upstream 526: {\"type\":\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-5xx-errors/error-526/\",\"title\":\"Error 526: Invalid SSL certificate\",\"status\":526,\"detail\":\"The TLS certi\n--- stderr (tail) ---\n[nordic-data-mcp] bridge ready · endpoint=https://api.nordicdata.cloud/mcp",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "cloud.nordicdata/nordic-data",
+  "slug": "cloud.nordicdata__nordic-data"
+}

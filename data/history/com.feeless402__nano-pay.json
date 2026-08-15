@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:17.022Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading pycryptodomex (2.4MiB)\n Downloaded pycryptodomex\nInstalled 26 packages in 573ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/-4sr763e89ffJY1X/bin/feeless402\", line 12, in <module>\n    sys.exit(main())\n             ~~~~^^\n  File \"/Users/runner/.cache/uv/archive-v0/-4sr763e89ffJY1X/lib/python3.14/site-packages/nano_pay/cli.py\", line 415, in main\n    args.fn(args)\n    ~~~~~~~^^^^^^\n  File \"/Users/runner/.cache/uv/archive-v0/-4sr763e89ffJY1X/lib/python3.14/site-packages/nano_pay/cli.py\", line 405, in <lambda>\n    s.set_defaults(fn=lambda a: __import__(\"nano_pay.mcp_server\", fromlist=[\"main\"]).main())\n                                ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/runner/.cache/uv/archive-v0/-4sr763e89ffJY1X/lib/python3.14/site-packages/nano_pay/mcp_server.py\", line 14, in <module>\n    from mcp.server.mcpserver import MCPServer\nModuleNotFoundError: No module named 'mcp'",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-17Z-8b8e8b",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.415Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading pycryptodomex (2.2MiB)\n Downloaded pycryptodomex\nInstalled 27 packages in 45ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/9cFeZsC_htuzOFwv/bin/feeless402\", line 12, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/runner/.cache/uv/archive-v0/9cFeZsC_htuzOFwv/lib/python3.12/site-packages/nano_pay/cli.py\", line 415, in main\n    args.fn(args)\n  File \"/home/runner/.cache/uv/archive-v0/9cFeZsC_htuzOFwv/lib/python3.12/site-packages/nano_pay/cli.py\", line 405, in <lambda>\n    s.set_defaults(fn=lambda a: __import__(\"nano_pay.mcp_server\", fromlist=[\"main\"]).main())\n                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/.cache/uv/archive-v0/9cFeZsC_htuzOFwv/lib/python3.12/site-packages/nano_pay/mcp_server.py\", line 14, in <module>\n    from mcp.server.mcpserver import MCPServer\nModuleNotFoundError: No module named 'mcp'",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-20Z-238791",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:50:04.636Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading pycryptodomex (1.7MiB)\n Downloaded pycryptodomex\nInstalled 27 packages in 8.37s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\zl-DmY36E4jmAZrZ\\Scripts\\feeless402.exe\\__main__.py\", line 10, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\zl-DmY36E4jmAZrZ\\Lib\\site-packages\\nano_pay\\cli.py\", line 415, in main\r\n    args.fn(args)\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\zl-DmY36E4jmAZrZ\\Lib\\site-packages\\nano_pay\\cli.py\", line 405, in <lambda>\r\n    s.set_defaults(fn=lambda a: __import__(\"nano_pay.mcp_server\", fromlist=[\"main\"]).main())\r\n                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\zl-DmY36E4jmAZrZ\\Lib\\site-packages\\nano_pay\\mcp_server.py\", line 14, in <module>\r\n    from mcp.server.mcpserver import MCPServer\r\nModuleNotFoundError: No module named 'mcp'",
+        "method": "pypi",
+        "runId": "2026-08-15T01-50-04Z-2bdea0",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "com.feeless402/nano-pay",
+  "slug": "com.feeless402__nano-pay"
+}

@@ -1,0 +1,78 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.684Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "list_projects",
+          "get_status",
+          "get_project",
+          "get_logs",
+          "check_port",
+          "start_project",
+          "stop_project",
+          "run_process",
+          "update_project",
+          "create_project",
+          "delete_project",
+          "stop_process",
+          "workspace_run"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.605Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "list_projects",
+          "get_status",
+          "get_project",
+          "get_logs",
+          "check_port",
+          "start_project",
+          "stop_project",
+          "run_process",
+          "update_project",
+          "create_project",
+          "delete_project",
+          "stop_process",
+          "workspace_run"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "list_projects",
+          "get_status",
+          "get_project",
+          "get_logs",
+          "check_port",
+          "start_project",
+          "stop_project",
+          "run_process",
+          "update_project",
+          "create_project",
+          "delete_project",
+          "stop_process",
+          "workspace_run"
+        ]
+      }
+    ]
+  },
+  "serverId": "app.devglow/devglow",
+  "slug": "app.devglow__devglow"
+}

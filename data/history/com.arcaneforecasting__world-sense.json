@@ -1,0 +1,69 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:17.022Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-17Z-8b8e8b",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "arcane_overview",
+          "arcane_deltas",
+          "arcane_domain",
+          "arcane_bilateral",
+          "arcane_data_streams",
+          "arcane_score_tree",
+          "arcane_trigger_chains",
+          "arcane_tracker",
+          "arcane_system_status",
+          "arcane_capabilities"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.415Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-20Z-238791",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "arcane_overview",
+          "arcane_deltas",
+          "arcane_domain",
+          "arcane_bilateral",
+          "arcane_data_streams",
+          "arcane_score_tree",
+          "arcane_trigger_chains",
+          "arcane_tracker",
+          "arcane_system_status",
+          "arcane_capabilities"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:50:04.636Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-50-04Z-2bdea0",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "arcane_overview",
+          "arcane_deltas",
+          "arcane_domain",
+          "arcane_bilateral",
+          "arcane_data_streams",
+          "arcane_score_tree",
+          "arcane_trigger_chains",
+          "arcane_tracker",
+          "arcane_system_status",
+          "arcane_capabilities"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.arcaneforecasting/world-sense",
+  "slug": "com.arcaneforecasting__world-sense"
+}

@@ -1,0 +1,42 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:17.022Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-17Z-8b8e8b",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "check_vehicle_recalls"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.415Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-20Z-238791",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "check_vehicle_recalls"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:50:04.636Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-50-04Z-2bdea0",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "check_vehicle_recalls"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.checkrecall/vehicle-recalls",
+  "slug": "com.checkrecall__vehicle-recalls"
+}

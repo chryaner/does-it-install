@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.419Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n[12735] Using automatically selected callback port: 36396\n[12735] Discovering OAuth server configuration...\n[12735] Discovered authorization server: https://mcp.dialmcp.com\n[12735] [12735] Connecting to remote server: https://mcp.dialmcp.com/mcp\n[12735] Using transport strategy: http-first\n[12735] \nPlease authorize this client by visiting:\nhttps://mcp.dialmcp.com/authorize?response_type=code&client_id=qWLFh77Fp1Cy4hkT&code_challenge=9qQYI3C_Fjk_SMqUhLOTDh-Q5Hw40SLYt2kpVqG4914&code_challenge_method=S256&redirect_uri=http%3A%2F%2Flocalhost%3A36396%2Foauth%2Fcallback&state=3e2033f2-3eca-4864-b3e7-ff5e29962afb&scope=openid+email+profile&resource=https%3A%2F%2Fmcp.dialmcp.com%2Fmcp\n\n[12735] Browser opened automatically.\n[12735] Authentication required. Initializing auth...\n[12735] Initializing auth coordination on-demand\n[12735] OAuth callback server running at http://127.0.0.1:36396\n[12735] Creating lockfile for server 8125827467b6fb29878fbd22aa698420 with process 12735 on port 36396\n[12735] Authentication required. Waiting for authorization...",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-18Z-df0f6c",
+        "status": "timeout"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:21.179Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n[4389] Using automatically selected callback port: 36396\n[4389] Discovering OAuth server configuration...\n[4389] Discovered authorization server: https://mcp.dialmcp.com\n[4389] [4389] Connecting to remote server: https://mcp.dialmcp.com/mcp\n[4389] Using transport strategy: http-first\n[4389] \nPlease authorize this client by visiting:\nhttps://mcp.dialmcp.com/authorize?response_type=code&client_id=fL3fazvh58YsR9Ga&code_challenge=mehj1Q4crLbvLbfMKAFBLmcJ8_OAFxogn_nXN6FQgUM&code_challenge_method=S256&redirect_uri=http%3A%2F%2Flocalhost%3A36396%2Foauth%2Fcallback&state=5def4bc3-fe19-4701-9f4a-ebce1449d6ad&scope=openid+email+profile&resource=https%3A%2F%2Fmcp.dialmcp.com%2Fmcp\n\n[4389] Browser opened automatically.\n[4389] Authentication required. Initializing auth...\n[4389] Initializing auth coordination on-demand\n[4389] OAuth callback server running at http://127.0.0.1:36396\n[4389] Creating lockfile for server 8125827467b6fb29878fbd22aa698420 with process 4389 on port 36396\n[4389] Authentication required. Waiting for authorization...",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-21Z-2de383",
+        "status": "timeout"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:32.941Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n[4624] Using automatically selected callback port: 36396\n[4624] Discovering OAuth server configuration...\n[4624] Discovered authorization server: https://mcp.dialmcp.com\n[4624] [4624] Connecting to remote server: https://mcp.dialmcp.com/mcp\n[4624] Using transport strategy: http-first\n[4624] \nPlease authorize this client by visiting:\nhttps://mcp.dialmcp.com/authorize?response_type=code&client_id=dJZ2cNajyZrmCeFc&code_challenge=WuuiXxFnEFIlNbku8ieGrDY4kOdDfZh34cyepoMjv58&code_challenge_method=S256&redirect_uri=http%3A%2F%2Flocalhost%3A36396%2Foauth%2Fcallback&state=e850a2d4-b8fe-481b-b7ca-693e966a3501&scope=openid+email+profile&resource=https%3A%2F%2Fmcp.dialmcp.com%2Fmcp\n\n[4624] Browser opened automatically.\n[4624] Authentication required. Initializing auth...\n[4624] Initializing auth coordination on-demand\n[4624] OAuth callback server running at http://127.0.0.1:36396\n[4624] Creating lockfile for server 8125827467b6fb29878fbd22aa698420 with process 4624 on port 36396\n[4624] Authentication required. Waiting for authorization...",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-32Z-2e0add",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "com.dialmcp/dialmcp",
+  "slug": "com.dialmcp__dialmcp"
+}

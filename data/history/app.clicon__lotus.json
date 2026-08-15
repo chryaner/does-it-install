@@ -1,0 +1,87 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.684Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "analyze_geo",
+          "get_quick_wins",
+          "get_quick_win_code",
+          "mark_applied",
+          "get_competitor_actions",
+          "get_artifact",
+          "get_bot_activity",
+          "get_bleed_model",
+          "verify_installation",
+          "get_citation_verdict",
+          "generate_share_link",
+          "regenerate_artifacts",
+          "get_report_data",
+          "list_artifacts",
+          "approve_artifact",
+          "activate_artifact"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.605Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "analyze_geo",
+          "get_quick_wins",
+          "get_quick_win_code",
+          "mark_applied",
+          "get_competitor_actions",
+          "get_artifact",
+          "get_bot_activity",
+          "get_bleed_model",
+          "verify_installation",
+          "get_citation_verdict",
+          "generate_share_link",
+          "regenerate_artifacts",
+          "get_report_data",
+          "list_artifacts",
+          "approve_artifact",
+          "activate_artifact"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "analyze_geo",
+          "get_quick_wins",
+          "get_quick_win_code",
+          "mark_applied",
+          "get_competitor_actions",
+          "get_artifact",
+          "get_bot_activity",
+          "get_bleed_model",
+          "verify_installation",
+          "get_citation_verdict",
+          "generate_share_link",
+          "regenerate_artifacts",
+          "get_report_data",
+          "list_artifacts",
+          "approve_artifact",
+          "activate_artifact"
+        ]
+      }
+    ]
+  },
+  "serverId": "app.clicon/lotus",
+  "slug": "app.clicon__lotus"
+}

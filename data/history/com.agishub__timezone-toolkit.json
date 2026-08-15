@@ -1,0 +1,66 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.419Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-18Z-df0f6c",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "now_in",
+          "convert_timezone",
+          "convert_batch",
+          "tz_offset",
+          "list_timezones",
+          "lookup_timezone",
+          "date_math",
+          "find_meeting_slots",
+          "is_holiday"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:21.179Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-21Z-2de383",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "now_in",
+          "convert_timezone",
+          "convert_batch",
+          "tz_offset",
+          "list_timezones",
+          "lookup_timezone",
+          "date_math",
+          "find_meeting_slots",
+          "is_holiday"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:32.941Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-32Z-2e0add",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "now_in",
+          "convert_timezone",
+          "convert_batch",
+          "tz_offset",
+          "list_timezones",
+          "lookup_timezone",
+          "date_math",
+          "find_meeting_slots",
+          "is_holiday"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.agishub/timezone-toolkit",
+  "slug": "com.agishub__timezone-toolkit"
+}

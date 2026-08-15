@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:17.022Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: whooshly-mcp: server rejected the token (HTTP 401). Mint a fresh one at https://app.whooshly.co (Agents).",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-17Z-8b8e8b",
+        "status": "timeout"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.415Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: whooshly-mcp: server rejected the token (HTTP 401). Mint a fresh one at https://app.whooshly.co (Agents).",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-20Z-238791",
+        "status": "timeout"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:50:04.636Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: whooshly-mcp: server rejected the token (HTTP 401). Mint a fresh one at https://app.whooshly.co (Agents).",
+        "method": "npm",
+        "runId": "2026-08-15T01-50-04Z-2bdea0",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "co.whooshly/whooshly-mcp",
+  "slug": "co.whooshly__whooshly-mcp"
+}

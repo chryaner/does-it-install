@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.419Z",
+        "errorExcerpt": "handshake failed: Streamable HTTP error: Error POSTing to endpoint: {\"success\":false,\"error\":{\"message\":\"Missing or invalid Authorization header\",\"code\":401,\"timestamp\":\"2026-08-15T01:51:35+00:00\"}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-18Z-df0f6c",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:21.179Z",
+        "errorExcerpt": "handshake failed: Streamable HTTP error: Error POSTing to endpoint: {\"success\":false,\"error\":{\"message\":\"Missing or invalid Authorization header\",\"code\":401,\"timestamp\":\"2026-08-15T01:51:52+00:00\"}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-21Z-2de383",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:32.941Z",
+        "errorExcerpt": "handshake failed: Streamable HTTP error: Error POSTing to endpoint: {\"success\":false,\"error\":{\"message\":\"Missing or invalid Authorization header\",\"code\":401,\"timestamp\":\"2026-08-15T02:07:07+00:00\"}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-32Z-2e0add",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "ai.websitepublisher/mcp",
+  "slug": "ai.websitepublisher__mcp"
+}

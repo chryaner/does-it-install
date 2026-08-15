@@ -1,0 +1,57 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:17.022Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-17Z-8b8e8b",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "muovi_search_professionals",
+          "muovi_get_professional",
+          "muovi_list_services",
+          "muovi_list_cities",
+          "muovi_get_reviews",
+          "muovi_create_task_link"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.415Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-20Z-238791",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "muovi_search_professionals",
+          "muovi_get_professional",
+          "muovi_list_services",
+          "muovi_list_cities",
+          "muovi_get_reviews",
+          "muovi_create_task_link"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:50:04.636Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-50-04Z-2bdea0",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "muovi_search_professionals",
+          "muovi_get_professional",
+          "muovi_list_services",
+          "muovi_list_cities",
+          "muovi_get_reviews",
+          "muovi_create_task_link"
+        ]
+      }
+    ]
+  },
+  "serverId": "ar.com.muovi/mcp-server",
+  "slug": "ar.com.muovi__mcp-server"
+}

@@ -1,0 +1,78 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.684Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "decode_irs_notice",
+          "check_resolution_options",
+          "estimate_irs_penalty",
+          "explain_tax_document",
+          "deadline_calendar",
+          "check_fbar_fatca",
+          "check_treaty_withholding",
+          "check_itin_eligibility",
+          "check_5472_obligation",
+          "estimate_quarterly_taxes",
+          "estimate_accountable_plan",
+          "estimate_augusta_rule",
+          "estimate_rental_income"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.605Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "decode_irs_notice",
+          "check_resolution_options",
+          "estimate_irs_penalty",
+          "explain_tax_document",
+          "deadline_calendar",
+          "check_fbar_fatca",
+          "check_treaty_withholding",
+          "check_itin_eligibility",
+          "check_5472_obligation",
+          "estimate_quarterly_taxes",
+          "estimate_accountable_plan",
+          "estimate_augusta_rule",
+          "estimate_rental_income"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "decode_irs_notice",
+          "check_resolution_options",
+          "estimate_irs_penalty",
+          "explain_tax_document",
+          "deadline_calendar",
+          "check_fbar_fatca",
+          "check_treaty_withholding",
+          "check_itin_eligibility",
+          "check_5472_obligation",
+          "estimate_quarterly_taxes",
+          "estimate_accountable_plan",
+          "estimate_augusta_rule",
+          "estimate_rental_income"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.arcandledger/tax-tools",
+  "slug": "com.arcandledger__tax-tools"
+}

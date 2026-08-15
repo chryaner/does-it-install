@@ -1,0 +1,51 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.419Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-18Z-df0f6c",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "search_docs",
+          "get_doc_page",
+          "get_api_endpoint",
+          "list_doc_sections"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:21.179Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-21Z-2de383",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "search_docs",
+          "get_doc_page",
+          "get_api_endpoint",
+          "list_doc_sections"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:32.941Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-32Z-2e0add",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "search_docs",
+          "get_doc_page",
+          "get_api_endpoint",
+          "list_doc_sections"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.applivery.docs/mcp",
+  "slug": "com.applivery.docs__mcp"
+}

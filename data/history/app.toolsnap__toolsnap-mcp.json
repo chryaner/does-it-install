@@ -1,0 +1,90 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.419Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-18Z-df0f6c",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "tool_catalog",
+          "use_tool",
+          "task_recipes",
+          "memory_snippet",
+          "pricing",
+          "fetch_extract",
+          "fetch_html",
+          "html_to_markdown",
+          "fetch_metadata",
+          "pdf_text_extract",
+          "csv_query",
+          "json_query",
+          "sitemap_parse",
+          "rss_parse",
+          "screenshot_url",
+          "keyword_research",
+          "remove_background"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:21.179Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-21Z-2de383",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "tool_catalog",
+          "use_tool",
+          "task_recipes",
+          "memory_snippet",
+          "pricing",
+          "fetch_extract",
+          "fetch_html",
+          "html_to_markdown",
+          "fetch_metadata",
+          "pdf_text_extract",
+          "csv_query",
+          "json_query",
+          "sitemap_parse",
+          "rss_parse",
+          "screenshot_url",
+          "keyword_research",
+          "remove_background"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:32.941Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-32Z-2e0add",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "tool_catalog",
+          "use_tool",
+          "task_recipes",
+          "memory_snippet",
+          "pricing",
+          "fetch_extract",
+          "fetch_html",
+          "html_to_markdown",
+          "fetch_metadata",
+          "pdf_text_extract",
+          "csv_query",
+          "json_query",
+          "sitemap_parse",
+          "rss_parse",
+          "screenshot_url",
+          "keyword_research",
+          "remove_background"
+        ]
+      }
+    ]
+  },
+  "serverId": "app.toolsnap/toolsnap-mcp",
+  "slug": "app.toolsnap__toolsnap-mcp"
+}

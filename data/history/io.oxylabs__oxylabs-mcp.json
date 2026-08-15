@@ -1,0 +1,69 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:17.022Z",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-17Z-8b8e8b",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "ai_crawler",
+          "ai_scraper",
+          "ai_browser_agent",
+          "ai_search",
+          "generate_schema",
+          "ai_map",
+          "universal_scraper",
+          "google_search_scraper",
+          "amazon_search_scraper",
+          "amazon_product_scraper"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.415Z",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-20Z-238791",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "ai_crawler",
+          "ai_scraper",
+          "ai_browser_agent",
+          "ai_search",
+          "generate_schema",
+          "ai_map",
+          "universal_scraper",
+          "google_search_scraper",
+          "amazon_search_scraper",
+          "amazon_product_scraper"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:50:04.636Z",
+        "method": "pypi",
+        "runId": "2026-08-15T01-50-04Z-2bdea0",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "ai_crawler",
+          "ai_scraper",
+          "ai_browser_agent",
+          "ai_search",
+          "generate_schema",
+          "ai_map",
+          "universal_scraper",
+          "google_search_scraper",
+          "amazon_search_scraper",
+          "amazon_product_scraper"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.oxylabs/oxylabs-mcp",
+  "slug": "io.oxylabs__oxylabs-mcp"
+}

@@ -1,0 +1,45 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.419Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-18Z-df0f6c",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "run_changes_security_scan",
+          "run_security_scan"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:21.179Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-21Z-2de383",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "run_changes_security_scan",
+          "run_security_scan"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:32.941Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-32Z-2e0add",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "run_changes_security_scan",
+          "run_security_scan"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.blackduck/mcp-server",
+  "slug": "com.blackduck__mcp-server"
+}

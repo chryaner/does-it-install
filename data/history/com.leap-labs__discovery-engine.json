@@ -1,0 +1,81 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.419Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-18Z-df0f6c",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "discovery_list_plans",
+          "discovery_estimate",
+          "discovery_upload",
+          "discovery_analyze",
+          "discovery_status",
+          "discovery_get_results",
+          "discovery_account",
+          "discovery_signup",
+          "discovery_signup_verify",
+          "discovery_login",
+          "discovery_login_verify",
+          "discovery_add_payment_method",
+          "discovery_purchase_credits",
+          "discovery_subscribe"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:21.179Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-21Z-2de383",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "discovery_list_plans",
+          "discovery_estimate",
+          "discovery_upload",
+          "discovery_analyze",
+          "discovery_status",
+          "discovery_get_results",
+          "discovery_account",
+          "discovery_signup",
+          "discovery_signup_verify",
+          "discovery_login",
+          "discovery_login_verify",
+          "discovery_add_payment_method",
+          "discovery_purchase_credits",
+          "discovery_subscribe"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:32.941Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-32Z-2e0add",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "discovery_list_plans",
+          "discovery_estimate",
+          "discovery_upload",
+          "discovery_analyze",
+          "discovery_status",
+          "discovery_get_results",
+          "discovery_account",
+          "discovery_signup",
+          "discovery_signup_verify",
+          "discovery_login",
+          "discovery_login_verify",
+          "discovery_add_payment_method",
+          "discovery_purchase_credits",
+          "discovery_subscribe"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.leap-labs/discovery-engine",
+  "slug": "com.leap-labs__discovery-engine"
+}

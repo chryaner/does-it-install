@@ -2,6 +2,19 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T01:49:18.684Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "drop",
+          "receive",
+          "status",
+          "cancel"
+        ]
+      },
+      {
         "date": "2026-08-14T20:23:09.525Z",
         "method": "npm",
         "runId": "2026-08-14T20-23-09Z-35e1e7",
@@ -17,6 +30,19 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T01:49:20.605Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "drop",
+          "receive",
+          "status",
+          "cancel"
+        ]
+      },
+      {
         "date": "2026-08-14T20:23:00.382Z",
         "method": "npm",
         "runId": "2026-08-14T20-23-00Z-e49a74",
@@ -31,6 +57,19 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "drop",
+          "receive",
+          "status",
+          "cancel"
+        ]
+      },
       {
         "date": "2026-08-14T20:23:35.929Z",
         "method": "npm",

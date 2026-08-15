@@ -1,0 +1,72 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.684Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "request_payment",
+          "verify_mandate",
+          "get_audit_proof",
+          "spend_summary",
+          "list_decisions",
+          "explain_decision",
+          "sentinel_alerts",
+          "assess_action",
+          "anchor_artifact",
+          "check_artifact",
+          "upgrade"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.605Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "request_payment",
+          "verify_mandate",
+          "get_audit_proof",
+          "spend_summary",
+          "list_decisions",
+          "explain_decision",
+          "sentinel_alerts",
+          "assess_action",
+          "anchor_artifact",
+          "check_artifact",
+          "upgrade"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "request_payment",
+          "verify_mandate",
+          "get_audit_proof",
+          "spend_summary",
+          "list_decisions",
+          "explain_decision",
+          "sentinel_alerts",
+          "assess_action",
+          "anchor_artifact",
+          "check_artifact",
+          "upgrade"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.fidacy/mcp",
+  "slug": "com.fidacy__mcp"
+}

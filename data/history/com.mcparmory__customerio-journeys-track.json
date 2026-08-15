@@ -1,0 +1,90 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:17.022Z",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-17Z-8b8e8b",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "get_account_region",
+          "upsert_customer",
+          "delete_customer",
+          "register_device",
+          "remove_device",
+          "suppress_customer",
+          "unsuppress_customer",
+          "mark_delivery_unsubscribed",
+          "track_customer_event",
+          "log_anonymous_event",
+          "submit_form",
+          "merge_customers",
+          "report_metric",
+          "add_customers_to_segment",
+          "remove_customers_from_segment",
+          "manage_entity",
+          "batch_entities"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.415Z",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-20Z-238791",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "get_account_region",
+          "upsert_customer",
+          "delete_customer",
+          "register_device",
+          "remove_device",
+          "suppress_customer",
+          "unsuppress_customer",
+          "mark_delivery_unsubscribed",
+          "track_customer_event",
+          "log_anonymous_event",
+          "submit_form",
+          "merge_customers",
+          "report_metric",
+          "add_customers_to_segment",
+          "remove_customers_from_segment",
+          "manage_entity",
+          "batch_entities"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:50:04.636Z",
+        "method": "pypi",
+        "runId": "2026-08-15T01-50-04Z-2bdea0",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "get_account_region",
+          "upsert_customer",
+          "delete_customer",
+          "register_device",
+          "remove_device",
+          "suppress_customer",
+          "unsuppress_customer",
+          "mark_delivery_unsubscribed",
+          "track_customer_event",
+          "log_anonymous_event",
+          "submit_form",
+          "merge_customers",
+          "report_metric",
+          "add_customers_to_segment",
+          "remove_customers_from_segment",
+          "manage_entity",
+          "batch_entities"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.mcparmory/customerio-journeys-track",
+  "slug": "com.mcparmory__customerio-journeys-track"
+}

@@ -1,0 +1,63 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.419Z",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-18Z-df0f6c",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "decide",
+          "list_rules",
+          "ingest_text",
+          "list_documents",
+          "get_rule_source",
+          "put_rules",
+          "import_policy_rules",
+          "get_usage"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:21.179Z",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-21Z-2de383",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "decide",
+          "list_rules",
+          "ingest_text",
+          "list_documents",
+          "get_rule_source",
+          "put_rules",
+          "import_policy_rules",
+          "get_usage"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:32.941Z",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-32Z-2e0add",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "decide",
+          "list_rules",
+          "ingest_text",
+          "list_documents",
+          "get_rule_source",
+          "put_rules",
+          "import_policy_rules",
+          "get_usage"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.ai-rete-rag/ai-rete-rag-mcp",
+  "slug": "com.ai-rete-rag__ai-rete-rag-mcp"
+}

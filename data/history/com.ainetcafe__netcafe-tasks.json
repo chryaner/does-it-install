@@ -1,0 +1,54 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:17.022Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-17Z-8b8e8b",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "create_task",
+          "list_tasks",
+          "get_task_runs",
+          "delete_task",
+          "china_reachability"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.415Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-20Z-238791",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "create_task",
+          "list_tasks",
+          "get_task_runs",
+          "delete_task",
+          "china_reachability"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:50:04.636Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-50-04Z-2bdea0",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "create_task",
+          "list_tasks",
+          "get_task_runs",
+          "delete_task",
+          "china_reachability"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.ainetcafe/netcafe-tasks",
+  "slug": "com.ainetcafe__netcafe-tasks"
+}

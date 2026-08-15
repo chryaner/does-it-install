@@ -1,0 +1,66 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:17.022Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-17Z-8b8e8b",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "search_econ_series",
+          "get_econ_series",
+          "get_econ_series_metadata",
+          "list_econ_sources",
+          "get_data_freshness",
+          "get_hf_download_link",
+          "get_hf_variables_dictionary",
+          "get_family_status",
+          "get_auth_status"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.415Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-20Z-238791",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "search_econ_series",
+          "get_econ_series",
+          "get_econ_series_metadata",
+          "list_econ_sources",
+          "get_data_freshness",
+          "get_hf_download_link",
+          "get_hf_variables_dictionary",
+          "get_family_status",
+          "get_auth_status"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:50:04.636Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-50-04Z-2bdea0",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "search_econ_series",
+          "get_econ_series",
+          "get_econ_series_metadata",
+          "list_econ_sources",
+          "get_data_freshness",
+          "get_hf_download_link",
+          "get_hf_variables_dictionary",
+          "get_family_status",
+          "get_auth_status"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.elkassabgidata/elkassabgidata",
+  "slug": "com.elkassabgidata__elkassabgidata"
+}

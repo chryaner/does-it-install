@@ -1,0 +1,84 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.684Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "uplink_connect",
+          "uplink_refresh_pairing_code",
+          "uplink_get_qr",
+          "uplink_wait_for_device",
+          "uplink_session_status",
+          "uplink_get_current_url",
+          "uplink_get_dom_snapshot",
+          "uplink_evaluate_javascript",
+          "uplink_await_network_request",
+          "uplink_run_script",
+          "uplink_read_logs",
+          "uplink_search_network",
+          "uplink_get_network_request",
+          "uplink_list_commands",
+          "uplink_get_command_result"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.605Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "uplink_connect",
+          "uplink_refresh_pairing_code",
+          "uplink_get_qr",
+          "uplink_wait_for_device",
+          "uplink_session_status",
+          "uplink_get_current_url",
+          "uplink_get_dom_snapshot",
+          "uplink_evaluate_javascript",
+          "uplink_await_network_request",
+          "uplink_run_script",
+          "uplink_read_logs",
+          "uplink_search_network",
+          "uplink_get_network_request",
+          "uplink_list_commands",
+          "uplink_get_command_result"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "uplink_connect",
+          "uplink_refresh_pairing_code",
+          "uplink_get_qr",
+          "uplink_wait_for_device",
+          "uplink_session_status",
+          "uplink_get_current_url",
+          "uplink_get_dom_snapshot",
+          "uplink_evaluate_javascript",
+          "uplink_await_network_request",
+          "uplink_run_script",
+          "uplink_read_logs",
+          "uplink_search_network",
+          "uplink_get_network_request",
+          "uplink_list_commands",
+          "uplink_get_command_result"
+        ]
+      }
+    ]
+  },
+  "serverId": "build.uplink/uplink",
+  "slug": "build.uplink__uplink"
+}

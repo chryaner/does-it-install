@@ -1,0 +1,60 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.684Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "search",
+          "execute",
+          "observe",
+          "get_job_result",
+          "list_jobs",
+          "cancel_job",
+          "connect_tab"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.605Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "search",
+          "execute",
+          "observe",
+          "get_job_result",
+          "list_jobs",
+          "cancel_job",
+          "connect_tab"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "search",
+          "execute",
+          "observe",
+          "get_job_result",
+          "list_jobs",
+          "cancel_job",
+          "connect_tab"
+        ]
+      }
+    ]
+  },
+  "serverId": "app.crawlio/crawlio-browser",
+  "slug": "app.crawlio__crawlio-browser"
+}

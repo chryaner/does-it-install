@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T01:49:17.022Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 41 packages in 344ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/LNFEfmZA3RNwtP8s/bin/borealhost-mcp\", line 6, in <module>\n    from mcp_server.server import main\n  File \"/Users/runner/.cache/uv/archive-v0/LNFEfmZA3RNwtP8s/lib/python3.14/site-packages/mcp_server/server.py\", line 9, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-17Z-8b8e8b",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-14T20:23:05.405Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 41 packages in 70ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/a6u9bLpB0j52B-m4/bin/borealhost-mcp\", line 6, in <module>\n    from mcp_server.server import main\n  File \"/Users/runner/.cache/uv/archive-v0/a6u9bLpB0j52B-m4/lib/python3.14/site-packages/mcp_server/server.py\", line 9, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
         "method": "pypi",
@@ -18,6 +25,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T01:49:20.415Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 41 packages in 25ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/EZLCQBngAR9AzTsc/bin/borealhost-mcp\", line 6, in <module>\n    from mcp_server.server import main\n  File \"/home/runner/.cache/uv/archive-v0/EZLCQBngAR9AzTsc/lib/python3.12/site-packages/mcp_server/server.py\", line 9, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-20Z-238791",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-14T20:23:06.300Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 41 packages in 16ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/ajrCogeSIXSpo6n2/bin/borealhost-mcp\", line 6, in <module>\n    from mcp_server.server import main\n  File \"/home/runner/.cache/uv/archive-v0/ajrCogeSIXSpo6n2/lib/python3.12/site-packages/mcp_server/server.py\", line 9, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
         "method": "pypi",
@@ -33,6 +47,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T01:50:04.636Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 43 packages in 5.88s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\2wNEcLvpoxdRn5BN\\Scripts\\borealhost-mcp.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\2wNEcLvpoxdRn5BN\\Lib\\site-packages\\mcp_server\\server.py\", line 9, in <module>\r\n    from mcp.server.fastmcp import FastMCP\r\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-15T01-50-04Z-2bdea0",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-14T20:23:24.859Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 43 packages in 7.89s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\hxyC8FHTV4F9BKGN\\Scripts\\borealhost-mcp.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\hxyC8FHTV4F9BKGN\\Lib\\site-packages\\mcp_server\\server.py\", line 9, in <module>\r\n    from mcp.server.fastmcp import FastMCP\r\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",

@@ -1,0 +1,57 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.684Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "get_mentoring_options",
+          "match_mentoring_focus",
+          "compose_mentoring_brief",
+          "design_mentoring_program",
+          "book_intro_call",
+          "send_mentoring_offer"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.605Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "get_mentoring_options",
+          "match_mentoring_focus",
+          "compose_mentoring_brief",
+          "design_mentoring_program",
+          "book_intro_call",
+          "send_mentoring_offer"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "get_mentoring_options",
+          "match_mentoring_focus",
+          "compose_mentoring_brief",
+          "design_mentoring_program",
+          "book_intro_call",
+          "send_mentoring_offer"
+        ]
+      }
+    ]
+  },
+  "serverId": "coach.marian/mentoring-inquiry-builder",
+  "slug": "coach.marian__mentoring-inquiry-builder"
+}

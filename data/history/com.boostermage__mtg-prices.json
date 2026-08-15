@@ -1,0 +1,84 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.419Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-18Z-df0f6c",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "get_price_history",
+          "find_best_price",
+          "compare_prices",
+          "search_products",
+          "get_retailer_list",
+          "get_upcoming_releases",
+          "find_deals",
+          "get_price_range",
+          "find_in_stock",
+          "get_set_products",
+          "get_retailer_products",
+          "get_price_drops",
+          "find_recently_restocked",
+          "find_overpriced",
+          "get_product_details"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:21.179Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-21Z-2de383",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "get_price_history",
+          "find_best_price",
+          "compare_prices",
+          "search_products",
+          "get_retailer_list",
+          "get_upcoming_releases",
+          "find_deals",
+          "get_price_range",
+          "find_in_stock",
+          "get_set_products",
+          "get_retailer_products",
+          "get_price_drops",
+          "find_recently_restocked",
+          "find_overpriced",
+          "get_product_details"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:32.941Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-32Z-2e0add",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "get_price_history",
+          "find_best_price",
+          "compare_prices",
+          "search_products",
+          "get_retailer_list",
+          "get_upcoming_releases",
+          "find_deals",
+          "get_price_range",
+          "find_in_stock",
+          "get_set_products",
+          "get_retailer_products",
+          "get_price_drops",
+          "find_recently_restocked",
+          "find_overpriced",
+          "get_product_details"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.boostermage/mtg-prices",
+  "slug": "com.boostermage__mtg-prices"
+}

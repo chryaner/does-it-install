@@ -2,6 +2,28 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T01:49:18.684Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "get_current_insights",
+          "query_stat_leaders",
+          "get_entity_metrics",
+          "compare_entities",
+          "get_metric_definition",
+          "list_metrics",
+          "verify_claim",
+          "get_backfield",
+          "sleeper_find_leagues",
+          "sleeper_get_league",
+          "sleeper_matchup_preview",
+          "sleeper_roster_stories",
+          "sleeper_standings_story"
+        ]
+      },
+      {
         "date": "2026-08-14T20:23:10.254Z",
         "method": "remote-http",
         "runId": "2026-08-14T20-23-10Z-ab7350",
@@ -26,6 +48,28 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T01:49:20.605Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "get_current_insights",
+          "query_stat_leaders",
+          "get_entity_metrics",
+          "compare_entities",
+          "get_metric_definition",
+          "list_metrics",
+          "verify_claim",
+          "get_backfield",
+          "sleeper_find_leagues",
+          "sleeper_get_league",
+          "sleeper_matchup_preview",
+          "sleeper_roster_stories",
+          "sleeper_standings_story"
+        ]
+      },
+      {
         "date": "2026-08-14T20:23:03.495Z",
         "method": "remote-http",
         "runId": "2026-08-14T20-23-03Z-54916a",
@@ -49,6 +93,28 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "get_current_insights",
+          "query_stat_leaders",
+          "get_entity_metrics",
+          "compare_entities",
+          "get_metric_definition",
+          "list_metrics",
+          "verify_claim",
+          "get_backfield",
+          "sleeper_find_leagues",
+          "sleeper_get_league",
+          "sleeper_matchup_preview",
+          "sleeper_roster_stories",
+          "sleeper_standings_story"
+        ]
+      },
       {
         "date": "2026-08-14T20:23:28.035Z",
         "method": "remote-http",

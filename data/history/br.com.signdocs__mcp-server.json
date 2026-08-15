@@ -1,0 +1,108 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:17.022Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-17Z-8b8e8b",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "create_signing_session",
+          "get_signing_session_status",
+          "get_signing_session",
+          "list_signing_sessions",
+          "cancel_signing_session",
+          "resend_signing_session_otp",
+          "create_envelope",
+          "get_envelope",
+          "add_session_to_envelope",
+          "get_envelope_combined_stamp",
+          "upload_document",
+          "download_document",
+          "list_transactions",
+          "get_transaction",
+          "cancel_transaction",
+          "get_evidence",
+          "verify_evidence",
+          "verify_envelope",
+          "verify_document",
+          "register_webhook",
+          "list_webhooks",
+          "delete_webhook",
+          "test_webhook"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.415Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-20Z-238791",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "create_signing_session",
+          "get_signing_session_status",
+          "get_signing_session",
+          "list_signing_sessions",
+          "cancel_signing_session",
+          "resend_signing_session_otp",
+          "create_envelope",
+          "get_envelope",
+          "add_session_to_envelope",
+          "get_envelope_combined_stamp",
+          "upload_document",
+          "download_document",
+          "list_transactions",
+          "get_transaction",
+          "cancel_transaction",
+          "get_evidence",
+          "verify_evidence",
+          "verify_envelope",
+          "verify_document",
+          "register_webhook",
+          "list_webhooks",
+          "delete_webhook",
+          "test_webhook"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:50:04.636Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-50-04Z-2bdea0",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "create_signing_session",
+          "get_signing_session_status",
+          "get_signing_session",
+          "list_signing_sessions",
+          "cancel_signing_session",
+          "resend_signing_session_otp",
+          "create_envelope",
+          "get_envelope",
+          "add_session_to_envelope",
+          "get_envelope_combined_stamp",
+          "upload_document",
+          "download_document",
+          "list_transactions",
+          "get_transaction",
+          "cancel_transaction",
+          "get_evidence",
+          "verify_evidence",
+          "verify_envelope",
+          "verify_document",
+          "register_webhook",
+          "list_webhooks",
+          "delete_webhook",
+          "test_webhook"
+        ]
+      }
+    ]
+  },
+  "serverId": "br.com.signdocs/mcp-server",
+  "slug": "br.com.signdocs__mcp-server"
+}

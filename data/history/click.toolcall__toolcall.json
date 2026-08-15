@@ -1,0 +1,105 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.684Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "crypto-gas",
+          "fx-rates",
+          "domain-check",
+          "email-validate",
+          "news-search",
+          "youtube-transcript",
+          "web-search",
+          "brand-visibility",
+          "screenshot",
+          "reader",
+          "chem-safety",
+          "chem-compat",
+          "hs-classify",
+          "product-barcode",
+          "part-lookup",
+          "job-search",
+          "local-search",
+          "package-check",
+          "web-history",
+          "tech-stack",
+          "sec-financials",
+          "holidays"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.605Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "crypto-gas",
+          "fx-rates",
+          "domain-check",
+          "email-validate",
+          "news-search",
+          "youtube-transcript",
+          "web-search",
+          "brand-visibility",
+          "screenshot",
+          "reader",
+          "chem-safety",
+          "chem-compat",
+          "hs-classify",
+          "product-barcode",
+          "part-lookup",
+          "job-search",
+          "local-search",
+          "package-check",
+          "web-history",
+          "tech-stack",
+          "sec-financials",
+          "holidays"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "crypto-gas",
+          "fx-rates",
+          "domain-check",
+          "email-validate",
+          "news-search",
+          "youtube-transcript",
+          "web-search",
+          "brand-visibility",
+          "screenshot",
+          "reader",
+          "chem-safety",
+          "chem-compat",
+          "hs-classify",
+          "product-barcode",
+          "part-lookup",
+          "job-search",
+          "local-search",
+          "package-check",
+          "web-history",
+          "tech-stack",
+          "sec-financials",
+          "holidays"
+        ]
+      }
+    ]
+  },
+  "serverId": "click.toolcall/toolcall",
+  "slug": "click.toolcall__toolcall"
+}

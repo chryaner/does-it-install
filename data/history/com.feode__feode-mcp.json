@@ -1,0 +1,75 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.684Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "get_machining_services",
+          "get_machining_terms",
+          "submit_machining_rfq",
+          "get_company_profile",
+          "list_products",
+          "get_product_specs",
+          "get_certifications",
+          "search_capabilities",
+          "list_drill_pipe",
+          "get_drill_pipe_specs",
+          "search_drill_pipe",
+          "get_drill_string_guidance"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.605Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "get_machining_services",
+          "get_machining_terms",
+          "submit_machining_rfq",
+          "get_company_profile",
+          "list_products",
+          "get_product_specs",
+          "get_certifications",
+          "search_capabilities",
+          "list_drill_pipe",
+          "get_drill_pipe_specs",
+          "search_drill_pipe",
+          "get_drill_string_guidance"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "get_machining_services",
+          "get_machining_terms",
+          "submit_machining_rfq",
+          "get_company_profile",
+          "list_products",
+          "get_product_specs",
+          "get_certifications",
+          "search_capabilities",
+          "list_drill_pipe",
+          "get_drill_pipe_specs",
+          "search_drill_pipe",
+          "get_drill_string_guidance"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.feode/feode-mcp",
+  "slug": "com.feode__feode-mcp"
+}

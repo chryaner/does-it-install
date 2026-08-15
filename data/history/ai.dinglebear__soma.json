@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T01:49:18.684Z",
+        "errorExcerpt": "npm install @dinglebear/soma@0.10.0 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path /private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-qAq32y/node_modules/@dinglebear/soma\nnpm error command failed\nnpm error command sh -c node scripts/install.js\nnpm error soma-rmcp: Unsupported platform darwin/arm64. Supported targets: linux/x64, win32/x64.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-qAq32y/.npm-cache/_logs/2026-08-15T01_51_58_432Z-debug-0.log",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "install_failed"
+      },
+      {
         "date": "2026-08-14T20:23:05.405Z",
         "errorExcerpt": "npm install @dinglebear/soma@0.10.0 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path /private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-nkmisw/node_modules/@dinglebear/soma\nnpm error command failed\nnpm error command sh -c node scripts/install.js\nnpm error soma-rmcp: Unsupported platform darwin/arm64. Supported targets: linux/x64, win32/x64.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-nkmisw/.npm-cache/_logs/2026-08-14T20_23_55_013Z-debug-0.log",
         "method": "npm",
@@ -18,6 +25,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T01:49:20.605Z",
+        "errorExcerpt": "npm install @dinglebear/soma@0.10.0 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path /tmp/does-it-install/dii-npm-sgY1q2/node_modules/@dinglebear/soma\nnpm error command failed\nnpm error command sh -c node scripts/install.js\nnpm error soma-rmcp: downloading https://github.com/dinglebear-ai/soma/releases/download/v0.10.0/soma-linux-x86_64.tar.gz\nnpm error gh: To use GitHub CLI in a GitHub Actions workflow, set the GH_TOKEN environment variable. Example:\nnpm error   env:\nnpm error     GH_TOKEN: ${{ github.token }}\nnpm error soma-rmcp: release provenance verification failed; install GitHub CLI 2.68+ and retry\nnpm error A complete log of this run can be found in: /tmp/does-it-install/dii-npm-sgY1q2/.npm-cache/_logs/2026-08-15T01_51_47_047Z-debug-0.log",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "install_failed"
+      },
+      {
         "date": "2026-08-14T20:23:06.300Z",
         "errorExcerpt": "npm install @dinglebear/soma@0.10.0 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path /tmp/does-it-install/dii-npm-jvxAO3/node_modules/@dinglebear/soma\nnpm error command failed\nnpm error command sh -c node scripts/install.js\nnpm error soma-rmcp: downloading https://github.com/dinglebear-ai/soma/releases/download/v0.10.0/soma-linux-x86_64.tar.gz\nnpm error gh: To use GitHub CLI in a GitHub Actions workflow, set the GH_TOKEN environment variable. Example:\nnpm error   env:\nnpm error     GH_TOKEN: ${{ github.token }}\nnpm error soma-rmcp: release provenance verification failed; install GitHub CLI 2.68+ and retry\nnpm error A complete log of this run can be found in: /tmp/does-it-install/dii-npm-jvxAO3/.npm-cache/_logs/2026-08-14T20_23_47_289Z-debug-0.log",
         "method": "npm",
@@ -33,6 +47,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "errorExcerpt": "npm install @dinglebear/soma@0.10.0 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-NjtQ2Z\\node_modules\\@dinglebear\\soma\nnpm error command failed\nnpm error command C:\\Windows\\system32\\cmd.exe /d /s /c node scripts/install.js\nnpm error soma-rmcp: downloading https://github.com/dinglebear-ai/soma/releases/download/v0.10.0/soma-windows-x86_64.tar.gz\nnpm error gh: To use GitHub CLI in a GitHub Actions workflow, set the GH_TOKEN environment variable. Example:\nnpm error   env:\nnpm error     GH_TOKEN: ${{ github.token }}\nnpm error soma-rmcp: release provenance verification failed; install GitHub CLI 2.68+ and retry\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-NjtQ2Z\\.npm-cache\\_logs\\2026-08-15T02_24_32_822Z-debug-0.log",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "install_failed"
+      },
       {
         "date": "2026-08-14T20:23:24.859Z",
         "errorExcerpt": "npm install @dinglebear/soma@0.10.0 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-y0fR9q\\node_modules\\@dinglebear\\soma\nnpm error command failed\nnpm error command C:\\Windows\\system32\\cmd.exe /d /s /c node scripts/install.js\nnpm error soma-rmcp: downloading https://github.com/dinglebear-ai/soma/releases/download/v0.10.0/soma-windows-x86_64.tar.gz\nnpm error gh: To use GitHub CLI in a GitHub Actions workflow, set the GH_TOKEN environment variable. Example:\nnpm error   env:\nnpm error     GH_TOKEN: ${{ github.token }}\nnpm error soma-rmcp: release provenance verification failed; install GitHub CLI 2.68+ and retry\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-y0fR9q\\.npm-cache\\_logs\\2026-08-14T20_35_44_875Z-debug-0.log",

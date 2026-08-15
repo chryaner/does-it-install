@@ -1,0 +1,87 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.684Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "identi_card1",
+          "identi_card2",
+          "identi_card3",
+          "identi_card4",
+          "identi_card5",
+          "identi_card_image1",
+          "identi_card_image2",
+          "identi_card_image3",
+          "identi_card_image4",
+          "identi_card_image5",
+          "name_rrn_auth",
+          "hide_rrn",
+          "identity_document_residence_card",
+          "identity_document_passport",
+          "identity_document_id_card",
+          "identity_document_driver_license"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.605Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "identi_card1",
+          "identi_card2",
+          "identi_card3",
+          "identi_card4",
+          "identi_card5",
+          "identi_card_image1",
+          "identi_card_image2",
+          "identi_card_image3",
+          "identi_card_image4",
+          "identi_card_image5",
+          "name_rrn_auth",
+          "hide_rrn",
+          "identity_document_residence_card",
+          "identity_document_passport",
+          "identity_document_id_card",
+          "identity_document_driver_license"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "identi_card1",
+          "identi_card2",
+          "identi_card3",
+          "identi_card4",
+          "identi_card5",
+          "identi_card_image1",
+          "identi_card_image2",
+          "identi_card_image3",
+          "identi_card_image4",
+          "identi_card_image5",
+          "name_rrn_auth",
+          "hide_rrn",
+          "identity_document_residence_card",
+          "identity_document_passport",
+          "identity_document_id_card",
+          "identity_document_driver_license"
+        ]
+      }
+    ]
+  },
+  "serverId": "app.apick/identity",
+  "slug": "app.apick__identity"
+}

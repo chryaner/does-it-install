@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.419Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 1 package in 1ms\nagentfenster-mcp: the agentfenster app is not installed on this machine.\n\nThis package is only the launcher. The MCP server itself ships with the\nagentfenster app - a commercial, closed-source program for Windows 10 and 11.\n\n  1. Install the app:\n       https://agentfenster.com\n     Every plan starts with a 3-day trial. No card, no account.\n\n  2. Register the server with Claude Code:\n       claude mcp add agentfenster -- agentfenster-mcp\n\n     Any MCP client that can launch a local stdio server works the same way.\n\nDocumentation: https://agentfenster.com/mcp\nDiscord:       https://discord.gg/J9MfKP255Y",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-18Z-df0f6c",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:21.179Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 1 package in 2ms\nagentfenster-mcp: the agentfenster app is not installed on this machine.\n\nThis package is only the launcher. The MCP server itself ships with the\nagentfenster app - a commercial, closed-source program for Windows 10 and 11.\n\n  1. Install the app:\n       https://agentfenster.com\n     Every plan starts with a 3-day trial. No card, no account.\n\n  2. Register the server with Claude Code:\n       claude mcp add agentfenster -- agentfenster-mcp\n\n     Any MCP client that can launch a local stdio server works the same way.\n\nDocumentation: https://agentfenster.com/mcp\nDiscord:       https://discord.gg/J9MfKP255Y",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-21Z-2de383",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:32.941Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 1 package in 184ms\nagentfenster-mcp: the agentfenster app is not installed on this machine.\r\n\r\nThis package is only the launcher. The MCP server itself ships with the\r\nagentfenster app - a commercial, closed-source program for Windows 10 and 11.\r\n\r\n  1. Install the app:\r\n       https://agentfenster.com\r\n     Every plan starts with a 3-day trial. No card, no account.\r\n\r\n  2. Register the server with Claude Code:\r\n       claude mcp add agentfenster -- agentfenster-mcp\r\n\r\n     Any MCP client that can launch a local stdio server works the same way.\r\n\r\nDocumentation: https://agentfenster.com/mcp\r\nDiscord:       https://discord.gg/J9MfKP255Y",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-32Z-2e0add",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "com.agentfenster/agentfenster",
+  "slug": "com.agentfenster__agentfenster"
+}

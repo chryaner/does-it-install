@@ -1,0 +1,63 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.684Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "kapruka_list_categories",
+          "kapruka_get_product",
+          "kapruka_search_products",
+          "kapruka_create_order",
+          "kapruka_track_order",
+          "kapruka_render_options_card",
+          "kapruka_list_delivery_cities",
+          "kapruka_check_delivery"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.605Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "kapruka_list_categories",
+          "kapruka_get_product",
+          "kapruka_search_products",
+          "kapruka_create_order",
+          "kapruka_track_order",
+          "kapruka_render_options_card",
+          "kapruka_list_delivery_cities",
+          "kapruka_check_delivery"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "kapruka_list_categories",
+          "kapruka_get_product",
+          "kapruka_search_products",
+          "kapruka_create_order",
+          "kapruka_track_order",
+          "kapruka_render_options_card",
+          "kapruka_list_delivery_cities",
+          "kapruka_check_delivery"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.kapruka/kapruka-mcp",
+  "slug": "com.kapruka__kapruka-mcp"
+}

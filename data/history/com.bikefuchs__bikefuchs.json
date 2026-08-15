@@ -1,0 +1,60 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.419Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-18Z-df0f6c",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "search_product",
+          "get_best_price",
+          "optimize_cart",
+          "get_shop_info",
+          "get_shipping_breakdown",
+          "find_alternatives_for_product",
+          "resolve_product"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:21.179Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-21Z-2de383",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "search_product",
+          "get_best_price",
+          "optimize_cart",
+          "get_shop_info",
+          "get_shipping_breakdown",
+          "find_alternatives_for_product",
+          "resolve_product"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:32.941Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-32Z-2e0add",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "search_product",
+          "get_best_price",
+          "optimize_cart",
+          "get_shop_info",
+          "get_shipping_breakdown",
+          "find_alternatives_for_product",
+          "resolve_product"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.bikefuchs/bikefuchs",
+  "slug": "com.bikefuchs__bikefuchs"
+}

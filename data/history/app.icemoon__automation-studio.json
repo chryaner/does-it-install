@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.684Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nCould not find the Icemoon app (AutomationStudio.app).\n\nThis package is only a launcher — the MCP server ships inside the app.\n\n  1. Install Icemoon:            https://icemoon.app\n  2. Set up your Mac and iPhone: https://icemoon.app/install\n  3. Launch the app once and activate your licence.\n\nLooked in:\n  /Applications/AutomationStudio.app\n  /Users/runner/Applications/AutomationStudio.app\n\nIf the app lives somewhere else, point ICEMOON_APP at the bundle:\n  ICEMOON_APP=/path/to/AutomationStudio.app npx -y icemoon-mcp",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.605Z",
+        "errorExcerpt": "npm install icemoon-mcp@1.0.1 exited with code 1\n--- stderr (tail) ---\nnpm error code EBADPLATFORM\nnpm error notsup Unsupported platform for icemoon-mcp@1.0.1: wanted {\"os\":\"darwin\",\"cpu\":\"arm64\"} (current: {\"os\":\"linux\",\"cpu\":\"x64\"})\nnpm error notsup Valid os:   darwin\nnpm error notsup Actual os:  linux\nnpm error notsup Valid cpu:  arm64\nnpm error notsup Actual cpu: x64\nnpm error A complete log of this run can be found in: /tmp/does-it-install/dii-npm-c1IqbP/.npm-cache/_logs/2026-08-15T01_52_46_916Z-debug-0.log",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "install_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "errorExcerpt": "npm install icemoon-mcp@1.0.1 exited with code 1\n--- stderr (tail) ---\nnpm error code EBADPLATFORM\nnpm error notsup Unsupported platform for icemoon-mcp@1.0.1: wanted {\"os\":\"darwin\",\"cpu\":\"arm64\"} (current: {\"os\":\"win32\",\"cpu\":\"x64\"})\nnpm error notsup Valid os:   darwin\nnpm error notsup Actual os:  win32\nnpm error notsup Valid cpu:  arm64\nnpm error notsup Actual cpu: x64\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-YaWWHY\\.npm-cache\\_logs\\2026-08-15T02_40_24_035Z-debug-0.log",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "install_failed"
+      }
+    ]
+  },
+  "serverId": "app.icemoon/automation-studio",
+  "slug": "app.icemoon__automation-studio"
+}

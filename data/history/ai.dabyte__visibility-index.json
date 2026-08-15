@@ -2,6 +2,20 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T01:49:17.022Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-17Z-8b8e8b",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "get_visibility_index",
+          "get_brand_visibility",
+          "list_tracked_brands",
+          "get_history",
+          "get_methodology"
+        ]
+      },
+      {
         "date": "2026-08-14T20:23:05.405Z",
         "method": "remote-http",
         "runId": "2026-08-14T20-23-05Z-90f533",
@@ -32,6 +46,20 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T01:49:20.415Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-20Z-238791",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "get_visibility_index",
+          "get_brand_visibility",
+          "list_tracked_brands",
+          "get_history",
+          "get_methodology"
+        ]
+      },
+      {
         "date": "2026-08-14T20:23:06.300Z",
         "method": "remote-http",
         "runId": "2026-08-14T20-23-06Z-df9438",
@@ -61,6 +89,20 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T01:50:04.636Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-50-04Z-2bdea0",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "get_visibility_index",
+          "get_brand_visibility",
+          "list_tracked_brands",
+          "get_history",
+          "get_methodology"
+        ]
+      },
       {
         "date": "2026-08-14T20:23:24.859Z",
         "method": "remote-http",

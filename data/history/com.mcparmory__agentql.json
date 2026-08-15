@@ -1,0 +1,51 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.419Z",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-18Z-df0f6c",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "query_webpage_data",
+          "get_usage",
+          "create_browser_session",
+          "list_session_usage"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:21.179Z",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-21Z-2de383",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "query_webpage_data",
+          "get_usage",
+          "create_browser_session",
+          "list_session_usage"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:32.941Z",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-32Z-2e0add",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "query_webpage_data",
+          "get_usage",
+          "create_browser_session",
+          "list_session_usage"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.mcparmory/agentql",
+  "slug": "com.mcparmory__agentql"
+}

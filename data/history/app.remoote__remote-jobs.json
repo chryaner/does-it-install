@@ -1,0 +1,57 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.684Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "search_jobs",
+          "get_job",
+          "get_salary_stats",
+          "get_top_jobs",
+          "create_apply_intent",
+          "create_alert"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.605Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "search_jobs",
+          "get_job",
+          "get_salary_stats",
+          "get_top_jobs",
+          "create_apply_intent",
+          "create_alert"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "search_jobs",
+          "get_job",
+          "get_salary_stats",
+          "get_top_jobs",
+          "create_apply_intent",
+          "create_alert"
+        ]
+      }
+    ]
+  },
+  "serverId": "app.remoote/remote-jobs",
+  "slug": "app.remoote__remote-jobs"
+}

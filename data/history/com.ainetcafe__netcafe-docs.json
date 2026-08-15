@@ -1,0 +1,84 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.684Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "redact_text",
+          "csv_to_qbo",
+          "check_resume",
+          "pdf_to_markdown",
+          "extract_tables",
+          "extract_statement",
+          "extract_invoices",
+          "pdf_add_page_numbers",
+          "fix_csv_encoding",
+          "transcribe_audio",
+          "convert_to_pdf",
+          "deep_research",
+          "check_job",
+          "translate_pdf",
+          "make_slides"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.605Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "redact_text",
+          "csv_to_qbo",
+          "check_resume",
+          "pdf_to_markdown",
+          "extract_tables",
+          "extract_statement",
+          "extract_invoices",
+          "pdf_add_page_numbers",
+          "fix_csv_encoding",
+          "transcribe_audio",
+          "convert_to_pdf",
+          "deep_research",
+          "check_job",
+          "translate_pdf",
+          "make_slides"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "redact_text",
+          "csv_to_qbo",
+          "check_resume",
+          "pdf_to_markdown",
+          "extract_tables",
+          "extract_statement",
+          "extract_invoices",
+          "pdf_add_page_numbers",
+          "fix_csv_encoding",
+          "transcribe_audio",
+          "convert_to_pdf",
+          "deep_research",
+          "check_job",
+          "translate_pdf",
+          "make_slides"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.ainetcafe/netcafe-docs",
+  "slug": "com.ainetcafe__netcafe-docs"
+}

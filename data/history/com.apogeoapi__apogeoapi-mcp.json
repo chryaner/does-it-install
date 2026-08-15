@@ -1,0 +1,63 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.684Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "get_country",
+          "list_countries",
+          "search_countries",
+          "get_states",
+          "get_cities",
+          "get_currency_rate",
+          "geolocate_ip",
+          "global_search"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.605Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "get_country",
+          "list_countries",
+          "search_countries",
+          "get_states",
+          "get_cities",
+          "get_currency_rate",
+          "geolocate_ip",
+          "global_search"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "get_country",
+          "list_countries",
+          "search_countries",
+          "get_states",
+          "get_cities",
+          "get_currency_rate",
+          "geolocate_ip",
+          "global_search"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.apogeoapi/apogeoapi-mcp",
+  "slug": "com.apogeoapi__apogeoapi-mcp"
+}

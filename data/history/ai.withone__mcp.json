@@ -1,0 +1,45 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.684Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "list_one_integrations",
+          "search_one_platform_actions",
+          "get_one_action_knowledge",
+          "execute_one_action"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.605Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "list_one_integrations",
+          "search_one_platform_actions",
+          "get_one_action_knowledge",
+          "execute_one_action"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "errorExcerpt": "npm install @withone/mcp@1.2.2 timed out after 600s",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "ai.withone/mcp",
+  "slug": "ai.withone__mcp"
+}

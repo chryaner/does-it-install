@@ -1,0 +1,87 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:17.022Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-17Z-8b8e8b",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "whoami",
+          "list_audits",
+          "get_audit",
+          "get_visibility",
+          "get_engine_answers",
+          "list_gaps",
+          "set_gap_status",
+          "list_keywords",
+          "list_content_queue",
+          "queue_article",
+          "mark_article_published",
+          "run_scan",
+          "gsc_status",
+          "list_brands",
+          "gsc_overview",
+          "gsc_query"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.415Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-20Z-238791",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "whoami",
+          "list_audits",
+          "get_audit",
+          "get_visibility",
+          "get_engine_answers",
+          "list_gaps",
+          "set_gap_status",
+          "list_keywords",
+          "list_content_queue",
+          "queue_article",
+          "mark_article_published",
+          "run_scan",
+          "gsc_status",
+          "list_brands",
+          "gsc_overview",
+          "gsc_query"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:50:04.636Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-50-04Z-2bdea0",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "whoami",
+          "list_audits",
+          "get_audit",
+          "get_visibility",
+          "get_engine_answers",
+          "list_gaps",
+          "set_gap_status",
+          "list_keywords",
+          "list_content_queue",
+          "queue_article",
+          "mark_article_published",
+          "run_scan",
+          "gsc_status",
+          "list_brands",
+          "gsc_overview",
+          "gsc_query"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.cituna/cituna-mcp",
+  "slug": "com.cituna__cituna-mcp"
+}

@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T01:49:18.419Z",
+        "errorExcerpt": "npm install @dinglebear/rtailscale@0.1.4 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path /private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-CczpFz/node_modules/@dinglebear/rtailscale\nnpm error command failed\nnpm error command sh -c node scripts/install.js\nnpm error tailscale-rmcp: Unsupported platform darwin/arm64. Supported targets: linux/x64, win32/x64.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-CczpFz/.npm-cache/_logs/2026-08-15T01_51_26_999Z-debug-0.log",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-18Z-df0f6c",
+        "status": "install_failed"
+      },
+      {
         "date": "2026-08-14T20:23:05.405Z",
         "errorExcerpt": "npm install @dinglebear/rtailscale@0.1.4 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path /private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-SPeDQ5/node_modules/@dinglebear/rtailscale\nnpm error command failed\nnpm error command sh -c node scripts/install.js\nnpm error tailscale-rmcp: Unsupported platform darwin/arm64. Supported targets: linux/x64, win32/x64.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-SPeDQ5/.npm-cache/_logs/2026-08-14T20_23_54_348Z-debug-0.log",
         "method": "npm",
@@ -17,6 +24,16 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-08-15T01:49:21.179Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-21Z-2de383",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "tailscale"
+        ]
+      },
       {
         "date": "2026-08-14T20:23:06.300Z",
         "method": "npm",
@@ -39,6 +56,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T01:49:32.941Z",
+        "errorExcerpt": "npm install @dinglebear/rtailscale@0.1.4 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-jW0wQn\\node_modules\\@dinglebear\\rtailscale\nnpm error command failed\nnpm error command C:\\Windows\\system32\\cmd.exe /d /s /c node scripts/install.js\nnpm error tailscale-rmcp: downloading https://github.com/dinglebear-ai/rtailscale/releases/download/v0.1.4/rtailscale-windows-x86_64.tar.gz\nnpm error tailscale-rmcp: verified checksum for rtailscale-windows-x86_64.tar.gz\nnpm error tailscale-rmcp: tar (child): Cannot connect to C: resolve failed\nnpm error\nnpm error gzip: stdin: unexpected end of file\nnpm error tar: Child returned status 128\nnpm error tar: Error is not recoverable: exiting now\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-jW0wQn\\.npm-cache\\_logs\\2026-08-15T02_05_50_065Z-debug-0.log",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-32Z-2e0add",
+        "status": "install_failed"
+      },
       {
         "date": "2026-08-14T20:23:24.859Z",
         "errorExcerpt": "npm install @dinglebear/rtailscale@0.1.4 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-mtfi3j\\node_modules\\@dinglebear\\rtailscale\nnpm error command failed\nnpm error command C:\\Windows\\system32\\cmd.exe /d /s /c node scripts/install.js\nnpm error tailscale-rmcp: downloading https://github.com/dinglebear-ai/rtailscale/releases/download/v0.1.4/rtailscale-windows-x86_64.tar.gz\nnpm error tailscale-rmcp: verified checksum for rtailscale-windows-x86_64.tar.gz\nnpm error tailscale-rmcp: tar (child): Cannot connect to C: resolve failed\nnpm error\nnpm error gzip: stdin: unexpected end of file\nnpm error tar: Child returned status 128\nnpm error tar: Error is not recoverable: exiting now\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-mtfi3j\\.npm-cache\\_logs\\2026-08-14T20_35_43_604Z-debug-0.log",

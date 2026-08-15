@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T01:49:18.684Z",
+        "errorExcerpt": "connect failed: HTTP 405: Streamable HTTP error: Error POSTing to endpoint: Method Not Allowed",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "connect_failed"
+      },
+      {
         "date": "2026-08-14T20:23:09.525Z",
         "errorExcerpt": "connect failed: HTTP 405: Streamable HTTP error: Error POSTing to endpoint: Method Not Allowed",
         "method": "remote-http",
@@ -18,6 +25,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T01:49:20.605Z",
+        "errorExcerpt": "connect failed: HTTP 405: Streamable HTTP error: Error POSTing to endpoint: Method Not Allowed",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "connect_failed"
+      },
+      {
         "date": "2026-08-14T20:23:00.382Z",
         "errorExcerpt": "connect failed: HTTP 405: Streamable HTTP error: Error POSTing to endpoint: Method Not Allowed",
         "method": "remote-http",
@@ -33,6 +47,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "errorExcerpt": "connect failed: HTTP 405: Streamable HTTP error: Error POSTing to endpoint: Method Not Allowed",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "connect_failed"
+      },
       {
         "date": "2026-08-14T20:23:35.929Z",
         "errorExcerpt": "connect failed: HTTP 405: Streamable HTTP error: Error POSTing to endpoint: Method Not Allowed",
