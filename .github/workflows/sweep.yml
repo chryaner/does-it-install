@@ -202,7 +202,22 @@ jobs:
             exit 0
           fi
           git commit -m "sweep: refresh catalog and history ($(date -u +%Y-%m-%d))"
-          git push origin "HEAD:$DEFAULT_BRANCH"
+          # The default branch can move while the probes run (a code push
+          # during the sweep). The data commit only touches data/, so rebasing
+          # it onto whatever the branch has become is safe; a conflict would
+          # mean two sweeps overlapped, which the concurrency group forbids,
+          # and then failing loudly here is correct.
+          for attempt in 1 2 3; do
+            git fetch origin "$DEFAULT_BRANCH"
+            git rebase "origin/$DEFAULT_BRANCH"
+            if git push origin "HEAD:$DEFAULT_BRANCH"; then
+              exit 0
+            fi
+            echo "push attempt $attempt rejected, retrying" >&2
+            sleep 5
+          done
+          echo "could not push the data commit after 3 attempts" >&2
+          exit 1
 
       - uses: actions/upload-pages-artifact@v5
         with:
