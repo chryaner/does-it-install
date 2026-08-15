@@ -159,3 +159,27 @@ describe('summarize', () => {
     expect(summarize(results)).toEqual({ pass: 2, install_failed: 1 });
   });
 });
+
+describe('runSweep deadline', () => {
+  it('an already-passed deadline probes nothing and says so', async () => {
+    const lines: string[] = [];
+    const run = await runSweep(catalog(5), {
+      deadline: Date.now() - 1,
+      log: line => lines.push(line),
+      probe: async entry => fakeResult(entry)
+    });
+    expect(run.results).toEqual([]);
+    expect(lines.some(line => line.includes('deadline reached: 0/5'))).toBe(true);
+  });
+
+  it('a future deadline changes nothing', async () => {
+    const lines: string[] = [];
+    const run = await runSweep(catalog(5), {
+      deadline: Date.now() + 60_000,
+      log: line => lines.push(line),
+      probe: async entry => fakeResult(entry)
+    });
+    expect(run.results).toHaveLength(5);
+    expect(lines.some(line => line.includes('deadline reached'))).toBe(false);
+  });
+});

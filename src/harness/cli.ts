@@ -24,8 +24,10 @@ const USAGE = `Usage: npm run sweep -- [options]
   --only <id-or-slug>       probe only this server (repeatable)
   --methods <list>          comma-separated: npm,pypi,remote (default: all)
   --concurrency <n>         parallel probes (default: 4)
-  --timeout-install <sec>   install budget per server (default: 300)
+  --timeout-install <sec>   install budget per server (default: 600)
   --timeout-connect <sec>   remote connect budget per server (default: 20)
+  --deadline <min>          stop starting new probes after this many minutes
+                            and write whatever was probed (default: none)
   -h, --help                show this help`;
 
 /** Bad input from the operator: report it with the usage text, exit 1. */
@@ -94,6 +96,7 @@ export function parseSweepArgs(argv: readonly string[]): SweepCliOptions {
         concurrency: { type: 'string' },
         'timeout-install': { type: 'string' },
         'timeout-connect': { type: 'string' },
+        deadline: { type: 'string' },
         help: { type: 'boolean', short: 'h' }
       }
     });
@@ -119,6 +122,10 @@ export function parseSweepArgs(argv: readonly string[]): SweepCliOptions {
   if (methods !== undefined) sweep.methods = parseMethods(methods);
   const only = values.only;
   if (only !== undefined && only.length > 0) sweep.only = only;
+  const deadline = values.deadline;
+  if (deadline !== undefined) {
+    sweep.deadline = Date.now() + positiveInteger('--deadline', deadline) * 60_000;
+  }
 
   return {
     help: values.help === true,

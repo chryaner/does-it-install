@@ -28,6 +28,13 @@ export interface EntrySelection {
 
 export interface SweepOptions extends ProbeOptions, EntrySelection {
   concurrency?: number;
+  /**
+   * Epoch ms after which workers stop picking new entries. Probes already in
+   * flight finish and are recorded; entries never started are simply absent
+   * from the run file. This exists so a slow platform degrades to partial
+   * data instead of hitting the CI job timeout and losing the whole shard.
+   */
+  deadline?: number;
   /** Progress sink. Defaults to one line per finished probe on stderr. */
   log?: (line: string) => void;
   /** Probe implementation. Injectable so tests can exercise the pool. */
@@ -97,6 +104,7 @@ export async function runSweep(catalog: Catalog, options: SweepOptions = {}): Pr
 
   const worker = async (): Promise<void> => {
     for (;;) {
+      if (options.deadline !== undefined && Date.now() >= options.deadline) return;
       const index = nextIndex;
       nextIndex += 1;
       const entry = entries[index];
@@ -131,6 +139,12 @@ export async function runSweep(catalog: Catalog, options: SweepOptions = {}): Pr
 
   await Promise.all(Array.from({ length: Math.min(concurrency, entries.length) }, () => worker()));
 
+  // Preallocated slots for entries the deadline cut off stay empty.
+  const probed = results.filter((result): result is ProbeResult => result !== undefined);
+  if (probed.length < entries.length) {
+    log(`deadline reached: ${probed.length}/${entries.length} probed, ${entries.length - probed.length} left for the next sweep`);
+  }
+
   return {
     runId: newRunId(startedAt),
     platform: probeOptions.platform,
@@ -138,7 +152,7 @@ export async function runSweep(catalog: Catalog, options: SweepOptions = {}): Pr
     startedAt: startedAt.toISOString(),
     nodeVersion: process.version,
     osVersion: os.release(),
-    results
+    results: probed
   };
 }
 

@@ -85,7 +85,7 @@ jobs:
     name: probe ${{ matrix.os }} shard ${{ matrix.shard }}
     needs: catalog
     runs-on: ${{ matrix.os }}
-    timeout-minutes: 120
+    timeout-minutes: 180
     strategy:
       # A shard that dies takes its own results with it and nothing else.
       fail-fast: false
@@ -130,7 +130,11 @@ jobs:
         shell: bash
         env:
           TOP: ${{ inputs.top || '300' }}
-        run: npm run sweep -- --catalog data/catalog.json --top "$TOP" --shard ${{ matrix.shard }}/3
+        # The deadline keeps a slow platform inside the job timeout with data
+        # intact: probes stop starting at 165 minutes and the run file is
+        # written with everything probed so far, instead of the job dying at
+        # its own limit and losing the shard.
+        run: npm run sweep -- --catalog data/catalog.json --top "$TOP" --shard ${{ matrix.shard }}/3 --deadline 165
 
       - uses: actions/upload-artifact@v7
         # Keep whatever the sweep managed to write even if a later step fails.
