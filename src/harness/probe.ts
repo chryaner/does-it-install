@@ -86,6 +86,26 @@ export function resolveEnv(specs: readonly EnvVarSpec[]): { env: Record<string, 
   return { env, requiresEnv };
 }
 
+/**
+ * types.ts policy: a stdio server we started with `ENV_PLACEHOLDER` in place of
+ * credentials it declared as required is gated, not broken, when it refuses to
+ * start or to finish the handshake. Its stderr usually says so outright ("invalid
+ * API key"), which is exactly the evidence we keep: phases, detail and excerpt
+ * are left as captured and only the status changes.
+ *
+ * Deliberately narrow. `install_failed` happened before any placeholder was
+ * used, `tools_failed` means the handshake already succeeded with them, and
+ * `timeout` is a hang we have no reason to blame on credentials.
+ */
+export function reclassifyGatedByCredentials(
+  outcome: ProbeOutcome,
+  requiresEnv: readonly string[]
+): ProbeOutcome {
+  if (requiresEnv.length === 0) return outcome;
+  if (outcome.status !== 'spawn_failed' && outcome.status !== 'handshake_failed') return outcome;
+  return { ...outcome, status: 'needs_auth' };
+}
+
 export async function probeServer(entry: ServerEntry, options: ProbeOptions = {}): Promise<ProbeResult> {
   const opts = resolveProbeOptions(options);
   const startedAt = new Date().toISOString();
@@ -103,8 +123,9 @@ export async function probeServer(entry: ServerEntry, options: ProbeOptions = {}
         const resolved = resolveEnv(distribution.pkg.env ?? []);
         requiresEnv = resolved.requiresEnv;
         const ctx: ProbeContext = { workDir: opts.workDir, timeouts: opts.timeouts, env: resolved.env };
-        outcome =
+        const probed =
           distribution.kind === 'npm' ? await probeNpm(distribution.pkg, ctx) : await probePypi(distribution.pkg, ctx);
+        outcome = reclassifyGatedByCredentials(probed, requiresEnv);
         break;
       }
       case 'remote': {

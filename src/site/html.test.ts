@@ -97,6 +97,21 @@ describe('layout', () => {
     expect(page).toContain('href="/does-it-install/methodology.html"');
   });
 
+  it('defines a needs-credentials tone distinct from pass, fail and untested', () => {
+    expect(page).toContain('--auth:#bf8700');
+    expect(page).toContain('.dot.auth{background:var(--auth)}');
+    expect(page).toContain('.sq.auth{background:var(--auth)}');
+    expect(page).toContain('.count.auth b{color:var(--auth)}');
+    expect(page).toContain('.verdict.auth{color:var(--auth);border-color:#d4a72c;background:#fff8c5}');
+    expect(page).toContain('pre.err.auth{border-left-color:var(--auth)}');
+  });
+
+  it('keeps every status tone on its own colour', () => {
+    const tones = ['--pass:#2da44e', '--fail:#cf222e', '--auth:#bf8700', '--none:#8c959f'];
+    expect(new Set(tones.map((token) => token.split(':')[1])).size).toBe(tones.length);
+    for (const token of tones) expect(page).toContain(token);
+  });
+
   it('stays self-contained: inline css, no scripts, no external assets', () => {
     expect(page).toContain('<style>');
     expect(page).not.toContain('<script');

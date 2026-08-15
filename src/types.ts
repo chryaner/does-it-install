@@ -35,6 +35,11 @@ export type ProbeStatus =
   | 'spawn_failed' // installed, but the process would not start
   | 'connect_failed' // remote endpoint unreachable / bad HTTP response
   | 'handshake_failed' // process/endpoint up, MCP initialize failed
+  | 'needs_auth' // alive but requires credentials the harness does not send:
+  // a remote answering 401/403 (or failing its handshake while declaring
+  // required headers), or an installed stdio server that would not start or
+  // handshake after required env vars were filled with ENV_PLACEHOLDER.
+  // Not evidence of breakage; not evidence of health.
   | 'tools_failed' // initialized, but tools/list failed
   | 'timeout' // a phase exceeded its time budget
   | 'skipped'; // no supported distribution or intentionally excluded

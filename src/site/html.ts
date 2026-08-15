@@ -8,7 +8,10 @@
  *    place and GitHub Pages project sites work without post-processing.
  *
  * The stylesheet is inlined: the site must render with no network access, no
- * fonts, no JavaScript.
+ * fonts, no JavaScript. It carries four status tones, used by dots, history
+ * squares, verdict pills and the summary cards alike: green `pass`, red `fail`,
+ * amber `auth` (alive, but asking for credentials the probe does not send) and
+ * grey `none` (nothing was learned).
  */
 
 const HTML_ESCAPES: Record<string, string> = {
@@ -62,7 +65,7 @@ export function externalLink(raw: string | undefined, text: string): string {
 
 const STYLES = `
 :root{color-scheme:light;--bg:#fff;--panel:#f6f8fa;--fg:#1f2328;--muted:#59636e;
---line:#d8dee4;--link:#0969da;--pass:#2da44e;--fail:#cf222e;--none:#8c959f;
+--line:#d8dee4;--link:#0969da;--pass:#2da44e;--fail:#cf222e;--none:#8c959f;--auth:#bf8700;
 --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace}
 *,*::before,*::after{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--fg);font-size:16px;line-height:1.55;
@@ -91,6 +94,7 @@ main.wrap{padding-top:28px;padding-bottom:48px}
 .count span{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 .count.pass b{color:var(--pass)}
 .count.fail b{color:var(--fail)}
+.count.auth b{color:var(--auth)}
 .count.none b{color:var(--none)}
 .scroll{overflow-x:auto;border:1px solid var(--line);border-radius:8px}
 table{border-collapse:collapse;width:100%;font-size:14px}
@@ -108,13 +112,16 @@ td.dots{white-space:nowrap}
 .dot{display:inline-block;width:10px;height:10px;margin-right:5px;border-radius:50%;background:var(--none)}
 .dot.pass{background:var(--pass)}
 .dot.fail{background:var(--fail)}
+.dot.auth{background:var(--auth)}
 .strip{display:flex;flex-wrap:wrap;gap:3px;margin:10px 0}
 .sq{width:12px;height:12px;border-radius:2px;background:var(--none)}
 .sq.pass{background:var(--pass)}
 .sq.fail{background:var(--fail)}
+.sq.auth{background:var(--auth)}
 .verdict{font-size:12px;font-weight:600;padding:2px 9px;border-radius:999px;border:1px solid var(--none);color:var(--muted)}
 .verdict.pass{color:var(--pass);border-color:#2da44e;background:#eaf6ed}
 .verdict.fail{color:var(--fail);border-color:#cf222e;background:#fbeaec}
+.verdict.auth{color:var(--auth);border-color:#d4a72c;background:#fff8c5}
 .platform{border:1px solid var(--line);border-radius:8px;padding:14px 16px;margin:12px 0}
 .platform header{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-bottom:4px}
 .platform h3{margin:0}
@@ -126,6 +133,7 @@ pre.cmd code{background:none;border:0;padding:0;word-break:normal;white-space:pr
 pre.err{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--fail);
 border-radius:6px;padding:12px 14px;max-height:320px;overflow:auto;font-family:var(--mono);
 font-size:12.5px;line-height:1.45;white-space:pre-wrap;word-break:break-word}
+pre.err.auth{border-left-color:var(--auth)}
 .note{background:#fff8c5;border:1px solid #d4a72c;border-radius:6px;padding:10px 12px;font-size:14px}
 .tools{font-size:14px;margin:8px 0 0}
 .prose h2{margin-top:30px}

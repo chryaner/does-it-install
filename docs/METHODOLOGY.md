@@ -61,6 +61,14 @@ wants.
    registry order as well, so ranks stay stable from one week to the next
    (sharding depends on that; see below).
 
+`rank` decides what gets probed, in what order, and on which shard. It does not
+decide what the site shows first. The index page is sorted by stars alone, most
+first, with entries that have no count last and ties broken by `rank` so the
+page is stable between builds. The seed entries get whatever position their
+stars earn them: curation is a good reason to probe our own picks every week,
+and not a reason to pin them above servers with a hundred times the stars on a
+page that presents itself as a neutral index.
+
 The counts are published rather than hidden: the index has a `Stars` column and
 each server page repeats the number next to the version, so an ordering that
 looks wrong can be checked against the source.
@@ -123,6 +131,10 @@ Exceeding a budget yields status `timeout`, with the phase that ran out of time
 recorded in `phases`. A probe that clears every phase is `pass`, and its tool
 count and first 50 tool names are recorded.
 
+`spawn_failed` and `handshake_failed` are the two statuses that can be
+reclassified afterwards, to `needs_auth`, when the server declared credentials
+we withheld. Sections 4 and 5 give the exact rule.
+
 One deliberate exception: `uv tool run` starts instantly and *then* downloads
 the package, so the download lands inside the handshake window. PyPI probes get
 `install + handshake` (330 s) for the handshake phase rather than 30 s, so a
@@ -150,23 +162,64 @@ The harness has no credentials and does not want any.
   environment. The harness executes third-party code; handing it real tokens
   would be indefensible.
 
-The consequence is worth stating plainly: a server that validates an
-API key during startup will fail here even though it works fine for someone
-holding a real key. That is why `requiresEnv` exists and why those results are
-caveated rather than presented as a plain verdict.
+The consequence is worth stating plainly: a server that validates an API key
+during startup will not come up here even though it works fine for someone
+holding a real key. That is not a bug in the server, so it does not get a red
+result:
+
+- A stdio server that we started with placeholders in place of its declared
+  required variables, and that then records `spawn_failed` or
+  `handshake_failed`, is recorded **`needs_auth`** instead. Its phases, detail
+  and stderr excerpt are kept exactly as captured; only the status changes.
+  The excerpt is usually the evidence, since these servers tend to say "invalid
+  API key" on the way out.
+- The rule is deliberately narrow. `install_failed` happened before any
+  placeholder was used, `tools_failed` means the handshake already succeeded
+  with them, and `timeout` is a hang we have no reason to blame on credentials.
+  None of the three is ever reclassified.
+- A server that declares no required variables is never reclassified either:
+  there is nothing it asked us for.
+
+`needs_auth` is neither evidence of breakage nor evidence of health. The site
+renders it amber, between green and red, and the badge reads
+`needs credentials` in yellow.
 
 ## 5. Remote endpoints and authentication
 
 No authentication headers are ever sent, including headers the registry entry
 declares. Results are classified as:
 
-- **401 / 403** → `handshake_failed`, with the HTTP detail and the note that
-  the endpoint is reachable but requires credentials the harness does not send.
+- **401 / 403** → `needs_auth`, with the HTTP detail and the note that the
+  endpoint is reachable but requires credentials the harness does not send.
   "Reachable but needs auth" is real signal about a server, and it is a
-  different fact from "the host is gone".
+  different fact from both "the host is gone" and "the handshake is broken".
+- **An endpoint that answered and then refused the `initialize`, while
+  declaring headers it requires** → `needs_auth` as well. Some endpoints reject
+  an unauthenticated handshake with a protocol error rather than an HTTP
+  status; the declared required headers are what tell us which is which.
 - **Other HTTP errors, DNS failures, TLS failures, refused connections** →
   `connect_failed` with the underlying detail.
-- **No answer inside 20 s** → `timeout`.
+- **No answer inside 20 s** → `timeout`. A failure that never reached the
+  endpoint, or ran out of time, is never reclassified as `needs_auth`: it is
+  not a verdict from the server.
+
+## 5b. Going green (for maintainers)
+
+The amber state resolves without anyone sharing a secret, and the fix is
+ordinary good server design: validate credentials lazily. Start, complete the
+`initialize` handshake, answer `tools/list`, and return a clear error from the
+tool call itself when the key is missing or wrong. A server built that way
+turns green here on its own, and real users get a visible tool list plus an
+error in context instead of a silent connection failure. Hosted servers can do
+the same over HTTP: allow anonymous `initialize` and `tools/list`, gate the
+tool calls. If your tools genuinely cannot be listed without a tenant, the
+standard OAuth challenge (a 401 with `WWW-Authenticate`) is correct, and amber
+is your accurate steady state: alive, gated, working as designed.
+
+We do not accept test credentials, from anyone. The harness executes
+third-party code weekly, so holding real secrets would make every probe a
+liability, and probing with no accounts anywhere is what keeps the results
+comparable.
 
 ## 6. Platforms, runners, cadence
 
@@ -208,6 +261,7 @@ for that platform.
 | `spawn_failed` | `won't start` | red |
 | `connect_failed` | `unreachable` | red |
 | `handshake_failed` | `handshake fails` | red |
+| `needs_auth` | `needs credentials` | yellow |
 | `tools_failed` | `tools/list fails` | red |
 | `timeout` | `times out` | red |
 | `skipped`, or never probed | `untested` | lightgrey |
@@ -220,10 +274,18 @@ bugs with different owners.
 The overall badge is worst-wins over the latest per-platform statuses, ordered
 by how early the probe died (`install_failed` worst, then `spawn_failed`,
 `connect_failed`, `timeout`, `handshake_failed`, `tools_failed`, `skipped`,
-`pass`). `skipped` deliberately outranks `pass`: a platform we could not test
-is not evidence of health. The mixed case gets its own orange badge rather than
-a red one, so a server that works everywhere except Windows is not painted as
-entirely broken.
+`needs_auth`, `pass`). `skipped` and `needs_auth` deliberately outrank `pass`:
+neither is evidence of health, and a platform we could not test at all tells us
+less than one that answered and asked for credentials. The mixed case gets its
+own orange badge rather than a red one, so a server that works everywhere
+except Windows is not painted as entirely broken.
+
+Two statuses are not failures and are counted as such nowhere: `skipped` and
+`needs_auth`. A server that passes on one platform and asks for credentials on
+another is `passing`, on its badge and on the index alike; only a real failure
+somewhere turns it red. The site draws the same three-way split: green for a
+pass, red for a real failure, amber for `needs_auth`, grey for what we never
+learned.
 
 ## 9. Known limitations
 
@@ -233,9 +295,13 @@ entirely broken.
   identifier. A package whose entry point is named differently will show
   `spawn_failed` or `handshake_failed` even though the right command works.
   These are worth reporting, since a seed entry can override them.
-- **Placeholder credentials cause false negatives** for servers that validate
-  keys at startup (see section 4). Check `requiresEnv` on the server page
-  before believing a red badge.
+- **Placeholder credentials still cost coverage.** A server that validates keys
+  at startup is recorded `needs_auth` rather than red (see section 4), which is
+  honest but is not a test: we never learn whether it would have worked with a
+  real key. And the reclassification leans on what the entry declares, so a
+  server that requires a key it never declared can still show red for a
+  credentials problem. Check `requiresEnv` and the error excerpt on the server
+  page before believing a red badge.
 - **Weekly granularity.** A result can be up to seven days old; the "last
   checked" timestamp on each page is authoritative, not the badge color.
 - **One version per server**: whatever `version=latest` resolves to, or the

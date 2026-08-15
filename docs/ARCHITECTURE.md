@@ -56,12 +56,17 @@ then remote) and probe it:
 - **pypi**: `uv tool run` (uvx) equivalent, spawned the same way. If `uv` is
   missing on the runner the probe records `skipped`, never a failure.
 - **remote-http / remote-sse**: connect with StreamableHTTP/SSE transports,
-  `initialize`, `tools/list`. Endpoints that 401/403 without auth headers are
-  recorded as `handshake_failed` with the HTTP detail. "Reachable but needs
-  auth" is real signal, and the page will say so via `requiresEnv`.
+  `initialize`, `tools/list`. Endpoints that 401/403 without auth headers, and
+  endpoints that reject an unauthenticated `initialize` while declaring headers
+  they require, are recorded as `needs_auth` with the HTTP detail. "Reachable
+  but needs auth" is real signal, it is not a failure, and the site renders it
+  amber rather than red.
 - **oci**: `skipped` in v1.
 - Required env vars are filled with `ENV_PLACEHOLDER` and recorded in
-  `requiresEnv` so pages can caveat the result.
+  `requiresEnv` so pages can caveat the result. A stdio server that then will
+  not start or will not finish the handshake is recorded `needs_auth` instead of
+  `spawn_failed`/`handshake_failed`: it asked for credentials we withheld.
+  `install_failed`, `tools_failed` and `timeout` are never reclassified.
 - Per-phase timeouts (install 600s, spawn 30s, handshake 30s, tools 15s,
   remote connect 20s). A phase timeout yields status `timeout` with the phase
   recorded in `phases`.
@@ -90,14 +95,18 @@ in the catalog are kept (rot data is the product).
 Emits shields endpoint JSON per server: overall (`badge/<slug>.json`, worst
 recent status across platforms) and per-platform
 (`badge/<slug>-<platform>.json`). Green `passing`, red `failing` with the
-failing phase, grey `unknown`/`skipped`. `cacheSeconds` ≥ 3600.
+failing phase, yellow `needs credentials`, grey `unknown`/`skipped`.
+`cacheSeconds` ≥ 3600.
 Embed URL: `https://img.shields.io/endpoint?url=<pages>/badge/<slug>.json`.
 
 ### site (`src/site/`)
 Static generator, no framework, inline CSS, output to `public/`:
 - `index.html`: status table (title, badge state per platform, star count,
-  tool count, last checked), in rank order (stars descending, seeds first);
-  summary counts.
+  tool count, last checked), ordered by GitHub stars descending with entries
+  that have no count last and ties broken by `rank`; summary counts of passing,
+  failing, needs credentials and untested. Display order is stars alone: `rank`
+  puts the seed entries first for probing and sharding, and giving them the top
+  of a neutral index on top of that would read as self-promotion.
 - `s/<slug>.html`: per-server page with the install command, a green/red
   history strip per platform, latest error excerpt in a `<pre>` (HTML-escaped),
   tool names, badge markdown snippet, links to repo/site.

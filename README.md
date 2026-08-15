@@ -41,6 +41,7 @@ a single platform, use `badge/<slug>-linux.json`, `-darwin` or `-win32`.
 | `passing` | installed, handshook, returned a tool list |
 | `install fails` / `won't start` / `handshake fails` / `tools/list fails` | it broke, and the page shows where and why |
 | `unreachable` / `times out` | remote endpoint did not answer in budget |
+| `needs credentials` | yellow, not red: it is alive and it wants credentials the probe does not send (a 401/403, or a server that will not start without the variables it declared). Never counted as a failure |
 | `failing on 1/3 platforms` | works somewhere, broken elsewhere |
 | `untested` | no supported distribution yet (e.g. Docker-only), or never probed |
 
@@ -65,9 +66,11 @@ Five phases per server, each with its own budget:
 | tools/list | 15 s | the server enumerates its tools |
 
 Nothing is installed globally, temp dirs and process trees are always cleaned
-up, required environment variables are filled with a placeholder (never real
-credentials) and reported on the page, and remote endpoints that answer
-401/403 are recorded as "reachable but needs auth" rather than as dead.
+up, and required environment variables are filled with a placeholder (never real
+credentials) and reported on the page. A server that answers 401/403, or that
+will not start without the variables it declared, is recorded as `needs
+credentials`: amber on the site, yellow on the badge, and not a failure. Red is
+kept for a break the placeholders do not explain.
 
 Full details (catalog sources, ranking, sharding, the env and remote-auth
 policies, badge semantics, and the limitations that matter when you read a red

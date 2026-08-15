@@ -2,7 +2,7 @@
  * remote probe: connect to a hosted endpoint over streamable HTTP (or legacy
  * SSE), initialize and list tools. We never send the headers a server declares,
  * because we have no credentials, so "reachable but needs auth" is an expected
- * and useful outcome, recorded as `handshake_failed` with the HTTP detail.
+ * and useful outcome, recorded as `needs_auth` with the HTTP detail.
  */
 import { Client } from '@modelcontextprotocol/sdk/client/index.js';
 import { SSEClientTransport } from '@modelcontextprotocol/sdk/client/sse.js';
@@ -36,7 +36,8 @@ function httpStatusOf(err: unknown): number | undefined {
  * Sorts a connect() rejection into "never reached the endpoint" (connect_failed)
  * versus "endpoint answered but MCP did not come up" (handshake_failed).
  * 401/403 mean the endpoint is alive and simply wants credentials, which is
- * signal about the server, not about the network.
+ * signal about the server, not about the network: types.ts calls that
+ * `needs_auth`, still in the handshake phase because the endpoint answered.
  */
 export function classifyRemoteError(err: unknown): RemoteFailure {
   const detail = describeError(err);
@@ -50,7 +51,7 @@ export function classifyRemoteError(err: unknown): RemoteFailure {
     if (status === 401 || status === 403) {
       return {
         phase: 'handshake',
-        status: 'handshake_failed',
+        status: 'needs_auth',
         detail: `${described} (endpoint reachable but requires credentials the harness does not send)`
       };
     }
@@ -61,6 +62,20 @@ export function classifyRemoteError(err: unknown): RemoteFailure {
     return { phase: 'handshake', status: 'handshake_failed', detail };
   }
   return { phase: 'connect', status: 'connect_failed', detail };
+}
+
+/**
+ * types.ts policy: an endpoint that answered but would not finish the MCP
+ * handshake, while declaring headers it requires and we never send, is gated
+ * rather than broken. `classifyRemoteError` already reports 401/403 that way;
+ * this also covers endpoints that reject an unauthenticated `initialize` with a
+ * protocol error instead of an HTTP status. Failures that never reached the
+ * endpoint (connect_failed) or ran out of time (timeout) are left alone,
+ * because they are not a verdict from the server.
+ */
+function isGatedByHeaders(failure: RemoteFailure, remote: RemoteSpec): boolean {
+  if (failure.phase !== 'handshake' || failure.status === 'timeout') return false;
+  return (remote.headers ?? []).some(header => header?.required === true);
 }
 
 export async function probeRemote(remote: RemoteSpec, timeouts: ProbeTimeouts): Promise<ProbeOutcome> {
@@ -98,7 +113,7 @@ export async function probeRemote(remote: RemoteSpec, timeouts: ProbeTimeouts): 
       if (reached) phases.handshake = phaseSince(connectAt, false, failure.detail);
       return {
         method,
-        status: failure.status,
+        status: isGatedByHeaders(failure, remote) ? 'needs_auth' : failure.status,
         phases,
         errorExcerpt: buildExcerpt(`${failure.phase} failed: ${failure.detail}`, '')
       };

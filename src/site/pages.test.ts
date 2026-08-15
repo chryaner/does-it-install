@@ -1,5 +1,12 @@
 import { describe, expect, it } from 'vitest';
-import type { Catalog, HistoryEntry, ServerEntry, ServerHistory } from '../types.js';
+import type {
+  Catalog,
+  HistoryEntry,
+  Platform,
+  ProbeStatus,
+  ServerEntry,
+  ServerHistory,
+} from '../types.js';
 import { buildPages, type Page, type SiteOptions } from './pages.js';
 
 const XSS = '<script>alert(1)</script>';
@@ -29,7 +36,9 @@ const PASSING: ServerEntry = {
   remotes: [],
   source: 'seed',
   rank: 1,
-  popularity: { stars: 1234 },
+  // Rank 1 (seed entries are probed first) but barely starred: the index must
+  // still place it below the registry entries people actually use.
+  popularity: { stars: 3 },
 };
 
 const HOSTILE: ServerEntry = {
@@ -64,9 +73,27 @@ const REMOTE: ServerEntry = {
   rank: 3,
 };
 
+/** Reachable, popular, and it wants a token the probe will never have. */
+const GATED: ServerEntry = {
+  id: 'io.github.acme/gated',
+  slug: 'io.github.acme__gated',
+  title: 'Gated API',
+  packages: [],
+  remotes: [
+    {
+      type: 'streamable-http',
+      url: 'https://gated.example.test/mcp',
+      headers: [{ name: 'GATED_TOKEN', required: true, secret: true }],
+    },
+  ],
+  source: 'registry',
+  rank: 4,
+  popularity: { stars: 5000 },
+};
+
 const CATALOG: Catalog = {
   generatedAt: '2026-08-14T02:00:00.000Z',
-  servers: [REMOTE, HOSTILE, PASSING], // deliberately out of rank order
+  servers: [REMOTE, HOSTILE, PASSING, GATED], // deliberately unordered
 };
 
 function entry(overrides: Partial<HistoryEntry> & Pick<HistoryEntry, 'date' | 'status'>): HistoryEntry {
@@ -113,10 +140,46 @@ const HISTORIES = new Map<string, ServerHistory>([
       },
     },
   ],
+  [
+    GATED.slug,
+    {
+      serverId: GATED.id,
+      slug: GATED.slug,
+      platforms: {
+        linux: [
+          entry({
+            date: '2026-08-14T03:00:00.000Z',
+            status: 'needs_auth',
+            method: 'remote-http',
+            errorExcerpt: 'handshake failed: HTTP 401: Unauthorized',
+          }),
+        ],
+      },
+    },
+  ],
 ]);
 
-function build(catalog: Catalog = CATALOG, options: SiteOptions = OPTIONS): Map<string, string> {
-  return new Map(buildPages(catalog, HISTORIES, options).map((page: Page) => [page.path, page.html]));
+function build(
+  catalog: Catalog = CATALOG,
+  options: SiteOptions = OPTIONS,
+  histories: ReadonlyMap<string, ServerHistory> = HISTORIES,
+): Map<string, string> {
+  return new Map(buildPages(catalog, histories, options).map((page: Page) => [page.path, page.html]));
+}
+
+/** One server, one platform, one status: the shortest way to test a verdict. */
+function verdictOf(slug: string, statuses: readonly ProbeStatus[]): string {
+  const platforms: Platform[] = ['linux', 'darwin', 'win32'];
+  const catalog: Catalog = { generatedAt: '', servers: [{ ...REMOTE, slug }] };
+  const history: ServerHistory = { serverId: slug, slug, platforms: {} };
+
+  statuses.forEach((status, index) => {
+    const platform = platforms[index];
+    if (platform === undefined) throw new Error('more statuses than platforms');
+    history.platforms[platform] = [entry({ date: '2026-08-14T03:00:00.000Z', status })];
+  });
+
+  return pageOf(build(catalog, OPTIONS, new Map([[slug, history]])), 'index.html');
 }
 
 function pageOf(pages: Map<string, string>, path: string): string {
@@ -161,8 +224,9 @@ describe('buildPages', () => {
   it('emits an index, a page per server, methodology, 404 and the machine files', () => {
     expect([...build().keys()]).toEqual([
       'index.html',
-      's/seed__everything.html',
+      's/io.github.acme__gated.html',
       's/io.github.acme__hostile.html',
+      's/seed__everything.html',
       's/io.github.acme__hosted.html',
       'methodology.html',
       '404.html',
@@ -177,25 +241,54 @@ describe('index page', () => {
   const index = pageOf(build(), 'index.html');
 
   it('has one linked row per catalogued server', () => {
-    expect(countOf(index, '<tr>\n<td class="dots">')).toBe(3);
-    for (const server of [PASSING, HOSTILE, REMOTE]) {
+    expect(countOf(index, '<tr>\n<td class="dots">')).toBe(4);
+    for (const server of [PASSING, HOSTILE, REMOTE, GATED]) {
       expect(index).toContain(`href="/dii/s/${server.slug}.html"`);
     }
   });
 
-  it('orders rows by rank, not catalog array order', () => {
-    const positions = [PASSING, HOSTILE, REMOTE].map((server) =>
+  it('orders rows by stars, most first, with uncounted servers last', () => {
+    const positions = [GATED, HOSTILE, PASSING, REMOTE].map((server) =>
       index.indexOf(`s/${server.slug}.html`),
     );
     expect(positions.every((position) => position > 0)).toBe(true);
     expect([...positions].sort((a, b) => a - b)).toEqual(positions);
   });
 
-  it('summarizes passing, failing, untested and total', () => {
+  it('gives the seed entry no placement its stars did not earn', () => {
+    // PASSING is rank 1 (probed first) and has 3 stars, so it belongs below the
+    // registry entries with real counts, not at the top of the page.
+    expect(PASSING.rank).toBeLessThan(HOSTILE.rank);
+    expect(index.indexOf(`s/${PASSING.slug}.html`)).toBeGreaterThan(
+      index.indexOf(`s/${HOSTILE.slug}.html`),
+    );
+  });
+
+  it('breaks a tie on stars with catalog rank, so the order is stable', () => {
+    const tied: Catalog = {
+      generatedAt: '',
+      servers: [
+        { ...REMOTE, slug: 'later', rank: 9, popularity: { stars: 42 } },
+        { ...REMOTE, slug: 'earlier', rank: 2, popularity: { stars: 42 } },
+      ],
+    };
+    const page = pageOf(build(tied), 'index.html');
+
+    expect(page.indexOf('s/earlier.html')).toBeLessThan(page.indexOf('s/later.html'));
+  });
+
+  it('summarizes passing, failing, needs credentials, untested and total', () => {
     expect(index).toContain('<div class="count pass"><b>1</b><span>passing</span></div>');
     expect(index).toContain('<div class="count fail"><b>1</b><span>failing</span></div>');
+    expect(index).toContain(
+      '<div class="count auth"><b>1</b><span>needs credentials</span></div>',
+    );
     expect(index).toContain('<div class="count none"><b>1</b><span>untested</span></div>');
-    expect(index).toContain('<div class="count"><b>3</b><span>servers</span></div>');
+    expect(index).toContain('<div class="count"><b>4</b><span>servers</span></div>');
+  });
+
+  it('puts the needs-credentials card before untested', () => {
+    expect(index.indexOf('needs credentials')).toBeLessThan(index.indexOf('untested'));
   });
 
   it('shows a status dot per platform with a tooltip', () => {
@@ -207,6 +300,9 @@ describe('index page', () => {
     );
     expect(index).toContain(
       '<span class="dot fail" title="Linux: install failed (2026-08-14)"></span>',
+    );
+    expect(index).toContain(
+      '<span class="dot auth" title="Linux: needs credentials (2026-08-14)"></span>',
     );
   });
 
@@ -222,8 +318,8 @@ describe('index page', () => {
     expect(index).toContain(
       '<thead><tr><th>Status</th><th>Server</th><th>Install</th><th>Stars</th><th>Tools</th><th>Last checked</th></tr></thead>',
     );
-    // PASSING: npm, 1234 stars, 12 tools.
-    expect(index).toContain('<td>npm</td>\n<td class="num">1.2k</td>\n<td class="num">12</td>');
+    // PASSING: npm, 3 stars, 12 tools.
+    expect(index).toContain('<td>npm</td>\n<td class="num">3</td>\n<td class="num">12</td>');
   });
 
   it.each([
@@ -249,9 +345,17 @@ describe('index page', () => {
     expect(countOf(page, '<td class="num"><span class="muted">n/a</span></td>')).toBe(2);
   });
 
-  it('explains the row order in the legend', () => {
+  it('explains the row order in the legend, with no mention of seeds', () => {
     expect(index).toContain('Rows are ordered by GitHub stars');
-    expect(index).toContain('seed servers first');
+    expect(index).toContain('most stars first');
+    expect(index).toContain('no count for last');
+    expect(index).not.toContain('seed servers first');
+  });
+
+  it('explains what amber means in the legend', () => {
+    expect(index).toContain(
+      'Amber means the server is alive but wants credentials the probe does not send',
+    );
   });
 
   it('escapes hostile server titles and ids', () => {
@@ -263,6 +367,75 @@ describe('index page', () => {
     const empty = pageOf(build({ generatedAt: '', servers: [] }), 'index.html');
     expect(empty).toContain('No servers in the catalog yet.');
     expect(empty).toContain('<div class="count"><b>0</b><span>servers</span></div>');
+    // The placeholder row spans the table, which has six columns.
+    expect(empty).toContain('<td colspan="6" class="muted">No servers in the catalog yet.</td>');
+    expect(countOf(empty, '<th>')).toBe(6);
+  });
+});
+
+describe('needs credentials', () => {
+  const pages = build();
+  const index = pageOf(pages, 'index.html');
+  const gated = pageOf(pages, 's/io.github.acme__gated.html');
+
+  it('counts a pass elsewhere as passing, not as needing credentials', () => {
+    const page = verdictOf('mixed-pass', ['pass', 'needs_auth']);
+    expect(page).toContain('<div class="count pass"><b>1</b><span>passing</span></div>');
+    expect(page).toContain('<div class="count auth"><b>0</b><span>needs credentials</span></div>');
+  });
+
+  it('counts needing credentials on its own as needing credentials', () => {
+    const page = verdictOf('only-auth', ['needs_auth']);
+    expect(page).toContain('<div class="count auth"><b>1</b><span>needs credentials</span></div>');
+    expect(page).toContain('<div class="count none"><b>0</b><span>untested</span></div>');
+  });
+
+  it('still counts a real failure elsewhere as failing', () => {
+    const page = verdictOf('auth-and-failure', ['needs_auth', 'install_failed']);
+    expect(page).toContain('<div class="count fail"><b>1</b><span>failing</span></div>');
+    expect(page).toContain('<div class="count auth"><b>0</b><span>needs credentials</span></div>');
+  });
+
+  it('does not let an untestable platform outweigh one that answered', () => {
+    const page = verdictOf('auth-and-skipped', ['needs_auth', 'skipped']);
+    expect(page).toContain('<div class="count auth"><b>1</b><span>needs credentials</span></div>');
+  });
+
+  it('marks the index dot amber, distinctly from red and grey', () => {
+    expect(index).toContain(
+      '<span class="dot auth" title="Linux: needs credentials (2026-08-14)"></span>',
+    );
+  });
+
+  it('states the platform verdict in amber, with the phrase', () => {
+    expect(gated).toContain('<span class="verdict auth">needs credentials</span>');
+    expect(gated).toContain('2026-08-14 &middot; probed over remote-http');
+  });
+
+  it('paints the history square amber too', () => {
+    expect(gated).toContain('<span class="sq auth" title="2026-08-14: needs_auth"></span>');
+  });
+
+  it('keeps the error excerpt, because it is the evidence', () => {
+    expect(gated).toContain(
+      '<pre class="err auth">handshake failed: HTTP 401: Unauthorized</pre>',
+    );
+  });
+
+  it('shows the credentials note alongside the amber verdict', () => {
+    expect(gated).toContain('Needs credentials: <code>GATED_TOKEN</code>');
+    expect(gated).toContain('so an amber <b>needs credentials</b> result below');
+    expect(gated).not.toContain('a red result here');
+  });
+
+  it('reports no tools, since nothing ever listed them', () => {
+    expect(gated).not.toContain('returned');
+  });
+
+  it('passes the status through to index.json unchanged', () => {
+    expect(serverOf(pages, GATED.slug).platforms).toEqual({
+      linux: { status: 'needs_auth', date: '2026-08-14T03:00:00.000Z' },
+    });
   });
 });
 
@@ -288,7 +461,7 @@ describe('server page', () => {
   });
 
   it('puts the star count in the meta line, only when there is one', () => {
-    expect(passing).toContain('&middot; 1.2k stars &middot; listed from seed');
+    expect(passing).toContain('&middot; 3 stars &middot; listed from seed');
     expect(hosted).toContain('listed from registry');
     expect(hosted).not.toContain('stars');
   });
@@ -417,6 +590,16 @@ describe('methodology and 404 pages', () => {
     expect(methodology).toContain('Linux, macOS, Windows');
   });
 
+  it('records 401 and 403 as needing credentials, not as a broken handshake', () => {
+    const methodology = pageOf(pages, 'methodology.html');
+    expect(methodology).toContain(
+      'recorded as needs credentials with the HTTP detail, not as a failed handshake',
+    );
+    expect(methodology).toContain('Amber means the server is alive and wants credentials');
+    // Red no longer stands in for a missing key: amber does.
+    expect(methodology).not.toContain('It can mean the server needs credentials we do not have');
+  });
+
   it('keeps 404 minimal but navigable', () => {
     const notFound = pageOf(pages, '404.html');
     expect(notFound).toContain('<h1>404</h1>');
@@ -431,7 +614,7 @@ describe('sitemap.xml', () => {
     expect(sitemap).toContain('<loc>https://example.test/dii/</loc>');
     expect(sitemap).toContain('<loc>https://example.test/dii/methodology.html</loc>');
     expect(sitemap).toContain('<loc>https://example.test/dii/s/seed__everything.html</loc>');
-    expect(countOf(sitemap, '<url>')).toBe(5); // index + methodology + 3 servers
+    expect(countOf(sitemap, '<url>')).toBe(6); // index + methodology + 4 servers
   });
 
   it('leaves 404 and the machine files out', () => {
@@ -478,13 +661,14 @@ describe('index.json', () => {
     expect(() => JSON.parse(raw)).not.toThrow();
   });
 
-  it('records the build time, the site root and every server in rank order', () => {
+  it('records the build time, the site root and every server in display order', () => {
     const feed = feedOf(pages);
     expect(feed.generatedAt).toBe(OPTIONS.generatedAt);
     expect(feed.site).toBe('https://example.test/dii');
     expect(feed.servers.map((server) => server.slug)).toEqual([
-      PASSING.slug,
+      GATED.slug,
       HOSTILE.slug,
+      PASSING.slug,
       REMOTE.slug,
     ]);
   });
@@ -512,7 +696,7 @@ describe('index.json', () => {
   });
 
   it('carries the star count as a number, for servers that have one', () => {
-    expect(serverOf(pages, PASSING.slug).stars).toBe(1234);
+    expect(serverOf(pages, PASSING.slug).stars).toBe(3);
     expect(serverOf(pages, HOSTILE.slug).stars).toBe(987);
   });
 

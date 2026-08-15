@@ -1,6 +1,14 @@
 import { describe, expect, it } from 'vitest';
-import { ENV_PLACEHOLDER, type EnvVarSpec, type PackageSpec, type RemoteSpec, type ServerEntry } from '../types.js';
-import { probeServer, resolveEnv, selectDistribution } from './probe.js';
+import {
+  ENV_PLACEHOLDER,
+  type EnvVarSpec,
+  type PackageSpec,
+  type ProbeStatus,
+  type RemoteSpec,
+  type ServerEntry
+} from '../types.js';
+import type { ProbeOutcome } from './outcome.js';
+import { probeServer, reclassifyGatedByCredentials, resolveEnv, selectDistribution } from './probe.js';
 
 const entry = (overrides: Partial<ServerEntry> = {}): ServerEntry => ({
   id: 'io.github.acme/server',
@@ -105,6 +113,47 @@ describe('resolveEnv', () => {
       delete process.env.ACME_DEBUG;
     }
   });
+});
+
+describe('reclassifyGatedByCredentials', () => {
+  const outcome = (status: ProbeStatus): ProbeOutcome => ({
+    method: 'npm',
+    status,
+    phases: {
+      install: { ok: true, durationMs: 900 },
+      spawn: { ok: false, durationMs: 30, detail: 'exited with code 1' }
+    },
+    errorExcerpt: 'spawn failed: exited with code 1\n--- stderr (tail) ---\nError: invalid ACME_TOKEN'
+  });
+
+  it('reads a refusal to start as a missing credential when placeholders were injected', () => {
+    expect(reclassifyGatedByCredentials(outcome('spawn_failed'), ['ACME_TOKEN']).status).toBe('needs_auth');
+  });
+
+  it('reads a refused handshake the same way', () => {
+    expect(reclassifyGatedByCredentials(outcome('handshake_failed'), ['ACME_TOKEN']).status).toBe('needs_auth');
+  });
+
+  it('keeps the phases, detail and excerpt that are the evidence', () => {
+    const before = outcome('spawn_failed');
+    const after = reclassifyGatedByCredentials(before, ['ACME_TOKEN']);
+
+    expect(after).toEqual({ ...before, status: 'needs_auth' });
+    expect(after.phases.spawn?.detail).toBe('exited with code 1');
+    expect(after.errorExcerpt).toContain('invalid ACME_TOKEN');
+  });
+
+  it('leaves a server that declared no required variables alone', () => {
+    expect(reclassifyGatedByCredentials(outcome('spawn_failed'), [])).toEqual(outcome('spawn_failed'));
+    expect(reclassifyGatedByCredentials(outcome('handshake_failed'), []).status).toBe('handshake_failed');
+  });
+
+  it.each<ProbeStatus>(['install_failed', 'tools_failed', 'timeout', 'pass', 'skipped'])(
+    'leaves %s alone even with placeholders in play',
+    status => {
+      expect(reclassifyGatedByCredentials(outcome(status), ['ACME_TOKEN']).status).toBe(status);
+    }
+  );
 });
 
 describe('probeServer', () => {

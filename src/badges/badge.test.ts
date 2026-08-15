@@ -22,6 +22,7 @@ const EXPECTED: Record<ProbeStatus, { message: string; color: string }> = {
   spawn_failed: { message: "won't start", color: 'red' },
   connect_failed: { message: 'unreachable', color: 'red' },
   handshake_failed: { message: 'handshake fails', color: 'red' },
+  needs_auth: { message: 'needs credentials', color: 'yellow' },
   tools_failed: { message: 'tools/list fails', color: 'red' },
   timeout: { message: 'times out', color: 'red' },
   skipped: { message: 'untested', color: 'lightgrey' },
@@ -141,6 +142,70 @@ describe('badgeForHistory', () => {
     );
 
     // Worst-wins: a platform we could not test is not evidence the server works there.
+    expect(overall).toMatchObject({ message: 'untested', color: 'lightgrey' });
+  });
+
+  it('stays passing when a passing platform is paired with one that needs credentials', () => {
+    const { overall, perPlatform } = badgeForHistory(
+      history({ linux: [entry('pass')], win32: [entry('needs_auth')] }),
+    );
+
+    // One pass proves the server works; needs_auth elsewhere is expected of a
+    // credentialed server probed without credentials, so it must not mask it.
+    expect(overall).toMatchObject({ message: 'passing', color: 'brightgreen' });
+    expect(perPlatform.win32).toMatchObject({ message: 'needs credentials', color: 'yellow' });
+  });
+
+  it('reports needs credentials when that is all the platforms with data say', () => {
+    const { overall } = badgeForHistory(
+      history({ linux: [entry('needs_auth')], darwin: [entry('needs_auth')] }),
+    );
+
+    expect(overall).toMatchObject({ message: 'needs credentials', color: 'yellow' });
+  });
+
+  it('does not count needs_auth as a failure in the mixed badge', () => {
+    const { overall } = badgeForHistory(
+      history({
+        linux: [entry('pass')],
+        darwin: [entry('needs_auth')],
+        win32: [entry('install_failed')],
+      }),
+    );
+
+    expect(overall).toMatchObject({ message: 'failing on 1/3 platforms', color: 'orange' });
+  });
+
+  it('lets a real failure outrank needs_auth when nothing passes', () => {
+    const { overall } = badgeForHistory(
+      history({ linux: [entry('needs_auth')], win32: [entry('install_failed')] }),
+    );
+
+    expect(overall).toMatchObject({ message: 'install fails', color: 'red' });
+  });
+
+  it('ranks needs_auth above pass but below skipped', () => {
+    const gated = badgeForHistory(history({ linux: [entry('pass')], win32: [entry('needs_auth')] }));
+    const untested = badgeForHistory(
+      history({ linux: [entry('needs_auth')], win32: [entry('skipped')] }),
+    );
+
+    // A pass short-circuits the reduce; without one, an untested platform is
+    // still the weaker signal and wins.
+    expect(gated.overall).toMatchObject({ message: 'passing' });
+    expect(untested.overall).toMatchObject({ message: 'untested' });
+  });
+
+  it('keeps a pass from a needs_auth run out of the untested case', () => {
+    const { overall } = badgeForHistory(
+      history({
+        linux: [entry('pass')],
+        darwin: [entry('needs_auth')],
+        win32: [entry('skipped')],
+      }),
+    );
+
+    // A skipped platform still pulls the verdict back to untested.
     expect(overall).toMatchObject({ message: 'untested', color: 'lightgrey' });
   });
 });
