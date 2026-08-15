@@ -171,6 +171,11 @@ export interface HistoryEntry {
   toolCount?: number;
   /** First MAX_TOOL_NAMES tool names from a passing probe. */
   toolNames?: string[];
+  /**
+   * Install phase duration in ms, when the probe installed a package. Kept so
+   * "passes, but the install is slow" stays a visible fact on the page.
+   */
+  installMs?: number;
   errorExcerpt?: string;
 }
 
