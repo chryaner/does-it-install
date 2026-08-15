@@ -1,0 +1,60 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "list_calendar_events",
+          "get_calendar_event",
+          "list_calendars",
+          "query_calendar_freebusy",
+          "create_calendar_event",
+          "update_calendar_event",
+          "delete_calendar_event"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "list_calendar_events",
+          "get_calendar_event",
+          "list_calendars",
+          "query_calendar_freebusy",
+          "create_calendar_event",
+          "update_calendar_event",
+          "delete_calendar_event"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "list_calendar_events",
+          "get_calendar_event",
+          "list_calendars",
+          "query_calendar_freebusy",
+          "create_calendar_event",
+          "update_calendar_event",
+          "delete_calendar_event"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.pulsemcp/google-calendar",
+  "slug": "com.pulsemcp__google-calendar"
+}

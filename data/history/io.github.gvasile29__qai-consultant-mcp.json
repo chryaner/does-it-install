@@ -1,0 +1,54 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "retrieve_qa_knowledge",
+          "list_kb_sources",
+          "estimate_qa_effort",
+          "review_qa_document",
+          "analyze_test_results"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "retrieve_qa_knowledge",
+          "list_kb_sources",
+          "estimate_qa_effort",
+          "review_qa_document",
+          "analyze_test_results"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "retrieve_qa_knowledge",
+          "list_kb_sources",
+          "estimate_qa_effort",
+          "review_qa_document",
+          "analyze_test_results"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.gvasile29/qai-consultant-mcp",
+  "slug": "io.github.gvasile29__qai-consultant-mcp"
+}

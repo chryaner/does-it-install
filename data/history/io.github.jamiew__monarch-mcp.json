@@ -1,0 +1,102 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "get_accounts",
+          "get_transactions",
+          "search_transactions",
+          "get_budgets",
+          "get_cashflow",
+          "get_transaction_categories",
+          "create_transaction",
+          "update_transaction",
+          "update_transactions_bulk",
+          "get_transaction_splits",
+          "update_transaction_splits",
+          "get_account_holdings",
+          "get_account_history",
+          "get_institutions",
+          "get_recurring_transactions",
+          "set_budget_amount",
+          "create_manual_account",
+          "get_spending_summary",
+          "refresh_accounts",
+          "get_complete_financial_overview",
+          "analyze_spending_patterns"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "get_accounts",
+          "get_transactions",
+          "search_transactions",
+          "get_budgets",
+          "get_cashflow",
+          "get_transaction_categories",
+          "create_transaction",
+          "update_transaction",
+          "update_transactions_bulk",
+          "get_transaction_splits",
+          "update_transaction_splits",
+          "get_account_holdings",
+          "get_account_history",
+          "get_institutions",
+          "get_recurring_transactions",
+          "set_budget_amount",
+          "create_manual_account",
+          "get_spending_summary",
+          "refresh_accounts",
+          "get_complete_financial_overview",
+          "analyze_spending_patterns"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "get_accounts",
+          "get_transactions",
+          "search_transactions",
+          "get_budgets",
+          "get_cashflow",
+          "get_transaction_categories",
+          "create_transaction",
+          "update_transaction",
+          "update_transactions_bulk",
+          "get_transaction_splits",
+          "update_transaction_splits",
+          "get_account_holdings",
+          "get_account_history",
+          "get_institutions",
+          "get_recurring_transactions",
+          "set_budget_amount",
+          "create_manual_account",
+          "get_spending_summary",
+          "refresh_accounts",
+          "get_complete_financial_overview",
+          "analyze_spending_patterns"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.jamiew/monarch-mcp",
+  "slug": "io.github.jamiew__monarch-mcp"
+}

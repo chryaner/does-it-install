@@ -1,0 +1,102 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "list_orgs",
+          "get_org_status",
+          "list_runs",
+          "get_run",
+          "list_jobs",
+          "get_job",
+          "get_job_logs",
+          "get_job_tests",
+          "get_failed_tests",
+          "get_failures_by_pattern",
+          "compare_test_runs",
+          "get_flaky_tests",
+          "get_slow_tests",
+          "get_test_history",
+          "get_trends",
+          "get_current_usage",
+          "get_invoice_amount",
+          "get_usage_summary",
+          "get_cache_stats",
+          "get_cache_entries",
+          "search_logs"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "list_orgs",
+          "get_org_status",
+          "list_runs",
+          "get_run",
+          "list_jobs",
+          "get_job",
+          "get_job_logs",
+          "get_job_tests",
+          "get_failed_tests",
+          "get_failures_by_pattern",
+          "compare_test_runs",
+          "get_flaky_tests",
+          "get_slow_tests",
+          "get_test_history",
+          "get_trends",
+          "get_current_usage",
+          "get_invoice_amount",
+          "get_usage_summary",
+          "get_cache_stats",
+          "get_cache_entries",
+          "search_logs"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "list_orgs",
+          "get_org_status",
+          "list_runs",
+          "get_run",
+          "list_jobs",
+          "get_job",
+          "get_job_logs",
+          "get_job_tests",
+          "get_failed_tests",
+          "get_failures_by_pattern",
+          "compare_test_runs",
+          "get_flaky_tests",
+          "get_slow_tests",
+          "get_test_history",
+          "get_trends",
+          "get_current_usage",
+          "get_invoice_amount",
+          "get_usage_summary",
+          "get_cache_stats",
+          "get_cache_entries",
+          "search_logs"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.grahamnotgrant/blacksmith",
+  "slug": "io.github.grahamnotgrant__blacksmith"
+}

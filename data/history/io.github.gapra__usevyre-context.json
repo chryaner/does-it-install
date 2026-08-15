@@ -1,0 +1,63 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "get_component_info",
+          "get_valid_props",
+          "check_valid_prop_value",
+          "suggest_component",
+          "get_full_context",
+          "get_anti_patterns",
+          "get_version_info",
+          "get_token_info"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "get_component_info",
+          "get_valid_props",
+          "check_valid_prop_value",
+          "suggest_component",
+          "get_full_context",
+          "get_anti_patterns",
+          "get_version_info",
+          "get_token_info"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "get_component_info",
+          "get_valid_props",
+          "check_valid_prop_value",
+          "suggest_component",
+          "get_full_context",
+          "get_anti_patterns",
+          "get_version_info",
+          "get_token_info"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.gapra/usevyre-context",
+  "slug": "io.github.gapra__usevyre-context"
+}

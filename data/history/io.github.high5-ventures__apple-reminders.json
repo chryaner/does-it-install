@@ -1,0 +1,24 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "errorExcerpt": "npm install @high5ventures/apple-reminders-mcp@1.0.3 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path /private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-wLeAoh/node_modules/@high5ventures/apple-reminders-mcp\nnpm error command failed\nnpm error command sh -c node scripts/install-binary.js\nnpm error apple-reminders-mcp: downloading signed v1.0.3 binary from GitHub Releases…\nnpm error apple-reminders-mcp postinstall failed: codesign verification failed: unexpected signer:\nnpm error Executable=/private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/apple-reminders-mcp-sTvf5T/reminders-eventkit\nnpm error Identifier=reminders-eventkit\nnpm error Format=Mach-O thin (arm64)\nnpm error CodeDirectory v=20500 size=1374 flags=0x10000(runtime) hashes=32+7 location=embedded\nnpm error Signature size=8988\nnpm error Timestamp=Apr 27, 2026 at 12:01:21 AM\nnpm error Info.plist=not bound\nnpm error TeamIdentifier=VG5X6JCLGF\nnpm error Runtime Version=14.5.0\nnpm error Sealed Resources=none\nnpm error Internal requirements count=1 size=180\nnpm error\nnpm error Expected signer: 'Developer ID Application: high5 ventures GmbH'\nnpm error You can still build the binary locally from source:\nnpm error   git clone https://github.com/high5-ventures/apple-reminders-for-claude\nnpm error   cd apple-reminders-for-claude && ./build.sh binary\nnpm error   cp dist/reminders-eventkit \"/private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-wLeAoh/node_modules/@high5ventures/apple-reminders-mcp/bin/reminders-eventkit\"\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-wLeAoh/.npm-cache/_logs/2026-08-15T04_14_33_533Z-debug-0.log",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "install_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "errorExcerpt": "npm install @high5ventures/apple-reminders-mcp@1.0.3 exited with code 1\n--- stderr (tail) ---\nnpm error code EBADPLATFORM\nnpm error notsup Unsupported platform for @high5ventures/apple-reminders-mcp@1.0.3: wanted {\"os\":\"darwin\"} (current: {\"os\":\"linux\"})\nnpm error notsup Valid os:  darwin\nnpm error notsup Actual os: linux\nnpm error A complete log of this run can be found in: /tmp/does-it-install/dii-npm-fhIa6V/.npm-cache/_logs/2026-08-15T04_13_38_757Z-debug-0.log",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "install_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.high5-ventures/apple-reminders",
+  "slug": "io.github.high5-ventures__apple-reminders"
+}

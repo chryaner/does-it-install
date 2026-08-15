@@ -1,0 +1,57 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "jarvis_create_pipeline",
+          "jarvis_describe",
+          "jarvis_add_step",
+          "jarvis_edit_step",
+          "jarvis_run",
+          "jarvis_get_execution"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "jarvis_create_pipeline",
+          "jarvis_describe",
+          "jarvis_add_step",
+          "jarvis_edit_step",
+          "jarvis_run",
+          "jarvis_get_execution"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "jarvis_create_pipeline",
+          "jarvis_describe",
+          "jarvis_add_step",
+          "jarvis_edit_step",
+          "jarvis_run",
+          "jarvis_get_execution"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.iowarp/jarvis-mcp",
+  "slug": "io.github.iowarp__jarvis-mcp"
+}

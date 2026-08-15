@@ -1,0 +1,51 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "check_status",
+          "get_config",
+          "generate_image",
+          "transform_image"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "check_status",
+          "get_config",
+          "generate_image",
+          "transform_image"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "check_status",
+          "get_config",
+          "generate_image",
+          "transform_image"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.james-see/mcp-drawthings",
+  "slug": "io.github.james-see__mcp-drawthings"
+}

@@ -1,0 +1,24 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: hatago [options] [command]\n\n🏮 Hatago MCP Hub - Unified MCP server management\n\nOptions:\n  -V, --version    output the version number\n  -h, --help       display help for command\n\nCommands:\n  init [options]   Create a default hatago.config.json file\n  serve [options]  Start Hatago MCP Hub server\n  help [command]   display help for command",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: hatago [options] [command]\n\n🏮 Hatago MCP Hub - Unified MCP server management\n\nOptions:\n  -V, --version    output the version number\n  -h, --help       display help for command\n\nCommands:\n  init [options]   Create a default hatago.config.json file\n  serve [options]  Start Hatago MCP Hub server\n  help [command]   display help for command",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.himorishige/hatago-mcp-hub",
+  "slug": "io.github.himorishige__hatago-mcp-hub"
+}

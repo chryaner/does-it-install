@@ -1,0 +1,24 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 30 packages in 128ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/2r-hHgGS1U56lDlA/bin/mcp-server-akf\", line 12, in <module>\n    sys.exit(main())\n             ~~~~^^\n  File \"/Users/runner/.cache/uv/archive-v0/2r-hHgGS1U56lDlA/lib/python3.14/site-packages/mcp_server_akf/server.py\", line 375, in main\n    asyncio.run(run_server())\n    ~~~~~~~~~~~^^^^^^^^^^^^^^\n  File \"/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py\", line 205, in run\n    return runner.run(main)\n           ~~~~~~~~~~^^^^^^\n  File \"/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py\", line 128, in run\n    return self._loop.run_until_complete(task)\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^\n  File \"/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py\", line 719, in run_until_complete\n    return future.result()\n           ~~~~~~~~~~~~~^^\n  File \"/Users/runner/.cache/uv/archive-v0/2r-hHgGS1U56lDlA/lib/python3.14/site-packages/mcp_server_akf/server.py\", line 368, in run_server\n    server = create_server()\n  File \"/Users/runner/.cache/uv/archive-v0/2r-hHgGS1U56lDlA/lib/python3.14/site-packages/mcp_server_akf/server.py\", line 347, in create_server\n    @server.list_tools()\n     ^^^^^^^^^^^^^^^^^\nAttributeError: 'Server' object has no attribute 'list_tools'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 30 packages in 16ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/8Qug1l8Y_GOUDF6Z/bin/mcp-server-akf\", line 12, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/runner/.cache/uv/archive-v0/8Qug1l8Y_GOUDF6Z/lib/python3.12/site-packages/mcp_server_akf/server.py\", line 375, in main\n    asyncio.run(run_server())\n  File \"/usr/lib/python3.12/asyncio/runners.py\", line 194, in run\n    return runner.run(main)\n           ^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/asyncio/runners.py\", line 118, in run\n    return self._loop.run_until_complete(task)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/asyncio/base_events.py\", line 687, in run_until_complete\n    return future.result()\n           ^^^^^^^^^^^^^^^\n  File \"/home/runner/.cache/uv/archive-v0/8Qug1l8Y_GOUDF6Z/lib/python3.12/site-packages/mcp_server_akf/server.py\", line 368, in run_server\n    server = create_server()\n             ^^^^^^^^^^^^^^^\n  File \"/home/runner/.cache/uv/archive-v0/8Qug1l8Y_GOUDF6Z/lib/python3.12/site-packages/mcp_server_akf/server.py\", line 347, in create_server\n    @server.list_tools()\n     ^^^^^^^^^^^^^^^^^\nAttributeError: 'Server' object has no attribute 'list_tools'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.HMAKT99/akf",
+  "slug": "io.github.hmakt99__akf"
+}

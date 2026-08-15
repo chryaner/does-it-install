@@ -1,0 +1,60 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "gitwand_status",
+          "gitwand_resolve_conflicts",
+          "gitwand_preview_merge",
+          "gitwand_explain_hunk",
+          "gitwand_apply_resolution",
+          "gitwand_resolve_hunk",
+          "gitwand_resolve_hunk_llm"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "gitwand_status",
+          "gitwand_resolve_conflicts",
+          "gitwand_preview_merge",
+          "gitwand_explain_hunk",
+          "gitwand_apply_resolution",
+          "gitwand_resolve_hunk",
+          "gitwand_resolve_hunk_llm"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "gitwand_status",
+          "gitwand_resolve_conflicts",
+          "gitwand_preview_merge",
+          "gitwand_explain_hunk",
+          "gitwand_apply_resolution",
+          "gitwand_resolve_hunk",
+          "gitwand_resolve_hunk_llm"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.devlint/gitwand",
+  "slug": "io.github.devlint__gitwand"
+}

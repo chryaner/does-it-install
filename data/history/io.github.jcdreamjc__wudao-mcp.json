@@ -1,0 +1,24 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "errorExcerpt": "listTools failed: Streamable HTTP error: Error POSTing to endpoint: {\"success\":false,\"error\":\"MISSING_API_KEY\",\"message\":\"Missing or invalid API key. Use \\\"Authorization: Bearer lb_xxx\\\" or \\\"Authorization: Bearer sbl_xxx\\\"\"}",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "tools_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "errorExcerpt": "listTools failed: Streamable HTTP error: Error POSTing to endpoint: {\"success\":false,\"error\":\"MISSING_API_KEY\",\"message\":\"Missing or invalid API key. Use \\\"Authorization: Bearer lb_xxx\\\" or \\\"Authorization: Bearer sbl_xxx\\\"\"}",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "tools_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.jcdreamjc/wudao-mcp",
+  "slug": "io.github.jcdreamjc__wudao-mcp"
+}

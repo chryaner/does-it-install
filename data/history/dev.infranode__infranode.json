@@ -1,0 +1,75 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "get_city",
+          "get_city_overview",
+          "get_city_resource",
+          "air_quality",
+          "weather",
+          "pois",
+          "station_board_departures",
+          "station_board_arrivals",
+          "transit_departures",
+          "list_cities",
+          "sources",
+          "compare"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "get_city",
+          "get_city_overview",
+          "get_city_resource",
+          "air_quality",
+          "weather",
+          "pois",
+          "station_board_departures",
+          "station_board_arrivals",
+          "transit_departures",
+          "list_cities",
+          "sources",
+          "compare"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "get_city",
+          "get_city_overview",
+          "get_city_resource",
+          "air_quality",
+          "weather",
+          "pois",
+          "station_board_departures",
+          "station_board_arrivals",
+          "transit_departures",
+          "list_cities",
+          "sources",
+          "compare"
+        ]
+      }
+    ]
+  },
+  "serverId": "dev.infranode/infranode",
+  "slug": "dev.infranode__infranode"
+}

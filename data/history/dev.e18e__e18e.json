@@ -1,0 +1,48 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "code-checker",
+          "lookup-replacement",
+          "npm-i-checker"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "code-checker",
+          "lookup-replacement",
+          "npm-i-checker"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "code-checker",
+          "lookup-replacement",
+          "npm-i-checker"
+        ]
+      }
+    ]
+  },
+  "serverId": "dev.e18e/e18e",
+  "slug": "dev.e18e__e18e"
+}

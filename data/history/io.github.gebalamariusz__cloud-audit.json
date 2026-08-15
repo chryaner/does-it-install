@@ -1,0 +1,24 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: pected token '│', \"│ show-fra\"... is not valid JSON\nUnexpected token '│', \"│ demo    \"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ diff    \"... is not valid JSON\nUnexpected token '│', \"│ trend   \"... is not valid JSON\nUnexpected token '│', \"│ simulate\"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ version \"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON\n--- stderr (tail) ---\nDownloading botocore (14.9MiB)\n Downloaded botocore\nInstalled 46 packages in 196ms",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: pected token '│', \"│ show-fra\"... is not valid JSON\nUnexpected token '│', \"│ demo    \"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ diff    \"... is not valid JSON\nUnexpected token '│', \"│ trend   \"... is not valid JSON\nUnexpected token '│', \"│ simulate\"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ version \"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON\n--- stderr (tail) ---\nDownloading botocore (14.9MiB)\n Downloaded botocore\nInstalled 46 packages in 175ms",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.gebalamariusz/cloud-audit",
+  "slug": "io.github.gebalamariusz__cloud-audit"
+}

@@ -1,0 +1,96 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "search_papers",
+          "rank_papers",
+          "filter_duplicates",
+          "generate_digest",
+          "send_push",
+          "collect_to_zotero",
+          "manage_topics",
+          "ingest_research_context",
+          "init_session",
+          "load_session_context",
+          "setup",
+          "add_topic",
+          "configure",
+          "pool_refresh",
+          "prepare_review",
+          "finalize_review",
+          "collect",
+          "pool_status",
+          "prepare_summarize"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "search_papers",
+          "rank_papers",
+          "filter_duplicates",
+          "generate_digest",
+          "send_push",
+          "collect_to_zotero",
+          "manage_topics",
+          "ingest_research_context",
+          "init_session",
+          "load_session_context",
+          "setup",
+          "add_topic",
+          "configure",
+          "pool_refresh",
+          "prepare_review",
+          "finalize_review",
+          "collect",
+          "pool_status",
+          "prepare_summarize"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "search_papers",
+          "rank_papers",
+          "filter_duplicates",
+          "generate_digest",
+          "send_push",
+          "collect_to_zotero",
+          "manage_topics",
+          "ingest_research_context",
+          "init_session",
+          "load_session_context",
+          "setup",
+          "add_topic",
+          "configure",
+          "pool_refresh",
+          "prepare_review",
+          "finalize_review",
+          "collect",
+          "pool_status",
+          "prepare_summarize"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.Eclipse-Cj/paper-distill-mcp",
+  "slug": "io.github.eclipse-cj__paper-distill-mcp"
+}

@@ -1,0 +1,63 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "find",
+          "gs",
+          "kb_search",
+          "kb_lookup",
+          "kb_write",
+          "kb_status",
+          "kb_repair",
+          "kb_repair_aliases"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "find",
+          "gs",
+          "kb_search",
+          "kb_lookup",
+          "kb_write",
+          "kb_status",
+          "kb_repair",
+          "kb_repair_aliases"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "find",
+          "gs",
+          "kb_search",
+          "kb_lookup",
+          "kb_write",
+          "kb_status",
+          "kb_repair",
+          "kb_repair_aliases"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.AkashGoenka/coldstart",
+  "slug": "io.github.akashgoenka__coldstart"
+}

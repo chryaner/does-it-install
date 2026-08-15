@@ -1,0 +1,24 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "errorExcerpt": "connect failed: HTTP 400: Streamable HTTP error: Error POSTing to endpoint: no server available",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "connect_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "errorExcerpt": "connect failed: HTTP 400: Streamable HTTP error: Error POSTing to endpoint: no server available",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "connect_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.jmrplens/gitlab-mcp-server",
+  "slug": "io.github.jmrplens__gitlab-mcp-server"
+}

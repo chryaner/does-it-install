@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 31 packages in 86ms\nusage: kvm-pilot [-h] [--version] [-v] [--no-hints] [--timeout SECONDS]\n                 {info,capabilities,install-skill,benchmark,route,host-exec,healthcheck,firmware-check,test-report,firmware-update,snapshot,sensors,logs,console,ssh-check,ssh-exec,ssh-discover,ssh-bootstrap,boot-progress,power,wake,boot-device,power-cycle,type,key,mouse-move,click,calibrate-mouse,media-list,mount,eject,keep-awake,recover-hid,appliance,amt,paths,classify,watch,events} ...\nkvm-pilot: error: the following arguments are required: command",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 31 packages in 14ms\nusage: kvm-pilot [-h] [--version] [-v] [--no-hints] [--timeout SECONDS]\n                 {info,capabilities,install-skill,benchmark,route,host-exec,healthcheck,firmware-check,test-report,firmware-update,snapshot,sensors,logs,console,ssh-check,ssh-exec,ssh-discover,ssh-bootstrap,boot-progress,power,wake,boot-device,power-cycle,type,key,mouse-move,click,calibrate-mouse,media-list,mount,eject,keep-awake,recover-hid,appliance,amt,paths,classify,watch,events} ...\nkvm-pilot: error: the following arguments are required: command",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 33 packages in 9.86s\nusage: kvm-pilot [-h] [--version] [-v] [--no-hints] [--timeout SECONDS]\r\n                 {info,capabilities,install-skill,benchmark,route,host-exec,healthcheck,firmware-check,test-report,firmware-update,snapshot,sensors,logs,console,ssh-check,ssh-exec,ssh-discover,ssh-bootstrap,boot-progress,power,wake,boot-device,power-cycle,type,key,mouse-move,click,calibrate-mouse,media-list,mount,eject,keep-awake,recover-hid,appliance,amt,paths,classify,watch,events}\r\n                 ...\r\nkvm-pilot: error: the following arguments are required: command",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.DustinTrap/kvm-pilot",
+  "slug": "io.github.dustintrap__kvm-pilot"
+}

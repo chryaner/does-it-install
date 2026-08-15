@@ -1,0 +1,66 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "whoami",
+          "find_organizations",
+          "find_teams",
+          "find_projects",
+          "find_releases",
+          "get_issue_details",
+          "get_trace_details",
+          "get_event_attachment",
+          "update_issue",
+          "search_events",
+          "create_team",
+          "create_project",
+          "update_project",
+          "create_dsn",
+          "find_dsns",
+          "analyze_issue_with_seer",
+          "search_docs",
+          "get_doc",
+          "search_issues"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "whoami",
+          "find_organizations",
+          "find_teams",
+          "find_projects",
+          "find_releases",
+          "get_issue_details",
+          "get_trace_details",
+          "get_event_attachment",
+          "update_issue",
+          "search_events",
+          "create_team",
+          "create_project",
+          "update_project",
+          "create_dsn",
+          "find_dsns",
+          "analyze_issue_with_seer",
+          "search_docs",
+          "get_doc",
+          "search_issues"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.getsentry/sentry-mcp",
+  "slug": "io.github.getsentry__sentry-mcp"
+}

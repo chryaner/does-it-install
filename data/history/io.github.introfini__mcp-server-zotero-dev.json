@@ -1,0 +1,123 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 28,
+        "toolNames": [
+          "zotero_ping",
+          "zotero_execute_js",
+          "zotero_get_pref",
+          "zotero_set_pref",
+          "zotero_search_prefs",
+          "zotero_inspect_object",
+          "zotero_open_preferences",
+          "zotero_screenshot",
+          "zotero_inspect_element",
+          "zotero_get_dom_tree",
+          "zotero_get_styles",
+          "zotero_list_windows",
+          "zotero_click_element",
+          "zotero_send_keys",
+          "zotero_read_logs",
+          "zotero_read_errors",
+          "zotero_clear_logs",
+          "zotero_watch_logs",
+          "zotero_scaffold_build",
+          "zotero_scaffold_serve",
+          "zotero_scaffold_lint",
+          "zotero_scaffold_typecheck",
+          "zotero_plugin_reload",
+          "zotero_plugin_list",
+          "zotero_plugin_install",
+          "zotero_db_query",
+          "zotero_db_schema",
+          "zotero_db_stats"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 28,
+        "toolNames": [
+          "zotero_ping",
+          "zotero_execute_js",
+          "zotero_get_pref",
+          "zotero_set_pref",
+          "zotero_search_prefs",
+          "zotero_inspect_object",
+          "zotero_open_preferences",
+          "zotero_screenshot",
+          "zotero_inspect_element",
+          "zotero_get_dom_tree",
+          "zotero_get_styles",
+          "zotero_list_windows",
+          "zotero_click_element",
+          "zotero_send_keys",
+          "zotero_read_logs",
+          "zotero_read_errors",
+          "zotero_clear_logs",
+          "zotero_watch_logs",
+          "zotero_scaffold_build",
+          "zotero_scaffold_serve",
+          "zotero_scaffold_lint",
+          "zotero_scaffold_typecheck",
+          "zotero_plugin_reload",
+          "zotero_plugin_list",
+          "zotero_plugin_install",
+          "zotero_db_query",
+          "zotero_db_schema",
+          "zotero_db_stats"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 28,
+        "toolNames": [
+          "zotero_ping",
+          "zotero_execute_js",
+          "zotero_get_pref",
+          "zotero_set_pref",
+          "zotero_search_prefs",
+          "zotero_inspect_object",
+          "zotero_open_preferences",
+          "zotero_screenshot",
+          "zotero_inspect_element",
+          "zotero_get_dom_tree",
+          "zotero_get_styles",
+          "zotero_list_windows",
+          "zotero_click_element",
+          "zotero_send_keys",
+          "zotero_read_logs",
+          "zotero_read_errors",
+          "zotero_clear_logs",
+          "zotero_watch_logs",
+          "zotero_scaffold_build",
+          "zotero_scaffold_serve",
+          "zotero_scaffold_lint",
+          "zotero_scaffold_typecheck",
+          "zotero_plugin_reload",
+          "zotero_plugin_list",
+          "zotero_plugin_install",
+          "zotero_db_query",
+          "zotero_db_schema",
+          "zotero_db_stats"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.introfini/mcp-server-zotero-dev",
+  "slug": "io.github.introfini__mcp-server-zotero-dev"
+}

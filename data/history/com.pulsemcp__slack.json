@@ -1,0 +1,46 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "slack_get_channels",
+          "slack_get_channel",
+          "slack_get_thread",
+          "slack_download_file",
+          "slack_post_message",
+          "slack_reply_to_thread",
+          "slack_update_message",
+          "slack_react_to_message",
+          "slack_upload_snippet"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "slack_get_channels",
+          "slack_get_channel",
+          "slack_get_thread",
+          "slack_download_file",
+          "slack_post_message",
+          "slack_reply_to_thread",
+          "slack_update_message",
+          "slack_react_to_message",
+          "slack_upload_snippet"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.pulsemcp/slack",
+  "slug": "com.pulsemcp__slack"
+}

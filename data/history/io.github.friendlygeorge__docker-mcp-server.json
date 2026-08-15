@@ -1,0 +1,68 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDockerConnectionError: Docker socket not found at /var/run/docker.sock — connect ENOENT /var/run/docker.sock. Fix: install Docker (https://docs.docker.com/engine/install/) and ensure the daemon is running.",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "pass",
+        "toolCount": 42,
+        "toolNames": [
+          "list_containers",
+          "inspect_container",
+          "start_container",
+          "stop_container",
+          "restart_container",
+          "remove_container",
+          "recreate_container",
+          "run_container",
+          "prune_containers",
+          "update_container",
+          "list_images",
+          "pull_image",
+          "build_image",
+          "remove_image",
+          "prune_images",
+          "compose_up",
+          "compose_down",
+          "compose_ps",
+          "compose_logs",
+          "compose_restart",
+          "check_health",
+          "watch_health",
+          "set_restart_policy",
+          "stream_logs",
+          "container_stats",
+          "exec_in_container",
+          "list_networks",
+          "list_volumes",
+          "create_volume",
+          "inspect_volume",
+          "remove_volume",
+          "prune_volumes",
+          "container_health_status",
+          "container_resource_usage",
+          "watch_events",
+          "search_logs",
+          "resource_alert_check",
+          "monitor_dashboard",
+          "docker_info",
+          "disk_usage",
+          "copy_from_container",
+          "copy_to_container"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.friendlygeorge/docker-mcp-server",
+  "slug": "io.github.friendlygeorge__docker-mcp-server"
+}

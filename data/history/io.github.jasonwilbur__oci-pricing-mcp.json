@@ -1,0 +1,114 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 25,
+        "toolNames": [
+          "get_pricing",
+          "list_services",
+          "compare_regions",
+          "list_regions",
+          "calculate_monthly_cost",
+          "quick_estimate",
+          "list_compute_shapes",
+          "get_compute_shape_details",
+          "compare_compute_shapes",
+          "list_storage_options",
+          "calculate_storage_cost",
+          "compare_storage_tiers",
+          "list_database_options",
+          "calculate_database_cost",
+          "compare_database_options",
+          "list_networking_options",
+          "calculate_networking_cost",
+          "compare_data_egress",
+          "list_kubernetes_options",
+          "calculate_kubernetes_cost",
+          "compare_kubernetes_providers",
+          "get_free_tier",
+          "get_pricing_info",
+          "fetch_realtime_pricing",
+          "list_realtime_categories"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 25,
+        "toolNames": [
+          "get_pricing",
+          "list_services",
+          "compare_regions",
+          "list_regions",
+          "calculate_monthly_cost",
+          "quick_estimate",
+          "list_compute_shapes",
+          "get_compute_shape_details",
+          "compare_compute_shapes",
+          "list_storage_options",
+          "calculate_storage_cost",
+          "compare_storage_tiers",
+          "list_database_options",
+          "calculate_database_cost",
+          "compare_database_options",
+          "list_networking_options",
+          "calculate_networking_cost",
+          "compare_data_egress",
+          "list_kubernetes_options",
+          "calculate_kubernetes_cost",
+          "compare_kubernetes_providers",
+          "get_free_tier",
+          "get_pricing_info",
+          "fetch_realtime_pricing",
+          "list_realtime_categories"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 25,
+        "toolNames": [
+          "get_pricing",
+          "list_services",
+          "compare_regions",
+          "list_regions",
+          "calculate_monthly_cost",
+          "quick_estimate",
+          "list_compute_shapes",
+          "get_compute_shape_details",
+          "compare_compute_shapes",
+          "list_storage_options",
+          "calculate_storage_cost",
+          "compare_storage_tiers",
+          "list_database_options",
+          "calculate_database_cost",
+          "compare_database_options",
+          "list_networking_options",
+          "calculate_networking_cost",
+          "compare_data_egress",
+          "list_kubernetes_options",
+          "calculate_kubernetes_cost",
+          "compare_kubernetes_providers",
+          "get_free_tier",
+          "get_pricing_info",
+          "fetch_realtime_pricing",
+          "list_realtime_categories"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.jasonwilbur/oci-pricing-mcp",
+  "slug": "io.github.jasonwilbur__oci-pricing-mcp"
+}

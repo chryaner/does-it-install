@@ -1,0 +1,72 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "get_ad_account",
+          "list_campaigns",
+          "get_campaign",
+          "list_ad_groups",
+          "get_ad_group",
+          "list_ads",
+          "get_ad",
+          "get_account_insights",
+          "get_campaign_insights",
+          "get_ad_group_insights",
+          "get_ad_insights"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "get_ad_account",
+          "list_campaigns",
+          "get_campaign",
+          "list_ad_groups",
+          "get_ad_group",
+          "list_ads",
+          "get_ad",
+          "get_account_insights",
+          "get_campaign_insights",
+          "get_ad_group_insights",
+          "get_ad_insights"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "get_ad_account",
+          "list_campaigns",
+          "get_campaign",
+          "list_ad_groups",
+          "get_ad_group",
+          "list_ads",
+          "get_ad",
+          "get_account_insights",
+          "get_campaign_insights",
+          "get_ad_group_insights",
+          "get_ad_insights"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.HYPD-AI/openai-ads-mcp",
+  "slug": "io.github.hypd-ai__openai-ads-mcp"
+}

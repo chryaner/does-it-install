@@ -1,0 +1,24 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading kubernetes (4.4MiB)\nDownloading scikit-learn (7.9MiB)\n Downloaded scikit-learn\n Downloaded kubernetes\nInstalled 65 packages in 482ms\nwarning: `lumino-mcp-server==0.9.2` is yanked (reason: \"none\")\nPackage `lumino-mcp-server` does not provide any executables.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading kubernetes (4.4MiB)\nDownloading scipy (33.6MiB)\nDownloading scikit-learn (8.7MiB)\n Downloaded scikit-learn\n Downloaded scipy\n Downloaded kubernetes\nInstalled 65 packages in 291ms\nwarning: `lumino-mcp-server==0.9.2` is yanked (reason: \"none\")\nPackage `lumino-mcp-server` does not provide any executables.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.geored/lumino",
+  "slug": "io.github.geored__lumino"
+}

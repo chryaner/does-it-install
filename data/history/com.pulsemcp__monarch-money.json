@@ -1,0 +1,108 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "check_authentication",
+          "monarch_login_with_token",
+          "get_accounts",
+          "get_account_balance_history",
+          "set_account_balance_history",
+          "refresh_accounts",
+          "get_net_worth",
+          "get_transactions",
+          "get_transaction_details",
+          "create_transaction",
+          "update_transaction",
+          "delete_transaction",
+          "split_transaction",
+          "get_categories",
+          "get_tags",
+          "create_tag",
+          "delete_tag",
+          "get_transaction_rules",
+          "create_transaction_rule",
+          "update_transaction_rule",
+          "delete_transaction_rule",
+          "get_budgets",
+          "set_budget_amount"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "check_authentication",
+          "monarch_login_with_token",
+          "get_accounts",
+          "get_account_balance_history",
+          "set_account_balance_history",
+          "refresh_accounts",
+          "get_net_worth",
+          "get_transactions",
+          "get_transaction_details",
+          "create_transaction",
+          "update_transaction",
+          "delete_transaction",
+          "split_transaction",
+          "get_categories",
+          "get_tags",
+          "create_tag",
+          "delete_tag",
+          "get_transaction_rules",
+          "create_transaction_rule",
+          "update_transaction_rule",
+          "delete_transaction_rule",
+          "get_budgets",
+          "set_budget_amount"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "check_authentication",
+          "monarch_login_with_token",
+          "get_accounts",
+          "get_account_balance_history",
+          "set_account_balance_history",
+          "refresh_accounts",
+          "get_net_worth",
+          "get_transactions",
+          "get_transaction_details",
+          "create_transaction",
+          "update_transaction",
+          "delete_transaction",
+          "split_transaction",
+          "get_categories",
+          "get_tags",
+          "create_tag",
+          "delete_tag",
+          "get_transaction_rules",
+          "create_transaction_rule",
+          "update_transaction_rule",
+          "delete_transaction_rule",
+          "get_budgets",
+          "set_budget_amount"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.pulsemcp/monarch-money",
+  "slug": "com.pulsemcp__monarch-money"
+}

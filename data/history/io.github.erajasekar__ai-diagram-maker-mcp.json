@@ -1,0 +1,54 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "generate_diagram_from_text",
+          "generate_diagram_from_json",
+          "generate_diagram_from_ascii",
+          "generate_diagram_from_image",
+          "generate_diagram_from_mermaid"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "generate_diagram_from_text",
+          "generate_diagram_from_json",
+          "generate_diagram_from_ascii",
+          "generate_diagram_from_image",
+          "generate_diagram_from_mermaid"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "generate_diagram_from_text",
+          "generate_diagram_from_json",
+          "generate_diagram_from_ascii",
+          "generate_diagram_from_image",
+          "generate_diagram_from_mermaid"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.erajasekar/ai-diagram-maker-mcp",
+  "slug": "io.github.erajasekar__ai-diagram-maker-mcp"
+}

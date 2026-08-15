@@ -1,0 +1,51 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "read_me",
+          "list_boat_archetypes",
+          "get_marine_forecast",
+          "plan_passage"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "read_me",
+          "list_boat_archetypes",
+          "get_marine_forecast",
+          "plan_passage"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "read_me",
+          "list_boat_archetypes",
+          "get_marine_forecast",
+          "plan_passage"
+        ]
+      }
+    ]
+  },
+  "serverId": "fr.ohmywind/sailing-planner",
+  "slug": "fr.ohmywind__sailing-planner"
+}

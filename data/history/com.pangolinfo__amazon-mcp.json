@@ -1,0 +1,68 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "pangolinfo_capabilities",
+          "search_amazon",
+          "get_amazon_product",
+          "get_amazon_delivery_time",
+          "get_amazon_reviews",
+          "list_bestsellers",
+          "list_new_releases",
+          "list_seller_products",
+          "list_category_products",
+          "search_categories",
+          "get_category_children",
+          "filter_categories",
+          "filter_niches",
+          "get_category_paths",
+          "search_local_maps",
+          "wipo_search",
+          "ai_search",
+          "keyword_trends",
+          "scrape_url",
+          "search_amazon_alexa"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "pangolinfo_capabilities",
+          "search_amazon",
+          "get_amazon_product",
+          "get_amazon_delivery_time",
+          "get_amazon_reviews",
+          "list_bestsellers",
+          "list_new_releases",
+          "list_seller_products",
+          "list_category_products",
+          "search_categories",
+          "get_category_children",
+          "filter_categories",
+          "filter_niches",
+          "get_category_paths",
+          "search_local_maps",
+          "wipo_search",
+          "ai_search",
+          "keyword_trends",
+          "scrape_url",
+          "search_amazon_alexa"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.pangolinfo/amazon-mcp",
+  "slug": "com.pangolinfo__amazon-mcp"
+}

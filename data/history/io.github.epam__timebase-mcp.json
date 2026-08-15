@@ -1,0 +1,58 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "list_timebase_instances",
+          "get_server_configuration",
+          "get_timebase_status",
+          "list_timebase_activity",
+          "get_timebase_activity_detail",
+          "list_streams",
+          "get_stream_schema",
+          "get_stream_time_range",
+          "list_stream_spaces",
+          "get_stream_space_time_range",
+          "get_stream_symbols",
+          "get_stream_messages",
+          "execute_query",
+          "compile_query",
+          "list_qql_functions"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "list_timebase_instances",
+          "get_server_configuration",
+          "get_timebase_status",
+          "list_timebase_activity",
+          "get_timebase_activity_detail",
+          "list_streams",
+          "get_stream_schema",
+          "get_stream_time_range",
+          "list_stream_spaces",
+          "get_stream_space_time_range",
+          "get_stream_symbols",
+          "get_stream_messages",
+          "execute_query",
+          "compile_query",
+          "list_qql_functions"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.epam/TimeBase-MCP",
+  "slug": "io.github.epam__timebase-mcp"
+}

@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\ngeml mcp: --root <dir> is required (the one directory the server may read and write)\n\nusage: geml mcp --root <dir> [--graph <dir>] [--no-history]\n\n  Serve GEML document CRUD over the MCP stdio transport (JSON-RPC 2.0), plus the\n  read-only code-graph tools when the root holds a code graph.\n\n  --root <dir>        REQUIRED. Root directory holding the .geml documents.\n                      Relative paths resolve against the server process's CWD,\n                      which the CLIENT chooses — pass an absolute path.\n                      Every path a client names is confined to this directory;\n                      a client cannot widen or override it.\n  --graph <dir>       Code-graph directory, inside --root. Defaults to\n                      <root>/.geml-code-graph when that holds an index.geml.\n                      With no graph, the code-graph tools are not served\n                      at all (a client sees only the document tools).\n  --no-history        Do not save a .gemlhistory revision before each\n                      write. Default is to save one, so geml_revert always\n                      has a revision to undo to.\n\n  Register with a client:\n    claude mcp add geml -- geml mcp --root /abs/path/to/repo",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\ngeml mcp: --root <dir> is required (the one directory the server may read and write)\n\nusage: geml mcp --root <dir> [--graph <dir>] [--no-history]\n\n  Serve GEML document CRUD over the MCP stdio transport (JSON-RPC 2.0), plus the\n  read-only code-graph tools when the root holds a code graph.\n\n  --root <dir>        REQUIRED. Root directory holding the .geml documents.\n                      Relative paths resolve against the server process's CWD,\n                      which the CLIENT chooses — pass an absolute path.\n                      Every path a client names is confined to this directory;\n                      a client cannot widen or override it.\n  --graph <dir>       Code-graph directory, inside --root. Defaults to\n                      <root>/.geml-code-graph when that holds an index.geml.\n                      With no graph, the code-graph tools are not served\n                      at all (a client sees only the document tools).\n  --no-history        Do not save a .gemlhistory revision before each\n                      write. Default is to save one, so geml_revert always\n                      has a revision to undo to.\n\n  Register with a client:\n    claude mcp add geml -- geml mcp --root /abs/path/to/repo",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\ngeml mcp: --root <dir> is required (the one directory the server may read and write)\n\nusage: geml mcp --root <dir> [--graph <dir>] [--no-history]\n\n  Serve GEML document CRUD over the MCP stdio transport (JSON-RPC 2.0), plus the\n  read-only code-graph tools when the root holds a code graph.\n\n  --root <dir>        REQUIRED. Root directory holding the .geml documents.\n                      Relative paths resolve against the server process's CWD,\n                      which the CLIENT chooses — pass an absolute path.\n                      Every path a client names is confined to this directory;\n                      a client cannot widen or override it.\n  --graph <dir>       Code-graph directory, inside --root. Defaults to\n                      <root>/.geml-code-graph when that holds an index.geml.\n                      With no graph, the code-graph tools are not served\n                      at all (a client sees only the document tools).\n  --no-history        Do not save a .gemlhistory revision before each\n                      write. Default is to save one, so geml_revert always\n                      has a revision to undo to.\n\n  Register with a client:\n    claude mcp add geml -- geml mcp --root /abs/path/to/repo",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.geml-spec/geml",
+  "slug": "io.github.geml-spec__geml"
+}

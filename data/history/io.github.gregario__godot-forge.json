@@ -1,0 +1,63 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "godot_run_tests",
+          "godot_search_docs",
+          "godot_get_diagnostics",
+          "godot_analyze_scene",
+          "godot_analyze_script",
+          "godot_run_project",
+          "godot_screenshot",
+          "godot_get_project_info"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "godot_run_tests",
+          "godot_search_docs",
+          "godot_get_diagnostics",
+          "godot_analyze_scene",
+          "godot_analyze_script",
+          "godot_run_project",
+          "godot_screenshot",
+          "godot_get_project_info"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "godot_run_tests",
+          "godot_search_docs",
+          "godot_get_diagnostics",
+          "godot_analyze_scene",
+          "godot_analyze_script",
+          "godot_run_project",
+          "godot_screenshot",
+          "godot_get_project_info"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.gregario/godot-forge",
+  "slug": "io.github.gregario__godot-forge"
+}

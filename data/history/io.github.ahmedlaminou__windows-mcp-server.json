@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 68 packages in 394ms\nAn executable named `windows-management-mcp-server` is not provided by package `windows-management-mcp-server`.\nThe following executables are available:\n- windows-mcp-server\n\nUse `uv tool run --from windows-management-mcp-server windows-mcp-server` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 70 packages in 91ms\nAn executable named `windows-management-mcp-server` is not provided by package `windows-management-mcp-server`.\nThe following executables are available:\n- windows-mcp-server\n\nUse `uv tool run --from windows-management-mcp-server windows-mcp-server` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 71 packages in 17.20s\nAn executable named `windows-management-mcp-server` is not provided by package `windows-management-mcp-server`.\nThe following executables are available:\n- windows-mcp-server.exe\n\nUse `uv tool run --from windows-management-mcp-server windows-mcp-server.exe` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.AhmedLaminou/windows-mcp-server",
+  "slug": "io.github.ahmedlaminou__windows-mcp-server"
+}

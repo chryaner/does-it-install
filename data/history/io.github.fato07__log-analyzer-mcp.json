@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading chardet (1.0MiB)\n Downloaded chardet\nInstalled 32 packages in 207ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/0olWH5OeaCriY8Ch/bin/codesdevs-log-analyzer\", line 6, in <module>\n    from codesdevs_log_analyzer.cli import main\n  File \"/Users/runner/.cache/uv/archive-v0/0olWH5OeaCriY8Ch/lib/python3.14/site-packages/codesdevs_log_analyzer/__init__.py\", line 36, in <module>\n    from codesdevs_log_analyzer.server import (\n    ...<16 lines>...\n    )\n  File \"/Users/runner/.cache/uv/archive-v0/0olWH5OeaCriY8Ch/lib/python3.14/site-packages/codesdevs_log_analyzer/server.py\", line 13, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading chardet (1.4MiB)\n Downloaded chardet\nInstalled 32 packages in 23ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/hvdpJuB5tyj_Jg-R/bin/codesdevs-log-analyzer\", line 6, in <module>\n    from codesdevs_log_analyzer.cli import main\n  File \"/home/runner/.cache/uv/archive-v0/hvdpJuB5tyj_Jg-R/lib/python3.13/site-packages/codesdevs_log_analyzer/__init__.py\", line 36, in <module>\n    from codesdevs_log_analyzer.server import (\n    ...<16 lines>...\n    )\n  File \"/home/runner/.cache/uv/archive-v0/hvdpJuB5tyj_Jg-R/lib/python3.13/site-packages/codesdevs_log_analyzer/server.py\", line 13, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading chardet (1.1MiB)\n Downloaded chardet\nInstalled 34 packages in 9.15s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\kVMNi9kd6ONAZOVn\\Scripts\\codesdevs-log-analyzer.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\kVMNi9kd6ONAZOVn\\Lib\\site-packages\\codesdevs_log_analyzer\\__init__.py\", line 36, in <module>\r\n    from codesdevs_log_analyzer.server import (\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\kVMNi9kd6ONAZOVn\\Lib\\site-packages\\codesdevs_log_analyzer\\server.py\", line 13, in <module>\r\n    from mcp.server.fastmcp import FastMCP\r\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.Fato07/log-analyzer-mcp",
+  "slug": "io.github.fato07__log-analyzer-mcp"
+}

@@ -1,0 +1,108 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "mpesa_stk_push",
+          "mpesa_stk_query",
+          "mpesa_b2c",
+          "mpesa_business_paybill",
+          "mpesa_business_buygoods",
+          "mpesa_business_pochi",
+          "mpesa_transaction_status",
+          "mpesa_account_balance",
+          "mpesa_query_org_info",
+          "mpesa_pull_transactions",
+          "mpesa_reversal",
+          "mpesa_dynamic_qr",
+          "mpesa_tax_remittance",
+          "mpesa_b2b_express_checkout",
+          "mpesa_ratiba_create",
+          "mpesa_bill_manager_optin",
+          "mpesa_bill_manager_invoice",
+          "mpesa_bill_manager_cancel",
+          "mpesa_sim_swap_query",
+          "mpesa_imsi_query",
+          "sms_send",
+          "airtime_send",
+          "get_model_hint"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "mpesa_stk_push",
+          "mpesa_stk_query",
+          "mpesa_b2c",
+          "mpesa_business_paybill",
+          "mpesa_business_buygoods",
+          "mpesa_business_pochi",
+          "mpesa_transaction_status",
+          "mpesa_account_balance",
+          "mpesa_query_org_info",
+          "mpesa_pull_transactions",
+          "mpesa_reversal",
+          "mpesa_dynamic_qr",
+          "mpesa_tax_remittance",
+          "mpesa_b2b_express_checkout",
+          "mpesa_ratiba_create",
+          "mpesa_bill_manager_optin",
+          "mpesa_bill_manager_invoice",
+          "mpesa_bill_manager_cancel",
+          "mpesa_sim_swap_query",
+          "mpesa_imsi_query",
+          "sms_send",
+          "airtime_send",
+          "get_model_hint"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "mpesa_stk_push",
+          "mpesa_stk_query",
+          "mpesa_b2c",
+          "mpesa_business_paybill",
+          "mpesa_business_buygoods",
+          "mpesa_business_pochi",
+          "mpesa_transaction_status",
+          "mpesa_account_balance",
+          "mpesa_query_org_info",
+          "mpesa_pull_transactions",
+          "mpesa_reversal",
+          "mpesa_dynamic_qr",
+          "mpesa_tax_remittance",
+          "mpesa_b2b_express_checkout",
+          "mpesa_ratiba_create",
+          "mpesa_bill_manager_optin",
+          "mpesa_bill_manager_invoice",
+          "mpesa_bill_manager_cancel",
+          "mpesa_sim_swap_query",
+          "mpesa_imsi_query",
+          "sms_send",
+          "airtime_send",
+          "get_model_hint"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.gabrielmahia/mpesa-mcp",
+  "slug": "io.github.gabrielmahia__mpesa-mcp"
+}

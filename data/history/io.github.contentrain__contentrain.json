@@ -1,0 +1,102 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "contentrain_status",
+          "contentrain_describe",
+          "contentrain_describe_format",
+          "contentrain_init",
+          "contentrain_scaffold",
+          "contentrain_model_save",
+          "contentrain_model_delete",
+          "contentrain_content_save",
+          "contentrain_content_delete",
+          "contentrain_content_list",
+          "contentrain_vocabulary_save",
+          "contentrain_vocabulary_delete",
+          "contentrain_validate",
+          "contentrain_submit",
+          "contentrain_merge",
+          "contentrain_branch_list",
+          "contentrain_branch_delete",
+          "contentrain_scan",
+          "contentrain_apply",
+          "contentrain_bulk",
+          "contentrain_doctor"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "contentrain_status",
+          "contentrain_describe",
+          "contentrain_describe_format",
+          "contentrain_init",
+          "contentrain_scaffold",
+          "contentrain_model_save",
+          "contentrain_model_delete",
+          "contentrain_content_save",
+          "contentrain_content_delete",
+          "contentrain_content_list",
+          "contentrain_vocabulary_save",
+          "contentrain_vocabulary_delete",
+          "contentrain_validate",
+          "contentrain_submit",
+          "contentrain_merge",
+          "contentrain_branch_list",
+          "contentrain_branch_delete",
+          "contentrain_scan",
+          "contentrain_apply",
+          "contentrain_bulk",
+          "contentrain_doctor"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "contentrain_status",
+          "contentrain_describe",
+          "contentrain_describe_format",
+          "contentrain_init",
+          "contentrain_scaffold",
+          "contentrain_model_save",
+          "contentrain_model_delete",
+          "contentrain_content_save",
+          "contentrain_content_delete",
+          "contentrain_content_list",
+          "contentrain_vocabulary_save",
+          "contentrain_vocabulary_delete",
+          "contentrain_validate",
+          "contentrain_submit",
+          "contentrain_merge",
+          "contentrain_branch_list",
+          "contentrain_branch_delete",
+          "contentrain_scan",
+          "contentrain_apply",
+          "contentrain_bulk",
+          "contentrain_doctor"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.Contentrain/contentrain",
+  "slug": "io.github.contentrain__contentrain"
+}

@@ -1,0 +1,80 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "pass",
+        "toolCount": 26,
+        "toolNames": [
+          "iter_status",
+          "iter_connect",
+          "iter_disconnect",
+          "iter_test_connection",
+          "iter_list_connections",
+          "iter_exec",
+          "iter_monitor",
+          "iter_list_dir",
+          "iter_mkdir",
+          "iter_rm",
+          "iter_rename",
+          "iter_read_file",
+          "iter_write_file",
+          "iter_upload_file",
+          "iter_download_file",
+          "iter_list_saved_connections",
+          "iter_quick_connect",
+          "iter_network_stats",
+          "iter_list_processes",
+          "iter_kill_process",
+          "iter_compress",
+          "iter_extract",
+          "iter_search_files",
+          "iter_upload_folder",
+          "iter_create_file",
+          "iter_delete_directory"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "pass",
+        "toolCount": 26,
+        "toolNames": [
+          "iter_status",
+          "iter_connect",
+          "iter_disconnect",
+          "iter_test_connection",
+          "iter_list_connections",
+          "iter_exec",
+          "iter_monitor",
+          "iter_list_dir",
+          "iter_mkdir",
+          "iter_rm",
+          "iter_rename",
+          "iter_read_file",
+          "iter_write_file",
+          "iter_upload_file",
+          "iter_download_file",
+          "iter_list_saved_connections",
+          "iter_quick_connect",
+          "iter_network_stats",
+          "iter_list_processes",
+          "iter_kill_process",
+          "iter_compress",
+          "iter_extract",
+          "iter_search_files",
+          "iter_upload_folder",
+          "iter_create_file",
+          "iter_delete_directory"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.iTophua/iterminal",
+  "slug": "io.github.itophua__iterminal"
+}

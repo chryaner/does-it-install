@@ -1,0 +1,87 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "search_licitacoes",
+          "get_licitacao",
+          "list_licitacao_itens",
+          "list_licitacao_resultados",
+          "list_licitacao_arquivos",
+          "search_contratos",
+          "get_contrato",
+          "list_contrato_termos",
+          "list_contrato_instrumentos",
+          "search_atas_rp",
+          "get_ata_rp",
+          "get_orgao",
+          "get_fornecedor_contratos",
+          "search_pca",
+          "list_pca_itens",
+          "get_cnpj_data"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "search_licitacoes",
+          "get_licitacao",
+          "list_licitacao_itens",
+          "list_licitacao_resultados",
+          "list_licitacao_arquivos",
+          "search_contratos",
+          "get_contrato",
+          "list_contrato_termos",
+          "list_contrato_instrumentos",
+          "search_atas_rp",
+          "get_ata_rp",
+          "get_orgao",
+          "get_fornecedor_contratos",
+          "search_pca",
+          "list_pca_itens",
+          "get_cnpj_data"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "search_licitacoes",
+          "get_licitacao",
+          "list_licitacao_itens",
+          "list_licitacao_resultados",
+          "list_licitacao_arquivos",
+          "search_contratos",
+          "get_contrato",
+          "list_contrato_termos",
+          "list_contrato_instrumentos",
+          "search_atas_rp",
+          "get_ata_rp",
+          "get_orgao",
+          "get_fornecedor_contratos",
+          "search_pca",
+          "list_pca_itens",
+          "get_cnpj_data"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.Licinexus/mcp",
+  "slug": "io.github.licinexus__mcp"
+}

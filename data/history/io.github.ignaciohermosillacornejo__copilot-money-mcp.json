@@ -1,0 +1,81 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "get_transactions",
+          "get_cache_info",
+          "refresh_database",
+          "get_accounts",
+          "get_connection_status",
+          "get_categories",
+          "get_recurring_transactions",
+          "get_budgets",
+          "get_goals",
+          "get_investment_prices",
+          "get_investment_splits",
+          "get_holdings",
+          "get_balance_history",
+          "get_goal_history"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "get_transactions",
+          "get_cache_info",
+          "refresh_database",
+          "get_accounts",
+          "get_connection_status",
+          "get_categories",
+          "get_recurring_transactions",
+          "get_budgets",
+          "get_goals",
+          "get_investment_prices",
+          "get_investment_splits",
+          "get_holdings",
+          "get_balance_history",
+          "get_goal_history"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "get_transactions",
+          "get_cache_info",
+          "refresh_database",
+          "get_accounts",
+          "get_connection_status",
+          "get_categories",
+          "get_recurring_transactions",
+          "get_budgets",
+          "get_goals",
+          "get_investment_prices",
+          "get_investment_splits",
+          "get_holdings",
+          "get_balance_history",
+          "get_goal_history"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.ignaciohermosillacornejo/copilot-money-mcp",
+  "slug": "io.github.ignaciohermosillacornejo__copilot-money-mcp"
+}

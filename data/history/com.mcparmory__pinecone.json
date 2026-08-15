@@ -2,6 +2,33 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "list_indexes",
+          "create_index",
+          "get_index",
+          "update_index",
+          "delete_index",
+          "list_index_backups",
+          "create_backup",
+          "list_collections",
+          "create_collection",
+          "create_index_for_model",
+          "list_project_backups",
+          "get_backup",
+          "delete_backup",
+          "create_index_from_backup",
+          "list_restore_jobs",
+          "get_restore_job",
+          "get_collection",
+          "delete_collection"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:17.022Z",
         "method": "pypi",
         "runId": "2026-08-15T01-49-17Z-8b8e8b",
@@ -31,6 +58,33 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "list_indexes",
+          "create_index",
+          "get_index",
+          "update_index",
+          "delete_index",
+          "list_index_backups",
+          "create_backup",
+          "list_collections",
+          "create_collection",
+          "create_index_for_model",
+          "list_project_backups",
+          "get_backup",
+          "delete_backup",
+          "create_index_from_backup",
+          "list_restore_jobs",
+          "get_restore_job",
+          "get_collection",
+          "delete_collection"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:20.415Z",
         "method": "pypi",
         "runId": "2026-08-15T01-49-20Z-238791",
@@ -59,6 +113,33 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "list_indexes",
+          "create_index",
+          "get_index",
+          "update_index",
+          "delete_index",
+          "list_index_backups",
+          "create_backup",
+          "list_collections",
+          "create_collection",
+          "create_index_for_model",
+          "list_project_backups",
+          "get_backup",
+          "delete_backup",
+          "create_index_from_backup",
+          "list_restore_jobs",
+          "get_restore_job",
+          "get_collection",
+          "delete_collection"
+        ]
+      },
       {
         "date": "2026-08-15T01:50:04.636Z",
         "method": "pypi",

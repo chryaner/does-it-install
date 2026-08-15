@@ -1,0 +1,102 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "list_instances",
+          "select_instance",
+          "get_info",
+          "get_slowlog",
+          "get_commandlog",
+          "get_latency",
+          "get_memory",
+          "get_clients",
+          "get_health",
+          "get_slowlog_patterns",
+          "get_commandlog_history",
+          "get_commandlog_patterns",
+          "get_anomalies",
+          "get_client_activity",
+          "get_hot_keys",
+          "get_cluster_nodes",
+          "get_cluster_node_stats",
+          "get_cluster_slowlog",
+          "get_slot_stats",
+          "get_latency_history",
+          "get_acl_audit"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "list_instances",
+          "select_instance",
+          "get_info",
+          "get_slowlog",
+          "get_commandlog",
+          "get_latency",
+          "get_memory",
+          "get_clients",
+          "get_health",
+          "get_slowlog_patterns",
+          "get_commandlog_history",
+          "get_commandlog_patterns",
+          "get_anomalies",
+          "get_client_activity",
+          "get_hot_keys",
+          "get_cluster_nodes",
+          "get_cluster_node_stats",
+          "get_cluster_slowlog",
+          "get_slot_stats",
+          "get_latency_history",
+          "get_acl_audit"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "list_instances",
+          "select_instance",
+          "get_info",
+          "get_slowlog",
+          "get_commandlog",
+          "get_latency",
+          "get_memory",
+          "get_clients",
+          "get_health",
+          "get_slowlog_patterns",
+          "get_commandlog_history",
+          "get_commandlog_patterns",
+          "get_anomalies",
+          "get_client_activity",
+          "get_hot_keys",
+          "get_cluster_nodes",
+          "get_cluster_node_stats",
+          "get_cluster_slowlog",
+          "get_slot_stats",
+          "get_latency_history",
+          "get_acl_audit"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.BetterDB-inc/monitor",
+  "slug": "io.github.betterdb-inc__monitor"
+}

@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "errorExcerpt": "@bananaprompts/banana-prompts-mcp declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "spawn_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "errorExcerpt": "@bananaprompts/banana-prompts-mcp declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "spawn_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "errorExcerpt": "@bananaprompts/banana-prompts-mcp declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "spawn_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.Banana-Prompts/banana-prompts-mcp",
+  "slug": "io.github.banana-prompts__banana-prompts-mcp"
+}

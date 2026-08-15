@@ -1,0 +1,75 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "flowzap_validate",
+          "flowzap_create_playground",
+          "flowzap_get_syntax",
+          "flowzap_export_graph",
+          "flowzap_artifact_to_diagram",
+          "flowzap_diff",
+          "flowzap_apply_change",
+          "flowzap_compliance_check",
+          "flowzap_mindmap_validate",
+          "flowzap_mindmap_approve",
+          "flowzap_mindmap_template",
+          "flowzap_mindmap_create_playground"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "flowzap_validate",
+          "flowzap_create_playground",
+          "flowzap_get_syntax",
+          "flowzap_export_graph",
+          "flowzap_artifact_to_diagram",
+          "flowzap_diff",
+          "flowzap_apply_change",
+          "flowzap_compliance_check",
+          "flowzap_mindmap_validate",
+          "flowzap_mindmap_approve",
+          "flowzap_mindmap_template",
+          "flowzap_mindmap_create_playground"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "flowzap_validate",
+          "flowzap_create_playground",
+          "flowzap_get_syntax",
+          "flowzap_export_graph",
+          "flowzap_artifact_to_diagram",
+          "flowzap_diff",
+          "flowzap_apply_change",
+          "flowzap_compliance_check",
+          "flowzap_mindmap_validate",
+          "flowzap_mindmap_approve",
+          "flowzap_mindmap_template",
+          "flowzap_mindmap_create_playground"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.flowzap-xyz/flowzap",
+  "slug": "io.github.flowzap-xyz__flowzap"
+}

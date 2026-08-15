@@ -1,0 +1,54 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "search",
+          "search_parallel",
+          "extract",
+          "search_extract",
+          "health"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "search",
+          "search_parallel",
+          "extract",
+          "search_extract",
+          "health"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "search",
+          "search_parallel",
+          "extract",
+          "search_extract",
+          "health"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.HarimxChoi/google-surf-mcp",
+  "slug": "io.github.harimxchoi__google-surf-mcp"
+}

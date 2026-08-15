@@ -1,0 +1,46 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "search_regulations",
+          "get_article",
+          "get_recital",
+          "list_regulations",
+          "compare_requirements",
+          "map_controls",
+          "check_applicability",
+          "get_definitions",
+          "get_evidence_requirements"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "search_regulations",
+          "get_article",
+          "get_recital",
+          "list_regulations",
+          "compare_requirements",
+          "map_controls",
+          "check_applicability",
+          "get_definitions",
+          "get_evidence_requirements"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.Ansvar-Systems/eu-regulations-mcp",
+  "slug": "io.github.ansvar-systems__eu-regulations-mcp"
+}

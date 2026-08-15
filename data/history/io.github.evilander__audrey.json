@@ -1,0 +1,105 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "memory_encode",
+          "memory_recall",
+          "memory_consolidate",
+          "memory_introspect",
+          "memory_resolve_truth",
+          "memory_export",
+          "memory_import",
+          "memory_forget",
+          "memory_validate",
+          "memory_decay",
+          "memory_status",
+          "memory_reflect",
+          "memory_dream",
+          "memory_greeting",
+          "memory_observe_tool",
+          "memory_recent_failures",
+          "memory_capsule",
+          "memory_preflight",
+          "memory_guard_before",
+          "memory_guard_after",
+          "memory_reflexes",
+          "memory_promote"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "memory_encode",
+          "memory_recall",
+          "memory_consolidate",
+          "memory_introspect",
+          "memory_resolve_truth",
+          "memory_export",
+          "memory_import",
+          "memory_forget",
+          "memory_validate",
+          "memory_decay",
+          "memory_status",
+          "memory_reflect",
+          "memory_dream",
+          "memory_greeting",
+          "memory_observe_tool",
+          "memory_recent_failures",
+          "memory_capsule",
+          "memory_preflight",
+          "memory_guard_before",
+          "memory_guard_after",
+          "memory_reflexes",
+          "memory_promote"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "memory_encode",
+          "memory_recall",
+          "memory_consolidate",
+          "memory_introspect",
+          "memory_resolve_truth",
+          "memory_export",
+          "memory_import",
+          "memory_forget",
+          "memory_validate",
+          "memory_decay",
+          "memory_status",
+          "memory_reflect",
+          "memory_dream",
+          "memory_greeting",
+          "memory_observe_tool",
+          "memory_recent_failures",
+          "memory_capsule",
+          "memory_preflight",
+          "memory_guard_before",
+          "memory_guard_after",
+          "memory_reflexes",
+          "memory_promote"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.Evilander/audrey",
+  "slug": "io.github.evilander__audrey"
+}

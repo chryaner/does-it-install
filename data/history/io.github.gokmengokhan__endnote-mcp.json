@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading pymupdf (22.8MiB)\n Downloaded pymupdf\nInstalled 40 packages in 184ms\nUsage: endnote-mcp [OPTIONS] COMMAND [ARGS]...\n\n  Connect your EndNote library to Claude via MCP.\n\n  Get started:  endnote-mcp setup\n\nOptions:\n  --version  Show the version and exit.\n  --help     Show this message and exit.\n\nCommands:\n  embed    Generate semantic search embeddings for your references.\n  index    Index your EndNote library into the search database.\n  install  Add the MCP server to Claude Desktop configuration.\n  serve    Start the MCP server (called by Claude Desktop automatically).\n  setup    Interactive setup wizard — finds your library and configures...\n  status   Show index statistics.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading pymupdf (24.6MiB)\n Downloaded pymupdf\nInstalled 40 packages in 52ms\nUsage: endnote-mcp [OPTIONS] COMMAND [ARGS]...\n\n  Connect your EndNote library to Claude via MCP.\n\n  Get started:  endnote-mcp setup\n\nOptions:\n  --version  Show the version and exit.\n  --help     Show this message and exit.\n\nCommands:\n  embed    Generate semantic search embeddings for your references.\n  index    Index your EndNote library into the search database.\n  install  Add the MCP server to Claude Desktop configuration.\n  serve    Start the MCP server (called by Claude Desktop automatically).\n  setup    Interactive setup wizard — finds your library and configures...\n  status   Show index statistics.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading pymupdf (18.9MiB)\n Downloaded pymupdf\nInstalled 42 packages in 10.87s\nUsage: endnote-mcp [OPTIONS] COMMAND [ARGS]...\r\n\r\n  Connect your EndNote library to Claude via MCP.\r\n\r\n  Get started:  endnote-mcp setup\r\n\r\nOptions:\r\n  --version  Show the version and exit.\r\n  --help     Show this message and exit.\r\n\r\nCommands:\r\n  embed    Generate semantic search embeddings for your references.\r\n  index    Index your EndNote library into the search database.\r\n  install  Add the MCP server to Claude Desktop configuration.\r\n  serve    Start the MCP server (called by Claude Desktop automatically).\r\n  setup    Interactive setup wizard — finds your library and configures...\r\n  status   Show index statistics.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.gokmengokhan/endnote-mcp",
+  "slug": "io.github.gokmengokhan__endnote-mcp"
+}

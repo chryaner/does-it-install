@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading openai (1.6MiB)\n Downloaded openai\nInstalled 47 packages in 287ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/SXhsovAwZDGFzAbb/bin/gladekit-mcp\", line 12, in <module>\n    sys.exit(main())\n             ~~~~^^\n  File \"/Users/runner/.cache/uv/archive-v0/SXhsovAwZDGFzAbb/lib/python3.14/site-packages/gladekit_mcp/__init__.py\", line 93, in main\n    from .server import run_server\n  File \"/Users/runner/.cache/uv/archive-v0/SXhsovAwZDGFzAbb/lib/python3.14/site-packages/gladekit_mcp/server.py\", line 201, in <module>\n    @server.list_tools()\n     ^^^^^^^^^^^^^^^^^\nAttributeError: 'Server' object has no attribute 'list_tools'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading openai (1.6MiB)\n Downloaded openai\nInstalled 47 packages in 54ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/xTMARdHD1-bstm3X/bin/gladekit-mcp\", line 12, in <module>\n    sys.exit(main())\n             ~~~~^^\n  File \"/home/runner/.cache/uv/archive-v0/xTMARdHD1-bstm3X/lib/python3.13/site-packages/gladekit_mcp/__init__.py\", line 93, in main\n    from .server import run_server\n  File \"/home/runner/.cache/uv/archive-v0/xTMARdHD1-bstm3X/lib/python3.13/site-packages/gladekit_mcp/server.py\", line 201, in <module>\n    @server.list_tools()\n     ^^^^^^^^^^^^^^^^^\nAttributeError: 'Server' object has no attribute 'list_tools'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading openai (1.6MiB)\n Downloaded openai\nInstalled 49 packages in 22.33s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\TK3IHGoO_URSumiM\\Scripts\\gladekit-mcp.exe\\__main__.py\", line 10, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\TK3IHGoO_URSumiM\\Lib\\site-packages\\gladekit_mcp\\__init__.py\", line 93, in main\r\n    from .server import run_server\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\TK3IHGoO_URSumiM\\Lib\\site-packages\\gladekit_mcp\\server.py\", line 201, in <module>\r\n    @server.list_tools()\r\n     ^^^^^^^^^^^^^^^^^\r\nAttributeError: 'Server' object has no attribute 'list_tools'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.Glade-tool/glade-mcp",
+  "slug": "io.github.glade-tool__glade-mcp"
+}

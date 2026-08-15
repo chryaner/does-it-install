@@ -1,0 +1,54 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "pass",
+        "toolCount": 28,
+        "toolNames": [
+          "list_notes",
+          "search_notes",
+          "read_note",
+          "list_reminders",
+          "list_events",
+          "today_events",
+          "list_directory",
+          "get_clipboard",
+          "set_clipboard",
+          "list_shortcuts",
+          "run_shortcut",
+          "get_current_weather",
+          "get_daily_forecast",
+          "list_profiles",
+          "list_module_packs",
+          "install_module_pack",
+          "profile_status",
+          "workflow_readiness",
+          "preview_action",
+          "start_tool_session",
+          "tool_session_status",
+          "end_tool_session",
+          "describe_tool",
+          "run_tool",
+          "discover_tools",
+          "suggest_next_tools",
+          "proactive_context",
+          "get_workflow"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "errorExcerpt": "npm install airmcp@2.16.1 exited with code 1\n--- stderr (tail) ---\nnpm error code EBADPLATFORM\nnpm error notsup Unsupported platform for airmcp@2.16.1: wanted {\"os\":\"darwin\"} (current: {\"os\":\"linux\"})\nnpm error notsup Valid os:  darwin\nnpm error notsup Actual os: linux\nnpm error A complete log of this run can be found in: /tmp/does-it-install/dii-npm-WjLUnr/.npm-cache/_logs/2026-08-15T04_11_08_290Z-debug-0.log",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "install_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.heznpc/airmcp",
+  "slug": "io.github.heznpc__airmcp"
+}

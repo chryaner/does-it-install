@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "errorExcerpt": "listTools failed: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"id\":null,\"error\":{\"code\":-32003,\"message\":\"Unauthorized: missing or invalid token\"}}",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "tools_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "errorExcerpt": "listTools failed: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"id\":null,\"error\":{\"code\":-32003,\"message\":\"Unauthorized: missing or invalid token\"}}",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "tools_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "errorExcerpt": "listTools failed: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"id\":null,\"error\":{\"code\":-32003,\"message\":\"Unauthorized: missing or invalid token\"}}",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "tools_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.doc2mcp/sunpeak",
+  "slug": "io.github.doc2mcp__sunpeak"
+}

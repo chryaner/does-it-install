@@ -1,0 +1,102 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "recall",
+          "confirm_scars",
+          "session_start",
+          "session_refresh",
+          "session_close",
+          "create_learning",
+          "create_decision",
+          "record_scar_usage",
+          "search",
+          "log",
+          "prepare_context",
+          "absorb_observations",
+          "list_threads",
+          "resolve_thread",
+          "create_thread",
+          "promote_suggestion",
+          "dismiss_suggestion",
+          "cleanup_threads",
+          "health",
+          "gitmem-help",
+          "archive_learning"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "recall",
+          "confirm_scars",
+          "session_start",
+          "session_refresh",
+          "session_close",
+          "create_learning",
+          "create_decision",
+          "record_scar_usage",
+          "search",
+          "log",
+          "prepare_context",
+          "absorb_observations",
+          "list_threads",
+          "resolve_thread",
+          "create_thread",
+          "promote_suggestion",
+          "dismiss_suggestion",
+          "cleanup_threads",
+          "health",
+          "gitmem-help",
+          "archive_learning"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "recall",
+          "confirm_scars",
+          "session_start",
+          "session_refresh",
+          "session_close",
+          "create_learning",
+          "create_decision",
+          "record_scar_usage",
+          "search",
+          "log",
+          "prepare_context",
+          "absorb_observations",
+          "list_threads",
+          "resolve_thread",
+          "create_thread",
+          "promote_suggestion",
+          "dismiss_suggestion",
+          "cleanup_threads",
+          "health",
+          "gitmem-help",
+          "archive_learning"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.gitmem-dev/gitmem",
+  "slug": "io.github.gitmem-dev__gitmem"
+}

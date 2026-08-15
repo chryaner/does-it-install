@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading transformers (11.2MiB)\n Downloaded transformers\nInstalled 64 packages in 1.16s\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/XDmj_WkAcFQP77vl/bin/noosphere-mcp\", line 6, in <module>\n    from noosphere.server import main\n  File \"/Users/runner/.cache/uv/archive-v0/XDmj_WkAcFQP77vl/lib/python3.14/site-packages/noosphere/server.py\", line 29, in <module>\n    from noosphere.noosphere_mcp import (  # noqa: F401\n    ...<3 lines>...\n    )\n  File \"/Users/runner/.cache/uv/archive-v0/XDmj_WkAcFQP77vl/lib/python3.14/site-packages/noosphere/noosphere_mcp.py\", line 45, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 83 packages in 494ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/gJ2mkef0_8MbfuxY/bin/noosphere-mcp\", line 6, in <module>\n    from noosphere.server import main\n  File \"/home/runner/.cache/uv/archive-v0/gJ2mkef0_8MbfuxY/lib/python3.13/site-packages/noosphere/server.py\", line 29, in <module>\n    from noosphere.noosphere_mcp import (  # noqa: F401\n    ...<3 lines>...\n    )\n  File \"/home/runner/.cache/uv/archive-v0/gJ2mkef0_8MbfuxY/lib/python3.13/site-packages/noosphere/noosphere_mcp.py\", line 45, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 66 packages in 55.57s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\S2X49p3l9dKQLVYK\\Scripts\\noosphere-mcp.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\S2X49p3l9dKQLVYK\\Lib\\site-packages\\noosphere\\server.py\", line 29, in <module>\r\n    from noosphere.noosphere_mcp import (  # noqa: F401\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\S2X49p3l9dKQLVYK\\Lib\\site-packages\\noosphere\\noosphere_mcp.py\", line 45, in <module>\r\n    from mcp.server.fastmcp import FastMCP\r\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "io.github.JinNing6/noosphere",
+  "slug": "io.github.jinning6__noosphere"
+}

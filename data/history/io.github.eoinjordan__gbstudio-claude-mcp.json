@@ -1,0 +1,24 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: Unexpected token 'M', \"MCP Server\"... is not valid JSON",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "timeout"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: Unexpected token 'M', \"MCP Server\"... is not valid JSON",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "io.github.eoinjordan/gbstudio-claude-mcp",
+  "slug": "io.github.eoinjordan__gbstudio-claude-mcp"
+}

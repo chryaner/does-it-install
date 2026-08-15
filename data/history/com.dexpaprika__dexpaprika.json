@@ -2,6 +2,32 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "getNetworks",
+          "getNetworkDexes",
+          "getNetworkPools",
+          "getDexPools",
+          "getNetworkPoolsFilter",
+          "getPoolDetails",
+          "getPoolOHLCV",
+          "getPoolTransactions",
+          "getTokenDetails",
+          "getTokenPools",
+          "getTopTokens",
+          "filterNetworkTokens",
+          "getTokenMultiPrices",
+          "search",
+          "getStats",
+          "getCapabilities",
+          "submitFeedback"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:18.419Z",
         "method": "remote-http",
         "runId": "2026-08-15T01-49-18Z-df0f6c",
@@ -30,6 +56,32 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "getNetworks",
+          "getNetworkDexes",
+          "getNetworkPools",
+          "getDexPools",
+          "getNetworkPoolsFilter",
+          "getPoolDetails",
+          "getPoolOHLCV",
+          "getPoolTransactions",
+          "getTokenDetails",
+          "getTokenPools",
+          "getTopTokens",
+          "filterNetworkTokens",
+          "getTokenMultiPrices",
+          "search",
+          "getStats",
+          "getCapabilities",
+          "submitFeedback"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:21.179Z",
         "method": "remote-http",
         "runId": "2026-08-15T01-49-21Z-2de383",
@@ -57,6 +109,32 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "getNetworks",
+          "getNetworkDexes",
+          "getNetworkPools",
+          "getDexPools",
+          "getNetworkPoolsFilter",
+          "getPoolDetails",
+          "getPoolOHLCV",
+          "getPoolTransactions",
+          "getTokenDetails",
+          "getTokenPools",
+          "getTopTokens",
+          "filterNetworkTokens",
+          "getTokenMultiPrices",
+          "search",
+          "getStats",
+          "getCapabilities",
+          "submitFeedback"
+        ]
+      },
       {
         "date": "2026-08-15T01:49:32.941Z",
         "method": "remote-http",

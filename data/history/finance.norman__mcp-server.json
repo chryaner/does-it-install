@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 46 packages in 193ms\nAn executable named `norman-mcp-server` is not provided by package `norman-mcp-server`.\nThe following executables are available:\n- norman-mcp\n\nUse `uv tool run --from norman-mcp-server norman-mcp` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 46 packages in 35ms\nAn executable named `norman-mcp-server` is not provided by package `norman-mcp-server`.\nThe following executables are available:\n- norman-mcp\n\nUse `uv tool run --from norman-mcp-server norman-mcp` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 48 packages in 9.04s\nAn executable named `norman-mcp-server` is not provided by package `norman-mcp-server`.\nThe following executables are available:\n- norman-mcp.exe\n\nUse `uv tool run --from norman-mcp-server norman-mcp.exe` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "finance.norman/mcp-server",
+  "slug": "finance.norman__mcp-server"
+}

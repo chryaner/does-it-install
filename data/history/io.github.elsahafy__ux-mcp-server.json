@@ -1,0 +1,74 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "analyze_accessibility",
+          "review_usability",
+          "suggest_pattern",
+          "generate_component_example",
+          "audit_design_system",
+          "check_contrast",
+          "check_responsive",
+          "suggest_error_message",
+          "analyze_performance",
+          "check_seo",
+          "suggest_animation",
+          "generate_color_palette",
+          "generate_typography_scale",
+          "suggest_microcopy",
+          "suggest_form_pattern",
+          "analyze_data_viz",
+          "generate_accessibility_report",
+          "suggest_ab_variant",
+          "analyze_information_architecture",
+          "detect_dark_patterns",
+          "calculate_ux_metrics",
+          "generate_wireframe",
+          "suggest_microinteraction"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "analyze_accessibility",
+          "review_usability",
+          "suggest_pattern",
+          "generate_component_example",
+          "audit_design_system",
+          "check_contrast",
+          "check_responsive",
+          "suggest_error_message",
+          "analyze_performance",
+          "check_seo",
+          "suggest_animation",
+          "generate_color_palette",
+          "generate_typography_scale",
+          "suggest_microcopy",
+          "suggest_form_pattern",
+          "analyze_data_viz",
+          "generate_accessibility_report",
+          "suggest_ab_variant",
+          "analyze_information_architecture",
+          "detect_dark_patterns",
+          "calculate_ux_metrics",
+          "generate_wireframe",
+          "suggest_microinteraction"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.elsahafy/ux-mcp-server",
+  "slug": "io.github.elsahafy__ux-mcp-server"
+}

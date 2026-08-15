@@ -1,0 +1,84 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "planka_get_structure",
+          "planka_get_board",
+          "planka_create_card",
+          "planka_get_card",
+          "planka_update_card",
+          "planka_move_card",
+          "planka_delete_card",
+          "planka_create_tasks",
+          "planka_update_task",
+          "planka_delete_task",
+          "planka_manage_labels",
+          "planka_set_card_labels",
+          "planka_add_comment",
+          "planka_get_comments",
+          "planka_manage_lists"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "planka_get_structure",
+          "planka_get_board",
+          "planka_create_card",
+          "planka_get_card",
+          "planka_update_card",
+          "planka_move_card",
+          "planka_delete_card",
+          "planka_create_tasks",
+          "planka_update_task",
+          "planka_delete_task",
+          "planka_manage_labels",
+          "planka_set_card_labels",
+          "planka_add_comment",
+          "planka_get_comments",
+          "planka_manage_lists"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "planka_get_structure",
+          "planka_get_board",
+          "planka_create_card",
+          "planka_get_card",
+          "planka_update_card",
+          "planka_move_card",
+          "planka_delete_card",
+          "planka_create_tasks",
+          "planka_update_task",
+          "planka_delete_task",
+          "planka_manage_labels",
+          "planka_set_card_labels",
+          "planka_add_comment",
+          "planka_get_comments",
+          "planka_manage_lists"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.gogogadgetbytes/planka",
+  "slug": "io.github.gogogadgetbytes__planka"
+}

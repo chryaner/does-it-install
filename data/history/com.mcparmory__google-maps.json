@@ -2,6 +2,32 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T04:06:28.791Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "locate_device",
+          "calculate_directions",
+          "get_elevation",
+          "geocode_address",
+          "get_timezone",
+          "snap_coordinates_to_roads",
+          "snap_points_to_roads",
+          "calculate_distance_matrix",
+          "get_place_details",
+          "search_place_by_text",
+          "search_nearby_places",
+          "search_places_by_text",
+          "get_place_photo",
+          "get_query_suggestions",
+          "autocomplete_place",
+          "get_street_view",
+          "get_street_view_metadata"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:18.419Z",
         "method": "pypi",
         "runId": "2026-08-15T01-49-18Z-df0f6c",
@@ -29,6 +55,32 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "locate_device",
+          "calculate_directions",
+          "get_elevation",
+          "geocode_address",
+          "get_timezone",
+          "snap_coordinates_to_roads",
+          "snap_points_to_roads",
+          "calculate_distance_matrix",
+          "get_place_details",
+          "search_place_by_text",
+          "search_nearby_places",
+          "search_places_by_text",
+          "get_place_photo",
+          "get_query_suggestions",
+          "autocomplete_place",
+          "get_street_view",
+          "get_street_view_metadata"
+        ]
+      },
       {
         "date": "2026-08-15T01:49:21.179Z",
         "method": "pypi",

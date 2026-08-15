@@ -1,0 +1,87 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "verify_agent",
+          "match_agents",
+          "get_agent",
+          "protocol_reference",
+          "list_registry",
+          "import_agent",
+          "register_agent",
+          "rotate_agent_key",
+          "claim_bearer_key",
+          "update_agent",
+          "preview_sandbox_match",
+          "promote_sandbox_agent",
+          "set_agent_key",
+          "call_agent",
+          "review_transaction",
+          "list_org_agents"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "verify_agent",
+          "match_agents",
+          "get_agent",
+          "protocol_reference",
+          "list_registry",
+          "import_agent",
+          "register_agent",
+          "rotate_agent_key",
+          "claim_bearer_key",
+          "update_agent",
+          "preview_sandbox_match",
+          "promote_sandbox_agent",
+          "set_agent_key",
+          "call_agent",
+          "review_transaction",
+          "list_org_agents"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "verify_agent",
+          "match_agents",
+          "get_agent",
+          "protocol_reference",
+          "list_registry",
+          "import_agent",
+          "register_agent",
+          "rotate_agent_key",
+          "claim_bearer_key",
+          "update_agent",
+          "preview_sandbox_match",
+          "promote_sandbox_agent",
+          "set_agent_key",
+          "call_agent",
+          "review_transaction",
+          "list_org_agents"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.Aidress-ai/aidress",
+  "slug": "io.github.aidress-ai__aidress"
+}

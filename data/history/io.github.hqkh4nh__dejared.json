@@ -1,0 +1,66 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "dejared_decompile_class",
+          "dejared_dump_package_metadata",
+          "dejared_get_metadata",
+          "dejared_list_classes",
+          "dejared_list_packages",
+          "dejared_list_resources",
+          "dejared_read_resource",
+          "dejared_search_class",
+          "dejared_search_string"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "dejared_decompile_class",
+          "dejared_dump_package_metadata",
+          "dejared_get_metadata",
+          "dejared_list_classes",
+          "dejared_list_packages",
+          "dejared_list_resources",
+          "dejared_read_resource",
+          "dejared_search_class",
+          "dejared_search_string"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "dejared_decompile_class",
+          "dejared_dump_package_metadata",
+          "dejared_get_metadata",
+          "dejared_list_classes",
+          "dejared_list_packages",
+          "dejared_list_resources",
+          "dejared_read_resource",
+          "dejared_search_class",
+          "dejared_search_string"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.hqkh4nh/dejared",
+  "slug": "io.github.hqkh4nh__dejared"
+}

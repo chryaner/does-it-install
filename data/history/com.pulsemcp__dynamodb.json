@@ -1,0 +1,78 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "list_tables",
+          "describe_table",
+          "get_item",
+          "query_items",
+          "scan_table",
+          "batch_get_items",
+          "put_item",
+          "update_item",
+          "delete_item",
+          "batch_write_items",
+          "create_table",
+          "delete_table",
+          "update_table"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "list_tables",
+          "describe_table",
+          "get_item",
+          "query_items",
+          "scan_table",
+          "batch_get_items",
+          "put_item",
+          "update_item",
+          "delete_item",
+          "batch_write_items",
+          "create_table",
+          "delete_table",
+          "update_table"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "list_tables",
+          "describe_table",
+          "get_item",
+          "query_items",
+          "scan_table",
+          "batch_get_items",
+          "put_item",
+          "update_item",
+          "delete_item",
+          "batch_write_items",
+          "create_table",
+          "delete_table",
+          "update_table"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.pulsemcp/dynamodb",
+  "slug": "com.pulsemcp__dynamodb"
+}

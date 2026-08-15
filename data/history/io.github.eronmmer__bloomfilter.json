@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[bloomfilter-mcp] Starting Bloomfilter MCP server v0.1.0\n[bloomfilter-mcp] API: https://api.bloomfilter.xyz\n[bloomfilter-mcp] Network: eip155:8453\n[bloomfilter-mcp] Fatal error: ZodError: [\n  {\n    \"code\": \"custom\",\n    \"message\": \"privateKey must be a 0x-prefixed 32-byte hex string\",\n    \"fatal\": true,\n    \"path\": [\n      \"privateKey\"\n    ]\n  }\n]\n    at get error (file:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-cVwoXq/node_modules/zod/v3/types.js:39:31)\n    at ZodObject.parse (file:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-cVwoXq/node_modules/zod/v3/types.js:114:22)\n    at createBloomfilterClient (file:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-cVwoXq/node_modules/@bloomfilter/mcp-server/dist/client.js:35:18)\n    at main (file:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-cVwoXq/node_modules/@bloomfilter/mcp-server/dist/index.js:52:26)\n    at file:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-cVwoXq/node_modules/@bloomfilter/mcp-server/dist/index.js:154:1\n    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5) {\n  issues: [\n    {\n      code: 'custom',\n      message: 'privateKey must be a 0x-prefixed 32-byte hex string',\n      fatal: true,\n      path: [Array]\n    }\n  ],\n  addIssue: [Function (anonymous)],\n  addIssues: [Function (anonymous)]\n}",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[bloomfilter-mcp] Starting Bloomfilter MCP server v0.1.0\n[bloomfilter-mcp] API: https://api.bloomfilter.xyz\n[bloomfilter-mcp] Network: eip155:8453\n[bloomfilter-mcp] Fatal error: ZodError: [\n  {\n    \"code\": \"custom\",\n    \"message\": \"privateKey must be a 0x-prefixed 32-byte hex string\",\n    \"fatal\": true,\n    \"path\": [\n      \"privateKey\"\n    ]\n  }\n]\n    at get error (file:///tmp/does-it-install/dii-npm-2bXrsk/node_modules/zod/v3/types.js:39:31)\n    at ZodObject.parse (file:///tmp/does-it-install/dii-npm-2bXrsk/node_modules/zod/v3/types.js:114:22)\n    at createBloomfilterClient (file:///tmp/does-it-install/dii-npm-2bXrsk/node_modules/@bloomfilter/mcp-server/dist/client.js:35:18)\n    at main (file:///tmp/does-it-install/dii-npm-2bXrsk/node_modules/@bloomfilter/mcp-server/dist/index.js:52:26)\n    at file:///tmp/does-it-install/dii-npm-2bXrsk/node_modules/@bloomfilter/mcp-server/dist/index.js:154:1\n    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5) {\n  issues: [\n    {\n      code: 'custom',\n      message: 'privateKey must be a 0x-prefixed 32-byte hex string',\n      fatal: true,\n      path: [Array]\n    }\n  ],\n  addIssue: [Function (anonymous)],\n  addIssues: [Function (anonymous)]\n}",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[bloomfilter-mcp] Starting Bloomfilter MCP server v0.1.0\n[bloomfilter-mcp] API: https://api.bloomfilter.xyz\n[bloomfilter-mcp] Network: eip155:8453\n[bloomfilter-mcp] Fatal error: ZodError: [\n  {\n    \"code\": \"custom\",\n    \"message\": \"privateKey must be a 0x-prefixed 32-byte hex string\",\n    \"fatal\": true,\n    \"path\": [\n      \"privateKey\"\n    ]\n  }\n]\n    at get error (file:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-Ye8uN9/node_modules/zod/v3/types.js:39:31)\n    at ZodObject.parse (file:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-Ye8uN9/node_modules/zod/v3/types.js:114:22)\n    at createBloomfilterClient (file:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-Ye8uN9/node_modules/@bloomfilter/mcp-server/dist/client.js:35:18)\n    at main (file:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-Ye8uN9/node_modules/@bloomfilter/mcp-server/dist/index.js:52:26)\n    at file:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-Ye8uN9/node_modules/@bloomfilter/mcp-server/dist/index.js:154:1\n    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5) {\n  issues: [\n    {\n      code: 'custom',\n      message: 'privateKey must be a 0x-prefixed 32-byte hex string',\n      fatal: true,\n      path: [Array]\n    }\n  ],\n  addIssue: [Function (anonymous)],\n  addIssues: [Function (anonymous)]\n}",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "io.github.Eronmmer/bloomfilter",
+  "slug": "io.github.eronmmer__bloomfilter"
+}

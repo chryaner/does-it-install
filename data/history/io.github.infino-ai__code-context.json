@@ -1,0 +1,24 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: cx [options] [command]\n\nLocal code search for AI coding agents - an index in plain files under .infino/.\nKeyword search seconds after `cx index`; semantic and hybrid search when vectors\nfinish backfilling; SQL with relevance-ranked aggregation over the whole repo.\n\nOptions:\n  -V, --version              output the version number\n  -h, --help                 display help for command\n\nCommands:\n  index [options] [path]     bring the index up to date (incremental; full build\n                             on first run)\n  search [options] <query>   find code: exact terms and meaning in one ranked\n                             pass\n  sql [options] <statement>  read-only SQL over the index, including ranked\n                             search table functions\n  status [options]           show what the index holds and how fresh it is\n  usage [options]            show the local ledger of queries run and what each\n                             returned (from .infino/usage.jsonl)\n  mcp [options]              serve the MCP tools (search / sql / reindex) over\n                             stdio\n  help [command]             display help for command\n\nExamples:\n  cx index                            index the current repo (keyword search is live in seconds)\n  cx search \"parse_config\"            exact terms and meaning, one ranked pass\n  cx search \"where is auth handled\"   works when you don't know the words\n  cx sql \"SELECT path, SUM(end_line - start_line + 1) AS lines \\\n          FROM bm25_search('chunks','content','vector index', 300) \\\n          GROUP BY path ORDER BY lines DESC LIMIT 10\"\n  cx mcp                              serve the MCP tools (search/sql/reindex) over stdio",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: cx [options] [command]\n\nLocal code search for AI coding agents - an index in plain files under .infino/.\nKeyword search seconds after `cx index`; semantic and hybrid search when vectors\nfinish backfilling; SQL with relevance-ranked aggregation over the whole repo.\n\nOptions:\n  -V, --version              output the version number\n  -h, --help                 display help for command\n\nCommands:\n  index [options] [path]     bring the index up to date (incremental; full build\n                             on first run)\n  search [options] <query>   find code: exact terms and meaning in one ranked\n                             pass\n  sql [options] <statement>  read-only SQL over the index, including ranked\n                             search table functions\n  status [options]           show what the index holds and how fresh it is\n  usage [options]            show the local ledger of queries run and what each\n                             returned (from .infino/usage.jsonl)\n  mcp [options]              serve the MCP tools (search / sql / reindex) over\n                             stdio\n  help [command]             display help for command\n\nExamples:\n  cx index                            index the current repo (keyword search is live in seconds)\n  cx search \"parse_config\"            exact terms and meaning, one ranked pass\n  cx search \"where is auth handled\"   works when you don't know the words\n  cx sql \"SELECT path, SUM(end_line - start_line + 1) AS lines \\\n          FROM bm25_search('chunks','content','vector index', 300) \\\n          GROUP BY path ORDER BY lines DESC LIMIT 10\"\n  cx mcp                              serve the MCP tools (search/sql/reindex) over stdio",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.infino-ai/code-context",
+  "slug": "io.github.infino-ai__code-context"
+}

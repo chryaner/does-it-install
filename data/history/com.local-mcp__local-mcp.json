@@ -2,6 +2,65 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T04:06:29.606Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "pass",
+        "toolCount": 217,
+        "toolNames": [
+          "chrome_click",
+          "chrome_evaluate_js",
+          "chrome_fill_form",
+          "chrome_go_back",
+          "chrome_history",
+          "chrome_list_tabs",
+          "chrome_navigate",
+          "chrome_query_selector_all",
+          "chrome_read_tab",
+          "chrome_search_tabs",
+          "chrome_setup_check",
+          "chrome_type",
+          "chrome_wait_for",
+          "complete_omnifocus_task",
+          "complete_reminder",
+          "configure_clients",
+          "connect_m365_account",
+          "connect_servicenow",
+          "connect_todoist",
+          "create_calendar_event",
+          "create_draft",
+          "create_email_folder",
+          "create_note",
+          "create_omnifocus_task",
+          "create_referral_invites",
+          "create_reminder",
+          "create_reminder_list",
+          "daily_brief",
+          "delete_calendar_event",
+          "delete_reminder",
+          "delete_reminder_folder",
+          "disconnect_m365_account",
+          "disconnect_servicenow",
+          "disconnect_todoist",
+          "excel_create",
+          "excel_read",
+          "excel_write_cell",
+          "file_list",
+          "file_read",
+          "file_search",
+          "file_write",
+          "finder_list",
+          "finder_search",
+          "get_audit_log",
+          "get_config",
+          "get_contact",
+          "get_datetime",
+          "get_reminder_folders",
+          "get_weather",
+          "list_accounts"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:18.684Z",
         "method": "npm",
         "runId": "2026-08-15T01-49-18Z-a30774",
@@ -63,6 +122,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T04:06:26.501Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nLMCP is currently macOS-only. Join the Windows/Linux waitlist at https://local-mcp.com",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-15T01:49:20.605Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nLMCP is currently macOS-only. Join the Windows/Linux waitlist at https://local-mcp.com",
         "method": "npm",
@@ -71,6 +137,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nLMCP is currently macOS-only. Join the Windows/Linux waitlist at https://local-mcp.com",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-15T01:49:39.142Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nLMCP is currently macOS-only. Join the Windows/Linux waitlist at https://local-mcp.com",

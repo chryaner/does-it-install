@@ -1,0 +1,85 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "pass",
+        "toolCount": 54,
+        "toolNames": [
+          "list_notes",
+          "search_notes",
+          "read_note",
+          "create_note",
+          "update_note",
+          "delete_note",
+          "list_folders",
+          "create_folder",
+          "move_note",
+          "scan_notes",
+          "compare_notes",
+          "bulk_move_notes",
+          "list_reminder_lists",
+          "list_reminders",
+          "read_reminder",
+          "create_reminder",
+          "update_reminder",
+          "complete_reminder",
+          "delete_reminder",
+          "search_reminders",
+          "create_reminder_list",
+          "delete_reminder_list",
+          "create_recurring_reminder",
+          "list_calendars",
+          "list_events",
+          "read_event",
+          "create_event",
+          "update_event",
+          "delete_event",
+          "search_events",
+          "get_upcoming_events",
+          "today_events",
+          "create_recurring_event",
+          "get_clipboard",
+          "set_clipboard",
+          "get_volume",
+          "set_volume",
+          "toggle_dark_mode",
+          "get_frontmost_app",
+          "list_running_apps",
+          "get_screen_info",
+          "show_notification",
+          "capture_screenshot",
+          "list_shortcuts",
+          "run_shortcut",
+          "search_shortcuts",
+          "get_shortcut_detail",
+          "summarize_context",
+          "semantic_index",
+          "semantic_search"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "errorExcerpt": "npm install iconnect-mcp@0.1.1 exited with code 1\n--- stderr (tail) ---\nnpm error code EBADPLATFORM\nnpm error notsup Unsupported platform for iconnect-mcp@0.1.1: wanted {\"os\":\"darwin\"} (current: {\"os\":\"linux\"})\nnpm error notsup Valid os:  darwin\nnpm error notsup Actual os: linux\nnpm error A complete log of this run can be found in: /tmp/does-it-install/dii-npm-tBE2gU/.npm-cache/_logs/2026-08-15T04_10_38_192Z-debug-0.log",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "install_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "errorExcerpt": "npm install iconnect-mcp@0.1.1 exited with code 1\n--- stderr (tail) ---\nnpm error code EBADPLATFORM\nnpm error notsup Unsupported platform for iconnect-mcp@0.1.1: wanted {\"os\":\"darwin\"} (current: {\"os\":\"win32\"})\nnpm error notsup Valid os:  darwin\nnpm error notsup Actual os: win32\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-6IJNBB\\.npm-cache\\_logs\\2026-08-15T05_00_57_585Z-debug-0.log",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "install_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.heznpc/iconnect",
+  "slug": "io.github.heznpc__iconnect"
+}

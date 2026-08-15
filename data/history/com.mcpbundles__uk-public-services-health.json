@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T04:06:28.268Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"unauthorized\",\"message\":\"Authentication required (Bearer token, API key, or session cookie)\",\"resource_metadata\":\"https://mcp.mcpbundles.com/bundle/uk-public-services-health/.well-known/oauth-protected-resource\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T01:49:18.419Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"unauthorized\",\"message\":\"Authentication required (Bearer token, API key, or session cookie)\",\"resource_metadata\":\"https://mcp.mcpbundles.com/bundle/uk-public-services-health/.well-known/oauth-protected-resource\"} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -11,6 +18,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T04:06:32.275Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"unauthorized\",\"message\":\"Authentication required (Bearer token, API key, or session cookie)\",\"resource_metadata\":\"https://mcp.mcpbundles.com/bundle/uk-public-services-health/.well-known/oauth-protected-resource\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T01:49:21.179Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"unauthorized\",\"message\":\"Authentication required (Bearer token, API key, or session cookie)\",\"resource_metadata\":\"https://mcp.mcpbundles.com/bundle/uk-public-services-health/.well-known/oauth-protected-resource\"} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -19,6 +33,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"unauthorized\",\"message\":\"Authentication required (Bearer token, API key, or session cookie)\",\"resource_metadata\":\"https://mcp.mcpbundles.com/bundle/uk-public-services-health/.well-known/oauth-protected-resource\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-15T01:49:32.941Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"unauthorized\",\"message\":\"Authentication required (Bearer token, API key, or session cookie)\",\"resource_metadata\":\"https://mcp.mcpbundles.com/bundle/uk-public-services-health/.well-known/oauth-protected-resource\"} (endpoint reachable but requires credentials the harness does not send)",

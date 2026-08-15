@@ -1,0 +1,84 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "get_flow_runs",
+          "get_flow_step_trend",
+          "get_incident",
+          "get_incident_metrics",
+          "get_monitor",
+          "get_monitor_history",
+          "get_org_health",
+          "get_org_usage",
+          "get_status_page",
+          "list_incidents",
+          "list_monitors",
+          "list_notification_channels",
+          "list_regions",
+          "list_status_pages",
+          "list_tags"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "get_flow_runs",
+          "get_flow_step_trend",
+          "get_incident",
+          "get_incident_metrics",
+          "get_monitor",
+          "get_monitor_history",
+          "get_org_health",
+          "get_org_usage",
+          "get_status_page",
+          "list_incidents",
+          "list_monitors",
+          "list_notification_channels",
+          "list_regions",
+          "list_status_pages",
+          "list_tags"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "get_flow_runs",
+          "get_flow_step_trend",
+          "get_incident",
+          "get_incident_metrics",
+          "get_monitor",
+          "get_monitor_history",
+          "get_org_health",
+          "get_org_usage",
+          "get_status_page",
+          "list_incidents",
+          "list_monitors",
+          "list_notification_channels",
+          "list_regions",
+          "list_status_pages",
+          "list_tags"
+        ]
+      }
+    ]
+  },
+  "serverId": "dev.uptimepage/uptimepage",
+  "slug": "dev.uptimepage__uptimepage"
+}

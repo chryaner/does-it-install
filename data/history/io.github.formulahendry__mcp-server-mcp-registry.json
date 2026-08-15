@@ -1,0 +1,42 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "list_mcp_servers"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "list_mcp_servers"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "list_mcp_servers"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.formulahendry/mcp-server-mcp-registry",
+  "slug": "io.github.formulahendry__mcp-server-mcp-registry"
+}

@@ -1,0 +1,90 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "vorim_ping",
+          "vorim_register_agent",
+          "vorim_get_agent",
+          "vorim_list_agents",
+          "vorim_update_agent",
+          "vorim_revoke_agent",
+          "vorim_check_permission",
+          "vorim_grant_permission",
+          "vorim_list_permissions",
+          "vorim_revoke_permission",
+          "vorim_emit_event",
+          "vorim_export_audit",
+          "vorim_verify_trust",
+          "vorim_register_ephemeral",
+          "vorim_delegate_credential",
+          "vorim_request_token",
+          "vorim_list_delegations"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "vorim_ping",
+          "vorim_register_agent",
+          "vorim_get_agent",
+          "vorim_list_agents",
+          "vorim_update_agent",
+          "vorim_revoke_agent",
+          "vorim_check_permission",
+          "vorim_grant_permission",
+          "vorim_list_permissions",
+          "vorim_revoke_permission",
+          "vorim_emit_event",
+          "vorim_export_audit",
+          "vorim_verify_trust",
+          "vorim_register_ephemeral",
+          "vorim_delegate_credential",
+          "vorim_request_token",
+          "vorim_list_delegations"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "vorim_ping",
+          "vorim_register_agent",
+          "vorim_get_agent",
+          "vorim_list_agents",
+          "vorim_update_agent",
+          "vorim_revoke_agent",
+          "vorim_check_permission",
+          "vorim_grant_permission",
+          "vorim_list_permissions",
+          "vorim_revoke_permission",
+          "vorim_emit_event",
+          "vorim_export_audit",
+          "vorim_verify_trust",
+          "vorim_register_ephemeral",
+          "vorim_delegate_credential",
+          "vorim_request_token",
+          "vorim_list_delegations"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.Kzino/vorim-mcp-server",
+  "slug": "io.github.kzino__vorim-mcp-server"
+}

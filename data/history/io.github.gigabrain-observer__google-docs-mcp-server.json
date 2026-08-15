@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 53 packages in 201ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/LYtmGjGYLblWFNUo/bin/google-docs-mcp-server\", line 6, in <module>\n    from google_docs_mcp_server.server import main\n  File \"/Users/runner/.cache/uv/archive-v0/LYtmGjGYLblWFNUo/lib/python3.14/site-packages/google_docs_mcp_server/server.py\", line 8, in <module>\n    from mcp.server.fastmcp import FastMCP, Context\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 53 packages in 27ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/9XiYXCWCNtlid2Tp/bin/google-docs-mcp-server\", line 6, in <module>\n    from google_docs_mcp_server.server import main\n  File \"/home/runner/.cache/uv/archive-v0/9XiYXCWCNtlid2Tp/lib/python3.13/site-packages/google_docs_mcp_server/server.py\", line 8, in <module>\n    from mcp.server.fastmcp import FastMCP, Context\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 55 packages in 13.77s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\Lpm8olueOQs-gGcn\\Scripts\\google-docs-mcp-server.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\Lpm8olueOQs-gGcn\\Lib\\site-packages\\google_docs_mcp_server\\server.py\", line 8, in <module>\r\n    from mcp.server.fastmcp import FastMCP, Context\r\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "io.github.gigabrain-observer/google-docs-mcp-server",
+  "slug": "io.github.gigabrain-observer__google-docs-mcp-server"
+}

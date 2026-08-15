@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "errorExcerpt": "handshake failed: Streamable HTTP error: Error POSTing to endpoint: {\"message\":\"Missing or malformed Authorization header\",\"error\":\"Unauthorized\",\"statusCode\":401,\"requestId\":\"9f2d5259-0fe3-44a8-a6b6-9925322930d0\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "errorExcerpt": "handshake failed: Streamable HTTP error: Error POSTing to endpoint: {\"message\":\"Missing or malformed Authorization header\",\"error\":\"Unauthorized\",\"statusCode\":401,\"requestId\":\"83a05453-79f7-40ae-97f4-9f0787f9bac0\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "errorExcerpt": "handshake failed: Streamable HTTP error: Error POSTing to endpoint: {\"message\":\"Missing or malformed Authorization header\",\"error\":\"Unauthorized\",\"statusCode\":401,\"requestId\":\"64ee3c6c-6815-4178-bffe-78d4253014ec\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "io.github.inite-ai/inite-brain-service",
+  "slug": "io.github.inite-ai__inite-brain-service"
+}

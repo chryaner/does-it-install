@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T04:06:29.606Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nno oauth token found for github.com\nNo GitHub token found. Either set the GITHUB_TOKEN environment variable or authenticate with the GitHub CLI: gh auth login",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-15T01:49:18.684Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nno oauth token found for github.com\nNo GitHub token found. Either set the GITHUB_TOKEN environment variable or authenticate with the GitHub CLI: gh auth login",
         "method": "npm",
@@ -11,6 +18,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T04:06:26.501Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nno oauth token found for github.com\nNo GitHub token found. Either set the GITHUB_TOKEN environment variable or authenticate with the GitHub CLI: gh auth login",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-15T01:49:20.605Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nno oauth token found for github.com\nNo GitHub token found. Either set the GITHUB_TOKEN environment variable or authenticate with the GitHub CLI: gh auth login",
         "method": "npm",
@@ -19,6 +33,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nNo GitHub token found. Either set the GITHUB_TOKEN environment variable or authenticate with the GitHub CLI: gh auth login",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-15T01:49:39.142Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nNo GitHub token found. Either set the GITHUB_TOKEN environment variable or authenticate with the GitHub CLI: gh auth login",

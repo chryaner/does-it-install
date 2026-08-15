@@ -1,0 +1,24 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nBuilding pyaes==1.6.1\n      Built pyaes==1.6.1\nInstalled 34 packages in 142ms\nAn executable named `telegram-mcp-jgalea` is not provided by package `telegram-mcp-jgalea`.\nThe following executables are available:\n- telegram-mcp\n\nUse `uv tool run --from telegram-mcp-jgalea telegram-mcp` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nBuilding pyaes==1.6.1\n      Built pyaes==1.6.1\nInstalled 34 packages in 66ms\nAn executable named `telegram-mcp-jgalea` is not provided by package `telegram-mcp-jgalea`.\nThe following executables are available:\n- telegram-mcp\n\nUse `uv tool run --from telegram-mcp-jgalea telegram-mcp` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.jgalea/telegram-mcp",
+  "slug": "io.github.jgalea__telegram-mcp"
+}

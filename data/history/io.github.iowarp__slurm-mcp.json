@@ -1,0 +1,54 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "slurm_submit",
+          "slurm_list",
+          "slurm_describe",
+          "slurm_cluster",
+          "slurm_cancel"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "slurm_submit",
+          "slurm_list",
+          "slurm_describe",
+          "slurm_cluster",
+          "slurm_cancel"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "slurm_submit",
+          "slurm_list",
+          "slurm_describe",
+          "slurm_cluster",
+          "slurm_cancel"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.iowarp/slurm-mcp",
+  "slug": "io.github.iowarp__slurm-mcp"
+}

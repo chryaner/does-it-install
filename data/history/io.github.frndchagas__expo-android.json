@@ -1,0 +1,62 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "devices",
+          "doctor",
+          "setDevice",
+          "inspect",
+          "screenshot",
+          "findElement",
+          "tapElement",
+          "waitForElement",
+          "assertElement",
+          "tap",
+          "swipe",
+          "longPress",
+          "inputText",
+          "keyEvent",
+          "openApp",
+          "listPackages",
+          "installExpoGo"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "devices",
+          "doctor",
+          "setDevice",
+          "inspect",
+          "screenshot",
+          "findElement",
+          "tapElement",
+          "waitForElement",
+          "assertElement",
+          "tap",
+          "swipe",
+          "longPress",
+          "inputText",
+          "keyEvent",
+          "openApp",
+          "listPackages",
+          "installExpoGo"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.frndchagas/expo-android",
+  "slug": "io.github.frndchagas__expo-android"
+}

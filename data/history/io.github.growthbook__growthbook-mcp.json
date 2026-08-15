@@ -1,0 +1,51 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "growthbook_api_read",
+          "growthbook_api_write",
+          "growthbook_list_skills",
+          "growthbook_read_skill"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "growthbook_api_read",
+          "growthbook_api_write",
+          "growthbook_list_skills",
+          "growthbook_read_skill"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "growthbook_api_read",
+          "growthbook_api_write",
+          "growthbook_list_skills",
+          "growthbook_read_skill"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.growthbook/growthbook-mcp",
+  "slug": "io.github.growthbook__growthbook-mcp"
+}

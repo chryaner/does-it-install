@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: Connect Timeout Error (attempted address: mcp.slidev-mcp.org:443, timeout: 10000ms) (UND_ERR_CONNECT_TIMEOUT)",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "connect_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: Connect Timeout Error (attempted address: mcp.slidev-mcp.org:443, timeout: 10000ms) (UND_ERR_CONNECT_TIMEOUT)",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "connect_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: Connect Timeout Error (attempted address: mcp.slidev-mcp.org:443, timeout: 10000ms) (UND_ERR_CONNECT_TIMEOUT)",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "connect_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.joelbarmettlerUZH/slidev-mcp",
+  "slug": "io.github.joelbarmettleruzh__slidev-mcp"
+}

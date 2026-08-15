@@ -1,0 +1,53 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "list_accounts",
+          "list_mailboxes",
+          "get_emails",
+          "get_email",
+          "get_email_links",
+          "get_email_attachment",
+          "get_attachment",
+          "search"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "list_accounts",
+          "list_mailboxes",
+          "get_emails",
+          "get_email",
+          "get_email_links",
+          "get_email_attachment",
+          "get_attachment",
+          "search"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading selectolax (1.8MiB)\n Downloaded selectolax\nInstalled 73 packages in 16.52s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\1exxBZVXjicNb9Mo\\Scripts\\apple-mail-mcp.exe\\__main__.py\", line 10, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\1exxBZVXjicNb9Mo\\Lib\\site-packages\\apple_mail_mcp\\cli.py\", line 919, in main\r\n    app()\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\1exxBZVXjicNb9Mo\\Lib\\site-packages\\cyclopts\\core.py\", line 1962, in __call__\r\n    result = _run_maybe_async_command(command, bound, resolved_backend)\r\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\1exxBZVXjicNb9Mo\\Lib\\site-packages\\cyclopts\\_run.py\", line 50, in _run_maybe_async_command\r\n    return command(*bound.args, **bound.kwargs)\r\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\1exxBZVXjicNb9Mo\\Lib\\site-packages\\apple_mail_mcp\\cli.py\", line 570, in default_handler\r\n    _run_serve(watch=watch, read_only=read_only)\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\1exxBZVXjicNb9Mo\\Lib\\site-packages\\apple_mail_mcp\\cli.py\", line 157, in _run_serve\r\n    from .index import IndexManager\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\1exxBZVXjicNb9Mo\\Lib\\site-packages\\apple_mail_mcp\\index\\__init__.py\", line 11, in <module>\r\n    from .lock import IndexLock\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\1exxBZVXjicNb9Mo\\Lib\\site-packages\\apple_mail_mcp\\index\\lock.py\", line 21, in <module>\r\n    import fcntl\r\nModuleNotFoundError: No module named 'fcntl'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.imdinu/apple-mail-mcp",
+  "slug": "io.github.imdinu__apple-mail-mcp"
+}

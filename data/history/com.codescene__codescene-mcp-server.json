@@ -2,6 +2,31 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "explain_code_health",
+          "explain_code_health_productivity",
+          "pre_commit_code_health_safeguard",
+          "analyze_change_set",
+          "code_health_refactoring_business_case",
+          "code_health_score",
+          "code_health_review",
+          "select_project",
+          "list_technical_debt_goals_for_project",
+          "list_technical_debt_goals_for_project_file",
+          "list_technical_debt_hotspots_for_project",
+          "list_technical_debt_hotspots_for_project_file",
+          "code_ownership_for_path",
+          "code_health_auto_refactor",
+          "get_config",
+          "set_config"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:18.419Z",
         "method": "npm",
         "runId": "2026-08-15T01-49-18Z-df0f6c",
@@ -29,6 +54,31 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "explain_code_health",
+          "explain_code_health_productivity",
+          "pre_commit_code_health_safeguard",
+          "analyze_change_set",
+          "code_health_refactoring_business_case",
+          "code_health_score",
+          "code_health_review",
+          "select_project",
+          "list_technical_debt_goals_for_project",
+          "list_technical_debt_goals_for_project_file",
+          "list_technical_debt_hotspots_for_project",
+          "list_technical_debt_hotspots_for_project_file",
+          "code_ownership_for_path",
+          "code_health_auto_refactor",
+          "get_config",
+          "set_config"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:21.179Z",
         "method": "npm",
         "runId": "2026-08-15T01-49-21Z-2de383",
@@ -55,6 +105,31 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "explain_code_health",
+          "explain_code_health_productivity",
+          "pre_commit_code_health_safeguard",
+          "analyze_change_set",
+          "code_health_refactoring_business_case",
+          "code_health_score",
+          "code_health_review",
+          "select_project",
+          "list_technical_debt_goals_for_project",
+          "list_technical_debt_goals_for_project_file",
+          "list_technical_debt_hotspots_for_project",
+          "list_technical_debt_hotspots_for_project_file",
+          "code_ownership_for_path",
+          "code_health_auto_refactor",
+          "get_config",
+          "set_config"
+        ]
+      },
       {
         "date": "2026-08-15T01:49:32.941Z",
         "method": "npm",

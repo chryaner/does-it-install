@@ -1,0 +1,60 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "search_books",
+          "get_book_by_title",
+          "get_book_by_id",
+          "get_authors_by_name",
+          "get_author_info",
+          "get_author_photo",
+          "get_book_cover"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "search_books",
+          "get_book_by_title",
+          "get_book_by_id",
+          "get_authors_by_name",
+          "get_author_info",
+          "get_author_photo",
+          "get_book_cover"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "search_books",
+          "get_book_by_title",
+          "get_book_by_id",
+          "get_authors_by_name",
+          "get_author_info",
+          "get_author_photo",
+          "get_book_cover"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.8enSmith/mcp-open-library",
+  "slug": "io.github.8ensmith__mcp-open-library"
+}

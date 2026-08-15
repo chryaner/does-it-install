@@ -1,0 +1,57 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "marrow_commit",
+          "marrow_auto",
+          "marrow_ask",
+          "marrow_status",
+          "marrow_agent_runtime",
+          "marrow_handoff_status"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "marrow_commit",
+          "marrow_auto",
+          "marrow_ask",
+          "marrow_status",
+          "marrow_agent_runtime",
+          "marrow_handoff_status"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "marrow_commit",
+          "marrow_auto",
+          "marrow_ask",
+          "marrow_status",
+          "marrow_agent_runtime",
+          "marrow_handoff_status"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.getmarrow/marrow",
+  "slug": "io.github.getmarrow__marrow"
+}

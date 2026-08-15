@@ -1,0 +1,64 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "topos_assess_changeset",
+          "topos_assess_improvement",
+          "topos_assess_snapshot",
+          "topos_assess_worktree_change",
+          "topos_begin_refactor",
+          "topos_calculate_coverage",
+          "topos_compare_code",
+          "topos_compare_files",
+          "topos_depgraph_status",
+          "topos_evaluate_code",
+          "topos_evaluate_file",
+          "topos_evaluate_project",
+          "topos_generate_depgraph",
+          "topos_generate_graphify_graph",
+          "topos_get_doc",
+          "topos_inspect_code",
+          "topos_preference_walk",
+          "topos_refactor"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "topos_assess_changeset",
+          "topos_assess_improvement",
+          "topos_assess_snapshot",
+          "topos_assess_worktree_change",
+          "topos_begin_refactor",
+          "topos_calculate_coverage",
+          "topos_compare_code",
+          "topos_compare_files",
+          "topos_depgraph_status",
+          "topos_evaluate_code",
+          "topos_evaluate_file",
+          "topos_evaluate_project",
+          "topos_generate_depgraph",
+          "topos_generate_graphify_graph",
+          "topos_get_doc",
+          "topos_inspect_code",
+          "topos_preference_walk",
+          "topos_refactor"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.Krv-Labs/topos",
+  "slug": "io.github.krv-labs__topos"
+}

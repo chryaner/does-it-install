@@ -1,0 +1,24 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 33 packages in 186ms\nAn executable named `aion-indian-market-intelligence` is not provided by package `aion-indian-market-intelligence`.\nThe following executables are available:\n- aion-indian-market-intelligence-mcp\n\nUse `uv tool run --from aion-indian-market-intelligence aion-indian-market-intelligence-mcp` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 33 packages in 57ms\nAn executable named `aion-indian-market-intelligence` is not provided by package `aion-indian-market-intelligence`.\nThe following executables are available:\n- aion-indian-market-intelligence-mcp\n\nUse `uv tool run --from aion-indian-market-intelligence aion-indian-market-intelligence-mcp` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.AION-Analytics/aion-indian-market-intelligence",
+  "slug": "io.github.aion-analytics__aion-indian-market-intelligence"
+}

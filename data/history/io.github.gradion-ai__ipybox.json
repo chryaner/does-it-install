@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading black (1.7MiB)\n Downloaded black\nInstalled 125 packages in 653ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/cLDnJqFDxxgXpseg/bin/ipybox\", line 6, in <module>\n    from ipybox.mcp_server import cli\n  File \"/Users/runner/.cache/uv/archive-v0/cLDnJqFDxxgXpseg/lib/python3.14/site-packages/ipybox/__init__.py\", line 1, in <module>\n    from mcpygen import ApprovalRequest, generate_mcp_sources\n  File \"/Users/runner/.cache/uv/archive-v0/cLDnJqFDxxgXpseg/lib/python3.14/site-packages/mcpygen/__init__.py\", line 1, in <module>\n    from mcpygen.apigen import generate_mcp_sources\n  File \"/Users/runner/.cache/uv/archive-v0/cLDnJqFDxxgXpseg/lib/python3.14/site-packages/mcpygen/apigen.py\", line 16, in <module>\n    from mcpygen.client import MCPClient\n  File \"/Users/runner/.cache/uv/archive-v0/cLDnJqFDxxgXpseg/lib/python3.14/site-packages/mcpygen/client.py\", line 9, in <module>\n    from mcp.client.streamable_http import streamablehttp_client\nImportError: cannot import name 'streamablehttp_client' from 'mcp.client.streamable_http' (/Users/runner/.cache/uv/archive-v0/cLDnJqFDxxgXpseg/lib/python3.14/site-packages/mcp/client/streamable_http.py)",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading jedi (4.7MiB)\nDownloading black (1.8MiB)\nDownloading debugpy (3.8MiB)\n Downloaded black\n Downloaded debugpy\n Downloaded jedi\nInstalled 124 packages in 580ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/pasbx43a_0pDAW__/bin/ipybox\", line 6, in <module>\n    from ipybox.mcp_server import cli\n  File \"/home/runner/.cache/uv/archive-v0/pasbx43a_0pDAW__/lib/python3.13/site-packages/ipybox/__init__.py\", line 1, in <module>\n    from mcpygen import ApprovalRequest, generate_mcp_sources\n  File \"/home/runner/.cache/uv/archive-v0/pasbx43a_0pDAW__/lib/python3.13/site-packages/mcpygen/__init__.py\", line 1, in <module>\n    from mcpygen.apigen import generate_mcp_sources\n  File \"/home/runner/.cache/uv/archive-v0/pasbx43a_0pDAW__/lib/python3.13/site-packages/mcpygen/apigen.py\", line 16, in <module>\n    from mcpygen.client import MCPClient\n  File \"/home/runner/.cache/uv/archive-v0/pasbx43a_0pDAW__/lib/python3.13/site-packages/mcpygen/client.py\", line 9, in <module>\n    from mcp.client.streamable_http import streamablehttp_client\nImportError: cannot import name 'streamablehttp_client' from 'mcp.client.streamable_http' (/home/runner/.cache/uv/archive-v0/pasbx43a_0pDAW__/lib/python3.13/site-packages/mcp/client/streamable_http.py)",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading jedi (4.7MiB)\nDownloading black (1.4MiB)\n Downloaded black\n Downloaded jedi\nInstalled 125 packages in 33.49s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\2pWhl4fkzvCym_za\\Scripts\\ipybox.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\2pWhl4fkzvCym_za\\Lib\\site-packages\\ipybox\\__init__.py\", line 1, in <module>\r\n    from mcpygen import ApprovalRequest, generate_mcp_sources\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\2pWhl4fkzvCym_za\\Lib\\site-packages\\mcpygen\\__init__.py\", line 1, in <module>\r\n    from mcpygen.apigen import generate_mcp_sources\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\2pWhl4fkzvCym_za\\Lib\\site-packages\\mcpygen\\apigen.py\", line 16, in <module>\r\n    from mcpygen.client import MCPClient\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\2pWhl4fkzvCym_za\\Lib\\site-packages\\mcpygen\\client.py\", line 9, in <module>\r\n    from mcp.client.streamable_http import streamablehttp_client\r\nImportError: cannot import name 'streamablehttp_client' from 'mcp.client.streamable_http' (C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\2pWhl4fkzvCym_za\\Lib\\site-packages\\mcp\\client\\streamable_http.py). Did you mean: 'streamable_http_client'?",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.gradion-ai/ipybox",
+  "slug": "io.github.gradion-ai__ipybox"
+}

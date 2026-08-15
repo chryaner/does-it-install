@@ -1,0 +1,24 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 1 package in 3ms\nusage: thingctx [-h] [--version]\n                {import,lint,auth,list,invoke,registry,skill} ...\nthingctx: error: argument command: invalid choice: 'thingctx[mcp,http,mqtt,media,filesystem,authz]' (choose from 'import', 'lint', 'auth', 'list', 'invoke', 'registry', 'skill')",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 1 package in 6ms\nusage: thingctx [-h] [--version]\n                {import,lint,auth,list,invoke,registry,skill} ...\nthingctx: error: argument command: invalid choice: 'thingctx[mcp,http,mqtt,media,filesystem,authz]' (choose from 'import', 'lint', 'auth', 'list', 'invoke', 'registry', 'skill')",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "com.thingctx/thingctx",
+  "slug": "com.thingctx__thingctx"
+}

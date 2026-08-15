@@ -1,0 +1,72 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "context_query",
+          "memory_write",
+          "memory_search",
+          "memory_forget",
+          "memory_list",
+          "memory_get",
+          "memory_update",
+          "memory_supersede",
+          "memory_export",
+          "eval_run",
+          "trace_get"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "context_query",
+          "memory_write",
+          "memory_search",
+          "memory_forget",
+          "memory_list",
+          "memory_get",
+          "memory_update",
+          "memory_supersede",
+          "memory_export",
+          "eval_run",
+          "trace_get"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "context_query",
+          "memory_write",
+          "memory_search",
+          "memory_forget",
+          "memory_list",
+          "memory_get",
+          "memory_update",
+          "memory_supersede",
+          "memory_export",
+          "eval_run",
+          "trace_get"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.Lore-Context/lore-context-mcp",
+  "slug": "io.github.lore-context__lore-context-mcp"
+}

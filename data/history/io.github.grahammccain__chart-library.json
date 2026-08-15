@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 33 packages in 158ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/ImBgJJCaBp74pRmd/bin/chartlibrary-mcp\", line 6, in <module>\n    from mcp_server import main\n  File \"/Users/runner/.cache/uv/archive-v0/ImBgJJCaBp74pRmd/lib/python3.14/site-packages/mcp_server.py\", line 59, in <module>\n    from dotenv import load_dotenv\nModuleNotFoundError: No module named 'dotenv'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 33 packages in 25ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/XOJOKtGa_Krf0ki1/bin/chartlibrary-mcp\", line 6, in <module>\n    from mcp_server import main\n  File \"/home/runner/.cache/uv/archive-v0/XOJOKtGa_Krf0ki1/lib/python3.13/site-packages/mcp_server.py\", line 59, in <module>\n    from dotenv import load_dotenv\nModuleNotFoundError: No module named 'dotenv'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 35 packages in 8.12s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\ri0bor3Qp9Ux6Xvg\\Scripts\\chartlibrary-mcp.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\ri0bor3Qp9Ux6Xvg\\Lib\\site-packages\\mcp_server.py\", line 59, in <module>\r\n    from dotenv import load_dotenv\r\nModuleNotFoundError: No module named 'dotenv'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.grahammccain/chart-library",
+  "slug": "io.github.grahammccain__chart-library"
+}

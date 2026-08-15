@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T04:06:28.268Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: , \"  Run:\" is not valid JSON\nUnexpected token 'h', \"    hypertool-\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'A', \"Advanced Options:\" is not valid JSON\nUnexpected token 'h', \"  hypertool-\"... is not valid JSON\nUnexpected token 'h', \"  hypertool-\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'T', \"Tool Organization:\" is not valid JSON\nUnexpected token 'B', \"  By default\"... is not valid JSON\nUnexpected token 'T', \"  To show al\"... is not valid JSON",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-15T01:49:17.022Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: , \"  Run:\" is not valid JSON\nUnexpected token 'h', \"    hypertool-\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'A', \"Advanced Options:\" is not valid JSON\nUnexpected token 'h', \"  hypertool-\"... is not valid JSON\nUnexpected token 'h', \"  hypertool-\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'T', \"Tool Organization:\" is not valid JSON\nUnexpected token 'B', \"  By default\"... is not valid JSON\nUnexpected token 'T', \"  To show al\"... is not valid JSON",
         "method": "npm",
@@ -18,6 +25,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T04:06:32.275Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: , \"  Run:\" is not valid JSON\nUnexpected token 'h', \"    hypertool-\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'A', \"Advanced Options:\" is not valid JSON\nUnexpected token 'h', \"  hypertool-\"... is not valid JSON\nUnexpected token 'h', \"  hypertool-\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'T', \"Tool Organization:\" is not valid JSON\nUnexpected token 'B', \"  By default\"... is not valid JSON\nUnexpected token 'T', \"  To show al\"... is not valid JSON",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-15T01:49:20.415Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: , \"  Run:\" is not valid JSON\nUnexpected token 'h', \"    hypertool-\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'A', \"Advanced Options:\" is not valid JSON\nUnexpected token 'h', \"  hypertool-\"... is not valid JSON\nUnexpected token 'h', \"  hypertool-\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'T', \"Tool Organization:\" is not valid JSON\nUnexpected token 'B', \"  By default\"... is not valid JSON\nUnexpected token 'T', \"  To show al\"... is not valid JSON",
         "method": "npm",
@@ -33,6 +47,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: , \"  Run:\" is not valid JSON\nUnexpected token 'h', \"    hypertool-\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'A', \"Advanced Options:\" is not valid JSON\nUnexpected token 'h', \"  hypertool-\"... is not valid JSON\nUnexpected token 'h', \"  hypertool-\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'T', \"Tool Organization:\" is not valid JSON\nUnexpected token 'B', \"  By default\"... is not valid JSON\nUnexpected token 'T', \"  To show al\"... is not valid JSON",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-15T01:50:04.636Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: , \"  Run:\" is not valid JSON\nUnexpected token 'h', \"    hypertool-\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'A', \"Advanced Options:\" is not valid JSON\nUnexpected token 'h', \"  hypertool-\"... is not valid JSON\nUnexpected token 'h', \"  hypertool-\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'T', \"Tool Organization:\" is not valid JSON\nUnexpected token 'B', \"  By default\"... is not valid JSON\nUnexpected token 'T', \"  To show al\"... is not valid JSON",

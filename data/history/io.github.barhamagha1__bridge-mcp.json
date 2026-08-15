@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading pyobjc-core (6.1MiB)\n   Building pyscreeze==1.0.1\n   Building pyautogui==0.9.54\n   Building pytweening==1.2.0\n   Building mouseinfo==0.1.3\n   Building pyrect==0.2.0\n   Building pygetwindow==0.0.9\n      Built pyscreeze==1.0.1\n      Built mouseinfo==0.1.3\n      Built pyautogui==0.9.54\n Downloaded pyobjc-core\n      Built pytweening==1.2.0\n      Built pyrect==0.2.0\n      Built pygetwindow==0.0.9\nInstalled 241 packages in 498ms\nPackage `bridge-mcp` does not provide any executables.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nBuilding pytweening==1.2.0\n   Building pyscreeze==1.0.1\n   Building pygetwindow==0.0.9\n   Building python3-xlib==0.15\n   Building pyautogui==0.9.54\n   Building pyrect==0.2.0\n   Building mouseinfo==0.1.3\nDownloading rapidfuzz (3.0MiB)\nDownloading pillow (6.6MiB)\n Downloaded rapidfuzz\n Downloaded pillow\n      Built pytweening==1.2.0\n      Built pygetwindow==0.0.9\n      Built pyscreeze==1.0.1\n      Built python3-xlib==0.15\n      Built pyrect==0.2.0\n      Built pyautogui==0.9.54\n      Built mouseinfo==0.1.3\nInstalled 87 packages in 70ms\nPackage `bridge-mcp` does not provide any executables.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nBuilding pytweening==1.2.0\n   Building pyrect==0.2.0\n   Building pyscreeze==1.0.1\n   Building pyautogui==0.9.54\n   Building mouseinfo==0.1.3\n   Building pygetwindow==0.0.9\n      Built pyrect==0.2.0\n      Built pytweening==1.2.0\n      Built pyscreeze==1.0.1\n      Built pyautogui==0.9.54\n      Built mouseinfo==0.1.3\n      Built pygetwindow==0.0.9\nInstalled 87 packages in 19.82s\nPackage `bridge-mcp` does not provide any executables.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.BarhamAgha1/bridge-mcp",
+  "slug": "io.github.barhamagha1__bridge-mcp"
+}

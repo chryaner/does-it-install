@@ -1,0 +1,41 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n⚠️  Cannot access Docker socket: /var/run/docker.sock - ENOENT: no such file or directory, stat '/var/run/docker.sock'\n⚠️  Docker operations require a valid Docker connection\n⚠️  Consider: 1) Start Docker Desktop/Rancher Desktop/OrbStack/Podman, 2) Set DOCKER_HOST, 3) Specify --docker-socket <path>\n❌ Configuration errors:\n  • No valid Docker socket found\n\nUse --help for usage information",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "analyze-repo",
+          "fix-dockerfile",
+          "generate-dockerfile",
+          "generate-github-workflow",
+          "generate-k8s-manifests",
+          "build-image-context",
+          "ops",
+          "prepare-cluster",
+          "push-image",
+          "scan-image",
+          "tag-image",
+          "verify-deploy",
+          "create-containerization-policy",
+          "kind-loop",
+          "aks-loop"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.Azure/containerization-assist",
+  "slug": "io.github.azure__containerization-assist"
+}

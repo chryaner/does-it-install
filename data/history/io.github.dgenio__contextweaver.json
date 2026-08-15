@@ -1,0 +1,24 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 45 packages in 232ms\nUsage: contextweaver mcp serve [OPTIONS]\nTry 'contextweaver mcp serve --help' for help.\n╭─ Error ──────────────────────────────────────────────────────────────────────╮\n│ Invalid value for --catalog: provide a catalog via --catalog or a config     │\n│ file via --config                                                            │\n╰──────────────────────────────────────────────────────────────────────────────╯",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 45 packages in 47ms\nUsage: contextweaver mcp serve [OPTIONS]\nTry 'contextweaver mcp serve --help' for help.\n╭─ Error ──────────────────────────────────────────────────────────────────────╮\n│ Invalid value for --catalog: provide a catalog via --catalog or a config     │\n│ file via --config                                                            │\n╰──────────────────────────────────────────────────────────────────────────────╯",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.dgenio/contextweaver",
+  "slug": "io.github.dgenio__contextweaver"
+}

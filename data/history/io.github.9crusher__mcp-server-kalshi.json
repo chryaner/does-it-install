@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading pydantic-core (1.8MiB)\n Downloaded pydantic-core\nInstalled 35 packages in 266ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/HCLQlU3lY0vhfIns/bin/mcp-server-kalshi\", line 6, in <module>\n    from mcp_server_kalshi.server import main\n  File \"/Users/runner/.cache/uv/archive-v0/HCLQlU3lY0vhfIns/lib/python3.14/site-packages/mcp_server_kalshi/server.py\", line 544, in <module>\n    @server.list_tools()\n     ^^^^^^^^^^^^^^^^^\nAttributeError: 'Server' object has no attribute 'list_tools'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading pydantic-core (2.0MiB)\n Downloaded pydantic-core\nInstalled 35 packages in 23ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/pqI5DQgAvPcjHzsh/bin/mcp-server-kalshi\", line 6, in <module>\n    from mcp_server_kalshi.server import main\n  File \"/home/runner/.cache/uv/archive-v0/pqI5DQgAvPcjHzsh/lib/python3.13/site-packages/mcp_server_kalshi/server.py\", line 544, in <module>\n    @server.list_tools()\n     ^^^^^^^^^^^^^^^^^\nAttributeError: 'Server' object has no attribute 'list_tools'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading pydantic-core (1.9MiB)\n Downloaded pydantic-core\nInstalled 37 packages in 4.79s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\p3_eZmXkAlaokGY4\\Scripts\\mcp-server-kalshi.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\p3_eZmXkAlaokGY4\\Lib\\site-packages\\mcp_server_kalshi\\server.py\", line 544, in <module>\r\n    @server.list_tools()\r\n     ^^^^^^^^^^^^^^^^^\r\nAttributeError: 'Server' object has no attribute 'list_tools'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.9crusher/mcp-server-kalshi",
+  "slug": "io.github.9crusher__mcp-server-kalshi"
+}

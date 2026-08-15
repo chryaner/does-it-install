@@ -1,0 +1,24 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading pglast (1.4MiB)\nDownloading psycopg-binary (4.5MiB)\n Downloaded psycopg-binary\n Downloaded pglast\nInstalled 44 packages in 218ms\nmcpg: configuration error: MCPG_DATABASE_URL is required",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading psycopg-binary (4.9MiB)\nDownloading pglast (6.0MiB)\n Downloaded psycopg-binary\n Downloaded pglast\nInstalled 44 packages in 43ms\nmcpg: configuration error: MCPG_DATABASE_URL is required",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.devopam/mcpg",
+  "slug": "io.github.devopam__mcpg"
+}

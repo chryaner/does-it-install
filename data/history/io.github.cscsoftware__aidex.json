@@ -1,0 +1,68 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "aidex_init",
+          "aidex_query",
+          "aidex_status",
+          "aidex_signature",
+          "aidex_signatures",
+          "aidex_update",
+          "aidex_remove",
+          "aidex_summary",
+          "aidex_tree",
+          "aidex_describe",
+          "aidex_link",
+          "aidex_unlink",
+          "aidex_links",
+          "aidex_scan",
+          "aidex_files",
+          "aidex_note",
+          "aidex_session",
+          "aidex_viewer",
+          "aidex_task",
+          "aidex_tasks"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "aidex_init",
+          "aidex_query",
+          "aidex_status",
+          "aidex_signature",
+          "aidex_signatures",
+          "aidex_update",
+          "aidex_remove",
+          "aidex_summary",
+          "aidex_tree",
+          "aidex_describe",
+          "aidex_link",
+          "aidex_unlink",
+          "aidex_links",
+          "aidex_scan",
+          "aidex_files",
+          "aidex_note",
+          "aidex_session",
+          "aidex_viewer",
+          "aidex_task",
+          "aidex_tasks"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.CSCSoftware/aidex",
+  "slug": "io.github.cscsoftware__aidex"
+}

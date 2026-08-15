@@ -1,0 +1,24 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: Unexpected token 'P', \"Patching P\"... is not valid JSON\nUnexpected token 'U', \"Usage: npx\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'O', \"Options:\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: Unexpected token 'P', \"Patching P\"... is not valid JSON\nUnexpected token 'U', \"Usage: npx\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'O', \"Options:\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.hashgraph-online/hashnet",
+  "slug": "io.github.hashgraph-online__hashnet"
+}

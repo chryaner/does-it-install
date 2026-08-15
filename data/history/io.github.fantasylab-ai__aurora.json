@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading matplotlib (8.9MiB)\nDownloading fonttools (2.7MiB)\nDownloading statsmodels (9.5MiB)\n   Building ruptures==1.1.10\n Downloaded fonttools\n Downloaded matplotlib\n Downloaded statsmodels\n      Built ruptures==1.1.10\nInstalled 58 packages in 770ms\nusage: aurora-mcp [-h] [--allow-root PATH] [--list-tools]\naurora-mcp: error: argument --allow-root: expected one argument",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading fonttools (4.7MiB)\nDownloading statsmodels (9.8MiB)\nDownloading kiwisolver (1.4MiB)\nDownloading matplotlib (9.6MiB)\nDownloading ruptures (1.3MiB)\n Downloaded kiwisolver\n Downloaded ruptures\n Downloaded fonttools\n Downloaded matplotlib\n Downloaded statsmodels\nInstalled 58 packages in 89ms\nusage: aurora-mcp [-h] [--allow-root PATH] [--list-tools]\naurora-mcp: error: argument --allow-root: expected one argument",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading fonttools (2.2MiB)\nDownloading statsmodels (9.1MiB)\nDownloading matplotlib (8.9MiB)\n Downloaded fonttools\n Downloaded matplotlib\n Downloaded statsmodels\nInstalled 61 packages in 42.35s\nusage: aurora-mcp [-h] [--allow-root PATH] [--list-tools]\r\naurora-mcp: error: argument --allow-root: expected one argument",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.FantasyLab-ai/aurora",
+  "slug": "io.github.fantasylab-ai__aurora"
+}

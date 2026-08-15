@@ -1,0 +1,44 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "get_matches",
+          "get_match_detail",
+          "get_team_schedule",
+          "get_standings",
+          "get_top_scorers",
+          "get_player",
+          "get_bracket",
+          "get_tracker"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "get_matches",
+          "get_match_detail",
+          "get_team_schedule",
+          "get_standings",
+          "get_top_scorers",
+          "get_player",
+          "get_bracket",
+          "get_tracker"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.Backspace-me/sportscore-mcp",
+  "slug": "io.github.backspace-me__sportscore-mcp"
+}

@@ -1,0 +1,24 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: korext [options] [command]\n\nKorext Command Line Interface - Enterprise Policy Enforcement\n\nOptions:\n  -V, --version            output the version number\n  -h, --help               display help for command\n\nCommands:\n  login [token]            Authenticate with the Korext platform using a\n                           personal access token\n  status                   Check current authentication and backend connection\n                           status\n  packs [options] <list>   List available policy packs from the server\n  industries               List all supported industries and their associated\n                           policy packs\n  init [options]           Initialize a korext.json configuration file for your\n                           project\n  org-policy               Display the organisation governance policy for your\n                           account\n  enforce [options] [dir]  Statically analyze files in a directory against\n                           Korext policies\n  rules                    Rule definition management commands\n  bundle                   Proof bundle management commands\n  policy                   Local policy document processing commands\n  watch [options] [dir]    Continuously enforce policies on file changes (live\n                           development mode)\n  help [command]           display help for command",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: korext [options] [command]\n\nKorext Command Line Interface - Enterprise Policy Enforcement\n\nOptions:\n  -V, --version            output the version number\n  -h, --help               display help for command\n\nCommands:\n  login [token]            Authenticate with the Korext platform using a\n                           personal access token\n  status                   Check current authentication and backend connection\n                           status\n  packs [options] <list>   List available policy packs from the server\n  industries               List all supported industries and their associated\n                           policy packs\n  init [options]           Initialize a korext.json configuration file for your\n                           project\n  org-policy               Display the organisation governance policy for your\n                           account\n  enforce [options] [dir]  Statically analyze files in a directory against\n                           Korext policies\n  rules                    Rule definition management commands\n  bundle                   Proof bundle management commands\n  policy                   Local policy document processing commands\n  watch [options] [dir]    Continuously enforce policies on file changes (live\n                           development mode)\n  help [command]           display help for command",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.Korext/governance",
+  "slug": "io.github.korext__governance"
+}

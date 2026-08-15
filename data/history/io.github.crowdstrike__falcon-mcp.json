@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading crowdstrike-falconpy (1.2MiB)\n Downloaded crowdstrike-falconpy\nInstalled 34 packages in 120ms\n2026-08-15 04:07:15,718 - falcon_mcp.server - INFO - Initializing Falcon MCP Server\n2026-08-15 04:07:15,984 - falcon_mcp.server - ERROR - Failed to authenticate with the Falcon API (HTTP 401). Unauthorized: Please provide trace-id='b0d1ac59-047e-46d7-a2bd-3cd113eafb37' to support. Hint: Verify FALCON_CLIENT_ID and FALCON_CLIENT_SECRET are correct and the API key has not been revoked.\n2026-08-15 04:07:15,984 - falcon_mcp.server - ERROR - Runtime error: Failed to authenticate with the Falcon API (HTTP 401). Unauthorized: Please provide trace-id='b0d1ac59-047e-46d7-a2bd-3cd113eafb37' to support. Hint: Verify FALCON_CLIENT_ID and FALCON_CLIENT_SECRET are correct and the API key has not been revoked.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading crowdstrike-falconpy (1.2MiB)\n Downloaded crowdstrike-falconpy\nInstalled 34 packages in 34ms\n2026-08-15 04:07:13,126 - falcon_mcp.server - INFO - Initializing Falcon MCP Server\n2026-08-15 04:07:13,168 - falcon_mcp.server - ERROR - Failed to authenticate with the Falcon API (HTTP 401). Unauthorized: Please provide trace-id='1772cf57-347d-478a-8b52-a7adbdfdd637' to support. Hint: Verify FALCON_CLIENT_ID and FALCON_CLIENT_SECRET are correct and the API key has not been revoked.\n2026-08-15 04:07:13,168 - falcon_mcp.server - ERROR - Runtime error: Failed to authenticate with the Falcon API (HTTP 401). Unauthorized: Please provide trace-id='1772cf57-347d-478a-8b52-a7adbdfdd637' to support. Hint: Verify FALCON_CLIENT_ID and FALCON_CLIENT_SECRET are correct and the API key has not been revoked.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading crowdstrike-falconpy (1.2MiB)\n Downloaded crowdstrike-falconpy\nInstalled 36 packages in 3.68s\n2026-08-15 04:20:13,672 - falcon_mcp.server - INFO - Initializing Falcon MCP Server\r\n2026-08-15 04:20:14,066 - falcon_mcp.server - ERROR - Failed to authenticate with the Falcon API (HTTP 401). Unauthorized: Please provide trace-id='ef040c51-4b18-407e-bec5-441ab88a7aed' to support. Hint: Verify FALCON_CLIENT_ID and FALCON_CLIENT_SECRET are correct and the API key has not been revoked.\r\n2026-08-15 04:20:14,066 - falcon_mcp.server - ERROR - Runtime error: Failed to authenticate with the Falcon API (HTTP 401). Unauthorized: Please provide trace-id='ef040c51-4b18-407e-bec5-441ab88a7aed' to support. Hint: Verify FALCON_CLIENT_ID and FALCON_CLIENT_SECRET are correct and the API key has not been revoked.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "io.github.CrowdStrike/falcon-mcp",
+  "slug": "io.github.crowdstrike__falcon-mcp"
+}

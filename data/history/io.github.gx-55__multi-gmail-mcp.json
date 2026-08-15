@@ -1,0 +1,84 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "list_accounts",
+          "initiate_auth",
+          "complete_auth",
+          "remove_account",
+          "search_emails",
+          "get_email",
+          "send_email",
+          "reply_to_email",
+          "create_draft",
+          "list_labels",
+          "add_label",
+          "remove_label",
+          "archive_email",
+          "mark_as_read",
+          "mark_as_unread"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "list_accounts",
+          "initiate_auth",
+          "complete_auth",
+          "remove_account",
+          "search_emails",
+          "get_email",
+          "send_email",
+          "reply_to_email",
+          "create_draft",
+          "list_labels",
+          "add_label",
+          "remove_label",
+          "archive_email",
+          "mark_as_read",
+          "mark_as_unread"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "list_accounts",
+          "initiate_auth",
+          "complete_auth",
+          "remove_account",
+          "search_emails",
+          "get_email",
+          "send_email",
+          "reply_to_email",
+          "create_draft",
+          "list_labels",
+          "add_label",
+          "remove_label",
+          "archive_email",
+          "mark_as_read",
+          "mark_as_unread"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.gx-55/multi-gmail-mcp",
+  "slug": "io.github.gx-55__multi-gmail-mcp"
+}

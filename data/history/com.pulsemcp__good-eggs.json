@@ -1,0 +1,72 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "search_for_grocery",
+          "get_favorites",
+          "get_grocery_details",
+          "add_to_cart",
+          "search_for_freebie_groceries",
+          "get_list_of_past_order_dates",
+          "get_past_order_groceries",
+          "add_favorite",
+          "remove_favorite",
+          "remove_from_cart",
+          "get_cart"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "search_for_grocery",
+          "get_favorites",
+          "get_grocery_details",
+          "add_to_cart",
+          "search_for_freebie_groceries",
+          "get_list_of_past_order_dates",
+          "get_past_order_groceries",
+          "add_favorite",
+          "remove_favorite",
+          "remove_from_cart",
+          "get_cart"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "search_for_grocery",
+          "get_favorites",
+          "get_grocery_details",
+          "add_to_cart",
+          "search_for_freebie_groceries",
+          "get_list_of_past_order_dates",
+          "get_past_order_groceries",
+          "add_favorite",
+          "remove_favorite",
+          "remove_from_cart",
+          "get_cart"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.pulsemcp/good-eggs",
+  "slug": "com.pulsemcp__good-eggs"
+}

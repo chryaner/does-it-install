@@ -1,0 +1,72 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "search_library",
+          "list_books",
+          "search_translations",
+          "search_concept",
+          "search_within_book",
+          "get_book",
+          "get_book_text",
+          "get_quote",
+          "search_images",
+          "check_duplicate",
+          "submit_feedback"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "search_library",
+          "list_books",
+          "search_translations",
+          "search_concept",
+          "search_within_book",
+          "get_book",
+          "get_book_text",
+          "get_quote",
+          "search_images",
+          "check_duplicate",
+          "submit_feedback"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "search_library",
+          "list_books",
+          "search_translations",
+          "search_concept",
+          "search_within_book",
+          "get_book",
+          "get_book_text",
+          "get_quote",
+          "search_images",
+          "check_duplicate",
+          "submit_feedback"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.Embassy-of-the-Free-Mind/source-library",
+  "slug": "io.github.embassy-of-the-free-mind__source-library"
+}

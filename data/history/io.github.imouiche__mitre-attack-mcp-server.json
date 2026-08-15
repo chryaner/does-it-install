@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\n  File \"<frozen runpy>\", line 203, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-cN8fdi/node_modules/@imouiche/mitre-attack-mcp-server/src/mitre_mcp_server/server.py\", line 8, in <module>\n    from mitreattack import download_stix, release_info\nModuleNotFoundError: No module named 'mitreattack'",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/tmp/does-it-install/dii-npm-LqfqVe/node_modules/@imouiche/mitre-attack-mcp-server/src/mitre_mcp_server/server.py\", line 8, in <module>\n    from mitreattack import download_stix, release_info\nModuleNotFoundError: No module named 'mitreattack'",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-Ew2vvV\\node_modules\\@imouiche\\mitre-attack-mcp-server\\src\\mitre_mcp_server\\server.py\", line 8, in <module>\r\n    from mitreattack import download_stix, release_info\r\nModuleNotFoundError: No module named 'mitreattack'",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.imouiche/mitre-attack-mcp-server",
+  "slug": "io.github.imouiche__mitre-attack-mcp-server"
+}

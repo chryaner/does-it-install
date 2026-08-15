@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "errorExcerpt": "connect failed: SSE error: Non-200 status code (404)",
+        "method": "remote-sse",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "connect_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "errorExcerpt": "connect failed: SSE error: Non-200 status code (404)",
+        "method": "remote-sse",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "connect_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "errorExcerpt": "connect failed: SSE error: Non-200 status code (404)",
+        "method": "remote-sse",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "connect_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.humanjesse/textarttools-mcp",
+  "slug": "io.github.humanjesse__textarttools-mcp"
+}

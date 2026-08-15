@@ -1,0 +1,99 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "get_setup_instructions",
+          "list_devices",
+          "driver_session",
+          "webview_find_element",
+          "read_logs",
+          "webview_interact",
+          "webview_screenshot",
+          "webview_keyboard",
+          "webview_wait_for",
+          "webview_get_styles",
+          "webview_execute_js",
+          "webview_dom_snapshot",
+          "webview_select_element",
+          "webview_get_pointed_element",
+          "ipc_execute_command",
+          "ipc_monitor",
+          "ipc_get_captured",
+          "ipc_emit_event",
+          "ipc_get_backend_state",
+          "manage_window"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "get_setup_instructions",
+          "list_devices",
+          "driver_session",
+          "webview_find_element",
+          "read_logs",
+          "webview_interact",
+          "webview_screenshot",
+          "webview_keyboard",
+          "webview_wait_for",
+          "webview_get_styles",
+          "webview_execute_js",
+          "webview_dom_snapshot",
+          "webview_select_element",
+          "webview_get_pointed_element",
+          "ipc_execute_command",
+          "ipc_monitor",
+          "ipc_get_captured",
+          "ipc_emit_event",
+          "ipc_get_backend_state",
+          "manage_window"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "get_setup_instructions",
+          "list_devices",
+          "driver_session",
+          "webview_find_element",
+          "read_logs",
+          "webview_interact",
+          "webview_screenshot",
+          "webview_keyboard",
+          "webview_wait_for",
+          "webview_get_styles",
+          "webview_execute_js",
+          "webview_dom_snapshot",
+          "webview_select_element",
+          "webview_get_pointed_element",
+          "ipc_execute_command",
+          "ipc_monitor",
+          "ipc_get_captured",
+          "ipc_emit_event",
+          "ipc_get_backend_state",
+          "manage_window"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.hypothesi/mcp-server-tauri",
+  "slug": "io.github.hypothesi__mcp-server-tauri"
+}

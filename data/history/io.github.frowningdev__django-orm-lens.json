@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 1 package in 54ms\nusage: django-orm-lens [-h] [--version]\n                       {scan,describe,hover,list,er,diff,nplusone,n-plus-one,migration-risk,suggest-indexes,indexes,signals,signal-graph,migration-deps,migration-dependencies,cascade,cascade-preview,impact,blast-radius,blast,drift,stats-sql,mcp} ...\ndjango-orm-lens: error: argument command: invalid choice: 'django-orm-lens-mcp' (choose from 'scan', 'describe', 'hover', 'list', 'er', 'diff', 'nplusone', 'n-plus-one', 'migration-risk', 'suggest-indexes', 'indexes', 'signals', 'signal-graph', 'migration-deps', 'migration-dependencies', 'cascade', 'cascade-preview', 'impact', 'blast-radius', 'blast', 'drift', 'stats-sql', 'mcp')",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 1 package in 4ms\nusage: django-orm-lens [-h] [--version]\n                       {scan,describe,hover,list,er,diff,nplusone,n-plus-one,migration-risk,suggest-indexes,indexes,signals,signal-graph,migration-deps,migration-dependencies,cascade,cascade-preview,impact,blast-radius,blast,drift,stats-sql,mcp} ...\ndjango-orm-lens: error: argument command: invalid choice: 'django-orm-lens-mcp' (choose from 'scan', 'describe', 'hover', 'list', 'er', 'diff', 'nplusone', 'n-plus-one', 'migration-risk', 'suggest-indexes', 'indexes', 'signals', 'signal-graph', 'migration-deps', 'migration-dependencies', 'cascade', 'cascade-preview', 'impact', 'blast-radius', 'blast', 'drift', 'stats-sql', 'mcp')",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 1 package in 290ms\nusage: django-orm-lens [-h] [--version]\r\n                       {scan,describe,hover,list,er,diff,nplusone,n-plus-one,migration-risk,suggest-indexes,indexes,signals,signal-graph,migration-deps,migration-dependencies,cascade,cascade-preview,impact,blast-radius,blast,drift,stats-sql,mcp}\r\n                       ...\r\ndjango-orm-lens: error: argument command: invalid choice: 'django-orm-lens-mcp' (choose from scan, describe, hover, list, er, diff, nplusone, n-plus-one, migration-risk, suggest-indexes, indexes, signals, signal-graph, migration-deps, migration-dependencies, cascade, cascade-preview, impact, blast-radius, blast, drift, stats-sql, mcp)",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.FROWNINGdev/django-orm-lens",
+  "slug": "io.github.frowningdev__django-orm-lens"
+}

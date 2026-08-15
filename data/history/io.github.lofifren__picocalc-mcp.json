@@ -1,0 +1,57 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "picocalc_status",
+          "picocalc_exec",
+          "picocalc_push",
+          "picocalc_list_files",
+          "picocalc_read_file",
+          "picocalc_reset"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "picocalc_status",
+          "picocalc_exec",
+          "picocalc_push",
+          "picocalc_list_files",
+          "picocalc_read_file",
+          "picocalc_reset"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "picocalc_status",
+          "picocalc_exec",
+          "picocalc_push",
+          "picocalc_list_files",
+          "picocalc_read_file",
+          "picocalc_reset"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.LofiFren/picocalc-mcp",
+  "slug": "io.github.lofifren__picocalc-mcp"
+}

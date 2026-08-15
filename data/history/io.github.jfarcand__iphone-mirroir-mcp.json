@@ -1,0 +1,24 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "errorExcerpt": "iphone-mirroir-mcp declares bin \"bin/iphone-mirroir-mcp\" but /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-Eat8cr/node_modules/iphone-mirroir-mcp/bin/iphone-mirroir-mcp does not exist",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "spawn_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "errorExcerpt": "npm install iphone-mirroir-mcp@0.4.1 exited with code 1\n--- stderr (tail) ---\nnpm error code EBADPLATFORM\nnpm error notsup Unsupported platform for iphone-mirroir-mcp@0.4.1: wanted {\"os\":\"darwin\"} (current: {\"os\":\"linux\"})\nnpm error notsup Valid os:  darwin\nnpm error notsup Actual os: linux\nnpm error A complete log of this run can be found in: /tmp/does-it-install/dii-npm-OlpkGp/.npm-cache/_logs/2026-08-15T04_07_36_545Z-debug-0.log",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "install_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.jfarcand/iphone-mirroir-mcp",
+  "slug": "io.github.jfarcand__iphone-mirroir-mcp"
+}

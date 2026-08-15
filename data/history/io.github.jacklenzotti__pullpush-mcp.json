@@ -1,0 +1,41 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "search_comments",
+          "search_submissions"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "search_comments",
+          "search_submissions"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "errorExcerpt": "listTools failed: MCP error -32601: Method not found\n--- stderr (tail) ---\nAuto-registering modules from: [\n  '\\\\C:\\\\Users\\\\RUNNER%7E1\\\\AppData\\\\Local\\\\Temp\\\\does-it-install\\\\dii-npm-gTADfc\\\\node_modules\\\\pullpush-mcp\\\\build\\\\tools\\\\*.js',\n  '\\\\C:\\\\Users\\\\RUNNER%7E1\\\\AppData\\\\Local\\\\Temp\\\\does-it-install\\\\dii-npm-gTADfc\\\\node_modules\\\\pullpush-mcp\\\\build\\\\resources\\\\*.js',\n  '\\\\C:\\\\Users\\\\RUNNER%7E1\\\\AppData\\\\Local\\\\Temp\\\\does-it-install\\\\dii-npm-gTADfc\\\\node_modules\\\\pullpush-mcp\\\\build\\\\prompts\\\\*.js'\n]\nFound 0 module files to register\n\nRegistration complete: 0 successful, 0 failed\nPullPush MCP Server running on stdio",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "tools_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.jacklenzotti/pullpush-mcp",
+  "slug": "io.github.jacklenzotti__pullpush-mcp"
+}

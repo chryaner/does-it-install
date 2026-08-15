@@ -1,0 +1,24 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading alfanous3 (62.7MiB)\n Downloaded alfanous3\nInstalled 33 packages in 184ms\nAn executable named `alfanous3-mcp` is not provided by package `alfanous3-mcp`.\nThe following executables are available:\n- alfanous-mcp\n\nUse `uv tool run --from alfanous3-mcp alfanous-mcp` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading alfanous3 (62.7MiB)\n Downloaded alfanous3\nInstalled 33 packages in 19ms\nAn executable named `alfanous3-mcp` is not provided by package `alfanous3-mcp`.\nThe following executables are available:\n- alfanous-mcp\n\nUse `uv tool run --from alfanous3-mcp alfanous-mcp` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.Alfanous-team/alfanous",
+  "slug": "io.github.alfanous-team__alfanous"
+}

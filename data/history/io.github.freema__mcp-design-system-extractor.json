@@ -1,0 +1,66 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "list_components",
+          "get_component_html",
+          "search_components",
+          "get_component_dependencies",
+          "get_theme_info",
+          "get_external_css",
+          "job_status",
+          "job_cancel",
+          "job_list"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "list_components",
+          "get_component_html",
+          "search_components",
+          "get_component_dependencies",
+          "get_theme_info",
+          "get_external_css",
+          "job_status",
+          "job_cancel",
+          "job_list"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "list_components",
+          "get_component_html",
+          "search_components",
+          "get_component_dependencies",
+          "get_theme_info",
+          "get_external_css",
+          "job_status",
+          "job_cancel",
+          "job_list"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.freema/mcp-design-system-extractor",
+  "slug": "io.github.freema__mcp-design-system-extractor"
+}

@@ -2,6 +2,27 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T04:06:28.791Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "get_today",
+          "search_stock",
+          "get_stock",
+          "get_rankings",
+          "get_market_summary",
+          "get_data_urls",
+          "get_earnings",
+          "get_history",
+          "get_disclosure_impact",
+          "get_earnings_calendar",
+          "get_disclosures",
+          "list_stocks"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:18.419Z",
         "method": "remote-http",
         "runId": "2026-08-15T01-49-18Z-df0f6c",
@@ -24,6 +45,27 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "get_today",
+          "search_stock",
+          "get_stock",
+          "get_rankings",
+          "get_market_summary",
+          "get_data_urls",
+          "get_earnings",
+          "get_history",
+          "get_disclosure_impact",
+          "get_earnings_calendar",
+          "get_disclosures",
+          "list_stocks"
+        ]
+      },
       {
         "date": "2026-08-15T01:49:21.179Z",
         "method": "remote-http",

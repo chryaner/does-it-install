@@ -1,0 +1,77 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "blockrun_wallet",
+          "blockrun_chat",
+          "blockrun_models",
+          "blockrun_image",
+          "blockrun_music",
+          "blockrun_speech",
+          "blockrun_video",
+          "blockrun_realface",
+          "blockrun_search",
+          "blockrun_exa",
+          "blockrun_markets",
+          "blockrun_price",
+          "blockrun_dex",
+          "blockrun_modal",
+          "blockrun_phone",
+          "blockrun_surf",
+          "blockrun_rpc",
+          "blockrun_defi",
+          "blockrun_polymarket_read",
+          "blockrun_polymarket"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "blockrun_wallet",
+          "blockrun_chat",
+          "blockrun_models",
+          "blockrun_image",
+          "blockrun_music",
+          "blockrun_speech",
+          "blockrun_video",
+          "blockrun_realface",
+          "blockrun_search",
+          "blockrun_exa",
+          "blockrun_markets",
+          "blockrun_price",
+          "blockrun_dex",
+          "blockrun_modal",
+          "blockrun_phone",
+          "blockrun_surf",
+          "blockrun_rpc",
+          "blockrun_defi",
+          "blockrun_polymarket_read",
+          "blockrun_polymarket"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "errorExcerpt": "npm install @blockrun/mcp@0.40.1 timed out after 600s",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "io.github.BlockRunAI/blockrun-mcp",
+  "slug": "io.github.blockrunai__blockrun-mcp"
+}

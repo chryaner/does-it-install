@@ -1,0 +1,46 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "account_balance",
+          "generate_image",
+          "generate_video",
+          "get_prediction",
+          "list_models",
+          "model_details",
+          "edit_image",
+          "image_to_video",
+          "upload_file"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "account_balance",
+          "generate_image",
+          "generate_video",
+          "get_prediction",
+          "list_models",
+          "model_details",
+          "edit_image",
+          "image_to_video",
+          "upload_file"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.Anil-matcha/muapi",
+  "slug": "io.github.anil-matcha__muapi"
+}

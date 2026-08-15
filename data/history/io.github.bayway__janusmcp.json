@@ -1,0 +1,47 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "janus_list_accounts",
+          "janus_login",
+          "janus_use_account",
+          "janus_whoami",
+          "janus_with_account"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "janus_list_accounts",
+          "janus_login",
+          "janus_use_account",
+          "janus_whoami",
+          "janus_with_account"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "errorExcerpt": "npm install @bayway/janusmcp@0.6.0 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-UfgZaw\\node_modules\\@bayway\\janusmcp\nnpm error command failed\nnpm error command C:\\Windows\\system32\\cmd.exe /d /s /c node install.js\nnpm error [janusmcp] downloading janusmcp_windows_amd64.zip (v0.6.0)…\nnpm error tar: Cannot connect to C: resolve failed\nnpm error [janusmcp] install failed: Command failed: tar -xf C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\janusmcp-0.6.0-1786770600055.zip -C C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-UfgZaw\\node_modules\\@bayway\\janusmcp\\bin\nnpm error [janusmcp] You can also install from https://github.com/bayway/janusmcp/releases\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-UfgZaw\\.npm-cache\\_logs\\2026-08-15T05_09_58_012Z-debug-0.log",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "install_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.Bayway/janusmcp",
+  "slug": "io.github.bayway__janusmcp"
+}

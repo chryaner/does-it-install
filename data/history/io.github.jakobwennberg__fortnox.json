@@ -1,0 +1,123 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 28,
+        "toolNames": [
+          "fortnox_list_customers",
+          "fortnox_get_customer",
+          "fortnox_create_customer",
+          "fortnox_update_customer",
+          "fortnox_delete_customer",
+          "fortnox_list_invoices",
+          "fortnox_get_invoice",
+          "fortnox_create_invoice",
+          "fortnox_update_invoice",
+          "fortnox_bookkeep_invoice",
+          "fortnox_cancel_invoice",
+          "fortnox_credit_invoice",
+          "fortnox_send_invoice_email",
+          "fortnox_list_suppliers",
+          "fortnox_get_supplier",
+          "fortnox_create_supplier",
+          "fortnox_update_supplier",
+          "fortnox_delete_supplier",
+          "fortnox_list_accounts",
+          "fortnox_get_account",
+          "fortnox_create_account",
+          "fortnox_update_account",
+          "fortnox_delete_account",
+          "fortnox_list_vouchers",
+          "fortnox_get_voucher",
+          "fortnox_create_voucher",
+          "fortnox_list_voucher_series",
+          "fortnox_get_company_info"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 28,
+        "toolNames": [
+          "fortnox_list_customers",
+          "fortnox_get_customer",
+          "fortnox_create_customer",
+          "fortnox_update_customer",
+          "fortnox_delete_customer",
+          "fortnox_list_invoices",
+          "fortnox_get_invoice",
+          "fortnox_create_invoice",
+          "fortnox_update_invoice",
+          "fortnox_bookkeep_invoice",
+          "fortnox_cancel_invoice",
+          "fortnox_credit_invoice",
+          "fortnox_send_invoice_email",
+          "fortnox_list_suppliers",
+          "fortnox_get_supplier",
+          "fortnox_create_supplier",
+          "fortnox_update_supplier",
+          "fortnox_delete_supplier",
+          "fortnox_list_accounts",
+          "fortnox_get_account",
+          "fortnox_create_account",
+          "fortnox_update_account",
+          "fortnox_delete_account",
+          "fortnox_list_vouchers",
+          "fortnox_get_voucher",
+          "fortnox_create_voucher",
+          "fortnox_list_voucher_series",
+          "fortnox_get_company_info"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 28,
+        "toolNames": [
+          "fortnox_list_customers",
+          "fortnox_get_customer",
+          "fortnox_create_customer",
+          "fortnox_update_customer",
+          "fortnox_delete_customer",
+          "fortnox_list_invoices",
+          "fortnox_get_invoice",
+          "fortnox_create_invoice",
+          "fortnox_update_invoice",
+          "fortnox_bookkeep_invoice",
+          "fortnox_cancel_invoice",
+          "fortnox_credit_invoice",
+          "fortnox_send_invoice_email",
+          "fortnox_list_suppliers",
+          "fortnox_get_supplier",
+          "fortnox_create_supplier",
+          "fortnox_update_supplier",
+          "fortnox_delete_supplier",
+          "fortnox_list_accounts",
+          "fortnox_get_account",
+          "fortnox_create_account",
+          "fortnox_update_account",
+          "fortnox_delete_account",
+          "fortnox_list_vouchers",
+          "fortnox_get_voucher",
+          "fortnox_create_voucher",
+          "fortnox_list_voucher_series",
+          "fortnox_get_company_info"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.jakobwennberg/fortnox",
+  "slug": "io.github.jakobwennberg__fortnox"
+}

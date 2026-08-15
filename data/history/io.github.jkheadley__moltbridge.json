@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: nexpected token 'p', \"  npx moltbri\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'G', \"Getting started:\" is not valid JSON\nUnterminated fractional number in JSON at position 4 (line 1 column 5)\nUnterminated fractional number in JSON at position 4 (line 1 column 5)\nUnterminated fractional number in JSON at position 4 (line 1 column 5)\nUnexpected end of JSON input\nUnexpected token 'D', \"Documentat\"... is not valid JSON\nUnexpected token 'A', \"API: https\"... is not valid JSON",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: nexpected token 'p', \"  npx moltbri\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'G', \"Getting started:\" is not valid JSON\nUnterminated fractional number in JSON at position 4 (line 1 column 5)\nUnterminated fractional number in JSON at position 4 (line 1 column 5)\nUnterminated fractional number in JSON at position 4 (line 1 column 5)\nUnexpected end of JSON input\nUnexpected token 'D', \"Documentat\"... is not valid JSON\nUnexpected token 'A', \"API: https\"... is not valid JSON",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: nexpected token 'p', \"  npx moltbri\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'G', \"Getting started:\" is not valid JSON\nUnterminated fractional number in JSON at position 4 (line 1 column 5)\nUnterminated fractional number in JSON at position 4 (line 1 column 5)\nUnterminated fractional number in JSON at position 4 (line 1 column 5)\nUnexpected end of JSON input\nUnexpected token 'D', \"Documentat\"... is not valid JSON\nUnexpected token 'A', \"API: https\"... is not valid JSON",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.JKHeadley/moltbridge",
+  "slug": "io.github.jkheadley__moltbridge"
+}

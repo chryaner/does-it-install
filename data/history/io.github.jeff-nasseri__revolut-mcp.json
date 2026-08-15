@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nFatal error: Error: Invalid configuration:\n  • Provide REVOLUT_PRIVATE_KEY (PEM contents) or REVOLUT_PRIVATE_KEY_PATH (path to the key file used to sign the client-assertion JWT).\n    at buildConfig (/private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-54FHms/node_modules/@jeff-nasseri/revolut-mcp/dist/config.js:65:15)\n    at getConfig (/private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-54FHms/node_modules/@jeff-nasseri/revolut-mcp/dist/config.js:84:19)\n    at main (/private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-54FHms/node_modules/@jeff-nasseri/revolut-mcp/dist/index.js:35:46)\n    at Object.<anonymous> (/private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-54FHms/node_modules/@jeff-nasseri/revolut-mcp/dist/index.js:42:1)\n    at Module._compile (node:internal/modules/cjs/loader:1781:14)\n    at Object..js (node:internal/modules/cjs/loader:1913:10)\n    at Module.load (node:internal/modules/cjs/loader:1505:32)\n    at Function._load (node:internal/modules/cjs/loader:1309:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nFatal error: Error: Invalid configuration:\n  • Provide REVOLUT_PRIVATE_KEY (PEM contents) or REVOLUT_PRIVATE_KEY_PATH (path to the key file used to sign the client-assertion JWT).\n    at buildConfig (/tmp/does-it-install/dii-npm-fjvVHN/node_modules/@jeff-nasseri/revolut-mcp/dist/config.js:65:15)\n    at getConfig (/tmp/does-it-install/dii-npm-fjvVHN/node_modules/@jeff-nasseri/revolut-mcp/dist/config.js:84:19)\n    at main (/tmp/does-it-install/dii-npm-fjvVHN/node_modules/@jeff-nasseri/revolut-mcp/dist/index.js:35:46)\n    at Object.<anonymous> (/tmp/does-it-install/dii-npm-fjvVHN/node_modules/@jeff-nasseri/revolut-mcp/dist/index.js:42:1)\n    at Module._compile (node:internal/modules/cjs/loader:1781:14)\n    at Object..js (node:internal/modules/cjs/loader:1913:10)\n    at Module.load (node:internal/modules/cjs/loader:1505:32)\n    at Function._load (node:internal/modules/cjs/loader:1309:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nFatal error: Error: Invalid configuration:\n  • Provide REVOLUT_PRIVATE_KEY (PEM contents) or REVOLUT_PRIVATE_KEY_PATH (path to the key file used to sign the client-assertion JWT).\n    at buildConfig (C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-uXxRnk\\node_modules\\@jeff-nasseri\\revolut-mcp\\dist\\config.js:65:15)\n    at getConfig (C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-uXxRnk\\node_modules\\@jeff-nasseri\\revolut-mcp\\dist\\config.js:84:19)\n    at main (C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-uXxRnk\\node_modules\\@jeff-nasseri\\revolut-mcp\\dist\\index.js:35:46)\n    at Object.<anonymous> (C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-uXxRnk\\node_modules\\@jeff-nasseri\\revolut-mcp\\dist\\index.js:42:1)\n    at Module._compile (node:internal/modules/cjs/loader:1781:14)\n    at Object..js (node:internal/modules/cjs/loader:1913:10)\n    at Module.load (node:internal/modules/cjs/loader:1505:32)\n    at Function._load (node:internal/modules/cjs/loader:1309:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "io.github.jeff-nasseri/revolut-mcp",
+  "slug": "io.github.jeff-nasseri__revolut-mcp"
+}

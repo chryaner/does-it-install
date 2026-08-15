@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[akb-mcp] Connecting to DOES_IT_INSTALL_PLACEHOLDER\nnode:internal/url:818\n      href = bindingUrl.parse(input, base, true);\n                        ^\n\nTypeError: Invalid URL\n    at new URL (node:internal/url:818:25)\n    at new AKBProxy (file:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-FaRBPa/node_modules/akb-mcp/lib/proxy.mjs:221:16)\n    at file:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-FaRBPa/node_modules/akb-mcp/bin/akb-mcp.mjs:87:15\n    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5) {\n  code: 'ERR_INVALID_URL',\n  input: 'DOES_IT_INSTALL_PLACEHOLDER'\n}\n\nNode.js v22.23.1",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[akb-mcp] Connecting to DOES_IT_INSTALL_PLACEHOLDER\nnode:internal/url:818\n      href = bindingUrl.parse(input, base, true);\n                        ^\n\nTypeError: Invalid URL\n    at new URL (node:internal/url:818:25)\n    at new AKBProxy (file:///tmp/does-it-install/dii-npm-SGeL43/node_modules/akb-mcp/lib/proxy.mjs:221:16)\n    at file:///tmp/does-it-install/dii-npm-SGeL43/node_modules/akb-mcp/bin/akb-mcp.mjs:87:15\n    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5) {\n  code: 'ERR_INVALID_URL',\n  input: 'DOES_IT_INSTALL_PLACEHOLDER'\n}\n\nNode.js v22.23.2",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[akb-mcp] Connecting to DOES_IT_INSTALL_PLACEHOLDER\nnode:internal/url:818\r\n      href = bindingUrl.parse(input, base, true);\r\n                        ^\r\n\r\nTypeError: Invalid URL\r\n    at new URL (node:internal/url:818:25)\r\n    at new AKBProxy (file:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-ZAzZml/node_modules/akb-mcp/lib/proxy.mjs:221:16)\r\n    at file:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-ZAzZml/node_modules/akb-mcp/bin/akb-mcp.mjs:87:15\r\n    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)\r\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)\r\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5) {\r\n  code: 'ERR_INVALID_URL',\r\n  input: 'DOES_IT_INSTALL_PLACEHOLDER'\r\n}\r\n\r\nNode.js v22.23.2",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "io.github.dnotitia/akb",
+  "slug": "io.github.dnotitia__akb"
+}

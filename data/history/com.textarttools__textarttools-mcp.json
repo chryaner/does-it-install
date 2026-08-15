@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "errorExcerpt": "connect failed: HTTP 200: SSE error: Invalid content type, expected \"text/event-stream\"",
+        "method": "remote-sse",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "connect_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "errorExcerpt": "connect failed: HTTP 200: SSE error: Invalid content type, expected \"text/event-stream\"",
+        "method": "remote-sse",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "connect_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "errorExcerpt": "connect failed: HTTP 200: SSE error: Invalid content type, expected \"text/event-stream\"",
+        "method": "remote-sse",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "connect_failed"
+      }
+    ]
+  },
+  "serverId": "com.textarttools/textarttools-mcp",
+  "slug": "com.textarttools__textarttools-mcp"
+}

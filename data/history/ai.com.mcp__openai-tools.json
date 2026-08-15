@@ -2,6 +2,24 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T04:06:29.606Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "createImage",
+          "createImageEdit",
+          "createImageVariation",
+          "createTranscription",
+          "createTranslation",
+          "listModels",
+          "retrieveModel",
+          "deleteModel",
+          "createModeration"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:18.684Z",
         "method": "remote-http",
         "runId": "2026-08-15T01-49-18Z-a30774",
@@ -58,6 +76,24 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T04:06:26.501Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "createImage",
+          "createImageEdit",
+          "createImageVariation",
+          "createTranscription",
+          "createTranslation",
+          "listModels",
+          "retrieveModel",
+          "deleteModel",
+          "createModeration"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:20.605Z",
         "method": "remote-http",
         "runId": "2026-08-15T01-49-20Z-b188f1",
@@ -113,6 +149,24 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "createImage",
+          "createImageEdit",
+          "createImageVariation",
+          "createTranscription",
+          "createTranslation",
+          "listModels",
+          "retrieveModel",
+          "deleteModel",
+          "createModeration"
+        ]
+      },
       {
         "date": "2026-08-15T01:49:39.142Z",
         "method": "remote-http",

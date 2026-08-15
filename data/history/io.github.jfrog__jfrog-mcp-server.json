@@ -1,0 +1,24 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: Hostname/IP does not match certificate's altnames: Host: myplatform.jfrog.github.io. is not in the cert's altnames: DNS:*.github.com, DNS:*.github.io, DNS:*.githubusercontent.com, DNS:github.com, DNS:github.io, DNS:githubusercontent.com (ERR_TLS_CERT_ALTNAME_INVALID)",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "connect_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: Hostname/IP does not match certificate's altnames: Host: myplatform.jfrog.github.io. is not in the cert's altnames: DNS:*.github.com, DNS:*.github.io, DNS:*.githubusercontent.com, DNS:github.com, DNS:github.io, DNS:githubusercontent.com (ERR_TLS_CERT_ALTNAME_INVALID)",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "connect_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.jfrog/jfrog-mcp-server",
+  "slug": "io.github.jfrog__jfrog-mcp-server"
+}

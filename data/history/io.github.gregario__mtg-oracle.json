@@ -1,0 +1,75 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "search_cards",
+          "get_card",
+          "get_rulings",
+          "check_legality",
+          "search_by_mechanic",
+          "lookup_rule",
+          "get_glossary",
+          "get_keyword",
+          "analyze_commander",
+          "find_combos",
+          "find_synergies",
+          "get_format_staples"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "search_cards",
+          "get_card",
+          "get_rulings",
+          "check_legality",
+          "search_by_mechanic",
+          "lookup_rule",
+          "get_glossary",
+          "get_keyword",
+          "analyze_commander",
+          "find_combos",
+          "find_synergies",
+          "get_format_staples"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "search_cards",
+          "get_card",
+          "get_rulings",
+          "check_legality",
+          "search_by_mechanic",
+          "lookup_rule",
+          "get_glossary",
+          "get_keyword",
+          "analyze_commander",
+          "find_combos",
+          "find_synergies",
+          "get_format_staples"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.gregario/mtg-oracle",
+  "slug": "io.github.gregario__mtg-oracle"
+}

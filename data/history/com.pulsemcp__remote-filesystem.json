@@ -1,0 +1,38 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "download",
+          "list_files",
+          "upload",
+          "modify",
+          "delete_file"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "download",
+          "list_files",
+          "upload",
+          "modify",
+          "delete_file"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.pulsemcp/remote-filesystem",
+  "slug": "com.pulsemcp__remote-filesystem"
+}

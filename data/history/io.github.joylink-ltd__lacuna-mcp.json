@@ -1,0 +1,48 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "generate_music",
+          "get_generation",
+          "wait_for_generation"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "generate_music",
+          "get_generation",
+          "wait_for_generation"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "generate_music",
+          "get_generation",
+          "wait_for_generation"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.JOYLINK-LTD/lacuna-mcp",
+  "slug": "io.github.joylink-ltd__lacuna-mcp"
+}

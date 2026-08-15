@@ -1,0 +1,108 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "dns_lookup",
+          "rdap_lookup_domain",
+          "rdap_lookup_ip",
+          "crt_sh_search",
+          "wayback_cdx",
+          "wayback_save",
+          "shodan_internetdb",
+          "ipinfo_lookup",
+          "bgpview_asn",
+          "github_user_lookup",
+          "github_code_search",
+          "urlscan_search",
+          "alienvault_otx_lookup",
+          "hibp_breach_check",
+          "gravatar_lookup",
+          "virustotal_domain_report",
+          "shodan_host_lookup",
+          "securitytrails_history",
+          "hunter_email_finder",
+          "nominatim_geocode",
+          "blockchain_address_lookup",
+          "etherscan_address_lookup",
+          "mastodon_user_lookup"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "dns_lookup",
+          "rdap_lookup_domain",
+          "rdap_lookup_ip",
+          "crt_sh_search",
+          "wayback_cdx",
+          "wayback_save",
+          "shodan_internetdb",
+          "ipinfo_lookup",
+          "bgpview_asn",
+          "github_user_lookup",
+          "github_code_search",
+          "urlscan_search",
+          "alienvault_otx_lookup",
+          "hibp_breach_check",
+          "gravatar_lookup",
+          "virustotal_domain_report",
+          "shodan_host_lookup",
+          "securitytrails_history",
+          "hunter_email_finder",
+          "nominatim_geocode",
+          "blockchain_address_lookup",
+          "etherscan_address_lookup",
+          "mastodon_user_lookup"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "dns_lookup",
+          "rdap_lookup_domain",
+          "rdap_lookup_ip",
+          "crt_sh_search",
+          "wayback_cdx",
+          "wayback_save",
+          "shodan_internetdb",
+          "ipinfo_lookup",
+          "bgpview_asn",
+          "github_user_lookup",
+          "github_code_search",
+          "urlscan_search",
+          "alienvault_otx_lookup",
+          "hibp_breach_check",
+          "gravatar_lookup",
+          "virustotal_domain_report",
+          "shodan_host_lookup",
+          "securitytrails_history",
+          "hunter_email_finder",
+          "nominatim_geocode",
+          "blockchain_address_lookup",
+          "etherscan_address_lookup",
+          "mastodon_user_lookup"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.frangelbarrera/osint-agent-skills",
+  "slug": "io.github.frangelbarrera__osint-agent-skills"
+}

@@ -1,0 +1,102 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "search_kpis",
+          "get_kpi",
+          "get_kpis",
+          "get_kpi_groups",
+          "get_kpi_group",
+          "search_municipalities",
+          "get_municipality",
+          "get_municipality_groups",
+          "get_municipality_group",
+          "search_organizational_units",
+          "get_organizational_unit",
+          "get_ou_types",
+          "get_kpi_data",
+          "get_municipality_kpis",
+          "compare_municipalities",
+          "get_kpi_trend",
+          "analyze_kpi_across_municipalities",
+          "filter_municipalities_by_kpi",
+          "compare_kpis",
+          "list_operating_areas",
+          "get_kpis_by_operating_area"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "search_kpis",
+          "get_kpi",
+          "get_kpis",
+          "get_kpi_groups",
+          "get_kpi_group",
+          "search_municipalities",
+          "get_municipality",
+          "get_municipality_groups",
+          "get_municipality_group",
+          "search_organizational_units",
+          "get_organizational_unit",
+          "get_ou_types",
+          "get_kpi_data",
+          "get_municipality_kpis",
+          "compare_municipalities",
+          "get_kpi_trend",
+          "analyze_kpi_across_municipalities",
+          "filter_municipalities_by_kpi",
+          "compare_kpis",
+          "list_operating_areas",
+          "get_kpis_by_operating_area"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "search_kpis",
+          "get_kpi",
+          "get_kpis",
+          "get_kpi_groups",
+          "get_kpi_group",
+          "search_municipalities",
+          "get_municipality",
+          "get_municipality_groups",
+          "get_municipality_group",
+          "search_organizational_units",
+          "get_organizational_unit",
+          "get_ou_types",
+          "get_kpi_data",
+          "get_municipality_kpis",
+          "compare_municipalities",
+          "get_kpi_trend",
+          "analyze_kpi_across_municipalities",
+          "filter_municipalities_by_kpi",
+          "compare_kpis",
+          "list_operating_areas",
+          "get_kpis_by_operating_area"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.isakskogstad/kolada-mcp",
+  "slug": "io.github.isakskogstad__kolada-mcp"
+}

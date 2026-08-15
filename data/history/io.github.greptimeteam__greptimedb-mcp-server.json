@@ -1,0 +1,24 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading mysql-connector-python (16.8MiB)\n Downloaded mysql-connector-python\nInstalled 38 packages in 96ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/oO1jAmBGDDowhy62/bin/greptimedb-mcp-server\", line 12, in <module>\n    sys.exit(main())\n             ~~~~^^\n  File \"/Users/runner/.cache/uv/archive-v0/oO1jAmBGDDowhy62/lib/python3.14/site-packages/greptimedb_mcp_server/__init__.py\", line 12, in main\n    from . import server\n  File \"/Users/runner/.cache/uv/archive-v0/oO1jAmBGDDowhy62/lib/python3.14/site-packages/greptimedb_mcp_server/server.py\", line 37, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading mysql-connector-python (32.5MiB)\n Downloaded mysql-connector-python\nInstalled 38 packages in 90ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/KeUvC-HiPvRbzhEd/bin/greptimedb-mcp-server\", line 12, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/runner/.cache/uv/archive-v0/KeUvC-HiPvRbzhEd/lib/python3.12/site-packages/greptimedb_mcp_server/__init__.py\", line 12, in main\n    from . import server\n  File \"/home/runner/.cache/uv/archive-v0/KeUvC-HiPvRbzhEd/lib/python3.12/site-packages/greptimedb_mcp_server/server.py\", line 37, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.GreptimeTeam/greptimedb-mcp-server",
+  "slug": "io.github.greptimeteam__greptimedb-mcp-server"
+}

@@ -2,6 +2,32 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T04:06:28.791Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "apply_spreadsheet_updates",
+          "create_spreadsheet",
+          "get_spreadsheet",
+          "retrieve_spreadsheet_by_data_filter",
+          "get_developer_metadata",
+          "search_developer_metadata",
+          "copy_sheet",
+          "append_sheet_values",
+          "clear_spreadsheet_values",
+          "clear_spreadsheet_values_by_filter",
+          "get_spreadsheet_values_batch",
+          "get_spreadsheet_values_by_filter",
+          "update_sheet_values_batch",
+          "update_spreadsheet_values_by_filter",
+          "clear_spreadsheet_values_range",
+          "read_spreadsheet_range",
+          "update_sheet_values"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:18.419Z",
         "method": "pypi",
         "runId": "2026-08-15T01-49-18Z-df0f6c",
@@ -29,6 +55,32 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "apply_spreadsheet_updates",
+          "create_spreadsheet",
+          "get_spreadsheet",
+          "retrieve_spreadsheet_by_data_filter",
+          "get_developer_metadata",
+          "search_developer_metadata",
+          "copy_sheet",
+          "append_sheet_values",
+          "clear_spreadsheet_values",
+          "clear_spreadsheet_values_by_filter",
+          "get_spreadsheet_values_batch",
+          "get_spreadsheet_values_by_filter",
+          "update_sheet_values_batch",
+          "update_spreadsheet_values_by_filter",
+          "clear_spreadsheet_values_range",
+          "read_spreadsheet_range",
+          "update_sheet_values"
+        ]
+      },
       {
         "date": "2026-08-15T01:49:21.179Z",
         "method": "pypi",

@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: pected token '✅', \"✅ Starting\"... is not valid JSON\nUnexpected token '\ud83d', \"🔌 Ready t\"... is not valid JSON\nUnexpected token '\ud83d', \"📋 Availab\"... is not valid JSON\nUnexpected token '\ud83d', \"💡 Environ\"... is not valid JSON\nUnexpected token '=', \"==========\"... is not valid JSON\nUnexpected token '❌', \"❌ Error: C\"... is not valid JSON\nUnexpected token '\ud83d', \"💡 Error d\"... is not valid JSON\nUnexpected token '\ud83d', \"💡 This pa\"... is not valid JSON\nUnexpected token '\ud83d', \"💡 Configu\"... is not valid JSON\n--- stderr (tail) ---\nDownloading google-api-python-client (14.9MiB)\n Downloaded google-api-python-client\nInstalled 56 packages in 111ms",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: pected token '✅', \"✅ Starting\"... is not valid JSON\nUnexpected token '\ud83d', \"🔌 Ready t\"... is not valid JSON\nUnexpected token '\ud83d', \"📋 Availab\"... is not valid JSON\nUnexpected token '\ud83d', \"💡 Environ\"... is not valid JSON\nUnexpected token '=', \"==========\"... is not valid JSON\nUnexpected token '❌', \"❌ Error: C\"... is not valid JSON\nUnexpected token '\ud83d', \"💡 Error d\"... is not valid JSON\nUnexpected token '\ud83d', \"💡 This pa\"... is not valid JSON\nUnexpected token '\ud83d', \"💡 Configu\"... is not valid JSON\n--- stderr (tail) ---\nDownloading google-api-python-client (14.9MiB)\n Downloaded google-api-python-client\nInstalled 56 packages in 62ms",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading google-api-python-client (14.9MiB)\n Downloaded google-api-python-client\nInstalled 58 packages in 11.98s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\oA8hmbx97xXV6M3E\\Scripts\\google-sheets-mcp.exe\\__main__.py\", line 10, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\oA8hmbx97xXV6M3E\\Lib\\site-packages\\gsheet_mcp_server\\__main__.py\", line 13, in main\r\n    print(\"\\U0001f680 Google Sheets MCP Server\")\r\n  File \"C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\encodings\\cp1252.py\", line 19, in encode\r\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\r\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nUnicodeEncodeError: 'charmap' codec can't encode character '\\U0001f680' in position 0: character maps to <undefined>",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.henilcalagiya/google-sheets-mcp",
+  "slug": "io.github.henilcalagiya__google-sheets-mcp"
+}

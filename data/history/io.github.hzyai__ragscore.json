@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: \"... is not valid JSON\nUnexpected token '│', \"│ --versio\"... is not valid JSON\nUnexpected token '│', \"│ --help  \"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON\nUnexpected token '╭', \"╭─ Command\"... is not valid JSON\nUnexpected token '│', \"│ generate\"... is not valid JSON\nUnexpected token '│', \"│ serve   \"... is not valid JSON\nUnexpected token '│', \"│ evaluate\"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON\nUnexpected end of JSON input\n--- stderr (tail) ---\nDownloading nltk (1.7MiB)\n Downloaded nltk\nInstalled 33 packages in 155ms\nwarning: The package `typer==0.27.1` does not have an extra named `all`",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: \"... is not valid JSON\nUnexpected token '│', \"│ --versio\"... is not valid JSON\nUnexpected token '│', \"│ --help  \"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON\nUnexpected token '╭', \"╭─ Command\"... is not valid JSON\nUnexpected token '│', \"│ generate\"... is not valid JSON\nUnexpected token '│', \"│ serve   \"... is not valid JSON\nUnexpected token '│', \"│ evaluate\"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON\nUnexpected end of JSON input\n--- stderr (tail) ---\nDownloading nltk (1.7MiB)\n Downloaded nltk\nInstalled 33 packages in 28ms\nwarning: The package `typer==0.27.1` does not have an extra named `all`",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: Unexpected end of JSON input\nUnexpected token 'U', \" Usage: rag\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'R', \" RAGScore -\"... is not valid JSON\nUnexpected end of JSON input\n--- stderr (tail) ---\n…er:                                |\r\n|   15         if not control:                                                |\r\n|   16             if style:                                                  |\r\n| > 17                 term.write_styled(text, style)                         |\r\n|   18             else:                                                      |\r\n|   19                 term.write_text(text)                                  |\r\n|   20         else:                                                          |\r\n|                                                                             |\r\n| C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\WBwuOqsqP_11IXQc\\Lib |\r\n| \\site-packages\\rich\\_win32_console.py:441 in write_styled                   |\r\n|                                                                             |\r\n|   438         SetConsoleTextAttribute(                                      |\r\n|   439             self._handle, attributes=ctypes.c_ushort(fore | (back <<  |\r\n|       4))                                                                   |\r\n|   440         )                                                             |\r\n| > 441         self.write_text(text)                                         |\r\n|   442         SetConsoleTextAttribute(self._handle,                         |\r\n|       attributes=self._default_text)                                        |\r\n|   443                                                                       |\r\n|   444     def move_cursor_to(self, new_position: WindowsCoordinates) ->     |\r\n|       None:                                                                 |\r\n|                                                                             |\r\n| C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\WBwuOqsqP_11IXQc\\Lib |\r\n| \\site-packages\\rich\\_win32_console.py:402 in write_text                     |\r\n|                                                                             |\r\n|   399         Args:                                                         |\r\n|   400             text (str): The text to write to the console              |\r\n|   401         \"\"\"                                                           |\r\n| > 402         self.write(text)                                              |\r\n|   403         self.flush()                                                  |\r\n|   404                                                                       |\r\n|   405     def write_styled(self, text: str, style: Style) -> None:          |\r\n|                                                                             |\r\n| C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\encodings\\cp1252.py:19 in |\r\n| encode                                                                      |\r\n|                                                                             |\r\n|    16                                                                       |\r\n|    17 class IncrementalEncoder(codecs.IncrementalEncoder):                  |\r\n|    18     def encode(self, input, final=False):                             |\r\n| >  19         return                                                        |\r\n|       codecs.charmap_encode(input,self.errors,encoding_table)[0]            |\r\n|    20                                                                       |\r\n|    21 class IncrementalDecoder(codecs.IncrementalDecoder):                  |\r\n|    22     def decode(self, input, final=False):                             |\r\n+-----------------------------------------------------------------------------+\r\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-67: \r\ncharacter maps to <undefined>",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.HZYAI/ragscore",
+  "slug": "io.github.hzyai__ragscore"
+}

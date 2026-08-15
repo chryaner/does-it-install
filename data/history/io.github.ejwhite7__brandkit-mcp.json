@@ -1,0 +1,93 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "get_brand_overview",
+          "get_magic_trick",
+          "get_positioning",
+          "get_audience",
+          "get_messaging",
+          "get_differentiation",
+          "get_concepts",
+          "get_voice",
+          "get_colors_and_type",
+          "get_assets",
+          "get_fonts",
+          "get_components",
+          "get_tokens",
+          "get_motion",
+          "get_css",
+          "search_brand",
+          "validate_usage",
+          "get_context_diff"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "get_brand_overview",
+          "get_magic_trick",
+          "get_positioning",
+          "get_audience",
+          "get_messaging",
+          "get_differentiation",
+          "get_concepts",
+          "get_voice",
+          "get_colors_and_type",
+          "get_assets",
+          "get_fonts",
+          "get_components",
+          "get_tokens",
+          "get_motion",
+          "get_css",
+          "search_brand",
+          "validate_usage",
+          "get_context_diff"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "get_brand_overview",
+          "get_magic_trick",
+          "get_positioning",
+          "get_audience",
+          "get_messaging",
+          "get_differentiation",
+          "get_concepts",
+          "get_voice",
+          "get_colors_and_type",
+          "get_assets",
+          "get_fonts",
+          "get_components",
+          "get_tokens",
+          "get_motion",
+          "get_css",
+          "search_brand",
+          "validate_usage",
+          "get_context_diff"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.ejwhite7/brandkit-mcp",
+  "slug": "io.github.ejwhite7__brandkit-mcp"
+}

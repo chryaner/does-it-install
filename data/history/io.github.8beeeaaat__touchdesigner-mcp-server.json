@@ -1,0 +1,24 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nFailed to start server: Error: Failed to initialize server: Sorry, this server is not yet available in the browser. Please use the CLI mode.\n    at startServer (file:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-aGDxwd/node_modules/touchdesigner-mcp-server/dist/cli.js:57:15)\n    at file:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-aGDxwd/node_modules/touchdesigner-mcp-server/dist/cli.js:61:1\n    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nFailed to start server: Error: Failed to initialize server: Sorry, this server is not yet available in the browser. Please use the CLI mode.\n    at startServer (file:///tmp/does-it-install/dii-npm-p5PGhk/node_modules/touchdesigner-mcp-server/dist/cli.js:57:15)\n    at file:///tmp/does-it-install/dii-npm-p5PGhk/node_modules/touchdesigner-mcp-server/dist/cli.js:61:1\n    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.8beeeaaat/touchdesigner-mcp-server",
+  "slug": "io.github.8beeeaaat__touchdesigner-mcp-server"
+}

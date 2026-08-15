@@ -1,0 +1,90 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "ep_guard_action",
+          "ep_check_signoff",
+          "ep_verify_receipt",
+          "ep_install_preflight",
+          "ep_list_policies",
+          "ep_create_delegation",
+          "ep_verify_delegation",
+          "ep_issue_commit",
+          "ep_verify_commit",
+          "ep_get_commit_status",
+          "ep_revoke_commit",
+          "ep_bind_receipt_to_commit",
+          "ep_initiate_handshake",
+          "ep_add_presentation",
+          "ep_verify_handshake",
+          "ep_get_handshake",
+          "ep_revoke_handshake"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "ep_guard_action",
+          "ep_check_signoff",
+          "ep_verify_receipt",
+          "ep_install_preflight",
+          "ep_list_policies",
+          "ep_create_delegation",
+          "ep_verify_delegation",
+          "ep_issue_commit",
+          "ep_verify_commit",
+          "ep_get_commit_status",
+          "ep_revoke_commit",
+          "ep_bind_receipt_to_commit",
+          "ep_initiate_handshake",
+          "ep_add_presentation",
+          "ep_verify_handshake",
+          "ep_get_handshake",
+          "ep_revoke_handshake"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "ep_guard_action",
+          "ep_check_signoff",
+          "ep_verify_receipt",
+          "ep_install_preflight",
+          "ep_list_policies",
+          "ep_create_delegation",
+          "ep_verify_delegation",
+          "ep_issue_commit",
+          "ep_verify_commit",
+          "ep_get_commit_status",
+          "ep_revoke_commit",
+          "ep_bind_receipt_to_commit",
+          "ep_initiate_handshake",
+          "ep_add_presentation",
+          "ep_verify_handshake",
+          "ep_get_handshake",
+          "ep_revoke_handshake"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.emiliaprotocol/mcp-server",
+  "slug": "io.github.emiliaprotocol__mcp-server"
+}

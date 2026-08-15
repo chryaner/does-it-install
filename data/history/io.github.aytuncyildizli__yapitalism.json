@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 67 packages in 326ms\nusage: yapitalism [-h] {doctor,receipt,ledger,setup,superset} ...\nyapitalism: error: the following arguments are required: command",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 69 packages in 36ms\nusage: yapitalism [-h] {doctor,receipt,ledger,setup,superset} ...\nyapitalism: error: the following arguments are required: command",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 70 packages in 9.62s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\aJuR5m5QHEOVanWj\\Scripts\\yapitalism.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\aJuR5m5QHEOVanWj\\Lib\\site-packages\\yapitalism\\cli.py\", line 12, in <module>\r\n    from .claims import ConfirmationClaimStore\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\aJuR5m5QHEOVanWj\\Lib\\site-packages\\yapitalism\\claims.py\", line 3, in <module>\r\n    import fcntl\r\nModuleNotFoundError: No module named 'fcntl'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.AytuncYildizli/yapitalism",
+  "slug": "io.github.aytuncyildizli__yapitalism"
+}

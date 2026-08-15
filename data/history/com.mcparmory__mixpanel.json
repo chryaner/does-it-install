@@ -2,6 +2,34 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T04:06:29.606Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "get_insights_report",
+          "get_funnel_data",
+          "list_saved_funnels",
+          "get_retention_report",
+          "get_retention_frequency_report",
+          "get_segmented_event_data",
+          "get_event_segmentation_by_numeric_buckets",
+          "get_event_sum_by_time",
+          "get_event_average",
+          "get_activity_stream_for_users",
+          "list_cohorts",
+          "query_profiles",
+          "get_event_aggregates",
+          "list_top_events",
+          "list_top_event_names",
+          "get_event_property_aggregates",
+          "list_top_event_properties",
+          "list_event_property_top_values",
+          "execute_jql_script"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:18.684Z",
         "method": "pypi",
         "runId": "2026-08-15T01-49-18Z-a30774",
@@ -32,6 +60,34 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T04:06:26.501Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "get_insights_report",
+          "get_funnel_data",
+          "list_saved_funnels",
+          "get_retention_report",
+          "get_retention_frequency_report",
+          "get_segmented_event_data",
+          "get_event_segmentation_by_numeric_buckets",
+          "get_event_sum_by_time",
+          "get_event_average",
+          "get_activity_stream_for_users",
+          "list_cohorts",
+          "query_profiles",
+          "get_event_aggregates",
+          "list_top_events",
+          "list_top_event_names",
+          "get_event_property_aggregates",
+          "list_top_event_properties",
+          "list_event_property_top_values",
+          "execute_jql_script"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:20.605Z",
         "method": "pypi",
         "runId": "2026-08-15T01-49-20Z-b188f1",
@@ -61,6 +117,34 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "get_insights_report",
+          "get_funnel_data",
+          "list_saved_funnels",
+          "get_retention_report",
+          "get_retention_frequency_report",
+          "get_segmented_event_data",
+          "get_event_segmentation_by_numeric_buckets",
+          "get_event_sum_by_time",
+          "get_event_average",
+          "get_activity_stream_for_users",
+          "list_cohorts",
+          "query_profiles",
+          "get_event_aggregates",
+          "list_top_events",
+          "list_top_event_names",
+          "get_event_property_aggregates",
+          "list_top_event_properties",
+          "list_event_property_top_values",
+          "execute_jql_script"
+        ]
+      },
       {
         "date": "2026-08-15T01:49:39.142Z",
         "method": "pypi",

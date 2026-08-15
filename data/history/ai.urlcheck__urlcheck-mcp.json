@@ -2,6 +2,21 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T04:06:29.606Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "url_scanner_async_scan",
+          "url_scanner_async_scan_with_intent",
+          "url_scanner_async_task_result",
+          "url_scanner_async_task_status",
+          "url_scanner_scan",
+          "url_scanner_scan_with_intent"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:18.419Z",
         "method": "remote-http",
         "runId": "2026-08-15T01-49-18Z-df0f6c",
@@ -34,6 +49,21 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T04:06:26.501Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "url_scanner_async_scan",
+          "url_scanner_async_scan_with_intent",
+          "url_scanner_async_task_result",
+          "url_scanner_async_task_status",
+          "url_scanner_scan",
+          "url_scanner_scan_with_intent"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:21.179Z",
         "method": "remote-http",
         "runId": "2026-08-15T01-49-21Z-2de383",
@@ -65,6 +95,21 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "url_scanner_async_scan",
+          "url_scanner_async_scan_with_intent",
+          "url_scanner_async_task_result",
+          "url_scanner_async_task_status",
+          "url_scanner_scan",
+          "url_scanner_scan_with_intent"
+        ]
+      },
       {
         "date": "2026-08-15T01:49:32.941Z",
         "method": "remote-http",

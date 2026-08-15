@@ -1,0 +1,24 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nfile:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-5lwpip/node_modules/openclaw-mcp/dist/index.js:389\n          throw new Error(`Instance \"${config.name}\": invalid URL \"${config.url}\"`);\n                ^\n\nError: Instance \"default\": invalid URL \"DOES_IT_INSTALL_PLACEHOLDER\"\n    at new InstanceRegistry (file:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-5lwpip/node_modules/openclaw-mcp/dist/index.js:389:17)\n    at file:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-5lwpip/node_modules/openclaw-mcp/dist/index.js:1676:16\n    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)\n\nNode.js v22.23.1",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nfile:///tmp/does-it-install/dii-npm-lKDQPW/node_modules/openclaw-mcp/dist/index.js:389\n          throw new Error(`Instance \"${config.name}\": invalid URL \"${config.url}\"`);\n                ^\n\nError: Instance \"default\": invalid URL \"DOES_IT_INSTALL_PLACEHOLDER\"\n    at new InstanceRegistry (file:///tmp/does-it-install/dii-npm-lKDQPW/node_modules/openclaw-mcp/dist/index.js:389:17)\n    at file:///tmp/does-it-install/dii-npm-lKDQPW/node_modules/openclaw-mcp/dist/index.js:1676:16\n    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)\n\nNode.js v22.23.2",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "io.github.freema/openclaw-mcp",
+  "slug": "io.github.freema__openclaw-mcp"
+}

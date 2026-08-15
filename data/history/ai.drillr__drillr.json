@@ -2,6 +2,24 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T04:06:28.791Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "sec_report_list",
+          "sec_report_search",
+          "company_search",
+          "ticker_lookup",
+          "run_sql",
+          "get_table_schema",
+          "fiscal_utility",
+          "list_tables",
+          "news_search"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:17.022Z",
         "method": "remote-http",
         "runId": "2026-08-15T01-49-17Z-8b8e8b",
@@ -57,6 +75,24 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "sec_report_list",
+          "sec_report_search",
+          "company_search",
+          "ticker_lookup",
+          "run_sql",
+          "get_table_schema",
+          "fiscal_utility",
+          "list_tables",
+          "news_search"
+        ]
+      },
       {
         "date": "2026-08-15T01:49:20.415Z",
         "method": "remote-http",

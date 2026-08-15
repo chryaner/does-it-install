@@ -1,0 +1,60 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "structure",
+          "invariant",
+          "live",
+          "reachable",
+          "equivalent",
+          "compose",
+          "render"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "structure",
+          "invariant",
+          "live",
+          "reachable",
+          "equivalent",
+          "compose",
+          "render"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "structure",
+          "invariant",
+          "live",
+          "reachable",
+          "equivalent",
+          "compose",
+          "render"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.dushyant30suthar/endiagram-mcp",
+  "slug": "io.github.dushyant30suthar__endiagram-mcp"
+}

@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: n 'h', \"  hmem versi\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'E', \"Environmen\"... is not valid JSON\nUnexpected token 'H', \"  HMEM_PROJE\"... is not valid JSON\nUnexpected token 'H', \"  HMEM_AGENT\"... is not valid JSON\nUnexpected token 'H', \"  HMEM_AGENT\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'E', \"Examples:\" is not valid JSON\nUnexpected token 'p', \"  npx hmem in\"... is not valid JSON\nUnexpected token 'H', \"  HMEM_PROJE\"... is not valid JSON",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: n 'h', \"  hmem versi\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'E', \"Environmen\"... is not valid JSON\nUnexpected token 'H', \"  HMEM_PROJE\"... is not valid JSON\nUnexpected token 'H', \"  HMEM_AGENT\"... is not valid JSON\nUnexpected token 'H', \"  HMEM_AGENT\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'E', \"Examples:\" is not valid JSON\nUnexpected token 'p', \"  npx hmem in\"... is not valid JSON\nUnexpected token 'H', \"  HMEM_PROJE\"... is not valid JSON",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: n 'h', \"  hmem versi\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'E', \"Environmen\"... is not valid JSON\nUnexpected token 'H', \"  HMEM_PROJE\"... is not valid JSON\nUnexpected token 'H', \"  HMEM_AGENT\"... is not valid JSON\nUnexpected token 'H', \"  HMEM_AGENT\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'E', \"Examples:\" is not valid JSON\nUnexpected token 'p', \"  npx hmem in\"... is not valid JSON\nUnexpected token 'H', \"  HMEM_PROJE\"... is not valid JSON",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.Bumblebiber/hmem-mcp",
+  "slug": "io.github.bumblebiber__hmem-mcp"
+}

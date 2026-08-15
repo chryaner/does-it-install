@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: token 's', \"  search    \"... is not valid JSON\nUnexpected token 'p', \"  prompt    \"... is not valid JSON\nUnexpected token 'p', \"  prompts   \"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'U', \"Usage:\" is not valid JSON\nUnexpected token 'u', \"  uvx clio-k\"... is not valid JSON\nUnexpected token 'u', \"  uvx clio-k\"... is not valid JSON\nUnexpected token 'u', \"  uvx clio-k\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'F', \"For more h\"... is not valid JSON",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: token 's', \"  search    \"... is not valid JSON\nUnexpected token 'p', \"  prompt    \"... is not valid JSON\nUnexpected token 'p', \"  prompts   \"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'U', \"Usage:\" is not valid JSON\nUnexpected token 'u', \"  uvx clio-k\"... is not valid JSON\nUnexpected token 'u', \"  uvx clio-k\"... is not valid JSON\nUnexpected token 'u', \"  uvx clio-k\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'F', \"For more h\"... is not valid JSON",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: token 's', \"  search    \"... is not valid JSON\nUnexpected token 'p', \"  prompt    \"... is not valid JSON\nUnexpected token 'p', \"  prompts   \"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'U', \"Usage:\" is not valid JSON\nUnexpected token 'u', \"  uvx clio-k\"... is not valid JSON\nUnexpected token 'u', \"  uvx clio-k\"... is not valid JSON\nUnexpected token 'u', \"  uvx clio-k\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'F', \"For more h\"... is not valid JSON",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.iowarp/node-hardware-mcp",
+  "slug": "io.github.iowarp__node-hardware-mcp"
+}

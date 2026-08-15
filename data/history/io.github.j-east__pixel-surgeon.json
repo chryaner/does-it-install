@@ -1,0 +1,50 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "list_images",
+          "save_image",
+          "generate_images",
+          "generate_image",
+          "generate_video",
+          "edit_image",
+          "fix_image",
+          "fix_region",
+          "interactive_fix",
+          "remove_background",
+          "trace_to_svg"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "list_images",
+          "save_image",
+          "generate_images",
+          "generate_image",
+          "generate_video",
+          "edit_image",
+          "fix_image",
+          "fix_region",
+          "interactive_fix",
+          "remove_background",
+          "trace_to_svg"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.j-east/pixel-surgeon",
+  "slug": "io.github.j-east__pixel-surgeon"
+}

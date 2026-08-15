@@ -1,0 +1,84 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "list_projects",
+          "get_usage",
+          "top_pages",
+          "top_referrers",
+          "pageviews_count",
+          "events_count",
+          "recent_events",
+          "user_activity",
+          "weekly_digest",
+          "list_funnels",
+          "get_funnel",
+          "create_funnel",
+          "update_funnel",
+          "delete_funnel",
+          "compute_funnel"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "list_projects",
+          "get_usage",
+          "top_pages",
+          "top_referrers",
+          "pageviews_count",
+          "events_count",
+          "recent_events",
+          "user_activity",
+          "weekly_digest",
+          "list_funnels",
+          "get_funnel",
+          "create_funnel",
+          "update_funnel",
+          "delete_funnel",
+          "compute_funnel"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "list_projects",
+          "get_usage",
+          "top_pages",
+          "top_referrers",
+          "pageviews_count",
+          "events_count",
+          "recent_events",
+          "user_activity",
+          "weekly_digest",
+          "list_funnels",
+          "get_funnel",
+          "create_funnel",
+          "update_funnel",
+          "delete_funnel",
+          "compute_funnel"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.Dan-Cleary/convalytics",
+  "slug": "io.github.dan-cleary__convalytics"
+}

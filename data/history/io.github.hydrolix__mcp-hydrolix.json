@@ -1,0 +1,45 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "list_databases",
+          "get_table_info",
+          "list_tables",
+          "run_select_query"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "list_databases",
+          "get_table_info",
+          "list_tables",
+          "run_select_query"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 79 packages in 25.22s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 203, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\kZn2w8uFVACohRdL\\Scripts\\mcp-hydrolix.exe\\__main__.py\", line 4, in <module>\r\n    from mcp_hydrolix.main import main\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\kZn2w8uFVACohRdL\\Lib\\site-packages\\mcp_hydrolix\\main.py\", line 8, in <module>\r\n    from gunicorn.app.base import BaseApplication\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\kZn2w8uFVACohRdL\\Lib\\site-packages\\gunicorn\\app\\base.py\", line 10, in <module>\r\n    from gunicorn import util\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\kZn2w8uFVACohRdL\\Lib\\site-packages\\gunicorn\\util.py\", line 7, in <module>\r\n    import fcntl\r\nModuleNotFoundError: No module named 'fcntl'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "io.github.hydrolix/mcp-hydrolix",
+  "slug": "io.github.hydrolix__mcp-hydrolix"
+}

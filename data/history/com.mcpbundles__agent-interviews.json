@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T04:06:28.268Z",
+        "errorExcerpt": "connect failed: HTTP 404: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Bundle 'agent-interviews' not found for user\"}",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "connect_failed"
+      },
+      {
         "date": "2026-08-15T01:49:18.419Z",
         "errorExcerpt": "connect failed: HTTP 404: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Bundle 'agent-interviews' not found for user\"}",
         "method": "remote-http",
@@ -11,6 +18,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T04:06:32.275Z",
+        "errorExcerpt": "connect failed: HTTP 404: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Bundle 'agent-interviews' not found for user\"}",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "connect_failed"
+      },
+      {
         "date": "2026-08-15T01:49:21.179Z",
         "errorExcerpt": "connect failed: HTTP 404: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Bundle 'agent-interviews' not found for user\"}",
         "method": "remote-http",
@@ -19,6 +33,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "errorExcerpt": "connect failed: HTTP 404: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Bundle 'agent-interviews' not found for user\"}",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "connect_failed"
+      },
       {
         "date": "2026-08-15T01:49:32.941Z",
         "errorExcerpt": "connect failed: HTTP 404: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Bundle 'agent-interviews' not found for user\"}",

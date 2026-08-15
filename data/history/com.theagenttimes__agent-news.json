@@ -1,0 +1,66 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "tat_search",
+          "tat_ask",
+          "tat_get_event",
+          "tat_stats",
+          "tat_get_answer_standard",
+          "tat_recommend",
+          "tat_expert_dashboard",
+          "tat_get_comments",
+          "tat_post_comment",
+          "get_latest_articles",
+          "get_section_articles",
+          "get_article",
+          "search_articles",
+          "get_related_articles",
+          "list_topics",
+          "get_topic_hub",
+          "get_trust_summary",
+          "get_editorial_standards",
+          "report_usage"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "tat_search",
+          "tat_ask",
+          "tat_get_event",
+          "tat_stats",
+          "tat_get_answer_standard",
+          "tat_recommend",
+          "tat_expert_dashboard",
+          "tat_get_comments",
+          "tat_post_comment",
+          "get_latest_articles",
+          "get_section_articles",
+          "get_article",
+          "search_articles",
+          "get_related_articles",
+          "list_topics",
+          "get_topic_hub",
+          "get_trust_summary",
+          "get_editorial_standards",
+          "report_usage"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.theagenttimes/agent-news",
+  "slug": "com.theagenttimes__agent-news"
+}

@@ -1,0 +1,46 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "forkflux_job_details",
+          "forkflux_claim_job",
+          "forkflux_change_job_status",
+          "forkflux_update_job",
+          "forkflux_reject_job",
+          "forkflux_get_reopen_context",
+          "forkflux_create_job",
+          "forkflux_list_jobs",
+          "forkflux_claim_next_job"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "forkflux_job_details",
+          "forkflux_claim_job",
+          "forkflux_change_job_status",
+          "forkflux_update_job",
+          "forkflux_reject_job",
+          "forkflux_get_reopen_context",
+          "forkflux_create_job",
+          "forkflux_list_jobs",
+          "forkflux_claim_next_job"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.forkflux/forkflux-mcp",
+  "slug": "io.github.forkflux__forkflux-mcp"
+}

@@ -1,0 +1,87 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 25,
+        "toolNames": [
+          "get_me",
+          "get_playback_state",
+          "control_playback",
+          "list_devices",
+          "transfer_playback",
+          "search_music",
+          "add_to_queue",
+          "get_queue",
+          "get_track_info",
+          "get_artist_info",
+          "get_playlist_info",
+          "create_playlist",
+          "add_tracks_to_playlist",
+          "get_user_playlists",
+          "get_playlist_tracks",
+          "remove_tracks_from_playlist",
+          "modify_playlist_details",
+          "reorder_playlist_tracks",
+          "get_album_info",
+          "get_saved_tracks",
+          "save_tracks",
+          "remove_saved_tracks",
+          "unfollow_playlist",
+          "get_recently_played",
+          "get_top_items"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 25,
+        "toolNames": [
+          "get_me",
+          "get_playback_state",
+          "control_playback",
+          "list_devices",
+          "transfer_playback",
+          "search_music",
+          "add_to_queue",
+          "get_queue",
+          "get_track_info",
+          "get_artist_info",
+          "get_playlist_info",
+          "create_playlist",
+          "add_tracks_to_playlist",
+          "get_user_playlists",
+          "get_playlist_tracks",
+          "remove_tracks_from_playlist",
+          "modify_playlist_details",
+          "reorder_playlist_tracks",
+          "get_album_info",
+          "get_saved_tracks",
+          "save_tracks",
+          "remove_saved_tracks",
+          "unfollow_playlist",
+          "get_recently_played",
+          "get_top_items"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 44 packages in 9.87s\nC:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\fEX80jWAjL9tJURP\\Lib\\site-packages\\pydantic_settings\\sources\\utils.py:47: IncompleteFieldDefinitionWarning: Field 'lifespan' has an incomplete definition: its annotation contains an unresolved forward reference, so settings sources may fail to correctly resolve its value. Call `model_rebuild()` on the model where the field is defined, once all the referenced types are defined.\r\n  warnings.warn(\r\n05:28:43 [spotify_mcp.spotify_api] [INFO] Initializing Spotify client with scopes: user-read-currently-playing,user-read-playback-state,user-modify-playback-state,app-remote-control,streaming,playlist-read-private,playlist-read-collaborative,playlist-modify-private,playlist-modify-public,user-library-read,user-library-modify,user-read-playback-position,user-top-read,user-read-recently-played,user-read-private,user-read-email\r\n05:28:43 [spotify_mcp.spotify_api] [INFO] Successfully initialized Spotify client\r\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\fEX80jWAjL9tJURP\\Scripts\\spotify-mcp-jamiew.exe\\__main__.py\", line 10, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\fEX80jWAjL9tJURP\\Lib\\site-packages\\spotify_mcp\\__init__.py\", line 10, in main\r\n    signal.signal(signal.SIGPIPE, signal.SIG_DFL)\r\n                  ^^^^^^^^^^^^^^\r\nAttributeError: module 'signal' has no attribute 'SIGPIPE'. Did you mean: 'SIGFPE'?",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "io.github.jamiew/spotify-mcp",
+  "slug": "io.github.jamiew__spotify-mcp"
+}

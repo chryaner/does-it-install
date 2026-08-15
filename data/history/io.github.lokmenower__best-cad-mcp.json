@@ -1,0 +1,24 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n× No solution found when resolving tool dependencies:\n  ╰─▶ Because pywin32>=311 has no wheels with a matching platform tag (e.g.,\n      `macosx_26_0_arm64`) and best-cad-mcp>=1.7.0 depends on pywin32>=311, we\n      can conclude that best-cad-mcp>=1.7.0 cannot be used.\n      And because you require best-cad-mcp==1.7.0, we can conclude that your\n      requirements are unsatisfiable.\n\nhint: Wheels are available for `pywin32` (v312) on the following platforms: `win32`, `win_amd64`, `win_arm64`",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n× No solution found when resolving tool dependencies:\n  ╰─▶ Because pywin32>=311 has no wheels with a matching platform tag\n      (e.g., `manylinux_2_39_x86_64`) and best-cad-mcp>=1.7.0 depends on\n      pywin32>=311, we can conclude that best-cad-mcp>=1.7.0 cannot be used.\n      And because you require best-cad-mcp==1.7.0, we can conclude that your\n      requirements are unsatisfiable.\n\nhint: Wheels are available for `pywin32` (v312) on the following platforms: `win32`, `win_amd64`, `win_arm64`",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.LokmenoWer/best-cad-mcp",
+  "slug": "io.github.lokmenower__best-cad-mcp"
+}

@@ -1,0 +1,85 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "get_current_time",
+          "convert_timezone",
+          "parse_duration",
+          "time_math",
+          "add_business_days",
+          "count_business_days",
+          "pert_estimate",
+          "cocomo_estimate",
+          "sprint_forecast",
+          "critical_path",
+          "monte_carlo_schedule",
+          "reference_class_estimate",
+          "calibrate_estimates",
+          "token_time_bridge",
+          "token_cost_estimate",
+          "compare_models",
+          "accuracy_trend",
+          "schedule_risk",
+          "cocomo_validate",
+          "cocomo_ground_truth",
+          "record_actual",
+          "get_pending_estimates",
+          "batch_record_actuals",
+          "feedback_health"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "get_current_time",
+          "convert_timezone",
+          "parse_duration",
+          "time_math",
+          "add_business_days",
+          "count_business_days",
+          "pert_estimate",
+          "cocomo_estimate",
+          "sprint_forecast",
+          "critical_path",
+          "monte_carlo_schedule",
+          "reference_class_estimate",
+          "calibrate_estimates",
+          "token_time_bridge",
+          "token_cost_estimate",
+          "compare_models",
+          "accuracy_trend",
+          "schedule_risk",
+          "cocomo_validate",
+          "cocomo_ground_truth",
+          "record_actual",
+          "get_pending_estimates",
+          "batch_record_actuals",
+          "feedback_health"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.KyaniteLabs/Epoch",
+  "slug": "io.github.kyanitelabs__epoch"
+}

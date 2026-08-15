@@ -1,0 +1,24 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 32 packages in 126ms\nAn executable named `haldir` is not provided by package `haldir`.\nThe following executables are available:\n- haldir-mcp\n\nUse `uv tool run --from haldir haldir-mcp` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 32 packages in 22ms\nAn executable named `haldir` is not provided by package `haldir`.\nThe following executables are available:\n- haldir-mcp\n\nUse `uv tool run --from haldir haldir-mcp` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.ExposureGuard/haldir",
+  "slug": "io.github.exposureguard__haldir"
+}

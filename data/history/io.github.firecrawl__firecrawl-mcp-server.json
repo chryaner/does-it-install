@@ -1,0 +1,114 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 25,
+        "toolNames": [
+          "firecrawl_scrape",
+          "firecrawl_map",
+          "firecrawl_search",
+          "firecrawl_crawl",
+          "firecrawl_check_crawl_status",
+          "firecrawl_extract",
+          "firecrawl_agent",
+          "firecrawl_agent_status",
+          "firecrawl_interact",
+          "firecrawl_interact_stop",
+          "firecrawl_parse",
+          "firecrawl_monitor_create",
+          "firecrawl_monitor_list",
+          "firecrawl_monitor_get",
+          "firecrawl_monitor_update",
+          "firecrawl_monitor_delete",
+          "firecrawl_monitor_run",
+          "firecrawl_monitor_checks",
+          "firecrawl_monitor_check",
+          "firecrawl_research_search_papers",
+          "firecrawl_research_inspect_paper",
+          "firecrawl_research_related_papers",
+          "firecrawl_research_read_paper",
+          "firecrawl_research_search_github",
+          "firecrawl_developer_search"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 25,
+        "toolNames": [
+          "firecrawl_scrape",
+          "firecrawl_map",
+          "firecrawl_search",
+          "firecrawl_crawl",
+          "firecrawl_check_crawl_status",
+          "firecrawl_extract",
+          "firecrawl_agent",
+          "firecrawl_agent_status",
+          "firecrawl_interact",
+          "firecrawl_interact_stop",
+          "firecrawl_parse",
+          "firecrawl_monitor_create",
+          "firecrawl_monitor_list",
+          "firecrawl_monitor_get",
+          "firecrawl_monitor_update",
+          "firecrawl_monitor_delete",
+          "firecrawl_monitor_run",
+          "firecrawl_monitor_checks",
+          "firecrawl_monitor_check",
+          "firecrawl_research_search_papers",
+          "firecrawl_research_inspect_paper",
+          "firecrawl_research_related_papers",
+          "firecrawl_research_read_paper",
+          "firecrawl_research_search_github",
+          "firecrawl_developer_search"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 25,
+        "toolNames": [
+          "firecrawl_scrape",
+          "firecrawl_map",
+          "firecrawl_search",
+          "firecrawl_crawl",
+          "firecrawl_check_crawl_status",
+          "firecrawl_extract",
+          "firecrawl_agent",
+          "firecrawl_agent_status",
+          "firecrawl_interact",
+          "firecrawl_interact_stop",
+          "firecrawl_parse",
+          "firecrawl_monitor_create",
+          "firecrawl_monitor_list",
+          "firecrawl_monitor_get",
+          "firecrawl_monitor_update",
+          "firecrawl_monitor_delete",
+          "firecrawl_monitor_run",
+          "firecrawl_monitor_checks",
+          "firecrawl_monitor_check",
+          "firecrawl_research_search_papers",
+          "firecrawl_research_inspect_paper",
+          "firecrawl_research_related_papers",
+          "firecrawl_research_read_paper",
+          "firecrawl_research_search_github",
+          "firecrawl_developer_search"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.firecrawl/firecrawl-mcp-server",
+  "slug": "io.github.firecrawl__firecrawl-mcp-server"
+}

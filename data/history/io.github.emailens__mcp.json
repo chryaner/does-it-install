@@ -1,0 +1,66 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "preview_email",
+          "analyze_email",
+          "audit_email",
+          "fix_email",
+          "list_clients",
+          "diff_emails",
+          "check_deliverability",
+          "capture_screenshots",
+          "share_preview"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "preview_email",
+          "analyze_email",
+          "audit_email",
+          "fix_email",
+          "list_clients",
+          "diff_emails",
+          "check_deliverability",
+          "capture_screenshots",
+          "share_preview"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "preview_email",
+          "analyze_email",
+          "audit_email",
+          "fix_email",
+          "list_clients",
+          "diff_emails",
+          "check_deliverability",
+          "capture_screenshots",
+          "share_preview"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.emailens/mcp",
+  "slug": "io.github.emailens__mcp"
+}

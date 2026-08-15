@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nGoodMemory CLI currently requires Bun. Install Bun or set GOODMEMORY_BUN_BINARY to a Bun executable before running `goodmemory`.",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nGoodMemory CLI currently requires Bun. Install Bun or set GOODMEMORY_BUN_BINARY to a Bun executable before running `goodmemory`.",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nGoodMemory CLI currently requires Bun. Install Bun or set GOODMEMORY_BUN_BINARY to a Bun executable before running `goodmemory`.",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.hjqcan/goodmemory",
+  "slug": "io.github.hjqcan__goodmemory"
+}

@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: ken 'M', \"[ModuleAdap\"... is not valid JSON\nUnexpected token 'M', \"[ModuleAdap\"... is not valid JSON\nUnexpected token 'M', \"[ModuleAdap\"... is not valid JSON\nUnexpected token 'F', \"[FMP MCP Se\"... is not valid JSON\nUnexpected token 'F', \"[FMP MCP Se\"... is not valid JSON\nUnexpected token 'F', \"[FMP MCP Se\"... is not valid JSON\nUnexpected token 'F', \"[FMP MCP Se\"... is not valid JSON\nUnexpected token 'F', \"[FMP MCP Se\"... is not valid JSON\nUnexpected token 'F', \"[FMP MCP Se\"... is not valid JSON\n--- stderr (tail) ---\n[FMP MCP Server] No server-level FMP access token configured. Provide via: (1) FMP_ACCESS_TOKEN env var, (2) --fmp-token CLI arg, or (3) session config {\"FMP_ACCESS_TOKEN\":\"your_token\"}. Without auth, API calls will fail.\nsessionContext has limited effect in STATIC mode: all clients share the same server instance with base context. Use DYNAMIC mode for per-session context isolation.",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "timeout"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: ken 'M', \"[ModuleAdap\"... is not valid JSON\nUnexpected token 'M', \"[ModuleAdap\"... is not valid JSON\nUnexpected token 'M', \"[ModuleAdap\"... is not valid JSON\nUnexpected token 'F', \"[FMP MCP Se\"... is not valid JSON\nUnexpected token 'F', \"[FMP MCP Se\"... is not valid JSON\nUnexpected token 'F', \"[FMP MCP Se\"... is not valid JSON\nUnexpected token 'F', \"[FMP MCP Se\"... is not valid JSON\nUnexpected token 'F', \"[FMP MCP Se\"... is not valid JSON\nUnexpected token 'F', \"[FMP MCP Se\"... is not valid JSON\n--- stderr (tail) ---\n[FMP MCP Server] No server-level FMP access token configured. Provide via: (1) FMP_ACCESS_TOKEN env var, (2) --fmp-token CLI arg, or (3) session config {\"FMP_ACCESS_TOKEN\":\"your_token\"}. Without auth, API calls will fail.\nsessionContext has limited effect in STATIC mode: all clients share the same server instance with base context. Use DYNAMIC mode for per-session context isolation.",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "timeout"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: ken 'M', \"[ModuleAdap\"... is not valid JSON\nUnexpected token 'M', \"[ModuleAdap\"... is not valid JSON\nUnexpected token 'M', \"[ModuleAdap\"... is not valid JSON\nUnexpected token 'F', \"[FMP MCP Se\"... is not valid JSON\nUnexpected token 'F', \"[FMP MCP Se\"... is not valid JSON\nUnexpected token 'F', \"[FMP MCP Se\"... is not valid JSON\nUnexpected token 'F', \"[FMP MCP Se\"... is not valid JSON\nUnexpected token 'F', \"[FMP MCP Se\"... is not valid JSON\nUnexpected token 'F', \"[FMP MCP Se\"... is not valid JSON\n--- stderr (tail) ---\n[FMP MCP Server] No server-level FMP access token configured. Provide via: (1) FMP_ACCESS_TOKEN env var, (2) --fmp-token CLI arg, or (3) session config {\"FMP_ACCESS_TOKEN\":\"your_token\"}. Without auth, API calls will fail.\nsessionContext has limited effect in STATIC mode: all clients share the same server instance with base context. Use DYNAMIC mode for per-session context isolation.",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "io.github.imbenrabi/financial-modeling-prep-mcp-server",
+  "slug": "io.github.imbenrabi__financial-modeling-prep-mcp-server"
+}

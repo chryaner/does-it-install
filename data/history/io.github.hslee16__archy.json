@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 33 packages in 149ms\nUsage: archy [OPTIONS] COMMAND [ARGS]...\n\n  archy - architectural sensor for Python codebases.\n\nOptions:\n  --version  Show the version and exit.\n  --help     Show this message and exit.\n\nCommands:\n  check      Check the project at PATH against layer rules in archy.yaml.\n  contracts  Run import-linter contracts via archy and report violations.\n  cycles     Find import cycles in a Python project rooted at PATH.\n  diff       Compare current state against a baseline snapshot.\n  graph      Build the import graph for a Python project rooted at PATH.\n  impact     List internal modules that depend on the given file(s).\n  mcp        Run archy as an MCP server on stdio for AI agent integration.\n  score      Compute the composite architecture quality score for PATH.\n  snapshot   Capture score, cycles, and layer violations as a baseline...\n  trend      Show the archy score trend for PATH (reads...",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 33 packages in 24ms\nUsage: archy [OPTIONS] COMMAND [ARGS]...\n\n  archy - architectural sensor for Python codebases.\n\nOptions:\n  --version  Show the version and exit.\n  --help     Show this message and exit.\n\nCommands:\n  check      Check the project at PATH against layer rules in archy.yaml.\n  contracts  Run import-linter contracts via archy and report violations.\n  cycles     Find import cycles in a Python project rooted at PATH.\n  diff       Compare current state against a baseline snapshot.\n  graph      Build the import graph for a Python project rooted at PATH.\n  impact     List internal modules that depend on the given file(s).\n  mcp        Run archy as an MCP server on stdio for AI agent integration.\n  score      Compute the composite architecture quality score for PATH.\n  snapshot   Capture score, cycles, and layer violations as a baseline...\n  trend      Show the archy score trend for PATH (reads...",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 35 packages in 6.44s\nUsage: archy [OPTIONS] COMMAND [ARGS]...\r\n\r\n  archy - architectural sensor for Python codebases.\r\n\r\nOptions:\r\n  --version  Show the version and exit.\r\n  --help     Show this message and exit.\r\n\r\nCommands:\r\n  check      Check the project at PATH against layer rules in archy.yaml.\r\n  contracts  Run import-linter contracts via archy and report violations.\r\n  cycles     Find import cycles in a Python project rooted at PATH.\r\n  diff       Compare current state against a baseline snapshot.\r\n  graph      Build the import graph for a Python project rooted at PATH.\r\n  impact     List internal modules that depend on the given file(s).\r\n  mcp        Run archy as an MCP server on stdio for AI agent integration.\r\n  score      Compute the composite architecture quality score for PATH.\r\n  snapshot   Capture score, cycles, and layer violations as a baseline...\r\n  trend      Show the archy score trend for PATH (reads...",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.hslee16/archy",
+  "slug": "io.github.hslee16__archy"
+}

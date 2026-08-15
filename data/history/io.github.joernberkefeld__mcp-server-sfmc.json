@@ -1,0 +1,84 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "pass",
+        "toolCount": 28,
+        "toolNames": [
+          "validate_ampscript",
+          "validate_ssjs",
+          "validate_sfmc_html",
+          "lookup_ampscript_function",
+          "list_ampscript_functions",
+          "validate_handlebars",
+          "lookup_handlebars_helper",
+          "list_handlebars_helpers",
+          "lookup_ssjs_function",
+          "review_change",
+          "suggest_fix",
+          "get_ampscript_completions",
+          "get_ssjs_completions",
+          "get_handlebars_completions",
+          "format_sfmc_code",
+          "search_mce_help",
+          "detect_sfmc_platform",
+          "search_mcn_help",
+          "search_help",
+          "check_mcn_compatibility",
+          "rewrite_for_mcn",
+          "convertSsjsToAmpscript",
+          "convertAmpscriptToSsjs",
+          "convertAmpscriptToHandlebars",
+          "convertHandlebarsToAmpscript",
+          "convertSsjsToHandlebars",
+          "write_handlebars",
+          "get_server_version"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "pass",
+        "toolCount": 28,
+        "toolNames": [
+          "validate_ampscript",
+          "validate_ssjs",
+          "validate_sfmc_html",
+          "lookup_ampscript_function",
+          "list_ampscript_functions",
+          "validate_handlebars",
+          "lookup_handlebars_helper",
+          "list_handlebars_helpers",
+          "lookup_ssjs_function",
+          "review_change",
+          "suggest_fix",
+          "get_ampscript_completions",
+          "get_ssjs_completions",
+          "get_handlebars_completions",
+          "format_sfmc_code",
+          "search_mce_help",
+          "detect_sfmc_platform",
+          "search_mcn_help",
+          "search_help",
+          "check_mcn_compatibility",
+          "rewrite_for_mcn",
+          "convertSsjsToAmpscript",
+          "convertAmpscriptToSsjs",
+          "convertAmpscriptToHandlebars",
+          "convertHandlebarsToAmpscript",
+          "convertSsjsToHandlebars",
+          "write_handlebars",
+          "get_server_version"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.JoernBerkefeld/mcp-server-sfmc",
+  "slug": "io.github.joernberkefeld__mcp-server-sfmc"
+}

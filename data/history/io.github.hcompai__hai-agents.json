@@ -1,0 +1,66 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "run_agent",
+          "wait_for_session",
+          "list_agents",
+          "send_message",
+          "cancel_session",
+          "share_session",
+          "list_files",
+          "read_file",
+          "write_file"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "run_agent",
+          "wait_for_session",
+          "list_agents",
+          "send_message",
+          "cancel_session",
+          "share_session",
+          "list_files",
+          "read_file",
+          "write_file"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "run_agent",
+          "wait_for_session",
+          "list_agents",
+          "send_message",
+          "cancel_session",
+          "share_session",
+          "list_files",
+          "read_file",
+          "write_file"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.hcompai/hai-agents",
+  "slug": "io.github.hcompai__hai-agents"
+}

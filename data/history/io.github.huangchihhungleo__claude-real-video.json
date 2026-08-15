@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading pillow (4.6MiB)\nDownloading yt-dlp (3.0MiB)\n Downloaded pillow\n Downloaded yt-dlp\nInstalled 3 packages in 31ms\nusage: claude-real-video [-h] [-o OUT] [--overwrite] [--scene SCENE]\n                         [--fps-floor FPS_FLOOR] [--max-frames MAX_FRAMES]\n                         [--adaptive] [--text-anchors] [--export {llc}]\n                         [--speakers] [--lang LANG] [--cookies COOKIES]\n                         [--cookies-from-browser BROWSER] [--yt-dlp-arg ARG]\n                         [--no-transcribe] [--viewer]\n                         [--whisper-model {tiny,base,small,medium,large,turbo}]\n                         [--dedup-threshold DEDUP_THRESHOLD]\n                         [--dedup-window DEDUP_WINDOW] [--report] [--why WHY]\n                         [--grid] [--kb DIR] [--keep-audio]\n                         source\nclaude-real-video: error: the following arguments are required: source",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading pillow (6.6MiB)\nDownloading yt-dlp (3.0MiB)\n Downloaded pillow\n Downloaded yt-dlp\nInstalled 3 packages in 96ms\nusage: claude-real-video [-h] [-o OUT] [--overwrite] [--scene SCENE]\n                         [--fps-floor FPS_FLOOR] [--max-frames MAX_FRAMES]\n                         [--adaptive] [--text-anchors] [--export {llc}]\n                         [--speakers] [--lang LANG] [--cookies COOKIES]\n                         [--cookies-from-browser BROWSER] [--yt-dlp-arg ARG]\n                         [--no-transcribe] [--viewer]\n                         [--whisper-model {tiny,base,small,medium,large,turbo}]\n                         [--dedup-threshold DEDUP_THRESHOLD]\n                         [--dedup-window DEDUP_WINDOW] [--report] [--why WHY]\n                         [--grid] [--kb DIR] [--keep-audio]\n                         source\nclaude-real-video: error: the following arguments are required: source",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading pillow (6.9MiB)\nDownloading yt-dlp (3.0MiB)\n Downloaded pillow\n Downloaded yt-dlp\nInstalled 3 packages in 3.15s\nusage: claude-real-video [-h] [-o OUT] [--overwrite] [--scene SCENE]\r\n                         [--fps-floor FPS_FLOOR] [--max-frames MAX_FRAMES]\r\n                         [--adaptive] [--text-anchors] [--export {llc}]\r\n                         [--speakers] [--lang LANG] [--cookies COOKIES]\r\n                         [--cookies-from-browser BROWSER] [--yt-dlp-arg ARG]\r\n                         [--no-transcribe] [--viewer]\r\n                         [--whisper-model {tiny,base,small,medium,large,turbo}]\r\n                         [--dedup-threshold DEDUP_THRESHOLD]\r\n                         [--dedup-window DEDUP_WINDOW] [--report] [--why WHY]\r\n                         [--grid] [--kb DIR] [--keep-audio]\r\n                         source\r\nclaude-real-video: error: the following arguments are required: source",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.HUANGCHIHHUNGLeo/claude-real-video",
+  "slug": "io.github.huangchihhungleo__claude-real-video"
+}

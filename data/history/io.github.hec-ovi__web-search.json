@@ -1,0 +1,57 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "web_search",
+          "web_fetch",
+          "web_open",
+          "arxiv_search",
+          "github_search",
+          "searxng_setup"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "web_search",
+          "web_fetch",
+          "web_open",
+          "arxiv_search",
+          "github_search",
+          "searxng_setup"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "web_search",
+          "web_fetch",
+          "web_open",
+          "arxiv_search",
+          "github_search",
+          "searxng_setup"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.hec-ovi/web-search",
+  "slug": "io.github.hec-ovi__web-search"
+}

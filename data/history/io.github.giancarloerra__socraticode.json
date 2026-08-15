@@ -1,0 +1,102 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "codebase_index",
+          "codebase_update",
+          "codebase_remove",
+          "codebase_stop",
+          "codebase_watch",
+          "codebase_search",
+          "codebase_status",
+          "codebase_graph_build",
+          "codebase_graph_query",
+          "codebase_graph_stats",
+          "codebase_graph_circular",
+          "codebase_graph_visualize",
+          "codebase_graph_remove",
+          "codebase_graph_status",
+          "codebase_context",
+          "codebase_context_search",
+          "codebase_context_index",
+          "codebase_context_remove",
+          "codebase_health",
+          "codebase_list_projects",
+          "codebase_about"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "codebase_index",
+          "codebase_update",
+          "codebase_remove",
+          "codebase_stop",
+          "codebase_watch",
+          "codebase_search",
+          "codebase_status",
+          "codebase_graph_build",
+          "codebase_graph_query",
+          "codebase_graph_stats",
+          "codebase_graph_circular",
+          "codebase_graph_visualize",
+          "codebase_graph_remove",
+          "codebase_graph_status",
+          "codebase_context",
+          "codebase_context_search",
+          "codebase_context_index",
+          "codebase_context_remove",
+          "codebase_health",
+          "codebase_list_projects",
+          "codebase_about"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "codebase_index",
+          "codebase_update",
+          "codebase_remove",
+          "codebase_stop",
+          "codebase_watch",
+          "codebase_search",
+          "codebase_status",
+          "codebase_graph_build",
+          "codebase_graph_query",
+          "codebase_graph_stats",
+          "codebase_graph_circular",
+          "codebase_graph_visualize",
+          "codebase_graph_remove",
+          "codebase_graph_status",
+          "codebase_context",
+          "codebase_context_search",
+          "codebase_context_index",
+          "codebase_context_remove",
+          "codebase_health",
+          "codebase_list_projects",
+          "codebase_about"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.giancarloerra/socraticode",
+  "slug": "io.github.giancarloerra__socraticode"
+}

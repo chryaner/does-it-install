@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 33 packages in 31ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/HA6ype7itxS9SHXF/bin/marketplaces-mcp-ru\", line 6, in <module>\n    from core.combined import main\n  File \"/Users/runner/.cache/uv/archive-v0/HA6ype7itxS9SHXF/lib/python3.14/site-packages/core/combined.py\", line 17, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 33 packages in 17ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/UKqPiNJIro8rm0ti/bin/marketplaces-mcp-ru\", line 6, in <module>\n    from core.combined import main\n  File \"/home/runner/.cache/uv/archive-v0/UKqPiNJIro8rm0ti/lib/python3.13/site-packages/core/combined.py\", line 17, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 35 packages in 14.99s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\tb9pEOdMxupr4yKF\\Scripts\\marketplaces-mcp-ru.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\tb9pEOdMxupr4yKF\\Lib\\site-packages\\core\\combined.py\", line 17, in <module>\r\n    from mcp.server.fastmcp import FastMCP\r\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.ilyautov/marketplaces-mcp-ru",
+  "slug": "io.github.ilyautov__marketplaces-mcp-ru"
+}

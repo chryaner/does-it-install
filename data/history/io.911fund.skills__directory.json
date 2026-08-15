@@ -1,0 +1,57 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "search_skills",
+          "get_skill",
+          "compare_tools",
+          "list_collections",
+          "get_collection",
+          "demand_pulse"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "search_skills",
+          "get_skill",
+          "compare_tools",
+          "list_collections",
+          "get_collection",
+          "demand_pulse"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "search_skills",
+          "get_skill",
+          "compare_tools",
+          "list_collections",
+          "get_collection",
+          "demand_pulse"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.911fund.skills/directory",
+  "slug": "io.911fund.skills__directory"
+}

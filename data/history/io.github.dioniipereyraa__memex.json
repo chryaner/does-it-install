@@ -1,0 +1,24 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 90 packages in 243ms\nAn executable named `memex-chats` is not provided by package `memex-chats`.\nThe following executables are available:\n- memex\n- memex-mcp\n\nUse `uv tool run --from memex-chats <EXECUTABLE-NAME>` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 92 packages in 85ms\nAn executable named `memex-chats` is not provided by package `memex-chats`.\nThe following executables are available:\n- memex\n- memex-mcp\n\nUse `uv tool run --from memex-chats <EXECUTABLE-NAME>` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.dioniipereyraa/memex",
+  "slug": "io.github.dioniipereyraa__memex"
+}

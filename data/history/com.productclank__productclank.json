@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "errorExcerpt": "connect failed: Streamable HTTP error: Error POSTing to endpoint: {\"status\":\"error\",\"code\":404,\"message\":\"Application not found\",\"request_id\":\"kjlHpVUWSkeU3orSpHNmDw\"}",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "connect_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "errorExcerpt": "connect failed: Streamable HTTP error: Error POSTing to endpoint: {\"status\":\"error\",\"code\":404,\"message\":\"Application not found\",\"request_id\":\"OglIMJWbRY6N0PK0xtoGcA\"}",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "connect_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "errorExcerpt": "connect failed: Streamable HTTP error: Error POSTing to endpoint: {\"status\":\"error\",\"code\":404,\"message\":\"Application not found\",\"request_id\":\"FvGlE9guSxSMS9IHLPU1MQ\"}",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "connect_failed"
+      }
+    ]
+  },
+  "serverId": "com.productclank/productclank",
+  "slug": "com.productclank__productclank"
+}

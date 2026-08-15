@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n2026-08-15T04:09:59.168Z [\u001b[31merror\u001b[39m]: API key validation failed: invalid response {\"error\":\"Error: Status: 400\\n    at GeminiService.validateConfig (file:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-Ssbu9G/node_modules/@houtini/gemini-mcp/dist/services/gemini/index.js:394:78)\\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\\n    at async GeminiMcpServer.start (file:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-Ssbu9G/node_modules/@houtini/gemini-mcp/dist/index.js:60:29)\\n    at async cli (file:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-Ssbu9G/node_modules/@houtini/gemini-mcp/dist/cli.js:9:9)\"}\n2026-08-15T04:09:59.168Z [\u001b[31merror\u001b[39m]: Failed to start Gemini MCP Server {\"error\":{}}",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n2026-08-15T04:09:27.754Z [\u001b[31merror\u001b[39m]: API key validation failed: invalid response {\"error\":\"Error: Status: 400\\n    at GeminiService.validateConfig (file:///tmp/does-it-install/dii-npm-2VXCwK/node_modules/@houtini/gemini-mcp/dist/services/gemini/index.js:394:78)\\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\\n    at async GeminiMcpServer.start (file:///tmp/does-it-install/dii-npm-2VXCwK/node_modules/@houtini/gemini-mcp/dist/index.js:60:29)\\n    at async cli (file:///tmp/does-it-install/dii-npm-2VXCwK/node_modules/@houtini/gemini-mcp/dist/cli.js:9:9)\"}\n2026-08-15T04:09:27.754Z [\u001b[31merror\u001b[39m]: Failed to start Gemini MCP Server {\"error\":{}}",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n2026-08-15T04:58:51.314Z [\u001b[31merror\u001b[39m]: API key validation failed: invalid response {\"error\":\"Error: Status: 400\\n    at GeminiService.validateConfig (file:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-Vcxri1/node_modules/@houtini/gemini-mcp/dist/services/gemini/index.js:394:78)\\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\\n    at async GeminiMcpServer.start (file:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-Vcxri1/node_modules/@houtini/gemini-mcp/dist/index.js:60:29)\\n    at async cli (file:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-Vcxri1/node_modules/@houtini/gemini-mcp/dist/cli.js:9:9)\"}\r\n2026-08-15T04:58:51.314Z [\u001b[31merror\u001b[39m]: Failed to start Gemini MCP Server {\"error\":{}}",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "io.github.houtini-ai/gemini",
+  "slug": "io.github.houtini-ai__gemini"
+}

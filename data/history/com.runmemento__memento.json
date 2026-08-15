@@ -1,0 +1,24 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n{\"ok\":false,\"error\":{\"code\":\"STORAGE_ERROR\",\"message\":\"failed to open database at '/Users/runner/.local/share/memento/memento.db': Cannot open database because the directory does not exist\",\"hint\":\"serve failed before the MCP transport opened. Diagnostics appended to /Users/runner/.local/state/memento/serve.log; run `memento doctor` for details.\"}}",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n{\"ok\":false,\"error\":{\"code\":\"STORAGE_ERROR\",\"message\":\"failed to open database at '/home/runner/.local/share/memento/memento.db': Cannot open database because the directory does not exist\",\"hint\":\"serve failed before the MCP transport opened. Diagnostics appended to /home/runner/.local/state/memento/serve.log; run `memento doctor` for details.\"}}",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "com.runmemento/memento",
+  "slug": "com.runmemento__memento"
+}

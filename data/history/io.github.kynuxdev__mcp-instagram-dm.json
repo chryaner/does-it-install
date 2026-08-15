@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n/private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-WuDQFS/node_modules/mcp-instagram-dm/dist/instagram.js:18\n            throw new Error(\"Missing Instagram credentials. Required env variables: INSTAGRAM_SESSION_ID, INSTAGRAM_CSRF_TOKEN, INSTAGRAM_DS_USER_ID\");\n            ^\n\nError: Missing Instagram credentials. Required env variables: INSTAGRAM_SESSION_ID, INSTAGRAM_CSRF_TOKEN, INSTAGRAM_DS_USER_ID\n    at new InstagramClient (/private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-WuDQFS/node_modules/mcp-instagram-dm/dist/instagram.js:18:19)\n    at Object.<anonymous> (/private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-WuDQFS/node_modules/mcp-instagram-dm/dist/index.js:8:12)\n    at Module._compile (node:internal/modules/cjs/loader:1781:14)\n    at Object..js (node:internal/modules/cjs/loader:1913:10)\n    at Module.load (node:internal/modules/cjs/loader:1505:32)\n    at Function._load (node:internal/modules/cjs/loader:1309:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n    at node:internal/main/run_main_module:36:49\n\nNode.js v22.23.1",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n/tmp/does-it-install/dii-npm-cQCjqM/node_modules/mcp-instagram-dm/dist/instagram.js:18\n            throw new Error(\"Missing Instagram credentials. Required env variables: INSTAGRAM_SESSION_ID, INSTAGRAM_CSRF_TOKEN, INSTAGRAM_DS_USER_ID\");\n            ^\n\nError: Missing Instagram credentials. Required env variables: INSTAGRAM_SESSION_ID, INSTAGRAM_CSRF_TOKEN, INSTAGRAM_DS_USER_ID\n    at new InstagramClient (/tmp/does-it-install/dii-npm-cQCjqM/node_modules/mcp-instagram-dm/dist/instagram.js:18:19)\n    at Object.<anonymous> (/tmp/does-it-install/dii-npm-cQCjqM/node_modules/mcp-instagram-dm/dist/index.js:8:12)\n    at Module._compile (node:internal/modules/cjs/loader:1781:14)\n    at Object..js (node:internal/modules/cjs/loader:1913:10)\n    at Module.load (node:internal/modules/cjs/loader:1505:32)\n    at Function._load (node:internal/modules/cjs/loader:1309:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n    at node:internal/main/run_main_module:36:49\n\nNode.js v22.23.2",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nC:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-zQCj1Q\\node_modules\\mcp-instagram-dm\\dist\\instagram.js:18\r\n            throw new Error(\"Missing Instagram credentials. Required env variables: INSTAGRAM_SESSION_ID, INSTAGRAM_CSRF_TOKEN, INSTAGRAM_DS_USER_ID\");\r\n            ^\r\n\r\nError: Missing Instagram credentials. Required env variables: INSTAGRAM_SESSION_ID, INSTAGRAM_CSRF_TOKEN, INSTAGRAM_DS_USER_ID\r\n    at new InstagramClient (C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-zQCj1Q\\node_modules\\mcp-instagram-dm\\dist\\instagram.js:18:19)\r\n    at Object.<anonymous> (C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-zQCj1Q\\node_modules\\mcp-instagram-dm\\dist\\index.js:8:12)\r\n    at Module._compile (node:internal/modules/cjs/loader:1781:14)\r\n    at Object..js (node:internal/modules/cjs/loader:1913:10)\r\n    at Module.load (node:internal/modules/cjs/loader:1505:32)\r\n    at Function._load (node:internal/modules/cjs/loader:1309:12)\r\n    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)\r\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\r\n    at node:internal/main/run_main_module:36:49\r\n\r\nNode.js v22.23.2",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.KynuxDev/mcp-instagram-dm",
+  "slug": "io.github.kynuxdev__mcp-instagram-dm"
+}

@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading onnxruntime (18.3MiB)\nDownloading faiss-cpu (4.7MiB)\n Downloaded faiss-cpu\n Downloaded onnxruntime\nInstalled 29 packages in 377ms\nUsage: velocirag [OPTIONS] COMMAND [ARGS]...\n\n  Velocirag — Production vector search for markdown documents.\n\n  Built for speed, precision, and relentless knowledge extraction.\n\nOptions:\n  --version      Show the version and exit.\n  -v, --verbose  Enable verbose output\n  --help         Show this message and exit.\n\nCommands:\n  daemon-status  Check daemon status.\n  health         Full stack health check — every component, sync status,...\n  index          Index a directory of markdown files.\n  mcp            Start the VelociRAG MCP server for AI agent integration.\n  query          Query documents using metadata filters.\n  reindex        Rebuild FAISS index from stored SQLite embeddings.\n  search         Search indexed content using semantic similarity.\n  serve          Start the VelociRAG search daemon.\n  status         Show index statistics and health information.\n  stop           Stop the VelociRAG search daemon.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading onnxruntime (18.3MiB)\nDownloading faiss-cpu (17.9MiB)\n Downloaded onnxruntime\n Downloaded faiss-cpu\nInstalled 29 packages in 180ms\nUsage: velocirag [OPTIONS] COMMAND [ARGS]...\n\n  Velocirag — Production vector search for markdown documents.\n\n  Built for speed, precision, and relentless knowledge extraction.\n\nOptions:\n  --version      Show the version and exit.\n  -v, --verbose  Enable verbose output\n  --help         Show this message and exit.\n\nCommands:\n  daemon-status  Check daemon status.\n  health         Full stack health check — every component, sync status,...\n  index          Index a directory of markdown files.\n  mcp            Start the VelociRAG MCP server for AI agent integration.\n  query          Query documents using metadata filters.\n  reindex        Rebuild FAISS index from stored SQLite embeddings.\n  search         Search indexed content using semantic similarity.\n  serve          Start the VelociRAG search daemon.\n  status         Show index statistics and health information.\n  stop           Stop the VelociRAG search daemon.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading onnxruntime (13.1MiB)\nDownloading faiss-cpu (15.5MiB)\n Downloaded faiss-cpu\n Downloaded onnxruntime\nInstalled 30 packages in 24.14s\nUsage: velocirag [OPTIONS] COMMAND [ARGS]...\r\n\r\n  Velocirag � Production vector search for markdown documents.\r\n\r\n  Built for speed, precision, and relentless knowledge extraction.\r\n\r\nOptions:\r\n  --version      Show the version and exit.\r\n  -v, --verbose  Enable verbose output\r\n  --help         Show this message and exit.\r\n\r\nCommands:\r\n  daemon-status  Check daemon status.\r\n  health         Full stack health check � every component, sync status,...\r\n  index          Index a directory of markdown files.\r\n  mcp            Start the VelociRAG MCP server for AI agent integration.\r\n  query          Query documents using metadata filters.\r\n  reindex        Rebuild FAISS index from stored SQLite embeddings.\r\n  search         Search indexed content using semantic similarity.\r\n  serve          Start the VelociRAG search daemon.\r\n  status         Show index statistics and health information.\r\n  stop           Stop the VelociRAG search daemon.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.HaseebKhalid1507/velocirag",
+  "slug": "io.github.haseebkhalid1507__velocirag"
+}

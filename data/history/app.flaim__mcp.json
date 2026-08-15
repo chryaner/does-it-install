@@ -2,6 +2,25 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "get_user_session",
+          "refresh_leagues",
+          "get_ancient_history",
+          "get_league_info",
+          "get_standings",
+          "get_matchups",
+          "get_roster",
+          "get_free_agents",
+          "get_players",
+          "get_transactions"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:18.684Z",
         "method": "remote-http",
         "runId": "2026-08-15T01-49-18Z-a30774",
@@ -23,6 +42,25 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "get_user_session",
+          "refresh_leagues",
+          "get_ancient_history",
+          "get_league_info",
+          "get_standings",
+          "get_matchups",
+          "get_roster",
+          "get_free_agents",
+          "get_players",
+          "get_transactions"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:20.605Z",
         "method": "remote-http",
         "runId": "2026-08-15T01-49-20Z-b188f1",
@@ -43,6 +81,25 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "get_user_session",
+          "refresh_leagues",
+          "get_ancient_history",
+          "get_league_info",
+          "get_standings",
+          "get_matchups",
+          "get_roster",
+          "get_free_agents",
+          "get_players",
+          "get_transactions"
+        ]
+      },
       {
         "date": "2026-08-15T01:49:39.142Z",
         "method": "remote-http",

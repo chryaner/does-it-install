@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n  DEPRECATION NOTICE\n  This local Dynatrace MCP Server is deprecated. Last release: v2.1.2.\n  No further updates will be made.\n\n  Please migrate to:\n  - Local dev (VS Code, IntelliJ, Claude Code, Cursor, ...):\n    https://github.com/Dynatrace/dynatrace-for-ai/ + dtctl\n    https://github.com/dynatrace-oss/dtctl\n  - Remote MCP Server (no local setup required):\n    https://www.dynatrace.com/hub/detail/dynatrace-mcp-server/\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nInitializing Dynatrace MCP Server v2.1.2...\nPlease set DT_ENVIRONMENT to a valid Dynatrace Environment URL (e.g., https://<environment-id>.apps.dynatrace.com)",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n  DEPRECATION NOTICE\n  This local Dynatrace MCP Server is deprecated. Last release: v2.1.2.\n  No further updates will be made.\n\n  Please migrate to:\n  - Local dev (VS Code, IntelliJ, Claude Code, Cursor, ...):\n    https://github.com/Dynatrace/dynatrace-for-ai/ + dtctl\n    https://github.com/dynatrace-oss/dtctl\n  - Remote MCP Server (no local setup required):\n    https://www.dynatrace.com/hub/detail/dynatrace-mcp-server/\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nInitializing Dynatrace MCP Server v2.1.2...\nPlease set DT_ENVIRONMENT to a valid Dynatrace Environment URL (e.g., https://<environment-id>.apps.dynatrace.com)",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n  DEPRECATION NOTICE\n  This local Dynatrace MCP Server is deprecated. Last release: v2.1.2.\n  No further updates will be made.\n\n  Please migrate to:\n  - Local dev (VS Code, IntelliJ, Claude Code, Cursor, ...):\n    https://github.com/Dynatrace/dynatrace-for-ai/ + dtctl\n    https://github.com/dynatrace-oss/dtctl\n  - Remote MCP Server (no local setup required):\n    https://www.dynatrace.com/hub/detail/dynatrace-mcp-server/\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nInitializing Dynatrace MCP Server v2.1.2...\nPlease set DT_ENVIRONMENT to a valid Dynatrace Environment URL (e.g., https://<environment-id>.apps.dynatrace.com)",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "io.github.dynatrace-oss/Dynatrace-mcp",
+  "slug": "io.github.dynatrace-oss__dynatrace-mcp"
+}

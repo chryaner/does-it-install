@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: ON\nUnexpected token 'o', \"  together   \"... is not valid JSON\nUnexpected token 'S', \"Self-hosted / local:\" is not valid JSON\nUnexpected token 'g', \"  genesis   \"... is not valid JSON\nUnexpected token 'l', \"  llamacpp  \"... is not valid JSON\nUnexpected token 'l', \"  lmstudio  \"... is not valid JSON\nUnexpected token 'o', \"  ollama    \"... is not valid JSON\nUnexpected token 'v', \"  vllm      \"... is not valid JSON\nUnexpected token 'S', \"Setup help\"... is not valid JSON\nUnexpected end of JSON input\n--- stderr (tail) ---\nDownloading aither-adk (2.4MiB)\n Downloaded aither-adk\nInstalled 27 packages in 51ms\nadk.embeddings: DEGRADED backend=hash dim=384 (NOT the canonical 768-d nomic-embed-text — vectors are not portable to a real embeddings backend)\ncryptography package not available; private companion disabled. Install with: pip install cryptography\nLLM call failed after 5 retries: No LLM backend available.\n\n  Run setup:        python -m adk.setup\n  Try the demo:     https://demo.aitherium.com\n  Get an API key:   https://gateway.aitherium.com\n\nAvailable LLM backends:\nHosted (free tier):\n  gateway    Aitherium gateway (hosted brain — free tier)\nCloud APIs:\n  anthropic  Anthropic Claude\n  deepseek   DeepSeek (deepseek-chat / deepseek-reasoner)\n  gemini     Google Gemini\n  groq       Groq\n  moonshot   Moonshot Kimi (kimi-k3)\n  openai     OpenAI\n  together   Together AI\nSelf-hosted / local:\n  genesis    AitherOS Genesis (your own fleet)\n  llamacpp   llama.cpp (CPU-friendly local server)\n  lmstudio   LM Studio (desktop app, local server)\n  ollama     Ollama (local, easiest self-hosted)\n  vllm       vLLM (local GPU server, OpenAI-compatible)\nSetup help for any of them:  adk backend guide <name>",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "timeout"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: ON\nUnexpected token 'o', \"  together   \"... is not valid JSON\nUnexpected token 'S', \"Self-hosted / local:\" is not valid JSON\nUnexpected token 'g', \"  genesis   \"... is not valid JSON\nUnexpected token 'l', \"  llamacpp  \"... is not valid JSON\nUnexpected token 'l', \"  lmstudio  \"... is not valid JSON\nUnexpected token 'o', \"  ollama    \"... is not valid JSON\nUnexpected token 'v', \"  vllm      \"... is not valid JSON\nUnexpected token 'S', \"Setup help\"... is not valid JSON\nUnexpected end of JSON input\n--- stderr (tail) ---\nDownloading aither-adk (2.4MiB)\n Downloaded aither-adk\nInstalled 27 packages in 25ms\nadk.embeddings: DEGRADED backend=hash dim=384 (NOT the canonical 768-d nomic-embed-text — vectors are not portable to a real embeddings backend)\ncryptography package not available; private companion disabled. Install with: pip install cryptography\nLLM call failed after 5 retries: No LLM backend available.\n\n  Run setup:        python -m adk.setup\n  Try the demo:     https://demo.aitherium.com\n  Get an API key:   https://gateway.aitherium.com\n\nAvailable LLM backends:\nHosted (free tier):\n  gateway    Aitherium gateway (hosted brain — free tier)\nCloud APIs:\n  anthropic  Anthropic Claude\n  deepseek   DeepSeek (deepseek-chat / deepseek-reasoner)\n  gemini     Google Gemini\n  groq       Groq\n  moonshot   Moonshot Kimi (kimi-k3)\n  openai     OpenAI\n  together   Together AI\nSelf-hosted / local:\n  genesis    AitherOS Genesis (your own fleet)\n  llamacpp   llama.cpp (CPU-friendly local server)\n  lmstudio   LM Studio (desktop app, local server)\n  ollama     Ollama (local, easiest self-hosted)\n  vllm       vLLM (local GPU server, OpenAI-compatible)\nSetup help for any of them:  adk backend guide <name>\ncryptography package not available; private companion disabled. Install with: pip install cryptography",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "timeout"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: ON\nUnexpected token 'o', \"  together   \"... is not valid JSON\nUnexpected token 'S', \"Self-hosted / local:\" is not valid JSON\nUnexpected token 'g', \"  genesis   \"... is not valid JSON\nUnexpected token 'l', \"  llamacpp  \"... is not valid JSON\nUnexpected token 'l', \"  lmstudio  \"... is not valid JSON\nUnexpected token 'o', \"  ollama    \"... is not valid JSON\nUnexpected token 'v', \"  vllm      \"... is not valid JSON\nUnexpected token 'S', \"Setup help\"... is not valid JSON\nUnexpected end of JSON input\n--- stderr (tail) ---\nDownloading aither-adk (2.4MiB)\n Downloaded aither-adk\nInstalled 27 packages in 5.73s\nadk.embeddings: DEGRADED backend=hash dim=384 (NOT the canonical 768-d nomic-embed-text — vectors are not portable to a real embeddings backend)\r\ncryptography package not available; private companion disabled. Install with: pip install cryptography\r\nLLM call failed after 5 retries: No LLM backend available.\r\n\r\n  Run setup:        python -m adk.setup\r\n  Try the demo:     https://demo.aitherium.com\r\n  Get an API key:   https://gateway.aitherium.com\r\n\r\nAvailable LLM backends:\r\nHosted (free tier):\r\n  gateway    Aitherium gateway (hosted brain — free tier)\r\nCloud APIs:\r\n  anthropic  Anthropic Claude\r\n  deepseek   DeepSeek (deepseek-chat / deepseek-reasoner)\r\n  gemini     Google Gemini\r\n  groq       Groq\r\n  moonshot   Moonshot Kimi (kimi-k3)\r\n  openai     OpenAI\r\n  together   Together AI\r\nSelf-hosted / local:\r\n  genesis    AitherOS Genesis (your own fleet)\r\n  llamacpp   llama.cpp (CPU-friendly local server)\r\n  lmstudio   LM Studio (desktop app, local server)\r\n  ollama     Ollama (local, easiest self-hosted)\r\n  vllm       vLLM (local GPU server, OpenAI-compatible)\r\nSetup help for any of them:  adk backend guide <name>",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "io.github.Aitherium/aither-adk",
+  "slug": "io.github.aitherium__aither-adk"
+}

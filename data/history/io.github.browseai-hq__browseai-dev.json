@@ -1,0 +1,81 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "browse_search",
+          "browse_open",
+          "browse_extract",
+          "browse_answer",
+          "browse_compare",
+          "browse_verify_document",
+          "browse_clarity",
+          "browse_session_create",
+          "browse_session_ask",
+          "browse_session_recall",
+          "browse_session_share",
+          "browse_session_knowledge",
+          "browse_session_fork",
+          "browse_feedback"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "browse_search",
+          "browse_open",
+          "browse_extract",
+          "browse_answer",
+          "browse_compare",
+          "browse_verify_document",
+          "browse_clarity",
+          "browse_session_create",
+          "browse_session_ask",
+          "browse_session_recall",
+          "browse_session_share",
+          "browse_session_knowledge",
+          "browse_session_fork",
+          "browse_feedback"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "browse_search",
+          "browse_open",
+          "browse_extract",
+          "browse_answer",
+          "browse_compare",
+          "browse_verify_document",
+          "browse_clarity",
+          "browse_session_create",
+          "browse_session_ask",
+          "browse_session_recall",
+          "browse_session_share",
+          "browse_session_knowledge",
+          "browse_session_fork",
+          "browse_feedback"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.BrowseAI-HQ/browseai-dev",
+  "slug": "io.github.browseai-hq__browseai-dev"
+}

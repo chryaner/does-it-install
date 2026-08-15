@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T04:06:28.268Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading uvloop (1.3MiB)\n Downloaded uvloop\nInstalled 31 packages in 317ms\nwarning: The package `typer==0.27.1` does not have an extra named `all`\nAn executable named `graqle` is not provided by package `graqle`.\nThe following executables are available:\n- graq\n\nUse `uv tool run --from graqle graq` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-15T01:49:18.419Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading networkx (2.0MiB)\n Downloaded networkx\nInstalled 31 packages in 66ms\nwarning: The package `typer==0.27.1` does not have an extra named `all`\nAn executable named `graqle` is not provided by package `graqle`.\nThe following executables are available:\n- graq\n\nUse `uv tool run --from graqle graq` instead.",
         "method": "pypi",
@@ -11,6 +18,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T04:06:32.275Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading uvloop (4.2MiB)\n Downloaded uvloop\nInstalled 31 packages in 54ms\nwarning: The package `typer==0.27.1` does not have an extra named `all`\nAn executable named `graqle` is not provided by package `graqle`.\nThe following executables are available:\n- graq\n\nUse `uv tool run --from graqle graq` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-15T01:49:21.179Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading networkx (2.0MiB)\n Downloaded networkx\nInstalled 31 packages in 50ms\nwarning: The package `typer==0.27.1` does not have an extra named `all`\nAn executable named `graqle` is not provided by package `graqle`.\nThe following executables are available:\n- graq\n\nUse `uv tool run --from graqle graq` instead.",
         "method": "pypi",
@@ -19,6 +33,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 31 packages in 11.55s\nwarning: The package `typer==0.27.1` does not have an extra named `all`\nAn executable named `graqle` is not provided by package `graqle`.\nThe following executables are available:\n- graq.exe\n\nUse `uv tool run --from graqle graq.exe` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-15T01:49:32.941Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading networkx (2.0MiB)\n Downloaded networkx\nInstalled 31 packages in 6.58s\nwarning: The package `typer==0.27.1` does not have an extra named `all`\nAn executable named `graqle` is not provided by package `graqle`.\nThe following executables are available:\n- graq.exe\n\nUse `uv tool run --from graqle graq.exe` instead.",

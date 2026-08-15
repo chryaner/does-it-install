@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 41 packages in 248ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/n9D3Mi-CQtIlUgfT/bin/fiverr-mcp-server\", line 6, in <module>\n    from fiverr_mcp_server.server import main\n  File \"/Users/runner/.cache/uv/archive-v0/n9D3Mi-CQtIlUgfT/lib/python3.14/site-packages/fiverr_mcp_server/server.py\", line 3, in <module>\n    from fiverr_mcp_server.mcp_server import mcp\n  File \"/Users/runner/.cache/uv/archive-v0/n9D3Mi-CQtIlUgfT/lib/python3.14/site-packages/fiverr_mcp_server/mcp_server.py\", line 1, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 41 packages in 39ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/oOXFeg68pLnzTNo-/bin/fiverr-mcp-server\", line 6, in <module>\n    from fiverr_mcp_server.server import main\n  File \"/home/runner/.cache/uv/archive-v0/oOXFeg68pLnzTNo-/lib/python3.13/site-packages/fiverr_mcp_server/server.py\", line 3, in <module>\n    from fiverr_mcp_server.mcp_server import mcp\n  File \"/home/runner/.cache/uv/archive-v0/oOXFeg68pLnzTNo-/lib/python3.13/site-packages/fiverr_mcp_server/mcp_server.py\", line 1, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 43 packages in 8.75s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\L84nA09Wd7DfU7Gi\\Scripts\\fiverr-mcp-server.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\L84nA09Wd7DfU7Gi\\Lib\\site-packages\\fiverr_mcp_server\\server.py\", line 3, in <module>\r\n    from fiverr_mcp_server.mcp_server import mcp\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\L84nA09Wd7DfU7Gi\\Lib\\site-packages\\fiverr_mcp_server\\mcp_server.py\", line 1, in <module>\r\n    from mcp.server.fastmcp import FastMCP\r\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.KyuRish/fiverr-mcp-server",
+  "slug": "io.github.kyurish__fiverr-mcp-server"
+}

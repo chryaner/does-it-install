@@ -1,0 +1,60 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "ip_lookup",
+          "shodan_search",
+          "cve_lookup",
+          "dns_lookup",
+          "reverse_dns_lookup",
+          "cpe_lookup",
+          "cves_by_product"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "ip_lookup",
+          "shodan_search",
+          "cve_lookup",
+          "dns_lookup",
+          "reverse_dns_lookup",
+          "cpe_lookup",
+          "cves_by_product"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "ip_lookup",
+          "shodan_search",
+          "cve_lookup",
+          "dns_lookup",
+          "reverse_dns_lookup",
+          "cpe_lookup",
+          "cves_by_product"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.BurtTheCoder/shodan",
+  "slug": "io.github.burtthecoder__shodan"
+}

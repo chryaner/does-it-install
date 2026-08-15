@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading transformers (10.6MiB)\nDownloading mlx-metal (53.9MiB)\nDownloading mlx-memo (1.8MiB)\nDownloading sentencepiece (1.3MiB)\nDownloading tokenizers (2.8MiB)\n Downloaded sentencepiece\n   Building watchdog==6.0.0\n Downloaded tokenizers\n Downloaded mlx-metal\n Downloaded mlx-memo\n      Built watchdog==6.0.0\n Downloaded transformers\nInstalled 98 packages in 1.17s\nAn executable named `mlx-memo` is not provided by package `mlx-memo`.\nThe following executables are available:\n- memo\n- memo-mcp\n\nUse `uv tool run --from mlx-memo <EXECUTABLE-NAME>` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading nvidia-cuda-runtime (2.1MiB)\nDownloading nvidia-curand (56.8MiB)\nDownloading nvidia-cufft (204.2MiB)\nDownloading nvidia-cusparse (139.2MiB)\nDownloading nvidia-cuda-cupti (10.2MiB)\nDownloading tokenizers (3.1MiB)\nDownloading nvidia-cusolver (191.6MiB)\nDownloading nvidia-cuda-nvrtc (86.0MiB)\nDownloading nvidia-cufile (1.2MiB)\nDownloading sympy (6.0MiB)\nDownloading nvidia-nvshmem-cu13 (57.6MiB)\nDownloading nvidia-cudnn-cu13 (349.2MiB)\nDownloading transformers (11.2MiB)\nDownloading mlx-memo (1.8MiB)\nDownloading nvidia-nccl-cu13 (196.4MiB)\nDownloading nvidia-cublas (403.5MiB)\nDownloading nvidia-nvjitlink (38.9MiB)\nDownloading cuda-bindings (6.2MiB)\nDownloading nvidia-cusparselt-cu13 (162.3MiB)\nDownloading torch (502.2MiB)\nDownloading triton (188.6MiB)\n Downloaded nvidia-cufile\n Downloaded nvidia-cuda-runtime\n Downloaded mlx-memo\n Downloaded tokenizers\n Downloaded cuda-bindings\n Downloaded nvidia-cuda-cupti\n Downloaded sympy\n Downloaded nvidia-nvjitlink\n Downloaded nvidia-curand\n Downloaded nvidia-nvshmem-cu13\n Downloaded transformers\n Downloaded nvidia-cuda-nvrtc\n Downloaded nvidia-cusparse\n Downloaded nvidia-cusparselt-cu13\n Downloaded nvidia-cusolver\n Downloaded nvidia-nccl-cu13\n Downloaded nvidia-cufft\n Downloaded triton\n Downloaded nvidia-cudnn-cu13\n Downloaded nvidia-cublas\n Downloaded torch\nInstalled 125 packages in 519ms\nAn executable named `mlx-memo` is not provided by package `mlx-memo`.\nThe following executables are available:\n- memo\n- memo-mcp\n\nUse `uv tool run --from mlx-memo <EXECUTABLE-NAME>` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading mlx-memo (1.8MiB)\n Downloaded mlx-memo\nInstalled 81 packages in 24.90s\nAn executable named `mlx-memo` is not provided by package `mlx-memo`.\nThe following executables are available:\n- memo-mcp.exe\n- memo.exe\n\nUse `uv tool run --from mlx-memo <EXECUTABLE-NAME>` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.jagoff/memo",
+  "slug": "io.github.jagoff__memo"
+}

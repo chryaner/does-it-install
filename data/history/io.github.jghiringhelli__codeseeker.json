@@ -1,0 +1,24 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: of JSON input\nUnexpected token '\ud83e', \"🤖 Claude \"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '\ud83d', \"  📤 Sending\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '\ud83e', \"  🤖 Claude \"... is not valid JSON\nUnexpected token '⏳', \"  ⏳ Waiting \"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '✅', \"✅ Enhanced\"... is not valid JSON\nUnexpected token 'c', \"codeseeker>\" is not valid JSON\nUnexpected token '(', \"  (*) Search\"... is not valid JSON\n--- stderr (tail) ---\n❌ Claude error: /bin/sh: claude: command not found",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "timeout"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: of JSON input\nUnexpected token '\ud83e', \"🤖 Claude \"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '\ud83d', \"  📤 Sending\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '\ud83e', \"  🤖 Claude \"... is not valid JSON\nUnexpected token '⏳', \"  ⏳ Waiting \"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '✅', \"✅ Enhanced\"... is not valid JSON\nUnexpected token 'c', \"codeseeker>\" is not valid JSON\nUnexpected token '(', \"  (*) Search\"... is not valid JSON\n--- stderr (tail) ---\n❌ Claude error: /bin/sh: 1: claude: not found",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "io.github.jghiringhelli/codeseeker",
+  "slug": "io.github.jghiringhelli__codeseeker"
+}

@@ -1,0 +1,70 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "list_connected_boards",
+          "arduino_cli_doctor",
+          "install_arduino_cli",
+          "list_supported_boards",
+          "ensure_core_installed",
+          "detect_hardware",
+          "list_serial_ports",
+          "compile_sketch",
+          "upload_sketch",
+          "upload_and_wait_ready",
+          "read_serial_snapshot",
+          "safety_preflight",
+          "serial_open_session",
+          "serial_list_sessions",
+          "serial_read",
+          "serial_expect",
+          "serial_write",
+          "serial_close_session",
+          "get_board_details",
+          "list_board_reference",
+          "search_board_reference"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "list_connected_boards",
+          "arduino_cli_doctor",
+          "install_arduino_cli",
+          "list_supported_boards",
+          "ensure_core_installed",
+          "detect_hardware",
+          "list_serial_ports",
+          "compile_sketch",
+          "upload_sketch",
+          "upload_and_wait_ready",
+          "read_serial_snapshot",
+          "safety_preflight",
+          "serial_open_session",
+          "serial_list_sessions",
+          "serial_read",
+          "serial_expect",
+          "serial_write",
+          "serial_close_session",
+          "get_board_details",
+          "list_board_reference",
+          "search_board_reference"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.hardware-mcp/arduino-mcp-server",
+  "slug": "io.github.hardware-mcp__arduino-mcp-server"
+}

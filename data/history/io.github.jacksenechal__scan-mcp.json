@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nscan-mcp could not find the system tools it needs to talk to your scanner:\n  • SANE CLI (scanimage) [SCANIMAGE_BIN=scanimage]\n  • ImageMagick convert [IM_CONVERT_BIN=convert]\n\nInstall SANE utilities and TIFF tools before continuing:\n  Ubuntu/Debian: sudo apt install sane-utils libtiff-tools imagemagick\n  Arch Linux:    sudo pacman -S sane libtiff imagemagick\n  Fedora:        sudo dnf install sane-backends-utils libtiff-tools ImageMagick\n\nIf the tools live elsewhere, set SCANIMAGE_BIN, TIFFCP_BIN, or IM_CONVERT_BIN to point at them.",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nscan-mcp could not find the system tools it needs to talk to your scanner:\n  • SANE CLI (scanimage) [SCANIMAGE_BIN=scanimage]\n  • TIFF page assembler (tiffcp) [TIFFCP_BIN=tiffcp]\n  • ImageMagick convert [IM_CONVERT_BIN=convert]\n\nInstall SANE utilities and TIFF tools before continuing:\n  Ubuntu/Debian: sudo apt install sane-utils libtiff-tools imagemagick\n  Arch Linux:    sudo pacman -S sane libtiff imagemagick\n  Fedora:        sudo dnf install sane-backends-utils libtiff-tools ImageMagick\n\nIf the tools live elsewhere, set SCANIMAGE_BIN, TIFFCP_BIN, or IM_CONVERT_BIN to point at them.",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nscan-mcp could not find the system tools it needs to talk to your scanner:\n  • SANE CLI (scanimage) [SCANIMAGE_BIN=scanimage]\n  • TIFF page assembler (tiffcp) [TIFFCP_BIN=tiffcp]\n  • ImageMagick convert [IM_CONVERT_BIN=convert]\n\nInstall SANE utilities and TIFF tools before continuing:\n  Ubuntu/Debian: sudo apt install sane-utils libtiff-tools imagemagick\n  Arch Linux:    sudo pacman -S sane libtiff imagemagick\n  Fedora:        sudo dnf install sane-backends-utils libtiff-tools ImageMagick\n\nIf the tools live elsewhere, set SCANIMAGE_BIN, TIFFCP_BIN, or IM_CONVERT_BIN to point at them.",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.jacksenechal/scan-mcp",
+  "slug": "io.github.jacksenechal__scan-mcp"
+}

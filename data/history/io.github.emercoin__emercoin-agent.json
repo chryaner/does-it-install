@@ -1,0 +1,54 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "node_status",
+          "read_record",
+          "whoami",
+          "register_identity",
+          "store_memory"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "node_status",
+          "read_record",
+          "whoami",
+          "register_identity",
+          "store_memory"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "node_status",
+          "read_record",
+          "whoami",
+          "register_identity",
+          "store_memory"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.emercoin/emercoin-agent",
+  "slug": "io.github.emercoin__emercoin-agent"
+}

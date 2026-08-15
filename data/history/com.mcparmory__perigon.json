@@ -2,6 +2,29 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T04:06:28.791Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "search_articles",
+          "search_companies",
+          "search_journalists",
+          "get_journalist",
+          "search_people",
+          "search_media_sources",
+          "search_stories",
+          "list_story_history",
+          "get_story_counts_by_time_interval",
+          "search_and_summarize_articles",
+          "search_topics",
+          "search_news_articles",
+          "search_wikipedia",
+          "search_wikipedia_pages"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:18.419Z",
         "method": "pypi",
         "runId": "2026-08-15T01-49-18Z-df0f6c",
@@ -26,6 +49,29 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "search_articles",
+          "search_companies",
+          "search_journalists",
+          "get_journalist",
+          "search_people",
+          "search_media_sources",
+          "search_stories",
+          "list_story_history",
+          "get_story_counts_by_time_interval",
+          "search_and_summarize_articles",
+          "search_topics",
+          "search_news_articles",
+          "search_wikipedia",
+          "search_wikipedia_pages"
+        ]
+      },
       {
         "date": "2026-08-15T01:49:21.179Z",
         "method": "pypi",

@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading openai (1.6MiB)\nDownloading litellm (22.7MiB)\nDownloading tokenizers (2.9MiB)\n Downloaded tokenizers\n Downloaded openai\n Downloaded litellm\nInstalled 81 packages in 616ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/LMDT3BsMDneTSCVh/bin/everyrow-mcp\", line 6, in <module>\n    from everyrow_mcp.server import main\n  File \"/Users/runner/.cache/uv/archive-v0/LMDT3BsMDneTSCVh/lib/python3.14/site-packages/everyrow_mcp/server.py\", line 15, in <module>\n    import everyrow_mcp.tools  # noqa: F401  — registers @mcp.tool() decorators\n    ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/runner/.cache/uv/archive-v0/LMDT3BsMDneTSCVh/lib/python3.14/site-packages/everyrow_mcp/tools.py\", line 13, in <module>\n    from everyrow.api_utils import handle_response\nModuleNotFoundError: No module named 'everyrow.api_utils'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading openai (1.6MiB)\nDownloading tokenizers (3.2MiB)\nDownloading litellm (23.1MiB)\n Downloaded tokenizers\n Downloaded openai\n Downloaded litellm\nInstalled 81 packages in 542ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/eTefsY43RbAISMfL/bin/everyrow-mcp\", line 6, in <module>\n    from everyrow_mcp.server import main\n  File \"/home/runner/.cache/uv/archive-v0/eTefsY43RbAISMfL/lib/python3.13/site-packages/everyrow_mcp/server.py\", line 15, in <module>\n    import everyrow_mcp.tools  # noqa: F401  — registers @mcp.tool() decorators\n    ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/.cache/uv/archive-v0/eTefsY43RbAISMfL/lib/python3.13/site-packages/everyrow_mcp/tools.py\", line 13, in <module>\n    from everyrow.api_utils import handle_response\nModuleNotFoundError: No module named 'everyrow.api_utils'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading openai (1.6MiB)\nDownloading tokenizers (2.7MiB)\nDownloading litellm (23.0MiB)\n Downloaded tokenizers\n Downloaded openai\n Downloaded litellm\nInstalled 84 packages in 35.65s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\fPcmuClpWv9sYZSQ\\Scripts\\everyrow-mcp.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\fPcmuClpWv9sYZSQ\\Lib\\site-packages\\everyrow_mcp\\server.py\", line 15, in <module>\r\n    import everyrow_mcp.tools  # noqa: F401  � registers @mcp.tool() decorators\r\n    ^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\fPcmuClpWv9sYZSQ\\Lib\\site-packages\\everyrow_mcp\\tools.py\", line 13, in <module>\r\n    from everyrow.api_utils import handle_response\r\nModuleNotFoundError: No module named 'everyrow.api_utils'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "io.github.futuresearch/everyrow-mcp",
+  "slug": "io.github.futuresearch__everyrow-mcp"
+}

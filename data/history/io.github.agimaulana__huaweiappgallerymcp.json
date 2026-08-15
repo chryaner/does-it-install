@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 34 packages in 134ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/hMg7d7MVBoxacznq/bin/huawei-app-gallery-mcp\", line 6, in <module>\n    from huawei_appgallery_mcp.server import main\n  File \"/Users/runner/.cache/uv/archive-v0/hMg7d7MVBoxacznq/lib/python3.14/site-packages/huawei_appgallery_mcp/server.py\", line 427, in <module>\n    @app.list_tools()\n     ^^^^^^^^^^^^^^\nAttributeError: 'Server' object has no attribute 'list_tools'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 34 packages in 13ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/uaJiwV7nzd1qSrw4/bin/huawei-app-gallery-mcp\", line 6, in <module>\n    from huawei_appgallery_mcp.server import main\n  File \"/home/runner/.cache/uv/archive-v0/uaJiwV7nzd1qSrw4/lib/python3.13/site-packages/huawei_appgallery_mcp/server.py\", line 427, in <module>\n    @app.list_tools()\n     ^^^^^^^^^^^^^^\nAttributeError: 'Server' object has no attribute 'list_tools'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 36 packages in 8.27s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\9ZuDRvE2OR6wqiTP\\Scripts\\huawei-app-gallery-mcp.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\9ZuDRvE2OR6wqiTP\\Lib\\site-packages\\huawei_appgallery_mcp\\server.py\", line 427, in <module>\r\n    @app.list_tools()\r\n     ^^^^^^^^^^^^^^\r\nAttributeError: 'Server' object has no attribute 'list_tools'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "io.github.AgiMaulana/HuaweiAppGalleryMcp",
+  "slug": "io.github.agimaulana__huaweiappgallerymcp"
+}

@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading repo-graph-py (4.1MiB)\n Downloaded repo-graph-py\nInstalled 39 packages in 117ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/JbsGCCe2VweHMl3Z/bin/mcp-repo-graph\", line 6, in <module>\n    from repo_graph.server import main\n  File \"/Users/runner/.cache/uv/archive-v0/JbsGCCe2VweHMl3Z/lib/python3.14/site-packages/repo_graph/server.py\", line 32, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading repo-graph-py (4.1MiB)\n Downloaded repo-graph-py\nInstalled 39 packages in 39ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/w5w2_WRoZJNv5Hik/bin/mcp-repo-graph\", line 6, in <module>\n    from repo_graph.server import main\n  File \"/home/runner/.cache/uv/archive-v0/w5w2_WRoZJNv5Hik/lib/python3.13/site-packages/repo_graph/server.py\", line 32, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading repo-graph-py (3.7MiB)\n Downloaded repo-graph-py\nInstalled 41 packages in 8.56s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\-qxTG_6xEhmV92T7\\Scripts\\mcp-repo-graph.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\-qxTG_6xEhmV92T7\\Lib\\site-packages\\repo_graph\\server.py\", line 32, in <module>\r\n    from mcp.server.fastmcp import FastMCP\r\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.James-Chahwan/repo-graph",
+  "slug": "io.github.james-chahwan__repo-graph"
+}

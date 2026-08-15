@@ -1,0 +1,96 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "servicenow_query_table",
+          "servicenow_get_record",
+          "servicenow_create_record",
+          "servicenow_update_record",
+          "servicenow_delete_record",
+          "servicenow_list_tables",
+          "servicenow_describe_table",
+          "servicenow_aggregate",
+          "servicenow_list_attachments",
+          "servicenow_get_attachment",
+          "servicenow_download_attachment",
+          "servicenow_upload_attachment",
+          "servicenow_delete_attachment",
+          "servicenow_set_credentials",
+          "servicenow_list_instances",
+          "servicenow_use_instance",
+          "servicenow_get_status",
+          "servicenow_test_connection",
+          "servicenow_check_capabilities"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "servicenow_query_table",
+          "servicenow_get_record",
+          "servicenow_create_record",
+          "servicenow_update_record",
+          "servicenow_delete_record",
+          "servicenow_list_tables",
+          "servicenow_describe_table",
+          "servicenow_aggregate",
+          "servicenow_list_attachments",
+          "servicenow_get_attachment",
+          "servicenow_download_attachment",
+          "servicenow_upload_attachment",
+          "servicenow_delete_attachment",
+          "servicenow_set_credentials",
+          "servicenow_list_instances",
+          "servicenow_use_instance",
+          "servicenow_get_status",
+          "servicenow_test_connection",
+          "servicenow_check_capabilities"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "servicenow_query_table",
+          "servicenow_get_record",
+          "servicenow_create_record",
+          "servicenow_update_record",
+          "servicenow_delete_record",
+          "servicenow_list_tables",
+          "servicenow_describe_table",
+          "servicenow_aggregate",
+          "servicenow_list_attachments",
+          "servicenow_get_attachment",
+          "servicenow_download_attachment",
+          "servicenow_upload_attachment",
+          "servicenow_delete_attachment",
+          "servicenow_set_credentials",
+          "servicenow_list_instances",
+          "servicenow_use_instance",
+          "servicenow_get_status",
+          "servicenow_test_connection",
+          "servicenow_check_capabilities"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.IvanBBaev/servicenow-mcp-ai",
+  "slug": "io.github.ivanbbaev__servicenow-mcp-ai"
+}

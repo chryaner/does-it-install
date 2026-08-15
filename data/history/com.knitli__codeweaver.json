@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T04:06:28.791Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading google-genai (1.0MiB)\nDownloading ast-grep-py (5.3MiB)\nDownloading onnxruntime (18.3MiB)\nDownloading grpcio (11.6MiB)\nDownloading pydantic-ai-slim (1.4MiB)\n Downloaded ast-grep-py\n Downloaded grpcio\n Downloaded onnxruntime\n Downloaded pydantic-ai-slim\n Downloaded google-genai\nInstalled 160 packages in 455ms\nAn executable named `code-weaver` is not provided by package `code-weaver`.\nThe following executables are available:\n- codeweaver\n- cw\n\nUse `uv tool run --from code-weaver <EXECUTABLE-NAME>` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-15T01:49:18.419Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading hf-xet (3.7MiB)\nDownloading grpcio (11.6MiB)\nDownloading google-genai (1.0MiB)\nDownloading pillow (4.6MiB)\nDownloading openai (1.6MiB)\nDownloading onnxruntime (18.3MiB)\nDownloading tokenizers (2.9MiB)\nDownloading pydantic-ai-slim (1.4MiB)\nDownloading ast-grep-py (5.3MiB)\n Downloaded hf-xet\n Downloaded tokenizers\n Downloaded pillow\n Downloaded grpcio\n Downloaded pydantic-ai-slim\n Downloaded google-genai\n Downloaded onnxruntime\n Downloaded ast-grep-py\n Downloaded openai\nInstalled 160 packages in 326ms\nAn executable named `code-weaver` is not provided by package `code-weaver`.\nThe following executables are available:\n- codeweaver\n- cw\n\nUse `uv tool run --from code-weaver <EXECUTABLE-NAME>` instead.",
         "method": "pypi",
@@ -10,6 +17,13 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading numpy (15.9MiB)\nDownloading aiohttp (1.7MiB)\nDownloading google-genai (1.0MiB)\nDownloading grpcio (6.7MiB)\nDownloading uvloop (4.2MiB)\nDownloading onnxruntime (18.3MiB)\nDownloading pydantic-ai-slim (1.4MiB)\nDownloading pillow (6.6MiB)\nDownloading zstandard (5.3MiB)\nDownloading ast-grep-py (5.2MiB)\nDownloading tiktoken (1.1MiB)\n Downloaded tiktoken\n Downloaded aiohttp\n Downloaded pydantic-ai-slim\n Downloaded ast-grep-py\n Downloaded zstandard\n Downloaded uvloop\n Downloaded pillow\n Downloaded grpcio\n Downloaded google-genai\n Downloaded onnxruntime\n Downloaded numpy\nInstalled 163 packages in 238ms\nAn executable named `code-weaver` is not provided by package `code-weaver`.\nThe following executables are available:\n- codeweaver\n- cw\n\nUse `uv tool run --from code-weaver <EXECUTABLE-NAME>` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-15T01:49:21.179Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading pillow (6.6MiB)\nDownloading google-genai (1.0MiB)\nDownloading grpcio (6.7MiB)\nDownloading zstandard (5.3MiB)\nDownloading aiohttp (1.7MiB)\nDownloading pydantic-ai-slim (1.4MiB)\nDownloading tokenizers (3.2MiB)\nDownloading hf-xet (4.3MiB)\nDownloading openai (1.6MiB)\nDownloading tiktoken (1.1MiB)\nDownloading onnxruntime (18.3MiB)\nDownloading ast-grep-py (5.2MiB)\n Downloaded tiktoken\n Downloaded aiohttp\n Downloaded tokenizers\n Downloaded pydantic-ai-slim\n Downloaded hf-xet\n Downloaded ast-grep-py\n Downloaded zstandard\n Downloaded pillow\n Downloaded grpcio\n Downloaded google-genai\n Downloaded onnxruntime\n Downloaded openai\nInstalled 163 packages in 225ms\nAn executable named `code-weaver` is not provided by package `code-weaver`.\nThe following executables are available:\n- codeweaver\n- cw\n\nUse `uv tool run --from code-weaver <EXECUTABLE-NAME>` instead.",

@@ -1,0 +1,46 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "list_targets",
+          "get_orientation",
+          "list_skills",
+          "status",
+          "screenshot",
+          "describe_screen",
+          "calibrate_component",
+          "start_recording",
+          "get_skill",
+          "check_health",
+          "stop_recording"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "errorExcerpt": "npm install mirroir-mcp@0.37.0 exited with code 1\n--- stderr (tail) ---\nnpm error code EBADPLATFORM\nnpm error notsup Unsupported platform for mirroir-mcp@0.37.0: wanted {\"os\":\"darwin\"} (current: {\"os\":\"linux\"})\nnpm error notsup Valid os:  darwin\nnpm error notsup Actual os: linux\nnpm error A complete log of this run can be found in: /tmp/does-it-install/dii-npm-za1pBA/.npm-cache/_logs/2026-08-15T04_06_55_136Z-debug-0.log",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "install_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "errorExcerpt": "npm install mirroir-mcp@0.37.0 exited with code 1\n--- stderr (tail) ---\nnpm error code EBADPLATFORM\nnpm error notsup Unsupported platform for mirroir-mcp@0.37.0: wanted {\"os\":\"darwin\"} (current: {\"os\":\"win32\"})\nnpm error notsup Valid os:  darwin\nnpm error notsup Actual os: win32\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-fbJQYy\\.npm-cache\\_logs\\2026-08-15T04_12_32_793Z-debug-0.log",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "install_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.jfarcand/mirroir-mcp",
+  "slug": "io.github.jfarcand__mirroir-mcp"
+}

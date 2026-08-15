@@ -1,0 +1,68 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "get_packages",
+          "get_package",
+          "get_portal_packages",
+          "get_package_files",
+          "get_package_transfers",
+          "update_package_expiration_date_and_time",
+          "delete_package",
+          "get_activities",
+          "get_activity_events",
+          "get_activities_information",
+          "get_integrations",
+          "send_package_to_integration",
+          "list_files_on_integration",
+          "transfer_files_from_integration",
+          "get_portals",
+          "get_portal",
+          "create_portal",
+          "update_portal",
+          "delete_portal",
+          "get_team_members"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "get_packages",
+          "get_package",
+          "get_portal_packages",
+          "get_package_files",
+          "get_package_transfers",
+          "update_package_expiration_date_and_time",
+          "delete_package",
+          "get_activities",
+          "get_activity_events",
+          "get_activities_information",
+          "get_integrations",
+          "send_package_to_integration",
+          "list_files_on_integration",
+          "transfer_files_from_integration",
+          "get_portals",
+          "get_portal",
+          "create_portal",
+          "update_portal",
+          "delete_portal",
+          "get_team_members"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.getmasv/masv",
+  "slug": "io.github.getmasv__masv"
+}

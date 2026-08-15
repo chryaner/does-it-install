@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nBuilding watchdog==6.0.0\n      Built watchdog==6.0.0\nInstalled 33 packages in 153ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/Eri76VP25XARBjil/bin/pyghidra-lite\", line 6, in <module>\n    from pyghidra_lite.server import main\n  File \"/Users/runner/.cache/uv/archive-v0/Eri76VP25XARBjil/lib/python3.14/site-packages/pyghidra_lite/server.py\", line 27, in <module>\n    from mcp.server.fastmcp import Context, FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 33 packages in 20ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/xf9huBLaDP1Y-CAd/bin/pyghidra-lite\", line 6, in <module>\n    from pyghidra_lite.server import main\n  File \"/home/runner/.cache/uv/archive-v0/xf9huBLaDP1Y-CAd/lib/python3.13/site-packages/pyghidra_lite/server.py\", line 27, in <module>\n    from mcp.server.fastmcp import Context, FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 35 packages in 5.07s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\tOg5Yj_ygcAMgsXg\\Scripts\\pyghidra-lite.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\tOg5Yj_ygcAMgsXg\\Lib\\site-packages\\pyghidra_lite\\server.py\", line 27, in <module>\r\n    from mcp.server.fastmcp import Context, FastMCP\r\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.johnzfitch/pyghidra-lite",
+  "slug": "io.github.johnzfitch__pyghidra-lite"
+}

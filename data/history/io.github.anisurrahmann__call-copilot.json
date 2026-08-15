@@ -1,0 +1,24 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading soundfile (1.1MiB)\nDownloading ctranslate2 (1.2MiB)\nDownloading faster-whisper (1.1MiB)\nDownloading av (17.4MiB)\n Downloaded soundfile\n Downloaded faster-whisper\n Downloaded ctranslate2\n Downloaded av\nInstalled 54 packages in 315ms\nAn executable named `call-copilot` is not provided by package `call-copilot`.\nThe following executables are available:\n- rec\n\nUse `uv tool run --from call-copilot rec` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading av (34.1MiB)\nDownloading soundfile (1.3MiB)\nDownloading ctranslate2 (37.7MiB)\nDownloading faster-whisper (1.1MiB)\n   Building audiotap==0.0.2\n Downloaded faster-whisper\n Downloaded soundfile\n Downloaded ctranslate2\n Downloaded av\n      Built audiotap==0.0.2\nInstalled 54 packages in 66ms\nAn executable named `call-copilot` is not provided by package `call-copilot`.\nThe following executables are available:\n- rec\n\nUse `uv tool run --from call-copilot rec` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.AnisurRahmann/call-copilot",
+  "slug": "io.github.anisurrahmann__call-copilot"
+}

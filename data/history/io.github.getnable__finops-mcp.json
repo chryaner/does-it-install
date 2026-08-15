@@ -1,0 +1,69 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "connect_aws",
+          "connect_azure",
+          "get_cost_summary",
+          "estimate_change_cost",
+          "connect_gcp",
+          "list_connected_providers",
+          "check_ai_budget",
+          "check_action_policy",
+          "what_can_nable_do",
+          "nable_setup_status"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "connect_aws",
+          "connect_azure",
+          "get_cost_summary",
+          "estimate_change_cost",
+          "connect_gcp",
+          "list_connected_providers",
+          "check_ai_budget",
+          "check_action_policy",
+          "what_can_nable_do",
+          "nable_setup_status"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "connect_aws",
+          "connect_azure",
+          "get_cost_summary",
+          "estimate_change_cost",
+          "connect_gcp",
+          "list_connected_providers",
+          "check_ai_budget",
+          "check_action_policy",
+          "what_can_nable_do",
+          "nable_setup_status"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.getnable/finops-mcp",
+  "slug": "io.github.getnable__finops-mcp"
+}

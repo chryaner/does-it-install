@@ -1,0 +1,69 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "method": "remote-sse",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "submit_action",
+          "attest_action",
+          "get_karma",
+          "get_action_detail",
+          "register_trail",
+          "list_trails",
+          "get_trail",
+          "execute_trail",
+          "rate_trail",
+          "get_leaderboard"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "method": "remote-sse",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "submit_action",
+          "attest_action",
+          "get_karma",
+          "get_action_detail",
+          "register_trail",
+          "list_trails",
+          "get_trail",
+          "execute_trail",
+          "rate_trail",
+          "get_leaderboard"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "method": "remote-sse",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "submit_action",
+          "attest_action",
+          "get_karma",
+          "get_action_detail",
+          "register_trail",
+          "list_trails",
+          "get_trail",
+          "execute_trail",
+          "rate_trail",
+          "get_leaderboard"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.giskard09/argentum",
+  "slug": "io.github.giskard09__argentum"
+}

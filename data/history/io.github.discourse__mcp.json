@@ -1,0 +1,75 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "discourse_select_site",
+          "discourse_search",
+          "discourse_filter_topics",
+          "discourse_read_topic",
+          "discourse_read_post",
+          "discourse_get_user",
+          "discourse_list_user_posts",
+          "discourse_list_users",
+          "discourse_get_chat_messages",
+          "discourse_get_draft",
+          "discourse_get_query",
+          "discourse_run_query"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "discourse_select_site",
+          "discourse_search",
+          "discourse_filter_topics",
+          "discourse_read_topic",
+          "discourse_read_post",
+          "discourse_get_user",
+          "discourse_list_user_posts",
+          "discourse_list_users",
+          "discourse_get_chat_messages",
+          "discourse_get_draft",
+          "discourse_get_query",
+          "discourse_run_query"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "discourse_select_site",
+          "discourse_search",
+          "discourse_filter_topics",
+          "discourse_read_topic",
+          "discourse_read_post",
+          "discourse_get_user",
+          "discourse_list_user_posts",
+          "discourse_list_users",
+          "discourse_get_chat_messages",
+          "discourse_get_draft",
+          "discourse_get_query",
+          "discourse_run_query"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.discourse/mcp",
+  "slug": "io.github.discourse__mcp"
+}

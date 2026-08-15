@@ -1,0 +1,44 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "amt_iso_optimize",
+          "nso_calculate",
+          "rsu_sell_vs_hold",
+          "concentration_analyze",
+          "protective_put_price",
+          "qsbs_check",
+          "equity_funding_plan",
+          "rsu_lot_optimize"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "amt_iso_optimize",
+          "nso_calculate",
+          "rsu_sell_vs_hold",
+          "concentration_analyze",
+          "protective_put_price",
+          "qsbs_check",
+          "equity_funding_plan",
+          "rsu_lot_optimize"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.AlvisoOculus/optionsahoy-mcp",
+  "slug": "io.github.alvisooculus__optionsahoy-mcp"
+}

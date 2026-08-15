@@ -1,0 +1,105 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "ask_history",
+          "check_decision",
+          "complete_todo",
+          "find_prior_work",
+          "get_thread",
+          "get_thread_knowledge",
+          "linked_commits",
+          "list_open_todos",
+          "list_snapshots",
+          "list_tags",
+          "load_snapshot",
+          "project_memory",
+          "recall_decisions",
+          "recall_gotchas",
+          "recent_threads",
+          "record_decision",
+          "record_gotcha",
+          "recurring_issues",
+          "search_current_project",
+          "search_threads",
+          "snapshot_session",
+          "threads_for_file"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "ask_history",
+          "check_decision",
+          "complete_todo",
+          "find_prior_work",
+          "get_thread",
+          "get_thread_knowledge",
+          "linked_commits",
+          "list_open_todos",
+          "list_snapshots",
+          "list_tags",
+          "load_snapshot",
+          "project_memory",
+          "recall_decisions",
+          "recall_gotchas",
+          "recent_threads",
+          "record_decision",
+          "record_gotcha",
+          "recurring_issues",
+          "search_current_project",
+          "search_threads",
+          "snapshot_session",
+          "threads_for_file"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "ask_history",
+          "check_decision",
+          "complete_todo",
+          "find_prior_work",
+          "get_thread",
+          "get_thread_knowledge",
+          "linked_commits",
+          "list_open_todos",
+          "list_snapshots",
+          "list_tags",
+          "load_snapshot",
+          "project_memory",
+          "recall_decisions",
+          "recall_gotchas",
+          "recent_threads",
+          "record_decision",
+          "record_gotcha",
+          "recurring_issues",
+          "search_current_project",
+          "search_threads",
+          "snapshot_session",
+          "threads_for_file"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.BetaBots-LLC/callimachus",
+  "slug": "io.github.betabots-llc__callimachus"
+}

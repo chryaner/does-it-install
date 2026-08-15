@@ -1,0 +1,84 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "pass",
+        "toolCount": 28,
+        "toolNames": [
+          "active",
+          "aged",
+          "available",
+          "backlink_summary",
+          "bulk_available",
+          "bulk_tld",
+          "deleted",
+          "dns",
+          "domain_changes",
+          "expired",
+          "keyword_data",
+          "keywords_trends",
+          "market",
+          "market_price",
+          "monitor",
+          "nrds",
+          "ns_reverse",
+          "preferences",
+          "price",
+          "safety",
+          "strategy",
+          "tld_check",
+          "tld_rank",
+          "tld_trends",
+          "typosquat",
+          "unregistered_ai",
+          "usage",
+          "whois"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "pass",
+        "toolCount": 28,
+        "toolNames": [
+          "active",
+          "aged",
+          "available",
+          "backlink_summary",
+          "bulk_available",
+          "bulk_tld",
+          "deleted",
+          "dns",
+          "domain_changes",
+          "expired",
+          "keyword_data",
+          "keywords_trends",
+          "market",
+          "market_price",
+          "monitor",
+          "nrds",
+          "ns_reverse",
+          "preferences",
+          "price",
+          "safety",
+          "strategy",
+          "tld_check",
+          "tld_rank",
+          "tld_trends",
+          "typosquat",
+          "unregistered_ai",
+          "usage",
+          "whois"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.ABTdomain/domainkits-mcp",
+  "slug": "io.github.abtdomain__domainkits-mcp"
+}

@@ -1,0 +1,24 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: token '#', \"  # List sec\"... is not valid JSON\nUnexpected token 's', \"  seo-crawle\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'W', \"WORKFLOW:\" is not valid JSON\nUnterminated fractional number in JSON at position 4 (line 1 column 5)\nUnterminated fractional number in JSON at position 4 (line 1 column 5)\nUnterminated fractional number in JSON at position 4 (line 1 column 5)\nUnterminated fractional number in JSON at position 4 (line 1 column 5)\nUnexpected end of JSON input",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: token '#', \"  # List sec\"... is not valid JSON\nUnexpected token 's', \"  seo-crawle\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'W', \"WORKFLOW:\" is not valid JSON\nUnterminated fractional number in JSON at position 4 (line 1 column 5)\nUnterminated fractional number in JSON at position 4 (line 1 column 5)\nUnterminated fractional number in JSON at position 4 (line 1 column 5)\nUnterminated fractional number in JSON at position 4 (line 1 column 5)\nUnexpected end of JSON input",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "io.github.houtini-ai/seo-crawler-mcp",
+  "slug": "io.github.houtini-ai__seo-crawler-mcp"
+}

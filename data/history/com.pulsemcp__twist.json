@@ -1,0 +1,40 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "get_channels",
+          "get_channel",
+          "get_thread",
+          "create_thread",
+          "add_message_to_thread",
+          "close_thread"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "get_channels",
+          "get_channel",
+          "get_thread",
+          "create_thread",
+          "add_message_to_thread",
+          "close_thread"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.pulsemcp/twist",
+  "slug": "com.pulsemcp__twist"
+}

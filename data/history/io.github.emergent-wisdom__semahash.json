@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading onnxruntime (18.3MiB)\nDownloading pillow (4.6MiB)\nDownloading semahash (5.3MiB)\n Downloaded pillow\n Downloaded onnxruntime\n Downloaded semahash\nInstalled 47 packages in 158ms\nAn executable named `semahash` is not provided by package `semahash`.\nThe following executables are available:\n- sema\n\nUse `uv tool run --from semahash sema` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading pillow (6.6MiB)\nDownloading onnxruntime (18.3MiB)\nDownloading semahash (5.3MiB)\n Downloaded pillow\n Downloaded semahash\n Downloaded onnxruntime\nInstalled 47 packages in 101ms\nAn executable named `semahash` is not provided by package `semahash`.\nThe following executables are available:\n- sema\n\nUse `uv tool run --from semahash sema` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading pillow (6.9MiB)\nDownloading semahash (5.3MiB)\n Downloaded pillow\n Downloaded semahash\nInstalled 49 packages in 12.77s\nAn executable named `semahash` is not provided by package `semahash`.\nThe following executables are available:\n- sema.exe\n\nUse `uv tool run --from semahash sema.exe` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.emergent-wisdom/semahash",
+  "slug": "io.github.emergent-wisdom__semahash"
+}

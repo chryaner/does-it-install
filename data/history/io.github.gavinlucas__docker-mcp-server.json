@@ -1,0 +1,24 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 40 packages in 118ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/fNQNz0Whl3M3q5DJ/bin/docker-mcp-server\", line 6, in <module>\n    from docker_mcp import main\n  File \"/Users/runner/.cache/uv/archive-v0/fNQNz0Whl3M3q5DJ/lib/python3.14/site-packages/docker_mcp/__init__.py\", line 3, in <module>\n    from docker_mcp.server import mcp, finalize_instructions\n  File \"/Users/runner/.cache/uv/archive-v0/fNQNz0Whl3M3q5DJ/lib/python3.14/site-packages/docker_mcp/server.py\", line 15, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading cpython-3.14.7-linux-x86_64-gnu (download) (34.2MiB)\n Downloaded cpython-3.14.7-linux-x86_64-gnu (download)\nDownloading pydantic-core (2.0MiB)\n Downloaded pydantic-core\nInstalled 40 packages in 61ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/D_pYFzVizuTK8ozg/bin/docker-mcp-server\", line 6, in <module>\n    from docker_mcp import main\n  File \"/home/runner/.cache/uv/archive-v0/D_pYFzVizuTK8ozg/lib/python3.14/site-packages/docker_mcp/__init__.py\", line 3, in <module>\n    from docker_mcp.server import mcp, finalize_instructions\n  File \"/home/runner/.cache/uv/archive-v0/D_pYFzVizuTK8ozg/lib/python3.14/site-packages/docker_mcp/server.py\", line 15, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.GavinLucas/docker-mcp-server",
+  "slug": "io.github.gavinlucas__docker-mcp-server"
+}

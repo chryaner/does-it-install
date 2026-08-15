@@ -1,0 +1,66 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "log_trace",
+          "evaluate_output",
+          "get_traces",
+          "list_rules",
+          "deploy_rule",
+          "delete_rule",
+          "delete_trace",
+          "evaluate_with_llm_judge",
+          "verify_citations"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "log_trace",
+          "evaluate_output",
+          "get_traces",
+          "list_rules",
+          "deploy_rule",
+          "delete_rule",
+          "delete_trace",
+          "evaluate_with_llm_judge",
+          "verify_citations"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "log_trace",
+          "evaluate_output",
+          "get_traces",
+          "list_rules",
+          "deploy_rule",
+          "delete_rule",
+          "delete_trace",
+          "evaluate_with_llm_judge",
+          "verify_citations"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.iris-eval/mcp-server",
+  "slug": "io.github.iris-eval__mcp-server"
+}

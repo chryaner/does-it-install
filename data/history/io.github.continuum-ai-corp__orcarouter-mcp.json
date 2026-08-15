@@ -1,0 +1,51 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "orcarouter_chat",
+          "orcarouter_models_list",
+          "orcarouter_model_card",
+          "orcarouter_providers_list"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "orcarouter_chat",
+          "orcarouter_models_list",
+          "orcarouter_model_card",
+          "orcarouter_providers_list"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "orcarouter_chat",
+          "orcarouter_models_list",
+          "orcarouter_model_card",
+          "orcarouter_providers_list"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.Continuum-AI-Corp/orcarouter-mcp",
+  "slug": "io.github.continuum-ai-corp__orcarouter-mcp"
+}

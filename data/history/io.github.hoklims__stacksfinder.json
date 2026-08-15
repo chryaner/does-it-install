@@ -1,0 +1,108 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "list_technologies",
+          "analyze_tech",
+          "compare_techs",
+          "recommend_stack_demo",
+          "recommend_stack",
+          "get_blueprint",
+          "create_blueprint",
+          "setup_api_key",
+          "list_api_keys",
+          "revoke_api_key",
+          "create_audit",
+          "get_audit",
+          "list_audits",
+          "compare_audits",
+          "get_audit_quota",
+          "get_migration_recommendation",
+          "generate_mcp_kit",
+          "analyze_repo_mcps",
+          "prepare_mcp_installation",
+          "execute_mcp_installation",
+          "check_mcp_compatibility",
+          "estimate_project",
+          "get_estimate_quota"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "list_technologies",
+          "analyze_tech",
+          "compare_techs",
+          "recommend_stack_demo",
+          "recommend_stack",
+          "get_blueprint",
+          "create_blueprint",
+          "setup_api_key",
+          "list_api_keys",
+          "revoke_api_key",
+          "create_audit",
+          "get_audit",
+          "list_audits",
+          "compare_audits",
+          "get_audit_quota",
+          "get_migration_recommendation",
+          "generate_mcp_kit",
+          "analyze_repo_mcps",
+          "prepare_mcp_installation",
+          "execute_mcp_installation",
+          "check_mcp_compatibility",
+          "estimate_project",
+          "get_estimate_quota"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "list_technologies",
+          "analyze_tech",
+          "compare_techs",
+          "recommend_stack_demo",
+          "recommend_stack",
+          "get_blueprint",
+          "create_blueprint",
+          "setup_api_key",
+          "list_api_keys",
+          "revoke_api_key",
+          "create_audit",
+          "get_audit",
+          "list_audits",
+          "compare_audits",
+          "get_audit_quota",
+          "get_migration_recommendation",
+          "generate_mcp_kit",
+          "analyze_repo_mcps",
+          "prepare_mcp_installation",
+          "execute_mcp_installation",
+          "check_mcp_compatibility",
+          "estimate_project",
+          "get_estimate_quota"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.hoklims/stacksfinder",
+  "slug": "io.github.hoklims__stacksfinder"
+}

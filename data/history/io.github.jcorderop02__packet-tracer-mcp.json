@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nnode:internal/modules/typescript:156\n    throw new ERR_UNSUPPORTED_NODE_MODULES_TYPE_STRIPPING(filename);\n          ^\n\nError [ERR_UNSUPPORTED_NODE_MODULES_TYPE_STRIPPING]: Stripping types is currently unsupported for files under node_modules, for \"file:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-8N5hPg/node_modules/packet-tracer-mcp/src/index.ts\"\n    at stripTypeScriptModuleTypes (node:internal/modules/typescript:156:11)\n    at ModuleLoader.<anonymous> (node:internal/modules/esm/translators:656:29)\n    at #translate (node:internal/modules/esm/loader:559:20)\n    at afterLoad (node:internal/modules/esm/loader:612:29)\n    at ModuleLoader.loadAndTranslate (node:internal/modules/esm/loader:617:12)\n    at #createModuleJob (node:internal/modules/esm/loader:640:36)\n    at #getJobFromResolveResult (node:internal/modules/esm/loader:353:34)\n    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:321:41)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:680:25) {\n  code: 'ERR_UNSUPPORTED_NODE_MODULES_TYPE_STRIPPING'\n}\n\nNode.js v22.23.1",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nnode:internal/modules/typescript:156\n    throw new ERR_UNSUPPORTED_NODE_MODULES_TYPE_STRIPPING(filename);\n          ^\n\nError [ERR_UNSUPPORTED_NODE_MODULES_TYPE_STRIPPING]: Stripping types is currently unsupported for files under node_modules, for \"file:///tmp/does-it-install/dii-npm-zfVDfd/node_modules/packet-tracer-mcp/src/index.ts\"\n    at stripTypeScriptModuleTypes (node:internal/modules/typescript:156:11)\n    at ModuleLoader.<anonymous> (node:internal/modules/esm/translators:656:29)\n    at #translate (node:internal/modules/esm/loader:559:20)\n    at afterLoad (node:internal/modules/esm/loader:612:29)\n    at ModuleLoader.loadAndTranslate (node:internal/modules/esm/loader:617:12)\n    at #createModuleJob (node:internal/modules/esm/loader:640:36)\n    at #getJobFromResolveResult (node:internal/modules/esm/loader:353:34)\n    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:321:41)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:680:25) {\n  code: 'ERR_UNSUPPORTED_NODE_MODULES_TYPE_STRIPPING'\n}\n\nNode.js v22.23.2",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nnode:internal/modules/typescript:156\r\n    throw new ERR_UNSUPPORTED_NODE_MODULES_TYPE_STRIPPING(filename);\r\n          ^\r\n\r\nError [ERR_UNSUPPORTED_NODE_MODULES_TYPE_STRIPPING]: Stripping types is currently unsupported for files under node_modules, for \"file:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-eFRRio/node_modules/packet-tracer-mcp/src/index.ts\"\r\n    at stripTypeScriptModuleTypes (node:internal/modules/typescript:156:11)\r\n    at ModuleLoader.<anonymous> (node:internal/modules/esm/translators:656:29)\r\n    at #translate (node:internal/modules/esm/loader:559:20)\r\n    at afterLoad (node:internal/modules/esm/loader:612:29)\r\n    at ModuleLoader.loadAndTranslate (node:internal/modules/esm/loader:617:12)\r\n    at #createModuleJob (node:internal/modules/esm/loader:640:36)\r\n    at #getJobFromResolveResult (node:internal/modules/esm/loader:353:34)\r\n    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:321:41)\r\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:680:25) {\r\n  code: 'ERR_UNSUPPORTED_NODE_MODULES_TYPE_STRIPPING'\r\n}\r\n\r\nNode.js v22.23.2",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.Jcorderop02/packet-tracer-mcp",
+  "slug": "io.github.jcorderop02__packet-tracer-mcp"
+}

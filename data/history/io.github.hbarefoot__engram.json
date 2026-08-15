@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: Unexpected end of JSON input\nUnexpected token 'e', \"engram v1.\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'i', \"i REST API\"... is not valid JSON\nUnexpected token 'i', \"i Dashboar\"... is not valid JSON\nUnexpected end of JSON input\n--- stderr (tail) ---\n[2026-08-15T04:14:06.456Z] INFO: Initializing database {\"path\":\"/Users/runner/.engram/memory.db\"}\n[2026-08-15T04:14:06.461Z] INFO: Database initialized successfully\n[2026-08-15T04:14:06.481Z] INFO: Initializing database {\"path\":\"/Users/runner/.engram/memory.db\"}\n[2026-08-15T04:14:06.482Z] INFO: Database initialized successfully\n[2026-08-15T04:14:06.505Z] INFO: REST API server started {\"port\":3838,\"url\":\"http://localhost:3838\"}\n[2026-08-15T04:14:06.506Z] INFO: Initializing embedding model {\"model\":\"Xenova/all-MiniLM-L6-v2\"}\n[2026-08-15T04:14:06.506Z] INFO: Loading embedding model (this may take a moment on first run)...\nUnable to determine content-length from response headers. Will expand buffer when needed.\n[2026-08-15T04:14:08.077Z] INFO: Embedding model loaded successfully\n[2026-08-15T04:14:08.077Z] INFO: Embedding pipeline pre-warmed",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "timeout"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: Unexpected end of JSON input\nUnexpected token 'e', \"engram v1.\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'i', \"i REST API\"... is not valid JSON\nUnexpected token 'i', \"i Dashboar\"... is not valid JSON\nUnexpected end of JSON input\n--- stderr (tail) ---\n[2026-08-15T04:12:49.414Z] INFO: Initializing database {\"path\":\"/home/runner/.engram/memory.db\"}\n[2026-08-15T04:12:49.432Z] INFO: Database initialized successfully\n[2026-08-15T04:12:49.458Z] INFO: Initializing database {\"path\":\"/home/runner/.engram/memory.db\"}\n[2026-08-15T04:12:49.459Z] INFO: Database initialized successfully\n[2026-08-15T04:12:49.481Z] INFO: REST API server started {\"port\":3838,\"url\":\"http://localhost:3838\"}\n[2026-08-15T04:12:49.482Z] INFO: Initializing embedding model {\"model\":\"Xenova/all-MiniLM-L6-v2\"}\n[2026-08-15T04:12:49.482Z] INFO: Loading embedding model (this may take a moment on first run)...\nUnable to determine content-length from response headers. Will expand buffer when needed.\n[2026-08-15T04:12:50.045Z] INFO: Embedding model loaded successfully\n[2026-08-15T04:12:50.046Z] INFO: Embedding pipeline pre-warmed",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "timeout"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: Unexpected end of JSON input\nUnexpected token 'e', \"engram v1.\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'i', \"i REST API\"... is not valid JSON\nUnexpected token 'i', \"i Dashboar\"... is not valid JSON\nUnexpected end of JSON input\n--- stderr (tail) ---\n[2026-08-15T05:23:51.494Z] INFO: Initializing database {\"path\":\"C:\\\\Users\\\\runneradmin\\\\.engram\\\\memory.db\"}\n[2026-08-15T05:23:51.892Z] INFO: Database initialized successfully\n[2026-08-15T05:23:52.023Z] INFO: Initializing database {\"path\":\"C:\\\\Users\\\\runneradmin\\\\.engram\\\\memory.db\"}\n[2026-08-15T05:23:52.024Z] INFO: Database initialized successfully\n[2026-08-15T05:23:52.155Z] INFO: REST API server started {\"port\":3838,\"url\":\"http://localhost:3838\"}\n[2026-08-15T05:23:52.156Z] INFO: Initializing embedding model {\"model\":\"Xenova/all-MiniLM-L6-v2\"}\n[2026-08-15T05:23:52.157Z] INFO: Loading embedding model (this may take a moment on first run)...\nUnable to determine content-length from response headers. Will expand buffer when needed.\n[2026-08-15T05:23:53.495Z] INFO: Embedding model loaded successfully\n[2026-08-15T05:23:53.496Z] INFO: Embedding pipeline pre-warmed",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "io.github.HBarefoot/engram",
+  "slug": "io.github.hbarefoot__engram"
+}

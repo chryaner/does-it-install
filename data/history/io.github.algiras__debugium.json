@@ -1,0 +1,24 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDebugium — DAP debugger with real-time web UI + MCP\n\nUsage: debugium <COMMAND>\n\nCommands:\n  launch    Launch a program under a debug adapter and open the web UI\n  attach    Attach to an already-running debug adapter on a TCP port\n  mcp       Start only the MCP stdio server (connects to a running Debugium port)\n  sessions  List active debug sessions\n  threads   List threads in the current session\n  stack     Show the call stack\n  bp        Manage breakpoints\n  continue  Resume execution (continue)\n  step      Single-step: over | in | out\n  vars      Show local variables\n  eval      Evaluate an expression\n  source    Show a source file (windowed if --line given)\n  context   Full debug snapshot\n  annotate  Add a gutter annotation to the UI\n  finding   Add a finding to the findings panel\n  help      Print this message or the help of the given subcommand(s)\n\nOptions:\n  -h, --help  Print help",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDebugium — DAP debugger with real-time web UI + MCP\n\nUsage: debugium <COMMAND>\n\nCommands:\n  launch    Launch a program under a debug adapter and open the web UI\n  attach    Attach to an already-running debug adapter on a TCP port\n  mcp       Start only the MCP stdio server (connects to a running Debugium port)\n  sessions  List active debug sessions\n  threads   List threads in the current session\n  stack     Show the call stack\n  bp        Manage breakpoints\n  continue  Resume execution (continue)\n  step      Single-step: over | in | out\n  vars      Show local variables\n  eval      Evaluate an expression\n  source    Show a source file (windowed if --line given)\n  context   Full debug snapshot\n  annotate  Add a gutter annotation to the UI\n  finding   Add a finding to the findings panel\n  help      Print this message or the help of the given subcommand(s)\n\nOptions:\n  -h, --help  Print help",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.Algiras/debugium",
+  "slug": "io.github.algiras__debugium"
+}

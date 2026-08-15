@@ -1,0 +1,42 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "browse_catalog",
+          "plan_slide",
+          "create_slide",
+          "create_deck",
+          "translate_deck",
+          "upload_asset",
+          "manage_account"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "browse_catalog",
+          "plan_slide",
+          "create_slide",
+          "create_deck",
+          "translate_deck",
+          "upload_asset",
+          "manage_account"
+        ]
+      }
+    ]
+  },
+  "serverId": "dev.slideforge/slideforge",
+  "slug": "dev.slideforge__slideforge"
+}

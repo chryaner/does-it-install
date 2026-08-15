@@ -1,0 +1,72 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "offload_work",
+          "compress_context",
+          "cost_dashboard",
+          "batch_offload",
+          "get_metrics",
+          "recommend_model",
+          "preload_model",
+          "list_loaded_models",
+          "pull_model",
+          "configure_model_selector",
+          "auto_setup"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "offload_work",
+          "compress_context",
+          "cost_dashboard",
+          "batch_offload",
+          "get_metrics",
+          "recommend_model",
+          "preload_model",
+          "list_loaded_models",
+          "pull_model",
+          "configure_model_selector",
+          "auto_setup"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "offload_work",
+          "compress_context",
+          "cost_dashboard",
+          "batch_offload",
+          "get_metrics",
+          "recommend_model",
+          "preload_model",
+          "list_loaded_models",
+          "pull_model",
+          "configure_model_selector",
+          "auto_setup"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.BlackFoil/claude-token-saver-mcp",
+  "slug": "io.github.blackfoil__claude-token-saver-mcp"
+}

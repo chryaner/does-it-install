@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading rapidfuzz (1.1MiB)\nDownloading pyarrow (34.2MiB)\nDownloading edgartools (2.7MiB)\n Downloaded rapidfuzz\n Downloaded edgartools\n Downloaded pyarrow\nInstalled 42 packages in 172ms\nAn executable named `edgartools` is not provided by package `edgartools`.\nThe following executables are available:\n- edgar-test\n- edgartools-mcp\n\nUse `uv tool run --from edgartools <EXECUTABLE-NAME>` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading numpy (15.9MiB)\nDownloading pandas (10.4MiB)\nDownloading lxml (5.0MiB)\nDownloading pyarrow (47.8MiB)\nDownloading rapidfuzz (3.0MiB)\nDownloading edgartools (2.7MiB)\n Downloaded rapidfuzz\n Downloaded edgartools\n Downloaded lxml\n Downloaded numpy\n Downloaded pyarrow\n Downloaded pandas\nInstalled 42 packages in 103ms\nAn executable named `edgartools` is not provided by package `edgartools`.\nThe following executables are available:\n- edgar-test\n- edgartools-mcp\n\nUse `uv tool run --from edgartools <EXECUTABLE-NAME>` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading rapidfuzz (1.5MiB)\nDownloading pyarrow (26.7MiB)\nDownloading edgartools (2.7MiB)\n Downloaded rapidfuzz\n Downloaded edgartools\n Downloaded pyarrow\nInstalled 44 packages in 20.44s\nAn executable named `edgartools` is not provided by package `edgartools`.\nThe following executables are available:\n- edgar-test.exe\n- edgartools-mcp.exe\n\nUse `uv tool run --from edgartools <EXECUTABLE-NAME>` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "io.github.dgunning/edgartools",
+  "slug": "io.github.dgunning__edgartools"
+}

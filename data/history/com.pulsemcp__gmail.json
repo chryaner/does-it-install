@@ -1,0 +1,24 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[ERROR] validateEnvironment: Missing required environment variables:\n\nThis MCP server supports two authentication modes:\n\n--- Option 1: OAuth2 (for personal Gmail accounts) ---\n  GMAIL_OAUTH_CLIENT_ID: OAuth2 client ID from Google Cloud Console\n  GMAIL_OAUTH_CLIENT_SECRET: OAuth2 client secret\n  GMAIL_OAUTH_REFRESH_TOKEN: Refresh token from one-time consent flow\n\n  Setup: Run `npx gmail-workspace-mcp-server oauth-setup <client_id> <client_secret>`\n\n--- Option 2: Service Account (for Google Workspace) ---\n  GMAIL_SERVICE_ACCOUNT_CLIENT_EMAIL: Service account email address\n    Example: my-service-account@my-project.iam.gserviceaccount.com\n  GMAIL_SERVICE_ACCOUNT_PRIVATE_KEY: Service account private key (PEM format)\n    Example: -----BEGIN PRIVATE KEY-----\\nMIIE...\\n-----END PRIVATE KEY-----\n  GMAIL_IMPERSONATE_EMAIL: Email address to impersonate\n    Example: user@yourdomain.com\n\n  Setup steps:\n  1. Go to https://console.cloud.google.com/\n  2. Create a service account with domain-wide delegation\n  3. In Google Workspace Admin, grant required Gmail API scopes\n  4. Download the JSON key file and extract client_email and private_key\n\nOptional environment variables:\n  GMAIL_ENABLED_TOOLGROUPS: Comma-separated list of tool groups to enable\n    Valid groups: readonly, readwrite, readwrite_external\n    Default: all groups enabled\n    Example: GMAIL_ENABLED_TOOLGROUPS=readwrite\n\n======================================================",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[ERROR] validateEnvironment: Missing required environment variables:\n\nThis MCP server supports two authentication modes:\n\n--- Option 1: OAuth2 (for personal Gmail accounts) ---\n  GMAIL_OAUTH_CLIENT_ID: OAuth2 client ID from Google Cloud Console\n  GMAIL_OAUTH_CLIENT_SECRET: OAuth2 client secret\n  GMAIL_OAUTH_REFRESH_TOKEN: Refresh token from one-time consent flow\n\n  Setup: Run `npx gmail-workspace-mcp-server oauth-setup <client_id> <client_secret>`\n\n--- Option 2: Service Account (for Google Workspace) ---\n  GMAIL_SERVICE_ACCOUNT_CLIENT_EMAIL: Service account email address\n    Example: my-service-account@my-project.iam.gserviceaccount.com\n  GMAIL_SERVICE_ACCOUNT_PRIVATE_KEY: Service account private key (PEM format)\n    Example: -----BEGIN PRIVATE KEY-----\\nMIIE...\\n-----END PRIVATE KEY-----\n  GMAIL_IMPERSONATE_EMAIL: Email address to impersonate\n    Example: user@yourdomain.com\n\n  Setup steps:\n  1. Go to https://console.cloud.google.com/\n  2. Create a service account with domain-wide delegation\n  3. In Google Workspace Admin, grant required Gmail API scopes\n  4. Download the JSON key file and extract client_email and private_key\n\nOptional environment variables:\n  GMAIL_ENABLED_TOOLGROUPS: Comma-separated list of tool groups to enable\n    Valid groups: readonly, readwrite, readwrite_external\n    Default: all groups enabled\n    Example: GMAIL_ENABLED_TOOLGROUPS=readwrite\n\n======================================================",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "com.pulsemcp/gmail",
+  "slug": "com.pulsemcp__gmail"
+}

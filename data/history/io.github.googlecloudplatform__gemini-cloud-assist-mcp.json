@@ -1,0 +1,47 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "fetch_investigation",
+          "create_investigation",
+          "run_investigation",
+          "add_observation",
+          "search_and_analyze_gcp_resources"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "fetch_investigation",
+          "create_investigation",
+          "run_investigation",
+          "add_observation",
+          "search_and_analyze_gcp_resources"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "errorExcerpt": "npm install @google-cloud/gemini-cloud-assist-mcp@0.1.1 timed out after 600s",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "io.github.GoogleCloudPlatform/gemini-cloud-assist-mcp",
+  "slug": "io.github.googlecloudplatform__gemini-cloud-assist-mcp"
+}

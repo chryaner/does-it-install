@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nBuilding undetected-chromedriver==3.5.5\nDownloading selenium (9.1MiB)\n      Built undetected-chromedriver==3.5.5\n Downloaded selenium\nInstalled 69 packages in 360ms\nAn executable named `x-use-mcp` is not provided by package `x-use-mcp`.\nThe following executables are available:\n- x-use\n\nUse `uv tool run --from x-use-mcp x-use` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nBuilding undetected-chromedriver==3.5.5\nDownloading selenium (9.1MiB)\n      Built undetected-chromedriver==3.5.5\n Downloaded selenium\nInstalled 69 packages in 122ms\nAn executable named `x-use-mcp` is not provided by package `x-use-mcp`.\nThe following executables are available:\n- x-use\n\nUse `uv tool run --from x-use-mcp x-use` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nBuilding undetected-chromedriver==3.5.5\nDownloading selenium (9.1MiB)\n      Built undetected-chromedriver==3.5.5\n Downloaded selenium\nInstalled 71 packages in 19.09s\nAn executable named `x-use-mcp` is not provided by package `x-use-mcp`.\nThe following executables are available:\n- x-use.exe\n\nUse `uv tool run --from x-use-mcp x-use.exe` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.ihuzaifashoukat/x-use",
+  "slug": "io.github.ihuzaifashoukat__x-use"
+}

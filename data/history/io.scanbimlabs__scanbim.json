@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T04:06:28.791Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"id\":null,\"error\":{\"code\":-32001,\"message\":\"Unauthorized — missing or invalid ScanBIM API key\",\"data\":{\"hint\":\"Generate a key at https://scanbim.app/settings?tab=apikeys and send it as \\\"x-scanbim-key: sbk_...\\\" or \\\"Authorization: Bearer sbk_...\\\"\",\"docs\":\"https://scanbim.app/developers\"}}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T01:49:18.419Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"id\":null,\"error\":{\"code\":-32001,\"message\":\"Unauthorized — missing or invalid ScanBIM API key\",\"data\":{\"hint\":\"Generate a key at https://scanbim.app/settings?tab=apikeys and send it as \\\"x-scanbim-key: sbk_...\\\" or \\\"Authorization: Bearer sbk_...\\\"\",\"docs\":\"https://scanbim.app/developers\"}}} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -10,6 +17,13 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"id\":null,\"error\":{\"code\":-32001,\"message\":\"Unauthorized — missing or invalid ScanBIM API key\",\"data\":{\"hint\":\"Generate a key at https://scanbim.app/settings?tab=apikeys and send it as \\\"x-scanbim-key: sbk_...\\\" or \\\"Authorization: Bearer sbk_...\\\"\",\"docs\":\"https://scanbim.app/developers\"}}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-15T01:49:21.179Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"id\":null,\"error\":{\"code\":-32001,\"message\":\"Unauthorized — missing or invalid ScanBIM API key\",\"data\":{\"hint\":\"Generate a key at https://scanbim.app/settings?tab=apikeys and send it as \\\"x-scanbim-key: sbk_...\\\" or \\\"Authorization: Bearer sbk_...\\\"\",\"docs\":\"https://scanbim.app/developers\"}}} (endpoint reachable but requires credentials the harness does not send)",

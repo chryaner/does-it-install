@@ -1,0 +1,74 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "jira_get_visible_projects",
+          "jira_get_issue",
+          "jira_search_issues",
+          "jira_get_my_issues",
+          "jira_get_issue_types",
+          "jira_get_users",
+          "jira_get_priorities",
+          "jira_get_statuses",
+          "jira_get_project_info",
+          "jira_get_create_meta",
+          "jira_get_custom_fields",
+          "jira_get_comments",
+          "jira_get_attachments",
+          "jira_get_transitions",
+          "jira_create_issue",
+          "jira_update_issue",
+          "jira_add_comment",
+          "jira_create_subtask",
+          "jira_create_issue_link",
+          "jira_add_attachment",
+          "jira_transition_issue",
+          "jira_get_issue_graph",
+          "jira_delete_attachment"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "jira_get_visible_projects",
+          "jira_get_issue",
+          "jira_search_issues",
+          "jira_get_my_issues",
+          "jira_get_issue_types",
+          "jira_get_users",
+          "jira_get_priorities",
+          "jira_get_statuses",
+          "jira_get_project_info",
+          "jira_get_create_meta",
+          "jira_get_custom_fields",
+          "jira_get_comments",
+          "jira_get_attachments",
+          "jira_get_transitions",
+          "jira_create_issue",
+          "jira_update_issue",
+          "jira_add_comment",
+          "jira_create_subtask",
+          "jira_create_issue_link",
+          "jira_add_attachment",
+          "jira_transition_issue",
+          "jira_get_issue_graph",
+          "jira_delete_attachment"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.freema/mcp-jira-stdio",
+  "slug": "io.github.freema__mcp-jira-stdio"
+}

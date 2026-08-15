@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[ERROR] healthcheck: Failed to validate GCS credentials: Project id: 0 is invalid or not found\n[ERROR] healthcheck: Please check your GCS_PROJECT_ID and authentication configuration",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[ERROR] healthcheck: Failed to validate GCS credentials: Project id: 0 is invalid or not found\n[ERROR] healthcheck: Please check your GCS_PROJECT_ID and authentication configuration",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[ERROR] healthcheck: Failed to validate GCS credentials: Project id: 0 is invalid or not found\n[ERROR] healthcheck: Please check your GCS_PROJECT_ID and authentication configuration",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "com.pulsemcp/gcs",
+  "slug": "com.pulsemcp__gcs"
+}

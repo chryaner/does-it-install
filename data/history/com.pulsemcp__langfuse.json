@@ -1,0 +1,51 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "get_traces",
+          "get_trace_detail",
+          "get_observations",
+          "get_observation"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "get_traces",
+          "get_trace_detail",
+          "get_observations",
+          "get_observation"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "get_traces",
+          "get_trace_detail",
+          "get_observations",
+          "get_observation"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.pulsemcp/langfuse",
+  "slug": "com.pulsemcp__langfuse"
+}

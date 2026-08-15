@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 1 package in 3ms\nusage: inspeximus [-h] [--path PATH] [--json] [--receipts]\n                  [--receipt-key-file RECEIPT_KEY_FILE]\n                  {remember,recall,grant,revoke,grants,recall-iterative,revert,forget,forget-subject,list,stats,writer-key,browse,decision,contradictions,governance,residue,consolidate,why,erasure-audit,erasure-certificate,erasure-verify,provenance,distill,reembed,deprecate,check-code,compliance,retention,audit-build,audit-verify,anchor,witness,install} ...\ninspeximus: error: the following arguments are required: cmd",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 1 package in 5ms\nusage: inspeximus [-h] [--path PATH] [--json] [--receipts]\n                  [--receipt-key-file RECEIPT_KEY_FILE]\n                  {remember,recall,grant,revoke,grants,recall-iterative,revert,forget,forget-subject,list,stats,writer-key,browse,decision,contradictions,governance,residue,consolidate,why,erasure-audit,erasure-certificate,erasure-verify,provenance,distill,reembed,deprecate,check-code,compliance,retention,audit-build,audit-verify,anchor,witness,install} ...\ninspeximus: error: the following arguments are required: cmd",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 1 package in 264ms\nusage: inspeximus [-h] [--path PATH] [--json] [--receipts]\r\n                  [--receipt-key-file RECEIPT_KEY_FILE]\r\n                  {remember,recall,grant,revoke,grants,recall-iterative,revert,forget,forget-subject,list,stats,writer-key,browse,decision,contradictions,governance,residue,consolidate,why,erasure-audit,erasure-certificate,erasure-verify,provenance,distill,reembed,deprecate,check-code,compliance,retention,audit-build,audit-verify,anchor,witness,install}\r\n                  ...\r\ninspeximus: error: the following arguments are required: cmd",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.DanceNitra/inspeximus",
+  "slug": "io.github.dancenitra__inspeximus"
+}

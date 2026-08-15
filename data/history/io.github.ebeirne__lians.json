@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 7 packages in 20ms\nAn executable named `lians-sdk` is not provided by package `lians-sdk`.\nThe following executables are available:\n- lians-mcp\n\nUse `uv tool run --from lians-sdk lians-mcp` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 7 packages in 10ms\nAn executable named `lians-sdk` is not provided by package `lians-sdk`.\nThe following executables are available:\n- lians-mcp\n\nUse `uv tool run --from lians-sdk lians-mcp` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 8 packages in 1.33s\nAn executable named `lians-sdk` is not provided by package `lians-sdk`.\nThe following executables are available:\n- lians-mcp.exe\n\nUse `uv tool run --from lians-sdk lians-mcp.exe` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.ebeirne/lians",
+  "slug": "io.github.ebeirne__lians"
+}

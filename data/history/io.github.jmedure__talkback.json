@@ -1,0 +1,69 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "get_session_context",
+          "get_track_details",
+          "get_spectral_snapshot",
+          "get_plugin_library",
+          "analyze_mix",
+          "set_device_parameter",
+          "toggle_device_bypass",
+          "create_group_track",
+          "set_track_routing",
+          "get_bridge_health"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "get_session_context",
+          "get_track_details",
+          "get_spectral_snapshot",
+          "get_plugin_library",
+          "analyze_mix",
+          "set_device_parameter",
+          "toggle_device_bypass",
+          "create_group_track",
+          "set_track_routing",
+          "get_bridge_health"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "get_session_context",
+          "get_track_details",
+          "get_spectral_snapshot",
+          "get_plugin_library",
+          "analyze_mix",
+          "set_device_parameter",
+          "toggle_device_bypass",
+          "create_group_track",
+          "set_track_routing",
+          "get_bridge_health"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.jmedure/talkback",
+  "slug": "io.github.jmedure__talkback"
+}

@@ -1,0 +1,54 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "get_merge_request",
+          "list_merge_requests",
+          "get_code_review_rules",
+          "list_all_code_review_rules",
+          "get_project_types",
+          "get_project_specific_rules",
+          "write_gitlab_mr_note",
+          "gitlab_code_review",
+          "gitlab_branch_code_review",
+          "gitlab_commit_review",
+          "get_file_content",
+          "list_branches",
+          "write_gitlab_commit_note"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "get_merge_request",
+          "list_merge_requests",
+          "get_code_review_rules",
+          "list_all_code_review_rules",
+          "get_project_types",
+          "get_project_specific_rules",
+          "write_gitlab_mr_note",
+          "gitlab_code_review",
+          "gitlab_branch_code_review",
+          "gitlab_commit_review",
+          "get_file_content",
+          "list_branches",
+          "write_gitlab_commit_note"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.dubuqingfeng/gitlab-mcp-server",
+  "slug": "io.github.dubuqingfeng__gitlab-mcp-server"
+}

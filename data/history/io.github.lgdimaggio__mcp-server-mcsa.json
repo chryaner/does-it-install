@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 31 packages in 274ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/eO7zX35rkFj8uF4t/bin/mcp-server-mcsa\", line 12, in <module>\n    sys.exit(main())\n             ~~~~^^\n  File \"/Users/runner/.cache/uv/archive-v0/eO7zX35rkFj8uF4t/lib/python3.14/site-packages/mcp_server_mcsa/__init__.py\", line 31, in main\n    from mcp_server_mcsa.server import serve\n  File \"/Users/runner/.cache/uv/archive-v0/eO7zX35rkFj8uF4t/lib/python3.14/site-packages/mcp_server_mcsa/server.py\", line 17, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 31 packages in 59ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/8Z6nIV5XJOcm486w/bin/mcp-server-mcsa\", line 12, in <module>\n    sys.exit(main())\n             ~~~~^^\n  File \"/home/runner/.cache/uv/archive-v0/8Z6nIV5XJOcm486w/lib/python3.13/site-packages/mcp_server_mcsa/__init__.py\", line 31, in main\n    from mcp_server_mcsa.server import serve\n  File \"/home/runner/.cache/uv/archive-v0/8Z6nIV5XJOcm486w/lib/python3.13/site-packages/mcp_server_mcsa/server.py\", line 17, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 33 packages in 17.18s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\0CddAPR_ykjOth0M\\Scripts\\mcp-server-mcsa.exe\\__main__.py\", line 10, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\0CddAPR_ykjOth0M\\Lib\\site-packages\\mcp_server_mcsa\\__init__.py\", line 31, in main\r\n    from mcp_server_mcsa.server import serve\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\0CddAPR_ykjOth0M\\Lib\\site-packages\\mcp_server_mcsa\\server.py\", line 17, in <module>\r\n    from mcp.server.fastmcp import FastMCP\r\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.LGDiMaggio/mcp-server-mcsa",
+  "slug": "io.github.lgdimaggio__mcp-server-mcsa"
+}

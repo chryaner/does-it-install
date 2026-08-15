@@ -1,0 +1,48 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "search_monsters",
+          "search_spells",
+          "search_equipment",
+          "browse_classes",
+          "browse_races",
+          "search_rules",
+          "build_encounter",
+          "plan_spells",
+          "compare_monsters",
+          "analyze_loadout"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "search_monsters",
+          "search_spells",
+          "search_equipment",
+          "browse_classes",
+          "browse_races",
+          "search_rules",
+          "build_encounter",
+          "plan_spells",
+          "compare_monsters",
+          "analyze_loadout"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.gregario/dnd-oracle",
+  "slug": "io.github.gregario__dnd-oracle"
+}

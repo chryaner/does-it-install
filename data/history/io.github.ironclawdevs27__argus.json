@@ -1,0 +1,46 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "argus_audit",
+          "argus_audit_full",
+          "argus_compare",
+          "argus_last_report",
+          "argus_watch_snapshot",
+          "argus_get_context",
+          "argus_visual_diff",
+          "argus_design_audit",
+          "argus_pr_validate"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "argus_audit",
+          "argus_audit_full",
+          "argus_compare",
+          "argus_last_report",
+          "argus_watch_snapshot",
+          "argus_get_context",
+          "argus_visual_diff",
+          "argus_design_audit",
+          "argus_pr_validate"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.ironclawdevs27/argus",
+  "slug": "io.github.ironclawdevs27__argus"
+}

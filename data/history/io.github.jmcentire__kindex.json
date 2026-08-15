@@ -1,0 +1,24 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 11 packages in 293ms\nAn executable named `kindex` is not provided by package `kindex`.\nThe following executables are available:\n- kin\n- kin-mcp\n\nUse `uv tool run --from kindex <EXECUTABLE-NAME>` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 11 packages in 46ms\nAn executable named `kindex` is not provided by package `kindex`.\nThe following executables are available:\n- kin\n- kin-mcp\n\nUse `uv tool run --from kindex <EXECUTABLE-NAME>` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.jmcentire/kindex",
+  "slug": "io.github.jmcentire__kindex"
+}

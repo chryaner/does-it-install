@@ -1,0 +1,51 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "get-documentation",
+          "list-sections",
+          "playground-link",
+          "svelte-autofixer"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "get-documentation",
+          "list-sections",
+          "playground-link",
+          "svelte-autofixer"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "get-documentation",
+          "list-sections",
+          "playground-link",
+          "svelte-autofixer"
+        ]
+      }
+    ]
+  },
+  "serverId": "dev.svelte/mcp",
+  "slug": "dev.svelte__mcp"
+}

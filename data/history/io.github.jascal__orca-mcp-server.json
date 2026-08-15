@@ -1,0 +1,52 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "parse_machine",
+          "verify_machine",
+          "compile_machine",
+          "generate_machine",
+          "generate_actions",
+          "generate_multi_machine",
+          "refine_machine",
+          "server_status",
+          "parse_decision_table",
+          "verify_decision_table",
+          "compile_decision_table",
+          "generate_decision_table"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "parse_machine",
+          "verify_machine",
+          "compile_machine",
+          "generate_machine",
+          "generate_actions",
+          "generate_multi_machine",
+          "refine_machine",
+          "server_status",
+          "parse_decision_table",
+          "verify_decision_table",
+          "compile_decision_table",
+          "generate_decision_table"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.jascal/orca-mcp-server",
+  "slug": "io.github.jascal__orca-mcp-server"
+}

@@ -1,0 +1,24 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading curl-cffi (2.7MiB)\nDownloading pandas (9.5MiB)\n Downloaded curl-cffi\n Downloaded pandas\nInstalled 58 packages in 433ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/0HO1_IwVVLAvhAxp/bin/finstack-mcp\", line 6, in <module>\n    from finstack.server import main\n  File \"/Users/runner/.cache/uv/archive-v0/0HO1_IwVVLAvhAxp/lib/python3.14/site-packages/finstack/server.py\", line 6, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading numpy (15.9MiB)\nDownloading lxml (5.0MiB)\nDownloading curl-cffi (12.8MiB)\nDownloading pandas (10.4MiB)\n Downloaded curl-cffi\n Downloaded lxml\n Downloaded numpy\n Downloaded pandas\nInstalled 58 packages in 102ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/fNBHAM-FiabyX_RE/bin/finstack-mcp\", line 6, in <module>\n    from finstack.server import main\n  File \"/home/runner/.cache/uv/archive-v0/fNBHAM-FiabyX_RE/lib/python3.13/site-packages/finstack/server.py\", line 6, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.finstacklabs/finstack-mcp",
+  "slug": "io.github.finstacklabs__finstack-mcp"
+}

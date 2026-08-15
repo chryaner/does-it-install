@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: Unexpected token 'U', \"Usage: age\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'C', \"Commands:\" is not valid JSON\nUnexpected token 'i', \"  init    Co\"... is not valid JSON\nUnexpected end of JSON input\n--- stderr (tail) ---\nDownloading grpcio (11.6MiB)\n Downloaded grpcio\nInstalled 77 packages in 383ms",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: Unexpected token 'U', \"Usage: age\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'C', \"Commands:\" is not valid JSON\nUnexpected token 'i', \"  init    Co\"... is not valid JSON\nUnexpected end of JSON input\n--- stderr (tail) ---\nDownloading grpcio (6.7MiB)\n Downloaded grpcio\nInstalled 77 packages in 186ms",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: Unexpected token 'U', \"Usage: age\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'C', \"Commands:\" is not valid JSON\nUnexpected token 'i', \"  init    Co\"... is not valid JSON\nUnexpected end of JSON input\n--- stderr (tail) ---\nDownloading grpcio (4.9MiB)\n Downloaded grpcio\nInstalled 79 packages in 33.95s",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "io.github.helinakdogan/agent-magnet",
+  "slug": "io.github.helinakdogan__agent-magnet"
+}

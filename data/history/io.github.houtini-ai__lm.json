@@ -1,0 +1,63 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "chat",
+          "custom_prompt",
+          "code_task",
+          "code_task_files",
+          "discover",
+          "list_models",
+          "embed",
+          "stats"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "chat",
+          "custom_prompt",
+          "code_task",
+          "code_task_files",
+          "discover",
+          "list_models",
+          "embed",
+          "stats"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "chat",
+          "custom_prompt",
+          "code_task",
+          "code_task_files",
+          "discover",
+          "list_models",
+          "embed",
+          "stats"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.houtini-ai/lm",
+  "slug": "io.github.houtini-ai__lm"
+}

@@ -1,0 +1,42 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "get_url_report",
+          "get_url_relationship",
+          "get_file_report",
+          "get_file_relationship",
+          "get_ip_report",
+          "get_ip_relationship",
+          "get_domain_report"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "get_url_report",
+          "get_url_relationship",
+          "get_file_report",
+          "get_file_relationship",
+          "get_ip_report",
+          "get_ip_relationship",
+          "get_domain_report"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.BurtTheCoder/virustotal",
+  "slug": "io.github.burtthecoder__virustotal"
+}

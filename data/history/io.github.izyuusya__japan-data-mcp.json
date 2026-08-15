@@ -1,0 +1,24 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 32 packages in 91ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/KfbniyClZCGS4kkC/bin/japan-data-mcp\", line 12, in <module>\n    sys.exit(main())\n             ~~~~^^\n  File \"/Users/runner/.cache/uv/archive-v0/KfbniyClZCGS4kkC/lib/python3.14/site-packages/japan_data_mcp/cli.py\", line 302, in main\n    from japan_data_mcp.server import main as server_main\n  File \"/Users/runner/.cache/uv/archive-v0/KfbniyClZCGS4kkC/lib/python3.14/site-packages/japan_data_mcp/server.py\", line 15, in <module>\n    from mcp.server.fastmcp import Context, FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 32 packages in 37ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/a2AayhNmegsAp9_Z/bin/japan-data-mcp\", line 12, in <module>\n    sys.exit(main())\n             ~~~~^^\n  File \"/home/runner/.cache/uv/archive-v0/a2AayhNmegsAp9_Z/lib/python3.13/site-packages/japan_data_mcp/cli.py\", line 302, in main\n    from japan_data_mcp.server import main as server_main\n  File \"/home/runner/.cache/uv/archive-v0/a2AayhNmegsAp9_Z/lib/python3.13/site-packages/japan_data_mcp/server.py\", line 15, in <module>\n    from mcp.server.fastmcp import Context, FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "io.github.Izyuusya/japan-data-mcp",
+  "slug": "io.github.izyuusya__japan-data-mcp"
+}

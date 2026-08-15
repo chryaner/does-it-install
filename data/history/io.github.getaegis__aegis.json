@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: aegis [options] [command]\n\nCredential isolation for AI agents. Store, guard, and record.\n\nOptions:\n  -V, --version        output the version number\n  -h, --help           display help for command\n\nCommands:\n  vault                Manage stored credentials\n  gate [options]       Start the Aegis Gate proxy\n  agent                Manage agent identities and access\n  policy               Manage and validate policy files\n  mcp                  Run Aegis as an MCP server\n  webhook              Manage webhook alert endpoints\n  ledger               View and export audit logs\n  user                 Manage users and roles (RBAC)\n  config               Manage Aegis configuration\n  init [options]       Initialize Aegis — generate master key, config file, and\n                       data directory\n  key                  Manage the Aegis master key\n  doctor               Run health checks on your Aegis installation\n  dashboard [options]  Start the Aegis Dashboard (web UI + Gate proxy)\n  db                   Database backup and restore\n  help [command]       display help for command",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: aegis [options] [command]\n\nCredential isolation for AI agents. Store, guard, and record.\n\nOptions:\n  -V, --version        output the version number\n  -h, --help           display help for command\n\nCommands:\n  vault                Manage stored credentials\n  gate [options]       Start the Aegis Gate proxy\n  agent                Manage agent identities and access\n  policy               Manage and validate policy files\n  mcp                  Run Aegis as an MCP server\n  webhook              Manage webhook alert endpoints\n  ledger               View and export audit logs\n  user                 Manage users and roles (RBAC)\n  config               Manage Aegis configuration\n  init [options]       Initialize Aegis — generate master key, config file, and\n                       data directory\n  key                  Manage the Aegis master key\n  doctor               Run health checks on your Aegis installation\n  dashboard [options]  Start the Aegis Dashboard (web UI + Gate proxy)\n  db                   Database backup and restore\n  help [command]       display help for command",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: aegis [options] [command]\n\nCredential isolation for AI agents. Store, guard, and record.\n\nOptions:\n  -V, --version        output the version number\n  -h, --help           display help for command\n\nCommands:\n  vault                Manage stored credentials\n  gate [options]       Start the Aegis Gate proxy\n  agent                Manage agent identities and access\n  policy               Manage and validate policy files\n  mcp                  Run Aegis as an MCP server\n  webhook              Manage webhook alert endpoints\n  ledger               View and export audit logs\n  user                 Manage users and roles (RBAC)\n  config               Manage Aegis configuration\n  init [options]       Initialize Aegis — generate master key, config file, and\n                       data directory\n  key                  Manage the Aegis master key\n  doctor               Run health checks on your Aegis installation\n  dashboard [options]  Start the Aegis Dashboard (web UI + Gate proxy)\n  db                   Database backup and restore\n  help [command]       display help for command",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "io.github.getaegis/aegis",
+  "slug": "io.github.getaegis__aegis"
+}

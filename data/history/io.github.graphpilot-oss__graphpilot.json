@@ -1,0 +1,51 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "gp_index",
+          "gp_recall",
+          "gp_callers",
+          "gp_impact"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "gp_index",
+          "gp_recall",
+          "gp_callers",
+          "gp_impact"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "gp_index",
+          "gp_recall",
+          "gp_callers",
+          "gp_impact"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.graphpilot-oss/graphpilot",
+  "slug": "io.github.graphpilot-oss__graphpilot"
+}

@@ -1,0 +1,64 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "news_events_explain_market_move",
+          "news_events_get_event_detail",
+          "news_events_get_latest_events",
+          "news_events_get_market_move_report",
+          "news_events_list_market_move_reports",
+          "news_feed_get_exchange_announcements",
+          "news_feed_get_hot_topics",
+          "news_feed_get_mention_burst",
+          "news_feed_get_social_sentiment",
+          "news_feed_search_news",
+          "news_feed_search_ugc",
+          "news_feed_search_x",
+          "news_feed_web_search",
+          "news_prediction_get_event_signal",
+          "news_prediction_get_fastest_rising_ranking",
+          "news_prediction_get_market_orderbook",
+          "news_prediction_get_volume_delta_ranking",
+          "news_prediction_search_events"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "news_events_explain_market_move",
+          "news_events_get_event_detail",
+          "news_events_get_latest_events",
+          "news_events_get_market_move_report",
+          "news_events_list_market_move_reports",
+          "news_feed_get_exchange_announcements",
+          "news_feed_get_hot_topics",
+          "news_feed_get_mention_burst",
+          "news_feed_get_social_sentiment",
+          "news_feed_search_news",
+          "news_feed_search_ugc",
+          "news_feed_search_x",
+          "news_feed_web_search",
+          "news_prediction_get_event_signal",
+          "news_prediction_get_fastest_rising_ranking",
+          "news_prediction_get_market_orderbook",
+          "news_prediction_get_volume_delta_ranking",
+          "news_prediction_search_events"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.gateio-dev/gate-news",
+  "slug": "io.github.gateio-dev__gate-news"
+}

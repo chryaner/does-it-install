@@ -1,0 +1,87 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "get_quote",
+          "get_historical",
+          "search_symbol",
+          "search_funds",
+          "get_fund_nav",
+          "get_fundamentals",
+          "compare_stocks",
+          "get_index",
+          "get_market_status",
+          "get_gainers_losers",
+          "get_corporate_actions",
+          "get_options_chain",
+          "get_ipo_list",
+          "get_fund_details",
+          "compare_funds",
+          "portfolio_summary"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "get_quote",
+          "get_historical",
+          "search_symbol",
+          "search_funds",
+          "get_fund_nav",
+          "get_fundamentals",
+          "compare_stocks",
+          "get_index",
+          "get_market_status",
+          "get_gainers_losers",
+          "get_corporate_actions",
+          "get_options_chain",
+          "get_ipo_list",
+          "get_fund_details",
+          "compare_funds",
+          "portfolio_summary"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "get_quote",
+          "get_historical",
+          "search_symbol",
+          "search_funds",
+          "get_fund_nav",
+          "get_fundamentals",
+          "compare_stocks",
+          "get_index",
+          "get_market_status",
+          "get_gainers_losers",
+          "get_corporate_actions",
+          "get_options_chain",
+          "get_ipo_list",
+          "get_fund_details",
+          "compare_funds",
+          "portfolio_summary"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.Akhilgovind02/india-stock-mcp",
+  "slug": "io.github.akhilgovind02__india-stock-mcp"
+}

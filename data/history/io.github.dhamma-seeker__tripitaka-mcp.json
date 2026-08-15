@@ -1,0 +1,78 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "search_by_keyword",
+          "survey_corpus",
+          "get_sutta",
+          "search_semantic",
+          "search_hybrid",
+          "list_structure",
+          "get_reference",
+          "list_editions",
+          "compare_translations",
+          "get_word_definition",
+          "define_from_suttas",
+          "parse_pali_word",
+          "open_sutta_viewer"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "search_by_keyword",
+          "survey_corpus",
+          "get_sutta",
+          "search_semantic",
+          "search_hybrid",
+          "list_structure",
+          "get_reference",
+          "list_editions",
+          "compare_translations",
+          "get_word_definition",
+          "define_from_suttas",
+          "parse_pali_word",
+          "open_sutta_viewer"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "search_by_keyword",
+          "survey_corpus",
+          "get_sutta",
+          "search_semantic",
+          "search_hybrid",
+          "list_structure",
+          "get_reference",
+          "list_editions",
+          "compare_translations",
+          "get_word_definition",
+          "define_from_suttas",
+          "parse_pali_word",
+          "open_sutta_viewer"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.dhamma-seeker/tripitaka-mcp",
+  "slug": "io.github.dhamma-seeker__tripitaka-mcp"
+}

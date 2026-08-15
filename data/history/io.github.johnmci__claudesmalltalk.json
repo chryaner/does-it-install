@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 30 packages in 57ms\nwarning: `claude-smalltalk==1.2.1` is yanked\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/ILr0PoCft2cf27ok/bin/claude-smalltalk\", line 6, in <module>\n    from claude_smalltalk import main\n  File \"/Users/runner/.cache/uv/archive-v0/ILr0PoCft2cf27ok/lib/python3.14/site-packages/claude_smalltalk/__init__.py\", line 5, in <module>\n    from .mcp_server import run_server as main\n  File \"/Users/runner/.cache/uv/archive-v0/ILr0PoCft2cf27ok/lib/python3.14/site-packages/claude_smalltalk/mcp_server.py\", line 129, in <module>\n    @server.list_tools()\n     ^^^^^^^^^^^^^^^^^\nAttributeError: 'Server' object has no attribute 'list_tools'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 30 packages in 115ms\nwarning: `claude-smalltalk==1.2.1` is yanked\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/vGH6V2lqOJtg4l_J/bin/claude-smalltalk\", line 6, in <module>\n    from claude_smalltalk import main\n  File \"/home/runner/.cache/uv/archive-v0/vGH6V2lqOJtg4l_J/lib/python3.13/site-packages/claude_smalltalk/__init__.py\", line 5, in <module>\n    from .mcp_server import run_server as main\n  File \"/home/runner/.cache/uv/archive-v0/vGH6V2lqOJtg4l_J/lib/python3.13/site-packages/claude_smalltalk/mcp_server.py\", line 129, in <module>\n    @server.list_tools()\n     ^^^^^^^^^^^^^^^^^\nAttributeError: 'Server' object has no attribute 'list_tools'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 32 packages in 5.67s\nwarning: `claude-smalltalk==1.2.1` is yanked\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\X4V5z49roqJHGpoh\\Scripts\\claude-smalltalk.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\X4V5z49roqJHGpoh\\Lib\\site-packages\\claude_smalltalk\\__init__.py\", line 5, in <module>\r\n    from .mcp_server import run_server as main\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\X4V5z49roqJHGpoh\\Lib\\site-packages\\claude_smalltalk\\mcp_server.py\", line 129, in <module>\r\n    @server.list_tools()\r\n     ^^^^^^^^^^^^^^^^^\r\nAttributeError: 'Server' object has no attribute 'list_tools'",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.johnmci/ClaudeSmalltalk",
+  "slug": "io.github.johnmci__claudesmalltalk"
+}

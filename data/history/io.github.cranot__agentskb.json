@@ -1,0 +1,24 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: ON input\nUnexpected token '\ud83d', \"🚀 Quick Start:\" is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'a', \"  agentskb i\"... is not valid JSON\nUnexpected token 'a', \"  agentskb c\"... is not valid JSON\nUnexpected token 'a', \"  agentskb l\"... is not valid JSON\nUnexpected token 'a', \"  agentskb u\"... is not valid JSON\nUnexpected token 'a', \"  agentskb r\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'L', \"Learn more\"... is not valid JSON\nUnexpected end of JSON input\n--- stderr (tail) ---\nUsage: agentskb [options] [command]\n\nAgentsKB CLI - Verified knowledge for AI coding assistants\n  Stop hallucinations with 5,000+ sourced answers. Works with Claude Code, Cursor, Cline.\n\nOptions:\n  -V, --version       output the version number\n  -h, --help          display help for command\n\nCommands:\n  init [options]      Initialize a new AgentsKB project manifest\n  check [options]     Check project readiness and coverage\n  lock                Generate lockfile for deterministic builds\n  request [question]  Request missing knowledge (captures demand signals)\n  update [options]    Update lockfile with latest verified knowledge versions\n  verify [options]    Verify lockfile integrity and check for drift (CI/CD\n                      mode)\n  help [command]      display help for command",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: ON input\nUnexpected token '\ud83d', \"🚀 Quick Start:\" is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'a', \"  agentskb i\"... is not valid JSON\nUnexpected token 'a', \"  agentskb c\"... is not valid JSON\nUnexpected token 'a', \"  agentskb l\"... is not valid JSON\nUnexpected token 'a', \"  agentskb u\"... is not valid JSON\nUnexpected token 'a', \"  agentskb r\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'L', \"Learn more\"... is not valid JSON\nUnexpected end of JSON input\n--- stderr (tail) ---\nUsage: agentskb [options] [command]\n\nAgentsKB CLI - Verified knowledge for AI coding assistants\n  Stop hallucinations with 5,000+ sourced answers. Works with Claude Code, Cursor, Cline.\n\nOptions:\n  -V, --version       output the version number\n  -h, --help          display help for command\n\nCommands:\n  init [options]      Initialize a new AgentsKB project manifest\n  check [options]     Check project readiness and coverage\n  lock                Generate lockfile for deterministic builds\n  request [question]  Request missing knowledge (captures demand signals)\n  update [options]    Update lockfile with latest verified knowledge versions\n  verify [options]    Verify lockfile integrity and check for drift (CI/CD\n                      mode)\n  help [command]      display help for command",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.Cranot/agentskb",
+  "slug": "io.github.cranot__agentskb"
+}

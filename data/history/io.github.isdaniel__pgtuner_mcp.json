@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.268Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading psycopg-binary (4.5MiB)\nDownloading pglast (1.4MiB)\n Downloaded psycopg-binary\n Downloaded pglast\nInstalled 41 packages in 162ms\nAn executable named `pgtuner-mcp` is not provided by package `pgtuner-mcp`.\nThe following executables are available:\n- pgtuner_mcp\n\nUse `uv tool run --from pgtuner-mcp pgtuner_mcp` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-28Z-bd83fc",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:32.275Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading psycopg-binary (4.9MiB)\nDownloading pglast (6.0MiB)\n Downloaded psycopg-binary\n Downloaded pglast\nInstalled 41 packages in 31ms\nAn executable named `pgtuner-mcp` is not provided by package `pgtuner-mcp`.\nThe following executables are available:\n- pgtuner_mcp\n\nUse `uv tool run --from pgtuner-mcp pgtuner_mcp` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-32Z-64cc50",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.151Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading psycopg-binary (3.4MiB)\nDownloading pglast (1.4MiB)\n Downloaded psycopg-binary\n Downloaded pglast\nInstalled 44 packages in 6.79s\nAn executable named `pgtuner-mcp` is not provided by package `pgtuner-mcp`.\nThe following executables are available:\n- pgtuner_mcp.exe\n\nUse `uv tool run --from pgtuner-mcp pgtuner_mcp.exe` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T04-06-54Z-d6554c",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.isdaniel/pgtuner_mcp",
+  "slug": "io.github.isdaniel__pgtuner_mcp"
+}

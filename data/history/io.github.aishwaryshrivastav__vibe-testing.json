@@ -1,0 +1,24 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:28.791Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: vibe-test [options] [command]\n\nAI-powered browser testing agent — reads your code, tests your product\n\nOptions:\n  -V, --version             output the version number\n  -h, --help                display help for command\n\nCommands:\n  run [options] [url]       Run vibe tests against a URL\n  converge [options] [url]  Iterative coverage: baseline run, then follow-up\n                            rounds from gaps + failures until thresholds (or\n                            max rounds)\n  init [options]            Set up Vibe Test — auto-detects editors (Cursor,\n                            Claude Code, Windsurf, VS Code, Roo Code) and\n                            configures all of them globally + per-project\n  reset                     Delete .vibe in the current project (memory, intel,\n                            screenshots) for a fresh test run\n  report                    Open the last test report in your browser\n  help [command]            display help for command",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-28Z-3dc5e1",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:31.639Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: vibe-test [options] [command]\n\nAI-powered browser testing agent — reads your code, tests your product\n\nOptions:\n  -V, --version             output the version number\n  -h, --help                display help for command\n\nCommands:\n  run [options] [url]       Run vibe tests against a URL\n  converge [options] [url]  Iterative coverage: baseline run, then follow-up\n                            rounds from gaps + failures until thresholds (or\n                            max rounds)\n  init [options]            Set up Vibe Test — auto-detects editors (Cursor,\n                            Claude Code, Windsurf, VS Code, Roo Code) and\n                            configures all of them globally + per-project\n  reset                     Delete .vibe in the current project (memory, intel,\n                            screenshots) for a fresh test run\n  report                    Open the last test report in your browser\n  help [command]            display help for command",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.AishwaryShrivastav/vibe-testing",
+  "slug": "io.github.aishwaryshrivastav__vibe-testing"
+}

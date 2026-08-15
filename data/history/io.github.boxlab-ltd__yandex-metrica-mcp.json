@@ -1,0 +1,75 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T04:06:29.606Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-29Z-57cf45",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "login",
+          "submit_code",
+          "get_metadata",
+          "describe_counter",
+          "run_report",
+          "run_comparison",
+          "run_drilldown",
+          "run_timeseries",
+          "logs_request",
+          "logs_status",
+          "logs_download",
+          "logs_clean"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T04:06:26.501Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-26Z-0b778e",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "login",
+          "submit_code",
+          "get_metadata",
+          "describe_counter",
+          "run_report",
+          "run_comparison",
+          "run_drilldown",
+          "run_timeseries",
+          "logs_request",
+          "logs_status",
+          "logs_download",
+          "logs_clean"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T04:06:54.549Z",
+        "method": "npm",
+        "runId": "2026-08-15T04-06-54Z-2d7cf4",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "login",
+          "submit_code",
+          "get_metadata",
+          "describe_counter",
+          "run_report",
+          "run_comparison",
+          "run_drilldown",
+          "run_timeseries",
+          "logs_request",
+          "logs_status",
+          "logs_download",
+          "logs_clean"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.BoxLab-Ltd/yandex-metrica-mcp",
+  "slug": "io.github.boxlab-ltd__yandex-metrica-mcp"
+}
