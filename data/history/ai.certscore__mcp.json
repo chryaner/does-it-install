@@ -2,6 +2,27 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:27.636Z",
+        "installMs": 4941,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-27Z-87d108",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "scan_site",
+          "get_scan",
+          "get_scan_status",
+          "get_report",
+          "get_evidence",
+          "export_findings",
+          "list_findings",
+          "get_pre_consent_cookies_trackers",
+          "explain_finding",
+          "get_latest_domain_scan",
+          "get_latest_domain_pre_consent_cookies_trackers"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:30.424Z",
         "installMs": 3466,
         "method": "npm",
@@ -85,6 +106,27 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:19.780Z",
+        "installMs": 3243,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-19Z-c79c0a",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "scan_site",
+          "get_scan",
+          "get_scan_status",
+          "get_report",
+          "get_evidence",
+          "export_findings",
+          "list_findings",
+          "get_pre_consent_cookies_trackers",
+          "explain_finding",
+          "get_latest_domain_scan",
+          "get_latest_domain_pre_consent_cookies_trackers"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:31.954Z",
         "installMs": 4819,
         "method": "npm",
@@ -167,6 +209,27 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.931Z",
+        "installMs": 108218,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-37Z-81b797",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "scan_site",
+          "get_scan",
+          "get_scan_status",
+          "get_report",
+          "get_evidence",
+          "export_findings",
+          "list_findings",
+          "get_pre_consent_cookies_trackers",
+          "explain_finding",
+          "get_latest_domain_scan",
+          "get_latest_domain_pre_consent_cookies_trackers"
+        ]
+      },
       {
         "date": "2026-08-15T16:56:50.470Z",
         "installMs": 138120,

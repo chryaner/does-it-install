@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:19.390Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nfile:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-GkjQTA/node_modules/@i18n-agent/mcp-client/i18n-agent.js:46\n  throw new Error('MCP_SERVER_URL environment variable is required');\n        ^\n\nError: MCP_SERVER_URL environment variable is required\n    at file:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-GkjQTA/node_modules/@i18n-agent/mcp-client/i18n-agent.js:46:9\n    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)\n\nNode.js v22.23.1",
+        "installMs": 5456,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-19Z-d5e286",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T16:56:29.657Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nfile:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-mEzC6r/node_modules/@i18n-agent/mcp-client/i18n-agent.js:46\n  throw new Error('MCP_SERVER_URL environment variable is required');\n        ^\n\nError: MCP_SERVER_URL environment variable is required\n    at file:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-mEzC6r/node_modules/@i18n-agent/mcp-client/i18n-agent.js:46:9\n    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)\n\nNode.js v22.23.1",
         "installMs": 4832,
@@ -26,6 +34,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:17.296Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nfile:///tmp/does-it-install/dii-npm-fb2TM5/node_modules/@i18n-agent/mcp-client/i18n-agent.js:46\n  throw new Error('MCP_SERVER_URL environment variable is required');\n        ^\n\nError: MCP_SERVER_URL environment variable is required\n    at file:///tmp/does-it-install/dii-npm-fb2TM5/node_modules/@i18n-agent/mcp-client/i18n-agent.js:46:9\n    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)\n\nNode.js v22.23.2",
+        "installMs": 5284,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-17Z-9dcd14",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T16:56:29.989Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nfile:///tmp/does-it-install/dii-npm-Ft9AcY/node_modules/@i18n-agent/mcp-client/i18n-agent.js:46\n  throw new Error('MCP_SERVER_URL environment variable is required');\n        ^\n\nError: MCP_SERVER_URL environment variable is required\n    at file:///tmp/does-it-install/dii-npm-Ft9AcY/node_modules/@i18n-agent/mcp-client/i18n-agent.js:46:9\n    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)\n\nNode.js v22.23.2",
         "installMs": 4683,
@@ -49,6 +65,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.930Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nfile:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-SVkYIT/node_modules/@i18n-agent/mcp-client/i18n-agent.js:46\r\n  throw new Error('MCP_SERVER_URL environment variable is required');\r\n        ^\r\n\r\nError: MCP_SERVER_URL environment variable is required\r\n    at file:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-SVkYIT/node_modules/@i18n-agent/mcp-client/i18n-agent.js:46:9\r\n    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)\r\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)\r\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)\r\n\r\nNode.js v22.23.2",
+        "installMs": 126031,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-37Z-a31ede",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-15T16:56:52.007Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nfile:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-h4KzqC/node_modules/@i18n-agent/mcp-client/i18n-agent.js:46\r\n  throw new Error('MCP_SERVER_URL environment variable is required');\r\n        ^\r\n\r\nError: MCP_SERVER_URL environment variable is required\r\n    at file:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-h4KzqC/node_modules/@i18n-agent/mcp-client/i18n-agent.js:46:9\r\n    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)\r\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)\r\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)\r\n\r\nNode.js v22.23.2",

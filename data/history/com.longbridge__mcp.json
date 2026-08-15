@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:19.390Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-15T20-03-19Z-d5e286",
+        "status": "skipped"
+      },
+      {
         "date": "2026-08-15T16:56:29.657Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: missing or invalid Authorization header (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -25,6 +33,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:17.296Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: Unexpected token '\u001b', \"\u001b[2m2026-0\"... is not valid JSON\n--- stderr (tail) ---\nLongbridge MCP Server v0.8.6\n\n  Listening  http://0.0.0.0:8000\n  Base URL   http://localhost:8000\n  Logs       stderr\n\n  Endpoints\n    http://localhost:8000/mcp  151 tools — direct users (all tools, incl. trading & DCA)\n    http://localhost:8000/v2   132 tools — app directories (read-only; no trade execution / DCA / IPO orders / money movement)\n    http://localhost:8000/mcp/tools.json  tool schema\n\n  Add to your client\n    Claude Code  claude mcp add --transport http longbridge-dev http://localhost:8000\n    Codex        codex mcp add longbridge-dev --url http://localhost:8000\n    Others       {\"mcpServers\": {\"longbridge-dev\": {\"url\": \"http://localhost:8000\"}}}  (Claude Desktop · Cursor · Zed)",
+        "installMs": 4588,
+        "method": "oci",
+        "runId": "2026-08-15T20-03-17Z-9dcd14",
+        "status": "timeout"
+      },
+      {
         "date": "2026-08-15T16:56:29.989Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: missing or invalid Authorization header (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -47,6 +63,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.930Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-15T20-03-37Z-a31ede",
+        "status": "skipped"
+      },
       {
         "date": "2026-08-15T16:56:52.007Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: missing or invalid Authorization header (endpoint reachable but requires credentials the harness does not send)",

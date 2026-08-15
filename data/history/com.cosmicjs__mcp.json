@@ -2,6 +2,35 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:27.636Z",
+        "installMs": 4841,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-27Z-87d108",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "cosmic_objects_list",
+          "cosmic_objects_get",
+          "cosmic_objects_create",
+          "cosmic_objects_update",
+          "cosmic_objects_delete",
+          "cosmic_media_list",
+          "cosmic_media_get",
+          "cosmic_media_upload",
+          "cosmic_media_delete",
+          "cosmic_types_list",
+          "cosmic_types_get",
+          "cosmic_types_create",
+          "cosmic_types_update",
+          "cosmic_types_delete",
+          "cosmic_ai_generate_text",
+          "cosmic_ai_generate_image",
+          "cosmic_ai_generate_video",
+          "cosmic_ai_generate_audio",
+          "cosmic_blocks_list"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:30.424Z",
         "installMs": 5354,
         "method": "npm",
@@ -61,6 +90,35 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:19.780Z",
+        "installMs": 3332,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-19Z-c79c0a",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "cosmic_objects_list",
+          "cosmic_objects_get",
+          "cosmic_objects_create",
+          "cosmic_objects_update",
+          "cosmic_objects_delete",
+          "cosmic_media_list",
+          "cosmic_media_get",
+          "cosmic_media_upload",
+          "cosmic_media_delete",
+          "cosmic_types_list",
+          "cosmic_types_get",
+          "cosmic_types_create",
+          "cosmic_types_update",
+          "cosmic_types_delete",
+          "cosmic_ai_generate_text",
+          "cosmic_ai_generate_image",
+          "cosmic_ai_generate_video",
+          "cosmic_ai_generate_audio",
+          "cosmic_blocks_list"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:31.954Z",
         "installMs": 4449,
         "method": "npm",
@@ -119,6 +177,35 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.931Z",
+        "installMs": 141248,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-37Z-81b797",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "cosmic_objects_list",
+          "cosmic_objects_get",
+          "cosmic_objects_create",
+          "cosmic_objects_update",
+          "cosmic_objects_delete",
+          "cosmic_media_list",
+          "cosmic_media_get",
+          "cosmic_media_upload",
+          "cosmic_media_delete",
+          "cosmic_types_list",
+          "cosmic_types_get",
+          "cosmic_types_create",
+          "cosmic_types_update",
+          "cosmic_types_delete",
+          "cosmic_ai_generate_text",
+          "cosmic_ai_generate_image",
+          "cosmic_ai_generate_video",
+          "cosmic_ai_generate_audio",
+          "cosmic_blocks_list"
+        ]
+      },
       {
         "date": "2026-08-15T16:56:50.470Z",
         "installMs": 161649,

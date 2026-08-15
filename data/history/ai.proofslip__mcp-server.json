@@ -2,6 +2,20 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:19.390Z",
+        "installMs": 2932,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-19Z-d5e286",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "create_receipt",
+          "verify_receipt",
+          "check_receipt_status",
+          "signup"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:29.657Z",
         "installMs": 4497,
         "method": "npm",
@@ -44,6 +58,20 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:17.296Z",
+        "installMs": 4593,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-17Z-9dcd14",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "create_receipt",
+          "verify_receipt",
+          "check_receipt_status",
+          "signup"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:29.989Z",
         "installMs": 4410,
         "method": "npm",
@@ -85,6 +113,20 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.930Z",
+        "installMs": 93222,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-37Z-a31ede",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "create_receipt",
+          "verify_receipt",
+          "check_receipt_status",
+          "signup"
+        ]
+      },
       {
         "date": "2026-08-15T16:56:52.007Z",
         "installMs": 100606,

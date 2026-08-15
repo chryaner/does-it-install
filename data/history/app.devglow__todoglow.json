@@ -2,6 +2,24 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:19.390Z",
+        "installMs": 4606,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-19Z-d5e286",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "set_topic",
+          "list_todos",
+          "list_receipt_todos",
+          "set_receipt_titles",
+          "get_active_todo",
+          "advance_todo",
+          "update_thread",
+          "get_threads"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:29.657Z",
         "installMs": 5959,
         "method": "npm",
@@ -39,6 +57,24 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:17.296Z",
+        "installMs": 4553,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-17Z-9dcd14",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "set_topic",
+          "list_todos",
+          "list_receipt_todos",
+          "set_receipt_titles",
+          "get_active_todo",
+          "advance_todo",
+          "update_thread",
+          "get_threads"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:29.989Z",
         "installMs": 10412,
         "method": "npm",
@@ -75,6 +111,24 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.930Z",
+        "installMs": 80740,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-37Z-a31ede",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "set_topic",
+          "list_todos",
+          "list_receipt_todos",
+          "set_receipt_titles",
+          "get_active_todo",
+          "advance_todo",
+          "update_thread",
+          "get_threads"
+        ]
+      },
       {
         "date": "2026-08-15T16:56:52.007Z",
         "installMs": 85063,

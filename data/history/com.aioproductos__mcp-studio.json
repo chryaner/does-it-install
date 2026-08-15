@@ -2,6 +2,30 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:31.969Z",
+        "installMs": 5154,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-31Z-6fe095",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "studio_start",
+          "studio_goto",
+          "studio_click",
+          "studio_type",
+          "studio_scroll",
+          "studio_caption",
+          "studio_narrate",
+          "studio_highlight",
+          "studio_zoom",
+          "studio_hold",
+          "studio_end_card",
+          "studio_screenshot",
+          "studio_finish",
+          "studio_cancel"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:30.932Z",
         "installMs": 6411,
         "method": "npm",
@@ -51,6 +75,30 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:21.360Z",
+        "installMs": 5663,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-21Z-32f7d0",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "studio_start",
+          "studio_goto",
+          "studio_click",
+          "studio_type",
+          "studio_scroll",
+          "studio_caption",
+          "studio_narrate",
+          "studio_highlight",
+          "studio_zoom",
+          "studio_hold",
+          "studio_end_card",
+          "studio_screenshot",
+          "studio_finish",
+          "studio_cancel"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:35.852Z",
         "installMs": 5506,
         "method": "npm",
@@ -99,6 +147,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:36.582Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out",
+        "installMs": 202146,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-36Z-50d82d",
+        "status": "timeout"
+      },
       {
         "date": "2026-08-15T16:56:52.061Z",
         "installMs": 113456,

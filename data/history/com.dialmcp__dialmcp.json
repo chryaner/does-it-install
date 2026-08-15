@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:27.636Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n[13861] Using automatically selected callback port: 36396\n[13861] Discovering OAuth server configuration...\n[13861] Discovered authorization server: https://mcp.dialmcp.com\n[13861] [13861] Connecting to remote server: https://mcp.dialmcp.com/mcp\n[13861] Using transport strategy: http-first\n[13861] \nPlease authorize this client by visiting:\nhttps://mcp.dialmcp.com/authorize?response_type=code&client_id=iiVOtYiNxz9hKnRd&code_challenge=fgQgkqM4fLD-TMDXBGdSzH7hkQG6xLKUKZs2tAJGmfM&code_challenge_method=S256&redirect_uri=http%3A%2F%2Flocalhost%3A36396%2Foauth%2Fcallback&state=61574d88-467a-4259-bf6b-6c045f14d07e&scope=openid+email+profile&resource=https%3A%2F%2Fmcp.dialmcp.com%2Fmcp\n\n[13861] Browser opened automatically.\n[13861] Authentication required. Initializing auth...\n[13861] Initializing auth coordination on-demand\n[13861] OAuth callback server running at http://127.0.0.1:36396\n[13861] Creating lockfile for server 8125827467b6fb29878fbd22aa698420 with process 13861 on port 36396\n[13861] Authentication required. Waiting for authorization...",
+        "installMs": 3383,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-27Z-87d108",
+        "status": "timeout"
+      },
+      {
         "date": "2026-08-15T16:56:30.424Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n[5636] Using automatically selected callback port: 36396\n[5636] Discovering OAuth server configuration...\n[5636] Discovered authorization server: https://mcp.dialmcp.com\n[5636] [5636] Connecting to remote server: https://mcp.dialmcp.com/mcp\n[5636] Using transport strategy: http-first\n[5636] \nPlease authorize this client by visiting:\nhttps://mcp.dialmcp.com/authorize?response_type=code&client_id=Bb1yzxtDPeM8oFve&code_challenge=IvcE2uz9dGH5RX3Qb2U1q8JcX_ukA4jTKX2oCoK6LNA&code_challenge_method=S256&redirect_uri=http%3A%2F%2Flocalhost%3A36396%2Foauth%2Fcallback&state=00bcd10a-39f0-48f2-a647-bd07747115cc&scope=openid+email+profile&resource=https%3A%2F%2Fmcp.dialmcp.com%2Fmcp\n\n[5636] Browser opened automatically.\n[5636] Authentication required. Initializing auth...\n[5636] Initializing auth coordination on-demand\n[5636] OAuth callback server running at http://127.0.0.1:36396\n[5636] Creating lockfile for server 8125827467b6fb29878fbd22aa698420 with process 5636 on port 36396\n[5636] Authentication required. Waiting for authorization...",
         "installMs": 3418,
@@ -19,6 +27,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:19.780Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n[5258] Using automatically selected callback port: 36396\n[5258] Discovering OAuth server configuration...\n[5258] Discovered authorization server: https://mcp.dialmcp.com\n[5258] [5258] Connecting to remote server: https://mcp.dialmcp.com/mcp\n[5258] Using transport strategy: http-first\n[5258] \nPlease authorize this client by visiting:\nhttps://mcp.dialmcp.com/authorize?response_type=code&client_id=h4UMmdVhbh52fVLQ&code_challenge=cKe05ELiF39NtfeUF2W0Jrc3cqRa1W11-wJMgOPDkRU&code_challenge_method=S256&redirect_uri=http%3A%2F%2Flocalhost%3A36396%2Foauth%2Fcallback&state=8571a4a0-b0a3-45b4-8e18-2d6ce93dc527&scope=openid+email+profile&resource=https%3A%2F%2Fmcp.dialmcp.com%2Fmcp\n\n[5258] Browser opened automatically.\n[5258] Authentication required. Initializing auth...\n[5258] Initializing auth coordination on-demand\n[5258] OAuth callback server running at http://127.0.0.1:36396\n[5258] Creating lockfile for server 8125827467b6fb29878fbd22aa698420 with process 5258 on port 36396\n[5258] Authentication required. Waiting for authorization...",
+        "installMs": 1870,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-19Z-c79c0a",
+        "status": "timeout"
+      },
+      {
         "date": "2026-08-15T16:56:31.954Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n[4773] Using automatically selected callback port: 36396\n[4773] Discovering OAuth server configuration...\n[4773] Discovered authorization server: https://mcp.dialmcp.com\n[4773] [4773] Connecting to remote server: https://mcp.dialmcp.com/mcp\n[4773] Using transport strategy: http-first\n[4773] \nPlease authorize this client by visiting:\nhttps://mcp.dialmcp.com/authorize?response_type=code&client_id=zHBL0hwTyuKKjp2v&code_challenge=c_0SK_c0JlkY1VzK2ZSLDvjnQZMK8O1ZJ2T4IHjgGjE&code_challenge_method=S256&redirect_uri=http%3A%2F%2Flocalhost%3A36396%2Foauth%2Fcallback&state=5d39052d-3fc6-44d6-9d70-0ff7cb41a3fb&scope=openid+email+profile&resource=https%3A%2F%2Fmcp.dialmcp.com%2Fmcp\n\n[4773] Browser opened automatically.\n[4773] Authentication required. Initializing auth...\n[4773] Initializing auth coordination on-demand\n[4773] OAuth callback server running at http://127.0.0.1:36396\n[4773] Creating lockfile for server 8125827467b6fb29878fbd22aa698420 with process 4773 on port 36396\n[4773] Authentication required. Waiting for authorization...",
         "installMs": 2747,
@@ -35,6 +51,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.931Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n[8396] Using automatically selected callback port: 36396\n[8396] Discovering OAuth server configuration...\n[8396] Discovered authorization server: https://mcp.dialmcp.com\n[8396] [8396] Connecting to remote server: https://mcp.dialmcp.com/mcp\n[8396] Using transport strategy: http-first\n[8396] \nPlease authorize this client by visiting:\nhttps://mcp.dialmcp.com/authorize?response_type=code&client_id=lGJMPn7DgqRlOGHw&code_challenge=1xu74aSX0tuvEyRdcwL8g22-kfNVk1CdZiLYJz9qnvk&code_challenge_method=S256&redirect_uri=http%3A%2F%2Flocalhost%3A36396%2Foauth%2Fcallback&state=971be10e-2e88-4d06-af0b-26706569a304&scope=openid+email+profile&resource=https%3A%2F%2Fmcp.dialmcp.com%2Fmcp\n\n[8396] Browser opened automatically.\n[8396] Authentication required. Initializing auth...\n[8396] Initializing auth coordination on-demand\n[8396] OAuth callback server running at http://127.0.0.1:36396\n[8396] Creating lockfile for server 8125827467b6fb29878fbd22aa698420 with process 8396 on port 36396\n[8396] Authentication required. Waiting for authorization...",
+        "installMs": 46407,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-37Z-81b797",
+        "status": "timeout"
+      },
       {
         "date": "2026-08-15T16:56:50.470Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n[608] Using automatically selected callback port: 36396\n[608] Discovering OAuth server configuration...\n[608] Discovered authorization server: https://mcp.dialmcp.com\n[608] [608] Connecting to remote server: https://mcp.dialmcp.com/mcp\n[608] Using transport strategy: http-first\n[608] \nPlease authorize this client by visiting:\nhttps://mcp.dialmcp.com/authorize?response_type=code&client_id=lLBspp25ZnwLAIb7&code_challenge=HeN0oBIJnVy_WGgj89ZTPATNw85EdtOZQb3XyhyOy7c&code_challenge_method=S256&redirect_uri=http%3A%2F%2Flocalhost%3A36396%2Foauth%2Fcallback&state=f3c1af43-0a99-49dc-90a6-168112db5bb1&scope=openid+email+profile&resource=https%3A%2F%2Fmcp.dialmcp.com%2Fmcp\n\n[608] Browser opened automatically.\n[608] Authentication required. Initializing auth...\n[608] Initializing auth coordination on-demand\n[608] OAuth callback server running at http://127.0.0.1:36396\n[608] Creating lockfile for server 8125827467b6fb29878fbd22aa698420 with process 608 on port 36396\n[608] Authentication required. Waiting for authorization...",

@@ -2,6 +2,33 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:19.390Z",
+        "method": "pypi",
+        "runId": "2026-08-15T20-03-19Z-d5e286",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "add_domain_to_workspace",
+          "get_link",
+          "create_or_update_link",
+          "get_link_analytics",
+          "list_webhooks_for_link",
+          "get_clicks_analytics",
+          "get_click_counters_by_dimension",
+          "list_domains",
+          "add_domain_to_workspace_by_id",
+          "delete_domain",
+          "update_domain_favicon",
+          "create_or_update_link_batch",
+          "delete_links",
+          "export_links",
+          "delete_link",
+          "list_links",
+          "list_workspaces",
+          "delete_webhook_from_link"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:29.657Z",
         "method": "pypi",
         "runId": "2026-08-15T16-56-29Z-decde8",
@@ -85,6 +112,33 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:17.296Z",
+        "method": "pypi",
+        "runId": "2026-08-15T20-03-17Z-9dcd14",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "add_domain_to_workspace",
+          "get_link",
+          "create_or_update_link",
+          "get_link_analytics",
+          "list_webhooks_for_link",
+          "get_clicks_analytics",
+          "get_click_counters_by_dimension",
+          "list_domains",
+          "add_domain_to_workspace_by_id",
+          "delete_domain",
+          "update_domain_favicon",
+          "create_or_update_link_batch",
+          "delete_links",
+          "export_links",
+          "delete_link",
+          "list_links",
+          "list_workspaces",
+          "delete_webhook_from_link"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:29.989Z",
         "method": "pypi",
         "runId": "2026-08-15T16-56-29Z-c88e00",
@@ -167,6 +221,33 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.930Z",
+        "method": "pypi",
+        "runId": "2026-08-15T20-03-37Z-a31ede",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "add_domain_to_workspace",
+          "get_link",
+          "create_or_update_link",
+          "get_link_analytics",
+          "list_webhooks_for_link",
+          "get_clicks_analytics",
+          "get_click_counters_by_dimension",
+          "list_domains",
+          "add_domain_to_workspace_by_id",
+          "delete_domain",
+          "update_domain_favicon",
+          "create_or_update_link_batch",
+          "delete_links",
+          "export_links",
+          "delete_link",
+          "list_links",
+          "list_workspaces",
+          "delete_webhook_from_link"
+        ]
+      },
       {
         "date": "2026-08-15T16:56:52.007Z",
         "method": "pypi",

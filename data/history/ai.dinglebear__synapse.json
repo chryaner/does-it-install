@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:27.636Z",
+        "errorExcerpt": "npm install @dinglebear/synapse@1.0.0 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path /private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-t2m14K/node_modules/@dinglebear/synapse\nnpm error command failed\nnpm error command sh -c node scripts/install.js\nnpm error synapse-rmcp: Unsupported platform darwin/arm64. Supported targets: linux/x64.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-t2m14K/.npm-cache/_logs/2026-08-15T20_06_32_088Z-debug-0.log",
+        "installMs": 1210,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-27Z-87d108",
+        "status": "install_failed"
+      },
+      {
         "date": "2026-08-15T16:56:30.424Z",
         "errorExcerpt": "npm install @dinglebear/synapse@1.0.0 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path /private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-4MRUph/node_modules/@dinglebear/synapse\nnpm error command failed\nnpm error command sh -c node scripts/install.js\nnpm error synapse-rmcp: Unsupported platform darwin/arm64. Supported targets: linux/x64.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-4MRUph/.npm-cache/_logs/2026-08-15T16_58_43_315Z-debug-0.log",
         "installMs": 1069,
@@ -32,6 +40,18 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-08-15T20:03:19.780Z",
+        "installMs": 1856,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-19Z-c79c0a",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "flux",
+          "scout"
+        ]
+      },
       {
         "date": "2026-08-15T16:56:31.954Z",
         "installMs": 2191,
@@ -79,6 +99,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.931Z",
+        "errorExcerpt": "npm install @dinglebear/synapse@1.0.0 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-Zj0tX2\\node_modules\\@dinglebear\\synapse\nnpm error command failed\nnpm error command C:\\Windows\\system32\\cmd.exe /d /s /c node scripts/install.js\nnpm error synapse-rmcp: Unsupported platform win32/x64. Supported targets: linux/x64.\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-Zj0tX2\\.npm-cache\\_logs\\2026-08-15T20_33_15_593Z-debug-0.log",
+        "installMs": 3419,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-37Z-81b797",
+        "status": "install_failed"
+      },
       {
         "date": "2026-08-15T16:56:50.470Z",
         "errorExcerpt": "npm install @dinglebear/synapse@1.0.0 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-9BBeb4\\node_modules\\@dinglebear\\synapse\nnpm error command failed\nnpm error command C:\\Windows\\system32\\cmd.exe /d /s /c node scripts/install.js\nnpm error synapse-rmcp: Unsupported platform win32/x64. Supported targets: linux/x64.\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-9BBeb4\\.npm-cache\\_logs\\2026-08-15T17_31_56_410Z-debug-0.log",

@@ -2,6 +2,37 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:27.636Z",
+        "installMs": 5382,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-27Z-87d108",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "scan_gtm_hiring_signals",
+          "detect_gtm_tech_stack",
+          "aggregate_gtm_signals",
+          "scan_job_board_keywords",
+          "resolve_linkedin_url",
+          "score_icp_fit",
+          "resolve_company_identity",
+          "enrich_company_firmographics",
+          "map_company_social_presence",
+          "get_funding_press_signals",
+          "get_company_changes",
+          "detect_ai_tooling",
+          "fingerprint_outbound_infrastructure",
+          "track_publication_cadence",
+          "push_leads_to_sequencer",
+          "audit_agent_accessibility",
+          "classify_contact",
+          "map_company_event_presence",
+          "resolve_legal_entity",
+          "monitor_public_awards",
+          "capture_linkedin_posts_and_commenters"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:30.424Z",
         "installMs": 4797,
         "method": "npm",
@@ -65,6 +96,37 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:19.780Z",
+        "installMs": 3800,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-19Z-c79c0a",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "scan_gtm_hiring_signals",
+          "detect_gtm_tech_stack",
+          "aggregate_gtm_signals",
+          "scan_job_board_keywords",
+          "resolve_linkedin_url",
+          "score_icp_fit",
+          "resolve_company_identity",
+          "enrich_company_firmographics",
+          "map_company_social_presence",
+          "get_funding_press_signals",
+          "get_company_changes",
+          "detect_ai_tooling",
+          "fingerprint_outbound_infrastructure",
+          "track_publication_cadence",
+          "push_leads_to_sequencer",
+          "audit_agent_accessibility",
+          "classify_contact",
+          "map_company_event_presence",
+          "resolve_legal_entity",
+          "monitor_public_awards",
+          "capture_linkedin_posts_and_commenters"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:31.954Z",
         "installMs": 4356,
         "method": "npm",
@@ -127,6 +189,37 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.931Z",
+        "installMs": 141486,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-37Z-81b797",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "scan_gtm_hiring_signals",
+          "detect_gtm_tech_stack",
+          "aggregate_gtm_signals",
+          "scan_job_board_keywords",
+          "resolve_linkedin_url",
+          "score_icp_fit",
+          "resolve_company_identity",
+          "enrich_company_firmographics",
+          "map_company_social_presence",
+          "get_funding_press_signals",
+          "get_company_changes",
+          "detect_ai_tooling",
+          "fingerprint_outbound_infrastructure",
+          "track_publication_cadence",
+          "push_leads_to_sequencer",
+          "audit_agent_accessibility",
+          "classify_contact",
+          "map_company_event_presence",
+          "resolve_legal_entity",
+          "monitor_public_awards",
+          "capture_linkedin_posts_and_commenters"
+        ]
+      },
       {
         "date": "2026-08-15T16:56:50.470Z",
         "installMs": 159354,

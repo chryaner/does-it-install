@@ -2,6 +2,29 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:31.969Z",
+        "installMs": 3195,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-31Z-6fe095",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "list_projects",
+          "get_status",
+          "get_project",
+          "get_logs",
+          "check_port",
+          "start_project",
+          "stop_project",
+          "run_process",
+          "update_project",
+          "create_project",
+          "delete_project",
+          "stop_process",
+          "workspace_run"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:30.932Z",
         "installMs": 2533,
         "method": "npm",
@@ -49,6 +72,29 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:21.360Z",
+        "installMs": 3277,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-21Z-32f7d0",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "list_projects",
+          "get_status",
+          "get_project",
+          "get_logs",
+          "check_port",
+          "start_project",
+          "stop_project",
+          "run_process",
+          "update_project",
+          "create_project",
+          "delete_project",
+          "stop_process",
+          "workspace_run"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:35.852Z",
         "installMs": 3296,
         "method": "npm",
@@ -95,6 +141,29 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:36.582Z",
+        "installMs": 150460,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-36Z-50d82d",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "list_projects",
+          "get_status",
+          "get_project",
+          "get_logs",
+          "check_port",
+          "start_project",
+          "stop_project",
+          "run_process",
+          "update_project",
+          "create_project",
+          "delete_project",
+          "stop_process",
+          "workspace_run"
+        ]
+      },
       {
         "date": "2026-08-15T16:56:52.061Z",
         "installMs": 89705,

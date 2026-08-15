@@ -2,6 +2,33 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:31.969Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T20-03-31Z-6fe095",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "search_bankruptcy_cases_tool",
+          "get_case_by_ein_tool",
+          "get_case_by_case_number_tool",
+          "get_cases_by_industry_tool",
+          "get_cases_by_naics_tool",
+          "get_cases_by_state_tool",
+          "get_cases_by_date_range_tool",
+          "get_docket_entries_tool",
+          "get_case_summary_tool",
+          "get_document_cost_tool",
+          "get_document_tool",
+          "list_monitored_cases_tool",
+          "add_monitored_case_tool",
+          "refresh_docket_tool",
+          "get_recent_developments_tool",
+          "list_plans_tool",
+          "purchase_plan_tool",
+          "check_subscription_tool"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:30.932Z",
         "method": "remote-http",
         "runId": "2026-08-15T16-56-30Z-d2d89f",
@@ -58,6 +85,33 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:21.360Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T20-03-21Z-32f7d0",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "search_bankruptcy_cases_tool",
+          "get_case_by_ein_tool",
+          "get_case_by_case_number_tool",
+          "get_cases_by_industry_tool",
+          "get_cases_by_naics_tool",
+          "get_cases_by_state_tool",
+          "get_cases_by_date_range_tool",
+          "get_docket_entries_tool",
+          "get_case_summary_tool",
+          "get_document_cost_tool",
+          "get_document_tool",
+          "list_monitored_cases_tool",
+          "add_monitored_case_tool",
+          "refresh_docket_tool",
+          "get_recent_developments_tool",
+          "list_plans_tool",
+          "purchase_plan_tool",
+          "check_subscription_tool"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:35.852Z",
         "method": "remote-http",
         "runId": "2026-08-15T16-56-35Z-b0ddff",
@@ -113,6 +167,33 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:36.582Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T20-03-36Z-50d82d",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "search_bankruptcy_cases_tool",
+          "get_case_by_ein_tool",
+          "get_case_by_case_number_tool",
+          "get_cases_by_industry_tool",
+          "get_cases_by_naics_tool",
+          "get_cases_by_state_tool",
+          "get_cases_by_date_range_tool",
+          "get_docket_entries_tool",
+          "get_case_summary_tool",
+          "get_document_cost_tool",
+          "get_document_tool",
+          "list_monitored_cases_tool",
+          "add_monitored_case_tool",
+          "refresh_docket_tool",
+          "get_recent_developments_tool",
+          "list_plans_tool",
+          "purchase_plan_tool",
+          "check_subscription_tool"
+        ]
+      },
       {
         "date": "2026-08-15T16:56:52.061Z",
         "method": "remote-http",

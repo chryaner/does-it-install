@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:27.636Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n[12674] Using transport strategy: http-only\n[12674] Using automatically selected callback port: 33813\n[12674] Using custom headers: {\"Authorization\":\"Bearer DOES_IT_INSTALL_PLACEHOLDER\"}\n[12674] Discovering OAuth server configuration...\n[12674] Discovered authorization server: https://app.gtm-api.com/id/v4\n[12674] [12674] Connecting to remote server: https://mcp.gtm-api.com/mcp\n[12674] Using transport strategy: http-only\n[12674] \nPlease authorize this client by visiting:\nhttps://app.gtm-api.com/id/v4/oauth/authorize?response_type=code&client_id=oc_bp3cvoo4vqvwtgukf3nrtnyfsyuwe&code_challenge=21HS21JHZmyxWQdmW7GAgibFNlW9uli-meJqP_MmoJk&code_challenge_method=S256&redirect_uri=http%3A%2F%2Flocalhost%3A33813%2Foauth%2Fcallback&state=90273dd9-295c-4189-b5b3-4d0daa7e506a&scope=openid+email+profile&resource=https%3A%2F%2Fmcp.gtm-api.com%2Fmcp\n\n[12674] Browser opened automatically.\n[12674] Authentication required. Initializing auth...\n[12674] Initializing auth coordination on-demand\n[12674] OAuth callback server running at http://127.0.0.1:33813\n[12674] Creating lockfile for server 770ed5b1f9c92882a60cb9c7eb6eab46 with process 12674 on port 33813\n[12674] Authentication required. Waiting for authorization...",
+        "installMs": 3706,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-27Z-87d108",
+        "status": "timeout"
+      },
+      {
         "date": "2026-08-15T16:56:30.424Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n[4872] Using transport strategy: http-only\n[4872] Using automatically selected callback port: 33813\n[4872] Using custom headers: {\"Authorization\":\"Bearer DOES_IT_INSTALL_PLACEHOLDER\"}\n[4872] Discovering OAuth server configuration...\n[4872] Discovered authorization server: https://app.gtm-api.com/id/v4\n[4872] [4872] Connecting to remote server: https://mcp.gtm-api.com/mcp\n[4872] Using transport strategy: http-only\n[4872] \nPlease authorize this client by visiting:\nhttps://app.gtm-api.com/id/v4/oauth/authorize?response_type=code&client_id=oc_2lwtv95nwec2k0u5u9voiczvjzmi0&code_challenge=7IfR5L5edCifwPnTC2MdwbB-FZSvCEfgurZuipaBT9U&code_challenge_method=S256&redirect_uri=http%3A%2F%2Flocalhost%3A33813%2Foauth%2Fcallback&state=0c087821-43d1-4655-89cb-556d7b449d3f&scope=openid+email+profile&resource=https%3A%2F%2Fmcp.gtm-api.com%2Fmcp\n\n[4872] Browser opened automatically.\n[4872] Authentication required. Initializing auth...\n[4872] Initializing auth coordination on-demand\n[4872] OAuth callback server running at http://127.0.0.1:33813\n[4872] Creating lockfile for server 770ed5b1f9c92882a60cb9c7eb6eab46 with process 4872 on port 33813\n[4872] Authentication required. Waiting for authorization...",
         "installMs": 2810,
@@ -19,6 +27,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:19.780Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n[4792] Using transport strategy: http-only\n[4792] Using automatically selected callback port: 33813\n[4792] Using custom headers: {\"Authorization\":\"Bearer DOES_IT_INSTALL_PLACEHOLDER\"}\n[4792] Discovering OAuth server configuration...\n[4792] Discovered authorization server: https://app.gtm-api.com/id/v4\n[4792] [4792] Connecting to remote server: https://mcp.gtm-api.com/mcp\n[4792] Using transport strategy: http-only\n[4792] \nPlease authorize this client by visiting:\nhttps://app.gtm-api.com/id/v4/oauth/authorize?response_type=code&client_id=oc_r3swkt2oa3dkuhbx529yxlzkyye3t&code_challenge=ICh0sqRwZUbRs4XbCBxnI0wmhQN0QXccptrw_p87Kyk&code_challenge_method=S256&redirect_uri=http%3A%2F%2Flocalhost%3A33813%2Foauth%2Fcallback&state=8d3fd227-d025-4fb4-8662-27c0b8fd41c3&scope=openid+email+profile&resource=https%3A%2F%2Fmcp.gtm-api.com%2Fmcp\n\n[4792] Browser opened automatically.\n[4792] Authentication required. Initializing auth...\n[4792] Initializing auth coordination on-demand\n[4792] OAuth callback server running at http://127.0.0.1:33813\n[4792] Creating lockfile for server 770ed5b1f9c92882a60cb9c7eb6eab46 with process 4792 on port 33813\n[4792] Authentication required. Waiting for authorization...",
+        "installMs": 2617,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-19Z-c79c0a",
+        "status": "timeout"
+      },
+      {
         "date": "2026-08-15T16:56:31.954Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n[4445] Using transport strategy: http-only\n[4445] Using automatically selected callback port: 33813\n[4445] Using custom headers: {\"Authorization\":\"Bearer DOES_IT_INSTALL_PLACEHOLDER\"}\n[4445] Discovering OAuth server configuration...\n[4445] Discovered authorization server: https://app.gtm-api.com/id/v4\n[4445] [4445] Connecting to remote server: https://mcp.gtm-api.com/mcp\n[4445] Using transport strategy: http-only\n[4445] \nPlease authorize this client by visiting:\nhttps://app.gtm-api.com/id/v4/oauth/authorize?response_type=code&client_id=oc_nmxqaudnxj4wgvlkgj19e2oshsmaw&code_challenge=KMwiyHYYMRTyZGqvVHditqvPml5AoKgGu1fEA-ogQHU&code_challenge_method=S256&redirect_uri=http%3A%2F%2Flocalhost%3A33813%2Foauth%2Fcallback&state=d6e8276f-c784-4436-bf5e-d0b5287022a1&scope=openid+email+profile&resource=https%3A%2F%2Fmcp.gtm-api.com%2Fmcp\n\n[4445] Browser opened automatically.\n[4445] Authentication required. Initializing auth...\n[4445] Initializing auth coordination on-demand\n[4445] OAuth callback server running at http://127.0.0.1:33813\n[4445] Creating lockfile for server 770ed5b1f9c92882a60cb9c7eb6eab46 with process 4445 on port 33813\n[4445] Authentication required. Waiting for authorization...",
         "installMs": 2705,
@@ -35,6 +51,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.931Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n[9212] Using transport strategy: http-only\n[9212] Using automatically selected callback port: 33813\n[9212] Using custom headers: {\"Authorization\":\"Bearer DOES_IT_INSTALL_PLACEHOLDER\"}\n[9212] Discovering OAuth server configuration...\n[9212] Discovered authorization server: https://app.gtm-api.com/id/v4\n[9212] [9212] Connecting to remote server: https://mcp.gtm-api.com/mcp\n[9212] Using transport strategy: http-only\n[9212] \nPlease authorize this client by visiting:\nhttps://app.gtm-api.com/id/v4/oauth/authorize?response_type=code&client_id=oc_13abowkyjhuqyrsdynakp6qfo6nmq&code_challenge=pFVlBbunG1KsCEn8_ath5iVO4LjydL2cUKPyp-1yG2E&code_challenge_method=S256&redirect_uri=http%3A%2F%2Flocalhost%3A33813%2Foauth%2Fcallback&state=52091842-15db-498a-9500-d0d4c8c2e154&scope=openid+email+profile&resource=https%3A%2F%2Fmcp.gtm-api.com%2Fmcp\n\n[9212] Browser opened automatically.\n[9212] Authentication required. Initializing auth...\n[9212] Initializing auth coordination on-demand\n[9212] OAuth callback server running at http://127.0.0.1:33813\n[9212] Creating lockfile for server 770ed5b1f9c92882a60cb9c7eb6eab46 with process 9212 on port 33813\n[9212] Authentication required. Waiting for authorization...",
+        "installMs": 60141,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-37Z-81b797",
+        "status": "timeout"
+      },
       {
         "date": "2026-08-15T16:56:50.470Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n[3996] Using transport strategy: http-only\n[3996] Using automatically selected callback port: 33813\n[3996] Using custom headers: {\"Authorization\":\"Bearer DOES_IT_INSTALL_PLACEHOLDER\"}\n[3996] Discovering OAuth server configuration...\n[3996] Discovered authorization server: https://app.gtm-api.com/id/v4\n[3996] [3996] Connecting to remote server: https://mcp.gtm-api.com/mcp\n[3996] Using transport strategy: http-only\n[3996] \nPlease authorize this client by visiting:\nhttps://app.gtm-api.com/id/v4/oauth/authorize?response_type=code&client_id=oc_shupr1uhtft0qciwrhovtcmawldt9&code_challenge=aQkkOl8S4oFclHmhvN5hlL9R9gtiVviV2AQzcpfmpJU&code_challenge_method=S256&redirect_uri=http%3A%2F%2Flocalhost%3A33813%2Foauth%2Fcallback&state=fbce6331-9155-4fdc-b19b-264baf92c64c&scope=openid+email+profile&resource=https%3A%2F%2Fmcp.gtm-api.com%2Fmcp\n\n[3996] Browser opened automatically.\n[3996] Authentication required. Initializing auth...\n[3996] Initializing auth coordination on-demand\n[3996] OAuth callback server running at http://127.0.0.1:33813\n[3996] Creating lockfile for server 770ed5b1f9c92882a60cb9c7eb6eab46 with process 3996 on port 33813\n[3996] Authentication required. Waiting for authorization...",

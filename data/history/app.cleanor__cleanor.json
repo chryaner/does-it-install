@@ -2,6 +2,38 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:19.390Z",
+        "installMs": 5394,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-19Z-d5e286",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "optimize_image",
+          "storage_capacity",
+          "image_format_savings",
+          "qr_code",
+          "hash",
+          "uuid",
+          "base64",
+          "json_format",
+          "jwt_decode",
+          "color",
+          "slugify",
+          "count",
+          "regex_test",
+          "cron_describe",
+          "unit_convert",
+          "datetime",
+          "url_parse",
+          "base_convert",
+          "diff",
+          "hmac",
+          "placeholder_image",
+          "color_palette"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:29.657Z",
         "installMs": 4939,
         "method": "npm",
@@ -67,6 +99,38 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:17.296Z",
+        "installMs": 2148,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-17Z-9dcd14",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "optimize_image",
+          "storage_capacity",
+          "image_format_savings",
+          "qr_code",
+          "hash",
+          "uuid",
+          "base64",
+          "json_format",
+          "jwt_decode",
+          "color",
+          "slugify",
+          "count",
+          "regex_test",
+          "cron_describe",
+          "unit_convert",
+          "datetime",
+          "url_parse",
+          "base_convert",
+          "diff",
+          "hmac",
+          "placeholder_image",
+          "color_palette"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:29.989Z",
         "installMs": 2341,
         "method": "npm",
@@ -131,6 +195,38 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.930Z",
+        "installMs": 7711,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-37Z-a31ede",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "optimize_image",
+          "storage_capacity",
+          "image_format_savings",
+          "qr_code",
+          "hash",
+          "uuid",
+          "base64",
+          "json_format",
+          "jwt_decode",
+          "color",
+          "slugify",
+          "count",
+          "regex_test",
+          "cron_describe",
+          "unit_convert",
+          "datetime",
+          "url_parse",
+          "base_convert",
+          "diff",
+          "hmac",
+          "placeholder_image",
+          "color_palette"
+        ]
+      },
       {
         "date": "2026-08-15T16:56:52.007Z",
         "installMs": 7573,

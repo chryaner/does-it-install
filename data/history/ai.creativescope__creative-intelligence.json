@@ -2,6 +2,27 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:19.390Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T20-03-19Z-d5e286",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "search_creatives",
+          "get_creative_detail",
+          "get_creative_rankings",
+          "generate_weekly_creative_brief",
+          "search_advertisers",
+          "get_advertiser_profile",
+          "get_reference_image_search_results",
+          "get_game_rank_markets",
+          "get_game_rank_trend",
+          "submit_reference_image_search",
+          "find_similar_creatives",
+          "get_reference_image_search_status"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:29.657Z",
         "method": "remote-http",
         "runId": "2026-08-15T16-56-29Z-decde8",
@@ -88,6 +109,27 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:17.296Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T20-03-17Z-9dcd14",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "search_creatives",
+          "get_creative_detail",
+          "get_creative_rankings",
+          "generate_weekly_creative_brief",
+          "search_advertisers",
+          "get_advertiser_profile",
+          "get_reference_image_search_results",
+          "get_game_rank_markets",
+          "get_game_rank_trend",
+          "submit_reference_image_search",
+          "find_similar_creatives",
+          "get_reference_image_search_status"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:29.989Z",
         "method": "remote-http",
         "runId": "2026-08-15T16-56-29Z-c88e00",
@@ -173,6 +215,27 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.930Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T20-03-37Z-a31ede",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "search_creatives",
+          "get_creative_detail",
+          "get_creative_rankings",
+          "generate_weekly_creative_brief",
+          "search_advertisers",
+          "get_advertiser_profile",
+          "get_reference_image_search_results",
+          "get_game_rank_markets",
+          "get_game_rank_trend",
+          "submit_reference_image_search",
+          "find_similar_creatives",
+          "get_reference_image_search_status"
+        ]
+      },
       {
         "date": "2026-08-15T16:56:52.007Z",
         "method": "remote-http",

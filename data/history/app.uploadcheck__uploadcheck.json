@@ -2,6 +2,25 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:19.390Z",
+        "installMs": 4599,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-19Z-d5e286",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "qc_estimate_cost",
+          "qc_run_video",
+          "qc_run_local_file",
+          "qc_get_job",
+          "qc_get_report",
+          "qc_get_events",
+          "qc_get_artifacts",
+          "qc_get_marker_csv",
+          "qc_create_upload_url"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:29.657Z",
         "installMs": 4190,
         "method": "npm",
@@ -41,6 +60,25 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:17.296Z",
+        "installMs": 4083,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-17Z-9dcd14",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "qc_estimate_cost",
+          "qc_run_video",
+          "qc_run_local_file",
+          "qc_get_job",
+          "qc_get_report",
+          "qc_get_events",
+          "qc_get_artifacts",
+          "qc_get_marker_csv",
+          "qc_create_upload_url"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:29.989Z",
         "installMs": 3375,
         "method": "npm",
@@ -79,6 +117,25 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.930Z",
+        "installMs": 103666,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-37Z-a31ede",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "qc_estimate_cost",
+          "qc_run_video",
+          "qc_run_local_file",
+          "qc_get_job",
+          "qc_get_report",
+          "qc_get_events",
+          "qc_get_artifacts",
+          "qc_get_marker_csv",
+          "qc_create_upload_url"
+        ]
+      },
       {
         "date": "2026-08-15T16:56:52.007Z",
         "installMs": 116532,

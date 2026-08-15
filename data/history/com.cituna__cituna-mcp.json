@@ -2,6 +2,32 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:27.636Z",
+        "installMs": 5054,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-27Z-87d108",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "whoami",
+          "list_audits",
+          "get_audit",
+          "get_visibility",
+          "get_engine_answers",
+          "list_gaps",
+          "set_gap_status",
+          "list_keywords",
+          "list_content_queue",
+          "queue_article",
+          "mark_article_published",
+          "run_scan",
+          "gsc_status",
+          "list_brands",
+          "gsc_overview",
+          "gsc_query"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:30.424Z",
         "installMs": 5071,
         "method": "npm",
@@ -55,6 +81,32 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:19.780Z",
+        "installMs": 3504,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-19Z-c79c0a",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "whoami",
+          "list_audits",
+          "get_audit",
+          "get_visibility",
+          "get_engine_answers",
+          "list_gaps",
+          "set_gap_status",
+          "list_keywords",
+          "list_content_queue",
+          "queue_article",
+          "mark_article_published",
+          "run_scan",
+          "gsc_status",
+          "list_brands",
+          "gsc_overview",
+          "gsc_query"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:31.954Z",
         "installMs": 4589,
         "method": "npm",
@@ -107,6 +159,32 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.931Z",
+        "installMs": 117968,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-37Z-81b797",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "whoami",
+          "list_audits",
+          "get_audit",
+          "get_visibility",
+          "get_engine_answers",
+          "list_gaps",
+          "set_gap_status",
+          "list_keywords",
+          "list_content_queue",
+          "queue_article",
+          "mark_article_published",
+          "run_scan",
+          "gsc_status",
+          "list_brands",
+          "gsc_overview",
+          "gsc_query"
+        ]
+      },
       {
         "date": "2026-08-15T16:56:50.470Z",
         "installMs": 175467,

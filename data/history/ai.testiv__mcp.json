@@ -2,6 +2,24 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:31.969Z",
+        "installMs": 6258,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-31Z-6fe095",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "get_visual_results",
+          "get_diff",
+          "get_snapshot_diff",
+          "get_report",
+          "approve_snapshot",
+          "approve_all",
+          "list_baselines",
+          "explain_snapshot"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:30.932Z",
         "installMs": 7032,
         "method": "npm",
@@ -56,6 +74,24 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:21.360Z",
+        "installMs": 8263,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-21Z-32f7d0",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "get_visual_results",
+          "get_diff",
+          "get_snapshot_diff",
+          "get_report",
+          "approve_snapshot",
+          "approve_all",
+          "list_baselines",
+          "explain_snapshot"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:35.852Z",
         "installMs": 8680,
         "method": "npm",
@@ -109,6 +145,24 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:36.582Z",
+        "installMs": 311364,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-36Z-50d82d",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "get_visual_results",
+          "get_diff",
+          "get_snapshot_diff",
+          "get_report",
+          "approve_snapshot",
+          "approve_all",
+          "list_baselines",
+          "explain_snapshot"
+        ]
+      },
       {
         "date": "2026-08-15T16:56:52.061Z",
         "installMs": 203236,

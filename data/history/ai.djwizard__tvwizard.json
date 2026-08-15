@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:31.969Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: Connect Timeout Error (attempted address: tv.djwizard.ai:443, timeout: 10000ms) (UND_ERR_CONNECT_TIMEOUT)",
+        "method": "remote-http",
+        "runId": "2026-08-15T20-03-31Z-6fe095",
+        "status": "connect_failed"
+      },
+      {
         "date": "2026-08-15T16:56:30.932Z",
         "errorExcerpt": "connect failed: fetch failed caused by: Connect Timeout Error (attempted address: tv.djwizard.ai:443, timeout: 10000ms) (UND_ERR_CONNECT_TIMEOUT)",
         "method": "remote-http",
@@ -32,6 +39,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:21.360Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: Connect Timeout Error (attempted address: tv.djwizard.ai:443, timeout: 10000ms) (UND_ERR_CONNECT_TIMEOUT)",
+        "method": "remote-http",
+        "runId": "2026-08-15T20-03-21Z-32f7d0",
+        "status": "connect_failed"
+      },
+      {
         "date": "2026-08-15T16:56:35.852Z",
         "errorExcerpt": "connect failed: fetch failed caused by: Connect Timeout Error (attempted address: tv.djwizard.ai:443, timeout: 10000ms) (UND_ERR_CONNECT_TIMEOUT)",
         "method": "remote-http",
@@ -61,6 +75,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:36.582Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: Connect Timeout Error (attempted address: tv.djwizard.ai:443, timeout: 10000ms) (UND_ERR_CONNECT_TIMEOUT)",
+        "method": "remote-http",
+        "runId": "2026-08-15T20-03-36Z-50d82d",
+        "status": "connect_failed"
+      },
       {
         "date": "2026-08-15T16:56:52.061Z",
         "errorExcerpt": "connect failed: fetch failed caused by: Connect Timeout Error (attempted address: tv.djwizard.ai:443, timeout: 10000ms) (UND_ERR_CONNECT_TIMEOUT)",

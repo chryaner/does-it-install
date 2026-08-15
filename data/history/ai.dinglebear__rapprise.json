@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:19.390Z",
+        "errorExcerpt": "npm install @dinglebear/rapprise@0.3.0 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path /private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-ieLhFW/node_modules/@dinglebear/rapprise\nnpm error command failed\nnpm error command sh -c node scripts/install.js\nnpm error apprise-rmcp: Unsupported platform darwin/arm64. Supported targets: linux/x64, win32/x64.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-ieLhFW/.npm-cache/_logs/2026-08-15T20_05_16_809Z-debug-0.log",
+        "installMs": 630,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-19Z-d5e286",
+        "status": "install_failed"
+      },
+      {
         "date": "2026-08-15T16:56:29.657Z",
         "errorExcerpt": "npm install @dinglebear/rapprise@0.3.0 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path /private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-gjBB1p/node_modules/@dinglebear/rapprise\nnpm error command failed\nnpm error command sh -c node scripts/install.js\nnpm error apprise-rmcp: Unsupported platform darwin/arm64. Supported targets: linux/x64, win32/x64.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-gjBB1p/.npm-cache/_logs/2026-08-15T16_58_28_478Z-debug-0.log",
         "installMs": 1407,
@@ -32,6 +40,17 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-08-15T20:03:17.296Z",
+        "installMs": 5645,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-17Z-9dcd14",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "apprise"
+        ]
+      },
       {
         "date": "2026-08-15T16:56:29.989Z",
         "installMs": 5355,
@@ -75,6 +94,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.930Z",
+        "errorExcerpt": "npm install @dinglebear/rapprise@0.3.0 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-egT9Ty\\node_modules\\@dinglebear\\rapprise\nnpm error command failed\nnpm error command C:\\Windows\\system32\\cmd.exe /d /s /c node scripts/install.js\nnpm error apprise-rmcp: downloading https://github.com/dinglebear-ai/rapprise/releases/download/v0.3.0/rapprise-windows-x86_64.tar.gz\nnpm error apprise-rmcp: tar (child): Cannot connect to C: resolve failed\nnpm error\nnpm error gzip: stdin: unexpected end of file\nnpm error tar: Child returned status 128\nnpm error tar: Error is not recoverable: exiting now\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-egT9Ty\\.npm-cache\\_logs\\2026-08-15T20_27_56_459Z-debug-0.log",
+        "installMs": 81298,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-37Z-a31ede",
+        "status": "install_failed"
+      },
       {
         "date": "2026-08-15T16:56:52.007Z",
         "errorExcerpt": "npm install @dinglebear/rapprise@0.3.0 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-MbCS1J\\node_modules\\@dinglebear\\rapprise\nnpm error command failed\nnpm error command C:\\Windows\\system32\\cmd.exe /d /s /c node scripts/install.js\nnpm error apprise-rmcp: downloading https://github.com/dinglebear-ai/rapprise/releases/download/v0.3.0/rapprise-windows-x86_64.tar.gz\nnpm error apprise-rmcp: tar (child): Cannot connect to C: resolve failed\nnpm error\nnpm error gzip: stdin: unexpected end of file\nnpm error tar: Child returned status 128\nnpm error tar: Error is not recoverable: exiting now\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-MbCS1J\\.npm-cache\\_logs\\2026-08-15T17_21_56_227Z-debug-0.log",

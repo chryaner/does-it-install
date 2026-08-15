@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:31.969Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[bvcc-agent-mcp] fatal: AGENT_PRIVATE_KEY must be a 0x-prefixed 32-byte hex string.",
+        "installMs": 15776,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-31Z-6fe095",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T16:56:30.932Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[bvcc-agent-mcp] fatal: AGENT_PRIVATE_KEY must be a 0x-prefixed 32-byte hex string.",
         "installMs": 14889,
@@ -19,6 +27,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:21.360Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[bvcc-agent-mcp] fatal: AGENT_PRIVATE_KEY must be a 0x-prefixed 32-byte hex string.",
+        "installMs": 12271,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-21Z-32f7d0",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T16:56:35.852Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[bvcc-agent-mcp] fatal: AGENT_PRIVATE_KEY must be a 0x-prefixed 32-byte hex string.",
         "installMs": 12150,
@@ -35,6 +51,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:36.582Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[bvcc-agent-mcp] fatal: AGENT_PRIVATE_KEY must be a 0x-prefixed 32-byte hex string.",
+        "installMs": 136917,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-36Z-50d82d",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-15T16:56:52.061Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[bvcc-agent-mcp] fatal: AGENT_PRIVATE_KEY must be a 0x-prefixed 32-byte hex string.",

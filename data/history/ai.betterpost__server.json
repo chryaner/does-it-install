@@ -2,6 +2,38 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:31.969Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T20-03-31Z-6fe095",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "betterpost_create_project",
+          "betterpost_generate_content",
+          "betterpost_derive_content",
+          "betterpost_list_content",
+          "betterpost_get_content",
+          "betterpost_delete_content",
+          "betterpost_list_projects",
+          "betterpost_get_project",
+          "betterpost_update_project",
+          "betterpost_delete_project",
+          "betterpost_list_sources",
+          "betterpost_add_source",
+          "betterpost_remove_source",
+          "betterpost_list_stories",
+          "betterpost_add_story",
+          "betterpost_hide_story",
+          "betterpost_unhide_story",
+          "betterpost_suggest_topics",
+          "betterpost_get_usage",
+          "betterpost_get_settings",
+          "betterpost_update_settings",
+          "betterpost_expand_coverage",
+          "betterpost_humanize"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:30.932Z",
         "method": "remote-http",
         "runId": "2026-08-15T16-56-30Z-d2d89f",
@@ -132,6 +164,38 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:21.360Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T20-03-21Z-32f7d0",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "betterpost_create_project",
+          "betterpost_generate_content",
+          "betterpost_derive_content",
+          "betterpost_list_content",
+          "betterpost_get_content",
+          "betterpost_delete_content",
+          "betterpost_list_projects",
+          "betterpost_get_project",
+          "betterpost_update_project",
+          "betterpost_delete_project",
+          "betterpost_list_sources",
+          "betterpost_add_source",
+          "betterpost_remove_source",
+          "betterpost_list_stories",
+          "betterpost_add_story",
+          "betterpost_hide_story",
+          "betterpost_unhide_story",
+          "betterpost_suggest_topics",
+          "betterpost_get_usage",
+          "betterpost_get_settings",
+          "betterpost_update_settings",
+          "betterpost_expand_coverage",
+          "betterpost_humanize"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:35.852Z",
         "method": "remote-http",
         "runId": "2026-08-15T16-56-35Z-b0ddff",
@@ -261,6 +325,38 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:36.582Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T20-03-36Z-50d82d",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "betterpost_create_project",
+          "betterpost_generate_content",
+          "betterpost_derive_content",
+          "betterpost_list_content",
+          "betterpost_get_content",
+          "betterpost_delete_content",
+          "betterpost_list_projects",
+          "betterpost_get_project",
+          "betterpost_update_project",
+          "betterpost_delete_project",
+          "betterpost_list_sources",
+          "betterpost_add_source",
+          "betterpost_remove_source",
+          "betterpost_list_stories",
+          "betterpost_add_story",
+          "betterpost_hide_story",
+          "betterpost_unhide_story",
+          "betterpost_suggest_topics",
+          "betterpost_get_usage",
+          "betterpost_get_settings",
+          "betterpost_update_settings",
+          "betterpost_expand_coverage",
+          "betterpost_humanize"
+        ]
+      },
       {
         "date": "2026-08-15T16:56:52.061Z",
         "method": "remote-http",

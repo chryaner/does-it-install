@@ -2,6 +2,22 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:27.636Z",
+        "installMs": 8285,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-27Z-87d108",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "list_gates",
+          "get_gate",
+          "list_logs",
+          "get_recommendations",
+          "list_experiments",
+          "list_models"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:30.424Z",
         "installMs": 6022,
         "method": "npm",
@@ -50,6 +66,22 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:19.780Z",
+        "installMs": 4397,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-19Z-c79c0a",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "list_gates",
+          "get_gate",
+          "list_logs",
+          "get_recommendations",
+          "list_experiments",
+          "list_models"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:31.954Z",
         "installMs": 5580,
         "method": "npm",
@@ -97,6 +129,22 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.931Z",
+        "installMs": 146708,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-37Z-81b797",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "list_gates",
+          "get_gate",
+          "list_logs",
+          "get_recommendations",
+          "list_experiments",
+          "list_models"
+        ]
+      },
       {
         "date": "2026-08-15T16:56:50.470Z",
         "installMs": 176581,

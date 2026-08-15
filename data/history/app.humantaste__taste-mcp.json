@@ -2,6 +2,35 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:19.390Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T20-03-19Z-d5e286",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "list_offerings",
+          "list_expert_profiles",
+          "get_result",
+          "prepare_consult_domain_expert",
+          "request_think_tank_revision",
+          "request_illustration_revision",
+          "verify_external_source",
+          "review_content",
+          "verify_reasoning_chain",
+          "prepublish_review",
+          "predict_audience_reaction",
+          "arbitrate_dispute",
+          "request_human_approval",
+          "verify_certificate",
+          "order_think_tank_session_30",
+          "order_think_tank_session_60",
+          "consult_domain_expert",
+          "ask_a_human",
+          "review_plan",
+          "review_code"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:29.657Z",
         "method": "remote-http",
         "runId": "2026-08-15T16-56-29Z-decde8",
@@ -62,6 +91,35 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:17.296Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T20-03-17Z-9dcd14",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "list_offerings",
+          "list_expert_profiles",
+          "get_result",
+          "prepare_consult_domain_expert",
+          "request_think_tank_revision",
+          "request_illustration_revision",
+          "verify_external_source",
+          "review_content",
+          "verify_reasoning_chain",
+          "prepublish_review",
+          "predict_audience_reaction",
+          "arbitrate_dispute",
+          "request_human_approval",
+          "verify_certificate",
+          "order_think_tank_session_30",
+          "order_think_tank_session_60",
+          "consult_domain_expert",
+          "ask_a_human",
+          "review_plan",
+          "review_code"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:29.989Z",
         "method": "remote-http",
         "runId": "2026-08-15T16-56-29Z-c88e00",
@@ -121,6 +179,35 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.930Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T20-03-37Z-a31ede",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "list_offerings",
+          "list_expert_profiles",
+          "get_result",
+          "prepare_consult_domain_expert",
+          "request_think_tank_revision",
+          "request_illustration_revision",
+          "verify_external_source",
+          "review_content",
+          "verify_reasoning_chain",
+          "prepublish_review",
+          "predict_audience_reaction",
+          "arbitrate_dispute",
+          "request_human_approval",
+          "verify_certificate",
+          "order_think_tank_session_30",
+          "order_think_tank_session_60",
+          "consult_domain_expert",
+          "ask_a_human",
+          "review_plan",
+          "review_code"
+        ]
+      },
       {
         "date": "2026-08-15T16:56:52.007Z",
         "method": "remote-http",

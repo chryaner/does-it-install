@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:31.969Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[mcp-registry] bolthub API Registry MCP\n[mcp-registry] One config → every API on the marketplace\nError: No wallet configured. Set one of the following:\n  LND_REST_HOST + LND_MACAROON         (recommended, fastest <200ms)\n  PHOENIXD_URL + PHOENIXD_PASSWORD     (fast <200ms, auto liquidity)\n  LNBITS_URL + LNBITS_ADMIN_KEY        (fast <300ms)\n  NWC_URI                              (easiest, but slower 1-3s)",
+        "installMs": 2750,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-31Z-6fe095",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-15T16:56:30.932Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[mcp-registry] bolthub API Registry MCP\n[mcp-registry] One config → every API on the marketplace\nError: No wallet configured. Set one of the following:\n  LND_REST_HOST + LND_MACAROON         (recommended, fastest <200ms)\n  PHOENIXD_URL + PHOENIXD_PASSWORD     (fast <200ms, auto liquidity)\n  LNBITS_URL + LNBITS_ADMIN_KEY        (fast <300ms)\n  NWC_URI                              (easiest, but slower 1-3s)",
         "installMs": 2259,
@@ -33,6 +41,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:21.360Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[mcp-registry] bolthub API Registry MCP\n[mcp-registry] One config → every API on the marketplace\nError: No wallet configured. Set one of the following:\n  LND_REST_HOST + LND_MACAROON         (recommended, fastest <200ms)\n  PHOENIXD_URL + PHOENIXD_PASSWORD     (fast <200ms, auto liquidity)\n  LNBITS_URL + LNBITS_ADMIN_KEY        (fast <300ms)\n  NWC_URI                              (easiest, but slower 1-3s)",
+        "installMs": 1785,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-21Z-32f7d0",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-15T16:56:35.852Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[mcp-registry] bolthub API Registry MCP\n[mcp-registry] One config → every API on the marketplace\nError: No wallet configured. Set one of the following:\n  LND_REST_HOST + LND_MACAROON         (recommended, fastest <200ms)\n  PHOENIXD_URL + PHOENIXD_PASSWORD     (fast <200ms, auto liquidity)\n  LNBITS_URL + LNBITS_ADMIN_KEY        (fast <300ms)\n  NWC_URI                              (easiest, but slower 1-3s)",
         "installMs": 2311,
@@ -63,6 +79,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:36.582Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[mcp-registry] bolthub API Registry MCP\n[mcp-registry] One config → every API on the marketplace\nError: No wallet configured. Set one of the following:\n  LND_REST_HOST + LND_MACAROON         (recommended, fastest <200ms)\n  PHOENIXD_URL + PHOENIXD_PASSWORD     (fast <200ms, auto liquidity)\n  LNBITS_URL + LNBITS_ADMIN_KEY        (fast <300ms)\n  NWC_URI                              (easiest, but slower 1-3s)",
+        "installMs": 87468,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-36Z-50d82d",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-15T16:56:52.061Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[mcp-registry] bolthub API Registry MCP\n[mcp-registry] One config → every API on the marketplace\nError: No wallet configured. Set one of the following:\n  LND_REST_HOST + LND_MACAROON         (recommended, fastest <200ms)\n  PHOENIXD_URL + PHOENIXD_PASSWORD     (fast <200ms, auto liquidity)\n  LNBITS_URL + LNBITS_ADMIN_KEY        (fast <300ms)\n  NWC_URI                              (easiest, but slower 1-3s)",

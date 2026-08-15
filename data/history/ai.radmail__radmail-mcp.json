@@ -2,6 +2,28 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:31.969Z",
+        "installMs": 3711,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-31Z-6fe095",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "triage",
+          "triage_inbox",
+          "list_right_now",
+          "why_surfaced",
+          "draft_reply",
+          "list_commitments",
+          "search",
+          "read_email",
+          "provision_sandbox",
+          "report_need",
+          "request_capability",
+          "radmail_learning_insights"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:30.932Z",
         "installMs": 3447,
         "method": "npm",
@@ -68,6 +90,28 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:21.360Z",
+        "installMs": 4276,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-21Z-32f7d0",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "triage",
+          "triage_inbox",
+          "list_right_now",
+          "why_surfaced",
+          "draft_reply",
+          "list_commitments",
+          "search",
+          "read_email",
+          "provision_sandbox",
+          "report_need",
+          "request_capability",
+          "radmail_learning_insights"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:35.852Z",
         "installMs": 4430,
         "method": "npm",
@@ -133,6 +177,28 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:36.582Z",
+        "installMs": 117555,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-36Z-50d82d",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "triage",
+          "triage_inbox",
+          "list_right_now",
+          "why_surfaced",
+          "draft_reply",
+          "list_commitments",
+          "search",
+          "read_email",
+          "provision_sandbox",
+          "report_need",
+          "request_capability",
+          "radmail_learning_insights"
+        ]
+      },
       {
         "date": "2026-08-15T16:56:52.061Z",
         "installMs": 80910,

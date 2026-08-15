@@ -2,6 +2,25 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:27.636Z",
+        "installMs": 5621,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-27Z-87d108",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "proxyllm_savings_calculator",
+          "proxyllm_list_models",
+          "proxyllm_introspect_key",
+          "proxyllm_signup",
+          "proxyllm_verify_signup",
+          "proxyllm_account",
+          "proxyllm_create_routing_key",
+          "proxyllm_list_routing_keys",
+          "proxyllm_usage"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:30.424Z",
         "installMs": 2637,
         "method": "npm",
@@ -59,6 +78,25 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:19.780Z",
+        "installMs": 2907,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-19Z-c79c0a",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "proxyllm_savings_calculator",
+          "proxyllm_list_models",
+          "proxyllm_introspect_key",
+          "proxyllm_signup",
+          "proxyllm_verify_signup",
+          "proxyllm_account",
+          "proxyllm_create_routing_key",
+          "proxyllm_list_routing_keys",
+          "proxyllm_usage"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:31.954Z",
         "installMs": 3457,
         "method": "npm",
@@ -115,6 +153,25 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.931Z",
+        "installMs": 120368,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-37Z-81b797",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "proxyllm_savings_calculator",
+          "proxyllm_list_models",
+          "proxyllm_introspect_key",
+          "proxyllm_signup",
+          "proxyllm_verify_signup",
+          "proxyllm_account",
+          "proxyllm_create_routing_key",
+          "proxyllm_list_routing_keys",
+          "proxyllm_usage"
+        ]
+      },
       {
         "date": "2026-08-15T16:56:50.470Z",
         "installMs": 189445,

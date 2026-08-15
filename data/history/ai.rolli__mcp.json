@@ -2,6 +2,31 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:27.636Z",
+        "installMs": 5119,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-27Z-87d108",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "list_keyword_searches",
+          "keyword_search",
+          "get_keyword_search",
+          "list_user_searches",
+          "user_search",
+          "get_user_search",
+          "get_topic_tree",
+          "get_keyword_search_posts",
+          "get_user_search_posts",
+          "get_integration_setup",
+          "update_integration_setup",
+          "get_usage",
+          "list_expert_searches",
+          "expert_search",
+          "get_expert_search"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:30.424Z",
         "installMs": 4330,
         "method": "npm",
@@ -77,6 +102,31 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:19.780Z",
+        "installMs": 3217,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-19Z-c79c0a",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "list_keyword_searches",
+          "keyword_search",
+          "get_keyword_search",
+          "list_user_searches",
+          "user_search",
+          "get_user_search",
+          "get_topic_tree",
+          "get_keyword_search_posts",
+          "get_user_search_posts",
+          "get_integration_setup",
+          "update_integration_setup",
+          "get_usage",
+          "list_expert_searches",
+          "expert_search",
+          "get_expert_search"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:31.954Z",
         "installMs": 5785,
         "method": "npm",
@@ -151,6 +201,31 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.931Z",
+        "installMs": 124521,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-37Z-81b797",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "list_keyword_searches",
+          "keyword_search",
+          "get_keyword_search",
+          "list_user_searches",
+          "user_search",
+          "get_user_search",
+          "get_topic_tree",
+          "get_keyword_search_posts",
+          "get_user_search_posts",
+          "get_integration_setup",
+          "update_integration_setup",
+          "get_usage",
+          "list_expert_searches",
+          "expert_search",
+          "get_expert_search"
+        ]
+      },
       {
         "date": "2026-08-15T16:56:50.470Z",
         "installMs": 153418,

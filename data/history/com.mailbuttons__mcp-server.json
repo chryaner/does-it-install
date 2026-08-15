@@ -2,6 +2,31 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:19.390Z",
+        "installMs": 4624,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-19Z-d5e286",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "mailbuttons_list_messages",
+          "mailbuttons_get_message",
+          "mailbuttons_get_thread",
+          "mailbuttons_get_attachment_text",
+          "mailbuttons_send_email",
+          "mailbuttons_list_drafts",
+          "mailbuttons_get_draft",
+          "mailbuttons_extract_code",
+          "mailbuttons_propose_sender",
+          "mailbuttons_request_promotion",
+          "mailbuttons_audit_tail",
+          "mailbuttons_export_audit",
+          "mailbuttons_generate_policy",
+          "mailbuttons_scaffold_integration",
+          "mailbuttons_run_selftest"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:29.657Z",
         "installMs": 5010,
         "method": "npm",
@@ -53,6 +78,31 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:17.296Z",
+        "installMs": 5194,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-17Z-9dcd14",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "mailbuttons_list_messages",
+          "mailbuttons_get_message",
+          "mailbuttons_get_thread",
+          "mailbuttons_get_attachment_text",
+          "mailbuttons_send_email",
+          "mailbuttons_list_drafts",
+          "mailbuttons_get_draft",
+          "mailbuttons_extract_code",
+          "mailbuttons_propose_sender",
+          "mailbuttons_request_promotion",
+          "mailbuttons_audit_tail",
+          "mailbuttons_export_audit",
+          "mailbuttons_generate_policy",
+          "mailbuttons_scaffold_integration",
+          "mailbuttons_run_selftest"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:29.989Z",
         "installMs": 4069,
         "method": "npm",
@@ -103,6 +153,31 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.930Z",
+        "installMs": 120966,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-37Z-a31ede",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "mailbuttons_list_messages",
+          "mailbuttons_get_message",
+          "mailbuttons_get_thread",
+          "mailbuttons_get_attachment_text",
+          "mailbuttons_send_email",
+          "mailbuttons_list_drafts",
+          "mailbuttons_get_draft",
+          "mailbuttons_extract_code",
+          "mailbuttons_propose_sender",
+          "mailbuttons_request_promotion",
+          "mailbuttons_audit_tail",
+          "mailbuttons_export_audit",
+          "mailbuttons_generate_policy",
+          "mailbuttons_scaffold_integration",
+          "mailbuttons_run_selftest"
+        ]
+      },
       {
         "date": "2026-08-15T16:56:52.007Z",
         "installMs": 128146,

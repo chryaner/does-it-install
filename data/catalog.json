@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T16:56:11.306Z",
+  "generatedAt": "2026-08-15T20:03:02.680Z",
   "servers": [
     {
       "id": "seed/server-everything",
@@ -19,7 +19,7 @@
       "description": "Official MCP reference server exercising every protocol feature.",
       "repoUrl": "https://github.com/modelcontextprotocol/servers",
       "popularity": {
-        "stars": 89583
+        "stars": 89589
       }
     },
     {
@@ -40,7 +40,7 @@
       "description": "Official MCP reference server: knowledge-graph memory.",
       "repoUrl": "https://github.com/modelcontextprotocol/servers",
       "popularity": {
-        "stars": 89583
+        "stars": 89589
       }
     },
     {
@@ -64,7 +64,7 @@
       "description": "Official MCP reference server: filesystem access.",
       "repoUrl": "https://github.com/modelcontextprotocol/servers",
       "popularity": {
-        "stars": 89583
+        "stars": 89589
       }
     },
     {
@@ -114,7 +114,7 @@
       "websiteUrl": "https://browser-use.com",
       "updatedAt": "2026-07-17T01:17:22.802703Z",
       "popularity": {
-        "stars": 109316
+        "stars": 109329
       }
     },
     {
@@ -137,7 +137,7 @@
       "websiteUrl": "https://www.worldmonitor.app",
       "updatedAt": "2026-07-05T12:27:24.160068Z",
       "popularity": {
-        "stars": 82079
+        "stars": 82106
       }
     },
     {
@@ -671,7 +671,7 @@
       "repoUrl": "https://github.com/apify/apify-mcp-server",
       "updatedAt": "2026-08-12T07:34:07.228165Z",
       "popularity": {
-        "stars": 3761
+        "stars": 3778
       }
     },
     {
@@ -919,7 +919,7 @@
       "repoUrl": "https://github.com/brave/brave-search-mcp-server",
       "updatedAt": "2025-10-25T09:09:32.842127Z",
       "popularity": {
-        "stars": 1379
+        "stars": 1380
       }
     },
     {
@@ -950,7 +950,7 @@
       "repoUrl": "https://github.com/brave/brave-search-mcp-server",
       "updatedAt": "2026-07-18T19:32:13.411169Z",
       "popularity": {
-        "stars": 1379
+        "stars": 1380
       }
     },
     {
@@ -979,7 +979,7 @@
       "repoUrl": "https://github.com/ref-tools/ref-tools-mcp",
       "updatedAt": "2025-10-28T04:05:07.66948Z",
       "popularity": {
-        "stars": 1152
+        "stars": 1153
       }
     },
     {
@@ -1010,7 +1010,7 @@
       "repoUrl": "https://github.com/ref-tools/ref-tools-mcp",
       "updatedAt": "2025-09-09T20:04:16.022585Z",
       "popularity": {
-        "stars": 1152
+        "stars": 1153
       }
     },
     {
@@ -1039,7 +1039,7 @@
       "repoUrl": "https://github.com/ref-tools/ref-tools-mcp",
       "updatedAt": "2025-10-28T04:00:29.042576Z",
       "popularity": {
-        "stars": 1152
+        "stars": 1153
       }
     },
     {
@@ -1062,7 +1062,7 @@
       "repoUrl": "https://github.com/ArcadeData/arcadedb",
       "updatedAt": "2026-03-10T16:22:56.207278Z",
       "popularity": {
-        "stars": 1080
+        "stars": 1081
       }
     },
     {
@@ -1078,7 +1078,7 @@
       "repoUrl": "https://github.com/ArcadeData/arcadedb",
       "updatedAt": "2026-03-09T23:16:39.098524Z",
       "popularity": {
-        "stars": 1080
+        "stars": 1081
       }
     },
     {
@@ -1498,7 +1498,7 @@
       "websiteUrl": "https://decionis.com/docs/protocol-mcp?utm_source=mcp-registry&utm_medium=registry&utm_campaign=mcp-directory",
       "updatedAt": "2026-08-15T09:28:53.453163Z",
       "popularity": {
-        "stars": 427
+        "stars": 432
       }
     },
     {
@@ -3344,7 +3344,7 @@
           "kind": "npm",
           "identifier": "@kinlab/kin-mcp",
           "env": [],
-          "version": "0.5.32",
+          "version": "0.5.33",
           "transport": "stdio"
         }
       ],
@@ -3352,9 +3352,9 @@
       "source": "registry",
       "rank": 101,
       "description": "Semantic code retrieval over a graph of entities, relationships, changes, and provenance.",
-      "version": "0.5.32",
+      "version": "0.5.33",
       "repoUrl": "https://github.com/firelock-ai/kin",
-      "updatedAt": "2026-08-15T11:42:01.587487Z",
+      "updatedAt": "2026-08-15T18:07:07.915924Z",
       "popularity": {
         "stars": 45
       }

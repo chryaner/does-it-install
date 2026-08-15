@@ -2,6 +2,22 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:27.636Z",
+        "installMs": 5180,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-27Z-87d108",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "snapdiff_compare_pages",
+          "snapdiff_capture_screenshot",
+          "snapdiff_capture_baseline",
+          "snapdiff_check_build",
+          "snapdiff_verify_ui_change",
+          "snapdiff_html_to_image"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:30.424Z",
         "installMs": 5257,
         "method": "npm",
@@ -65,6 +81,22 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:19.780Z",
+        "installMs": 4907,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-19Z-c79c0a",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "snapdiff_compare_pages",
+          "snapdiff_capture_screenshot",
+          "snapdiff_capture_baseline",
+          "snapdiff_check_build",
+          "snapdiff_verify_ui_change",
+          "snapdiff_html_to_image"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:31.954Z",
         "installMs": 5825,
         "method": "npm",
@@ -127,6 +159,22 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.931Z",
+        "installMs": 187678,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-37Z-81b797",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "snapdiff_compare_pages",
+          "snapdiff_capture_screenshot",
+          "snapdiff_capture_baseline",
+          "snapdiff_check_build",
+          "snapdiff_verify_ui_change",
+          "snapdiff_html_to_image"
+        ]
+      },
       {
         "date": "2026-08-15T16:56:50.470Z",
         "installMs": 196933,

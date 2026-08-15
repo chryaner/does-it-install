@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:27.636Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-15T20-03-27Z-87d108",
+        "status": "skipped"
+      },
+      {
         "date": "2026-08-15T16:56:30.424Z",
         "errorExcerpt": "container (oci) distributions are not probed in v1",
         "method": "oci",
@@ -32,6 +40,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:19.780Z",
+        "errorExcerpt": "docker pull ghcr.io/haymon-ai/database:0.7.0 exited with code 1\n--- stderr (tail) ---\nError response from daemon: Head \"https://ghcr.io/v2/haymon-ai/database/manifests/0.7.0\": denied",
+        "installMs": 1009,
+        "method": "oci",
+        "runId": "2026-08-15T20-03-19Z-c79c0a",
+        "status": "install_failed"
+      },
+      {
         "date": "2026-08-15T16:56:31.954Z",
         "errorExcerpt": "container (oci) distributions are not probed in v1",
         "method": "oci",
@@ -61,6 +77,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.931Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-15T20-03-37Z-81b797",
+        "status": "skipped"
+      },
       {
         "date": "2026-08-15T16:56:50.470Z",
         "errorExcerpt": "container (oci) distributions are not probed in v1",

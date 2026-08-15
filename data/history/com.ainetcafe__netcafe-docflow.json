@@ -2,6 +2,28 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:19.390Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T20-03-19Z-d5e286",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "what_can_you_do",
+          "pdf_add_page_numbers",
+          "md_to_pdf",
+          "md_to_docx",
+          "md_to_pptx",
+          "md_to_html",
+          "md_to_epub",
+          "docx_to_md",
+          "merge_pdf",
+          "split_pdf",
+          "pdf_page_count",
+          "pdf_watermark",
+          "pdf_rotate"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:29.657Z",
         "method": "remote-http",
         "runId": "2026-08-15T16-56-29Z-decde8",
@@ -26,6 +48,28 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:17.296Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T20-03-17Z-9dcd14",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "what_can_you_do",
+          "pdf_add_page_numbers",
+          "md_to_pdf",
+          "md_to_docx",
+          "md_to_pptx",
+          "md_to_html",
+          "md_to_epub",
+          "docx_to_md",
+          "merge_pdf",
+          "split_pdf",
+          "pdf_page_count",
+          "pdf_watermark",
+          "pdf_rotate"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:29.989Z",
         "method": "remote-http",
         "runId": "2026-08-15T16-56-29Z-c88e00",
@@ -49,6 +93,28 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.930Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T20-03-37Z-a31ede",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "what_can_you_do",
+          "pdf_add_page_numbers",
+          "md_to_pdf",
+          "md_to_docx",
+          "md_to_pptx",
+          "md_to_html",
+          "md_to_epub",
+          "docx_to_md",
+          "merge_pdf",
+          "split_pdf",
+          "pdf_page_count",
+          "pdf_watermark",
+          "pdf_rotate"
+        ]
+      },
       {
         "date": "2026-08-15T16:56:52.007Z",
         "method": "remote-http",

@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:19.390Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: Client network socket disconnected before secure TLS connection was established (ECONNRESET)",
+        "method": "remote-http",
+        "runId": "2026-08-15T20-03-19Z-d5e286",
+        "status": "connect_failed"
+      },
+      {
         "date": "2026-08-15T16:56:29.657Z",
         "errorExcerpt": "connect failed: fetch failed caused by: Client network socket disconnected before secure TLS connection was established (ECONNRESET)",
         "method": "remote-http",
@@ -25,6 +32,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:17.296Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND {subdomain}.localkiagent.com",
+        "method": "remote-http",
+        "runId": "2026-08-15T20-03-17Z-9dcd14",
+        "status": "connect_failed"
+      },
+      {
         "date": "2026-08-15T16:56:29.989Z",
         "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND {subdomain}.localkiagent.com",
         "method": "remote-http",
@@ -47,6 +61,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.930Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND {subdomain}.localkiagent.com",
+        "method": "remote-http",
+        "runId": "2026-08-15T20-03-37Z-a31ede",
+        "status": "connect_failed"
+      },
       {
         "date": "2026-08-15T16:56:52.007Z",
         "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND {subdomain}.localkiagent.com",
