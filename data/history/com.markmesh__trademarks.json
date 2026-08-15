@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:29.657Z",
+        "errorExcerpt": "handshake failed: Streamable HTTP error: Error POSTing to endpoint: {\"errors\":[{\"code\":\"invalid_api_key\",\"id\":\"GMwJBzWPjgodT2kAADEi\",\"status\":\"401\",\"title\":\"Unauthorized\",\"detail\":\"API key missing, invalid, expired, or revoked\"}]} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-29Z-decde8",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T04:06:28.268Z",
         "errorExcerpt": "handshake failed: Streamable HTTP error: Error POSTing to endpoint: {\"errors\":[{\"code\":\"invalid_api_key\",\"id\":\"GMvfPQ3WXP10fqQAAzhx\",\"status\":\"401\",\"title\":\"Unauthorized\",\"detail\":\"API key missing, invalid, expired, or revoked\"}]} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -18,6 +25,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:29.989Z",
+        "errorExcerpt": "handshake failed: Streamable HTTP error: Error POSTing to endpoint: {\"errors\":[{\"code\":\"invalid_api_key\",\"id\":\"GMwJA2JjJTKoEGIAADDy\",\"status\":\"401\",\"title\":\"Unauthorized\",\"detail\":\"API key missing, invalid, expired, or revoked\"}]} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-29Z-c88e00",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T04:06:32.275Z",
         "errorExcerpt": "handshake failed: Streamable HTTP error: Error POSTing to endpoint: {\"errors\":[{\"code\":\"invalid_api_key\",\"id\":\"GMvfNHHEWg5o6_QAAloi\",\"status\":\"401\",\"title\":\"Unauthorized\",\"detail\":\"API key missing, invalid, expired, or revoked\"}]} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -33,6 +47,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:52.007Z",
+        "errorExcerpt": "handshake failed: Streamable HTTP error: Error POSTing to endpoint: {\"errors\":[{\"code\":\"invalid_api_key\",\"id\":\"GMwJ-xoRed11uTgAAAOy\",\"status\":\"401\",\"title\":\"Unauthorized\",\"detail\":\"API key missing, invalid, expired, or revoked\"}]} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-52Z-7469c8",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-15T04:06:54.151Z",
         "errorExcerpt": "handshake failed: Streamable HTTP error: Error POSTing to endpoint: {\"errors\":[{\"code\":\"invalid_api_key\",\"id\":\"GMvja46vFDbhS7EAAoti\",\"status\":\"401\",\"title\":\"Unauthorized\",\"detail\":\"API key missing, invalid, expired, or revoked\"}]} (endpoint reachable but requires credentials the harness does not send)",

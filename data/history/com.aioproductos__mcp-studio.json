@@ -2,6 +2,30 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:30.932Z",
+        "installMs": 6411,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-30Z-d2d89f",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "studio_start",
+          "studio_goto",
+          "studio_click",
+          "studio_type",
+          "studio_scroll",
+          "studio_caption",
+          "studio_narrate",
+          "studio_highlight",
+          "studio_zoom",
+          "studio_hold",
+          "studio_end_card",
+          "studio_screenshot",
+          "studio_finish",
+          "studio_cancel"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:17.022Z",
         "method": "npm",
         "runId": "2026-08-15T01-49-17Z-8b8e8b",
@@ -27,6 +51,30 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:35.852Z",
+        "installMs": 5506,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-35Z-b0ddff",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "studio_start",
+          "studio_goto",
+          "studio_click",
+          "studio_type",
+          "studio_scroll",
+          "studio_caption",
+          "studio_narrate",
+          "studio_highlight",
+          "studio_zoom",
+          "studio_hold",
+          "studio_end_card",
+          "studio_screenshot",
+          "studio_finish",
+          "studio_cancel"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:20.415Z",
         "method": "npm",
         "runId": "2026-08-15T01-49-20Z-238791",
@@ -51,6 +99,30 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:52.061Z",
+        "installMs": 113456,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-52Z-c04f43",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "studio_start",
+          "studio_goto",
+          "studio_click",
+          "studio_type",
+          "studio_scroll",
+          "studio_caption",
+          "studio_narrate",
+          "studio_highlight",
+          "studio_zoom",
+          "studio_hold",
+          "studio_end_card",
+          "studio_screenshot",
+          "studio_finish",
+          "studio_cancel"
+        ]
+      },
       {
         "date": "2026-08-15T01:50:04.636Z",
         "method": "npm",

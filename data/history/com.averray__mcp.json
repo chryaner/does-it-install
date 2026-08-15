@@ -2,6 +2,33 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:29.657Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-29Z-decde8",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "getPlatformCapabilities",
+          "listJobs",
+          "getJobDefinition",
+          "validateJobSubmission",
+          "preflightJob",
+          "estimateNetReward",
+          "explainEligibility",
+          "getDepositPoolInfo",
+          "getAccountPosition",
+          "buildWithdrawTransactions",
+          "buildDepositPoolTransactions",
+          "getCreditInfo",
+          "buildCreditTransactions",
+          "fetchAuthNonce",
+          "verifySiwe",
+          "refreshAuthToken",
+          "claimJob",
+          "submitWork"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:18.684Z",
         "method": "remote-http",
         "runId": "2026-08-15T01-49-18Z-a30774",
@@ -31,6 +58,33 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:29.989Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-29Z-c88e00",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "getPlatformCapabilities",
+          "listJobs",
+          "getJobDefinition",
+          "validateJobSubmission",
+          "preflightJob",
+          "estimateNetReward",
+          "explainEligibility",
+          "getDepositPoolInfo",
+          "getAccountPosition",
+          "buildWithdrawTransactions",
+          "buildDepositPoolTransactions",
+          "getCreditInfo",
+          "buildCreditTransactions",
+          "fetchAuthNonce",
+          "verifySiwe",
+          "refreshAuthToken",
+          "claimJob",
+          "submitWork"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:20.605Z",
         "method": "remote-http",
         "runId": "2026-08-15T01-49-20Z-b188f1",
@@ -59,6 +113,33 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:52.007Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-52Z-7469c8",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "getPlatformCapabilities",
+          "listJobs",
+          "getJobDefinition",
+          "validateJobSubmission",
+          "preflightJob",
+          "estimateNetReward",
+          "explainEligibility",
+          "getDepositPoolInfo",
+          "getAccountPosition",
+          "buildWithdrawTransactions",
+          "buildDepositPoolTransactions",
+          "getCreditInfo",
+          "buildCreditTransactions",
+          "fetchAuthNonce",
+          "verifySiwe",
+          "refreshAuthToken",
+          "claimJob",
+          "submitWork"
+        ]
+      },
       {
         "date": "2026-08-15T01:49:39.142Z",
         "method": "remote-http",

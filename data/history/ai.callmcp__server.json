@@ -2,6 +2,30 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:30.932Z",
+        "installMs": 3061,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-30Z-d2d89f",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "list_drivers",
+          "request_call_approval",
+          "list_approvals",
+          "make_call",
+          "end_call",
+          "get_call_status",
+          "get_transcript",
+          "get_recording",
+          "send_sms",
+          "search_numbers",
+          "buy_number",
+          "configure_number",
+          "list_numbers",
+          "list_calls"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:18.684Z",
         "method": "npm",
         "runId": "2026-08-15T01-49-18Z-a30774",
@@ -73,6 +97,30 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:35.852Z",
+        "installMs": 4267,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-35Z-b0ddff",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "list_drivers",
+          "request_call_approval",
+          "list_approvals",
+          "make_call",
+          "end_call",
+          "get_call_status",
+          "get_transcript",
+          "get_recording",
+          "send_sms",
+          "search_numbers",
+          "buy_number",
+          "configure_number",
+          "list_numbers",
+          "list_calls"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:20.605Z",
         "method": "npm",
         "runId": "2026-08-15T01-49-20Z-b188f1",
@@ -143,6 +191,30 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:52.061Z",
+        "installMs": 84219,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-52Z-c04f43",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "list_drivers",
+          "request_call_approval",
+          "list_approvals",
+          "make_call",
+          "end_call",
+          "get_call_status",
+          "get_transcript",
+          "get_recording",
+          "send_sms",
+          "search_numbers",
+          "buy_number",
+          "configure_number",
+          "list_numbers",
+          "list_calls"
+        ]
+      },
       {
         "date": "2026-08-15T01:49:39.142Z",
         "method": "npm",

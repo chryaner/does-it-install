@@ -2,6 +2,27 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:29.657Z",
+        "method": "pypi",
+        "runId": "2026-08-15T16-56-29Z-decde8",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "get_current_user",
+          "list_table_records",
+          "create_records",
+          "replace_records",
+          "update_records",
+          "delete_records",
+          "get_record",
+          "replace_record",
+          "update_record",
+          "delete_record",
+          "sync_table_data",
+          "upload_attachment"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:28.268Z",
         "method": "pypi",
         "runId": "2026-08-15T04-06-28Z-bd83fc",
@@ -46,6 +67,27 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:29.989Z",
+        "method": "pypi",
+        "runId": "2026-08-15T16-56-29Z-c88e00",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "get_current_user",
+          "list_table_records",
+          "create_records",
+          "replace_records",
+          "update_records",
+          "delete_records",
+          "get_record",
+          "replace_record",
+          "update_record",
+          "delete_record",
+          "sync_table_data",
+          "upload_attachment"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:32.275Z",
         "method": "pypi",
         "runId": "2026-08-15T04-06-32Z-64cc50",
@@ -89,6 +131,27 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:52.007Z",
+        "method": "pypi",
+        "runId": "2026-08-15T16-56-52Z-7469c8",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "get_current_user",
+          "list_table_records",
+          "create_records",
+          "replace_records",
+          "update_records",
+          "delete_records",
+          "get_record",
+          "replace_record",
+          "update_record",
+          "delete_record",
+          "sync_table_data",
+          "upload_attachment"
+        ]
+      },
       {
         "date": "2026-08-15T04:06:54.151Z",
         "method": "pypi",

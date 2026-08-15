@@ -2,6 +2,37 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:30.424Z",
+        "installMs": 3087,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-30Z-74a61d",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "create_inbox",
+          "list_inboxes",
+          "delete_inbox",
+          "send_message",
+          "reply_to_message",
+          "forward_message",
+          "get_message",
+          "search_messages",
+          "list_threads",
+          "get_thread",
+          "create_draft",
+          "send_draft",
+          "list_drafts",
+          "add_domain",
+          "get_domain",
+          "create_webhook",
+          "list_webhooks",
+          "delete_webhook",
+          "add_address_rule",
+          "list_address_rules",
+          "delete_address_rule"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:17.022Z",
         "method": "npm",
         "runId": "2026-08-15T01-49-17Z-8b8e8b",
@@ -64,6 +95,37 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:31.954Z",
+        "installMs": 3664,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-31Z-197d91",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "create_inbox",
+          "list_inboxes",
+          "delete_inbox",
+          "send_message",
+          "reply_to_message",
+          "forward_message",
+          "get_message",
+          "search_messages",
+          "list_threads",
+          "get_thread",
+          "create_draft",
+          "send_draft",
+          "list_drafts",
+          "add_domain",
+          "get_domain",
+          "create_webhook",
+          "list_webhooks",
+          "delete_webhook",
+          "add_address_rule",
+          "list_address_rules",
+          "delete_address_rule"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:20.415Z",
         "method": "npm",
         "runId": "2026-08-15T01-49-20Z-238791",
@@ -125,6 +187,37 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:50.470Z",
+        "installMs": 182566,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-50Z-656db4",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "create_inbox",
+          "list_inboxes",
+          "delete_inbox",
+          "send_message",
+          "reply_to_message",
+          "forward_message",
+          "get_message",
+          "search_messages",
+          "list_threads",
+          "get_thread",
+          "create_draft",
+          "send_draft",
+          "list_drafts",
+          "add_domain",
+          "get_domain",
+          "create_webhook",
+          "list_webhooks",
+          "delete_webhook",
+          "add_address_rule",
+          "list_address_rules",
+          "delete_address_rule"
+        ]
+      },
       {
         "date": "2026-08-15T01:50:04.636Z",
         "method": "npm",

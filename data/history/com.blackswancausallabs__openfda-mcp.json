@@ -2,6 +2,22 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:30.932Z",
+        "method": "pypi",
+        "runId": "2026-08-15T16-56-30Z-d2d89f",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "search_drug_label",
+          "lookup_drugsfda_application",
+          "resolve_drug_to_application",
+          "screen_for_rwe_signals",
+          "lookup_device_submission",
+          "classify_device_product_code",
+          "validate_device_application"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:17.022Z",
         "method": "pypi",
         "runId": "2026-08-15T01-49-17Z-8b8e8b",
@@ -20,6 +36,22 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:35.852Z",
+        "method": "pypi",
+        "runId": "2026-08-15T16-56-35Z-b0ddff",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "search_drug_label",
+          "lookup_drugsfda_application",
+          "resolve_drug_to_application",
+          "screen_for_rwe_signals",
+          "lookup_device_submission",
+          "classify_device_product_code",
+          "validate_device_application"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:20.415Z",
         "method": "pypi",
         "runId": "2026-08-15T01-49-20Z-238791",
@@ -37,6 +69,22 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:52.061Z",
+        "method": "pypi",
+        "runId": "2026-08-15T16-56-52Z-c04f43",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "search_drug_label",
+          "lookup_drugsfda_application",
+          "resolve_drug_to_application",
+          "screen_for_rwe_signals",
+          "lookup_device_submission",
+          "classify_device_product_code",
+          "validate_device_application"
+        ]
+      },
       {
         "date": "2026-08-15T01:50:04.636Z",
         "method": "pypi",

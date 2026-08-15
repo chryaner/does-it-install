@@ -2,6 +2,19 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:30.424Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-30Z-74a61d",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "get_compact_brief",
+          "search_news",
+          "suggest_topics",
+          "deep_research_report"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:18.419Z",
         "method": "remote-http",
         "runId": "2026-08-15T01-49-18Z-df0f6c",
@@ -17,6 +30,19 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:31.954Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-31Z-197d91",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "get_compact_brief",
+          "search_news",
+          "suggest_topics",
+          "deep_research_report"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:21.179Z",
         "method": "remote-http",
         "runId": "2026-08-15T01-49-21Z-2de383",
@@ -31,6 +57,19 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:50.470Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-50Z-656db4",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "get_compact_brief",
+          "search_news",
+          "suggest_topics",
+          "deep_research_report"
+        ]
+      },
       {
         "date": "2026-08-15T01:49:32.941Z",
         "method": "remote-http",

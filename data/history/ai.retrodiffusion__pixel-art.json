@@ -2,6 +2,35 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:30.932Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-30Z-d2d89f",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "authenticate",
+          "logout",
+          "create_user_style",
+          "update_user_style",
+          "delete_user_style",
+          "list_available_styles",
+          "list_available_models",
+          "get_style_usage",
+          "get_balance",
+          "estimate_inference_cost",
+          "create_inference",
+          "list_edit_tools",
+          "fix_pixel_art",
+          "run_edit_tool",
+          "estimate_edit_tool_cost",
+          "get_inference_result",
+          "start_inference_job",
+          "get_inference_job",
+          "list_inference_jobs",
+          "get_service_status"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:18.684Z",
         "method": "remote-http",
         "runId": "2026-08-15T01-49-18Z-a30774",
@@ -62,6 +91,35 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:35.852Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-35Z-b0ddff",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "authenticate",
+          "logout",
+          "create_user_style",
+          "update_user_style",
+          "delete_user_style",
+          "list_available_styles",
+          "list_available_models",
+          "get_style_usage",
+          "get_balance",
+          "estimate_inference_cost",
+          "create_inference",
+          "list_edit_tools",
+          "fix_pixel_art",
+          "run_edit_tool",
+          "estimate_edit_tool_cost",
+          "get_inference_result",
+          "start_inference_job",
+          "get_inference_job",
+          "list_inference_jobs",
+          "get_service_status"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:20.605Z",
         "method": "remote-http",
         "runId": "2026-08-15T01-49-20Z-b188f1",
@@ -121,6 +179,35 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:52.061Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-52Z-c04f43",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "authenticate",
+          "logout",
+          "create_user_style",
+          "update_user_style",
+          "delete_user_style",
+          "list_available_styles",
+          "list_available_models",
+          "get_style_usage",
+          "get_balance",
+          "estimate_inference_cost",
+          "create_inference",
+          "list_edit_tools",
+          "fix_pixel_art",
+          "run_edit_tool",
+          "estimate_edit_tool_cost",
+          "get_inference_result",
+          "start_inference_job",
+          "get_inference_job",
+          "list_inference_jobs",
+          "get_service_status"
+        ]
+      },
       {
         "date": "2026-08-15T01:49:39.142Z",
         "method": "remote-http",

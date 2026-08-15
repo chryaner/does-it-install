@@ -1,0 +1,72 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T16:56:30.932Z",
+        "installMs": 3081,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-30Z-d2d89f",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "list_features",
+          "list_instruments",
+          "interpret_prose",
+          "run_scan",
+          "next_page",
+          "snapshot_at",
+          "base_rate",
+          "commonality",
+          "get_report",
+          "run_cohort"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T16:56:35.852Z",
+        "installMs": 3268,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-35Z-b0ddff",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "list_features",
+          "list_instruments",
+          "interpret_prose",
+          "run_scan",
+          "next_page",
+          "snapshot_at",
+          "base_rate",
+          "commonality",
+          "get_report",
+          "run_cohort"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T16:56:52.061Z",
+        "installMs": 67343,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-52Z-c04f43",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "list_features",
+          "list_instruments",
+          "interpret_prose",
+          "run_scan",
+          "next_page",
+          "snapshot_at",
+          "base_rate",
+          "commonality",
+          "get_report",
+          "run_cohort"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.edgedepth/research",
+  "slug": "com.edgedepth__research"
+}

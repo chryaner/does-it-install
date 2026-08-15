@@ -2,6 +2,27 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:30.424Z",
+        "installMs": 3466,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-30Z-74a61d",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "scan_site",
+          "get_scan",
+          "get_scan_status",
+          "get_report",
+          "get_evidence",
+          "export_findings",
+          "list_findings",
+          "get_pre_consent_cookies_trackers",
+          "explain_finding",
+          "get_latest_domain_scan",
+          "get_latest_domain_pre_consent_cookies_trackers"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:17.022Z",
         "method": "npm",
         "runId": "2026-08-15T01-49-17Z-8b8e8b",
@@ -64,6 +85,27 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:31.954Z",
+        "installMs": 4819,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-31Z-197d91",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "scan_site",
+          "get_scan",
+          "get_scan_status",
+          "get_report",
+          "get_evidence",
+          "export_findings",
+          "list_findings",
+          "get_pre_consent_cookies_trackers",
+          "explain_finding",
+          "get_latest_domain_scan",
+          "get_latest_domain_pre_consent_cookies_trackers"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:20.415Z",
         "method": "npm",
         "runId": "2026-08-15T01-49-20Z-238791",
@@ -125,6 +167,27 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:50.470Z",
+        "installMs": 138120,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-50Z-656db4",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "scan_site",
+          "get_scan",
+          "get_scan_status",
+          "get_report",
+          "get_evidence",
+          "export_findings",
+          "list_findings",
+          "get_pre_consent_cookies_trackers",
+          "explain_finding",
+          "get_latest_domain_scan",
+          "get_latest_domain_pre_consent_cookies_trackers"
+        ]
+      },
       {
         "date": "2026-08-15T01:50:04.636Z",
         "method": "npm",

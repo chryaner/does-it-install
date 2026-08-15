@@ -2,6 +2,23 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:30.932Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-30Z-d2d89f",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "getEpisodes",
+          "getEpisodesGuest",
+          "getEpisodesGuestMetadatajson",
+          "getEpisodesGuestTranscriptformat",
+          "getEpisodesGuestChunks",
+          "getEpisodesGuestChunksChunkIdtxt",
+          "getSearch",
+          "postSearch"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:28.268Z",
         "method": "remote-http",
         "runId": "2026-08-15T04-06-28Z-bd83fc",
@@ -72,6 +89,23 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:35.852Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-35Z-b0ddff",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "getEpisodes",
+          "getEpisodesGuest",
+          "getEpisodesGuestMetadatajson",
+          "getEpisodesGuestTranscriptformat",
+          "getEpisodesGuestChunks",
+          "getEpisodesGuestChunksChunkIdtxt",
+          "getSearch",
+          "postSearch"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:32.275Z",
         "method": "remote-http",
         "runId": "2026-08-15T04-06-32Z-64cc50",
@@ -141,6 +175,23 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:52.061Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-52Z-c04f43",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "getEpisodes",
+          "getEpisodesGuest",
+          "getEpisodesGuestMetadatajson",
+          "getEpisodesGuestTranscriptformat",
+          "getEpisodesGuestChunks",
+          "getEpisodesGuestChunksChunkIdtxt",
+          "getSearch",
+          "postSearch"
+        ]
+      },
       {
         "date": "2026-08-15T04:06:54.151Z",
         "method": "remote-http",

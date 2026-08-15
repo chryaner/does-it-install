@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:30.932Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[2026-08-15T17:01:59.030Z] [INFO] [bitsbound-mcp:server] Starting BitsBound MCP Server...\n[2026-08-15T17:01:59.031Z] [ERROR] [bitsbound-mcp:server] BITSBOUND_API_KEY environment variable is required\nError: BITSBOUND_API_KEY environment variable is required\n\nFor Claude Desktop, set it in your config:\n  \"env\": { \"BITSBOUND_API_KEY\": \"sk_live_xxxxx\" }\n\nFor HTTP mode, set MCP_HTTP_PORT and include API key in Authorization header\n\nGet your API key at: https://account.bitsbound.com/api-keys",
+        "installMs": 5288,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-30Z-d2d89f",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-15T01:49:17.022Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[2026-08-15T01:54:42.046Z] [INFO] [bitsbound-mcp:server] Starting BitsBound MCP Server...\n[2026-08-15T01:54:42.047Z] [ERROR] [bitsbound-mcp:server] BITSBOUND_API_KEY environment variable is required\nError: BITSBOUND_API_KEY environment variable is required\n\nFor Claude Desktop, set it in your config:\n  \"env\": { \"BITSBOUND_API_KEY\": \"sk_live_xxxxx\" }\n\nFor HTTP mode, set MCP_HTTP_PORT and include API key in Authorization header\n\nGet your API key at: https://account.bitsbound.com/api-keys",
         "method": "npm",
@@ -11,6 +19,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:35.852Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[2026-08-15T17:01:30.257Z] [INFO] [bitsbound-mcp:server] Starting BitsBound MCP Server...\n[2026-08-15T17:01:30.258Z] [ERROR] [bitsbound-mcp:server] BITSBOUND_API_KEY environment variable is required\nError: BITSBOUND_API_KEY environment variable is required\n\nFor Claude Desktop, set it in your config:\n  \"env\": { \"BITSBOUND_API_KEY\": \"sk_live_xxxxx\" }\n\nFor HTTP mode, set MCP_HTTP_PORT and include API key in Authorization header\n\nGet your API key at: https://account.bitsbound.com/api-keys",
+        "installMs": 6420,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-35Z-b0ddff",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-15T01:49:20.415Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[2026-08-15T01:53:10.038Z] [INFO] [bitsbound-mcp:server] Starting BitsBound MCP Server...\n[2026-08-15T01:53:10.039Z] [ERROR] [bitsbound-mcp:server] BITSBOUND_API_KEY environment variable is required\nError: BITSBOUND_API_KEY environment variable is required\n\nFor Claude Desktop, set it in your config:\n  \"env\": { \"BITSBOUND_API_KEY\": \"sk_live_xxxxx\" }\n\nFor HTTP mode, set MCP_HTTP_PORT and include API key in Authorization header\n\nGet your API key at: https://account.bitsbound.com/api-keys",
         "method": "npm",
@@ -19,6 +35,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:52.061Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[2026-08-15T17:42:08.026Z] [INFO] [bitsbound-mcp:server] Starting BitsBound MCP Server...\n[2026-08-15T17:42:08.027Z] [ERROR] [bitsbound-mcp:server] BITSBOUND_API_KEY environment variable is required\nError: BITSBOUND_API_KEY environment variable is required\n\nFor Claude Desktop, set it in your config:\n  \"env\": { \"BITSBOUND_API_KEY\": \"sk_live_xxxxx\" }\n\nFor HTTP mode, set MCP_HTTP_PORT and include API key in Authorization header\n\nGet your API key at: https://account.bitsbound.com/api-keys",
+        "installMs": 160003,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-52Z-c04f43",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-15T01:50:04.636Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[2026-08-15T03:06:01.009Z] [INFO] [bitsbound-mcp:server] Starting BitsBound MCP Server...\n[2026-08-15T03:06:01.010Z] [ERROR] [bitsbound-mcp:server] BITSBOUND_API_KEY environment variable is required\nError: BITSBOUND_API_KEY environment variable is required\n\nFor Claude Desktop, set it in your config:\n  \"env\": { \"BITSBOUND_API_KEY\": \"sk_live_xxxxx\" }\n\nFor HTTP mode, set MCP_HTTP_PORT and include API key in Authorization header\n\nGet your API key at: https://account.bitsbound.com/api-keys",

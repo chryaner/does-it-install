@@ -2,6 +2,33 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:29.657Z",
+        "method": "pypi",
+        "runId": "2026-08-15T16-56-29Z-decde8",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_context",
+          "get_context",
+          "update_context",
+          "upload_extension",
+          "get_extension",
+          "delete_extension",
+          "list_projects",
+          "get_project",
+          "get_project_usage",
+          "list_sessions",
+          "create_session",
+          "get_session",
+          "release_session",
+          "get_session_debug_urls",
+          "list_session_downloads",
+          "get_session_logs",
+          "get_session_recording",
+          "upload_session_file"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:28.268Z",
         "method": "pypi",
         "runId": "2026-08-15T04-06-28Z-bd83fc",
@@ -58,6 +85,33 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:29.989Z",
+        "method": "pypi",
+        "runId": "2026-08-15T16-56-29Z-c88e00",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_context",
+          "get_context",
+          "update_context",
+          "upload_extension",
+          "get_extension",
+          "delete_extension",
+          "list_projects",
+          "get_project",
+          "get_project_usage",
+          "list_sessions",
+          "create_session",
+          "get_session",
+          "release_session",
+          "get_session_debug_urls",
+          "list_session_downloads",
+          "get_session_logs",
+          "get_session_recording",
+          "upload_session_file"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:32.275Z",
         "method": "pypi",
         "runId": "2026-08-15T04-06-32Z-64cc50",
@@ -113,6 +167,33 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:52.007Z",
+        "method": "pypi",
+        "runId": "2026-08-15T16-56-52Z-7469c8",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_context",
+          "get_context",
+          "update_context",
+          "upload_extension",
+          "get_extension",
+          "delete_extension",
+          "list_projects",
+          "get_project",
+          "get_project_usage",
+          "list_sessions",
+          "create_session",
+          "get_session",
+          "release_session",
+          "get_session_debug_urls",
+          "list_session_downloads",
+          "get_session_logs",
+          "get_session_recording",
+          "upload_session_file"
+        ]
+      },
       {
         "date": "2026-08-15T04:06:54.151Z",
         "method": "pypi",

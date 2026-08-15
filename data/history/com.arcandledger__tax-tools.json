@@ -2,6 +2,28 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:29.657Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-29Z-decde8",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "decode_irs_notice",
+          "check_resolution_options",
+          "estimate_irs_penalty",
+          "explain_tax_document",
+          "deadline_calendar",
+          "check_fbar_fatca",
+          "check_treaty_withholding",
+          "check_itin_eligibility",
+          "check_5472_obligation",
+          "estimate_quarterly_taxes",
+          "estimate_accountable_plan",
+          "estimate_augusta_rule",
+          "estimate_rental_income"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:18.684Z",
         "method": "remote-http",
         "runId": "2026-08-15T01-49-18Z-a30774",
@@ -26,6 +48,28 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:29.989Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-29Z-c88e00",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "decode_irs_notice",
+          "check_resolution_options",
+          "estimate_irs_penalty",
+          "explain_tax_document",
+          "deadline_calendar",
+          "check_fbar_fatca",
+          "check_treaty_withholding",
+          "check_itin_eligibility",
+          "check_5472_obligation",
+          "estimate_quarterly_taxes",
+          "estimate_accountable_plan",
+          "estimate_augusta_rule",
+          "estimate_rental_income"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:20.605Z",
         "method": "remote-http",
         "runId": "2026-08-15T01-49-20Z-b188f1",
@@ -49,6 +93,28 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:52.007Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-52Z-7469c8",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "decode_irs_notice",
+          "check_resolution_options",
+          "estimate_irs_penalty",
+          "explain_tax_document",
+          "deadline_calendar",
+          "check_fbar_fatca",
+          "check_treaty_withholding",
+          "check_itin_eligibility",
+          "check_5472_obligation",
+          "estimate_quarterly_taxes",
+          "estimate_accountable_plan",
+          "estimate_augusta_rule",
+          "estimate_rental_income"
+        ]
+      },
       {
         "date": "2026-08-15T01:49:39.142Z",
         "method": "remote-http",

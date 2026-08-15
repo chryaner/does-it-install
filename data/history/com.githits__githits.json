@@ -2,6 +2,31 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:29.657Z",
+        "installMs": 8722,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-29Z-decde8",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "get_example",
+          "search_language",
+          "feedback",
+          "search",
+          "search_status",
+          "code_files",
+          "code_read",
+          "code_grep",
+          "docs_list",
+          "docs_read",
+          "pkg_info",
+          "pkg_vulns",
+          "pkg_deps",
+          "pkg_changelog",
+          "pkg_upgrade_review"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:28.268Z",
         "method": "npm",
         "runId": "2026-08-15T04-06-28Z-bd83fc",
@@ -52,6 +77,31 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:29.989Z",
+        "installMs": 5517,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-29Z-c88e00",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "get_example",
+          "search_language",
+          "feedback",
+          "search",
+          "search_status",
+          "code_files",
+          "code_read",
+          "code_grep",
+          "docs_list",
+          "docs_read",
+          "pkg_info",
+          "pkg_vulns",
+          "pkg_deps",
+          "pkg_changelog",
+          "pkg_upgrade_review"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:32.275Z",
         "method": "npm",
         "runId": "2026-08-15T04-06-32Z-64cc50",
@@ -101,6 +151,31 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:52.007Z",
+        "installMs": 85244,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-52Z-7469c8",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "get_example",
+          "search_language",
+          "feedback",
+          "search",
+          "search_status",
+          "code_files",
+          "code_read",
+          "code_grep",
+          "docs_list",
+          "docs_read",
+          "pkg_info",
+          "pkg_vulns",
+          "pkg_deps",
+          "pkg_changelog",
+          "pkg_upgrade_review"
+        ]
+      },
       {
         "date": "2026-08-15T04:06:54.151Z",
         "method": "npm",

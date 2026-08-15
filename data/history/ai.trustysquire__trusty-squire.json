@@ -2,6 +2,32 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:30.932Z",
+        "installMs": 11505,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-30Z-d2d89f",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "list_credentials",
+          "store_credential",
+          "use_credential",
+          "grant_app_access",
+          "list_app_access",
+          "revoke_app_access",
+          "audit_log",
+          "list_payment_cards",
+          "operate_pay",
+          "operate_payment_status",
+          "operate_start",
+          "operate_observe",
+          "operate_act",
+          "operate_recipe_save",
+          "operate_recipe_run",
+          "operate_finish"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:17.022Z",
         "method": "npm",
         "runId": "2026-08-15T01-49-17Z-8b8e8b",
@@ -80,6 +106,32 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:35.852Z",
+        "installMs": 10591,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-35Z-b0ddff",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "list_credentials",
+          "store_credential",
+          "use_credential",
+          "grant_app_access",
+          "list_app_access",
+          "revoke_app_access",
+          "audit_log",
+          "list_payment_cards",
+          "operate_pay",
+          "operate_payment_status",
+          "operate_start",
+          "operate_observe",
+          "operate_act",
+          "operate_recipe_save",
+          "operate_recipe_run",
+          "operate_finish"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:20.415Z",
         "method": "npm",
         "runId": "2026-08-15T01-49-20Z-238791",
@@ -157,6 +209,32 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:52.061Z",
+        "installMs": 217961,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-52Z-c04f43",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "list_credentials",
+          "store_credential",
+          "use_credential",
+          "grant_app_access",
+          "list_app_access",
+          "revoke_app_access",
+          "audit_log",
+          "list_payment_cards",
+          "operate_pay",
+          "operate_payment_status",
+          "operate_start",
+          "operate_observe",
+          "operate_act",
+          "operate_recipe_save",
+          "operate_recipe_run",
+          "operate_finish"
+        ]
+      },
       {
         "date": "2026-08-15T01:50:04.636Z",
         "method": "npm",

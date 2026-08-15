@@ -2,6 +2,31 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:30.424Z",
+        "installMs": 11458,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-30Z-74a61d",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "balance",
+          "usdc_balance",
+          "block_number",
+          "get_tx_receipt",
+          "call",
+          "recent_transfers",
+          "verify_x402_settlement",
+          "parse_x402_manifest",
+          "usdc_recent_payments_to",
+          "probe_x402_endpoint",
+          "decode_x402_payment_payload",
+          "verify_afta_federation",
+          "tf_payment_lookup",
+          "x402_publisher_health",
+          "afta_federation_members"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:18.684Z",
         "method": "npm",
         "runId": "2026-08-15T01-49-18Z-a30774",
@@ -52,6 +77,31 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:31.954Z",
+        "installMs": 11507,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-31Z-197d91",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "balance",
+          "usdc_balance",
+          "block_number",
+          "get_tx_receipt",
+          "call",
+          "recent_transfers",
+          "verify_x402_settlement",
+          "parse_x402_manifest",
+          "usdc_recent_payments_to",
+          "probe_x402_endpoint",
+          "decode_x402_payment_payload",
+          "verify_afta_federation",
+          "tf_payment_lookup",
+          "x402_publisher_health",
+          "afta_federation_members"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:20.605Z",
         "method": "npm",
         "runId": "2026-08-15T01-49-20Z-b188f1",
@@ -101,6 +151,31 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:50.470Z",
+        "installMs": 134601,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-50Z-656db4",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "balance",
+          "usdc_balance",
+          "block_number",
+          "get_tx_receipt",
+          "call",
+          "recent_transfers",
+          "verify_x402_settlement",
+          "parse_x402_manifest",
+          "usdc_recent_payments_to",
+          "probe_x402_endpoint",
+          "decode_x402_payment_payload",
+          "verify_afta_federation",
+          "tf_payment_lookup",
+          "x402_publisher_health",
+          "afta_federation_members"
+        ]
+      },
       {
         "date": "2026-08-15T01:49:39.142Z",
         "errorExcerpt": "npm install @tensorfeed/x402-base-mcp@0.2.1 timed out after 600s",

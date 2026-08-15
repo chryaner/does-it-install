@@ -2,6 +2,33 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:29.657Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-29Z-decde8",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "dcl_evaluate_fast",
+          "dcl_evaluate_strict",
+          "dcl_evaluate_jailbreak",
+          "dcl_evaluate_safety",
+          "dcl_evaluate_quality",
+          "dcl_evaluate_secrets",
+          "dcl_evaluate_pii",
+          "dcl_evaluate_batch",
+          "dcl_pipeline_start",
+          "dcl_audit_decode",
+          "dcl_audit_decode_deep",
+          "dcl_evaluate_jailbreak_crypto",
+          "dcl_evaluate_wallet",
+          "dcl_evaluate_trade",
+          "dcl_evaluate_mev",
+          "dcl_evaluate_signal",
+          "dcl_evaluate_output_sanitizer",
+          "dcl_commit"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:18.419Z",
         "method": "remote-http",
         "runId": "2026-08-15T01-49-18Z-df0f6c",
@@ -31,6 +58,33 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:29.989Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-29Z-c88e00",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "dcl_evaluate_fast",
+          "dcl_evaluate_strict",
+          "dcl_evaluate_jailbreak",
+          "dcl_evaluate_safety",
+          "dcl_evaluate_quality",
+          "dcl_evaluate_secrets",
+          "dcl_evaluate_pii",
+          "dcl_evaluate_batch",
+          "dcl_pipeline_start",
+          "dcl_audit_decode",
+          "dcl_audit_decode_deep",
+          "dcl_evaluate_jailbreak_crypto",
+          "dcl_evaluate_wallet",
+          "dcl_evaluate_trade",
+          "dcl_evaluate_mev",
+          "dcl_evaluate_signal",
+          "dcl_evaluate_output_sanitizer",
+          "dcl_commit"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:21.179Z",
         "method": "remote-http",
         "runId": "2026-08-15T01-49-21Z-2de383",
@@ -59,6 +113,33 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:52.007Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-52Z-7469c8",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "dcl_evaluate_fast",
+          "dcl_evaluate_strict",
+          "dcl_evaluate_jailbreak",
+          "dcl_evaluate_safety",
+          "dcl_evaluate_quality",
+          "dcl_evaluate_secrets",
+          "dcl_evaluate_pii",
+          "dcl_evaluate_batch",
+          "dcl_pipeline_start",
+          "dcl_audit_decode",
+          "dcl_audit_decode_deep",
+          "dcl_evaluate_jailbreak_crypto",
+          "dcl_evaluate_wallet",
+          "dcl_evaluate_trade",
+          "dcl_evaluate_mev",
+          "dcl_evaluate_signal",
+          "dcl_evaluate_output_sanitizer",
+          "dcl_commit"
+        ]
+      },
       {
         "date": "2026-08-15T01:49:32.941Z",
         "method": "remote-http",

@@ -2,6 +2,29 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:29.657Z",
+        "method": "pypi",
+        "runId": "2026-08-15T16-56-29Z-decde8",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "list_sending_domains",
+          "create_sending_domain",
+          "get_sending_domain",
+          "delete_sending_domain",
+          "send_sending_domain_setup_instructions",
+          "list_suppressions",
+          "delete_suppression",
+          "get_account_sending_stats",
+          "get_account_sending_stats_by_domains",
+          "get_sending_stats_by_categories",
+          "get_account_sending_stats_by_email_service_providers",
+          "get_account_sending_stats_by_date",
+          "list_email_logs",
+          "get_email_log_message"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:28.268Z",
         "method": "pypi",
         "runId": "2026-08-15T04-06-28Z-bd83fc",
@@ -50,6 +73,29 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:29.989Z",
+        "method": "pypi",
+        "runId": "2026-08-15T16-56-29Z-c88e00",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "list_sending_domains",
+          "create_sending_domain",
+          "get_sending_domain",
+          "delete_sending_domain",
+          "send_sending_domain_setup_instructions",
+          "list_suppressions",
+          "delete_suppression",
+          "get_account_sending_stats",
+          "get_account_sending_stats_by_domains",
+          "get_sending_stats_by_categories",
+          "get_account_sending_stats_by_email_service_providers",
+          "get_account_sending_stats_by_date",
+          "list_email_logs",
+          "get_email_log_message"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:32.275Z",
         "method": "pypi",
         "runId": "2026-08-15T04-06-32Z-64cc50",
@@ -97,6 +143,29 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:52.007Z",
+        "method": "pypi",
+        "runId": "2026-08-15T16-56-52Z-7469c8",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "list_sending_domains",
+          "create_sending_domain",
+          "get_sending_domain",
+          "delete_sending_domain",
+          "send_sending_domain_setup_instructions",
+          "list_suppressions",
+          "delete_suppression",
+          "get_account_sending_stats",
+          "get_account_sending_stats_by_domains",
+          "get_sending_stats_by_categories",
+          "get_account_sending_stats_by_email_service_providers",
+          "get_account_sending_stats_by_date",
+          "list_email_logs",
+          "get_email_log_message"
+        ]
+      },
       {
         "date": "2026-08-15T04:06:54.151Z",
         "method": "pypi",

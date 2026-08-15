@@ -2,6 +2,32 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:30.932Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-30Z-d2d89f",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "tool_catalog",
+          "use_tool",
+          "task_recipes",
+          "memory_snippet",
+          "pricing",
+          "fetch_extract",
+          "fetch_html",
+          "html_to_markdown",
+          "fetch_metadata",
+          "pdf_text_extract",
+          "csv_query",
+          "json_query",
+          "sitemap_parse",
+          "rss_parse",
+          "screenshot_url",
+          "keyword_research",
+          "remove_background"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:18.419Z",
         "method": "remote-http",
         "runId": "2026-08-15T01-49-18Z-df0f6c",
@@ -30,6 +56,32 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:35.852Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-35Z-b0ddff",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "tool_catalog",
+          "use_tool",
+          "task_recipes",
+          "memory_snippet",
+          "pricing",
+          "fetch_extract",
+          "fetch_html",
+          "html_to_markdown",
+          "fetch_metadata",
+          "pdf_text_extract",
+          "csv_query",
+          "json_query",
+          "sitemap_parse",
+          "rss_parse",
+          "screenshot_url",
+          "keyword_research",
+          "remove_background"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:21.179Z",
         "method": "remote-http",
         "runId": "2026-08-15T01-49-21Z-2de383",
@@ -57,6 +109,32 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:52.061Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-52Z-c04f43",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "tool_catalog",
+          "use_tool",
+          "task_recipes",
+          "memory_snippet",
+          "pricing",
+          "fetch_extract",
+          "fetch_html",
+          "html_to_markdown",
+          "fetch_metadata",
+          "pdf_text_extract",
+          "csv_query",
+          "json_query",
+          "sitemap_parse",
+          "rss_parse",
+          "screenshot_url",
+          "keyword_research",
+          "remove_background"
+        ]
+      },
       {
         "date": "2026-08-15T01:49:32.941Z",
         "method": "remote-http",

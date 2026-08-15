@@ -2,6 +2,36 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:29.657Z",
+        "installMs": 4865,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-29Z-decde8",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "get_relevant_context",
+          "check_active_intent",
+          "create_and_activate_intent",
+          "activate_intent",
+          "resume_intent",
+          "get_intents_for_file",
+          "list_team_intents",
+          "complete_intent",
+          "update_intent",
+          "log_work",
+          "record_decision",
+          "get_session_decisions",
+          "get_project_decisions",
+          "get_decision_detail",
+          "edit_session_decision",
+          "detect_intent_conflicts",
+          "infer_history",
+          "get_resolution_context",
+          "arbiter_resolve",
+          "arbiter_apply"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:18.419Z",
         "method": "npm",
         "runId": "2026-08-15T01-49-18Z-df0f6c",
@@ -64,6 +94,36 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:29.989Z",
+        "installMs": 3951,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-29Z-c88e00",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "get_relevant_context",
+          "check_active_intent",
+          "create_and_activate_intent",
+          "activate_intent",
+          "resume_intent",
+          "get_intents_for_file",
+          "list_team_intents",
+          "complete_intent",
+          "update_intent",
+          "log_work",
+          "record_decision",
+          "get_session_decisions",
+          "get_project_decisions",
+          "get_decision_detail",
+          "edit_session_decision",
+          "detect_intent_conflicts",
+          "infer_history",
+          "get_resolution_context",
+          "arbiter_resolve",
+          "arbiter_apply"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:21.179Z",
         "method": "npm",
         "runId": "2026-08-15T01-49-21Z-2de383",
@@ -125,6 +185,36 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:52.007Z",
+        "installMs": 105250,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-52Z-7469c8",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "get_relevant_context",
+          "check_active_intent",
+          "create_and_activate_intent",
+          "activate_intent",
+          "resume_intent",
+          "get_intents_for_file",
+          "list_team_intents",
+          "complete_intent",
+          "update_intent",
+          "log_work",
+          "record_decision",
+          "get_session_decisions",
+          "get_project_decisions",
+          "get_decision_detail",
+          "edit_session_decision",
+          "detect_intent_conflicts",
+          "infer_history",
+          "get_resolution_context",
+          "arbiter_resolve",
+          "arbiter_apply"
+        ]
+      },
       {
         "date": "2026-08-15T01:49:32.941Z",
         "method": "npm",

@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:30.424Z",
+        "errorExcerpt": "connect failed: SSE error: Non-200 status code (404)",
+        "method": "remote-sse",
+        "runId": "2026-08-15T16-56-30Z-74a61d",
+        "status": "connect_failed"
+      },
+      {
         "date": "2026-08-15T01:49:18.684Z",
         "errorExcerpt": "connect failed: SSE error: Non-200 status code (404)",
         "method": "remote-sse",
@@ -11,6 +18,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:31.954Z",
+        "errorExcerpt": "connect failed: SSE error: Non-200 status code (404)",
+        "method": "remote-sse",
+        "runId": "2026-08-15T16-56-31Z-197d91",
+        "status": "connect_failed"
+      },
+      {
         "date": "2026-08-15T01:49:20.605Z",
         "errorExcerpt": "connect failed: SSE error: Non-200 status code (404)",
         "method": "remote-sse",
@@ -19,6 +33,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:50.470Z",
+        "errorExcerpt": "connect failed: SSE error: Non-200 status code (404)",
+        "method": "remote-sse",
+        "runId": "2026-08-15T16-56-50Z-656db4",
+        "status": "connect_failed"
+      },
       {
         "date": "2026-08-15T01:49:39.142Z",
         "errorExcerpt": "connect failed: SSE error: Non-200 status code (404)",

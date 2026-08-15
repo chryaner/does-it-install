@@ -2,6 +2,31 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:30.932Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-30Z-d2d89f",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "what_can_you_do",
+          "redact_text",
+          "csv_to_qbo",
+          "check_resume",
+          "pdf_to_markdown",
+          "extract_tables",
+          "extract_statement",
+          "extract_invoices",
+          "pdf_add_page_numbers",
+          "fix_csv_encoding",
+          "transcribe_audio",
+          "convert_to_pdf",
+          "deep_research",
+          "check_job",
+          "translate_pdf",
+          "make_slides"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:18.684Z",
         "method": "remote-http",
         "runId": "2026-08-15T01-49-18Z-a30774",
@@ -28,6 +53,31 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:35.852Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-35Z-b0ddff",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "what_can_you_do",
+          "redact_text",
+          "csv_to_qbo",
+          "check_resume",
+          "pdf_to_markdown",
+          "extract_tables",
+          "extract_statement",
+          "extract_invoices",
+          "pdf_add_page_numbers",
+          "fix_csv_encoding",
+          "transcribe_audio",
+          "convert_to_pdf",
+          "deep_research",
+          "check_job",
+          "translate_pdf",
+          "make_slides"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:20.605Z",
         "method": "remote-http",
         "runId": "2026-08-15T01-49-20Z-b188f1",
@@ -53,6 +103,31 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:52.061Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-52Z-c04f43",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "what_can_you_do",
+          "redact_text",
+          "csv_to_qbo",
+          "check_resume",
+          "pdf_to_markdown",
+          "extract_tables",
+          "extract_statement",
+          "extract_invoices",
+          "pdf_add_page_numbers",
+          "fix_csv_encoding",
+          "transcribe_audio",
+          "convert_to_pdf",
+          "deep_research",
+          "check_job",
+          "translate_pdf",
+          "make_slides"
+        ]
+      },
       {
         "date": "2026-08-15T01:49:39.142Z",
         "method": "remote-http",

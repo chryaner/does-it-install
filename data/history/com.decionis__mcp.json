@@ -1,0 +1,51 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T16:56:29.657Z",
+        "installMs": 3501,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-29Z-decde8",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "decionis_read_policy",
+          "decionis_evaluate",
+          "decionis_verdict_help"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T16:56:29.989Z",
+        "installMs": 3009,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-29Z-c88e00",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "decionis_read_policy",
+          "decionis_evaluate",
+          "decionis_verdict_help"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T16:56:52.007Z",
+        "installMs": 120190,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-52Z-7469c8",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "decionis_read_policy",
+          "decionis_evaluate",
+          "decionis_verdict_help"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.decionis/mcp",
+  "slug": "com.decionis__mcp"
+}

@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:29.657Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nFatal error: Error: Agent identity is not fully configured. Run `agenttrust-mcp init` or set AGENTTRUST_SLUG and AGENTTRUST_AGENT_ID.\n    at makeError (file:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-OGQjvE/node_modules/@agenttrust/mcp-server/dist/index.js:24:12)\n    at ensureConfigReady (file:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-OGQjvE/node_modules/@agenttrust/mcp-server/dist/index.js:986:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async runStdioServer (file:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-OGQjvE/node_modules/@agenttrust/mcp-server/dist/index.js:991:5)\n    at async main (file:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-OGQjvE/node_modules/@agenttrust/mcp-server/dist/index.js:1072:5)",
+        "installMs": 4730,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-29Z-decde8",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T01:49:18.419Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nFatal error: Error: Agent identity is not fully configured. Run `agenttrust-mcp init` or set AGENTTRUST_SLUG and AGENTTRUST_AGENT_ID.\n    at makeError (file:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-csXYZ3/node_modules/@agenttrust/mcp-server/dist/index.js:24:12)\n    at ensureConfigReady (file:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-csXYZ3/node_modules/@agenttrust/mcp-server/dist/index.js:986:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async runStdioServer (file:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-csXYZ3/node_modules/@agenttrust/mcp-server/dist/index.js:991:5)\n    at async main (file:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-csXYZ3/node_modules/@agenttrust/mcp-server/dist/index.js:1072:5)",
         "method": "npm",
@@ -25,6 +33,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:29.989Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nFatal error: Error: Agent identity is not fully configured. Run `agenttrust-mcp init` or set AGENTTRUST_SLUG and AGENTTRUST_AGENT_ID.\n    at makeError (file:///tmp/does-it-install/dii-npm-V2Nzop/node_modules/@agenttrust/mcp-server/dist/index.js:24:12)\n    at ensureConfigReady (file:///tmp/does-it-install/dii-npm-V2Nzop/node_modules/@agenttrust/mcp-server/dist/index.js:986:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async runStdioServer (file:///tmp/does-it-install/dii-npm-V2Nzop/node_modules/@agenttrust/mcp-server/dist/index.js:991:5)\n    at async main (file:///tmp/does-it-install/dii-npm-V2Nzop/node_modules/@agenttrust/mcp-server/dist/index.js:1072:5)",
+        "installMs": 4465,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-29Z-c88e00",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T01:49:21.179Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nFatal error: Error: Agent identity is not fully configured. Run `agenttrust-mcp init` or set AGENTTRUST_SLUG and AGENTTRUST_AGENT_ID.\n    at makeError (file:///tmp/does-it-install/dii-npm-8va8qE/node_modules/@agenttrust/mcp-server/dist/index.js:24:12)\n    at ensureConfigReady (file:///tmp/does-it-install/dii-npm-8va8qE/node_modules/@agenttrust/mcp-server/dist/index.js:986:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async runStdioServer (file:///tmp/does-it-install/dii-npm-8va8qE/node_modules/@agenttrust/mcp-server/dist/index.js:991:5)\n    at async main (file:///tmp/does-it-install/dii-npm-8va8qE/node_modules/@agenttrust/mcp-server/dist/index.js:1072:5)",
         "method": "npm",
@@ -47,6 +63,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:52.007Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nFatal error: Error: Agent identity is not fully configured. Run `agenttrust-mcp init` or set AGENTTRUST_SLUG and AGENTTRUST_AGENT_ID.\n    at makeError (file:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-Ac96YU/node_modules/@agenttrust/mcp-server/dist/index.js:24:12)\n    at ensureConfigReady (file:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-Ac96YU/node_modules/@agenttrust/mcp-server/dist/index.js:986:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async runStdioServer (file:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-Ac96YU/node_modules/@agenttrust/mcp-server/dist/index.js:991:5)\n    at async main (file:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-Ac96YU/node_modules/@agenttrust/mcp-server/dist/index.js:1072:5)",
+        "installMs": 128010,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-52Z-7469c8",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-15T01:49:32.941Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nFatal error: Error: Agent identity is not fully configured. Run `agenttrust-mcp init` or set AGENTTRUST_SLUG and AGENTTRUST_AGENT_ID.\n    at makeError (file:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-Js8mac/node_modules/@agenttrust/mcp-server/dist/index.js:24:12)\n    at ensureConfigReady (file:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-Js8mac/node_modules/@agenttrust/mcp-server/dist/index.js:986:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async runStdioServer (file:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-Js8mac/node_modules/@agenttrust/mcp-server/dist/index.js:991:5)\n    at async main (file:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-Js8mac/node_modules/@agenttrust/mcp-server/dist/index.js:1072:5)",

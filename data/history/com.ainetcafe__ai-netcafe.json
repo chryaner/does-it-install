@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:30.932Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: JSON\nUnexpected token 'p', \"  npx ai-netc\"... is not valid JSON\nUnexpected token 'p', \"  npx ai-netc\"... is not valid JSON\nUnexpected token 'p', \"  npx ai-netc\"... is not valid JSON\nUnexpected token 'p', \"  npx ai-netc\"... is not valid JSON\nUnexpected token 'p', \"  npx ai-netc\"... is not valid JSON\nUnexpected token 'p', \"  npx ai-netc\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'S', \"Set ALLROU\"... is not valid JSON\nUnexpected token 'D', \"Docs: http\"... is not valid JSON",
+        "installMs": 457,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-30Z-d2d89f",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-15T01:49:18.684Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: JSON\nUnexpected token 'p', \"  npx ai-netc\"... is not valid JSON\nUnexpected token 'p', \"  npx ai-netc\"... is not valid JSON\nUnexpected token 'p', \"  npx ai-netc\"... is not valid JSON\nUnexpected token 'p', \"  npx ai-netc\"... is not valid JSON\nUnexpected token 'p', \"  npx ai-netc\"... is not valid JSON\nUnexpected token 'p', \"  npx ai-netc\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'S', \"Set ALLROU\"... is not valid JSON\nUnexpected token 'D', \"Docs: http\"... is not valid JSON",
         "method": "npm",
@@ -11,6 +19,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:35.852Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: JSON\nUnexpected token 'p', \"  npx ai-netc\"... is not valid JSON\nUnexpected token 'p', \"  npx ai-netc\"... is not valid JSON\nUnexpected token 'p', \"  npx ai-netc\"... is not valid JSON\nUnexpected token 'p', \"  npx ai-netc\"... is not valid JSON\nUnexpected token 'p', \"  npx ai-netc\"... is not valid JSON\nUnexpected token 'p', \"  npx ai-netc\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'S', \"Set ALLROU\"... is not valid JSON\nUnexpected token 'D', \"Docs: http\"... is not valid JSON",
+        "installMs": 459,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-35Z-b0ddff",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-15T01:49:20.605Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: JSON\nUnexpected token 'p', \"  npx ai-netc\"... is not valid JSON\nUnexpected token 'p', \"  npx ai-netc\"... is not valid JSON\nUnexpected token 'p', \"  npx ai-netc\"... is not valid JSON\nUnexpected token 'p', \"  npx ai-netc\"... is not valid JSON\nUnexpected token 'p', \"  npx ai-netc\"... is not valid JSON\nUnexpected token 'p', \"  npx ai-netc\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'S', \"Set ALLROU\"... is not valid JSON\nUnexpected token 'D', \"Docs: http\"... is not valid JSON",
         "method": "npm",
@@ -19,6 +35,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:52.061Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: JSON\nUnexpected token 'p', \"  npx ai-netc\"... is not valid JSON\nUnexpected token 'p', \"  npx ai-netc\"... is not valid JSON\nUnexpected token 'p', \"  npx ai-netc\"... is not valid JSON\nUnexpected token 'p', \"  npx ai-netc\"... is not valid JSON\nUnexpected token 'p', \"  npx ai-netc\"... is not valid JSON\nUnexpected token 'p', \"  npx ai-netc\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'S', \"Set ALLROU\"... is not valid JSON\nUnexpected token 'D', \"Docs: http\"... is not valid JSON",
+        "installMs": 2371,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-52Z-c04f43",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-15T01:49:39.142Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: JSON\nUnexpected token 'p', \"  npx ai-netc\"... is not valid JSON\nUnexpected token 'p', \"  npx ai-netc\"... is not valid JSON\nUnexpected token 'p', \"  npx ai-netc\"... is not valid JSON\nUnexpected token 'p', \"  npx ai-netc\"... is not valid JSON\nUnexpected token 'p', \"  npx ai-netc\"... is not valid JSON\nUnexpected token 'p', \"  npx ai-netc\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'S', \"Set ALLROU\"... is not valid JSON\nUnexpected token 'D', \"Docs: http\"... is not valid JSON",

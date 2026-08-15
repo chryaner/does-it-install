@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:30.424Z",
+        "errorExcerpt": "handshake failed: Streamable HTTP error: Error POSTing to endpoint: {\"error\":{\"code\":\"403\",\"message\":\"Forbidden\",\"id\":\"sfo1::rdtg8-1786813186515-878d6e21eb35\"}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-30Z-74a61d",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T01:49:17.022Z",
         "errorExcerpt": "handshake failed: Streamable HTTP error: Error POSTing to endpoint: {\"error\":{\"code\":\"403\",\"message\":\"Forbidden\",\"id\":\"iad1::rkdj4-1786758806790-bdc21a0240d9\"}} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -25,6 +32,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:31.954Z",
+        "errorExcerpt": "handshake failed: Streamable HTTP error: Error POSTing to endpoint: {\"error\":{\"code\":\"403\",\"message\":\"Forbidden\",\"id\":\"pdx1::8h8cm-1786813186206-7498f9954c5d\"}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-31Z-197d91",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T01:49:20.415Z",
         "errorExcerpt": "handshake failed: Streamable HTTP error: Error POSTing to endpoint: {\"error\":{\"code\":\"403\",\"message\":\"Forbidden\",\"id\":\"iad1::n5w8d-1786758733328-30b22f01229d\"}} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -47,6 +61,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:50.470Z",
+        "errorExcerpt": "handshake failed: Streamable HTTP error: Error POSTing to endpoint: {\"error\":{\"code\":\"403\",\"message\":\"Forbidden\",\"id\":\"cle1::ssf7m-1786816213074-d8d5a430a9d3\"}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-50Z-656db4",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-15T01:50:04.636Z",
         "errorExcerpt": "handshake failed: Streamable HTTP error: Error POSTing to endpoint: {\"error\":{\"code\":\"403\",\"message\":\"Forbidden\",\"id\":\"sfo1::tfxpb-1786762227707-291fb7c3ee0c\"}} (endpoint reachable but requires credentials the harness does not send)",

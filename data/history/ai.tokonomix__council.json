@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:29.657Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[tokonomix-council-mcp] No TOKONOMIX_API_KEY set and no credentials file found.\n[tokonomix-council-mcp] Call tokonomix_onboard to create a free account and get a key.",
+        "installMs": 8345,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-29Z-decde8",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-15T01:49:18.419Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[tokonomix-council-mcp] No TOKONOMIX_API_KEY set and no credentials file found.\n[tokonomix-council-mcp] Call tokonomix_onboard to create a free account and get a key.",
         "method": "npm",
@@ -17,6 +25,27 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-08-15T16:56:29.989Z",
+        "installMs": 4883,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-29Z-c88e00",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "tokonomix_consensus_ask",
+          "tokonomix_single_ask",
+          "tokonomix_list_models",
+          "tokonomix_get_balance",
+          "tokonomix_skill_version",
+          "tokonomix_get_skill",
+          "tokonomix_onboard",
+          "tokonomix_onboard_verify",
+          "tokonomix_rate_consensus",
+          "tokonomix_relay_human_feedback",
+          "tokonomix_upload"
+        ]
+      },
       {
         "date": "2026-08-15T01:49:21.179Z",
         "method": "npm",
@@ -59,6 +88,27 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:52.007Z",
+        "installMs": 88472,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-52Z-7469c8",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "tokonomix_consensus_ask",
+          "tokonomix_single_ask",
+          "tokonomix_list_models",
+          "tokonomix_get_balance",
+          "tokonomix_skill_version",
+          "tokonomix_get_skill",
+          "tokonomix_onboard",
+          "tokonomix_onboard_verify",
+          "tokonomix_rate_consensus",
+          "tokonomix_relay_human_feedback",
+          "tokonomix_upload"
+        ]
+      },
       {
         "date": "2026-08-15T01:49:32.941Z",
         "method": "npm",
