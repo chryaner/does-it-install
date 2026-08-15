@@ -138,9 +138,14 @@ padding-top:16px;padding-bottom:16px;font-size:13px;color:var(--muted)}
 @media (max-width:600px){h1{font-size:23px}.count{flex-basis:110px}}
 `.trim();
 
-/** Full HTML5 document: masthead, `body` as the main content, footer. */
-export function layout(title: string, body: string, base: string): string {
+/**
+ * Full HTML5 document: masthead, `body` as the main content, footer.
+ * `description` feeds the meta description and OpenGraph tags, so search
+ * results and link previews show something better than a bare URL.
+ */
+export function layout(title: string, body: string, base: string, description: string): string {
   const root = escapeHtml(normalizeBase(base));
+  const summary = escapeHtml(description);
   return `<!doctype html>
 <html lang="en">
 <head>
@@ -148,6 +153,10 @@ export function layout(title: string, body: string, base: string): string {
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="color-scheme" content="light">
 <title>${escapeHtml(title)}</title>
+<meta name="description" content="${summary}">
+<meta property="og:title" content="${escapeHtml(title)}">
+<meta property="og:description" content="${summary}">
+<meta property="og:type" content="website">
 <style>${STYLES}</style>
 </head>
 <body>

@@ -83,7 +83,7 @@ describe('externalLink', () => {
 });
 
 describe('layout', () => {
-  const page = layout('Ada & <Bob>', '<p>body</p>', '/does-it-install');
+  const page = layout('Ada & <Bob>', '<p>body</p>', '/does-it-install', 'Desc & <check>');
 
   it('produces a complete HTML5 document with an escaped title', () => {
     expect(page.startsWith('<!doctype html>')).toBe(true);

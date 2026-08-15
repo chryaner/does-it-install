@@ -151,7 +151,7 @@ ${rows}
 <p class="legend">Status dots are ${PLATFORMS.map((platform) => escapeHtml(PLATFORM_LABELS[platform])).join(' &middot; ')}, in that order. Hover one for its result. A server counts as failing when its latest probe failed on any platform we tested.</p>
 <p class="legend">Site built ${escapeHtml(formatDateTime(options.generatedAt))}${catalog.generatedAt === '' ? '' : ` &middot; catalog generated ${escapeHtml(formatDateTime(catalog.generatedAt))}`}.</p>`;
 
-  return layout('does it install? · MCP server status', body, options.base);
+  return layout('does it install? · MCP server status', body, options.base, PITCH);
 }
 
 function countCard(value: number, label: string, tone?: Tone): string {
@@ -203,7 +203,12 @@ function serverPage(view: ServerView, options: ResolvedOptions): string {
     `<pre class="cmd"><code>${escapeHtml(badge)}</code></pre>`,
   ];
 
-  return layout(`${entry.title} · does it install?`, sections.filter(Boolean).join('\n'), options.base);
+  return layout(
+    `${entry.title} · does it install?`,
+    sections.filter(Boolean).join('\n'),
+    options.base,
+    `Install and MCP handshake test results for ${entry.title} on Linux, macOS and Windows, refreshed weekly with the actual error output.`,
+  );
 }
 
 /** Trailing " · Repository · Website · version 1.2.3 · listed from registry". */
@@ -341,7 +346,12 @@ function methodologyPage(options: ResolvedOptions): string {
 <p>Every result is reproducible from the command shown on the server page. If a result looks wrong, the error excerpt is the whole evidence we have, so file an issue on the project repository with it.</p>
 </div>`;
 
-  return layout('Methodology · does it install?', body, options.base);
+  return layout(
+    'Methodology · does it install?',
+    body,
+    options.base,
+    'How every MCP server is tested: probe phases, time budgets, the credential policy, and what each status does and does not mean.',
+  );
 }
 
 function notFoundPage(options: ResolvedOptions): string {
@@ -349,7 +359,7 @@ function notFoundPage(options: ResolvedOptions): string {
 <p class="pitch">No page here. The server you are looking for may never have been catalogued.</p>
 <p><a href="${href(options.base, '')}">Back to all servers</a></p>`;
 
-  return layout('404 · does it install?', body, options.base);
+  return layout('404 · does it install?', body, options.base, 'Page not found.');
 }
 
 // ------------------------------------------------------- sitemap, robots, feed
