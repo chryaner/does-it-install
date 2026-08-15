@@ -19,9 +19,11 @@ Two sources, merged into one list of `ServerEntry` records:
 1. **The official MCP registry**:
    `https://registry.modelcontextprotocol.io/v0/servers?version=latest`, read
    with cursor pagination (`metadata.nextCursor`), 100 items per page, a 15 s
-   budget per page and a hard stop at 100 pages so a bad cursor cannot loop
-   forever. Only the `version=latest` view is read: we probe the version a new
-   user would get, not the whole version history.
+   budget per page and a hard stop at 400 pages so a bad cursor cannot loop
+   forever. Every page is read on every build, because a ranking cannot pick
+   the most popular servers out of a prefix of the list. Only the
+   `version=latest` view is read: we probe the version a new user would get,
+   not the whole version history.
 2. **`data/seed.json`**: a small curated file of servers we always probe,
    including the official reference servers. Seed entries win on id collision,
    so a broken or unexpressive registry record can be corrected by hand.
@@ -36,19 +38,47 @@ A registry fetch failure never produces a quietly truncated catalog: the
 catalog stage fails loudly, and building from the seed alone requires asking
 for it with `--offline`.
 
-The weekly sweep does not build the whole registry. It passes `--limit 1000`,
-capping the merged list at 1000 entries: headroom over the 300 servers it
-probes, and small enough that `data/catalog.json` is a sane thing to commit
-every week and to render as one page per server. Running `npm run catalog`
-without `--limit` reads all 10,000+ entries, which is fine locally and is not
-what CI wants.
+The weekly sweep does not publish the whole registry. It passes `--limit 1000`,
+which keeps the 1000 highest ranked entries of the merged list: headroom over
+the 300 servers it probes, and small enough that `data/catalog.json` is a sane
+thing to commit every week and to render as one page per server. The cut
+happens after ranking, never during pagination, so `--limit` decides how much
+is published and not how much is read. Running `npm run catalog` without
+`--limit` keeps all 20,000+ entries, which is fine locally and is not what CI
+wants.
 
 ## 2. Ranking, top-N and sharding
 
-`rank` is assigned by the catalog builder: seed entries first, in the order the
-seed file gives them, then registry entries in registry order. **This is source
-order, not a popularity ranking**: the registry does not yet expose a usage
-signal we would trust.
+`rank` is assigned by the catalog builder, in three tiers:
+
+1. **Seed entries first**, in the order the seed file gives them. Curation
+   beats popularity here: the reference servers are the ones we most want
+   probed every week, whatever the rest of the world has starred.
+2. **Registry entries by GitHub stars**, most stars first. The count is fetched
+   at catalog build time from GitHub's GraphQL API, 100 repositories per query,
+   for the `repoUrl` each registry record carries.
+3. **Entries with no star count last**, in registry order. Ties in tier 2 keep
+   registry order as well, so ranks stay stable from one week to the next
+   (sharding depends on that; see below).
+
+The counts are published rather than hidden: the index has a `Stars` column and
+each server page repeats the number next to the version, so an ordering that
+looks wrong can be checked against the source.
+
+Fetching stars needs a GitHub token in `GITHUB_TOKEN` (the sweep workflow
+passes the Actions token). Without one, and for a lookup that fails, the
+catalog still builds: the affected entries simply have no count and the
+ranking degrades toward registry order.
+
+What this ranking is not:
+
+- **A star is a vote for a repository, not for a server.** A monorepo holding
+  forty servers gives all forty the same count, and a server that ships inside
+  a popular project inherits attention its own code never earned.
+- **Unstarred and repo-less servers rank last**, whatever they are worth. No
+  repository url, a repository hosted somewhere other than GitHub, and a
+  repository that has been renamed or deleted all land in the same bucket as a
+  genuinely ignored project.
 
 The sweep selects entries in this order:
 
@@ -210,11 +240,14 @@ entirely broken.
   checked" timestamp on each page is authoritative, not the badge color.
 - **One version per server**: whatever `version=latest` resolves to, or the
   version pinned in the catalog entry. Older releases are not probed.
-- **Ranking is source order, not popularity**, so `--top 300` means "the first
-  300 the sources listed", not "the 300 most used".
+- **Ranking is repository stars, not server usage**, so `--top 300` means "the
+  300 whose repositories are most starred", not "the 300 most used". Stars
+  measure the repo a server lives in, and servers with no star count (no repo,
+  not on GitHub, or no token when the catalog was built) rank last regardless
+  of quality.
 - **One network vantage point.** Remote endpoints are reached from
   GitHub-hosted runners; a server that geo-blocks or rate-limits CI address
   ranges will look worse here than it is for a normal user.
 - **Coverage is bounded.** The weekly catalog is capped at 1000 entries (the
-  seed, then the registry in registry order), and only the first 300 of those
+  seed, then the most starred of the registry), and only the top 300 of those
   are probed. That is not every MCP server in existence.

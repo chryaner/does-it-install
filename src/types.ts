@@ -72,6 +72,16 @@ export interface RemoteSpec {
   headers: EnvVarSpec[];
 }
 
+/**
+ * Popularity signals gathered at catalog build time. Absent when no signal
+ * could be fetched; fields are optional so new signals can be added without
+ * breaking the on-disk shape.
+ */
+export interface Popularity {
+  /** GitHub stargazer count of the repository behind repoUrl. */
+  stars?: number;
+}
+
 /** One MCP server in the catalog, normalized from whatever source listed it. */
 export interface ServerEntry {
   /** Canonical id, e.g. "io.github.owner/name" (registry) or seed id. */
@@ -89,6 +99,7 @@ export interface ServerEntry {
   source: 'registry' | 'seed';
   /** Lower rank = probed first when the sweep is capped with --top. */
   rank: number;
+  popularity?: Popularity;
   /** ISO timestamp the source last updated this entry, if known. */
   updatedAt?: string;
 }

@@ -75,6 +75,18 @@ export function normalizeRegistryItem(item: unknown): ServerEntry | null {
   }
 }
 
+/**
+ * The repository url of a raw registry item, read on its own.
+ *
+ * The catalog stage needs these before it builds anything, to look up star
+ * counts for the ranking, and normalizing 20k entries twice to get them would
+ * be silly. Must stay in step with the `repoUrl` {@link normalizeRegistryItem}
+ * assigns, since the lookup is keyed by that exact string.
+ */
+export function registryRepoUrl(item: unknown): string | undefined {
+  return httpUrl(prop(prop(prop(item, 'server'), 'repository'), 'url'));
+}
+
 function normalizePackages(raw: unknown): PackageSpec[] {
   const packages: PackageSpec[] = [];
   for (const candidate of asArray(raw)) {

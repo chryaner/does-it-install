@@ -17,8 +17,15 @@ function seedEntry(id: string, rank: number, overrides: Partial<ServerEntry> = {
   };
 }
 
-function registryItem(name: string): unknown {
-  return { server: { name } };
+function registryItem(name: string, repoUrl?: string): unknown {
+  return repoUrl === undefined
+    ? { server: { name } }
+    : { server: { name, repository: { url: repoUrl } } };
+}
+
+/** `https://github.com/acme/<name>`, the shape a registry record carries. */
+function repo(name: string): string {
+  return `https://github.com/acme/${name}`;
 }
 
 describe('buildCatalog', () => {
@@ -134,6 +141,92 @@ describe('buildCatalog', () => {
       const { catalog } = buildCatalog([registryItem('reg/one')], [seedEntry('seed/a', 1)], { limit });
       expect(catalog.servers).toHaveLength(2);
     }
+  });
+
+  it('orders registry entries by stars, most first', () => {
+    const { catalog } = buildCatalog(
+      [
+        registryItem('reg/small', repo('small')),
+        registryItem('reg/huge', repo('huge')),
+        registryItem('reg/mid', repo('mid')),
+      ],
+      [],
+      { stars: new Map([[repo('small'), 12], [repo('huge'), 9000], [repo('mid'), 400]]) },
+    );
+
+    expect(catalog.servers.map((s) => [s.id, s.rank])).toEqual([
+      ['reg/huge', 1],
+      ['reg/mid', 2],
+      ['reg/small', 3],
+    ]);
+  });
+
+  it('records the fetched count as popularity, and nothing when there is none', () => {
+    const { catalog } = buildCatalog(
+      [registryItem('reg/starred', repo('starred')), registryItem('reg/plain', repo('plain'))],
+      [seedEntry('seed/a', 1, { repoUrl: repo('seeded') })],
+      { stars: new Map([[repo('starred'), 1234], [repo('seeded'), 88]]) },
+    );
+
+    const byId = new Map(catalog.servers.map((s) => [s.id, s]));
+    expect(byId.get('reg/starred')?.popularity).toEqual({ stars: 1234 });
+    expect(byId.get('seed/a')?.popularity).toEqual({ stars: 88 });
+    expect(byId.get('reg/plain')?.popularity).toBeUndefined();
+  });
+
+  it('keeps unstarred registry entries after starred ones, in registry order', () => {
+    const { catalog } = buildCatalog(
+      [
+        registryItem('reg/no-repo'),
+        registryItem('reg/unknown', 'https://gitlab.example/acme/unknown'),
+        registryItem('reg/starred', repo('starred')),
+      ],
+      [],
+      { stars: new Map([[repo('starred'), 5]]) },
+    );
+
+    expect(catalog.servers.map((s) => s.id)).toEqual(['reg/starred', 'reg/no-repo', 'reg/unknown']);
+  });
+
+  it('breaks ties on registry order, so ranks are stable between builds', () => {
+    const { catalog } = buildCatalog(
+      [
+        registryItem('reg/first', repo('first')),
+        registryItem('reg/second', repo('second')),
+        registryItem('reg/third', repo('third')),
+      ],
+      [],
+      { stars: new Map([[repo('first'), 10], [repo('second'), 10], [repo('third'), 10]]) },
+    );
+
+    expect(catalog.servers.map((s) => s.id)).toEqual(['reg/first', 'reg/second', 'reg/third']);
+  });
+
+  it('keeps seed entries first however many stars the registry has', () => {
+    const { catalog } = buildCatalog(
+      [registryItem('reg/famous', repo('famous'))],
+      [seedEntry('seed/late', 10), seedEntry('seed/early', 2)],
+      { stars: new Map([[repo('famous'), 50_000]]) },
+    );
+
+    expect(catalog.servers.map((s) => [s.id, s.rank])).toEqual([
+      ['seed/early', 2],
+      ['seed/late', 10],
+      ['reg/famous', 11],
+    ]);
+  });
+
+  it('applies --limit to the ranked list, not to registry order', () => {
+    const { catalog } = buildCatalog(
+      [
+        registryItem('reg/first-listed', repo('first-listed')),
+        registryItem('reg/second-listed', repo('second-listed')),
+      ],
+      [],
+      { limit: 1, stars: new Map([[repo('second-listed'), 700]]) },
+    );
+
+    expect(catalog.servers.map((s) => s.id)).toEqual(['reg/second-listed']);
   });
 
   it('does not mutate the entries it was handed', () => {

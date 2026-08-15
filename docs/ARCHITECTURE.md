@@ -31,12 +31,19 @@ nothing else defines data shapes.
   runtimeArguments/packageArguments/environmentVariables`, `remotes[]`) into
   `ServerEntry`.
 - Merges `data/seed.json` (seed entries win on id collision).
-- Deduplicates by id, guarantees unique slugs, assigns `rank` (seed entries
-  first, then registry order). Registry popularity signals can refine this
-  later.
-- `--offline` builds from the seed file only. Registry fetch failures must not
-  produce a truncated catalog silently: fail loudly, or fall back to seed with
-  a clear warning.
+- Deduplicates by id, guarantees unique slugs, assigns `rank`: seed entries
+  first in seed order, then registry entries by GitHub stars descending, with
+  entries that have no count last in registry order (ties keep registry order,
+  so ranks are stable between builds and sharding does not reshuffle).
+- Stars come from the GraphQL API (`src/catalog/stars.ts`), 100 repos per
+  query, keyed on `repoUrl`, and land in `ServerEntry.popularity`. They need
+  `GITHUB_TOKEN`; without it, or for a batch that fails twice, the entry keeps
+  no count and the build carries on. Popularity is never fatal.
+- `--limit` cuts the ranked list at the end; pagination is never capped with
+  it, because ranking a prefix would rank an alphabetical sample.
+- `--offline` builds from the seed file only, with no registry and no star
+  lookup. Registry fetch failures must not produce a truncated catalog
+  silently: fail loudly, or fall back to seed with a clear warning.
 - CLI: `npm run catalog -- [--out data/catalog.json] [--offline] [--limit N]`
 
 ### sweep (`src/harness/`)
@@ -88,8 +95,9 @@ Embed URL: `https://img.shields.io/endpoint?url=<pages>/badge/<slug>.json`.
 
 ### site (`src/site/`)
 Static generator, no framework, inline CSS, output to `public/`:
-- `index.html`: status table (title, badge state per platform, tool count,
-  last checked), sorted working-first by rank; summary counts.
+- `index.html`: status table (title, badge state per platform, star count,
+  tool count, last checked), in rank order (stars descending, seeds first);
+  summary counts.
 - `s/<slug>.html`: per-server page with the install command, a green/red
   history strip per platform, latest error excerpt in a `<pre>` (HTML-escaped),
   tool names, badge markdown snippet, links to repo/site.
@@ -98,7 +106,8 @@ Static generator, no framework, inline CSS, output to `public/`:
 - `sitemap.xml` and `robots.txt`: index, methodology and every server page,
   with `lastmod` from the newest probe a server has.
 - `index.json`: the whole dataset (server identity, page URL, install method,
-  latest result per platform) for consumers who should not have to scrape HTML.
+  star count when known, latest result per platform) for consumers who should
+  not have to scrape HTML.
 - Everything self-contained: no external JS/CSS/fonts. Escape ALL
   interpolated strings, because server descriptions and stderr are untrusted
   input.
@@ -109,7 +118,8 @@ Static generator, no framework, inline CSS, output to `public/`:
 - `ci.yml` runs on PR/push: `npm ci`, typecheck, unit tests. Smoke job
   (linux): probes the three seed servers end-to-end and builds the site.
 - `sweep.yml` runs on a weekly cron plus manual dispatch with
-  `top`/`shard_total` inputs: catalog job, then probe matrix (`ubuntu-latest`,
+  `top`/`shard_total` inputs: catalog job (with `github.token` in the
+  environment, so the ranking gets star counts), then probe matrix (`ubuntu-latest`,
   `macos-latest`, `windows-latest` × shards) uploading run artifacts, then a
   merge job that downloads artifacts, merges history, commits `data/` back to
   the default branch, builds, and deploys `public/` to GitHub Pages.
@@ -124,5 +134,6 @@ Static generator, no framework, inline CSS, output to `public/`:
   seed servers, full probe, assert `pass` with tools found.
 
 ## v2 (explicitly out of scope now)
-Docker/OCI probes, Windows-specific install quirks pages, registry popularity
-ranking, per-host-app compatibility (Claude Desktop / Codex / Cline versions).
+Docker/OCI probes, Windows-specific install quirks pages, popularity signals
+beyond GitHub stars (npm downloads, registry usage), per-host-app compatibility
+(Claude Desktop / Codex / Cline versions).

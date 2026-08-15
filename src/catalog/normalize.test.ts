@@ -1,6 +1,6 @@
 import { readFileSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
-import { normalizeRegistryItem } from './normalize.js';
+import { normalizeRegistryItem, registryRepoUrl } from './normalize.js';
 
 /** One real `/v0/servers` page, trimmed, plus one hand-added malformed item. */
 const page = JSON.parse(
@@ -258,5 +258,30 @@ describe('normalizeRegistryItem', () => {
 
   it('falls back to a usable slug when the id normalizes to nothing', () => {
     expect(normalizeRegistryItem({ server: { name: '!!!' } })?.slug).toBe('server');
+  });
+});
+
+describe('registryRepoUrl', () => {
+  it('reads the same url normalization assigns, so star lookups key on it', () => {
+    const item = itemNamed('ai.agenttrust/mcp-server');
+    expect(registryRepoUrl(item)).toBe(normalizeRegistryItem(item)?.repoUrl);
+    expect(registryRepoUrl(item)).toMatch(/^https:\/\//);
+  });
+
+  it('reads a repository url without normalizing the rest of the item', () => {
+    expect(registryRepoUrl({ server: { repository: { url: 'https://github.com/a/b' } } })).toBe(
+      'https://github.com/a/b',
+    );
+  });
+
+  it.each([
+    [{ server: { name: 'a/b' } }],
+    [{ server: { repository: { url: 'javascript:alert(1)' } } }],
+    [{ server: { repository: 'https://github.com/a/b' } }],
+    [{ repository: { url: 'https://github.com/a/b' } }],
+    [null],
+    ['junk'],
+  ])('has nothing to read in %j', (item) => {
+    expect(registryRepoUrl(item)).toBeUndefined();
   });
 });

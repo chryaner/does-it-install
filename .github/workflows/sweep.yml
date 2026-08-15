@@ -58,13 +58,20 @@ jobs:
 
       - run: npm ci
 
-      # The registry serves 10,000+ entries; --limit 1000 keeps the weekly
+      # The registry serves 20,000+ entries; --limit 1000 keeps the weekly
       # catalog bounded. It leaves headroom over the 300 the sweep probes, so
       # `top` can grow without touching this job, and it is small enough that
       # data/catalog.json is a sane thing to commit every week and the site is
       # a sane number of pages to generate. Raise the cap deliberately, when
       # probe capacity grows to match it.
+      #
+      # The cut is by rank, and rank comes from GitHub stars, so the token is
+      # what makes --limit mean "the 1000 most popular" instead of "the first
+      # 1000 the registry listed". Without it the build still succeeds, with a
+      # warning and registry ordering.
       - name: build catalog
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
         run: npm run catalog -- --limit 1000
 
       - uses: actions/upload-artifact@v7

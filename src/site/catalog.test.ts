@@ -94,6 +94,30 @@ describe('parseCatalog', () => {
     });
   });
 
+  it('keeps a usable star count and drops anything else', () => {
+    const entries = [
+      { popularity: { stars: 1234 } },
+      { popularity: { stars: 12.6 } },
+      { popularity: { stars: -1 } },
+      { popularity: { stars: 'many' } },
+      { popularity: {} },
+      { popularity: 'lots' },
+      {},
+    ].map((extra, index) => ({ id: `x/y${String(index)}`, slug: `x__y${String(index)}`, ...extra }));
+
+    const catalog = parseCatalog({ servers: entries });
+
+    expect(catalog.servers.map((server) => server.popularity)).toEqual([
+      { stars: 1234 },
+      { stars: 13 },
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+    ]);
+  });
+
   it.each([
     [42, /must be an object/],
     [{}, /servers must be an array/],

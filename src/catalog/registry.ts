@@ -22,8 +22,13 @@ const DEFAULT_BASE_URL = `${REGISTRY_URL}&limit=${REGISTRY_PAGE_SIZE}`;
 /** Per-page request budget. */
 export const DEFAULT_PAGE_TIMEOUT_MS = 15_000;
 
-/** Hard stop, in case a bad cursor makes pagination cycle forever. */
-export const DEFAULT_MAX_PAGES = 100;
+/**
+ * Hard stop, in case a bad cursor makes pagination cycle forever. The registry
+ * currently holds 20k+ entries at 100 per page, and ranking by popularity has
+ * to see the whole list before it can pick the top of it, so this cap sits
+ * above the full read rather than at a page budget.
+ */
+export const DEFAULT_MAX_PAGES = 400;
 
 /** Minimal `fetch` surface this module needs; `globalThis.fetch` satisfies it. */
 export type FetchLike = (url: string, init?: { signal?: AbortSignal }) => Promise<Response>;

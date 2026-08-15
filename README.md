@@ -14,10 +14,11 @@ what happened, including the actual error text when it breaks, as a static
 site with per-server pages, green/red history strips, and shields.io badges
 maintainers can embed.
 
-Scope: the index covers the first few hundred servers the official MCP registry
-lists (registry order, which is roughly alphabetical, not a popularity
-ranking), plus a curated seed file, refreshed weekly. It is not every MCP
-server ever published, and a green badge means "installed and answered
+Scope: the index covers the most popular few hundred servers the official MCP
+registry lists (ranked by the GitHub stars of the repository behind each entry,
+so it measures the repo rather than the server, and entries without a star
+count rank last), plus a curated seed file, refreshed weekly. It is not every
+MCP server ever published, and a green badge means "installed and answered
 `tools/list` last Monday", not "good", "safe" or "maintained".
 [docs/METHODOLOGY.md](docs/METHODOLOGY.md) is precise about what each result
 does and does not claim.
@@ -114,9 +115,13 @@ of running the whole catalog, in a disposable environment, per the section
 above:
 
 ```sh
-npm run catalog
+GITHUB_TOKEN=<a token> npm run catalog
 npm run sweep -- --top 25 --methods npm --concurrency 4
 ```
+
+The token is only used to read star counts, which is what ranks the catalog.
+Without it the build still works and warns, and `--top 25` then means the first
+25 the registry listed rather than the 25 most starred.
 
 `npm run test:smoke` runs the real end-to-end probes against the seed servers
 (this does install packages from npm).

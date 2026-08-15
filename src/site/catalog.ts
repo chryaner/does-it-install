@@ -10,7 +10,14 @@
 
 import { readFile } from 'node:fs/promises';
 import { asArray, asBoolean, asString, isRecord } from '../catalog/json.js';
-import type { Catalog, EnvVarSpec, PackageSpec, RemoteSpec, ServerEntry } from '../types.js';
+import type {
+  Catalog,
+  EnvVarSpec,
+  PackageSpec,
+  Popularity,
+  RemoteSpec,
+  ServerEntry,
+} from '../types.js';
 
 /** Slugs become both a file name and a URL segment under `s/`. */
 const SLUG_PATTERN = /^[a-z0-9][a-z0-9._-]*$/i;
@@ -86,8 +93,21 @@ function parseEntry(value: unknown): ServerEntry {
   assign(entry, 'repoUrl', asString(value['repoUrl']));
   assign(entry, 'websiteUrl', asString(value['websiteUrl']));
   assign(entry, 'updatedAt', asString(value['updatedAt']));
+  assign(entry, 'popularity', parsePopularity(value['popularity']));
 
   return entry;
+}
+
+/**
+ * Popularity is optional everywhere. A count that is not a plain non-negative
+ * number is dropped rather than rendered, the same way an unknown package kind
+ * is dropped.
+ */
+function parsePopularity(value: unknown): Popularity | undefined {
+  if (!isRecord(value)) return undefined;
+  const stars = value['stars'];
+  if (typeof stars !== 'number' || !Number.isFinite(stars) || stars < 0) return undefined;
+  return { stars: Math.round(stars) };
 }
 
 /** Returns a one-element array, or [] for a distribution we cannot render. */

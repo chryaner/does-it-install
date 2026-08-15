@@ -81,6 +81,8 @@ interface ServerView {
   latest: Map<Platform, HistoryEntry>;
   history: ServerHistory | undefined;
   verdict: Verdict;
+  /** Stargazer count from the catalog, when one was fetched. */
+  stars: number | undefined;
   toolCount: number | undefined;
   /** ISO date of the newest probe across platforms. */
   lastChecked: string | undefined;
@@ -131,7 +133,7 @@ function indexPage(catalog: Catalog, views: readonly ServerView[], options: Reso
 
   const rows =
     views.length === 0
-      ? '<tr><td colspan="5" class="muted">No servers in the catalog yet.</td></tr>'
+      ? '<tr><td colspan="6" class="muted">No servers in the catalog yet.</td></tr>'
       : views.map((view) => indexRow(view, options)).join('\n');
 
   const body = `<h1>Does it install?</h1>
@@ -143,12 +145,13 @@ ${countCard(counts.untested, 'untested', 'none')}
 ${countCard(views.length, 'servers')}
 </div>
 <div class="scroll"><table>
-<thead><tr><th>Status</th><th>Server</th><th>Install</th><th>Tools</th><th>Last checked</th></tr></thead>
+<thead><tr><th>Status</th><th>Server</th><th>Install</th><th>Stars</th><th>Tools</th><th>Last checked</th></tr></thead>
 <tbody>
 ${rows}
 </tbody>
 </table></div>
 <p class="legend">Status dots are ${PLATFORMS.map((platform) => escapeHtml(PLATFORM_LABELS[platform])).join(' &middot; ')}, in that order. Hover one for its result. A server counts as failing when its latest probe failed on any platform we tested.</p>
+<p class="legend">Rows are ordered by GitHub stars of the server's repository, with the curated seed servers first. Stars measure the repository, not the server itself.</p>
 <p class="legend">Site built ${escapeHtml(formatDateTime(options.generatedAt))}${catalog.generatedAt === '' ? '' : ` &middot; catalog generated ${escapeHtml(formatDateTime(catalog.generatedAt))}`}.</p>`;
 
   return layout('does it install? · MCP server status', body, options.base, PITCH);
@@ -175,6 +178,7 @@ function indexRow(view: ServerView, options: ResolvedOptions): string {
 <td class="dots">${dots}</td>
 <td><a class="name" href="${href(options.base, `s/${entry.slug}.html`)}">${escapeHtml(entry.title)}</a><span class="id">${escapeHtml(entry.id)}</span></td>
 <td>${escapeHtml(view.install.label)}</td>
+<td class="num">${view.stars === undefined ? '<span class="muted">n/a</span>' : formatStars(view.stars)}</td>
 <td class="num">${view.toolCount === undefined ? '<span class="muted">n/a</span>' : String(view.toolCount)}</td>
 <td class="when">${view.lastChecked === undefined ? 'never' : escapeHtml(formatDate(view.lastChecked))}</td>
 </tr>`;
@@ -190,7 +194,7 @@ function serverPage(view: ServerView, options: ResolvedOptions): string {
     `<p class="crumb"><a href="${href(options.base, '')}">&larr; All servers</a></p>`,
     `<h1>${escapeHtml(entry.title)}</h1>`,
     entry.description === undefined ? '' : `<p class="pitch">${escapeHtml(entry.description)}</p>`,
-    `<p class="muted"><code>${escapeHtml(entry.id)}</code>${metaLinks(entry)}</p>`,
+    `<p class="muted"><code>${escapeHtml(entry.id)}</code>${metaLinks(entry, view.stars)}</p>`,
 
     '<h2>Install</h2>',
     installBlock(install),
@@ -211,12 +215,13 @@ function serverPage(view: ServerView, options: ResolvedOptions): string {
   );
 }
 
-/** Trailing " · Repository · Website · version 1.2.3 · listed from registry". */
-function metaLinks(entry: ServerEntry): string {
+/** Trailing " · Repository · Website · version 1.2.3 · 1.2k stars · listed from registry". */
+function metaLinks(entry: ServerEntry, stars: number | undefined): string {
   const links = [
     entry.repoUrl === undefined ? '' : externalLink(entry.repoUrl, 'Repository'),
     entry.websiteUrl === undefined ? '' : externalLink(entry.websiteUrl, 'Website'),
     entry.version === undefined ? '' : `version ${escapeHtml(entry.version)}`,
+    stars === undefined ? '' : `${formatStars(stars)} star${stars === 1 ? '' : 's'}`,
     `listed from ${escapeHtml(entry.source)}`,
   ].filter((part) => part !== '');
   return ` &middot; ${links.join(' &middot; ')}`;
@@ -415,6 +420,8 @@ interface FeedServer {
   title: string;
   page: string;
   repoUrl?: string;
+  /** Stargazer count of `repoUrl`, absent when none was fetched. */
+  stars?: number;
   install: Install['label'];
   platforms: Partial<Record<Platform, FeedPlatform>>;
 }
@@ -460,6 +467,7 @@ function feedServer(view: ServerView, options: ResolvedOptions): FeedServer {
     title: entry.title,
     page: pageUrl(entry, options),
     ...(entry.repoUrl === undefined ? {} : { repoUrl: entry.repoUrl }),
+    ...(view.stars === undefined ? {} : { stars: view.stars }),
     install: view.install.label,
     platforms,
   };
@@ -491,11 +499,23 @@ function viewOf(entry: ServerEntry, history: ServerHistory | undefined): ServerV
     latest,
     history,
     verdict,
+    stars: starsOf(entry),
     toolCount: toolCountOf(latest),
     lastChecked: lastCheckedOf(latest),
     install: installOf(entry),
   };
   return view;
+}
+
+/**
+ * Star count worth rendering. The catalog is generated, but it is also
+ * committed and hand-editable, so a nonsense count reads as "unknown" rather
+ * than reaching a page.
+ */
+function starsOf(entry: ServerEntry): number | undefined {
+  const stars = entry.popularity?.stars;
+  if (typeof stars !== 'number' || !Number.isFinite(stars) || stars < 0) return undefined;
+  return Math.round(stars);
 }
 
 /** Tool count from the first platform that passed, in platform order. */
@@ -577,6 +597,18 @@ function statusPhrase(status: ProbeStatus | undefined): string {
 function toneOf(status: ProbeStatus | undefined): Tone {
   if (status === undefined || status === 'skipped') return 'none';
   return status === 'pass' ? 'pass' : 'fail';
+}
+
+/**
+ * Compact star counts for a narrow column: `987`, `1.2k`, `34k`. Exact below
+ * 1000, one decimal up to 10k, whole thousands above it, where the decimal
+ * would be noise.
+ */
+function formatStars(stars: number): string {
+  if (stars < 1000) return String(stars);
+  const thousands = stars / 1000;
+  const rounded = thousands < 10 ? Math.round(thousands * 10) / 10 : Math.round(thousands);
+  return `${String(rounded)}k`;
 }
 
 /** ISO date as `YYYY-MM-DD`; unparsable input is passed through untouched. */

@@ -29,6 +29,7 @@ const PASSING: ServerEntry = {
   remotes: [],
   source: 'seed',
   rank: 1,
+  popularity: { stars: 1234 },
 };
 
 const HOSTILE: ServerEntry = {
@@ -41,6 +42,7 @@ const HOSTILE: ServerEntry = {
   remotes: [],
   source: 'registry',
   rank: 2,
+  popularity: { stars: 987 },
 };
 
 const REMOTE: ServerEntry = {
@@ -134,6 +136,7 @@ interface FeedServer {
   title: string;
   page: string;
   repoUrl?: string;
+  stars?: number;
   install: string;
   platforms: Record<string, { status: string; date: string; toolCount?: number }>;
 }
@@ -215,6 +218,42 @@ describe('index page', () => {
     expect(countOf(index, '<td>npm</td>')).toBe(2);
   });
 
+  it('has a stars column between install and tools', () => {
+    expect(index).toContain(
+      '<thead><tr><th>Status</th><th>Server</th><th>Install</th><th>Stars</th><th>Tools</th><th>Last checked</th></tr></thead>',
+    );
+    // PASSING: npm, 1234 stars, 12 tools.
+    expect(index).toContain('<td>npm</td>\n<td class="num">1.2k</td>\n<td class="num">12</td>');
+  });
+
+  it.each([
+    [0, '0'],
+    [7, '7'],
+    [987, '987'],
+    [1000, '1k'],
+    [1234, '1.2k'],
+    [9949, '9.9k'],
+    [34_000, '34k'],
+    [34_567, '35k'],
+  ])('formats %d stars as %s', (stars, expected) => {
+    const server: ServerEntry = { ...REMOTE, slug: 'counted', popularity: { stars } };
+    const page = pageOf(build({ generatedAt: '', servers: [server] }), 'index.html');
+
+    expect(page).toContain(`<td class="num">${expected}</td>`);
+  });
+
+  it('says n/a for a server with no star count, like the tools column', () => {
+    // REMOTE carries no popularity at all: no repo, nothing fetched.
+    const page = pageOf(build({ generatedAt: '', servers: [REMOTE] }), 'index.html');
+
+    expect(countOf(page, '<td class="num"><span class="muted">n/a</span></td>')).toBe(2);
+  });
+
+  it('explains the row order in the legend', () => {
+    expect(index).toContain('Rows are ordered by GitHub stars');
+    expect(index).toContain('seed servers first');
+  });
+
   it('escapes hostile server titles and ids', () => {
     expect(index).not.toContain(XSS);
     expect(index).toContain('Hostile &lt;script&gt;alert(1)&lt;/script&gt;');
@@ -246,6 +285,12 @@ describe('server page', () => {
     );
     expect(hostile).not.toContain('javascript:alert(1)');
     expect(hostile).toContain('Repository');
+  });
+
+  it('puts the star count in the meta line, only when there is one', () => {
+    expect(passing).toContain('&middot; 1.2k stars &middot; listed from seed');
+    expect(hosted).toContain('listed from registry');
+    expect(hosted).not.toContain('stars');
   });
 
   it('escapes untrusted descriptions and error excerpts', () => {
@@ -466,9 +511,15 @@ describe('index.json', () => {
     });
   });
 
-  it('omits repoUrl and leaves platforms empty when there is nothing to report', () => {
+  it('carries the star count as a number, for servers that have one', () => {
+    expect(serverOf(pages, PASSING.slug).stars).toBe(1234);
+    expect(serverOf(pages, HOSTILE.slug).stars).toBe(987);
+  });
+
+  it('omits repoUrl, stars and platforms when there is nothing to report', () => {
     const remote = serverOf(pages, REMOTE.slug);
     expect('repoUrl' in remote).toBe(false);
+    expect('stars' in remote).toBe(false);
     expect(remote.install).toBe('remote');
     expect(remote.platforms).toEqual({});
   });

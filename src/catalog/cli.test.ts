@@ -8,9 +8,44 @@ import { afterAll, beforeAll, describe, expect, it, vi } from 'vitest';
 import type { Catalog } from '../types.js';
 import { DEFAULT_OUT_PATH, parseArgs, run } from './cli.js';
 import type { FetchLike } from './registry.js';
+import { loadSeed } from './seed.js';
+import type { StarsFetchLike } from './stars.js';
 
 const execFileAsync = promisify(execFile);
 const repoRoot = fileURLToPath(new URL('../../', import.meta.url));
+
+/**
+ * Answers a star query from an `owner/name` table, 5 stars for anything else
+ * (the seed file's own repositories, for one). Never touches the network.
+ */
+function starsFetch(counts: Record<string, number> = {}) {
+  return vi.fn<StarsFetchLike>(async (_url, init) => {
+    const { query } = JSON.parse(init.body) as { query: string };
+    const data: Record<string, unknown> = {};
+    for (const match of query.matchAll(/(r\d+): repository\(owner: "([^"]*)", name: "([^"]*)"\)/g)) {
+      const [, alias, owner, name] = match;
+      if (alias === undefined || owner === undefined || name === undefined) continue;
+      data[alias] = { stargazerCount: counts[`${owner}/${name}`] ?? 5 };
+    }
+    return new Response(JSON.stringify({ data }), { status: 200 });
+  });
+}
+
+/** Collect stderr for the duration of `body`, restoring the spy afterwards. */
+async function captureStderr(body: () => Promise<void>): Promise<string> {
+  const logged: string[] = [];
+  const stderr = vi.spyOn(process.stderr, 'write').mockImplementation((chunk: unknown) => {
+    logged.push(String(chunk));
+    return true;
+  });
+
+  try {
+    await body();
+  } finally {
+    stderr.mockRestore();
+  }
+  return logged.join('');
+}
 
 describe('parseArgs', () => {
   it('defaults to an online build into data/catalog.json', () => {
@@ -109,23 +144,115 @@ describe('catalog cli', () => {
             }),
           ),
     );
-    const logged: string[] = [];
-    const stderr = vi.spyOn(process.stderr, 'write').mockImplementation((chunk: unknown) => {
-      logged.push(String(chunk));
-      return true;
-    });
 
-    try {
-      await run(['--out', out], { fetchImpl });
-    } finally {
-      stderr.mockRestore();
-    }
+    const logged = await captureStderr(async () => {
+      await run(['--out', out], { fetchImpl, starsFetchImpl: starsFetch(), token: 'test-token' });
+    });
 
     const catalog = JSON.parse(await readFile(out, 'utf8')) as Catalog;
     const registryIds = catalog.servers.filter((s) => s.source === 'registry').map((s) => s.id);
     expect(registryIds).toEqual(['reg/one', 'reg/two']);
     expect(catalog.servers.some((s) => s.source === 'seed')).toBe(true);
-    expect(logged.join('')).toMatch(/catalog: \d+ servers .*2 pages/);
+    expect(logged).toMatch(/catalog: \d+ servers .*2 pages/);
+  });
+
+  it('ranks the whole registry by stars before --limit cuts it', async () => {
+    const out = join(workDir, 'ranked.json');
+    // Two pages: the popular server is only on the second one, so a --limit
+    // that capped pagination would never see it.
+    const fetchImpl = vi.fn<FetchLike>(async (url) =>
+      url.includes('cursor=')
+        ? new Response(
+            JSON.stringify({
+              servers: [
+                {
+                  server: {
+                    name: 'reg/popular',
+                    repository: { url: 'https://github.com/acme/popular' },
+                  },
+                },
+              ],
+              metadata: {},
+            }),
+          )
+        : new Response(
+            JSON.stringify({
+              servers: [
+                {
+                  server: { name: 'reg/quiet', repository: { url: 'https://github.com/acme/quiet' } },
+                },
+              ],
+              metadata: { nextCursor: 'next' },
+            }),
+          ),
+    );
+    const starsFetchImpl = starsFetch({ 'acme/popular': 4321, 'acme/quiet': 3 });
+
+    // One over the seed file's own entries, which always rank ahead of the
+    // registry, so exactly one registry entry survives the cut.
+    const seedCount = (await loadSeed()).length;
+    const logged = await captureStderr(async () => {
+      await run(['--out', out, '--limit', String(seedCount + 1)], {
+        fetchImpl,
+        starsFetchImpl,
+        token: 'test-token',
+      });
+    });
+
+    expect(fetchImpl).toHaveBeenCalledTimes(2); // --limit no longer stops pagination
+    const catalog = JSON.parse(await readFile(out, 'utf8')) as Catalog;
+    const registryEntries = catalog.servers.filter((s) => s.source === 'registry');
+    expect(registryEntries.map((s) => s.id)).toEqual(['reg/popular']);
+    expect(registryEntries[0]?.popularity).toEqual({ stars: 4321 });
+    expect(logged).toMatch(/stars for (\d+)\/\1 repos/); // every repo answered
+  });
+
+  it('warns once and builds anyway when there is no token', async () => {
+    const out = join(workDir, 'tokenless.json');
+    const fetchImpl = vi.fn<FetchLike>(
+      async () =>
+        new Response(JSON.stringify({ servers: [{ server: { name: 'reg/one' } }], metadata: {} })),
+    );
+    const starsFetchImpl = starsFetch();
+
+    const logged = await captureStderr(async () => {
+      await run(['--out', out], { fetchImpl, starsFetchImpl, token: '' });
+    });
+
+    expect(starsFetchImpl).not.toHaveBeenCalled();
+    expect(logged).toContain(
+      'warning: GITHUB_TOKEN is unset, so popularity is unavailable and ranking falls back to registry order',
+    );
+    expect(logged).not.toContain('stars for');
+    const catalog = JSON.parse(await readFile(out, 'utf8')) as Catalog;
+    expect(catalog.servers.some((s) => s.id === 'reg/one')).toBe(true);
+  });
+
+  it('still writes a catalog when the star lookup fails outright', async () => {
+    const out = join(workDir, 'stars-down.json');
+    const fetchImpl = vi.fn<FetchLike>(
+      async () =>
+        new Response(
+          JSON.stringify({
+            servers: [
+              { server: { name: 'reg/one', repository: { url: 'https://github.com/acme/one' } } },
+            ],
+            metadata: {},
+          }),
+        ),
+    );
+    const starsFetchImpl = vi.fn<StarsFetchLike>(() => {
+      throw new TypeError('fetch failed');
+    });
+
+    const logged = await captureStderr(async () => {
+      await run(['--out', out], { fetchImpl, starsFetchImpl, token: 'test-token' });
+    });
+
+    expect(logged).toMatch(/stars for 0\/\d+ repos/);
+    const catalog = JSON.parse(await readFile(out, 'utf8')) as Catalog;
+    expect(catalog.servers.some((s) => s.id === 'reg/one')).toBe(true);
+    expect(catalog.servers.every((s) => s.popularity === undefined)).toBe(true);
   });
 
   it('fails loudly instead of writing a seed-only catalog when the registry is down', async () => {
