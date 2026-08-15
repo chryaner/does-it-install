@@ -1,0 +1,99 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.419Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-18Z-df0f6c",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "list_offerings",
+          "list_expert_profiles",
+          "get_result",
+          "prepare_consult_domain_expert",
+          "request_think_tank_revision",
+          "request_illustration_revision",
+          "verify_external_source",
+          "review_content",
+          "verify_reasoning_chain",
+          "prepublish_review",
+          "predict_audience_reaction",
+          "arbitrate_dispute",
+          "request_human_approval",
+          "verify_certificate",
+          "order_think_tank_session_30",
+          "order_think_tank_session_60",
+          "consult_domain_expert",
+          "ask_a_human",
+          "review_plan",
+          "review_code"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:21.179Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-21Z-2de383",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "list_offerings",
+          "list_expert_profiles",
+          "get_result",
+          "prepare_consult_domain_expert",
+          "request_think_tank_revision",
+          "request_illustration_revision",
+          "verify_external_source",
+          "review_content",
+          "verify_reasoning_chain",
+          "prepublish_review",
+          "predict_audience_reaction",
+          "arbitrate_dispute",
+          "request_human_approval",
+          "verify_certificate",
+          "order_think_tank_session_30",
+          "order_think_tank_session_60",
+          "consult_domain_expert",
+          "ask_a_human",
+          "review_plan",
+          "review_code"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:32.941Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-32Z-2e0add",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "list_offerings",
+          "list_expert_profiles",
+          "get_result",
+          "prepare_consult_domain_expert",
+          "request_think_tank_revision",
+          "request_illustration_revision",
+          "verify_external_source",
+          "review_content",
+          "verify_reasoning_chain",
+          "prepublish_review",
+          "predict_audience_reaction",
+          "arbitrate_dispute",
+          "request_human_approval",
+          "verify_certificate",
+          "order_think_tank_session_30",
+          "order_think_tank_session_60",
+          "consult_domain_expert",
+          "ask_a_human",
+          "review_plan",
+          "review_code"
+        ]
+      }
+    ]
+  },
+  "serverId": "app.humantaste/taste-mcp",
+  "slug": "app.humantaste__taste-mcp"
+}

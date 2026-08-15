@@ -2,6 +2,31 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T01:49:18.684Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "spala_help",
+          "spala_get_onboarding",
+          "spala_get_tool_map",
+          "docs_search",
+          "template_list",
+          "addon_list",
+          "spala_start",
+          "account_status",
+          "account_setup",
+          "organization_create",
+          "project_list",
+          "project_create",
+          "project_connect",
+          "project_select",
+          "project_get_mcp_manifest",
+          "project_get_public_context"
+        ]
+      },
+      {
         "date": "2026-08-14T20:23:10.254Z",
         "method": "remote-http",
         "runId": "2026-08-14T20-23-10Z-ab7350",
@@ -29,6 +54,31 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T01:49:20.605Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "spala_help",
+          "spala_get_onboarding",
+          "spala_get_tool_map",
+          "docs_search",
+          "template_list",
+          "addon_list",
+          "spala_start",
+          "account_status",
+          "account_setup",
+          "organization_create",
+          "project_list",
+          "project_create",
+          "project_connect",
+          "project_select",
+          "project_get_mcp_manifest",
+          "project_get_public_context"
+        ]
+      },
+      {
         "date": "2026-08-14T20:23:03.495Z",
         "method": "remote-http",
         "runId": "2026-08-14T20-23-03Z-54916a",
@@ -55,6 +105,31 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "spala_help",
+          "spala_get_onboarding",
+          "spala_get_tool_map",
+          "docs_search",
+          "template_list",
+          "addon_list",
+          "spala_start",
+          "account_status",
+          "account_setup",
+          "organization_create",
+          "project_list",
+          "project_create",
+          "project_connect",
+          "project_select",
+          "project_get_mcp_manifest",
+          "project_get_public_context"
+        ]
+      },
       {
         "date": "2026-08-14T20:23:28.035Z",
         "method": "remote-http",

@@ -1,0 +1,54 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.684Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "scope_list_categories",
+          "scope_list_vendors",
+          "scope_dispatch_matter",
+          "scope_get_matter",
+          "scope_list_matters"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.605Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "scope_list_categories",
+          "scope_list_vendors",
+          "scope_dispatch_matter",
+          "scope_get_matter",
+          "scope_list_matters"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "scope_list_categories",
+          "scope_list_vendors",
+          "scope_dispatch_matter",
+          "scope_get_matter",
+          "scope_list_matters"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.jackgillen15-dev/scope-mcp",
+  "slug": "io.github.jackgillen15-dev__scope-mcp"
+}

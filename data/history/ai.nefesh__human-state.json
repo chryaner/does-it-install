@@ -2,6 +2,21 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T01:49:18.684Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "get_human_state",
+          "ingest",
+          "get_trigger_memory",
+          "get_session_history",
+          "request_api_key",
+          "check_api_key_status"
+        ]
+      },
+      {
         "date": "2026-08-14T20:23:05.405Z",
         "method": "remote-http",
         "runId": "2026-08-14T20-23-05Z-90f533",
@@ -19,6 +34,21 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T01:49:20.605Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "get_human_state",
+          "ingest",
+          "get_trigger_memory",
+          "get_session_history",
+          "request_api_key",
+          "check_api_key_status"
+        ]
+      },
+      {
         "date": "2026-08-14T20:23:06.300Z",
         "method": "remote-http",
         "runId": "2026-08-14T20-23-06Z-df9438",
@@ -35,6 +65,21 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "get_human_state",
+          "ingest",
+          "get_trigger_memory",
+          "get_session_history",
+          "request_api_key",
+          "check_api_key_status"
+        ]
+      },
       {
         "date": "2026-08-14T20:23:24.859Z",
         "method": "remote-http",

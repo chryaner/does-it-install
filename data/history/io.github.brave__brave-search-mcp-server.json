@@ -1,0 +1,63 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.684Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "brave_web_search",
+          "brave_local_search",
+          "brave_video_search",
+          "brave_image_search",
+          "brave_news_search",
+          "brave_summarizer",
+          "brave_llm_context",
+          "brave_place_search"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.605Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "brave_web_search",
+          "brave_local_search",
+          "brave_video_search",
+          "brave_image_search",
+          "brave_news_search",
+          "brave_summarizer",
+          "brave_llm_context",
+          "brave_place_search"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "brave_web_search",
+          "brave_local_search",
+          "brave_video_search",
+          "brave_image_search",
+          "brave_news_search",
+          "brave_summarizer",
+          "brave_llm_context",
+          "brave_place_search"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.brave/brave-search-mcp-server",
+  "slug": "io.github.brave__brave-search-mcp-server"
+}

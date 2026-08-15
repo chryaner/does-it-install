@@ -1,0 +1,54 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.684Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "search_components",
+          "get_component_detail",
+          "check_compatibility",
+          "recommend_for_application",
+          "get_parameter_semantics"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.605Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "search_components",
+          "get_component_detail",
+          "check_compatibility",
+          "recommend_for_application",
+          "get_parameter_semantics"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "search_components",
+          "get_component_detail",
+          "check_compatibility",
+          "recommend_for_application",
+          "get_parameter_semantics"
+        ]
+      }
+    ]
+  },
+  "serverId": "cc.roboparts/roboparts",
+  "slug": "cc.roboparts__roboparts"
+}

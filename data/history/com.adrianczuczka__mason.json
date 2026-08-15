@@ -1,0 +1,93 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.684Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "mason_init",
+          "mason_complete_init",
+          "mason_set_confluence",
+          "full_analysis",
+          "analyze_project",
+          "get_code_samples",
+          "get_snapshot",
+          "get_context",
+          "generate_snapshot_batch",
+          "save_partial_snapshot",
+          "reduce_snapshot",
+          "save_snapshot",
+          "save_decision",
+          "mason_check_drift",
+          "verify_snapshot",
+          "save_verification",
+          "get_impact",
+          "export_to_confluence"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.605Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "mason_init",
+          "mason_complete_init",
+          "mason_set_confluence",
+          "full_analysis",
+          "analyze_project",
+          "get_code_samples",
+          "get_snapshot",
+          "get_context",
+          "generate_snapshot_batch",
+          "save_partial_snapshot",
+          "reduce_snapshot",
+          "save_snapshot",
+          "save_decision",
+          "mason_check_drift",
+          "verify_snapshot",
+          "save_verification",
+          "get_impact",
+          "export_to_confluence"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "mason_init",
+          "mason_complete_init",
+          "mason_set_confluence",
+          "full_analysis",
+          "analyze_project",
+          "get_code_samples",
+          "get_snapshot",
+          "get_context",
+          "generate_snapshot_batch",
+          "save_partial_snapshot",
+          "reduce_snapshot",
+          "save_snapshot",
+          "save_decision",
+          "mason_check_drift",
+          "verify_snapshot",
+          "save_verification",
+          "get_impact",
+          "export_to_confluence"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.adrianczuczka/mason",
+  "slug": "com.adrianczuczka__mason"
+}

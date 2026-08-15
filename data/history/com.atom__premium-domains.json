@@ -1,0 +1,81 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:17.022Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-17Z-8b8e8b",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "brainstorm_names",
+          "search_brandable_domains",
+          "check_domain_availability",
+          "generate_domain_names",
+          "appraise_domain",
+          "get_domain_details",
+          "screen_trademark_conflicts",
+          "get_checkout_link",
+          "register_domain",
+          "register_domain_spt",
+          "buy_ai_tokens",
+          "get_ai_tokens_pay_link",
+          "get_domain_register_pay_link",
+          "get_domain_purchase_pay_link"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.415Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-20Z-238791",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "brainstorm_names",
+          "search_brandable_domains",
+          "check_domain_availability",
+          "generate_domain_names",
+          "appraise_domain",
+          "get_domain_details",
+          "screen_trademark_conflicts",
+          "get_checkout_link",
+          "register_domain",
+          "register_domain_spt",
+          "buy_ai_tokens",
+          "get_ai_tokens_pay_link",
+          "get_domain_register_pay_link",
+          "get_domain_purchase_pay_link"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:50:04.636Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-50-04Z-2bdea0",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "brainstorm_names",
+          "search_brandable_domains",
+          "check_domain_availability",
+          "generate_domain_names",
+          "appraise_domain",
+          "get_domain_details",
+          "screen_trademark_conflicts",
+          "get_checkout_link",
+          "register_domain",
+          "register_domain_spt",
+          "buy_ai_tokens",
+          "get_ai_tokens_pay_link",
+          "get_domain_register_pay_link",
+          "get_domain_purchase_pay_link"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.atom/premium-domains",
+  "slug": "com.atom__premium-domains"
+}

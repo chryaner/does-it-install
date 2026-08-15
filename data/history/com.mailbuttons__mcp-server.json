@@ -1,0 +1,84 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.419Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-18Z-df0f6c",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "mailbuttons_list_messages",
+          "mailbuttons_get_message",
+          "mailbuttons_get_thread",
+          "mailbuttons_get_attachment_text",
+          "mailbuttons_send_email",
+          "mailbuttons_list_drafts",
+          "mailbuttons_get_draft",
+          "mailbuttons_extract_code",
+          "mailbuttons_propose_sender",
+          "mailbuttons_request_promotion",
+          "mailbuttons_audit_tail",
+          "mailbuttons_export_audit",
+          "mailbuttons_generate_policy",
+          "mailbuttons_scaffold_integration",
+          "mailbuttons_run_selftest"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:21.179Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-21Z-2de383",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "mailbuttons_list_messages",
+          "mailbuttons_get_message",
+          "mailbuttons_get_thread",
+          "mailbuttons_get_attachment_text",
+          "mailbuttons_send_email",
+          "mailbuttons_list_drafts",
+          "mailbuttons_get_draft",
+          "mailbuttons_extract_code",
+          "mailbuttons_propose_sender",
+          "mailbuttons_request_promotion",
+          "mailbuttons_audit_tail",
+          "mailbuttons_export_audit",
+          "mailbuttons_generate_policy",
+          "mailbuttons_scaffold_integration",
+          "mailbuttons_run_selftest"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:32.941Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-32Z-2e0add",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "mailbuttons_list_messages",
+          "mailbuttons_get_message",
+          "mailbuttons_get_thread",
+          "mailbuttons_get_attachment_text",
+          "mailbuttons_send_email",
+          "mailbuttons_list_drafts",
+          "mailbuttons_get_draft",
+          "mailbuttons_extract_code",
+          "mailbuttons_propose_sender",
+          "mailbuttons_request_promotion",
+          "mailbuttons_audit_tail",
+          "mailbuttons_export_audit",
+          "mailbuttons_generate_policy",
+          "mailbuttons_scaffold_integration",
+          "mailbuttons_run_selftest"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.mailbuttons/mcp-server",
+  "slug": "com.mailbuttons__mcp-server"
+}

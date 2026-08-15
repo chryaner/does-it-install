@@ -2,6 +2,17 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T01:49:18.684Z",
+        "method": "remote-sse",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "oddsockets_get_started",
+          "oddsockets_signup"
+        ]
+      },
+      {
         "date": "2026-08-14T20:23:05.405Z",
         "method": "remote-sse",
         "runId": "2026-08-14T20-23-05Z-90f533",
@@ -15,6 +26,17 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T01:49:20.605Z",
+        "method": "remote-sse",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "oddsockets_get_started",
+          "oddsockets_signup"
+        ]
+      },
+      {
         "date": "2026-08-14T20:23:06.300Z",
         "method": "remote-sse",
         "runId": "2026-08-14T20-23-06Z-df9438",
@@ -27,6 +49,17 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "method": "remote-sse",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "oddsockets_get_started",
+          "oddsockets_signup"
+        ]
+      },
       {
         "date": "2026-08-14T20:23:24.859Z",
         "method": "remote-sse",

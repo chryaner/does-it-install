@@ -1,0 +1,42 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.684Z",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "search_google"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.605Z",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "search_google"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "search_google"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.mcparmory/google-search",
+  "slug": "com.mcparmory__google-search"
+}

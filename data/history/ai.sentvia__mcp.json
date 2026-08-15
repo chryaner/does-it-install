@@ -2,6 +2,36 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T01:49:18.419Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-18Z-df0f6c",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "create_inbox",
+          "list_inboxes",
+          "delete_inbox",
+          "send_message",
+          "reply_to_message",
+          "forward_message",
+          "get_message",
+          "search_messages",
+          "list_threads",
+          "get_thread",
+          "create_draft",
+          "send_draft",
+          "list_drafts",
+          "add_domain",
+          "get_domain",
+          "create_webhook",
+          "list_webhooks",
+          "delete_webhook",
+          "add_address_rule",
+          "list_address_rules",
+          "delete_address_rule"
+        ]
+      },
+      {
         "date": "2026-08-14T20:23:10.254Z",
         "method": "npm",
         "runId": "2026-08-14T20-23-10Z-ab7350",
@@ -34,6 +64,36 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T01:49:21.179Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-21Z-2de383",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "create_inbox",
+          "list_inboxes",
+          "delete_inbox",
+          "send_message",
+          "reply_to_message",
+          "forward_message",
+          "get_message",
+          "search_messages",
+          "list_threads",
+          "get_thread",
+          "create_draft",
+          "send_draft",
+          "list_drafts",
+          "add_domain",
+          "get_domain",
+          "create_webhook",
+          "list_webhooks",
+          "delete_webhook",
+          "add_address_rule",
+          "list_address_rules",
+          "delete_address_rule"
+        ]
+      },
+      {
         "date": "2026-08-14T20:23:03.495Z",
         "method": "npm",
         "runId": "2026-08-14T20-23-03Z-54916a",
@@ -65,6 +125,36 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T01:49:32.941Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-32Z-2e0add",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "create_inbox",
+          "list_inboxes",
+          "delete_inbox",
+          "send_message",
+          "reply_to_message",
+          "forward_message",
+          "get_message",
+          "search_messages",
+          "list_threads",
+          "get_thread",
+          "create_draft",
+          "send_draft",
+          "list_drafts",
+          "add_domain",
+          "get_domain",
+          "create_webhook",
+          "list_webhooks",
+          "delete_webhook",
+          "add_address_rule",
+          "list_address_rules",
+          "delete_address_rule"
+        ]
+      },
       {
         "date": "2026-08-14T20:23:28.035Z",
         "method": "npm",

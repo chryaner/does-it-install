@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T01:49:18.684Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nfile:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-PSCPrn/node_modules/@tradesearcher/mcp-server/src/index.js:5\nimport { createClient, limitTradesInResponse, compactAgentResponse } from '@tradesearcher/core';\n                                              ^^^^^^^^^^^^^^^^^^^^\nSyntaxError: The requested module '@tradesearcher/core' does not provide an export named 'compactAgentResponse'\n    at ModuleJob._instantiate (node:internal/modules/esm/module_job:226:21)\n    at async ModuleJob.run (node:internal/modules/esm/module_job:335:5)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)\n\nNode.js v22.23.1",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-14T20:23:05.405Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nfile:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-nPWDeF/node_modules/@tradesearcher/mcp-server/src/index.js:5\nimport { createClient, limitTradesInResponse, compactAgentResponse } from '@tradesearcher/core';\n                                              ^^^^^^^^^^^^^^^^^^^^\nSyntaxError: The requested module '@tradesearcher/core' does not provide an export named 'compactAgentResponse'\n    at ModuleJob._instantiate (node:internal/modules/esm/module_job:226:21)\n    at async ModuleJob.run (node:internal/modules/esm/module_job:335:5)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)\n\nNode.js v22.23.1",
         "method": "npm",
@@ -11,6 +18,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T01:49:20.605Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nfile:///tmp/does-it-install/dii-npm-Piqakj/node_modules/@tradesearcher/mcp-server/src/index.js:5\nimport { createClient, limitTradesInResponse, compactAgentResponse } from '@tradesearcher/core';\n                                              ^^^^^^^^^^^^^^^^^^^^\nSyntaxError: The requested module '@tradesearcher/core' does not provide an export named 'compactAgentResponse'\n    at ModuleJob._instantiate (node:internal/modules/esm/module_job:226:21)\n    at async ModuleJob.run (node:internal/modules/esm/module_job:335:5)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)\n\nNode.js v22.23.2",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-14T20:23:06.300Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nfile:///tmp/does-it-install/dii-npm-m65OyB/node_modules/@tradesearcher/mcp-server/src/index.js:5\nimport { createClient, limitTradesInResponse, compactAgentResponse } from '@tradesearcher/core';\n                                              ^^^^^^^^^^^^^^^^^^^^\nSyntaxError: The requested module '@tradesearcher/core' does not provide an export named 'compactAgentResponse'\n    at ModuleJob._instantiate (node:internal/modules/esm/module_job:226:21)\n    at async ModuleJob.run (node:internal/modules/esm/module_job:335:5)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)\n\nNode.js v22.23.2",
         "method": "npm",
@@ -19,6 +33,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nfile:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-zZSBk5/node_modules/@tradesearcher/mcp-server/src/index.js:5\r\nimport { createClient, limitTradesInResponse, compactAgentResponse } from '@tradesearcher/core';\r\n                                              ^^^^^^^^^^^^^^^^^^^^\r\nSyntaxError: The requested module '@tradesearcher/core' does not provide an export named 'compactAgentResponse'\r\n    at ModuleJob._instantiate (node:internal/modules/esm/module_job:226:21)\r\n    at async ModuleJob.run (node:internal/modules/esm/module_job:335:5)\r\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)\r\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)\r\n\r\nNode.js v22.23.2",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-14T20:23:24.859Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nfile:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-RgcffE/node_modules/@tradesearcher/mcp-server/src/index.js:5\r\nimport { createClient, limitTradesInResponse, compactAgentResponse } from '@tradesearcher/core';\r\n                                              ^^^^^^^^^^^^^^^^^^^^\r\nSyntaxError: The requested module '@tradesearcher/core' does not provide an export named 'compactAgentResponse'\r\n    at ModuleJob._instantiate (node:internal/modules/esm/module_job:226:21)\r\n    at async ModuleJob.run (node:internal/modules/esm/module_job:335:5)\r\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)\r\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)\r\n\r\nNode.js v22.23.2",

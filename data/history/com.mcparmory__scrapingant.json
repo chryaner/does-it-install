@@ -1,0 +1,57 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.684Z",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "scrape_webpage",
+          "scrape_webpage_submit",
+          "scrape_webpage_replace",
+          "scrape_webpage_modify",
+          "scrape_webpage_remove",
+          "get_usage"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.605Z",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "scrape_webpage",
+          "scrape_webpage_submit",
+          "scrape_webpage_replace",
+          "scrape_webpage_modify",
+          "scrape_webpage_remove",
+          "get_usage"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "scrape_webpage",
+          "scrape_webpage_submit",
+          "scrape_webpage_replace",
+          "scrape_webpage_modify",
+          "scrape_webpage_remove",
+          "get_usage"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.mcparmory/scrapingant",
+  "slug": "com.mcparmory__scrapingant"
+}

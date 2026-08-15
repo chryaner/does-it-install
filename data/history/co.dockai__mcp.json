@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.684Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND mcp.dockai.co",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "connect_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.605Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND mcp.dockai.co",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "connect_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND mcp.dockai.co",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "connect_failed"
+      }
+    ]
+  },
+  "serverId": "co.dockai/mcp",
+  "slug": "co.dockai__mcp"
+}

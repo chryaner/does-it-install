@@ -1,0 +1,78 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.684Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "nslookup",
+          "reverse_ip",
+          "location",
+          "ip_history",
+          "whois",
+          "url_html",
+          "url_screenshot",
+          "url_similarity",
+          "google_search",
+          "google_image_search",
+          "google_lens_search",
+          "crawl_youtube",
+          "download_youtube_video"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.605Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "nslookup",
+          "reverse_ip",
+          "location",
+          "ip_history",
+          "whois",
+          "url_html",
+          "url_screenshot",
+          "url_similarity",
+          "google_search",
+          "google_image_search",
+          "google_lens_search",
+          "crawl_youtube",
+          "download_youtube_video"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "nslookup",
+          "reverse_ip",
+          "location",
+          "ip_history",
+          "whois",
+          "url_html",
+          "url_screenshot",
+          "url_similarity",
+          "google_search",
+          "google_image_search",
+          "google_lens_search",
+          "crawl_youtube",
+          "download_youtube_video"
+        ]
+      }
+    ]
+  },
+  "serverId": "app.apick/web",
+  "slug": "app.apick__web"
+}

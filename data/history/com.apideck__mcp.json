@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:17.022Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: d JSON\nUnexpected end of JSON input\nUnexpected token 'M', \"MCP server CLI\" is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'F', \"FLAGS\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nUnexpected end of JSON input\nUnexpected token 'C', \"COMMANDS\" is not valid JSON\nUnexpected token 's', \"  start  Run\"... is not valid JSON\nUnexpected token 's', \"  serve  Run\"... is not valid JSON",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-17Z-8b8e8b",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.415Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: d JSON\nUnexpected end of JSON input\nUnexpected token 'M', \"MCP server CLI\" is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'F', \"FLAGS\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nUnexpected end of JSON input\nUnexpected token 'C', \"COMMANDS\" is not valid JSON\nUnexpected token 's', \"  start  Run\"... is not valid JSON\nUnexpected token 's', \"  serve  Run\"... is not valid JSON",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-20Z-238791",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:50:04.636Z",
+        "errorExcerpt": "npm install @apideck/mcp@0.1.13 timed out after 600s",
+        "method": "npm",
+        "runId": "2026-08-15T01-50-04Z-2bdea0",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "com.apideck/mcp",
+  "slug": "com.apideck__mcp"
+}

@@ -1,0 +1,123 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.419Z",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-18Z-df0f6c",
+        "status": "pass",
+        "toolCount": 28,
+        "toolNames": [
+          "list_nfts_by_owner",
+          "list_nfts_for_contract",
+          "list_nfts_for_collection",
+          "get_nft_metadata",
+          "batch_retrieve_nft_metadata",
+          "get_nft_contract_metadata",
+          "get_collection_metadata",
+          "batch_get_contract_metadata",
+          "get_nft_owners",
+          "list_nft_contract_owners",
+          "list_spam_contracts",
+          "check_spam_contract",
+          "check_nft_airdrop",
+          "get_nft_collection_attribute_summary",
+          "get_nft_collection_floor_prices",
+          "search_contract_metadata",
+          "check_nft_holder",
+          "calculate_nft_attribute_rarity",
+          "list_nft_sales",
+          "list_nft_contracts_by_owner",
+          "list_nft_collections_by_owner",
+          "report_spam_address",
+          "refresh_nft_metadata",
+          "list_nfts",
+          "get_token_owners",
+          "list_nft_collection_owners",
+          "check_token_airdrop",
+          "check_wallet_nft_collection_ownership"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:21.179Z",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-21Z-2de383",
+        "status": "pass",
+        "toolCount": 28,
+        "toolNames": [
+          "list_nfts_by_owner",
+          "list_nfts_for_contract",
+          "list_nfts_for_collection",
+          "get_nft_metadata",
+          "batch_retrieve_nft_metadata",
+          "get_nft_contract_metadata",
+          "get_collection_metadata",
+          "batch_get_contract_metadata",
+          "get_nft_owners",
+          "list_nft_contract_owners",
+          "list_spam_contracts",
+          "check_spam_contract",
+          "check_nft_airdrop",
+          "get_nft_collection_attribute_summary",
+          "get_nft_collection_floor_prices",
+          "search_contract_metadata",
+          "check_nft_holder",
+          "calculate_nft_attribute_rarity",
+          "list_nft_sales",
+          "list_nft_contracts_by_owner",
+          "list_nft_collections_by_owner",
+          "report_spam_address",
+          "refresh_nft_metadata",
+          "list_nfts",
+          "get_token_owners",
+          "list_nft_collection_owners",
+          "check_token_airdrop",
+          "check_wallet_nft_collection_ownership"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:32.941Z",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-32Z-2e0add",
+        "status": "pass",
+        "toolCount": 28,
+        "toolNames": [
+          "list_nfts_by_owner",
+          "list_nfts_for_contract",
+          "list_nfts_for_collection",
+          "get_nft_metadata",
+          "batch_retrieve_nft_metadata",
+          "get_nft_contract_metadata",
+          "get_collection_metadata",
+          "batch_get_contract_metadata",
+          "get_nft_owners",
+          "list_nft_contract_owners",
+          "list_spam_contracts",
+          "check_spam_contract",
+          "check_nft_airdrop",
+          "get_nft_collection_attribute_summary",
+          "get_nft_collection_floor_prices",
+          "search_contract_metadata",
+          "check_nft_holder",
+          "calculate_nft_attribute_rarity",
+          "list_nft_sales",
+          "list_nft_contracts_by_owner",
+          "list_nft_collections_by_owner",
+          "report_spam_address",
+          "refresh_nft_metadata",
+          "list_nfts",
+          "get_token_owners",
+          "list_nft_collection_owners",
+          "check_token_airdrop",
+          "check_wallet_nft_collection_ownership"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.mcparmory/alchemy-nft",
+  "slug": "com.mcparmory__alchemy-nft"
+}

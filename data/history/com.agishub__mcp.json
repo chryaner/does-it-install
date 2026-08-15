@@ -1,0 +1,55 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:17.022Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-17Z-8b8e8b",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "now_in",
+          "convert_timezone",
+          "convert_batch",
+          "tz_offset",
+          "list_timezones",
+          "lookup_timezone",
+          "date_math",
+          "find_meeting_slots",
+          "is_holiday"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.415Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-20Z-238791",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "now_in",
+          "convert_timezone",
+          "convert_batch",
+          "tz_offset",
+          "list_timezones",
+          "lookup_timezone",
+          "date_math",
+          "find_meeting_slots",
+          "is_holiday"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:50:04.636Z",
+        "errorExcerpt": "npm install @agishub/mcp@2.1.0 timed out after 600s",
+        "method": "npm",
+        "runId": "2026-08-15T01-50-04Z-2bdea0",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "com.agishub/mcp",
+  "slug": "com.agishub__mcp"
+}

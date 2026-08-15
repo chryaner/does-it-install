@@ -1,0 +1,87 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.684Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "list_jurisdictions",
+          "list_domains",
+          "list_subdomains",
+          "list_categories",
+          "list_subcategories",
+          "list_law_types",
+          "list_portals",
+          "list_authority_types",
+          "list_issuing_authorities",
+          "list_documents",
+          "get_document_text",
+          "get_markdown",
+          "get_source_url",
+          "get_document_with_version",
+          "horizon_scan",
+          "evidence_pull"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.605Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "list_jurisdictions",
+          "list_domains",
+          "list_subdomains",
+          "list_categories",
+          "list_subcategories",
+          "list_law_types",
+          "list_portals",
+          "list_authority_types",
+          "list_issuing_authorities",
+          "list_documents",
+          "get_document_text",
+          "get_markdown",
+          "get_source_url",
+          "get_document_with_version",
+          "horizon_scan",
+          "evidence_pull"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "list_jurisdictions",
+          "list_domains",
+          "list_subdomains",
+          "list_categories",
+          "list_subcategories",
+          "list_law_types",
+          "list_portals",
+          "list_authority_types",
+          "list_issuing_authorities",
+          "list_documents",
+          "get_document_text",
+          "get_markdown",
+          "get_source_url",
+          "get_document_with_version",
+          "horizon_scan",
+          "evidence_pull"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.lawstronaut/lawstronaut-mcp",
+  "slug": "com.lawstronaut__lawstronaut-mcp"
+}

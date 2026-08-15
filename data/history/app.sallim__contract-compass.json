@@ -1,0 +1,72 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:17.022Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-17Z-8b8e8b",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "decide_contract_method",
+          "search_law",
+          "search_references",
+          "search_cases",
+          "get_case",
+          "get_law_article",
+          "get_law_article_asof",
+          "estimate_delay_penalty",
+          "delay_exemption_guide",
+          "check_price_adjustment",
+          "report_issue"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.415Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-20Z-238791",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "decide_contract_method",
+          "search_law",
+          "search_references",
+          "search_cases",
+          "get_case",
+          "get_law_article",
+          "get_law_article_asof",
+          "estimate_delay_penalty",
+          "delay_exemption_guide",
+          "check_price_adjustment",
+          "report_issue"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:50:04.636Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-50-04Z-2bdea0",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "decide_contract_method",
+          "search_law",
+          "search_references",
+          "search_cases",
+          "get_case",
+          "get_law_article",
+          "get_law_article_asof",
+          "estimate_delay_penalty",
+          "delay_exemption_guide",
+          "check_price_adjustment",
+          "report_issue"
+        ]
+      }
+    ]
+  },
+  "serverId": "app.sallim/contract-compass",
+  "slug": "app.sallim__contract-compass"
+}

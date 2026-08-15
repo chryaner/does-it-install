@@ -1,0 +1,54 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.684Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "audit_public_website",
+          "check_ai_crawler_policy",
+          "get_crawler_watch_offer",
+          "get_full_report_offer",
+          "get_practice_radar_offer"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.605Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "audit_public_website",
+          "check_ai_crawler_policy",
+          "get_crawler_watch_offer",
+          "get_full_report_offer",
+          "get_practice_radar_offer"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "audit_public_website",
+          "check_ai_crawler_policy",
+          "get_crawler_watch_offer",
+          "get_full_report_offer",
+          "get_practice_radar_offer"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.actablesite/ai-crawler-robots-monitor",
+  "slug": "com.actablesite__ai-crawler-robots-monitor"
+}

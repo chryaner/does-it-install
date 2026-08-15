@@ -2,6 +2,29 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T01:49:18.419Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-18Z-df0f6c",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "get_my_account",
+          "list_graphs",
+          "get_capabilities",
+          "list_analysts",
+          "search_graph",
+          "get_neighbors",
+          "get_evidence",
+          "get_node",
+          "get_label_values",
+          "generate_visual",
+          "consult_analyst",
+          "consult_human_agent",
+          "request_deliverable",
+          "check_deliverable_status"
+        ]
+      },
+      {
         "date": "2026-08-14T20:23:05.405Z",
         "method": "remote-http",
         "runId": "2026-08-14T20-23-05Z-90f533",
@@ -50,6 +73,29 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T01:49:21.179Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-21Z-2de383",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "get_my_account",
+          "list_graphs",
+          "get_capabilities",
+          "list_analysts",
+          "search_graph",
+          "get_neighbors",
+          "get_evidence",
+          "get_node",
+          "get_label_values",
+          "generate_visual",
+          "consult_analyst",
+          "consult_human_agent",
+          "request_deliverable",
+          "check_deliverable_status"
+        ]
+      },
+      {
         "date": "2026-08-14T20:23:06.300Z",
         "errorExcerpt": "connect failed: HTTP 503: Streamable HTTP error: Error POSTing to endpoint: Service Unavailable",
         "method": "remote-http",
@@ -81,6 +127,29 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T01:49:32.941Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-32Z-2e0add",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "get_my_account",
+          "list_graphs",
+          "get_capabilities",
+          "list_analysts",
+          "search_graph",
+          "get_neighbors",
+          "get_evidence",
+          "get_node",
+          "get_label_values",
+          "generate_visual",
+          "consult_analyst",
+          "consult_human_agent",
+          "request_deliverable",
+          "check_deliverable_status"
+        ]
+      },
       {
         "date": "2026-08-14T20:23:24.859Z",
         "method": "remote-http",

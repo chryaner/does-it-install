@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.684Z",
+        "errorExcerpt": "listTools failed: MCP error -32603: Nicht autorisiert. EN: Not authorized.",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "tools_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.605Z",
+        "errorExcerpt": "listTools failed: MCP error -32603: Nicht autorisiert. EN: Not authorized.",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "tools_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "errorExcerpt": "listTools failed: MCP error -32603: Nicht autorisiert. EN: Not authorized.",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "tools_failed"
+      }
+    ]
+  },
+  "serverId": "app.frankki/letters",
+  "slug": "app.frankki__letters"
+}

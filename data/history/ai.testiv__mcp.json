@@ -2,6 +2,23 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T01:49:18.684Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "get_visual_results",
+          "get_diff",
+          "get_snapshot_diff",
+          "get_report",
+          "approve_snapshot",
+          "approve_all",
+          "list_baselines",
+          "explain_snapshot"
+        ]
+      },
+      {
         "date": "2026-08-14T20:23:05.405Z",
         "method": "npm",
         "runId": "2026-08-14T20-23-05Z-90f533",
@@ -21,6 +38,23 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T01:49:20.605Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "get_visual_results",
+          "get_diff",
+          "get_snapshot_diff",
+          "get_report",
+          "approve_snapshot",
+          "approve_all",
+          "list_baselines",
+          "explain_snapshot"
+        ]
+      },
+      {
         "date": "2026-08-14T20:23:06.300Z",
         "method": "npm",
         "runId": "2026-08-14T20-23-06Z-df9438",
@@ -39,6 +73,23 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "get_visual_results",
+          "get_diff",
+          "get_snapshot_diff",
+          "get_report",
+          "approve_snapshot",
+          "approve_all",
+          "list_baselines",
+          "explain_snapshot"
+        ]
+      },
       {
         "date": "2026-08-14T20:23:24.859Z",
         "method": "npm",

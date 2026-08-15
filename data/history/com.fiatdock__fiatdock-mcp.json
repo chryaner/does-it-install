@@ -1,0 +1,73 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:17.022Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-17Z-8b8e8b",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "get_quote",
+          "get_order_status",
+          "token_price",
+          "search_services",
+          "get_service",
+          "create_offramp_session",
+          "create_onramp_session",
+          "token_safety",
+          "stablecoin_intel",
+          "gas_price",
+          "block_number",
+          "eth_balance",
+          "usdc_balance",
+          "token_metadata",
+          "tx_status",
+          "address_intel",
+          "token_report",
+          "call_service"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.415Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-20Z-238791",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "get_quote",
+          "get_order_status",
+          "token_price",
+          "search_services",
+          "get_service",
+          "create_offramp_session",
+          "create_onramp_session",
+          "token_safety",
+          "stablecoin_intel",
+          "gas_price",
+          "block_number",
+          "eth_balance",
+          "usdc_balance",
+          "token_metadata",
+          "tx_status",
+          "address_intel",
+          "token_report",
+          "call_service"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:50:04.636Z",
+        "errorExcerpt": "npm install fiatdock-mcp@1.7.7 timed out after 600s",
+        "method": "npm",
+        "runId": "2026-08-15T01-50-04Z-2bdea0",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "com.fiatdock/fiatdock-mcp",
+  "slug": "com.fiatdock__fiatdock-mcp"
+}

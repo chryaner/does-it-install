@@ -1,0 +1,66 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.419Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-18Z-df0f6c",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "calculate_developer_value",
+          "calculate_engineering_manager_value",
+          "assess_team_lead_readiness",
+          "get_engineering_leadership_benchmarks",
+          "choose_mentor_coach_or_advisor",
+          "get_one_on_one_playbook",
+          "get_first_time_manager_guidance",
+          "estimate_coaching_cost",
+          "build_mentoring_business_case"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:21.179Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-21Z-2de383",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "calculate_developer_value",
+          "calculate_engineering_manager_value",
+          "assess_team_lead_readiness",
+          "get_engineering_leadership_benchmarks",
+          "choose_mentor_coach_or_advisor",
+          "get_one_on_one_playbook",
+          "get_first_time_manager_guidance",
+          "estimate_coaching_cost",
+          "build_mentoring_business_case"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:32.941Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-32Z-2e0add",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "calculate_developer_value",
+          "calculate_engineering_manager_value",
+          "assess_team_lead_readiness",
+          "get_engineering_leadership_benchmarks",
+          "choose_mentor_coach_or_advisor",
+          "get_one_on_one_playbook",
+          "get_first_time_manager_guidance",
+          "estimate_coaching_cost",
+          "build_mentoring_business_case"
+        ]
+      }
+    ]
+  },
+  "serverId": "coach.marian/eng-leadership-toolkit",
+  "slug": "coach.marian__eng-leadership-toolkit"
+}

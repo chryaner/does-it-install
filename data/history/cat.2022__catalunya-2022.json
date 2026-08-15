@@ -1,0 +1,51 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.684Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "search_document",
+          "get_section",
+          "get_document_metadata",
+          "list_proposals"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.605Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "search_document",
+          "get_section",
+          "get_document_metadata",
+          "list_proposals"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "search_document",
+          "get_section",
+          "get_document_metadata",
+          "list_proposals"
+        ]
+      }
+    ]
+  },
+  "serverId": "cat.2022/catalunya-2022",
+  "slug": "cat.2022__catalunya-2022"
+}

@@ -1,0 +1,93 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:17.022Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-17Z-8b8e8b",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "search_bankruptcy_cases_tool",
+          "get_case_by_ein_tool",
+          "get_case_by_case_number_tool",
+          "get_cases_by_industry_tool",
+          "get_cases_by_naics_tool",
+          "get_cases_by_state_tool",
+          "get_cases_by_date_range_tool",
+          "get_docket_entries_tool",
+          "get_case_summary_tool",
+          "get_document_cost_tool",
+          "get_document_tool",
+          "list_monitored_cases_tool",
+          "add_monitored_case_tool",
+          "refresh_docket_tool",
+          "get_recent_developments_tool",
+          "list_plans_tool",
+          "purchase_plan_tool",
+          "check_subscription_tool"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.415Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-20Z-238791",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "search_bankruptcy_cases_tool",
+          "get_case_by_ein_tool",
+          "get_case_by_case_number_tool",
+          "get_cases_by_industry_tool",
+          "get_cases_by_naics_tool",
+          "get_cases_by_state_tool",
+          "get_cases_by_date_range_tool",
+          "get_docket_entries_tool",
+          "get_case_summary_tool",
+          "get_document_cost_tool",
+          "get_document_tool",
+          "list_monitored_cases_tool",
+          "add_monitored_case_tool",
+          "refresh_docket_tool",
+          "get_recent_developments_tool",
+          "list_plans_tool",
+          "purchase_plan_tool",
+          "check_subscription_tool"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:50:04.636Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-50-04Z-2bdea0",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "search_bankruptcy_cases_tool",
+          "get_case_by_ein_tool",
+          "get_case_by_case_number_tool",
+          "get_cases_by_industry_tool",
+          "get_cases_by_naics_tool",
+          "get_cases_by_state_tool",
+          "get_cases_by_date_range_tool",
+          "get_docket_entries_tool",
+          "get_case_summary_tool",
+          "get_document_cost_tool",
+          "get_document_tool",
+          "list_monitored_cases_tool",
+          "add_monitored_case_tool",
+          "refresh_docket_tool",
+          "get_recent_developments_tool",
+          "list_plans_tool",
+          "purchase_plan_tool",
+          "check_subscription_tool"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.bankruptcyobserver/mcp",
+  "slug": "com.bankruptcyobserver__mcp"
+}

@@ -2,6 +2,33 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T01:49:18.684Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_panel",
+          "ask_panel",
+          "export_panel",
+          "export_mind",
+          "export_group",
+          "export_heatmap",
+          "list_panels",
+          "get_panel_status",
+          "list_groups",
+          "create_group_from_brief",
+          "ask_group",
+          "plan_panel_study",
+          "run_panel_study",
+          "get_panel_study",
+          "list_research_methods",
+          "list_study_drafts",
+          "save_study_draft",
+          "get_panel_summary"
+        ]
+      },
+      {
         "date": "2026-08-14T20:23:09.525Z",
         "method": "remote-http",
         "runId": "2026-08-14T20-23-09Z-35e1e7",
@@ -31,6 +58,33 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T01:49:20.605Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_panel",
+          "ask_panel",
+          "export_panel",
+          "export_mind",
+          "export_group",
+          "export_heatmap",
+          "list_panels",
+          "get_panel_status",
+          "list_groups",
+          "create_group_from_brief",
+          "ask_group",
+          "plan_panel_study",
+          "run_panel_study",
+          "get_panel_study",
+          "list_research_methods",
+          "list_study_drafts",
+          "save_study_draft",
+          "get_panel_summary"
+        ]
+      },
+      {
         "date": "2026-08-14T20:23:00.382Z",
         "method": "remote-http",
         "runId": "2026-08-14T20-23-00Z-e49a74",
@@ -59,6 +113,33 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_panel",
+          "ask_panel",
+          "export_panel",
+          "export_mind",
+          "export_group",
+          "export_heatmap",
+          "list_panels",
+          "get_panel_status",
+          "list_groups",
+          "create_group_from_brief",
+          "ask_group",
+          "plan_panel_study",
+          "run_panel_study",
+          "get_panel_study",
+          "list_research_methods",
+          "list_study_drafts",
+          "save_study_draft",
+          "get_panel_summary"
+        ]
+      },
       {
         "date": "2026-08-14T20:23:35.929Z",
         "method": "remote-http",

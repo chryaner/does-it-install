@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.684Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading pdfminer-six (6.3MiB)\nDownloading pypdfium2 (3.3MiB)\nDownloading lxml (8.2MiB)\nDownloading pillow (4.6MiB)\n Downloaded pypdfium2\n Downloaded pillow\n Downloaded pdfminer-six\n Downloaded lxml\nInstalled 54 packages in 123ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/VVvsIYiXiZR4EY1t/bin/target-mcp\", line 6, in <module>\n    from target_mcp.server import main\n  File \"/Users/runner/.cache/uv/archive-v0/VVvsIYiXiZR4EY1t/lib/python3.14/site-packages/target_mcp/server.py\", line 22, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.605Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading lxml (5.0MiB)\nDownloading pypdfium2 (3.6MiB)\nDownloading pillow (6.6MiB)\nDownloading pdfminer-six (6.3MiB)\n Downloaded pypdfium2\n Downloaded pillow\n Downloaded pdfminer-six\n Downloaded lxml\nInstalled 54 packages in 45ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/wGB0MUrtpMuLJJWz/bin/target-mcp\", line 6, in <module>\n    from target_mcp.server import main\n  File \"/home/runner/.cache/uv/archive-v0/wGB0MUrtpMuLJJWz/lib/python3.12/site-packages/target_mcp/server.py\", line 22, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading pillow (6.9MiB)\nDownloading pypdfium2 (3.7MiB)\nDownloading pdfminer-six (6.3MiB)\nDownloading lxml (3.8MiB)\n Downloaded pypdfium2\n Downloaded pillow\n Downloaded pdfminer-six\n Downloaded lxml\nInstalled 56 packages in 20.18s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\9KRIZ6AfzZogywbx\\Scripts\\target-mcp.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\9KRIZ6AfzZogywbx\\Lib\\site-packages\\target_mcp\\server.py\", line 22, in <module>\r\n    from mcp.server.fastmcp import FastMCP\r\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "com.blackswancausallabs/target-mcp",
+  "slug": "com.blackswancausallabs__target-mcp"
+}

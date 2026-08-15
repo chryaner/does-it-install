@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:17.022Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"unauthorized\",\"message\":\"Authentication required (Bearer token, API key, or session cookie)\",\"resource_metadata\":\"https://mcp.mcpbundles.com/bundle/uk-air-quality/.well-known/oauth-protected-resource\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-17Z-8b8e8b",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.415Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"unauthorized\",\"message\":\"Authentication required (Bearer token, API key, or session cookie)\",\"resource_metadata\":\"https://mcp.mcpbundles.com/bundle/uk-air-quality/.well-known/oauth-protected-resource\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-20Z-238791",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:50:04.636Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"unauthorized\",\"message\":\"Authentication required (Bearer token, API key, or session cookie)\",\"resource_metadata\":\"https://mcp.mcpbundles.com/bundle/uk-air-quality/.well-known/oauth-protected-resource\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-50-04Z-2bdea0",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "com.mcpbundles/uk-air-quality",
+  "slug": "com.mcpbundles__uk-air-quality"
+}

@@ -1,0 +1,87 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.684Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "biz_detail",
+          "venture_biz_info",
+          "land_rt_price",
+          "req_pccc",
+          "get_pccc",
+          "check_pccc",
+          "get_car_flooding",
+          "get_car_scrap",
+          "parcel_tracking",
+          "parcel_tracking_auto",
+          "check_email_valid",
+          "check_phone_valid",
+          "check_spam_number",
+          "holiday_info",
+          "search_juso",
+          "info"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.605Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "biz_detail",
+          "venture_biz_info",
+          "land_rt_price",
+          "req_pccc",
+          "get_pccc",
+          "check_pccc",
+          "get_car_flooding",
+          "get_car_scrap",
+          "parcel_tracking",
+          "parcel_tracking_auto",
+          "check_email_valid",
+          "check_phone_valid",
+          "check_spam_number",
+          "holiday_info",
+          "search_juso",
+          "info"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "biz_detail",
+          "venture_biz_info",
+          "land_rt_price",
+          "req_pccc",
+          "get_pccc",
+          "check_pccc",
+          "get_car_flooding",
+          "get_car_scrap",
+          "parcel_tracking",
+          "parcel_tracking_auto",
+          "check_email_valid",
+          "check_phone_valid",
+          "check_spam_number",
+          "holiday_info",
+          "search_juso",
+          "info"
+        ]
+      }
+    ]
+  },
+  "serverId": "app.apick/business",
+  "slug": "app.apick__business"
+}

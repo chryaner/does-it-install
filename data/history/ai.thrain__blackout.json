@@ -2,6 +2,17 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T01:49:17.022Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-17Z-8b8e8b",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "check_pdf",
+          "redact_pdf"
+        ]
+      },
+      {
         "date": "2026-08-14T20:23:10.254Z",
         "method": "npm",
         "runId": "2026-08-14T20-23-10Z-ab7350",
@@ -15,6 +26,17 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T01:49:20.415Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-20Z-238791",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "check_pdf",
+          "redact_pdf"
+        ]
+      },
+      {
         "date": "2026-08-14T20:23:03.495Z",
         "method": "npm",
         "runId": "2026-08-14T20-23-03Z-54916a",
@@ -27,6 +49,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T01:50:04.636Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out",
+        "method": "npm",
+        "runId": "2026-08-15T01-50-04Z-2bdea0",
+        "status": "timeout"
+      },
       {
         "date": "2026-08-14T20:23:28.035Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out",

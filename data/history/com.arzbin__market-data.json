@@ -1,0 +1,57 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:17.022Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-17Z-8b8e8b",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "convert_to_toman",
+          "get_latest_gold_rates",
+          "get_market_history",
+          "get_latest_crypto_rates",
+          "get_latest_fiat_rates",
+          "get_fiat_rate_sources"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.415Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-20Z-238791",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "convert_to_toman",
+          "get_latest_gold_rates",
+          "get_market_history",
+          "get_latest_crypto_rates",
+          "get_latest_fiat_rates",
+          "get_fiat_rate_sources"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:50:04.636Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-50-04Z-2bdea0",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "convert_to_toman",
+          "get_latest_gold_rates",
+          "get_market_history",
+          "get_latest_crypto_rates",
+          "get_latest_fiat_rates",
+          "get_fiat_rate_sources"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.arzbin/market-data",
+  "slug": "com.arzbin__market-data"
+}

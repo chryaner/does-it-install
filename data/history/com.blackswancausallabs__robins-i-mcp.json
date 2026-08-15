@@ -1,0 +1,66 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.419Z",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-18Z-df0f6c",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "get_spec",
+          "parse_document",
+          "parse_pmcid",
+          "set_prespecified_confounders",
+          "specify_result",
+          "assess_result",
+          "submit_answers",
+          "render_report",
+          "export_robvis"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:21.179Z",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-21Z-2de383",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "get_spec",
+          "parse_document",
+          "parse_pmcid",
+          "set_prespecified_confounders",
+          "specify_result",
+          "assess_result",
+          "submit_answers",
+          "render_report",
+          "export_robvis"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:32.941Z",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-32Z-2e0add",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "get_spec",
+          "parse_document",
+          "parse_pmcid",
+          "set_prespecified_confounders",
+          "specify_result",
+          "assess_result",
+          "submit_answers",
+          "render_report",
+          "export_robvis"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.blackswancausallabs/robins-i-mcp",
+  "slug": "com.blackswancausallabs__robins-i-mcp"
+}

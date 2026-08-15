@@ -1,0 +1,51 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:17.022Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-17Z-8b8e8b",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "query_ai_act_updates",
+          "get_obligation_for_role",
+          "summarize_changes_since",
+          "lookup_article"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.415Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-20Z-238791",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "query_ai_act_updates",
+          "get_obligation_for_role",
+          "summarize_changes_since",
+          "lookup_article"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:50:04.636Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-50-04Z-2bdea0",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "query_ai_act_updates",
+          "get_obligation_for_role",
+          "summarize_changes_since",
+          "lookup_article"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.aiactradar/ai-act-radar",
+  "slug": "com.aiactradar__ai-act-radar"
+}

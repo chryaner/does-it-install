@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.419Z",
+        "errorExcerpt": "container (oci) distributions are not probed in v1",
+        "method": "oci",
+        "runId": "2026-08-15T01-49-18Z-df0f6c",
+        "status": "skipped"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:21.179Z",
+        "errorExcerpt": "container (oci) distributions are not probed in v1",
+        "method": "oci",
+        "runId": "2026-08-15T01-49-21Z-2de383",
+        "status": "skipped"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:32.941Z",
+        "errorExcerpt": "container (oci) distributions are not probed in v1",
+        "method": "oci",
+        "runId": "2026-08-15T01-49-32Z-2e0add",
+        "status": "skipped"
+      }
+    ]
+  },
+  "serverId": "com.iunera/druid-mcp-server",
+  "slug": "com.iunera__druid-mcp-server"
+}

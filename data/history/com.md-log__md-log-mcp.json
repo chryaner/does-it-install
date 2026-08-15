@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:17.022Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nmd-log-mcp failed to start: md-log-mcp: MDLOG_API_BASE_URL is not a valid URL: \"DOES_IT_INSTALL_PLACEHOLDER\". Expected something like http://localhost:8080/api/v1",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-17Z-8b8e8b",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.415Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nmd-log-mcp failed to start: md-log-mcp: MDLOG_API_BASE_URL is not a valid URL: \"DOES_IT_INSTALL_PLACEHOLDER\". Expected something like http://localhost:8080/api/v1",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-20Z-238791",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:50:04.636Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nmd-log-mcp failed to start: md-log-mcp: MDLOG_API_BASE_URL is not a valid URL: \"DOES_IT_INSTALL_PLACEHOLDER\". Expected something like http://localhost:8080/api/v1",
+        "method": "npm",
+        "runId": "2026-08-15T01-50-04Z-2bdea0",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "com.md-log/md-log-mcp",
+  "slug": "com.md-log__md-log-mcp"
+}

@@ -2,6 +2,26 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T01:49:17.022Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-17Z-8b8e8b",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "get_status",
+          "create_or_update_workflow",
+          "list_projects",
+          "list_workflows",
+          "list_brand_styles",
+          "get_workflow_and_preview_url",
+          "get_analytics",
+          "send_workflow_test",
+          "prepare_publish",
+          "confirm_publish",
+          "unpublish_workflow"
+        ]
+      },
+      {
         "date": "2026-08-14T20:23:09.525Z",
         "method": "remote-http",
         "runId": "2026-08-14T20-23-09Z-35e1e7",
@@ -44,6 +64,26 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T01:49:20.415Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-20Z-238791",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "get_status",
+          "create_or_update_workflow",
+          "list_projects",
+          "list_workflows",
+          "list_brand_styles",
+          "get_workflow_and_preview_url",
+          "get_analytics",
+          "send_workflow_test",
+          "prepare_publish",
+          "confirm_publish",
+          "unpublish_workflow"
+        ]
+      },
+      {
         "date": "2026-08-14T20:23:00.382Z",
         "method": "remote-http",
         "runId": "2026-08-14T20-23-00Z-e49a74",
@@ -85,6 +125,26 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T01:50:04.636Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-50-04Z-2bdea0",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "get_status",
+          "create_or_update_workflow",
+          "list_projects",
+          "list_workflows",
+          "list_brand_styles",
+          "get_workflow_and_preview_url",
+          "get_analytics",
+          "send_workflow_test",
+          "prepare_publish",
+          "confirm_publish",
+          "unpublish_workflow"
+        ]
+      },
       {
         "date": "2026-08-14T20:23:35.929Z",
         "method": "remote-http",

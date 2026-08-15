@@ -2,6 +2,23 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T01:49:18.419Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-18Z-df0f6c",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "list_posts",
+          "search_posts",
+          "get_post",
+          "list_tags",
+          "search_conference_transcripts",
+          "get_conference_session",
+          "get_conference_agenda",
+          "about_radixia"
+        ]
+      },
+      {
         "date": "2026-08-14T20:23:05.405Z",
         "method": "remote-http",
         "runId": "2026-08-14T20-23-05Z-90f533",
@@ -21,6 +38,23 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T01:49:21.179Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-21Z-2de383",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "list_posts",
+          "search_posts",
+          "get_post",
+          "list_tags",
+          "search_conference_transcripts",
+          "get_conference_session",
+          "get_conference_agenda",
+          "about_radixia"
+        ]
+      },
+      {
         "date": "2026-08-14T20:23:06.300Z",
         "method": "remote-http",
         "runId": "2026-08-14T20-23-06Z-df9438",
@@ -39,6 +73,23 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T01:49:32.941Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-32Z-2e0add",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "list_posts",
+          "search_posts",
+          "get_post",
+          "list_tags",
+          "search_conference_transcripts",
+          "get_conference_session",
+          "get_conference_agenda",
+          "about_radixia"
+        ]
+      },
       {
         "date": "2026-08-14T20:23:24.859Z",
         "method": "remote-http",

@@ -1,0 +1,96 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.419Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-18Z-df0f6c",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "cosmic_objects_list",
+          "cosmic_objects_get",
+          "cosmic_objects_create",
+          "cosmic_objects_update",
+          "cosmic_objects_delete",
+          "cosmic_media_list",
+          "cosmic_media_get",
+          "cosmic_media_upload",
+          "cosmic_media_delete",
+          "cosmic_types_list",
+          "cosmic_types_get",
+          "cosmic_types_create",
+          "cosmic_types_update",
+          "cosmic_types_delete",
+          "cosmic_ai_generate_text",
+          "cosmic_ai_generate_image",
+          "cosmic_ai_generate_video",
+          "cosmic_ai_generate_audio",
+          "cosmic_blocks_list"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:21.179Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-21Z-2de383",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "cosmic_objects_list",
+          "cosmic_objects_get",
+          "cosmic_objects_create",
+          "cosmic_objects_update",
+          "cosmic_objects_delete",
+          "cosmic_media_list",
+          "cosmic_media_get",
+          "cosmic_media_upload",
+          "cosmic_media_delete",
+          "cosmic_types_list",
+          "cosmic_types_get",
+          "cosmic_types_create",
+          "cosmic_types_update",
+          "cosmic_types_delete",
+          "cosmic_ai_generate_text",
+          "cosmic_ai_generate_image",
+          "cosmic_ai_generate_video",
+          "cosmic_ai_generate_audio",
+          "cosmic_blocks_list"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:32.941Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-32Z-2e0add",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "cosmic_objects_list",
+          "cosmic_objects_get",
+          "cosmic_objects_create",
+          "cosmic_objects_update",
+          "cosmic_objects_delete",
+          "cosmic_media_list",
+          "cosmic_media_get",
+          "cosmic_media_upload",
+          "cosmic_media_delete",
+          "cosmic_types_list",
+          "cosmic_types_get",
+          "cosmic_types_create",
+          "cosmic_types_update",
+          "cosmic_types_delete",
+          "cosmic_ai_generate_text",
+          "cosmic_ai_generate_image",
+          "cosmic_ai_generate_video",
+          "cosmic_ai_generate_audio",
+          "cosmic_blocks_list"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.cosmicjs/mcp",
+  "slug": "com.cosmicjs__mcp"
+}

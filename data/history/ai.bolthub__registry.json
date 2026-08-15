@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T01:49:18.684Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[mcp-registry] bolthub API Registry MCP\n[mcp-registry] One config → every API on the marketplace\nError: No wallet configured. Set one of the following:\n  LND_REST_HOST + LND_MACAROON         (recommended, fastest <200ms)\n  PHOENIXD_URL + PHOENIXD_PASSWORD     (fast <200ms, auto liquidity)\n  LNBITS_URL + LNBITS_ADMIN_KEY        (fast <300ms)\n  NWC_URI                              (easiest, but slower 1-3s)",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-14T20:23:10.254Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[mcp-registry] bolthub API Registry MCP\n[mcp-registry] One config → every API on the marketplace\nError: No wallet configured. Set one of the following:\n  LND_REST_HOST + LND_MACAROON         (recommended, fastest <200ms)\n  PHOENIXD_URL + PHOENIXD_PASSWORD     (fast <200ms, auto liquidity)\n  LNBITS_URL + LNBITS_ADMIN_KEY        (fast <300ms)\n  NWC_URI                              (easiest, but slower 1-3s)",
         "method": "npm",
@@ -18,6 +25,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T01:49:20.605Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[mcp-registry] bolthub API Registry MCP\n[mcp-registry] One config → every API on the marketplace\nError: No wallet configured. Set one of the following:\n  LND_REST_HOST + LND_MACAROON         (recommended, fastest <200ms)\n  PHOENIXD_URL + PHOENIXD_PASSWORD     (fast <200ms, auto liquidity)\n  LNBITS_URL + LNBITS_ADMIN_KEY        (fast <300ms)\n  NWC_URI                              (easiest, but slower 1-3s)",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-14T20:23:03.495Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[mcp-registry] bolthub API Registry MCP\n[mcp-registry] One config → every API on the marketplace\nError: No wallet configured. Set one of the following:\n  LND_REST_HOST + LND_MACAROON         (recommended, fastest <200ms)\n  PHOENIXD_URL + PHOENIXD_PASSWORD     (fast <200ms, auto liquidity)\n  LNBITS_URL + LNBITS_ADMIN_KEY        (fast <300ms)\n  NWC_URI                              (easiest, but slower 1-3s)",
         "method": "npm",
@@ -33,6 +47,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[mcp-registry] bolthub API Registry MCP\n[mcp-registry] One config → every API on the marketplace\nError: No wallet configured. Set one of the following:\n  LND_REST_HOST + LND_MACAROON         (recommended, fastest <200ms)\n  PHOENIXD_URL + PHOENIXD_PASSWORD     (fast <200ms, auto liquidity)\n  LNBITS_URL + LNBITS_ADMIN_KEY        (fast <300ms)\n  NWC_URI                              (easiest, but slower 1-3s)",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-14T20:23:28.035Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[mcp-registry] bolthub API Registry MCP\n[mcp-registry] One config → every API on the marketplace\nError: No wallet configured. Set one of the following:\n  LND_REST_HOST + LND_MACAROON         (recommended, fastest <200ms)\n  PHOENIXD_URL + PHOENIXD_PASSWORD     (fast <200ms, auto liquidity)\n  LNBITS_URL + LNBITS_ADMIN_KEY        (fast <300ms)\n  NWC_URI                              (easiest, but slower 1-3s)",

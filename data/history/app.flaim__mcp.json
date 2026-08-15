@@ -1,0 +1,69 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.684Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "get_user_session",
+          "refresh_leagues",
+          "get_ancient_history",
+          "get_league_info",
+          "get_standings",
+          "get_matchups",
+          "get_roster",
+          "get_free_agents",
+          "get_players",
+          "get_transactions"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.605Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "get_user_session",
+          "refresh_leagues",
+          "get_ancient_history",
+          "get_league_info",
+          "get_standings",
+          "get_matchups",
+          "get_roster",
+          "get_free_agents",
+          "get_players",
+          "get_transactions"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "get_user_session",
+          "refresh_leagues",
+          "get_ancient_history",
+          "get_league_info",
+          "get_standings",
+          "get_matchups",
+          "get_roster",
+          "get_free_agents",
+          "get_players",
+          "get_transactions"
+        ]
+      }
+    ]
+  },
+  "serverId": "app.flaim/mcp",
+  "slug": "app.flaim__mcp"
+}

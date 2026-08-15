@@ -2,6 +2,25 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T01:49:18.419Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-18Z-df0f6c",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "verify_dossier",
+          "read_dossier",
+          "list_dossiers",
+          "search_dossiers",
+          "resolve_graph",
+          "verify_graph",
+          "start_journey",
+          "step_complete",
+          "get_journey_status",
+          "cancel_journey"
+        ]
+      },
+      {
         "date": "2026-08-14T20:23:09.525Z",
         "method": "npm",
         "runId": "2026-08-14T20-23-09Z-35e1e7",
@@ -23,6 +42,25 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T01:49:21.179Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-21Z-2de383",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "verify_dossier",
+          "read_dossier",
+          "list_dossiers",
+          "search_dossiers",
+          "resolve_graph",
+          "verify_graph",
+          "start_journey",
+          "step_complete",
+          "get_journey_status",
+          "cancel_journey"
+        ]
+      },
+      {
         "date": "2026-08-14T20:23:00.382Z",
         "method": "npm",
         "runId": "2026-08-14T20-23-00Z-e49a74",
@@ -43,6 +81,25 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T01:49:32.941Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-32Z-2e0add",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "verify_dossier",
+          "read_dossier",
+          "list_dossiers",
+          "search_dossiers",
+          "resolve_graph",
+          "verify_graph",
+          "start_journey",
+          "step_complete",
+          "get_journey_status",
+          "cancel_journey"
+        ]
+      },
       {
         "date": "2026-08-14T20:23:35.929Z",
         "method": "npm",

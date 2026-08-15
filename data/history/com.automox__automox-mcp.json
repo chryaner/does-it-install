@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.419Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 67 packages in 144ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/d6e8G0wGrSVqkKNd/bin/automox-mcp\", line 12, in <module>\n    sys.exit(main())\n             ~~~~^^\n  File \"/Users/runner/.cache/uv/archive-v0/d6e8G0wGrSVqkKNd/lib/python3.14/site-packages/automox_mcp/__init__.py\", line 219, in main\n    mcp.run(transport=transport, show_banner=args.show_banner, **transport_kwargs)\n    ^^^^^^^\n  File \"/Users/runner/.cache/uv/archive-v0/d6e8G0wGrSVqkKNd/lib/python3.14/site-packages/automox_mcp/__init__.py\", line 32, in __getattr__\n    return getattr(self._get(), name)\n                   ~~~~~~~~~^^\n  File \"/Users/runner/.cache/uv/archive-v0/d6e8G0wGrSVqkKNd/lib/python3.14/site-packages/automox_mcp/__init__.py\", line 28, in _get\n    self._instance = create_server()\n                     ~~~~~~~~~~~~~^^\n  File \"/Users/runner/.cache/uv/archive-v0/d6e8G0wGrSVqkKNd/lib/python3.14/site-packages/automox_mcp/server.py\", line 172, in create_server\n    client = AutomoxClient()\n  File \"/Users/runner/.cache/uv/archive-v0/d6e8G0wGrSVqkKNd/lib/python3.14/site-packages/automox_mcp/client.py\", line 97, in __init__\n    raise ValueError(\n    ...<2 lines>...\n    )\nValueError: AUTOMOX_ACCOUNT_UUID contains invalid characters: 'DOES_IT_INSTALL_PLACEHOLDER'. Expected alphanumeric characters and hyphens only.",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-18Z-df0f6c",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:21.179Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 69 packages in 160ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/hWbzHTQLBUjr5Y4B/bin/automox-mcp\", line 12, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/runner/.cache/uv/archive-v0/hWbzHTQLBUjr5Y4B/lib/python3.12/site-packages/automox_mcp/__init__.py\", line 219, in main\n    mcp.run(transport=transport, show_banner=args.show_banner, **transport_kwargs)\n    ^^^^^^^\n  File \"/home/runner/.cache/uv/archive-v0/hWbzHTQLBUjr5Y4B/lib/python3.12/site-packages/automox_mcp/__init__.py\", line 32, in __getattr__\n    return getattr(self._get(), name)\n                   ^^^^^^^^^^^\n  File \"/home/runner/.cache/uv/archive-v0/hWbzHTQLBUjr5Y4B/lib/python3.12/site-packages/automox_mcp/__init__.py\", line 28, in _get\n    self._instance = create_server()\n                     ^^^^^^^^^^^^^^^\n  File \"/home/runner/.cache/uv/archive-v0/hWbzHTQLBUjr5Y4B/lib/python3.12/site-packages/automox_mcp/server.py\", line 172, in create_server\n    client = AutomoxClient()\n             ^^^^^^^^^^^^^^^\n  File \"/home/runner/.cache/uv/archive-v0/hWbzHTQLBUjr5Y4B/lib/python3.12/site-packages/automox_mcp/client.py\", line 97, in __init__\n    raise ValueError(\nValueError: AUTOMOX_ACCOUNT_UUID contains invalid characters: 'DOES_IT_INSTALL_PLACEHOLDER'. Expected alphanumeric characters and hyphens only.",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-21Z-2de383",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:32.941Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 70 packages in 10.08s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\9IQskEawyefvKJ9V\\Scripts\\automox-mcp.exe\\__main__.py\", line 10, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\9IQskEawyefvKJ9V\\Lib\\site-packages\\automox_mcp\\__init__.py\", line 219, in main\r\n    mcp.run(transport=transport, show_banner=args.show_banner, **transport_kwargs)\r\n    ^^^^^^^\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\9IQskEawyefvKJ9V\\Lib\\site-packages\\automox_mcp\\__init__.py\", line 32, in __getattr__\r\n    return getattr(self._get(), name)\r\n                   ^^^^^^^^^^^\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\9IQskEawyefvKJ9V\\Lib\\site-packages\\automox_mcp\\__init__.py\", line 28, in _get\r\n    self._instance = create_server()\r\n                     ^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\9IQskEawyefvKJ9V\\Lib\\site-packages\\automox_mcp\\server.py\", line 172, in create_server\r\n    client = AutomoxClient()\r\n             ^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\9IQskEawyefvKJ9V\\Lib\\site-packages\\automox_mcp\\client.py\", line 97, in __init__\r\n    raise ValueError(\r\nValueError: AUTOMOX_ACCOUNT_UUID contains invalid characters: 'DOES_IT_INSTALL_PLACEHOLDER'. Expected alphanumeric characters and hyphens only.",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-32Z-2e0add",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "com.automox/automox-mcp",
+  "slug": "com.automox__automox-mcp"
+}

@@ -2,6 +2,30 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T01:49:18.684Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "balance",
+          "usdc_balance",
+          "block_number",
+          "get_tx_receipt",
+          "call",
+          "recent_transfers",
+          "verify_x402_settlement",
+          "parse_x402_manifest",
+          "usdc_recent_payments_to",
+          "probe_x402_endpoint",
+          "decode_x402_payment_payload",
+          "verify_afta_federation",
+          "tf_payment_lookup",
+          "x402_publisher_health",
+          "afta_federation_members"
+        ]
+      },
+      {
         "date": "2026-08-14T20:23:10.254Z",
         "method": "npm",
         "runId": "2026-08-14T20-23-10Z-ab7350",
@@ -28,6 +52,30 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T01:49:20.605Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "balance",
+          "usdc_balance",
+          "block_number",
+          "get_tx_receipt",
+          "call",
+          "recent_transfers",
+          "verify_x402_settlement",
+          "parse_x402_manifest",
+          "usdc_recent_payments_to",
+          "probe_x402_endpoint",
+          "decode_x402_payment_payload",
+          "verify_afta_federation",
+          "tf_payment_lookup",
+          "x402_publisher_health",
+          "afta_federation_members"
+        ]
+      },
+      {
         "date": "2026-08-14T20:23:03.495Z",
         "method": "npm",
         "runId": "2026-08-14T20-23-03Z-54916a",
@@ -53,6 +101,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "errorExcerpt": "npm install @tensorfeed/x402-base-mcp@0.2.1 timed out after 600s",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "timeout"
+      },
       {
         "date": "2026-08-14T20:23:28.035Z",
         "errorExcerpt": "npm install @tensorfeed/x402-base-mcp@0.2.1 timed out after 300s",

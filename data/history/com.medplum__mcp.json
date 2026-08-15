@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:17.022Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"resourceType\":\"OperationOutcome\",\"id\":\"unauthorized\",\"issue\":[{\"severity\":\"error\",\"code\":\"login\",\"details\":{\"text\":\"Unauthorized\"}}],\"extension\":[{\"url\":\"https://medplum.com/fhir/StructureDefinition/tracing\",\"extension\":[{\"url\":\"requestId\",\"valueId\":\"6b3ce307-1dd2-482a-96f0-4d954d0c9226\"},{\"url\":\"traceId\",\"valueId\":\"1-6a7fc59d-199248683ab07c85329fec78\"}]}]} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-17Z-8b8e8b",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.415Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"resourceType\":\"OperationOutcome\",\"id\":\"unauthorized\",\"issue\":[{\"severity\":\"error\",\"code\":\"login\",\"details\":{\"text\":\"Unauthorized\"}}],\"extension\":[{\"url\":\"https://medplum.com/fhir/StructureDefinition/tracing\",\"extension\":[{\"url\":\"requestId\",\"valueId\":\"044229ac-c748-4c05-b326-00efb01ca07e\"},{\"url\":\"traceId\",\"valueId\":\"1-6a7fc5a0-441da4b1119995773f5e310a\"}]}]} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-20Z-238791",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:50:04.636Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"resourceType\":\"OperationOutcome\",\"id\":\"unauthorized\",\"issue\":[{\"severity\":\"error\",\"code\":\"login\",\"details\":{\"text\":\"Unauthorized\"}}],\"extension\":[{\"url\":\"https://medplum.com/fhir/StructureDefinition/tracing\",\"extension\":[{\"url\":\"requestId\",\"valueId\":\"dc26f2fa-a310-4587-9800-beb8beb885cc\"},{\"url\":\"traceId\",\"valueId\":\"1-6a7fc5cd-719dd18b608f19fd3d0231b3\"}]}]} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-50-04Z-2bdea0",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "com.medplum/mcp",
+  "slug": "com.medplum__mcp"
+}

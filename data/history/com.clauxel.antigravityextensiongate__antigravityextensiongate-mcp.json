@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.419Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND antigravityextensiongate.clauxel.com",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-18Z-df0f6c",
+        "status": "connect_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:21.179Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND antigravityextensiongate.clauxel.com",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-21Z-2de383",
+        "status": "connect_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:32.941Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND antigravityextensiongate.clauxel.com",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-32Z-2e0add",
+        "status": "connect_failed"
+      }
+    ]
+  },
+  "serverId": "com.clauxel.antigravityextensiongate/antigravityextensiongate-mcp",
+  "slug": "com.clauxel.antigravityextensiongate__antigravityextensiongate-mcp"
+}

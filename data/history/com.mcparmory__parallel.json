@@ -1,0 +1,111 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.684Z",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "search_web",
+          "extract_content_from_urls",
+          "create_task_run",
+          "get_task_run",
+          "get_task_run_input",
+          "get_task_run_result",
+          "stream_task_run_events",
+          "create_task_group",
+          "get_taskgroup",
+          "stream_task_group_events",
+          "list_task_group_runs",
+          "add_runs_to_task_group",
+          "get_task_group_run",
+          "create_findall_spec_from_objective",
+          "create_findall_run",
+          "list_monitors",
+          "create_monitor",
+          "list_monitors_paginated",
+          "get_monitor",
+          "update_monitor",
+          "delete_monitor",
+          "get_event_group",
+          "list_monitor_events",
+          "simulate_monitor_event"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.605Z",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "search_web",
+          "extract_content_from_urls",
+          "create_task_run",
+          "get_task_run",
+          "get_task_run_input",
+          "get_task_run_result",
+          "stream_task_run_events",
+          "create_task_group",
+          "get_taskgroup",
+          "stream_task_group_events",
+          "list_task_group_runs",
+          "add_runs_to_task_group",
+          "get_task_group_run",
+          "create_findall_spec_from_objective",
+          "create_findall_run",
+          "list_monitors",
+          "create_monitor",
+          "list_monitors_paginated",
+          "get_monitor",
+          "update_monitor",
+          "delete_monitor",
+          "get_event_group",
+          "list_monitor_events",
+          "simulate_monitor_event"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "search_web",
+          "extract_content_from_urls",
+          "create_task_run",
+          "get_task_run",
+          "get_task_run_input",
+          "get_task_run_result",
+          "stream_task_run_events",
+          "create_task_group",
+          "get_taskgroup",
+          "stream_task_group_events",
+          "list_task_group_runs",
+          "add_runs_to_task_group",
+          "get_task_group_run",
+          "create_findall_spec_from_objective",
+          "create_findall_run",
+          "list_monitors",
+          "create_monitor",
+          "list_monitors_paginated",
+          "get_monitor",
+          "update_monitor",
+          "delete_monitor",
+          "get_event_group",
+          "list_monitor_events",
+          "simulate_monitor_event"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.mcparmory/parallel",
+  "slug": "com.mcparmory__parallel"
+}

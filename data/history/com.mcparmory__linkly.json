@@ -1,0 +1,93 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:17.022Z",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-17Z-8b8e8b",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "add_domain_to_workspace",
+          "get_link",
+          "create_or_update_link",
+          "get_link_analytics",
+          "list_webhooks_for_link",
+          "get_clicks_analytics",
+          "get_click_counters_by_dimension",
+          "list_domains",
+          "add_domain_to_workspace_by_id",
+          "delete_domain",
+          "update_domain_favicon",
+          "create_or_update_link_batch",
+          "delete_links",
+          "export_links",
+          "delete_link",
+          "list_links",
+          "list_workspaces",
+          "delete_webhook_from_link"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.415Z",
+        "method": "pypi",
+        "runId": "2026-08-15T01-49-20Z-238791",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "add_domain_to_workspace",
+          "get_link",
+          "create_or_update_link",
+          "get_link_analytics",
+          "list_webhooks_for_link",
+          "get_clicks_analytics",
+          "get_click_counters_by_dimension",
+          "list_domains",
+          "add_domain_to_workspace_by_id",
+          "delete_domain",
+          "update_domain_favicon",
+          "create_or_update_link_batch",
+          "delete_links",
+          "export_links",
+          "delete_link",
+          "list_links",
+          "list_workspaces",
+          "delete_webhook_from_link"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:50:04.636Z",
+        "method": "pypi",
+        "runId": "2026-08-15T01-50-04Z-2bdea0",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "add_domain_to_workspace",
+          "get_link",
+          "create_or_update_link",
+          "get_link_analytics",
+          "list_webhooks_for_link",
+          "get_clicks_analytics",
+          "get_click_counters_by_dimension",
+          "list_domains",
+          "add_domain_to_workspace_by_id",
+          "delete_domain",
+          "update_domain_favicon",
+          "create_or_update_link_batch",
+          "delete_links",
+          "export_links",
+          "delete_link",
+          "list_links",
+          "list_workspaces",
+          "delete_webhook_from_link"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.mcparmory/linkly",
+  "slug": "com.mcparmory__linkly"
+}

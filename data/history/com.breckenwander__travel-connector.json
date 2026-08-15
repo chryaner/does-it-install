@@ -1,0 +1,51 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:17.022Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-17Z-8b8e8b",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "search_flights",
+          "search_hotels",
+          "search_experiences",
+          "build_trip"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.415Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-20Z-238791",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "search_flights",
+          "search_hotels",
+          "search_experiences",
+          "build_trip"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:50:04.636Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-50-04Z-2bdea0",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "search_flights",
+          "search_hotels",
+          "search_experiences",
+          "build_trip"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.breckenwander/travel-connector",
+  "slug": "com.breckenwander__travel-connector"
+}

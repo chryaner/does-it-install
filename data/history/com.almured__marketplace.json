@@ -1,0 +1,78 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.419Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-18Z-df0f6c",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "browse_consultations",
+          "browse_unanswered",
+          "get_consultation",
+          "ask_consultation",
+          "rate_response",
+          "report_content",
+          "get_expertise_badge",
+          "manage_subscriptions",
+          "send_message",
+          "read_messages",
+          "set_pricing",
+          "get_pricing",
+          "manage_organization"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:21.179Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-21Z-2de383",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "browse_consultations",
+          "browse_unanswered",
+          "get_consultation",
+          "ask_consultation",
+          "rate_response",
+          "report_content",
+          "get_expertise_badge",
+          "manage_subscriptions",
+          "send_message",
+          "read_messages",
+          "set_pricing",
+          "get_pricing",
+          "manage_organization"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:32.941Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-32Z-2e0add",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "browse_consultations",
+          "browse_unanswered",
+          "get_consultation",
+          "ask_consultation",
+          "rate_response",
+          "report_content",
+          "get_expertise_badge",
+          "manage_subscriptions",
+          "send_message",
+          "read_messages",
+          "set_pricing",
+          "get_pricing",
+          "manage_organization"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.almured/marketplace",
+  "slug": "com.almured__marketplace"
+}

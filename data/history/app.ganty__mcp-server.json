@@ -1,0 +1,84 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.684Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-18Z-a30774",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "list_workspaces",
+          "list_projects",
+          "create_project",
+          "delete_project",
+          "list_tasks",
+          "get_task",
+          "list_milestones",
+          "create_milestone",
+          "create_task",
+          "update_task",
+          "set_task_progress",
+          "add_dependency",
+          "delete_task",
+          "get_critical_path",
+          "reschedule_and_propagate"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.605Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-20Z-b188f1",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "list_workspaces",
+          "list_projects",
+          "create_project",
+          "delete_project",
+          "list_tasks",
+          "get_task",
+          "list_milestones",
+          "create_milestone",
+          "create_task",
+          "update_task",
+          "set_task_progress",
+          "add_dependency",
+          "delete_task",
+          "get_critical_path",
+          "reschedule_and_propagate"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:39.142Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-39Z-2d8be1",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "list_workspaces",
+          "list_projects",
+          "create_project",
+          "delete_project",
+          "list_tasks",
+          "get_task",
+          "list_milestones",
+          "create_milestone",
+          "create_task",
+          "update_task",
+          "set_task_progress",
+          "add_dependency",
+          "delete_task",
+          "get_critical_path",
+          "reschedule_and_propagate"
+        ]
+      }
+    ]
+  },
+  "serverId": "app.ganty/mcp-server",
+  "slug": "app.ganty__mcp-server"
+}

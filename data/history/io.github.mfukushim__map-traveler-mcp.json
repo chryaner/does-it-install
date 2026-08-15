@@ -1,0 +1,53 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:17.022Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-17Z-8b8e8b",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "get_traveler_view_info",
+          "get_traveler_location",
+          "tips",
+          "get_setting",
+          "get_traveler_info",
+          "set_traveler_info",
+          "start_traveler_journey",
+          "stop_traveler_journey"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.415Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-20Z-238791",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "get_traveler_view_info",
+          "get_traveler_location",
+          "tips",
+          "get_setting",
+          "get_traveler_info",
+          "set_traveler_info",
+          "start_traveler_journey",
+          "stop_traveler_journey"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:50:04.636Z",
+        "errorExcerpt": "npm install @mfukushim/map-traveler-mcp@0.1.4 timed out after 600s",
+        "method": "npm",
+        "runId": "2026-08-15T01-50-04Z-2bdea0",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "io.github.mfukushim/map-traveler-mcp",
+  "slug": "io.github.mfukushim__map-traveler-mcp"
+}

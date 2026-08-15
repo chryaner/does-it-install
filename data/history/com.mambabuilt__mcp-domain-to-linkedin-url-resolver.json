@@ -1,0 +1,42 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.419Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-18Z-df0f6c",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "resolve_linkedin_url"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:21.179Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-21Z-2de383",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "resolve_linkedin_url"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:32.941Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-32Z-2e0add",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "resolve_linkedin_url"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.mambabuilt/mcp-domain-to-linkedin-url-resolver",
+  "slug": "com.mambabuilt__mcp-domain-to-linkedin-url-resolver"
+}

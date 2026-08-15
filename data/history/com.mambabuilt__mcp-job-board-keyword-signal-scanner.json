@@ -1,0 +1,42 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:17.022Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-17Z-8b8e8b",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "scan_job_board_keywords"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:20.415Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-20Z-238791",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "scan_job_board_keywords"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:50:04.636Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-50-04Z-2bdea0",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "scan_job_board_keywords"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.mambabuilt/mcp-job-board-keyword-signal-scanner",
+  "slug": "com.mambabuilt__mcp-job-board-keyword-signal-scanner"
+}

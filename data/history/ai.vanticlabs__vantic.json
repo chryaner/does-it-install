@@ -2,6 +2,19 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T01:49:18.419Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-18Z-df0f6c",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "mandate_authorize",
+          "mandate_verify_chain",
+          "mandate_verify_credential",
+          "mandate_resolve_did"
+        ]
+      },
+      {
         "date": "2026-08-14T20:23:05.405Z",
         "method": "npm",
         "runId": "2026-08-14T20-23-05Z-90f533",
@@ -17,6 +30,19 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T01:49:21.179Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-21Z-2de383",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "mandate_authorize",
+          "mandate_verify_chain",
+          "mandate_verify_credential",
+          "mandate_resolve_did"
+        ]
+      },
+      {
         "date": "2026-08-14T20:23:06.300Z",
         "method": "npm",
         "runId": "2026-08-14T20-23-06Z-df9438",
@@ -31,6 +57,19 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T01:49:32.941Z",
+        "method": "npm",
+        "runId": "2026-08-15T01-49-32Z-2e0add",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "mandate_authorize",
+          "mandate_verify_chain",
+          "mandate_verify_credential",
+          "mandate_resolve_did"
+        ]
+      },
       {
         "date": "2026-08-14T20:23:24.859Z",
         "method": "npm",

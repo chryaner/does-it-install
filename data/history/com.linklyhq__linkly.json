@@ -1,0 +1,114 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T01:49:18.419Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-18Z-df0f6c",
+        "status": "pass",
+        "toolCount": 25,
+        "toolNames": [
+          "test_authentication",
+          "list_workspaces",
+          "batchDeleteLinks",
+          "update_workspace",
+          "list_links",
+          "ping",
+          "create_link",
+          "update_link",
+          "delete_link",
+          "get_link",
+          "get_clicks",
+          "get_analytics",
+          "get_analytics_by",
+          "export_clicks",
+          "list_domains",
+          "create_domain",
+          "delete_domain",
+          "update_domain_favicon",
+          "search_links",
+          "list_webhooks",
+          "subscribe_webhook",
+          "unsubscribe_webhook",
+          "list_link_webhooks",
+          "subscribe_link_webhook",
+          "unsubscribe_link_webhook"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T01:49:21.179Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-21Z-2de383",
+        "status": "pass",
+        "toolCount": 25,
+        "toolNames": [
+          "test_authentication",
+          "list_workspaces",
+          "batchDeleteLinks",
+          "update_workspace",
+          "list_links",
+          "ping",
+          "create_link",
+          "update_link",
+          "delete_link",
+          "get_link",
+          "get_clicks",
+          "get_analytics",
+          "get_analytics_by",
+          "export_clicks",
+          "list_domains",
+          "create_domain",
+          "delete_domain",
+          "update_domain_favicon",
+          "search_links",
+          "list_webhooks",
+          "subscribe_webhook",
+          "unsubscribe_webhook",
+          "list_link_webhooks",
+          "subscribe_link_webhook",
+          "unsubscribe_link_webhook"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T01:49:32.941Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T01-49-32Z-2e0add",
+        "status": "pass",
+        "toolCount": 25,
+        "toolNames": [
+          "test_authentication",
+          "list_workspaces",
+          "batchDeleteLinks",
+          "update_workspace",
+          "list_links",
+          "ping",
+          "create_link",
+          "update_link",
+          "delete_link",
+          "get_link",
+          "get_clicks",
+          "get_analytics",
+          "get_analytics_by",
+          "export_clicks",
+          "list_domains",
+          "create_domain",
+          "delete_domain",
+          "update_domain_favicon",
+          "search_links",
+          "list_webhooks",
+          "subscribe_webhook",
+          "unsubscribe_webhook",
+          "list_link_webhooks",
+          "subscribe_link_webhook",
+          "unsubscribe_link_webhook"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.linklyhq/linkly",
+  "slug": "com.linklyhq__linkly"
+}
