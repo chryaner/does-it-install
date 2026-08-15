@@ -41,6 +41,7 @@ const HISTORY: ServerHistory = {
         method: 'npm',
         toolCount: 4,
         toolNames: ['echo', 'add', 'printEnv', 'longRunningOperation'],
+        installMs: 552_123,
       },
       { runId: 'run-1', date: '2026-08-01T00:00:00.000Z', status: 'timeout', method: 'npm' },
     ],
@@ -288,6 +289,24 @@ describe('parseServerHistory', () => {
       'longRunningOperation',
     ]);
     expect(parsed.platforms.linux?.[1] && 'toolNames' in parsed.platforms.linux[1]).toBe(false);
+  });
+
+  it('round-trips the install duration of an entry', () => {
+    const parsed = parseServerHistory(JSON.parse(serializeHistory(HISTORY)), HISTORY.slug);
+
+    expect(parsed.platforms.linux?.[0]?.installMs).toBe(552_123);
+    // The older entry recorded none, and none is what comes back.
+    expect(parsed.platforms.linux?.[1] && 'installMs' in parsed.platforms.linux[1]).toBe(false);
+  });
+
+  it('treats an install duration that is not a number as corrupt', () => {
+    const document = {
+      serverId: 'x',
+      slug: 'broken',
+      platforms: { linux: [{ runId: 'r', date: 'd', status: 'pass', method: 'npm', installMs: 'ages' }] },
+    };
+
+    expect(() => parseServerHistory(document, 'broken')).toThrow(/installMs must be a finite number/);
   });
 
   it('accepts needs_auth as a status and round-trips it', () => {

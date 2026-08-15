@@ -208,6 +208,8 @@ function parseHistoryEntry(value: unknown): HistoryEntry {
   };
   const toolCount = optionalNumber(record['toolCount'], 'toolCount');
   if (toolCount !== undefined) entry.toolCount = toolCount;
+  const installMs = optionalNumber(record['installMs'], 'installMs');
+  if (installMs !== undefined) entry.installMs = installMs;
   const toolNames = optionalStringArray(record['toolNames'], 'toolNames');
   if (toolNames) entry.toolNames = toolNames;
   const errorExcerpt = optionalString(record['errorExcerpt'], 'errorExcerpt');

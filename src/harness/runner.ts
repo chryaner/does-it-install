@@ -1,7 +1,8 @@
 /**
  * Sweep runner: choose which catalogued servers to probe, run them through a
- * bounded worker pool, and assemble the run file. One server hanging, crashing
- * or exploding must never take the sweep down.
+ * bounded worker pool, give install timeouts one uncontended retry, and
+ * assemble the run file. One server hanging, crashing or exploding must never
+ * take the sweep down.
  */
 import { randomBytes } from 'node:crypto';
 import os from 'node:os';
@@ -102,42 +103,77 @@ export async function runSweep(catalog: Catalog, options: SweepOptions = {}): Pr
   let nextIndex = 0;
   let completed = 0;
 
+  const pastDeadline = (): boolean => options.deadline !== undefined && Date.now() >= options.deadline;
+
+  const probeOnce = async (entry: ServerEntry, withOptions: ProbeOptions): Promise<ProbeResult> => {
+    const probeStartedAt = new Date();
+    const probeStartedMs = Date.now();
+    try {
+      return await probe(entry, withOptions);
+    } catch (err) {
+      // probeServer is written never to throw; if it ever does, the sweep
+      // still finishes and says what happened.
+      return {
+        serverId: entry.id,
+        slug: entry.slug,
+        platform: probeOptions.platform,
+        method: 'none',
+        status: 'skipped',
+        phases: {},
+        errorExcerpt: `harness error: ${describeError(err)}`,
+        startedAt: probeStartedAt.toISOString(),
+        durationMs: Date.now() - probeStartedMs
+      };
+    }
+  };
+
   const worker = async (): Promise<void> => {
     for (;;) {
-      if (options.deadline !== undefined && Date.now() >= options.deadline) return;
+      if (pastDeadline()) return;
       const index = nextIndex;
       nextIndex += 1;
       const entry = entries[index];
       if (!entry) return;
 
-      const probeStartedAt = new Date();
-      const probeStartedMs = Date.now();
-      let result: ProbeResult;
-      try {
-        result = await probe(entry, probeOptions);
-      } catch (err) {
-        // probeServer is written never to throw; if it ever does, the sweep
-        // still finishes and says what happened.
-        result = {
-          serverId: entry.id,
-          slug: entry.slug,
-          platform: probeOptions.platform,
-          method: 'none',
-          status: 'skipped',
-          phases: {},
-          errorExcerpt: `harness error: ${describeError(err)}`,
-          startedAt: probeStartedAt.toISOString(),
-          durationMs: Date.now() - probeStartedMs
-        };
-      }
+      const result = await probeOnce(entry, probeOptions);
       results[index] = result;
       completed += 1;
-      const seconds = (result.durationMs / 1000).toFixed(1);
-      log(`[${completed}/${entries.length}] ${entry.id} ... ${result.status} (${seconds}s)`);
+      log(`[${completed}/${entries.length}] ${entry.id} ... ${result.status} (${seconds(result.durationMs)}s)`);
     }
   };
 
   await Promise.all(Array.from({ length: Math.min(concurrency, entries.length) }, () => worker()));
+
+  // Second chance: the pool runs `concurrency` probes at once on runners with
+  // about that many cores, so a package that compiles native code during
+  // install can lose the race for CPU and blow its budget while it would have
+  // fit comfortably on its own. That is the one failure the sweep itself
+  // causes, so those entries get re-probed alone before the result stands.
+  const retries = installTimeouts(entries, results);
+  if (retries.length > 0 && !pastDeadline()) {
+    log(`second chance: ${retries.length} install timeout${retries.length === 1 ? '' : 's'}, retrying serially`);
+
+    // Double the install budget for the retry: it exists to answer "was it
+    // just slow?", it runs alone so the extra time is bounded to these few
+    // entries, and a package that cannot install in twenty uncontended
+    // minutes is broken in practice.
+    const retryOptions: ProbeOptions = {
+      ...probeOptions,
+      timeouts: { ...probeOptions.timeouts, install: probeOptions.timeouts.install * 2 }
+    };
+
+    let retried = 0;
+    for (const [index, entry] of retries) {
+      // A retry that would start after the deadline is not started at all;
+      // that entry keeps its contended result.
+      if (pastDeadline()) break;
+      const result = await probeOnce(entry, retryOptions);
+      // Whatever it says, the uncontended measurement is the truer one.
+      results[index] = result;
+      retried += 1;
+      log(`second chance [${retried}/${retries.length}] ${entry.id} ... ${result.status} (${seconds(result.durationMs)}s)`);
+    }
+  }
 
   // Preallocated slots for entries the deadline cut off stay empty.
   const probed = results.filter((result): result is ProbeResult => result !== undefined);
@@ -154,6 +190,32 @@ export async function runSweep(catalog: Catalog, options: SweepOptions = {}): Pr
     osVersion: os.release(),
     results: probed
   };
+}
+
+/**
+ * Entries whose probe timed out while installing, paired with their slot in
+ * `results` and kept in the original order. An install-phase timeout is the
+ * only outcome CPU contention between workers plausibly explains: everything
+ * later either talks to a process that already started or to a remote host.
+ */
+function installTimeouts(
+  entries: readonly ServerEntry[],
+  results: readonly (ProbeResult | undefined)[]
+): [number, ServerEntry][] {
+  const retryable: [number, ServerEntry][] = [];
+  for (const [index, result] of results.entries()) {
+    const entry = entries[index];
+    if (entry === undefined || result === undefined) continue;
+    if (result.status === 'timeout' && result.phases.install?.ok === false) {
+      retryable.push([index, entry]);
+    }
+  }
+  return retryable;
+}
+
+/** Probe duration the way every progress line reports it: `1.2` seconds. */
+function seconds(durationMs: number): string {
+  return (durationMs / 1000).toFixed(1);
 }
 
 /** Counts of each status in a run, for the CLI summary. */

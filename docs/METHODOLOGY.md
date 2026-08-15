@@ -150,6 +150,40 @@ failed. The sweep workflow installs uv with `continue-on-error`, so an outage
 in that action degrades PyPI coverage for a week instead of taking the sweep
 down.
 
+### Install timeouts get a second, uncontended chance
+
+Four probes run at once on four-core runners, so a package that compiles native
+code during `npm install` competes for CPU with three neighbours and can exceed
+the 600 s budget while fitting inside it comfortably on its own. Contention is
+the one failure the harness itself causes, so it is the one failure the harness
+retries.
+
+When the worker pool has finished, every result that is `timeout` *and* has a
+failed `install` phase is probed again, once each, strictly serially, with
+nothing else running on the machine. The retry gets **twice the install budget**
+(1200 s); every other phase budget is unchanged. It exists to answer one
+question, "was it just slow?", it runs alone so the extra time is bounded to a
+handful of entries, and a package that cannot install in twenty uncontended
+minutes is broken in practice.
+
+The retry result replaces the original whatever it says, a second timeout
+included: the uncontended measurement is the truer one. Retries respect the
+sweep deadline (`--deadline`), so entries it does not reach keep their original
+result. **`timed out` on this site therefore means the server exceeded its
+budget with the runner to itself**, not that it lost a race against its
+neighbours.
+
+### Slow installs that still pass
+
+Every history entry records the install phase duration as `installMs`, whether
+the install succeeded or failed. A server that passes after spending more than
+a minute installing says so under its result on the server page ("Install took
+9m 12s on this platform."); below that threshold the page shows nothing,
+because the number is noise. A pass is still a pass, but ten minutes of `npm
+install` is part of what using the server is like, and a green pill on its own
+hides it. `index.json` carries the raw `installMs` for every platform that has
+one, so a consumer can pick its own threshold.
+
 ## 4. Environment variables
 
 The harness has no credentials and does not want any.

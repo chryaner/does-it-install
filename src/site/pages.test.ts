@@ -114,12 +114,15 @@ const HISTORIES = new Map<string, ServerHistory>([
             status: 'pass',
             toolCount: 12,
             toolNames: ['echo', TOOL_XSS],
+            installMs: 41_000,
           }),
           entry({ date: '2026-08-07T03:00:00.000Z', status: 'pass', toolCount: 12 }),
           entry({ date: '2026-07-31T03:00:00.000Z', status: 'install_failed' }),
         ],
-        // No names recorded: older runs predate them.
-        darwin: [entry({ date: '2026-08-14T03:00:00.000Z', status: 'pass', toolCount: 12 })],
+        // No names recorded: older runs predate them. Slow install, unlike Linux.
+        darwin: [
+          entry({ date: '2026-08-14T03:00:00.000Z', status: 'pass', toolCount: 12, installMs: 552_123 }),
+        ],
       },
     },
   ],
@@ -182,6 +185,23 @@ function verdictOf(slug: string, statuses: readonly ProbeStatus[]): string {
   return pageOf(build(catalog, OPTIONS, new Map([[slug, history]])), 'index.html');
 }
 
+/** One server, one platform, one install duration: the shortest slow-install case. */
+function slowInstallPage(installMs: number, status: ProbeStatus = 'pass'): string {
+  const slug = 'slow-install';
+  const history: ServerHistory = {
+    serverId: slug,
+    slug,
+    platforms: {
+      linux: [entry({ date: '2026-08-14T03:00:00.000Z', status, toolCount: 1, installMs })],
+    },
+  };
+
+  return pageOf(
+    build({ generatedAt: '', servers: [{ ...PASSING, slug }] }, OPTIONS, new Map([[slug, history]])),
+    `s/${slug}.html`,
+  );
+}
+
 function pageOf(pages: Map<string, string>, path: string): string {
   const html = pages.get(path);
   if (html === undefined) throw new Error(`missing page ${path}`);
@@ -201,7 +221,7 @@ interface FeedServer {
   repoUrl?: string;
   stars?: number;
   install: string;
-  platforms: Record<string, { status: string; date: string; toolCount?: number }>;
+  platforms: Record<string, { status: string; date: string; toolCount?: number; installMs?: number }>;
 }
 
 interface Feed {
@@ -508,6 +528,36 @@ describe('server page', () => {
     expect(hostile).not.toContain('returned');
   });
 
+  it('says how long a slow install took, and stays quiet about a quick one', () => {
+    const linux = passing.slice(passing.indexOf('<h3>Linux</h3>'), passing.indexOf('<h3>macOS</h3>'));
+    const darwin = passing.slice(passing.indexOf('<h3>macOS</h3>'), passing.indexOf('<h3>Windows</h3>'));
+
+    expect(darwin).toContain('<p class="muted">Install took 9m 12s on this platform.</p>');
+    // The line follows the tool list, so the platform block reads in probe order.
+    expect(darwin.indexOf('returned 12 tools')).toBeLessThan(darwin.indexOf('Install took'));
+    // Linux installed in 41s, which is not worth a line.
+    expect(linux).not.toContain('Install took');
+  });
+
+  it.each([
+    [60_001, '1m 0s'],
+    [552_123, '9m 12s'],
+    [3_659_400, '60m 59s'],
+  ])('renders an install of %dms as %s', (installMs, expected) => {
+    expect(slowInstallPage(installMs)).toContain(`Install took ${expected} on this platform.`);
+  });
+
+  it('says nothing about a duration at or below the one minute threshold', () => {
+    expect(slowInstallPage(60_000)).not.toContain('Install took');
+    expect(slowInstallPage(12_000)).not.toContain('Install took');
+  });
+
+  it('says nothing about the install duration of a probe that did not pass', () => {
+    // A failure that spent ten minutes installing has an excerpt; that is the story.
+    expect(slowInstallPage(600_000, 'install_failed')).not.toContain('Install took');
+    expect(slowInstallPage(600_000, 'needs_auth')).not.toContain('Install took');
+  });
+
   it('greys out skipped platforms instead of failing them', () => {
     expect(hostile).toContain('<span class="verdict none">not tested</span>');
     expect(hostile).toContain('<span class="sq none" title="2026-08-14: skipped"></span>');
@@ -600,6 +650,13 @@ describe('methodology and 404 pages', () => {
     expect(methodology).not.toContain('It can mean the server needs credentials we do not have');
   });
 
+  it('explains the second chance for install timeouts and the slow install note', () => {
+    const methodology = pageOf(pages, 'methodology.html');
+    expect(methodology).toContain('double the install budget');
+    expect(methodology).toContain('exceeded its budget with the runner to itself');
+    expect(methodology).toContain('took more than a minute to install');
+  });
+
   it('keeps 404 minimal but navigable', () => {
     const notFound = pageOf(pages, '404.html');
     expect(notFound).toContain('<h1>404</h1>');
@@ -686,13 +743,26 @@ describe('index.json', () => {
 
   it('reports the latest entry for probed platforms only', () => {
     expect(serverOf(pages, PASSING.slug).platforms).toEqual({
-      linux: { status: 'pass', date: '2026-08-14T03:00:00.000Z', toolCount: 12 },
-      darwin: { status: 'pass', date: '2026-08-14T03:00:00.000Z', toolCount: 12 },
+      linux: { status: 'pass', date: '2026-08-14T03:00:00.000Z', toolCount: 12, installMs: 41_000 },
+      darwin: { status: 'pass', date: '2026-08-14T03:00:00.000Z', toolCount: 12, installMs: 552_123 },
     });
     expect(serverOf(pages, HOSTILE.slug).platforms).toEqual({
       linux: { status: 'install_failed', date: '2026-08-14T03:00:00.000Z' },
       win32: { status: 'skipped', date: '2026-08-14T03:00:00.000Z' },
     });
+  });
+
+  it('carries every install duration it has, not only the slow ones', () => {
+    const platforms = serverOf(pages, PASSING.slug).platforms;
+
+    // 41s is too quick to earn a line on the page, but a consumer may still
+    // want it, so the feed reports both and picks no threshold.
+    expect(platforms.linux?.installMs).toBe(41_000);
+    expect(platforms.darwin?.installMs).toBe(552_123);
+
+    // A history entry with no duration recorded gains no key.
+    const hostile = serverOf(pages, HOSTILE.slug).platforms.linux;
+    expect(hostile !== undefined && 'installMs' in hostile).toBe(false);
   });
 
   it('carries the star count as a number, for servers that have one', () => {

@@ -83,6 +83,33 @@ describe('mergeRuns', () => {
     expect(entry && 'toolNames' in entry).toBe(false);
   });
 
+  it('carries the install duration, whether the install worked or not', () => {
+    const run = makeRun('run-1', '2026-08-01T03:00:00.000Z', [
+      makeResult({ phases: { install: { ok: true, durationMs: 552_123 }, handshake: { ok: true, durationMs: 40 } } }),
+      makeResult({
+        slug: 'io.github.acme__broken',
+        serverId: 'io.github.acme/broken',
+        status: 'install_failed',
+        phases: { install: { ok: false, durationMs: 4_200 } },
+      }),
+    ]);
+
+    const merged = mergeRuns([run], new Map());
+
+    expect(entries(merged, 'io.github.acme__thing', 'linux')[0]?.installMs).toBe(552_123);
+    expect(entries(merged, 'io.github.acme__broken', 'linux')[0]?.installMs).toBe(4_200);
+  });
+
+  it('records no install duration for a probe that installed nothing', () => {
+    const run = makeRun('run-1', '2026-08-01T03:00:00.000Z', [
+      makeResult({ method: 'remote-http', phases: { connect: { ok: true, durationMs: 120 } } }),
+    ]);
+
+    const [entry] = entries(mergeRuns([run], new Map()), 'io.github.acme__thing', 'linux');
+
+    expect(entry && 'installMs' in entry).toBe(false);
+  });
+
   it('carries the tool names of a passing probe and stays idempotent', () => {
     const run = makeRun('run-1', '2026-08-01T03:00:00.000Z', [
       makeResult({ status: 'pass', toolCount: 2, toolNames: ['echo', 'add'] }),

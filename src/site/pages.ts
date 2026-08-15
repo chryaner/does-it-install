@@ -70,6 +70,13 @@ const STATUS_PHRASES: Record<ProbeStatus, string> = {
   skipped: 'not tested',
 };
 
+/**
+ * How slow an install has to be before a passing platform block mentions it.
+ * Under a minute the number is noise; past it, "it works, but you will wait"
+ * is a fact about the server that a green pill alone hides.
+ */
+const SLOW_INSTALL_MS = 60_000;
+
 interface Install {
   /** Distribution the sweep would pick: npm, then pypi, then remote. */
   label: 'npm' | 'pypi' | 'remote' | 'none';
@@ -284,6 +291,7 @@ function platformBlock(view: ServerView, platform: Platform): string {
     `<header><h3>${escapeHtml(label)}</h3><span class="verdict ${toneOf(latest.status)}">${escapeHtml(statusPhrase(latest.status))}</span><span class="muted">${when}</span></header>`,
     historyStrip(entries),
     toolsBlock(latest),
+    slowInstallBlock(latest),
     latest.status !== 'pass' && latest.errorExcerpt !== undefined
       ? `<pre class="${excerptClass}">${escapeHtml(latest.errorExcerpt)}</pre>`
       : '',
@@ -308,6 +316,20 @@ function toolsBlock(latest: HistoryEntry): string {
 
   return `${count}
 <p class="tools">${names.map((name) => `<code>${escapeHtml(name)}</code>`).join(' ')}</p>`;
+}
+
+/**
+ * How long the install took, for a passing probe that took long enough to be
+ * worth saying so. A pass after ten minutes of `npm install` is a different
+ * experience from a pass after twenty seconds, and the green pill reads the
+ * same either way. Nothing is shown below the threshold, and nothing is shown
+ * for a failure: there the excerpt is the story.
+ */
+function slowInstallBlock(latest: HistoryEntry): string {
+  const installMs = latest.installMs;
+  if (latest.status !== 'pass' || installMs === undefined || installMs <= SLOW_INSTALL_MS) return '';
+
+  return `<p class="muted">Install took ${escapeHtml(formatDuration(installMs))} on this platform.</p>`;
 }
 
 /** Oldest run first, so the strip reads left to right like a calendar. */
@@ -343,6 +365,7 @@ function methodologyPage(options: ResolvedOptions): string {
 
 <h2>Time budgets</h2>
 <p>Each phase has its own budget: 600s to install, 30s to spawn, 30s for the handshake, 15s for <code>tools/list</code>, and 20s to reach a hosted endpoint. Exceeding one records <em>timed out</em> against that phase rather than a generic failure.</p>
+<p>Probes run four at a time, so an install that ran out of time is probed once more on its own, with double the install budget, before the result stands. <em>Timed out</em> here therefore means the server exceeded its budget with the runner to itself. When a server passes but took more than a minute to install, its platform block says how long that took: a pass after ten minutes of installing is a different experience from a pass after twenty seconds.</p>
 
 <h2>Credentials</h2>
 <p>We probe with no accounts anywhere. Environment variables a server declares as required are filled with the literal placeholder <code>${escapeHtml(ENV_PLACEHOLDER)}</code>, and every affected server page says so above its results. A server that needs a real API key can therefore install perfectly and still refuse to start or to finish the handshake here. That outcome is recorded as <b>needs credentials</b>, in amber, rather than as a failure: the server declared what it wanted, and we did not bring it.</p>
@@ -429,6 +452,8 @@ interface FeedPlatform {
   /** ISO timestamp of the probe, exactly as history recorded it. */
   date: string;
   toolCount?: number;
+  /** Install phase duration in ms, when the probe installed a package. */
+  installMs?: number;
 }
 
 interface FeedServer {
@@ -477,6 +502,9 @@ function feedServer(view: ServerView, options: ResolvedOptions): FeedServer {
       status: latest.status,
       date: latest.date,
       ...(latest.toolCount === undefined ? {} : { toolCount: latest.toolCount }),
+      // Unlike the page, the feed carries every duration it has: a consumer
+      // can pick its own threshold for "slow".
+      ...(latest.installMs === undefined ? {} : { installMs: latest.installMs }),
     };
   }
 
@@ -656,6 +684,15 @@ function formatStars(stars: number): string {
   const thousands = stars / 1000;
   const rounded = thousands < 10 ? Math.round(thousands * 10) / 10 : Math.round(thousands);
   return `${String(rounded)}k`;
+}
+
+/**
+ * A duration past one minute as `9m 12s`. Seconds are truncated rather than
+ * rounded, so nothing ever renders as `9m 60s`.
+ */
+function formatDuration(ms: number): string {
+  const total = Math.max(0, Math.floor(ms / 1000));
+  return `${String(Math.floor(total / 60))}m ${String(total % 60)}s`;
 }
 
 /** ISO date as `YYYY-MM-DD`; unparsable input is passed through untouched. */

@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { HARNESS_VERSION, type Catalog, type ProbeResult, type ServerEntry } from '../types.js';
+import { DEFAULT_TIMEOUTS } from './options.js';
 import { newRunId, runSweep, selectEntries, summarize } from './runner.js';
 
 const server = (rank: number): ServerEntry => ({
@@ -29,6 +30,20 @@ const fakeResult = (entry: ServerEntry): ProbeResult => ({
   startedAt: '2026-08-14T00:00:00.000Z',
   durationMs: 1_234
 });
+
+/** What the pool records when a probe runs out of time while installing. */
+const installTimeout = (entry: ServerEntry): ProbeResult => ({
+  ...fakeResult(entry),
+  status: 'timeout',
+  phases: { install: { ok: false, durationMs: 600_000 } }
+});
+
+/** Attempt number for this entry, so a probe can answer differently on a retry. */
+const attempt = (attempts: Map<string, number>, entry: ServerEntry): number => {
+  const count = (attempts.get(entry.id) ?? 0) + 1;
+  attempts.set(entry.id, count);
+  return count;
+};
 
 describe('selectEntries', () => {
   it('orders by rank before anything else', () => {
@@ -180,6 +195,176 @@ describe('runSweep deadline', () => {
       probe: async entry => fakeResult(entry)
     });
     expect(run.results).toHaveLength(5);
+    expect(lines.some(line => line.includes('deadline reached'))).toBe(false);
+  });
+});
+
+describe('runSweep second chance', () => {
+  it('re-probes install timeouts in their original order and keeps the retry result', async () => {
+    const attempts = new Map<string, number>();
+    const lines: string[] = [];
+
+    const run = await runSweep(catalog(4), {
+      platform: 'linux',
+      concurrency: 4,
+      log: line => lines.push(line),
+      probe: async entry => {
+        // The even ranks lose the race for CPU the first time round.
+        const count = attempt(attempts, entry);
+        return count === 1 && entry.rank % 2 === 0 ? installTimeout(entry) : fakeResult(entry);
+      }
+    });
+
+    expect(run.results.map(result => result.serverId)).toEqual([
+      'io.github.acme/server-1',
+      'io.github.acme/server-2',
+      'io.github.acme/server-3',
+      'io.github.acme/server-4'
+    ]);
+    expect(run.results.map(result => result.status)).toEqual(['pass', 'pass', 'pass', 'pass']);
+    expect(attempts.get('io.github.acme/server-2')).toBe(2);
+    expect(attempts.get('io.github.acme/server-1')).toBe(1);
+    // Pool lines finish in whatever order the probes did; the retries come last.
+    expect(lines.slice(-3)).toEqual([
+      'second chance: 2 install timeouts, retrying serially',
+      'second chance [1/2] io.github.acme/server-2 ... pass (1.2s)',
+      'second chance [2/2] io.github.acme/server-4 ... pass (1.2s)'
+    ]);
+  });
+
+  it('runs the retries one at a time, whatever the pool concurrency was', async () => {
+    const attempts = new Map<string, number>();
+    let inFlight = 0;
+    let retryPeak = 0;
+
+    await runSweep(catalog(4), {
+      platform: 'linux',
+      concurrency: 4,
+      log: () => {},
+      probe: async entry => {
+        const count = attempt(attempts, entry);
+        inFlight += 1;
+        if (count === 2) retryPeak = Math.max(retryPeak, inFlight);
+        await new Promise(resolve => setTimeout(resolve, 5));
+        inFlight -= 1;
+        return count === 1 ? installTimeout(entry) : fakeResult(entry);
+      }
+    });
+
+    expect(retryPeak).toBe(1);
+  });
+
+  it('gives the retry twice the install budget and leaves the other phases alone', async () => {
+    const install: (number | undefined)[] = [];
+    const handshake: (number | undefined)[] = [];
+
+    await runSweep(catalog(1), {
+      platform: 'linux',
+      timeouts: { install: 600_000 },
+      log: () => {},
+      probe: async (entry, probeOptions) => {
+        install.push(probeOptions.timeouts?.install);
+        handshake.push(probeOptions.timeouts?.handshake);
+        return install.length === 1 ? installTimeout(entry) : fakeResult(entry);
+      }
+    });
+
+    expect(install).toEqual([600_000, 1_200_000]);
+    expect(handshake).toEqual([DEFAULT_TIMEOUTS.handshake, DEFAULT_TIMEOUTS.handshake]);
+  });
+
+  it('does not retry a timeout that was not an install timeout', async () => {
+    const attempts = new Map<string, number>();
+    const lines: string[] = [];
+
+    const run = await runSweep(catalog(2), {
+      platform: 'linux',
+      log: line => lines.push(line),
+      probe: async entry => {
+        attempt(attempts, entry);
+        // Rank 1 installed fine and then hung on the handshake; rank 2 never
+        // got far enough to record a phase at all.
+        return entry.rank === 1
+          ? {
+              ...fakeResult(entry),
+              status: 'timeout',
+              phases: {
+                install: { ok: true, durationMs: 900 },
+                handshake: { ok: false, durationMs: 30_000 }
+              }
+            }
+          : { ...fakeResult(entry), status: 'timeout', phases: {} };
+      }
+    });
+
+    expect(run.results.map(result => result.status)).toEqual(['timeout', 'timeout']);
+    expect(attempts.get('io.github.acme/server-1')).toBe(1);
+    expect(attempts.get('io.github.acme/server-2')).toBe(1);
+    expect(lines.some(line => line.startsWith('second chance'))).toBe(false);
+  });
+
+  it('keeps the retry result even when the retry is no better', async () => {
+    const attempts = new Map<string, number>();
+
+    const run = await runSweep(catalog(1), {
+      platform: 'linux',
+      log: () => {},
+      probe: async entry =>
+        attempt(attempts, entry) === 1
+          ? installTimeout(entry)
+          : {
+              ...fakeResult(entry),
+              status: 'install_failed',
+              phases: { install: { ok: false, durationMs: 3_000 } },
+              errorExcerpt: 'npm ERR! E404 not found'
+            }
+    });
+
+    expect(run.results[0]?.status).toBe('install_failed');
+    expect(run.results[0]?.errorExcerpt).toBe('npm ERR! E404 not found');
+  });
+
+  it('skips the second chance entirely when the deadline has already passed', async () => {
+    const attempts = new Map<string, number>();
+    const lines: string[] = [];
+
+    const run = await runSweep(catalog(1), {
+      platform: 'linux',
+      deadline: Date.now() + 20,
+      log: line => lines.push(line),
+      probe: async entry => {
+        attempt(attempts, entry);
+        await new Promise(resolve => setTimeout(resolve, 40));
+        return installTimeout(entry);
+      }
+    });
+
+    expect(run.results[0]?.status).toBe('timeout');
+    expect(attempts.get('io.github.acme/server-1')).toBe(1);
+    expect(lines.some(line => line.startsWith('second chance'))).toBe(false);
+  });
+
+  it('stops retrying at the deadline and keeps the originals it did not reach', async () => {
+    const attempts = new Map<string, number>();
+    const lines: string[] = [];
+
+    const run = await runSweep(catalog(2), {
+      platform: 'linux',
+      deadline: Date.now() + 150,
+      log: line => lines.push(line),
+      probe: async entry => {
+        if (attempt(attempts, entry) === 1) return installTimeout(entry);
+        // One retry is enough to run the clock out.
+        await new Promise(resolve => setTimeout(resolve, 200));
+        return fakeResult(entry);
+      }
+    });
+
+    expect(run.results.map(result => result.status)).toEqual(['pass', 'timeout']);
+    expect(attempts.get('io.github.acme/server-2')).toBe(1);
+    expect(lines).toContain('second chance: 2 install timeouts, retrying serially');
+    expect(lines.filter(line => line.startsWith('second chance [')).length).toBe(1);
+    // Every entry was probed, so the sweep does not report a partial run.
     expect(lines.some(line => line.includes('deadline reached'))).toBe(false);
   });
 });

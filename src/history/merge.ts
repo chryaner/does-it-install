@@ -78,6 +78,10 @@ function toEntry(run: RunFile, result: ProbeResult): HistoryEntry {
     method: result.method,
   };
   if (typeof result.toolCount === 'number') entry.toolCount = result.toolCount;
+  // Kept whether the install succeeded or not: how long a failed install ran
+  // before giving up is part of the record too.
+  const install = result.phases.install;
+  if (install !== undefined) entry.installMs = install.durationMs;
   // The harness already caps this; re-capped here because run artifacts arrive
   // from CI and history files are the thing we have to keep small.
   if (result.toolNames !== undefined && result.toolNames.length > 0) {
