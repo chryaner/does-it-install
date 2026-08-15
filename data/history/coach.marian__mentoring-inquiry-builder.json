@@ -2,6 +2,21 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:30.932Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-30Z-d2d89f",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "get_mentoring_options",
+          "match_mentoring_focus",
+          "compose_mentoring_brief",
+          "design_mentoring_program",
+          "book_intro_call",
+          "send_mentoring_offer"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:18.684Z",
         "method": "remote-http",
         "runId": "2026-08-15T01-49-18Z-a30774",
@@ -19,6 +34,21 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:35.852Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-35Z-b0ddff",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "get_mentoring_options",
+          "match_mentoring_focus",
+          "compose_mentoring_brief",
+          "design_mentoring_program",
+          "book_intro_call",
+          "send_mentoring_offer"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:20.605Z",
         "method": "remote-http",
         "runId": "2026-08-15T01-49-20Z-b188f1",
@@ -35,6 +65,21 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:52.061Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-52Z-c04f43",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "get_mentoring_options",
+          "match_mentoring_focus",
+          "compose_mentoring_brief",
+          "design_mentoring_program",
+          "book_intro_call",
+          "send_mentoring_offer"
+        ]
+      },
       {
         "date": "2026-08-15T01:49:39.142Z",
         "method": "remote-http",

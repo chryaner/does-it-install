@@ -2,6 +2,22 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:29.657Z",
+        "installMs": 4064,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-29Z-decde8",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "muovi_search_professionals",
+          "muovi_get_professional",
+          "muovi_list_services",
+          "muovi_list_cities",
+          "muovi_get_reviews",
+          "muovi_create_task_link"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:17.022Z",
         "method": "npm",
         "runId": "2026-08-15T01-49-17Z-8b8e8b",
@@ -19,6 +35,22 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:29.989Z",
+        "installMs": 3838,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-29Z-c88e00",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "muovi_search_professionals",
+          "muovi_get_professional",
+          "muovi_list_services",
+          "muovi_list_cities",
+          "muovi_get_reviews",
+          "muovi_create_task_link"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:20.415Z",
         "method": "npm",
         "runId": "2026-08-15T01-49-20Z-238791",
@@ -35,6 +67,22 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:52.007Z",
+        "installMs": 89722,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-52Z-7469c8",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "muovi_search_professionals",
+          "muovi_get_professional",
+          "muovi_list_services",
+          "muovi_list_cities",
+          "muovi_get_reviews",
+          "muovi_create_task_link"
+        ]
+      },
       {
         "date": "2026-08-15T01:50:04.636Z",
         "method": "npm",

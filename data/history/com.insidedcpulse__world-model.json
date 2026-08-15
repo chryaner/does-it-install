@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:30.424Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: Connect Timeout Error (attempted address: insidedcpulse.com:443, timeout: 10000ms) (UND_ERR_CONNECT_TIMEOUT)",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-30Z-74a61d",
+        "status": "connect_failed"
+      },
+      {
         "date": "2026-08-15T01:49:17.022Z",
         "errorExcerpt": "connect failed: fetch failed caused by: Connect Timeout Error (attempted address: insidedcpulse.com:443, timeout: 10000ms) (UND_ERR_CONNECT_TIMEOUT)",
         "method": "remote-http",
@@ -11,6 +18,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:31.954Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: Connect Timeout Error (attempted address: insidedcpulse.com:443, timeout: 10000ms) (UND_ERR_CONNECT_TIMEOUT)",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-31Z-197d91",
+        "status": "connect_failed"
+      },
+      {
         "date": "2026-08-15T01:49:20.415Z",
         "errorExcerpt": "connect failed: fetch failed caused by: Connect Timeout Error (attempted address: insidedcpulse.com:443, timeout: 10000ms) (UND_ERR_CONNECT_TIMEOUT)",
         "method": "remote-http",
@@ -19,6 +33,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:50.470Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: Connect Timeout Error (attempted address: insidedcpulse.com:443, timeout: 10000ms) (UND_ERR_CONNECT_TIMEOUT)",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-50Z-656db4",
+        "status": "connect_failed"
+      },
       {
         "date": "2026-08-15T01:50:04.636Z",
         "errorExcerpt": "connect failed: fetch failed caused by: Connect Timeout Error (attempted address: insidedcpulse.com:443, timeout: 10000ms) (UND_ERR_CONNECT_TIMEOUT)",

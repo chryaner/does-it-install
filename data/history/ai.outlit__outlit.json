@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:29.657Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"invalid_token\",\"error_description\":\"Outlit MCP requires an Authorization: Bearer token. Use the workspace MCP URL and complete OAuth in your MCP client. Legacy or headless clients that do not support OAuth must send their configured bearer credential.\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-29Z-decde8",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T04:06:28.268Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"invalid_token\",\"error_description\":\"Outlit MCP requires an Authorization: Bearer token. Use the workspace MCP URL and complete OAuth in your MCP client. Legacy or headless clients that do not support OAuth must send their configured bearer credential.\"} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -25,6 +32,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:29.989Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"invalid_token\",\"error_description\":\"Outlit MCP requires an Authorization: Bearer token. Use the workspace MCP URL and complete OAuth in your MCP client. Legacy or headless clients that do not support OAuth must send their configured bearer credential.\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-29Z-c88e00",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T04:06:32.275Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"invalid_token\",\"error_description\":\"Outlit MCP requires an Authorization: Bearer token. Use the workspace MCP URL and complete OAuth in your MCP client. Legacy or headless clients that do not support OAuth must send their configured bearer credential.\"} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -47,6 +61,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:52.007Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"invalid_token\",\"error_description\":\"Outlit MCP requires an Authorization: Bearer token. Use the workspace MCP URL and complete OAuth in your MCP client. Legacy or headless clients that do not support OAuth must send their configured bearer credential.\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-52Z-7469c8",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-15T04:06:54.151Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"invalid_token\",\"error_description\":\"Outlit MCP requires an Authorization: Bearer token. Use the workspace MCP URL and complete OAuth in your MCP client. Legacy or headless clients that do not support OAuth must send their configured bearer credential.\"} (endpoint reachable but requires credentials the harness does not send)",

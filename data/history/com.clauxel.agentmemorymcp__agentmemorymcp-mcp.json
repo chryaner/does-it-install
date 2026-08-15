@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:30.932Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND agentmemorymcp.clauxel.com",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-30Z-d2d89f",
+        "status": "connect_failed"
+      },
+      {
         "date": "2026-08-15T01:49:17.022Z",
         "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND agentmemorymcp.clauxel.com",
         "method": "remote-http",
@@ -11,6 +18,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:35.852Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND agentmemorymcp.clauxel.com",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-35Z-b0ddff",
+        "status": "connect_failed"
+      },
+      {
         "date": "2026-08-15T01:49:20.415Z",
         "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND agentmemorymcp.clauxel.com",
         "method": "remote-http",
@@ -19,6 +33,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:52.061Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND agentmemorymcp.clauxel.com",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-52Z-c04f43",
+        "status": "connect_failed"
+      },
       {
         "date": "2026-08-15T01:50:04.636Z",
         "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND agentmemorymcp.clauxel.com",

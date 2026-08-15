@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:30.932Z",
+        "errorExcerpt": "npm install arcane-rmcp@0.4.2 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for arcane-rmcp@0.4.2.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-z8FmqY/.npm-cache/_logs/2026-08-15T16_59_22_395Z-debug-0.log",
+        "installMs": 720,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-30Z-d2d89f",
+        "status": "install_failed"
+      },
+      {
         "date": "2026-08-15T01:49:18.419Z",
         "errorExcerpt": "npm install arcane-rmcp@0.4.2 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for arcane-rmcp@0.4.2.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-Bea5aX/.npm-cache/_logs/2026-08-15T01_51_40_299Z-debug-0.log",
         "method": "npm",
@@ -25,6 +33,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:35.852Z",
+        "errorExcerpt": "npm install arcane-rmcp@0.4.2 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for arcane-rmcp@0.4.2.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /tmp/does-it-install/dii-npm-Pu8CkG/.npm-cache/_logs/2026-08-15T16_59_23_353Z-debug-0.log",
+        "installMs": 420,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-35Z-b0ddff",
+        "status": "install_failed"
+      },
+      {
         "date": "2026-08-15T01:49:21.179Z",
         "errorExcerpt": "npm install arcane-rmcp@0.4.2 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for arcane-rmcp@0.4.2.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /tmp/does-it-install/dii-npm-eFBQL4/.npm-cache/_logs/2026-08-15T01_51_55_123Z-debug-0.log",
         "method": "npm",
@@ -47,6 +63,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:52.061Z",
+        "errorExcerpt": "npm install arcane-rmcp@0.4.2 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for arcane-rmcp@0.4.2.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-Hb2JuU\\.npm-cache\\_logs\\2026-08-15T17_19_24_541Z-debug-0.log",
+        "installMs": 1233,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-52Z-c04f43",
+        "status": "install_failed"
+      },
       {
         "date": "2026-08-15T01:49:32.941Z",
         "errorExcerpt": "npm install arcane-rmcp@0.4.2 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for arcane-rmcp@0.4.2.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-oEFjza\\.npm-cache\\_logs\\2026-08-15T02_07_52_684Z-debug-0.log",

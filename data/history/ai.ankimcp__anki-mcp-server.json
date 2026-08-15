@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:30.424Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: 3 (line 1 column 4)\nUnexpected token '\u001b', \"    \u001b[35mconte\"... is not valid JSON\nExpected ',' or ']' after array element in JSON at position 3 (line 1 column 4)\nUnexpected token '\u001b', \"    \u001b[35mconte\"... is not valid JSON\nExpected ',' or ']' after array element in JSON at position 3 (line 1 column 4)\nUnexpected token '\u001b', \"    \u001b[35mconte\"... is not valid JSON\nExpected ',' or ']' after array element in JSON at position 3 (line 1 column 4)\nUnexpected token '\u001b', \"    \u001b[35mconte\"... is not valid JSON",
+        "installMs": 13166,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-30Z-74a61d",
+        "status": "timeout"
+      },
+      {
         "date": "2026-08-15T04:06:28.268Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: conte\"... is not valid JSON\nUnexpected number in JSON at position 2 (line 1 column 3)\nUnexpected token '\u001b', \"    \u001b[35mconte\"... is not valid JSON\nUnexpected number in JSON at position 2 (line 1 column 3)\nUnexpected token '\u001b', \"    \u001b[35mconte\"... is not valid JSON\nUnexpected number in JSON at position 2 (line 1 column 3)\nUnexpected token '\u001b', \"    \u001b[35mconte\"... is not valid JSON\nUnexpected number in JSON at position 2 (line 1 column 3)\nUnexpected token '\u001b', \"    \u001b[35mconte\"... is not valid JSON",
         "method": "npm",
@@ -32,6 +40,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:31.954Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: 3 (line 1 column 4)\nUnexpected token '\u001b', \"    \u001b[35mconte\"... is not valid JSON\nExpected ',' or ']' after array element in JSON at position 3 (line 1 column 4)\nUnexpected token '\u001b', \"    \u001b[35mconte\"... is not valid JSON\nExpected ',' or ']' after array element in JSON at position 3 (line 1 column 4)\nUnexpected token '\u001b', \"    \u001b[35mconte\"... is not valid JSON\nExpected ',' or ']' after array element in JSON at position 3 (line 1 column 4)\nUnexpected token '\u001b', \"    \u001b[35mconte\"... is not valid JSON",
+        "installMs": 12043,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-31Z-197d91",
+        "status": "timeout"
+      },
+      {
         "date": "2026-08-15T04:06:32.275Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: conte\"... is not valid JSON\nUnexpected number in JSON at position 2 (line 1 column 3)\nUnexpected token '\u001b', \"    \u001b[35mconte\"... is not valid JSON\nUnexpected number in JSON at position 2 (line 1 column 3)\nUnexpected token '\u001b', \"    \u001b[35mconte\"... is not valid JSON\nUnexpected number in JSON at position 2 (line 1 column 3)\nUnexpected token '\u001b', \"    \u001b[35mconte\"... is not valid JSON\nUnexpected number in JSON at position 2 (line 1 column 3)\nUnexpected token '\u001b', \"    \u001b[35mconte\"... is not valid JSON",
         "method": "npm",
@@ -61,6 +77,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:50.470Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: 3 (line 1 column 4)\nUnexpected token '\u001b', \"    \u001b[35mconte\"... is not valid JSON\nExpected ',' or ']' after array element in JSON at position 3 (line 1 column 4)\nUnexpected token '\u001b', \"    \u001b[35mconte\"... is not valid JSON\nExpected ',' or ']' after array element in JSON at position 3 (line 1 column 4)\nUnexpected token '\u001b', \"    \u001b[35mconte\"... is not valid JSON\nExpected ',' or ']' after array element in JSON at position 3 (line 1 column 4)\nUnexpected token '\u001b', \"    \u001b[35mconte\"... is not valid JSON",
+        "installMs": 546488,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-50Z-656db4",
+        "status": "timeout"
+      },
       {
         "date": "2026-08-15T04:06:54.151Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: conte\"... is not valid JSON\nUnexpected number in JSON at position 2 (line 1 column 3)\nUnexpected token '\u001b', \"    \u001b[35mconte\"... is not valid JSON\nUnexpected number in JSON at position 2 (line 1 column 3)\nUnexpected token '\u001b', \"    \u001b[35mconte\"... is not valid JSON\nUnexpected number in JSON at position 2 (line 1 column 3)\nUnexpected token '\u001b', \"    \u001b[35mconte\"... is not valid JSON\nUnexpected number in JSON at position 2 (line 1 column 3)\nUnexpected token '\u001b', \"    \u001b[35mconte\"... is not valid JSON",

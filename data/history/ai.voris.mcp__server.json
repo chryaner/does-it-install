@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:29.657Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\nvoris-mcp: remote: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"unauthorized\",\"message\":\"Missing, malformed, unknown, or revoked API key.\"}\nvoris-mcp: remote.send: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"unauthorized\",\"message\":\"Missing, malformed, unknown, or revoked API key.\"}",
+        "installMs": 7888,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-29Z-decde8",
+        "status": "timeout"
+      },
+      {
         "date": "2026-08-15T01:49:18.419Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\nvoris-mcp: remote: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"unauthorized\",\"message\":\"Missing, malformed, unknown, or revoked API key.\"}\nvoris-mcp: remote.send: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"unauthorized\",\"message\":\"Missing, malformed, unknown, or revoked API key.\"}",
         "method": "npm",
@@ -18,6 +26,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:29.989Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\nvoris-mcp: remote: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"unauthorized\",\"message\":\"Missing, malformed, unknown, or revoked API key.\"}\nvoris-mcp: remote.send: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"unauthorized\",\"message\":\"Missing, malformed, unknown, or revoked API key.\"}",
+        "installMs": 5075,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-29Z-c88e00",
+        "status": "timeout"
+      },
+      {
         "date": "2026-08-15T01:49:21.179Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\nvoris-mcp: remote: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"unauthorized\",\"message\":\"Missing, malformed, unknown, or revoked API key.\"}\nvoris-mcp: remote.send: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"unauthorized\",\"message\":\"Missing, malformed, unknown, or revoked API key.\"}",
         "method": "npm",
@@ -33,6 +49,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:52.007Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\nvoris-mcp: remote: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"unauthorized\",\"message\":\"Missing, malformed, unknown, or revoked API key.\"}\nvoris-mcp: remote.send: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"unauthorized\",\"message\":\"Missing, malformed, unknown, or revoked API key.\"}",
+        "installMs": 88119,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-52Z-7469c8",
+        "status": "timeout"
+      },
       {
         "date": "2026-08-15T01:49:32.941Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\nvoris-mcp: remote: fetch failed\nvoris-mcp: remote.send: fetch failed",

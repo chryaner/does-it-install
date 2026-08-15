@@ -2,6 +2,32 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:30.932Z",
+        "method": "pypi",
+        "runId": "2026-08-15T16-56-30Z-d2d89f",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "locate_device",
+          "calculate_directions",
+          "get_elevation",
+          "geocode_address",
+          "get_timezone",
+          "snap_coordinates_to_roads",
+          "snap_points_to_roads",
+          "calculate_distance_matrix",
+          "get_place_details",
+          "search_place_by_text",
+          "search_nearby_places",
+          "search_places_by_text",
+          "get_place_photo",
+          "get_query_suggestions",
+          "autocomplete_place",
+          "get_street_view",
+          "get_street_view_metadata"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:28.791Z",
         "method": "pypi",
         "runId": "2026-08-15T04-06-28Z-3dc5e1",
@@ -56,6 +82,32 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:35.852Z",
+        "method": "pypi",
+        "runId": "2026-08-15T16-56-35Z-b0ddff",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "locate_device",
+          "calculate_directions",
+          "get_elevation",
+          "geocode_address",
+          "get_timezone",
+          "snap_coordinates_to_roads",
+          "snap_points_to_roads",
+          "calculate_distance_matrix",
+          "get_place_details",
+          "search_place_by_text",
+          "search_nearby_places",
+          "search_places_by_text",
+          "get_place_photo",
+          "get_query_suggestions",
+          "autocomplete_place",
+          "get_street_view",
+          "get_street_view_metadata"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:31.639Z",
         "method": "pypi",
         "runId": "2026-08-15T04-06-31Z-5068b8",
@@ -109,6 +161,32 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:52.061Z",
+        "method": "pypi",
+        "runId": "2026-08-15T16-56-52Z-c04f43",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "locate_device",
+          "calculate_directions",
+          "get_elevation",
+          "geocode_address",
+          "get_timezone",
+          "snap_coordinates_to_roads",
+          "snap_points_to_roads",
+          "calculate_distance_matrix",
+          "get_place_details",
+          "search_place_by_text",
+          "search_nearby_places",
+          "search_places_by_text",
+          "get_place_photo",
+          "get_query_suggestions",
+          "autocomplete_place",
+          "get_street_view",
+          "get_street_view_metadata"
+        ]
+      },
       {
         "date": "2026-08-15T01:49:32.941Z",
         "method": "pypi",

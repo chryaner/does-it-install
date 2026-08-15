@@ -2,6 +2,21 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:29.657Z",
+        "installMs": 8885,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-29Z-decde8",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "scan_page",
+          "scan_pages",
+          "crawl_sample",
+          "get_fix_guide",
+          "kwcag_checkpoint"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:18.684Z",
         "method": "npm",
         "runId": "2026-08-15T01-49-18Z-a30774",
@@ -18,6 +33,21 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:29.989Z",
+        "installMs": 4487,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-29Z-c88e00",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "scan_page",
+          "scan_pages",
+          "crawl_sample",
+          "get_fix_guide",
+          "kwcag_checkpoint"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:20.605Z",
         "method": "npm",
         "runId": "2026-08-15T01-49-20Z-b188f1",
@@ -33,6 +63,21 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:52.007Z",
+        "installMs": 124322,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-52Z-7469c8",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "scan_page",
+          "scan_pages",
+          "crawl_sample",
+          "get_fix_guide",
+          "kwcag_checkpoint"
+        ]
+      },
       {
         "date": "2026-08-15T01:49:39.142Z",
         "method": "npm",

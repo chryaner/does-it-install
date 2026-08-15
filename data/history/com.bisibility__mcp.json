@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:30.424Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nbisibility MCP server failed to start (invalid_api_credential). Check the MCP environment configuration.",
+        "installMs": 3739,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-30Z-74a61d",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T01:49:17.022Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nbisibility MCP server failed to start (invalid_api_credential). Check the MCP environment configuration.",
         "method": "npm",
@@ -11,6 +19,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:31.954Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nbisibility MCP server failed to start (invalid_api_credential). Check the MCP environment configuration.",
+        "installMs": 5104,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-31Z-197d91",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T01:49:20.415Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nbisibility MCP server failed to start (invalid_api_credential). Check the MCP environment configuration.",
         "method": "npm",
@@ -19,6 +35,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:50.470Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nbisibility MCP server failed to start (invalid_api_credential). Check the MCP environment configuration.",
+        "installMs": 174163,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-50Z-656db4",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-15T01:50:04.636Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nbisibility MCP server failed to start (invalid_api_credential). Check the MCP environment configuration.",

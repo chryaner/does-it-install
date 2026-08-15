@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:29.657Z",
+        "errorExcerpt": "npm install apick-mcp@1.1.0 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for apick-mcp@1.1.0.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-SR4Lfr/.npm-cache/_logs/2026-08-15T16_59_53_466Z-debug-0.log",
+        "installMs": 766,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-29Z-decde8",
+        "status": "install_failed"
+      },
+      {
         "date": "2026-08-15T01:49:18.419Z",
         "errorExcerpt": "npm install apick-mcp@1.1.0 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for apick-mcp@1.1.0.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-iBs1o2/.npm-cache/_logs/2026-08-15T01_53_07_856Z-debug-0.log",
         "method": "npm",
@@ -11,6 +19,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:29.989Z",
+        "errorExcerpt": "npm install apick-mcp@1.1.0 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for apick-mcp@1.1.0.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /tmp/does-it-install/dii-npm-NxTzlk/.npm-cache/_logs/2026-08-15T16_59_17_581Z-debug-0.log",
+        "installMs": 624,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-29Z-c88e00",
+        "status": "install_failed"
+      },
+      {
         "date": "2026-08-15T01:49:21.179Z",
         "errorExcerpt": "npm install apick-mcp@1.1.0 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for apick-mcp@1.1.0.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /tmp/does-it-install/dii-npm-s05T35/.npm-cache/_logs/2026-08-15T01_53_15_907Z-debug-0.log",
         "method": "npm",
@@ -19,6 +35,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:52.007Z",
+        "errorExcerpt": "npm install apick-mcp@1.1.0 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for apick-mcp@1.1.0.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-GCV2KP\\.npm-cache\\_logs\\2026-08-15T17_43_19_564Z-debug-0.log",
+        "installMs": 1236,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-52Z-7469c8",
+        "status": "install_failed"
+      },
       {
         "date": "2026-08-15T01:49:32.941Z",
         "errorExcerpt": "npm install apick-mcp@1.1.0 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for apick-mcp@1.1.0.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-yfz285\\.npm-cache\\_logs\\2026-08-15T02_22_54_784Z-debug-0.log",

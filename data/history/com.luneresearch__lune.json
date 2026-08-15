@@ -2,6 +2,28 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:30.424Z",
+        "installMs": 9416,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-30Z-74a61d",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "search_papers",
+          "search_papers_many",
+          "get_paper_fulltext",
+          "get_paper_citations",
+          "list_conferences",
+          "get_conference_papers",
+          "search_related_papers",
+          "extract_from_papers",
+          "verify_claims",
+          "gather_evidence",
+          "search_research_guidance",
+          "get_research_guidance_doc"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:18.419Z",
         "method": "npm",
         "runId": "2026-08-15T01-49-18Z-df0f6c",
@@ -25,6 +47,28 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:31.954Z",
+        "installMs": 7590,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-31Z-197d91",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "search_papers",
+          "search_papers_many",
+          "get_paper_fulltext",
+          "get_paper_citations",
+          "list_conferences",
+          "get_conference_papers",
+          "search_related_papers",
+          "extract_from_papers",
+          "verify_claims",
+          "gather_evidence",
+          "search_research_guidance",
+          "get_research_guidance_doc"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:21.179Z",
         "method": "npm",
         "runId": "2026-08-15T01-49-21Z-2de383",
@@ -47,6 +91,28 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:50.470Z",
+        "installMs": 250960,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-50Z-656db4",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "search_papers",
+          "search_papers_many",
+          "get_paper_fulltext",
+          "get_paper_citations",
+          "list_conferences",
+          "get_conference_papers",
+          "search_related_papers",
+          "extract_from_papers",
+          "verify_claims",
+          "gather_evidence",
+          "search_research_guidance",
+          "get_research_guidance_doc"
+        ]
+      },
       {
         "date": "2026-08-15T01:49:32.941Z",
         "method": "npm",

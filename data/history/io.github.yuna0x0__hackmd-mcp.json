@@ -2,6 +2,28 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:30.424Z",
+        "installMs": 5485,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-30Z-74a61d",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "get_user_info",
+          "list_teams",
+          "get_history",
+          "list_team_notes",
+          "create_team_note",
+          "update_team_note",
+          "delete_team_note",
+          "list_user_notes",
+          "get_note",
+          "create_note",
+          "update_note",
+          "delete_note"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:29.606Z",
         "method": "npm",
         "runId": "2026-08-15T04-06-29Z-57cf45",
@@ -46,6 +68,28 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:31.954Z",
+        "installMs": 4529,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-31Z-197d91",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "get_user_info",
+          "list_teams",
+          "get_history",
+          "list_team_notes",
+          "create_team_note",
+          "update_team_note",
+          "delete_team_note",
+          "list_user_notes",
+          "get_note",
+          "create_note",
+          "update_note",
+          "delete_note"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:26.501Z",
         "method": "npm",
         "runId": "2026-08-15T04-06-26Z-0b778e",
@@ -89,6 +133,28 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:50.470Z",
+        "installMs": 205342,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-50Z-656db4",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "get_user_info",
+          "list_teams",
+          "get_history",
+          "list_team_notes",
+          "create_team_note",
+          "update_team_note",
+          "delete_team_note",
+          "list_user_notes",
+          "get_note",
+          "create_note",
+          "update_note",
+          "delete_note"
+        ]
+      },
       {
         "date": "2026-08-15T04:06:54.549Z",
         "method": "npm",

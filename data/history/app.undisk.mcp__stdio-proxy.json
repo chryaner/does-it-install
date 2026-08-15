@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:30.424Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: UNDISK_API_KEY must start with 'sk_live_'",
+        "installMs": 1662,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-30Z-74a61d",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T01:49:18.684Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: UNDISK_API_KEY must start with 'sk_live_'",
         "method": "npm",
@@ -11,6 +19,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:31.954Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: UNDISK_API_KEY must start with 'sk_live_'",
+        "installMs": 1306,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-31Z-197d91",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T01:49:20.605Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: UNDISK_API_KEY must start with 'sk_live_'",
         "method": "npm",
@@ -19,6 +35,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:50.470Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: UNDISK_API_KEY must start with 'sk_live_'",
+        "installMs": 3446,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-50Z-656db4",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-15T01:49:39.142Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: UNDISK_API_KEY must start with 'sk_live_'",

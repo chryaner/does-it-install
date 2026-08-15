@@ -2,6 +2,20 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:30.424Z",
+        "installMs": 4179,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-30Z-74a61d",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "scope_aec_status",
+          "scope_aec_categories",
+          "scope_aec_join_waitlist",
+          "scope_reschedule_project"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:18.684Z",
         "method": "npm",
         "runId": "2026-08-15T01-49-18Z-a30774",
@@ -17,6 +31,20 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:31.954Z",
+        "installMs": 3418,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-31Z-197d91",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "scope_aec_status",
+          "scope_aec_categories",
+          "scope_aec_join_waitlist",
+          "scope_reschedule_project"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:20.605Z",
         "method": "npm",
         "runId": "2026-08-15T01-49-20Z-b188f1",
@@ -31,6 +59,20 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:50.470Z",
+        "installMs": 149177,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-50Z-656db4",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "scope_aec_status",
+          "scope_aec_categories",
+          "scope_aec_join_waitlist",
+          "scope_reschedule_project"
+        ]
+      },
       {
         "date": "2026-08-15T01:49:39.142Z",
         "method": "npm",

@@ -2,6 +2,28 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:30.424Z",
+        "installMs": 13838,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-30Z-74a61d",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "vaaya_test_connection",
+          "vaaya_onboard",
+          "vaaya_account",
+          "vaaya_logout",
+          "consult",
+          "use",
+          "result",
+          "session",
+          "close",
+          "llm",
+          "logout",
+          "reauthorize"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:29.606Z",
         "method": "npm",
         "runId": "2026-08-15T04-06-29Z-57cf45",
@@ -67,6 +89,28 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:31.954Z",
+        "installMs": 9019,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-31Z-197d91",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "vaaya_test_connection",
+          "vaaya_onboard",
+          "vaaya_account",
+          "vaaya_logout",
+          "consult",
+          "use",
+          "result",
+          "session",
+          "close",
+          "llm",
+          "logout",
+          "reauthorize"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:26.501Z",
         "method": "npm",
         "runId": "2026-08-15T04-06-26Z-0b778e",
@@ -131,6 +175,28 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:50.470Z",
+        "installMs": 213076,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-50Z-656db4",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "vaaya_test_connection",
+          "vaaya_onboard",
+          "vaaya_account",
+          "vaaya_logout",
+          "consult",
+          "use",
+          "result",
+          "session",
+          "close",
+          "llm",
+          "logout",
+          "reauthorize"
+        ]
+      },
       {
         "date": "2026-08-15T04:06:54.549Z",
         "method": "npm",

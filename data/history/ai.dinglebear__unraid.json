@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:29.657Z",
+        "errorExcerpt": "npm install @dinglebear/unraid@0.3.0 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path /private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-TyKRRg/node_modules/@dinglebear/unraid\nnpm error command failed\nnpm error command sh -c node scripts/install.js\nnpm error unraid-rmcp: Unsupported platform darwin/arm64. Supported target: linux/x64.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-TyKRRg/.npm-cache/_logs/2026-08-15T16_56_36_384Z-debug-0.log",
+        "installMs": 817,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-29Z-decde8",
+        "status": "install_failed"
+      },
+      {
         "date": "2026-08-15T04:06:28.791Z",
         "errorExcerpt": "npm install @dinglebear/unraid@0.3.0 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path /private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-obuQcr/node_modules/@dinglebear/unraid\nnpm error command failed\nnpm error command sh -c node scripts/install.js\nnpm error unraid-rmcp: Unsupported platform darwin/arm64. Supported target: linux/x64.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-obuQcr/.npm-cache/_logs/2026-08-15T04_08_41_412Z-debug-0.log",
         "method": "npm",
@@ -31,6 +39,17 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-08-15T16:56:29.989Z",
+        "installMs": 1899,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-29Z-c88e00",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "unraid"
+        ]
+      },
       {
         "date": "2026-08-15T04:06:31.639Z",
         "method": "npm",
@@ -73,6 +92,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:52.007Z",
+        "errorExcerpt": "npm install @dinglebear/unraid@0.3.0 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-4EJaVn\\node_modules\\@dinglebear\\unraid\nnpm error command failed\nnpm error command C:\\Windows\\system32\\cmd.exe /d /s /c node scripts/install.js\nnpm error unraid-rmcp: Unsupported platform win32/x64. Supported target: linux/x64.\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-4EJaVn\\.npm-cache\\_logs\\2026-08-15T17_00_08_304Z-debug-0.log",
+        "installMs": 3045,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-52Z-7469c8",
+        "status": "install_failed"
+      },
       {
         "date": "2026-08-15T01:50:04.636Z",
         "errorExcerpt": "npm install @dinglebear/unraid@0.3.0 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-DuJjkH\\node_modules\\@dinglebear\\unraid\nnpm error command failed\nnpm error command C:\\Windows\\system32\\cmd.exe /d /s /c node scripts/install.js\nnpm error unraid-rmcp: Unsupported platform win32/x64. Supported target: linux/x64.\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-DuJjkH\\.npm-cache\\_logs\\2026-08-15T01_54_42_911Z-debug-0.log",

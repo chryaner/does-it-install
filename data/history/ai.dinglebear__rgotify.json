@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:30.424Z",
+        "errorExcerpt": "npm install @dinglebear/rgotify@0.2.0 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path /private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-PpjMPj/node_modules/@dinglebear/rgotify\nnpm error command failed\nnpm error command sh -c node scripts/install.js\nnpm error gotify-rmcp: Unsupported platform darwin/arm64. Supported targets: linux/x64, win32/x64.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-PpjMPj/.npm-cache/_logs/2026-08-15T16_58_43_102Z-debug-0.log",
+        "installMs": 1227,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-30Z-74a61d",
+        "status": "install_failed"
+      },
+      {
         "date": "2026-08-15T01:49:18.684Z",
         "errorExcerpt": "npm install @dinglebear/rgotify@0.2.0 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path /private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-f4y2Jw/node_modules/@dinglebear/rgotify\nnpm error command failed\nnpm error command sh -c node scripts/install.js\nnpm error gotify-rmcp: Unsupported platform darwin/arm64. Supported targets: linux/x64, win32/x64.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-f4y2Jw/.npm-cache/_logs/2026-08-15T01_51_38_899Z-debug-0.log",
         "method": "npm",
@@ -24,6 +32,17 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-08-15T16:56:31.954Z",
+        "installMs": 2023,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-31Z-197d91",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "gotify"
+        ]
+      },
       {
         "date": "2026-08-15T01:49:20.605Z",
         "method": "npm",
@@ -56,6 +75,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:50.470Z",
+        "errorExcerpt": "npm install @dinglebear/rgotify@0.2.0 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-DF6tOr\\node_modules\\@dinglebear\\rgotify\nnpm error command failed\nnpm error command C:\\Windows\\system32\\cmd.exe /d /s /c node scripts/install.js\nnpm error gotify-rmcp: downloading https://github.com/dinglebear-ai/rgotify/releases/download/v0.2.0/rgotify-windows-x86_64.tar.gz\nnpm error gotify-rmcp: verified checksum for rgotify-windows-x86_64.tar.gz\nnpm error gotify-rmcp: tar (child): Cannot connect to C: resolve failed\nnpm error\nnpm error gzip: stdin: unexpected end of file\nnpm error tar: Child returned status 128\nnpm error tar: Error is not recoverable: exiting now\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-DF6tOr\\.npm-cache\\_logs\\2026-08-15T17_31_48_406Z-debug-0.log",
+        "installMs": 7996,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-50Z-656db4",
+        "status": "install_failed"
+      },
       {
         "date": "2026-08-15T01:49:39.142Z",
         "errorExcerpt": "npm install @dinglebear/rgotify@0.2.0 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-1Sg2lk\\node_modules\\@dinglebear\\rgotify\nnpm error command failed\nnpm error command C:\\Windows\\system32\\cmd.exe /d /s /c node scripts/install.js\nnpm error gotify-rmcp: downloading https://github.com/dinglebear-ai/rgotify/releases/download/v0.2.0/rgotify-windows-x86_64.tar.gz\nnpm error gotify-rmcp: verified checksum for rgotify-windows-x86_64.tar.gz\nnpm error gotify-rmcp: tar (child): Cannot connect to C: resolve failed\nnpm error\nnpm error gzip: stdin: unexpected end of file\nnpm error tar: Child returned status 128\nnpm error tar: Error is not recoverable: exiting now\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-1Sg2lk\\.npm-cache\\_logs\\2026-08-15T02_19_07_694Z-debug-0.log",

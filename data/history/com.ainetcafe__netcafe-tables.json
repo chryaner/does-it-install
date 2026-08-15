@@ -1,0 +1,72 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T16:56:30.424Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-30Z-74a61d",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "what_can_you_do",
+          "csv_to_qbo",
+          "diff_tables",
+          "clean_table",
+          "merge_tables",
+          "reconcile_ledger",
+          "fix_csv_encoding",
+          "csv_to_md_table",
+          "csv_to_chart",
+          "csv_to_json",
+          "json_to_csv"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T16:56:31.954Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-31Z-197d91",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "what_can_you_do",
+          "csv_to_qbo",
+          "diff_tables",
+          "clean_table",
+          "merge_tables",
+          "reconcile_ledger",
+          "fix_csv_encoding",
+          "csv_to_md_table",
+          "csv_to_chart",
+          "csv_to_json",
+          "json_to_csv"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T16:56:50.470Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-50Z-656db4",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "what_can_you_do",
+          "csv_to_qbo",
+          "diff_tables",
+          "clean_table",
+          "merge_tables",
+          "reconcile_ledger",
+          "fix_csv_encoding",
+          "csv_to_md_table",
+          "csv_to_chart",
+          "csv_to_json",
+          "json_to_csv"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.ainetcafe/netcafe-tables",
+  "slug": "com.ainetcafe__netcafe-tables"
+}

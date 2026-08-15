@@ -2,6 +2,19 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:30.424Z",
+        "installMs": 5163,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-30Z-74a61d",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "web_access_fetch",
+          "web_access_search",
+          "web_access_sitemap"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:17.022Z",
         "method": "npm",
         "runId": "2026-08-15T01-49-17Z-8b8e8b",
@@ -28,6 +41,19 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:31.954Z",
+        "installMs": 5276,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-31Z-197d91",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "web_access_fetch",
+          "web_access_search",
+          "web_access_sitemap"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:20.415Z",
         "method": "npm",
         "runId": "2026-08-15T01-49-20Z-238791",
@@ -53,6 +79,19 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:50.470Z",
+        "installMs": 178798,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-50Z-656db4",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "web_access_fetch",
+          "web_access_search",
+          "web_access_sitemap"
+        ]
+      },
       {
         "date": "2026-08-15T01:50:04.636Z",
         "method": "npm",

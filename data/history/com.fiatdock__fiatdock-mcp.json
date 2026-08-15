@@ -2,6 +2,34 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:30.424Z",
+        "installMs": 10989,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-30Z-74a61d",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "get_quote",
+          "get_order_status",
+          "token_price",
+          "search_services",
+          "get_service",
+          "create_offramp_session",
+          "create_onramp_session",
+          "token_safety",
+          "stablecoin_intel",
+          "gas_price",
+          "block_number",
+          "eth_balance",
+          "usdc_balance",
+          "token_metadata",
+          "tx_status",
+          "address_intel",
+          "token_report",
+          "call_service"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:17.022Z",
         "method": "npm",
         "runId": "2026-08-15T01-49-17Z-8b8e8b",
@@ -31,6 +59,34 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:31.954Z",
+        "installMs": 12237,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-31Z-197d91",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "get_quote",
+          "get_order_status",
+          "token_price",
+          "search_services",
+          "get_service",
+          "create_offramp_session",
+          "create_onramp_session",
+          "token_safety",
+          "stablecoin_intel",
+          "gas_price",
+          "block_number",
+          "eth_balance",
+          "usdc_balance",
+          "token_metadata",
+          "tx_status",
+          "address_intel",
+          "token_report",
+          "call_service"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:20.415Z",
         "method": "npm",
         "runId": "2026-08-15T01-49-20Z-238791",
@@ -59,6 +115,34 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:50.470Z",
+        "installMs": 137545,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-50Z-656db4",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "get_quote",
+          "get_order_status",
+          "token_price",
+          "search_services",
+          "get_service",
+          "create_offramp_session",
+          "create_onramp_session",
+          "token_safety",
+          "stablecoin_intel",
+          "gas_price",
+          "block_number",
+          "eth_balance",
+          "usdc_balance",
+          "token_metadata",
+          "tx_status",
+          "address_intel",
+          "token_report",
+          "call_service"
+        ]
+      },
       {
         "date": "2026-08-15T01:50:04.636Z",
         "errorExcerpt": "npm install fiatdock-mcp@1.7.7 timed out after 600s",

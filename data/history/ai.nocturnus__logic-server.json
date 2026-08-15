@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:30.424Z",
+        "errorExcerpt": "listTools failed: MCP error -32603: fetch failed\n--- stderr (tail) ---\n[nocturnusai-mcp] warning: cannot reach http://localhost:9300: fetch failed\n[nocturnusai-mcp] start the server or set NOCTURNUSAI_URL",
+        "installMs": 4036,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-30Z-74a61d",
+        "status": "tools_failed"
+      },
+      {
         "date": "2026-08-15T01:49:18.419Z",
         "errorExcerpt": "listTools failed: MCP error -32603: fetch failed\n--- stderr (tail) ---\n[nocturnusai-mcp] warning: cannot reach http://localhost:9300: fetch failed\n[nocturnusai-mcp] start the server or set NOCTURNUSAI_URL",
         "method": "npm",
@@ -18,6 +26,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:31.954Z",
+        "errorExcerpt": "listTools failed: MCP error -32603: fetch failed\n--- stderr (tail) ---\n[nocturnusai-mcp] warning: cannot reach http://localhost:9300: fetch failed\n[nocturnusai-mcp] start the server or set NOCTURNUSAI_URL",
+        "installMs": 4678,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-31Z-197d91",
+        "status": "tools_failed"
+      },
+      {
         "date": "2026-08-15T01:49:21.179Z",
         "errorExcerpt": "listTools failed: MCP error -32603: fetch failed\n--- stderr (tail) ---\n[nocturnusai-mcp] warning: cannot reach http://localhost:9300: fetch failed\n[nocturnusai-mcp] start the server or set NOCTURNUSAI_URL",
         "method": "npm",
@@ -33,6 +49,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:50.470Z",
+        "errorExcerpt": "listTools failed: MCP error -32603: fetch failed\n--- stderr (tail) ---\n[nocturnusai-mcp] warning: cannot reach http://localhost:9300: fetch failed\n[nocturnusai-mcp] start the server or set NOCTURNUSAI_URL",
+        "installMs": 169314,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-50Z-656db4",
+        "status": "tools_failed"
+      },
       {
         "date": "2026-08-15T01:49:32.941Z",
         "errorExcerpt": "listTools failed: MCP error -32603: fetch failed\n--- stderr (tail) ---\n[nocturnusai-mcp] warning: cannot reach http://localhost:9300: fetch failed\n[nocturnusai-mcp] start the server or set NOCTURNUSAI_URL",

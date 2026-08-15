@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:29.657Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND agentmailrooms.clauxel.com",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-29Z-decde8",
+        "status": "connect_failed"
+      },
+      {
         "date": "2026-08-15T01:49:18.684Z",
         "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND agentmailrooms.clauxel.com",
         "method": "remote-http",
@@ -11,6 +18,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:29.989Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND agentmailrooms.clauxel.com",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-29Z-c88e00",
+        "status": "connect_failed"
+      },
+      {
         "date": "2026-08-15T01:49:20.605Z",
         "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND agentmailrooms.clauxel.com",
         "method": "remote-http",
@@ -19,6 +33,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:52.007Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND agentmailrooms.clauxel.com",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-52Z-7469c8",
+        "status": "connect_failed"
+      },
       {
         "date": "2026-08-15T01:49:39.142Z",
         "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND agentmailrooms.clauxel.com",

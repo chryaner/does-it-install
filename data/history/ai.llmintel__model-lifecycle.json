@@ -2,6 +2,21 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:30.932Z",
+        "installMs": 3260,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-30Z-d2d89f",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "check_model",
+          "list_retiring_models",
+          "suggest_replacement",
+          "search_models",
+          "recent_lifecycle_changes"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:18.684Z",
         "method": "npm",
         "runId": "2026-08-15T01-49-18Z-a30774",
@@ -32,6 +47,21 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:35.852Z",
+        "installMs": 3943,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-35Z-b0ddff",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "check_model",
+          "list_retiring_models",
+          "suggest_replacement",
+          "search_models",
+          "recent_lifecycle_changes"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:20.605Z",
         "method": "npm",
         "runId": "2026-08-15T01-49-20Z-b188f1",
@@ -61,6 +91,21 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:52.061Z",
+        "installMs": 81238,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-52Z-c04f43",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "check_model",
+          "list_retiring_models",
+          "suggest_replacement",
+          "search_models",
+          "recent_lifecycle_changes"
+        ]
+      },
       {
         "date": "2026-08-15T01:49:39.142Z",
         "method": "npm",

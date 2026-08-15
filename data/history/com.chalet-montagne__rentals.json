@@ -2,6 +2,19 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:30.932Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-30Z-d2d89f",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "check_availability_and_price",
+          "send_rental_inquiry",
+          "get_rental_details",
+          "search_rentals"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:17.022Z",
         "method": "remote-http",
         "runId": "2026-08-15T01-49-17Z-8b8e8b",
@@ -17,6 +30,19 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:35.852Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-35Z-b0ddff",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "check_availability_and_price",
+          "send_rental_inquiry",
+          "get_rental_details",
+          "search_rentals"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:20.415Z",
         "method": "remote-http",
         "runId": "2026-08-15T01-49-20Z-238791",
@@ -31,6 +57,19 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:52.061Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-52Z-c04f43",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "check_availability_and_price",
+          "send_rental_inquiry",
+          "get_rental_details",
+          "search_rentals"
+        ]
+      },
       {
         "date": "2026-08-15T01:50:04.636Z",
         "method": "remote-http",

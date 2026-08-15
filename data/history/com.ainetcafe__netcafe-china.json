@@ -1,0 +1,69 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T16:56:30.932Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-30Z-d2d89f",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "what_can_you_do",
+          "china_reachability",
+          "lunar_calendar",
+          "bazi_chart",
+          "huangli",
+          "pick_lucky_days",
+          "cn_holiday",
+          "id_card_check",
+          "phone_info",
+          "pinyin_convert"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T16:56:35.852Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-35Z-b0ddff",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "what_can_you_do",
+          "china_reachability",
+          "lunar_calendar",
+          "bazi_chart",
+          "huangli",
+          "pick_lucky_days",
+          "cn_holiday",
+          "id_card_check",
+          "phone_info",
+          "pinyin_convert"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T16:56:52.061Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-52Z-c04f43",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "what_can_you_do",
+          "china_reachability",
+          "lunar_calendar",
+          "bazi_chart",
+          "huangli",
+          "pick_lucky_days",
+          "cn_holiday",
+          "id_card_check",
+          "phone_info",
+          "pinyin_convert"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.ainetcafe/netcafe-china",
+  "slug": "com.ainetcafe__netcafe-china"
+}

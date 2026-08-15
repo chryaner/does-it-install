@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:29.657Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed",
+        "installMs": 12799,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-29Z-decde8",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T01:49:18.684Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed",
         "method": "npm",
@@ -17,6 +25,37 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-08-15T16:56:29.989Z",
+        "installMs": 8473,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-29Z-c88e00",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "get_wallet_address",
+          "build_swap",
+          "submit_signed_swap",
+          "auto_swap",
+          "get_holdings",
+          "get_mcap",
+          "get_flex_card",
+          "connect_websocket",
+          "connection_status",
+          "get_fill_log",
+          "place_limit_order",
+          "place_trailing_order",
+          "place_twap_order",
+          "place_limit_twap_order",
+          "place_trailing_twap_order",
+          "place_limit_trailing_order",
+          "place_limit_trailing_twap_order",
+          "list_orders",
+          "check_order",
+          "cancel_order",
+          "extend_order"
+        ]
+      },
       {
         "date": "2026-08-15T01:49:20.605Z",
         "method": "npm",
@@ -79,6 +118,37 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:52.007Z",
+        "installMs": 172131,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-52Z-7469c8",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "get_wallet_address",
+          "build_swap",
+          "submit_signed_swap",
+          "auto_swap",
+          "get_holdings",
+          "get_mcap",
+          "get_flex_card",
+          "connect_websocket",
+          "connection_status",
+          "get_fill_log",
+          "place_limit_order",
+          "place_trailing_order",
+          "place_twap_order",
+          "place_limit_twap_order",
+          "place_trailing_twap_order",
+          "place_limit_trailing_order",
+          "place_limit_trailing_twap_order",
+          "list_orders",
+          "check_order",
+          "cancel_order",
+          "extend_order"
+        ]
+      },
       {
         "date": "2026-08-15T01:49:39.142Z",
         "method": "npm",

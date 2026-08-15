@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:29.657Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Local MCP tray unreachable. Open LocalMCPTray.app and retry.\n--- stderr (tail) ---\nDescargando teams-proxy v3.0.371...\n\nDescargando tray v3.0.371...\n\nPilot MCP v3.0.371 no encontrado en cache.\nDescargando desde https://download.local-mcp.com/local-mcp-server-3.0.371-darwin-arm64.tar.gz\n\r  Descargando... 0%\r  Descargando... 0%\r  Descargando... 10%\r  Descargando... 0%\r  Descargando... 20%\r  Descargando... 10%\r  Descargando... 30%\r  Descargando... 20%\r  Descargando... 40%\r  Descargando... 30%\r  Descargando... 50%\r  Descargando... 40%\r  Descargando... 50%\r  Descargando... 60%\r  Descargando... 70%\r  Descargando... 60%\r  Descargando... 10%\r  Descargando... 80%\r  Descargando... 90%\r  Descargando... 100%\n  Extrayendo...\n  Listo en /Users/runner/.local/share/local-mcp/bin/3.0.371\n\r  Descargando... 70%\r  Descargando... 20%\r  Descargando... 80%\r  Descargando... 30%\r  Descargando... 90%\r  Descargando... 40%\r  Descargando... 100%\n  teams-proxy instalado en /Users/runner/.local/share/local-mcp/bin/teams-proxy\n\r  Descargando... 50%\r  Descargando... 60%\r  Descargando... 70%\r  Descargando... 80%\r  Descargando... 90%\r  Descargando... 100%\n  Instalando tray en /Applications...\n  Tray instalado en /Applications/LocalMCPTray.app",
+        "installMs": 677,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-29Z-decde8",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-15T04:06:28.268Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Local MCP tray unreachable. Open LocalMCPTray.app and retry.\n--- stderr (tail) ---\nDescargando tray v3.0.371...\n\nDescargando teams-proxy v3.0.371...\n\nPilot MCP v3.0.371 no encontrado en cache.\nDescargando desde https://download.local-mcp.com/local-mcp-server-3.0.371-darwin-arm64.tar.gz\n\r  Descargando... 0%\r  Descargando... 0%\r  Descargando... 10%\r  Descargando... 20%\r  Descargando... 30%\r  Descargando... 40%\r  Descargando... 50%\r  Descargando... 60%\r  Descargando... 70%\r  Descargando... 80%\r  Descargando... 90%\r  Descargando... 100%\n  Extrayendo...\n  Listo en /Users/runner/.local/share/local-mcp/bin/3.0.371\n\r  Descargando... 0%\r  Descargando... 10%\r  Descargando... 10%\r  Descargando... 20%\r  Descargando... 30%\r  Descargando... 40%\r  Descargando... 20%\r  Descargando... 50%\r  Descargando... 30%\r  Descargando... 60%\r  Descargando... 40%\r  Descargando... 70%\r  Descargando... 50%\r  Descargando... 80%\r  Descargando... 60%\r  Descargando... 90%\r  Descargando... 70%\r  Descargando... 100%\n  teams-proxy instalado en /Users/runner/.local/share/local-mcp/bin/teams-proxy\n\r  Descargando... 80%\r  Descargando... 90%\r  Descargando... 100%\n  Instalando tray en /Applications...\n  Tray instalado en /Applications/LocalMCPTray.app",
         "method": "npm",
@@ -18,6 +26,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:29.989Z",
+        "errorExcerpt": "npm install local-mcp@3.0.9 exited with code 1\n--- stderr (tail) ---\nnpm error code EBADPLATFORM\nnpm error notsup Unsupported platform for local-mcp@3.0.9: wanted {\"os\":\"darwin\"} (current: {\"os\":\"linux\"})\nnpm error notsup Valid os:  darwin\nnpm error notsup Actual os: linux\nnpm error A complete log of this run can be found in: /tmp/does-it-install/dii-npm-RnIZGu/.npm-cache/_logs/2026-08-15T16_56_52_025Z-debug-0.log",
+        "installMs": 609,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-29Z-c88e00",
+        "status": "install_failed"
+      },
+      {
         "date": "2026-08-15T04:06:32.275Z",
         "errorExcerpt": "npm install local-mcp@3.0.9 exited with code 1\n--- stderr (tail) ---\nnpm error code EBADPLATFORM\nnpm error notsup Unsupported platform for local-mcp@3.0.9: wanted {\"os\":\"darwin\"} (current: {\"os\":\"linux\"})\nnpm error notsup Valid os:  darwin\nnpm error notsup Actual os: linux\nnpm error A complete log of this run can be found in: /tmp/does-it-install/dii-npm-9oQ4il/.npm-cache/_logs/2026-08-15T04_08_38_315Z-debug-0.log",
         "method": "npm",
@@ -33,6 +49,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:52.007Z",
+        "errorExcerpt": "npm install local-mcp@3.0.9 exited with code 1\n--- stderr (tail) ---\nnpm error code EBADPLATFORM\nnpm error notsup Unsupported platform for local-mcp@3.0.9: wanted {\"os\":\"darwin\"} (current: {\"os\":\"win32\"})\nnpm error notsup Valid os:  darwin\nnpm error notsup Actual os: win32\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-ecZveX\\.npm-cache\\_logs\\2026-08-15T17_04_16_856Z-debug-0.log",
+        "installMs": 3135,
+        "method": "npm",
+        "runId": "2026-08-15T16-56-52Z-7469c8",
+        "status": "install_failed"
+      },
       {
         "date": "2026-08-15T04:06:54.151Z",
         "errorExcerpt": "npm install local-mcp@3.0.9 exited with code 1\n--- stderr (tail) ---\nnpm error code EBADPLATFORM\nnpm error notsup Unsupported platform for local-mcp@3.0.9: wanted {\"os\":\"darwin\"} (current: {\"os\":\"win32\"})\nnpm error notsup Valid os:  darwin\nnpm error notsup Actual os: win32\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-ETUFjX\\.npm-cache\\_logs\\2026-08-15T04_45_34_173Z-debug-0.log",

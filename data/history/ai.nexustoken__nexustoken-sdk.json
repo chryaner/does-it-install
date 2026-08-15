@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:29.657Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 32 packages in 84ms\nAn executable named `nexustoken-sdk` is not provided by package `nexustoken-sdk`.\nThe following executables are available:\n- nexus\n- nexus-mcp\n\nUse `uv tool run --from nexustoken-sdk <EXECUTABLE-NAME>` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T16-56-29Z-decde8",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T01:49:18.419Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 32 packages in 34ms\nAn executable named `nexustoken-sdk` is not provided by package `nexustoken-sdk`.\nThe following executables are available:\n- nexus\n- nexus-mcp\n\nUse `uv tool run --from nexustoken-sdk <EXECUTABLE-NAME>` instead.",
         "method": "pypi",
@@ -18,6 +25,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:29.989Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 32 packages in 23ms\nAn executable named `nexustoken-sdk` is not provided by package `nexustoken-sdk`.\nThe following executables are available:\n- nexus\n- nexus-mcp\n\nUse `uv tool run --from nexustoken-sdk <EXECUTABLE-NAME>` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T16-56-29Z-c88e00",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T01:49:21.179Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 32 packages in 38ms\nAn executable named `nexustoken-sdk` is not provided by package `nexustoken-sdk`.\nThe following executables are available:\n- nexus\n- nexus-mcp\n\nUse `uv tool run --from nexustoken-sdk <EXECUTABLE-NAME>` instead.",
         "method": "pypi",
@@ -33,6 +47,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:52.007Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 34 packages in 7.34s\nAn executable named `nexustoken-sdk` is not provided by package `nexustoken-sdk`.\nThe following executables are available:\n- nexus-mcp.exe\n- nexus.exe\n\nUse `uv tool run --from nexustoken-sdk <EXECUTABLE-NAME>` instead.",
+        "method": "pypi",
+        "runId": "2026-08-15T16-56-52Z-7469c8",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-15T01:49:32.941Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 34 packages in 6.21s\nAn executable named `nexustoken-sdk` is not provided by package `nexustoken-sdk`.\nThe following executables are available:\n- nexus-mcp.exe\n- nexus.exe\n\nUse `uv tool run --from nexustoken-sdk <EXECUTABLE-NAME>` instead.",

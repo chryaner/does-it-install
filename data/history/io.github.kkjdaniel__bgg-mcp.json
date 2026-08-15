@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:30.932Z",
+        "errorExcerpt": "container (oci) distributions are not probed in v1",
+        "method": "oci",
+        "runId": "2026-08-15T16-56-30Z-d2d89f",
+        "status": "skipped"
+      },
+      {
         "date": "2026-08-15T04:06:29.606Z",
         "errorExcerpt": "container (oci) distributions are not probed in v1",
         "method": "oci",
@@ -18,6 +25,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:35.852Z",
+        "errorExcerpt": "container (oci) distributions are not probed in v1",
+        "method": "oci",
+        "runId": "2026-08-15T16-56-35Z-b0ddff",
+        "status": "skipped"
+      },
+      {
         "date": "2026-08-15T04:06:26.501Z",
         "errorExcerpt": "container (oci) distributions are not probed in v1",
         "method": "oci",
@@ -33,6 +47,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:52.061Z",
+        "errorExcerpt": "container (oci) distributions are not probed in v1",
+        "method": "oci",
+        "runId": "2026-08-15T16-56-52Z-c04f43",
+        "status": "skipped"
+      },
       {
         "date": "2026-08-15T04:06:54.549Z",
         "errorExcerpt": "container (oci) distributions are not probed in v1",

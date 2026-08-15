@@ -2,6 +2,31 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:30.932Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-30Z-d2d89f",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "identi_card1",
+          "identi_card2",
+          "identi_card3",
+          "identi_card4",
+          "identi_card5",
+          "identi_card_image1",
+          "identi_card_image2",
+          "identi_card_image3",
+          "identi_card_image4",
+          "identi_card_image5",
+          "name_rrn_auth",
+          "hide_rrn",
+          "identity_document_residence_card",
+          "identity_document_passport",
+          "identity_document_id_card",
+          "identity_document_driver_license"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:18.684Z",
         "method": "remote-http",
         "runId": "2026-08-15T01-49-18Z-a30774",
@@ -29,6 +54,31 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:35.852Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-35Z-b0ddff",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "identi_card1",
+          "identi_card2",
+          "identi_card3",
+          "identi_card4",
+          "identi_card5",
+          "identi_card_image1",
+          "identi_card_image2",
+          "identi_card_image3",
+          "identi_card_image4",
+          "identi_card_image5",
+          "name_rrn_auth",
+          "hide_rrn",
+          "identity_document_residence_card",
+          "identity_document_passport",
+          "identity_document_id_card",
+          "identity_document_driver_license"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:20.605Z",
         "method": "remote-http",
         "runId": "2026-08-15T01-49-20Z-b188f1",
@@ -55,6 +105,31 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:52.061Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-52Z-c04f43",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "identi_card1",
+          "identi_card2",
+          "identi_card3",
+          "identi_card4",
+          "identi_card5",
+          "identi_card_image1",
+          "identi_card_image2",
+          "identi_card_image3",
+          "identi_card_image4",
+          "identi_card_image5",
+          "name_rrn_auth",
+          "hide_rrn",
+          "identity_document_residence_card",
+          "identity_document_passport",
+          "identity_document_id_card",
+          "identity_document_driver_license"
+        ]
+      },
       {
         "date": "2026-08-15T01:49:39.142Z",
         "method": "remote-http",

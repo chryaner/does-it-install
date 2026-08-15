@@ -2,6 +2,21 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:30.932Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-30Z-d2d89f",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "convert_to_toman",
+          "get_latest_gold_rates",
+          "get_market_history",
+          "get_latest_crypto_rates",
+          "get_latest_fiat_rates",
+          "get_fiat_rate_sources"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:17.022Z",
         "method": "remote-http",
         "runId": "2026-08-15T01-49-17Z-8b8e8b",
@@ -19,6 +34,21 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:35.852Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-35Z-b0ddff",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "convert_to_toman",
+          "get_latest_gold_rates",
+          "get_market_history",
+          "get_latest_crypto_rates",
+          "get_latest_fiat_rates",
+          "get_fiat_rate_sources"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:20.415Z",
         "method": "remote-http",
         "runId": "2026-08-15T01-49-20Z-238791",
@@ -35,6 +65,21 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:52.061Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-52Z-c04f43",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "convert_to_toman",
+          "get_latest_gold_rates",
+          "get_market_history",
+          "get_latest_crypto_rates",
+          "get_latest_fiat_rates",
+          "get_fiat_rate_sources"
+        ]
+      },
       {
         "date": "2026-08-15T01:50:04.636Z",
         "method": "remote-http",

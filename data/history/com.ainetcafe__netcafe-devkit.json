@@ -1,0 +1,75 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-15T16:56:30.424Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-30Z-74a61d",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "what_can_you_do",
+          "redact_text",
+          "json_yaml",
+          "validate_json",
+          "diff_text",
+          "jwt_decode",
+          "regex_test",
+          "transpile_sql",
+          "make_qr",
+          "json_format",
+          "timezone_convert",
+          "unit_convert"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-15T16:56:31.954Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-31Z-197d91",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "what_can_you_do",
+          "redact_text",
+          "json_yaml",
+          "validate_json",
+          "diff_text",
+          "jwt_decode",
+          "regex_test",
+          "transpile_sql",
+          "make_qr",
+          "json_format",
+          "timezone_convert",
+          "unit_convert"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-15T16:56:50.470Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-50Z-656db4",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "what_can_you_do",
+          "redact_text",
+          "json_yaml",
+          "validate_json",
+          "diff_text",
+          "jwt_decode",
+          "regex_test",
+          "transpile_sql",
+          "make_qr",
+          "json_format",
+          "timezone_convert",
+          "unit_convert"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.ainetcafe/netcafe-devkit",
+  "slug": "com.ainetcafe__netcafe-devkit"
+}

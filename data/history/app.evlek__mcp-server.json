@@ -2,6 +2,29 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T16:56:30.932Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-30Z-d2d89f",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "search_listings",
+          "get_price_index",
+          "compare_cities",
+          "get_yield_estimate",
+          "suggest_neighborhood",
+          "compare_properties",
+          "get_district_profile",
+          "student_housing",
+          "payment_plan",
+          "get_listing_detail",
+          "search",
+          "fetch",
+          "list_locations",
+          "get_listing_by_number"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:18.684Z",
         "method": "remote-http",
         "runId": "2026-08-15T01-49-18Z-a30774",
@@ -27,6 +50,29 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T16:56:35.852Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-35Z-b0ddff",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "search_listings",
+          "get_price_index",
+          "compare_cities",
+          "get_yield_estimate",
+          "suggest_neighborhood",
+          "compare_properties",
+          "get_district_profile",
+          "student_housing",
+          "payment_plan",
+          "get_listing_detail",
+          "search",
+          "fetch",
+          "list_locations",
+          "get_listing_by_number"
+        ]
+      },
+      {
         "date": "2026-08-15T01:49:20.605Z",
         "method": "remote-http",
         "runId": "2026-08-15T01-49-20Z-b188f1",
@@ -51,6 +97,29 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T16:56:52.061Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T16-56-52Z-c04f43",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "search_listings",
+          "get_price_index",
+          "compare_cities",
+          "get_yield_estimate",
+          "suggest_neighborhood",
+          "compare_properties",
+          "get_district_profile",
+          "student_housing",
+          "payment_plan",
+          "get_listing_detail",
+          "search",
+          "fetch",
+          "list_locations",
+          "get_listing_by_number"
+        ]
+      },
       {
         "date": "2026-08-15T01:49:39.142Z",
         "method": "remote-http",
