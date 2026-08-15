@@ -34,11 +34,11 @@ const STATUS_FACES: Record<ProbeStatus, BadgeFace> = {
 
 /**
  * Worst-wins ranking for the overall badge, ordered by how early the probe
- * died: the earlier it broke, the more broken the server is. `needs_auth` and
- * `skipped` outrank `pass` on purpose: neither is evidence of health, and a
- * platform we could not test at all (`skipped`) tells us even less than one
- * that answered and asked for credentials. `timeout` sits with the phase it
- * most often hides (a spawn that never finishes handshaking).
+ * died: the earlier it broke, the more broken the server is. `needs_auth`
+ * outranks `pass` on purpose, since it is not evidence of health. `timeout`
+ * sits with the phase it most often hides (a spawn that never finishes
+ * handshaking). `skipped` keeps a slot so the table stays total, but never
+ * reaches the reduce: `overallBadge` drops untested platforms first.
  */
 const SEVERITY: Record<ProbeStatus, number> = {
   pass: 0,
@@ -69,10 +69,11 @@ export function badgeForStatus(status: ProbeStatus | undefined): ShieldsBadge {
 }
 
 /**
- * Overall + per-platform badges. Platforms with no data are rendered untested
- * and are ignored by the overall verdict; a server that passes somewhere and
- * fails somewhere else gets an orange "failing on n/m platforms" badge rather
- * than a red one that would hide the working platforms.
+ * Overall + per-platform badges. Platforms with no data, and platforms whose
+ * latest probe was `skipped`, are rendered untested and ignored by the overall
+ * verdict; a server that passes somewhere and fails somewhere else gets an
+ * orange "failing on n/m platforms" badge rather than a red one that would hide
+ * the working platforms.
  */
 export function badgeForHistory(history: ServerHistory | undefined): BadgeSet {
   const latest = new Map<Platform, ProbeStatus>();
@@ -90,14 +91,25 @@ export function badgeForHistory(history: ServerHistory | undefined): BadgeSet {
   return { overall: overallBadge([...latest.values()]), perPlatform };
 }
 
+/**
+ * The verdict over the platforms that actually have a result.
+ *
+ * `skipped` platforms are dropped before anything is counted, denominator
+ * included: a skip says "we did not test here", never "it might be broken
+ * here". Containers are probeable only where the runner can run Linux images,
+ * and a runner without `uv` skips PyPI, so treating a skip as a veto would let
+ * a macOS runner grey out what Linux proved. Every platform skipped, or none
+ * recorded at all, leaves nothing to judge and the badge reads untested.
+ */
 function overallBadge(statuses: readonly ProbeStatus[]): ShieldsBadge {
-  if (statuses.length === 0) return badgeForStatus(undefined);
+  const judged = statuses.filter((status) => status !== 'skipped');
+  if (judged.length === 0) return badgeForStatus(undefined);
 
-  const failing = statuses.filter(isFailure).length;
-  const passing = statuses.filter((status) => status === 'pass').length;
+  const failing = judged.filter(isFailure).length;
+  const passing = judged.filter((status) => status === 'pass').length;
   if (failing > 0 && passing > 0) {
     return toBadge({
-      message: `failing on ${failing}/${statuses.length} platforms`,
+      message: `failing on ${failing}/${judged.length} platforms`,
       color: 'orange',
     });
   }
@@ -105,14 +117,10 @@ function overallBadge(statuses: readonly ProbeStatus[]): ShieldsBadge {
   // A platform that passed proves the server works, and `needs_auth` elsewhere
   // is the expected result of probing a credentialed server without
   // credentials, so the pass wins outright instead of losing to `needs_auth` in
-  // the worst-wins reduce below. `skipped` is excluded on purpose: a platform we
-  // never tested is not evidence the server works there, so pass + skipped
-  // still reduces to untested.
-  if (passing > 0 && failing === 0 && !statuses.includes('skipped')) {
-    return badgeForStatus('pass');
-  }
+  // the worst-wins reduce below.
+  if (passing > 0 && failing === 0) return badgeForStatus('pass');
 
-  const worst = statuses.reduce((a, b) => (SEVERITY[b] > SEVERITY[a] ? b : a));
+  const worst = judged.reduce((a, b) => (SEVERITY[b] > SEVERITY[a] ? b : a));
   return badgeForStatus(worst);
 }
 

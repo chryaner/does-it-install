@@ -75,10 +75,11 @@ describe('parseShard', () => {
 
 describe('parseMethods', () => {
   it('accepts a trimmed comma-separated list', () => {
-    expect(parseMethods('npm,pypi , remote')).toEqual(['npm', 'pypi', 'remote']);
+    expect(parseMethods('npm,pypi , oci,remote')).toEqual(['npm', 'pypi', 'oci', 'remote']);
   });
 
   it('rejects unknown or empty method lists', () => {
+    // The method is named after the distribution, not after the tool that runs it.
     expect(() => parseMethods('docker')).toThrow(/unknown method "docker"/);
     expect(() => parseMethods(' , ')).toThrow(/at least one of/);
   });

@@ -78,9 +78,9 @@ const STATUS_PHRASES: Record<ProbeStatus, string> = {
 const SLOW_INSTALL_MS = 60_000;
 
 interface Install {
-  /** Distribution the sweep would pick: npm, then pypi, then remote. */
-  label: 'npm' | 'pypi' | 'remote' | 'none';
-  /** `npx <pkg>`, `uvx <pkg>`, or the endpoint URL. */
+  /** Distribution the sweep would pick: npm, then pypi, then oci, then remote. */
+  label: 'npm' | 'pypi' | 'oci' | 'remote' | 'none';
+  /** `npx <pkg>`, `uvx <pkg>`, `docker run <image>`, or the endpoint URL. */
   command?: string;
   /** True when `command` is an endpoint rather than a shell command. */
   hosted: boolean;
@@ -164,7 +164,7 @@ ${countCard(views.length, 'servers')}
 ${rows}
 </tbody>
 </table></div>
-<p class="legend">Status dots are ${PLATFORMS.map((platform) => escapeHtml(PLATFORM_LABELS[platform])).join(' &middot; ')}, in that order. Hover one for its result. A server counts as failing when its latest probe failed on any platform we tested. Amber means the server is alive but wants credentials the probe does not send, which is neither a pass nor a failure.</p>
+<p class="legend">Status dots are ${PLATFORMS.map((platform) => escapeHtml(PLATFORM_LABELS[platform])).join(' &middot; ')}, in that order. Hover one for its result. A server counts as failing when its latest probe failed on any platform we tested. Amber means the server is alive but wants credentials the probe does not send, which is neither a pass nor a failure. Grey means we did not test that platform, so it is left out of the verdict rather than counted against the server.</p>
 <p class="legend">Rows are ordered by GitHub stars of the server's repository, most stars first, with servers we have no count for last. Stars measure the repository, not the server itself, and nothing here is ordered by who curated it.</p>
 <p class="legend">Site built ${escapeHtml(formatDateTime(options.generatedAt))}${catalog.generatedAt === '' ? '' : ` &middot; catalog generated ${escapeHtml(formatDateTime(catalog.generatedAt))}`}.</p>`;
 
@@ -245,12 +245,14 @@ function installBlock(install: Install, options: ResolvedOptions): string {
   if (install.command === undefined) {
     return install.hosted
       ? '<p class="note">The listed endpoint is not a usable http(s) URL, so there is nothing for the sweep to connect to.</p>'
-      : '<p class="note">No npm, PyPI or hosted distribution is listed for this server, so there is nothing for the sweep to install.</p>';
+      : '<p class="note">No npm, PyPI, container or hosted distribution is listed for this server, so there is nothing for the sweep to install.</p>';
   }
 
   const caption = install.hosted
     ? 'Hosted endpoint, so there is nothing to install. The probe connects straight to it:'
-    : 'The sweep installs into a clean prefix, but this is the command a user would run:';
+    : install.label === 'oci'
+      ? 'The sweep pulls the image and runs it in a throwaway container, but this is the command a user would run:'
+      : 'The sweep installs into a clean prefix, but this is the command a user would run:';
 
   const credentials =
     install.requiresEnv.length === 0
@@ -354,10 +356,10 @@ function methodologyPage(options: ResolvedOptions): string {
 <p class="pitch">How a green, amber or red square on this site is produced, and what it does not tell you.</p>
 
 <h2>What one probe does</h2>
-<p>Every server in the catalog is probed independently, in a disposable CI runner, with no shared state between servers. The sweep picks the first distribution it supports (npm, then PyPI, then a hosted endpoint) and walks these phases:</p>
+<p>Every server in the catalog is probed independently, in a disposable CI runner, with no shared state between servers. The sweep picks the first distribution it supports (npm, then PyPI, then a container image, then a hosted endpoint) and walks these phases:</p>
 <ul>
-<li><b>install</b>: <code>npm install</code> into a fresh temporary prefix with a clean cache, or <code>uv tool run</code> for PyPI. Nothing is installed globally.</li>
-<li><b>spawn / connect</b>: the server binary is started over stdio, or the hosted endpoint is opened with the streamable-HTTP or legacy SSE transport.</li>
+<li><b>install</b>: <code>npm install</code> into a fresh temporary prefix with a clean cache, <code>uv tool run</code> for PyPI, or <code>docker pull</code> for a container image. Nothing is installed globally.</li>
+<li><b>spawn / connect</b>: the server binary is started over stdio, a container is run with <code>docker run -i --rm</code> and removed afterwards, or the hosted endpoint is opened with the streamable-HTTP or legacy SSE transport.</li>
 <li><b>handshake</b>: an MCP <code>initialize</code> round trip with the official SDK client.</li>
 <li><b>tools/list</b>: the tool list is requested; the count on each page comes from this response.</li>
 </ul>
@@ -375,14 +377,14 @@ function methodologyPage(options: ResolvedOptions): string {
 <p>We do not accept test credentials, from anyone. The harness executes third-party code weekly, so holding real secrets would make every probe a liability, and probing with no accounts anywhere is what keeps the results comparable.</p>
 
 <h2>Platforms and cadence</h2>
-<p>Probes run on ${PLATFORMS.map((platform) => escapeHtml(PLATFORM_LABELS[platform])).join(', ')} runners, weekly, plus manual re-runs. Each server keeps its last ${String(HISTORY_LIMIT)} results per platform, which is what the history strip shows. Servers that disappear from the registry keep their pages: knowing when something stopped working is the point.</p>
+<p>Probes run on ${PLATFORMS.map((platform) => escapeHtml(PLATFORM_LABELS[platform])).join(', ')} runners, weekly, plus manual re-runs. Container images are probed on Linux only, because the macOS and Windows runners cannot run Linux containers; on those platforms the result is <em>not tested</em>, and a platform we did not test is left out of the overall badge instead of counting against the server. Each server keeps its last ${String(HISTORY_LIMIT)} results per platform, which is what the history strip shows. Servers that disappear from the registry keep their pages: knowing when something stopped working is the point.</p>
 
 <h2>Caveats</h2>
 <ul>
 <li><b>Amber means the server is alive and wants credentials</b> we do not send. Red is kept for a real failure: the probe filled every declared required variable with a placeholder, and the server broke for a reason that has nothing to do with them.</li>
 <li><b>Red still does not always mean broken for you.</b> It can mean the server needs a runtime the runner lacks, or was published for one platform only.</li>
 <li><b>Hosted endpoints that answer 401 or 403</b> are recorded as needs credentials with the HTTP detail, not as a failed handshake. They are reachable; they simply require auth we do not send.</li>
-<li><b>Grey means untested</b>, never "bad": no supported distribution, an OCI-only server (not probed yet), or a runner missing <code>uv</code>.</li>
+<li><b>Grey means untested</b>, never "bad": no supported distribution, a container image on a runner that cannot run one, or a runner missing <code>uv</code>.</li>
 <li><b>We test installation and the handshake, not behaviour.</b> A green square says the server starts and lists its tools; it says nothing about whether those tools work well.</li>
 <li><b>Results are a snapshot.</b> Registries, package versions and hosted endpoints all move between sweeps.</li>
 </ul>
@@ -615,7 +617,7 @@ function lastCheckedOf(latest: ReadonlyMap<Platform, HistoryEntry>): string | un
   return newest;
 }
 
-/** Mirrors the sweep's preference order: npm, then PyPI, then a remote. */
+/** Mirrors the sweep's preference order: npm, PyPI, container, then remote. */
 function installOf(entry: ServerEntry): Install {
   const npm = entry.packages.find((pkg) => pkg.kind === 'npm');
   if (npm !== undefined) {
@@ -634,6 +636,16 @@ function installOf(entry: ServerEntry): Install {
       command: `uvx ${pypi.identifier}`,
       hosted: false,
       requiresEnv: requiredNames(pypi.env),
+    };
+  }
+
+  const oci = entry.packages.find((pkg) => pkg.kind === 'oci');
+  if (oci !== undefined) {
+    return {
+      label: 'oci',
+      command: `docker run -i --rm ${oci.identifier}`,
+      hosted: false,
+      requiresEnv: requiredNames(oci.env),
     };
   }
 

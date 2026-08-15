@@ -619,6 +619,30 @@ describe('server page', () => {
     expect(page).toContain('<pre class="cmd"><code>https://mcp.example.test/sse</code></pre>');
   });
 
+  it('shows the docker command for a container-only server', () => {
+    const container: ServerEntry = {
+      ...REMOTE,
+      slug: 'container-only',
+      remotes: [],
+      packages: [
+        {
+          kind: 'oci',
+          identifier: 'ghcr.io/acme/server:1.2.3',
+          env: [{ name: 'ACME_TOKEN', required: true, secret: true }],
+        },
+      ],
+    };
+    const built = build({ generatedAt: '', servers: [container] });
+
+    const page = pageOf(built, 's/container-only.html');
+    expect(page).toContain(
+      '<pre class="cmd"><code>docker run -i --rm ghcr.io/acme/server:1.2.3</code></pre>',
+    );
+    expect(page).toContain('pulls the image and runs it in a throwaway container');
+    expect(page).toContain('Needs credentials: <code>ACME_TOKEN</code>');
+    expect(pageOf(built, 'index.html')).toContain('<td>oci</td>');
+  });
+
   it('says so when there is nothing to install', () => {
     const orphan: ServerEntry = { ...REMOTE, slug: 'orphan', remotes: [], rank: 4 };
     const pagesWithOrphan = build({ generatedAt: '', servers: [orphan] });
@@ -648,6 +672,15 @@ describe('methodology and 404 pages', () => {
     expect(methodology).toContain('Amber means the server is alive and wants credentials');
     // Red no longer stands in for a missing key: amber does.
     expect(methodology).not.toContain('It can mean the server needs credentials we do not have');
+  });
+
+  it('says containers are a Linux-only probe and that a skip is not held against a server', () => {
+    const methodology = pageOf(pages, 'methodology.html');
+    expect(methodology).toContain('<code>docker pull</code> for a container image');
+    expect(methodology).toContain('Container images are probed on Linux only');
+    expect(methodology).toContain('left out of the overall badge instead of counting against the server');
+    // The old caveat claimed containers were not probed at all.
+    expect(methodology).not.toContain('not probed yet');
   });
 
   it('explains the second chance for install timeouts and the slow install note', () => {

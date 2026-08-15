@@ -48,28 +48,34 @@ nothing else defines data shapes.
 
 ### sweep (`src/harness/`)
 For each catalog entry, pick the first supported distribution (npm, then pypi,
-then remote) and probe it:
+then oci, then remote) and probe it:
 
 - **npm**: install into a fresh temp prefix (`npm install --prefix <tmp>
   <pkg>` with a clean cache), locate the package `bin`, spawn over stdio with
   the SDK client, `initialize`, `tools/list`. No global state.
 - **pypi**: `uv tool run` (uvx) equivalent, spawned the same way. If `uv` is
   missing on the runner the probe records `skipped`, never a failure.
+- **oci**: `docker pull <image>`, then `docker run -i --rm --pull=never --name
+  dii-<uuid>` with the declared env vars as `-e` pairs, spawned over stdio like
+  the others. The container is force-removed afterwards, whatever happened:
+  killing the docker client does not stop the container. A runner without a
+  daemon running Linux containers (`docker version --format {{.Server.Os}}`)
+  records `skipped`, never a failure: macOS has no daemon and Windows runs
+  Windows containers, so this is a Linux-only probe in practice.
 - **remote-http / remote-sse**: connect with StreamableHTTP/SSE transports,
   `initialize`, `tools/list`. Endpoints that 401/403 without auth headers, and
   endpoints that reject an unauthenticated `initialize` while declaring headers
   they require, are recorded as `needs_auth` with the HTTP detail. "Reachable
   but needs auth" is real signal, it is not a failure, and the site renders it
   amber rather than red.
-- **oci**: `skipped` in v1.
 - Required env vars are filled with `ENV_PLACEHOLDER` and recorded in
   `requiresEnv` so pages can caveat the result. A stdio server that then will
   not start or will not finish the handshake is recorded `needs_auth` instead of
   `spawn_failed`/`handshake_failed`: it asked for credentials we withheld.
   `install_failed`, `tools_failed` and `timeout` are never reclassified.
-- Per-phase timeouts (install 600s, spawn 30s, handshake 30s, tools 15s,
-  remote connect 20s). A phase timeout yields status `timeout` with the phase
-  recorded in `phases`.
+- Per-phase timeouts (install 600s, which also covers `docker pull`, spawn 30s,
+  handshake 30s, tools 15s, remote connect 20s). A phase timeout yields status
+  `timeout` with the phase recorded in `phases`.
 - stderr is captured continuously; on failure the excerpt keeps the newest
   `MAX_ERROR_EXCERPT` chars. The child process tree is always killed and temp
   dirs removed, success or failure.
@@ -77,7 +83,7 @@ then remote) and probe it:
   or writing garbage to stdout must never take down the sweep: every probe is
   fully isolated in try/catch and its result recorded.
 - CLI: `npm run sweep -- [--catalog p] [--out p] [--top N] [--shard i/N]
-  [--only <id-or-slug>] [--methods npm,pypi,remote]`
+  [--only <id-or-slug>] [--methods npm,pypi,oci,remote]`
 - Sharding is deterministic: entry k of the ranked top-N goes to shard
   `k % shardTotal`.
 
@@ -92,11 +98,13 @@ same `runId` must not duplicate entries. History files for servers no longer
 in the catalog are kept (rot data is the product).
 
 ### badges (`src/badges/`)
-Emits shields endpoint JSON per server: overall (`badge/<slug>.json`, worst
-recent status across platforms) and per-platform
-(`badge/<slug>-<platform>.json`). Green `passing`, red `failing` with the
-failing phase, yellow `needs credentials`, grey `unknown`/`skipped`.
-`cacheSeconds` ≥ 3600.
+Emits shields endpoint JSON per server: overall (`badge/<slug>.json`) and
+per-platform (`badge/<slug>-<platform>.json`). Green `passing`, red `failing`
+with the failing phase, yellow `needs credentials`, grey `unknown`/`skipped`.
+The overall badge is the worst recent status across the platforms that produced
+a result: `skipped` platforms are dropped before anything is counted, so a
+container skipped on macOS cannot grey out what Linux proved, and only a server
+with no result anywhere reads `untested`. `cacheSeconds` ≥ 3600.
 Embed URL: `https://img.shields.io/endpoint?url=<pages>/badge/<slug>.json`.
 
 ### site (`src/site/`)
@@ -143,6 +151,6 @@ Static generator, no framework, inline CSS, output to `public/`:
   seed servers, full probe, assert `pass` with tools found.
 
 ## v2 (explicitly out of scope now)
-Docker/OCI probes, Windows-specific install quirks pages, popularity signals
-beyond GitHub stars (npm downloads, registry usage), per-host-app compatibility
-(Claude Desktop / Codex / Cline versions).
+Container probes on macOS and Windows runners, Windows-specific install quirks
+pages, popularity signals beyond GitHub stars (npm downloads, registry usage),
+per-host-app compatibility (Claude Desktop / Codex / Cline versions).

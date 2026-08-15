@@ -7,7 +7,10 @@ import { currentPlatform, type Platform } from '../types.js';
 
 /** Per-phase time budgets in milliseconds. */
 export interface ProbeTimeouts {
-  /** `npm install` (and, for pypi, the `uv` download that happens on first run). */
+  /**
+   * `npm install`, `docker pull`, and for pypi the `uv` download that happens
+   * on first run.
+   */
   install: number;
   /** Getting the child process to start. */
   spawn: number;
@@ -30,9 +33,9 @@ export const DEFAULT_TIMEOUTS: ProbeTimeouts = {
 };
 
 /** Distribution families the sweep is allowed to probe (`--methods`). */
-export type MethodFilter = 'npm' | 'pypi' | 'remote';
+export type MethodFilter = 'npm' | 'pypi' | 'oci' | 'remote';
 
-export const ALL_METHODS: readonly MethodFilter[] = ['npm', 'pypi', 'remote'];
+export const ALL_METHODS: readonly MethodFilter[] = ['npm', 'pypi', 'oci', 'remote'];
 
 export function isMethodFilter(value: string): value is MethodFilter {
   return (ALL_METHODS as readonly string[]).includes(value);

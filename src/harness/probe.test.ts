@@ -42,6 +42,18 @@ describe('selectDistribution', () => {
     expect(selected).toEqual({ kind: 'pypi', pkg: pkg('pypi', 'mcp-server-git') });
   });
 
+  it('falls back to a container when there is no npm or pypi package', () => {
+    const selected = selectDistribution(
+      entry({
+        packages: [pkg('oci', 'ghcr.io/acme/server')],
+        remotes: [remote('streamable-http', 'https://acme.test/mcp')]
+      })
+    );
+    // A container is a copy of the server we run ourselves; a remote is
+    // somebody else's deployment of it, so the container is the better probe.
+    expect(selected).toEqual({ kind: 'oci', pkg: pkg('oci', 'ghcr.io/acme/server') });
+  });
+
   it('prefers streamable-http over legacy sse regardless of order', () => {
     const selected = selectDistribution(
       entry({
@@ -58,15 +70,22 @@ describe('selectDistribution', () => {
 
   it('honours the method filter', () => {
     const candidate = entry({
-      packages: [pkg('npm', '@acme/server')],
+      packages: [pkg('npm', '@acme/server'), pkg('oci', 'ghcr.io/acme/server')],
       remotes: [remote('streamable-http', 'https://acme.test/mcp')]
     });
     expect(selectDistribution(candidate, ['remote']).kind).toBe('remote');
+    expect(selectDistribution(candidate, ['oci']).kind).toBe('oci');
     expect(selectDistribution(candidate, ['pypi']).kind).toBe('none');
   });
 
-  it('reports oci-only servers as oci, not as nothing', () => {
-    expect(selectDistribution(entry({ packages: [pkg('oci', 'ghcr.io/acme/server')] }))).toEqual({ kind: 'oci' });
+  it('probes the whole order in turn', () => {
+    const packages = [pkg('oci', 'ghcr.io/acme/server'), pkg('pypi', 'mcp-server-git'), pkg('npm', '@acme/server')];
+    const candidate = entry({ packages, remotes: [remote('streamable-http', 'https://acme.test/mcp')] });
+
+    expect(selectDistribution(candidate).kind).toBe('npm');
+    expect(selectDistribution(candidate, ['pypi', 'oci', 'remote']).kind).toBe('pypi');
+    expect(selectDistribution(candidate, ['oci', 'remote']).kind).toBe('oci');
+    expect(selectDistribution(candidate, ['remote']).kind).toBe('remote');
   });
 
   it('reports servers with no distribution at all as none', () => {
@@ -172,10 +191,32 @@ describe('probeServer', () => {
     expect(result.durationMs).toBeGreaterThanOrEqual(0);
   });
 
-  it('skips container-only servers as oci', async () => {
-    const result = await probeServer(entry({ packages: [pkg('oci', 'ghcr.io/acme/server')] }), { platform: 'linux' });
+  // A malformed reference is refused before anything reaches docker, so these
+  // two prove the routing without a daemon on the machine running the tests.
+  it('routes container-only servers through the oci probe', async () => {
+    const result = await probeServer(entry({ packages: [pkg('oci', 'Not An Image')] }), { platform: 'linux' });
+
     expect(result.method).toBe('oci');
     expect(result.status).toBe('skipped');
+    expect(result.errorExcerpt).toContain('malformed oci image reference');
+  });
+
+  it('fills a container probe with placeholder credentials like any other package', async () => {
+    const result = await probeServer(
+      entry({
+        packages: [
+          {
+            kind: 'oci',
+            identifier: 'Not An Image',
+            env: [{ name: 'ACME_TOKEN', required: true, secret: true }]
+          }
+        ]
+      }),
+      { platform: 'linux' }
+    );
+
+    expect(result.method).toBe('oci');
+    expect(result.requiresEnv).toEqual(['ACME_TOKEN']);
   });
 
   it('installs nothing when the method filter excludes the distribution', async () => {

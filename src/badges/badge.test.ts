@@ -92,7 +92,7 @@ describe('badgeForHistory', () => {
     expect(overall).toMatchObject({ message: 'failing on 1/3 platforms', color: 'orange' });
   });
 
-  it('counts skipped platforms in the denominator but not as failures', () => {
+  it('leaves skipped platforms out of the mixed badge entirely', () => {
     const { overall } = badgeForHistory(
       history({
         linux: [entry('pass')],
@@ -101,7 +101,8 @@ describe('badgeForHistory', () => {
       }),
     );
 
-    expect(overall).toMatchObject({ message: 'failing on 1/3 platforms', color: 'orange' });
+    // Denominator included: two platforms produced a result and one of them failed.
+    expect(overall).toMatchObject({ message: 'failing on 1/2 platforms', color: 'orange' });
   });
 
   it('reports the worst failure when every platform fails', () => {
@@ -136,13 +137,31 @@ describe('badgeForHistory', () => {
     expect(overall).toMatchObject({ message: 'passing', color: 'brightgreen' });
   });
 
-  it('reports untested when a passing platform is paired with a skipped one', () => {
-    const { overall } = badgeForHistory(
+  it('stays passing when a passing platform is paired with a skipped one', () => {
+    const { overall, perPlatform } = badgeForHistory(
       history({ linux: [entry('pass')], win32: [entry('skipped')] }),
     );
 
-    // Worst-wins: a platform we could not test is not evidence the server works there.
+    // An OCI server is probeable on Linux alone, so a skip elsewhere must not
+    // veto what the platform we could test proved.
+    expect(overall).toMatchObject({ message: 'passing', color: 'brightgreen' });
+    expect(perPlatform.win32).toMatchObject({ message: 'untested', color: 'lightgrey' });
+  });
+
+  it('reports untested only when every platform with data was skipped', () => {
+    const { overall } = badgeForHistory(
+      history({ linux: [entry('skipped')], darwin: [entry('skipped')] }),
+    );
+
     expect(overall).toMatchObject({ message: 'untested', color: 'lightgrey' });
+  });
+
+  it('keeps the failure when a failing platform is paired with a skipped one', () => {
+    const { overall } = badgeForHistory(
+      history({ linux: [entry('install_failed')], win32: [entry('skipped')] }),
+    );
+
+    expect(overall).toMatchObject({ message: 'install fails', color: 'red' });
   });
 
   it('stays passing when a passing platform is paired with one that needs credentials', () => {
@@ -184,19 +203,19 @@ describe('badgeForHistory', () => {
     expect(overall).toMatchObject({ message: 'install fails', color: 'red' });
   });
 
-  it('ranks needs_auth above pass but below skipped', () => {
+  it('ranks needs_auth above pass, and ignores a skip either way', () => {
     const gated = badgeForHistory(history({ linux: [entry('pass')], win32: [entry('needs_auth')] }));
-    const untested = badgeForHistory(
+    const gatedOnly = badgeForHistory(
       history({ linux: [entry('needs_auth')], win32: [entry('skipped')] }),
     );
 
-    // A pass short-circuits the reduce; without one, an untested platform is
-    // still the weaker signal and wins.
+    // A pass short-circuits the reduce; without one, the only platform that
+    // produced a result decides.
     expect(gated.overall).toMatchObject({ message: 'passing' });
-    expect(untested.overall).toMatchObject({ message: 'untested' });
+    expect(gatedOnly.overall).toMatchObject({ message: 'needs credentials', color: 'yellow' });
   });
 
-  it('keeps a pass from a needs_auth run out of the untested case', () => {
+  it('judges a pass, a gated platform and a skipped one on the two with data', () => {
     const { overall } = badgeForHistory(
       history({
         linux: [entry('pass')],
@@ -205,8 +224,7 @@ describe('badgeForHistory', () => {
       }),
     );
 
-    // A skipped platform still pulls the verdict back to untested.
-    expect(overall).toMatchObject({ message: 'untested', color: 'lightgrey' });
+    expect(overall).toMatchObject({ message: 'passing', color: 'brightgreen' });
   });
 });
 

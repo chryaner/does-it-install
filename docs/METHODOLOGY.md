@@ -107,9 +107,12 @@ knows how to run:
 | --- | --- | --- |
 | 1 | npm package | `npm install --prefix <fresh temp dir>` with a private cache, locate the package `bin`, spawn it over stdio |
 | 2 | PyPI package | `uv tool run --from <pkg>[==<version>] <console-script>` into uv's own ephemeral environment |
-| 3 | Remote endpoint | connect over streamable HTTP; legacy SSE if that is all the server declares |
-| n/a | OCI image | `skipped`, not implemented in v1 |
+| 3 | OCI image | `docker pull <image>`, then `docker run -i --rm --pull=never` over stdio, with the container removed afterwards |
+| 4 | Remote endpoint | connect over streamable HTTP; legacy SSE if that is all the server declares |
 | n/a | Nothing runnable | `skipped` |
+
+A container sits ahead of a hosted endpoint on purpose: it is a copy of the
+server we run ourselves, while a remote is somebody else's deployment of it.
 
 Nothing is installed globally, no state is shared between probes, temp
 directories are removed and child process trees are killed whether the probe
@@ -121,8 +124,8 @@ produces a result row and nothing more.
 
 | Phase | Budget | Applies to | Status if it fails |
 | --- | --- | --- | --- |
-| `install` | 600 s | npm, PyPI | `install_failed` |
-| `spawn` | 30 s | npm, PyPI | `spawn_failed` |
+| `install` | 600 s | npm, PyPI, OCI | `install_failed` |
+| `spawn` | 30 s | npm, PyPI, OCI | `spawn_failed` |
 | `connect` | 20 s | remote | `connect_failed` |
 | `handshake` (MCP `initialize`) | 30 s | all | `handshake_failed` |
 | `listTools` (`tools/list`) | 15 s | all | `tools_failed` |
@@ -149,6 +152,29 @@ If `uv` is not on the runner's PATH, PyPI servers are recorded `skipped`, never
 failed. The sweep workflow installs uv with `continue-on-error`, so an outage
 in that action degrades PyPI coverage for a week instead of taking the sweep
 down.
+
+### Containers are a Linux-only probe
+
+Container images are probed where the runner can actually run them, which in
+practice means the Linux runner. The harness asks `docker version` once per
+process and requires three things of the answer: the CLI exists, a daemon
+replies, and that daemon is running **Linux** containers. The macOS runner has
+no daemon at all, and the Windows runner has one in Windows-container mode,
+where every Linux MCP image fails its pull with "no matching manifest"; calling
+that an install failure would paint a healthy server red over a platform we
+cannot test it on. Both record `skipped` with "docker not available on this
+runner" instead. That is not a verdict on the server, so it never counts against
+it: the overall badge judges only the platforms that produced a result
+(section 8).
+
+The image reference is used exactly as the catalog gives it, tag or digest
+included; a package `version` is not appended, because an image reference
+already carries its own and inventing one would fail a pull for a server that
+works. Required environment variables are passed as `-e NAME=value` placeholder
+pairs, so the container is gated by credentials exactly as a local install is.
+The container is named `dii-<uuid>` and force-removed after the probe: killing
+the docker client does not stop the container it started, and `--rm` alone only
+covers a container that exits by itself.
 
 ### Install timeouts get a second, uncontended chance
 
@@ -262,6 +288,7 @@ comparable.
 | Platforms | `linux` (ubuntu-latest), `darwin` (macos-latest), `win32` (windows-latest) |
 | Runtime | Node 22, GitHub-hosted runners |
 | PyPI runtime | `uv`, installed by `astral-sh/setup-uv` and treated as optional |
+| OCI runtime | Docker in Linux-container mode, which only the Linux runner has; treated as optional everywhere |
 | Layout | 3 shards × 3 operating systems = 9 probe jobs, `fail-fast: false`, 120 min per job |
 | Schedule | Mondays 03:00 UTC, plus manual dispatch with `top` and `shard_total` inputs |
 
@@ -305,14 +332,22 @@ The message names the phase that broke on purpose: "failing" alone tells a
 maintainer nothing, while `install fails` and `handshake fails` are different
 bugs with different owners.
 
-The overall badge is worst-wins over the latest per-platform statuses, ordered
-by how early the probe died (`install_failed` worst, then `spawn_failed`,
-`connect_failed`, `timeout`, `handshake_failed`, `tools_failed`, `skipped`,
-`needs_auth`, `pass`). `skipped` and `needs_auth` deliberately outrank `pass`:
-neither is evidence of health, and a platform we could not test at all tells us
-less than one that answered and asked for credentials. The mixed case gets its
-own orange badge rather than a red one, so a server that works everywhere
-except Windows is not painted as entirely broken.
+The overall badge judges only the platforms that produced a result. Platforms
+whose latest status is `skipped` are dropped first, denominator included: a skip
+means "we did not test here", never "it might be broken here", and containers
+are probeable on Linux alone. So `pass` + `skipped` is `passing`, `needs_auth` +
+`skipped` is `needs credentials`, and a failure plus a skip is that failure. When
+every platform with data is `skipped`, or there is no data at all, there is
+nothing to judge and the badge reads `untested`.
+
+What is left is worst-wins over those statuses, ordered by how early the probe
+died (`install_failed` worst, then `spawn_failed`, `connect_failed`, `timeout`,
+`handshake_failed`, `tools_failed`, `needs_auth`, `pass`), except that a single
+`pass` with no failure anywhere wins outright: it is proof the server works, and
+`needs_auth` elsewhere is the expected result of probing a credentialed server
+without credentials. The mixed case gets its own orange badge rather than a red
+one, so a server that works everywhere except Windows is not painted as entirely
+broken.
 
 Two statuses are not failures and are counted as such nowhere: `skipped` and
 `needs_auth`. A server that passes on one platform and asks for credentials on
@@ -323,8 +358,10 @@ learned.
 
 ## 9. Known limitations
 
-- **No OCI/Docker probes.** Servers distributed only as container images are
-  `skipped` in v1.
+- **Containers are tested on one platform.** An OCI image is probed on the
+  Linux runner only, so a container-only server has one green square where an
+  npm one has three, and nothing here says whether it runs under Docker Desktop
+  on macOS or Windows.
 - **The PyPI console script is guessed** as the last segment of the package
   identifier. A package whose entry point is named differently will show
   `spawn_failed` or `handshake_failed` even though the right command works.

@@ -43,7 +43,7 @@ a single platform, use `badge/<slug>-linux.json`, `-darwin` or `-win32`.
 | `unreachable` / `times out` | remote endpoint did not answer in budget |
 | `needs credentials` | yellow, not red: it is alive and it wants credentials the probe does not send (a 401/403, or a server that will not start without the variables it declared). Never counted as a failure |
 | `failing on 1/3 platforms` | works somewhere, broken elsewhere |
-| `untested` | no supported distribution yet (e.g. Docker-only), or never probed |
+| `untested` | no supported distribution, nothing we could test on any platform, or never probed |
 
 ## Data
 
@@ -59,15 +59,20 @@ Five phases per server, each with its own budget:
 
 | Phase | Budget | What it means |
 | --- | --- | --- |
-| install | 600 s | `npm install` into a fresh temp prefix, or `uv tool run` from PyPI |
-| spawn | 30 s | the installed binary actually starts |
+| install | 600 s | `npm install` into a fresh temp prefix, `uv tool run` from PyPI, or `docker pull` for a container image |
+| spawn | 30 s | the installed binary, or the container, actually starts |
 | connect | 20 s | remote endpoints only: reaching the hosted URL |
 | handshake | 30 s | MCP `initialize` round trip |
 | tools/list | 15 s | the server enumerates its tools |
 
-Nothing is installed globally, temp dirs and process trees are always cleaned
-up, and required environment variables are filled with a placeholder (never real
-credentials) and reported on the page. A server that answers 401/403, or that
+Container images are pulled and run with Docker, which only the Linux runner
+can do, so those servers are recorded `untested` on macOS and Windows rather
+than failed; a platform we could not test is left out of the overall badge
+instead of counting against the server.
+
+Nothing is installed globally, temp dirs, containers and process trees are
+always cleaned up, and required environment variables are filled with a
+placeholder (never real credentials) and reported on the page. A server that answers 401/403, or that
 will not start without the variables it declared, is recorded as `needs
 credentials`: amber on the site, yellow on the badge, and not a failure. Red is
 kept for a break the placeholders do not explain.
@@ -91,8 +96,8 @@ your real tokens are not handed to anything it runs.
 
 ## Running it locally
 
-Requires Node 22. `uv` is optional, and without it PyPI servers are recorded
-`skipped` rather than failed.
+Requires Node 22. `uv` and Docker are optional: without them PyPI and container
+servers are recorded `skipped` rather than failed.
 
 ```sh
 npm ci
@@ -127,7 +132,9 @@ Without it the build still works and warns, and `--top 25` then means the first
 25 the registry listed rather than the 25 most starred.
 
 `npm run test:smoke` runs the real end-to-end probes against the seed servers
-(this does install packages from npm).
+(this does install packages from npm, and pulls the official reference container
+image when a Docker daemon that runs Linux containers is available; without one
+that part skips itself).
 
 ## Adding or fixing a server
 

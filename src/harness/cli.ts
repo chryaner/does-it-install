@@ -22,7 +22,7 @@ const USAGE = `Usage: npm run sweep -- [options]
   --top <n>                 probe only the n highest-ranked servers
   --shard <i>/<n>           probe shard i of n (i is zero-based)
   --only <id-or-slug>       probe only this server (repeatable)
-  --methods <list>          comma-separated: npm,pypi,remote (default: all)
+  --methods <list>          comma-separated: npm,pypi,oci,remote (default: all)
   --concurrency <n>         parallel probes (default: 4)
   --timeout-install <sec>   install budget per server (default: 600)
   --timeout-connect <sec>   remote connect budget per server (default: 20)
@@ -152,9 +152,9 @@ export function parseMethods(value: string): MethodFilter[] {
     .split(',')
     .map(name => name.trim())
     .filter(name => name.length > 0);
-  if (names.length === 0) throw new UsageError('--methods needs at least one of: npm, pypi, remote');
+  if (names.length === 0) throw new UsageError('--methods needs at least one of: npm, pypi, oci, remote');
   for (const name of names) {
-    if (!isMethodFilter(name)) throw new UsageError(`unknown method "${name}", expected npm, pypi or remote`);
+    if (!isMethodFilter(name)) throw new UsageError(`unknown method "${name}", expected npm, pypi, oci or remote`);
   }
   return names.filter(isMethodFilter);
 }
