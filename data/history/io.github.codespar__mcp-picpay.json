@@ -1,0 +1,102 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 8217,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_payment",
+          "get_payment_status",
+          "cancel_payment",
+          "create_plan",
+          "list_plans",
+          "update_plan",
+          "delete_plan",
+          "create_subscription",
+          "get_subscription",
+          "cancel_subscription",
+          "validate_notification",
+          "refund_payment",
+          "create_b2p_transfer",
+          "get_b2p_transfer",
+          "create_batch_payment",
+          "list_transactions",
+          "get_wallet_balance",
+          "generate_static_qrcode",
+          "generate_dynamic_qrcode",
+          "create_payment_link"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 5135,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_payment",
+          "get_payment_status",
+          "cancel_payment",
+          "create_plan",
+          "list_plans",
+          "update_plan",
+          "delete_plan",
+          "create_subscription",
+          "get_subscription",
+          "cancel_subscription",
+          "validate_notification",
+          "refund_payment",
+          "create_b2p_transfer",
+          "get_b2p_transfer",
+          "create_batch_payment",
+          "list_transactions",
+          "get_wallet_balance",
+          "generate_static_qrcode",
+          "generate_dynamic_qrcode",
+          "create_payment_link"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 113941,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_payment",
+          "get_payment_status",
+          "cancel_payment",
+          "create_plan",
+          "list_plans",
+          "update_plan",
+          "delete_plan",
+          "create_subscription",
+          "get_subscription",
+          "cancel_subscription",
+          "validate_notification",
+          "refund_payment",
+          "create_b2p_transfer",
+          "get_b2p_transfer",
+          "create_batch_payment",
+          "list_transactions",
+          "get_wallet_balance",
+          "generate_static_qrcode",
+          "generate_dynamic_qrcode",
+          "create_payment_link"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-picpay",
+  "slug": "io.github.codespar__mcp-picpay"
+}

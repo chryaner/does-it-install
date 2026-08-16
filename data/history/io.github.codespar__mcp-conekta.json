@@ -1,0 +1,105 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 7598,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "create_order",
+          "get_order",
+          "list_orders",
+          "create_customer",
+          "get_customer",
+          "list_customers",
+          "create_charge",
+          "refund_charge",
+          "list_payment_sources",
+          "get_webhook_events",
+          "get_webhook_event",
+          "update_customer",
+          "delete_customer",
+          "create_payment_source",
+          "delete_payment_source",
+          "update_order",
+          "cancel_order",
+          "capture_charge",
+          "create_webhook",
+          "update_webhook",
+          "delete_webhook"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 3982,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "create_order",
+          "get_order",
+          "list_orders",
+          "create_customer",
+          "get_customer",
+          "list_customers",
+          "create_charge",
+          "refund_charge",
+          "list_payment_sources",
+          "get_webhook_events",
+          "get_webhook_event",
+          "update_customer",
+          "delete_customer",
+          "create_payment_source",
+          "delete_payment_source",
+          "update_order",
+          "cancel_order",
+          "capture_charge",
+          "create_webhook",
+          "update_webhook",
+          "delete_webhook"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 180234,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "create_order",
+          "get_order",
+          "list_orders",
+          "create_customer",
+          "get_customer",
+          "list_customers",
+          "create_charge",
+          "refund_charge",
+          "list_payment_sources",
+          "get_webhook_events",
+          "get_webhook_event",
+          "update_customer",
+          "delete_customer",
+          "create_payment_source",
+          "delete_payment_source",
+          "update_order",
+          "cancel_order",
+          "capture_charge",
+          "create_webhook",
+          "update_webhook",
+          "delete_webhook"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-conekta",
+  "slug": "io.github.codespar__mcp-conekta"
+}

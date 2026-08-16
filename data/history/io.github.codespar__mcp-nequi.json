@@ -1,0 +1,90 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 6537,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "create_push_payment",
+          "get_payment_status",
+          "create_qr_payment",
+          "reverse_payment",
+          "get_subscription",
+          "unsubscribe",
+          "create_static_qr",
+          "reverse_transaction",
+          "validate_phone",
+          "notify_unregistered_payment",
+          "list_transactions",
+          "get_balance",
+          "schedule_payment",
+          "authorize_recurring_charge",
+          "get_merchant_info",
+          "get_settlement"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 3770,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "create_push_payment",
+          "get_payment_status",
+          "create_qr_payment",
+          "reverse_payment",
+          "get_subscription",
+          "unsubscribe",
+          "create_static_qr",
+          "reverse_transaction",
+          "validate_phone",
+          "notify_unregistered_payment",
+          "list_transactions",
+          "get_balance",
+          "schedule_payment",
+          "authorize_recurring_charge",
+          "get_merchant_info",
+          "get_settlement"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 175959,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "create_push_payment",
+          "get_payment_status",
+          "create_qr_payment",
+          "reverse_payment",
+          "get_subscription",
+          "unsubscribe",
+          "create_static_qr",
+          "reverse_transaction",
+          "validate_phone",
+          "notify_unregistered_payment",
+          "list_transactions",
+          "get_balance",
+          "schedule_payment",
+          "authorize_recurring_charge",
+          "get_merchant_info",
+          "get_settlement"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-nequi",
+  "slug": "io.github.codespar__mcp-nequi"
+}

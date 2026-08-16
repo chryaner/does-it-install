@@ -1,0 +1,81 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 8439,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "get_sample",
+          "list_samples",
+          "get_setup",
+          "validate_code",
+          "get_migration_guide",
+          "get_node_reference",
+          "get_platform_roadmap",
+          "get_best_practices",
+          "get_ar_setup",
+          "get_troubleshooting",
+          "get_ios_setup",
+          "get_web_setup",
+          "render_3d_preview"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 4246,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "get_sample",
+          "list_samples",
+          "get_setup",
+          "validate_code",
+          "get_migration_guide",
+          "get_node_reference",
+          "get_platform_roadmap",
+          "get_best_practices",
+          "get_ar_setup",
+          "get_troubleshooting",
+          "get_ios_setup",
+          "get_web_setup",
+          "render_3d_preview"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 160917,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "get_sample",
+          "list_samples",
+          "get_setup",
+          "validate_code",
+          "get_migration_guide",
+          "get_node_reference",
+          "get_platform_roadmap",
+          "get_best_practices",
+          "get_ar_setup",
+          "get_troubleshooting",
+          "get_ios_setup",
+          "get_web_setup",
+          "render_3d_preview"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.SceneView/mcp",
+  "slug": "io.github.sceneview__mcp"
+}

@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "no npm, pypi, oci or remote distribution to probe",
+        "method": "none",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "skipped"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "no npm, pypi, oci or remote distribution to probe",
+        "method": "none",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "skipped"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "no npm, pypi, oci or remote distribution to probe",
+        "method": "none",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "skipped"
+      }
+    ]
+  },
+  "serverId": "io.github.cisco-open/network-sketcher",
+  "slug": "io.github.cisco-open__network-sketcher"
+}

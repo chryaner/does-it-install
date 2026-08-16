@@ -1,0 +1,99 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 6303,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "sandbox_create",
+          "sandbox_template_list",
+          "sandbox_template_create",
+          "sandbox_list",
+          "sandbox_info",
+          "sandbox_pause",
+          "sandbox_resume",
+          "sandbox_kill",
+          "sandbox_update",
+          "sandbox_preview_url",
+          "sandbox_network_log",
+          "sandbox_exec",
+          "sandbox_files_read",
+          "sandbox_files_write",
+          "sandbox_files_list",
+          "sandbox_files_download_dir",
+          "secret_list",
+          "sandbox_attach_secret",
+          "sandbox_detach_secret"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 3979,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "sandbox_create",
+          "sandbox_template_list",
+          "sandbox_template_create",
+          "sandbox_list",
+          "sandbox_info",
+          "sandbox_pause",
+          "sandbox_resume",
+          "sandbox_kill",
+          "sandbox_update",
+          "sandbox_preview_url",
+          "sandbox_network_log",
+          "sandbox_exec",
+          "sandbox_files_read",
+          "sandbox_files_write",
+          "sandbox_files_list",
+          "sandbox_files_download_dir",
+          "secret_list",
+          "sandbox_attach_secret",
+          "sandbox_detach_secret"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 107467,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "sandbox_create",
+          "sandbox_template_list",
+          "sandbox_template_create",
+          "sandbox_list",
+          "sandbox_info",
+          "sandbox_pause",
+          "sandbox_resume",
+          "sandbox_kill",
+          "sandbox_update",
+          "sandbox_preview_url",
+          "sandbox_network_log",
+          "sandbox_exec",
+          "sandbox_files_read",
+          "sandbox_files_write",
+          "sandbox_files_list",
+          "sandbox_files_download_dir",
+          "secret_list",
+          "sandbox_attach_secret",
+          "sandbox_detach_secret"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.superserve-ai/mcp",
+  "slug": "io.github.superserve-ai__mcp"
+}

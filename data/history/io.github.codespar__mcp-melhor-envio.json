@@ -1,0 +1,96 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 8342,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "calculate_shipping",
+          "create_shipment",
+          "track_shipment",
+          "generate_label",
+          "list_agencies",
+          "cancel_shipment",
+          "get_balance",
+          "add_cart",
+          "checkout_cart",
+          "preview_label",
+          "print_label",
+          "get_shipment",
+          "list_shipments",
+          "get_store",
+          "search_agencies",
+          "create_address",
+          "list_services_available",
+          "get_tracking_history"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 4331,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "calculate_shipping",
+          "create_shipment",
+          "track_shipment",
+          "generate_label",
+          "list_agencies",
+          "cancel_shipment",
+          "get_balance",
+          "add_cart",
+          "checkout_cart",
+          "preview_label",
+          "print_label",
+          "get_shipment",
+          "list_shipments",
+          "get_store",
+          "search_agencies",
+          "create_address",
+          "list_services_available",
+          "get_tracking_history"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 169698,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "calculate_shipping",
+          "create_shipment",
+          "track_shipment",
+          "generate_label",
+          "list_agencies",
+          "cancel_shipment",
+          "get_balance",
+          "add_cart",
+          "checkout_cart",
+          "preview_label",
+          "print_label",
+          "get_shipment",
+          "list_shipments",
+          "get_store",
+          "search_agencies",
+          "create_address",
+          "list_services_available",
+          "get_tracking_history"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-melhor-envio",
+  "slug": "io.github.codespar__mcp-melhor-envio"
+}

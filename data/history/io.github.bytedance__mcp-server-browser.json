@@ -1,0 +1,105 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 17957,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "browser_navigate",
+          "browser_go_back",
+          "browser_go_forward",
+          "browser_form_input_fill",
+          "browser_get_markdown",
+          "browser_get_text",
+          "browser_read_links",
+          "browser_new_tab",
+          "browser_tab_list",
+          "browser_switch_tab",
+          "browser_close_tab",
+          "browser_evaluate",
+          "browser_get_download_list",
+          "browser_screenshot",
+          "browser_click",
+          "browser_select",
+          "browser_hover",
+          "browser_get_clickable_elements",
+          "browser_scroll",
+          "browser_close",
+          "browser_press_key"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 12192,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "browser_navigate",
+          "browser_go_back",
+          "browser_go_forward",
+          "browser_form_input_fill",
+          "browser_get_markdown",
+          "browser_get_text",
+          "browser_read_links",
+          "browser_new_tab",
+          "browser_tab_list",
+          "browser_switch_tab",
+          "browser_close_tab",
+          "browser_evaluate",
+          "browser_get_download_list",
+          "browser_screenshot",
+          "browser_click",
+          "browser_select",
+          "browser_hover",
+          "browser_get_clickable_elements",
+          "browser_scroll",
+          "browser_close",
+          "browser_press_key"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 432296,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "browser_navigate",
+          "browser_go_back",
+          "browser_go_forward",
+          "browser_form_input_fill",
+          "browser_get_markdown",
+          "browser_get_text",
+          "browser_read_links",
+          "browser_new_tab",
+          "browser_tab_list",
+          "browser_switch_tab",
+          "browser_close_tab",
+          "browser_evaluate",
+          "browser_get_download_list",
+          "browser_screenshot",
+          "browser_click",
+          "browser_select",
+          "browser_hover",
+          "browser_get_clickable_elements",
+          "browser_scroll",
+          "browser_close",
+          "browser_press_key"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.bytedance/mcp-server-browser",
+  "slug": "io.github.bytedance__mcp-server-browser"
+}

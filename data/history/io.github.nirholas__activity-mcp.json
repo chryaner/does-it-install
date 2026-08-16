@@ -1,0 +1,57 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 8543,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "get_trending_agents",
+          "get_trending_coins",
+          "get_holder_leaderboard",
+          "get_tier_info",
+          "get_feed_events"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 5114,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "get_trending_agents",
+          "get_trending_coins",
+          "get_holder_leaderboard",
+          "get_tier_info",
+          "get_feed_events"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 155746,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "get_trending_agents",
+          "get_trending_coins",
+          "get_holder_leaderboard",
+          "get_tier_info",
+          "get_feed_events"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.nirholas/activity-mcp",
+  "slug": "io.github.nirholas__activity-mcp"
+}

@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 3 packages in 27ms\nusage: sqlsure [-h] --model MODEL [--dialect DIALECT] [--json] [--strict]\n               [sql]\nsqlsure: error: the following arguments are required: --model",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "needs_config"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 3 packages in 7ms\nusage: sqlsure [-h] --model MODEL [--dialect DIALECT] [--json] [--strict]\n               [sql]\nsqlsure: error: the following arguments are required: --model",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "needs_config"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 3 packages in 679ms\nusage: sqlsure [-h] --model MODEL [--dialect DIALECT] [--json] [--strict]\r\n               [sql]\r\nsqlsure: error: the following arguments are required: --model",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "needs_config"
+      }
+    ]
+  },
+  "serverId": "io.github.sqlsure/sqlsure",
+  "slug": "io.github.sqlsure__sqlsure"
+}

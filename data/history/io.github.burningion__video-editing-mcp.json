@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n× No solution found when resolving tool dependencies:\n  ╰─▶ Because there is no version of video-editor-mcp==1.0.1 and you require\n      video-editor-mcp==1.0.1, we can conclude that your requirements are\n      unsatisfiable.",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n× No solution found when resolving tool dependencies:\n  ╰─▶ Because there is no version of video-editor-mcp==1.0.1 and you require\n      video-editor-mcp==1.0.1, we can conclude that your requirements are\n      unsatisfiable.",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n× No solution found when resolving tool dependencies:\n  ╰─▶ Because there is no version of video-editor-mcp==1.0.1 and you require\n      video-editor-mcp==1.0.1, we can conclude that your requirements are\n      unsatisfiable.",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "io.github.burningion/video-editing-mcp",
+  "slug": "io.github.burningion__video-editing-mcp"
+}

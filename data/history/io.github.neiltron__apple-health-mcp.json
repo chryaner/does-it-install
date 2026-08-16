@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed",
+        "installMs": 21526,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed",
+        "installMs": 8069,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "npm install @neiltron/apple-health-mcp@1.2.1 timed out after 600s",
+        "installMs": 600145,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "io.github.neiltron/apple-health-mcp",
+  "slug": "io.github.neiltron__apple-health-mcp"
+}

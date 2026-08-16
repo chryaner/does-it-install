@@ -1,0 +1,111 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 12560,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "create_invoice",
+          "get_invoice",
+          "list_invoices",
+          "cancel_invoice",
+          "refund_invoice",
+          "duplicate_invoice",
+          "create_customer",
+          "update_customer",
+          "list_customers",
+          "create_plan",
+          "update_plan",
+          "list_plans",
+          "create_subscription",
+          "suspend_subscription",
+          "activate_subscription",
+          "cancel_subscription",
+          "create_payment_token",
+          "create_payment_method",
+          "create_subaccount",
+          "create_transfer",
+          "request_withdraw",
+          "create_webhook",
+          "get_account_info"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 4416,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "create_invoice",
+          "get_invoice",
+          "list_invoices",
+          "cancel_invoice",
+          "refund_invoice",
+          "duplicate_invoice",
+          "create_customer",
+          "update_customer",
+          "list_customers",
+          "create_plan",
+          "update_plan",
+          "list_plans",
+          "create_subscription",
+          "suspend_subscription",
+          "activate_subscription",
+          "cancel_subscription",
+          "create_payment_token",
+          "create_payment_method",
+          "create_subaccount",
+          "create_transfer",
+          "request_withdraw",
+          "create_webhook",
+          "get_account_info"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 111168,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "create_invoice",
+          "get_invoice",
+          "list_invoices",
+          "cancel_invoice",
+          "refund_invoice",
+          "duplicate_invoice",
+          "create_customer",
+          "update_customer",
+          "list_customers",
+          "create_plan",
+          "update_plan",
+          "list_plans",
+          "create_subscription",
+          "suspend_subscription",
+          "activate_subscription",
+          "cancel_subscription",
+          "create_payment_token",
+          "create_payment_method",
+          "create_subaccount",
+          "create_transfer",
+          "request_withdraw",
+          "create_webhook",
+          "get_account_info"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-iugu",
+  "slug": "io.github.codespar__mcp-iugu"
+}

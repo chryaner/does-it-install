@@ -1,0 +1,96 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 8140,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_order",
+          "get_order",
+          "list_orders",
+          "update_order",
+          "cancel_order",
+          "get_quote",
+          "get_order_limits",
+          "list_fiat_currencies",
+          "list_crypto_currencies",
+          "list_payment_methods",
+          "list_countries",
+          "list_network_fees",
+          "get_partner_account",
+          "get_partner_balance",
+          "refresh_access_token",
+          "get_kyc_status",
+          "get_user_limits",
+          "verify_webhook_signature"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 4197,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_order",
+          "get_order",
+          "list_orders",
+          "update_order",
+          "cancel_order",
+          "get_quote",
+          "get_order_limits",
+          "list_fiat_currencies",
+          "list_crypto_currencies",
+          "list_payment_methods",
+          "list_countries",
+          "list_network_fees",
+          "get_partner_account",
+          "get_partner_balance",
+          "refresh_access_token",
+          "get_kyc_status",
+          "get_user_limits",
+          "verify_webhook_signature"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 176432,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_order",
+          "get_order",
+          "list_orders",
+          "update_order",
+          "cancel_order",
+          "get_quote",
+          "get_order_limits",
+          "list_fiat_currencies",
+          "list_crypto_currencies",
+          "list_payment_methods",
+          "list_countries",
+          "list_network_fees",
+          "get_partner_account",
+          "get_partner_balance",
+          "refresh_access_token",
+          "get_kyc_status",
+          "get_user_limits",
+          "verify_webhook_signature"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-transak",
+  "slug": "io.github.codespar__mcp-transak"
+}

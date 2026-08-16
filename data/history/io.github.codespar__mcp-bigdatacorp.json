@@ -1,0 +1,72 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 9222,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "persons_lookup",
+          "companies_lookup",
+          "vehicles_lookup",
+          "properties_lookup",
+          "financial_data",
+          "employment_data",
+          "sanctions_check",
+          "social_signals",
+          "antifraud_score",
+          "address_validation"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 4405,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "persons_lookup",
+          "companies_lookup",
+          "vehicles_lookup",
+          "properties_lookup",
+          "financial_data",
+          "employment_data",
+          "sanctions_check",
+          "social_signals",
+          "antifraud_score",
+          "address_validation"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 160211,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "persons_lookup",
+          "companies_lookup",
+          "vehicles_lookup",
+          "properties_lookup",
+          "financial_data",
+          "employment_data",
+          "sanctions_check",
+          "social_signals",
+          "antifraud_score",
+          "address_validation"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-bigdatacorp",
+  "slug": "io.github.codespar__mcp-bigdatacorp"
+}

@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nBuilding jsonpath==0.82.2\nDownloading curl-cffi (2.7MiB)\nDownloading primp (4.5MiB)\nDownloading akshare (1.2MiB)\nDownloading mini-racer (17.7MiB)\n      Built jsonpath==0.82.2\n Downloaded primp\n Downloaded mini-racer\n Downloaded curl-cffi\n Downloaded akshare\nInstalled 97 packages in 1.11s\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/A46jS3XLhxjh97cY/bin/openinvest\", line 12, in <module>\n    sys.exit(main())\n             ~~~~^^\n  File \"/Users/runner/.cache/uv/archive-v0/A46jS3XLhxjh97cY/lib/python3.14/site-packages/openinvest/cli.py\", line 79, in main\n    from openinvest.connectors.mcp_server import main as _mcp_main\n  File \"/Users/runner/.cache/uv/archive-v0/A46jS3XLhxjh97cY/lib/python3.14/site-packages/openinvest/connectors/mcp_server.py\", line 30, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nBuilding jsonpath==0.82.2\nDownloading brotli (1.4MiB)\nDownloading primp (5.1MiB)\nDownloading curl-cffi (12.8MiB)\nDownloading akshare (1.2MiB)\nDownloading py-mini-racer (5.2MiB)\nDownloading akracer (9.6MiB)\n Downloaded brotli\n      Built jsonpath==0.82.2\n Downloaded primp\n Downloaded py-mini-racer\n Downloaded akracer\n Downloaded curl-cffi\n Downloaded akshare\nInstalled 99 packages in 94ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/0UbY1LqxwqrpV-3w/bin/openinvest\", line 12, in <module>\n    sys.exit(main())\n             ~~~~^^\n  File \"/home/runner/.cache/uv/archive-v0/0UbY1LqxwqrpV-3w/lib/python3.13/site-packages/openinvest/cli.py\", line 79, in main\n    from openinvest.connectors.mcp_server import main as _mcp_main\n  File \"/home/runner/.cache/uv/archive-v0/0UbY1LqxwqrpV-3w/lib/python3.13/site-packages/openinvest/connectors/mcp_server.py\", line 30, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nBuilding jsonpath==0.82.2\nDownloading lxml (3.8MiB)\nDownloading sqlalchemy (2.1MiB)\nDownloading numpy (11.9MiB)\nDownloading curl-cffi (1.9MiB)\nDownloading mini-racer (14.8MiB)\nDownloading primp (4.4MiB)\nDownloading akshare (1.2MiB)\nDownloading pandas (9.4MiB)\n      Built jsonpath==0.82.2\n Downloaded curl-cffi\n Downloaded primp\n Downloaded sqlalchemy\n Downloaded mini-racer\n Downloaded lxml\n Downloaded akshare\n Downloaded numpy\n Downloaded pandas\nInstalled 100 packages in 1m 20s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 203, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\kUGB8bHxgklin6Dl\\Scripts\\openinvest.exe\\__main__.py\", line 4, in <module>\r\n    from openinvest.cli import main\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\kUGB8bHxgklin6Dl\\Lib\\site-packages\\openinvest\\cli.py\", line 57, in <module>\r\n    from openinvest.core.memory_store import MemoryStore  # noqa: E402\r\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\kUGB8bHxgklin6Dl\\Lib\\site-packages\\openinvest\\core\\memory_store.py\", line 11, in <module>\r\n    import fcntl\r\nModuleNotFoundError: No module named 'fcntl'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.longsizhuo/openinvest",
+  "slug": "io.github.longsizhuo__openinvest"
+}

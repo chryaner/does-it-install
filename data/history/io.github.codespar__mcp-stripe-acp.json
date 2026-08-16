@@ -1,0 +1,114 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 3000,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "create_checkout",
+          "get_checkout",
+          "update_checkout",
+          "complete_checkout",
+          "cancel_checkout",
+          "create_customer",
+          "list_customers",
+          "create_payment_link",
+          "list_payment_intents",
+          "create_refund",
+          "get_balance",
+          "list_products",
+          "create_product",
+          "list_prices",
+          "create_invoice",
+          "list_subscriptions",
+          "create_subscription",
+          "cancel_subscription",
+          "create_invoice_item",
+          "finalize_invoice",
+          "create_coupon",
+          "list_disputes",
+          "create_checkout_session",
+          "get_account"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 2991,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "create_checkout",
+          "get_checkout",
+          "update_checkout",
+          "complete_checkout",
+          "cancel_checkout",
+          "create_customer",
+          "list_customers",
+          "create_payment_link",
+          "list_payment_intents",
+          "create_refund",
+          "get_balance",
+          "list_products",
+          "create_product",
+          "list_prices",
+          "create_invoice",
+          "list_subscriptions",
+          "create_subscription",
+          "cancel_subscription",
+          "create_invoice_item",
+          "finalize_invoice",
+          "create_coupon",
+          "list_disputes",
+          "create_checkout_session",
+          "get_account"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 139473,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "create_checkout",
+          "get_checkout",
+          "update_checkout",
+          "complete_checkout",
+          "cancel_checkout",
+          "create_customer",
+          "list_customers",
+          "create_payment_link",
+          "list_payment_intents",
+          "create_refund",
+          "get_balance",
+          "list_products",
+          "create_product",
+          "list_prices",
+          "create_invoice",
+          "list_subscriptions",
+          "create_subscription",
+          "cancel_subscription",
+          "create_invoice_item",
+          "finalize_invoice",
+          "create_coupon",
+          "list_disputes",
+          "create_checkout_session",
+          "get_account"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-stripe-acp",
+  "slug": "io.github.codespar__mcp-stripe-acp"
+}

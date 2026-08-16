@@ -1,0 +1,42 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 4921,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "store_memory",
+          "recall_memory",
+          "associate_memories",
+          "update_memory",
+          "delete_memory",
+          "check_database_health"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 3396,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "store_memory",
+          "recall_memory",
+          "associate_memories",
+          "update_memory",
+          "delete_memory",
+          "check_database_health"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.verygoodplugins/mcp-automem",
+  "slug": "io.github.verygoodplugins__mcp-automem"
+}

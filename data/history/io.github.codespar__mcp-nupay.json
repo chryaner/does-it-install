@@ -1,0 +1,108 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 7248,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "create_payment",
+          "get_payment",
+          "get_payment_status",
+          "list_payments_by_date",
+          "cancel_payment",
+          "create_refund",
+          "get_refund",
+          "list_refunds",
+          "create_recipient",
+          "get_recipient",
+          "update_recipient",
+          "delete_recipient",
+          "list_recipients",
+          "list_settlements",
+          "get_settlement",
+          "query_payment_conditions",
+          "create_preauth_payment",
+          "backchannel_start",
+          "backchannel_complete",
+          "backchannel_resend_otp",
+          "exchange_token",
+          "revoke_token"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 4907,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "create_payment",
+          "get_payment",
+          "get_payment_status",
+          "list_payments_by_date",
+          "cancel_payment",
+          "create_refund",
+          "get_refund",
+          "list_refunds",
+          "create_recipient",
+          "get_recipient",
+          "update_recipient",
+          "delete_recipient",
+          "list_recipients",
+          "list_settlements",
+          "get_settlement",
+          "query_payment_conditions",
+          "create_preauth_payment",
+          "backchannel_start",
+          "backchannel_complete",
+          "backchannel_resend_otp",
+          "exchange_token",
+          "revoke_token"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 119622,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "create_payment",
+          "get_payment",
+          "get_payment_status",
+          "list_payments_by_date",
+          "cancel_payment",
+          "create_refund",
+          "get_refund",
+          "list_refunds",
+          "create_recipient",
+          "get_recipient",
+          "update_recipient",
+          "delete_recipient",
+          "list_recipients",
+          "list_settlements",
+          "get_settlement",
+          "query_payment_conditions",
+          "create_preauth_payment",
+          "backchannel_start",
+          "backchannel_complete",
+          "backchannel_resend_otp",
+          "exchange_token",
+          "revoke_token"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-nupay",
+  "slug": "io.github.codespar__mcp-nupay"
+}

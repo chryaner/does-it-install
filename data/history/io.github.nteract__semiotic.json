@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: on 1 (line 1 column 2)\nNo number after minus sign in JSON at position 1 (line 1 column 2)\nNo number after minus sign in JSON at position 1 (line 1 column 2)\nNo number after minus sign in JSON at position 1 (line 1 column 2)\nNo number after minus sign in JSON at position 1 (line 1 column 2)\nNo number after minus sign in JSON at position 1 (line 1 column 2)\nUnexpected end of JSON input\nUnexpected token '#', \"## Performance\" is not valid JSON\nUnexpected token 'P', \"Prefer str\"... is not valid JSON",
+        "installMs": 14970,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: on 1 (line 1 column 2)\nNo number after minus sign in JSON at position 1 (line 1 column 2)\nNo number after minus sign in JSON at position 1 (line 1 column 2)\nNo number after minus sign in JSON at position 1 (line 1 column 2)\nNo number after minus sign in JSON at position 1 (line 1 column 2)\nNo number after minus sign in JSON at position 1 (line 1 column 2)\nUnexpected end of JSON input\nUnexpected token '#', \"## Performance\" is not valid JSON\nUnexpected token 'P', \"Prefer str\"... is not valid JSON",
+        "installMs": 6694,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: on 1 (line 1 column 2)\nNo number after minus sign in JSON at position 1 (line 1 column 2)\nNo number after minus sign in JSON at position 1 (line 1 column 2)\nNo number after minus sign in JSON at position 1 (line 1 column 2)\nNo number after minus sign in JSON at position 1 (line 1 column 2)\nNo number after minus sign in JSON at position 1 (line 1 column 2)\nUnexpected end of JSON input\nUnexpected token '#', \"## Performance\" is not valid JSON\nUnexpected token 'P', \"Prefer str\"... is not valid JSON",
+        "installMs": 268824,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.nteract/semiotic",
+  "slug": "io.github.nteract__semiotic"
+}

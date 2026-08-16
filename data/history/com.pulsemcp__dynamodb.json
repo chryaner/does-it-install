@@ -2,6 +2,29 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 12302,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "list_tables",
+          "describe_table",
+          "get_item",
+          "query_items",
+          "scan_table",
+          "batch_get_items",
+          "put_item",
+          "update_item",
+          "delete_item",
+          "batch_write_items",
+          "create_table",
+          "delete_table",
+          "update_table"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:28.268Z",
         "method": "npm",
         "runId": "2026-08-15T04-06-28Z-bd83fc",
@@ -26,6 +49,29 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 9217,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "list_tables",
+          "describe_table",
+          "get_item",
+          "query_items",
+          "scan_table",
+          "batch_get_items",
+          "put_item",
+          "update_item",
+          "delete_item",
+          "batch_write_items",
+          "create_table",
+          "delete_table",
+          "update_table"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:32.275Z",
         "method": "npm",
         "runId": "2026-08-15T04-06-32Z-64cc50",
@@ -49,6 +95,29 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 153292,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "list_tables",
+          "describe_table",
+          "get_item",
+          "query_items",
+          "scan_table",
+          "batch_get_items",
+          "put_item",
+          "update_item",
+          "delete_item",
+          "batch_write_items",
+          "create_table",
+          "delete_table",
+          "update_table"
+        ]
+      },
       {
         "date": "2026-08-15T04:06:54.151Z",
         "method": "npm",

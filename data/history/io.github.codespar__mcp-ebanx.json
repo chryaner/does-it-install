@@ -1,0 +1,96 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 7385,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_payment",
+          "get_payment",
+          "list_payments",
+          "refund",
+          "create_payout",
+          "exchange_rate",
+          "get_banks",
+          "query_payment_by_merchant_code",
+          "capture_payment",
+          "cancel_payment",
+          "create_mass_payout",
+          "get_payout",
+          "simulate_payment",
+          "list_payment_methods",
+          "create_card_token",
+          "delete_card_token",
+          "validate_document",
+          "verify_notification"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 4468,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_payment",
+          "get_payment",
+          "list_payments",
+          "refund",
+          "create_payout",
+          "exchange_rate",
+          "get_banks",
+          "query_payment_by_merchant_code",
+          "capture_payment",
+          "cancel_payment",
+          "create_mass_payout",
+          "get_payout",
+          "simulate_payment",
+          "list_payment_methods",
+          "create_card_token",
+          "delete_card_token",
+          "validate_document",
+          "verify_notification"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 111950,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_payment",
+          "get_payment",
+          "list_payments",
+          "refund",
+          "create_payout",
+          "exchange_rate",
+          "get_banks",
+          "query_payment_by_merchant_code",
+          "capture_payment",
+          "cancel_payment",
+          "create_mass_payout",
+          "get_payout",
+          "simulate_payment",
+          "list_payment_methods",
+          "create_card_token",
+          "delete_card_token",
+          "validate_document",
+          "verify_notification"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-ebanx",
+  "slug": "io.github.codespar__mcp-ebanx"
+}

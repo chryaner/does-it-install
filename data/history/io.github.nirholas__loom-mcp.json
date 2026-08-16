@@ -1,0 +1,51 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 2798,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "get_loom_feed",
+          "get_creation",
+          "submit_creation"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 3608,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "get_loom_feed",
+          "get_creation",
+          "submit_creation"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 220718,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "get_loom_feed",
+          "get_creation",
+          "submit_creation"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.nirholas/loom-mcp",
+  "slug": "io.github.nirholas__loom-mcp"
+}

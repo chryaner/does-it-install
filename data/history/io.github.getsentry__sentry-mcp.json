@@ -2,6 +2,35 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 10857,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "whoami",
+          "find_organizations",
+          "find_teams",
+          "find_projects",
+          "find_releases",
+          "get_issue_details",
+          "get_trace_details",
+          "get_event_attachment",
+          "update_issue",
+          "search_events",
+          "create_team",
+          "create_project",
+          "update_project",
+          "create_dsn",
+          "find_dsns",
+          "analyze_issue_with_seer",
+          "search_docs",
+          "get_doc",
+          "search_issues"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:28.791Z",
         "method": "npm",
         "runId": "2026-08-15T04-06-28Z-3dc5e1",
@@ -32,9 +61,69 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 5739,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "whoami",
+          "find_organizations",
+          "find_teams",
+          "find_projects",
+          "find_releases",
+          "get_issue_details",
+          "get_trace_details",
+          "get_event_attachment",
+          "update_issue",
+          "search_events",
+          "create_team",
+          "create_project",
+          "update_project",
+          "create_dsn",
+          "find_dsns",
+          "analyze_issue_with_seer",
+          "search_docs",
+          "get_doc",
+          "search_issues"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:31.639Z",
         "method": "npm",
         "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "whoami",
+          "find_organizations",
+          "find_teams",
+          "find_projects",
+          "find_releases",
+          "get_issue_details",
+          "get_trace_details",
+          "get_event_attachment",
+          "update_issue",
+          "search_events",
+          "create_team",
+          "create_project",
+          "update_project",
+          "create_dsn",
+          "find_dsns",
+          "analyze_issue_with_seer",
+          "search_docs",
+          "get_doc",
+          "search_issues"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 269327,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
         "status": "pass",
         "toolCount": 19,
         "toolNames": [

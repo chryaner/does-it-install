@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: ori [options] [command]\n\nOri Mnemos - markdown-native cognitive harness for persistent agent memory\n\nOptions:\n  -V, --version                  output the version number\n  -h, --help                     display help for command\n\nCommands:\n  init [dir]\n  status\n  health\n  query [options] <kind> [note]\n  validate <note>\n  add [options] <title>\n  promote [options] [note]\n  archive [options]\n  bridge [options] <target>\n  serve [options]\n  index [options] <action>\n  graph <action>\n  help [command]                 display help for command",
+        "installMs": 35341,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: ori [options] [command]\n\nOri Mnemos - markdown-native cognitive harness for persistent agent memory\n\nOptions:\n  -V, --version                  output the version number\n  -h, --help                     display help for command\n\nCommands:\n  init [dir]\n  status\n  health\n  query [options] <kind> [note]\n  validate <note>\n  add [options] <title>\n  promote [options] [note]\n  archive [options]\n  bridge [options] <target>\n  serve [options]\n  index [options] <action>\n  graph <action>\n  help [command]                 display help for command",
+        "installMs": 13162,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: ori [options] [command]\n\nOri Mnemos - markdown-native cognitive harness for persistent agent memory\n\nOptions:\n  -V, --version                  output the version number\n  -h, --help                     display help for command\n\nCommands:\n  init [dir]\n  status\n  health\n  query [options] <kind> [note]\n  validate <note>\n  add [options] <title>\n  promote [options] [note]\n  archive [options]\n  bridge [options] <target>\n  serve [options]\n  index [options] <action>\n  graph <action>\n  help [command]                 display help for command",
+        "installMs": 423751,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.aayoawoyemi/ori-memory",
+  "slug": "io.github.aayoawoyemi__ori-memory"
+}

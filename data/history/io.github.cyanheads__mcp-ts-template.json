@@ -1,0 +1,54 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 44124,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "template_cat_fact",
+          "template_code_review_sampling",
+          "template_echo_message",
+          "template_image_test",
+          "template_madlibs_elicitation",
+          "template_data_explorer",
+          "template_async_countdown"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 26150,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "template_cat_fact",
+          "template_code_review_sampling",
+          "template_echo_message",
+          "template_image_test",
+          "template_madlibs_elicitation",
+          "template_data_explorer",
+          "template_async_countdown"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "npm install mcp-ts-template@3.0.9 timed out after 600s",
+        "installMs": 600144,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "io.github.cyanheads/mcp-ts-template",
+  "slug": "io.github.cyanheads__mcp-ts-template"
+}

@@ -1,0 +1,105 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 8455,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "list_profiles",
+          "get_profile",
+          "create_quote",
+          "get_quote",
+          "update_quote",
+          "create_recipient",
+          "get_recipient",
+          "list_recipients",
+          "delete_recipient",
+          "list_recipient_account_requirements",
+          "create_transfer",
+          "get_transfer",
+          "list_transfers",
+          "fund_transfer",
+          "cancel_transfer",
+          "list_balances",
+          "get_balance",
+          "create_balance_account",
+          "list_webhooks",
+          "create_webhook",
+          "delete_webhook"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 3851,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "list_profiles",
+          "get_profile",
+          "create_quote",
+          "get_quote",
+          "update_quote",
+          "create_recipient",
+          "get_recipient",
+          "list_recipients",
+          "delete_recipient",
+          "list_recipient_account_requirements",
+          "create_transfer",
+          "get_transfer",
+          "list_transfers",
+          "fund_transfer",
+          "cancel_transfer",
+          "list_balances",
+          "get_balance",
+          "create_balance_account",
+          "list_webhooks",
+          "create_webhook",
+          "delete_webhook"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 169110,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "list_profiles",
+          "get_profile",
+          "create_quote",
+          "get_quote",
+          "update_quote",
+          "create_recipient",
+          "get_recipient",
+          "list_recipients",
+          "delete_recipient",
+          "list_recipient_account_requirements",
+          "create_transfer",
+          "get_transfer",
+          "list_transfers",
+          "fund_transfer",
+          "cancel_transfer",
+          "list_balances",
+          "get_balance",
+          "create_balance_account",
+          "list_webhooks",
+          "create_webhook",
+          "delete_webhook"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-wise",
+  "slug": "io.github.codespar__mcp-wise"
+}

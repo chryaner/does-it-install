@@ -1,0 +1,90 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 5168,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "list_records",
+          "search_records",
+          "list_bases",
+          "list_tables",
+          "describe_table",
+          "get_record",
+          "create_record",
+          "update_records",
+          "delete_records",
+          "create_table",
+          "update_table",
+          "create_field",
+          "update_field",
+          "create_comment",
+          "list_comments",
+          "upload_attachment"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 2811,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "list_records",
+          "search_records",
+          "list_bases",
+          "list_tables",
+          "describe_table",
+          "get_record",
+          "create_record",
+          "update_records",
+          "delete_records",
+          "create_table",
+          "update_table",
+          "create_field",
+          "update_field",
+          "create_comment",
+          "list_comments",
+          "upload_attachment"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 69087,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "list_records",
+          "search_records",
+          "list_bases",
+          "list_tables",
+          "describe_table",
+          "get_record",
+          "create_record",
+          "update_records",
+          "delete_records",
+          "create_table",
+          "update_table",
+          "create_field",
+          "update_field",
+          "create_comment",
+          "list_comments",
+          "upload_attachment"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.domdomegg/airtable-mcp-server",
+  "slug": "io.github.domdomegg__airtable-mcp-server"
+}

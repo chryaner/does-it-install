@@ -1,0 +1,46 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "skipped"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 3237,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "crw_scrape",
+          "crw_crawl",
+          "crw_check_crawl_status",
+          "crw_map",
+          "crw_extract",
+          "crw_check_extract_status",
+          "crw_cancel_extract",
+          "crw_parse_file"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "skipped"
+      }
+    ]
+  },
+  "serverId": "io.github.us/crw",
+  "slug": "io.github.us__crw"
+}

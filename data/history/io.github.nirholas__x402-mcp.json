@@ -1,0 +1,48 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 27246,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "x402_wallet",
+          "find_services",
+          "inspect_endpoint",
+          "pay_and_call"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 20129,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "x402_wallet",
+          "find_services",
+          "inspect_endpoint",
+          "pay_and_call"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "errorExcerpt": "npm install @three-ws/x402-mcp@0.2.1 timed out after 600s",
+        "installMs": 600235,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "io.github.nirholas/x402-mcp",
+  "slug": "io.github.nirholas__x402-mcp"
+}

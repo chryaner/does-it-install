@@ -1,0 +1,26 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: depwire [options] [command]\n\nCode cross-reference graph builder for multi-language projects\n\nOptions:\n  -V, --version                                        output the version number\n  -h, --help                                           display help for command\n\nCommands:\n  parse [options] [directory]                          Parse a project and build dependency graph\n  query [options] <directory-or-symbol> [symbol-name]  Query impact analysis for a symbol\n  viz [options] [directory]                            Launch interactive arc diagram visualization\n  temporal [options] [directory]                       Visualize how the dependency graph evolved over git history\n  mcp [options] [directory]                            Start MCP server for AI coding tools\n  docs [options] [directory]                           Generate comprehensive codebase documentation\n  health [options] [directory]                         Analyze dependency architecture health (0-100 score)\n  dead-code [options] [directory]                      Identify dead code - symbols defined but never referenced\n  whatif [options] [directory]                         Simulate architectural changes before touching code\n  security [options] [directory]                       Scan codebase for security vulnerabilities (deterministic, no API key required)\n  verify-change [options] [directory]                  Verify a proposed code change is safe before applying it\n  diff [options] <commit-a> <commit-b>                 Compare dependency graph between two git commits\n  affected [options] [file]                            Find all files affected by a change, including test files\n  prompt [options]                                     Output Depwire MCP workflow prompt for AI agents\n  help [command]                                       display help for command",
+        "installMs": 5676,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: depwire [options] [command]\n\nCode cross-reference graph builder for multi-language projects\n\nOptions:\n  -V, --version                                        output the version number\n  -h, --help                                           display help for command\n\nCommands:\n  parse [options] [directory]                          Parse a project and build dependency graph\n  query [options] <directory-or-symbol> [symbol-name]  Query impact analysis for a symbol\n  viz [options] [directory]                            Launch interactive arc diagram visualization\n  temporal [options] [directory]                       Visualize how the dependency graph evolved over git history\n  mcp [options] [directory]                            Start MCP server for AI coding tools\n  docs [options] [directory]                           Generate comprehensive codebase documentation\n  health [options] [directory]                         Analyze dependency architecture health (0-100 score)\n  dead-code [options] [directory]                      Identify dead code - symbols defined but never referenced\n  whatif [options] [directory]                         Simulate architectural changes before touching code\n  security [options] [directory]                       Scan codebase for security vulnerabilities (deterministic, no API key required)\n  verify-change [options] [directory]                  Verify a proposed code change is safe before applying it\n  diff [options] <commit-a> <commit-b>                 Compare dependency graph between two git commits\n  affected [options] [file]                            Find all files affected by a change, including test files\n  prompt [options]                                     Output Depwire MCP workflow prompt for AI agents\n  help [command]                                       display help for command",
+        "installMs": 5900,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.atef-ataya/depwire",
+  "slug": "io.github.atef-ataya__depwire"
+}

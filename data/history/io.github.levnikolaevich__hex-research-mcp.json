@@ -1,0 +1,90 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 13515,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "index_hypotheses",
+          "verify_index",
+          "find_hypotheses",
+          "inspect_hypothesis",
+          "find_evidence",
+          "find_runs",
+          "trace_lineage",
+          "analyze_topology",
+          "audit_orphans",
+          "inspect_goal",
+          "trace_goal_tree",
+          "audit_goal_alignment",
+          "analyze_progress",
+          "analyze_proposed",
+          "export_canvas",
+          "export_research_map"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 5960,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "index_hypotheses",
+          "verify_index",
+          "find_hypotheses",
+          "inspect_hypothesis",
+          "find_evidence",
+          "find_runs",
+          "trace_lineage",
+          "analyze_topology",
+          "audit_orphans",
+          "inspect_goal",
+          "trace_goal_tree",
+          "audit_goal_alignment",
+          "analyze_progress",
+          "analyze_proposed",
+          "export_canvas",
+          "export_research_map"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 193158,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "index_hypotheses",
+          "verify_index",
+          "find_hypotheses",
+          "inspect_hypothesis",
+          "find_evidence",
+          "find_runs",
+          "trace_lineage",
+          "analyze_topology",
+          "audit_orphans",
+          "inspect_goal",
+          "trace_goal_tree",
+          "audit_goal_alignment",
+          "analyze_progress",
+          "analyze_proposed",
+          "export_canvas",
+          "export_research_map"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.levnikolaevich/hex-research-mcp",
+  "slug": "io.github.levnikolaevich__hex-research-mcp"
+}

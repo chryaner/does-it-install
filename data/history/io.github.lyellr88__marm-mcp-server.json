@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: ition 4 (line 1 column 5)\nUnexpected non-whitespace character after JSON at position 4 (line 1 column 5)\nUnexpected non-whitespace character after JSON at position 4 (line 1 column 5)\nUnexpected non-whitespace character after JSON at position 4 (line 1 column 5)\nUnexpected non-whitespace character after JSON at position 4 (line 1 column 5)\nUnexpected non-whitespace character after JSON at position 4 (line 1 column 5)\nUnexpected non-whitespace character after JSON at position 4 (line 1 column 5)\n--- stderr (tail) ---\nDownloading blis (1.2MiB)\nDownloading spacy (5.8MiB)\nDownloading marm-mcp-server (12.8MiB)\n Downloaded blis\n Downloaded spacy\n Downloaded marm-mcp-server\nInstalled 84 packages in 486ms\nINFO:     Started server process [25974]\nINFO:     Waiting for application startup.\nINFO:     Application startup complete.\nINFO:     Uvicorn running on http://127.0.0.1:8001 (Press CTRL+C to quit)",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "timeout"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: ition 4 (line 1 column 5)\nUnexpected non-whitespace character after JSON at position 4 (line 1 column 5)\nUnexpected non-whitespace character after JSON at position 4 (line 1 column 5)\nUnexpected non-whitespace character after JSON at position 4 (line 1 column 5)\nUnexpected non-whitespace character after JSON at position 4 (line 1 column 5)\nUnexpected non-whitespace character after JSON at position 4 (line 1 column 5)\nUnexpected non-whitespace character after JSON at position 4 (line 1 column 5)\n--- stderr (tail) ---\nDownloading blis (10.8MiB)\nDownloading thinc (3.7MiB)\nDownloading srsly (1.1MiB)\nDownloading marm-mcp-server (12.8MiB)\nDownloading spacy (30.8MiB)\n Downloaded blis\n Downloaded srsly\n Downloaded thinc\n Downloaded marm-mcp-server\n Downloaded spacy\nInstalled 84 packages in 50ms\nINFO:     Started server process [7378]\nINFO:     Waiting for application startup.\nINFO:     Application startup complete.\nINFO:     Uvicorn running on http://127.0.0.1:8001 (Press CTRL+C to quit)",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "timeout"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: ition 4 (line 1 column 5)\nUnexpected non-whitespace character after JSON at position 4 (line 1 column 5)\nUnexpected non-whitespace character after JSON at position 4 (line 1 column 5)\nUnexpected non-whitespace character after JSON at position 4 (line 1 column 5)\nUnexpected non-whitespace character after JSON at position 4 (line 1 column 5)\nUnexpected non-whitespace character after JSON at position 4 (line 1 column 5)\nUnexpected non-whitespace character after JSON at position 4 (line 1 column 5)\n--- stderr (tail) ---\nDownloading marm-mcp-server (12.8MiB)\nDownloading thinc (1.6MiB)\nDownloading spacy (13.6MiB)\nDownloading blis (5.9MiB)\n Downloaded blis\n Downloaded marm-mcp-server\n Downloaded thinc\n Downloaded spacy\nInstalled 88 packages in 31.70s\nINFO:     Started server process [476]\r\nINFO:     Waiting for application startup.\r\nINFO:     Application startup complete.\r\nINFO:     Uvicorn running on http://127.0.0.1:8001 (Press CTRL+C to quit)",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "io.github.Lyellr88/marm-mcp-server",
+  "slug": "io.github.lyellr88__marm-mcp-server"
+}

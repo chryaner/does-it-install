@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: pected token '│', \"│ watch   \"... is not valid JSON\nUnexpected token '│', \"│ estimate\"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ diff    \"... is not valid JSON\nUnexpected token '│', \"│ verify-m\"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ profiles\"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON\n--- stderr (tail) ---\nDownloading pymupdf (22.2MiB)\n Downloaded pymupdf\nInstalled 15 packages in 101ms",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: pected token '│', \"│ watch   \"... is not valid JSON\nUnexpected token '│', \"│ estimate\"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ diff    \"... is not valid JSON\nUnexpected token '│', \"│ verify-m\"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ profiles\"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON\n--- stderr (tail) ---\nDownloading pymupdf (23.8MiB)\n Downloaded pymupdf\nInstalled 15 packages in 10ms",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: pected token '|', \"|         \"... is not valid JSON\nUnexpected token '|', \"| estimate\"... is not valid JSON\nUnexpected token '|', \"|         \"... is not valid JSON\nUnexpected token '|', \"| diff    \"... is not valid JSON\nUnexpected token '|', \"| verify-m\"... is not valid JSON\nUnexpected token '|', \"|         \"... is not valid JSON\nUnexpected token '|', \"| profiles\"... is not valid JSON\nUnexpected token '|', \"|         \"... is not valid JSON\nUnexpected token '+', \"+---------\"... is not valid JSON\n--- stderr (tail) ---\nDownloading pymupdf (18.4MiB)\n Downloaded pymupdf\nInstalled 16 packages in 4.90s",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.NameetP/pdfmux",
+  "slug": "io.github.nameetp__pdfmux"
+}

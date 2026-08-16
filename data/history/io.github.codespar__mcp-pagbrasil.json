@@ -1,0 +1,51 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 4110,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "create_order",
+          "get_order",
+          "refund_order"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 3169,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "create_order",
+          "get_order",
+          "refund_order"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 130733,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "create_order",
+          "get_order",
+          "refund_order"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-pagbrasil",
+  "slug": "io.github.codespar__mcp-pagbrasil"
+}

@@ -1,0 +1,60 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 7762,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "current_time",
+          "relative_time",
+          "days_in_month",
+          "get_timestamp",
+          "convert_time",
+          "get_week_year"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 5880,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "current_time",
+          "relative_time",
+          "days_in_month",
+          "get_timestamp",
+          "convert_time",
+          "get_week_year"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 116693,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "current_time",
+          "relative_time",
+          "days_in_month",
+          "get_timestamp",
+          "convert_time",
+          "get_week_year"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.yokingma/time-mcp",
+  "slug": "io.github.yokingma__time-mcp"
+}

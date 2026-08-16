@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nMissing required environment variables: BITBUCKET_API_TOKEN, BITBUCKET_HOST or BITBUCKET_API_BASE_PATH",
+        "installMs": 8941,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nMissing required environment variables: BITBUCKET_API_TOKEN, BITBUCKET_HOST or BITBUCKET_API_BASE_PATH",
+        "installMs": 7172,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nMissing required environment variables: BITBUCKET_API_TOKEN, BITBUCKET_HOST or BITBUCKET_API_BASE_PATH",
+        "installMs": 230606,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.b1ff/atlassian-dc-mcp-bitbucket",
+  "slug": "io.github.b1ff__atlassian-dc-mcp-bitbucket"
+}

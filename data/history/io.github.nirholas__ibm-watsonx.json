@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[ibm-watsonx-mcp] configuration error: Set WATSONX_PROJECT_ID (or WATSONX_SPACE_ID). Find your project id under the watsonx.ai project → Manage → General → Project ID.",
+        "installMs": 9837,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[ibm-watsonx-mcp] configuration error: Set WATSONX_PROJECT_ID (or WATSONX_SPACE_ID). Find your project id under the watsonx.ai project → Manage → General → Project ID.",
+        "installMs": 5449,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[ibm-watsonx-mcp] configuration error: Set WATSONX_PROJECT_ID (or WATSONX_SPACE_ID). Find your project id under the watsonx.ai project → Manage → General → Project ID.",
+        "installMs": 124212,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "io.github.nirholas/ibm-watsonx",
+  "slug": "io.github.nirholas__ibm-watsonx"
+}

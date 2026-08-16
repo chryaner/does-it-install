@@ -2,6 +2,22 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 2201,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "argot.check_changeset",
+          "argot.check_hunk",
+          "argot.explain_hunk",
+          "argot.get_voice_context",
+          "argot.get_fit_status",
+          "argot.list_conventions"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:29.606Z",
         "method": "npm",
         "runId": "2026-08-15T04-06-29Z-57cf45",
@@ -19,6 +35,22 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 2767,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "argot.check_changeset",
+          "argot.check_hunk",
+          "argot.explain_hunk",
+          "argot.get_voice_context",
+          "argot.get_fit_status",
+          "argot.list_conventions"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:26.501Z",
         "method": "npm",
         "runId": "2026-08-15T04-06-26Z-0b778e",
@@ -35,6 +67,22 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 88978,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "argot.check_changeset",
+          "argot.check_hunk",
+          "argot.explain_hunk",
+          "argot.get_voice_context",
+          "argot.get_fit_status",
+          "argot.list_conventions"
+        ]
+      },
       {
         "date": "2026-08-15T04:06:54.549Z",
         "method": "npm",

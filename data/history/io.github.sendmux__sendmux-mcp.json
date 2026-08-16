@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 74 packages in 431ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/jSGTdV8QVxr-wY0u/bin/sendmux-mcp\", line 12, in <module>\n    sys.exit(main())\n             ~~~~^^\n  File \"/Users/runner/.cache/uv/archive-v0/jSGTdV8QVxr-wY0u/lib/python3.14/site-packages/sendmux_mcp/cli.py\", line 22, in main\n    surfaces = surfaces_from_args(args)\n  File \"/Users/runner/.cache/uv/archive-v0/jSGTdV8QVxr-wY0u/lib/python3.14/site-packages/sendmux_mcp/cli.py\", line 84, in surfaces_from_args\n    env_surfaces = parse_surfaces(os.environ.get(\"SENDMUX_MCP_SURFACES\"))\n  File \"/Users/runner/.cache/uv/archive-v0/jSGTdV8QVxr-wY0u/lib/python3.14/site-packages/sendmux_mcp/config.py\", line 154, in parse_surfaces\n    return normalise_surfaces(parse_csv(value))\n  File \"/Users/runner/.cache/uv/archive-v0/jSGTdV8QVxr-wY0u/lib/python3.14/site-packages/sendmux_mcp/config.py\", line 166, in normalise_surfaces\n    raise ValueError(\"surfaces must contain only: mailbox, management, sending\")\nValueError: surfaces must contain only: mailbox, management, sending",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 76 packages in 95ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/P_ruCRBQo19Z129I/bin/sendmux-mcp\", line 12, in <module>\n    sys.exit(main())\n             ~~~~^^\n  File \"/home/runner/.cache/uv/archive-v0/P_ruCRBQo19Z129I/lib/python3.13/site-packages/sendmux_mcp/cli.py\", line 22, in main\n    surfaces = surfaces_from_args(args)\n  File \"/home/runner/.cache/uv/archive-v0/P_ruCRBQo19Z129I/lib/python3.13/site-packages/sendmux_mcp/cli.py\", line 84, in surfaces_from_args\n    env_surfaces = parse_surfaces(os.environ.get(\"SENDMUX_MCP_SURFACES\"))\n  File \"/home/runner/.cache/uv/archive-v0/P_ruCRBQo19Z129I/lib/python3.13/site-packages/sendmux_mcp/config.py\", line 154, in parse_surfaces\n    return normalise_surfaces(parse_csv(value))\n  File \"/home/runner/.cache/uv/archive-v0/P_ruCRBQo19Z129I/lib/python3.13/site-packages/sendmux_mcp/config.py\", line 166, in normalise_surfaces\n    raise ValueError(\"surfaces must contain only: mailbox, management, sending\")\nValueError: surfaces must contain only: mailbox, management, sending",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 77 packages in 50.19s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\KJVRamLRt3hs-Pe6\\Scripts\\sendmux-mcp.exe\\__main__.py\", line 10, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\KJVRamLRt3hs-Pe6\\Lib\\site-packages\\sendmux_mcp\\cli.py\", line 22, in main\r\n    surfaces = surfaces_from_args(args)\r\n               ^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\KJVRamLRt3hs-Pe6\\Lib\\site-packages\\sendmux_mcp\\cli.py\", line 84, in surfaces_from_args\r\n    env_surfaces = parse_surfaces(os.environ.get(\"SENDMUX_MCP_SURFACES\"))\r\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\KJVRamLRt3hs-Pe6\\Lib\\site-packages\\sendmux_mcp\\config.py\", line 154, in parse_surfaces\r\n    return normalise_surfaces(parse_csv(value))\r\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\KJVRamLRt3hs-Pe6\\Lib\\site-packages\\sendmux_mcp\\config.py\", line 166, in normalise_surfaces\r\n    raise ValueError(\"surfaces must contain only: mailbox, management, sending\")\r\nValueError: surfaces must contain only: mailbox, management, sending",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "io.github.Sendmux/sendmux-mcp",
+  "slug": "io.github.sendmux__sendmux-mcp"
+}

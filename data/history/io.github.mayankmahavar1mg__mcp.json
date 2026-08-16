@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n{\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32000,\"message\":\"Not a Catalyst project. No catalyst-core or catalyst-core-internal dependency found in package.json.\"},\"id\":null}",
+        "installMs": 68336,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n{\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32000,\"message\":\"Not a Catalyst project. No catalyst-core or catalyst-core-internal dependency found in package.json.\"},\"id\":null}",
+        "installMs": 96833,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "npm install catalyst-mcp@1.0.2 timed out after 600s",
+        "installMs": 600119,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "io.github.mayankmahavar1mg/mcp",
+  "slug": "io.github.mayankmahavar1mg__mcp"
+}

@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading beartype (1.3MiB)\nDownloading pyright (5.9MiB)\nDownloading onnxruntime (18.3MiB)\nDownloading pillow (4.6MiB)\n   Building pymeta3==0.5.1\n   Building pybars3==0.9.7\n      Built pybars3==0.9.7\n      Built pymeta3==0.5.1\n Downloaded pillow\n Downloaded beartype\n Downloaded onnxruntime\n Downloaded pyright\nInstalled 161 packages in 789ms\nUsage: basic-memory [OPTIONS] COMMAND [ARGS]...\nTry 'basic-memory --help' for help.\n╭─ Error ──────────────────────────────────────────────────────────────────────╮\n│ Missing command.                                                             │\n╰──────────────────────────────────────────────────────────────────────────────╯",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading pillow (6.6MiB)\nDownloading beartype (1.3MiB)\nDownloading asyncpg (3.4MiB)\nDownloading pyright (5.9MiB)\nDownloading onnxruntime (18.3MiB)\n   Building pybars3==0.9.7\n   Building pymeta3==0.5.1\n      Built pybars3==0.9.7\n      Built pymeta3==0.5.1\n Downloaded asyncpg\n Downloaded pillow\n Downloaded beartype\n Downloaded onnxruntime\n Downloaded pyright\nInstalled 163 packages in 347ms\nUsage: basic-memory [OPTIONS] COMMAND [ARGS]...\nTry 'basic-memory --help' for help.\n╭─ Error ──────────────────────────────────────────────────────────────────────╮\n│ Missing command.                                                             │\n╰──────────────────────────────────────────────────────────────────────────────╯",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nBuilding pymeta3==0.5.1\n   Building pybars3==0.9.7\nDownloading pillow (6.9MiB)\nDownloading beartype (1.3MiB)\nDownloading pyright (5.9MiB)\nDownloading onnxruntime (13.1MiB)\n      Built pymeta3==0.5.1\n      Built pybars3==0.9.7\n Downloaded pillow\n Downloaded onnxruntime\n Downloaded beartype\n Downloaded pyright\nInstalled 165 packages in 1m 05s\nUsage: basic-memory [OPTIONS] COMMAND [ARGS]...\r\nTry 'basic-memory --help' for help.\r\n+- Error ---------------------------------------------------------------------+\r\n| Missing command.                                                            |\r\n+-----------------------------------------------------------------------------+",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.basicmachines-co/basic-memory",
+  "slug": "io.github.basicmachines-co__basic-memory"
+}

@@ -1,0 +1,90 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 1476,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "describe_method",
+          "describe_resource",
+          "list_methods",
+          "list_providers",
+          "list_registry",
+          "list_resources",
+          "list_services",
+          "pull_provider",
+          "query_library_get",
+          "query_library_search",
+          "reload_credentials",
+          "run_lifecycle_operation",
+          "run_mutation_query",
+          "run_select_query",
+          "server_info",
+          "validate_select_query"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 939,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "describe_method",
+          "describe_resource",
+          "list_methods",
+          "list_providers",
+          "list_registry",
+          "list_resources",
+          "list_services",
+          "pull_provider",
+          "query_library_get",
+          "query_library_search",
+          "reload_credentials",
+          "run_lifecycle_operation",
+          "run_mutation_query",
+          "run_select_query",
+          "server_info",
+          "validate_select_query"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 4572,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "describe_method",
+          "describe_resource",
+          "list_methods",
+          "list_providers",
+          "list_registry",
+          "list_resources",
+          "list_services",
+          "pull_provider",
+          "query_library_get",
+          "query_library_search",
+          "reload_credentials",
+          "run_lifecycle_operation",
+          "run_mutation_query",
+          "run_select_query",
+          "server_info",
+          "validate_select_query"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.stackql/stackql-mcp",
+  "slug": "io.github.stackql__stackql-mcp"
+}

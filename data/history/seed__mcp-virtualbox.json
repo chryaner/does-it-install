@@ -2,6 +2,46 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 37305,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 30,
+        "toolNames": [
+          "vm_list",
+          "vm_info",
+          "vm_create",
+          "vm_start",
+          "vm_stop",
+          "vm_delete",
+          "vm_pause",
+          "vm_resume",
+          "vm_reset",
+          "vm_shared_folder_add",
+          "vm_shared_folder_remove",
+          "vm_attach_media",
+          "vm_snapshot",
+          "vm_modify",
+          "vm_list_ostypes",
+          "vm_screenshot",
+          "vm_screen_info",
+          "vm_keyboard_scancode",
+          "vm_keyboard_type",
+          "vm_mouse_click",
+          "vm_guest_exec",
+          "vm_guest_copy_to",
+          "vm_guest_copy_from",
+          "vm_exec_ssh",
+          "vm_exec_winrm",
+          "vm_get_guest_ip",
+          "vm_wait_for_guest_additions",
+          "vm_wait_for_network",
+          "vm_add_nat_port_forward",
+          "vm_install_guide"
+        ]
+      },
+      {
         "date": "2026-08-15T20:03:31.969Z",
         "installMs": 43660,
         "method": "npm",
@@ -201,6 +241,46 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 16431,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 30,
+        "toolNames": [
+          "vm_list",
+          "vm_info",
+          "vm_create",
+          "vm_start",
+          "vm_stop",
+          "vm_delete",
+          "vm_pause",
+          "vm_resume",
+          "vm_reset",
+          "vm_shared_folder_add",
+          "vm_shared_folder_remove",
+          "vm_attach_media",
+          "vm_snapshot",
+          "vm_modify",
+          "vm_list_ostypes",
+          "vm_screenshot",
+          "vm_screen_info",
+          "vm_keyboard_scancode",
+          "vm_keyboard_type",
+          "vm_mouse_click",
+          "vm_guest_exec",
+          "vm_guest_copy_to",
+          "vm_guest_copy_from",
+          "vm_exec_ssh",
+          "vm_exec_winrm",
+          "vm_get_guest_ip",
+          "vm_wait_for_guest_additions",
+          "vm_wait_for_network",
+          "vm_add_nat_port_forward",
+          "vm_install_guide"
+        ]
+      },
+      {
         "date": "2026-08-15T20:03:21.360Z",
         "installMs": 29530,
         "method": "npm",
@@ -399,6 +479,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "errorExcerpt": "npm install mcp-virtualbox timed out after 600s",
+        "installMs": 601459,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "timeout"
+      },
       {
         "date": "2026-08-15T20:03:36.582Z",
         "installMs": 170424,

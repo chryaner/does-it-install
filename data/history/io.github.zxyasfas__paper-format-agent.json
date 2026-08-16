@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 4 packages in 72ms\nusage: paper-format-agent [-h] [--format-file FORMAT_FILE]\n                          [--paper-file PAPER_FILE] [--paper-dir PAPER_DIR]\n                          [--paper-glob PAPER_GLOB] [--batch-fail-fast]\n                          --out-dir OUT_DIR\n                          [--engine {auto,python,word-com,libreoffice}]\n                          [--marker-dump]\n                          [--calibration-file CALIBRATION_FILE]\n                          [--strict-required-sections]\n                          [--allow-content-change] [--use-llm]\n                          [--llm-api-key LLM_API_KEY]\n                          [--llm-base-url LLM_BASE_URL]\n                          [--llm-model LLM_MODEL] [--llm-timeout LLM_TIMEOUT]\n                          [--calibrate-labels CALIBRATE_LABELS]\n                          [--calibrate-out CALIBRATE_OUT]\npaper-format-agent: error: the following arguments are required: --out-dir",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 4 packages in 7ms\nusage: paper-format-agent [-h] [--format-file FORMAT_FILE]\n                          [--paper-file PAPER_FILE] [--paper-dir PAPER_DIR]\n                          [--paper-glob PAPER_GLOB] [--batch-fail-fast]\n                          --out-dir OUT_DIR\n                          [--engine {auto,python,word-com,libreoffice}]\n                          [--marker-dump]\n                          [--calibration-file CALIBRATION_FILE]\n                          [--strict-required-sections]\n                          [--allow-content-change] [--use-llm]\n                          [--llm-api-key LLM_API_KEY]\n                          [--llm-base-url LLM_BASE_URL]\n                          [--llm-model LLM_MODEL] [--llm-timeout LLM_TIMEOUT]\n                          [--calibrate-labels CALIBRATE_LABELS]\n                          [--calibrate-out CALIBRATE_OUT]\npaper-format-agent: error: the following arguments are required: --out-dir",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 4 packages in 17.45s\nusage: paper-format-agent [-h] [--format-file FORMAT_FILE]\r\n                          [--paper-file PAPER_FILE] [--paper-dir PAPER_DIR]\r\n                          [--paper-glob PAPER_GLOB] [--batch-fail-fast]\r\n                          --out-dir OUT_DIR\r\n                          [--engine {auto,python,word-com,libreoffice}]\r\n                          [--marker-dump]\r\n                          [--calibration-file CALIBRATION_FILE]\r\n                          [--strict-required-sections]\r\n                          [--allow-content-change] [--use-llm]\r\n                          [--llm-api-key LLM_API_KEY]\r\n                          [--llm-base-url LLM_BASE_URL]\r\n                          [--llm-model LLM_MODEL] [--llm-timeout LLM_TIMEOUT]\r\n                          [--calibrate-labels CALIBRATE_LABELS]\r\n                          [--calibrate-out CALIBRATE_OUT]\r\npaper-format-agent: error: the following arguments are required: --out-dir",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.zxyasfas/paper-format-agent",
+  "slug": "io.github.zxyasfas__paper-format-agent"
+}

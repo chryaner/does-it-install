@@ -1,0 +1,108 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 4003,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "create_pix_charge_static",
+          "create_pix_charge_dynamic",
+          "get_pix_charge",
+          "list_pix_charges",
+          "update_pix_charge",
+          "create_pix_charge_due",
+          "get_pix_charge_due",
+          "create_pix_payment",
+          "get_pix_payment",
+          "refund_pix_payment",
+          "list_pix_payments",
+          "list_pix_received",
+          "resolve_pix_key",
+          "list_dict_keys",
+          "register_dict_key",
+          "delete_dict_key",
+          "create_pix_automatico",
+          "get_pix_automatico",
+          "cancel_pix_automatico",
+          "get_account_balance",
+          "get_account_statement",
+          "internal_transfer"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 3131,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "create_pix_charge_static",
+          "create_pix_charge_dynamic",
+          "get_pix_charge",
+          "list_pix_charges",
+          "update_pix_charge",
+          "create_pix_charge_due",
+          "get_pix_charge_due",
+          "create_pix_payment",
+          "get_pix_payment",
+          "refund_pix_payment",
+          "list_pix_payments",
+          "list_pix_received",
+          "resolve_pix_key",
+          "list_dict_keys",
+          "register_dict_key",
+          "delete_dict_key",
+          "create_pix_automatico",
+          "get_pix_automatico",
+          "cancel_pix_automatico",
+          "get_account_balance",
+          "get_account_statement",
+          "internal_transfer"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 134523,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "create_pix_charge_static",
+          "create_pix_charge_dynamic",
+          "get_pix_charge",
+          "list_pix_charges",
+          "update_pix_charge",
+          "create_pix_charge_due",
+          "get_pix_charge_due",
+          "create_pix_payment",
+          "get_pix_payment",
+          "refund_pix_payment",
+          "list_pix_payments",
+          "list_pix_received",
+          "resolve_pix_key",
+          "list_dict_keys",
+          "register_dict_key",
+          "delete_dict_key",
+          "create_pix_automatico",
+          "get_pix_automatico",
+          "cancel_pix_automatico",
+          "get_account_balance",
+          "get_account_statement",
+          "internal_transfer"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-matera",
+  "slug": "io.github.codespar__mcp-matera"
+}

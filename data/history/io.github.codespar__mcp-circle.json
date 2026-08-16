@@ -1,0 +1,111 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 3862,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "create_wallet",
+          "get_wallet",
+          "list_wallets",
+          "create_payment",
+          "get_payment",
+          "create_payout",
+          "get_payout",
+          "list_payouts",
+          "create_transfer",
+          "get_transfer",
+          "list_transfers",
+          "create_card",
+          "get_card",
+          "list_cards",
+          "list_settlements",
+          "get_settlement",
+          "list_chargebacks",
+          "get_chargeback",
+          "create_subscription",
+          "list_subscriptions",
+          "delete_subscription",
+          "get_balance",
+          "list_transactions"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 3073,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "create_wallet",
+          "get_wallet",
+          "list_wallets",
+          "create_payment",
+          "get_payment",
+          "create_payout",
+          "get_payout",
+          "list_payouts",
+          "create_transfer",
+          "get_transfer",
+          "list_transfers",
+          "create_card",
+          "get_card",
+          "list_cards",
+          "list_settlements",
+          "get_settlement",
+          "list_chargebacks",
+          "get_chargeback",
+          "create_subscription",
+          "list_subscriptions",
+          "delete_subscription",
+          "get_balance",
+          "list_transactions"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 134489,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "create_wallet",
+          "get_wallet",
+          "list_wallets",
+          "create_payment",
+          "get_payment",
+          "create_payout",
+          "get_payout",
+          "list_payouts",
+          "create_transfer",
+          "get_transfer",
+          "list_transfers",
+          "create_card",
+          "get_card",
+          "list_cards",
+          "list_settlements",
+          "get_settlement",
+          "list_chargebacks",
+          "get_chargeback",
+          "create_subscription",
+          "list_subscriptions",
+          "delete_subscription",
+          "get_balance",
+          "list_transactions"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-circle",
+  "slug": "io.github.codespar__mcp-circle"
+}

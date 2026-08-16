@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:27.629Z",
+        "errorExcerpt": "npm install @aimino/opendocswork-mcp@0.2.1 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path /private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-gcIcTv/node_modules/@aimino/opendocswork-mcp\nnpm error command failed\nnpm error command sh -c node install.js\nnpm error Downloading opendocswork-mcp for aarch64-apple-darwin...\nnpm error Failed to download binary: Download failed: 404\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-gcIcTv/.npm-cache/_logs/2026-08-16T03_00_51_025Z-debug-0.log",
+        "installMs": 3310,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "install_failed"
+      },
+      {
         "date": "2026-08-15T04:06:29.606Z",
         "errorExcerpt": "npm install @aimino/opendocswork-mcp@0.2.1 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path /private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-rvkNmY/node_modules/@aimino/opendocswork-mcp\nnpm error command failed\nnpm error command sh -c node install.js\nnpm error Downloading opendocswork-mcp for aarch64-apple-darwin...\nnpm error Failed to download binary: Download failed: 404\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-rvkNmY/.npm-cache/_logs/2026-08-15T04_07_14_631Z-debug-0.log",
         "method": "npm",
@@ -11,6 +19,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T02:45:24.037Z",
+        "errorExcerpt": "npm install @aimino/opendocswork-mcp@0.2.1 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path /tmp/does-it-install/dii-npm-4c9Oqw/node_modules/@aimino/opendocswork-mcp\nnpm error command failed\nnpm error command sh -c node install.js\nnpm error Downloading opendocswork-mcp for x86_64-unknown-linux-gnu...\nnpm error Failed to download binary: Download failed: 404\nnpm error A complete log of this run can be found in: /tmp/does-it-install/dii-npm-4c9Oqw/.npm-cache/_logs/2026-08-16T02_55_51_518Z-debug-0.log",
+        "installMs": 822,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "install_failed"
+      },
+      {
         "date": "2026-08-15T04:06:26.501Z",
         "errorExcerpt": "npm install @aimino/opendocswork-mcp@0.2.1 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path /tmp/does-it-install/dii-npm-rGmpRh/node_modules/@aimino/opendocswork-mcp\nnpm error command failed\nnpm error command sh -c node install.js\nnpm error Downloading opendocswork-mcp for x86_64-unknown-linux-gnu...\nnpm error Failed to download binary: Download failed: 404\nnpm error A complete log of this run can be found in: /tmp/does-it-install/dii-npm-rGmpRh/.npm-cache/_logs/2026-08-15T04_06_55_839Z-debug-0.log",
         "method": "npm",
@@ -19,6 +35,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "npm install @aimino/opendocswork-mcp@0.2.1 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-B8fbqh\\node_modules\\@aimino\\opendocswork-mcp\nnpm error command failed\nnpm error command C:\\Windows\\system32\\cmd.exe /d /s /c node install.js\nnpm error Downloading opendocswork-mcp.exe for x86_64-pc-windows-msvc...\nnpm error Failed to download binary: Download failed: 404\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-B8fbqh\\.npm-cache\\_logs\\2026-08-16T04_16_55_047Z-debug-0.log",
+        "installMs": 2950,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "install_failed"
+      },
       {
         "date": "2026-08-15T04:06:54.549Z",
         "errorExcerpt": "npm install @aimino/opendocswork-mcp@0.2.1 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-YGLVwD\\node_modules\\@aimino\\opendocswork-mcp\nnpm error command failed\nnpm error command C:\\Windows\\system32\\cmd.exe /d /s /c node install.js\nnpm error Downloading opendocswork-mcp.exe for x86_64-pc-windows-msvc...\nnpm error Failed to download binary: Download failed: 404\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-YGLVwD\\.npm-cache\\_logs\\2026-08-15T04_14_27_929Z-debug-0.log",

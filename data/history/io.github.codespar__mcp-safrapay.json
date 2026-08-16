@@ -1,0 +1,108 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 9110,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "authorize_payment",
+          "capture_payment",
+          "cancel_payment",
+          "refund_payment",
+          "create_pix",
+          "create_boleto",
+          "get_payment",
+          "tokenize_card",
+          "create_split_rule",
+          "get_statement",
+          "list_transactions",
+          "delete_card_token",
+          "search_by_merchant_order",
+          "query_chargeback",
+          "query_installments",
+          "authenticate_3ds",
+          "create_recurrence",
+          "get_recurrence",
+          "cancel_recurrence",
+          "get_settlement_report",
+          "create_payment_link",
+          "register_webhook"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 4800,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "authorize_payment",
+          "capture_payment",
+          "cancel_payment",
+          "refund_payment",
+          "create_pix",
+          "create_boleto",
+          "get_payment",
+          "tokenize_card",
+          "create_split_rule",
+          "get_statement",
+          "list_transactions",
+          "delete_card_token",
+          "search_by_merchant_order",
+          "query_chargeback",
+          "query_installments",
+          "authenticate_3ds",
+          "create_recurrence",
+          "get_recurrence",
+          "cancel_recurrence",
+          "get_settlement_report",
+          "create_payment_link",
+          "register_webhook"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 107988,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "authorize_payment",
+          "capture_payment",
+          "cancel_payment",
+          "refund_payment",
+          "create_pix",
+          "create_boleto",
+          "get_payment",
+          "tokenize_card",
+          "create_split_rule",
+          "get_statement",
+          "list_transactions",
+          "delete_card_token",
+          "search_by_merchant_order",
+          "query_chargeback",
+          "query_installments",
+          "authenticate_3ds",
+          "create_recurrence",
+          "get_recurrence",
+          "cancel_recurrence",
+          "get_settlement_report",
+          "create_payment_link",
+          "register_webhook"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-safrapay",
+  "slug": "io.github.codespar__mcp-safrapay"
+}

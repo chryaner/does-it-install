@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: 'h', \"  https://wo\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'T', \"Tools available:\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nUnexpected end of JSON input\nUnexpected token 'N', \"No authent\"... is not valid JSON\nUnexpected token 'M', \"More info:\"... is not valid JSON\nUnexpected end of JSON input",
+        "installMs": 1060,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: 'h', \"  https://wo\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'T', \"Tools available:\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nUnexpected end of JSON input\nUnexpected token 'N', \"No authent\"... is not valid JSON\nUnexpected token 'M', \"More info:\"... is not valid JSON\nUnexpected end of JSON input",
+        "installMs": 769,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: 'h', \"  https://wo\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'T', \"Tools available:\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nUnexpected end of JSON input\nUnexpected token 'N', \"No authent\"... is not valid JSON\nUnexpected token 'M', \"More info:\"... is not valid JSON\nUnexpected end of JSON input",
+        "installMs": 2442,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.Shuangshuang007/workopia",
+  "slug": "io.github.shuangshuang007__workopia"
+}

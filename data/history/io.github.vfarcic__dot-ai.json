@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nValidating MCP server configuration...\nUsing session directory: /app/sessions\nINFO: DOT_AI_SESSION_DIR not set, using default: /app/sessions\nFor custom session directory, set DOT_AI_SESSION_DIR environment variable\nFATAL: Session directory does not exist: /app/sessions\nSolution: Create the directory or update DOT_AI_SESSION_DIR",
+        "installMs": 13432,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nValidating MCP server configuration...\nUsing session directory: /app/sessions\nINFO: DOT_AI_SESSION_DIR not set, using default: /app/sessions\nFor custom session directory, set DOT_AI_SESSION_DIR environment variable\nFATAL: Session directory does not exist: /app/sessions\nSolution: Create the directory or update DOT_AI_SESSION_DIR",
+        "installMs": 11346,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nValidating MCP server configuration...\nUsing session directory: /app/sessions\nINFO: DOT_AI_SESSION_DIR not set, using default: /app/sessions\nFor custom session directory, set DOT_AI_SESSION_DIR environment variable\nFATAL: Session directory does not exist: /app/sessions\nSolution: Create the directory or update DOT_AI_SESSION_DIR",
+        "installMs": 514887,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.vfarcic/dot-ai",
+  "slug": "io.github.vfarcic__dot-ai"
+}

@@ -1,0 +1,102 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 3978,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "get_ticker",
+          "list_orderbook",
+          "create_order",
+          "get_order",
+          "cancel_order",
+          "list_orders",
+          "get_balances",
+          "list_trades",
+          "list_funding_sources",
+          "create_withdrawal",
+          "list_ledger",
+          "list_open_orders",
+          "lookup_order",
+          "cancel_all_orders",
+          "list_fundings",
+          "list_withdrawals",
+          "get_withdrawal",
+          "list_fees",
+          "get_account_status",
+          "list_funding_destinations"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 2951,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "get_ticker",
+          "list_orderbook",
+          "create_order",
+          "get_order",
+          "cancel_order",
+          "list_orders",
+          "get_balances",
+          "list_trades",
+          "list_funding_sources",
+          "create_withdrawal",
+          "list_ledger",
+          "list_open_orders",
+          "lookup_order",
+          "cancel_all_orders",
+          "list_fundings",
+          "list_withdrawals",
+          "get_withdrawal",
+          "list_fees",
+          "get_account_status",
+          "list_funding_destinations"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 129564,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "get_ticker",
+          "list_orderbook",
+          "create_order",
+          "get_order",
+          "cancel_order",
+          "list_orders",
+          "get_balances",
+          "list_trades",
+          "list_funding_sources",
+          "create_withdrawal",
+          "list_ledger",
+          "list_open_orders",
+          "lookup_order",
+          "cancel_all_orders",
+          "list_fundings",
+          "list_withdrawals",
+          "get_withdrawal",
+          "list_fees",
+          "get_account_status",
+          "list_funding_destinations"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-bitso",
+  "slug": "io.github.codespar__mcp-bitso"
+}

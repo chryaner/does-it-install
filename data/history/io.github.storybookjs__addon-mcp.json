@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "errorExcerpt": "@storybook/addon-mcp declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "installMs": 10423,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "needs_config"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "errorExcerpt": "@storybook/addon-mcp declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "installMs": 7093,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "needs_config"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "@storybook/addon-mcp declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "installMs": 142909,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "needs_config"
+      }
+    ]
+  },
+  "serverId": "io.github.storybookjs/addon-mcp",
+  "slug": "io.github.storybookjs__addon-mcp"
+}

@@ -1,0 +1,105 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 10272,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "list_devices",
+          "list_avds",
+          "start_emulator",
+          "screenshot",
+          "get_ui_tree",
+          "tap",
+          "tap_element",
+          "tap_and_wait",
+          "type_text",
+          "press_key",
+          "swipe",
+          "scroll_to_element",
+          "wait_for_element",
+          "launch_app",
+          "install_apk",
+          "get_current_activity",
+          "adb_shell",
+          "get_logs",
+          "clear_logs",
+          "get_device_info",
+          "pull_file"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 5913,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "list_devices",
+          "list_avds",
+          "start_emulator",
+          "screenshot",
+          "get_ui_tree",
+          "tap",
+          "tap_element",
+          "tap_and_wait",
+          "type_text",
+          "press_key",
+          "swipe",
+          "scroll_to_element",
+          "wait_for_element",
+          "launch_app",
+          "install_apk",
+          "get_current_activity",
+          "adb_shell",
+          "get_logs",
+          "clear_logs",
+          "get_device_info",
+          "pull_file"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 69269,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "list_devices",
+          "list_avds",
+          "start_emulator",
+          "screenshot",
+          "get_ui_tree",
+          "tap",
+          "tap_element",
+          "tap_and_wait",
+          "type_text",
+          "press_key",
+          "swipe",
+          "scroll_to_element",
+          "wait_for_element",
+          "launch_app",
+          "install_apk",
+          "get_current_activity",
+          "adb_shell",
+          "get_logs",
+          "clear_logs",
+          "get_device_info",
+          "pull_file"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.martingeidobler/android",
+  "slug": "io.github.martingeidobler__android"
+}

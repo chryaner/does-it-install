@@ -2,6 +2,26 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 3278,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "list_deployments",
+          "get_deployment",
+          "list_projects",
+          "get_deployment_events",
+          "get_runtime_logs",
+          "create_deployment",
+          "cancel_deployment",
+          "delete_deployment",
+          "promote_deployment",
+          "rollback_deployment"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:29.606Z",
         "method": "npm",
         "runId": "2026-08-15T04-06-29Z-57cf45",
@@ -22,6 +42,26 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 3345,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "list_deployments",
+          "get_deployment",
+          "list_projects",
+          "get_deployment_events",
+          "get_runtime_logs",
+          "create_deployment",
+          "cancel_deployment",
+          "delete_deployment",
+          "promote_deployment",
+          "rollback_deployment"
+        ]
+      },
       {
         "date": "2026-08-15T04:06:26.501Z",
         "method": "npm",

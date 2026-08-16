@@ -1,0 +1,108 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 7395,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "get_oauth_token",
+          "send_pix",
+          "create_pix_qr",
+          "get_pix",
+          "resolve_dict_key",
+          "refund_pix",
+          "create_boleto",
+          "get_boleto",
+          "cancel_boleto",
+          "get_statement",
+          "arrecadacao_pay",
+          "create_pix_cobv",
+          "list_pix_charges",
+          "register_pix_key",
+          "delete_pix_key",
+          "list_pix_keys",
+          "get_boleto_pdf",
+          "send_ted",
+          "transfer_between_accounts",
+          "get_tariffs",
+          "list_dda_bills",
+          "schedule_payment"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 3880,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "get_oauth_token",
+          "send_pix",
+          "create_pix_qr",
+          "get_pix",
+          "resolve_dict_key",
+          "refund_pix",
+          "create_boleto",
+          "get_boleto",
+          "cancel_boleto",
+          "get_statement",
+          "arrecadacao_pay",
+          "create_pix_cobv",
+          "list_pix_charges",
+          "register_pix_key",
+          "delete_pix_key",
+          "list_pix_keys",
+          "get_boleto_pdf",
+          "send_ted",
+          "transfer_between_accounts",
+          "get_tariffs",
+          "list_dda_bills",
+          "schedule_payment"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 178326,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "get_oauth_token",
+          "send_pix",
+          "create_pix_qr",
+          "get_pix",
+          "resolve_dict_key",
+          "refund_pix",
+          "create_boleto",
+          "get_boleto",
+          "cancel_boleto",
+          "get_statement",
+          "arrecadacao_pay",
+          "create_pix_cobv",
+          "list_pix_charges",
+          "register_pix_key",
+          "delete_pix_key",
+          "list_pix_keys",
+          "get_boleto_pdf",
+          "send_ted",
+          "transfer_between_accounts",
+          "get_tariffs",
+          "list_dda_bills",
+          "schedule_payment"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-itau",
+  "slug": "io.github.codespar__mcp-itau"
+}

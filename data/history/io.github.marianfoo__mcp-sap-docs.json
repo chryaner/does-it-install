@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "errorExcerpt": "npm install mcp-sap-docs@0.3.9 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for mcp-sap-docs@0.3.9.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-UYzjKv/.npm-cache/_logs/2026-08-16T02_57_20_714Z-debug-0.log",
+        "installMs": 589,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "install_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "errorExcerpt": "npm install mcp-sap-docs@0.3.9 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for mcp-sap-docs@0.3.9.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /tmp/does-it-install/dii-npm-7QHkPN/.npm-cache/_logs/2026-08-16T02_54_44_180Z-debug-0.log",
+        "installMs": 436,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "install_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "npm install mcp-sap-docs@0.3.9 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for mcp-sap-docs@0.3.9.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-AE4Brs\\.npm-cache\\_logs\\2026-08-16T04_08_42_543Z-debug-0.log",
+        "installMs": 1007,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "install_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.marianfoo/mcp-sap-docs",
+  "slug": "io.github.marianfoo__mcp-sap-docs"
+}

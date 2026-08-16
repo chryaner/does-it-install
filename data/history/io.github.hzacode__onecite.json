@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: N\nUnexpected end of JSON input\nUnexpected token 'o', \"options:\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nUnexpected end of JSON input\nUnexpected token 'E', \"Examples:\" is not valid JSON\nUnexpected token 'o', \"  onecite pr\"... is not valid JSON\nUnexpected token 'o', \"  onecite pr\"... is not valid JSON\nUnexpected token 'o', \"  onecite pr\"... is not valid JSON\nUnexpected end of JSON input\n--- stderr (tail) ---\nBuilding bibtexparser==1.4.4\nDownloading sphinx-rtd-theme (7.3MiB)\nDownloading babel (9.7MiB)\nDownloading sphinx (3.7MiB)\nDownloading selenium (9.1MiB)\nDownloading rapidfuzz (1.1MiB)\n      Built bibtexparser==1.4.4\n Downloaded rapidfuzz\n Downloaded sphinx-rtd-theme\n Downloaded selenium\n Downloaded sphinx\n Downloaded babel\nInstalled 84 packages in 701ms\n/Users/runner/.cache/uv/archive-v0/s3uyzUU1UVCsgUue/lib/python3.14/site-packages/scholarly/_scholarly.py:312: SyntaxWarning: \"\\d\" is an invalid escape sequence. Such sequences will not work in the future. Did you mean \"\\\\d\"? A raw string is also an option.\n  m = re.search(\"cites=[\\d+,]*\", object[\"citedby_url\"])\n/Users/runner/.cache/uv/archive-v0/s3uyzUU1UVCsgUue/lib/python3.14/site-packages/scholarly/_scholarly.py:568: SyntaxWarning: 'return' in a 'finally' block\n  return text\n/Users/runner/.cache/uv/archive-v0/s3uyzUU1UVCsgUue/lib/python3.14/site-packages/scholarly/_scholarly.py:682: SyntaxWarning: 'return' in a 'finally' block\n  return journals",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: N\nUnexpected end of JSON input\nUnexpected token 'o', \"options:\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nUnexpected end of JSON input\nUnexpected token 'E', \"Examples:\" is not valid JSON\nUnexpected token 'o', \"  onecite pr\"... is not valid JSON\nUnexpected token 'o', \"  onecite pr\"... is not valid JSON\nUnexpected token 'o', \"  onecite pr\"... is not valid JSON\nUnexpected end of JSON input\n--- stderr (tail) ---\nBuilding bibtexparser==1.4.4\nDownloading selenium (9.1MiB)\nDownloading rapidfuzz (3.0MiB)\nDownloading babel (9.7MiB)\nDownloading sphinx-rtd-theme (7.3MiB)\nDownloading sphinx (3.7MiB)\n      Built bibtexparser==1.4.4\n Downloaded rapidfuzz\n Downloaded sphinx-rtd-theme\n Downloaded selenium\n Downloaded sphinx\n Downloaded babel\nInstalled 84 packages in 105ms\n/home/runner/.cache/uv/archive-v0/xKqxN3pkEM0h2ipu/lib/python3.13/site-packages/scholarly/_scholarly.py:312: SyntaxWarning: invalid escape sequence '\\d'\n  m = re.search(\"cites=[\\d+,]*\", object[\"citedby_url\"])",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: N\nUnexpected end of JSON input\nUnexpected token 'o', \"options:\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nUnexpected end of JSON input\nUnexpected token 'E', \"Examples:\" is not valid JSON\nUnexpected token 'o', \"  onecite pr\"... is not valid JSON\nUnexpected token 'o', \"  onecite pr\"... is not valid JSON\nUnexpected token 'o', \"  onecite pr\"... is not valid JSON\nUnexpected end of JSON input\n--- stderr (tail) ---\nBuilding bibtexparser==1.4.4\nDownloading sphinx (3.7MiB)\nDownloading babel (9.7MiB)\nDownloading selenium (9.1MiB)\nDownloading sphinx-rtd-theme (7.3MiB)\nDownloading rapidfuzz (1.5MiB)\n Downloaded rapidfuzz\n      Built bibtexparser==1.4.4\n Downloaded sphinx-rtd-theme\n Downloaded selenium\n Downloaded babel\n Downloaded sphinx\nInstalled 86 packages in 23.06s\nC:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\4gWxtCBs5YsJoAeW\\Lib\\site-packages\\scholarly\\_scholarly.py:312: SyntaxWarning: invalid escape sequence '\\d'\r\n  m = re.search(\"cites=[\\d+,]*\", object[\"citedby_url\"])",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.HzaCode/onecite",
+  "slug": "io.github.hzacode__onecite"
+}

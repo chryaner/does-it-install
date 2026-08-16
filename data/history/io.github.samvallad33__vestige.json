@@ -1,0 +1,81 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 32394,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "recall",
+          "memory",
+          "codebase",
+          "intention",
+          "smart_ingest",
+          "source_sync",
+          "memory_status",
+          "maintain",
+          "dedup",
+          "graph",
+          "session_start",
+          "suppress",
+          "backfill"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 31900,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "recall",
+          "memory",
+          "codebase",
+          "intention",
+          "smart_ingest",
+          "source_sync",
+          "memory_status",
+          "maintain",
+          "dedup",
+          "graph",
+          "session_start",
+          "suppress",
+          "backfill"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 32948,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "recall",
+          "memory",
+          "codebase",
+          "intention",
+          "smart_ingest",
+          "source_sync",
+          "memory_status",
+          "maintain",
+          "dedup",
+          "graph",
+          "session_start",
+          "suppress",
+          "backfill"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.samvallad33/vestige",
+  "slug": "io.github.samvallad33__vestige"
+}

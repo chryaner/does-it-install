@@ -1,0 +1,66 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 8465,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "create_payment",
+          "create_payment_by_email",
+          "get_payment_status",
+          "get_payment_status_by_commerce_id",
+          "get_payment_status_by_flow_order",
+          "list_payments",
+          "create_refund",
+          "get_refund_status"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 4204,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "create_payment",
+          "create_payment_by_email",
+          "get_payment_status",
+          "get_payment_status_by_commerce_id",
+          "get_payment_status_by_flow_order",
+          "list_payments",
+          "create_refund",
+          "get_refund_status"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 185248,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "create_payment",
+          "create_payment_by_email",
+          "get_payment_status",
+          "get_payment_status_by_commerce_id",
+          "get_payment_status_by_flow_order",
+          "list_payments",
+          "create_refund",
+          "get_refund_status"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-flow-cl",
+  "slug": "io.github.codespar__mcp-flow-cl"
+}

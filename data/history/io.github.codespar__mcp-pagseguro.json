@@ -1,0 +1,114 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 10226,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "create_order",
+          "get_order",
+          "list_orders",
+          "create_charge",
+          "refund",
+          "get_pix_qrcode",
+          "create_customer",
+          "get_balance",
+          "create_subscription",
+          "list_subscriptions",
+          "get_notifications",
+          "create_split",
+          "get_dispute",
+          "pay_order",
+          "get_charge",
+          "list_charges",
+          "capture_charge",
+          "cancel_charge",
+          "create_boleto",
+          "get_boleto",
+          "get_public_keys",
+          "create_payout",
+          "create_webhook",
+          "list_webhooks"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 3824,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "create_order",
+          "get_order",
+          "list_orders",
+          "create_charge",
+          "refund",
+          "get_pix_qrcode",
+          "create_customer",
+          "get_balance",
+          "create_subscription",
+          "list_subscriptions",
+          "get_notifications",
+          "create_split",
+          "get_dispute",
+          "pay_order",
+          "get_charge",
+          "list_charges",
+          "capture_charge",
+          "cancel_charge",
+          "create_boleto",
+          "get_boleto",
+          "get_public_keys",
+          "create_payout",
+          "create_webhook",
+          "list_webhooks"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 173532,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "create_order",
+          "get_order",
+          "list_orders",
+          "create_charge",
+          "refund",
+          "get_pix_qrcode",
+          "create_customer",
+          "get_balance",
+          "create_subscription",
+          "list_subscriptions",
+          "get_notifications",
+          "create_split",
+          "get_dispute",
+          "pay_order",
+          "get_charge",
+          "list_charges",
+          "capture_charge",
+          "cancel_charge",
+          "create_boleto",
+          "get_boleto",
+          "get_public_keys",
+          "create_payout",
+          "create_webhook",
+          "list_webhooks"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-pagseguro",
+  "slug": "io.github.codespar__mcp-pagseguro"
+}

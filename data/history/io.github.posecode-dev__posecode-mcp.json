@@ -1,0 +1,51 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 4242,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "posecode_authoring_guide",
+          "validate_posecode",
+          "render_posecode"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 4339,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "posecode_authoring_guide",
+          "validate_posecode",
+          "render_posecode"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 110076,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "posecode_authoring_guide",
+          "validate_posecode",
+          "render_posecode"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.posecode-dev/posecode-mcp",
+  "slug": "io.github.posecode-dev__posecode-mcp"
+}

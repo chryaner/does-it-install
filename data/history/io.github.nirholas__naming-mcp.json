@@ -1,0 +1,51 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 7876,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "sns_resolve",
+          "sns_reverse",
+          "threews_availability"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 3517,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "sns_resolve",
+          "sns_reverse",
+          "threews_availability"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 79319,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "sns_resolve",
+          "sns_reverse",
+          "threews_availability"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.nirholas/naming-mcp",
+  "slug": "io.github.nirholas__naming-mcp"
+}

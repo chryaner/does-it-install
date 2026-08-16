@@ -1,0 +1,102 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 7840,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_applicant",
+          "retrieve_applicant",
+          "update_applicant",
+          "upload_document",
+          "retrieve_document",
+          "upload_live_photo",
+          "retrieve_live_photo",
+          "create_check",
+          "retrieve_check",
+          "list_checks",
+          "retrieve_report",
+          "delete_applicant",
+          "list_documents",
+          "download_document",
+          "list_live_photos",
+          "resume_check",
+          "list_reports",
+          "create_workflow_run",
+          "retrieve_workflow_run",
+          "generate_sdk_token"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 4539,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_applicant",
+          "retrieve_applicant",
+          "update_applicant",
+          "upload_document",
+          "retrieve_document",
+          "upload_live_photo",
+          "retrieve_live_photo",
+          "create_check",
+          "retrieve_check",
+          "list_checks",
+          "retrieve_report",
+          "delete_applicant",
+          "list_documents",
+          "download_document",
+          "list_live_photos",
+          "resume_check",
+          "list_reports",
+          "create_workflow_run",
+          "retrieve_workflow_run",
+          "generate_sdk_token"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 115193,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_applicant",
+          "retrieve_applicant",
+          "update_applicant",
+          "upload_document",
+          "retrieve_document",
+          "upload_live_photo",
+          "retrieve_live_photo",
+          "create_check",
+          "retrieve_check",
+          "list_checks",
+          "retrieve_report",
+          "delete_applicant",
+          "list_documents",
+          "download_document",
+          "list_live_photos",
+          "resume_check",
+          "list_reports",
+          "create_workflow_run",
+          "retrieve_workflow_run",
+          "generate_sdk_token"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-onfido",
+  "slug": "io.github.codespar__mcp-onfido"
+}

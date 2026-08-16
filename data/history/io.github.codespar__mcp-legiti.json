@@ -1,0 +1,96 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 12437,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "evaluate_order",
+          "update_order",
+          "mark_order_fraudulent",
+          "evaluate_sale",
+          "track_account",
+          "track_event",
+          "track_sale",
+          "track_auth",
+          "track_login",
+          "track_logout",
+          "track_signup",
+          "track_account_update",
+          "track_password_recovery",
+          "track_event_view",
+          "track_payment",
+          "get_decision",
+          "update_decision_status",
+          "mark_dispute_resolution"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 4753,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "evaluate_order",
+          "update_order",
+          "mark_order_fraudulent",
+          "evaluate_sale",
+          "track_account",
+          "track_event",
+          "track_sale",
+          "track_auth",
+          "track_login",
+          "track_logout",
+          "track_signup",
+          "track_account_update",
+          "track_password_recovery",
+          "track_event_view",
+          "track_payment",
+          "get_decision",
+          "update_decision_status",
+          "mark_dispute_resolution"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 111382,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "evaluate_order",
+          "update_order",
+          "mark_order_fraudulent",
+          "evaluate_sale",
+          "track_account",
+          "track_event",
+          "track_sale",
+          "track_auth",
+          "track_login",
+          "track_logout",
+          "track_signup",
+          "track_account_update",
+          "track_password_recovery",
+          "track_event_view",
+          "track_payment",
+          "get_decision",
+          "update_decision_status",
+          "mark_dispute_resolution"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-legiti",
+  "slug": "io.github.codespar__mcp-legiti"
+}

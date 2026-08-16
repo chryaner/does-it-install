@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:27.629Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "skipped"
+      },
+      {
         "date": "2026-08-15T04:06:28.791Z",
         "errorExcerpt": "container (oci) distributions are not probed in v1",
         "method": "oci",
@@ -11,10 +19,28 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T02:45:24.037Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: . is not valid JSON\nUnexpected number in JSON at position 2 (line 1 column 3)\nUnexpected token 'R', \"      Registered\"... is not valid JSON\nUnexpected number in JSON at position 2 (line 1 column 3)\nUnexpected token 'M', \"      McpPlugin \"... is not valid JSON\nUnexpected number in JSON at position 2 (line 1 column 3)\nUnexpected token 'S', \"      Start list\"... is not valid JSON\nUnexpected number in JSON at position 2 (line 1 column 3)\nUnexpected token 'H', \"      Http trans\"... is not valid JSON",
+        "installMs": 5019,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "timeout"
+      },
+      {
         "date": "2026-08-15T04:06:31.639Z",
         "errorExcerpt": "container (oci) distributions are not probed in v1",
         "method": "oci",
         "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "skipped"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-42Z-6de339",
         "status": "skipped"
       }
     ]

@@ -1,0 +1,90 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 9835,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "list_connectors",
+          "get_connector",
+          "list_categories",
+          "create_connect_token",
+          "create_item",
+          "list_items",
+          "get_item",
+          "update_item",
+          "delete_item",
+          "list_accounts",
+          "get_account",
+          "list_transactions",
+          "get_transaction",
+          "list_identities",
+          "create_payment_intent",
+          "get_payment_intent"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 4558,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "list_connectors",
+          "get_connector",
+          "list_categories",
+          "create_connect_token",
+          "create_item",
+          "list_items",
+          "get_item",
+          "update_item",
+          "delete_item",
+          "list_accounts",
+          "get_account",
+          "list_transactions",
+          "get_transaction",
+          "list_identities",
+          "create_payment_intent",
+          "get_payment_intent"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 179587,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "list_connectors",
+          "get_connector",
+          "list_categories",
+          "create_connect_token",
+          "create_item",
+          "list_items",
+          "get_item",
+          "update_item",
+          "delete_item",
+          "list_accounts",
+          "get_account",
+          "list_transactions",
+          "get_transaction",
+          "list_identities",
+          "create_payment_intent",
+          "get_payment_intent"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-pluggy",
+  "slug": "io.github.codespar__mcp-pluggy"
+}

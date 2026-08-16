@@ -1,0 +1,96 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 4489,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_cob",
+          "get_cob",
+          "list_cobs",
+          "create_charge",
+          "get_charge",
+          "create_carnet",
+          "get_pix_key",
+          "create_pix_evp",
+          "create_cobv",
+          "get_cobv",
+          "update_cobv",
+          "create_devolucao",
+          "get_devolucao",
+          "list_pix_received",
+          "delete_pix_key",
+          "register_webhook",
+          "list_webhooks",
+          "delete_webhook"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 3320,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_cob",
+          "get_cob",
+          "list_cobs",
+          "create_charge",
+          "get_charge",
+          "create_carnet",
+          "get_pix_key",
+          "create_pix_evp",
+          "create_cobv",
+          "get_cobv",
+          "update_cobv",
+          "create_devolucao",
+          "get_devolucao",
+          "list_pix_received",
+          "delete_pix_key",
+          "register_webhook",
+          "list_webhooks",
+          "delete_webhook"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 130082,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_cob",
+          "get_cob",
+          "list_cobs",
+          "create_charge",
+          "get_charge",
+          "create_carnet",
+          "get_pix_key",
+          "create_pix_evp",
+          "create_cobv",
+          "get_cobv",
+          "update_cobv",
+          "create_devolucao",
+          "get_devolucao",
+          "list_pix_received",
+          "delete_pix_key",
+          "register_webhook",
+          "list_webhooks",
+          "delete_webhook"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-efi",
+  "slug": "io.github.codespar__mcp-efi"
+}

@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: OAuth keys file not found. Please place gcp-oauth.keys.json in current directory or /Users/runner/.gmail-mcp",
+        "installMs": 13283,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: OAuth keys file not found. Please place gcp-oauth.keys.json in current directory or /home/runner/.gmail-mcp",
+        "installMs": 6816,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "errorExcerpt": "npm install @artymclabin/gmail-mcp@1.2.3 timed out after 600s",
+        "installMs": 600177,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "io.github.ArtyMcLabin/Gmail-MCP-Server",
+  "slug": "io.github.artymclabin__gmail-mcp-server"
+}

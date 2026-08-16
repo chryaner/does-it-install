@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "listTools failed: MCP error -32601: Method not found",
+        "installMs": 7841,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "tools_failed"
+      },
+      {
         "date": "2026-08-15T04:06:28.791Z",
         "errorExcerpt": "listTools failed: MCP error -32601: Method not found",
         "method": "npm",
@@ -11,10 +19,28 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "listTools failed: MCP error -32601: Method not found",
+        "installMs": 5482,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "tools_failed"
+      },
+      {
         "date": "2026-08-15T04:06:31.639Z",
         "errorExcerpt": "listTools failed: MCP error -32601: Method not found",
         "method": "npm",
         "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "tools_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "errorExcerpt": "listTools failed: MCP error -32601: Method not found",
+        "installMs": 195931,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
         "status": "tools_failed"
       }
     ]

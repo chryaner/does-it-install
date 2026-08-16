@@ -1,0 +1,63 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "add_memory",
+          "search_memories",
+          "get_memories",
+          "get_memory",
+          "update_memory",
+          "delete_memory",
+          "delete_all_memories",
+          "memory_history"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "add_memory",
+          "search_memories",
+          "get_memories",
+          "get_memory",
+          "update_memory",
+          "delete_memory",
+          "delete_all_memories",
+          "memory_history"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "add_memory",
+          "search_memories",
+          "get_memories",
+          "get_memory",
+          "update_memory",
+          "delete_memory",
+          "delete_all_memories",
+          "memory_history"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.TeleAI-UAGI/telemem",
+  "slug": "io.github.teleai-uagi__telemem"
+}

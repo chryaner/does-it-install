@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: t valid JSON\nUnexpected end of JSON input\nUnexpected token 'E', \"Export & i\"... is not valid JSON\nUnexpected token 'g', \"  get_identi\"... is not valid JSON\nUnexpected token 'e', \"  export_kno\"... is not valid JSON\nUnexpected token 'e', \"  export_eng\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'T', \"Tool tiers:\" is not valid JSON\nUnexpected token 'D', \"  Default: 1\"... is not valid JSON\nUnexpected token 'S', \"  Set ENGRAM\"... is not valid JSON\nUnexpected end of JSON input\n--- stderr (tail) ---\nInstalled 31 packages in 185ms",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: t valid JSON\nUnexpected end of JSON input\nUnexpected token 'E', \"Export & i\"... is not valid JSON\nUnexpected token 'g', \"  get_identi\"... is not valid JSON\nUnexpected token 'e', \"  export_kno\"... is not valid JSON\nUnexpected token 'e', \"  export_eng\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'T', \"Tool tiers:\" is not valid JSON\nUnexpected token 'D', \"  Default: 1\"... is not valid JSON\nUnexpected token 'S', \"  Set ENGRAM\"... is not valid JSON\nUnexpected end of JSON input\n--- stderr (tail) ---\nInstalled 31 packages in 7ms",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: t valid JSON\nUnexpected end of JSON input\nUnexpected token 'E', \"Export & i\"... is not valid JSON\nUnexpected token 'g', \"  get_identi\"... is not valid JSON\nUnexpected token 'e', \"  export_kno\"... is not valid JSON\nUnexpected token 'e', \"  export_eng\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'T', \"Tool tiers:\" is not valid JSON\nUnexpected token 'D', \"  Default: 1\"... is not valid JSON\nUnexpected token 'S', \"  Set ENGRAM\"... is not valid JSON\nUnexpected end of JSON input\n--- stderr (tail) ---\nInstalled 33 packages in 9.60s",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.Patdolitse/piia-engram",
+  "slug": "io.github.patdolitse__piia-engram"
+}

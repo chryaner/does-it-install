@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nVault failed to load: DOES_IT_INSTALL_PLACEHOLDER — No .smart-env directory in DOES_IT_INSTALL_PLACEHOLDER — is Smart Connections installed and indexed?\nError: no vaults loaded successfully.",
+        "installMs": 13205,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nVault failed to load: DOES_IT_INSTALL_PLACEHOLDER — No .smart-env directory in DOES_IT_INSTALL_PLACEHOLDER — is Smart Connections installed and indexed?\nError: no vaults loaded successfully.",
+        "installMs": 13817,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nVault failed to load: DOES_IT_INSTALL_PLACEHOLDER — No .smart-env directory in DOES_IT_INSTALL_PLACEHOLDER — is Smart Connections installed and indexed?\nError: no vaults loaded successfully.",
+        "installMs": 98645,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "io.github.msdanyg/smart-connections-mcp",
+  "slug": "io.github.msdanyg__smart-connections-mcp"
+}

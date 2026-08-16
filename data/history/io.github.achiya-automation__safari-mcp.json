@@ -1,0 +1,88 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 25954,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 97,
+        "toolNames": [
+          "safari_navigate",
+          "safari_go_back",
+          "safari_go_forward",
+          "safari_reload",
+          "safari_read_page",
+          "safari_get_source",
+          "safari_snapshot",
+          "safari_navigate_and_read",
+          "safari_click",
+          "safari_click_and_read",
+          "safari_double_click",
+          "safari_right_click",
+          "safari_native_click",
+          "safari_native_hover",
+          "safari_native_keyboard",
+          "safari_native_type",
+          "safari_fill",
+          "safari_clear_field",
+          "safari_verify_state",
+          "safari_select_option",
+          "safari_react_select_set",
+          "safari_react_select_list_options",
+          "safari_fill_form",
+          "safari_press_key",
+          "safari_type_text",
+          "safari_replace_editor",
+          "safari_screenshot",
+          "safari_screenshot_element",
+          "safari_scroll",
+          "safari_scroll_to",
+          "safari_list_tabs",
+          "safari_reload_extension",
+          "safari_new_tab",
+          "safari_close_tab",
+          "safari_switch_tab",
+          "safari_wait_for",
+          "safari_wait_for_new_tab",
+          "safari_evaluate",
+          "safari_eval_file",
+          "safari_get_element",
+          "safari_query_all",
+          "safari_hover",
+          "safari_handle_dialog",
+          "safari_resize",
+          "safari_drag",
+          "safari_upload_file",
+          "safari_paste_image",
+          "safari_emulate",
+          "safari_reset_emulation",
+          "safari_get_cookies"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "errorExcerpt": "npm install safari-mcp@2.16.0 exited with code 1\n--- stderr (tail) ---\nnpm error code EBADPLATFORM\nnpm error notsup Unsupported platform for safari-mcp@2.16.0: wanted {\"os\":\"darwin\"} (current: {\"os\":\"linux\"})\nnpm error notsup Valid os:  darwin\nnpm error notsup Actual os: linux\nnpm error A complete log of this run can be found in: /tmp/does-it-install/dii-npm-tSl5lo/.npm-cache/_logs/2026-08-16T02_55_41_620Z-debug-0.log",
+        "installMs": 1459,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "install_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "npm install safari-mcp@2.16.0 exited with code 1\n--- stderr (tail) ---\nnpm error code EBADPLATFORM\nnpm error notsup Unsupported platform for safari-mcp@2.16.0: wanted {\"os\":\"darwin\"} (current: {\"os\":\"win32\"})\nnpm error notsup Valid os:  darwin\nnpm error notsup Actual os: win32\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-Bh0nqN\\.npm-cache\\_logs\\2026-08-16T04_15_32_156Z-debug-0.log",
+        "installMs": 4318,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "install_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.achiya-automation/safari-mcp",
+  "slug": "io.github.achiya-automation__safari-mcp"
+}

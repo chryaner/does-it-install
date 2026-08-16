@@ -1,0 +1,63 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 3385,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "vnsh_read",
+          "vnsh_share",
+          "vnsh_share_file",
+          "vnsh_workspace_create",
+          "vnsh_workspace_read",
+          "vnsh_workspace_update",
+          "vnsh_workspace_open"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 2881,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "vnsh_read",
+          "vnsh_share",
+          "vnsh_share_file",
+          "vnsh_workspace_create",
+          "vnsh_workspace_read",
+          "vnsh_workspace_update",
+          "vnsh_workspace_open"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 176280,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "vnsh_read",
+          "vnsh_share",
+          "vnsh_share_file",
+          "vnsh_workspace_create",
+          "vnsh_workspace_read",
+          "vnsh_workspace_update",
+          "vnsh_workspace_open"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.raullenchai/vnsh",
+  "slug": "io.github.raullenchai__vnsh"
+}

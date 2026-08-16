@@ -1,0 +1,99 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "search_evidence",
+          "search_docs",
+          "evidence_status",
+          "write_memory",
+          "read_memory",
+          "edit_memory",
+          "canonical_memory",
+          "pin_memory",
+          "unpin_memory",
+          "move_memory",
+          "duplicate_memory",
+          "trash_memory",
+          "restore_memory",
+          "search_memory",
+          "common_memory",
+          "context_delivery",
+          "context_status",
+          "context_projection",
+          "decision_timeline",
+          "ask_memory"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "search_evidence",
+          "search_docs",
+          "evidence_status",
+          "write_memory",
+          "read_memory",
+          "edit_memory",
+          "canonical_memory",
+          "pin_memory",
+          "unpin_memory",
+          "move_memory",
+          "duplicate_memory",
+          "trash_memory",
+          "restore_memory",
+          "search_memory",
+          "common_memory",
+          "context_delivery",
+          "context_status",
+          "context_projection",
+          "decision_timeline",
+          "ask_memory"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "search_evidence",
+          "search_docs",
+          "evidence_status",
+          "write_memory",
+          "read_memory",
+          "edit_memory",
+          "canonical_memory",
+          "pin_memory",
+          "unpin_memory",
+          "move_memory",
+          "duplicate_memory",
+          "trash_memory",
+          "restore_memory",
+          "search_memory",
+          "common_memory",
+          "context_delivery",
+          "context_status",
+          "context_projection",
+          "decision_timeline",
+          "ask_memory"
+        ]
+      }
+    ]
+  },
+  "serverId": "dev.docmancer/docmancer",
+  "slug": "dev.docmancer__docmancer"
+}

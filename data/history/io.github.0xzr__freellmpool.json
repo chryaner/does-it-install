@@ -1,0 +1,60 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "free_llm_ask",
+          "free_llm_panel",
+          "tokenmax",
+          "free_llm_route",
+          "free_llm_models",
+          "free_llm_quota",
+          "free_llm_stats"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "free_llm_ask",
+          "free_llm_panel",
+          "tokenmax",
+          "free_llm_route",
+          "free_llm_models",
+          "free_llm_quota",
+          "free_llm_stats"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "free_llm_ask",
+          "free_llm_panel",
+          "tokenmax",
+          "free_llm_route",
+          "free_llm_models",
+          "free_llm_quota",
+          "free_llm_stats"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.0xzr/freellmpool",
+  "slug": "io.github.0xzr__freellmpool"
+}

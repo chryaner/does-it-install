@@ -1,0 +1,51 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 7689,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "analyze_image",
+          "describe_image",
+          "get_vision_status"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 5525,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "analyze_image",
+          "describe_image",
+          "get_vision_status"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 123220,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "analyze_image",
+          "describe_image",
+          "get_vision_status"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.nirholas/vision-mcp",
+  "slug": "io.github.nirholas__vision-mcp"
+}

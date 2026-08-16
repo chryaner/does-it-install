@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n2026-08-16 02:58:08 - canvas_mcp - ERROR - CANVAS_API_TOKEN environment variable is required\n2026-08-16 02:58:08 - canvas_mcp - ERROR - Please set CANVAS_API_TOKEN in your .env file\n2026-08-16 02:58:08 - canvas_mcp - ERROR - Please check your .env file configuration\n2026-08-16 02:58:08 - canvas_mcp - ERROR - Use the env.template file as a reference",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n2026-08-16 02:55:01 - canvas_mcp - ERROR - CANVAS_API_TOKEN environment variable is required\n2026-08-16 02:55:01 - canvas_mcp - ERROR - Please set CANVAS_API_TOKEN in your .env file\n2026-08-16 02:55:01 - canvas_mcp - ERROR - Please check your .env file configuration\n2026-08-16 02:55:01 - canvas_mcp - ERROR - Use the env.template file as a reference",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n2026-08-16 04:11:26 - canvas_mcp - ERROR - CANVAS_API_TOKEN environment variable is required\r\n2026-08-16 04:11:26 - canvas_mcp - ERROR - Please set CANVAS_API_TOKEN in your .env file\r\n2026-08-16 04:11:26 - canvas_mcp - ERROR - Please check your .env file configuration\r\n2026-08-16 04:11:26 - canvas_mcp - ERROR - Use the env.template file as a reference",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.vishalsachdev/canvas-mcp",
+  "slug": "io.github.vishalsachdev__canvas-mcp"
+}

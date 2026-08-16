@@ -1,0 +1,99 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 3830,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "create_shipment",
+          "get_shipment",
+          "track_shipment",
+          "get_rates",
+          "list_cities",
+          "create_pickup",
+          "get_coverage",
+          "cancel_shipment",
+          "get_guia_pdf",
+          "get_pickup",
+          "cancel_pickup",
+          "get_tracking_history",
+          "list_shipments_by_date",
+          "validate_coverage",
+          "list_services",
+          "list_offices",
+          "create_return",
+          "list_returns",
+          "create_bulk_guias"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 3215,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "create_shipment",
+          "get_shipment",
+          "track_shipment",
+          "get_rates",
+          "list_cities",
+          "create_pickup",
+          "get_coverage",
+          "cancel_shipment",
+          "get_guia_pdf",
+          "get_pickup",
+          "cancel_pickup",
+          "get_tracking_history",
+          "list_shipments_by_date",
+          "validate_coverage",
+          "list_services",
+          "list_offices",
+          "create_return",
+          "list_returns",
+          "create_bulk_guias"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 132505,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "create_shipment",
+          "get_shipment",
+          "track_shipment",
+          "get_rates",
+          "list_cities",
+          "create_pickup",
+          "get_coverage",
+          "cancel_shipment",
+          "get_guia_pdf",
+          "get_pickup",
+          "cancel_pickup",
+          "get_tracking_history",
+          "list_shipments_by_date",
+          "validate_coverage",
+          "list_services",
+          "list_offices",
+          "create_return",
+          "list_returns",
+          "create_bulk_guias"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-coordinadora",
+  "slug": "io.github.codespar__mcp-coordinadora"
+}

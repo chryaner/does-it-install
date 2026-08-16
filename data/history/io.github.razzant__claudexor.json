@@ -1,0 +1,93 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 12429,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "claudexor_ask",
+          "claudexor_run",
+          "claudexor_best_of",
+          "claudexor_plan",
+          "claudexor_create",
+          "claudexor_status",
+          "claudexor_capabilities",
+          "claudexor_runs",
+          "claudexor_inspect",
+          "claudexor_run_status",
+          "claudexor_run_result",
+          "claudexor_run_cancel",
+          "claudexor_run_interactions",
+          "claudexor_answer_interaction",
+          "claudexor_apply_check",
+          "claudexor_journal_recovery",
+          "claudexor_quarantine_journal"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 7358,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "claudexor_ask",
+          "claudexor_run",
+          "claudexor_best_of",
+          "claudexor_plan",
+          "claudexor_create",
+          "claudexor_status",
+          "claudexor_capabilities",
+          "claudexor_runs",
+          "claudexor_inspect",
+          "claudexor_run_status",
+          "claudexor_run_result",
+          "claudexor_run_cancel",
+          "claudexor_run_interactions",
+          "claudexor_answer_interaction",
+          "claudexor_apply_check",
+          "claudexor_journal_recovery",
+          "claudexor_quarantine_journal"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 314871,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "claudexor_ask",
+          "claudexor_run",
+          "claudexor_best_of",
+          "claudexor_plan",
+          "claudexor_create",
+          "claudexor_status",
+          "claudexor_capabilities",
+          "claudexor_runs",
+          "claudexor_inspect",
+          "claudexor_run_status",
+          "claudexor_run_result",
+          "claudexor_run_cancel",
+          "claudexor_run_interactions",
+          "claudexor_answer_interaction",
+          "claudexor_apply_check",
+          "claudexor_journal_recovery",
+          "claudexor_quarantine_journal"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.razzant/claudexor",
+  "slug": "io.github.razzant__claudexor"
+}

@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: Unexpected token 'E', \"Error:  MC\"... is not valid JSON\n--- stderr (tail) ---\nBuilding linear-tsv==1.1.0\n   Building asn1tools==0.167.0\n   Building unicodecsv==0.14.1\n      Built unicodecsv==0.14.1\n      Built linear-tsv==1.1.0\n      Built asn1tools==0.167.0\n   Building pyiceberg==0.11.1\n      Built pyiceberg==0.11.1\nInstalled 74 packages in 926ms",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: Unexpected token 'E', \"Error:  MC\"... is not valid JSON\n--- stderr (tail) ---\nBuilding unicodecsv==0.14.1\n   Building asn1tools==0.167.0\n   Building linear-tsv==1.1.0\nDownloading sqlalchemy (3.2MiB)\nDownloading pyroaring (2.1MiB)\n      Built linear-tsv==1.1.0\n Downloaded pyroaring\n      Built asn1tools==0.167.0\n      Built unicodecsv==0.14.1\n Downloaded sqlalchemy\nInstalled 75 packages in 140ms",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: Unexpected token 'E', \"Error:  MC\"... is not valid JSON\n--- stderr (tail) ---\nBuilding asn1tools==0.167.0\n   Building unicodecsv==0.14.1\n   Building linear-tsv==1.1.0\n      Built linear-tsv==1.1.0\n      Built unicodecsv==0.14.1\n      Built asn1tools==0.167.0\nInstalled 78 packages in 21.14s",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.clemensv/avrotize",
+  "slug": "io.github.clemensv__avrotize"
+}

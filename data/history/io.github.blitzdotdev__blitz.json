@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nBlitz.app not found. Install from: https://github.com/blitzdotdev/blitz-mac/releases",
+        "installMs": 1424,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nBlitz.app not found. Install from: https://github.com/blitzdotdev/blitz-mac/releases",
+        "installMs": 981,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nBlitz.app not found. Install from: https://github.com/blitzdotdev/blitz-mac/releases",
+        "installMs": 1899,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.blitzdotdev/blitz",
+  "slug": "io.github.blitzdotdev__blitz"
+}

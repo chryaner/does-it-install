@@ -1,0 +1,54 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 4119,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "get_security_token",
+          "create_session_token",
+          "authorize_transaction",
+          "reverse_transaction"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 2918,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "get_security_token",
+          "create_session_token",
+          "authorize_transaction",
+          "reverse_transaction"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 135323,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "get_security_token",
+          "create_session_token",
+          "authorize_transaction",
+          "reverse_transaction"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-niubiz",
+  "slug": "io.github.codespar__mcp-niubiz"
+}

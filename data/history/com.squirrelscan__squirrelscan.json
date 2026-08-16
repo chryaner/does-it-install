@@ -1,0 +1,93 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "method": "remote-http",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "run_audit",
+          "get_audit_status",
+          "list_audits",
+          "list_websites",
+          "add_website",
+          "delete_website",
+          "delete_websites",
+          "get_report",
+          "list_issues",
+          "get_issue",
+          "comment_on_issue",
+          "list_rules",
+          "get_rule",
+          "whoami",
+          "get_credit_balance",
+          "list_credit_transactions",
+          "create_api_key",
+          "send_feedback"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "method": "remote-http",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "run_audit",
+          "get_audit_status",
+          "list_audits",
+          "list_websites",
+          "add_website",
+          "delete_website",
+          "delete_websites",
+          "get_report",
+          "list_issues",
+          "get_issue",
+          "comment_on_issue",
+          "list_rules",
+          "get_rule",
+          "whoami",
+          "get_credit_balance",
+          "list_credit_transactions",
+          "create_api_key",
+          "send_feedback"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "method": "remote-http",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "run_audit",
+          "get_audit_status",
+          "list_audits",
+          "list_websites",
+          "add_website",
+          "delete_website",
+          "delete_websites",
+          "get_report",
+          "list_issues",
+          "get_issue",
+          "comment_on_issue",
+          "list_rules",
+          "get_rule",
+          "whoami",
+          "get_credit_balance",
+          "list_credit_transactions",
+          "create_api_key",
+          "send_feedback"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.squirrelscan/squirrelscan",
+  "slug": "com.squirrelscan__squirrelscan"
+}

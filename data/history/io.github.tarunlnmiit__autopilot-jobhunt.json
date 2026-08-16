@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 26 packages in 803ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/EEibKpHfMqmVKb0v/lib/python3.14/site-packages/job_hunt/mcp_server.py\", line 19, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp'\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/EEibKpHfMqmVKb0v/bin/autopilot-jobhunt\", line 12, in <module>\n    sys.exit(main())\n             ~~~~^^\n  File \"/Users/runner/.cache/uv/archive-v0/EEibKpHfMqmVKb0v/lib/python3.14/site-packages/job_hunt/main.py\", line 243, in main\n    from job_hunt.mcp_server import mcp\n  File \"/Users/runner/.cache/uv/archive-v0/EEibKpHfMqmVKb0v/lib/python3.14/site-packages/job_hunt/mcp_server.py\", line 22, in <module>\n    raise ImportError(\n    ...<2 lines>...\n    )\nImportError: MCP SDK not installed. Run: pip install 'autopilot-jobs[mcp]'\nOr: pip install mcp",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 26 packages in 106ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/eL5OTjQwjT_F4Wfh/lib/python3.13/site-packages/job_hunt/mcp_server.py\", line 19, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp'\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/eL5OTjQwjT_F4Wfh/bin/autopilot-jobhunt\", line 12, in <module>\n    sys.exit(main())\n             ~~~~^^\n  File \"/home/runner/.cache/uv/archive-v0/eL5OTjQwjT_F4Wfh/lib/python3.13/site-packages/job_hunt/main.py\", line 243, in main\n    from job_hunt.mcp_server import mcp\n  File \"/home/runner/.cache/uv/archive-v0/eL5OTjQwjT_F4Wfh/lib/python3.13/site-packages/job_hunt/mcp_server.py\", line 22, in <module>\n    raise ImportError(\n    ...<2 lines>...\n    )\nImportError: MCP SDK not installed. Run: pip install 'autopilot-jobs[mcp]'\nOr: pip install mcp",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 27 packages in 11.34s\nTraceback (most recent call last):\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\d9CL022-HZ3LZIZt\\Lib\\site-packages\\job_hunt\\mcp_server.py\", line 19, in <module>\r\n    from mcp.server.fastmcp import FastMCP\r\nModuleNotFoundError: No module named 'mcp'\r\n\r\nDuring handling of the above exception, another exception occurred:\r\n\r\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\d9CL022-HZ3LZIZt\\Scripts\\autopilot-jobhunt.exe\\__main__.py\", line 10, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\d9CL022-HZ3LZIZt\\Lib\\site-packages\\job_hunt\\main.py\", line 243, in main\r\n    from job_hunt.mcp_server import mcp\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\d9CL022-HZ3LZIZt\\Lib\\site-packages\\job_hunt\\mcp_server.py\", line 22, in <module>\r\n    raise ImportError(\r\nImportError: MCP SDK not installed. Run: pip install 'autopilot-jobs[mcp]'\r\nOr: pip install mcp",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.tarunlnmiit/autopilot-jobhunt",
+  "slug": "io.github.tarunlnmiit__autopilot-jobhunt"
+}

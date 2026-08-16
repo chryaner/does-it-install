@@ -1,0 +1,57 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 3174,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "list_alert_rules",
+          "create_alert_rule",
+          "update_alert_rule",
+          "delete_alert_rule",
+          "get_alert_history"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 3281,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "list_alert_rules",
+          "create_alert_rule",
+          "update_alert_rule",
+          "delete_alert_rule",
+          "get_alert_history"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 114961,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "list_alert_rules",
+          "create_alert_rule",
+          "update_alert_rule",
+          "delete_alert_rule",
+          "get_alert_history"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.nirholas/alerts-mcp",
+  "slug": "io.github.nirholas__alerts-mcp"
+}

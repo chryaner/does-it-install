@@ -1,0 +1,102 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 7036,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "ckan_package_search",
+          "ckan_find_relevant_datasets",
+          "ckan_package_show",
+          "ckan_list_resources",
+          "ckan_organization_list",
+          "ckan_organization_show",
+          "ckan_organization_search",
+          "ckan_datastore_search",
+          "ckan_datastore_search_sql",
+          "ckan_status_show",
+          "ckan_tag_list",
+          "ckan_group_list",
+          "ckan_group_show",
+          "ckan_group_search",
+          "ckan_get_mqa_quality",
+          "ckan_get_mqa_quality_details",
+          "ckan_analyze_datasets",
+          "ckan_catalog_stats",
+          "sparql_query",
+          "ckan_find_portals"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 4484,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "ckan_package_search",
+          "ckan_find_relevant_datasets",
+          "ckan_package_show",
+          "ckan_list_resources",
+          "ckan_organization_list",
+          "ckan_organization_show",
+          "ckan_organization_search",
+          "ckan_datastore_search",
+          "ckan_datastore_search_sql",
+          "ckan_status_show",
+          "ckan_tag_list",
+          "ckan_group_list",
+          "ckan_group_show",
+          "ckan_group_search",
+          "ckan_get_mqa_quality",
+          "ckan_get_mqa_quality_details",
+          "ckan_analyze_datasets",
+          "ckan_catalog_stats",
+          "sparql_query",
+          "ckan_find_portals"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 175740,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "ckan_package_search",
+          "ckan_find_relevant_datasets",
+          "ckan_package_show",
+          "ckan_list_resources",
+          "ckan_organization_list",
+          "ckan_organization_show",
+          "ckan_organization_search",
+          "ckan_datastore_search",
+          "ckan_datastore_search_sql",
+          "ckan_status_show",
+          "ckan_tag_list",
+          "ckan_group_list",
+          "ckan_group_show",
+          "ckan_group_search",
+          "ckan_get_mqa_quality",
+          "ckan_get_mqa_quality_details",
+          "ckan_analyze_datasets",
+          "ckan_catalog_stats",
+          "sparql_query",
+          "ckan_find_portals"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.aborruso/ckan-mcp-server",
+  "slug": "io.github.aborruso__ckan-mcp-server"
+}

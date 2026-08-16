@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: pected token '│', \"│ cluster \"... is not valid JSON\nUnexpected token '│', \"│ scan    \"... is not valid JSON\nUnexpected token '│', \"│ daemon  \"... is not valid JSON\nUnexpected token '│', \"│ plan    \"... is not valid JSON\nUnexpected token '│', \"│ mcp-conf\"... is not valid JSON\nUnexpected token '│', \"│ alarm   \"... is not valid JSON\nUnexpected token '│', \"│ hub     \"... is not valid JSON\nUnexpected token '│', \"│ investig\"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON\n--- stderr (tail) ---\nInstalled 44 packages in 489ms",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: pected token '│', \"│ cluster \"... is not valid JSON\nUnexpected token '│', \"│ scan    \"... is not valid JSON\nUnexpected token '│', \"│ daemon  \"... is not valid JSON\nUnexpected token '│', \"│ plan    \"... is not valid JSON\nUnexpected token '│', \"│ mcp-conf\"... is not valid JSON\nUnexpected token '│', \"│ alarm   \"... is not valid JSON\nUnexpected token '│', \"│ hub     \"... is not valid JSON\nUnexpected token '│', \"│ investig\"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON\n--- stderr (tail) ---\nInstalled 44 packages in 58ms",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: pected token '|', \"| init    \"... is not valid JSON\nUnexpected token '|', \"|         \"... is not valid JSON\nUnexpected token '|', \"| mcp     \"... is not valid JSON\nUnexpected token '|', \"| vm      \"... is not valid JSON\nUnexpected token '|', \"| deploy  \"... is not valid JSON\nUnexpected token '|', \"| datastor\"... is not valid JSON\nUnexpected token '|', \"| cluster \"... is not valid JSON\nUnexpected token '|', \"| scan    \"... is not valid JSON\nUnexpected token '|', \"| daemon  \"... is not valid JSON\n--- stderr (tail) ---\n…Term(self.file))                                        |\r\n|   2088                         else:                                        |\r\n|   2089                             # Either a non-std stream on legacy      |\r\n|        Windows, or modern Windows.                                          |\r\n|   2090                             text =                                   |\r\n|        self._render_buffer(self._buffer[:])                                 |\r\n|                                                                             |\r\n| C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\Ye49QnGr4WWR22YB\\Lib |\r\n| \\site-packages\\rich\\_windows_renderer.py:19 in legacy_windows_render        |\r\n|                                                                             |\r\n|   16             if style:                                                  |\r\n|   17                 term.write_styled(text, style)                         |\r\n|   18             else:                                                      |\r\n| > 19                 term.write_text(text)                                  |\r\n|   20         else:                                                          |\r\n|   21             control_codes: Sequence[ControlCode] = control             |\r\n|   22             for control_code in control_codes:                         |\r\n|                                                                             |\r\n| C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\Ye49QnGr4WWR22YB\\Lib |\r\n| \\site-packages\\rich\\_win32_console.py:402 in write_text                     |\r\n|                                                                             |\r\n|   399         Args:                                                         |\r\n|   400             text (str): The text to write to the console              |\r\n|   401         \"\"\"                                                           |\r\n| > 402         self.write(text)                                              |\r\n|   403         self.flush()                                                  |\r\n|   404                                                                       |\r\n|   405     def write_styled(self, text: str, style: Style) -> None:          |\r\n|                                                                             |\r\n| C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\encodings\\cp1252.py:19 in |\r\n| encode                                                                      |\r\n|                                                                             |\r\n|    16                                                                       |\r\n|    17 class IncrementalEncoder(codecs.IncrementalEncoder):                  |\r\n|    18     def encode(self, input, final=False):                             |\r\n| >  19         return                                                        |\r\n|       codecs.charmap_encode(input,self.errors,encoding_table)[0]            |\r\n|    20                                                                       |\r\n|    21 class IncrementalDecoder(codecs.IncrementalDecoder):                  |\r\n|    22     def decode(self, input, final=False):                             |\r\n+-----------------------------------------------------------------------------+\r\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u2192' in position\r\n5: character maps to <undefined>",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.vmware-skills/vmware-aiops",
+  "slug": "io.github.vmware-skills__vmware-aiops"
+}

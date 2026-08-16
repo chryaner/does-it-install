@@ -1,0 +1,57 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 8494,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "figma_status",
+          "figma_write",
+          "figma_read",
+          "figma_docs",
+          "figma_rules"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 3378,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "figma_status",
+          "figma_write",
+          "figma_read",
+          "figma_docs",
+          "figma_rules"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 168330,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "figma_status",
+          "figma_write",
+          "figma_read",
+          "figma_docs",
+          "figma_rules"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.TranHoaiHung/figma-ui-mcp",
+  "slug": "io.github.tranhoaihung__figma-ui-mcp"
+}

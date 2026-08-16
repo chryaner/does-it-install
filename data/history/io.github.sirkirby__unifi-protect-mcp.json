@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nBuilding antlr4-python3-runtime==4.9.3\nDownloading av (17.4MiB)\n      Built antlr4-python3-runtime==4.9.3\n Downloaded av\nInstalled 59 packages in 560ms\nwarning: `unifi-protect-mcp==0.1.6` is yanked (reason: \"Broken dependency metadata (unpinned shared/core dep); install fails. Use @latest.\")\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/6pNVKAXsCRLQzCoI/bin/unifi-protect-mcp\", line 6, in <module>\n    from unifi_protect_mcp.main import main\n  File \"/Users/runner/.cache/uv/archive-v0/6pNVKAXsCRLQzCoI/lib/python3.14/site-packages/unifi_protect_mcp/main.py\", line 11, in <module>\n    from unifi_protect_mcp.bootstrap import (\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n    )  # ensures logging/env setup early\n    ^\n  File \"/Users/runner/.cache/uv/archive-v0/6pNVKAXsCRLQzCoI/lib/python3.14/site-packages/unifi_protect_mcp/bootstrap.py\", line 24, in <module>\n    from unifi_mcp_shared.config import load_yaml_config  # noqa: F401 -- re-export for convenience\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nModuleNotFoundError: No module named 'unifi_mcp_shared.config'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nBuilding antlr4-python3-runtime==4.9.3\nDownloading av (34.1MiB)\n      Built antlr4-python3-runtime==4.9.3\n Downloaded av\nInstalled 59 packages in 431ms\nwarning: `unifi-protect-mcp==0.1.6` is yanked (reason: \"Broken dependency metadata (unpinned shared/core dep); install fails. Use @latest.\")\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/bqy7HqiLkA1amGkc/bin/unifi-protect-mcp\", line 6, in <module>\n    from unifi_protect_mcp.main import main\n  File \"/home/runner/.cache/uv/archive-v0/bqy7HqiLkA1amGkc/lib/python3.13/site-packages/unifi_protect_mcp/main.py\", line 11, in <module>\n    from unifi_protect_mcp.bootstrap import (\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n    )  # ensures logging/env setup early\n    ^\n  File \"/home/runner/.cache/uv/archive-v0/bqy7HqiLkA1amGkc/lib/python3.13/site-packages/unifi_protect_mcp/bootstrap.py\", line 24, in <module>\n    from unifi_mcp_shared.config import load_yaml_config  # noqa: F401 -- re-export for convenience\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nModuleNotFoundError: No module named 'unifi_mcp_shared.config'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nBuilding antlr4-python3-runtime==4.9.3\nDownloading av (26.3MiB)\n      Built antlr4-python3-runtime==4.9.3\n Downloaded av\nInstalled 61 packages in 14.23s\nwarning: `unifi-protect-mcp==0.1.6` is yanked (reason: \"Broken dependency metadata (unpinned shared/core dep); install fails. Use @latest.\")\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 203, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\4mEy6LhlnbLUEhMN\\Scripts\\unifi-protect-mcp.exe\\__main__.py\", line 4, in <module>\r\n    from unifi_protect_mcp.main import main\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\4mEy6LhlnbLUEhMN\\Lib\\site-packages\\unifi_protect_mcp\\main.py\", line 11, in <module>\r\n    from unifi_protect_mcp.bootstrap import (\r\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n    ...<2 lines>...\r\n    )  # ensures logging/env setup early\r\n    ^\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\4mEy6LhlnbLUEhMN\\Lib\\site-packages\\unifi_protect_mcp\\bootstrap.py\", line 24, in <module>\r\n    from unifi_mcp_shared.config import load_yaml_config  # noqa: F401 -- re-export for convenience\r\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nModuleNotFoundError: No module named 'unifi_mcp_shared.config'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "io.github.sirkirby/unifi-protect-mcp",
+  "slug": "io.github.sirkirby__unifi-protect-mcp"
+}

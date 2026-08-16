@@ -1,0 +1,66 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 6691,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "get-services-list",
+          "get-documentation",
+          "get-documentation-section-content",
+          "get-documentation-page",
+          "get-oauth10a-integration-guide",
+          "get-openfinance-integration-guide",
+          "get-api-operation-list",
+          "get-api-operation-details"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 4709,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "get-services-list",
+          "get-documentation",
+          "get-documentation-section-content",
+          "get-documentation-page",
+          "get-oauth10a-integration-guide",
+          "get-openfinance-integration-guide",
+          "get-api-operation-list",
+          "get-api-operation-details"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 43018,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "get-services-list",
+          "get-documentation",
+          "get-documentation-section-content",
+          "get-documentation-page",
+          "get-oauth10a-integration-guide",
+          "get-openfinance-integration-guide",
+          "get-api-operation-list",
+          "get-api-operation-details"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.Mastercard/developers-mcp",
+  "slug": "io.github.mastercard__developers-mcp"
+}

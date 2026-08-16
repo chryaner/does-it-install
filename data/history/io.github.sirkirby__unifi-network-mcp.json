@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nBuilding antlr4-python3-runtime==4.9.3\n      Built antlr4-python3-runtime==4.9.3\nInstalled 53 packages in 184ms\nwarning: `unifi-network-mcp==0.7.8` is yanked (reason: \"Broken dependency metadata (unpinned shared/core dep); install fails. Use @latest.\")\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/T3aj3--fJwS6JKQA/bin/unifi-network-mcp\", line 6, in <module>\n    from unifi_network_mcp.main import main\n  File \"/Users/runner/.cache/uv/archive-v0/T3aj3--fJwS6JKQA/lib/python3.14/site-packages/unifi_network_mcp/main.py\", line 11, in <module>\n    from unifi_network_mcp.bootstrap import (\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n    )  # ensures logging/env setup early\n    ^\n  File \"/Users/runner/.cache/uv/archive-v0/T3aj3--fJwS6JKQA/lib/python3.14/site-packages/unifi_network_mcp/bootstrap.py\", line 23, in <module>\n    from unifi_mcp_shared.config import load_yaml_config  # noqa: F401 — re-export for convenience\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nModuleNotFoundError: No module named 'unifi_mcp_shared.config'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading cpython-3.13.15-linux-x86_64-gnu (download) (33.2MiB)\n Downloaded cpython-3.13.15-linux-x86_64-gnu (download)\n   Building antlr4-python3-runtime==4.9.3\nDownloading aiohttp (1.7MiB)\nDownloading pydantic-core (2.0MiB)\n Downloaded pydantic-core\n Downloaded aiohttp\n      Built antlr4-python3-runtime==4.9.3\nInstalled 53 packages in 22ms\nwarning: `unifi-network-mcp==0.7.8` is yanked (reason: \"Broken dependency metadata (unpinned shared/core dep); install fails. Use @latest.\")\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/GF5gdMFNOAajpdh7/bin/unifi-network-mcp\", line 6, in <module>\n    from unifi_network_mcp.main import main\n  File \"/home/runner/.cache/uv/archive-v0/GF5gdMFNOAajpdh7/lib/python3.13/site-packages/unifi_network_mcp/main.py\", line 11, in <module>\n    from unifi_network_mcp.bootstrap import (\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n    )  # ensures logging/env setup early\n    ^\n  File \"/home/runner/.cache/uv/archive-v0/GF5gdMFNOAajpdh7/lib/python3.13/site-packages/unifi_network_mcp/bootstrap.py\", line 23, in <module>\n    from unifi_mcp_shared.config import load_yaml_config  # noqa: F401 — re-export for convenience\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nModuleNotFoundError: No module named 'unifi_mcp_shared.config'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nBuilding antlr4-python3-runtime==4.9.3\nDownloading pydantic-core (2.0MiB)\nDownloading pywin32 (6.6MiB)\n Downloaded pydantic-core\n      Built antlr4-python3-runtime==4.9.3\n Downloaded pywin32\nInstalled 55 packages in 5.33s\nwarning: `unifi-network-mcp==0.7.8` is yanked (reason: \"Broken dependency metadata (unpinned shared/core dep); install fails. Use @latest.\")\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 203, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\-_IAPMgxiHv2eTuc\\Scripts\\unifi-network-mcp.exe\\__main__.py\", line 4, in <module>\r\n    from unifi_network_mcp.main import main\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\-_IAPMgxiHv2eTuc\\Lib\\site-packages\\unifi_network_mcp\\main.py\", line 11, in <module>\r\n    from unifi_network_mcp.bootstrap import (\r\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n    ...<2 lines>...\r\n    )  # ensures logging/env setup early\r\n    ^\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\-_IAPMgxiHv2eTuc\\Lib\\site-packages\\unifi_network_mcp\\bootstrap.py\", line 23, in <module>\r\n    from unifi_mcp_shared.config import load_yaml_config  # noqa: F401 � re-export for convenience\r\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nModuleNotFoundError: No module named 'unifi_mcp_shared.config'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "io.github.sirkirby/unifi-network-mcp",
+  "slug": "io.github.sirkirby__unifi-network-mcp"
+}

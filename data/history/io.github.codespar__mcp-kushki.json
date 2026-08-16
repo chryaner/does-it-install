@@ -1,0 +1,72 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 8801,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "tokenize_card",
+          "create_charge",
+          "create_preauthorization",
+          "capture_preauthorization",
+          "void_charge",
+          "create_transfer_token",
+          "create_transfer_charge",
+          "create_cash_charge",
+          "create_subscription",
+          "cancel_subscription"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 4170,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "tokenize_card",
+          "create_charge",
+          "create_preauthorization",
+          "capture_preauthorization",
+          "void_charge",
+          "create_transfer_token",
+          "create_transfer_charge",
+          "create_cash_charge",
+          "create_subscription",
+          "cancel_subscription"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 171322,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "tokenize_card",
+          "create_charge",
+          "create_preauthorization",
+          "capture_preauthorization",
+          "void_charge",
+          "create_transfer_token",
+          "create_transfer_charge",
+          "create_cash_charge",
+          "create_subscription",
+          "cancel_subscription"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-kushki",
+  "slug": "io.github.codespar__mcp-kushki"
+}

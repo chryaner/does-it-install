@@ -1,0 +1,42 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "load_ditto_profile"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "load_ditto_profile"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "load_ditto_profile"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.ohad6k/ditto",
+  "slug": "io.github.ohad6k__ditto"
+}

@@ -1,0 +1,102 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 8052,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "authorize_credit",
+          "capture_credit",
+          "cancel_credit",
+          "refund_credit",
+          "create_pix",
+          "create_boleto",
+          "get_payment",
+          "tokenize_card",
+          "create_seller",
+          "get_seller",
+          "list_sellers",
+          "cancel_debit",
+          "query_pix",
+          "query_boleto",
+          "cancel_boleto",
+          "get_payment_by_order",
+          "query_installments",
+          "create_numtoken",
+          "create_split",
+          "get_statement"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 4316,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "authorize_credit",
+          "capture_credit",
+          "cancel_credit",
+          "refund_credit",
+          "create_pix",
+          "create_boleto",
+          "get_payment",
+          "tokenize_card",
+          "create_seller",
+          "get_seller",
+          "list_sellers",
+          "cancel_debit",
+          "query_pix",
+          "query_boleto",
+          "cancel_boleto",
+          "get_payment_by_order",
+          "query_installments",
+          "create_numtoken",
+          "create_split",
+          "get_statement"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 183238,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "authorize_credit",
+          "capture_credit",
+          "cancel_credit",
+          "refund_credit",
+          "create_pix",
+          "create_boleto",
+          "get_payment",
+          "tokenize_card",
+          "create_seller",
+          "get_seller",
+          "list_sellers",
+          "cancel_debit",
+          "query_pix",
+          "query_boleto",
+          "cancel_boleto",
+          "get_payment_by_order",
+          "query_installments",
+          "create_numtoken",
+          "create_split",
+          "get_statement"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-getnet",
+  "slug": "io.github.codespar__mcp-getnet"
+}

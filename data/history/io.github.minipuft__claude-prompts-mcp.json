@@ -1,0 +1,46 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 10451,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "prompt_engine",
+          "system_control",
+          "resource_manager"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 7665,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "prompt_engine",
+          "system_control",
+          "resource_manager"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\nDEBUG: Starting  - Core Foundation...\n(node:5512) ExperimentalWarning: SQLite is an experimental feature and might change at any time\n(Use `node --trace-warnings ...` to show where the warning was created)\nDEBUG: McpServer created successfully\nDEBUG: HookRegistry and McpNotificationEmitter initialized\nDEBUG: TelemetryLifecycle initialized\nDEBUG: initializeFoundation completed successfully\nDEBUG:  completed successfully\nDEBUG: Starting  - Data Loading and Processing...\nDEBUG:  completed successfully\nDEBUG: Starting - Module Initialization...",
+        "installMs": 373614,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "io.github.minipuft/claude-prompts-mcp",
+  "slug": "io.github.minipuft__claude-prompts-mcp"
+}

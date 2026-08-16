@@ -1,0 +1,54 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 3095,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "docs",
+          "onelake",
+          "core",
+          "datafactory"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 2460,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "docs",
+          "onelake",
+          "core",
+          "datafactory"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 5629,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "docs",
+          "onelake",
+          "core",
+          "datafactory"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.microsoft/microsoft-fabric",
+  "slug": "com.microsoft__microsoft-fabric"
+}

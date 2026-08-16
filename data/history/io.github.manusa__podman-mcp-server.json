@@ -1,0 +1,51 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\npanic: no podman implementation available: api (not available), cli (not available)\n\ngoroutine 1 [running]:\ngithub.com/manusa/podman-mcp-server/pkg/podman-mcp-server/cmd.init.func1(0x103b54400, {0x102e1fd1d?, 0x4?, 0x102e1fd21?})\n\t/Users/runner/work/podman-mcp-server/podman-mcp-server/pkg/podman-mcp-server/cmd/root.go:62 +0x720\ngithub.com/spf13/cobra.(*Command).execute(0x103b54400, {0x14000128040, 0x0, 0x0})\n\t/Users/runner/go/pkg/mod/github.com/spf13/cobra@v1.10.2/command.go:1019 +0x7bc\ngithub.com/spf13/cobra.(*Command).ExecuteC(0x103b54400)\n\t/Users/runner/go/pkg/mod/github.com/spf13/cobra@v1.10.2/command.go:1148 +0x350\ngithub.com/spf13/cobra.(*Command).Execute(...)\n\t/Users/runner/go/pkg/mod/github.com/spf13/cobra@v1.10.2/command.go:1071\ngithub.com/manusa/podman-mcp-server/pkg/podman-mcp-server/cmd.Execute(...)\n\t/Users/runner/work/podman-mcp-server/podman-mcp-server/pkg/podman-mcp-server/cmd/root.go:117\nmain.main()\n\t/Users/runner/work/podman-mcp-server/podman-mcp-server/cmd/podman-mcp-server/main.go:6 +0x28",
+        "installMs": 3809,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 1519,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "container_inspect",
+          "container_list",
+          "container_logs",
+          "container_remove",
+          "container_run",
+          "container_stop",
+          "image_build",
+          "image_list",
+          "image_pull",
+          "image_push",
+          "image_remove",
+          "network_list",
+          "volume_list"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\npanic: no podman implementation available: api (not available), cli (not available)\n\ngoroutine 1 [running]:\ngithub.com/manusa/podman-mcp-server/pkg/podman-mcp-server/cmd.init.func1(0x7ff6f428a520, {0x7ff6f3816277?, 0x4?, 0x7ff6f381627b?})\n\t/Users/runner/work/podman-mcp-server/podman-mcp-server/pkg/podman-mcp-server/cmd/root.go:62 +0x865\ngithub.com/spf13/cobra.(*Command).execute(0x7ff6f428a520, {0xc000192010, 0x0, 0x0})\n\t/Users/runner/go/pkg/mod/github.com/spf13/cobra@v1.10.2/command.go:1019 +0xae7\ngithub.com/spf13/cobra.(*Command).ExecuteC(0x7ff6f428a520)\n\t/Users/runner/go/pkg/mod/github.com/spf13/cobra@v1.10.2/command.go:1148 +0x465\ngithub.com/spf13/cobra.(*Command).Execute(...)\n\t/Users/runner/go/pkg/mod/github.com/spf13/cobra@v1.10.2/command.go:1071\ngithub.com/manusa/podman-mcp-server/pkg/podman-mcp-server/cmd.Execute(...)\n\t/Users/runner/work/podman-mcp-server/podman-mcp-server/pkg/podman-mcp-server/cmd/root.go:117\nmain.main()\n\t/Users/runner/work/podman-mcp-server/podman-mcp-server/cmd/podman-mcp-server/main.go:6 +0x1b",
+        "installMs": 2551,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.manusa/podman-mcp-server",
+  "slug": "io.github.manusa__podman-mcp-server"
+}

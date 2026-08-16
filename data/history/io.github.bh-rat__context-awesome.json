@@ -1,0 +1,26 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: context-awesome [options] [command]\n\nCLI for querying curated awesome-list context\n\nOptions:\n  -V, --version                  output the version number\n  -h, --help                     display help for command\n\nCommands:\n  sections [options] <query...>  Find awesome-list sections matching the query\n  search [options] <query...>    Search awesome-list items\n  items [options] <target>       Fetch items from a list by githubRepo\n                                 (owner/repo) or UUID listId\n  help [command]                 display help for command\n\nExamples:\n  # Find sections in awesome lists by topic\n  context-awesome sections \"graph databases\"\n  context-awesome sections \"machine learning\" --limit 5\n\n  # Search items across all lists\n  context-awesome search \"postgres ORM\"\n  context-awesome search \"redis\" --sort stars\n\n  # Fetch items from a specific list (owner/repo or UUID listId)\n  context-awesome items sindresorhus/awesome\n  context-awesome items sindresorhus/awesome --section Testing\n\n  # Output JSON for scripting\n  context-awesome search \"redis\" --json",
+        "installMs": 5139,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: context-awesome [options] [command]\n\nCLI for querying curated awesome-list context\n\nOptions:\n  -V, --version                  output the version number\n  -h, --help                     display help for command\n\nCommands:\n  sections [options] <query...>  Find awesome-list sections matching the query\n  search [options] <query...>    Search awesome-list items\n  items [options] <target>       Fetch items from a list by githubRepo\n                                 (owner/repo) or UUID listId\n  help [command]                 display help for command\n\nExamples:\n  # Find sections in awesome lists by topic\n  context-awesome sections \"graph databases\"\n  context-awesome sections \"machine learning\" --limit 5\n\n  # Search items across all lists\n  context-awesome search \"postgres ORM\"\n  context-awesome search \"redis\" --sort stars\n\n  # Fetch items from a specific list (owner/repo or UUID listId)\n  context-awesome items sindresorhus/awesome\n  context-awesome items sindresorhus/awesome --section Testing\n\n  # Output JSON for scripting\n  context-awesome search \"redis\" --json",
+        "installMs": 3702,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.bh-rat/context-awesome",
+  "slug": "io.github.bh-rat__context-awesome"
+}

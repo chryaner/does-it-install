@@ -1,0 +1,26 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "skipped"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "listTools failed: [\n  {\n    \"code\": \"custom\",\n    \"path\": [\n      \"tools\",\n      36,\n      \"outputSchema\",\n      \"properties\",\n      \"outputs\"\n    ],\n    \"message\": \"Invalid input\"\n  }\n]\n--- stderr (tail) ---\n\u001b[2m2026-08-16T02:57:54.131827Z\u001b[0m \u001b[32m INFO\u001b[0m \u001b[2mspreadsheet_mcp\u001b[0m\u001b[2m:\u001b[0m starting spreadsheet MCP server \u001b[3mtransport\u001b[0m\u001b[2m=\u001b[0mstdio \u001b[3mworkspace\u001b[0m\u001b[2m=\u001b[0m/data\n\u001b[2m2026-08-16T02:57:54.131897Z\u001b[0m \u001b[32m INFO\u001b[0m \u001b[2mspreadsheet_mcp\u001b[0m\u001b[2m:\u001b[0m startup scan complete: no workbooks discovered\n\u001b[2m2026-08-16T02:57:54.139835Z\u001b[0m \u001b[32m INFO\u001b[0m \u001b[2mrmcp::handler::server\u001b[0m\u001b[2m:\u001b[0m client initialized\n\u001b[2m2026-08-16T02:57:54.139872Z\u001b[0m \u001b[32m INFO\u001b[0m \u001b[1mserve_inner\u001b[0m\u001b[2m:\u001b[0m \u001b[2mrmcp::service\u001b[0m\u001b[2m:\u001b[0m Service initialized as server \u001b[3mpeer_info\u001b[0m\u001b[2m=\u001b[0mSome(InitializeRequestParam { protocol_version: ProtocolVersion(\"2025-11-25\"), capabilities: ClientCapabilities { experimental: None, roots: None, sampling: None, elicitation: None }, client_info: Implementation { name: \"does-it-install\", title: None, version: \"0.1.0\", icons: None, website_url: None } })\n\u001b[2m2026-08-16T02:57:54.149855Z\u001b[0m \u001b[32m INFO\u001b[0m \u001b[1mserve_inner\u001b[0m\u001b[2m:\u001b[0m \u001b[2mrmcp::service\u001b[0m\u001b[2m:\u001b[0m input stream terminated\n\u001b[2m2026-08-16T02:57:54.149909Z\u001b[0m \u001b[32m INFO\u001b[0m \u001b[1mserve_inner\u001b[0m\u001b[2m:\u001b[0m \u001b[2mrmcp::service\u001b[0m\u001b[2m:\u001b[0m serve finished \u001b[3mquit_reason\u001b[0m\u001b[2m=\u001b[0mClosed",
+        "installMs": 15431,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "tools_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.PSU3D0/spreadsheet-mcp",
+  "slug": "io.github.psu3d0__spreadsheet-mcp"
+}

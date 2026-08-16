@@ -1,0 +1,105 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 3281,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "get_balance",
+          "list_transactions",
+          "get_statement",
+          "create_payment",
+          "get_payment",
+          "list_payments",
+          "create_transfer",
+          "create_pix_payment",
+          "create_pix_charge",
+          "create_boleto",
+          "create_card_charge",
+          "tokenize_card",
+          "refund_transaction",
+          "cancel_transaction",
+          "create_anticipation",
+          "get_anticipation_limits",
+          "list_receivables",
+          "list_terminals",
+          "get_terminal_status",
+          "register_webhook",
+          "list_webhooks"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 3067,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "get_balance",
+          "list_transactions",
+          "get_statement",
+          "create_payment",
+          "get_payment",
+          "list_payments",
+          "create_transfer",
+          "create_pix_payment",
+          "create_pix_charge",
+          "create_boleto",
+          "create_card_charge",
+          "tokenize_card",
+          "refund_transaction",
+          "cancel_transaction",
+          "create_anticipation",
+          "get_anticipation_limits",
+          "list_receivables",
+          "list_terminals",
+          "get_terminal_status",
+          "register_webhook",
+          "list_webhooks"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 139409,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "get_balance",
+          "list_transactions",
+          "get_statement",
+          "create_payment",
+          "get_payment",
+          "list_payments",
+          "create_transfer",
+          "create_pix_payment",
+          "create_pix_charge",
+          "create_boleto",
+          "create_card_charge",
+          "tokenize_card",
+          "refund_transaction",
+          "cancel_transaction",
+          "create_anticipation",
+          "get_anticipation_limits",
+          "list_receivables",
+          "list_terminals",
+          "get_terminal_status",
+          "register_webhook",
+          "list_webhooks"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-stone",
+  "slug": "io.github.codespar__mcp-stone"
+}

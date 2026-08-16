@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "errorExcerpt": "no npm, pypi, oci or remote distribution to probe",
+        "method": "none",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "skipped"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "errorExcerpt": "no npm, pypi, oci or remote distribution to probe",
+        "method": "none",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "skipped"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "no npm, pypi, oci or remote distribution to probe",
+        "method": "none",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "skipped"
+      }
+    ]
+  },
+  "serverId": "io.github.tomohiro-owada/devrag",
+  "slug": "io.github.tomohiro-owada__devrag"
+}

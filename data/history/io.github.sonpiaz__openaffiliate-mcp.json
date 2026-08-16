@@ -1,0 +1,51 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 5248,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "search_programs",
+          "get_program",
+          "list_categories"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 3392,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "search_programs",
+          "get_program",
+          "list_categories"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 121263,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "search_programs",
+          "get_program",
+          "list_categories"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.sonpiaz/openaffiliate-mcp",
+  "slug": "io.github.sonpiaz__openaffiliate-mcp"
+}

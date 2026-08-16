@@ -1,0 +1,26 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "skipped"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\n  File \"<frozen runpy>\", line 203, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/usr/local/lib/python3.13/site-packages/memory_vault/mcp/__main__.py\", line 3, in <module>\n    from memory_vault.mcp.server import main\n  File \"/usr/local/lib/python3.13/site-packages/memory_vault/mcp/server.py\", line 41, in <module>\n    from memory_vault.models.db import (  # noqa: E402\n    ...<5 lines>...\n    )\n  File \"/usr/local/lib/python3.13/site-packages/memory_vault/models/db.py\", line 15, in <module>\n    from memory_vault.config import settings\n  File \"/usr/local/lib/python3.13/site-packages/memory_vault/config.py\", line 16, in <module>\n    class Settings:\n    ...<25 lines>...\n            )\n  File \"/usr/local/lib/python3.13/site-packages/memory_vault/config.py\", line 19, in Settings\n    db_port: int = int(os.getenv(\"DB_PORT\", \"5432\"))\n                   ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: invalid literal for int() with base 10: 'DOES_IT_INSTALL_PLACEHOLDER'",
+        "installMs": 23508,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "io.github.MihaiBuilds/memory-vault",
+  "slug": "io.github.mihaibuilds__memory-vault"
+}

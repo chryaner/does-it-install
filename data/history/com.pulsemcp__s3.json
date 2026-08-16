@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[ERROR] healthcheck: Failed to validate AWS credentials: The AWS Access Key Id you provided does not exist in our records.\n[ERROR] healthcheck: Please check your AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY",
+        "installMs": 4735,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T04:06:29.606Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[ERROR] healthcheck: Failed to validate AWS credentials: The AWS Access Key Id you provided does not exist in our records.\n[ERROR] healthcheck: Please check your AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY",
         "method": "npm",
@@ -10,6 +18,14 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[ERROR] healthcheck: Failed to validate AWS credentials: The AWS Access Key Id you provided does not exist in our records.\n[ERROR] healthcheck: Please check your AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY",
+        "installMs": 5097,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-15T04:06:26.501Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[ERROR] healthcheck: Failed to validate AWS credentials: The AWS Access Key Id you provided does not exist in our records.\n[ERROR] healthcheck: Please check your AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY",

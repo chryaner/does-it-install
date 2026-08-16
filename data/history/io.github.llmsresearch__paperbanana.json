@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: pected token '│', \"│ --help  \"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON\nUnexpected token '╭', \"╭─ Command\"... is not valid JSON\nUnexpected token '│', \"│ generate\"... is not valid JSON\nUnexpected token '│', \"│ plot    \"... is not valid JSON\nUnexpected token '│', \"│ setup   \"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ evaluate\"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON\n--- stderr (tail) ---\nDownloading fonttools (2.7MiB)\nDownloading pydantic-core (1.9MiB)\nDownloading google-genai (1.0MiB)\nDownloading cryptography (3.8MiB)\nDownloading pillow (4.6MiB)\nDownloading pygments (1.2MiB)\nDownloading numpy (5.1MiB)\nDownloading matplotlib (8.9MiB)\nDownloading pandas (9.5MiB)\n Downloaded pydantic-core\n Downloaded pygments\n Downloaded cryptography\n Downloaded pillow\n Downloaded fonttools\n Downloaded google-genai\n Downloaded matplotlib\n Downloaded numpy\n Downloaded pandas\nInstalled 50 packages in 294ms",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: pected token '│', \"│ --help  \"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON\nUnexpected token '╭', \"╭─ Command\"... is not valid JSON\nUnexpected token '│', \"│ generate\"... is not valid JSON\nUnexpected token '│', \"│ plot    \"... is not valid JSON\nUnexpected token '│', \"│ setup   \"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ evaluate\"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON\n--- stderr (tail) ---\nDownloading pillow (6.6MiB)\nDownloading fonttools (4.8MiB)\nDownloading kiwisolver (1.4MiB)\nDownloading cryptography (4.5MiB)\nDownloading matplotlib (9.6MiB)\nDownloading google-genai (1.0MiB)\n Downloaded kiwisolver\n Downloaded pillow\n Downloaded cryptography\n Downloaded fonttools\n Downloaded google-genai\n Downloaded matplotlib\nInstalled 50 packages in 88ms",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: pected token '|', \"| --help  \"... is not valid JSON\nUnexpected token '+', \"+---------\"... is not valid JSON\nUnexpected token '+', \"+- Command\"... is not valid JSON\nUnexpected token '|', \"| generate\"... is not valid JSON\nUnexpected token '|', \"| plot    \"... is not valid JSON\nUnexpected token '|', \"| setup   \"... is not valid JSON\nUnexpected token '|', \"|         \"... is not valid JSON\nUnexpected token '|', \"| evaluate\"... is not valid JSON\nUnexpected token '+', \"+---------\"... is not valid JSON\n--- stderr (tail) ---\nDownloading pillow (6.9MiB)\nDownloading fonttools (2.2MiB)\nDownloading google-genai (1.0MiB)\nDownloading matplotlib (8.9MiB)\nDownloading cryptography (3.7MiB)\n Downloaded pillow\n Downloaded cryptography\n Downloaded fonttools\n Downloaded google-genai\n Downloaded matplotlib\nInstalled 52 packages in 30.17s",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.llmsresearch/paperbanana",
+  "slug": "io.github.llmsresearch__paperbanana"
+}

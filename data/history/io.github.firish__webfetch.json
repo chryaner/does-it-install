@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading babel (9.7MiB)\nDownloading chardet (1.0MiB)\n Downloaded chardet\n Downloaded babel\nInstalled 79 packages in 748ms\nwebfetch-mcp requires the mcp extra: pip install 'webfetch-llm[mcp]'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-15T04:06:28.791Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading babel (9.7MiB)\nDownloading chardet (1.0MiB)\nDownloading pillow (4.6MiB)\nDownloading primp (4.5MiB)\n Downloaded chardet\n Downloaded primp\n Downloaded pillow\n Downloaded babel\nInstalled 79 packages in 263ms\nwebfetch-mcp requires the mcp extra: pip install 'webfetch-llm[mcp]'",
         "method": "pypi",
@@ -10,6 +17,13 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading babel (9.7MiB)\nDownloading chardet (1.4MiB)\n Downloaded chardet\n Downloaded babel\nInstalled 79 packages in 113ms\nwebfetch-mcp requires the mcp extra: pip install 'webfetch-llm[mcp]'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-15T04:06:31.639Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading pillow (6.6MiB)\nDownloading babel (9.7MiB)\nDownloading brotli (1.4MiB)\nDownloading chardet (1.4MiB)\nDownloading primp (5.1MiB)\n Downloaded brotli\n Downloaded chardet\n Downloaded primp\n Downloaded pillow\n Downloaded babel\nInstalled 79 packages in 109ms\nwebfetch-mcp requires the mcp extra: pip install 'webfetch-llm[mcp]'",

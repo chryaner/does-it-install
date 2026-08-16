@@ -1,0 +1,51 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "method": "remote-http",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "search_revogrid_docs",
+          "find_examples",
+          "resolve_feature_matrix",
+          "get_migration_notes"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "method": "remote-http",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "search_revogrid_docs",
+          "find_examples",
+          "resolve_feature_matrix",
+          "get_migration_notes"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "method": "remote-http",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "search_revogrid_docs",
+          "find_examples",
+          "resolve_feature_matrix",
+          "get_migration_notes"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.revolist/revogrid-mcp-pro",
+  "slug": "io.github.revolist__revogrid-mcp-pro"
+}

@@ -1,0 +1,108 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 8804,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "create_order",
+          "get_order",
+          "list_orders",
+          "create_charge",
+          "get_charge",
+          "create_recipient",
+          "get_balance",
+          "create_transfer",
+          "refund",
+          "list_recipients",
+          "create_anticipation",
+          "get_anticipation",
+          "get_anticipation_limits",
+          "create_plan",
+          "update_plan",
+          "create_subscription",
+          "cancel_subscription",
+          "create_card_token",
+          "create_withdrawal",
+          "register_webhook",
+          "capture_charge",
+          "partial_refund"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 4779,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "create_order",
+          "get_order",
+          "list_orders",
+          "create_charge",
+          "get_charge",
+          "create_recipient",
+          "get_balance",
+          "create_transfer",
+          "refund",
+          "list_recipients",
+          "create_anticipation",
+          "get_anticipation",
+          "get_anticipation_limits",
+          "create_plan",
+          "update_plan",
+          "create_subscription",
+          "cancel_subscription",
+          "create_card_token",
+          "create_withdrawal",
+          "register_webhook",
+          "capture_charge",
+          "partial_refund"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 106817,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "create_order",
+          "get_order",
+          "list_orders",
+          "create_charge",
+          "get_charge",
+          "create_recipient",
+          "get_balance",
+          "create_transfer",
+          "refund",
+          "list_recipients",
+          "create_anticipation",
+          "get_anticipation",
+          "get_anticipation_limits",
+          "create_plan",
+          "update_plan",
+          "create_subscription",
+          "cancel_subscription",
+          "create_card_token",
+          "create_withdrawal",
+          "register_webhook",
+          "capture_charge",
+          "partial_refund"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-pagar-me",
+  "slug": "io.github.codespar__mcp-pagar-me"
+}

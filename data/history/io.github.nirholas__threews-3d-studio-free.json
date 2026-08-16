@@ -1,0 +1,69 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "method": "remote-http",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "forge_free",
+          "text_to_avatar",
+          "mesh_forge",
+          "rig_mesh",
+          "forge_avatar",
+          "refine_model",
+          "check_job",
+          "create_agent_persona",
+          "get_agent_persona",
+          "persona_say"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "method": "remote-http",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "forge_free",
+          "text_to_avatar",
+          "mesh_forge",
+          "rig_mesh",
+          "forge_avatar",
+          "refine_model",
+          "check_job",
+          "create_agent_persona",
+          "get_agent_persona",
+          "persona_say"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "method": "remote-http",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "forge_free",
+          "text_to_avatar",
+          "mesh_forge",
+          "rig_mesh",
+          "forge_avatar",
+          "refine_model",
+          "check_job",
+          "create_agent_persona",
+          "get_agent_persona",
+          "persona_say"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.nirholas/threews-3d-studio-free",
+  "slug": "io.github.nirholas__threews-3d-studio-free"
+}

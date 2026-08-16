@@ -1,0 +1,51 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "skipped"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 1441,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "documentation",
+          "facets",
+          "field_names",
+          "field_values",
+          "flags",
+          "hits",
+          "query",
+          "stats_query",
+          "stats_query_range",
+          "stream_field_names",
+          "stream_field_values",
+          "stream_ids",
+          "streams"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "skipped"
+      }
+    ]
+  },
+  "serverId": "io.github.VictoriaMetrics/mcp-victorialogs",
+  "slug": "io.github.victoriametrics__mcp-victorialogs"
+}

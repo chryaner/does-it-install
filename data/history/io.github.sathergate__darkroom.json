@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nfile:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-E9adb3/node_modules/shutterbox/dist/cli.js:2\n#!/usr/bin/env node\n^\n\nSyntaxError: Invalid or unexpected token\n    at compileSourceTextModule (node:internal/modules/esm/utils:346:16)\n    at ModuleLoader.moduleStrategy (node:internal/modules/esm/translators:110:18)\n    at #translate (node:internal/modules/esm/loader:559:20)\n    at afterLoad (node:internal/modules/esm/loader:612:29)\n    at ModuleLoader.loadAndTranslate (node:internal/modules/esm/loader:617:12)\n    at #createModuleJob (node:internal/modules/esm/loader:640:36)\n    at #getJobFromResolveResult (node:internal/modules/esm/loader:353:34)\n    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:321:41)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:680:25)\n\nNode.js v22.23.1",
+        "installMs": 5163,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nfile:///tmp/does-it-install/dii-npm-aUl0UQ/node_modules/shutterbox/dist/cli.js:2\n#!/usr/bin/env node\n^\n\nSyntaxError: Invalid or unexpected token\n    at compileSourceTextModule (node:internal/modules/esm/utils:346:16)\n    at ModuleLoader.moduleStrategy (node:internal/modules/esm/translators:110:18)\n    at #translate (node:internal/modules/esm/loader:559:20)\n    at afterLoad (node:internal/modules/esm/loader:612:29)\n    at ModuleLoader.loadAndTranslate (node:internal/modules/esm/loader:617:12)\n    at #createModuleJob (node:internal/modules/esm/loader:640:36)\n    at #getJobFromResolveResult (node:internal/modules/esm/loader:353:34)\n    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:321:41)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:680:25)\n\nNode.js v22.23.2",
+        "installMs": 2466,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nfile:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-weYoTW/node_modules/shutterbox/dist/cli.js:2\r\n#!/usr/bin/env node\r\n^\r\n\r\nSyntaxError: Invalid or unexpected token\r\n    at compileSourceTextModule (node:internal/modules/esm/utils:346:16)\r\n    at ModuleLoader.moduleStrategy (node:internal/modules/esm/translators:110:18)\r\n    at #translate (node:internal/modules/esm/loader:559:20)\r\n    at afterLoad (node:internal/modules/esm/loader:612:29)\r\n    at ModuleLoader.loadAndTranslate (node:internal/modules/esm/loader:617:12)\r\n    at #createModuleJob (node:internal/modules/esm/loader:640:36)\r\n    at #getJobFromResolveResult (node:internal/modules/esm/loader:353:34)\r\n    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:321:41)\r\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:680:25)\r\n\r\nNode.js v22.23.2",
+        "installMs": 5721,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.sathergate/darkroom",
+  "slug": "io.github.sathergate__darkroom"
+}

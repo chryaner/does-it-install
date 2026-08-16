@@ -1,0 +1,99 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 6956,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "webpay_create_transaction",
+          "webpay_commit_transaction",
+          "webpay_get_transaction_status",
+          "webpay_refund_transaction",
+          "webpay_increase_amount",
+          "webpay_capture_transaction",
+          "webpay_mall_create_transaction",
+          "webpay_mall_commit_transaction",
+          "webpay_mall_get_transaction_status",
+          "webpay_mall_refund_transaction",
+          "webpay_mall_capture_transaction",
+          "oneclick_create_inscription",
+          "oneclick_finish_inscription",
+          "oneclick_delete_inscription",
+          "oneclick_authorize",
+          "oneclick_capture",
+          "oneclick_refund",
+          "oneclick_status",
+          "oneclick_get_transaction_by_buy_order"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 4268,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "webpay_create_transaction",
+          "webpay_commit_transaction",
+          "webpay_get_transaction_status",
+          "webpay_refund_transaction",
+          "webpay_increase_amount",
+          "webpay_capture_transaction",
+          "webpay_mall_create_transaction",
+          "webpay_mall_commit_transaction",
+          "webpay_mall_get_transaction_status",
+          "webpay_mall_refund_transaction",
+          "webpay_mall_capture_transaction",
+          "oneclick_create_inscription",
+          "oneclick_finish_inscription",
+          "oneclick_delete_inscription",
+          "oneclick_authorize",
+          "oneclick_capture",
+          "oneclick_refund",
+          "oneclick_status",
+          "oneclick_get_transaction_by_buy_order"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 109278,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "webpay_create_transaction",
+          "webpay_commit_transaction",
+          "webpay_get_transaction_status",
+          "webpay_refund_transaction",
+          "webpay_increase_amount",
+          "webpay_capture_transaction",
+          "webpay_mall_create_transaction",
+          "webpay_mall_commit_transaction",
+          "webpay_mall_get_transaction_status",
+          "webpay_mall_refund_transaction",
+          "webpay_mall_capture_transaction",
+          "oneclick_create_inscription",
+          "oneclick_finish_inscription",
+          "oneclick_delete_inscription",
+          "oneclick_authorize",
+          "oneclick_capture",
+          "oneclick_refund",
+          "oneclick_status",
+          "oneclick_get_transaction_by_buy_order"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-transbank",
+  "slug": "io.github.codespar__mcp-transbank"
+}

@@ -1,0 +1,45 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 7807,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "analyze_evm_bytecode"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 3601,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "analyze_evm_bytecode"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 108991,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "analyze_evm_bytecode"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.cdump/evmole",
+  "slug": "io.github.cdump__evmole"
+}

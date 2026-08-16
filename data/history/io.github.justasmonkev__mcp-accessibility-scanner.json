@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nnode:internal/modules/esm/resolve:275\n    throw new ERR_MODULE_NOT_FOUND(\n          ^\n\nError [ERR_MODULE_NOT_FOUND]: Cannot find module '/private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-65LV8V/node_modules/mcp-accessibility-scanner/lib/program.js' imported from /private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-65LV8V/node_modules/mcp-accessibility-scanner/cli.js\n    at finalizeResolution (node:internal/modules/esm/resolve:275:11)\n    at moduleResolve (node:internal/modules/esm/resolve:861:10)\n    at defaultResolve (node:internal/modules/esm/resolve:985:11)\n    at #cachedDefaultResolve (node:internal/modules/esm/loader:747:20)\n    at ModuleLoader.resolve (node:internal/modules/esm/loader:724:38)\n    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:320:38)\n    at ModuleJob._link (node:internal/modules/esm/module_job:182:49) {\n  code: 'ERR_MODULE_NOT_FOUND',\n  url: 'file:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-65LV8V/node_modules/mcp-accessibility-scanner/lib/program.js'\n}\n\nNode.js v22.23.1",
+        "installMs": 9127,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nnode:internal/modules/esm/resolve:275\n    throw new ERR_MODULE_NOT_FOUND(\n          ^\n\nError [ERR_MODULE_NOT_FOUND]: Cannot find module '/tmp/does-it-install/dii-npm-JRs1e1/node_modules/mcp-accessibility-scanner/lib/program.js' imported from /tmp/does-it-install/dii-npm-JRs1e1/node_modules/mcp-accessibility-scanner/cli.js\n    at finalizeResolution (node:internal/modules/esm/resolve:275:11)\n    at moduleResolve (node:internal/modules/esm/resolve:861:10)\n    at defaultResolve (node:internal/modules/esm/resolve:985:11)\n    at #cachedDefaultResolve (node:internal/modules/esm/loader:747:20)\n    at ModuleLoader.resolve (node:internal/modules/esm/loader:724:38)\n    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:320:38)\n    at ModuleJob._link (node:internal/modules/esm/module_job:182:49) {\n  code: 'ERR_MODULE_NOT_FOUND',\n  url: 'file:///tmp/does-it-install/dii-npm-JRs1e1/node_modules/mcp-accessibility-scanner/lib/program.js'\n}\n\nNode.js v22.23.2",
+        "installMs": 6465,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nnode:internal/modules/esm/resolve:275\r\n    throw new ERR_MODULE_NOT_FOUND(\r\n          ^\r\n\r\nError [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-6Q6HQs\\node_modules\\mcp-accessibility-scanner\\lib\\program.js' imported from C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-6Q6HQs\\node_modules\\mcp-accessibility-scanner\\cli.js\r\n    at finalizeResolution (node:internal/modules/esm/resolve:275:11)\r\n    at moduleResolve (node:internal/modules/esm/resolve:861:10)\r\n    at defaultResolve (node:internal/modules/esm/resolve:985:11)\r\n    at #cachedDefaultResolve (node:internal/modules/esm/loader:747:20)\r\n    at ModuleLoader.resolve (node:internal/modules/esm/loader:724:38)\r\n    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:320:38)\r\n    at ModuleJob._link (node:internal/modules/esm/module_job:182:49) {\r\n  code: 'ERR_MODULE_NOT_FOUND',\r\n  url: 'file:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-6Q6HQs/node_modules/mcp-accessibility-scanner/lib/program.js'\r\n}\r\n\r\nNode.js v22.23.2",
+        "installMs": 91251,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.JustasMonkev/mcp-accessibility-scanner",
+  "slug": "io.github.justasmonkev__mcp-accessibility-scanner"
+}

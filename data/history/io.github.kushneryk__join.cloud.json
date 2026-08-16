@@ -1,0 +1,26 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "joincloud declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "installMs": 3833,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "joincloud declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "installMs": 3135,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "io.github.kushneryk/join.cloud",
+  "slug": "io.github.kushneryk__join.cloud"
+}

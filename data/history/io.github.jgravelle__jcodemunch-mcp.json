@@ -2,6 +2,21 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:27.243Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "set_tool_tier",
+          "announce_model",
+          "jcodemunch_guide",
+          "order",
+          "menu",
+          "route"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:28.791Z",
         "method": "pypi",
         "runId": "2026-08-15T04-06-28Z-3dc5e1",
@@ -19,9 +34,41 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T02:45:19.430Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "set_tool_tier",
+          "announce_model",
+          "jcodemunch_guide",
+          "order",
+          "menu",
+          "route"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:31.639Z",
         "method": "pypi",
         "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "set_tool_tier",
+          "announce_model",
+          "jcodemunch_guide",
+          "order",
+          "menu",
+          "route"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
         "status": "pass",
         "toolCount": 6,
         "toolNames": [

@@ -2,6 +2,23 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:27.243Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "list_accounts",
+          "list_mailboxes",
+          "get_emails",
+          "get_email",
+          "get_email_links",
+          "get_email_attachment",
+          "get_attachment",
+          "search"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:28.268Z",
         "method": "pypi",
         "runId": "2026-08-15T04-06-28Z-bd83fc",
@@ -20,6 +37,23 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "list_accounts",
+          "list_mailboxes",
+          "get_emails",
+          "get_email",
+          "get_email_links",
+          "get_email_attachment",
+          "get_attachment",
+          "search"
+        ]
+      },
       {
         "date": "2026-08-15T04:06:32.275Z",
         "method": "pypi",

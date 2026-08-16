@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: pected token '│', \"│ --help  \"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON\nUnexpected token '╭', \"╭─ Command\"... is not valid JSON\nUnexpected token '│', \"│ report  \"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ trend   \"... is not valid JSON\nUnexpected token '│', \"│ regressi\"... is not valid JSON\nUnexpected token '│', \"│ mcp-serv\"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON\n--- stderr (tail) ---\nDownloading polars-runtime-32 (45.3MiB)\n Downloaded polars-runtime-32\nInstalled 16 packages in 388ms",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: pected token '│', \"│ --help  \"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON\nUnexpected token '╭', \"╭─ Command\"... is not valid JSON\nUnexpected token '│', \"│ report  \"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ trend   \"... is not valid JSON\nUnexpected token '│', \"│ regressi\"... is not valid JSON\nUnexpected token '│', \"│ mcp-serv\"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON\n--- stderr (tail) ---\nDownloading polars-runtime-32 (54.6MiB)\n Downloaded polars-runtime-32\nInstalled 16 packages in 22ms",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: pected token '|', \"| --help  \"... is not valid JSON\nUnexpected token '+', \"+---------\"... is not valid JSON\nUnexpected token '+', \"+- Command\"... is not valid JSON\nUnexpected token '|', \"| report  \"... is not valid JSON\nUnexpected token '|', \"|         \"... is not valid JSON\nUnexpected token '|', \"| trend   \"... is not valid JSON\nUnexpected token '|', \"| regressi\"... is not valid JSON\nUnexpected token '|', \"| mcp-serv\"... is not valid JSON\nUnexpected token '+', \"+---------\"... is not valid JSON\n--- stderr (tail) ---\nDownloading polars-runtime-32 (50.1MiB)\n Downloaded polars-runtime-32\nInstalled 17 packages in 3.63s",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.benseverndev-oss/goldenanalysis",
+  "slug": "io.github.benseverndev-oss__goldenanalysis"
+}

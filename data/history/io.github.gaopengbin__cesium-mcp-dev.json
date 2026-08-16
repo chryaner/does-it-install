@@ -2,6 +2,19 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 12279,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "cesium_api_lookup",
+          "cesium_code_gen",
+          "cesium_entity_builder"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:28.268Z",
         "method": "npm",
         "runId": "2026-08-15T04-06-28Z-bd83fc",
@@ -16,6 +29,19 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 3191,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "cesium_api_lookup",
+          "cesium_code_gen",
+          "cesium_entity_builder"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:32.275Z",
         "method": "npm",
         "runId": "2026-08-15T04-06-32Z-64cc50",
@@ -29,6 +55,19 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 109174,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "cesium_api_lookup",
+          "cesium_code_gen",
+          "cesium_entity_builder"
+        ]
+      },
       {
         "date": "2026-08-15T04:06:54.151Z",
         "method": "npm",

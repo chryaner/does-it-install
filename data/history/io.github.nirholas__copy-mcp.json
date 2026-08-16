@@ -1,0 +1,63 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 3064,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "list_subscriptions",
+          "create_subscription",
+          "update_subscription",
+          "cancel_subscription",
+          "get_executions",
+          "record_execution",
+          "get_earnings"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 3202,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "list_subscriptions",
+          "create_subscription",
+          "update_subscription",
+          "cancel_subscription",
+          "get_executions",
+          "record_execution",
+          "get_earnings"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 152353,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "list_subscriptions",
+          "create_subscription",
+          "update_subscription",
+          "cancel_subscription",
+          "get_executions",
+          "record_execution",
+          "get_earnings"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.nirholas/copy-mcp",
+  "slug": "io.github.nirholas__copy-mcp"
+}

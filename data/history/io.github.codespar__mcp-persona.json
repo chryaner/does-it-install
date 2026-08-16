@@ -1,0 +1,102 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 10132,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_inquiry",
+          "retrieve_inquiry",
+          "list_inquiries",
+          "approve_inquiry",
+          "decline_inquiry",
+          "redact_inquiry",
+          "create_account",
+          "retrieve_account",
+          "list_reports",
+          "retrieve_report",
+          "create_case",
+          "resume_inquiry",
+          "update_account",
+          "list_accounts",
+          "run_report",
+          "retrieve_case",
+          "list_cases",
+          "add_case_tag",
+          "list_templates",
+          "list_webhooks"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 4367,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_inquiry",
+          "retrieve_inquiry",
+          "list_inquiries",
+          "approve_inquiry",
+          "decline_inquiry",
+          "redact_inquiry",
+          "create_account",
+          "retrieve_account",
+          "list_reports",
+          "retrieve_report",
+          "create_case",
+          "resume_inquiry",
+          "update_account",
+          "list_accounts",
+          "run_report",
+          "retrieve_case",
+          "list_cases",
+          "add_case_tag",
+          "list_templates",
+          "list_webhooks"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 175537,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_inquiry",
+          "retrieve_inquiry",
+          "list_inquiries",
+          "approve_inquiry",
+          "decline_inquiry",
+          "redact_inquiry",
+          "create_account",
+          "retrieve_account",
+          "list_reports",
+          "retrieve_report",
+          "create_case",
+          "resume_inquiry",
+          "update_account",
+          "list_accounts",
+          "run_report",
+          "retrieve_case",
+          "list_cases",
+          "add_case_tag",
+          "list_templates",
+          "list_webhooks"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-persona",
+  "slug": "io.github.codespar__mcp-persona"
+}

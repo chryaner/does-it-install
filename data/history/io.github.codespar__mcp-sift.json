@@ -1,0 +1,102 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 8449,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "send_event",
+          "get_user_score",
+          "rescore_user",
+          "label_user",
+          "unlabel_user",
+          "apply_decision_to_user",
+          "apply_decision_to_order",
+          "get_user_decisions",
+          "get_order_decisions",
+          "get_workflow_run",
+          "send_chargeback",
+          "send_login",
+          "send_logout",
+          "send_content_status",
+          "link_session_to_user",
+          "send_custom_event",
+          "apply_decision_to_session",
+          "apply_decision_to_content",
+          "get_session_decisions",
+          "get_content_decisions"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 4957,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "send_event",
+          "get_user_score",
+          "rescore_user",
+          "label_user",
+          "unlabel_user",
+          "apply_decision_to_user",
+          "apply_decision_to_order",
+          "get_user_decisions",
+          "get_order_decisions",
+          "get_workflow_run",
+          "send_chargeback",
+          "send_login",
+          "send_logout",
+          "send_content_status",
+          "link_session_to_user",
+          "send_custom_event",
+          "apply_decision_to_session",
+          "apply_decision_to_content",
+          "get_session_decisions",
+          "get_content_decisions"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 112186,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "send_event",
+          "get_user_score",
+          "rescore_user",
+          "label_user",
+          "unlabel_user",
+          "apply_decision_to_user",
+          "apply_decision_to_order",
+          "get_user_decisions",
+          "get_order_decisions",
+          "get_workflow_run",
+          "send_chargeback",
+          "send_login",
+          "send_logout",
+          "send_content_status",
+          "link_session_to_user",
+          "send_custom_event",
+          "apply_decision_to_session",
+          "apply_decision_to_content",
+          "get_session_decisions",
+          "get_content_decisions"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-sift",
+  "slug": "io.github.codespar__mcp-sift"
+}

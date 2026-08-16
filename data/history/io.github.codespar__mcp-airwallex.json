@@ -1,0 +1,102 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 9194,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_payment_intent",
+          "confirm_payment_intent",
+          "retrieve_payment_intent",
+          "cancel_payment_intent",
+          "capture_payment_intent",
+          "list_payment_intents",
+          "create_refund",
+          "retrieve_refund",
+          "create_customer",
+          "retrieve_customer",
+          "update_customer",
+          "create_beneficiary",
+          "retrieve_beneficiary",
+          "list_beneficiaries",
+          "create_transfer",
+          "retrieve_transfer",
+          "cancel_transfer",
+          "list_transfers",
+          "create_conversion",
+          "retrieve_balance"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 4706,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_payment_intent",
+          "confirm_payment_intent",
+          "retrieve_payment_intent",
+          "cancel_payment_intent",
+          "capture_payment_intent",
+          "list_payment_intents",
+          "create_refund",
+          "retrieve_refund",
+          "create_customer",
+          "retrieve_customer",
+          "update_customer",
+          "create_beneficiary",
+          "retrieve_beneficiary",
+          "list_beneficiaries",
+          "create_transfer",
+          "retrieve_transfer",
+          "cancel_transfer",
+          "list_transfers",
+          "create_conversion",
+          "retrieve_balance"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 200152,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_payment_intent",
+          "confirm_payment_intent",
+          "retrieve_payment_intent",
+          "cancel_payment_intent",
+          "capture_payment_intent",
+          "list_payment_intents",
+          "create_refund",
+          "retrieve_refund",
+          "create_customer",
+          "retrieve_customer",
+          "update_customer",
+          "create_beneficiary",
+          "retrieve_beneficiary",
+          "list_beneficiaries",
+          "create_transfer",
+          "retrieve_transfer",
+          "cancel_transfer",
+          "list_transfers",
+          "create_conversion",
+          "retrieve_balance"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-airwallex",
+  "slug": "io.github.codespar__mcp-airwallex"
+}

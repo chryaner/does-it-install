@@ -1,0 +1,108 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 8592,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "get_shop_info",
+          "list_orders",
+          "get_order_detail",
+          "ship_order",
+          "cancel_order",
+          "list_products",
+          "get_product_detail",
+          "update_product_stock",
+          "update_product_price",
+          "get_shipment_list",
+          "get_return_list",
+          "confirm_return",
+          "add_item",
+          "update_item",
+          "delete_item",
+          "get_shipping_parameter",
+          "get_tracking_number",
+          "download_shipping_document",
+          "accept_return_offer",
+          "add_discount",
+          "add_bundle_deal",
+          "send_chat_message"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 4678,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "get_shop_info",
+          "list_orders",
+          "get_order_detail",
+          "ship_order",
+          "cancel_order",
+          "list_products",
+          "get_product_detail",
+          "update_product_stock",
+          "update_product_price",
+          "get_shipment_list",
+          "get_return_list",
+          "confirm_return",
+          "add_item",
+          "update_item",
+          "delete_item",
+          "get_shipping_parameter",
+          "get_tracking_number",
+          "download_shipping_document",
+          "accept_return_offer",
+          "add_discount",
+          "add_bundle_deal",
+          "send_chat_message"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 114708,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "get_shop_info",
+          "list_orders",
+          "get_order_detail",
+          "ship_order",
+          "cancel_order",
+          "list_products",
+          "get_product_detail",
+          "update_product_stock",
+          "update_product_price",
+          "get_shipment_list",
+          "get_return_list",
+          "confirm_return",
+          "add_item",
+          "update_item",
+          "delete_item",
+          "get_shipping_parameter",
+          "get_tracking_number",
+          "download_shipping_document",
+          "accept_return_offer",
+          "add_discount",
+          "add_bundle_deal",
+          "send_chat_message"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-shopee",
+  "slug": "io.github.codespar__mcp-shopee"
+}

@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 71 packages in 712ms\n2026-08-16 03:06:53 WARNING  No Redmine authentication configured. Please set REDMINE_API_KEY or REDMINE_USERNAME/REDMINE_PASSWORD in your .env file, or set REDMINE_AUTH_MODE=oauth or oauth-proxy.\n2026-08-16 03:06:54 INFO     Redmine MCP Server v2.11.0\n2026-08-16 03:06:54 INFO     Auth mode: legacy\n2026-08-16 03:06:54 INFO     Started server process [53740]\n2026-08-16 03:06:54 INFO     Waiting for application startup.\n2026-08-16 03:06:54 INFO     StreamableHTTP session manager started\n2026-08-16 03:06:54 INFO     Application startup complete.\n2026-08-16 03:06:54 ERROR    [Errno 48] error while attempting to bind on address ('127.0.0.1', 8000): [errno 48] address already in use\n2026-08-16 03:06:54 INFO     Waiting for application shutdown.\n2026-08-16 03:06:54 INFO     StreamableHTTP session manager shutting down\n2026-08-16 03:06:54 INFO     Application shutdown complete.",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 73 packages in 107ms\n2026-08-16 03:03:31 WARNING  No Redmine authentication configured. Please set REDMINE_API_KEY or REDMINE_USERNAME/REDMINE_PASSWORD in your .env file, or set REDMINE_AUTH_MODE=oauth or oauth-proxy.\n2026-08-16 03:03:31 INFO     Redmine MCP Server v2.11.0\n2026-08-16 03:03:31 INFO     Auth mode: legacy\n2026-08-16 03:03:31 INFO     Started server process [14024]\n2026-08-16 03:03:31 INFO     Waiting for application startup.\n2026-08-16 03:03:31 INFO     StreamableHTTP session manager started\n2026-08-16 03:03:31 INFO     Application startup complete.\n2026-08-16 03:03:31 ERROR    [Errno 98] error while attempting to bind on address ('127.0.0.1', 8000): [errno 98] address already in use\n2026-08-16 03:03:31 INFO     Waiting for application shutdown.\n2026-08-16 03:03:31 INFO     StreamableHTTP session manager shutting down\n2026-08-16 03:03:31 INFO     Application shutdown complete.",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\nInstalled 74 packages in 16.69s\n2026-08-16 05:02:59 WARNING  No Redmine authentication configured. Please set REDMINE_API_KEY or REDMINE_USERNAME/REDMINE_PASSWORD in your .env file, or set REDMINE_AUTH_MODE=oauth or oauth-proxy.\r\n2026-08-16 05:02:59 INFO     Redmine MCP Server v2.11.0\r\n2026-08-16 05:02:59 INFO     Auth mode: legacy\r\n2026-08-16 05:03:02 INFO     Started server process [2056]\r\n2026-08-16 05:03:02 INFO     Waiting for application startup.\r\n2026-08-16 05:03:02 INFO     StreamableHTTP session manager started\r\n2026-08-16 05:03:02 INFO     Application startup complete.\r\n2026-08-16 05:03:02 INFO     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "io.github.jztan/redmine-mcp-server",
+  "slug": "io.github.jztan__redmine-mcp-server"
+}

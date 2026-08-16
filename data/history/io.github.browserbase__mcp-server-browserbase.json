@@ -2,6 +2,33 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 59759,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "multi_browserbase_stagehand_session_create",
+          "multi_browserbase_stagehand_session_list",
+          "multi_browserbase_stagehand_session_close",
+          "multi_browserbase_stagehand_navigate_session",
+          "multi_browserbase_stagehand_act_session",
+          "multi_browserbase_stagehand_extract_session",
+          "multi_browserbase_stagehand_observe_session",
+          "multi_browserbase_stagehand_get_url_session",
+          "browserbase_stagehand_get_all_urls",
+          "browserbase_session_create",
+          "browserbase_session_close",
+          "browserbase_stagehand_navigate",
+          "browserbase_stagehand_act",
+          "browserbase_stagehand_extract",
+          "browserbase_stagehand_observe",
+          "browserbase_screenshot",
+          "browserbase_stagehand_get_url"
+        ]
+      },
+      {
         "date": "2026-08-15T20:03:31.969Z",
         "installMs": 49430,
         "method": "npm",
@@ -110,6 +137,33 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 22874,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "multi_browserbase_stagehand_session_create",
+          "multi_browserbase_stagehand_session_list",
+          "multi_browserbase_stagehand_session_close",
+          "multi_browserbase_stagehand_navigate_session",
+          "multi_browserbase_stagehand_act_session",
+          "multi_browserbase_stagehand_extract_session",
+          "multi_browserbase_stagehand_observe_session",
+          "multi_browserbase_stagehand_get_url_session",
+          "browserbase_stagehand_get_all_urls",
+          "browserbase_session_create",
+          "browserbase_session_close",
+          "browserbase_stagehand_navigate",
+          "browserbase_stagehand_act",
+          "browserbase_stagehand_extract",
+          "browserbase_stagehand_observe",
+          "browserbase_screenshot",
+          "browserbase_stagehand_get_url"
+        ]
+      },
+      {
         "date": "2026-08-15T20:03:21.360Z",
         "installMs": 31908,
         "method": "npm",
@@ -217,6 +271,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "npm install @browserbasehq/mcp-server-browserbase@2.1.1 timed out after 600s",
+        "installMs": 600120,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "timeout"
+      },
       {
         "date": "2026-08-15T20:03:36.582Z",
         "installMs": 561718,

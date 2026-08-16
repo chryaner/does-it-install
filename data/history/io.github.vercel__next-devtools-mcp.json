@@ -1,0 +1,63 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 9024,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "browser_eval",
+          "enable_cache_components",
+          "init",
+          "nextjs_docs",
+          "nextjs_index",
+          "nextjs_call",
+          "upgrade_nextjs_16"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 4418,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "browser_eval",
+          "enable_cache_components",
+          "init",
+          "nextjs_docs",
+          "nextjs_index",
+          "nextjs_call",
+          "upgrade_nextjs_16"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 182666,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "browser_eval",
+          "enable_cache_components",
+          "init",
+          "nextjs_docs",
+          "nextjs_index",
+          "nextjs_call",
+          "upgrade_nextjs_16"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.vercel/next-devtools-mcp",
+  "slug": "io.github.vercel__next-devtools-mcp"
+}

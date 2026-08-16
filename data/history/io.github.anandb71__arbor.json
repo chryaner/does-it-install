@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "no npm, pypi, oci or remote distribution to probe",
+        "method": "none",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "skipped"
+      },
+      {
         "date": "2026-08-15T04:06:28.791Z",
         "errorExcerpt": "no npm, pypi or remote distribution to probe",
         "method": "none",
@@ -11,10 +18,26 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "no npm, pypi, oci or remote distribution to probe",
+        "method": "none",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "skipped"
+      },
+      {
         "date": "2026-08-15T04:06:31.639Z",
         "errorExcerpt": "no npm, pypi or remote distribution to probe",
         "method": "none",
         "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "skipped"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "errorExcerpt": "no npm, pypi, oci or remote distribution to probe",
+        "method": "none",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
         "status": "skipped"
       }
     ]

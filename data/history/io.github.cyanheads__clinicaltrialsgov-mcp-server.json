@@ -1,0 +1,63 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 30761,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "clinicaltrials_search_studies",
+          "clinicaltrials_get_study_record",
+          "clinicaltrials_get_study_count",
+          "clinicaltrials_get_field_values",
+          "clinicaltrials_get_field_definitions",
+          "clinicaltrials_get_study_results",
+          "clinicaltrials_find_eligible"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 23101,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "clinicaltrials_search_studies",
+          "clinicaltrials_get_study_record",
+          "clinicaltrials_get_study_count",
+          "clinicaltrials_get_field_values",
+          "clinicaltrials_get_field_definitions",
+          "clinicaltrials_get_study_results",
+          "clinicaltrials_find_eligible"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 267773,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "clinicaltrials_search_studies",
+          "clinicaltrials_get_study_record",
+          "clinicaltrials_get_study_count",
+          "clinicaltrials_get_field_values",
+          "clinicaltrials_get_field_definitions",
+          "clinicaltrials_get_study_results",
+          "clinicaltrials_find_eligible"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.cyanheads/clinicaltrialsgov-mcp-server",
+  "slug": "io.github.cyanheads__clinicaltrialsgov-mcp-server"
+}

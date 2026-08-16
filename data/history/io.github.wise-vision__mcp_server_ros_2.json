@@ -1,0 +1,52 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "skipped"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 62589,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "ros2_topic_list",
+          "ros2_service_list",
+          "ros2_interface_list",
+          "ros2_service_call",
+          "ros2_topic_subscribe",
+          "ros2_get_messages_stored_in_influx_data_base",
+          "ros2_get_message_fields",
+          "ros2_topic_publish",
+          "ros2_list_actions",
+          "ros2_send_action_goal",
+          "ros2_cancel_action_goal",
+          "ros2_action_request_result",
+          "ros2_action_subscribe_feedback",
+          "ros2_action_subscribe_status"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "skipped"
+      }
+    ]
+  },
+  "serverId": "io.github.wise-vision/mcp_server_ros_2",
+  "slug": "io.github.wise-vision__mcp_server_ros_2"
+}

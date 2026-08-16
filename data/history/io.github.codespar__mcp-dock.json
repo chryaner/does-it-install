@@ -1,0 +1,102 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 8424,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_account",
+          "get_account",
+          "send_pix",
+          "get_pix",
+          "create_pix_qr_static",
+          "create_pix_qr_dynamic",
+          "refund_pix",
+          "resolve_dict_key",
+          "issue_card",
+          "get_card",
+          "list_accounts",
+          "freeze_account",
+          "unfreeze_account",
+          "block_card",
+          "unblock_card",
+          "change_card_status",
+          "list_transactions",
+          "get_transaction",
+          "create_webhook",
+          "list_webhooks"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 4376,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_account",
+          "get_account",
+          "send_pix",
+          "get_pix",
+          "create_pix_qr_static",
+          "create_pix_qr_dynamic",
+          "refund_pix",
+          "resolve_dict_key",
+          "issue_card",
+          "get_card",
+          "list_accounts",
+          "freeze_account",
+          "unfreeze_account",
+          "block_card",
+          "unblock_card",
+          "change_card_status",
+          "list_transactions",
+          "get_transaction",
+          "create_webhook",
+          "list_webhooks"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 184298,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_account",
+          "get_account",
+          "send_pix",
+          "get_pix",
+          "create_pix_qr_static",
+          "create_pix_qr_dynamic",
+          "refund_pix",
+          "resolve_dict_key",
+          "issue_card",
+          "get_card",
+          "list_accounts",
+          "freeze_account",
+          "unfreeze_account",
+          "block_card",
+          "unblock_card",
+          "change_card_status",
+          "list_transactions",
+          "get_transaction",
+          "create_webhook",
+          "list_webhooks"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-dock",
+  "slug": "io.github.codespar__mcp-dock"
+}

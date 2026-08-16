@@ -1,0 +1,69 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 38532,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "query_documents",
+          "ingest_file",
+          "ingest_data",
+          "delete_file",
+          "list_files",
+          "status",
+          "read_chunk_neighbors",
+          "sync_start",
+          "sync_status"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 21985,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "query_documents",
+          "ingest_file",
+          "ingest_data",
+          "delete_file",
+          "list_files",
+          "status",
+          "read_chunk_neighbors",
+          "sync_start",
+          "sync_status"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 506538,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "query_documents",
+          "ingest_file",
+          "ingest_data",
+          "delete_file",
+          "list_files",
+          "status",
+          "read_chunk_neighbors",
+          "sync_start",
+          "sync_status"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.shinpr/mcp-local-rag",
+  "slug": "io.github.shinpr__mcp-local-rag"
+}

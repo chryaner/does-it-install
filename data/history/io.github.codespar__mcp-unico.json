@@ -1,0 +1,96 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 4810,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "validate_cpf",
+          "validate_cnpj",
+          "extract_document",
+          "verify_document_authenticity",
+          "face_match",
+          "liveness_check",
+          "check_pep",
+          "check_watchlists",
+          "court_records_search",
+          "get_process_status",
+          "batch_get_process_status",
+          "upload_process_document",
+          "get_extracted_data",
+          "get_unico_score",
+          "connect_portability_check",
+          "register_webhook",
+          "list_webhooks",
+          "delete_webhook"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 2934,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "validate_cpf",
+          "validate_cnpj",
+          "extract_document",
+          "verify_document_authenticity",
+          "face_match",
+          "liveness_check",
+          "check_pep",
+          "check_watchlists",
+          "court_records_search",
+          "get_process_status",
+          "batch_get_process_status",
+          "upload_process_document",
+          "get_extracted_data",
+          "get_unico_score",
+          "connect_portability_check",
+          "register_webhook",
+          "list_webhooks",
+          "delete_webhook"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 135799,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "validate_cpf",
+          "validate_cnpj",
+          "extract_document",
+          "verify_document_authenticity",
+          "face_match",
+          "liveness_check",
+          "check_pep",
+          "check_watchlists",
+          "court_records_search",
+          "get_process_status",
+          "batch_get_process_status",
+          "upload_process_document",
+          "get_extracted_data",
+          "get_unico_score",
+          "connect_portability_check",
+          "register_webhook",
+          "list_webhooks",
+          "delete_webhook"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-unico",
+  "slug": "io.github.codespar__mcp-unico"
+}

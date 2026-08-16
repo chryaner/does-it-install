@@ -1,0 +1,54 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "veritasgraph_ingest_document",
+          "veritasgraph_query",
+          "veritasgraph_search_entities",
+          "veritasgraph_get_graph",
+          "veritasgraph_clear_graph"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "veritasgraph_ingest_document",
+          "veritasgraph_query",
+          "veritasgraph_search_entities",
+          "veritasgraph_get_graph",
+          "veritasgraph_clear_graph"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "veritasgraph_ingest_document",
+          "veritasgraph_query",
+          "veritasgraph_search_entities",
+          "veritasgraph_get_graph",
+          "veritasgraph_clear_graph"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.bibinprathap/veritasgraph",
+  "slug": "io.github.bibinprathap__veritasgraph"
+}

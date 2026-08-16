@@ -1,0 +1,60 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 7794,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "get_today_cost",
+          "get_usage_this_month",
+          "list_top_tools",
+          "list_recent_sessions",
+          "get_session_details",
+          "estimate_cost"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 5411,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "get_today_cost",
+          "get_usage_this_month",
+          "list_top_tools",
+          "list_recent_sessions",
+          "get_session_details",
+          "estimate_cost"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 118627,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "get_today_cost",
+          "get_usage_this_month",
+          "list_top_tools",
+          "list_recent_sessions",
+          "get_session_details",
+          "estimate_cost"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.andreisirbu91-lab/mcpspend",
+  "slug": "io.github.andreisirbu91-lab__mcpspend"
+}

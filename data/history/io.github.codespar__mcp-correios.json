@@ -1,0 +1,105 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 7201,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "track_package",
+          "track_bulk",
+          "calculate_shipping",
+          "get_delivery_time",
+          "list_services",
+          "find_cep",
+          "find_cep_bulk",
+          "list_cep_ranges",
+          "get_delivery_modality",
+          "create_prepost",
+          "get_prepost",
+          "list_preposts",
+          "cancel_prepost",
+          "buy_label_range",
+          "post_objects",
+          "list_postal_codes",
+          "create_collection",
+          "get_collection",
+          "cancel_collection",
+          "create_reverse",
+          "get_reverse"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 4277,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "track_package",
+          "track_bulk",
+          "calculate_shipping",
+          "get_delivery_time",
+          "list_services",
+          "find_cep",
+          "find_cep_bulk",
+          "list_cep_ranges",
+          "get_delivery_modality",
+          "create_prepost",
+          "get_prepost",
+          "list_preposts",
+          "cancel_prepost",
+          "buy_label_range",
+          "post_objects",
+          "list_postal_codes",
+          "create_collection",
+          "get_collection",
+          "cancel_collection",
+          "create_reverse",
+          "get_reverse"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 183255,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "track_package",
+          "track_bulk",
+          "calculate_shipping",
+          "get_delivery_time",
+          "list_services",
+          "find_cep",
+          "find_cep_bulk",
+          "list_cep_ranges",
+          "get_delivery_modality",
+          "create_prepost",
+          "get_prepost",
+          "list_preposts",
+          "cancel_prepost",
+          "buy_label_range",
+          "post_objects",
+          "list_postal_codes",
+          "create_collection",
+          "get_collection",
+          "cancel_collection",
+          "create_reverse",
+          "get_reverse"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-correios",
+  "slug": "io.github.codespar__mcp-correios"
+}

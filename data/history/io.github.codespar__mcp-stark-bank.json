@@ -1,0 +1,123 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 7326,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 27,
+        "toolNames": [
+          "create_transfer",
+          "get_transfer",
+          "list_transfers",
+          "create_boleto",
+          "get_balance",
+          "create_invoice",
+          "get_invoice",
+          "list_invoices",
+          "create_pix_request",
+          "get_webhook_events",
+          "create_payment_request",
+          "get_payment_request",
+          "list_payment_requests",
+          "create_brcode_payment",
+          "get_deposit",
+          "create_boleto_issue",
+          "get_boleto",
+          "list_boletos",
+          "delete_boleto",
+          "create_pix_key",
+          "get_pix_key",
+          "list_pix_keys",
+          "delete_pix_key",
+          "list_deposits",
+          "create_utility_payment",
+          "create_tax_payment",
+          "list_workspaces"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 4690,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 27,
+        "toolNames": [
+          "create_transfer",
+          "get_transfer",
+          "list_transfers",
+          "create_boleto",
+          "get_balance",
+          "create_invoice",
+          "get_invoice",
+          "list_invoices",
+          "create_pix_request",
+          "get_webhook_events",
+          "create_payment_request",
+          "get_payment_request",
+          "list_payment_requests",
+          "create_brcode_payment",
+          "get_deposit",
+          "create_boleto_issue",
+          "get_boleto",
+          "list_boletos",
+          "delete_boleto",
+          "create_pix_key",
+          "get_pix_key",
+          "list_pix_keys",
+          "delete_pix_key",
+          "list_deposits",
+          "create_utility_payment",
+          "create_tax_payment",
+          "list_workspaces"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 109004,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 27,
+        "toolNames": [
+          "create_transfer",
+          "get_transfer",
+          "list_transfers",
+          "create_boleto",
+          "get_balance",
+          "create_invoice",
+          "get_invoice",
+          "list_invoices",
+          "create_pix_request",
+          "get_webhook_events",
+          "create_payment_request",
+          "get_payment_request",
+          "list_payment_requests",
+          "create_brcode_payment",
+          "get_deposit",
+          "create_boleto_issue",
+          "get_boleto",
+          "list_boletos",
+          "delete_boleto",
+          "create_pix_key",
+          "get_pix_key",
+          "list_pix_keys",
+          "delete_pix_key",
+          "list_deposits",
+          "create_utility_payment",
+          "create_tax_payment",
+          "list_workspaces"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-stark-bank",
+  "slug": "io.github.codespar__mcp-stark-bank"
+}

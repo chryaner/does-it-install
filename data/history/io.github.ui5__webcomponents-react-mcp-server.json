@@ -1,0 +1,57 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 8885,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "create_app",
+          "get_component_api",
+          "get_documentation",
+          "get_public_utils",
+          "list_components"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 2941,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "create_app",
+          "get_component_api",
+          "get_documentation",
+          "get_public_utils",
+          "list_components"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 116337,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "create_app",
+          "get_component_api",
+          "get_documentation",
+          "get_public_utils",
+          "list_components"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.UI5/webcomponents-react-mcp-server",
+  "slug": "io.github.ui5__webcomponents-react-mcp-server"
+}

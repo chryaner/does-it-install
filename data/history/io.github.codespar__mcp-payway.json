@@ -1,0 +1,60 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 3977,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "create_token",
+          "create_payment",
+          "get_payment",
+          "list_payments",
+          "refund_payment",
+          "confirm_payment"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 2925,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "create_token",
+          "create_payment",
+          "get_payment",
+          "list_payments",
+          "refund_payment",
+          "confirm_payment"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 128158,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "create_token",
+          "create_payment",
+          "get_payment",
+          "list_payments",
+          "refund_payment",
+          "confirm_payment"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-payway",
+  "slug": "io.github.codespar__mcp-payway"
+}

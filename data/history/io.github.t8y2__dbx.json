@@ -1,0 +1,60 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 9993,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "dbx_list_connections",
+          "dbx_list_tables",
+          "dbx_describe_table",
+          "dbx_execute_query",
+          "dbx_open_table",
+          "dbx_execute_and_show"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 8900,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "dbx_list_connections",
+          "dbx_list_tables",
+          "dbx_describe_table",
+          "dbx_execute_query",
+          "dbx_open_table",
+          "dbx_execute_and_show"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 136936,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "dbx_list_connections",
+          "dbx_list_tables",
+          "dbx_describe_table",
+          "dbx_execute_query",
+          "dbx_open_table",
+          "dbx_execute_and_show"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.t8y2/dbx",
+  "slug": "io.github.t8y2__dbx"
+}

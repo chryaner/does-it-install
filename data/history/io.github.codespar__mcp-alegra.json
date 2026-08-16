@@ -1,0 +1,102 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 4820,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_invoice",
+          "get_invoice",
+          "list_invoices",
+          "void_invoice",
+          "get_invoice_pdf",
+          "send_invoice",
+          "create_contact",
+          "update_contact",
+          "delete_contact",
+          "list_contacts",
+          "create_item",
+          "update_item",
+          "list_items",
+          "list_payments",
+          "get_payment",
+          "create_payment",
+          "void_payment",
+          "list_categories",
+          "list_bank_accounts",
+          "get_company"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 4146,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_invoice",
+          "get_invoice",
+          "list_invoices",
+          "void_invoice",
+          "get_invoice_pdf",
+          "send_invoice",
+          "create_contact",
+          "update_contact",
+          "delete_contact",
+          "list_contacts",
+          "create_item",
+          "update_item",
+          "list_items",
+          "list_payments",
+          "get_payment",
+          "create_payment",
+          "void_payment",
+          "list_categories",
+          "list_bank_accounts",
+          "get_company"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 151162,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_invoice",
+          "get_invoice",
+          "list_invoices",
+          "void_invoice",
+          "get_invoice_pdf",
+          "send_invoice",
+          "create_contact",
+          "update_contact",
+          "delete_contact",
+          "list_contacts",
+          "create_item",
+          "update_item",
+          "list_items",
+          "list_payments",
+          "get_payment",
+          "create_payment",
+          "void_payment",
+          "list_categories",
+          "list_bank_accounts",
+          "get_company"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-alegra",
+  "slug": "io.github.codespar__mcp-alegra"
+}

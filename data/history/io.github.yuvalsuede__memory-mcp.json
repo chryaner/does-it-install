@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: \"  \u001b[2m# Ask \"... is not valid JSON\nUnexpected token 'm', \"  memory-mcp\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '\u001b', \"\u001b[1mHOW IT WORKS\u001b[0m\" is not valid JSON\nUnterminated fractional number in JSON at position 4 (line 1 column 5)\nUnterminated fractional number in JSON at position 4 (line 1 column 5)\nUnterminated fractional number in JSON at position 4 (line 1 column 5)\nUnterminated fractional number in JSON at position 4 (line 1 column 5)\nUnexpected end of JSON input",
+        "installMs": 7824,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: \"  \u001b[2m# Ask \"... is not valid JSON\nUnexpected token 'm', \"  memory-mcp\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '\u001b', \"\u001b[1mHOW IT WORKS\u001b[0m\" is not valid JSON\nUnterminated fractional number in JSON at position 4 (line 1 column 5)\nUnterminated fractional number in JSON at position 4 (line 1 column 5)\nUnterminated fractional number in JSON at position 4 (line 1 column 5)\nUnterminated fractional number in JSON at position 4 (line 1 column 5)\nUnexpected end of JSON input",
+        "installMs": 3189,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: \"  \u001b[2m# Ask \"... is not valid JSON\nUnexpected token 'm', \"  memory-mcp\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '\u001b', \"\u001b[1mHOW IT WORKS\u001b[0m\" is not valid JSON\nUnterminated fractional number in JSON at position 4 (line 1 column 5)\nUnterminated fractional number in JSON at position 4 (line 1 column 5)\nUnterminated fractional number in JSON at position 4 (line 1 column 5)\nUnterminated fractional number in JSON at position 4 (line 1 column 5)\nUnexpected end of JSON input",
+        "installMs": 94552,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.yuvalsuede/memory-mcp",
+  "slug": "io.github.yuvalsuede__memory-mcp"
+}

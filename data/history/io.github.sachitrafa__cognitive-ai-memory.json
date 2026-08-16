@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "skipped"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nINFO:     Started server process [1]\nINFO:     Waiting for application startup.\nERROR:    Traceback (most recent call last):\n  File \"/usr/local/lib/python3.11/site-packages/starlette/routing.py\", line 638, in lifespan\n    async with self.lifespan_context(app) as maybe_state:\n  File \"/usr/local/lib/python3.11/contextlib.py\", line 210, in __aenter__\n    return await anext(self.gen)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/fastapi/routing.py\", line 216, in merged_lifespan\n    async with original_context(app) as maybe_original_state:\n  File \"/usr/local/lib/python3.11/contextlib.py\", line 210, in __aenter__\n    return await anext(self.gen)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/fastapi/routing.py\", line 216, in merged_lifespan\n    async with original_context(app) as maybe_original_state:\n  File \"/usr/local/lib/python3.11/contextlib.py\", line 210, in __aenter__\n    return await anext(self.gen)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/fastapi/routing.py\", line 216, in merged_lifespan\n    async with original_context(app) as maybe_original_state:\n  File \"/usr/local/lib/python3.11/contextlib.py\", line 210, in __aenter__\n    return await anext(self.gen)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/src/app.py\", line 14, in lifespan\n    migrate()\n  File \"/app/src/db/migrate.py\", line 8, in migrate\n    conn = psycopg2.connect(os.getenv(\"DATABASE_URL\"))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/psycopg2/__init__.py\", line 121, in connect\n    dsn = _ext.make_dsn(dsn, **kwargs)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/psycopg2/extensions.py\", line 145, in make_dsn\n    parse_dsn(dsn)\npsycopg2.ProgrammingError: invalid dsn: missing \"=\" after \"DOES_IT_INSTALL_PLACEHOLDER\" in connection info string\n\n\nERROR:    Application startup failed. Exiting.",
+        "installMs": 18401,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "skipped"
+      }
+    ]
+  },
+  "serverId": "io.github.sachitrafa/cognitive-ai-memory",
+  "slug": "io.github.sachitrafa__cognitive-ai-memory"
+}

@@ -1,0 +1,46 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 9676,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "three_price",
+          "three_balance",
+          "three_burn"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 9019,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "three_price",
+          "three_balance",
+          "three_burn"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "errorExcerpt": "npm install @three-ws/three-token-mcp@1.1.1 timed out after 600s",
+        "installMs": 600128,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "io.github.nirholas/three-token-mcp",
+  "slug": "io.github.nirholas__three-token-mcp"
+}

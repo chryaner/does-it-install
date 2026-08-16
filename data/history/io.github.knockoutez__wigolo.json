@@ -1,0 +1,72 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 33599,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "fetch",
+          "search",
+          "crawl",
+          "cache",
+          "extract",
+          "find_similar",
+          "research",
+          "agent",
+          "diff",
+          "watch"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 25015,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "fetch",
+          "search",
+          "crawl",
+          "cache",
+          "extract",
+          "find_similar",
+          "research",
+          "agent",
+          "diff",
+          "watch"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 563639,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "fetch",
+          "search",
+          "crawl",
+          "cache",
+          "extract",
+          "find_similar",
+          "research",
+          "agent",
+          "diff",
+          "watch"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.KnockOutEZ/wigolo",
+  "slug": "io.github.knockoutez__wigolo"
+}

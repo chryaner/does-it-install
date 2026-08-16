@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "errorExcerpt": "npm install @cleocode/cleo@2026.3.35 exited with code 1\n--- stderr (tail) ---\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-i4Sg1I/.npm-cache/_logs/2026-08-16T03_00_47_023Z-debug-0.log",
+        "installMs": 4069,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "install_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "errorExcerpt": "npm install @cleocode/cleo@2026.3.35 exited with code 1\n--- stderr (tail) ---\nnpm error A complete log of this run can be found in: /tmp/does-it-install/dii-npm-BJ6cBo/.npm-cache/_logs/2026-08-16T02_55_50_699Z-debug-0.log",
+        "installMs": 814,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "install_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "npm install @cleocode/cleo@2026.3.35 exited with code 1\n--- stderr (tail) ---\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-hfnJCc\\.npm-cache\\_logs\\2026-08-16T04_16_52_822Z-debug-0.log",
+        "installMs": 2229,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "install_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.kryptobaseddev/cleo-mcp-server",
+  "slug": "io.github.kryptobaseddev__cleo-mcp-server"
+}

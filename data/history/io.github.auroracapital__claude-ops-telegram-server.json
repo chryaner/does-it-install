@@ -1,0 +1,54 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 36351,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "list_dialogs",
+          "get_messages",
+          "send_message",
+          "search_messages"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 4660,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "list_dialogs",
+          "get_messages",
+          "send_message",
+          "search_messages"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 161295,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "list_dialogs",
+          "get_messages",
+          "send_message",
+          "search_messages"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.auroracapital/claude-ops-telegram-server",
+  "slug": "io.github.auroracapital__claude-ops-telegram-server"
+}

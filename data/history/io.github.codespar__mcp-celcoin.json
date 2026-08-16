@@ -1,0 +1,96 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 5980,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_pix_payment",
+          "get_pix_payment",
+          "create_pix_cob",
+          "get_pix_cob",
+          "create_pix_cobv",
+          "lookup_pix_dict",
+          "create_pix_devolution",
+          "cancel_boleto",
+          "read_barcode",
+          "pay_bill",
+          "get_statement",
+          "list_topup_providers",
+          "create_boleto",
+          "get_boleto",
+          "create_transfer",
+          "get_balance",
+          "list_banks",
+          "create_topup"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 4106,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_pix_payment",
+          "get_pix_payment",
+          "create_pix_cob",
+          "get_pix_cob",
+          "create_pix_cobv",
+          "lookup_pix_dict",
+          "create_pix_devolution",
+          "cancel_boleto",
+          "read_barcode",
+          "pay_bill",
+          "get_statement",
+          "list_topup_providers",
+          "create_boleto",
+          "get_boleto",
+          "create_transfer",
+          "get_balance",
+          "list_banks",
+          "create_topup"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 119698,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_pix_payment",
+          "get_pix_payment",
+          "create_pix_cob",
+          "get_pix_cob",
+          "create_pix_cobv",
+          "lookup_pix_dict",
+          "create_pix_devolution",
+          "cancel_boleto",
+          "read_barcode",
+          "pay_bill",
+          "get_statement",
+          "list_topup_providers",
+          "create_boleto",
+          "get_boleto",
+          "create_transfer",
+          "get_balance",
+          "list_banks",
+          "create_topup"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-celcoin",
+  "slug": "io.github.codespar__mcp-celcoin"
+}

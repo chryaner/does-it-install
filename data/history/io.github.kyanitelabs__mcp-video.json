@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:27.629Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 33 packages in 403ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/yxD554oryQ3pn6hE/bin/mcp-video\", line 6, in <module>\n    from mcp_video.__main__ import main\n  File \"/Users/runner/.cache/uv/archive-v0/yxD554oryQ3pn6hE/lib/python3.14/site-packages/mcp_video/__init__.py\", line 5, in <module>\n    from .client import Client\n  File \"/Users/runner/.cache/uv/archive-v0/yxD554oryQ3pn6hE/lib/python3.14/site-packages/mcp_video/client/__init__.py\", line 13, in <module>\n    from .meta import ClientMetaMixin\n  File \"/Users/runner/.cache/uv/archive-v0/yxD554oryQ3pn6hE/lib/python3.14/site-packages/mcp_video/client/meta.py\", line 7, in <module>\n    from ..server_tools_basic import search_tools as _search_tools\n  File \"/Users/runner/.cache/uv/archive-v0/yxD554oryQ3pn6hE/lib/python3.14/site-packages/mcp_video/server_tools_basic.py\", line 13, in <module>\n    from mcp.server.fastmcp import Context\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-15T04:06:28.268Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 33 packages in 72ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/GaYlnHDBeiDeD1Ig/bin/mcp-video\", line 6, in <module>\n    from mcp_video.__main__ import main\n  File \"/Users/runner/.cache/uv/archive-v0/GaYlnHDBeiDeD1Ig/lib/python3.14/site-packages/mcp_video/__init__.py\", line 5, in <module>\n    from .client import Client\n  File \"/Users/runner/.cache/uv/archive-v0/GaYlnHDBeiDeD1Ig/lib/python3.14/site-packages/mcp_video/client/__init__.py\", line 13, in <module>\n    from .meta import ClientMetaMixin\n  File \"/Users/runner/.cache/uv/archive-v0/GaYlnHDBeiDeD1Ig/lib/python3.14/site-packages/mcp_video/client/meta.py\", line 7, in <module>\n    from ..server_tools_basic import search_tools as _search_tools\n  File \"/Users/runner/.cache/uv/archive-v0/GaYlnHDBeiDeD1Ig/lib/python3.14/site-packages/mcp_video/server_tools_basic.py\", line 13, in <module>\n    from mcp.server.fastmcp import Context\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
         "method": "pypi",
@@ -11,6 +18,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T02:45:24.037Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 33 packages in 17ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/0eXeftD8hkaVMYZD/bin/mcp-video\", line 6, in <module>\n    from mcp_video.__main__ import main\n  File \"/home/runner/.cache/uv/archive-v0/0eXeftD8hkaVMYZD/lib/python3.13/site-packages/mcp_video/__init__.py\", line 5, in <module>\n    from .client import Client\n  File \"/home/runner/.cache/uv/archive-v0/0eXeftD8hkaVMYZD/lib/python3.13/site-packages/mcp_video/client/__init__.py\", line 13, in <module>\n    from .meta import ClientMetaMixin\n  File \"/home/runner/.cache/uv/archive-v0/0eXeftD8hkaVMYZD/lib/python3.13/site-packages/mcp_video/client/meta.py\", line 7, in <module>\n    from ..server_tools_basic import search_tools as _search_tools\n  File \"/home/runner/.cache/uv/archive-v0/0eXeftD8hkaVMYZD/lib/python3.13/site-packages/mcp_video/server_tools_basic.py\", line 13, in <module>\n    from mcp.server.fastmcp import Context\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-15T04:06:32.275Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 33 packages in 23ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/xRY4AP8FOuIPETcP/bin/mcp-video\", line 6, in <module>\n    from mcp_video.__main__ import main\n  File \"/home/runner/.cache/uv/archive-v0/xRY4AP8FOuIPETcP/lib/python3.13/site-packages/mcp_video/__init__.py\", line 5, in <module>\n    from .client import Client\n  File \"/home/runner/.cache/uv/archive-v0/xRY4AP8FOuIPETcP/lib/python3.13/site-packages/mcp_video/client/__init__.py\", line 13, in <module>\n    from .meta import ClientMetaMixin\n  File \"/home/runner/.cache/uv/archive-v0/xRY4AP8FOuIPETcP/lib/python3.13/site-packages/mcp_video/client/meta.py\", line 7, in <module>\n    from ..server_tools_basic import search_tools as _search_tools\n  File \"/home/runner/.cache/uv/archive-v0/xRY4AP8FOuIPETcP/lib/python3.13/site-packages/mcp_video/server_tools_basic.py\", line 13, in <module>\n    from mcp.server.fastmcp import Context\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
         "method": "pypi",
@@ -19,6 +33,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 35 packages in 8.75s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\WTfqmRBqpWT1SXWc\\Scripts\\mcp-video.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\WTfqmRBqpWT1SXWc\\Lib\\site-packages\\mcp_video\\__init__.py\", line 5, in <module>\r\n    from .client import Client\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\WTfqmRBqpWT1SXWc\\Lib\\site-packages\\mcp_video\\client\\__init__.py\", line 13, in <module>\r\n    from .meta import ClientMetaMixin\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\WTfqmRBqpWT1SXWc\\Lib\\site-packages\\mcp_video\\client\\meta.py\", line 7, in <module>\r\n    from ..server_tools_basic import search_tools as _search_tools\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\WTfqmRBqpWT1SXWc\\Lib\\site-packages\\mcp_video\\server_tools_basic.py\", line 13, in <module>\r\n    from mcp.server.fastmcp import Context\r\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-15T04:06:54.151Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 35 packages in 13.05s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\Di1MY6AvqfXqhXdu\\Scripts\\mcp-video.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\Di1MY6AvqfXqhXdu\\Lib\\site-packages\\mcp_video\\__init__.py\", line 5, in <module>\r\n    from .client import Client\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\Di1MY6AvqfXqhXdu\\Lib\\site-packages\\mcp_video\\client\\__init__.py\", line 13, in <module>\r\n    from .meta import ClientMetaMixin\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\Di1MY6AvqfXqhXdu\\Lib\\site-packages\\mcp_video\\client\\meta.py\", line 7, in <module>\r\n    from ..server_tools_basic import search_tools as _search_tools\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\Di1MY6AvqfXqhXdu\\Lib\\site-packages\\mcp_video\\server_tools_basic.py\", line 13, in <module>\r\n    from mcp.server.fastmcp import Context\r\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",

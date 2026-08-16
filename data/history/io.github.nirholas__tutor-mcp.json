@@ -1,0 +1,48 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 5483,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "load_session",
+          "close_session"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 3612,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "load_session",
+          "close_session"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 162810,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "load_session",
+          "close_session"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.nirholas/tutor-mcp",
+  "slug": "io.github.nirholas__tutor-mcp"
+}

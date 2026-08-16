@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 29 packages in 397ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/UhynEmdZOVmaNULX/bin/mcp-windbg\", line 6, in <module>\n    from mcp_windbg import main\n  File \"/Users/runner/.cache/uv/archive-v0/UhynEmdZOVmaNULX/lib/python3.14/site-packages/mcp_windbg/__init__.py\", line 1, in <module>\n    from .server import serve, serve_http\n  File \"/Users/runner/.cache/uv/archive-v0/UhynEmdZOVmaNULX/lib/python3.14/site-packages/mcp_windbg/server.py\", line 4, in <module>\n    import winreg\nModuleNotFoundError: No module named 'winreg'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 29 packages in 22ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/n-opXL9RcAy4KwZ2/bin/mcp-windbg\", line 6, in <module>\n    from mcp_windbg import main\n  File \"/home/runner/.cache/uv/archive-v0/n-opXL9RcAy4KwZ2/lib/python3.13/site-packages/mcp_windbg/__init__.py\", line 1, in <module>\n    from .server import serve, serve_http\n  File \"/home/runner/.cache/uv/archive-v0/n-opXL9RcAy4KwZ2/lib/python3.13/site-packages/mcp_windbg/server.py\", line 4, in <module>\n    import winreg\nModuleNotFoundError: No module named 'winreg'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 31 packages in 8.78s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\kfFug6eAez-WAZxo\\Scripts\\mcp-windbg.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\kfFug6eAez-WAZxo\\Lib\\site-packages\\mcp_windbg\\__init__.py\", line 1, in <module>\r\n    from .server import serve, serve_http\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\kfFug6eAez-WAZxo\\Lib\\site-packages\\mcp_windbg\\server.py\", line 12, in <module>\r\n    from mcp.shared.exceptions import McpError\r\nImportError: cannot import name 'McpError' from 'mcp.shared.exceptions' (C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\kfFug6eAez-WAZxo\\Lib\\site-packages\\mcp\\shared\\exceptions.py). Did you mean: 'MCPError'?",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.svnscha/mcp-windbg",
+  "slug": "io.github.svnscha__mcp-windbg"
+}

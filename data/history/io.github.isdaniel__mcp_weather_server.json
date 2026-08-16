@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:27.629Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/IJSIgBaNNnxmHiGC/bin/mcp_weather_server\", line 6, in <module>\n    from mcp_weather_server import main\n  File \"/Users/runner/.cache/uv/archive-v0/IJSIgBaNNnxmHiGC/lib/python3.14/site-packages/mcp_weather_server/__init__.py\", line 1, in <module>\n    from .server import main as async_main\n  File \"/Users/runner/.cache/uv/archive-v0/IJSIgBaNNnxmHiGC/lib/python3.14/site-packages/mcp_weather_server/server.py\", line 26, in <module>\n    from .tools.toolhandler import ToolHandler\n  File \"/Users/runner/.cache/uv/archive-v0/IJSIgBaNNnxmHiGC/lib/python3.14/site-packages/mcp_weather_server/tools/__init__.py\", line 4, in <module>\n    from .tools_time import *\n  File \"/Users/runner/.cache/uv/archive-v0/IJSIgBaNNnxmHiGC/lib/python3.14/site-packages/mcp_weather_server/tools/tools_time.py\", line 12, in <module>\n    from .. import utils\n  File \"/Users/runner/.cache/uv/archive-v0/IJSIgBaNNnxmHiGC/lib/python3.14/site-packages/mcp_weather_server/utils.py\", line 7, in <module>\n    from mcp import McpError\nImportError: cannot import name 'McpError' from 'mcp' (/Users/runner/.cache/uv/archive-v0/IJSIgBaNNnxmHiGC/lib/python3.14/site-packages/mcp/__init__.py). Did you mean: 'MCPError'?",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-15T04:06:29.606Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 43 packages in 159ms\nAn executable named `mcp-weather-server` is not provided by package `mcp-weather-server`.\nThe following executables are available:\n- mcp_weather_server\n\nUse `uv tool run --from mcp-weather-server mcp_weather_server` instead.",
         "method": "pypi",
@@ -11,6 +18,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T02:45:24.037Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/COBfuvlTOtiIAnJJ/bin/mcp_weather_server\", line 6, in <module>\n    from mcp_weather_server import main\n  File \"/home/runner/.cache/uv/archive-v0/COBfuvlTOtiIAnJJ/lib/python3.13/site-packages/mcp_weather_server/__init__.py\", line 1, in <module>\n    from .server import main as async_main\n  File \"/home/runner/.cache/uv/archive-v0/COBfuvlTOtiIAnJJ/lib/python3.13/site-packages/mcp_weather_server/server.py\", line 26, in <module>\n    from .tools.toolhandler import ToolHandler\n  File \"/home/runner/.cache/uv/archive-v0/COBfuvlTOtiIAnJJ/lib/python3.13/site-packages/mcp_weather_server/tools/__init__.py\", line 4, in <module>\n    from .tools_time import *\n  File \"/home/runner/.cache/uv/archive-v0/COBfuvlTOtiIAnJJ/lib/python3.13/site-packages/mcp_weather_server/tools/tools_time.py\", line 12, in <module>\n    from .. import utils\n  File \"/home/runner/.cache/uv/archive-v0/COBfuvlTOtiIAnJJ/lib/python3.13/site-packages/mcp_weather_server/utils.py\", line 7, in <module>\n    from mcp import McpError\nImportError: cannot import name 'McpError' from 'mcp' (/home/runner/.cache/uv/archive-v0/COBfuvlTOtiIAnJJ/lib/python3.13/site-packages/mcp/__init__.py). Did you mean: 'MCPError'?",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-15T04:06:26.501Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 43 packages in 28ms\nAn executable named `mcp-weather-server` is not provided by package `mcp-weather-server`.\nThe following executables are available:\n- mcp_weather_server\n\nUse `uv tool run --from mcp-weather-server mcp_weather_server` instead.",
         "method": "pypi",
@@ -19,6 +33,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\RbRJxekoYymV_bOy\\Scripts\\mcp_weather_server.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\RbRJxekoYymV_bOy\\Lib\\site-packages\\mcp_weather_server\\__init__.py\", line 1, in <module>\r\n    from .server import main as async_main\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\RbRJxekoYymV_bOy\\Lib\\site-packages\\mcp_weather_server\\server.py\", line 26, in <module>\r\n    from .tools.toolhandler import ToolHandler\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\RbRJxekoYymV_bOy\\Lib\\site-packages\\mcp_weather_server\\tools\\__init__.py\", line 4, in <module>\r\n    from .tools_time import *\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\RbRJxekoYymV_bOy\\Lib\\site-packages\\mcp_weather_server\\tools\\tools_time.py\", line 12, in <module>\r\n    from .. import utils\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\RbRJxekoYymV_bOy\\Lib\\site-packages\\mcp_weather_server\\utils.py\", line 7, in <module>\r\n    from mcp import McpError\r\nImportError: cannot import name 'McpError' from 'mcp' (C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\RbRJxekoYymV_bOy\\Lib\\site-packages\\mcp\\__init__.py). Did you mean: 'MCPError'?",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-15T04:06:54.549Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 45 packages in 8.80s\nAn executable named `mcp-weather-server` is not provided by package `mcp-weather-server`.\nThe following executables are available:\n- mcp_weather_server.exe\n\nUse `uv tool run --from mcp-weather-server mcp_weather_server.exe` instead.",

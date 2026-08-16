@@ -1,0 +1,102 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 7666,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "send_mail",
+          "send_template",
+          "add_contact",
+          "list_contacts",
+          "delete_contact",
+          "search_contacts",
+          "get_contact",
+          "list_lists",
+          "create_list",
+          "delete_list",
+          "list_templates",
+          "create_template",
+          "list_suppressions",
+          "add_suppression",
+          "list_unsubscribe_groups",
+          "get_bounces",
+          "delete_bounce",
+          "cancel_scheduled_send",
+          "get_event_webhook_settings",
+          "get_stats"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 3934,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "send_mail",
+          "send_template",
+          "add_contact",
+          "list_contacts",
+          "delete_contact",
+          "search_contacts",
+          "get_contact",
+          "list_lists",
+          "create_list",
+          "delete_list",
+          "list_templates",
+          "create_template",
+          "list_suppressions",
+          "add_suppression",
+          "list_unsubscribe_groups",
+          "get_bounces",
+          "delete_bounce",
+          "cancel_scheduled_send",
+          "get_event_webhook_settings",
+          "get_stats"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 173707,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "send_mail",
+          "send_template",
+          "add_contact",
+          "list_contacts",
+          "delete_contact",
+          "search_contacts",
+          "get_contact",
+          "list_lists",
+          "create_list",
+          "delete_list",
+          "list_templates",
+          "create_template",
+          "list_suppressions",
+          "add_suppression",
+          "list_unsubscribe_groups",
+          "get_bounces",
+          "delete_bounce",
+          "cancel_scheduled_send",
+          "get_event_webhook_settings",
+          "get_stats"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-sendgrid",
+  "slug": "io.github.codespar__mcp-sendgrid"
+}

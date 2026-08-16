@@ -2,6 +2,28 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 4865,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "discourse_select_site",
+          "discourse_search",
+          "discourse_filter_topics",
+          "discourse_read_topic",
+          "discourse_read_post",
+          "discourse_get_user",
+          "discourse_list_user_posts",
+          "discourse_list_users",
+          "discourse_get_chat_messages",
+          "discourse_get_draft",
+          "discourse_get_query",
+          "discourse_run_query"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:28.268Z",
         "method": "npm",
         "runId": "2026-08-15T04-06-28Z-bd83fc",
@@ -24,6 +46,28 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 3841,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "discourse_select_site",
+          "discourse_search",
+          "discourse_filter_topics",
+          "discourse_read_topic",
+          "discourse_read_post",
+          "discourse_get_user",
+          "discourse_list_user_posts",
+          "discourse_list_users",
+          "discourse_get_chat_messages",
+          "discourse_get_draft",
+          "discourse_get_query",
+          "discourse_run_query"
+        ]
+      },
       {
         "date": "2026-08-15T04:06:32.275Z",
         "method": "npm",

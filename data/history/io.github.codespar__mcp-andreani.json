@@ -1,0 +1,96 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 9591,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_shipment",
+          "get_shipment",
+          "track_shipment",
+          "get_rates",
+          "list_branches",
+          "create_label",
+          "get_tracking_history",
+          "cancel_shipment",
+          "get_label_pdf",
+          "list_tracking_by_date",
+          "validate_postal_code",
+          "create_pickup",
+          "list_pickups",
+          "cancel_pickup",
+          "create_return",
+          "list_returns",
+          "list_products",
+          "get_invoice"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 4715,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_shipment",
+          "get_shipment",
+          "track_shipment",
+          "get_rates",
+          "list_branches",
+          "create_label",
+          "get_tracking_history",
+          "cancel_shipment",
+          "get_label_pdf",
+          "list_tracking_by_date",
+          "validate_postal_code",
+          "create_pickup",
+          "list_pickups",
+          "cancel_pickup",
+          "create_return",
+          "list_returns",
+          "list_products",
+          "get_invoice"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 198441,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_shipment",
+          "get_shipment",
+          "track_shipment",
+          "get_rates",
+          "list_branches",
+          "create_label",
+          "get_tracking_history",
+          "cancel_shipment",
+          "get_label_pdf",
+          "list_tracking_by_date",
+          "validate_postal_code",
+          "create_pickup",
+          "list_pickups",
+          "cancel_pickup",
+          "create_return",
+          "list_returns",
+          "list_products",
+          "get_invoice"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-andreani",
+  "slug": "io.github.codespar__mcp-andreani"
+}

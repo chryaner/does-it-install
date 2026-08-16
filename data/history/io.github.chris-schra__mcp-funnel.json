@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage:\n  npx mcp-funnel                    # Uses .mcp-funnel.json from current directory\n  npx mcp-funnel path/to/config.json # Uses specified config file\n\nExample config (.mcp-funnel.json):\n{\n  \"servers\": [\n    {\n      \"name\": \"github\",\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@modelcontextprotocol/server-github\"\n      ],\n      \"env\": {\n        \"GITHUB_TOKEN\": \"your-token-here\"\n      }\n    },\n    {\n      \"name\": \"memory\",\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@modelcontextprotocol/server-memory\"\n      ]\n    }\n  ],\n  \"hideTools\": [\n    \"github__list_workflow_runs\",\n    \"github__get_workflow_run_logs\",\n    \"memory__debug_*\",\n    \"memory__dashboard_*\"\n  ]\n}",
+        "installMs": 3595,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "needs_config"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage:\n  npx mcp-funnel                    # Uses .mcp-funnel.json from current directory\n  npx mcp-funnel path/to/config.json # Uses specified config file\n\nExample config (.mcp-funnel.json):\n{\n  \"servers\": [\n    {\n      \"name\": \"github\",\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@modelcontextprotocol/server-github\"\n      ],\n      \"env\": {\n        \"GITHUB_TOKEN\": \"your-token-here\"\n      }\n    },\n    {\n      \"name\": \"memory\",\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@modelcontextprotocol/server-memory\"\n      ]\n    }\n  ],\n  \"hideTools\": [\n    \"github__list_workflow_runs\",\n    \"github__get_workflow_run_logs\",\n    \"memory__debug_*\",\n    \"memory__dashboard_*\"\n  ]\n}",
+        "installMs": 3758,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "needs_config"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage:\n  npx mcp-funnel                    # Uses .mcp-funnel.json from current directory\n  npx mcp-funnel path/to/config.json # Uses specified config file\n\nExample config (.mcp-funnel.json):\n{\n  \"servers\": [\n    {\n      \"name\": \"github\",\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@modelcontextprotocol/server-github\"\n      ],\n      \"env\": {\n        \"GITHUB_TOKEN\": \"your-token-here\"\n      }\n    },\n    {\n      \"name\": \"memory\",\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@modelcontextprotocol/server-memory\"\n      ]\n    }\n  ],\n  \"hideTools\": [\n    \"github__list_workflow_runs\",\n    \"github__get_workflow_run_logs\",\n    \"memory__debug_*\",\n    \"memory__dashboard_*\"\n  ]\n}",
+        "installMs": 192487,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "needs_config"
+      }
+    ]
+  },
+  "serverId": "io.github.chris-schra/mcp-funnel",
+  "slug": "io.github.chris-schra__mcp-funnel"
+}

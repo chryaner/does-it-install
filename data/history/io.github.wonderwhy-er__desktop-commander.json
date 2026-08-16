@@ -1,0 +1,92 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 63789,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 26,
+        "toolNames": [
+          "get_config",
+          "set_config_value",
+          "read_file",
+          "read_multiple_files",
+          "write_file",
+          "write_pdf",
+          "create_directory",
+          "list_directory",
+          "move_file",
+          "start_search",
+          "get_more_search_results",
+          "stop_search",
+          "list_searches",
+          "get_file_info",
+          "edit_block",
+          "start_process",
+          "read_process_output",
+          "interact_with_process",
+          "force_terminate",
+          "list_sessions",
+          "list_processes",
+          "kill_process",
+          "get_usage_stats",
+          "get_recent_tool_calls",
+          "give_feedback_to_desktop_commander",
+          "get_prompts"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 34263,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 26,
+        "toolNames": [
+          "get_config",
+          "set_config_value",
+          "read_file",
+          "read_multiple_files",
+          "write_file",
+          "write_pdf",
+          "create_directory",
+          "list_directory",
+          "move_file",
+          "start_search",
+          "get_more_search_results",
+          "stop_search",
+          "list_searches",
+          "get_file_info",
+          "edit_block",
+          "start_process",
+          "read_process_output",
+          "interact_with_process",
+          "force_terminate",
+          "list_sessions",
+          "list_processes",
+          "kill_process",
+          "get_usage_stats",
+          "get_recent_tool_calls",
+          "give_feedback_to_desktop_commander",
+          "get_prompts"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "npm install @wonderwhy-er/desktop-commander@0.2.47 timed out after 600s",
+        "installMs": 600188,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "io.github.wonderwhy-er/desktop-commander",
+  "slug": "io.github.wonderwhy-er__desktop-commander"
+}

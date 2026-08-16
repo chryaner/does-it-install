@@ -1,0 +1,69 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 8679,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "create_user",
+          "get_user",
+          "update_user",
+          "create_card",
+          "get_card",
+          "list_cards",
+          "update_card_status",
+          "list_transactions",
+          "get_transaction"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 4741,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "create_user",
+          "get_user",
+          "update_user",
+          "create_card",
+          "get_card",
+          "list_cards",
+          "update_card_status",
+          "list_transactions",
+          "get_transaction"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 111842,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "create_user",
+          "get_user",
+          "update_user",
+          "create_card",
+          "get_card",
+          "list_cards",
+          "update_card_status",
+          "list_transactions",
+          "get_transaction"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-pomelo",
+  "slug": "io.github.codespar__mcp-pomelo"
+}

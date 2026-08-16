@@ -1,0 +1,90 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 5242,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "get_exchange_rates",
+          "list_currencies",
+          "get_official_rate",
+          "get_currency_history",
+          "list_variables",
+          "get_variable_history",
+          "get_uva_value",
+          "get_monetary_base",
+          "get_reserves",
+          "get_interest_rates",
+          "get_inflation",
+          "get_badlar_rate",
+          "get_tm20_rate",
+          "get_leliq_rate",
+          "list_cheque_entities",
+          "validate_cheque"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 3976,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "get_exchange_rates",
+          "list_currencies",
+          "get_official_rate",
+          "get_currency_history",
+          "list_variables",
+          "get_variable_history",
+          "get_uva_value",
+          "get_monetary_base",
+          "get_reserves",
+          "get_interest_rates",
+          "get_inflation",
+          "get_badlar_rate",
+          "get_tm20_rate",
+          "get_leliq_rate",
+          "list_cheque_entities",
+          "validate_cheque"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 116245,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "get_exchange_rates",
+          "list_currencies",
+          "get_official_rate",
+          "get_currency_history",
+          "list_variables",
+          "get_variable_history",
+          "get_uva_value",
+          "get_monetary_base",
+          "get_reserves",
+          "get_interest_rates",
+          "get_inflation",
+          "get_badlar_rate",
+          "get_tm20_rate",
+          "get_leliq_rate",
+          "list_cheque_entities",
+          "validate_cheque"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-bcra",
+  "slug": "io.github.codespar__mcp-bcra"
+}

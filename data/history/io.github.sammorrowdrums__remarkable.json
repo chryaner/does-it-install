@@ -1,0 +1,78 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "remarkable_read",
+          "remarkable_browse",
+          "remarkable_recent",
+          "remarkable_search",
+          "remarkable_status",
+          "remarkable_image",
+          "remarkable_upload",
+          "remarkable_markdown_to_pdf",
+          "remarkable_mkdir",
+          "remarkable_move",
+          "remarkable_rename",
+          "remarkable_delete",
+          "remarkable_canvas"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "remarkable_read",
+          "remarkable_browse",
+          "remarkable_recent",
+          "remarkable_search",
+          "remarkable_status",
+          "remarkable_image",
+          "remarkable_upload",
+          "remarkable_markdown_to_pdf",
+          "remarkable_mkdir",
+          "remarkable_move",
+          "remarkable_rename",
+          "remarkable_delete",
+          "remarkable_canvas"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "remarkable_read",
+          "remarkable_browse",
+          "remarkable_recent",
+          "remarkable_search",
+          "remarkable_status",
+          "remarkable_image",
+          "remarkable_upload",
+          "remarkable_markdown_to_pdf",
+          "remarkable_mkdir",
+          "remarkable_move",
+          "remarkable_rename",
+          "remarkable_delete",
+          "remarkable_canvas"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.SamMorrowDrums/remarkable",
+  "slug": "io.github.sammorrowdrums__remarkable"
+}

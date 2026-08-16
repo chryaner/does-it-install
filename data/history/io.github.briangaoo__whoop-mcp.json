@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: r after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nUnexpected token 'N', \"  NO_COLOR=1\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'F', \"First-time\"... is not valid JSON\nUnexpected token 'c', \"  cd /privat\"... is not valid JSON\nUnexpected token 'p', \"  npm install\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'R', \"Repo: @bri\"... is not valid JSON\nUnexpected end of JSON input\n--- stderr (tail) ---\n██╗    ██╗██╗  ██╗ ██████╗  ██████╗ ██████╗     ███╗   ███╗ ██████╗██████╗ \n   ██║    ██║██║  ██║██╔═══██╗██╔═══██╗██╔══██╗    ████╗ ████║██╔════╝██╔══██╗\n   ██║ █╗ ██║███████║██║   ██║██║   ██║██████╔╝    ██╔████╔██║██║     ██████╔╝\n   ██║███╗██║██╔══██║██║   ██║██║   ██║██╔═══╝     ██║╚██╔╝██║██║     ██╔═══╝ \n   ╚███╔███╔╝██║  ██║╚██████╔╝╚██████╔╝██║         ██║ ╚═╝ ██║╚██████╗██║     \n    ╚══╝╚══╝ ╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝         ╚═╝     ╚═╝ ╚═════╝╚═╝     \n\n   ▁▁▁▁▂▂▆▂▁▁▁▁▁▁▁▁▂▂▆▂▁▁▁▁▁▁▁▁▂▂▆▂▁▁▁▁▁▁▁▁▂▂▆▂▁▁▁▁▁▁▁▁▂▂▆▂▁▁▁▁▁▁▁▁▂▂▆▂▁▁▁\n\n   v1.3.0  ·  48 tools  ·  47 microservices  ·  311 endpoints",
+        "installMs": 8554,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: r after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nUnexpected token 'N', \"  NO_COLOR=1\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'F', \"First-time\"... is not valid JSON\nUnexpected token 'c', \"  cd /tmp/do\"... is not valid JSON\nUnexpected token 'p', \"  npm install\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'R', \"Repo: @bri\"... is not valid JSON\nUnexpected end of JSON input\n--- stderr (tail) ---\n██╗    ██╗██╗  ██╗ ██████╗  ██████╗ ██████╗     ███╗   ███╗ ██████╗██████╗ \n   ██║    ██║██║  ██║██╔═══██╗██╔═══██╗██╔══██╗    ████╗ ████║██╔════╝██╔══██╗\n   ██║ █╗ ██║███████║██║   ██║██║   ██║██████╔╝    ██╔████╔██║██║     ██████╔╝\n   ██║███╗██║██╔══██║██║   ██║██║   ██║██╔═══╝     ██║╚██╔╝██║██║     ██╔═══╝ \n   ╚███╔███╔╝██║  ██║╚██████╔╝╚██████╔╝██║         ██║ ╚═╝ ██║╚██████╗██║     \n    ╚══╝╚══╝ ╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝         ╚═╝     ╚═╝ ╚═════╝╚═╝     \n\n   ▁▁▁▁▂▂▆▂▁▁▁▁▁▁▁▁▂▂▆▂▁▁▁▁▁▁▁▁▂▂▆▂▁▁▁▁▁▁▁▁▂▂▆▂▁▁▁▁▁▁▁▁▂▂▆▂▁▁▁▁▁▁▁▁▂▂▆▂▁▁▁\n\n   v1.3.0  ·  48 tools  ·  47 microservices  ·  311 endpoints",
+        "installMs": 4002,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: r after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nUnexpected token 'N', \"  NO_COLOR=1\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'F', \"First-time\"... is not valid JSON\nUnexpected token 'c', \"  cd C:\\User\"... is not valid JSON\nUnexpected token 'p', \"  npm install\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'R', \"Repo: @bri\"... is not valid JSON\nUnexpected end of JSON input\n--- stderr (tail) ---\n██╗    ██╗██╗  ██╗ ██████╗  ██████╗ ██████╗     ███╗   ███╗ ██████╗██████╗ \n   ██║    ██║██║  ██║██╔═══██╗██╔═══██╗██╔══██╗    ████╗ ████║██╔════╝██╔══██╗\n   ██║ █╗ ██║███████║██║   ██║██║   ██║██████╔╝    ██╔████╔██║██║     ██████╔╝\n   ██║███╗██║██╔══██║██║   ██║██║   ██║██╔═══╝     ██║╚██╔╝██║██║     ██╔═══╝ \n   ╚███╔███╔╝██║  ██║╚██████╔╝╚██████╔╝██║         ██║ ╚═╝ ██║╚██████╗██║     \n    ╚══╝╚══╝ ╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝         ╚═╝     ╚═╝ ╚═════╝╚═╝     \n\n   ▁▁▁▁▂▂▆▂▁▁▁▁▁▁▁▁▂▂▆▂▁▁▁▁▁▁▁▁▂▂▆▂▁▁▁▁▁▁▁▁▂▂▆▂▁▁▁▁▁▁▁▁▂▂▆▂▁▁▁▁▁▁▁▁▂▂▆▂▁▁▁\n\n   v1.3.0  ·  48 tools  ·  47 microservices  ·  311 endpoints",
+        "installMs": 105847,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "io.github.briangaoo/whoop-mcp",
+  "slug": "io.github.briangaoo__whoop-mcp"
+}

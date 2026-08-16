@@ -1,0 +1,80 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 27659,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "inspect_glb",
+          "validate_glb",
+          "optimize_glb",
+          "thumbnail_glb",
+          "viewer_url",
+          "list_avatars",
+          "list_animations",
+          "spawn_avatar",
+          "dress_avatar",
+          "render_avatar",
+          "generate_avatar",
+          "speak",
+          "wallet_create",
+          "wallet_balance",
+          "wallet_send",
+          "pump_snapshot",
+          "pump_buy",
+          "pump_launch",
+          "pump_collect_fees",
+          "ens_sns_resolve"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 13165,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "inspect_glb",
+          "validate_glb",
+          "optimize_glb",
+          "thumbnail_glb",
+          "viewer_url",
+          "list_avatars",
+          "list_animations",
+          "spawn_avatar",
+          "dress_avatar",
+          "render_avatar",
+          "generate_avatar",
+          "speak",
+          "wallet_create",
+          "wallet_balance",
+          "wallet_send",
+          "pump_snapshot",
+          "pump_buy",
+          "pump_launch",
+          "pump_collect_fees",
+          "ens_sns_resolve"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "npm install @three-ws/avatar-agent@1.2.2 timed out after 600s",
+        "installMs": 600291,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "io.github.nirholas/3D-AI-Agent-Avatar",
+  "slug": "io.github.nirholas__3d-ai-agent-avatar"
+}

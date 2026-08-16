@@ -1,0 +1,69 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 8502,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "discover",
+          "inspect",
+          "probe",
+          "call",
+          "usage_history",
+          "credits_ledger",
+          "search_tools",
+          "get_tools_by_ids",
+          "execute_tool"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 3887,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "discover",
+          "inspect",
+          "probe",
+          "call",
+          "usage_history",
+          "credits_ledger",
+          "search_tools",
+          "get_tools_by_ids",
+          "execute_tool"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 129686,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "discover",
+          "inspect",
+          "probe",
+          "call",
+          "usage_history",
+          "credits_ledger",
+          "search_tools",
+          "get_tools_by_ids",
+          "execute_tool"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.QVerisAI/mcp",
+  "slug": "io.github.qverisai__mcp"
+}

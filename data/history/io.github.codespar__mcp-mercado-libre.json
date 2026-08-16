@@ -1,0 +1,108 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 3961,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "search_products",
+          "get_product",
+          "get_product_description",
+          "list_categories",
+          "get_category",
+          "predict_category",
+          "get_trends",
+          "list_listings",
+          "update_item",
+          "get_seller",
+          "list_orders",
+          "get_order",
+          "get_user",
+          "get_shipment",
+          "get_shipment_history",
+          "get_shipping_label",
+          "list_questions",
+          "answer_question",
+          "list_messages",
+          "send_message",
+          "list_reviews",
+          "create_promotion"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 2950,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "search_products",
+          "get_product",
+          "get_product_description",
+          "list_categories",
+          "get_category",
+          "predict_category",
+          "get_trends",
+          "list_listings",
+          "update_item",
+          "get_seller",
+          "list_orders",
+          "get_order",
+          "get_user",
+          "get_shipment",
+          "get_shipment_history",
+          "get_shipping_label",
+          "list_questions",
+          "answer_question",
+          "list_messages",
+          "send_message",
+          "list_reviews",
+          "create_promotion"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 131602,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "search_products",
+          "get_product",
+          "get_product_description",
+          "list_categories",
+          "get_category",
+          "predict_category",
+          "get_trends",
+          "list_listings",
+          "update_item",
+          "get_seller",
+          "list_orders",
+          "get_order",
+          "get_user",
+          "get_shipment",
+          "get_shipment_history",
+          "get_shipping_label",
+          "list_questions",
+          "answer_question",
+          "list_messages",
+          "send_message",
+          "list_reviews",
+          "create_promotion"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-mercado-libre",
+  "slug": "io.github.codespar__mcp-mercado-libre"
+}

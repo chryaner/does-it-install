@@ -1,0 +1,102 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 2514,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "find_path",
+          "find_symbol",
+          "get_call_tree",
+          "get_callees",
+          "get_callers",
+          "get_class",
+          "get_file_summary",
+          "get_function",
+          "get_imports",
+          "get_stats",
+          "grep_body",
+          "grep_code",
+          "grep_text",
+          "health",
+          "list_files",
+          "read_file",
+          "search_class",
+          "search_function",
+          "search_text",
+          "stat_file"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 1459,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "find_path",
+          "find_symbol",
+          "get_call_tree",
+          "get_callees",
+          "get_callers",
+          "get_class",
+          "get_file_summary",
+          "get_function",
+          "get_imports",
+          "get_stats",
+          "grep_body",
+          "grep_code",
+          "grep_text",
+          "health",
+          "list_files",
+          "read_file",
+          "search_class",
+          "search_function",
+          "search_text",
+          "stat_file"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 3030,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "find_path",
+          "find_symbol",
+          "get_call_tree",
+          "get_callees",
+          "get_callers",
+          "get_class",
+          "get_file_summary",
+          "get_function",
+          "get_imports",
+          "get_stats",
+          "grep_body",
+          "grep_code",
+          "grep_text",
+          "health",
+          "list_files",
+          "read_file",
+          "search_class",
+          "search_function",
+          "search_text",
+          "stat_file"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.Regsorm/code-index",
+  "slug": "io.github.regsorm__code-index"
+}

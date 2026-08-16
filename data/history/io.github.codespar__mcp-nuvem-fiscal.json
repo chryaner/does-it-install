@@ -1,0 +1,114 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 3868,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "create_nfe",
+          "get_nfe",
+          "cancel_nfe",
+          "create_nfse",
+          "get_nfse",
+          "cancel_nfse",
+          "create_nfce",
+          "consult_cnpj",
+          "consult_cep",
+          "register_company",
+          "create_cte",
+          "get_cte",
+          "cancel_cte",
+          "create_mdfe",
+          "get_nfe_events",
+          "cancel_nfce",
+          "send_correction_letter_nfe",
+          "send_correction_letter_cte",
+          "get_nfe_batch",
+          "get_mdfe",
+          "cancel_mdfe",
+          "close_mdfe",
+          "list_empresas",
+          "upload_certificate"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 2977,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "create_nfe",
+          "get_nfe",
+          "cancel_nfe",
+          "create_nfse",
+          "get_nfse",
+          "cancel_nfse",
+          "create_nfce",
+          "consult_cnpj",
+          "consult_cep",
+          "register_company",
+          "create_cte",
+          "get_cte",
+          "cancel_cte",
+          "create_mdfe",
+          "get_nfe_events",
+          "cancel_nfce",
+          "send_correction_letter_nfe",
+          "send_correction_letter_cte",
+          "get_nfe_batch",
+          "get_mdfe",
+          "cancel_mdfe",
+          "close_mdfe",
+          "list_empresas",
+          "upload_certificate"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 128931,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "create_nfe",
+          "get_nfe",
+          "cancel_nfe",
+          "create_nfse",
+          "get_nfse",
+          "cancel_nfse",
+          "create_nfce",
+          "consult_cnpj",
+          "consult_cep",
+          "register_company",
+          "create_cte",
+          "get_cte",
+          "cancel_cte",
+          "create_mdfe",
+          "get_nfe_events",
+          "cancel_nfce",
+          "send_correction_letter_nfe",
+          "send_correction_letter_cte",
+          "get_nfe_batch",
+          "get_mdfe",
+          "cancel_mdfe",
+          "close_mdfe",
+          "list_empresas",
+          "upload_certificate"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-nuvem-fiscal",
+  "slug": "io.github.codespar__mcp-nuvem-fiscal"
+}

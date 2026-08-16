@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "errorExcerpt": "listTools failed: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"No valid authentication. Sign in at /connect to get your MCP token.\",\"oauth\":{\"protocol\":\"oauth_2_1\",\"preferred_flow\":\"authorization_code_pkce\",\"authorization_code_pkce\":true,\"resource_metadata\":\"https://notfair.co/.well-known/oauth-protected-resource/api/mcp/meta_ads\"},\"fallback\":{\"url\":\"https://notfair.co/connect\",\"label\":\"Legacy/manual token fallback\",\"preferred\":false}}",
+        "method": "remote-http",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "tools_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "errorExcerpt": "listTools failed: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"No valid authentication. Sign in at /connect to get your MCP token.\",\"oauth\":{\"protocol\":\"oauth_2_1\",\"preferred_flow\":\"authorization_code_pkce\",\"authorization_code_pkce\":true,\"resource_metadata\":\"https://notfair.co/.well-known/oauth-protected-resource/api/mcp/meta_ads\"},\"fallback\":{\"url\":\"https://notfair.co/connect\",\"label\":\"Legacy/manual token fallback\",\"preferred\":false}}",
+        "method": "remote-http",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "tools_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "listTools failed: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"No valid authentication. Sign in at /connect to get your MCP token.\",\"oauth\":{\"protocol\":\"oauth_2_1\",\"preferred_flow\":\"authorization_code_pkce\",\"authorization_code_pkce\":true,\"resource_metadata\":\"https://notfair.co/.well-known/oauth-protected-resource/api/mcp/meta_ads\"},\"fallback\":{\"url\":\"https://notfair.co/connect\",\"label\":\"Legacy/manual token fallback\",\"preferred\":false}}",
+        "method": "remote-http",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "tools_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.nowork-studio/notfair-meta-ads",
+  "slug": "io.github.nowork-studio__notfair-meta-ads"
+}

@@ -1,0 +1,96 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 3927,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "send_order_for_analysis",
+          "get_order",
+          "update_order_status",
+          "report_chargeback",
+          "report_order_approved",
+          "report_order_declined",
+          "add_to_blocklist",
+          "query_blocklist",
+          "update_blocklist_entry",
+          "remove_from_blocklist",
+          "add_to_allowlist",
+          "query_allowlist",
+          "update_allowlist_entry",
+          "remove_from_allowlist",
+          "add_to_reviewlist",
+          "query_reviewlist",
+          "update_reviewlist_entry",
+          "remove_from_reviewlist"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 2967,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "send_order_for_analysis",
+          "get_order",
+          "update_order_status",
+          "report_chargeback",
+          "report_order_approved",
+          "report_order_declined",
+          "add_to_blocklist",
+          "query_blocklist",
+          "update_blocklist_entry",
+          "remove_from_blocklist",
+          "add_to_allowlist",
+          "query_allowlist",
+          "update_allowlist_entry",
+          "remove_from_allowlist",
+          "add_to_reviewlist",
+          "query_reviewlist",
+          "update_reviewlist_entry",
+          "remove_from_reviewlist"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 136351,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "send_order_for_analysis",
+          "get_order",
+          "update_order_status",
+          "report_chargeback",
+          "report_order_approved",
+          "report_order_declined",
+          "add_to_blocklist",
+          "query_blocklist",
+          "update_blocklist_entry",
+          "remove_from_blocklist",
+          "add_to_allowlist",
+          "query_allowlist",
+          "update_allowlist_entry",
+          "remove_from_allowlist",
+          "add_to_reviewlist",
+          "query_reviewlist",
+          "update_reviewlist_entry",
+          "remove_from_reviewlist"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-konduto",
+  "slug": "io.github.codespar__mcp-konduto"
+}

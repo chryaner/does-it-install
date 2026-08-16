@@ -1,0 +1,48 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "skipped"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 758,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "workflowy_get",
+          "workflowy_id",
+          "workflowy_list",
+          "workflowy_report_children",
+          "workflowy_report_count",
+          "workflowy_report_created",
+          "workflowy_report_mirrors",
+          "workflowy_report_modified",
+          "workflowy_search",
+          "workflowy_targets"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "skipped"
+      }
+    ]
+  },
+  "serverId": "io.github.mholzen/workflowy",
+  "slug": "io.github.mholzen__workflowy"
+}

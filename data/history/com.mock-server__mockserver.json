@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "skipped"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: JSON input\nUnexpected token 'N', \"Note: cont\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'W', \"WARNING: T\"... is not valid JSON\nUnexpected non-whitespace character after JSON at position 4 (line 1 column 5)\nNo number after minus sign in JSON at position 2 (line 1 column 3)\nNo number after minus sign in JSON at position 2 (line 1 column 3)\nNo number after minus sign in JSON at position 2 (line 1 column 3)\nNo number after minus sign in JSON at position 2 (line 1 column 3)\n--- stderr (tail) ---\nWARNING: A restricted method in java.lang.System has been called\nWARNING: java.lang.System::loadLibrary has been called by shaded_package.io.netty.util.internal.NativeLibraryUtil in an unnamed module (file:/mockserver-netty-jar-with-dependencies.jar)\nWARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module\nWARNING: Restricted methods will be blocked in a future release unless native access is enabled",
+        "installMs": 5124,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "timeout"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "skipped"
+      }
+    ]
+  },
+  "serverId": "com.mock-server/mockserver",
+  "slug": "com.mock-server__mockserver"
+}

@@ -1,0 +1,96 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 25388,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "send_email",
+          "reply_to_message",
+          "list_messages",
+          "get_message",
+          "get_attachment_data",
+          "list_agents",
+          "whoami",
+          "create_agent",
+          "update_agent",
+          "delete_agent",
+          "list_domains",
+          "register_domain",
+          "verify_domain",
+          "delete_domain",
+          "list_pending_messages",
+          "get_pending_message",
+          "approve_pending_message",
+          "reject_pending_message"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 3708,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "send_email",
+          "reply_to_message",
+          "list_messages",
+          "get_message",
+          "get_attachment_data",
+          "list_agents",
+          "whoami",
+          "create_agent",
+          "update_agent",
+          "delete_agent",
+          "list_domains",
+          "register_domain",
+          "verify_domain",
+          "delete_domain",
+          "list_pending_messages",
+          "get_pending_message",
+          "approve_pending_message",
+          "reject_pending_message"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 130897,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "send_email",
+          "reply_to_message",
+          "list_messages",
+          "get_message",
+          "get_attachment_data",
+          "list_agents",
+          "whoami",
+          "create_agent",
+          "update_agent",
+          "delete_agent",
+          "list_domains",
+          "register_domain",
+          "verify_domain",
+          "delete_domain",
+          "list_pending_messages",
+          "get_pending_message",
+          "approve_pending_message",
+          "reject_pending_message"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.Mnexa-AI/mcp-server",
+  "slug": "io.github.mnexa-ai__mcp-server"
+}

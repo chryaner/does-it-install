@@ -1,0 +1,102 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 8801,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "initiate_account",
+          "initiate_transaction",
+          "get_transaction",
+          "list_transactions",
+          "get_transaction_details",
+          "retrieve_document_data",
+          "retrieve_similarity_score",
+          "delete_transaction",
+          "update_transaction_status",
+          "retrieve_credentials",
+          "cancel_transaction",
+          "retry_transaction",
+          "retrieve_extraction_data",
+          "retrieve_liveness_result",
+          "retrieve_facemap",
+          "retrieve_screening_result",
+          "retrieve_data_export",
+          "register_callback_url",
+          "delete_account",
+          "list_accounts"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 4036,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "initiate_account",
+          "initiate_transaction",
+          "get_transaction",
+          "list_transactions",
+          "get_transaction_details",
+          "retrieve_document_data",
+          "retrieve_similarity_score",
+          "delete_transaction",
+          "update_transaction_status",
+          "retrieve_credentials",
+          "cancel_transaction",
+          "retry_transaction",
+          "retrieve_extraction_data",
+          "retrieve_liveness_result",
+          "retrieve_facemap",
+          "retrieve_screening_result",
+          "retrieve_data_export",
+          "register_callback_url",
+          "delete_account",
+          "list_accounts"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 175429,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "initiate_account",
+          "initiate_transaction",
+          "get_transaction",
+          "list_transactions",
+          "get_transaction_details",
+          "retrieve_document_data",
+          "retrieve_similarity_score",
+          "delete_transaction",
+          "update_transaction_status",
+          "retrieve_credentials",
+          "cancel_transaction",
+          "retry_transaction",
+          "retrieve_extraction_data",
+          "retrieve_liveness_result",
+          "retrieve_facemap",
+          "retrieve_screening_result",
+          "retrieve_data_export",
+          "register_callback_url",
+          "delete_account",
+          "list_accounts"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-jumio",
+  "slug": "io.github.codespar__mcp-jumio"
+}

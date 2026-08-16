@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: spawn ENOEXEC\n    at ChildProcess.spawn (node:internal/child_process:420:11)\n    at spawn (node:child_process:787:9)\n    at runNativeBinary (/private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-wtePEX/node_modules/flutter-skill/bin/cli.js:125:18)\n    at main (/private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-wtePEX/node_modules/flutter-skill/bin/cli.js:93:5)\n    at Object.<anonymous> (/private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-wtePEX/node_modules/flutter-skill/bin/cli.js:321:1)\n    at Module._compile (node:internal/modules/cjs/loader:1781:14)\n    at Object..js (node:internal/modules/cjs/loader:1913:10)\n    at Module.load (node:internal/modules/cjs/loader:1505:32)\n    at Function._load (node:internal/modules/cjs/loader:1309:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19) {\n  errno: -8,\n  code: 'ENOEXEC',\n  syscall: 'spawn'\n}",
+        "installMs": 2063,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed",
+        "installMs": 932,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: spawn EFTYPE\n    at ChildProcess.spawn (node:internal/child_process:420:11)\n    at spawn (node:child_process:787:9)\n    at runNativeBinary (C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-YeLv0K\\node_modules\\flutter-skill\\bin\\cli.js:125:18)\n    at main (C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-YeLv0K\\node_modules\\flutter-skill\\bin\\cli.js:93:5)\n    at Object.<anonymous> (C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-YeLv0K\\node_modules\\flutter-skill\\bin\\cli.js:321:1)\n    at Module._compile (node:internal/modules/cjs/loader:1781:14)\n    at Object..js (node:internal/modules/cjs/loader:1913:10)\n    at Module.load (node:internal/modules/cjs/loader:1505:32)\n    at Function._load (node:internal/modules/cjs/loader:1309:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19) {\n  errno: -4028,\n  code: 'EFTYPE',\n  syscall: 'spawn'\n}",
+        "installMs": 6936,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.ai-dashboad/flutter-skill",
+  "slug": "io.github.ai-dashboad__flutter-skill"
+}

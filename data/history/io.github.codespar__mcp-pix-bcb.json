@@ -1,0 +1,96 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 3865,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_cob",
+          "get_cob",
+          "list_cobs",
+          "update_cob",
+          "create_cobv",
+          "list_cobv",
+          "update_cobv",
+          "get_pix",
+          "list_pix_received",
+          "create_devolucao",
+          "get_devolucao",
+          "create_pix_key",
+          "get_pix_key",
+          "list_pix_keys",
+          "request_key_portability",
+          "resolve_key_claim",
+          "set_webhook",
+          "delete_webhook"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 3295,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_cob",
+          "get_cob",
+          "list_cobs",
+          "update_cob",
+          "create_cobv",
+          "list_cobv",
+          "update_cobv",
+          "get_pix",
+          "list_pix_received",
+          "create_devolucao",
+          "get_devolucao",
+          "create_pix_key",
+          "get_pix_key",
+          "list_pix_keys",
+          "request_key_portability",
+          "resolve_key_claim",
+          "set_webhook",
+          "delete_webhook"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 128631,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_cob",
+          "get_cob",
+          "list_cobs",
+          "update_cob",
+          "create_cobv",
+          "list_cobv",
+          "update_cobv",
+          "get_pix",
+          "list_pix_received",
+          "create_devolucao",
+          "get_devolucao",
+          "create_pix_key",
+          "get_pix_key",
+          "list_pix_keys",
+          "request_key_portability",
+          "resolve_key_claim",
+          "set_webhook",
+          "delete_webhook"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-pix-bcb",
+  "slug": "io.github.codespar__mcp-pix-bcb"
+}

@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 2 packages in 5ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/Iel1z_gFAMAdF2La/bin/misakanet\", line 6, in <module>\n    from search_knowledge import main\nModuleNotFoundError: No module named 'search_knowledge'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 2 packages in 3ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/Io6DIuhrU8-ZV1TH/bin/misakanet\", line 6, in <module>\n    from search_knowledge import main\nModuleNotFoundError: No module named 'search_knowledge'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 2 packages in 442ms\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\lig3POvj4vSOTFuZ\\Scripts\\misakanet.exe\\__main__.py\", line 4, in <module>\r\nModuleNotFoundError: No module named 'search_knowledge'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.Ikalus1988/misakanet",
+  "slug": "io.github.ikalus1988__misakanet"
+}

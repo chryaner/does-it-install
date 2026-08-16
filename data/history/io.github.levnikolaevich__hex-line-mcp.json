@@ -1,0 +1,69 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 10840,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "read_file",
+          "edit_file",
+          "write_file",
+          "grep_search",
+          "outline",
+          "verify",
+          "inspect_path",
+          "changes",
+          "bulk_replace"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 4193,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "read_file",
+          "edit_file",
+          "write_file",
+          "grep_search",
+          "outline",
+          "verify",
+          "inspect_path",
+          "changes",
+          "bulk_replace"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 161070,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "read_file",
+          "edit_file",
+          "write_file",
+          "grep_search",
+          "outline",
+          "verify",
+          "inspect_path",
+          "changes",
+          "bulk_replace"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.levnikolaevich/hex-line-mcp",
+  "slug": "io.github.levnikolaevich__hex-line-mcp"
+}

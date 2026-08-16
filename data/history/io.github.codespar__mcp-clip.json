@@ -1,0 +1,60 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 7584,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "create_payment_link",
+          "get_payment_link",
+          "create_payment",
+          "get_payment",
+          "list_payments",
+          "refund_payment"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 4464,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "create_payment_link",
+          "get_payment_link",
+          "create_payment",
+          "get_payment",
+          "list_payments",
+          "refund_payment"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 112751,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "create_payment_link",
+          "get_payment_link",
+          "create_payment",
+          "get_payment",
+          "list_payments",
+          "refund_payment"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-clip",
+  "slug": "io.github.codespar__mcp-clip"
+}

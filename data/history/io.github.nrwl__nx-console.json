@@ -1,0 +1,48 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 885,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "nx_docs",
+          "nx_available_plugins"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 504,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "nx_docs",
+          "nx_available_plugins"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 4706,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "nx_docs",
+          "nx_available_plugins"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.nrwl/nx-console",
+  "slug": "io.github.nrwl__nx-console"
+}

@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "astro-mcp declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "installMs": 49311,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "spawn_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "astro-mcp declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "installMs": 33745,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "spawn_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "astro-mcp declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "installMs": 193174,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "spawn_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.morinokami/astro-mcp",
+  "slug": "io.github.morinokami__astro-mcp"
+}

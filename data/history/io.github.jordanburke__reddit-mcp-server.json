@@ -1,0 +1,111 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 7043,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "test_reddit_mcp_server",
+          "get_user_info",
+          "get_me",
+          "get_my_overview",
+          "get_my_saved",
+          "get_user_posts",
+          "get_user_comments",
+          "get_reddit_post",
+          "get_top_posts",
+          "browse_subreddit",
+          "get_subreddit_info",
+          "get_subreddit_rules",
+          "get_post_flairs",
+          "get_trending_subreddits",
+          "search_reddit",
+          "create_post",
+          "reply_to_post",
+          "delete_post",
+          "delete_comment",
+          "edit_post",
+          "edit_comment",
+          "get_post_comments",
+          "get_more_comments"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 5406,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "test_reddit_mcp_server",
+          "get_user_info",
+          "get_me",
+          "get_my_overview",
+          "get_my_saved",
+          "get_user_posts",
+          "get_user_comments",
+          "get_reddit_post",
+          "get_top_posts",
+          "browse_subreddit",
+          "get_subreddit_info",
+          "get_subreddit_rules",
+          "get_post_flairs",
+          "get_trending_subreddits",
+          "search_reddit",
+          "create_post",
+          "reply_to_post",
+          "delete_post",
+          "delete_comment",
+          "edit_post",
+          "edit_comment",
+          "get_post_comments",
+          "get_more_comments"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 178440,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "test_reddit_mcp_server",
+          "get_user_info",
+          "get_me",
+          "get_my_overview",
+          "get_my_saved",
+          "get_user_posts",
+          "get_user_comments",
+          "get_reddit_post",
+          "get_top_posts",
+          "browse_subreddit",
+          "get_subreddit_info",
+          "get_subreddit_rules",
+          "get_post_flairs",
+          "get_trending_subreddits",
+          "search_reddit",
+          "create_post",
+          "reply_to_post",
+          "delete_post",
+          "delete_comment",
+          "edit_post",
+          "edit_comment",
+          "get_post_comments",
+          "get_more_comments"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.jordanburke/reddit-mcp-server",
+  "slug": "io.github.jordanburke__reddit-mcp-server"
+}

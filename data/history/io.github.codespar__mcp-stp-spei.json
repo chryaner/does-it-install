@@ -1,0 +1,96 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 8181,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_transfer",
+          "get_transfer",
+          "list_transfers",
+          "cancel_transfer",
+          "get_balance",
+          "list_account_balances",
+          "validate_account",
+          "validate_clabe",
+          "list_banks",
+          "lookup_bank_by_code",
+          "get_cep",
+          "register_beneficiary",
+          "create_refund",
+          "list_refunds",
+          "conciliation_report",
+          "register_webhook",
+          "list_webhooks",
+          "delete_webhook"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 4001,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_transfer",
+          "get_transfer",
+          "list_transfers",
+          "cancel_transfer",
+          "get_balance",
+          "list_account_balances",
+          "validate_account",
+          "validate_clabe",
+          "list_banks",
+          "lookup_bank_by_code",
+          "get_cep",
+          "register_beneficiary",
+          "create_refund",
+          "list_refunds",
+          "conciliation_report",
+          "register_webhook",
+          "list_webhooks",
+          "delete_webhook"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 170852,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_transfer",
+          "get_transfer",
+          "list_transfers",
+          "cancel_transfer",
+          "get_balance",
+          "list_account_balances",
+          "validate_account",
+          "validate_clabe",
+          "list_banks",
+          "lookup_bank_by_code",
+          "get_cep",
+          "register_beneficiary",
+          "create_refund",
+          "list_refunds",
+          "conciliation_report",
+          "register_webhook",
+          "list_webhooks",
+          "delete_webhook"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-stp-spei",
+  "slug": "io.github.codespar__mcp-stp-spei"
+}

@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 56 packages in 437ms\n2026-08-16 02:49:58,155 - mcp_12306.utils.config - WARNING - 环境配置文件 /Users/runner/work/does-it-install/does-it-install/.env 不存在，使用默认配置\n2026-08-16 02:49:58,156 - mcp_12306.utils.config - INFO - 配置加载成功 - 主机: 0.0.0.0, 端口: 8000, 调试模式: False, 日志级别: INFO\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/cOtBqhM0rs0wrgv1/bin/mcp-server-12306\", line 12, in <module>\n    sys.exit(main())\n             ~~~~^^\n  File \"/Users/runner/.cache/uv/archive-v0/cOtBqhM0rs0wrgv1/lib/python3.14/site-packages/mcp_12306/cli.py\", line 44, in main\n    from mcp_12306.stdio_server import run_stdio_server\n  File \"/Users/runner/.cache/uv/archive-v0/cOtBqhM0rs0wrgv1/lib/python3.14/site-packages/mcp_12306/stdio_server.py\", line 46, in <module>\n    @server.list_tools()\n     ^^^^^^^^^^^^^^^^^\nAttributeError: 'Server' object has no attribute 'list_tools'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 56 packages in 19ms\n2026-08-16 02:47:32,918 - mcp_12306.utils.config - WARNING - 环境配置文件 /home/runner/work/does-it-install/does-it-install/.env 不存在，使用默认配置\n2026-08-16 02:47:32,919 - mcp_12306.utils.config - INFO - 配置加载成功 - 主机: 0.0.0.0, 端口: 8000, 调试模式: False, 日志级别: INFO\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/XssKoAWfIsocTS86/bin/mcp-server-12306\", line 12, in <module>\n    sys.exit(main())\n             ~~~~^^\n  File \"/home/runner/.cache/uv/archive-v0/XssKoAWfIsocTS86/lib/python3.13/site-packages/mcp_12306/cli.py\", line 44, in main\n    from mcp_12306.stdio_server import run_stdio_server\n  File \"/home/runner/.cache/uv/archive-v0/XssKoAWfIsocTS86/lib/python3.13/site-packages/mcp_12306/stdio_server.py\", line 46, in <module>\n    @server.list_tools()\n     ^^^^^^^^^^^^^^^^^\nAttributeError: 'Server' object has no attribute 'list_tools'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 57 packages in 10.90s\n2026-08-16 03:29:33,599 - mcp_12306.utils.config - WARNING - \\u73af\\u5883\\u914d\\u7f6e\\u6587\\u4ef6 D:\\a\\does-it-install\\does-it-install\\.env \\u4e0d\\u5b58\\u5728\\uff0c\\u4f7f\\u7528\\u9ed8\\u8ba4\\u914d\\u7f6e\r\n2026-08-16 03:29:33,600 - mcp_12306.utils.config - INFO - \\u914d\\u7f6e\\u52a0\\u8f7d\\u6210\\u529f - \\u4e3b\\u673a: 0.0.0.0, \\u7aef\\u53e3: 8000, \\u8c03\\u8bd5\\u6a21\\u5f0f: False, \\u65e5\\u5fd7\\u7ea7\\u522b: INFO\r\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\nNJSGk1tqGOkfWxa\\Scripts\\mcp-server-12306.exe\\__main__.py\", line 10, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\nNJSGk1tqGOkfWxa\\Lib\\site-packages\\mcp_12306\\cli.py\", line 44, in main\r\n    from mcp_12306.stdio_server import run_stdio_server\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\nNJSGk1tqGOkfWxa\\Lib\\site-packages\\mcp_12306\\stdio_server.py\", line 46, in <module>\r\n    @server.list_tools()\r\n     ^^^^^^^^^^^^^^^^^\r\nAttributeError: 'Server' object has no attribute 'list_tools'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.drfccv/mcp-server-12306",
+  "slug": "io.github.drfccv__mcp-server-12306"
+}

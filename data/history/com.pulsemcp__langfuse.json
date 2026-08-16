@@ -2,6 +2,20 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 3259,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "get_traces",
+          "get_trace_detail",
+          "get_observations",
+          "get_observation"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:29.606Z",
         "method": "npm",
         "runId": "2026-08-15T04-06-29Z-57cf45",
@@ -16,6 +30,20 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 3492,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "get_traces",
+          "get_trace_detail",
+          "get_observations",
+          "get_observation"
+        ]
+      },
       {
         "date": "2026-08-15T04:06:26.501Z",
         "method": "npm",

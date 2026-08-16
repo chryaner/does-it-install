@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "antigravity-link-extension declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "installMs": 7869,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "antigravity-link-extension declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "installMs": 5582,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "antigravity-link-extension declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "installMs": 68796,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "io.github.cafeTechne/antigravity-link",
+  "slug": "io.github.cafetechne__antigravity-link"
+}

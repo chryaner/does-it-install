@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "npm install @three-ws/agent-sniper@0.1.5 timed out after 1200s",
+        "installMs": 1200047,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "timeout"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "npm install @three-ws/agent-sniper@0.1.5 timed out after 1200s",
+        "installMs": 1200057,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "timeout"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "errorExcerpt": "npm install @three-ws/agent-sniper@0.1.5 timed out after 600s",
+        "installMs": 600303,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "io.github.nirholas/agent-sniper",
+  "slug": "io.github.nirholas__agent-sniper"
+}

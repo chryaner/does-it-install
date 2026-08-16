@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "skipped"
+      },
+      {
         "date": "2026-08-15T04:06:28.268Z",
         "errorExcerpt": "container (oci) distributions are not probed in v1",
         "method": "oci",
@@ -11,6 +19,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: ition 4 (line 1 column 5)\nUnexpected non-whitespace character after JSON at position 4 (line 1 column 5)\nUnexpected non-whitespace character after JSON at position 4 (line 1 column 5)\nUnexpected non-whitespace character after JSON at position 4 (line 1 column 5)\nUnexpected non-whitespace character after JSON at position 4 (line 1 column 5)\nUnexpected non-whitespace character after JSON at position 4 (line 1 column 5)\nUnexpected non-whitespace character after JSON at position 4 (line 1 column 5)\n--- stderr (tail) ---\nWARNING: A restricted method in java.lang.System has been called\nWARNING: java.lang.System::loadLibrary has been called by io.netty.util.internal.NativeLibraryUtil in an unnamed module (jar:nested:/app/app.jar/!BOOT-INF/lib/netty-common-4.2.16.Final.jar!/)\nWARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module\nWARNING: Restricted methods will be blocked in a future release unless native access is enabled",
+        "installMs": 9541,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "timeout"
+      },
+      {
         "date": "2026-08-15T04:06:32.275Z",
         "errorExcerpt": "container (oci) distributions are not probed in v1",
         "method": "oci",
@@ -19,6 +35,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "skipped"
+      },
       {
         "date": "2026-08-15T04:06:54.151Z",
         "errorExcerpt": "container (oci) distributions are not probed in v1",

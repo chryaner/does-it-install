@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading libzim (3.4MiB)\n Downloaded libzim\nInstalled 46 packages in 335ms\nusage: openzim-mcp [-h] [--mode {advanced,simple}]\n                   [--transport {stdio,http,sse}] [--host HOST] [--port PORT]\n                   directories [directories ...]\n\nOpenZIM MCP Server - Access ZIM files through MCP\n\npositional arguments:\n  directories           One or more directories containing ZIM files\n\noptions:\n  -h, --help            show this help message and exit\n  --mode {advanced,simple}\n                        Tool mode: 'advanced' for all 8 tools, 'simple' for 1\n                        intelligent NL tool (default: simple, or from\n                        OPENZIM_MCP_TOOL_MODE env var)\n  --transport {stdio,http,sse}\n                        Transport: 'stdio' (default, for local MCP clients),\n                        'http' (streamable HTTP), or 'sse' (legacy SSE — no\n                        auth middleware, localhost only). Env:\n                        OPENZIM_MCP_TRANSPORT\n  --host HOST           HTTP/SSE bind host (default 127.0.0.1). Env:\n                        OPENZIM_MCP_HOST\n  --port PORT           HTTP/SSE bind port (default 8000). Env:\n                        OPENZIM_MCP_PORT\n\nExamples:\n  # Simple mode (default - 1 intelligent NL tool)\n  python -m openzim_mcp /path/to/zim/files\n  python -m openzim_mcp --mode simple /path/to/zim/files\n\n  # Advanced mode (all 8 tools)\n  python -m openzim_mcp --mode advanced /path/to/zim/files\n\nEnvironment Variables:\n  OPENZIM_MCP_TOOL_MODE - Set tool mode (advanced or simple)",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "needs_config"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading libzim (8.0MiB)\n Downloaded libzim\nInstalled 46 packages in 50ms\nusage: openzim-mcp [-h] [--mode {simple,advanced}]\n                   [--transport {stdio,http,sse}] [--host HOST] [--port PORT]\n                   directories [directories ...]\n\nOpenZIM MCP Server - Access ZIM files through MCP\n\npositional arguments:\n  directories           One or more directories containing ZIM files\n\noptions:\n  -h, --help            show this help message and exit\n  --mode {simple,advanced}\n                        Tool mode: 'advanced' for all 8 tools, 'simple' for 1\n                        intelligent NL tool (default: simple, or from\n                        OPENZIM_MCP_TOOL_MODE env var)\n  --transport {stdio,http,sse}\n                        Transport: 'stdio' (default, for local MCP clients),\n                        'http' (streamable HTTP), or 'sse' (legacy SSE — no\n                        auth middleware, localhost only). Env:\n                        OPENZIM_MCP_TRANSPORT\n  --host HOST           HTTP/SSE bind host (default 127.0.0.1). Env:\n                        OPENZIM_MCP_HOST\n  --port PORT           HTTP/SSE bind port (default 8000). Env:\n                        OPENZIM_MCP_PORT\n\nExamples:\n  # Simple mode (default - 1 intelligent NL tool)\n  python -m openzim_mcp /path/to/zim/files\n  python -m openzim_mcp --mode simple /path/to/zim/files\n\n  # Advanced mode (all 8 tools)\n  python -m openzim_mcp --mode advanced /path/to/zim/files\n\nEnvironment Variables:\n  OPENZIM_MCP_TOOL_MODE - Set tool mode (advanced or simple)",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "needs_config"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading libzim (15.2MiB)\n Downloaded libzim\nInstalled 48 packages in 8.97s\nusage: openzim-mcp [-h] [--mode {advanced,simple}]\r\n                   [--transport {stdio,http,sse}] [--host HOST] [--port PORT]\r\n                   directories [directories ...]\r\n\r\nOpenZIM MCP Server - Access ZIM files through MCP\r\n\r\npositional arguments:\r\n  directories           One or more directories containing ZIM files\r\n\r\noptions:\r\n  -h, --help            show this help message and exit\r\n  --mode {advanced,simple}\r\n                        Tool mode: 'advanced' for all 8 tools, 'simple' for 1\r\n                        intelligent NL tool (default: simple, or from\r\n                        OPENZIM_MCP_TOOL_MODE env var)\r\n  --transport {stdio,http,sse}\r\n                        Transport: 'stdio' (default, for local MCP clients),\r\n                        'http' (streamable HTTP), or 'sse' (legacy SSE � no\r\n                        auth middleware, localhost only). Env:\r\n                        OPENZIM_MCP_TRANSPORT\r\n  --host HOST           HTTP/SSE bind host (default 127.0.0.1). Env:\r\n                        OPENZIM_MCP_HOST\r\n  --port PORT           HTTP/SSE bind port (default 8000). Env:\r\n                        OPENZIM_MCP_PORT\r\n\r\nExamples:\r\n  # Simple mode (default - 1 intelligent NL tool)\r\n  python -m openzim_mcp /path/to/zim/files\r\n  python -m openzim_mcp --mode simple /path/to/zim/files\r\n\r\n  # Advanced mode (all 8 tools)\r\n  python -m openzim_mcp --mode advanced /path/to/zim/files\r\n\r\nEnvironment Variables:\r\n  OPENZIM_MCP_TOOL_MODE - Set tool mode (advanced or simple)",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "needs_config"
+      }
+    ]
+  },
+  "serverId": "io.github.cameronrye/openzim-mcp",
+  "slug": "io.github.cameronrye__openzim-mcp"
+}

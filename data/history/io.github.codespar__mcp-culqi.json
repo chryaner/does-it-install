@@ -1,0 +1,102 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 8972,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_token",
+          "create_charge",
+          "get_charge",
+          "list_charges",
+          "capture_charge",
+          "refund_charge",
+          "get_refund",
+          "create_customer",
+          "get_customer",
+          "list_customers",
+          "create_card",
+          "delete_card",
+          "create_order",
+          "confirm_order",
+          "list_orders",
+          "create_plan",
+          "create_subscription",
+          "cancel_subscription",
+          "list_events",
+          "get_event"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 4092,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_token",
+          "create_charge",
+          "get_charge",
+          "list_charges",
+          "capture_charge",
+          "refund_charge",
+          "get_refund",
+          "create_customer",
+          "get_customer",
+          "list_customers",
+          "create_card",
+          "delete_card",
+          "create_order",
+          "confirm_order",
+          "list_orders",
+          "create_plan",
+          "create_subscription",
+          "cancel_subscription",
+          "list_events",
+          "get_event"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 115858,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_token",
+          "create_charge",
+          "get_charge",
+          "list_charges",
+          "capture_charge",
+          "refund_charge",
+          "get_refund",
+          "create_customer",
+          "get_customer",
+          "list_customers",
+          "create_card",
+          "delete_card",
+          "create_order",
+          "confirm_order",
+          "list_orders",
+          "create_plan",
+          "create_subscription",
+          "cancel_subscription",
+          "list_events",
+          "get_event"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-culqi",
+  "slug": "io.github.codespar__mcp-culqi"
+}

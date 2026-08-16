@@ -1,0 +1,111 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 3931,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "get_oauth_token",
+          "send_pix",
+          "create_pix_qr",
+          "get_pix",
+          "resolve_dict_key",
+          "refund_pix",
+          "create_boleto",
+          "get_boleto",
+          "cancel_boleto",
+          "get_statement",
+          "create_pix_cobv",
+          "get_pix_cob",
+          "list_pix_cob",
+          "update_pix_cob",
+          "list_pix_received",
+          "register_dict_key",
+          "delete_dict_key",
+          "download_boleto_pdf",
+          "get_account_balance",
+          "send_ted",
+          "transfer_internal",
+          "create_openfinance_consent",
+          "arrecadacao_pay"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 3055,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "get_oauth_token",
+          "send_pix",
+          "create_pix_qr",
+          "get_pix",
+          "resolve_dict_key",
+          "refund_pix",
+          "create_boleto",
+          "get_boleto",
+          "cancel_boleto",
+          "get_statement",
+          "create_pix_cobv",
+          "get_pix_cob",
+          "list_pix_cob",
+          "update_pix_cob",
+          "list_pix_received",
+          "register_dict_key",
+          "delete_dict_key",
+          "download_boleto_pdf",
+          "get_account_balance",
+          "send_ted",
+          "transfer_internal",
+          "create_openfinance_consent",
+          "arrecadacao_pay"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 134435,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "get_oauth_token",
+          "send_pix",
+          "create_pix_qr",
+          "get_pix",
+          "resolve_dict_key",
+          "refund_pix",
+          "create_boleto",
+          "get_boleto",
+          "cancel_boleto",
+          "get_statement",
+          "create_pix_cobv",
+          "get_pix_cob",
+          "list_pix_cob",
+          "update_pix_cob",
+          "list_pix_received",
+          "register_dict_key",
+          "delete_dict_key",
+          "download_boleto_pdf",
+          "get_account_balance",
+          "send_ted",
+          "transfer_internal",
+          "create_openfinance_consent",
+          "arrecadacao_pay"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-santander",
+  "slug": "io.github.codespar__mcp-santander"
+}

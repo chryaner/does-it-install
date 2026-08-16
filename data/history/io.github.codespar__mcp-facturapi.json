@@ -1,0 +1,102 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 4192,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_invoice",
+          "get_invoice",
+          "list_invoices",
+          "cancel_invoice",
+          "download_invoice_pdf",
+          "download_invoice_xml",
+          "send_invoice_email",
+          "create_customer",
+          "get_customer",
+          "list_customers",
+          "update_customer",
+          "delete_customer",
+          "create_product",
+          "get_product",
+          "list_products",
+          "update_product",
+          "delete_product",
+          "create_receipt",
+          "list_receipts",
+          "list_webhooks"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 2976,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_invoice",
+          "get_invoice",
+          "list_invoices",
+          "cancel_invoice",
+          "download_invoice_pdf",
+          "download_invoice_xml",
+          "send_invoice_email",
+          "create_customer",
+          "get_customer",
+          "list_customers",
+          "update_customer",
+          "delete_customer",
+          "create_product",
+          "get_product",
+          "list_products",
+          "update_product",
+          "delete_product",
+          "create_receipt",
+          "list_receipts",
+          "list_webhooks"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 130507,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_invoice",
+          "get_invoice",
+          "list_invoices",
+          "cancel_invoice",
+          "download_invoice_pdf",
+          "download_invoice_xml",
+          "send_invoice_email",
+          "create_customer",
+          "get_customer",
+          "list_customers",
+          "update_customer",
+          "delete_customer",
+          "create_product",
+          "get_product",
+          "list_products",
+          "update_product",
+          "delete_product",
+          "create_receipt",
+          "list_receipts",
+          "list_webhooks"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-facturapi",
+  "slug": "io.github.codespar__mcp-facturapi"
+}

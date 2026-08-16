@@ -2,6 +2,31 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 4437,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "get_user",
+          "get_user_consumed_items",
+          "get_user_dietary_preferences",
+          "get_user_exercises",
+          "get_user_goals",
+          "get_user_settings",
+          "get_user_suggested_products",
+          "get_user_water_intake",
+          "get_user_weight",
+          "get_user_daily_summary",
+          "search_products",
+          "get_product",
+          "add_user_consumed_item",
+          "remove_user_consumed_item",
+          "add_user_water_intake"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:29.606Z",
         "method": "npm",
         "runId": "2026-08-15T04-06-29Z-57cf45",
@@ -28,6 +53,31 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 3260,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "get_user",
+          "get_user_consumed_items",
+          "get_user_dietary_preferences",
+          "get_user_exercises",
+          "get_user_goals",
+          "get_user_settings",
+          "get_user_suggested_products",
+          "get_user_water_intake",
+          "get_user_weight",
+          "get_user_daily_summary",
+          "search_products",
+          "get_product",
+          "add_user_consumed_item",
+          "remove_user_consumed_item",
+          "add_user_water_intake"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:26.501Z",
         "method": "npm",
         "runId": "2026-08-15T04-06-26Z-0b778e",
@@ -53,6 +103,31 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 129635,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "get_user",
+          "get_user_consumed_items",
+          "get_user_dietary_preferences",
+          "get_user_exercises",
+          "get_user_goals",
+          "get_user_settings",
+          "get_user_suggested_products",
+          "get_user_water_intake",
+          "get_user_weight",
+          "get_user_daily_summary",
+          "search_products",
+          "get_product",
+          "add_user_consumed_item",
+          "remove_user_consumed_item",
+          "add_user_water_intake"
+        ]
+      },
       {
         "date": "2026-08-15T04:06:54.549Z",
         "method": "npm",

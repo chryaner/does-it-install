@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[3d-agent-x402-bridge] fatal: Error: No payment signers configured. Set MCP_BRIDGE_EVM_PRIVATE_KEY and/or MCP_BRIDGE_SVM_PRIVATE_KEY before starting the bridge.\n    at buildBuyerAxios (file:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-Hfz4HH/node_modules/@three-ws/mcp-bridge/src/x402-axios-client.js:168:9)\n    at async main (file:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-Hfz4HH/node_modules/@three-ws/mcp-bridge/src/index.js:234:15)",
+        "installMs": 29720,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[3d-agent-x402-bridge] fatal: Error: No payment signers configured. Set MCP_BRIDGE_EVM_PRIVATE_KEY and/or MCP_BRIDGE_SVM_PRIVATE_KEY before starting the bridge.\n    at buildBuyerAxios (file:///tmp/does-it-install/dii-npm-Qchp2S/node_modules/@three-ws/mcp-bridge/src/x402-axios-client.js:168:9)\n    at async main (file:///tmp/does-it-install/dii-npm-Qchp2S/node_modules/@three-ws/mcp-bridge/src/index.js:234:15)",
+        "installMs": 17789,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "npm install @three-ws/mcp-bridge@1.0.1 timed out after 600s",
+        "installMs": 600154,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "io.github.nirholas/x402-bridge",
+  "slug": "io.github.nirholas__x402-bridge"
+}

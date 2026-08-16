@@ -1,0 +1,81 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 6973,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "get_oauth_token",
+          "create_pix_cob",
+          "get_pix_cob",
+          "list_pix_cob",
+          "create_pix_cobv",
+          "get_pix_cobv",
+          "lookup_dict_key",
+          "register_dict_key",
+          "delete_dict_key",
+          "create_boleto",
+          "get_boleto",
+          "cancel_boleto",
+          "get_account_balance"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 4587,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "get_oauth_token",
+          "create_pix_cob",
+          "get_pix_cob",
+          "list_pix_cob",
+          "create_pix_cobv",
+          "get_pix_cobv",
+          "lookup_dict_key",
+          "register_dict_key",
+          "delete_dict_key",
+          "create_boleto",
+          "get_boleto",
+          "cancel_boleto",
+          "get_account_balance"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 175387,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "get_oauth_token",
+          "create_pix_cob",
+          "get_pix_cob",
+          "list_pix_cob",
+          "create_pix_cobv",
+          "get_pix_cobv",
+          "lookup_dict_key",
+          "register_dict_key",
+          "delete_dict_key",
+          "create_boleto",
+          "get_boleto",
+          "cancel_boleto",
+          "get_account_balance"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-sicoob",
+  "slug": "io.github.codespar__mcp-sicoob"
+}

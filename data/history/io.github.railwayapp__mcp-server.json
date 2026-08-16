@@ -1,0 +1,84 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 7023,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "check-railway-status",
+          "create-environment",
+          "create-project-and-link",
+          "deploy-template",
+          "deploy",
+          "generate-domain",
+          "get-logs",
+          "link-environment",
+          "link-service",
+          "list-deployments",
+          "list-projects",
+          "list-services",
+          "list-variables",
+          "set-variables"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 5736,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "check-railway-status",
+          "create-environment",
+          "create-project-and-link",
+          "deploy-template",
+          "deploy",
+          "generate-domain",
+          "get-logs",
+          "link-environment",
+          "link-service",
+          "list-deployments",
+          "list-projects",
+          "list-services",
+          "list-variables",
+          "set-variables"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 107512,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "check-railway-status",
+          "create-environment",
+          "create-project-and-link",
+          "deploy-template",
+          "deploy",
+          "generate-domain",
+          "get-logs",
+          "link-environment",
+          "link-service",
+          "list-deployments",
+          "list-projects",
+          "list-services",
+          "list-variables",
+          "set-variables"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.railwayapp/mcp-server",
+  "slug": "io.github.railwayapp__mcp-server"
+}

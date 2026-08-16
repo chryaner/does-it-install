@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: mcp-slim-guard [options] [command]\n\nMCP context compression runtime — compress what agents see, preserve what tools\ndo\n\nOptions:\n  -V, --version       output the version number\n  -h, --help          display help for command\n\nCommands:\n  plan [options]      Generate a Host configuration plan without writing it\n  install [options]   Apply one bounded Host configuration transaction with a\n                      pre-write backup\n  rollback [options]  Restore the recorded Host configuration if it has not\n                      changed\n  analyze             Inspect an MCP catalog without changing configuration or\n                      invoking Tools\n  profile [options]   Read bounded runtime delivery evidence without invoking\n                      Tools\n  init [options]      Auto-discover MCP config and generate mcp-slim-guard.yml\n  start [options]     Start the guard proxy\n  status              Show resolved configuration\n  doctor              Diagnose upstream server connectivity and config validity\n  validate            Dry-run: check which tools would be allowed/blocked by\n                      current policies\n  log [options]       View audit log\n  uninit [options]    Remove mcp-slim-guard config and cleanup\n  help [command]      display help for command",
+        "installMs": 5138,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: mcp-slim-guard [options] [command]\n\nMCP context compression runtime — compress what agents see, preserve what tools\ndo\n\nOptions:\n  -V, --version       output the version number\n  -h, --help          display help for command\n\nCommands:\n  plan [options]      Generate a Host configuration plan without writing it\n  install [options]   Apply one bounded Host configuration transaction with a\n                      pre-write backup\n  rollback [options]  Restore the recorded Host configuration if it has not\n                      changed\n  analyze             Inspect an MCP catalog without changing configuration or\n                      invoking Tools\n  profile [options]   Read bounded runtime delivery evidence without invoking\n                      Tools\n  init [options]      Auto-discover MCP config and generate mcp-slim-guard.yml\n  start [options]     Start the guard proxy\n  status              Show resolved configuration\n  doctor              Diagnose upstream server connectivity and config validity\n  validate            Dry-run: check which tools would be allowed/blocked by\n                      current policies\n  log [options]       View audit log\n  uninit [options]    Remove mcp-slim-guard config and cleanup\n  help [command]      display help for command",
+        "installMs": 3926,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: mcp-slim-guard [options] [command]\n\nMCP context compression runtime — compress what agents see, preserve what tools\ndo\n\nOptions:\n  -V, --version       output the version number\n  -h, --help          display help for command\n\nCommands:\n  plan [options]      Generate a Host configuration plan without writing it\n  install [options]   Apply one bounded Host configuration transaction with a\n                      pre-write backup\n  rollback [options]  Restore the recorded Host configuration if it has not\n                      changed\n  analyze             Inspect an MCP catalog without changing configuration or\n                      invoking Tools\n  profile [options]   Read bounded runtime delivery evidence without invoking\n                      Tools\n  init [options]      Auto-discover MCP config and generate mcp-slim-guard.yml\n  start [options]     Start the guard proxy\n  status              Show resolved configuration\n  doctor              Diagnose upstream server connectivity and config validity\n  validate            Dry-run: check which tools would be allowed/blocked by\n                      current policies\n  log [options]       View audit log\n  uninit [options]    Remove mcp-slim-guard config and cleanup\n  help [command]      display help for command",
+        "installMs": 252145,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.lennney/mcp-slim-guard",
+  "slug": "io.github.lennney__mcp-slim-guard"
+}

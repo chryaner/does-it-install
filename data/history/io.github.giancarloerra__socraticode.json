@@ -2,6 +2,37 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 21391,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "codebase_index",
+          "codebase_update",
+          "codebase_remove",
+          "codebase_stop",
+          "codebase_watch",
+          "codebase_search",
+          "codebase_status",
+          "codebase_graph_build",
+          "codebase_graph_query",
+          "codebase_graph_stats",
+          "codebase_graph_circular",
+          "codebase_graph_visualize",
+          "codebase_graph_remove",
+          "codebase_graph_status",
+          "codebase_context",
+          "codebase_context_search",
+          "codebase_context_index",
+          "codebase_context_remove",
+          "codebase_health",
+          "codebase_list_projects",
+          "codebase_about"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:28.268Z",
         "method": "npm",
         "runId": "2026-08-15T04-06-28Z-bd83fc",
@@ -34,6 +65,37 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 12136,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "codebase_index",
+          "codebase_update",
+          "codebase_remove",
+          "codebase_stop",
+          "codebase_watch",
+          "codebase_search",
+          "codebase_status",
+          "codebase_graph_build",
+          "codebase_graph_query",
+          "codebase_graph_stats",
+          "codebase_graph_circular",
+          "codebase_graph_visualize",
+          "codebase_graph_remove",
+          "codebase_graph_status",
+          "codebase_context",
+          "codebase_context_search",
+          "codebase_context_index",
+          "codebase_context_remove",
+          "codebase_health",
+          "codebase_list_projects",
+          "codebase_about"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:32.275Z",
         "method": "npm",
         "runId": "2026-08-15T04-06-32Z-64cc50",
@@ -65,6 +127,37 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 520202,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "codebase_index",
+          "codebase_update",
+          "codebase_remove",
+          "codebase_stop",
+          "codebase_watch",
+          "codebase_search",
+          "codebase_status",
+          "codebase_graph_build",
+          "codebase_graph_query",
+          "codebase_graph_stats",
+          "codebase_graph_circular",
+          "codebase_graph_visualize",
+          "codebase_graph_remove",
+          "codebase_graph_status",
+          "codebase_context",
+          "codebase_context_search",
+          "codebase_context_index",
+          "codebase_context_remove",
+          "codebase_health",
+          "codebase_list_projects",
+          "codebase_about"
+        ]
+      },
       {
         "date": "2026-08-15T04:06:54.151Z",
         "method": "npm",

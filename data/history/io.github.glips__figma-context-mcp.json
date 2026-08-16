@@ -1,0 +1,48 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 15301,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "get_figma_data",
+          "download_figma_images"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 6858,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "get_figma_data",
+          "download_figma_images"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 205255,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "get_figma_data",
+          "download_figma_images"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.GLips/Figma-Context-MCP",
+  "slug": "io.github.glips__figma-context-mcp"
+}

@@ -1,0 +1,54 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 5233,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "publish_piece",
+          "publish_kidlisp",
+          "publish_clock",
+          "get_api_info"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 3478,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "publish_piece",
+          "publish_kidlisp",
+          "publish_clock",
+          "get_api_info"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 201030,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "publish_piece",
+          "publish_kidlisp",
+          "publish_clock",
+          "get_api_info"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.whistlegraph/aesthetic-computer",
+  "slug": "io.github.whistlegraph__aesthetic-computer"
+}

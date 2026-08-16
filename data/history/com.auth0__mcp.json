@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:27.629Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[ERROR:auth0-mcp] Authorization Error: No valid authorization token found\n[ERROR:auth0-mcp] Recommended actions:\n[ERROR:auth0-mcp] 1. Run npx @auth0/auth0-mcp-server init to authorize with Auth0\n[ERROR:auth0-mcp] 2. Use npx @auth0/auth0-mcp-server session to check your current session status",
+        "installMs": 10843,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-15T20:03:31.969Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[ERROR:auth0-mcp] Authorization Error: No valid authorization token found\n[ERROR:auth0-mcp] Recommended actions:\n[ERROR:auth0-mcp] 1. Run npx @auth0/auth0-mcp-server init to authorize with Auth0\n[ERROR:auth0-mcp] 2. Use npx @auth0/auth0-mcp-server session to check your current session status",
         "installMs": 12774,
@@ -34,6 +42,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T02:45:24.037Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nnode:internal/modules/cjs/loader:1939\n  return process.dlopen(module, path.toNamespacedPath(filename));\n                 ^\n\nError: libsecret-1.so.0: cannot open shared object file: No such file or directory\n    at Object..node (node:internal/modules/cjs/loader:1939:18)\n    at Module.load (node:internal/modules/cjs/loader:1505:32)\n    at Function._load (node:internal/modules/cjs/loader:1309:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)\n    at Module.require (node:internal/modules/cjs/loader:1527:12)\n    at require (node:internal/modules/helpers:147:16)\n    at Object.<anonymous> (/tmp/does-it-install/dii-npm-Z0DlSg/node_modules/keytar/lib/keytar.js:1:14)\n    at Module._compile (node:internal/modules/cjs/loader:1781:14)\n    at Object..js (node:internal/modules/cjs/loader:1913:10)\n    at Module.load (node:internal/modules/cjs/loader:1505:32) {\n  code: 'ERR_DLOPEN_FAILED'\n}\n\nNode.js v22.23.2",
+        "installMs": 4003,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-15T20:03:21.360Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nnode:internal/modules/cjs/loader:1939\n  return process.dlopen(module, path.toNamespacedPath(filename));\n                 ^\n\nError: libsecret-1.so.0: cannot open shared object file: No such file or directory\n    at Object..node (node:internal/modules/cjs/loader:1939:18)\n    at Module.load (node:internal/modules/cjs/loader:1505:32)\n    at Function._load (node:internal/modules/cjs/loader:1309:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)\n    at Module.require (node:internal/modules/cjs/loader:1527:12)\n    at require (node:internal/modules/helpers:147:16)\n    at Object.<anonymous> (/tmp/does-it-install/dii-npm-bVGHwd/node_modules/keytar/lib/keytar.js:1:14)\n    at Module._compile (node:internal/modules/cjs/loader:1781:14)\n    at Object..js (node:internal/modules/cjs/loader:1913:10)\n    at Module.load (node:internal/modules/cjs/loader:1505:32) {\n  code: 'ERR_DLOPEN_FAILED'\n}\n\nNode.js v22.23.2",
         "installMs": 7848,
@@ -65,6 +81,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[ERROR:auth0-mcp] Authorization Error: No valid authorization token found\n[ERROR:auth0-mcp] Recommended actions:\n[ERROR:auth0-mcp] 1. Run npx @auth0/auth0-mcp-server init to authorize with Auth0\n[ERROR:auth0-mcp] 2. Use npx @auth0/auth0-mcp-server session to check your current session status",
+        "installMs": 97176,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-15T20:03:36.582Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[ERROR:auth0-mcp] Authorization Error: No valid authorization token found\n[ERROR:auth0-mcp] Recommended actions:\n[ERROR:auth0-mcp] 1. Run npx @auth0/auth0-mcp-server init to authorize with Auth0\n[ERROR:auth0-mcp] 2. Use npx @auth0/auth0-mcp-server session to check your current session status",

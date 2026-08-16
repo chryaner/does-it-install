@@ -1,0 +1,26 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "skipped"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: JSON input\nUnexpected token '=', \"==========\"... is not valid JSON\nUnexpected token 'S', \"  STEALTHY A\"... is not valid JSON\nUnexpected token '=', \"==========\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'V', \"  VNC:  http\"... is not valid JSON\nUnexpected token 'A', \"  API:  http\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'C', \"  Ctrl+C to exit\" is not valid JSON\nUnexpected token '=', \"==========\"... is not valid JSON\nUnexpected end of JSON input\n--- stderr (tail) ---\n…ly switching to -xkb mode.\n16/08/2026 02:56:16   If this makes the key mapping worse you can\n16/08/2026 02:56:16   disable it with the \"-noxkb\" option.\n16/08/2026 02:56:16   Also, remember \"-remap DEAD\" for accenting characters.\n16/08/2026 02:56:16 \n16/08/2026 02:56:16 X FBPM extension not supported.\nXlib:  extension \"DPMS\" missing on display \":99\".\n16/08/2026 02:56:16 X display is not capable of DPMS.\n16/08/2026 02:56:16 --------------------------------------------------------\n16/08/2026 02:56:16 \n16/08/2026 02:56:16 Default visual ID: 0x21\n16/08/2026 02:56:16 Read initial data from X display into framebuffer.\n16/08/2026 02:56:16 initialize_screen: fb_depth/fb_bpp/fb_Bpl 24/32/7680\n16/08/2026 02:56:16 \n16/08/2026 02:56:16 X display :99 is 32bpp depth=24 true color\n16/08/2026 02:56:16 \n16/08/2026 02:56:16 Listening for VNC connections on TCP port 5901\n16/08/2026 02:56:16 Listening for VNC connections on TCP6 port 5900\n16/08/2026 02:56:16 Listening also on IPv6 port 5901 (socket 10)\n16/08/2026 02:56:16 \n16/08/2026 02:56:16 Xinerama is present and active (e.g. multi-head).\n16/08/2026 02:56:16 Xinerama: number of sub-screens: 1\n16/08/2026 02:56:16 Xinerama: no blackouts needed (only one sub-screen)\n16/08/2026 02:56:16 \n16/08/2026 02:56:16 fb read rate: 1452 MB/sec\n16/08/2026 02:56:16 fast read: reset -wait  ms to: 10\n16/08/2026 02:56:16 fast read: reset -defer ms to: 10\n16/08/2026 02:56:16 The X server says there are 10 mouse buttons.\n16/08/2026 02:56:16 screen setup finished.\n16/08/2026 02:56:16 \n\nThe VNC desktop is:      0.0.0.0:1\n\n******************************************************************************\nHave you tried the x11vnc '-ncache' VNC client-side pixel caching feature yet?\n\nThe scheme stores pixel data offscreen on the VNC viewer side for faster\nretrieval.  It should work with any VNC viewer.  Try it by running:\n\n    x11vnc -ncache 10 ...\n\nOne can also add -ncache_cr for smooth 'copyrect' window motion.\nMore info: http://www.karlrunge.com/x11vnc/faq.html#faq-client-caching\n\nWebSocket server settings:\n  - Listen on 0.0.0.0:5900\n  - Web server. Web root: /usr/share/novnc\n  - No SSL/TLS support (no cert file)\n  - proxying from 0.0.0.0:5900 to localhost:5901\n{\"time\": \"2026-08-16T02:56:17.935937Z\", \"level\": \"INFO\", \"source\": {\"function\": \"main\", \"file\": \"main\", \"line\": 1470}, \"msg\": \"Starting browser\", \"trace_id\": \"\"}\n{\"time\": \"2026-08-16T02:56:22.432100Z\", \"level\": \"INFO\", \"source\": {\"function\": \"main\", \"file\": \"main\", \"line\": 1477}, \"msg\": \"PyAutoGUI ready\", \"trace_id\": \"\"}\n{\"time\": \"2026-08-16T02:56:23.520077Z\", \"level\": \"INFO\", \"source\": {\"function\": \"main\", \"file\": \"main\", \"line\": 1484}, \"msg\": \"Window offset: {'x': 1, 'y': 77}\", \"trace_id\": \"\"}\n{\"time\": \"2026-08-16T02:56:23.520218Z\", \"level\": \"INFO\", \"source\": {\"function\": \"main\", \"file\": \"main\", \"line\": 1489}, \"msg\": \"MCP server mounted at /mcp\", \"trace_id\": \"\"}\n{\"time\": \"2026-08-16T02:56:23.520267Z\", \"level\": \"INFO\", \"source\": {\"function\": \"main\", \"file\": \"main\", \"line\": 1491}, \"msg\": \"Browser ready\", \"trace_id\": \"\"}\n{\"time\": \"2026-08-16T02:56:23.520987Z\", \"level\": \"INFO\", \"source\": {\"function\": \"main\", \"file\": \"main\", \"line\": 1503}, \"msg\": \"API listening on 0.0.0.0:8080\", \"trace_id\": \"\"}\n{\"time\": \"2026-08-16T02:56:23.557603Z\", \"level\": \"INFO\", \"source\": {\"function\": \"run\", \"file\": \"streamable_http_manager\", \"line\": 143}, \"msg\": \"StreamableHTTP session manager started\", \"trace_id\": \"\"}",
+        "installMs": 98681,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "io.github.psyb0t/stealthy-auto-browse",
+  "slug": "io.github.psyb0t__stealthy-auto-browse"
+}

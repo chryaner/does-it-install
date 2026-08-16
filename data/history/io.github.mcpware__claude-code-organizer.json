@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n✗ Cannot read /Users/runner/.claude\n\n  Claude Code stores its config in ~/.claude/ but this directory\n  either doesn't exist or isn't readable by your current user.\n\n  To fix:\n    1. Make sure Claude Code has been run at least once\n    2. Check permissions: ls -la ~/.claude/\n    3. If needed:  chmod u+r ~/.claude",
+        "installMs": 6907,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n✗ Cannot read /home/runner/.claude\n\n  Claude Code stores its config in ~/.claude/ but this directory\n  either doesn't exist or isn't readable by your current user.\n\n  To fix:\n    1. Make sure Claude Code has been run at least once\n    2. Check permissions: ls -la ~/.claude/\n    3. If needed:  chmod u+r ~/.claude",
+        "installMs": 4750,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n✗ Cannot read C:\\Users\\runneradmin\\.claude\n\n  Claude Code stores its config in ~/.claude/ but this directory\n  either doesn't exist or isn't readable by your current user.\n\n  To fix:\n    1. Make sure Claude Code has been run at least once\n    2. Check permissions: ls -la ~/.claude/\n    3. If needed:  chmod u+r ~/.claude",
+        "installMs": 148796,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.mcpware/claude-code-organizer",
+  "slug": "io.github.mcpware__claude-code-organizer"
+}

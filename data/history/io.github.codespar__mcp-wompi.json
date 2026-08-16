@@ -1,0 +1,108 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 7504,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "create_transaction",
+          "get_transaction",
+          "list_transactions",
+          "search_transaction_by_reference",
+          "void_transaction",
+          "create_payment_link",
+          "get_payment_link",
+          "update_payment_link",
+          "list_payment_links",
+          "list_payment_methods",
+          "get_acceptance_token",
+          "create_tokenized_card",
+          "create_tokenized_nequi",
+          "get_tokenization_status",
+          "create_payment_source",
+          "create_customer",
+          "get_customer",
+          "list_financial_institutions",
+          "create_refund",
+          "get_refund",
+          "get_merchant",
+          "validate_webhook_signature"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 4545,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "create_transaction",
+          "get_transaction",
+          "list_transactions",
+          "search_transaction_by_reference",
+          "void_transaction",
+          "create_payment_link",
+          "get_payment_link",
+          "update_payment_link",
+          "list_payment_links",
+          "list_payment_methods",
+          "get_acceptance_token",
+          "create_tokenized_card",
+          "create_tokenized_nequi",
+          "get_tokenization_status",
+          "create_payment_source",
+          "create_customer",
+          "get_customer",
+          "list_financial_institutions",
+          "create_refund",
+          "get_refund",
+          "get_merchant",
+          "validate_webhook_signature"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 119885,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "create_transaction",
+          "get_transaction",
+          "list_transactions",
+          "search_transaction_by_reference",
+          "void_transaction",
+          "create_payment_link",
+          "get_payment_link",
+          "update_payment_link",
+          "list_payment_links",
+          "list_payment_methods",
+          "get_acceptance_token",
+          "create_tokenized_card",
+          "create_tokenized_nequi",
+          "get_tokenization_status",
+          "create_payment_source",
+          "create_customer",
+          "get_customer",
+          "list_financial_institutions",
+          "create_refund",
+          "get_refund",
+          "get_merchant",
+          "validate_webhook_signature"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-wompi",
+  "slug": "io.github.codespar__mcp-wompi"
+}

@@ -1,0 +1,60 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 910,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "hig_list_skills",
+          "hig_lookup",
+          "hig_search",
+          "hig_audit",
+          "hig_audit_file",
+          "hig_explain_finding"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 1407,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "hig_list_skills",
+          "hig_lookup",
+          "hig_search",
+          "hig_audit",
+          "hig_audit_file",
+          "hig_explain_finding"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 12847,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "hig_list_skills",
+          "hig_lookup",
+          "hig_search",
+          "hig_audit",
+          "hig_audit_file",
+          "hig_explain_finding"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.raintree-technology/hig-doctor",
+  "slug": "io.github.raintree-technology__hig-doctor"
+}

@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "skipped"
+      },
+      {
         "date": "2026-08-15T20:03:31.969Z",
         "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
         "installMs": 0,
@@ -32,6 +40,26 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 10866,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "bgg-collection",
+          "bgg-details",
+          "bgg-hot",
+          "bgg-price",
+          "bgg-recommender",
+          "bgg-rules",
+          "bgg-search",
+          "bgg-thread-details",
+          "bgg-trade-finder",
+          "bgg-user"
+        ]
+      },
       {
         "date": "2026-08-15T20:03:21.360Z",
         "installMs": 1246,

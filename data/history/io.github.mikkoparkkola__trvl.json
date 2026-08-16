@@ -1,0 +1,32 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 30803,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "travel"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 30906,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "travel"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.MikkoParkkola/trvl",
+  "slug": "io.github.mikkoparkkola__trvl"
+}

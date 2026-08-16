@@ -1,0 +1,105 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "method": "remote-http",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "get_batch_job_status",
+          "machine_translate",
+          "store_big_meta",
+          "list_branches",
+          "create_branch",
+          "delete_branch",
+          "list_keys",
+          "search_keys",
+          "create_keys",
+          "get_key",
+          "update_key",
+          "delete_keys",
+          "list_languages",
+          "create_language",
+          "list_namespaces",
+          "list_projects",
+          "create_project",
+          "get_project_language_statistics",
+          "list_tags",
+          "tag_keys",
+          "get_translations",
+          "set_translation"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "method": "remote-http",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "get_batch_job_status",
+          "machine_translate",
+          "store_big_meta",
+          "list_branches",
+          "create_branch",
+          "delete_branch",
+          "list_keys",
+          "search_keys",
+          "create_keys",
+          "get_key",
+          "update_key",
+          "delete_keys",
+          "list_languages",
+          "create_language",
+          "list_namespaces",
+          "list_projects",
+          "create_project",
+          "get_project_language_statistics",
+          "list_tags",
+          "tag_keys",
+          "get_translations",
+          "set_translation"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "method": "remote-http",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "get_batch_job_status",
+          "machine_translate",
+          "store_big_meta",
+          "list_branches",
+          "create_branch",
+          "delete_branch",
+          "list_keys",
+          "search_keys",
+          "create_keys",
+          "get_key",
+          "update_key",
+          "delete_keys",
+          "list_languages",
+          "create_language",
+          "list_namespaces",
+          "list_projects",
+          "create_project",
+          "get_project_language_statistics",
+          "list_tags",
+          "tag_keys",
+          "get_translations",
+          "set_translation"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.tolgee/tolgee",
+  "slug": "io.github.tolgee__tolgee"
+}

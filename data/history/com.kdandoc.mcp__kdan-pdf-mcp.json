@@ -2,6 +2,31 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:27.243Z",
+        "method": "remote-http",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "compare_pdfs",
+          "get_latest_comparison",
+          "compress_pdf",
+          "delete_pdf_page",
+          "set_password",
+          "change_password",
+          "list_redactable_line_text",
+          "redact_by_text_range",
+          "upload_pdf",
+          "batch_upload_pdf",
+          "create_upload_page",
+          "check_upload_status",
+          "view_pdf",
+          "get_pdf_status",
+          "get_pdf_info",
+          "get_pdf_page_images"
+        ]
+      },
+      {
         "date": "2026-08-15T20:03:31.969Z",
         "method": "remote-http",
         "runId": "2026-08-15T20-03-31Z-6fe095",
@@ -103,6 +128,31 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "method": "remote-http",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "compare_pdfs",
+          "get_latest_comparison",
+          "compress_pdf",
+          "delete_pdf_page",
+          "set_password",
+          "change_password",
+          "list_redactable_line_text",
+          "redact_by_text_range",
+          "upload_pdf",
+          "batch_upload_pdf",
+          "create_upload_page",
+          "check_upload_status",
+          "view_pdf",
+          "get_pdf_status",
+          "get_pdf_info",
+          "get_pdf_page_images"
+        ]
+      },
       {
         "date": "2026-08-15T20:03:21.360Z",
         "method": "remote-http",
