@@ -56,11 +56,11 @@ export function buildUvArgs(pkg: PackageSpec, executable: string = pkg.identifie
 /**
  * The console script uv suggests when our guess was wrong.
  *
- * uv answers a bad script name with, verbatim:
+ * uv answers a bad script name with, verbatim (`uv 0.8`, on stderr):
  *
- *   An executable named `codeweaver-mcp` is not provided by package `codeweaver`.
+ *   An executable named `python-dotenv` is not provided by package `python-dotenv`.
  *   The following executables are available:
- *   - codeweaver
+ *   - dotenv
  *
  * The list header is what we anchor on rather than the first line: excerpts keep
  * the newest output, so a busy server's stderr can push the first line out while
@@ -127,9 +127,10 @@ export async function probePypi(
   }
 
   // Plenty of distributions ship a console script under a different name than
-  // the package ("codeweaver" from "codeweaver-mcp"), which our guess gets
-  // wrong and uv answers by naming the real one. Worth one more run: the
-  // alternative is recording a healthy server as broken.
+  // the package itself, which our guess gets wrong and uv answers by naming the
+  // real one. Worth one more run: the alternative is recording a healthy server
+  // as broken. Only one, and only on a hint, so a server that is genuinely
+  // broken still costs a single probe.
   const executable = parseUvExecutableHint(first.errorExcerpt);
   if (executable === undefined || executable === pkg.identifier) {
     return { method: 'pypi', ...first };

@@ -1,5 +1,5 @@
 import { execFile } from 'node:child_process';
-import { mkdtemp, readFile, rm } from 'node:fs/promises';
+import { mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -292,7 +292,7 @@ describe('catalog cli when the registry is unreachable', () => {
     return out;
   }
 
-  it('keeps last week’s catalog and exits zero so the sweep still runs', async () => {
+  it('keeps the catalog already on disk and exits zero so the sweep still runs', async () => {
     const out = await writeExisting('kept.json', {
       generatedAt: '2026-08-09T03:00:00.000Z',
       servers: [{ id: 'reg/one', slug: 'reg__one', title: 'One', packages: [], remotes: [] }],
