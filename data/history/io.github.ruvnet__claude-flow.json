@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: not valid JSON\nUnexpected token 'p', \"  npx claude-\"... is not valid JSON\nUnexpected token 'p', \"  npx claude-\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '\ud83d', \"📚 Documen\"... is not valid JSON\nUnexpected token '\ud83d', \"🐝 Hive Mi\"... is not valid JSON\nUnexpected token '\ud83d', \"🐝 ruv-swa\"... is not valid JSON\nUnexpected token '\ud83d', \"💬 Discord\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '\ud83d', \"💖 Created\"... is not valid JSON\nUnexpected end of JSON input",
+        "installMs": 75200,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: not valid JSON\nUnexpected token 'p', \"  npx claude-\"... is not valid JSON\nUnexpected token 'p', \"  npx claude-\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '\ud83d', \"📚 Documen\"... is not valid JSON\nUnexpected token '\ud83d', \"🐝 Hive Mi\"... is not valid JSON\nUnexpected token '\ud83d', \"🐝 ruv-swa\"... is not valid JSON\nUnexpected token '\ud83d', \"💬 Discord\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '\ud83d', \"💖 Created\"... is not valid JSON\nUnexpected end of JSON input",
+        "installMs": 51011,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "npm install claude-flow@2.0.0-alpha.107 timed out after 600s",
+        "installMs": 600475,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "io.github.ruvnet/claude-flow",
+  "slug": "io.github.ruvnet__claude-flow"
+}

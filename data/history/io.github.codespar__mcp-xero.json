@@ -1,0 +1,114 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 7658,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "create_contact",
+          "get_contact",
+          "list_contacts",
+          "create_invoice",
+          "get_invoice",
+          "list_invoices",
+          "email_invoice",
+          "create_payment",
+          "create_item",
+          "list_items",
+          "list_accounts",
+          "update_contact",
+          "archive_contact",
+          "update_invoice",
+          "void_invoice",
+          "get_payment",
+          "list_payments",
+          "create_bank_transaction",
+          "list_bank_transactions",
+          "list_organisations",
+          "list_tax_rates",
+          "create_credit_note",
+          "list_credit_notes",
+          "get_balance_sheet"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 4814,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "create_contact",
+          "get_contact",
+          "list_contacts",
+          "create_invoice",
+          "get_invoice",
+          "list_invoices",
+          "email_invoice",
+          "create_payment",
+          "create_item",
+          "list_items",
+          "list_accounts",
+          "update_contact",
+          "archive_contact",
+          "update_invoice",
+          "void_invoice",
+          "get_payment",
+          "list_payments",
+          "create_bank_transaction",
+          "list_bank_transactions",
+          "list_organisations",
+          "list_tax_rates",
+          "create_credit_note",
+          "list_credit_notes",
+          "get_balance_sheet"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 122828,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "create_contact",
+          "get_contact",
+          "list_contacts",
+          "create_invoice",
+          "get_invoice",
+          "list_invoices",
+          "email_invoice",
+          "create_payment",
+          "create_item",
+          "list_items",
+          "list_accounts",
+          "update_contact",
+          "archive_contact",
+          "update_invoice",
+          "void_invoice",
+          "get_payment",
+          "list_payments",
+          "create_bank_transaction",
+          "list_bank_transactions",
+          "list_organisations",
+          "list_tax_rates",
+          "create_credit_note",
+          "list_credit_notes",
+          "get_balance_sheet"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-xero",
+  "slug": "io.github.codespar__mcp-xero"
+}

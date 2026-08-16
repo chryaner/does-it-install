@@ -1,0 +1,90 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 10255,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "GetProgram",
+          "GetClass",
+          "GetFunctionGroup",
+          "GetFunction",
+          "GetStructure",
+          "GetTable",
+          "GetTableContents",
+          "GetPackage",
+          "GetTypeInfo",
+          "GetInclude",
+          "SearchObject",
+          "GetTransaction",
+          "GetCDSView",
+          "GetInterface",
+          "GetBehaviorDefinition",
+          "GetServiceDefinition"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 5626,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "GetProgram",
+          "GetClass",
+          "GetFunctionGroup",
+          "GetFunction",
+          "GetStructure",
+          "GetTable",
+          "GetTableContents",
+          "GetPackage",
+          "GetTypeInfo",
+          "GetInclude",
+          "SearchObject",
+          "GetTransaction",
+          "GetCDSView",
+          "GetInterface",
+          "GetBehaviorDefinition",
+          "GetServiceDefinition"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 106971,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "GetProgram",
+          "GetClass",
+          "GetFunctionGroup",
+          "GetFunction",
+          "GetStructure",
+          "GetTable",
+          "GetTableContents",
+          "GetPackage",
+          "GetTypeInfo",
+          "GetInclude",
+          "SearchObject",
+          "GetTransaction",
+          "GetCDSView",
+          "GetInterface",
+          "GetBehaviorDefinition",
+          "GetServiceDefinition"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.mario-andreschak/mcp-abap-adt",
+  "slug": "io.github.mario-andreschak__mcp-abap-adt"
+}

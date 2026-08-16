@@ -1,0 +1,108 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 6519,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "create_sale",
+          "get_sale",
+          "capture_sale",
+          "cancel_sale",
+          "create_recurrent",
+          "get_recurrent",
+          "tokenize_card",
+          "create_boleto",
+          "create_pix",
+          "get_pix",
+          "create_debit",
+          "create_ewallet",
+          "get_antifraud",
+          "create_sale_with_token",
+          "update_recurrent_amount",
+          "update_recurrent_next_date",
+          "deactivate_recurrent",
+          "reactivate_recurrent",
+          "create_payment_link",
+          "get_payment_link",
+          "zero_auth",
+          "create_sale_with_3ds"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 4252,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "create_sale",
+          "get_sale",
+          "capture_sale",
+          "cancel_sale",
+          "create_recurrent",
+          "get_recurrent",
+          "tokenize_card",
+          "create_boleto",
+          "create_pix",
+          "get_pix",
+          "create_debit",
+          "create_ewallet",
+          "get_antifraud",
+          "create_sale_with_token",
+          "update_recurrent_amount",
+          "update_recurrent_next_date",
+          "deactivate_recurrent",
+          "reactivate_recurrent",
+          "create_payment_link",
+          "get_payment_link",
+          "zero_auth",
+          "create_sale_with_3ds"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 115518,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "create_sale",
+          "get_sale",
+          "capture_sale",
+          "cancel_sale",
+          "create_recurrent",
+          "get_recurrent",
+          "tokenize_card",
+          "create_boleto",
+          "create_pix",
+          "get_pix",
+          "create_debit",
+          "create_ewallet",
+          "get_antifraud",
+          "create_sale_with_token",
+          "update_recurrent_amount",
+          "update_recurrent_next_date",
+          "deactivate_recurrent",
+          "reactivate_recurrent",
+          "create_payment_link",
+          "get_payment_link",
+          "zero_auth",
+          "create_sale_with_3ds"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-cielo",
+  "slug": "io.github.codespar__mcp-cielo"
+}

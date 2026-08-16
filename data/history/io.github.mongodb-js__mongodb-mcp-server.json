@@ -1,0 +1,98 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 47705,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 27,
+        "toolNames": [
+          "aggregate-db",
+          "aggregate",
+          "collection-indexes",
+          "collection-schema",
+          "collection-storage-size",
+          "connect",
+          "count",
+          "create-collection",
+          "create-index",
+          "db-stats",
+          "delete-many",
+          "disconnect",
+          "drop-collection",
+          "drop-database",
+          "drop-index",
+          "explain",
+          "export",
+          "find",
+          "insert-many",
+          "list-collections",
+          "list-connections",
+          "list-databases",
+          "mongodb-logs",
+          "rename-collection",
+          "update-many",
+          "list-knowledge-sources",
+          "search-knowledge"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 29829,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 31,
+        "toolNames": [
+          "aggregate-db",
+          "aggregate",
+          "collection-indexes",
+          "collection-schema",
+          "collection-storage-size",
+          "connect",
+          "count",
+          "create-collection",
+          "create-index",
+          "db-stats",
+          "delete-many",
+          "disconnect",
+          "drop-collection",
+          "drop-database",
+          "drop-index",
+          "explain",
+          "export",
+          "find",
+          "insert-many",
+          "list-collections",
+          "list-connections",
+          "list-databases",
+          "mongodb-logs",
+          "rename-collection",
+          "update-many",
+          "atlas-local-connect-deployment",
+          "atlas-local-create-deployment",
+          "atlas-local-delete-deployment",
+          "atlas-local-list-deployments",
+          "list-knowledge-sources",
+          "search-knowledge"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "errorExcerpt": "npm install mongodb-mcp-server@2.1.0 timed out after 600s",
+        "installMs": 600211,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "io.github.mongodb-js/mongodb-mcp-server",
+  "slug": "io.github.mongodb-js__mongodb-mcp-server"
+}

@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: ken 'B', \"  BERNSTEIN \"... is not valid JSON\nUnexpected token '─', \"──────────\"... is not valid JSON\nUnexpected token '─', \"──────────\"... is not valid JSON\nUnexpected token 'P', \"Preparing.\"... is not valid JSON\nUnexpected token 'b', \"branch, so\"... is not valid JSON\nUnexpected token 'i', \"instead of merged.\" is not valid JSON\nUnexpected token 'F', \"Fix: check\"... is not valid JSON\nUnexpected token 'B', \"BERNSTEIN_\"... is not valid JSON\nUnexpected token 'd', \"default branch.\" is not valid JSON\n--- stderr (tail) ---\nDownloading reportlab (1.9MiB)\nDownloading grpcio (11.6MiB)\nDownloading bernstein (9.3MiB)\nDownloading pyfiglet (1.7MiB)\n   Building watchdog==6.0.0\n Downloaded reportlab\n Downloaded grpcio\n Downloaded pyfiglet\n Downloaded bernstein\n      Built watchdog==6.0.0\nInstalled 85 packages in 1.40s\nBernstein collects no telemetry by default.\nRun `bernstein telemetry on` to opt in.\nThis message will not appear again.",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: ken 'B', \"  BERNSTEIN \"... is not valid JSON\nUnexpected token '─', \"──────────\"... is not valid JSON\nUnexpected token '─', \"──────────\"... is not valid JSON\nUnexpected token 'P', \"Preparing.\"... is not valid JSON\nUnexpected token 'b', \"branch, so\"... is not valid JSON\nUnexpected token 'i', \"instead of merged.\" is not valid JSON\nUnexpected token 'F', \"Fix: check\"... is not valid JSON\nUnexpected token 'B', \"BERNSTEIN_\"... is not valid JSON\nUnexpected token 'd', \"default branch.\" is not valid JSON\n--- stderr (tail) ---\nDownloading bernstein (9.3MiB)\nDownloading pyfiglet (1.7MiB)\nDownloading grpcio (6.7MiB)\nDownloading reportlab (1.9MiB)\n Downloaded grpcio\n Downloaded reportlab\n Downloaded pyfiglet\n Downloaded bernstein\nInstalled 87 packages in 422ms\nBernstein collects no telemetry by default.\nRun `bernstein telemetry on` to opt in.\nThis message will not appear again.",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: \"... is not valid JSON\nNo number after minus sign in JSON at position 1 (line 1 column 2)\nNo number after minus sign in JSON at position 1 (line 1 column 2)\nUnexpected token 'P', \"Preparing.\"... is not valid JSON\nUnexpected token 'b', \"branch, so\"... is not valid JSON\nUnexpected token 'i', \"instead of merged.\" is not valid JSON\nUnexpected token 'F', \"Fix: check\"... is not valid JSON\nUnexpected token 'B', \"BERNSTEIN_\"... is not valid JSON\nUnexpected token 'd', \"default branch.\" is not valid JSON\n--- stderr (tail) ---\nDownloading bernstein (9.3MiB)\nDownloading pyfiglet (1.7MiB)\nDownloading reportlab (1.9MiB)\nDownloading grpcio (4.9MiB)\n Downloaded grpcio\n Downloaded reportlab\n Downloaded pyfiglet\n Downloaded bernstein\nInstalled 88 packages in 55.29s\nBernstein collects no telemetry by default.\r\nRun `bernstein telemetry on` to opt in.\r\nThis message will not appear again.",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.sipyourdrink-ltd/bernstein",
+  "slug": "io.github.sipyourdrink-ltd__bernstein"
+}

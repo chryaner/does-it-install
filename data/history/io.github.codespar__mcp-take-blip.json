@@ -1,0 +1,96 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 8432,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "send_message",
+          "get_contacts",
+          "create_contact",
+          "get_threads",
+          "send_notification",
+          "get_analytics",
+          "create_broadcast",
+          "get_chatbot_flow",
+          "update_contact",
+          "delete_contact",
+          "get_contact",
+          "get_thread",
+          "create_ticket",
+          "close_ticket",
+          "list_tickets",
+          "track_event",
+          "set_bot_resource",
+          "get_bot_resource"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 3906,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "send_message",
+          "get_contacts",
+          "create_contact",
+          "get_threads",
+          "send_notification",
+          "get_analytics",
+          "create_broadcast",
+          "get_chatbot_flow",
+          "update_contact",
+          "delete_contact",
+          "get_contact",
+          "get_thread",
+          "create_ticket",
+          "close_ticket",
+          "list_tickets",
+          "track_event",
+          "set_bot_resource",
+          "get_bot_resource"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 170996,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "send_message",
+          "get_contacts",
+          "create_contact",
+          "get_threads",
+          "send_notification",
+          "get_analytics",
+          "create_broadcast",
+          "get_chatbot_flow",
+          "update_contact",
+          "delete_contact",
+          "get_contact",
+          "get_thread",
+          "create_ticket",
+          "close_ticket",
+          "list_tickets",
+          "track_event",
+          "set_bot_resource",
+          "get_bot_resource"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-take-blip",
+  "slug": "io.github.codespar__mcp-take-blip"
+}

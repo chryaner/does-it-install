@@ -1,0 +1,63 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 3152,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "list_notifications",
+          "mark_read",
+          "delete_notification",
+          "get_preferences",
+          "set_preferences",
+          "register_push_device",
+          "unregister_push_device"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 3464,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "list_notifications",
+          "mark_read",
+          "delete_notification",
+          "get_preferences",
+          "set_preferences",
+          "register_push_device",
+          "unregister_push_device"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 214741,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "list_notifications",
+          "mark_read",
+          "delete_notification",
+          "get_preferences",
+          "set_preferences",
+          "register_push_device",
+          "unregister_push_device"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.nirholas/notifications-mcp",
+  "slug": "io.github.nirholas__notifications-mcp"
+}

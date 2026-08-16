@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:27.629Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: ', \"  ╚═╝     ╚═\"... is not valid JSON\nUnexpected token 'O', \"     O B S E R \"... is not valid JSON\nUnexpected token '\u001b', \"\u001b[0m  \u001b[2m\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '\u001b', \"\u001b[33m  No \"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '\u001b', \"\u001b[0m\u001b[2m  \"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '\u001b', \"\u001b[0m  Test\"... is not valid JSON\nUnexpected token '\u001b', \"    \u001b[2m$\u001b[0m \"... is not valid JSON\nUnexpected end of JSON input",
+        "installMs": 30915,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-15T04:06:29.606Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: ', \"  ╚═╝     ╚═\"... is not valid JSON\nUnexpected token 'O', \"     O B S E R \"... is not valid JSON\nUnexpected token '\u001b', \"\u001b[0m  \u001b[2m\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '\u001b', \"\u001b[33m  No \"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '\u001b', \"\u001b[0m\u001b[2m  \"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '\u001b', \"\u001b[0m  Test\"... is not valid JSON\nUnexpected token '\u001b', \"    \u001b[2m$\u001b[0m \"... is not valid JSON\nUnexpected end of JSON input",
         "method": "npm",
@@ -11,6 +19,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T02:45:24.037Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: ', \"  ╚═╝     ╚═\"... is not valid JSON\nUnexpected token 'O', \"     O B S E R \"... is not valid JSON\nUnexpected token '\u001b', \"\u001b[0m  \u001b[2m\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '\u001b', \"\u001b[33m  No \"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '\u001b', \"\u001b[0m\u001b[2m  \"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '\u001b', \"\u001b[0m  Test\"... is not valid JSON\nUnexpected token '\u001b', \"    \u001b[2m$\u001b[0m \"... is not valid JSON\nUnexpected end of JSON input",
+        "installMs": 3768,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-15T04:06:26.501Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: ', \"  ╚═╝     ╚═\"... is not valid JSON\nUnexpected token 'O', \"     O B S E R \"... is not valid JSON\nUnexpected token '\u001b', \"\u001b[0m  \u001b[2m\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '\u001b', \"\u001b[33m  No \"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '\u001b', \"\u001b[0m\u001b[2m  \"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '\u001b', \"\u001b[0m  Test\"... is not valid JSON\nUnexpected token '\u001b', \"    \u001b[2m$\u001b[0m \"... is not valid JSON\nUnexpected end of JSON input",
         "method": "npm",
@@ -19,6 +35,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: ', \"  ╚═╝     ╚═\"... is not valid JSON\nUnexpected token 'O', \"     O B S E R \"... is not valid JSON\nUnexpected token '\u001b', \"\u001b[0m  \u001b[2m\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '\u001b', \"\u001b[33m  No \"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '\u001b', \"\u001b[0m\u001b[2m  \"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '\u001b', \"\u001b[0m  Test\"... is not valid JSON\nUnexpected token '\u001b', \"    \u001b[2m$\u001b[0m \"... is not valid JSON\nUnexpected end of JSON input",
+        "installMs": 175722,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-15T04:06:54.549Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: ', \"  ╚═╝     ╚═\"... is not valid JSON\nUnexpected token 'O', \"     O B S E R \"... is not valid JSON\nUnexpected token '\u001b', \"\u001b[0m  \u001b[2m\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '\u001b', \"\u001b[33m  No \"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '\u001b', \"\u001b[0m\u001b[2m  \"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '\u001b', \"\u001b[0m  Test\"... is not valid JSON\nUnexpected token '\u001b', \"    \u001b[2m$\u001b[0m \"... is not valid JSON\nUnexpected end of JSON input",

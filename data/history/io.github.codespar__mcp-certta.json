@@ -1,0 +1,75 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 3723,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "kyc_lookup_cpf",
+          "kyb_lookup_cnpj",
+          "biometrics_face_match",
+          "biometrics_liveness",
+          "documents_ocr",
+          "antifraud_score",
+          "signature_icp_create",
+          "signature_electronic_create",
+          "signature_get_envelope",
+          "onboarding_process_create",
+          "onboarding_process_get"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 3137,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "kyc_lookup_cpf",
+          "kyb_lookup_cnpj",
+          "biometrics_face_match",
+          "biometrics_liveness",
+          "documents_ocr",
+          "antifraud_score",
+          "signature_icp_create",
+          "signature_electronic_create",
+          "signature_get_envelope",
+          "onboarding_process_create",
+          "onboarding_process_get"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 133572,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "kyc_lookup_cpf",
+          "kyb_lookup_cnpj",
+          "biometrics_face_match",
+          "biometrics_liveness",
+          "documents_ocr",
+          "antifraud_score",
+          "signature_icp_create",
+          "signature_electronic_create",
+          "signature_get_envelope",
+          "onboarding_process_create",
+          "onboarding_process_get"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-certta",
+  "slug": "io.github.codespar__mcp-certta"
+}

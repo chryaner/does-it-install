@@ -1,0 +1,84 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 6132,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "get_oauth_token",
+          "create_pix_cob",
+          "get_pix_cob",
+          "list_pix_cob",
+          "create_pix_cobv",
+          "get_pix_cobv",
+          "resolve_dict_key",
+          "register_pix_key",
+          "delete_pix_key",
+          "create_boleto",
+          "get_boleto",
+          "cancel_boleto",
+          "get_account_balance",
+          "get_statement"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 4217,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "get_oauth_token",
+          "create_pix_cob",
+          "get_pix_cob",
+          "list_pix_cob",
+          "create_pix_cobv",
+          "get_pix_cobv",
+          "resolve_dict_key",
+          "register_pix_key",
+          "delete_pix_key",
+          "create_boleto",
+          "get_boleto",
+          "cancel_boleto",
+          "get_account_balance",
+          "get_statement"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 117021,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "get_oauth_token",
+          "create_pix_cob",
+          "get_pix_cob",
+          "list_pix_cob",
+          "create_pix_cobv",
+          "get_pix_cobv",
+          "resolve_dict_key",
+          "register_pix_key",
+          "delete_pix_key",
+          "create_boleto",
+          "get_boleto",
+          "cancel_boleto",
+          "get_account_balance",
+          "get_statement"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-c6",
+  "slug": "io.github.codespar__mcp-c6"
+}

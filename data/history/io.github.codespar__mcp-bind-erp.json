@@ -1,0 +1,102 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 5428,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "list_customers",
+          "create_customer",
+          "list_products",
+          "create_product",
+          "list_invoices",
+          "create_invoice",
+          "list_orders",
+          "create_order",
+          "get_balance",
+          "list_accounts",
+          "update_customer",
+          "delete_customer",
+          "update_product",
+          "delete_product",
+          "get_invoice",
+          "cancel_invoice",
+          "list_suppliers",
+          "create_supplier",
+          "list_payments",
+          "create_payment"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 3850,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "list_customers",
+          "create_customer",
+          "list_products",
+          "create_product",
+          "list_invoices",
+          "create_invoice",
+          "list_orders",
+          "create_order",
+          "get_balance",
+          "list_accounts",
+          "update_customer",
+          "delete_customer",
+          "update_product",
+          "delete_product",
+          "get_invoice",
+          "cancel_invoice",
+          "list_suppliers",
+          "create_supplier",
+          "list_payments",
+          "create_payment"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 119422,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "list_customers",
+          "create_customer",
+          "list_products",
+          "create_product",
+          "list_invoices",
+          "create_invoice",
+          "list_orders",
+          "create_order",
+          "get_balance",
+          "list_accounts",
+          "update_customer",
+          "delete_customer",
+          "update_product",
+          "delete_product",
+          "get_invoice",
+          "cancel_invoice",
+          "list_suppliers",
+          "create_supplier",
+          "list_payments",
+          "create_payment"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-bind-erp",
+  "slug": "io.github.codespar__mcp-bind-erp"
+}

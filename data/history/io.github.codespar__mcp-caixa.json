@@ -1,0 +1,111 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 8557,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "get_oauth_token",
+          "send_pix",
+          "create_pix_qr",
+          "get_pix",
+          "resolve_dict_key",
+          "refund_pix",
+          "create_boleto",
+          "get_boleto",
+          "cancel_boleto",
+          "get_statement",
+          "get_pix_charge",
+          "update_pix_charge",
+          "list_pix_charges",
+          "create_pix_due_charge",
+          "get_pix_due_charge",
+          "list_pix_received",
+          "register_dict_key",
+          "delete_dict_key",
+          "download_boleto_pdf",
+          "get_account_balance",
+          "transfer_ted",
+          "consult_fgts",
+          "pay_tribute"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 4611,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "get_oauth_token",
+          "send_pix",
+          "create_pix_qr",
+          "get_pix",
+          "resolve_dict_key",
+          "refund_pix",
+          "create_boleto",
+          "get_boleto",
+          "cancel_boleto",
+          "get_statement",
+          "get_pix_charge",
+          "update_pix_charge",
+          "list_pix_charges",
+          "create_pix_due_charge",
+          "get_pix_due_charge",
+          "list_pix_received",
+          "register_dict_key",
+          "delete_dict_key",
+          "download_boleto_pdf",
+          "get_account_balance",
+          "transfer_ted",
+          "consult_fgts",
+          "pay_tribute"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 181009,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "get_oauth_token",
+          "send_pix",
+          "create_pix_qr",
+          "get_pix",
+          "resolve_dict_key",
+          "refund_pix",
+          "create_boleto",
+          "get_boleto",
+          "cancel_boleto",
+          "get_statement",
+          "get_pix_charge",
+          "update_pix_charge",
+          "list_pix_charges",
+          "create_pix_due_charge",
+          "get_pix_due_charge",
+          "list_pix_received",
+          "register_dict_key",
+          "delete_dict_key",
+          "download_boleto_pdf",
+          "get_account_balance",
+          "transfer_ted",
+          "consult_fgts",
+          "pay_tribute"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-caixa",
+  "slug": "io.github.codespar__mcp-caixa"
+}

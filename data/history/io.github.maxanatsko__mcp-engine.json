@@ -1,0 +1,78 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 5877,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "manage_model_connection",
+          "open_model_connection",
+          "open_license",
+          "open_model_changes",
+          "open_test_runner",
+          "manage_model_properties",
+          "manage_refresh",
+          "run_query",
+          "list_model",
+          "manage_semantic",
+          "manage_schema",
+          "manage_security",
+          "manage_localization",
+          "manage_preferences",
+          "manage_policy",
+          "manage_license",
+          "manage_model_changes",
+          "manage_tests",
+          "manage_dependencies"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "npm install mcp-engine@3.9.119 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path /tmp/does-it-install/dii-npm-CHDra5/node_modules/mcp-engine\nnpm error command failed\nnpm error command sh -c node scripts/postinstall.js\nnpm error [mcp-engine] Unsupported platform: linux-x64\nnpm error [mcp-engine] Supported platforms: darwin-x64, darwin-arm64, win32-x64, win32-arm64\nnpm error [mcp-engine] Power BI Desktop is only available on Windows and macOS.\nnpm error A complete log of this run can be found in: /tmp/does-it-install/dii-npm-CHDra5/.npm-cache/_logs/2026-08-16T02_59_35_552Z-debug-0.log",
+        "installMs": 1707,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "install_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 5517,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "manage_model_connection",
+          "open_model_connection",
+          "open_license",
+          "open_model_changes",
+          "open_test_runner",
+          "manage_model_properties",
+          "manage_refresh",
+          "run_query",
+          "list_model",
+          "manage_semantic",
+          "manage_schema",
+          "manage_security",
+          "manage_localization",
+          "manage_preferences",
+          "manage_policy",
+          "manage_license",
+          "manage_model_changes",
+          "manage_tests",
+          "manage_dependencies"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.maxanatsko/mcp-engine",
+  "slug": "io.github.maxanatsko__mcp-engine"
+}

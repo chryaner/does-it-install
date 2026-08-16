@@ -1,0 +1,78 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 109895,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "text_to_avatar",
+          "mesh_forge",
+          "forge_free",
+          "rig_mesh",
+          "forge_avatar",
+          "ens_sns_resolve",
+          "agent_delegate_action",
+          "agent_hire_discover",
+          "agent_hire",
+          "sentiment_pulse",
+          "get_pose_seed",
+          "pump_snapshot",
+          "agent_reputation",
+          "vanity_grinder",
+          "agenc_list_tasks",
+          "agenc_get_task",
+          "agenc_get_agent",
+          "aixbt_intel",
+          "aixbt_projects"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 90438,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "text_to_avatar",
+          "mesh_forge",
+          "forge_free",
+          "rig_mesh",
+          "forge_avatar",
+          "ens_sns_resolve",
+          "agent_delegate_action",
+          "agent_hire_discover",
+          "agent_hire",
+          "sentiment_pulse",
+          "get_pose_seed",
+          "pump_snapshot",
+          "agent_reputation",
+          "vanity_grinder",
+          "agenc_list_tasks",
+          "agenc_get_task",
+          "agenc_get_agent",
+          "aixbt_intel",
+          "aixbt_projects"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "errorExcerpt": "npm install @three-ws/mcp-server@1.2.1 timed out after 600s",
+        "installMs": 600258,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "io.github.nirholas/3d-agent-mcp",
+  "slug": "io.github.nirholas__3d-agent-mcp"
+}

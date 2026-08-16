@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[ERROR] healthcheck: Failed to validate GCS credentials: Project id: 0 is invalid or not found\n[ERROR] healthcheck: Please check your GCS_PROJECT_ID and authentication configuration",
+        "installMs": 11478,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T04:06:28.268Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[ERROR] healthcheck: Failed to validate GCS credentials: Project id: 0 is invalid or not found\n[ERROR] healthcheck: Please check your GCS_PROJECT_ID and authentication configuration",
         "method": "npm",
@@ -11,6 +19,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[ERROR] healthcheck: Failed to validate GCS credentials: Project id: 0 is invalid or not found\n[ERROR] healthcheck: Please check your GCS_PROJECT_ID and authentication configuration",
+        "installMs": 8562,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T04:06:32.275Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[ERROR] healthcheck: Failed to validate GCS credentials: Project id: 0 is invalid or not found\n[ERROR] healthcheck: Please check your GCS_PROJECT_ID and authentication configuration",
         "method": "npm",
@@ -19,6 +35,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[ERROR] healthcheck: Failed to validate GCS credentials: Project id: 0 is invalid or not found\n[ERROR] healthcheck: Please check your GCS_PROJECT_ID and authentication configuration",
+        "installMs": 162002,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-15T04:06:54.151Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[ERROR] healthcheck: Failed to validate GCS credentials: Project id: 0 is invalid or not found\n[ERROR] healthcheck: Please check your GCS_PROJECT_ID and authentication configuration",

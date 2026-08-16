@@ -1,0 +1,78 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 25245,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "obsidian_get_note",
+          "obsidian_list_notes",
+          "obsidian_list_tags",
+          "obsidian_open_in_ui",
+          "obsidian_search_notes",
+          "obsidian_write_note",
+          "obsidian_append_to_note",
+          "obsidian_patch_note",
+          "obsidian_replace_in_note",
+          "obsidian_manage_frontmatter",
+          "obsidian_manage_tags",
+          "obsidian_delete_note"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 19556,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "obsidian_get_note",
+          "obsidian_list_notes",
+          "obsidian_list_tags",
+          "obsidian_open_in_ui",
+          "obsidian_search_notes",
+          "obsidian_write_note",
+          "obsidian_append_to_note",
+          "obsidian_patch_note",
+          "obsidian_replace_in_note",
+          "obsidian_manage_frontmatter",
+          "obsidian_manage_tags",
+          "obsidian_delete_note"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 254121,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "obsidian_get_note",
+          "obsidian_list_notes",
+          "obsidian_list_tags",
+          "obsidian_open_in_ui",
+          "obsidian_search_notes",
+          "obsidian_write_note",
+          "obsidian_append_to_note",
+          "obsidian_patch_note",
+          "obsidian_replace_in_note",
+          "obsidian_manage_frontmatter",
+          "obsidian_manage_tags",
+          "obsidian_delete_note"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.cyanheads/obsidian-mcp-server",
+  "slug": "io.github.cyanheads__obsidian-mcp-server"
+}

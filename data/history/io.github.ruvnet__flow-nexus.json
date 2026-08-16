@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: \"  👑 QUEEN S\"... is not valid JSON\nUnexpected token '(', \"(Move up a\"... is not valid JSON\nUnexpected token '\u001b', \"\u001b[?25h? 🤖\"... is not valid JSON\nUnexpected token '❯', \"❯ 🚀 Creat\"... is not valid JSON\nUnexpected token '\ud83d', \"  📋 List ac\"... is not valid JSON\nUnexpected token '\ud83d', \"  📊 Check s\"... is not valid JSON\nUnexpected token '⚡', \"  ⚡ Spawn agent \" is not valid JSON\nUnexpected token '\ud83d', \"  📈 Scale swarm \" is not valid JSON\nUnexpected token '❌', \"  ❌ Destroy swarm \" is not valid JSON",
+        "installMs": 12282,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "timeout"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: \"  👑 QUEEN S\"... is not valid JSON\nUnexpected token '(', \"(Move up a\"... is not valid JSON\nUnexpected token '\u001b', \"\u001b[?25h? 🤖\"... is not valid JSON\nUnexpected token '❯', \"❯ 🚀 Creat\"... is not valid JSON\nUnexpected token '\ud83d', \"  📋 List ac\"... is not valid JSON\nUnexpected token '\ud83d', \"  📊 Check s\"... is not valid JSON\nUnexpected token '⚡', \"  ⚡ Spawn agent \" is not valid JSON\nUnexpected token '\ud83d', \"  📈 Scale swarm \" is not valid JSON\nUnexpected token '❌', \"  ❌ Destroy swarm \" is not valid JSON",
+        "installMs": 6736,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "timeout"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: Please log\"... is not valid JSON\nUnexpected token 'l', \"  flow-nexus \"... is not valid JSON\nUnexpected token '\u001b', \"\u001b[32m?\u001b[39\"... is not valid JSON\nUnexpected token '\u001b', \"\u001b[36m> 🚀 \"... is not valid JSON\nUnexpected token '\ud83d', \"  📋 List ac\"... is not valid JSON\nUnexpected token '\ud83d', \"  📊 Check s\"... is not valid JSON\nUnexpected token '⚡', \"  ⚡ Spawn agent \" is not valid JSON\nUnexpected token '\ud83d', \"  📈 Scale swarm \" is not valid JSON\nUnexpected token '❌', \"  ❌ Destroy swarm \" is not valid JSON\n--- stderr (tail) ---\n- Processing create...\n× ❌ Authentication required to create swarms",
+        "installMs": 257335,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "io.github.ruvnet/flow-nexus",
+  "slug": "io.github.ruvnet__flow-nexus"
+}

@@ -2,6 +2,36 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 46192,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "blockrun_wallet",
+          "blockrun_chat",
+          "blockrun_models",
+          "blockrun_image",
+          "blockrun_music",
+          "blockrun_speech",
+          "blockrun_video",
+          "blockrun_realface",
+          "blockrun_search",
+          "blockrun_exa",
+          "blockrun_markets",
+          "blockrun_price",
+          "blockrun_dex",
+          "blockrun_modal",
+          "blockrun_phone",
+          "blockrun_surf",
+          "blockrun_rpc",
+          "blockrun_defi",
+          "blockrun_polymarket_read",
+          "blockrun_polymarket"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:29.606Z",
         "method": "npm",
         "runId": "2026-08-15T04-06-29Z-57cf45",
@@ -33,6 +63,36 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 16806,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "blockrun_wallet",
+          "blockrun_chat",
+          "blockrun_models",
+          "blockrun_image",
+          "blockrun_music",
+          "blockrun_speech",
+          "blockrun_video",
+          "blockrun_realface",
+          "blockrun_search",
+          "blockrun_exa",
+          "blockrun_markets",
+          "blockrun_price",
+          "blockrun_dex",
+          "blockrun_modal",
+          "blockrun_phone",
+          "blockrun_surf",
+          "blockrun_rpc",
+          "blockrun_defi",
+          "blockrun_polymarket_read",
+          "blockrun_polymarket"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:26.501Z",
         "method": "npm",
         "runId": "2026-08-15T04-06-26Z-0b778e",
@@ -63,6 +123,36 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 156679,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "blockrun_wallet",
+          "blockrun_chat",
+          "blockrun_models",
+          "blockrun_image",
+          "blockrun_music",
+          "blockrun_speech",
+          "blockrun_video",
+          "blockrun_realface",
+          "blockrun_search",
+          "blockrun_exa",
+          "blockrun_markets",
+          "blockrun_price",
+          "blockrun_dex",
+          "blockrun_modal",
+          "blockrun_phone",
+          "blockrun_surf",
+          "blockrun_rpc",
+          "blockrun_defi",
+          "blockrun_polymarket_read",
+          "blockrun_polymarket"
+        ]
+      },
       {
         "date": "2026-08-15T04:06:54.549Z",
         "errorExcerpt": "npm install @blockrun/mcp@0.40.1 timed out after 600s",

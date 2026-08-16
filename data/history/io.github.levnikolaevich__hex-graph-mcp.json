@@ -1,0 +1,90 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 5788,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "index_project",
+          "install_graph_providers",
+          "export_scip",
+          "import_scip_overlay",
+          "find_symbols",
+          "inspect_symbol",
+          "trace_paths",
+          "find_references",
+          "find_implementations",
+          "trace_dataflow",
+          "analyze_changes",
+          "analyze_edit_region",
+          "api_impact",
+          "diagnose_graph",
+          "analyze_architecture",
+          "audit_workspace"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 4411,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "index_project",
+          "install_graph_providers",
+          "export_scip",
+          "import_scip_overlay",
+          "find_symbols",
+          "inspect_symbol",
+          "trace_paths",
+          "find_references",
+          "find_implementations",
+          "trace_dataflow",
+          "analyze_changes",
+          "analyze_edit_region",
+          "api_impact",
+          "diagnose_graph",
+          "analyze_architecture",
+          "audit_workspace"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 131426,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "index_project",
+          "install_graph_providers",
+          "export_scip",
+          "import_scip_overlay",
+          "find_symbols",
+          "inspect_symbol",
+          "trace_paths",
+          "find_references",
+          "find_implementations",
+          "trace_dataflow",
+          "analyze_changes",
+          "analyze_edit_region",
+          "api_impact",
+          "diagnose_graph",
+          "analyze_architecture",
+          "audit_workspace"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.levnikolaevich/hex-graph-mcp",
+  "slug": "io.github.levnikolaevich__hex-graph-mcp"
+}

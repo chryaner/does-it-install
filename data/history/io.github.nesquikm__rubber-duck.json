@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: Unexpected token '\u001b', \"\u001b[32minfo\u001b\"... is not valid JSON\nUnexpected token '\u001b', \"\u001b[33mwarn\u001b\"... is not valid JSON\nUnexpected token '\u001b', \"\u001b[31merror\"... is not valid JSON",
+        "installMs": 24459,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: Unexpected token '\u001b', \"\u001b[32minfo\u001b\"... is not valid JSON\nUnexpected token '\u001b', \"\u001b[33mwarn\u001b\"... is not valid JSON\nUnexpected token '\u001b', \"\u001b[31merror\"... is not valid JSON",
+        "installMs": 20059,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: Unexpected token '\u001b', \"\u001b[32minfo\u001b\"... is not valid JSON\nUnexpected token '\u001b', \"\u001b[33mwarn\u001b\"... is not valid JSON\nUnexpected token '\u001b', \"\u001b[31merror\"... is not valid JSON",
+        "installMs": 560303,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.nesquikm/rubber-duck",
+  "slug": "io.github.nesquikm__rubber-duck"
+}

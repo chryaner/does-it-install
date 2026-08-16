@@ -1,0 +1,108 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 3403,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "create_invoice",
+          "get_invoice",
+          "list_invoices",
+          "create_credit_note",
+          "list_customers",
+          "create_customer",
+          "list_products",
+          "create_product",
+          "get_invoice_pdf",
+          "get_credit_note",
+          "list_credit_notes",
+          "update_customer",
+          "delete_customer",
+          "update_product",
+          "delete_product",
+          "create_purchase",
+          "list_purchases",
+          "list_document_types",
+          "list_users",
+          "list_warehouses",
+          "list_taxes",
+          "list_payment_methods"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 3016,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "create_invoice",
+          "get_invoice",
+          "list_invoices",
+          "create_credit_note",
+          "list_customers",
+          "create_customer",
+          "list_products",
+          "create_product",
+          "get_invoice_pdf",
+          "get_credit_note",
+          "list_credit_notes",
+          "update_customer",
+          "delete_customer",
+          "update_product",
+          "delete_product",
+          "create_purchase",
+          "list_purchases",
+          "list_document_types",
+          "list_users",
+          "list_warehouses",
+          "list_taxes",
+          "list_payment_methods"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 137495,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "create_invoice",
+          "get_invoice",
+          "list_invoices",
+          "create_credit_note",
+          "list_customers",
+          "create_customer",
+          "list_products",
+          "create_product",
+          "get_invoice_pdf",
+          "get_credit_note",
+          "list_credit_notes",
+          "update_customer",
+          "delete_customer",
+          "update_product",
+          "delete_product",
+          "create_purchase",
+          "list_purchases",
+          "list_document_types",
+          "list_users",
+          "list_warehouses",
+          "list_taxes",
+          "list_payment_methods"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-siigo",
+  "slug": "io.github.codespar__mcp-siigo"
+}

@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 69 packages in 1.65s\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/dyscv6SafQEFvg1O/bin/zikkaron\", line 6, in <module>\n    from zikkaron.__main__ import cli\n  File \"/Users/runner/.cache/uv/archive-v0/dyscv6SafQEFvg1O/lib/python3.14/site-packages/zikkaron/__main__.py\", line 6, in <module>\n    from zikkaron.server import main\n  File \"/Users/runner/.cache/uv/archive-v0/dyscv6SafQEFvg1O/lib/python3.14/site-packages/zikkaron/server.py\", line 14, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 88 packages in 2.58s\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/bCYDVJCLeyw-wv5s/bin/zikkaron\", line 6, in <module>\n    from zikkaron.__main__ import cli\n  File \"/home/runner/.cache/uv/archive-v0/bCYDVJCLeyw-wv5s/lib/python3.13/site-packages/zikkaron/__main__.py\", line 6, in <module>\n    from zikkaron.server import main\n  File \"/home/runner/.cache/uv/archive-v0/bCYDVJCLeyw-wv5s/lib/python3.13/site-packages/zikkaron/server.py\", line 14, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 71 packages in 1m 40s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\J3N18tIj3qhrFJq5\\Scripts\\zikkaron.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\J3N18tIj3qhrFJq5\\Lib\\site-packages\\zikkaron\\__main__.py\", line 6, in <module>\r\n    from zikkaron.server import main\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\J3N18tIj3qhrFJq5\\Lib\\site-packages\\zikkaron\\server.py\", line 14, in <module>\r\n    from mcp.server.fastmcp import FastMCP\r\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.amanhij/zikkaron",
+  "slug": "io.github.amanhij__zikkaron"
+}

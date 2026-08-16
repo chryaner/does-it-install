@@ -2,6 +2,25 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 21002,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "list_components",
+          "get_component_html",
+          "search_components",
+          "get_component_dependencies",
+          "get_theme_info",
+          "get_external_css",
+          "job_status",
+          "job_cancel",
+          "job_list"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:28.268Z",
         "method": "npm",
         "runId": "2026-08-15T04-06-28Z-bd83fc",
@@ -22,6 +41,25 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 13088,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "list_components",
+          "get_component_html",
+          "search_components",
+          "get_component_dependencies",
+          "get_theme_info",
+          "get_external_css",
+          "job_status",
+          "job_cancel",
+          "job_list"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:32.275Z",
         "method": "npm",
         "runId": "2026-08-15T04-06-32Z-64cc50",
@@ -41,6 +79,25 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 201943,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "list_components",
+          "get_component_html",
+          "search_components",
+          "get_component_dependencies",
+          "get_theme_info",
+          "get_external_css",
+          "job_status",
+          "job_cancel",
+          "job_list"
+        ]
+      },
       {
         "date": "2026-08-15T04:06:54.151Z",
         "method": "npm",

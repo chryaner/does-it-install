@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nfile:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-lQ4Gaw/node_modules/@atlassian-dc-mcp/confluence/build/index.js:12\n    throw new Error(`Missing required environment variables: ${missingEnvVars.join(', ')}`);\n          ^\n\nError: Missing required environment variables: CONFLUENCE_API_TOKEN, CONFLUENCE_HOST or CONFLUENCE_API_BASE_PATH\n    at file:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-lQ4Gaw/node_modules/@atlassian-dc-mcp/confluence/build/index.js:12:11\n    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)\n    at async file:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-lQ4Gaw/node_modules/@atlassian-dc-mcp/confluence/bin/run.js:6:3\n\nNode.js v22.23.1",
+        "installMs": 5935,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nfile:///tmp/does-it-install/dii-npm-suXC4r/node_modules/@atlassian-dc-mcp/confluence/build/index.js:12\n    throw new Error(`Missing required environment variables: ${missingEnvVars.join(', ')}`);\n          ^\n\nError: Missing required environment variables: CONFLUENCE_API_TOKEN, CONFLUENCE_HOST or CONFLUENCE_API_BASE_PATH\n    at file:///tmp/does-it-install/dii-npm-suXC4r/node_modules/@atlassian-dc-mcp/confluence/build/index.js:12:11\n    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)\n    at async file:///tmp/does-it-install/dii-npm-suXC4r/node_modules/@atlassian-dc-mcp/confluence/bin/run.js:6:3\n\nNode.js v22.23.2",
+        "installMs": 6325,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nfile:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-RW7rqJ/node_modules/@atlassian-dc-mcp/confluence/build/index.js:12\r\n    throw new Error(`Missing required environment variables: ${missingEnvVars.join(', ')}`);\r\n          ^\r\n\r\nError: Missing required environment variables: CONFLUENCE_API_TOKEN, CONFLUENCE_HOST or CONFLUENCE_API_BASE_PATH\r\n    at file:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-RW7rqJ/node_modules/@atlassian-dc-mcp/confluence/build/index.js:12:11\r\n    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)\r\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)\r\n    at async file:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-RW7rqJ/node_modules/@atlassian-dc-mcp/confluence/bin/run.js:6:3\r\n\r\nNode.js v22.23.2",
+        "installMs": 175535,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.b1ff/atlassian-dc-mcp-confluence",
+  "slug": "io.github.b1ff__atlassian-dc-mcp-confluence"
+}

@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: No *arr services configured. Set at least one pair of URL and API_KEY environment variables.\nExample: SONARR_URL and SONARR_API_KEY",
+        "installMs": 6584,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: No *arr services configured. Set at least one pair of URL and API_KEY environment variables.\nExample: SONARR_URL and SONARR_API_KEY",
+        "installMs": 2711,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: No *arr services configured. Set at least one pair of URL and API_KEY environment variables.\nExample: SONARR_URL and SONARR_API_KEY",
+        "installMs": 107987,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.aplaceforallmystuff/mcp-arr",
+  "slug": "io.github.aplaceforallmystuff__mcp-arr"
+}

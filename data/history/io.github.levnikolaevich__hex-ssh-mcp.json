@@ -1,0 +1,84 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 12370,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "ssh-capabilities",
+          "ssh-session-open",
+          "ssh-session-exec",
+          "ssh-session-read",
+          "ssh-session-close",
+          "ssh-session-gc",
+          "remote-ssh",
+          "ssh-read-lines",
+          "ssh-edit-block",
+          "ssh-search-code",
+          "ssh-write-chunk",
+          "ssh-upload",
+          "ssh-download",
+          "ssh-verify"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 16997,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "ssh-capabilities",
+          "ssh-session-open",
+          "ssh-session-exec",
+          "ssh-session-read",
+          "ssh-session-close",
+          "ssh-session-gc",
+          "remote-ssh",
+          "ssh-read-lines",
+          "ssh-edit-block",
+          "ssh-search-code",
+          "ssh-write-chunk",
+          "ssh-upload",
+          "ssh-download",
+          "ssh-verify"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 486967,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "ssh-capabilities",
+          "ssh-session-open",
+          "ssh-session-exec",
+          "ssh-session-read",
+          "ssh-session-close",
+          "ssh-session-gc",
+          "remote-ssh",
+          "ssh-read-lines",
+          "ssh-edit-block",
+          "ssh-search-code",
+          "ssh-write-chunk",
+          "ssh-upload",
+          "ssh-download",
+          "ssh-verify"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.levnikolaevich/hex-ssh-mcp",
+  "slug": "io.github.levnikolaevich__hex-ssh-mcp"
+}

@@ -1,0 +1,69 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 3469,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "get_balance",
+          "list_countries",
+          "list_services",
+          "order_number",
+          "wait_for_code",
+          "finish_activation",
+          "cancel_activation",
+          "request_another_sms",
+          "totp_code"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 2878,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "get_balance",
+          "list_countries",
+          "list_services",
+          "order_number",
+          "wait_for_code",
+          "finish_activation",
+          "cancel_activation",
+          "request_another_sms",
+          "totp_code"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 35455,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "get_balance",
+          "list_countries",
+          "list_services",
+          "order_number",
+          "wait_for_code",
+          "finish_activation",
+          "cancel_activation",
+          "request_another_sms",
+          "totp_code"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.sv-number/mcp-server",
+  "slug": "io.github.sv-number__mcp-server"
+}

@@ -1,0 +1,96 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 3846,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_payment",
+          "get_payment",
+          "get_payment_by_order_id",
+          "list_payments",
+          "capture_payment",
+          "cancel_payment",
+          "create_refund",
+          "get_refund",
+          "list_refunds",
+          "create_payout",
+          "get_payout",
+          "get_payout_by_external_id",
+          "list_payouts",
+          "list_payment_methods",
+          "get_balance",
+          "get_exchange_rate",
+          "create_card_token",
+          "validate_document"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 2922,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_payment",
+          "get_payment",
+          "get_payment_by_order_id",
+          "list_payments",
+          "capture_payment",
+          "cancel_payment",
+          "create_refund",
+          "get_refund",
+          "list_refunds",
+          "create_payout",
+          "get_payout",
+          "get_payout_by_external_id",
+          "list_payouts",
+          "list_payment_methods",
+          "get_balance",
+          "get_exchange_rate",
+          "create_card_token",
+          "validate_document"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 134653,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_payment",
+          "get_payment",
+          "get_payment_by_order_id",
+          "list_payments",
+          "capture_payment",
+          "cancel_payment",
+          "create_refund",
+          "get_refund",
+          "list_refunds",
+          "create_payout",
+          "get_payout",
+          "get_payout_by_external_id",
+          "list_payouts",
+          "list_payment_methods",
+          "get_balance",
+          "get_exchange_rate",
+          "create_card_token",
+          "validate_document"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-dlocal",
+  "slug": "io.github.codespar__mcp-dlocal"
+}

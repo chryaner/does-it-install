@@ -1,0 +1,96 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 9275,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_charge",
+          "retrieve_charge",
+          "list_charges",
+          "cancel_charge",
+          "resolve_charge",
+          "create_checkout",
+          "retrieve_checkout",
+          "list_checkouts",
+          "update_checkout",
+          "delete_checkout",
+          "list_events",
+          "retrieve_event",
+          "create_invoice",
+          "retrieve_invoice",
+          "list_invoices",
+          "void_invoice",
+          "list_exchange_rates",
+          "verify_webhook_signature"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 3927,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_charge",
+          "retrieve_charge",
+          "list_charges",
+          "cancel_charge",
+          "resolve_charge",
+          "create_checkout",
+          "retrieve_checkout",
+          "list_checkouts",
+          "update_checkout",
+          "delete_checkout",
+          "list_events",
+          "retrieve_event",
+          "create_invoice",
+          "retrieve_invoice",
+          "list_invoices",
+          "void_invoice",
+          "list_exchange_rates",
+          "verify_webhook_signature"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 111218,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_charge",
+          "retrieve_charge",
+          "list_charges",
+          "cancel_charge",
+          "resolve_charge",
+          "create_checkout",
+          "retrieve_checkout",
+          "list_checkouts",
+          "update_checkout",
+          "delete_checkout",
+          "list_events",
+          "retrieve_event",
+          "create_invoice",
+          "retrieve_invoice",
+          "list_invoices",
+          "void_invoice",
+          "list_exchange_rates",
+          "verify_webhook_signature"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-coinbase-commerce",
+  "slug": "io.github.codespar__mcp-coinbase-commerce"
+}

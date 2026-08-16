@@ -1,0 +1,123 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 4400,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 27,
+        "toolNames": [
+          "send_text",
+          "send_image",
+          "send_document",
+          "send_audio",
+          "get_contacts",
+          "check_number",
+          "get_profile_picture",
+          "get_messages",
+          "send_button_list",
+          "get_status",
+          "create_group",
+          "get_group_metadata",
+          "add_group_participant",
+          "remove_group_participant",
+          "send_location",
+          "send_contact",
+          "add_label",
+          "get_labels",
+          "read_message",
+          "delete_message",
+          "get_contact_metadata",
+          "add_contacts",
+          "list_chats",
+          "mark_chat_as_read",
+          "list_groups",
+          "send_option_list",
+          "send_button_actions"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 3071,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 27,
+        "toolNames": [
+          "send_text",
+          "send_image",
+          "send_document",
+          "send_audio",
+          "get_contacts",
+          "check_number",
+          "get_profile_picture",
+          "get_messages",
+          "send_button_list",
+          "get_status",
+          "create_group",
+          "get_group_metadata",
+          "add_group_participant",
+          "remove_group_participant",
+          "send_location",
+          "send_contact",
+          "add_label",
+          "get_labels",
+          "read_message",
+          "delete_message",
+          "get_contact_metadata",
+          "add_contacts",
+          "list_chats",
+          "mark_chat_as_read",
+          "list_groups",
+          "send_option_list",
+          "send_button_actions"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 133297,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 27,
+        "toolNames": [
+          "send_text",
+          "send_image",
+          "send_document",
+          "send_audio",
+          "get_contacts",
+          "check_number",
+          "get_profile_picture",
+          "get_messages",
+          "send_button_list",
+          "get_status",
+          "create_group",
+          "get_group_metadata",
+          "add_group_participant",
+          "remove_group_participant",
+          "send_location",
+          "send_contact",
+          "add_label",
+          "get_labels",
+          "read_message",
+          "delete_message",
+          "get_contact_metadata",
+          "add_contacts",
+          "list_chats",
+          "mark_chat_as_read",
+          "list_groups",
+          "send_option_list",
+          "send_button_actions"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-z-api",
+  "slug": "io.github.codespar__mcp-z-api"
+}

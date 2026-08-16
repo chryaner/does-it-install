@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nBuilding aiohttp==3.12.13\n      Built aiohttp==3.12.13\nInstalled 41 packages in 451ms\n/Users/runner/.cache/uv/archive-v0/ISzznKueuvQZmH_g/lib/python3.14/site-packages/pydantic_settings/sources/utils.py:47: IncompleteFieldDefinitionWarning: Field 'lifespan' has an incomplete definition: its annotation contains an unresolved forward reference, so settings sources may fail to correctly resolve its value. Call `model_rebuild()` on the model where the field is defined, once all the referenced types are defined.\n  warnings.warn(\n[2026-08-16 03:04:09,875] INFO {fhir_mcp_server.server.main:809} - Starting FHIR MCP server with streamable-http transport\nINFO:     Started server process [45572]\nINFO:     Waiting for application startup.\n[2026-08-16 03:04:10,090] INFO {mcp.server.streamable_http_manager.run:109} - StreamableHTTP session manager started\nINFO:     Application startup complete.\nERROR:    [Errno 48] error while attempting to bind on address ('127.0.0.1', 8000): [errno 48] address already in use\nINFO:     Waiting for application shutdown.\n[2026-08-16 03:04:10,103] INFO {mcp.server.streamable_http_manager.run:113} - StreamableHTTP session manager shutting down\nINFO:     Application shutdown complete.",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading aiohttp (1.6MiB)\n Downloaded aiohttp\nInstalled 41 packages in 138ms\n/home/runner/.cache/uv/archive-v0/jrUrBSXsk5fnYEMy/lib/python3.13/site-packages/pydantic_settings/sources/utils.py:47: IncompleteFieldDefinitionWarning: Field 'lifespan' has an incomplete definition: its annotation contains an unresolved forward reference, so settings sources may fail to correctly resolve its value. Call `model_rebuild()` on the model where the field is defined, once all the referenced types are defined.\n  warnings.warn(\n[2026-08-16 03:00:56,706] INFO {fhir_mcp_server.server.main:809} - Starting FHIR MCP server with streamable-http transport\nINFO:     Started server process [10963]\nINFO:     Waiting for application startup.\n[2026-08-16 03:00:56,822] INFO {mcp.server.streamable_http_manager.run:109} - StreamableHTTP session manager started\nINFO:     Application startup complete.\nERROR:    [Errno 98] error while attempting to bind on address ('::1', 8000, 0, 0): [errno 98] address already in use\nINFO:     Waiting for application shutdown.\n[2026-08-16 03:00:56,824] INFO {mcp.server.streamable_http_manager.run:113} - StreamableHTTP session manager shutting down\nINFO:     Application shutdown complete.",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\nInstalled 42 packages in 10.54s\nC:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\aV3J7yZAl0Zw4r4h\\Lib\\site-packages\\pydantic_settings\\sources\\utils.py:47: IncompleteFieldDefinitionWarning: Field 'lifespan' has an incomplete definition: its annotation contains an unresolved forward reference, so settings sources may fail to correctly resolve its value. Call `model_rebuild()` on the model where the field is defined, once all the referenced types are defined.\r\n  warnings.warn(\r\n[2026-08-16 04:24:25,628] INFO {fhir_mcp_server.server.main:809} - Starting FHIR MCP server with streamable-http transport\r\nINFO:     Started server process [4012]\r\nINFO:     Waiting for application startup.\r\n[2026-08-16 04:24:26,271] INFO {mcp.server.streamable_http_manager.run:109} - StreamableHTTP session manager started\r\nINFO:     Application startup complete.\r\nINFO:     Uvicorn running on http://localhost:8000 (Press CTRL+C to quit)",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "io.github.wso2/fhir-mcp-server",
+  "slug": "io.github.wso2__fhir-mcp-server"
+}

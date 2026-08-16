@@ -1,0 +1,57 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 6525,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "create_payment_session",
+          "pay_with_session",
+          "check_payment_session",
+          "list_payment_sessions",
+          "cancel_payment_session"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 5437,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "create_payment_session",
+          "pay_with_session",
+          "check_payment_session",
+          "list_payment_sessions",
+          "cancel_payment_session"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 118281,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "create_payment_session",
+          "pay_with_session",
+          "check_payment_session",
+          "list_payment_sessions",
+          "cancel_payment_session"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.nirholas/agentcore-payments-mcp",
+  "slug": "io.github.nirholas__agentcore-payments-mcp"
+}

@@ -1,0 +1,63 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 6619,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "get-spec",
+          "get-prompt",
+          "build-system-prompt",
+          "validate-prompt",
+          "list-packages",
+          "list-docs",
+          "get-doc"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 6946,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "get-spec",
+          "get-prompt",
+          "build-system-prompt",
+          "validate-prompt",
+          "list-packages",
+          "list-docs",
+          "get-doc"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 54422,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "get-spec",
+          "get-prompt",
+          "build-system-prompt",
+          "validate-prompt",
+          "list-packages",
+          "list-docs",
+          "get-doc"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.MobileReality/mdma",
+  "slug": "io.github.mobilereality__mdma"
+}

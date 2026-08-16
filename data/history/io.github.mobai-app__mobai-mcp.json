@@ -1,0 +1,108 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 6001,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "list_devices",
+          "get_device",
+          "start_bridge",
+          "stop_bridge",
+          "get_screenshot",
+          "get_ui_tree",
+          "tap",
+          "type_text",
+          "swipe",
+          "go_home",
+          "launch_app",
+          "list_apps",
+          "get_ocr",
+          "execute_dsl",
+          "run_agent",
+          "web_list_pages",
+          "web_navigate",
+          "web_get_dom",
+          "web_click",
+          "web_type",
+          "web_execute_js",
+          "http_request"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 4284,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "list_devices",
+          "get_device",
+          "start_bridge",
+          "stop_bridge",
+          "get_screenshot",
+          "get_ui_tree",
+          "tap",
+          "type_text",
+          "swipe",
+          "go_home",
+          "launch_app",
+          "list_apps",
+          "get_ocr",
+          "execute_dsl",
+          "run_agent",
+          "web_list_pages",
+          "web_navigate",
+          "web_get_dom",
+          "web_click",
+          "web_type",
+          "web_execute_js",
+          "http_request"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 181491,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "list_devices",
+          "get_device",
+          "start_bridge",
+          "stop_bridge",
+          "get_screenshot",
+          "get_ui_tree",
+          "tap",
+          "type_text",
+          "swipe",
+          "go_home",
+          "launch_app",
+          "list_apps",
+          "get_ocr",
+          "execute_dsl",
+          "run_agent",
+          "web_list_pages",
+          "web_navigate",
+          "web_get_dom",
+          "web_click",
+          "web_type",
+          "web_execute_js",
+          "http_request"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.MobAI-App/mobai-mcp",
+  "slug": "io.github.mobai-app__mobai-mcp"
+}

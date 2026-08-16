@@ -1,0 +1,99 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 7539,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "create_nfe",
+          "get_nfe",
+          "cancel_nfe",
+          "get_nfe_pdf",
+          "send_correction_letter",
+          "create_nfse",
+          "get_nfse",
+          "cancel_nfse",
+          "create_nfce",
+          "get_nfce",
+          "cancel_nfce",
+          "create_cte",
+          "get_cte",
+          "cancel_cte",
+          "create_mdfe",
+          "close_mdfe",
+          "register_webhook",
+          "list_webhooks",
+          "delete_webhook"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 4915,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "create_nfe",
+          "get_nfe",
+          "cancel_nfe",
+          "get_nfe_pdf",
+          "send_correction_letter",
+          "create_nfse",
+          "get_nfse",
+          "cancel_nfse",
+          "create_nfce",
+          "get_nfce",
+          "cancel_nfce",
+          "create_cte",
+          "get_cte",
+          "cancel_cte",
+          "create_mdfe",
+          "close_mdfe",
+          "register_webhook",
+          "list_webhooks",
+          "delete_webhook"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 117230,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "create_nfe",
+          "get_nfe",
+          "cancel_nfe",
+          "get_nfe_pdf",
+          "send_correction_letter",
+          "create_nfse",
+          "get_nfse",
+          "cancel_nfse",
+          "create_nfce",
+          "get_nfce",
+          "cancel_nfce",
+          "create_cte",
+          "get_cte",
+          "cancel_cte",
+          "create_mdfe",
+          "close_mdfe",
+          "register_webhook",
+          "list_webhooks",
+          "delete_webhook"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-focus-nfe",
+  "slug": "io.github.codespar__mcp-focus-nfe"
+}

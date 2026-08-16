@@ -1,0 +1,72 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 4722,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "search_jobs",
+          "get_job_detail",
+          "search_companies",
+          "trigger_ghost_analysis",
+          "trigger_batch_ghost_analysis",
+          "get_ghost_analysis",
+          "list_taxonomies",
+          "resolve_slugs",
+          "search_watchlists",
+          "create_watchlist_link"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 5555,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "search_jobs",
+          "get_job_detail",
+          "search_companies",
+          "trigger_ghost_analysis",
+          "trigger_batch_ghost_analysis",
+          "get_ghost_analysis",
+          "list_taxonomies",
+          "resolve_slugs",
+          "search_watchlists",
+          "create_watchlist_link"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 67664,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "search_jobs",
+          "get_job_detail",
+          "search_companies",
+          "trigger_ghost_analysis",
+          "trigger_batch_ghost_analysis",
+          "get_ghost_analysis",
+          "list_taxonomies",
+          "resolve_slugs",
+          "search_watchlists",
+          "create_watchlist_link"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.colophon-group/jobseek",
+  "slug": "io.github.colophon-group__jobseek"
+}

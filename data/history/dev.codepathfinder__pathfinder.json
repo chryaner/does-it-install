@@ -1,0 +1,78 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "get_index_info",
+          "find_symbol",
+          "find_module",
+          "list_modules",
+          "get_callers",
+          "get_callees",
+          "get_call_details",
+          "resolve_import",
+          "find_dockerfile_instructions",
+          "find_compose_services",
+          "get_dockerfile_details",
+          "status",
+          "get_docker_dependencies"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "get_index_info",
+          "find_symbol",
+          "find_module",
+          "list_modules",
+          "get_callers",
+          "get_callees",
+          "get_call_details",
+          "resolve_import",
+          "find_dockerfile_instructions",
+          "find_compose_services",
+          "get_dockerfile_details",
+          "status",
+          "get_docker_dependencies"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "get_index_info",
+          "find_symbol",
+          "find_module",
+          "list_modules",
+          "get_callers",
+          "get_callees",
+          "get_call_details",
+          "resolve_import",
+          "find_dockerfile_instructions",
+          "find_compose_services",
+          "get_dockerfile_details",
+          "status",
+          "get_docker_dependencies"
+        ]
+      }
+    ]
+  },
+  "serverId": "dev.codepathfinder/pathfinder",
+  "slug": "dev.codepathfinder__pathfinder"
+}

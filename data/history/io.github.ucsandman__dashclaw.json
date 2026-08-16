@@ -1,0 +1,99 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 7039,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "dashclaw_guard",
+          "dashclaw_record",
+          "dashclaw_invoke",
+          "dashclaw_capabilities_list",
+          "dashclaw_policies_list",
+          "dashclaw_wait_for_approval",
+          "dashclaw_session_start",
+          "dashclaw_session_end",
+          "dashclaw_session_retro",
+          "dashclaw_task_create",
+          "dashclaw_task_event",
+          "dashclaw_task_update",
+          "dashclaw_assumption_record",
+          "dashclaw_decisions_recent",
+          "dashclaw_pair",
+          "dashclaw_plan_submit",
+          "dashclaw_plan_status",
+          "dashclaw_status",
+          "export_dashclaw_evidence"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 3892,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "dashclaw_guard",
+          "dashclaw_record",
+          "dashclaw_invoke",
+          "dashclaw_capabilities_list",
+          "dashclaw_policies_list",
+          "dashclaw_wait_for_approval",
+          "dashclaw_session_start",
+          "dashclaw_session_end",
+          "dashclaw_session_retro",
+          "dashclaw_task_create",
+          "dashclaw_task_event",
+          "dashclaw_task_update",
+          "dashclaw_assumption_record",
+          "dashclaw_decisions_recent",
+          "dashclaw_pair",
+          "dashclaw_plan_submit",
+          "dashclaw_plan_status",
+          "dashclaw_status",
+          "export_dashclaw_evidence"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 177222,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "dashclaw_guard",
+          "dashclaw_record",
+          "dashclaw_invoke",
+          "dashclaw_capabilities_list",
+          "dashclaw_policies_list",
+          "dashclaw_wait_for_approval",
+          "dashclaw_session_start",
+          "dashclaw_session_end",
+          "dashclaw_session_retro",
+          "dashclaw_task_create",
+          "dashclaw_task_event",
+          "dashclaw_task_update",
+          "dashclaw_assumption_record",
+          "dashclaw_decisions_recent",
+          "dashclaw_pair",
+          "dashclaw_plan_submit",
+          "dashclaw_plan_status",
+          "dashclaw_status",
+          "export_dashclaw_evidence"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.ucsandman/dashclaw",
+  "slug": "io.github.ucsandman__dashclaw"
+}

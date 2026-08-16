@@ -1,0 +1,54 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 1512,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 26,
+        "toolNames": [
+          "xcode_open_project",
+          "xcode_close_project",
+          "xcode_build",
+          "xcode_get_schemes",
+          "xcode_set_active_scheme",
+          "xcode_clean",
+          "xcode_test",
+          "xcode_build_and_run",
+          "xcode_debug",
+          "xcode_stop",
+          "find_xcresults",
+          "xcode_get_run_destinations",
+          "xcode_get_workspace_info",
+          "xcode_get_projects",
+          "xcode_open_file",
+          "xcode_health_check",
+          "xcresult_browse",
+          "xcresult_browser_get_console",
+          "xcresult_summary",
+          "xcresult_get_screenshot",
+          "xcresult_get_ui_hierarchy",
+          "xcresult_get_ui_element",
+          "xcresult_list_attachments",
+          "xcresult_export_attachment",
+          "xcode_refresh_project",
+          "xcode_get_test_targets"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "npm install xcodemcp@2.1.4 exited with code 1\n--- stderr (tail) ---\nnpm error code EBADPLATFORM\nnpm error notsup Unsupported platform for xcodemcp@2.1.4: wanted {\"os\":\"darwin\"} (current: {\"os\":\"linux\"})\nnpm error notsup Valid os:  darwin\nnpm error notsup Actual os: linux\nnpm error A complete log of this run can be found in: /tmp/does-it-install/dii-npm-fTcSR7/.npm-cache/_logs/2026-08-16T02_57_19_810Z-debug-0.log",
+        "installMs": 934,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "install_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.lapfelix/xcodemcp",
+  "slug": "io.github.lapfelix__xcodemcp"
+}

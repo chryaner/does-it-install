@@ -1,0 +1,48 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "method": "remote-http",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "microsoft_docs_search",
+          "microsoft_code_sample_search",
+          "microsoft_docs_fetch"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "method": "remote-http",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "microsoft_docs_search",
+          "microsoft_code_sample_search",
+          "microsoft_docs_fetch"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "method": "remote-http",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "microsoft_docs_search",
+          "microsoft_code_sample_search",
+          "microsoft_docs_fetch"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.microsoft/microsoft-learn-mcp",
+  "slug": "com.microsoft__microsoft-learn-mcp"
+}

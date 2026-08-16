@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 18 packages in 50ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/crbJt2OLc16cLYrd/bin/dns-aid\", line 6, in <module>\n    from dns_aid.cli.main import app\n  File \"/Users/runner/.cache/uv/archive-v0/crbJt2OLc16cLYrd/lib/python3.14/site-packages/dns_aid/cli/main.py\", line 29, in <module>\n    import typer\nModuleNotFoundError: No module named 'typer'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-15T04:06:28.791Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 18 packages in 53ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/yYD4VHyjixxOt74V/bin/dns-aid\", line 6, in <module>\n    from dns_aid.cli.main import app\n  File \"/Users/runner/.cache/uv/archive-v0/yYD4VHyjixxOt74V/lib/python3.14/site-packages/dns_aid/cli/main.py\", line 29, in <module>\n    import typer\nModuleNotFoundError: No module named 'typer'",
         "method": "pypi",
@@ -10,6 +17,13 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 18 packages in 8ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/VXth5c4spS2hHKnW/bin/dns-aid\", line 6, in <module>\n    from dns_aid.cli.main import app\n  File \"/home/runner/.cache/uv/archive-v0/VXth5c4spS2hHKnW/lib/python3.13/site-packages/dns_aid/cli/main.py\", line 29, in <module>\n    import typer\nModuleNotFoundError: No module named 'typer'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-15T04:06:31.639Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 18 packages in 20ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/bszCIM2d4cU2i_Md/bin/dns-aid\", line 6, in <module>\n    from dns_aid.cli.main import app\n  File \"/home/runner/.cache/uv/archive-v0/bszCIM2d4cU2i_Md/lib/python3.12/site-packages/dns_aid/cli/main.py\", line 29, in <module>\n    import typer\nModuleNotFoundError: No module named 'typer'",

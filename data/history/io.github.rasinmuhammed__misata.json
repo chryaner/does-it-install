@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 21 packages in 587ms\nUsage: misata [OPTIONS] COMMAND [ARGS]...\n\n  Misata - AI-Powered Synthetic Data Engine\n\n  Generate industry-realistic data from natural language stories.\n\nOptions:\n  --version  Show the version and exit.\n  --help     Show this message and exit.\n\nCommands:\n  audit           Audit a folder of CSVs for the contradictions that make...\n  capsule         Create, inspect, and use domain vocabulary capsules.\n  dbt-fixture     Generate dbt 1.8+ unit test fixture CSVs from a story...\n  dbt-seed        Generate synthetic data into a dbt seeds/ directory...\n  evalpack        Build a verified evaluation pack: database +...\n  examples        Show example stories and usage patterns.\n  generate        Generate synthetic data from a story or configuration...\n  graph           REVERSE ENGINEERING: Generate data from a chart...\n  init            Scaffold a misata.yaml schema file in the current...\n  lint            Check a schema for infeasible declarations BEFORE...\n  mimic           Generate a privacy-safe synthetic twin of a CSV file.\n  parse           Parse a story and output the generated configuration.\n  provenance      Print the data-provenance statement, plus file hashes...\n  quality         Run data quality checks on CSV files or a database.\n  recipe          Create and run reusable Misata recipes.\n  schema          Generate a Misata schema from a database or SQLAlchemy...\n  serve           Start the Misata API server for the web UI.\n  studio          Launch Misata Studio - the visual schema designer.\n  template        Generate data from an industry template.\n  templates-list  List available industry templates.\n  validate        Profile a CSV file and optionally check it against a...",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 21 packages in 254ms\nUsage: misata [OPTIONS] COMMAND [ARGS]...\n\n  Misata - AI-Powered Synthetic Data Engine\n\n  Generate industry-realistic data from natural language stories.\n\nOptions:\n  --version  Show the version and exit.\n  --help     Show this message and exit.\n\nCommands:\n  audit           Audit a folder of CSVs for the contradictions that make...\n  capsule         Create, inspect, and use domain vocabulary capsules.\n  dbt-fixture     Generate dbt 1.8+ unit test fixture CSVs from a story...\n  dbt-seed        Generate synthetic data into a dbt seeds/ directory...\n  evalpack        Build a verified evaluation pack: database +...\n  examples        Show example stories and usage patterns.\n  generate        Generate synthetic data from a story or configuration...\n  graph           REVERSE ENGINEERING: Generate data from a chart...\n  init            Scaffold a misata.yaml schema file in the current...\n  lint            Check a schema for infeasible declarations BEFORE...\n  mimic           Generate a privacy-safe synthetic twin of a CSV file.\n  parse           Parse a story and output the generated configuration.\n  provenance      Print the data-provenance statement, plus file hashes...\n  quality         Run data quality checks on CSV files or a database.\n  recipe          Create and run reusable Misata recipes.\n  schema          Generate a Misata schema from a database or SQLAlchemy...\n  serve           Start the Misata API server for the web UI.\n  studio          Launch Misata Studio - the visual schema designer.\n  template        Generate data from an industry template.\n  templates-list  List available industry templates.\n  validate        Profile a CSV file and optionally check it against a...",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 23 packages in 22.39s\nUsage: misata [OPTIONS] COMMAND [ARGS]...\r\n\r\n  Misata - AI-Powered Synthetic Data Engine\r\n\r\n  Generate industry-realistic data from natural language stories.\r\n\r\nOptions:\r\n  --version  Show the version and exit.\r\n  --help     Show this message and exit.\r\n\r\nCommands:\r\n  audit           Audit a folder of CSVs for the contradictions that make...\r\n  capsule         Create, inspect, and use domain vocabulary capsules.\r\n  dbt-fixture     Generate dbt 1.8+ unit test fixture CSVs from a story...\r\n  dbt-seed        Generate synthetic data into a dbt seeds/ directory...\r\n  evalpack        Build a verified evaluation pack: database +...\r\n  examples        Show example stories and usage patterns.\r\n  generate        Generate synthetic data from a story or configuration...\r\n  graph           REVERSE ENGINEERING: Generate data from a chart...\r\n  init            Scaffold a misata.yaml schema file in the current...\r\n  lint            Check a schema for infeasible declarations BEFORE...\r\n  mimic           Generate a privacy-safe synthetic twin of a CSV file.\r\n  parse           Parse a story and output the generated configuration.\r\n  provenance      Print the data-provenance statement, plus file hashes...\r\n  quality         Run data quality checks on CSV files or a database.\r\n  recipe          Create and run reusable Misata recipes.\r\n  schema          Generate a Misata schema from a database or SQLAlchemy...\r\n  serve           Start the Misata API server for the web UI.\r\n  studio          Launch Misata Studio - the visual schema designer.\r\n  template        Generate data from an industry template.\r\n  templates-list  List available industry templates.\r\n  validate        Profile a CSV file and optionally check it against a...",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.rasinmuhammed/misata",
+  "slug": "io.github.rasinmuhammed__misata"
+}

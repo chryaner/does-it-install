@@ -1,0 +1,57 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 3772,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "browse_subreddit",
+          "search_reddit",
+          "get_post_details",
+          "user_analysis",
+          "reddit_explain"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 3682,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "browse_subreddit",
+          "search_reddit",
+          "get_post_details",
+          "user_analysis",
+          "reddit_explain"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 61449,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "browse_subreddit",
+          "search_reddit",
+          "get_post_details",
+          "user_analysis",
+          "reddit_explain"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.karanb192/reddit-mcp-buddy",
+  "slug": "io.github.karanb192__reddit-mcp-buddy"
+}

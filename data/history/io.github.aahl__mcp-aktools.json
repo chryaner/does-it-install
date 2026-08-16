@@ -1,0 +1,93 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "search",
+          "stock_info",
+          "stock_prices",
+          "stock_news",
+          "stock_indicators_a",
+          "stock_indicators_hk",
+          "stock_indicators_us",
+          "get_current_time",
+          "stock_zt_pool_em",
+          "stock_zt_pool_strong_em",
+          "stock_lhb_ggtj_sina",
+          "stock_sector_fund_flow_rank",
+          "stock_news_global",
+          "okx_prices",
+          "okx_loan_ratios",
+          "okx_taker_volume",
+          "binance_ai_report",
+          "trading_suggest"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "search",
+          "stock_info",
+          "stock_prices",
+          "stock_news",
+          "stock_indicators_a",
+          "stock_indicators_hk",
+          "stock_indicators_us",
+          "get_current_time",
+          "stock_zt_pool_em",
+          "stock_zt_pool_strong_em",
+          "stock_lhb_ggtj_sina",
+          "stock_sector_fund_flow_rank",
+          "stock_news_global",
+          "okx_prices",
+          "okx_loan_ratios",
+          "okx_taker_volume",
+          "binance_ai_report",
+          "trading_suggest"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "search",
+          "stock_info",
+          "stock_prices",
+          "stock_news",
+          "stock_indicators_a",
+          "stock_indicators_hk",
+          "stock_indicators_us",
+          "get_current_time",
+          "stock_zt_pool_em",
+          "stock_zt_pool_strong_em",
+          "stock_lhb_ggtj_sina",
+          "stock_sector_fund_flow_rank",
+          "stock_news_global",
+          "okx_prices",
+          "okx_loan_ratios",
+          "okx_taker_volume",
+          "binance_ai_report",
+          "trading_suggest"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.aahl/mcp-aktools",
+  "slug": "io.github.aahl__mcp-aktools"
+}

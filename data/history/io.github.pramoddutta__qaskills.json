@@ -1,0 +1,60 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 7473,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "search_skills",
+          "get_skill",
+          "get_skill_content",
+          "install_skill",
+          "list_categories",
+          "get_leaderboard"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 5180,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "search_skills",
+          "get_skill",
+          "get_skill_content",
+          "install_skill",
+          "list_categories",
+          "get_leaderboard"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 99710,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "search_skills",
+          "get_skill",
+          "get_skill_content",
+          "install_skill",
+          "list_categories",
+          "get_leaderboard"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.PramodDutta/qaskills",
+  "slug": "io.github.pramoddutta__qaskills"
+}

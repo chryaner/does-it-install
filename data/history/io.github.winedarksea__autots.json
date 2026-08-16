@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading holidays (1.5MiB)\nDownloading numpy (5.1MiB)\nDownloading statsmodels (9.5MiB)\nDownloading pandas (9.5MiB)\nDownloading lightgbm (1.4MiB)\nDownloading scikit-learn (7.9MiB)\nDownloading matplotlib (8.9MiB)\nDownloading curl-cffi (2.7MiB)\nDownloading fonttools (2.7MiB)\nDownloading lxml (8.2MiB)\nDownloading scipy (19.5MiB)\nDownloading autots (1.3MiB)\n Downloaded lightgbm\n Downloaded autots\n Downloaded curl-cffi\n Downloaded fonttools\n Downloaded numpy\n Downloaded holidays\n Downloaded lxml\n Downloaded matplotlib\n Downloaded scikit-learn\n Downloaded pandas\n Downloaded statsmodels\n Downloaded scipy\nInstalled 71 packages in 1.10s\nwarning: An executable named `autots-mcp` is not provided by package `autots-mcp` but is available via the dependency `autots`. Consider using `uv tool run --from autots autots-mcp` instead.\nMatplotlib is building the font cache; this may take a moment.\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/hkQttuSSIIyThLB1/bin/autots-mcp\", line 6, in <module>\n    from autots.mcp.server import serve\n  File \"/Users/runner/.cache/uv/archive-v0/hkQttuSSIIyThLB1/lib/python3.14/site-packages/autots/mcp/__init__.py\", line 8, in <module>\n    from autots.mcp.server import serve\n  File \"/Users/runner/.cache/uv/archive-v0/hkQttuSSIIyThLB1/lib/python3.14/site-packages/autots/mcp/server.py\", line 75, in <module>\n    @app.list_tools()\n     ^^^^^^^^^^^^^^\nAttributeError: 'Server' object has no attribute 'list_tools'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading pandas (10.4MiB)\nDownloading lightgbm (3.3MiB)\nDownloading holidays (1.5MiB)\nDownloading curl-cffi (12.8MiB)\nDownloading lxml (5.0MiB)\nDownloading kiwisolver (1.4MiB)\nDownloading statsmodels (9.8MiB)\nDownloading scipy (33.6MiB)\nDownloading scikit-learn (8.7MiB)\nDownloading pillow (6.6MiB)\nDownloading fonttools (4.7MiB)\nDownloading numpy (15.9MiB)\nDownloading autots (1.3MiB)\nDownloading matplotlib (9.6MiB)\n Downloaded autots\n Downloaded kiwisolver\n Downloaded lightgbm\n Downloaded fonttools\n Downloaded lxml\n Downloaded pillow\n Downloaded holidays\n Downloaded scikit-learn\n Downloaded matplotlib\n Downloaded curl-cffi\n Downloaded numpy\n Downloaded statsmodels\n Downloaded pandas\n Downloaded scipy\nInstalled 71 packages in 840ms\nwarning: An executable named `autots-mcp` is not provided by package `autots-mcp` but is available via the dependency `autots`. Consider using `uv tool run --from autots autots-mcp` instead.\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/i_QnXjLUTl5cPgRn/bin/autots-mcp\", line 6, in <module>\n    from autots.mcp.server import serve\n  File \"/home/runner/.cache/uv/archive-v0/i_QnXjLUTl5cPgRn/lib/python3.13/site-packages/autots/mcp/__init__.py\", line 8, in <module>\n    from autots.mcp.server import serve\n  File \"/home/runner/.cache/uv/archive-v0/i_QnXjLUTl5cPgRn/lib/python3.13/site-packages/autots/mcp/server.py\", line 75, in <module>\n    @app.list_tools()\n     ^^^^^^^^^^^^^^\nAttributeError: 'Server' object has no attribute 'list_tools'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading holidays (1.5MiB)\nDownloading matplotlib (8.9MiB)\nDownloading fonttools (2.2MiB)\nDownloading curl-cffi (1.9MiB)\nDownloading scikit-learn (7.8MiB)\nDownloading statsmodels (9.1MiB)\nDownloading autots (1.3MiB)\nDownloading lightgbm (1.3MiB)\n Downloaded lightgbm\n Downloaded autots\n Downloaded curl-cffi\n Downloaded fonttools\n Downloaded matplotlib\n Downloaded holidays\n Downloaded scikit-learn\n Downloaded statsmodels\nInstalled 74 packages in 1m 27s\nwarning: An executable named `autots-mcp` is not provided by package `autots-mcp` but is available via the dependency `autots`. Consider using `uv tool run --from autots autots-mcp` instead.\nMatplotlib is building the font cache; this may take a moment.\r\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\jygS1fuDpkz362tD\\Scripts\\autots-mcp.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\jygS1fuDpkz362tD\\Lib\\site-packages\\autots\\mcp\\__init__.py\", line 8, in <module>\r\n    from autots.mcp.server import serve\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\jygS1fuDpkz362tD\\Lib\\site-packages\\autots\\mcp\\server.py\", line 75, in <module>\r\n    @app.list_tools()\r\n     ^^^^^^^^^^^^^^\r\nAttributeError: 'Server' object has no attribute 'list_tools'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.winedarksea/AutoTS",
+  "slug": "io.github.winedarksea__autots"
+}

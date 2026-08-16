@@ -1,0 +1,87 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 8182,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "list_quotes",
+          "create_swap",
+          "get_swap",
+          "cancel_swap",
+          "create_wallet",
+          "list_wallets",
+          "get_wallet",
+          "list_balances",
+          "transfer",
+          "get_transaction",
+          "list_transactions",
+          "create_payment",
+          "list_payments",
+          "get_payment",
+          "cancel_payment"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 4026,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "list_quotes",
+          "create_swap",
+          "get_swap",
+          "cancel_swap",
+          "create_wallet",
+          "list_wallets",
+          "get_wallet",
+          "list_balances",
+          "transfer",
+          "get_transaction",
+          "list_transactions",
+          "create_payment",
+          "list_payments",
+          "get_payment",
+          "cancel_payment"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 189675,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "list_quotes",
+          "create_swap",
+          "get_swap",
+          "cancel_swap",
+          "create_wallet",
+          "list_wallets",
+          "get_wallet",
+          "list_balances",
+          "transfer",
+          "get_transaction",
+          "list_transactions",
+          "create_payment",
+          "list_payments",
+          "get_payment",
+          "cancel_payment"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-coinbase-cdp",
+  "slug": "io.github.codespar__mcp-coinbase-cdp"
+}

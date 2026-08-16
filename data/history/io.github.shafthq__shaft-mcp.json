@@ -1,0 +1,88 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "skipped"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 17097,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 91,
+        "toolNames": [
+          "trace_latest",
+          "capture_target_candidates",
+          "mobile_get_contexts",
+          "doctor_propose_healed_locator",
+          "shaft_guide_search",
+          "shaft_project_create",
+          "shaft_project_init_agents",
+          "element_is_selected",
+          "browser_set_window_size",
+          "capture_set_mode",
+          "browser_aria_snapshot",
+          "capture_checkpoint",
+          "autobot_provider_status",
+          "healer_run_failed_test",
+          "element_is_enabled",
+          "autobot_provider_models",
+          "capture_step_delete",
+          "test_plan_explore",
+          "browser_accessibility_audit",
+          "mobile_swipe",
+          "driver_initialize",
+          "capture_api_start",
+          "browser_route",
+          "browser_storage_state_load",
+          "driver_quit",
+          "element_clear",
+          "trace_read",
+          "element_upload_file",
+          "browser_network_requests",
+          "browser_get_page_dom",
+          "browser_navigate",
+          "browser_navigate_forward",
+          "autobot_provider_chat",
+          "test_code_guardrails_check",
+          "report_merge_shards",
+          "doctor_suggest_fix",
+          "capture_record_at_target_code_blocks",
+          "element_is_displayed",
+          "browser_delete_cookies",
+          "capture_api_transactions",
+          "capture_codegen_features",
+          "element_type",
+          "browser_get_current_url",
+          "test_automation_scenarios",
+          "shaft_coding_partner_diff",
+          "mobile_tap_coordinates",
+          "shaft_coding_partner_plan",
+          "browser_refresh",
+          "doctor_analyze_failed_allure",
+          "mobile_inspector_record_start"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "skipped"
+      }
+    ]
+  },
+  "serverId": "io.github.ShaftHQ/shaft-mcp",
+  "slug": "io.github.shafthq__shaft-mcp"
+}

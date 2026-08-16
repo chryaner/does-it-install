@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[ERROR] healthcheck: fly CLI not found\n\nThe fly CLI is required for this server to work.\nPlease install it: https://fly.io/docs/hands-on/install-flyctl/",
+        "installMs": 3825,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T04:06:29.606Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[ERROR] healthcheck: fly CLI not found\n\nThe fly CLI is required for this server to work.\nPlease install it: https://fly.io/docs/hands-on/install-flyctl/",
         "method": "npm",
@@ -11,6 +19,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[ERROR] healthcheck: fly CLI not found\n\nThe fly CLI is required for this server to work.\nPlease install it: https://fly.io/docs/hands-on/install-flyctl/",
+        "installMs": 3709,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T04:06:26.501Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[ERROR] healthcheck: fly CLI not found\n\nThe fly CLI is required for this server to work.\nPlease install it: https://fly.io/docs/hands-on/install-flyctl/",
         "method": "npm",
@@ -19,6 +35,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[ERROR] healthcheck: fly CLI not found\n\nThe fly CLI is required for this server to work.\nPlease install it: https://fly.io/docs/hands-on/install-flyctl/",
+        "installMs": 191105,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-15T04:06:54.549Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[ERROR] healthcheck: fly CLI not found\n\nThe fly CLI is required for this server to work.\nPlease install it: https://fly.io/docs/hands-on/install-flyctl/",

@@ -1,0 +1,105 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 2993,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "list_products",
+          "get_product",
+          "list_orders",
+          "get_order",
+          "list_contacts",
+          "get_contact",
+          "create_invoice",
+          "get_invoice",
+          "get_stock",
+          "list_accounts_payable",
+          "update_stock",
+          "list_categories",
+          "list_warehouses",
+          "list_price_lists",
+          "update_order_status",
+          "list_invoices",
+          "get_invoice_xml",
+          "get_invoice_link",
+          "send_invoice_email",
+          "list_accounts_receivable",
+          "get_account_receivable"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 2901,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "list_products",
+          "get_product",
+          "list_orders",
+          "get_order",
+          "list_contacts",
+          "get_contact",
+          "create_invoice",
+          "get_invoice",
+          "get_stock",
+          "list_accounts_payable",
+          "update_stock",
+          "list_categories",
+          "list_warehouses",
+          "list_price_lists",
+          "update_order_status",
+          "list_invoices",
+          "get_invoice_xml",
+          "get_invoice_link",
+          "send_invoice_email",
+          "list_accounts_receivable",
+          "get_account_receivable"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 135558,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "list_products",
+          "get_product",
+          "list_orders",
+          "get_order",
+          "list_contacts",
+          "get_contact",
+          "create_invoice",
+          "get_invoice",
+          "get_stock",
+          "list_accounts_payable",
+          "update_stock",
+          "list_categories",
+          "list_warehouses",
+          "list_price_lists",
+          "update_order_status",
+          "list_invoices",
+          "get_invoice_xml",
+          "get_invoice_link",
+          "send_invoice_email",
+          "list_accounts_receivable",
+          "get_account_receivable"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-tiny",
+  "slug": "io.github.codespar__mcp-tiny"
+}

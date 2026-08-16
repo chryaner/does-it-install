@@ -1,0 +1,75 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 5948,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "get_autopilot_config",
+          "set_autopilot_config",
+          "generate_proposals",
+          "list_proposals",
+          "dryrun_proposal",
+          "adjust_proposal",
+          "execute_proposal",
+          "dismiss_proposal",
+          "undo_action",
+          "list_autopilot_activity",
+          "compute_trust"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 5323,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "get_autopilot_config",
+          "set_autopilot_config",
+          "generate_proposals",
+          "list_proposals",
+          "dryrun_proposal",
+          "adjust_proposal",
+          "execute_proposal",
+          "dismiss_proposal",
+          "undo_action",
+          "list_autopilot_activity",
+          "compute_trust"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 117962,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "get_autopilot_config",
+          "set_autopilot_config",
+          "generate_proposals",
+          "list_proposals",
+          "dryrun_proposal",
+          "adjust_proposal",
+          "execute_proposal",
+          "dismiss_proposal",
+          "undo_action",
+          "list_autopilot_activity",
+          "compute_trust"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.nirholas/autopilot-mcp",
+  "slug": "io.github.nirholas__autopilot-mcp"
+}

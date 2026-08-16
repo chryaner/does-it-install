@@ -1,0 +1,114 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 7077,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "get_live_matches",
+          "get_upcoming_matches",
+          "get_match",
+          "get_match_score",
+          "search_players",
+          "get_player",
+          "get_fixtures",
+          "search_tournaments",
+          "get_tournament",
+          "get_recent_results",
+          "search_archive_matches",
+          "get_archive_match",
+          "search_archive_players",
+          "get_archive_career",
+          "get_h2h",
+          "get_match_events",
+          "get_match_odds",
+          "get_rankings",
+          "get_match_analysis",
+          "get_player_rankings",
+          "get_match_statistics",
+          "get_charting_player",
+          "get_charting_match",
+          "check_api_status"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 2964,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "get_live_matches",
+          "get_upcoming_matches",
+          "get_match",
+          "get_match_score",
+          "search_players",
+          "get_player",
+          "get_fixtures",
+          "search_tournaments",
+          "get_tournament",
+          "get_recent_results",
+          "search_archive_matches",
+          "get_archive_match",
+          "search_archive_players",
+          "get_archive_career",
+          "get_h2h",
+          "get_match_events",
+          "get_match_odds",
+          "get_rankings",
+          "get_match_analysis",
+          "get_player_rankings",
+          "get_match_statistics",
+          "get_charting_player",
+          "get_charting_match",
+          "check_api_status"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 112335,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "get_live_matches",
+          "get_upcoming_matches",
+          "get_match",
+          "get_match_score",
+          "search_players",
+          "get_player",
+          "get_fixtures",
+          "search_tournaments",
+          "get_tournament",
+          "get_recent_results",
+          "search_archive_matches",
+          "get_archive_match",
+          "search_archive_players",
+          "get_archive_career",
+          "get_h2h",
+          "get_match_events",
+          "get_match_odds",
+          "get_rankings",
+          "get_match_analysis",
+          "get_player_rankings",
+          "get_match_statistics",
+          "get_charting_player",
+          "get_charting_match",
+          "check_api_status"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.livetennisapi/livetennisapi-mcp",
+  "slug": "io.github.livetennisapi__livetennisapi-mcp"
+}

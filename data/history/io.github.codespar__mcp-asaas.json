@@ -1,0 +1,114 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 4189,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "create_payment",
+          "get_payment",
+          "list_payments",
+          "get_pix_qrcode",
+          "get_boleto",
+          "create_customer",
+          "list_customers",
+          "create_subscription",
+          "get_balance",
+          "list_subscriptions",
+          "cancel_subscription",
+          "get_webhook_events",
+          "create_subaccount",
+          "get_installments",
+          "create_transfer",
+          "create_pix_qrcode",
+          "list_transfers",
+          "create_notification",
+          "list_notifications",
+          "get_customer",
+          "update_payment",
+          "delete_payment",
+          "refund_payment",
+          "get_subscription"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 3019,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "create_payment",
+          "get_payment",
+          "list_payments",
+          "get_pix_qrcode",
+          "get_boleto",
+          "create_customer",
+          "list_customers",
+          "create_subscription",
+          "get_balance",
+          "list_subscriptions",
+          "cancel_subscription",
+          "get_webhook_events",
+          "create_subaccount",
+          "get_installments",
+          "create_transfer",
+          "create_pix_qrcode",
+          "list_transfers",
+          "create_notification",
+          "list_notifications",
+          "get_customer",
+          "update_payment",
+          "delete_payment",
+          "refund_payment",
+          "get_subscription"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 128818,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "create_payment",
+          "get_payment",
+          "list_payments",
+          "get_pix_qrcode",
+          "get_boleto",
+          "create_customer",
+          "list_customers",
+          "create_subscription",
+          "get_balance",
+          "list_subscriptions",
+          "cancel_subscription",
+          "get_webhook_events",
+          "create_subaccount",
+          "get_installments",
+          "create_transfer",
+          "create_pix_qrcode",
+          "list_transfers",
+          "create_notification",
+          "list_notifications",
+          "get_customer",
+          "update_payment",
+          "delete_payment",
+          "refund_payment",
+          "get_subscription"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-asaas",
+  "slug": "io.github.codespar__mcp-asaas"
+}

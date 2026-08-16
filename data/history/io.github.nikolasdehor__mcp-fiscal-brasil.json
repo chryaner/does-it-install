@@ -1,0 +1,96 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "consultar_cnpj",
+          "listar_cnpjs_por_nome",
+          "validar_cpf",
+          "consultar_nfe",
+          "validar_chave_nfe",
+          "consultar_status_sefaz",
+          "consultar_nfse",
+          "consultar_simples_nacional",
+          "analisar_sped",
+          "listar_registros_sped",
+          "listar_eventos_esocial",
+          "validar_evento_esocial",
+          "consultar_certidao_federal",
+          "consultar_certidao_fgts",
+          "analyze_cnpj_compliance",
+          "compare_tax_regimes",
+          "risk_score_supplier",
+          "validate_nfe_full",
+          "summarize_sped"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "consultar_cnpj",
+          "listar_cnpjs_por_nome",
+          "validar_cpf",
+          "consultar_nfe",
+          "validar_chave_nfe",
+          "consultar_status_sefaz",
+          "consultar_nfse",
+          "consultar_simples_nacional",
+          "analisar_sped",
+          "listar_registros_sped",
+          "listar_eventos_esocial",
+          "validar_evento_esocial",
+          "consultar_certidao_federal",
+          "consultar_certidao_fgts",
+          "analyze_cnpj_compliance",
+          "compare_tax_regimes",
+          "risk_score_supplier",
+          "validate_nfe_full",
+          "summarize_sped"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "consultar_cnpj",
+          "listar_cnpjs_por_nome",
+          "validar_cpf",
+          "consultar_nfe",
+          "validar_chave_nfe",
+          "consultar_status_sefaz",
+          "consultar_nfse",
+          "consultar_simples_nacional",
+          "analisar_sped",
+          "listar_registros_sped",
+          "listar_eventos_esocial",
+          "validar_evento_esocial",
+          "consultar_certidao_federal",
+          "consultar_certidao_fgts",
+          "analyze_cnpj_compliance",
+          "compare_tax_regimes",
+          "risk_score_supplier",
+          "validate_nfe_full",
+          "summarize_sped"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.nikolasdehor/mcp-fiscal-brasil",
+  "slug": "io.github.nikolasdehor__mcp-fiscal-brasil"
+}

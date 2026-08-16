@@ -2,6 +2,26 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 3177,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "create_agent",
+          "attach_policy",
+          "test_agent",
+          "deploy_agent",
+          "get_agent_status",
+          "list_templates",
+          "request_approval",
+          "audit_log",
+          "create_policy",
+          "check_compliance"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:28.268Z",
         "method": "npm",
         "runId": "2026-08-15T04-06-28Z-bd83fc",
@@ -22,6 +42,26 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 3706,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "create_agent",
+          "attach_policy",
+          "test_agent",
+          "deploy_agent",
+          "get_agent_status",
+          "list_templates",
+          "request_approval",
+          "audit_log",
+          "create_policy",
+          "check_compliance"
+        ]
+      },
       {
         "date": "2026-08-15T04:06:32.275Z",
         "method": "npm",

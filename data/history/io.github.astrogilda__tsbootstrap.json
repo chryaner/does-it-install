@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nStarting tsbootstrap MCP server (stdio).\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/n4nR2_S46e_qW83e/lib/python3.14/site-packages/tsbootstrap/mcp.py\", line 398, in build_server\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp'\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/n4nR2_S46e_qW83e/bin/tsbootstrap-mcp\", line 12, in <module>\n    sys.exit(main())\n             ~~~~^^\n  File \"/Users/runner/.cache/uv/archive-v0/n4nR2_S46e_qW83e/lib/python3.14/site-packages/tsbootstrap/mcp.py\", line 444, in main\n    server = build_server()\n  File \"/Users/runner/.cache/uv/archive-v0/n4nR2_S46e_qW83e/lib/python3.14/site-packages/tsbootstrap/mcp.py\", line 401, in build_server\n    raise ImportError(\n    ...<2 lines>...\n    ) from exc\nImportError: the MCP server requires the 'mcp' package; install it with 'pip install tsbootstrap[mcp]' (or 'uvx tsbootstrap-mcp')",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nStarting tsbootstrap MCP server (stdio).\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/OrgEjw0WgKdjsXR0/lib/python3.13/site-packages/tsbootstrap/mcp.py\", line 398, in build_server\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp'\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/OrgEjw0WgKdjsXR0/bin/tsbootstrap-mcp\", line 12, in <module>\n    sys.exit(main())\n             ~~~~^^\n  File \"/home/runner/.cache/uv/archive-v0/OrgEjw0WgKdjsXR0/lib/python3.13/site-packages/tsbootstrap/mcp.py\", line 444, in main\n    server = build_server()\n  File \"/home/runner/.cache/uv/archive-v0/OrgEjw0WgKdjsXR0/lib/python3.13/site-packages/tsbootstrap/mcp.py\", line 401, in build_server\n    raise ImportError(\n    ...<2 lines>...\n    ) from exc\nImportError: the MCP server requires the 'mcp' package; install it with 'pip install tsbootstrap[mcp]' (or 'uvx tsbootstrap-mcp')",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nStarting tsbootstrap MCP server (stdio).\r\nTraceback (most recent call last):\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\0PqIAbKTB4XKiJbj\\Lib\\site-packages\\tsbootstrap\\mcp.py\", line 398, in build_server\r\n    from mcp.server.fastmcp import FastMCP\r\nModuleNotFoundError: No module named 'mcp'\r\n\r\nThe above exception was the direct cause of the following exception:\r\n\r\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\0PqIAbKTB4XKiJbj\\Scripts\\tsbootstrap-mcp.exe\\__main__.py\", line 10, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\0PqIAbKTB4XKiJbj\\Lib\\site-packages\\tsbootstrap\\mcp.py\", line 444, in main\r\n    server = build_server()\r\n             ^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\0PqIAbKTB4XKiJbj\\Lib\\site-packages\\tsbootstrap\\mcp.py\", line 401, in build_server\r\n    raise ImportError(\r\nImportError: the MCP server requires the 'mcp' package; install it with 'pip install tsbootstrap[mcp]' (or 'uvx tsbootstrap-mcp')",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.astrogilda/tsbootstrap",
+  "slug": "io.github.astrogilda__tsbootstrap"
+}

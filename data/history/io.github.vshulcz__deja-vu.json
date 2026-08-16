@@ -1,0 +1,60 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 1806,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "recall",
+          "recall_context",
+          "blame",
+          "fix",
+          "how",
+          "remember"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 1604,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "recall",
+          "recall_context",
+          "blame",
+          "fix",
+          "how",
+          "remember"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 4155,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "recall",
+          "recall_context",
+          "blame",
+          "fix",
+          "how",
+          "remember"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.vshulcz/deja-vu",
+  "slug": "io.github.vshulcz__deja-vu"
+}

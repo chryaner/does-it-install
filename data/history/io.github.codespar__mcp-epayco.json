@@ -1,0 +1,66 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 7569,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "tokenize_card",
+          "create_customer",
+          "charge_card",
+          "get_transaction",
+          "create_pse_payment",
+          "get_pse_transaction",
+          "list_pse_banks",
+          "create_cash_payment"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 4026,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "tokenize_card",
+          "create_customer",
+          "charge_card",
+          "get_transaction",
+          "create_pse_payment",
+          "get_pse_transaction",
+          "list_pse_banks",
+          "create_cash_payment"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 185839,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "tokenize_card",
+          "create_customer",
+          "charge_card",
+          "get_transaction",
+          "create_pse_payment",
+          "get_pse_transaction",
+          "list_pse_banks",
+          "create_cash_payment"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-epayco",
+  "slug": "io.github.codespar__mcp-epayco"
+}

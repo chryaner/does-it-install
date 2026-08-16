@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: ', \"  🤖 Seamles\"... is not valid JSON\nUnexpected token '\ud83d', \"  🔧 Advance\"... is not valid JSON\nUnexpected token '\ud83e', \"  🧠 Neural \"... is not valid JSON\nUnexpected token '\ud83d', \"  💾 Cross-s\"... is not valid JSON\nUnexpected token '\ud83d', \"  🛡️ Securi\"... is not valid JSON\nUnexpected token '\ud83d', \"  🔥 INFINIT\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'F', \"For detail\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'I', \"[INFO] Pool\"... is not valid JSON",
+        "installMs": 3574,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "timeout"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: ', \"  🤖 Seamles\"... is not valid JSON\nUnexpected token '\ud83d', \"  🔧 Advance\"... is not valid JSON\nUnexpected token '\ud83e', \"  🧠 Neural \"... is not valid JSON\nUnexpected token '\ud83d', \"  💾 Cross-s\"... is not valid JSON\nUnexpected token '\ud83d', \"  🛡️ Securi\"... is not valid JSON\nUnexpected token '\ud83d', \"  🔥 INFINIT\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'F', \"For detail\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'I', \"[INFO] Pool\"... is not valid JSON",
+        "installMs": 2160,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "timeout"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: , \"  🌐 Cross-p\"... is not valid JSON\nUnexpected token '\ud83e', \"  🤖 Seamles\"... is not valid JSON\nUnexpected token '\ud83d', \"  🔧 Advance\"... is not valid JSON\nUnexpected token '\ud83e', \"  🧠 Neural \"... is not valid JSON\nUnexpected token '\ud83d', \"  💾 Cross-s\"... is not valid JSON\nUnexpected token '\ud83d', \"  🛡️ Securi\"... is not valid JSON\nUnexpected token '\ud83d', \"  🔥 INFINIT\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'F', \"For detail\"... is not valid JSON\nUnexpected end of JSON input",
+        "installMs": 88558,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.ruvnet/ruv-swarm",
+  "slug": "io.github.ruvnet__ruv-swarm"
+}

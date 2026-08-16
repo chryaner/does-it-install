@@ -1,0 +1,66 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 4207,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "list_balances",
+          "get_balance",
+          "create_counterparty",
+          "list_counterparties",
+          "get_counterparty",
+          "create_money_movement",
+          "get_money_movement",
+          "list_money_movements"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 2931,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "list_balances",
+          "get_balance",
+          "create_counterparty",
+          "list_counterparties",
+          "get_counterparty",
+          "create_money_movement",
+          "get_money_movement",
+          "list_money_movements"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 132207,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "list_balances",
+          "get_balance",
+          "create_counterparty",
+          "list_counterparties",
+          "get_counterparty",
+          "create_money_movement",
+          "get_money_movement",
+          "list_money_movements"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-cobre",
+  "slug": "io.github.codespar__mcp-cobre"
+}

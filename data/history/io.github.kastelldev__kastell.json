@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: 7 (line 1 column 8)\nUnexpected token '❯', \"❯   Exit\" is not valid JSON\nUnexpected end of JSON input\nUnexpected token '↑', \"↑↓ navigat\"... is not valid JSON\nUnexpected token '\u001b', \"\u001b[?25h? Server mode:\" is not valid JSON\nUnexpected token '❯', \"❯ Coolify \"... is not valid JSON\nUnexpected token 'D', \"  Dokploy (a\"... is not valid JSON\nUnexpected token 'B', \"  Bare (gene\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '←', \"  ← Back\" is not valid JSON\nUnexpected end of JSON input",
+        "installMs": 12052,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "timeout"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: 7 (line 1 column 8)\nUnexpected token '❯', \"❯   Exit\" is not valid JSON\nUnexpected end of JSON input\nUnexpected token '↑', \"↑↓ navigat\"... is not valid JSON\nUnexpected token '\u001b', \"\u001b[?25h? Server mode:\" is not valid JSON\nUnexpected token '❯', \"❯ Coolify \"... is not valid JSON\nUnexpected token 'D', \"  Dokploy (a\"... is not valid JSON\nUnexpected token 'B', \"  Bare (gene\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '←', \"  ← Back\" is not valid JSON\nUnexpected end of JSON input",
+        "installMs": 9199,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "timeout"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: cted end of JSON input\nUnexpected token '←', \"  ← Back\" is not valid JSON\nUnexpected end of JSON input\nUnexpected token '\u001b', \"\u001b[24G\u001b[25G\"... is not valid JSON\nUnexpected token '\u001b', \"\u001b[?25h\u001b[34\"... is not valid JSON\nUnexpected token '\u001b', \"\u001b[36m> Sta\"... is not valid JSON\nUnexpected token 'P', \"  Production\"... is not valid JSON\nUnexpected token 'D', \"  Dev (development)\" is not valid JSON\nUnexpected end of JSON input\nUnexpected token '←', \"  ← Back\" is not valid JSON\nUnexpected end of JSON input",
+        "installMs": 135962,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "io.github.kastelldev/kastell",
+  "slug": "io.github.kastelldev__kastell"
+}

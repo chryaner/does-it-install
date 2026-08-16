@@ -1,0 +1,60 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 5082,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "get_token",
+          "get_component",
+          "check_rule",
+          "check_html",
+          "search",
+          "get_rules"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 3061,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "get_token",
+          "get_component",
+          "check_rule",
+          "check_html",
+          "search",
+          "get_rules"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 116532,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "get_token",
+          "get_component",
+          "check_rule",
+          "check_html",
+          "search",
+          "get_rules"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.tsubotax/melta-ui",
+  "slug": "io.github.tsubotax__melta-ui"
+}

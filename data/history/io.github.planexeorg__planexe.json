@@ -1,0 +1,72 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "method": "remote-http",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "example_plans",
+          "example_prompts",
+          "model_profiles",
+          "plan_create",
+          "plan_status",
+          "plan_stop",
+          "plan_retry",
+          "plan_resume",
+          "plan_file_info",
+          "plan_list",
+          "send_feedback"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "method": "remote-http",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "example_plans",
+          "example_prompts",
+          "model_profiles",
+          "plan_create",
+          "plan_status",
+          "plan_stop",
+          "plan_retry",
+          "plan_resume",
+          "plan_file_info",
+          "plan_list",
+          "send_feedback"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "method": "remote-http",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "example_plans",
+          "example_prompts",
+          "model_profiles",
+          "plan_create",
+          "plan_status",
+          "plan_stop",
+          "plan_retry",
+          "plan_resume",
+          "plan_file_info",
+          "plan_list",
+          "send_feedback"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.PlanExeOrg/planexe",
+  "slug": "io.github.planexeorg__planexe"
+}

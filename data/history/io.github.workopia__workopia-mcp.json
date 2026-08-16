@@ -1,0 +1,54 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "method": "remote-http",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "tailor_resume_tool",
+          "cover_letter_tool",
+          "job_tool",
+          "job_detail_tool",
+          "dashboard_tool"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "method": "remote-http",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "tailor_resume_tool",
+          "cover_letter_tool",
+          "job_tool",
+          "job_detail_tool",
+          "dashboard_tool"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "method": "remote-http",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "tailor_resume_tool",
+          "cover_letter_tool",
+          "job_tool",
+          "job_detail_tool",
+          "dashboard_tool"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.workopia/workopia-mcp",
+  "slug": "io.github.workopia__workopia-mcp"
+}

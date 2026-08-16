@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: \"... is not valid JSON\nUnexpected token '+', \"+---------\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '+', \"+---------\"... is not valid JSON\nUnexpected token '|', \"| INTEGRAT\"... is not valid JSON\nUnexpected token '+', \"+---------\"... is not valid JSON\nUnexpected token '|', \"| socialcl\"... is not valid JSON\nUnexpected token '|', \"| socialcl\"... is not valid JSON\nUnexpected token '|', \"| clients)\"... is not valid JSON\nUnexpected token '+', \"+---------\"... is not valid JSON",
+        "installMs": 474,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: \"... is not valid JSON\nUnexpected token '+', \"+---------\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '+', \"+---------\"... is not valid JSON\nUnexpected token '|', \"| INTEGRAT\"... is not valid JSON\nUnexpected token '+', \"+---------\"... is not valid JSON\nUnexpected token '|', \"| socialcl\"... is not valid JSON\nUnexpected token '|', \"| socialcl\"... is not valid JSON\nUnexpected token '|', \"| clients)\"... is not valid JSON\nUnexpected token '+', \"+---------\"... is not valid JSON",
+        "installMs": 529,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: \"... is not valid JSON\nUnexpected token '+', \"+---------\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '+', \"+---------\"... is not valid JSON\nUnexpected token '|', \"| INTEGRAT\"... is not valid JSON\nUnexpected token '+', \"+---------\"... is not valid JSON\nUnexpected token '|', \"| socialcl\"... is not valid JSON\nUnexpected token '|', \"| socialcl\"... is not valid JSON\nUnexpected token '|', \"| clients)\"... is not valid JSON\nUnexpected token '+', \"+---------\"... is not valid JSON",
+        "installMs": 11626,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "io.github.ndesv21/socialclaw",
+  "slug": "io.github.ndesv21__socialclaw"
+}

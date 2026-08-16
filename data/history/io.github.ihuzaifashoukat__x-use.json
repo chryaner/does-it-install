@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: pected token '╰', \"╰─────────\"... is not valid JSON\nUnexpected token '╭', \"╭─ Command\"... is not valid JSON\nUnexpected token '│', \"│ run     \"... is not valid JSON\nUnexpected token '│', \"│ init    \"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ mcp     \"... is not valid JSON\nUnexpected token '│', \"│ doctor  \"... is not valid JSON\nUnexpected token '│', \"│ skills  \"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-15T04:06:29.606Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nBuilding undetected-chromedriver==3.5.5\nDownloading selenium (9.1MiB)\n      Built undetected-chromedriver==3.5.5\n Downloaded selenium\nInstalled 69 packages in 360ms\nAn executable named `x-use-mcp` is not provided by package `x-use-mcp`.\nThe following executables are available:\n- x-use\n\nUse `uv tool run --from x-use-mcp x-use` instead.",
         "method": "pypi",
@@ -11,6 +18,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: pected token '╰', \"╰─────────\"... is not valid JSON\nUnexpected token '╭', \"╭─ Command\"... is not valid JSON\nUnexpected token '│', \"│ run     \"... is not valid JSON\nUnexpected token '│', \"│ init    \"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ mcp     \"... is not valid JSON\nUnexpected token '│', \"│ doctor  \"... is not valid JSON\nUnexpected token '│', \"│ skills  \"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-15T04:06:26.501Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nBuilding undetected-chromedriver==3.5.5\nDownloading selenium (9.1MiB)\n      Built undetected-chromedriver==3.5.5\n Downloaded selenium\nInstalled 69 packages in 122ms\nAn executable named `x-use-mcp` is not provided by package `x-use-mcp`.\nThe following executables are available:\n- x-use\n\nUse `uv tool run --from x-use-mcp x-use` instead.",
         "method": "pypi",
@@ -19,6 +33,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: pected token '+', \"+---------\"... is not valid JSON\nUnexpected token '+', \"+- Command\"... is not valid JSON\nUnexpected token '|', \"| run     \"... is not valid JSON\nUnexpected token '|', \"| init    \"... is not valid JSON\nUnexpected token '|', \"|         \"... is not valid JSON\nUnexpected token '|', \"| mcp     \"... is not valid JSON\nUnexpected token '|', \"| doctor  \"... is not valid JSON\nUnexpected token '|', \"| skills  \"... is not valid JSON\nUnexpected token '+', \"+---------\"... is not valid JSON",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-15T04:06:54.549Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nBuilding undetected-chromedriver==3.5.5\nDownloading selenium (9.1MiB)\n      Built undetected-chromedriver==3.5.5\n Downloaded selenium\nInstalled 71 packages in 19.09s\nAn executable named `x-use-mcp` is not provided by package `x-use-mcp`.\nThe following executables are available:\n- x-use.exe\n\nUse `uv tool run --from x-use-mcp x-use.exe` instead.",

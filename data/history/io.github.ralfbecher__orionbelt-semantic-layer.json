@@ -1,0 +1,24 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n× No solution found when resolving tool dependencies:\n  ╰─▶ Because there is no version of orionbelt-semantic-layer==0.3.0 and\n      you require orionbelt-semantic-layer==0.3.0, we can conclude that your\n      requirements are unsatisfiable.",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n× No solution found when resolving tool dependencies:\n  ╰─▶ Because there is no version of orionbelt-semantic-layer==0.3.0 and\n      you require orionbelt-semantic-layer==0.3.0, we can conclude that your\n      requirements are unsatisfiable.",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.ralfbecher/orionbelt-semantic-layer",
+  "slug": "io.github.ralfbecher__orionbelt-semantic-layer"
+}

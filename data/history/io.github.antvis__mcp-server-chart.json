@@ -1,0 +1,117 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 5225,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 25,
+        "toolNames": [
+          "generate_area_chart",
+          "generate_bar_chart",
+          "generate_boxplot_chart",
+          "generate_column_chart",
+          "generate_district_map",
+          "generate_dual_axes_chart",
+          "generate_fishbone_diagram",
+          "generate_flow_diagram",
+          "generate_funnel_chart",
+          "generate_histogram_chart",
+          "generate_line_chart",
+          "generate_liquid_chart",
+          "generate_mind_map",
+          "generate_network_graph",
+          "generate_organization_chart",
+          "generate_path_map",
+          "generate_pie_chart",
+          "generate_pin_map",
+          "generate_radar_chart",
+          "generate_sankey_chart",
+          "generate_scatter_chart",
+          "generate_treemap_chart",
+          "generate_venn_chart",
+          "generate_violin_chart",
+          "generate_word_cloud_chart"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 4394,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 25,
+        "toolNames": [
+          "generate_area_chart",
+          "generate_bar_chart",
+          "generate_boxplot_chart",
+          "generate_column_chart",
+          "generate_district_map",
+          "generate_dual_axes_chart",
+          "generate_fishbone_diagram",
+          "generate_flow_diagram",
+          "generate_funnel_chart",
+          "generate_histogram_chart",
+          "generate_line_chart",
+          "generate_liquid_chart",
+          "generate_mind_map",
+          "generate_network_graph",
+          "generate_organization_chart",
+          "generate_path_map",
+          "generate_pie_chart",
+          "generate_pin_map",
+          "generate_radar_chart",
+          "generate_sankey_chart",
+          "generate_scatter_chart",
+          "generate_treemap_chart",
+          "generate_venn_chart",
+          "generate_violin_chart",
+          "generate_word_cloud_chart"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 82527,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 25,
+        "toolNames": [
+          "generate_area_chart",
+          "generate_bar_chart",
+          "generate_boxplot_chart",
+          "generate_column_chart",
+          "generate_district_map",
+          "generate_dual_axes_chart",
+          "generate_fishbone_diagram",
+          "generate_flow_diagram",
+          "generate_funnel_chart",
+          "generate_histogram_chart",
+          "generate_line_chart",
+          "generate_liquid_chart",
+          "generate_mind_map",
+          "generate_network_graph",
+          "generate_organization_chart",
+          "generate_path_map",
+          "generate_pie_chart",
+          "generate_pin_map",
+          "generate_radar_chart",
+          "generate_sankey_chart",
+          "generate_scatter_chart",
+          "generate_treemap_chart",
+          "generate_venn_chart",
+          "generate_violin_chart",
+          "generate_word_cloud_chart"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.antvis/mcp-server-chart",
+  "slug": "io.github.antvis__mcp-server-chart"
+}

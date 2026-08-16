@@ -1,0 +1,102 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 4628,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_charge",
+          "capture_charge",
+          "cancel_charge",
+          "refund_charge",
+          "get_charge",
+          "tokenize_card",
+          "delete_token",
+          "create_installment_plan",
+          "list_transactions",
+          "get_settlement",
+          "get_charge_by_order",
+          "list_installment_options",
+          "list_settlements",
+          "create_payment_link",
+          "get_payment_link",
+          "pay_yape",
+          "pay_plin",
+          "authenticate_3ds",
+          "create_subscription",
+          "cancel_subscription"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 2991,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_charge",
+          "capture_charge",
+          "cancel_charge",
+          "refund_charge",
+          "get_charge",
+          "tokenize_card",
+          "delete_token",
+          "create_installment_plan",
+          "list_transactions",
+          "get_settlement",
+          "get_charge_by_order",
+          "list_installment_options",
+          "list_settlements",
+          "create_payment_link",
+          "get_payment_link",
+          "pay_yape",
+          "pay_plin",
+          "authenticate_3ds",
+          "create_subscription",
+          "cancel_subscription"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 129399,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_charge",
+          "capture_charge",
+          "cancel_charge",
+          "refund_charge",
+          "get_charge",
+          "tokenize_card",
+          "delete_token",
+          "create_installment_plan",
+          "list_transactions",
+          "get_settlement",
+          "get_charge_by_order",
+          "list_installment_options",
+          "list_settlements",
+          "create_payment_link",
+          "get_payment_link",
+          "pay_yape",
+          "pay_plin",
+          "authenticate_3ds",
+          "create_subscription",
+          "cancel_subscription"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-izipay",
+  "slug": "io.github.codespar__mcp-izipay"
+}

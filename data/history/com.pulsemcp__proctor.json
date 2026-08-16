@@ -2,6 +2,21 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 6083,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "get_proctor_metadata",
+          "run_exam",
+          "get_machines",
+          "destroy_machine",
+          "cancel_exam"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:28.791Z",
         "method": "npm",
         "runId": "2026-08-15T04-06-28Z-3dc5e1",
@@ -18,9 +33,41 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 4052,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "get_proctor_metadata",
+          "run_exam",
+          "get_machines",
+          "destroy_machine",
+          "cancel_exam"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:31.639Z",
         "method": "npm",
         "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "get_proctor_metadata",
+          "run_exam",
+          "get_machines",
+          "destroy_machine",
+          "cancel_exam"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 117644,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
         "status": "pass",
         "toolCount": 5,
         "toolNames": [

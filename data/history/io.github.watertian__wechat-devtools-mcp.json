@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 37 packages in 90ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/BqAoTOZq85QgMDky/bin/wechat-devtools-mcp\", line 6, in <module>\n    from wechat_devtools_mcp.server import main\n  File \"/Users/runner/.cache/uv/archive-v0/BqAoTOZq85QgMDky/lib/python3.14/site-packages/wechat_devtools_mcp/server.py\", line 16, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 37 packages in 25ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/vf4bjqMDeUVtZUwb/bin/wechat-devtools-mcp\", line 6, in <module>\n    from wechat_devtools_mcp.server import main\n  File \"/home/runner/.cache/uv/archive-v0/vf4bjqMDeUVtZUwb/lib/python3.13/site-packages/wechat_devtools_mcp/server.py\", line 16, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 39 packages in 8.81s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\QDuBRXP2YRZSWT0B\\Scripts\\wechat-devtools-mcp.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\QDuBRXP2YRZSWT0B\\Lib\\site-packages\\wechat_devtools_mcp\\server.py\", line 16, in <module>\r\n    from mcp.server.fastmcp import FastMCP\r\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "io.github.WaterTian/wechat-devtools-mcp",
+  "slug": "io.github.watertian__wechat-devtools-mcp"
+}

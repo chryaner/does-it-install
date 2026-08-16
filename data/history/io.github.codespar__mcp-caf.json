@@ -1,0 +1,69 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 4034,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "person_check",
+          "company_check",
+          "face_authentication",
+          "liveness_check",
+          "document_check",
+          "trust_platform_start",
+          "trust_platform_get",
+          "list_datasources",
+          "get_check_result"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 3041,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "person_check",
+          "company_check",
+          "face_authentication",
+          "liveness_check",
+          "document_check",
+          "trust_platform_start",
+          "trust_platform_get",
+          "list_datasources",
+          "get_check_result"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 137205,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "person_check",
+          "company_check",
+          "face_authentication",
+          "liveness_check",
+          "document_check",
+          "trust_platform_start",
+          "trust_platform_get",
+          "list_datasources",
+          "get_check_result"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-caf",
+  "slug": "io.github.codespar__mcp-caf"
+}

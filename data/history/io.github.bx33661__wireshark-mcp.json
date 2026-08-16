@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 29 packages in 252ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/hQD6ObrbXAFf3tVf/bin/wireshark-mcp\", line 6, in <module>\n    from wireshark_mcp.server import main\n  File \"/Users/runner/.cache/uv/archive-v0/hQD6ObrbXAFf3tVf/lib/python3.14/site-packages/wireshark_mcp/server.py\", line 7, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 29 packages in 23ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/aDisQRNuCMUgYIoF/bin/wireshark-mcp\", line 6, in <module>\n    from wireshark_mcp.server import main\n  File \"/home/runner/.cache/uv/archive-v0/aDisQRNuCMUgYIoF/lib/python3.13/site-packages/wireshark_mcp/server.py\", line 7, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 31 packages in 7.49s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\5P1hfXIt547mEj7k\\Scripts\\wireshark-mcp.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\5P1hfXIt547mEj7k\\Lib\\site-packages\\wireshark_mcp\\server.py\", line 7, in <module>\r\n    from mcp.server.fastmcp import FastMCP\r\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.bx33661/wireshark-mcp",
+  "slug": "io.github.bx33661__wireshark-mcp"
+}

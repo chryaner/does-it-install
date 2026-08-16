@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: context [options] [command]\n\nLocal-first documentation for AI agents\n\nOptions:\n  -V, --version            output the version number\n  -h, --help               display help for command\n\nCommands:\n  add [options] <source>   Install a documentation package from file, URL,\n                           GitHub, git repo, or local directory\n  list                     Show installed packages\n  remove <name>            Remove a documentation package\n  serve                    Start the MCP server\n  query <library> <topic>  Query documentation from an installed package\n  help [command]           display help for command",
+        "installMs": 8046,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: context [options] [command]\n\nLocal-first documentation for AI agents\n\nOptions:\n  -V, --version            output the version number\n  -h, --help               display help for command\n\nCommands:\n  add [options] <source>   Install a documentation package from file, URL,\n                           GitHub, git repo, or local directory\n  list                     Show installed packages\n  remove <name>            Remove a documentation package\n  serve                    Start the MCP server\n  query <library> <topic>  Query documentation from an installed package\n  help [command]           display help for command",
+        "installMs": 6317,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: context [options] [command]\n\nLocal-first documentation for AI agents\n\nOptions:\n  -V, --version            output the version number\n  -h, --help               display help for command\n\nCommands:\n  add [options] <source>   Install a documentation package from file, URL,\n                           GitHub, git repo, or local directory\n  list                     Show installed packages\n  remove <name>            Remove a documentation package\n  serve                    Start the MCP server\n  query <library> <topic>  Query documentation from an installed package\n  help [command]           display help for command",
+        "installMs": 183609,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.neuledge/context",
+  "slug": "io.github.neuledge__context"
+}

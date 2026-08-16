@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nFatal error: No configuration found.\n\nSet environment variables (MCP_EMAIL_ADDRESS, MCP_EMAIL_PASSWORD, etc.)\nor create a config file at: /Users/runner/.config/email-mcp/config.toml\n\nRun 'email-mcp setup' for interactive configuration.",
+        "installMs": 5453,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nFatal error: No configuration found.\n\nSet environment variables (MCP_EMAIL_ADDRESS, MCP_EMAIL_PASSWORD, etc.)\nor create a config file at: /home/runner/.config/email-mcp/config.toml\n\nRun 'email-mcp setup' for interactive configuration.",
+        "installMs": 5166,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nFatal error: No configuration found.\n\nSet environment variables (MCP_EMAIL_ADDRESS, MCP_EMAIL_PASSWORD, etc.)\nor create a config file at: C:\\Users\\runneradmin\\.config\\email-mcp\\config.toml\n\nRun 'email-mcp setup' for interactive configuration.",
+        "installMs": 185371,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.codefuturist/email-mcp",
+  "slug": "io.github.codefuturist__email-mcp"
+}

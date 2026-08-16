@@ -1,0 +1,111 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 9494,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "create_charge",
+          "get_charge",
+          "capture_charge",
+          "refund_charge",
+          "create_customer",
+          "get_customer",
+          "list_customers",
+          "create_card",
+          "delete_card",
+          "create_plan",
+          "create_subscription",
+          "create_payout",
+          "update_customer",
+          "delete_customer",
+          "get_card",
+          "list_cards",
+          "create_bank_account",
+          "delete_bank_account",
+          "cancel_subscription",
+          "list_payouts",
+          "create_webhook",
+          "list_webhooks",
+          "delete_webhook"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 4223,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "create_charge",
+          "get_charge",
+          "capture_charge",
+          "refund_charge",
+          "create_customer",
+          "get_customer",
+          "list_customers",
+          "create_card",
+          "delete_card",
+          "create_plan",
+          "create_subscription",
+          "create_payout",
+          "update_customer",
+          "delete_customer",
+          "get_card",
+          "list_cards",
+          "create_bank_account",
+          "delete_bank_account",
+          "cancel_subscription",
+          "list_payouts",
+          "create_webhook",
+          "list_webhooks",
+          "delete_webhook"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 166555,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "create_charge",
+          "get_charge",
+          "capture_charge",
+          "refund_charge",
+          "create_customer",
+          "get_customer",
+          "list_customers",
+          "create_card",
+          "delete_card",
+          "create_plan",
+          "create_subscription",
+          "create_payout",
+          "update_customer",
+          "delete_customer",
+          "get_card",
+          "list_cards",
+          "create_bank_account",
+          "delete_bank_account",
+          "cancel_subscription",
+          "list_payouts",
+          "create_webhook",
+          "list_webhooks",
+          "delete_webhook"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-openpay",
+  "slug": "io.github.codespar__mcp-openpay"
+}

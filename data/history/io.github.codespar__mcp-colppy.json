@@ -1,0 +1,108 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 3919,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "list_customers",
+          "create_customer",
+          "list_products",
+          "create_invoice",
+          "list_invoices",
+          "get_balance",
+          "list_accounts",
+          "create_payment",
+          "update_customer",
+          "delete_customer",
+          "get_customer_balance",
+          "list_suppliers",
+          "create_supplier",
+          "cancel_invoice",
+          "get_invoice_pdf",
+          "create_receipt",
+          "list_receipts",
+          "get_stock",
+          "list_warehouses",
+          "list_companies",
+          "sales_report",
+          "expenses_report"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 3022,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "list_customers",
+          "create_customer",
+          "list_products",
+          "create_invoice",
+          "list_invoices",
+          "get_balance",
+          "list_accounts",
+          "create_payment",
+          "update_customer",
+          "delete_customer",
+          "get_customer_balance",
+          "list_suppliers",
+          "create_supplier",
+          "cancel_invoice",
+          "get_invoice_pdf",
+          "create_receipt",
+          "list_receipts",
+          "get_stock",
+          "list_warehouses",
+          "list_companies",
+          "sales_report",
+          "expenses_report"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 135696,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "list_customers",
+          "create_customer",
+          "list_products",
+          "create_invoice",
+          "list_invoices",
+          "get_balance",
+          "list_accounts",
+          "create_payment",
+          "update_customer",
+          "delete_customer",
+          "get_customer_balance",
+          "list_suppliers",
+          "create_supplier",
+          "cancel_invoice",
+          "get_invoice_pdf",
+          "create_receipt",
+          "list_receipts",
+          "get_stock",
+          "list_warehouses",
+          "list_companies",
+          "sales_report",
+          "expenses_report"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-colppy",
+  "slug": "io.github.codespar__mcp-colppy"
+}

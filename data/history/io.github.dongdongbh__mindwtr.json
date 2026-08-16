@@ -1,0 +1,123 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 2864,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 27,
+        "toolNames": [
+          "mindwtr_list_tasks",
+          "mindwtr_list_projects",
+          "mindwtr_get_project",
+          "mindwtr_list_sections",
+          "mindwtr_get_section",
+          "mindwtr_list_areas",
+          "mindwtr_list_people",
+          "mindwtr_get_person",
+          "mindwtr_add_task",
+          "mindwtr_update_task",
+          "mindwtr_complete_task",
+          "mindwtr_delete_task",
+          "mindwtr_get_task",
+          "mindwtr_restore_task",
+          "mindwtr_add_project",
+          "mindwtr_update_project",
+          "mindwtr_delete_project",
+          "mindwtr_add_section",
+          "mindwtr_update_section",
+          "mindwtr_delete_section",
+          "mindwtr_add_area",
+          "mindwtr_update_area",
+          "mindwtr_delete_area",
+          "mindwtr_add_person",
+          "mindwtr_update_person",
+          "mindwtr_rename_person",
+          "mindwtr_delete_person"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 1767,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 27,
+        "toolNames": [
+          "mindwtr_list_tasks",
+          "mindwtr_list_projects",
+          "mindwtr_get_project",
+          "mindwtr_list_sections",
+          "mindwtr_get_section",
+          "mindwtr_list_areas",
+          "mindwtr_list_people",
+          "mindwtr_get_person",
+          "mindwtr_add_task",
+          "mindwtr_update_task",
+          "mindwtr_complete_task",
+          "mindwtr_delete_task",
+          "mindwtr_get_task",
+          "mindwtr_restore_task",
+          "mindwtr_add_project",
+          "mindwtr_update_project",
+          "mindwtr_delete_project",
+          "mindwtr_add_section",
+          "mindwtr_update_section",
+          "mindwtr_delete_section",
+          "mindwtr_add_area",
+          "mindwtr_update_area",
+          "mindwtr_delete_area",
+          "mindwtr_add_person",
+          "mindwtr_update_person",
+          "mindwtr_rename_person",
+          "mindwtr_delete_person"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 17389,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 27,
+        "toolNames": [
+          "mindwtr_list_tasks",
+          "mindwtr_list_projects",
+          "mindwtr_get_project",
+          "mindwtr_list_sections",
+          "mindwtr_get_section",
+          "mindwtr_list_areas",
+          "mindwtr_list_people",
+          "mindwtr_get_person",
+          "mindwtr_add_task",
+          "mindwtr_update_task",
+          "mindwtr_complete_task",
+          "mindwtr_delete_task",
+          "mindwtr_get_task",
+          "mindwtr_restore_task",
+          "mindwtr_add_project",
+          "mindwtr_update_project",
+          "mindwtr_delete_project",
+          "mindwtr_add_section",
+          "mindwtr_update_section",
+          "mindwtr_delete_section",
+          "mindwtr_add_area",
+          "mindwtr_update_area",
+          "mindwtr_delete_area",
+          "mindwtr_add_person",
+          "mindwtr_update_person",
+          "mindwtr_rename_person",
+          "mindwtr_delete_person"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.dongdongbh/mindwtr",
+  "slug": "io.github.dongdongbh__mindwtr"
+}

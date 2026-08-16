@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: pected token '│', \"│ stats   \"... is not valid JSON\nUnexpected token '│', \"│ score   \"... is not valid JSON\nUnexpected token '│', \"│ context \"... is not valid JSON\nUnexpected token '│', \"│ precheck\"... is not valid JSON\nUnexpected token '│', \"│ watch   \"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ wrap    \"... is not valid JSON\nUnexpected token '│', \"│ global  \"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON\n--- stderr (tail) ---\nInstalled 37 packages in 318ms",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: pected token '│', \"│ stats   \"... is not valid JSON\nUnexpected token '│', \"│ score   \"... is not valid JSON\nUnexpected token '│', \"│ context \"... is not valid JSON\nUnexpected token '│', \"│ precheck\"... is not valid JSON\nUnexpected token '│', \"│ watch   \"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ wrap    \"... is not valid JSON\nUnexpected token '│', \"│ global  \"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON\n--- stderr (tail) ---\nInstalled 37 packages in 32ms",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: pected token '|', \"| stats   \"... is not valid JSON\nUnexpected token '|', \"| score   \"... is not valid JSON\nUnexpected token '|', \"| context \"... is not valid JSON\nUnexpected token '|', \"| precheck\"... is not valid JSON\nUnexpected token '|', \"| watch   \"... is not valid JSON\nUnexpected token '|', \"|         \"... is not valid JSON\nUnexpected token '|', \"| wrap    \"... is not valid JSON\nUnexpected token '|', \"| global  \"... is not valid JSON\nUnexpected token '+', \"+---------\"... is not valid JSON\n--- stderr (tail) ---\nInstalled 39 packages in 12.74s",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.riponcm/projectmem",
+  "slug": "io.github.riponcm__projectmem"
+}

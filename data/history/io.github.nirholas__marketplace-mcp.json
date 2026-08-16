@@ -1,0 +1,57 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 9758,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "browse_agents",
+          "agent_detail",
+          "agent_categories",
+          "browse_skills",
+          "skill_categories"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 5171,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "browse_agents",
+          "agent_detail",
+          "agent_categories",
+          "browse_skills",
+          "skill_categories"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 125692,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "browse_agents",
+          "agent_detail",
+          "agent_categories",
+          "browse_skills",
+          "skill_categories"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.nirholas/marketplace-mcp",
+  "slug": "io.github.nirholas__marketplace-mcp"
+}

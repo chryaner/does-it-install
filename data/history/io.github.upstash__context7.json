@@ -1,0 +1,48 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 10796,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "resolve-library-id",
+          "get-library-docs"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 5846,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "resolve-library-id",
+          "get-library-docs"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 141791,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "resolve-library-id",
+          "get-library-docs"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.upstash/context7",
+  "slug": "io.github.upstash__context7"
+}

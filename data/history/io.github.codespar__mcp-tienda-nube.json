@@ -1,0 +1,114 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 6864,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "list_products",
+          "get_product",
+          "create_product",
+          "update_product",
+          "list_orders",
+          "get_order",
+          "list_customers",
+          "get_customer",
+          "list_categories",
+          "update_order_status",
+          "delete_product",
+          "list_product_variants",
+          "update_product_variant",
+          "close_order",
+          "cancel_order",
+          "create_category",
+          "update_category",
+          "delete_category",
+          "list_webhooks",
+          "create_webhook",
+          "delete_webhook",
+          "list_discount_coupons",
+          "create_discount_coupon",
+          "list_abandoned_carts"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 4582,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "list_products",
+          "get_product",
+          "create_product",
+          "update_product",
+          "list_orders",
+          "get_order",
+          "list_customers",
+          "get_customer",
+          "list_categories",
+          "update_order_status",
+          "delete_product",
+          "list_product_variants",
+          "update_product_variant",
+          "close_order",
+          "cancel_order",
+          "create_category",
+          "update_category",
+          "delete_category",
+          "list_webhooks",
+          "create_webhook",
+          "delete_webhook",
+          "list_discount_coupons",
+          "create_discount_coupon",
+          "list_abandoned_carts"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 111760,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "list_products",
+          "get_product",
+          "create_product",
+          "update_product",
+          "list_orders",
+          "get_order",
+          "list_customers",
+          "get_customer",
+          "list_categories",
+          "update_order_status",
+          "delete_product",
+          "list_product_variants",
+          "update_product_variant",
+          "close_order",
+          "cancel_order",
+          "create_category",
+          "update_category",
+          "delete_category",
+          "list_webhooks",
+          "create_webhook",
+          "delete_webhook",
+          "list_discount_coupons",
+          "create_discount_coupon",
+          "list_abandoned_carts"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-tienda-nube",
+  "slug": "io.github.codespar__mcp-tienda-nube"
+}

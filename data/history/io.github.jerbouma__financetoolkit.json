@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/7HfsqhOgDNXS2tY3/bin/financetoolkit-mcp\", line 6, in <module>\n    from financetoolkit.mcp_server.mcp_controller import main\n  File \"/Users/runner/.cache/uv/archive-v0/7HfsqhOgDNXS2tY3/lib/python3.14/site-packages/financetoolkit/__init__.py\", line 8, in <module>\n    from .portfolio.portfolio_controller import Portfolio\n  File \"/Users/runner/.cache/uv/archive-v0/7HfsqhOgDNXS2tY3/lib/python3.14/site-packages/financetoolkit/portfolio/portfolio_controller.py\", line 9, in <module>\n    from financetoolkit.portfolio import helpers, overview_model, portfolio_model\n  File \"/Users/runner/.cache/uv/archive-v0/7HfsqhOgDNXS2tY3/lib/python3.14/site-packages/financetoolkit/portfolio/helpers.py\", line 6, in <module>\n    import yaml\nModuleNotFoundError: No module named 'yaml'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T04:06:28.268Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading curl-cffi (2.7MiB)\nDownloading pandas (9.5MiB)\nDownloading lxml (8.2MiB)\nDownloading scipy (19.5MiB)\nDownloading scikit-learn (7.9MiB)\nDownloading numpy (5.1MiB)\n Downloaded curl-cffi\n Downloaded numpy\n Downloaded lxml\n Downloaded scikit-learn\n Downloaded pandas\n Downloaded scipy\nInstalled 31 packages in 180ms\nAn executable named `financetoolkit` is not provided by package `financetoolkit`.\nThe following executables are available:\n- financetoolkit-mcp\n- financetoolkit-mcp-inspector\n- financetoolkit-mcp-setup\n\nUse `uv tool run --from financetoolkit <EXECUTABLE-NAME>` instead.",
         "method": "pypi",
@@ -11,6 +18,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/qr0HiyZsfXMjQThS/bin/financetoolkit-mcp\", line 6, in <module>\n    from financetoolkit.mcp_server.mcp_controller import main\n  File \"/home/runner/.cache/uv/archive-v0/qr0HiyZsfXMjQThS/lib/python3.12/site-packages/financetoolkit/__init__.py\", line 8, in <module>\n    from .portfolio.portfolio_controller import Portfolio\n  File \"/home/runner/.cache/uv/archive-v0/qr0HiyZsfXMjQThS/lib/python3.12/site-packages/financetoolkit/portfolio/portfolio_controller.py\", line 9, in <module>\n    from financetoolkit.portfolio import helpers, overview_model, portfolio_model\n  File \"/home/runner/.cache/uv/archive-v0/qr0HiyZsfXMjQThS/lib/python3.12/site-packages/financetoolkit/portfolio/helpers.py\", line 6, in <module>\n    import yaml\nModuleNotFoundError: No module named 'yaml'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T04:06:32.275Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading curl-cffi (12.8MiB)\nDownloading pandas (10.5MiB)\nDownloading scipy (33.7MiB)\nDownloading lxml (5.0MiB)\nDownloading numpy (15.9MiB)\nDownloading scikit-learn (8.7MiB)\n Downloaded lxml\n Downloaded curl-cffi\n Downloaded numpy\n Downloaded scikit-learn\n Downloaded scipy\n Downloaded pandas\nInstalled 31 packages in 150ms\nAn executable named `financetoolkit` is not provided by package `financetoolkit`.\nThe following executables are available:\n- financetoolkit-mcp\n- financetoolkit-mcp-inspector\n- financetoolkit-mcp-setup\n\nUse `uv tool run --from financetoolkit <EXECUTABLE-NAME>` instead.",
         "method": "pypi",
@@ -19,6 +33,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\3INuBeOGCGHquHgy\\Scripts\\financetoolkit-mcp-inspector.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\3INuBeOGCGHquHgy\\Lib\\site-packages\\financetoolkit\\__init__.py\", line 8, in <module>\r\n    from .portfolio.portfolio_controller import Portfolio\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\3INuBeOGCGHquHgy\\Lib\\site-packages\\financetoolkit\\portfolio\\portfolio_controller.py\", line 9, in <module>\r\n    from financetoolkit.portfolio import helpers, overview_model, portfolio_model\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\3INuBeOGCGHquHgy\\Lib\\site-packages\\financetoolkit\\portfolio\\helpers.py\", line 6, in <module>\r\n    import yaml\r\nModuleNotFoundError: No module named 'yaml'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-15T04:06:54.151Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading numpy (11.9MiB)\nDownloading lxml (3.8MiB)\nDownloading pandas (9.4MiB)\nDownloading scikit-learn (7.8MiB)\nDownloading curl-cffi (1.9MiB)\nDownloading scipy (34.9MiB)\n Downloaded curl-cffi\n Downloaded lxml\n Downloaded numpy\n Downloaded scikit-learn\n Downloaded pandas\n Downloaded scipy\nInstalled 32 packages in 29.63s\nAn executable named `financetoolkit` is not provided by package `financetoolkit`.\nThe following executables are available:\n- financetoolkit-mcp-inspector.exe\n- financetoolkit-mcp-setup.exe\n- financetoolkit-mcp.exe\n\nUse `uv tool run --from financetoolkit <EXECUTABLE-NAME>` instead.",

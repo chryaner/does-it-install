@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n× No solution found when resolving tool dependencies:\n  ╰─▶ Because paddlepaddle{platform_machine == 'arm64' and sys_platform\n      == 'darwin'}==3.3.1 has no wheels with a matching Python\n      ABI tag (e.g., `cp314`) and personal-model>=0.3.2 depends on\n      paddlepaddle{platform_machine == 'arm64' and sys_platform ==\n      'darwin'}==3.3.1, we can conclude that personal-model>=0.3.2 cannot\n      be used.\n      And because you require personal-model==0.3.2, we can conclude that your\n      requirements are unsatisfiable.\n\nhint: You require CPython 3.14 (`cp314`), but we only found wheels for `paddlepaddle` (v3.3.1) with the following Python ABI tags: `cp39`, `cp310`, `cp311`, `cp312`, `cp313`",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: Unexpected token 'C', \"Created de\"... is not valid JSON\n--- stderr (tail) ---\nDownloading personal-model (6.3MiB)\n Downloaded personal-model\nInstalled 54 packages in 71ms\n╭───────────────────── Traceback (most recent call last) ──────────────────────╮\n│ /home/runner/.cache/uv/archive-v0/09RkIpL1lYIBViVs/lib/python3.12/site-packa │\n│ ges/persome/cli.py:1101 in mcp                                               │\n│                                                                              │\n│   1098 │   env_file_mod.load_env_file(paths.env_file())                      │\n│   1099 │   from .mcp import server as mcp_server                             │\n│   1100 │                                                                     │\n│ ❱ 1101 │   mcp_server.run_stdio()                                            │\n│   1102                                                                       │\n│   1103                                                                       │\n│   1104 ocr_app = typer.Typer(help=\"Configure and inspect on-device OCR for   │\n│        AX-poor apps.\")                                                       │\n│                                                                              │\n│ /home/runner/.cache/uv/archive-v0/09RkIpL1lYIBViVs/lib/python3.12/site-packa │\n│ ges/persome/mcp/server.py:1517 in run_stdio                                  │\n│                                                                              │\n│   1514 │   _start_parent_watchdog()                                          │\n│   1515 │   # Stdio has no HTTP request surface and therefore no bearer       │\n│        header.  Keep it                                                      │\n│   1516 │   # explicitly outside the local HTTP authentication boundary.      │\n│ ❱ 1517 │   server = build_server(auth_enabled=False)                         │\n│   1518 │   server.run()  # FastMCP.run() uses stdio by default               │\n│   1519                                                                       │\n│   1520                                                                       │\n│                                                                              │\n│ /home/runner/.cache/uv/archive-v0/09RkIpL1lYIBViVs/lib/python3.12/site-packa │\n│ ges/persome/mcp/server.py:784 in build_server                                │\n│                                                                              │\n│    781 │   auth_enabled: bool = True,                                        │\n│    782 ):  # type: ignore[no-untyped-def]                                    │\n│    783 │   \"\"\"Construct and return a FastMCP server instance (not yet        │\n│        running).\"\"\"                                                          │\n│ ❱  784 │   from mcp.server.fastmcp import FastMCP  # lazy import             │\n│    785 │                                                                     │\n│    786 │   if auth_enabled:                                                  │\n│    787 │   │   # HTTP cookies are not port-bound. Invalidate every           │\n│        capability whenever                                                   │\n╰──────────────────────────────────────────────────────────────────────────────╯\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading personal-model (6.3MiB)\n Downloaded personal-model\nInstalled 56 packages in 16.72s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\ZketYTHUVkCpohhD\\Scripts\\personal-model.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\ZketYTHUVkCpohhD\\Lib\\site-packages\\persome\\cli.py\", line 16, in <module>\r\n    import fcntl\r\nModuleNotFoundError: No module named 'fcntl'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.Intuition-Lab/personal-model",
+  "slug": "io.github.intuition-lab__personal-model"
+}

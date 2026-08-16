@@ -1,0 +1,57 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 13354,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "search_engine",
+          "scrape_as_markdown",
+          "search_engine_batch",
+          "scrape_batch",
+          "discover"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 9412,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "search_engine",
+          "scrape_as_markdown",
+          "search_engine_batch",
+          "scrape_batch",
+          "discover"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 267505,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "search_engine",
+          "scrape_as_markdown",
+          "search_engine_batch",
+          "scrape_batch",
+          "discover"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.brightdata/brightdata-mcp",
+  "slug": "io.github.brightdata__brightdata-mcp"
+}

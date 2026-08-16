@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:27.629Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/uzmk1BWtMUlKLENb/bin/edgar-test\", line 6, in <module>\n    from tests.harness.cli import cli\nModuleNotFoundError: No module named 'tests'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T04:06:28.268Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading rapidfuzz (1.1MiB)\nDownloading pyarrow (34.2MiB)\nDownloading edgartools (2.7MiB)\n Downloaded rapidfuzz\n Downloaded edgartools\n Downloaded pyarrow\nInstalled 42 packages in 172ms\nAn executable named `edgartools` is not provided by package `edgartools`.\nThe following executables are available:\n- edgar-test\n- edgartools-mcp\n\nUse `uv tool run --from edgartools <EXECUTABLE-NAME>` instead.",
         "method": "pypi",
@@ -11,6 +18,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T02:45:24.037Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/4I442LsUEkuZT0EO/bin/edgar-test\", line 6, in <module>\n    from tests.harness.cli import cli\nModuleNotFoundError: No module named 'tests'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T04:06:32.275Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading numpy (15.9MiB)\nDownloading pandas (10.4MiB)\nDownloading lxml (5.0MiB)\nDownloading pyarrow (47.8MiB)\nDownloading rapidfuzz (3.0MiB)\nDownloading edgartools (2.7MiB)\n Downloaded rapidfuzz\n Downloaded edgartools\n Downloaded lxml\n Downloaded numpy\n Downloaded pyarrow\n Downloaded pandas\nInstalled 42 packages in 103ms\nAn executable named `edgartools` is not provided by package `edgartools`.\nThe following executables are available:\n- edgar-test\n- edgartools-mcp\n\nUse `uv tool run --from edgartools <EXECUTABLE-NAME>` instead.",
         "method": "pypi",
@@ -19,6 +33,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\7potATSdpUZMwSDl\\Scripts\\edgar-test.exe\\__main__.py\", line 4, in <module>\r\nModuleNotFoundError: No module named 'tests'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-15T04:06:54.151Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading rapidfuzz (1.5MiB)\nDownloading pyarrow (26.7MiB)\nDownloading edgartools (2.7MiB)\n Downloaded rapidfuzz\n Downloaded edgartools\n Downloaded pyarrow\nInstalled 44 packages in 20.44s\nAn executable named `edgartools` is not provided by package `edgartools`.\nThe following executables are available:\n- edgar-test.exe\n- edgartools-mcp.exe\n\nUse `uv tool run --from edgartools <EXECUTABLE-NAME>` instead.",

@@ -1,0 +1,108 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 4167,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "authorize_transaction",
+          "capture_transaction",
+          "cancel_transaction",
+          "refund_transaction",
+          "get_transaction",
+          "zero_auth",
+          "tokenize_card",
+          "delete_token",
+          "create_recurrence",
+          "get_recurrence",
+          "disable_recurrence",
+          "authorize_debit",
+          "list_transactions",
+          "get_token",
+          "update_recurrence",
+          "get_recurrence_transactions",
+          "authenticate_3ds",
+          "get_3ds_status",
+          "authorize_with_3ds",
+          "create_boleto",
+          "get_boleto",
+          "cancel_boleto"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 2873,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "authorize_transaction",
+          "capture_transaction",
+          "cancel_transaction",
+          "refund_transaction",
+          "get_transaction",
+          "zero_auth",
+          "tokenize_card",
+          "delete_token",
+          "create_recurrence",
+          "get_recurrence",
+          "disable_recurrence",
+          "authorize_debit",
+          "list_transactions",
+          "get_token",
+          "update_recurrence",
+          "get_recurrence_transactions",
+          "authenticate_3ds",
+          "get_3ds_status",
+          "authorize_with_3ds",
+          "create_boleto",
+          "get_boleto",
+          "cancel_boleto"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 127956,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "authorize_transaction",
+          "capture_transaction",
+          "cancel_transaction",
+          "refund_transaction",
+          "get_transaction",
+          "zero_auth",
+          "tokenize_card",
+          "delete_token",
+          "create_recurrence",
+          "get_recurrence",
+          "disable_recurrence",
+          "authorize_debit",
+          "list_transactions",
+          "get_token",
+          "update_recurrence",
+          "get_recurrence_transactions",
+          "authenticate_3ds",
+          "get_3ds_status",
+          "authorize_with_3ds",
+          "create_boleto",
+          "get_boleto",
+          "cancel_boleto"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-rede",
+  "slug": "io.github.codespar__mcp-rede"
+}

@@ -1,0 +1,54 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 4692,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "snyk_aibom",
+          "snyk_auth",
+          "snyk_code_scan",
+          "snyk_container_scan",
+          "snyk_iac_scan",
+          "snyk_logout",
+          "snyk_package_health_check",
+          "snyk_sbom_scan",
+          "snyk_sca_scan",
+          "snyk_send_feedback",
+          "snyk_trust",
+          "snyk_version"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 13631,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "snyk_aibom",
+          "snyk_auth",
+          "snyk_code_scan",
+          "snyk_container_scan",
+          "snyk_iac_scan",
+          "snyk_logout",
+          "snyk_package_health_check",
+          "snyk_sbom_scan",
+          "snyk_sca_scan",
+          "snyk_send_feedback",
+          "snyk_trust",
+          "snyk_version"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.snyk/mcp",
+  "slug": "io.snyk__mcp"
+}

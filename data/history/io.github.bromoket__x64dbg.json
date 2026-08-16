@@ -1,0 +1,111 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 10438,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "x64dbg_debug",
+          "x64dbg_registers",
+          "x64dbg_memory",
+          "x64dbg_disassembly",
+          "x64dbg_breakpoints",
+          "x64dbg_symbols",
+          "x64dbg_stack",
+          "x64dbg_threads",
+          "x64dbg_modules",
+          "x64dbg_search",
+          "x64dbg_command",
+          "x64dbg_analysis",
+          "x64dbg_database",
+          "x64dbg_address_convert",
+          "x64dbg_watchdog",
+          "x64dbg_tracing",
+          "x64dbg_dumping",
+          "x64dbg_antidebug",
+          "x64dbg_exceptions",
+          "x64dbg_process",
+          "x64dbg_handles",
+          "x64dbg_control_flow",
+          "x64dbg_patches"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 3327,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "x64dbg_debug",
+          "x64dbg_registers",
+          "x64dbg_memory",
+          "x64dbg_disassembly",
+          "x64dbg_breakpoints",
+          "x64dbg_symbols",
+          "x64dbg_stack",
+          "x64dbg_threads",
+          "x64dbg_modules",
+          "x64dbg_search",
+          "x64dbg_command",
+          "x64dbg_analysis",
+          "x64dbg_database",
+          "x64dbg_address_convert",
+          "x64dbg_watchdog",
+          "x64dbg_tracing",
+          "x64dbg_dumping",
+          "x64dbg_antidebug",
+          "x64dbg_exceptions",
+          "x64dbg_process",
+          "x64dbg_handles",
+          "x64dbg_control_flow",
+          "x64dbg_patches"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 102617,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "x64dbg_debug",
+          "x64dbg_registers",
+          "x64dbg_memory",
+          "x64dbg_disassembly",
+          "x64dbg_breakpoints",
+          "x64dbg_symbols",
+          "x64dbg_stack",
+          "x64dbg_threads",
+          "x64dbg_modules",
+          "x64dbg_search",
+          "x64dbg_command",
+          "x64dbg_analysis",
+          "x64dbg_database",
+          "x64dbg_address_convert",
+          "x64dbg_watchdog",
+          "x64dbg_tracing",
+          "x64dbg_dumping",
+          "x64dbg_antidebug",
+          "x64dbg_exceptions",
+          "x64dbg_process",
+          "x64dbg_handles",
+          "x64dbg_control_flow",
+          "x64dbg_patches"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.bromoket/x64dbg",
+  "slug": "io.github.bromoket__x64dbg"
+}

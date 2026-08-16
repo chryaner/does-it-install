@@ -2,6 +2,29 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 39513,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "create_configuration",
+          "add_segment",
+          "modify_configuration",
+          "validate_configuration",
+          "export_configuration",
+          "list_segments",
+          "get_segment_info",
+          "list_sample_configs",
+          "load_sample_config",
+          "search_ohmyposh_docs",
+          "get_ohmyposh_segment_docs",
+          "get_ohmyposh_cli_status",
+          "render_live_preview"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:29.606Z",
         "method": "npm",
         "runId": "2026-08-15T04-06-29Z-57cf45",
@@ -26,6 +49,29 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 10260,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "create_configuration",
+          "add_segment",
+          "modify_configuration",
+          "validate_configuration",
+          "export_configuration",
+          "list_segments",
+          "get_segment_info",
+          "list_sample_configs",
+          "load_sample_config",
+          "search_ohmyposh_docs",
+          "get_ohmyposh_segment_docs",
+          "get_ohmyposh_cli_status",
+          "render_live_preview"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:26.501Z",
         "method": "npm",
         "runId": "2026-08-15T04-06-26Z-0b778e",
@@ -49,6 +95,29 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 186852,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "create_configuration",
+          "add_segment",
+          "modify_configuration",
+          "validate_configuration",
+          "export_configuration",
+          "list_segments",
+          "get_segment_info",
+          "list_sample_configs",
+          "load_sample_config",
+          "search_ohmyposh_docs",
+          "get_ohmyposh_segment_docs",
+          "get_ohmyposh_cli_status",
+          "render_live_preview"
+        ]
+      },
       {
         "date": "2026-08-15T04:06:54.549Z",
         "method": "npm",

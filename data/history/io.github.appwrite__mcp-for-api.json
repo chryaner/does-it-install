@@ -1,0 +1,24 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 43 packages in 344ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/dpH92ddtXEHQ3LrP/bin/mcp-server-appwrite\", line 6, in <module>\n    from mcp_server_appwrite.__main__ import main\n  File \"/Users/runner/.cache/uv/archive-v0/dpH92ddtXEHQ3LrP/lib/python3.14/site-packages/mcp_server_appwrite/__init__.py\", line 1, in <module>\n    from . import server\n  File \"/Users/runner/.cache/uv/archive-v0/dpH92ddtXEHQ3LrP/lib/python3.14/site-packages/mcp_server_appwrite/server.py\", line 9, in <module>\n    from mcp.shared.exceptions import McpError\nImportError: cannot import name 'McpError' from 'mcp.shared.exceptions' (/Users/runner/.cache/uv/archive-v0/dpH92ddtXEHQ3LrP/lib/python3.14/site-packages/mcp/shared/exceptions.py). Did you mean: 'MCPError'?",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 43 packages in 18ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/_Du4-G93WOt1Zvo7/bin/mcp-server-appwrite\", line 6, in <module>\n    from mcp_server_appwrite.__main__ import main\n  File \"/home/runner/.cache/uv/archive-v0/_Du4-G93WOt1Zvo7/lib/python3.13/site-packages/mcp_server_appwrite/__init__.py\", line 1, in <module>\n    from . import server\n  File \"/home/runner/.cache/uv/archive-v0/_Du4-G93WOt1Zvo7/lib/python3.13/site-packages/mcp_server_appwrite/server.py\", line 9, in <module>\n    from mcp.shared.exceptions import McpError\nImportError: cannot import name 'McpError' from 'mcp.shared.exceptions' (/home/runner/.cache/uv/archive-v0/_Du4-G93WOt1Zvo7/lib/python3.13/site-packages/mcp/shared/exceptions.py). Did you mean: 'MCPError'?",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.appwrite/mcp-for-api",
+  "slug": "io.github.appwrite__mcp-for-api"
+}

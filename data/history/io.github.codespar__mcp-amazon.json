@@ -1,0 +1,114 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 4095,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "list_orders",
+          "get_order",
+          "get_order_items",
+          "get_listings_item",
+          "put_listings_item",
+          "delete_listings_item",
+          "search_catalog_items",
+          "get_inventory_summary",
+          "create_report",
+          "get_report",
+          "list_financial_events",
+          "get_order_shipment_status",
+          "create_subscription",
+          "patch_listings_item",
+          "confirm_shipment",
+          "update_shipment_status",
+          "list_reports",
+          "cancel_report",
+          "create_feed",
+          "get_feed",
+          "list_financial_events_by_order",
+          "get_my_fees_estimate_for_asin",
+          "list_subscriptions",
+          "get_marketplace_participations"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 3054,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "list_orders",
+          "get_order",
+          "get_order_items",
+          "get_listings_item",
+          "put_listings_item",
+          "delete_listings_item",
+          "search_catalog_items",
+          "get_inventory_summary",
+          "create_report",
+          "get_report",
+          "list_financial_events",
+          "get_order_shipment_status",
+          "create_subscription",
+          "patch_listings_item",
+          "confirm_shipment",
+          "update_shipment_status",
+          "list_reports",
+          "cancel_report",
+          "create_feed",
+          "get_feed",
+          "list_financial_events_by_order",
+          "get_my_fees_estimate_for_asin",
+          "list_subscriptions",
+          "get_marketplace_participations"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 122863,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "list_orders",
+          "get_order",
+          "get_order_items",
+          "get_listings_item",
+          "put_listings_item",
+          "delete_listings_item",
+          "search_catalog_items",
+          "get_inventory_summary",
+          "create_report",
+          "get_report",
+          "list_financial_events",
+          "get_order_shipment_status",
+          "create_subscription",
+          "patch_listings_item",
+          "confirm_shipment",
+          "update_shipment_status",
+          "list_reports",
+          "cancel_report",
+          "create_feed",
+          "get_feed",
+          "list_financial_events_by_order",
+          "get_my_fees_estimate_for_asin",
+          "list_subscriptions",
+          "get_marketplace_participations"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-amazon",
+  "slug": "io.github.codespar__mcp-amazon"
+}

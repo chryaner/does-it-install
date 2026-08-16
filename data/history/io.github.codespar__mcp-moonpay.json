@@ -1,0 +1,102 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 3881,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "get_buy_quote",
+          "create_buy_transaction",
+          "get_buy_transaction",
+          "list_buy_transactions",
+          "get_sell_quote",
+          "create_sell_transaction",
+          "get_sell_transaction",
+          "refund_sell_transaction",
+          "create_customer",
+          "get_customer",
+          "get_customer_kyc_status",
+          "list_customer_transactions",
+          "get_transaction_receipt",
+          "list_currencies",
+          "get_currency",
+          "list_countries",
+          "list_payment_methods",
+          "get_user_country",
+          "sign_buy_url",
+          "sign_sell_url"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 3037,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "get_buy_quote",
+          "create_buy_transaction",
+          "get_buy_transaction",
+          "list_buy_transactions",
+          "get_sell_quote",
+          "create_sell_transaction",
+          "get_sell_transaction",
+          "refund_sell_transaction",
+          "create_customer",
+          "get_customer",
+          "get_customer_kyc_status",
+          "list_customer_transactions",
+          "get_transaction_receipt",
+          "list_currencies",
+          "get_currency",
+          "list_countries",
+          "list_payment_methods",
+          "get_user_country",
+          "sign_buy_url",
+          "sign_sell_url"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 129652,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "get_buy_quote",
+          "create_buy_transaction",
+          "get_buy_transaction",
+          "list_buy_transactions",
+          "get_sell_quote",
+          "create_sell_transaction",
+          "get_sell_transaction",
+          "refund_sell_transaction",
+          "create_customer",
+          "get_customer",
+          "get_customer_kyc_status",
+          "list_customer_transactions",
+          "get_transaction_receipt",
+          "list_currencies",
+          "get_currency",
+          "list_countries",
+          "list_payment_methods",
+          "get_user_country",
+          "sign_buy_url",
+          "sign_sell_url"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-moonpay",
+  "slug": "io.github.codespar__mcp-moonpay"
+}

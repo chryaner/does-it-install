@@ -1,0 +1,81 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 9316,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "create_pix_cob",
+          "get_pix_cob",
+          "list_pix_cob",
+          "create_pix_devolucao",
+          "get_pix_devolucao",
+          "resolve_dict_key",
+          "register_dict_key",
+          "delete_dict_key",
+          "register_boleto",
+          "get_boleto",
+          "cancel_boleto",
+          "get_account_balance",
+          "get_statement"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 4366,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "create_pix_cob",
+          "get_pix_cob",
+          "list_pix_cob",
+          "create_pix_devolucao",
+          "get_pix_devolucao",
+          "resolve_dict_key",
+          "register_dict_key",
+          "delete_dict_key",
+          "register_boleto",
+          "get_boleto",
+          "cancel_boleto",
+          "get_account_balance",
+          "get_statement"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 178940,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "create_pix_cob",
+          "get_pix_cob",
+          "list_pix_cob",
+          "create_pix_devolucao",
+          "get_pix_devolucao",
+          "resolve_dict_key",
+          "register_dict_key",
+          "delete_dict_key",
+          "register_boleto",
+          "get_boleto",
+          "cancel_boleto",
+          "get_account_balance",
+          "get_statement"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-banco-do-brasil",
+  "slug": "io.github.codespar__mcp-banco-do-brasil"
+}

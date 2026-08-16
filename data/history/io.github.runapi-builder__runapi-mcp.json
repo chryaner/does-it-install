@@ -1,0 +1,48 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 3043,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "list_models",
+          "get_model_info",
+          "list_actions",
+          "check_pricing",
+          "search_prompts",
+          "check_balance",
+          "create_task",
+          "get_task",
+          "login"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 4800,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "list_models",
+          "get_model_info",
+          "list_actions",
+          "check_pricing",
+          "search_prompts",
+          "check_balance",
+          "create_task",
+          "get_task",
+          "login"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.runapi-builder/runapi-mcp",
+  "slug": "io.github.runapi-builder__runapi-mcp"
+}

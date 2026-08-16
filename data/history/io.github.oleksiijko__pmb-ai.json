@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: pected token '│', \"│  events \"... is not valid JSON\nUnexpected token '│', \"│       0 \"... is not valid JSON\nUnexpected token '│', \"│ by type:\"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ MCP serv\"... is not valid JSON\nUnexpected token '│', \"│ none run\"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ `pmb --h\"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON\n--- stderr (tail) ---\nDownloading transformers (11.2MiB)\n Downloaded transformers\nInstalled 103 packages in 3.72s",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: pected token '│', \"│  events \"... is not valid JSON\nUnexpected token '│', \"│       0 \"... is not valid JSON\nUnexpected token '│', \"│ by type:\"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ MCP serv\"... is not valid JSON\nUnexpected token '│', \"│ none run\"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ `pmb --h\"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON\n--- stderr (tail) ---\nInstalled 124 packages in 394ms",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: pected token '│', \"│  events \"... is not valid JSON\nUnexpected token '│', \"│       0 \"... is not valid JSON\nUnexpected token '│', \"│ by type:\"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ MCP serv\"... is not valid JSON\nUnexpected token '│', \"│ none run\"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ `pmb --h\"... is not valid JSON\nUnexpected token '└', \"└─────────\"... is not valid JSON\n--- stderr (tail) ---\nInstalled 106 packages in 1m 21s",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.oleksiijko/pmb-ai",
+  "slug": "io.github.oleksiijko__pmb-ai"
+}

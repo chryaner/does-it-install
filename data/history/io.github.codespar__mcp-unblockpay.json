@@ -1,0 +1,81 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 7068,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "create_customer",
+          "list_customers",
+          "verify_customer",
+          "get_verification_details",
+          "create_wallet",
+          "list_wallets",
+          "create_external_account",
+          "list_external_accounts",
+          "create_quote",
+          "create_payin",
+          "create_payout",
+          "get_transaction",
+          "cancel_transaction"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 5035,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "create_customer",
+          "list_customers",
+          "verify_customer",
+          "get_verification_details",
+          "create_wallet",
+          "list_wallets",
+          "create_external_account",
+          "list_external_accounts",
+          "create_quote",
+          "create_payin",
+          "create_payout",
+          "get_transaction",
+          "cancel_transaction"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 112585,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "create_customer",
+          "list_customers",
+          "verify_customer",
+          "get_verification_details",
+          "create_wallet",
+          "list_wallets",
+          "create_external_account",
+          "list_external_accounts",
+          "create_quote",
+          "create_payin",
+          "create_payout",
+          "get_transaction",
+          "cancel_transaction"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-unblockpay",
+  "slug": "io.github.codespar__mcp-unblockpay"
+}

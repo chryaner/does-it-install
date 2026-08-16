@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 70 packages in 671ms\n2026-08-16 02:48:23,731 - mcp_neo4j_aura_manager.utils - INFO - Info: No transport type provided. Using default: stdio\n2026-08-16 02:48:23,731 - mcp_neo4j_aura_manager.utils - INFO - Info: No server host provided and transport is `stdio`. `server_host` will be None.\n2026-08-16 02:48:23,731 - mcp_neo4j_aura_manager.utils - INFO - Info: No server port provided and transport is `stdio`. `server_port` will be None.\n2026-08-16 02:48:23,731 - mcp_neo4j_aura_manager.utils - INFO - Info: No server path provided and transport is `stdio`. `server_path` will be None.\n2026-08-16 02:48:23,731 - mcp_neo4j_aura_manager.utils - INFO - Info: No allow origins provided. Defaulting to no allowed origins.\n2026-08-16 02:48:23,732 - mcp_neo4j_aura_manager.utils - INFO - Info: No allowed hosts provided. Defaulting to secure mode - only localhost and 127.0.0.1 allowed.\n2026-08-16 02:48:23,732 - mcp_neo4j_aura_manager.utils - INFO - Info: No namespace provided for tools. No namespace will be used.\n2026-08-16 02:48:23,732 - mcp_neo4j_aura_manager.server - INFO - Starting MCP Neo4j Aura Manager Server\n2026-08-16 02:48:23,732 - mcp_neo4j_aura_manager - ERROR - Error starting server: FastMCP() got unexpected keyword argument(s): 'dependencies'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 72 packages in 516ms\n2026-08-16 02:46:26,220 - mcp_neo4j_aura_manager.utils - INFO - Info: No transport type provided. Using default: stdio\n2026-08-16 02:46:26,220 - mcp_neo4j_aura_manager.utils - INFO - Info: No server host provided and transport is `stdio`. `server_host` will be None.\n2026-08-16 02:46:26,220 - mcp_neo4j_aura_manager.utils - INFO - Info: No server port provided and transport is `stdio`. `server_port` will be None.\n2026-08-16 02:46:26,220 - mcp_neo4j_aura_manager.utils - INFO - Info: No server path provided and transport is `stdio`. `server_path` will be None.\n2026-08-16 02:46:26,220 - mcp_neo4j_aura_manager.utils - INFO - Info: No allow origins provided. Defaulting to no allowed origins.\n2026-08-16 02:46:26,220 - mcp_neo4j_aura_manager.utils - INFO - Info: No allowed hosts provided. Defaulting to secure mode - only localhost and 127.0.0.1 allowed.\n2026-08-16 02:46:26,220 - mcp_neo4j_aura_manager.utils - INFO - Info: No namespace provided for tools. No namespace will be used.\n2026-08-16 02:46:26,220 - mcp_neo4j_aura_manager.server - INFO - Starting MCP Neo4j Aura Manager Server\n2026-08-16 02:46:26,220 - mcp_neo4j_aura_manager - ERROR - Error starting server: FastMCP() got unexpected keyword argument(s): 'dependencies'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 73 packages in 20.17s\n2026-08-16 03:08:49,568 - mcp_neo4j_aura_manager.utils - INFO - Info: No transport type provided. Using default: stdio\r\n2026-08-16 03:08:49,570 - mcp_neo4j_aura_manager.utils - INFO - Info: No server host provided and transport is `stdio`. `server_host` will be None.\r\n2026-08-16 03:08:49,570 - mcp_neo4j_aura_manager.utils - INFO - Info: No server port provided and transport is `stdio`. `server_port` will be None.\r\n2026-08-16 03:08:49,570 - mcp_neo4j_aura_manager.utils - INFO - Info: No server path provided and transport is `stdio`. `server_path` will be None.\r\n2026-08-16 03:08:49,570 - mcp_neo4j_aura_manager.utils - INFO - Info: No allow origins provided. Defaulting to no allowed origins.\r\n2026-08-16 03:08:49,570 - mcp_neo4j_aura_manager.utils - INFO - Info: No allowed hosts provided. Defaulting to secure mode - only localhost and 127.0.0.1 allowed.\r\n2026-08-16 03:08:49,570 - mcp_neo4j_aura_manager.utils - INFO - Info: No namespace provided for tools. No namespace will be used.\r\n2026-08-16 03:08:49,570 - mcp_neo4j_aura_manager.server - INFO - Starting MCP Neo4j Aura Manager Server\r\n2026-08-16 03:08:49,570 - mcp_neo4j_aura_manager - ERROR - Error starting server: FastMCP() got unexpected keyword argument(s): 'dependencies'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "io.github.neo4j-contrib/mcp-neo4j-aura-manager",
+  "slug": "io.github.neo4j-contrib__mcp-neo4j-aura-manager"
+}

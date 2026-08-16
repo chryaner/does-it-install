@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "telnyx declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "installMs": 4383,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "telnyx declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "installMs": 4123,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "telnyx declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "installMs": 275279,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "io.github.team-telnyx/telnyx",
+  "slug": "io.github.team-telnyx__telnyx"
+}

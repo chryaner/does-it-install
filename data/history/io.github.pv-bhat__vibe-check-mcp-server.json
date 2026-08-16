@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "errorExcerpt": "@pv-bhat/vibe-check-mcp declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "installMs": 9520,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "errorExcerpt": "@pv-bhat/vibe-check-mcp declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "installMs": 4975,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "@pv-bhat/vibe-check-mcp declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "installMs": 163312,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "io.github.PV-Bhat/vibe-check-mcp-server",
+  "slug": "io.github.pv-bhat__vibe-check-mcp-server"
+}

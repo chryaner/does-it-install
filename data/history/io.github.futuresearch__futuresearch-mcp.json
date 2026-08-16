@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 80 packages in 1.06s\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/-gIODCGymt1hyW_C/bin/futuresearch-mcp\", line 6, in <module>\n    from futuresearch_mcp.server import main\n  File \"/Users/runner/.cache/uv/archive-v0/-gIODCGymt1hyW_C/lib/python3.14/site-packages/futuresearch_mcp/server.py\", line 16, in <module>\n    import futuresearch_mcp.tools  # noqa: F401  — registers @mcp.tool() decorators\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/runner/.cache/uv/archive-v0/-gIODCGymt1hyW_C/lib/python3.14/site-packages/futuresearch_mcp/tools.py\", line 40, in <module>\n    from futuresearch_mcp.app import mcp\n  File \"/Users/runner/.cache/uv/archive-v0/-gIODCGymt1hyW_C/lib/python3.14/site-packages/futuresearch_mcp/app.py\", line 13, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T04:06:28.268Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 80 packages in 879ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/QWfj6g2HaGysGy3z/bin/futuresearch-mcp\", line 6, in <module>\n    from futuresearch_mcp.server import main\n  File \"/Users/runner/.cache/uv/archive-v0/QWfj6g2HaGysGy3z/lib/python3.14/site-packages/futuresearch_mcp/server.py\", line 16, in <module>\n    import futuresearch_mcp.tools  # noqa: F401  — registers @mcp.tool() decorators\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/runner/.cache/uv/archive-v0/QWfj6g2HaGysGy3z/lib/python3.14/site-packages/futuresearch_mcp/tools.py\", line 40, in <module>\n    from futuresearch_mcp.app import mcp\n  File \"/Users/runner/.cache/uv/archive-v0/QWfj6g2HaGysGy3z/lib/python3.14/site-packages/futuresearch_mcp/app.py\", line 13, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
         "method": "pypi",
@@ -11,6 +18,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 80 packages in 242ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/ifRX0-UwiYBmiEsA/bin/futuresearch-mcp\", line 6, in <module>\n    from futuresearch_mcp.server import main\n  File \"/home/runner/.cache/uv/archive-v0/ifRX0-UwiYBmiEsA/lib/python3.13/site-packages/futuresearch_mcp/server.py\", line 16, in <module>\n    import futuresearch_mcp.tools  # noqa: F401  — registers @mcp.tool() decorators\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/.cache/uv/archive-v0/ifRX0-UwiYBmiEsA/lib/python3.13/site-packages/futuresearch_mcp/tools.py\", line 40, in <module>\n    from futuresearch_mcp.app import mcp\n  File \"/home/runner/.cache/uv/archive-v0/ifRX0-UwiYBmiEsA/lib/python3.13/site-packages/futuresearch_mcp/app.py\", line 13, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T04:06:32.275Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 80 packages in 262ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/PlqicCji8E3rQ9cM/bin/futuresearch-mcp\", line 6, in <module>\n    from futuresearch_mcp.server import main\n  File \"/home/runner/.cache/uv/archive-v0/PlqicCji8E3rQ9cM/lib/python3.13/site-packages/futuresearch_mcp/server.py\", line 16, in <module>\n    import futuresearch_mcp.tools  # noqa: F401  — registers @mcp.tool() decorators\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/.cache/uv/archive-v0/PlqicCji8E3rQ9cM/lib/python3.13/site-packages/futuresearch_mcp/tools.py\", line 40, in <module>\n    from futuresearch_mcp.app import mcp\n  File \"/home/runner/.cache/uv/archive-v0/PlqicCji8E3rQ9cM/lib/python3.13/site-packages/futuresearch_mcp/app.py\", line 13, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
         "method": "pypi",
@@ -19,6 +33,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 83 packages in 1m 13s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\BE4LqDJk6fxnEqk8\\Scripts\\futuresearch-mcp.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\BE4LqDJk6fxnEqk8\\Lib\\site-packages\\futuresearch_mcp\\server.py\", line 16, in <module>\r\n    import futuresearch_mcp.tools  # noqa: F401  � registers @mcp.tool() decorators\r\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\BE4LqDJk6fxnEqk8\\Lib\\site-packages\\futuresearch_mcp\\tools.py\", line 40, in <module>\r\n    from futuresearch_mcp.app import mcp\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\BE4LqDJk6fxnEqk8\\Lib\\site-packages\\futuresearch_mcp\\app.py\", line 13, in <module>\r\n    from mcp.server.fastmcp import FastMCP\r\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-15T04:06:54.151Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 83 packages in 48.49s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\EU9Rm9U__FG4-d6W\\Scripts\\futuresearch-mcp.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\EU9Rm9U__FG4-d6W\\Lib\\site-packages\\futuresearch_mcp\\server.py\", line 16, in <module>\r\n    import futuresearch_mcp.tools  # noqa: F401  � registers @mcp.tool() decorators\r\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\EU9Rm9U__FG4-d6W\\Lib\\site-packages\\futuresearch_mcp\\tools.py\", line 40, in <module>\r\n    from futuresearch_mcp.app import mcp\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\EU9Rm9U__FG4-d6W\\Lib\\site-packages\\futuresearch_mcp\\app.py\", line 13, in <module>\r\n    from mcp.server.fastmcp import FastMCP\r\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",

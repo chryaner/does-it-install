@@ -1,0 +1,87 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "proxy",
+          "magg_add_server",
+          "magg_remove_server",
+          "magg_list_servers",
+          "magg_enable_server",
+          "magg_disable_server",
+          "magg_search_servers",
+          "magg_smart_configure",
+          "magg_analyze_servers",
+          "magg_status",
+          "magg_check",
+          "magg_reload_config",
+          "magg_load_kit",
+          "magg_unload_kit",
+          "magg_list_kits",
+          "magg_kit_info"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "proxy",
+          "magg_add_server",
+          "magg_remove_server",
+          "magg_list_servers",
+          "magg_enable_server",
+          "magg_disable_server",
+          "magg_search_servers",
+          "magg_smart_configure",
+          "magg_analyze_servers",
+          "magg_status",
+          "magg_check",
+          "magg_reload_config",
+          "magg_load_kit",
+          "magg_unload_kit",
+          "magg_list_kits",
+          "magg_kit_info"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "proxy",
+          "magg_add_server",
+          "magg_remove_server",
+          "magg_list_servers",
+          "magg_enable_server",
+          "magg_disable_server",
+          "magg_search_servers",
+          "magg_smart_configure",
+          "magg_analyze_servers",
+          "magg_status",
+          "magg_check",
+          "magg_reload_config",
+          "magg_load_kit",
+          "magg_unload_kit",
+          "magg_list_kits",
+          "magg_kit_info"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.sitbon/magg",
+  "slug": "io.github.sitbon__magg"
+}

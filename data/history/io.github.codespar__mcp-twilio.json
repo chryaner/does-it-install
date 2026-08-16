@@ -1,0 +1,108 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 4314,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "send_message",
+          "get_message",
+          "list_messages",
+          "delete_message",
+          "make_call",
+          "get_call",
+          "update_call",
+          "start_verification",
+          "check_verification",
+          "lookup_phone",
+          "list_incoming_numbers",
+          "buy_phone_number",
+          "list_recordings",
+          "create_verify_service",
+          "create_conversation",
+          "list_conversations",
+          "add_conversation_participant",
+          "send_conversation_message",
+          "list_messaging_services",
+          "execute_studio_flow",
+          "create_taskrouter_task",
+          "list_taskrouter_workers"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 2937,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "send_message",
+          "get_message",
+          "list_messages",
+          "delete_message",
+          "make_call",
+          "get_call",
+          "update_call",
+          "start_verification",
+          "check_verification",
+          "lookup_phone",
+          "list_incoming_numbers",
+          "buy_phone_number",
+          "list_recordings",
+          "create_verify_service",
+          "create_conversation",
+          "list_conversations",
+          "add_conversation_participant",
+          "send_conversation_message",
+          "list_messaging_services",
+          "execute_studio_flow",
+          "create_taskrouter_task",
+          "list_taskrouter_workers"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 134993,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "send_message",
+          "get_message",
+          "list_messages",
+          "delete_message",
+          "make_call",
+          "get_call",
+          "update_call",
+          "start_verification",
+          "check_verification",
+          "lookup_phone",
+          "list_incoming_numbers",
+          "buy_phone_number",
+          "list_recordings",
+          "create_verify_service",
+          "create_conversation",
+          "list_conversations",
+          "add_conversation_participant",
+          "send_conversation_message",
+          "list_messaging_services",
+          "execute_studio_flow",
+          "create_taskrouter_task",
+          "list_taskrouter_workers"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-twilio",
+  "slug": "io.github.codespar__mcp-twilio"
+}

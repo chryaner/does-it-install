@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 81 packages in 961ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/f0jSGCyct7c1LjH_/bin/everyrow-mcp\", line 6, in <module>\n    from everyrow_mcp.server import main\n  File \"/Users/runner/.cache/uv/archive-v0/f0jSGCyct7c1LjH_/lib/python3.14/site-packages/everyrow_mcp/server.py\", line 15, in <module>\n    import everyrow_mcp.tools  # noqa: F401  — registers @mcp.tool() decorators\n    ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/runner/.cache/uv/archive-v0/f0jSGCyct7c1LjH_/lib/python3.14/site-packages/everyrow_mcp/tools.py\", line 13, in <module>\n    from everyrow.api_utils import handle_response\nModuleNotFoundError: No module named 'everyrow.api_utils'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T04:06:29.606Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading openai (1.6MiB)\nDownloading litellm (22.7MiB)\nDownloading tokenizers (2.9MiB)\n Downloaded tokenizers\n Downloaded openai\n Downloaded litellm\nInstalled 81 packages in 616ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/LMDT3BsMDneTSCVh/bin/everyrow-mcp\", line 6, in <module>\n    from everyrow_mcp.server import main\n  File \"/Users/runner/.cache/uv/archive-v0/LMDT3BsMDneTSCVh/lib/python3.14/site-packages/everyrow_mcp/server.py\", line 15, in <module>\n    import everyrow_mcp.tools  # noqa: F401  — registers @mcp.tool() decorators\n    ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/runner/.cache/uv/archive-v0/LMDT3BsMDneTSCVh/lib/python3.14/site-packages/everyrow_mcp/tools.py\", line 13, in <module>\n    from everyrow.api_utils import handle_response\nModuleNotFoundError: No module named 'everyrow.api_utils'",
         "method": "pypi",
@@ -10,6 +17,13 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 81 packages in 115ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/_oWuuS-0QX1knhvd/bin/everyrow-mcp\", line 6, in <module>\n    from everyrow_mcp.server import main\n  File \"/home/runner/.cache/uv/archive-v0/_oWuuS-0QX1knhvd/lib/python3.13/site-packages/everyrow_mcp/server.py\", line 15, in <module>\n    import everyrow_mcp.tools  # noqa: F401  — registers @mcp.tool() decorators\n    ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/.cache/uv/archive-v0/_oWuuS-0QX1knhvd/lib/python3.13/site-packages/everyrow_mcp/tools.py\", line 13, in <module>\n    from everyrow.api_utils import handle_response\nModuleNotFoundError: No module named 'everyrow.api_utils'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-15T04:06:26.501Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading openai (1.6MiB)\nDownloading tokenizers (3.2MiB)\nDownloading litellm (23.1MiB)\n Downloaded tokenizers\n Downloaded openai\n Downloaded litellm\nInstalled 81 packages in 542ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/eTefsY43RbAISMfL/bin/everyrow-mcp\", line 6, in <module>\n    from everyrow_mcp.server import main\n  File \"/home/runner/.cache/uv/archive-v0/eTefsY43RbAISMfL/lib/python3.13/site-packages/everyrow_mcp/server.py\", line 15, in <module>\n    import everyrow_mcp.tools  # noqa: F401  — registers @mcp.tool() decorators\n    ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/.cache/uv/archive-v0/eTefsY43RbAISMfL/lib/python3.13/site-packages/everyrow_mcp/tools.py\", line 13, in <module>\n    from everyrow.api_utils import handle_response\nModuleNotFoundError: No module named 'everyrow.api_utils'",

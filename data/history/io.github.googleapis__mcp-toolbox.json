@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:27.629Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "skipped"
+      },
+      {
         "date": "2026-08-15T04:06:28.791Z",
         "errorExcerpt": "container (oci) distributions are not probed in v1",
         "method": "oci",
@@ -11,10 +19,28 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T02:45:24.037Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: Unexpected non-whitespace character after JSON at position 4 (line 1 column 5)\n--- stderr (tail) ---\n2026-08-16T02:45:44.558002085Z ERROR \"unable to read config file at \\\"tools.yaml\\\": open tools.yaml: no such file or directory\" \nError: unable to read config file at \"tools.yaml\": open tools.yaml: no such file or directory",
+        "installMs": 6905,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "needs_config"
+      },
+      {
         "date": "2026-08-15T04:06:31.639Z",
         "errorExcerpt": "container (oci) distributions are not probed in v1",
         "method": "oci",
         "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "skipped"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-42Z-6de339",
         "status": "skipped"
       }
     ]

@@ -1,0 +1,87 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 1416,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "get_chunks",
+          "get_chunk_by_id",
+          "get_module_by_id",
+          "get_module_by_path",
+          "get_module_issuer_path",
+          "get_package_info",
+          "get_package_dependency",
+          "get_rule_info",
+          "get_similar_packages",
+          "get_packages_by_package_name",
+          "get_duplicate_packages",
+          "get_bundle_optimize",
+          "get_loader_time_all_files",
+          "get_loader_times",
+          "get_port"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 1183,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "get_chunks",
+          "get_chunk_by_id",
+          "get_module_by_id",
+          "get_module_by_path",
+          "get_module_issuer_path",
+          "get_package_info",
+          "get_package_dependency",
+          "get_rule_info",
+          "get_similar_packages",
+          "get_packages_by_package_name",
+          "get_duplicate_packages",
+          "get_bundle_optimize",
+          "get_loader_time_all_files",
+          "get_loader_times",
+          "get_port"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 17005,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "get_chunks",
+          "get_chunk_by_id",
+          "get_module_by_id",
+          "get_module_by_path",
+          "get_module_issuer_path",
+          "get_package_info",
+          "get_package_dependency",
+          "get_rule_info",
+          "get_similar_packages",
+          "get_packages_by_package_name",
+          "get_duplicate_packages",
+          "get_bundle_optimize",
+          "get_loader_time_all_files",
+          "get_loader_times",
+          "get_port"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.yifancong/rsdoctor",
+  "slug": "io.github.yifancong__rsdoctor"
+}

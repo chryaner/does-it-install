@@ -2,6 +2,32 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 8901,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "search_licitacoes",
+          "get_licitacao",
+          "list_licitacao_itens",
+          "list_licitacao_resultados",
+          "list_licitacao_arquivos",
+          "search_contratos",
+          "get_contrato",
+          "list_contrato_termos",
+          "list_contrato_instrumentos",
+          "search_atas_rp",
+          "get_ata_rp",
+          "get_orgao",
+          "get_fornecedor_contratos",
+          "search_pca",
+          "list_pca_itens",
+          "get_cnpj_data"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:28.268Z",
         "method": "npm",
         "runId": "2026-08-15T04-06-28Z-bd83fc",
@@ -29,6 +55,32 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 6653,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "search_licitacoes",
+          "get_licitacao",
+          "list_licitacao_itens",
+          "list_licitacao_resultados",
+          "list_licitacao_arquivos",
+          "search_contratos",
+          "get_contrato",
+          "list_contrato_termos",
+          "list_contrato_instrumentos",
+          "search_atas_rp",
+          "get_ata_rp",
+          "get_orgao",
+          "get_fornecedor_contratos",
+          "search_pca",
+          "list_pca_itens",
+          "get_cnpj_data"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:32.275Z",
         "method": "npm",
         "runId": "2026-08-15T04-06-32Z-64cc50",
@@ -55,6 +107,32 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 131449,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "search_licitacoes",
+          "get_licitacao",
+          "list_licitacao_itens",
+          "list_licitacao_resultados",
+          "list_licitacao_arquivos",
+          "search_contratos",
+          "get_contrato",
+          "list_contrato_termos",
+          "list_contrato_instrumentos",
+          "search_atas_rp",
+          "get_ata_rp",
+          "get_orgao",
+          "get_fornecedor_contratos",
+          "search_pca",
+          "list_pca_itens",
+          "get_cnpj_data"
+        ]
+      },
       {
         "date": "2026-08-15T04:06:54.151Z",
         "method": "npm",

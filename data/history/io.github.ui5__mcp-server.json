@@ -1,0 +1,72 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 7647,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "get_guidelines",
+          "run_ui5_linter",
+          "get_api_reference",
+          "get_project_info",
+          "create_ui5_app",
+          "get_version_info",
+          "get_integration_cards_guidelines",
+          "create_integration_card",
+          "run_manifest_validation",
+          "get_typescript_conversion_guidelines"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 6631,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "get_guidelines",
+          "run_ui5_linter",
+          "get_api_reference",
+          "get_project_info",
+          "create_ui5_app",
+          "get_version_info",
+          "get_integration_cards_guidelines",
+          "create_integration_card",
+          "run_manifest_validation",
+          "get_typescript_conversion_guidelines"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 592625,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "get_guidelines",
+          "run_ui5_linter",
+          "get_api_reference",
+          "get_project_info",
+          "create_ui5_app",
+          "get_version_info",
+          "get_integration_cards_guidelines",
+          "create_integration_card",
+          "run_manifest_validation",
+          "get_typescript_conversion_guidelines"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.UI5/mcp-server",
+  "slug": "io.github.ui5__mcp-server"
+}

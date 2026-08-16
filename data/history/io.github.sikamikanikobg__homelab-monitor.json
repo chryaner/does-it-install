@@ -1,0 +1,50 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "skipped"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 5878,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "list_hosts",
+          "get_host",
+          "get_snapshot",
+          "get_containers",
+          "get_services",
+          "get_memory",
+          "get_gpu",
+          "get_history",
+          "scan_disk",
+          "get_ai_models",
+          "get_events",
+          "get_alerts"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "skipped"
+      }
+    ]
+  },
+  "serverId": "io.github.SikamikanikoBG/homelab-monitor",
+  "slug": "io.github.sikamikanikobg__homelab-monitor"
+}

@@ -1,0 +1,114 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 9194,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "browser_close",
+          "browser_resize",
+          "browser_console_messages",
+          "browser_handle_dialog",
+          "browser_evaluate",
+          "browser_file_upload",
+          "browser_drop",
+          "browser_find",
+          "browser_fill_form",
+          "browser_press_key",
+          "browser_type",
+          "browser_navigate",
+          "browser_navigate_back",
+          "browser_network_requests",
+          "browser_network_request",
+          "browser_run_code_unsafe",
+          "browser_take_screenshot",
+          "browser_snapshot",
+          "browser_click",
+          "browser_drag",
+          "browser_hover",
+          "browser_select_option",
+          "browser_tabs",
+          "browser_wait_for"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 2030,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "browser_close",
+          "browser_resize",
+          "browser_console_messages",
+          "browser_handle_dialog",
+          "browser_evaluate",
+          "browser_file_upload",
+          "browser_drop",
+          "browser_find",
+          "browser_fill_form",
+          "browser_press_key",
+          "browser_type",
+          "browser_navigate",
+          "browser_navigate_back",
+          "browser_network_requests",
+          "browser_network_request",
+          "browser_run_code_unsafe",
+          "browser_take_screenshot",
+          "browser_snapshot",
+          "browser_click",
+          "browser_drag",
+          "browser_hover",
+          "browser_select_option",
+          "browser_tabs",
+          "browser_wait_for"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 36757,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "browser_close",
+          "browser_resize",
+          "browser_console_messages",
+          "browser_handle_dialog",
+          "browser_evaluate",
+          "browser_file_upload",
+          "browser_drop",
+          "browser_find",
+          "browser_fill_form",
+          "browser_press_key",
+          "browser_type",
+          "browser_navigate",
+          "browser_navigate_back",
+          "browser_network_requests",
+          "browser_network_request",
+          "browser_run_code_unsafe",
+          "browser_take_screenshot",
+          "browser_snapshot",
+          "browser_click",
+          "browser_drag",
+          "browser_hover",
+          "browser_select_option",
+          "browser_tabs",
+          "browser_wait_for"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.microsoft/playwright-mcp",
+  "slug": "io.github.microsoft__playwright-mcp"
+}

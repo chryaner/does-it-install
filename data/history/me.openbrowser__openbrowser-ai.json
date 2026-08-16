@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nUnexpected token 's', ...\"          stdin/stdo\"... is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nUnexpected end of JSON input\nUnexpected token 'C', \"Commands:\" is not valid JSON\nUnexpected token 'i', \"  init     G\"... is not valid JSON\nUnexpected token 'i', \"  install  I\"... is not valid JSON\n--- stderr (tail) ---\nDownloading google-genai (1.0MiB)\nDownloading imageio-ffmpeg (20.1MiB)\nDownloading litellm (10.0MiB)\nDownloading playwright (40.5MiB)\n Downloaded imageio-ffmpeg\n Downloaded playwright\n Downloaded google-genai\n Downloaded litellm\nInstalled 129 packages in 1.06s",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "needs_config"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nUnexpected token 's', ...\"          stdin/stdo\"... is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nUnexpected end of JSON input\nUnexpected token 'C', \"Commands:\" is not valid JSON\nUnexpected token 'i', \"  init     G\"... is not valid JSON\nUnexpected token 'i', \"  install  I\"... is not valid JSON\n--- stderr (tail) ---\nDownloading playwright (45.5MiB)\nDownloading google-genai (1.0MiB)\nDownloading imageio-ffmpeg (28.1MiB)\nDownloading litellm (10.0MiB)\n Downloaded imageio-ffmpeg\n Downloaded playwright\n Downloaded google-genai\n Downloaded litellm\nInstalled 129 packages in 286ms",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "needs_config"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nUnexpected token 's', ...\"          stdin/stdo\"... is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nUnexpected end of JSON input\nUnexpected token 'C', \"Commands:\" is not valid JSON\nUnexpected token 'i', \"  init     G\"... is not valid JSON\nUnexpected token 'i', \"  install  I\"... is not valid JSON\n--- stderr (tail) ---\nDownloading imageio-ffmpeg (29.8MiB)\nDownloading google-genai (1.0MiB)\nDownloading playwright (36.4MiB)\nDownloading litellm (10.0MiB)\n Downloaded imageio-ffmpeg\n Downloaded playwright\n Downloaded google-genai\n Downloaded litellm\nInstalled 132 packages in 44.53s",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "needs_config"
+      }
+    ]
+  },
+  "serverId": "me.openbrowser/openbrowser-ai",
+  "slug": "me.openbrowser__openbrowser-ai"
+}

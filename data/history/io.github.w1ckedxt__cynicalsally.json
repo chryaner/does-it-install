@@ -1,0 +1,66 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 5035,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "sally_roast",
+          "sally_explain",
+          "sally_review_pr",
+          "sally_refactor",
+          "sally_brainstorm",
+          "sally_frontend",
+          "sally_marketing",
+          "sally_usage"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 5524,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "sally_roast",
+          "sally_explain",
+          "sally_review_pr",
+          "sally_refactor",
+          "sally_brainstorm",
+          "sally_frontend",
+          "sally_marketing",
+          "sally_usage"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 238276,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "sally_roast",
+          "sally_explain",
+          "sally_review_pr",
+          "sally_refactor",
+          "sally_brainstorm",
+          "sally_frontend",
+          "sally_marketing",
+          "sally_usage"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.w1ckedxt/cynicalsally",
+  "slug": "io.github.w1ckedxt__cynicalsally"
+}

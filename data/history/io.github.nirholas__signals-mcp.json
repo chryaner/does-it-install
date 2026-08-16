@@ -1,0 +1,57 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 5703,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "list_signal_feeds",
+          "get_mirror_leaderboard",
+          "get_subscriptions",
+          "subscribe_signal",
+          "set_subscription_status"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 3591,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "list_signal_feeds",
+          "get_mirror_leaderboard",
+          "get_subscriptions",
+          "subscribe_signal",
+          "set_subscription_status"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 143974,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "list_signal_feeds",
+          "get_mirror_leaderboard",
+          "get_subscriptions",
+          "subscribe_signal",
+          "set_subscription_status"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.nirholas/signals-mcp",
+  "slug": "io.github.nirholas__signals-mcp"
+}

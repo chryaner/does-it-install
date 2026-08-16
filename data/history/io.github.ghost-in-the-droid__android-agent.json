@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: s', \"    skill     \"... is not valid JSON\nUnexpected token 'v', ...\"          validate, \"... is not valid JSON\nUnexpected token 'u', \"    up        \"... is not valid JSON\nUnexpected token 'd', \"    doctor    \"... is not valid JSON\nUnexpected token 'l', \"    login     \"... is not valid JSON\nUnexpected token 'e', ...\"         needed)\" is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'o', \"options:\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\n--- stderr (tail) ---\nInstalled 59 packages in 773ms\n⚠  'ghost-in-the-droid' is deprecated — use 'ghost' instead (this alias will be removed in a future release).",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-15T04:06:28.791Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: s', \"    skill     \"... is not valid JSON\nUnexpected token 'v', ...\"          validate, \"... is not valid JSON\nUnexpected token 'u', \"    up        \"... is not valid JSON\nUnexpected token 'd', \"    doctor    \"... is not valid JSON\nUnexpected token 'l', \"    login     \"... is not valid JSON\nUnexpected token 'e', ...\"         needed)\" is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'o', \"options:\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\n--- stderr (tail) ---\nDownloading openai (1.6MiB)\n Downloaded openai\nInstalled 59 packages in 203ms\n⚠  'ghost-in-the-droid' is deprecated — use 'ghost' instead (this alias will be removed in a future release).",
         "method": "pypi",
@@ -11,10 +18,26 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: s', \"    skill     \"... is not valid JSON\nUnexpected token 'v', ...\"          validate, \"... is not valid JSON\nUnexpected token 'u', \"    up        \"... is not valid JSON\nUnexpected token 'd', \"    doctor    \"... is not valid JSON\nUnexpected token 'l', \"    login     \"... is not valid JSON\nUnexpected token 'e', ...\"         needed)\" is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'o', \"options:\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\n--- stderr (tail) ---\nInstalled 60 packages in 112ms\n⚠  'ghost-in-the-droid' is deprecated — use 'ghost' instead (this alias will be removed in a future release).",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-15T04:06:31.639Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: s', \"    skill     \"... is not valid JSON\nUnexpected token 'v', ...\"          validate, \"... is not valid JSON\nUnexpected token 'u', \"    up        \"... is not valid JSON\nUnexpected token 'd', \"    doctor    \"... is not valid JSON\nUnexpected token 'l', \"    login     \"... is not valid JSON\nUnexpected token 'e', ...\"         needed)\" is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'o', \"options:\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\n--- stderr (tail) ---\nDownloading openai (1.6MiB)\n Downloaded openai\nInstalled 60 packages in 83ms\n⚠  'ghost-in-the-droid' is deprecated — use 'ghost' instead (this alias will be removed in a future release).",
         "method": "pypi",
         "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: s', \"    skill     \"... is not valid JSON\nUnexpected token 'v', ...\"          validate, \"... is not valid JSON\nUnexpected token 'u', \"    up        \"... is not valid JSON\nUnexpected token 'd', \"    doctor    \"... is not valid JSON\nUnexpected token 'l', \"    login     \"... is not valid JSON\nUnexpected token 'e', ...\"         needed)\" is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'o', \"options:\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\n--- stderr (tail) ---\nInstalled 61 packages in 26.32s\n\\u26a0  'ghost-in-the-droid' is deprecated � use 'ghost' instead (this alias will be removed in a future release).",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
         "status": "handshake_failed"
       }
     ]

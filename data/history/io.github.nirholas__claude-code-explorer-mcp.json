@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nfile:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-ybM7NJ/node_modules/claude-code-explorer-mcp/dist/index.js:46\n    return {\n    ^^^^^^\n\nSyntaxError: Illegal return statement\n    at compileSourceTextModule (node:internal/modules/esm/utils:346:16)\n    at ModuleLoader.moduleStrategy (node:internal/modules/esm/translators:110:18)\n    at #translate (node:internal/modules/esm/loader:559:20)\n    at afterLoad (node:internal/modules/esm/loader:612:29)\n    at ModuleLoader.loadAndTranslate (node:internal/modules/esm/loader:617:12)\n    at #createModuleJob (node:internal/modules/esm/loader:640:36)\n    at #getJobFromResolveResult (node:internal/modules/esm/loader:353:34)\n    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:321:41)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:680:25)\n\nNode.js v22.23.1",
+        "installMs": 11968,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nfile:///tmp/does-it-install/dii-npm-EvfaWN/node_modules/claude-code-explorer-mcp/dist/index.js:46\n    return {\n    ^^^^^^\n\nSyntaxError: Illegal return statement\n    at compileSourceTextModule (node:internal/modules/esm/utils:346:16)\n    at ModuleLoader.moduleStrategy (node:internal/modules/esm/translators:110:18)\n    at #translate (node:internal/modules/esm/loader:559:20)\n    at afterLoad (node:internal/modules/esm/loader:612:29)\n    at ModuleLoader.loadAndTranslate (node:internal/modules/esm/loader:617:12)\n    at #createModuleJob (node:internal/modules/esm/loader:640:36)\n    at #getJobFromResolveResult (node:internal/modules/esm/loader:353:34)\n    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:321:41)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:680:25)\n\nNode.js v22.23.2",
+        "installMs": 6594,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nfile:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-bW8gwS/node_modules/claude-code-explorer-mcp/dist/index.js:46\r\n    return {\r\n    ^^^^^^\r\n\r\nSyntaxError: Illegal return statement\r\n    at compileSourceTextModule (node:internal/modules/esm/utils:346:16)\r\n    at ModuleLoader.moduleStrategy (node:internal/modules/esm/translators:110:18)\r\n    at #translate (node:internal/modules/esm/loader:559:20)\r\n    at afterLoad (node:internal/modules/esm/loader:612:29)\r\n    at ModuleLoader.loadAndTranslate (node:internal/modules/esm/loader:617:12)\r\n    at #createModuleJob (node:internal/modules/esm/loader:640:36)\r\n    at #getJobFromResolveResult (node:internal/modules/esm/loader:353:34)\r\n    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:321:41)\r\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:680:25)\r\n\r\nNode.js v22.23.2",
+        "installMs": 150521,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.nirholas/claude-code-explorer-mcp",
+  "slug": "io.github.nirholas__claude-code-explorer-mcp"
+}

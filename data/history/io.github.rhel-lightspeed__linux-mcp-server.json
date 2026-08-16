@@ -1,0 +1,96 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "get_journal_logs",
+          "read_log_file",
+          "get_network_interfaces",
+          "get_network_connections",
+          "get_listening_ports",
+          "list_processes",
+          "get_process_info",
+          "list_services",
+          "get_service_status",
+          "get_service_logs",
+          "list_block_devices",
+          "list_directories",
+          "list_files",
+          "read_file",
+          "get_system_information",
+          "get_cpu_information",
+          "get_memory_information",
+          "get_disk_usage",
+          "get_hardware_information"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "get_journal_logs",
+          "read_log_file",
+          "get_network_interfaces",
+          "get_network_connections",
+          "get_listening_ports",
+          "list_processes",
+          "get_process_info",
+          "list_services",
+          "get_service_status",
+          "get_service_logs",
+          "list_block_devices",
+          "list_directories",
+          "list_files",
+          "read_file",
+          "get_system_information",
+          "get_cpu_information",
+          "get_memory_information",
+          "get_disk_usage",
+          "get_hardware_information"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "get_journal_logs",
+          "read_log_file",
+          "get_network_interfaces",
+          "get_network_connections",
+          "get_listening_ports",
+          "list_processes",
+          "get_process_info",
+          "list_services",
+          "get_service_status",
+          "get_service_logs",
+          "list_block_devices",
+          "list_directories",
+          "list_files",
+          "read_file",
+          "get_system_information",
+          "get_cpu_information",
+          "get_memory_information",
+          "get_disk_usage",
+          "get_hardware_information"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.rhel-lightspeed/linux-mcp-server",
+  "slug": "io.github.rhel-lightspeed__linux-mcp-server"
+}

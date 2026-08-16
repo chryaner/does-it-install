@@ -1,0 +1,26 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "skipped"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: pected token '\u001b', \"\u001b[2m2026-0\"... is not valid JSON\nUnexpected token '\u001b', \"\u001b[2m2026-0\"... is not valid JSON\nUnexpected token '\u001b', \"\u001b[2m2026-0\"... is not valid JSON\nUnexpected token '\u001b', \"\u001b[2m2026-0\"... is not valid JSON\nUnexpected token '\u001b', \"\u001b[2m2026-0\"... is not valid JSON\nUnexpected token '\u001b', \"\u001b[2m2026-0\"... is not valid JSON\nUnexpected token '\u001b', \"\u001b[2m2026-0\"... is not valid JSON\nUnexpected token '\u001b', \"\u001b[2m2026-0\"... is not valid JSON\nUnexpected token '\u001b', \"\u001b[2m2026-0\"... is not valid JSON\n--- stderr (tail) ---\nboot: registries 0 ms (t+0 ms)\nboot: storage_open 25 ms (t+26 ms)\nboot: manifest_cids 0 ms (t+26 ms)\nboot: identity 0 ms (t+27 ms)\nboot: router_build 3 ms (t+30 ms)\ntopic router ready (keyword)\nboot: topic_router_warmup 148 ms (t+148 ms)\nboot: overture_cache_wire 15 ms (t+163 ms)\n  GET  /health\n  GET  /openapi.json\n  GET  /.well-known/emem.json\n  POST /v1/recall, /v1/compare, /v1/find_similar, /v1/diff, ...\n  POST /mcp  (MCP JSON-RPC 2.0)\nemem listening on http://0.0.0.0:5051  (boot 163 ms)\noverture warm-up: 8 shards, 0 footer errors, 1070 ms",
+        "installMs": 23680,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "io.github.Vortx-AI/emem",
+  "slug": "io.github.vortx-ai__emem"
+}

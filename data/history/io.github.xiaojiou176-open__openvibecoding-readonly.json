@@ -1,0 +1,47 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/zgo8HbgPKt74Y2na/bin/openvibecoding\", line 6, in <module>\n    from openvibecoding_orch.cli import main\n  File \"/Users/runner/.cache/uv/archive-v0/zgo8HbgPKt74Y2na/lib/python3.14/site-packages/openvibecoding_orch/cli.py\", line 17, in <module>\n    from openvibecoding_orch.api.main import app as api_app\n  File \"/Users/runner/.cache/uv/archive-v0/zgo8HbgPKt74Y2na/lib/python3.14/site-packages/openvibecoding_orch/api/main.py\", line 19, in <module>\n    from openvibecoding_orch.api import (\n    ...<13 lines>...\n    )\n  File \"/Users/runner/.cache/uv/archive-v0/zgo8HbgPKt74Y2na/lib/python3.14/site-packages/openvibecoding_orch/api/main_pm_intake_helpers.py\", line 21, in <module>\n    from openvibecoding_orch.planning.intake import (\n    ...<4 lines>...\n    )\n  File \"/Users/runner/.cache/uv/archive-v0/zgo8HbgPKt74Y2na/lib/python3.14/site-packages/openvibecoding_orch/planning/__init__.py\", line 1, in <module>\n    from .intake import IntakeService\n  File \"/Users/runner/.cache/uv/archive-v0/zgo8HbgPKt74Y2na/lib/python3.14/site-packages/openvibecoding_orch/planning/intake.py\", line 34, in <module>\n    from tooling.page_brief_pipeline import DEFAULT_PAGE_BRIEF_FOCUS, PAGE_BRIEF_BROWSER_SCRIPT\nModuleNotFoundError: No module named 'tooling'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/ne6F4hD0q9rJS2Ol/bin/openvibecoding\", line 6, in <module>\n    from openvibecoding_orch.cli import main\n  File \"/home/runner/.cache/uv/archive-v0/ne6F4hD0q9rJS2Ol/lib/python3.13/site-packages/openvibecoding_orch/cli.py\", line 17, in <module>\n    from openvibecoding_orch.api.main import app as api_app\n  File \"/home/runner/.cache/uv/archive-v0/ne6F4hD0q9rJS2Ol/lib/python3.13/site-packages/openvibecoding_orch/api/main.py\", line 19, in <module>\n    from openvibecoding_orch.api import (\n    ...<13 lines>...\n    )\n  File \"/home/runner/.cache/uv/archive-v0/ne6F4hD0q9rJS2Ol/lib/python3.13/site-packages/openvibecoding_orch/api/main_pm_intake_helpers.py\", line 21, in <module>\n    from openvibecoding_orch.planning.intake import (\n    ...<4 lines>...\n    )\n  File \"/home/runner/.cache/uv/archive-v0/ne6F4hD0q9rJS2Ol/lib/python3.13/site-packages/openvibecoding_orch/planning/__init__.py\", line 1, in <module>\n    from .intake import IntakeService\n  File \"/home/runner/.cache/uv/archive-v0/ne6F4hD0q9rJS2Ol/lib/python3.13/site-packages/openvibecoding_orch/planning/intake.py\", line 34, in <module>\n    from tooling.page_brief_pipeline import DEFAULT_PAGE_BRIEF_FOCUS, PAGE_BRIEF_BROWSER_SCRIPT\nModuleNotFoundError: No module named 'tooling'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "list_runs",
+          "get_run",
+          "get_run_events",
+          "get_run_reports",
+          "list_workflows",
+          "get_workflow",
+          "list_queue",
+          "get_pending_approvals",
+          "get_diff_gate_state",
+          "get_compare_summary",
+          "get_proof_summary",
+          "get_incident_summary"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.xiaojiou176-open/openvibecoding-readonly",
+  "slug": "io.github.xiaojiou176-open__openvibecoding-readonly"
+}

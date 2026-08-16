@@ -1,0 +1,102 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 11124,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "get_ticker",
+          "list_orderbook",
+          "create_order",
+          "get_order",
+          "cancel_order",
+          "list_orders",
+          "get_balance",
+          "list_trades",
+          "get_candles",
+          "withdraw",
+          "cancel_all_orders",
+          "list_account_trades",
+          "list_deposits",
+          "list_withdrawals",
+          "get_withdrawal",
+          "list_symbols",
+          "list_assets",
+          "list_networks",
+          "get_fees",
+          "list_positions"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 4709,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "get_ticker",
+          "list_orderbook",
+          "create_order",
+          "get_order",
+          "cancel_order",
+          "list_orders",
+          "get_balance",
+          "list_trades",
+          "get_candles",
+          "withdraw",
+          "cancel_all_orders",
+          "list_account_trades",
+          "list_deposits",
+          "list_withdrawals",
+          "get_withdrawal",
+          "list_symbols",
+          "list_assets",
+          "list_networks",
+          "get_fees",
+          "list_positions"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 113893,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "get_ticker",
+          "list_orderbook",
+          "create_order",
+          "get_order",
+          "cancel_order",
+          "list_orders",
+          "get_balance",
+          "list_trades",
+          "get_candles",
+          "withdraw",
+          "cancel_all_orders",
+          "list_account_trades",
+          "list_deposits",
+          "list_withdrawals",
+          "get_withdrawal",
+          "list_symbols",
+          "list_assets",
+          "list_networks",
+          "get_fees",
+          "list_positions"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-mercado-bitcoin",
+  "slug": "io.github.codespar__mcp-mercado-bitcoin"
+}

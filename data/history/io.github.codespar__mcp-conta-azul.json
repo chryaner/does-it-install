@@ -1,0 +1,102 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 8987,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "list_customers",
+          "create_customer",
+          "update_customer",
+          "delete_customer",
+          "list_products",
+          "create_product",
+          "update_product",
+          "delete_product",
+          "list_sales",
+          "create_sale",
+          "get_sale",
+          "cancel_sale",
+          "list_services",
+          "create_service",
+          "update_service",
+          "delete_service",
+          "get_financial_summary",
+          "list_categories",
+          "list_bank_accounts",
+          "list_accounts_receivable"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 3668,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "list_customers",
+          "create_customer",
+          "update_customer",
+          "delete_customer",
+          "list_products",
+          "create_product",
+          "update_product",
+          "delete_product",
+          "list_sales",
+          "create_sale",
+          "get_sale",
+          "cancel_sale",
+          "list_services",
+          "create_service",
+          "update_service",
+          "delete_service",
+          "get_financial_summary",
+          "list_categories",
+          "list_bank_accounts",
+          "list_accounts_receivable"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 117238,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "list_customers",
+          "create_customer",
+          "update_customer",
+          "delete_customer",
+          "list_products",
+          "create_product",
+          "update_product",
+          "delete_product",
+          "list_sales",
+          "create_sale",
+          "get_sale",
+          "cancel_sale",
+          "list_services",
+          "create_service",
+          "update_service",
+          "delete_service",
+          "get_financial_summary",
+          "list_categories",
+          "list_bank_accounts",
+          "list_accounts_receivable"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-conta-azul",
+  "slug": "io.github.codespar__mcp-conta-azul"
+}

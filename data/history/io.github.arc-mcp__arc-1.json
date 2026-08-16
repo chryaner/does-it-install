@@ -1,0 +1,66 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 19409,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "SAPRead",
+          "SAPSearch",
+          "SAPNavigate",
+          "SAPLint",
+          "SAPDiagnose",
+          "SAPContext",
+          "SAPManage",
+          "SAPTransport"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 10428,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "SAPRead",
+          "SAPSearch",
+          "SAPNavigate",
+          "SAPLint",
+          "SAPDiagnose",
+          "SAPContext",
+          "SAPManage",
+          "SAPTransport"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 295401,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "SAPRead",
+          "SAPSearch",
+          "SAPNavigate",
+          "SAPLint",
+          "SAPDiagnose",
+          "SAPContext",
+          "SAPManage",
+          "SAPTransport"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.arc-mcp/arc-1",
+  "slug": "io.github.arc-mcp__arc-1"
+}

@@ -1,0 +1,87 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 5047,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "get_global_stats",
+          "get_leaderboard",
+          "get_mining_status",
+          "start_mining",
+          "claim_mining",
+          "get_wallet_info",
+          "get_profile",
+          "daily_summary",
+          "get_referral_info",
+          "generate_invite_link",
+          "get_project_info",
+          "get_tokenomics",
+          "get_roadmap",
+          "get_security_info",
+          "get_faq"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 5573,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "get_global_stats",
+          "get_leaderboard",
+          "get_mining_status",
+          "start_mining",
+          "claim_mining",
+          "get_wallet_info",
+          "get_profile",
+          "daily_summary",
+          "get_referral_info",
+          "generate_invite_link",
+          "get_project_info",
+          "get_tokenomics",
+          "get_roadmap",
+          "get_security_info",
+          "get_faq"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 95444,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "get_global_stats",
+          "get_leaderboard",
+          "get_mining_status",
+          "start_mining",
+          "claim_mining",
+          "get_wallet_info",
+          "get_profile",
+          "daily_summary",
+          "get_referral_info",
+          "generate_invite_link",
+          "get_project_info",
+          "get_tokenomics",
+          "get_roadmap",
+          "get_security_info",
+          "get_faq"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.tolenonetwork/toleno-mcp",
+  "slug": "io.github.tolenonetwork__toleno-mcp"
+}

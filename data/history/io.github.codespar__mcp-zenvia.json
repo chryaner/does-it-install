@@ -1,0 +1,96 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 8541,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "send_sms",
+          "send_whatsapp",
+          "send_rcs",
+          "send_email",
+          "send_voice",
+          "send_facebook_message",
+          "get_message_status",
+          "list_channels",
+          "create_subscription",
+          "list_subscriptions",
+          "delete_subscription",
+          "list_contacts",
+          "create_contact",
+          "delete_contact",
+          "send_template",
+          "list_templates",
+          "get_report_entries",
+          "add_opt_out"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 4246,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "send_sms",
+          "send_whatsapp",
+          "send_rcs",
+          "send_email",
+          "send_voice",
+          "send_facebook_message",
+          "get_message_status",
+          "list_channels",
+          "create_subscription",
+          "list_subscriptions",
+          "delete_subscription",
+          "list_contacts",
+          "create_contact",
+          "delete_contact",
+          "send_template",
+          "list_templates",
+          "get_report_entries",
+          "add_opt_out"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 173203,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "send_sms",
+          "send_whatsapp",
+          "send_rcs",
+          "send_email",
+          "send_voice",
+          "send_facebook_message",
+          "get_message_status",
+          "list_channels",
+          "create_subscription",
+          "list_subscriptions",
+          "delete_subscription",
+          "list_contacts",
+          "create_contact",
+          "delete_contact",
+          "send_template",
+          "list_templates",
+          "get_report_entries",
+          "add_opt_out"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-zenvia",
+  "slug": "io.github.codespar__mcp-zenvia"
+}

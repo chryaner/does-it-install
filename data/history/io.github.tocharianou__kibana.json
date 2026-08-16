@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nStarting Kibana MCP Server in Stdio mode for space: default\nFatal error: [\n  {\n    \"validation\": \"url\",\n    \"code\": \"invalid_string\",\n    \"message\": \"Invalid Kibana URL format\",\n    \"path\": [\n      \"url\"\n    ]\n  }\n]",
+        "installMs": 5670,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nStarting Kibana MCP Server in Stdio mode for space: default\nFatal error: [\n  {\n    \"validation\": \"url\",\n    \"code\": \"invalid_string\",\n    \"message\": \"Invalid Kibana URL format\",\n    \"path\": [\n      \"url\"\n    ]\n  }\n]",
+        "installMs": 6373,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nStarting Kibana MCP Server in Stdio mode for space: default\nFatal error: [\n  {\n    \"validation\": \"url\",\n    \"code\": \"invalid_string\",\n    \"message\": \"Invalid Kibana URL format\",\n    \"path\": [\n      \"url\"\n    ]\n  }\n]",
+        "installMs": 297745,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "io.github.TocharianOU/kibana",
+  "slug": "io.github.tocharianou__kibana"
+}

@@ -1,0 +1,75 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 26480,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "add_document",
+          "delete_document",
+          "search_documents",
+          "get_document",
+          "list_documents",
+          "search_all_documents",
+          "get_context_window",
+          "get_ui_url",
+          "get_uploads_path",
+          "process_uploads",
+          "list_uploads_files"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 11979,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "add_document",
+          "delete_document",
+          "search_documents",
+          "get_document",
+          "list_documents",
+          "search_all_documents",
+          "get_context_window",
+          "get_ui_url",
+          "get_uploads_path",
+          "process_uploads",
+          "list_uploads_files"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 481647,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "add_document",
+          "delete_document",
+          "search_documents",
+          "get_document",
+          "list_documents",
+          "search_all_documents",
+          "get_context_window",
+          "get_ui_url",
+          "get_uploads_path",
+          "process_uploads",
+          "list_uploads_files"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.andrea9293/mcp-documentation-server",
+  "slug": "io.github.andrea9293__mcp-documentation-server"
+}

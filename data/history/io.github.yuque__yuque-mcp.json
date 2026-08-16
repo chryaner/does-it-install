@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: YUQUE_PERSONAL_TOKEN, YUQUE_GROUP_TOKEN, or YUQUE_TOKEN environment variable (or --token argument) is required",
+        "installMs": 6781,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: YUQUE_PERSONAL_TOKEN, YUQUE_GROUP_TOKEN, or YUQUE_TOKEN environment variable (or --token argument) is required",
+        "installMs": 6025,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: YUQUE_PERSONAL_TOKEN, YUQUE_GROUP_TOKEN, or YUQUE_TOKEN environment variable (or --token argument) is required",
+        "installMs": 120205,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.yuque/yuque-mcp",
+  "slug": "io.github.yuque__yuque-mcp"
+}

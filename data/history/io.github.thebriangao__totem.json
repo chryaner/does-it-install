@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: r after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nUnexpected token 'N', \"  NO_COLOR=1\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'F', \"First-time\"... is not valid JSON\nUnexpected token 'c', \"  cd /privat\"... is not valid JSON\nUnexpected token 'p', \"  npm install\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'R', \"Repo: @the\"... is not valid JSON\nUnexpected end of JSON input\n--- stderr (tail) ---\n████████╗ ██████╗ ████████╗███████╗███╗   ███╗\n                ╚══██╔══╝██╔═══██╗╚══██╔══╝██╔════╝████╗ ████║\n                   ██║   ██║   ██║   ██║   █████╗  ██╔████╔██║\n                   ██║   ██║   ██║   ██║   ██╔══╝  ██║╚██╔╝██║\n                   ██║   ╚██████╔╝   ██║   ███████╗██║ ╚═╝ ██║\n                   ╚═╝    ╚═════╝    ╚═╝   ╚══════╝╚═╝     ╚═╝\n\n   ▁▁▁▁▂▂▆▂▁▁▁▁▁▁▁▁▂▂▆▂▁▁▁▁▁▁▁▁▂▂▆▂▁▁▁▁▁▁▁▁▂▂▆▂▁▁▁▁▁▁▁▁▂▂▆▂▁▁▁▁▁▁▁▁▂▂▆▂▁▁▁\n\n   v1.4.4  ·  48 tools  ·  47 microservices  ·  311 endpoints",
+        "installMs": 5608,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: r after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nUnexpected token 'N', \"  NO_COLOR=1\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'F', \"First-time\"... is not valid JSON\nUnexpected token 'c', \"  cd /tmp/do\"... is not valid JSON\nUnexpected token 'p', \"  npm install\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'R', \"Repo: @the\"... is not valid JSON\nUnexpected end of JSON input\n--- stderr (tail) ---\n████████╗ ██████╗ ████████╗███████╗███╗   ███╗\n                ╚══██╔══╝██╔═══██╗╚══██╔══╝██╔════╝████╗ ████║\n                   ██║   ██║   ██║   ██║   █████╗  ██╔████╔██║\n                   ██║   ██║   ██║   ██║   ██╔══╝  ██║╚██╔╝██║\n                   ██║   ╚██████╔╝   ██║   ███████╗██║ ╚═╝ ██║\n                   ╚═╝    ╚═════╝    ╚═╝   ╚══════╝╚═╝     ╚═╝\n\n   ▁▁▁▁▂▂▆▂▁▁▁▁▁▁▁▁▂▂▆▂▁▁▁▁▁▁▁▁▂▂▆▂▁▁▁▁▁▁▁▁▂▂▆▂▁▁▁▁▁▁▁▁▂▂▆▂▁▁▁▁▁▁▁▁▂▂▆▂▁▁▁\n\n   v1.4.4  ·  48 tools  ·  47 microservices  ·  311 endpoints",
+        "installMs": 4376,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: r after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nUnexpected token 'N', \"  NO_COLOR=1\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'F', \"First-time\"... is not valid JSON\nUnexpected token 'c', \"  cd C:\\User\"... is not valid JSON\nUnexpected token 'p', \"  npm install\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'R', \"Repo: @the\"... is not valid JSON\nUnexpected end of JSON input\n--- stderr (tail) ---\n████████╗ ██████╗ ████████╗███████╗███╗   ███╗\n                ╚══██╔══╝██╔═══██╗╚══██╔══╝██╔════╝████╗ ████║\n                   ██║   ██║   ██║   ██║   █████╗  ██╔████╔██║\n                   ██║   ██║   ██║   ██║   ██╔══╝  ██║╚██╔╝██║\n                   ██║   ╚██████╔╝   ██║   ███████╗██║ ╚═╝ ██║\n                   ╚═╝    ╚═════╝    ╚═╝   ╚══════╝╚═╝     ╚═╝\n\n   ▁▁▁▁▂▂▆▂▁▁▁▁▁▁▁▁▂▂▆▂▁▁▁▁▁▁▁▁▂▂▆▂▁▁▁▁▁▁▁▁▂▂▆▂▁▁▁▁▁▁▁▁▂▂▆▂▁▁▁▁▁▁▁▁▂▂▆▂▁▁▁\n\n   v1.4.4  ·  48 tools  ·  47 microservices  ·  311 endpoints",
+        "installMs": 169569,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "io.github.thebriangao/totem",
+  "slug": "io.github.thebriangao__totem"
+}

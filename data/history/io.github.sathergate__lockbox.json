@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: pected token 'l', \"  lockbox ge\"... is not valid JSON\nUnexpected token 'l', \"  lockbox li\"... is not valid JSON\nUnexpected token 'l', \"  lockbox en\"... is not valid JSON\nUnexpected token 'l', \"  lockbox ro\"... is not valid JSON\nUnexpected token 'l', \"  lockbox im\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'O', \"Options:\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)",
+        "installMs": 1613,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: pected token 'l', \"  lockbox ge\"... is not valid JSON\nUnexpected token 'l', \"  lockbox li\"... is not valid JSON\nUnexpected token 'l', \"  lockbox en\"... is not valid JSON\nUnexpected token 'l', \"  lockbox ro\"... is not valid JSON\nUnexpected token 'l', \"  lockbox im\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'O', \"Options:\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)",
+        "installMs": 738,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: pected token 'l', \"  lockbox ge\"... is not valid JSON\nUnexpected token 'l', \"  lockbox li\"... is not valid JSON\nUnexpected token 'l', \"  lockbox en\"... is not valid JSON\nUnexpected token 'l', \"  lockbox ro\"... is not valid JSON\nUnexpected token 'l', \"  lockbox im\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'O', \"Options:\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)",
+        "installMs": 1839,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.sathergate/lockbox",
+  "slug": "io.github.sathergate__lockbox"
+}

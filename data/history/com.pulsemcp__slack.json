@@ -2,6 +2,25 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 4996,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "slack_get_channels",
+          "slack_get_channel",
+          "slack_get_thread",
+          "slack_download_file",
+          "slack_post_message",
+          "slack_reply_to_thread",
+          "slack_update_message",
+          "slack_react_to_message",
+          "slack_upload_snippet"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:28.791Z",
         "method": "npm",
         "runId": "2026-08-15T04-06-28Z-3dc5e1",
@@ -22,9 +41,49 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 3999,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "slack_get_channels",
+          "slack_get_channel",
+          "slack_get_thread",
+          "slack_download_file",
+          "slack_post_message",
+          "slack_reply_to_thread",
+          "slack_update_message",
+          "slack_react_to_message",
+          "slack_upload_snippet"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:31.639Z",
         "method": "npm",
         "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "slack_get_channels",
+          "slack_get_channel",
+          "slack_get_thread",
+          "slack_download_file",
+          "slack_post_message",
+          "slack_reply_to_thread",
+          "slack_update_message",
+          "slack_react_to_message",
+          "slack_upload_snippet"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 128049,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
         "status": "pass",
         "toolCount": 9,
         "toolNames": [

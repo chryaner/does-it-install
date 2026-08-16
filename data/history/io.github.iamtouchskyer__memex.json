@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: memex [options] [command]\n\nZettelkasten agent memory CLI\n\nOptions:\n  -V, --version             output the version number\n  -h, --help                display help for command\n\nCommands:\n  search [options] [query]  Full-text search cards (body only), or list all if\n                            no query\n  read <slug>               Read a card's full content\n  write <slug>              Write a card (content via stdin)\n  links [slug]              Show link graph stats or specific card links\n  archive <slug>            Move a card to archive\n  serve [options]           Start web UI for browsing cards\n  sync [options] [arg]      Sync cards across devices via git\n  init                      Add memex instructions to AGENTS.md in current\n                            directory\n  mcp                       Start MCP server (stdio transport)\n  help [command]            display help for command",
+        "installMs": 11512,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-15T04:06:28.268Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: memex [options] [command]\n\nZettelkasten agent memory CLI\n\nOptions:\n  -V, --version             output the version number\n  -h, --help                display help for command\n\nCommands:\n  search [options] [query]  Full-text search cards (body only), or list all if\n                            no query\n  read <slug>               Read a card's full content\n  write <slug>              Write a card (content via stdin)\n  links [slug]              Show link graph stats or specific card links\n  archive <slug>            Move a card to archive\n  serve [options]           Start web UI for browsing cards\n  sync [options] [arg]      Sync cards across devices via git\n  init                      Add memex instructions to AGENTS.md in current\n                            directory\n  mcp                       Start MCP server (stdio transport)\n  help [command]            display help for command",
         "method": "npm",
@@ -11,6 +19,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: memex [options] [command]\n\nZettelkasten agent memory CLI\n\nOptions:\n  -V, --version             output the version number\n  -h, --help                display help for command\n\nCommands:\n  search [options] [query]  Full-text search cards (body only), or list all if\n                            no query\n  read <slug>               Read a card's full content\n  write <slug>              Write a card (content via stdin)\n  links [slug]              Show link graph stats or specific card links\n  archive <slug>            Move a card to archive\n  serve [options]           Start web UI for browsing cards\n  sync [options] [arg]      Sync cards across devices via git\n  init                      Add memex instructions to AGENTS.md in current\n                            directory\n  mcp                       Start MCP server (stdio transport)\n  help [command]            display help for command",
+        "installMs": 5695,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-15T04:06:32.275Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: memex [options] [command]\n\nZettelkasten agent memory CLI\n\nOptions:\n  -V, --version             output the version number\n  -h, --help                display help for command\n\nCommands:\n  search [options] [query]  Full-text search cards (body only), or list all if\n                            no query\n  read <slug>               Read a card's full content\n  write <slug>              Write a card (content via stdin)\n  links [slug]              Show link graph stats or specific card links\n  archive <slug>            Move a card to archive\n  serve [options]           Start web UI for browsing cards\n  sync [options] [arg]      Sync cards across devices via git\n  init                      Add memex instructions to AGENTS.md in current\n                            directory\n  mcp                       Start MCP server (stdio transport)\n  help [command]            display help for command",
         "method": "npm",
@@ -19,6 +35,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: memex [options] [command]\n\nZettelkasten agent memory CLI\n\nOptions:\n  -V, --version             output the version number\n  -h, --help                display help for command\n\nCommands:\n  search [options] [query]  Full-text search cards (body only), or list all if\n                            no query\n  read <slug>               Read a card's full content\n  write <slug>              Write a card (content via stdin)\n  links [slug]              Show link graph stats or specific card links\n  archive <slug>            Move a card to archive\n  serve [options]           Start web UI for browsing cards\n  sync [options] [arg]      Sync cards across devices via git\n  init                      Add memex instructions to AGENTS.md in current\n                            directory\n  mcp                       Start MCP server (stdio transport)\n  help [command]            display help for command",
+        "installMs": 143853,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-15T04:06:54.151Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: memex [options] [command]\n\nZettelkasten agent memory CLI\n\nOptions:\n  -V, --version             output the version number\n  -h, --help                display help for command\n\nCommands:\n  search [options] [query]  Full-text search cards (body only), or list all if\n                            no query\n  read <slug>               Read a card's full content\n  write <slug>              Write a card (content via stdin)\n  links [slug]              Show link graph stats or specific card links\n  archive <slug>            Move a card to archive\n  serve [options]           Start web UI for browsing cards\n  sync [options] [arg]      Sync cards across devices via git\n  init                      Add memex instructions to AGENTS.md in current\n                            directory\n  mcp                       Start MCP server (stdio transport)\n  help [command]            display help for command",

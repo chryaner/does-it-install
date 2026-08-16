@@ -1,0 +1,48 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 10564,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "retrieve-google-maps-platform-docs",
+          "retrieve-instructions"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 8437,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "retrieve-google-maps-platform-docs",
+          "retrieve-instructions"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 239094,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "retrieve-google-maps-platform-docs",
+          "retrieve-instructions"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.ryanbaumann/platform-ai",
+  "slug": "io.github.ryanbaumann__platform-ai"
+}

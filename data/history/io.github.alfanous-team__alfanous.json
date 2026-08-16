@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:27.629Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/W3tQg2USebOFegzK/bin/alfanous-mcp\", line 6, in <module>\n    from alfanous_mcp.mcp_server import main\n  File \"/Users/runner/.cache/uv/archive-v0/W3tQg2USebOFegzK/lib/python3.14/site-packages/alfanous_mcp/mcp_server.py\", line 25, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-15T04:06:28.791Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading alfanous3 (62.7MiB)\n Downloaded alfanous3\nInstalled 33 packages in 184ms\nAn executable named `alfanous3-mcp` is not provided by package `alfanous3-mcp`.\nThe following executables are available:\n- alfanous-mcp\n\nUse `uv tool run --from alfanous3-mcp alfanous-mcp` instead.",
         "method": "pypi",
@@ -11,10 +18,26 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T02:45:24.037Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/5bTK2qfpPkHk1vE2/bin/alfanous-mcp\", line 6, in <module>\n    from alfanous_mcp.mcp_server import main\n  File \"/home/runner/.cache/uv/archive-v0/5bTK2qfpPkHk1vE2/lib/python3.13/site-packages/alfanous_mcp/mcp_server.py\", line 25, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-15T04:06:31.639Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading alfanous3 (62.7MiB)\n Downloaded alfanous3\nInstalled 33 packages in 19ms\nAn executable named `alfanous3-mcp` is not provided by package `alfanous3-mcp`.\nThe following executables are available:\n- alfanous-mcp\n\nUse `uv tool run --from alfanous3-mcp alfanous-mcp` instead.",
         "method": "pypi",
         "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\CbXq8ApYy7ABU3OR\\Scripts\\alfanous-mcp.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\CbXq8ApYy7ABU3OR\\Lib\\site-packages\\alfanous_mcp\\mcp_server.py\", line 25, in <module>\r\n    from mcp.server.fastmcp import FastMCP\r\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-42Z-6de339",
         "status": "handshake_failed"
       }
     ]

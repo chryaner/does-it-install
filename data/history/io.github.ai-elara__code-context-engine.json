@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: \"... is not valid JSON\nUnexpected token '│', \"│    run: \"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON\nUnexpected end of JSON input\n--- stderr (tail) ---\nDownloading onnxruntime (18.3MiB)\nDownloading tokenizers (2.9MiB)\nDownloading hf-xet (3.7MiB)\n Downloaded hf-xet\n Downloaded tokenizers\n Downloaded onnxruntime\nInstalled 72 packages in 502ms",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: \"... is not valid JSON\nUnexpected token '│', \"│    run: \"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON\nUnexpected end of JSON input\n--- stderr (tail) ---\nDownloading numpy (15.9MiB)\nDownloading tokenizers (3.2MiB)\nDownloading pillow (6.6MiB)\nDownloading hf-xet (4.3MiB)\nDownloading onnxruntime (18.3MiB)\n Downloaded tokenizers\n Downloaded hf-xet\n Downloaded pillow\n Downloaded onnxruntime\n Downloaded numpy\nInstalled 72 packages in 45ms",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: Unexpected end of JSON input\n--- stderr (tail) ---\nDownloading onnxruntime (13.1MiB)\nDownloading tokenizers (2.7MiB)\nDownloading hf-xet (3.8MiB)\n Downloaded hf-xet\n Downloaded tokenizers\n Downloaded onnxruntime\nInstalled 75 packages in 15.29s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\cw4YBJIOZ0m4nW0Z\\Scripts\\code-context-engine.exe\\__main__.py\", line 10, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\cw4YBJIOZ0m4nW0Z\\Lib\\site-packages\\click\\core.py\", line 1569, in __call__\r\n    return self.main(*args, **kwargs)\r\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\cw4YBJIOZ0m4nW0Z\\Lib\\site-packages\\click\\core.py\", line 1490, in main\r\n    rv = self.invoke(ctx)\r\n         ^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\cw4YBJIOZ0m4nW0Z\\Lib\\site-packages\\click\\core.py\", line 1948, in invoke\r\n    rv = super().invoke(ctx)\r\n         ^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\cw4YBJIOZ0m4nW0Z\\Lib\\site-packages\\click\\core.py\", line 1353, in invoke\r\n    return ctx.invoke(self.callback, **ctx.params)\r\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\cw4YBJIOZ0m4nW0Z\\Lib\\site-packages\\click\\core.py\", line 907, in invoke\r\n    return callback(*args, **kwargs)\r\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\cw4YBJIOZ0m4nW0Z\\Lib\\site-packages\\click\\decorators.py\", line 34, in new_func\r\n    return f(get_current_context(), *args, **kwargs)\r\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\cw4YBJIOZ0m4nW0Z\\Lib\\site-packages\\context_engine\\cli.py\", line 618, in main\r\n    _show_welcome_banner(ctx.obj[\"config\"])\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\cw4YBJIOZ0m4nW0Z\\Lib\\site-packages\\context_engine\\cli.py\", line 486, in _show_welcome_banner\r\n    click.echo(line)\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\cw4YBJIOZ0m4nW0Z\\Lib\\site-packages\\click\\utils.py\", line 345, in echo\r\n    file.write(out)  # type: ignore\r\n    ^^^^^^^^^^^^^^^\r\n  File \"C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\encodings\\cp1252.py\", line 19, in encode\r\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\r\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-28: character maps to <undefined>",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.ai-elara/code-context-engine",
+  "slug": "io.github.ai-elara__code-context-engine"
+}

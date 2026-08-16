@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: valid JSON\nUnexpected token 'b', ...\"          by `dvalin\"... is not valid JSON\nUnexpected token 's', \"  session   \"... is not valid JSON\nUnexpected token 'p', \"  provider  \"... is not valid JSON\nUnexpected token 's', ...\"          settings\" is not valid JSON\nUnexpected token 'u', \"  update|upg\"... is not valid JSON\nUnexpected token 'r', \"  run [optio\"... is not valid JSON\nUnexpected token 'm', \"  mcp-serve \"... is not valid JSON\nUnexpected token 's', ...\"          stdio MCP\" is not valid JSON",
+        "installMs": 4946,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "needs_config"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: valid JSON\nUnexpected token 'b', ...\"          by `dvalin\"... is not valid JSON\nUnexpected token 's', \"  session   \"... is not valid JSON\nUnexpected token 'p', \"  provider  \"... is not valid JSON\nUnexpected token 's', ...\"          settings\" is not valid JSON\nUnexpected token 'u', \"  update|upg\"... is not valid JSON\nUnexpected token 'r', \"  run [optio\"... is not valid JSON\nUnexpected token 'm', \"  mcp-serve \"... is not valid JSON\nUnexpected token 's', ...\"          stdio MCP\" is not valid JSON",
+        "installMs": 3549,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "needs_config"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: valid JSON\nUnexpected token 'b', ...\"          by `dvalin\"... is not valid JSON\nUnexpected token 's', \"  session   \"... is not valid JSON\nUnexpected token 'p', \"  provider  \"... is not valid JSON\nUnexpected token 's', ...\"          settings\" is not valid JSON\nUnexpected token 'u', \"  update|upg\"... is not valid JSON\nUnexpected token 'r', \"  run [optio\"... is not valid JSON\nUnexpected token 'm', \"  mcp-serve \"... is not valid JSON\nUnexpected token 's', ...\"          stdio MCP\" is not valid JSON",
+        "installMs": 94857,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "needs_config"
+      }
+    ]
+  },
+  "serverId": "io.github.arthurpanhku/dvalincode",
+  "slug": "io.github.arthurpanhku__dvalincode"
+}

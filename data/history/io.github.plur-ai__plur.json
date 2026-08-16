@@ -1,0 +1,78 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 22737,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "plur_learn",
+          "plur_recall",
+          "plur_feedback",
+          "plur_forget",
+          "plur_packs_uninstall",
+          "plur_status",
+          "plur_receipt",
+          "plur_doctor",
+          "plur_session_start",
+          "plur_session_end",
+          "plur_tensions_purge",
+          "plur_admin"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 13606,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "plur_learn",
+          "plur_recall",
+          "plur_feedback",
+          "plur_forget",
+          "plur_packs_uninstall",
+          "plur_status",
+          "plur_receipt",
+          "plur_doctor",
+          "plur_session_start",
+          "plur_session_end",
+          "plur_tensions_purge",
+          "plur_admin"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 373566,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "plur_learn",
+          "plur_recall",
+          "plur_feedback",
+          "plur_forget",
+          "plur_packs_uninstall",
+          "plur_status",
+          "plur_receipt",
+          "plur_doctor",
+          "plur_session_start",
+          "plur_session_end",
+          "plur_tensions_purge",
+          "plur_admin"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.plur-ai/plur",
+  "slug": "io.github.plur-ai__plur"
+}

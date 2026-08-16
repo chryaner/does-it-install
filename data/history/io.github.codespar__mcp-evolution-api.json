@@ -1,0 +1,117 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 8218,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 25,
+        "toolNames": [
+          "send_text",
+          "send_image",
+          "send_document",
+          "get_instances",
+          "create_instance",
+          "get_qrcode",
+          "get_contacts",
+          "send_poll",
+          "get_messages",
+          "check_number",
+          "create_group",
+          "get_group_info",
+          "update_profile",
+          "set_presence",
+          "get_chat_history",
+          "logout_instance",
+          "restart_instance",
+          "delete_instance",
+          "connection_state",
+          "leave_group",
+          "update_group_participants",
+          "fetch_group_invite_code",
+          "mark_message_as_read",
+          "archive_chat",
+          "delete_message"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 4601,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 25,
+        "toolNames": [
+          "send_text",
+          "send_image",
+          "send_document",
+          "get_instances",
+          "create_instance",
+          "get_qrcode",
+          "get_contacts",
+          "send_poll",
+          "get_messages",
+          "check_number",
+          "create_group",
+          "get_group_info",
+          "update_profile",
+          "set_presence",
+          "get_chat_history",
+          "logout_instance",
+          "restart_instance",
+          "delete_instance",
+          "connection_state",
+          "leave_group",
+          "update_group_participants",
+          "fetch_group_invite_code",
+          "mark_message_as_read",
+          "archive_chat",
+          "delete_message"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 112288,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 25,
+        "toolNames": [
+          "send_text",
+          "send_image",
+          "send_document",
+          "get_instances",
+          "create_instance",
+          "get_qrcode",
+          "get_contacts",
+          "send_poll",
+          "get_messages",
+          "check_number",
+          "create_group",
+          "get_group_info",
+          "update_profile",
+          "set_presence",
+          "get_chat_history",
+          "logout_instance",
+          "restart_instance",
+          "delete_instance",
+          "connection_state",
+          "leave_group",
+          "update_group_participants",
+          "fetch_group_invite_code",
+          "mark_message_as_read",
+          "archive_chat",
+          "delete_message"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-evolution-api",
+  "slug": "io.github.codespar__mcp-evolution-api"
+}

@@ -1,0 +1,114 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 3745,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "list_institutions",
+          "create_link",
+          "list_links",
+          "get_accounts",
+          "get_balances",
+          "get_transactions",
+          "get_owners",
+          "get_incomes",
+          "get_tax_returns",
+          "get_investments",
+          "get_link",
+          "delete_link",
+          "patch_link",
+          "list_accounts",
+          "get_account_detail",
+          "list_transactions",
+          "get_transaction_detail",
+          "list_balances",
+          "list_owners",
+          "list_incomes",
+          "get_employment_records",
+          "get_invoices",
+          "get_receivables_transactions",
+          "create_widget_token"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 3336,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "list_institutions",
+          "create_link",
+          "list_links",
+          "get_accounts",
+          "get_balances",
+          "get_transactions",
+          "get_owners",
+          "get_incomes",
+          "get_tax_returns",
+          "get_investments",
+          "get_link",
+          "delete_link",
+          "patch_link",
+          "list_accounts",
+          "get_account_detail",
+          "list_transactions",
+          "get_transaction_detail",
+          "list_balances",
+          "list_owners",
+          "list_incomes",
+          "get_employment_records",
+          "get_invoices",
+          "get_receivables_transactions",
+          "create_widget_token"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 134205,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "list_institutions",
+          "create_link",
+          "list_links",
+          "get_accounts",
+          "get_balances",
+          "get_transactions",
+          "get_owners",
+          "get_incomes",
+          "get_tax_returns",
+          "get_investments",
+          "get_link",
+          "delete_link",
+          "patch_link",
+          "list_accounts",
+          "get_account_detail",
+          "list_transactions",
+          "get_transaction_detail",
+          "list_balances",
+          "list_owners",
+          "list_incomes",
+          "get_employment_records",
+          "get_invoices",
+          "get_receivables_transactions",
+          "create_widget_token"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-belvo",
+  "slug": "io.github.codespar__mcp-belvo"
+}

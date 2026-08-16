@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "skipped"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: in JSON at position 7 (line 1 column 8)\nUnexpected end of JSON input\nUnexpected token 'C', \"Commands:\" is not valid JSON\nUnexpected token 's', \"  stdio [flags]\" is not valid JSON\nUnexpected token 's', \"    stdio mcp \"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'h', \"  http [flags]\" is not valid JSON\nUnexpected token 'h', \"    http mcp s\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'R', \"Run \"build\"... is not valid JSON\nUnexpected end of JSON input\n--- stderr (tail) ---\nbuildkite-mcp-server: error: expected one of \"stdio\", \"http\"",
+        "installMs": 3377,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "skipped"
+      }
+    ]
+  },
+  "serverId": "io.github.buildkite/buildkite-mcp-server",
+  "slug": "io.github.buildkite__buildkite-mcp-server"
+}

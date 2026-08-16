@@ -1,0 +1,108 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 4027,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "get_oauth_token",
+          "send_pix",
+          "create_pix_qr",
+          "get_pix",
+          "resolve_dict_key",
+          "refund_pix",
+          "create_boleto",
+          "get_boleto",
+          "cancel_boleto",
+          "get_statement",
+          "arrecadacao_pay",
+          "list_pix_received",
+          "create_pix_due_charge",
+          "get_pix_due_charge",
+          "update_pix_due_charge",
+          "register_dict_key",
+          "delete_dict_key",
+          "list_boletos",
+          "get_boleto_pdf",
+          "get_account_balance",
+          "transfer_ted",
+          "pay_tax_darf"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 3143,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "get_oauth_token",
+          "send_pix",
+          "create_pix_qr",
+          "get_pix",
+          "resolve_dict_key",
+          "refund_pix",
+          "create_boleto",
+          "get_boleto",
+          "cancel_boleto",
+          "get_statement",
+          "arrecadacao_pay",
+          "list_pix_received",
+          "create_pix_due_charge",
+          "get_pix_due_charge",
+          "update_pix_due_charge",
+          "register_dict_key",
+          "delete_dict_key",
+          "list_boletos",
+          "get_boleto_pdf",
+          "get_account_balance",
+          "transfer_ted",
+          "pay_tax_darf"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 134347,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "get_oauth_token",
+          "send_pix",
+          "create_pix_qr",
+          "get_pix",
+          "resolve_dict_key",
+          "refund_pix",
+          "create_boleto",
+          "get_boleto",
+          "cancel_boleto",
+          "get_statement",
+          "arrecadacao_pay",
+          "list_pix_received",
+          "create_pix_due_charge",
+          "get_pix_due_charge",
+          "update_pix_due_charge",
+          "register_dict_key",
+          "delete_dict_key",
+          "list_boletos",
+          "get_boleto_pdf",
+          "get_account_balance",
+          "transfer_ted",
+          "pay_tax_darf"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-bradesco",
+  "slug": "io.github.codespar__mcp-bradesco"
+}

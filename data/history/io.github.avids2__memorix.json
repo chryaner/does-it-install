@@ -1,0 +1,69 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 13961,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "memorix_store",
+          "memorix_search",
+          "memorix_project_context",
+          "memorix_codegraph_status",
+          "memorix_context_pack",
+          "memorix_resolve",
+          "memorix_detail",
+          "memorix_session_start",
+          "memorix_media"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 8870,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "memorix_store",
+          "memorix_search",
+          "memorix_project_context",
+          "memorix_codegraph_status",
+          "memorix_context_pack",
+          "memorix_resolve",
+          "memorix_detail",
+          "memorix_session_start",
+          "memorix_media"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 194271,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "memorix_store",
+          "memorix_search",
+          "memorix_project_context",
+          "memorix_codegraph_status",
+          "memorix_context_pack",
+          "memorix_resolve",
+          "memorix_detail",
+          "memorix_session_start",
+          "memorix_media"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.AVIDS2/memorix",
+  "slug": "io.github.avids2__memorix"
+}

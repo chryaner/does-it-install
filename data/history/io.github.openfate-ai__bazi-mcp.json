@@ -1,0 +1,60 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 4178,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "calculate_bazi_chart",
+          "detect_bazi_interactions",
+          "calculate_true_solar_time",
+          "reverse_bazi_to_solar_times",
+          "get_openfate_bazi_policy",
+          "get_openfate_bazi_resources"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 3591,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "calculate_bazi_chart",
+          "detect_bazi_interactions",
+          "calculate_true_solar_time",
+          "reverse_bazi_to_solar_times",
+          "get_openfate_bazi_policy",
+          "get_openfate_bazi_resources"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 234926,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "calculate_bazi_chart",
+          "detect_bazi_interactions",
+          "calculate_true_solar_time",
+          "reverse_bazi_to_solar_times",
+          "get_openfate_bazi_policy",
+          "get_openfate_bazi_resources"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.openfate-ai/bazi-mcp",
+  "slug": "io.github.openfate-ai__bazi-mcp"
+}

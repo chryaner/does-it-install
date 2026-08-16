@@ -1,0 +1,42 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "graph",
+          "query",
+          "review",
+          "config",
+          "help",
+          "security",
+          "config__open_relay"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "graph",
+          "query",
+          "review",
+          "config",
+          "help",
+          "security",
+          "config__open_relay"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.n24q02m/better-code-review-graph",
+  "slug": "io.github.n24q02m__better-code-review-graph"
+}

@@ -1,0 +1,57 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 19695,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "search",
+          "news",
+          "crawl",
+          "sitemap",
+          "trending"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 2198,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "search",
+          "news",
+          "crawl",
+          "sitemap",
+          "trending"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 115648,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "search",
+          "news",
+          "crawl",
+          "sitemap",
+          "trending"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.superagents-lab/search1api",
+  "slug": "io.github.superagents-lab__search1api"
+}

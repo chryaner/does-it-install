@@ -1,0 +1,58 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 6276,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "chat_completion",
+          "analyze_image",
+          "analyze_audio",
+          "analyze_video",
+          "search_models",
+          "get_model_info",
+          "validate_model",
+          "generate_image",
+          "generate_audio",
+          "generate_video",
+          "generate_video_from_image",
+          "get_video_status",
+          "rerank_documents",
+          "health_check"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 5132,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "chat_completion",
+          "analyze_image",
+          "analyze_audio",
+          "analyze_video",
+          "search_models",
+          "get_model_info",
+          "validate_model",
+          "generate_image",
+          "generate_audio",
+          "generate_video",
+          "generate_video_from_image",
+          "get_video_status",
+          "rerank_documents",
+          "health_check"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.stabgan/openrouter-multimodal",
+  "slug": "io.github.stabgan__openrouter-multimodal"
+}

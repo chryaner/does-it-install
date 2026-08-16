@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "skipped"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "errorExcerpt": "docker pull ghcr.io/kreuzberg-dev/kreuzcrawl:0.3.0 exited with code 1\n--- stderr (tail) ---\nError response from daemon: Head \"https://ghcr.io/v2/kreuzberg-dev/kreuzcrawl/manifests/0.3.0\": denied",
+        "installMs": 171,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "install_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "skipped"
+      }
+    ]
+  },
+  "serverId": "io.github.kreuzberg-dev/kreuzcrawl",
+  "slug": "io.github.kreuzberg-dev__kreuzcrawl"
+}

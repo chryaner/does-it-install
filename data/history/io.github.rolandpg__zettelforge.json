@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: Unexpected token 'U', \"Usage: pyt\"... is not valid JSON\nUnexpected token 'd', \"  demo     R\"... is not valid JSON\nUnexpected token 'v', \"  version  S\"... is not valid JSON\n--- stderr (tail) ---\nDownloading tantivy (7.9MiB)\n Downloaded tantivy\nInstalled 48 packages in 532ms",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: Unexpected token 'U', \"Usage: pyt\"... is not valid JSON\nUnexpected token 'd', \"  demo     R\"... is not valid JSON\nUnexpected token 'v', \"  version  S\"... is not valid JSON\n--- stderr (tail) ---\nDownloading tantivy (4.4MiB)\n Downloaded tantivy\nInstalled 48 packages in 111ms",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading tantivy (3.6MiB)\n Downloaded tantivy\nInstalled 50 packages in 25.71s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\MoeWrx-4XKAJlhq9\\Scripts\\zettelforge.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\MoeWrx-4XKAJlhq9\\Lib\\site-packages\\zettelforge\\__init__.py\", line 38, in <module>\r\n    from zettelforge.memory_manager import MemoryManager, get_memory_manager\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\MoeWrx-4XKAJlhq9\\Lib\\site-packages\\zettelforge\\memory_manager.py\", line 24, in <module>\r\n    from zettelforge.entity_indexer import EntityIndexer\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\MoeWrx-4XKAJlhq9\\Lib\\site-packages\\zettelforge\\entity_indexer.py\", line 13, in <module>\r\n    import fcntl\r\nModuleNotFoundError: No module named 'fcntl'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.rolandpg/zettelforge",
+  "slug": "io.github.rolandpg__zettelforge"
+}

@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "listTools failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\nNo existing OAuth tokens found, starting fresh authentication.\n\nNo existing OAuth tokens found, starting fresh authentication.\n\nAuthentication required, starting OAuth flow...\n\nListening for OAuth callback on port 8090...",
+        "installMs": 6959,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "timeout"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "listTools failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\nNo existing OAuth tokens found, starting fresh authentication.\n\nNo existing OAuth tokens found, starting fresh authentication.\n\nAuthentication required, starting OAuth flow...\n\nListening for OAuth callback on port 8090...",
+        "installMs": 6364,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "timeout"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "listTools failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\nNo existing OAuth tokens found, starting fresh authentication.\n\nNo existing OAuth tokens found, starting fresh authentication.\n\nAuthentication required, starting OAuth flow...\n\nListening for OAuth callback on port 8090...",
+        "installMs": 347916,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "io.github.VectifyAI/pageindex-mcp",
+  "slug": "io.github.vectifyai__pageindex-mcp"
+}

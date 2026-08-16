@@ -1,0 +1,72 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 8472,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "pay_request",
+          "verify_payment",
+          "create_paywall",
+          "get_paywall",
+          "list_paywalls",
+          "delete_paywall",
+          "get_balance",
+          "list_payments",
+          "get_payment",
+          "get_supported_networks"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 4259,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "pay_request",
+          "verify_payment",
+          "create_paywall",
+          "get_paywall",
+          "list_paywalls",
+          "delete_paywall",
+          "get_balance",
+          "list_payments",
+          "get_payment",
+          "get_supported_networks"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 169672,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "pay_request",
+          "verify_payment",
+          "create_paywall",
+          "get_paywall",
+          "list_paywalls",
+          "delete_paywall",
+          "get_balance",
+          "list_payments",
+          "get_payment",
+          "get_supported_networks"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-x402",
+  "slug": "io.github.codespar__mcp-x402"
+}

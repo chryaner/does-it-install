@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\nAuthenticating with WHOOP...\nNo token file found at ~/.whoop-mcp/tokens.json.\nNo cached tokens found, starting OAuth flow...\n\nWaiting for WHOOP authorization...\nIf the browser didn't open, visit:\nhttps://api.prod.whoop.com/oauth/oauth2/auth?response_type=code&client_id=DOES_IT_INSTALL_PLACEHOLDER&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallback&scope=offline+read%3Arecovery+read%3Acycles+read%3Aworkout+read%3Asleep+read%3Aprofile+read%3Abody_measurement&state=ffee7e50cec8d92d17a7fc30dde54200&code_challenge=_X2XMrDu4gTjG--vZDfs_8DFlOH1gpZk2jAiX-ICXWE&code_challenge_method=S256",
+        "installMs": 18730,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "timeout"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\nAuthenticating with WHOOP...\nNo token file found at ~/.whoop-mcp/tokens.json.\nNo cached tokens found, starting OAuth flow...\n\nWaiting for WHOOP authorization...\nIf the browser didn't open, visit:\nhttps://api.prod.whoop.com/oauth/oauth2/auth?response_type=code&client_id=DOES_IT_INSTALL_PLACEHOLDER&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallback&scope=offline+read%3Arecovery+read%3Acycles+read%3Aworkout+read%3Asleep+read%3Aprofile+read%3Abody_measurement&state=d7adb0a21297a411f9a28eeccd99e2e1&code_challenge=eXfB-ELj7dEJ3lWokG80Ialidp8OItv8bXtl7VESNlA&code_challenge_method=S256",
+        "installMs": 2747,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "timeout"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\nAuthenticating with WHOOP...\nNo token file found at ~\\.whoop-mcp\\tokens.json.\nNo cached tokens found, starting OAuth flow...\n\nWaiting for WHOOP authorization...\nIf the browser didn't open, visit:\nhttps://api.prod.whoop.com/oauth/oauth2/auth?response_type=code&client_id=DOES_IT_INSTALL_PLACEHOLDER&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallback&scope=offline+read%3Arecovery+read%3Acycles+read%3Aworkout+read%3Asleep+read%3Aprofile+read%3Abody_measurement&state=38b7d3c9f67f85df8707c45c20406eec&code_challenge=unOC7H1DCUP6Pywio4JSUf41iIwspU0nDe-LSK0IHl0&code_challenge_method=S256",
+        "installMs": 136693,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "io.github.shashankswe2020-ux/whoop",
+  "slug": "io.github.shashankswe2020-ux__whoop"
+}

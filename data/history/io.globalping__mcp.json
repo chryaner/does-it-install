@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND mcp.globalping.io",
+        "method": "remote-http",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "connect_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND mcp.globalping.io",
+        "method": "remote-http",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "connect_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND mcp.globalping.io",
+        "method": "remote-http",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "connect_failed"
+      }
+    ]
+  },
+  "serverId": "io.globalping/mcp",
+  "slug": "io.globalping__mcp"
+}

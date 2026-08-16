@@ -1,0 +1,63 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 5426,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "scan_security",
+          "fix_security",
+          "list_security_rules",
+          "check_package",
+          "scan_packages",
+          "list_package_stats",
+          "scan_agent_prompt"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 3374,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "scan_security",
+          "fix_security",
+          "list_security_rules",
+          "check_package",
+          "scan_packages",
+          "list_package_stats",
+          "scan_agent_prompt"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 190734,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "scan_security",
+          "fix_security",
+          "list_security_rules",
+          "check_package",
+          "scan_packages",
+          "list_package_stats",
+          "scan_agent_prompt"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.sinewaveai/agent-security-scanner-mcp",
+  "slug": "io.github.sinewaveai__agent-security-scanner-mcp"
+}

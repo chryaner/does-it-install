@@ -1,0 +1,57 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 7536,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "compose_scene",
+          "get_scene",
+          "list_scenes",
+          "export_scene",
+          "build_world"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 5380,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "compose_scene",
+          "get_scene",
+          "list_scenes",
+          "export_scene",
+          "build_world"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 125246,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "compose_scene",
+          "get_scene",
+          "list_scenes",
+          "export_scene",
+          "build_world"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.nirholas/scene-mcp",
+  "slug": "io.github.nirholas__scene-mcp"
+}

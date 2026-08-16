@@ -1,0 +1,99 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 54471,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "place_details_tool",
+          "simplify_tool",
+          "bbox_tool",
+          "centroid_tool",
+          "midpoint_tool",
+          "bearing_tool",
+          "area_tool",
+          "buffer_tool",
+          "point_in_polygon_tool",
+          "distance_tool",
+          "category_search_tool",
+          "directions_tool",
+          "isochrone_tool",
+          "map_matching_tool",
+          "matrix_tool",
+          "optimization_tool",
+          "reverse_geocode_tool",
+          "static_map_image_tool",
+          "search_and_geocode_tool"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 27662,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "place_details_tool",
+          "simplify_tool",
+          "bbox_tool",
+          "centroid_tool",
+          "midpoint_tool",
+          "bearing_tool",
+          "area_tool",
+          "buffer_tool",
+          "point_in_polygon_tool",
+          "distance_tool",
+          "category_search_tool",
+          "directions_tool",
+          "isochrone_tool",
+          "map_matching_tool",
+          "matrix_tool",
+          "optimization_tool",
+          "reverse_geocode_tool",
+          "static_map_image_tool",
+          "search_and_geocode_tool"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 418287,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "place_details_tool",
+          "simplify_tool",
+          "bbox_tool",
+          "centroid_tool",
+          "midpoint_tool",
+          "bearing_tool",
+          "area_tool",
+          "buffer_tool",
+          "point_in_polygon_tool",
+          "distance_tool",
+          "category_search_tool",
+          "directions_tool",
+          "isochrone_tool",
+          "map_matching_tool",
+          "matrix_tool",
+          "optimization_tool",
+          "reverse_geocode_tool",
+          "static_map_image_tool",
+          "search_and_geocode_tool"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.mapbox/mcp-server",
+  "slug": "io.github.mapbox__mcp-server"
+}

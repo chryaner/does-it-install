@@ -1,0 +1,108 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 7726,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "create_nfse",
+          "get_nfse",
+          "cancel_nfse",
+          "list_nfse",
+          "email_nfse",
+          "create_nfe",
+          "get_nfe",
+          "cancel_nfe",
+          "list_nfe",
+          "get_nfe_pdf",
+          "consult_cnpj",
+          "consult_cep",
+          "correct_nfe",
+          "get_nfe_xml",
+          "get_nfse_pdf",
+          "get_nfse_xml",
+          "list_companies",
+          "get_company",
+          "create_company",
+          "list_webhooks",
+          "create_webhook",
+          "delete_webhook"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 4838,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "create_nfse",
+          "get_nfse",
+          "cancel_nfse",
+          "list_nfse",
+          "email_nfse",
+          "create_nfe",
+          "get_nfe",
+          "cancel_nfe",
+          "list_nfe",
+          "get_nfe_pdf",
+          "consult_cnpj",
+          "consult_cep",
+          "correct_nfe",
+          "get_nfe_xml",
+          "get_nfse_pdf",
+          "get_nfse_xml",
+          "list_companies",
+          "get_company",
+          "create_company",
+          "list_webhooks",
+          "create_webhook",
+          "delete_webhook"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 108911,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "create_nfse",
+          "get_nfse",
+          "cancel_nfse",
+          "list_nfse",
+          "email_nfse",
+          "create_nfe",
+          "get_nfe",
+          "cancel_nfe",
+          "list_nfe",
+          "get_nfe_pdf",
+          "consult_cnpj",
+          "consult_cep",
+          "correct_nfe",
+          "get_nfe_xml",
+          "get_nfse_pdf",
+          "get_nfse_xml",
+          "list_companies",
+          "get_company",
+          "create_company",
+          "list_webhooks",
+          "create_webhook",
+          "delete_webhook"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-nfe-io",
+  "slug": "io.github.codespar__mcp-nfe-io"
+}

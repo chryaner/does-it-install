@@ -2,6 +2,23 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 6281,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "search_books",
+          "get_book_by_title",
+          "get_book_by_id",
+          "get_authors_by_name",
+          "get_author_info",
+          "get_author_photo",
+          "get_book_cover"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:29.606Z",
         "method": "npm",
         "runId": "2026-08-15T04-06-29Z-57cf45",
@@ -20,6 +37,23 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 5481,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "search_books",
+          "get_book_by_title",
+          "get_book_by_id",
+          "get_authors_by_name",
+          "get_author_info",
+          "get_author_photo",
+          "get_book_cover"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:26.501Z",
         "method": "npm",
         "runId": "2026-08-15T04-06-26Z-0b778e",
@@ -37,6 +71,23 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 103706,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "search_books",
+          "get_book_by_title",
+          "get_book_by_id",
+          "get_authors_by_name",
+          "get_author_info",
+          "get_author_photo",
+          "get_book_cover"
+        ]
+      },
       {
         "date": "2026-08-15T04:06:54.549Z",
         "method": "npm",

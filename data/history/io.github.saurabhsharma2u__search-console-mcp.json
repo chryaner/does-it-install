@@ -1,0 +1,82 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 23131,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "get_started",
+          "sites_list",
+          "sites_manage",
+          "accounts_manage",
+          "sitemaps_list",
+          "sitemaps_submit",
+          "sitemaps_delete",
+          "analytics_query",
+          "analytics_compare",
+          "analytics_anomalies",
+          "analytics_advanced",
+          "inspection_inspect",
+          "pagespeed_analyze",
+          "indexing_submit",
+          "indexing_status",
+          "seo_audit",
+          "seo_keywords_research",
+          "schema_validate",
+          "site_health_check",
+          "compare_engines",
+          "diagnostics"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 10979,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "get_started",
+          "sites_list",
+          "sites_manage",
+          "accounts_manage",
+          "sitemaps_list",
+          "sitemaps_submit",
+          "sitemaps_delete",
+          "analytics_query",
+          "analytics_compare",
+          "analytics_anomalies",
+          "analytics_advanced",
+          "inspection_inspect",
+          "pagespeed_analyze",
+          "indexing_submit",
+          "indexing_status",
+          "seo_audit",
+          "seo_keywords_research",
+          "schema_validate",
+          "site_health_check",
+          "compare_engines",
+          "diagnostics"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "errorExcerpt": "npm install search-console-mcp@2.0.3 timed out after 600s",
+        "installMs": 600236,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "io.github.saurabhsharma2u/search-console-mcp",
+  "slug": "io.github.saurabhsharma2u__search-console-mcp"
+}

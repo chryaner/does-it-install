@@ -1,0 +1,24 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 1 package in 2ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/HzSAdh1p5YbAlWCN/bin/mcp-codebase-index\", line 6, in <module>\n    from mcp_codebase_index.server import main_sync\n  File \"/Users/runner/.cache/uv/archive-v0/HzSAdh1p5YbAlWCN/lib/python3.14/site-packages/mcp_codebase_index/server.py\", line 36, in <module>\n    from mcp.server import Server\nModuleNotFoundError: No module named 'mcp'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 1 package in 4ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/l59f0eLu4GZUv9Bc/bin/mcp-codebase-index\", line 6, in <module>\n    from mcp_codebase_index.server import main_sync\n  File \"/home/runner/.cache/uv/archive-v0/l59f0eLu4GZUv9Bc/lib/python3.13/site-packages/mcp_codebase_index/server.py\", line 36, in <module>\n    from mcp.server import Server\nModuleNotFoundError: No module named 'mcp'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.MikeRecognex/mcp-codebase-index",
+  "slug": "io.github.mikerecognex__mcp-codebase-index"
+}

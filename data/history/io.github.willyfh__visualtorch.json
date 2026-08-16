@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/E6EhxpAEfZBhBC-e/bin/visualtorch-mcp\", line 6, in <module>\n    from visualtorch_mcp.server import main\n  File \"/Users/runner/.cache/uv/archive-v0/E6EhxpAEfZBhBC-e/lib/python3.14/site-packages/visualtorch_mcp/server.py\", line 11, in <module>\n    import anyio\nModuleNotFoundError: No module named 'anyio'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/h_2PeuEEdWc7nL-z/bin/visualtorch-mcp\", line 6, in <module>\n    from visualtorch_mcp.server import main\n  File \"/home/runner/.cache/uv/archive-v0/h_2PeuEEdWc7nL-z/lib/python3.13/site-packages/visualtorch_mcp/server.py\", line 11, in <module>\n    import anyio\nModuleNotFoundError: No module named 'anyio'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\FzSQ6iCUGgjQXLj_\\Scripts\\visualtorch-mcp.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\FzSQ6iCUGgjQXLj_\\Lib\\site-packages\\visualtorch_mcp\\server.py\", line 11, in <module>\r\n    import anyio\r\nModuleNotFoundError: No module named 'anyio'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.willyfh/visualtorch",
+  "slug": "io.github.willyfh__visualtorch"
+}

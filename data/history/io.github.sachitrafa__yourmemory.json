@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading duckdb (14.8MiB)\n Downloaded duckdb\nInstalled 75 packages in 2.38s\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/NsWtqak5aQFkOJhk/bin/yourmemory\", line 6, in <module>\n    from memory_mcp import run\n  File \"/Users/runner/.cache/uv/archive-v0/NsWtqak5aQFkOJhk/lib/python3.14/site-packages/memory_mcp.py\", line 149, in <module>\n    @server.list_tools()\n     ^^^^^^^^^^^^^^^^^\nAttributeError: 'Server' object has no attribute 'list_tools'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading srsly (1.1MiB)\nDownloading duckdb (20.5MiB)\nDownloading blis (10.8MiB)\nDownloading spacy (30.8MiB)\nDownloading thinc (3.7MiB)\nDownloading uvloop (4.2MiB)\n Downloaded uvloop\n Downloaded blis\n Downloaded srsly\n Downloaded thinc\n Downloaded duckdb\n Downloaded spacy\nInstalled 113 packages in 626ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/ANnmsj4AxeXUJIC8/bin/yourmemory\", line 6, in <module>\n    from memory_mcp import run\n  File \"/home/runner/.cache/uv/archive-v0/ANnmsj4AxeXUJIC8/lib/python3.13/site-packages/memory_mcp.py\", line 149, in <module>\n    @server.list_tools()\n     ^^^^^^^^^^^^^^^^^\nAttributeError: 'Server' object has no attribute 'list_tools'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading blis (5.9MiB)\nDownloading duckdb (12.6MiB)\nDownloading spacy (13.6MiB)\nDownloading thinc (1.6MiB)\n Downloaded blis\n Downloaded duckdb\n Downloaded thinc\n Downloaded spacy\nInstalled 96 packages in 1m 10s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\leeIr1plDPdf46C5\\Scripts\\yourmemory.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\leeIr1plDPdf46C5\\Lib\\site-packages\\memory_mcp.py\", line 149, in <module>\r\n    @server.list_tools()\r\n     ^^^^^^^^^^^^^^^^^\r\nAttributeError: 'Server' object has no attribute 'list_tools'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.sachitrafa/yourmemory",
+  "slug": "io.github.sachitrafa__yourmemory"
+}

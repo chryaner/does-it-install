@@ -1,0 +1,105 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 3794,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "list_markets",
+          "list_currencies",
+          "get_currency",
+          "get_ticker",
+          "get_orderbook",
+          "get_market_trades",
+          "get_candles",
+          "get_account_balances",
+          "get_balance",
+          "create_order",
+          "get_order",
+          "list_orders",
+          "cancel_order",
+          "list_trades",
+          "list_deposits_withdrawals",
+          "create_pix_deposit",
+          "list_pix_deposits",
+          "create_pix_withdrawal",
+          "list_pix_withdrawals",
+          "create_crypto_withdrawal",
+          "get_trading_fees"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 3103,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "list_markets",
+          "list_currencies",
+          "get_currency",
+          "get_ticker",
+          "get_orderbook",
+          "get_market_trades",
+          "get_candles",
+          "get_account_balances",
+          "get_balance",
+          "create_order",
+          "get_order",
+          "list_orders",
+          "cancel_order",
+          "list_trades",
+          "list_deposits_withdrawals",
+          "create_pix_deposit",
+          "list_pix_deposits",
+          "create_pix_withdrawal",
+          "list_pix_withdrawals",
+          "create_crypto_withdrawal",
+          "get_trading_fees"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 129817,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "list_markets",
+          "list_currencies",
+          "get_currency",
+          "get_ticker",
+          "get_orderbook",
+          "get_market_trades",
+          "get_candles",
+          "get_account_balances",
+          "get_balance",
+          "create_order",
+          "get_order",
+          "list_orders",
+          "cancel_order",
+          "list_trades",
+          "list_deposits_withdrawals",
+          "create_pix_deposit",
+          "list_pix_deposits",
+          "create_pix_withdrawal",
+          "list_pix_withdrawals",
+          "create_crypto_withdrawal",
+          "get_trading_fees"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-foxbit",
+  "slug": "io.github.codespar__mcp-foxbit"
+}

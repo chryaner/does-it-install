@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[DEBUG 2026-08-16T03:10:06.691Z] 🧪 Testing connection to Upstash API\n[DEBUG 2026-08-16T03:10:06.693Z] -> sending request {\"url\":\"https://api.upstash.com/v2/redis/databases\",\"method\":\"GET\",\"headers\":{\"Content-Type\":\"application/json\",\"Authorization\":\"***REDACTED***\",\"Upstash-Telemetry-Runtime\":\"node@22.23.1\",\"Upstash-Telemetry-Platform\":\"darwin\",\"Upstash-Telemetry-Sdk\":\"@upstash/mcp-server@0.2.7\"}}\n[DEBUG 2026-08-16T03:10:07.053Z] ❌ Connection to Upstash API failed. Please check your api key and email. Error:  Request failed (401 Unauthorized): {\"error\":\"Unauthorized\"}\nFatal error in main(): Error: Request failed (401 Unauthorized): {\"error\":\"Unauthorized\"}\n    at HttpClient.request (file:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-8Jux2G/node_modules/@upstash/mcp-server/dist/index.js:272:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async middlewares (file:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-8Jux2G/node_modules/@upstash/mcp-server/dist/index.js:148:17)\n    at async HttpClient.requestWithMiddleware (file:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-8Jux2G/node_modules/@upstash/mcp-server/dist/index.js:214:17)\n    at async testConnection (file:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-8Jux2G/node_modules/@upstash/mcp-server/dist/index.js:1791:11)\n    at async main (file:///private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-8Jux2G/node_modules/@upstash/mcp-server/dist/index.js:1855:3)",
+        "installMs": 5132,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[DEBUG 2026-08-16T03:02:36.212Z] 🧪 Testing connection to Upstash API\n[DEBUG 2026-08-16T03:02:36.213Z] -> sending request {\"url\":\"https://api.upstash.com/v2/redis/databases\",\"method\":\"GET\",\"headers\":{\"Content-Type\":\"application/json\",\"Authorization\":\"***REDACTED***\",\"Upstash-Telemetry-Runtime\":\"node@22.23.2\",\"Upstash-Telemetry-Platform\":\"linux\",\"Upstash-Telemetry-Sdk\":\"@upstash/mcp-server@0.2.7\"}}\n[DEBUG 2026-08-16T03:02:36.451Z] ❌ Connection to Upstash API failed. Please check your api key and email. Error:  Request failed (401 Unauthorized): {\"error\":\"Unauthorized\"}\nFatal error in main(): Error: Request failed (401 Unauthorized): {\"error\":\"Unauthorized\"}\n    at HttpClient.request (file:///tmp/does-it-install/dii-npm-7cHG9T/node_modules/@upstash/mcp-server/dist/index.js:272:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async middlewares (file:///tmp/does-it-install/dii-npm-7cHG9T/node_modules/@upstash/mcp-server/dist/index.js:148:17)\n    at async HttpClient.requestWithMiddleware (file:///tmp/does-it-install/dii-npm-7cHG9T/node_modules/@upstash/mcp-server/dist/index.js:214:17)\n    at async testConnection (file:///tmp/does-it-install/dii-npm-7cHG9T/node_modules/@upstash/mcp-server/dist/index.js:1791:11)\n    at async main (file:///tmp/does-it-install/dii-npm-7cHG9T/node_modules/@upstash/mcp-server/dist/index.js:1855:3)",
+        "installMs": 3902,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[DEBUG 2026-08-16T05:23:56.120Z] 🧪 Testing connection to Upstash API\n[DEBUG 2026-08-16T05:23:56.122Z] -> sending request {\"url\":\"https://api.upstash.com/v2/redis/databases\",\"method\":\"GET\",\"headers\":{\"Content-Type\":\"application/json\",\"Authorization\":\"***REDACTED***\",\"Upstash-Telemetry-Runtime\":\"node@22.23.2\",\"Upstash-Telemetry-Platform\":\"win32\",\"Upstash-Telemetry-Sdk\":\"@upstash/mcp-server@0.2.7\"}}\n[DEBUG 2026-08-16T05:23:56.359Z] ❌ Connection to Upstash API failed. Please check your api key and email. Error:  Request failed (401 Unauthorized): {\"error\":\"Unauthorized\"}\nFatal error in main(): Error: Request failed (401 Unauthorized): {\"error\":\"Unauthorized\"}\n    at HttpClient.request (file:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-Gka0i9/node_modules/@upstash/mcp-server/dist/index.js:272:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async middlewares (file:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-Gka0i9/node_modules/@upstash/mcp-server/dist/index.js:148:17)\n    at async HttpClient.requestWithMiddleware (file:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-Gka0i9/node_modules/@upstash/mcp-server/dist/index.js:214:17)\n    at async testConnection (file:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-Gka0i9/node_modules/@upstash/mcp-server/dist/index.js:1791:11)\n    at async main (file:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-Gka0i9/node_modules/@upstash/mcp-server/dist/index.js:1855:3)",
+        "installMs": 141032,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "io.github.upstash/mcp-server",
+  "slug": "io.github.upstash__mcp-server"
+}

@@ -1,0 +1,102 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 4528,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_invoice",
+          "get_invoice",
+          "get_last_invoice_number",
+          "get_cae_status",
+          "list_invoice_types",
+          "list_tax_types",
+          "get_server_status",
+          "get_authorized_points_of_sale",
+          "create_invoice_batch",
+          "create_credit_note",
+          "create_debit_note",
+          "cancel_invoice",
+          "get_invoice_total_x_request",
+          "list_concept_types",
+          "list_doc_types",
+          "list_iva_types",
+          "list_currency_types",
+          "get_currency_rate",
+          "lookup_taxpayer",
+          "get_registration_certificate"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 2909,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_invoice",
+          "get_invoice",
+          "get_last_invoice_number",
+          "get_cae_status",
+          "list_invoice_types",
+          "list_tax_types",
+          "get_server_status",
+          "get_authorized_points_of_sale",
+          "create_invoice_batch",
+          "create_credit_note",
+          "create_debit_note",
+          "cancel_invoice",
+          "get_invoice_total_x_request",
+          "list_concept_types",
+          "list_doc_types",
+          "list_iva_types",
+          "list_currency_types",
+          "get_currency_rate",
+          "lookup_taxpayer",
+          "get_registration_certificate"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 97162,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_invoice",
+          "get_invoice",
+          "get_last_invoice_number",
+          "get_cae_status",
+          "list_invoice_types",
+          "list_tax_types",
+          "get_server_status",
+          "get_authorized_points_of_sale",
+          "create_invoice_batch",
+          "create_credit_note",
+          "create_debit_note",
+          "cancel_invoice",
+          "get_invoice_total_x_request",
+          "list_concept_types",
+          "list_doc_types",
+          "list_iva_types",
+          "list_currency_types",
+          "get_currency_rate",
+          "lookup_taxpayer",
+          "get_registration_certificate"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-afip",
+  "slug": "io.github.codespar__mcp-afip"
+}

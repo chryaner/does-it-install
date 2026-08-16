@@ -1,0 +1,90 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 31,
+        "toolNames": [
+          "literature_version",
+          "literature_doctor",
+          "literature_config_get",
+          "literature_config_validate",
+          "literature_config_initialize",
+          "zotero_ping",
+          "zotero_search_items",
+          "zotero_list_collections",
+          "zotero_get_item",
+          "zotero_get_children",
+          "zotero_get_bibtex",
+          "literature_import_item",
+          "literature_import_collection",
+          "literature_sync_item",
+          "literature_sync_collection",
+          "literature_parse_mineru",
+          "literature_parse_mineru_batch",
+          "literature_remove_mineru_output",
+          "literature_rebuild_index",
+          "literature_rebuild_base",
+          "literature_verify",
+          "literature_paper_read",
+          "literature_retrieve",
+          "literature_analysis_get",
+          "literature_analysis_write",
+          "literature_rebuild_analysis_base",
+          "literature_wiki_context",
+          "literature_wiki_write",
+          "literature_wiki_list",
+          "literature_preview_transaction",
+          "literature_rollback_transaction"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 31,
+        "toolNames": [
+          "literature_version",
+          "literature_doctor",
+          "literature_config_get",
+          "literature_config_validate",
+          "literature_config_initialize",
+          "zotero_ping",
+          "zotero_search_items",
+          "zotero_list_collections",
+          "zotero_get_item",
+          "zotero_get_children",
+          "zotero_get_bibtex",
+          "literature_import_item",
+          "literature_import_collection",
+          "literature_sync_item",
+          "literature_sync_collection",
+          "literature_parse_mineru",
+          "literature_parse_mineru_batch",
+          "literature_remove_mineru_output",
+          "literature_rebuild_index",
+          "literature_rebuild_base",
+          "literature_verify",
+          "literature_paper_read",
+          "literature_retrieve",
+          "literature_analysis_get",
+          "literature_analysis_write",
+          "literature_rebuild_analysis_base",
+          "literature_wiki_context",
+          "literature_wiki_write",
+          "literature_wiki_list",
+          "literature_preview_transaction",
+          "literature_rollback_transaction"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.luffysolution-svg/obsidian-vault-mcp",
+  "slug": "io.github.luffysolution-svg__obsidian-vault-mcp"
+}

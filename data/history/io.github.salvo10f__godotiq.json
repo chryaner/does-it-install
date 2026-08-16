@@ -1,0 +1,24 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 33 packages in 309ms\nwarning: `godotiq==0.1.3` is yanked (reason: \"security\")\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/yQggG46C4WFAF9S9/bin/godotiq\", line 12, in <module>\n    sys.exit(cli_main())\n             ~~~~~~~~^^\n  File \"/Users/runner/.cache/uv/archive-v0/yQggG46C4WFAF9S9/lib/python3.14/site-packages/godotiq/cli.py\", line 37, in cli_main\n    _serve()\n    ~~~~~~^^\n  File \"/Users/runner/.cache/uv/archive-v0/yQggG46C4WFAF9S9/lib/python3.14/site-packages/godotiq/cli.py\", line 47, in _serve\n    from godotiq.server import main\n  File \"/Users/runner/.cache/uv/archive-v0/yQggG46C4WFAF9S9/lib/python3.14/site-packages/godotiq/server.py\", line 10, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 33 packages in 18ms\nwarning: `godotiq==0.1.3` is yanked (reason: \"security\")\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/tSKPoR8TkJMABgNy/bin/godotiq\", line 12, in <module>\n    sys.exit(cli_main())\n             ~~~~~~~~^^\n  File \"/home/runner/.cache/uv/archive-v0/tSKPoR8TkJMABgNy/lib/python3.13/site-packages/godotiq/cli.py\", line 37, in cli_main\n    _serve()\n    ~~~~~~^^\n  File \"/home/runner/.cache/uv/archive-v0/tSKPoR8TkJMABgNy/lib/python3.13/site-packages/godotiq/cli.py\", line 47, in _serve\n    from godotiq.server import main\n  File \"/home/runner/.cache/uv/archive-v0/tSKPoR8TkJMABgNy/lib/python3.13/site-packages/godotiq/server.py\", line 10, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "io.github.salvo10f/godotiq",
+  "slug": "io.github.salvo10f__godotiq"
+}

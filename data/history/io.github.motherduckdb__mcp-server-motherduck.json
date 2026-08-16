@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading duckdb (14.7MiB)\n Downloaded duckdb\nInstalled 69 packages in 750ms\nUsage: mcp-server-motherduck [OPTIONS]\nTry 'mcp-server-motherduck --help' for help.\n\nError: In-memory databases require the --read-write flag.\nOptions:\n  - Add --read-write to allow writes (data won't persist anyway)\n  - Use --db-path with a file path for read-only access to a DuckDB file\n  - Use --db-path md: with a MotherDuck token for cloud database access",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "needs_config"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading duckdb (20.5MiB)\n Downloaded duckdb\nInstalled 71 packages in 41ms\nUsage: mcp-server-motherduck [OPTIONS]\nTry 'mcp-server-motherduck --help' for help.\n\nError: In-memory databases require the --read-write flag.\nOptions:\n  - Add --read-write to allow writes (data won't persist anyway)\n  - Use --db-path with a file path for read-only access to a DuckDB file\n  - Use --db-path md: with a MotherDuck token for cloud database access",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "needs_config"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading duckdb (12.5MiB)\n Downloaded duckdb\nInstalled 72 packages in 11.04s\nUsage: mcp-server-motherduck [OPTIONS]\r\nTry 'mcp-server-motherduck --help' for help.\r\n\r\nError: In-memory databases require the --read-write flag.\r\nOptions:\r\n  - Add --read-write to allow writes (data won't persist anyway)\r\n  - Use --db-path with a file path for read-only access to a DuckDB file\r\n  - Use --db-path md: with a MotherDuck token for cloud database access",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "needs_config"
+      }
+    ]
+  },
+  "serverId": "io.github.motherduckdb/mcp-server-motherduck",
+  "slug": "io.github.motherduckdb__mcp-server-motherduck"
+}

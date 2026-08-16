@@ -1,0 +1,60 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 20793,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "get-server-info",
+          "get-opik-help",
+          "get-opik-examples",
+          "get-opik-metrics-info",
+          "get-opik-tracing-info",
+          "list-projects",
+          "list-traces",
+          "get-trace-by-id",
+          "get-trace-stats",
+          "get-trace-threads"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 7980,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "get-server-info",
+          "get-opik-help",
+          "get-opik-examples",
+          "get-opik-metrics-info",
+          "get-opik-tracing-info",
+          "list-projects",
+          "list-traces",
+          "get-trace-by-id",
+          "get-trace-stats",
+          "get-trace-threads"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "errorExcerpt": "npm install opik-mcp@2.0.2 timed out after 600s",
+        "installMs": 600215,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "io.github.comet-ml/opik-mcp",
+  "slug": "io.github.comet-ml__opik-mcp"
+}

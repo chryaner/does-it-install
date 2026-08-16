@@ -1,0 +1,63 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 8740,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "free_search",
+          "free_search_advanced",
+          "free_extract",
+          "fetch_github_readme",
+          "fetch_csdn_article",
+          "fetch_juejin_article",
+          "search_with_synthesis"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 6405,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "free_search",
+          "free_search_advanced",
+          "free_extract",
+          "fetch_github_readme",
+          "fetch_csdn_article",
+          "fetch_juejin_article",
+          "search_with_synthesis"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 158873,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "free_search",
+          "free_search_advanced",
+          "free_extract",
+          "fetch_github_readme",
+          "fetch_csdn_article",
+          "fetch_juejin_article",
+          "search_with_synthesis"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.lennney/agent-search-mcp",
+  "slug": "io.github.lennney__agent-search-mcp"
+}

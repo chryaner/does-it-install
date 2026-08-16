@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:27.629Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 38 packages in 73ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/55VPOOIIQNS-ZCm8/bin/mcp-apple-notes\", line 6, in <module>\n    from mcp_apple_notes.server import main\n  File \"/Users/runner/.cache/uv/archive-v0/55VPOOIIQNS-ZCm8/lib/python3.14/site-packages/mcp_apple_notes/server.py\", line 2, in <module>\n    from mcp.server.fastmcp import Context, FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-15T04:06:28.791Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 38 packages in 169ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/NjY9SZJb2E7MPguc/bin/mcp-apple-notes\", line 6, in <module>\n    from mcp_apple_notes.server import main\n  File \"/Users/runner/.cache/uv/archive-v0/NjY9SZJb2E7MPguc/lib/python3.14/site-packages/mcp_apple_notes/server.py\", line 2, in <module>\n    from mcp.server.fastmcp import Context, FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
         "method": "pypi",
@@ -11,10 +18,26 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T02:45:24.037Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 38 packages in 156ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/mXLmYZoTaRSoWqpU/bin/mcp-apple-notes\", line 6, in <module>\n    from mcp_apple_notes.server import main\n  File \"/home/runner/.cache/uv/archive-v0/mXLmYZoTaRSoWqpU/lib/python3.13/site-packages/mcp_apple_notes/server.py\", line 2, in <module>\n    from mcp.server.fastmcp import Context, FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-15T04:06:31.639Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 38 packages in 30ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/JImQnM0lUXMqnMSS/bin/mcp-apple-notes\", line 6, in <module>\n    from mcp_apple_notes.server import main\n  File \"/home/runner/.cache/uv/archive-v0/JImQnM0lUXMqnMSS/lib/python3.12/site-packages/mcp_apple_notes/server.py\", line 2, in <module>\n    from mcp.server.fastmcp import Context, FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
         "method": "pypi",
         "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 40 packages in 8.94s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\fRDzr-3ZONqkxSSU\\Scripts\\mcp-apple-notes.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\fRDzr-3ZONqkxSSU\\Lib\\site-packages\\mcp_apple_notes\\server.py\", line 2, in <module>\r\n    from mcp.server.fastmcp import Context, FastMCP\r\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-42Z-6de339",
         "status": "handshake_failed"
       }
     ]

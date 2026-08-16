@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n/Users/runner/.cache/uv/archive-v0/ltmb5bdgM_K7o301/lib/python3.14/site-packages/src/auth/multi_issuer_verifier.py:8: AuthlibDeprecationWarning: authlib.jose module is deprecated, please use joserfc instead.\nIt will be compatible before version 2.0.0.\n  from authlib.jose.errors import JoseError\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/ltmb5bdgM_K7o301/bin/reddit-mcp\", line 6, in <module>\n    from src.server import main\n  File \"/Users/runner/.cache/uv/archive-v0/ltmb5bdgM_K7o301/lib/python3.14/site-packages/src/server.py\", line 55, in <module>\n    auth = DescopeProvider(\n        project_id=project_id,\n    ...<2 lines>...\n        token_verifier=multi_issuer_verifier,  # Use our multi-issuer verifier\n    )\n  File \"/Users/runner/.cache/uv/archive-v0/ltmb5bdgM_K7o301/lib/python3.14/site-packages/fastmcp/server/auth/providers/descope.py\", line 141, in __init__\n    raise ValueError(\n        \"Either config_url (new API) or both project_id and descope_base_url (old API) must be provided\"\n    )\nValueError: Either config_url (new API) or both project_id and descope_base_url (old API) must be provided",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n/home/runner/.cache/uv/archive-v0/OrXoOVlMi7tEniZN/lib/python3.13/site-packages/src/auth/multi_issuer_verifier.py:8: AuthlibDeprecationWarning: authlib.jose module is deprecated, please use joserfc instead.\nIt will be compatible before version 2.0.0.\n  from authlib.jose.errors import JoseError\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/OrXoOVlMi7tEniZN/bin/reddit-mcp\", line 6, in <module>\n    from src.server import main\n  File \"/home/runner/.cache/uv/archive-v0/OrXoOVlMi7tEniZN/lib/python3.13/site-packages/src/server.py\", line 55, in <module>\n    auth = DescopeProvider(\n        project_id=project_id,\n    ...<2 lines>...\n        token_verifier=multi_issuer_verifier,  # Use our multi-issuer verifier\n    )\n  File \"/home/runner/.cache/uv/archive-v0/OrXoOVlMi7tEniZN/lib/python3.13/site-packages/fastmcp/server/auth/providers/descope.py\", line 141, in __init__\n    raise ValueError(\n        \"Either config_url (new API) or both project_id and descope_base_url (old API) must be provided\"\n    )\nValueError: Either config_url (new API) or both project_id and descope_base_url (old API) must be provided",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nC:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\kYxUkC-CWfv2wN5c\\Lib\\site-packages\\src\\auth\\multi_issuer_verifier.py:8: AuthlibDeprecationWarning: authlib.jose module is deprecated, please use joserfc instead.\r\nIt will be compatible before version 2.0.0.\r\n  from authlib.jose.errors import JoseError\r\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\kYxUkC-CWfv2wN5c\\Scripts\\reddit-mcp.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\kYxUkC-CWfv2wN5c\\Lib\\site-packages\\src\\server.py\", line 55, in <module>\r\n    auth = DescopeProvider(\r\n           ^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\kYxUkC-CWfv2wN5c\\Lib\\site-packages\\fastmcp\\server\\auth\\providers\\descope.py\", line 141, in __init__\r\n    raise ValueError(\r\nValueError: Either config_url (new API) or both project_id and descope_base_url (old API) must be provided",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.king-of-the-grackles/reddit-research-mcp",
+  "slug": "io.github.king-of-the-grackles__reddit-research-mcp"
+}

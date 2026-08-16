@@ -1,0 +1,96 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 13494,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "api_list",
+          "api_get",
+          "api_template_validate",
+          "api_imports_get",
+          "api_tokens_list",
+          "api_icons_list",
+          "cli_upgrade",
+          "examples_list",
+          "examples_get",
+          "examples_render",
+          "project_create",
+          "project_setup",
+          "project_validate",
+          "packages_list",
+          "packages_get",
+          "packages_changelogs_get",
+          "skills_list",
+          "skills_get"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 14358,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "api_list",
+          "api_get",
+          "api_template_validate",
+          "api_imports_get",
+          "api_tokens_list",
+          "api_icons_list",
+          "cli_upgrade",
+          "examples_list",
+          "examples_get",
+          "examples_render",
+          "project_create",
+          "project_setup",
+          "project_validate",
+          "packages_list",
+          "packages_get",
+          "packages_changelogs_get",
+          "skills_list",
+          "skills_get"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 499058,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "api_list",
+          "api_get",
+          "api_template_validate",
+          "api_imports_get",
+          "api_tokens_list",
+          "api_icons_list",
+          "cli_upgrade",
+          "examples_list",
+          "examples_get",
+          "examples_render",
+          "project_create",
+          "project_setup",
+          "project_validate",
+          "packages_list",
+          "packages_get",
+          "packages_changelogs_get",
+          "skills_list",
+          "skills_get"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.NVIDIA/elements",
+  "slug": "io.github.nvidia__elements"
+}

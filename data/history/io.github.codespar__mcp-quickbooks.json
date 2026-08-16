@@ -1,0 +1,108 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 5198,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "create_customer",
+          "update_customer",
+          "get_customer",
+          "list_customers",
+          "create_invoice",
+          "update_invoice",
+          "void_invoice",
+          "delete_invoice",
+          "get_invoice",
+          "send_invoice",
+          "create_payment",
+          "get_payment",
+          "create_item",
+          "list_items",
+          "create_bill",
+          "list_bills",
+          "create_vendor",
+          "list_vendors",
+          "create_estimate",
+          "create_sales_receipt",
+          "list_accounts",
+          "get_profit_and_loss_report"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 2921,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "create_customer",
+          "update_customer",
+          "get_customer",
+          "list_customers",
+          "create_invoice",
+          "update_invoice",
+          "void_invoice",
+          "delete_invoice",
+          "get_invoice",
+          "send_invoice",
+          "create_payment",
+          "get_payment",
+          "create_item",
+          "list_items",
+          "create_bill",
+          "list_bills",
+          "create_vendor",
+          "list_vendors",
+          "create_estimate",
+          "create_sales_receipt",
+          "list_accounts",
+          "get_profit_and_loss_report"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 130566,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "create_customer",
+          "update_customer",
+          "get_customer",
+          "list_customers",
+          "create_invoice",
+          "update_invoice",
+          "void_invoice",
+          "delete_invoice",
+          "get_invoice",
+          "send_invoice",
+          "create_payment",
+          "get_payment",
+          "create_item",
+          "list_items",
+          "create_bill",
+          "list_bills",
+          "create_vendor",
+          "list_vendors",
+          "create_estimate",
+          "create_sales_receipt",
+          "list_accounts",
+          "get_profit_and_loss_report"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-quickbooks",
+  "slug": "io.github.codespar__mcp-quickbooks"
+}

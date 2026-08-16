@@ -1,0 +1,96 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "ping_joplin",
+          "get_note",
+          "get_note_resources",
+          "get_links",
+          "create_note",
+          "update_note",
+          "edit_note",
+          "find_notes",
+          "find_in_note",
+          "find_notes_with_tag",
+          "find_notes_in_notebook",
+          "list_notebooks",
+          "create_notebook",
+          "list_tags",
+          "create_tag",
+          "get_tags_by_note",
+          "tag_note",
+          "untag_note",
+          "restore_from_trash"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "ping_joplin",
+          "get_note",
+          "get_note_resources",
+          "get_links",
+          "create_note",
+          "update_note",
+          "edit_note",
+          "find_notes",
+          "find_in_note",
+          "find_notes_with_tag",
+          "find_notes_in_notebook",
+          "list_notebooks",
+          "create_notebook",
+          "list_tags",
+          "create_tag",
+          "get_tags_by_note",
+          "tag_note",
+          "untag_note",
+          "restore_from_trash"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "ping_joplin",
+          "get_note",
+          "get_note_resources",
+          "get_links",
+          "create_note",
+          "update_note",
+          "edit_note",
+          "find_notes",
+          "find_in_note",
+          "find_notes_with_tag",
+          "find_notes_in_notebook",
+          "list_notebooks",
+          "create_notebook",
+          "list_tags",
+          "create_tag",
+          "get_tags_by_note",
+          "tag_note",
+          "untag_note",
+          "restore_from_trash"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.alondmnt/joplin-mcp",
+  "slug": "io.github.alondmnt__joplin-mcp"
+}

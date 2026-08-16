@@ -2,6 +2,18 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T02:45:27.243Z",
+        "method": "remote-http",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "learn-hmr-basics",
+          "view-hmr-core-sources",
+          "view-hmr-unit-tests"
+        ]
+      },
+      {
         "date": "2026-08-15T04:06:28.268Z",
         "method": "remote-http",
         "runId": "2026-08-15T04-06-28Z-bd83fc",
@@ -15,6 +27,18 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "method": "remote-http",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "learn-hmr-basics",
+          "view-hmr-core-sources",
+          "view-hmr-unit-tests"
+        ]
+      },
       {
         "date": "2026-08-15T04:06:32.275Z",
         "method": "remote-http",

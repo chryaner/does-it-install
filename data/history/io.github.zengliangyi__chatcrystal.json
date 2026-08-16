@@ -1,0 +1,63 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 16916,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "search_knowledge",
+          "get_note",
+          "list_notes",
+          "get_relations",
+          "recall_for_task",
+          "validate_task_memory",
+          "write_task_memory"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 13916,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "search_knowledge",
+          "get_note",
+          "list_notes",
+          "get_relations",
+          "recall_for_task",
+          "validate_task_memory",
+          "write_task_memory"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 172088,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "search_knowledge",
+          "get_note",
+          "list_notes",
+          "get_relations",
+          "recall_for_task",
+          "validate_task_memory",
+          "write_task_memory"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.ZengLiangYi/chatcrystal",
+  "slug": "io.github.zengliangyi__chatcrystal"
+}

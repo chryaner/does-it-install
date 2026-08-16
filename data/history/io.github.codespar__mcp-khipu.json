@@ -1,0 +1,105 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 12229,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "create_payment",
+          "get_payment",
+          "delete_payment",
+          "confirm_payment",
+          "refund_payment",
+          "list_payments",
+          "predict_payment",
+          "get_merchants",
+          "get_merchant",
+          "list_merchant_accounts",
+          "create_receiver",
+          "list_receivers",
+          "list_conciliations",
+          "list_reviews",
+          "register_webhook",
+          "list_webhooks",
+          "delete_webhook",
+          "create_terminal_session",
+          "get_terminal_session",
+          "get_banks",
+          "create_automatic_payment"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 5135,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "create_payment",
+          "get_payment",
+          "delete_payment",
+          "confirm_payment",
+          "refund_payment",
+          "list_payments",
+          "predict_payment",
+          "get_merchants",
+          "get_merchant",
+          "list_merchant_accounts",
+          "create_receiver",
+          "list_receivers",
+          "list_conciliations",
+          "list_reviews",
+          "register_webhook",
+          "list_webhooks",
+          "delete_webhook",
+          "create_terminal_session",
+          "get_terminal_session",
+          "get_banks",
+          "create_automatic_payment"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 103320,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "create_payment",
+          "get_payment",
+          "delete_payment",
+          "confirm_payment",
+          "refund_payment",
+          "list_payments",
+          "predict_payment",
+          "get_merchants",
+          "get_merchant",
+          "list_merchant_accounts",
+          "create_receiver",
+          "list_receivers",
+          "list_conciliations",
+          "list_reviews",
+          "register_webhook",
+          "list_webhooks",
+          "delete_webhook",
+          "create_terminal_session",
+          "get_terminal_session",
+          "get_banks",
+          "create_automatic_payment"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-khipu",
+  "slug": "io.github.codespar__mcp-khipu"
+}

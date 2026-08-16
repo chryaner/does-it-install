@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: Unexpected token '\ud83d', \"🔍 Claude \"... is not valid JSON\nUnexpected token 'A', \"   A professi\"... is not valid JSON\nUnexpected token 'P', \"   Port: 3400\" is not valid JSON\nUnexpected end of JSON input\nUnexpected token '⚠', \"⚠️  Depend\"... is not valid JSON\nUnexpected token '\ud83d', \"📦 Running\"... is not valid JSON",
+        "installMs": 1461,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "timeout"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: acter after JSON at position 3 (line 1 column 4)\nUnexpected token 'r', \"  run `npm f\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected non-whitespace character after JSON at position 2 (line 1 column 3)\nUnexpected end of JSON input\nUnexpected token 'T', \"To address\"... is not valid JSON\nUnexpected token 'p', \"  npm audit f\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'R', \"Run `npm a\"... is not valid JSON\nUnexpected token '\ud83d', \"📦 Running\"... is not valid JSON\n--- stderr (tail) ---\nnpm warn deprecated prebuild-install@7.1.3: No longer maintained. Please contact the author of the relevant native addon; alternatives are available.\nnpm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.\nnpm warn deprecated glob@8.1.0: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me\nnpm warn deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me\nnpm warn deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me\nnpm warn deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me\nnpm warn deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me\nnpm notice\nnpm notice New major version of npm available! 10.9.8 -> 12.0.2\nnpm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.2\nnpm notice To update run: npm install -g npm@12.0.2\nnpm notice",
+        "installMs": 1095,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "timeout"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: Unexpected token '\ud83d', \"🔍 Claude \"... is not valid JSON\nUnexpected token 'A', \"   A professi\"... is not valid JSON\nUnexpected token 'P', \"   Port: 3400\" is not valid JSON\nUnexpected end of JSON input\nUnexpected token '⚠', \"⚠️  Depend\"... is not valid JSON\nUnexpected token '\ud83d', \"📦 Running\"... is not valid JSON",
+        "installMs": 32782,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "io.github.kunwar-shah/claudex",
+  "slug": "io.github.kunwar-shah__claudex"
+}

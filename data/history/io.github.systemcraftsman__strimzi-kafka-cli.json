@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/-PxUcEXXZV3gkQlu/bin/kfk\", line 6, in <module>\n    from kfk.main import kfk\n  File \"/Users/runner/.cache/uv/archive-v0/-PxUcEXXZV3gkQlu/lib/python3.14/site-packages/kfk/main.py\", line 1, in <module>\n    from kfk.commands.acls import acls\n  File \"/Users/runner/.cache/uv/archive-v0/-PxUcEXXZV3gkQlu/lib/python3.14/site-packages/kfk/commands/acls.py\", line 3, in <module>\n    from kfk.commands import users\n  File \"/Users/runner/.cache/uv/archive-v0/-PxUcEXXZV3gkQlu/lib/python3.14/site-packages/kfk/commands/users.py\", line 7, in <module>\n    from kfk.commons import (\n    ...<6 lines>...\n    )\n  File \"/Users/runner/.cache/uv/archive-v0/-PxUcEXXZV3gkQlu/lib/python3.14/site-packages/kfk/commons.py\", line 21, in <module>\n    from kfk.kubernetes_commons import copy_to_pod, get_resource\n  File \"/Users/runner/.cache/uv/archive-v0/-PxUcEXXZV3gkQlu/lib/python3.14/site-packages/kfk/kubernetes_commons.py\", line 22, in <module>\n    config.load_kube_config()\n    ~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"/Users/runner/.cache/uv/archive-v0/-PxUcEXXZV3gkQlu/lib/python3.14/site-packages/kubernetes/config/kube_config.py\", line 815, in load_kube_config\n    loader = _get_kube_config_loader(\n        filename=config_file, active_context=context,\n        persist_config=persist_config,\n        temp_file_path=temp_file_path)\n  File \"/Users/runner/.cache/uv/archive-v0/-PxUcEXXZV3gkQlu/lib/python3.14/site-packages/kubernetes/config/kube_config.py\", line 772, in _get_kube_config_loader\n    raise ConfigException(\n        'Invalid kube-config file. '\n        'No configuration found.')\nkubernetes.config.config_exception.ConfigException: Invalid kube-config file. No configuration found.",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/a9Wtqv_712Uz_4zU/bin/kfk\", line 6, in <module>\n    from kfk.main import kfk\n  File \"/home/runner/.cache/uv/archive-v0/a9Wtqv_712Uz_4zU/lib/python3.13/site-packages/kfk/main.py\", line 1, in <module>\n    from kfk.commands.acls import acls\n  File \"/home/runner/.cache/uv/archive-v0/a9Wtqv_712Uz_4zU/lib/python3.13/site-packages/kfk/commands/acls.py\", line 3, in <module>\n    from kfk.commands import users\n  File \"/home/runner/.cache/uv/archive-v0/a9Wtqv_712Uz_4zU/lib/python3.13/site-packages/kfk/commands/users.py\", line 7, in <module>\n    from kfk.commons import (\n    ...<6 lines>...\n    )\n  File \"/home/runner/.cache/uv/archive-v0/a9Wtqv_712Uz_4zU/lib/python3.13/site-packages/kfk/commons.py\", line 21, in <module>\n    from kfk.kubernetes_commons import copy_to_pod, get_resource\n  File \"/home/runner/.cache/uv/archive-v0/a9Wtqv_712Uz_4zU/lib/python3.13/site-packages/kfk/kubernetes_commons.py\", line 22, in <module>\n    config.load_kube_config()\n    ~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"/home/runner/.cache/uv/archive-v0/a9Wtqv_712Uz_4zU/lib/python3.13/site-packages/kubernetes/config/kube_config.py\", line 815, in load_kube_config\n    loader = _get_kube_config_loader(\n        filename=config_file, active_context=context,\n        persist_config=persist_config,\n        temp_file_path=temp_file_path)\n  File \"/home/runner/.cache/uv/archive-v0/a9Wtqv_712Uz_4zU/lib/python3.13/site-packages/kubernetes/config/kube_config.py\", line 772, in _get_kube_config_loader\n    raise ConfigException(\n        'Invalid kube-config file. '\n        'No configuration found.')\nkubernetes.config.config_exception.ConfigException: Invalid kube-config file. No configuration found.",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\05GHFU6GRywqCyBq\\Scripts\\kfk.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\05GHFU6GRywqCyBq\\Lib\\site-packages\\kfk\\main.py\", line 1, in <module>\r\n    from kfk.commands.acls import acls\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\05GHFU6GRywqCyBq\\Lib\\site-packages\\kfk\\commands\\acls.py\", line 3, in <module>\r\n    from kfk.commands import users\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\05GHFU6GRywqCyBq\\Lib\\site-packages\\kfk\\commands\\users.py\", line 7, in <module>\r\n    from kfk.commons import (\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\05GHFU6GRywqCyBq\\Lib\\site-packages\\kfk\\commons.py\", line 21, in <module>\r\n    from kfk.kubernetes_commons import copy_to_pod, get_resource\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\05GHFU6GRywqCyBq\\Lib\\site-packages\\kfk\\kubernetes_commons.py\", line 9, in <module>\r\n    import termios\r\nModuleNotFoundError: No module named 'termios'",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.SystemCraftsman/strimzi-kafka-cli",
+  "slug": "io.github.systemcraftsman__strimzi-kafka-cli"
+}

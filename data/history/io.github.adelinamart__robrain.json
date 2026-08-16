@@ -1,0 +1,54 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "installMs": 1411,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "sensing_start_session",
+          "sensing_record_turn",
+          "sensing_end_session",
+          "sensing_get_status"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "installMs": 1193,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "sensing_start_session",
+          "sensing_record_turn",
+          "sensing_end_session",
+          "sensing_get_status"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "installMs": 29194,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "sensing_start_session",
+          "sensing_record_turn",
+          "sensing_end_session",
+          "sensing_get_status"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.adelinamart/robrain",
+  "slug": "io.github.adelinamart__robrain"
+}

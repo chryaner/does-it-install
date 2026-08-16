@@ -1,0 +1,108 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 5406,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "register_agent",
+          "get_agent",
+          "list_agents",
+          "revoke_agent",
+          "authorize_payment",
+          "get_authorization",
+          "list_authorizations",
+          "execute_payment",
+          "get_audit_trail",
+          "list_audit_events",
+          "list_payment_methods",
+          "get_transaction",
+          "list_transactions",
+          "create_intent_mandate",
+          "create_cart_mandate",
+          "create_payment_mandate",
+          "verify_credential",
+          "create_presentation",
+          "verify_presentation",
+          "resolve_did",
+          "create_receipt",
+          "verify_receipt"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 4054,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "register_agent",
+          "get_agent",
+          "list_agents",
+          "revoke_agent",
+          "authorize_payment",
+          "get_authorization",
+          "list_authorizations",
+          "execute_payment",
+          "get_audit_trail",
+          "list_audit_events",
+          "list_payment_methods",
+          "get_transaction",
+          "list_transactions",
+          "create_intent_mandate",
+          "create_cart_mandate",
+          "create_payment_mandate",
+          "verify_credential",
+          "create_presentation",
+          "verify_presentation",
+          "resolve_did",
+          "create_receipt",
+          "verify_receipt"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 122182,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "register_agent",
+          "get_agent",
+          "list_agents",
+          "revoke_agent",
+          "authorize_payment",
+          "get_authorization",
+          "list_authorizations",
+          "execute_payment",
+          "get_audit_trail",
+          "list_audit_events",
+          "list_payment_methods",
+          "get_transaction",
+          "list_transactions",
+          "create_intent_mandate",
+          "create_cart_mandate",
+          "create_payment_mandate",
+          "verify_credential",
+          "create_presentation",
+          "verify_presentation",
+          "resolve_did",
+          "create_receipt",
+          "verify_receipt"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-ap2",
+  "slug": "io.github.codespar__mcp-ap2"
+}

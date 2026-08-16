@@ -1,0 +1,114 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 5961,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "get_cep",
+          "get_cnpj",
+          "get_banks",
+          "get_holidays",
+          "get_fipe_brands",
+          "get_fipe_price",
+          "get_ddd",
+          "get_isbn",
+          "get_ncm",
+          "get_cptec_weather",
+          "get_pix_participants",
+          "get_domain_info",
+          "get_ibge_municipalities",
+          "get_tax_rates",
+          "get_cptec_cities",
+          "get_cep_v1",
+          "get_fipe_vehicles",
+          "get_fipe_tables",
+          "get_cptec_airport_weather",
+          "get_cptec_capitals_weather",
+          "get_cptec_ocean_forecast",
+          "get_ibge_states",
+          "get_corretoras",
+          "get_corretora"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 3920,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "get_cep",
+          "get_cnpj",
+          "get_banks",
+          "get_holidays",
+          "get_fipe_brands",
+          "get_fipe_price",
+          "get_ddd",
+          "get_isbn",
+          "get_ncm",
+          "get_cptec_weather",
+          "get_pix_participants",
+          "get_domain_info",
+          "get_ibge_municipalities",
+          "get_tax_rates",
+          "get_cptec_cities",
+          "get_cep_v1",
+          "get_fipe_vehicles",
+          "get_fipe_tables",
+          "get_cptec_airport_weather",
+          "get_cptec_capitals_weather",
+          "get_cptec_ocean_forecast",
+          "get_ibge_states",
+          "get_corretoras",
+          "get_corretora"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 114956,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "get_cep",
+          "get_cnpj",
+          "get_banks",
+          "get_holidays",
+          "get_fipe_brands",
+          "get_fipe_price",
+          "get_ddd",
+          "get_isbn",
+          "get_ncm",
+          "get_cptec_weather",
+          "get_pix_participants",
+          "get_domain_info",
+          "get_ibge_municipalities",
+          "get_tax_rates",
+          "get_cptec_cities",
+          "get_cep_v1",
+          "get_fipe_vehicles",
+          "get_fipe_tables",
+          "get_cptec_airport_weather",
+          "get_cptec_capitals_weather",
+          "get_cptec_ocean_forecast",
+          "get_ibge_states",
+          "get_corretoras",
+          "get_corretora"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-brasil-api",
+  "slug": "io.github.codespar__mcp-brasil-api"
+}

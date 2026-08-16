@@ -1,0 +1,58 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 1787,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "search_docs",
+          "list_fiori_apps",
+          "list_sap_systems",
+          "download_odata_service_metadata",
+          "generate_fiori_app_odata",
+          "generate_fiori_app_cap",
+          "list_functionality",
+          "get_functionality_details",
+          "execute_functionality"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 1976,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "search_docs",
+          "list_fiori_apps",
+          "list_sap_systems",
+          "download_odata_service_metadata",
+          "generate_fiori_app_odata",
+          "generate_fiori_app_cap",
+          "list_functionality",
+          "get_functionality_details",
+          "execute_functionality"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out",
+        "installMs": 28909,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "io.github.SAP/fiori-mcp-server",
+  "slug": "io.github.sap__fiori-mcp-server"
+}

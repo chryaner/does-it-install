@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: Unexpected end of JSON input\nUnexpected token '╔', \"  ╔═╗╔╗╔  ╔╦╗╔═╗╔═╗\" is not valid JSON\nUnexpected token '╚', \"  ╚═╗║║║   ║ ║║║╠═╝\" is not valid JSON\nUnexpected token '╚', \"  ╚═╝╝╚╝   ╩\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'S', \"  ServiceNow\"... is not valid JSON\nUnexpected token 'C', \"  Connect An\"... is not valid JSON\nUnexpected end of JSON input\n--- stderr (tail) ---\nUsage: servicenow-mcp [options] [command]\n\nThe most comprehensive ServiceNow MCP server\n\nOptions:\n  -V, --version    output the version number\n  -h, --help       display help for command\n\nCommands:\n  setup [options]  Interactive setup wizard — connect to ServiceNow and your AI\n                   client\n  auth             Per-user authentication management\n  instances        Manage configured ServiceNow instances\n  help [command]   display help for command",
+        "installMs": 8729,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: Unexpected end of JSON input\nUnexpected token '╔', \"  ╔═╗╔╗╔  ╔╦╗╔═╗╔═╗\" is not valid JSON\nUnexpected token '╚', \"  ╚═╗║║║   ║ ║║║╠═╝\" is not valid JSON\nUnexpected token '╚', \"  ╚═╝╝╚╝   ╩\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'S', \"  ServiceNow\"... is not valid JSON\nUnexpected token 'C', \"  Connect An\"... is not valid JSON\nUnexpected end of JSON input\n--- stderr (tail) ---\nUsage: servicenow-mcp [options] [command]\n\nThe most comprehensive ServiceNow MCP server\n\nOptions:\n  -V, --version    output the version number\n  -h, --help       display help for command\n\nCommands:\n  setup [options]  Interactive setup wizard — connect to ServiceNow and your AI\n                   client\n  auth             Per-user authentication management\n  instances        Manage configured ServiceNow instances\n  help [command]   display help for command",
+        "installMs": 4346,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: Unexpected end of JSON input\nUnexpected token '╔', \"  ╔═╗╔╗╔  ╔╦╗╔═╗╔═╗\" is not valid JSON\nUnexpected token '╚', \"  ╚═╗║║║   ║ ║║║╠═╝\" is not valid JSON\nUnexpected token '╚', \"  ╚═╝╝╚╝   ╩\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'S', \"  ServiceNow\"... is not valid JSON\nUnexpected token 'C', \"  Connect An\"... is not valid JSON\nUnexpected end of JSON input\n--- stderr (tail) ---\nUsage: servicenow-mcp [options] [command]\n\nThe most comprehensive ServiceNow MCP server\n\nOptions:\n  -V, --version    output the version number\n  -h, --help       display help for command\n\nCommands:\n  setup [options]  Interactive setup wizard — connect to ServiceNow and your AI\n                   client\n  auth             Per-user authentication management\n  instances        Manage configured ServiceNow instances\n  help [command]   display help for command",
+        "installMs": 128083,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.habenani/servicenow-mcp",
+  "slug": "io.github.habenani__servicenow-mcp"
+}

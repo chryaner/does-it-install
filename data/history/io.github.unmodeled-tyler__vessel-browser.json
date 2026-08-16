@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: Unexpected token 'D', \"Downloadin\"... is not valid JSON\nUnexpected token 'V', \"[Vessel] Ct\"... is not valid JSON\nUnexpected token 'V', \"[Vessel MCP\"... is not valid JSON\nUnexpected token 'V', \"[Vessel] Ct\"... is not valid JSON",
+        "installMs": 21453,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "timeout"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: Unexpected token 'D', \"Downloadin\"... is not valid JSON\n--- stderr (tail) ---\n[10497:0816/025743.338269:FATAL:sandbox/linux/suid/client/setuid_sandbox_host.cc:166] The SUID sandbox helper binary was found, but is not configured correctly. Rather than run without sandboxing I'm aborting now. You need to make sure that /tmp/does-it-install/dii-npm-o723s2/node_modules/electron/dist/chrome-sandbox is owned by root and has mode 4755.",
+        "installMs": 5455,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: Unexpected token 'D', \"Downloadin\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'V', \"[Vessel] Ct\"... is not valid JSON\nUnexpected token 'V', \"[Vessel MCP\"... is not valid JSON\nUnexpected token 'V', \"[Vessel] Ct\"... is not valid JSON",
+        "installMs": 255383,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "io.github.unmodeled-tyler/vessel-browser",
+  "slug": "io.github.unmodeled-tyler__vessel-browser"
+}

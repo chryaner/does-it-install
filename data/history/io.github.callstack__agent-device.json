@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: , \"  screenshot\"... is not valid JSON\nUnexpected token 'r', \"  replay tes\"... is not valid JSON\nUnexpected token 'a', \"  alert keyb\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'G', \"Guides (ag\"... is not valid JSON\nUnexpected token 'w', \"  workflow  \"... is not valid JSON\nUnexpected token 'm', \"  manual-qa \"... is not valid JSON\nUnexpected token 'r', \"  react-nati\"... is not valid JSON\nUnexpected token 'p', \"  physical-d\"... is not valid JSON\nUnexpected end of JSON input",
+        "installMs": 4142,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: , \"  screenshot\"... is not valid JSON\nUnexpected token 'r', \"  replay tes\"... is not valid JSON\nUnexpected token 'a', \"  alert keyb\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'G', \"Guides (ag\"... is not valid JSON\nUnexpected token 'w', \"  workflow  \"... is not valid JSON\nUnexpected token 'm', \"  manual-qa \"... is not valid JSON\nUnexpected token 'r', \"  react-nati\"... is not valid JSON\nUnexpected token 'p', \"  physical-d\"... is not valid JSON\nUnexpected end of JSON input",
+        "installMs": 2636,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: , \"  screenshot\"... is not valid JSON\nUnexpected token 'r', \"  replay tes\"... is not valid JSON\nUnexpected token 'a', \"  alert keyb\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'G', \"Guides (ag\"... is not valid JSON\nUnexpected token 'w', \"  workflow  \"... is not valid JSON\nUnexpected token 'm', \"  manual-qa \"... is not valid JSON\nUnexpected token 'r', \"  react-nati\"... is not valid JSON\nUnexpected token 'p', \"  physical-d\"... is not valid JSON\nUnexpected end of JSON input",
+        "installMs": 89099,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.callstack/agent-device",
+  "slug": "io.github.callstack__agent-device"
+}

@@ -1,0 +1,54 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 6239,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "get_clash_state",
+          "get_clash_leaderboard",
+          "enlist_faction",
+          "rally_faction"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 5451,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "get_clash_state",
+          "get_clash_leaderboard",
+          "enlist_faction",
+          "rally_faction"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 118645,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "get_clash_state",
+          "get_clash_leaderboard",
+          "enlist_faction",
+          "rally_faction"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.nirholas/clash-mcp",
+  "slug": "io.github.nirholas__clash-mcp"
+}

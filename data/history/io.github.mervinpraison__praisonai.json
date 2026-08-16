@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\nDownloading pydantic-core (1.9MiB)\nDownloading openai (1.6MiB)\nDownloading praisonaiagents (2.1MiB)\n Downloaded pydantic-core\n Downloaded praisonaiagents\n Downloaded openai\nInstalled 66 packages in 219ms\n/Users/runner/.cache/uv/archive-v0/Sh1kYTLsXwreGRIW/lib/python3.14/site-packages/praisonaiagents/_warning_patch.py:50: RuntimeWarning: Failed to read version from pyproject.toml: pyproject.toml not found at /Users/runner/.cache/uv/archive-v0/Sh1kYTLsXwreGRIW/lib/python3.14/site-packages/pyproject.toml. Using 'unknown'.\n  _original_warn(message, category, stacklevel, source)",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "timeout"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\nDownloading openai (1.6MiB)\nDownloading aiohttp (1.7MiB)\nDownloading pydantic-core (2.0MiB)\nDownloading praisonaiagents (2.1MiB)\n Downloaded pydantic-core\n Downloaded aiohttp\n Downloaded praisonaiagents\n Downloaded openai\nInstalled 66 packages in 162ms\n/home/runner/.cache/uv/archive-v0/Mesy0pKoFO77VrF8/lib/python3.12/site-packages/praisonaiagents/_warning_patch.py:50: RuntimeWarning: Failed to read version from pyproject.toml: pyproject.toml not found at /home/runner/.cache/uv/archive-v0/Mesy0pKoFO77VrF8/lib/python3.12/site-packages/pyproject.toml. Using 'unknown'.\n  _original_warn(message, category, stacklevel, source)",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "timeout"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\nDownloading openai (1.6MiB)\nDownloading praisonaiagents (2.1MiB)\nDownloading pydantic-core (2.0MiB)\n Downloaded pydantic-core\n Downloaded praisonaiagents\n Downloaded openai\nInstalled 68 packages in 37.38s\nC:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\oQqxrG19HHspmV0F\\Lib\\site-packages\\praisonaiagents\\_warning_patch.py:50: RuntimeWarning: Failed to read version from pyproject.toml: pyproject.toml not found at C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\oQqxrG19HHspmV0F\\Lib\\site-packages\\pyproject.toml. Using 'unknown'.\r\n  _original_warn(message, category, stacklevel, source)",
+        "method": "pypi",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "io.github.MervinPraison/praisonai",
+  "slug": "io.github.mervinpraison__praisonai"
+}

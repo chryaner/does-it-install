@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: xcodebuildmcp <command> [options]\n\nCommands:\n  mcp                   Start the MCP server (for use with MCP clients)\n  init                  Install XcodeBuildMCP agent skill\n  setup                 Interactively configure XcodeBuildMCP project defaults\n  upgrade               Check for updates and upgrade XcodeBuildMCP\n  tools                 List available tools\n  purge                 Report and clean XcodeBuildMCP workspace storage\n  coverage              Code Coverage\n  debugging             LLDB Debugging\n  device                Device Development\n  macos                 macOS Development\n  project-discovery     Project Discovery\n  project-scaffolding   Project Scaffolding\n  simulator             iOS Simulator Development\n  simulator-management  Simulator Management\n  swift-package         Swift Package Development\n  ui-automation         UI Automation\n  utilities             Build Utilities\n  xcode-ide             Xcode IDE Integration\n  daemon <action>       Manage the xcodebuildmcp daemon\n\nOptions:\n      --log-level               Set log verbosity level  [string] [choices: \"none\", \"error\", \"warn\", \"info\", \"debug\"] [default: \"none\"]\n      --style                   Output style (normal is detailed; minimal is compact MCP-like output)  [string] [choices: \"normal\", \"minimal\"] [default: \"normal\"]\n      --file-path-render-style  Render file artifacts as a compact tree or labeled list in text output  [string] [choices: \"tree\", \"list\"]\n  -h, --help                    Show help  [boolean]\n  -v, --version                 Show version number  [boolean]\n\nRun 'xcodebuildmcp mcp' to start the MCP server.\nRun 'xcodebuildmcp tools' to see all available tools.\nRun 'xcodebuildmcp <workflow> <tool> --help' for tool-specific help.",
+        "installMs": 12555,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: xcodebuildmcp <command> [options]\n\nCommands:\n  mcp                   Start the MCP server (for use with MCP clients)\n  init                  Install XcodeBuildMCP agent skill\n  setup                 Interactively configure XcodeBuildMCP project defaults\n  upgrade               Check for updates and upgrade XcodeBuildMCP\n  tools                 List available tools\n  purge                 Report and clean XcodeBuildMCP workspace storage\n  coverage              Code Coverage\n  debugging             LLDB Debugging\n  device                Device Development\n  macos                 macOS Development\n  project-discovery     Project Discovery\n  project-scaffolding   Project Scaffolding\n  simulator             iOS Simulator Development\n  simulator-management  Simulator Management\n  swift-package         Swift Package Development\n  ui-automation         UI Automation\n  utilities             Build Utilities\n  xcode-ide             Xcode IDE Integration\n  daemon <action>       Manage the xcodebuildmcp daemon\n\nOptions:\n      --log-level               Set log verbosity level  [string] [choices: \"none\", \"error\", \"warn\", \"info\", \"debug\"] [default: \"none\"]\n      --style                   Output style (normal is detailed; minimal is compact MCP-like output)  [string] [choices: \"normal\", \"minimal\"] [default: \"normal\"]\n      --file-path-render-style  Render file artifacts as a compact tree or labeled list in text output  [string] [choices: \"tree\", \"list\"]\n  -h, --help                    Show help  [boolean]\n  -v, --version                 Show version number  [boolean]\n\nRun 'xcodebuildmcp mcp' to start the MCP server.\nRun 'xcodebuildmcp tools' to see all available tools.\nRun 'xcodebuildmcp <workflow> <tool> --help' for tool-specific help.",
+        "installMs": 10589,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: xcodebuildmcp <command> [options]\n\nCommands:\n  mcp                   Start the MCP server (for use with MCP clients)\n  init                  Install XcodeBuildMCP agent skill\n  setup                 Interactively configure XcodeBuildMCP project defaults\n  upgrade               Check for updates and upgrade XcodeBuildMCP\n  tools                 List available tools\n  purge                 Report and clean XcodeBuildMCP workspace storage\n  coverage              Code Coverage\n  debugging             LLDB Debugging\n  device                Device Development\n  macos                 macOS Development\n  project-discovery     Project Discovery\n  project-scaffolding   Project Scaffolding\n  simulator             iOS Simulator Development\n  simulator-management  Simulator Management\n  swift-package         Swift Package Development\n  ui-automation         UI Automation\n  utilities             Build Utilities\n  xcode-ide             Xcode IDE Integration\n  daemon <action>       Manage the xcodebuildmcp daemon\n\nOptions:\n      --log-level               Set log verbosity level  [string] [choices: \"none\", \"error\", \"warn\", \"info\", \"debug\"] [default: \"none\"]\n      --style                   Output style (normal is detailed; minimal is compact MCP-like output)  [string] [choices: \"normal\", \"minimal\"] [default: \"normal\"]\n      --file-path-render-style  Render file artifacts as a compact tree or labeled list in text output  [string] [choices: \"tree\", \"list\"]\n  -h, --help                    Show help  [boolean]\n  -v, --version                 Show version number  [boolean]\n\nRun 'xcodebuildmcp mcp' to start the MCP server.\nRun 'xcodebuildmcp tools' to see all available tools.\nRun 'xcodebuildmcp <workflow> <tool> --help' for tool-specific help.",
+        "installMs": 242603,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "com.xcodebuildmcp/XcodeBuildMCP",
+  "slug": "com.xcodebuildmcp__xcodebuildmcp"
+}

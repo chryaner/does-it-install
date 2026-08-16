@@ -1,0 +1,96 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 7546,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_contact",
+          "update_contact",
+          "upsert_contact",
+          "get_contact",
+          "list_contacts",
+          "delete_contact",
+          "create_event",
+          "list_funnels",
+          "get_funnel",
+          "list_deal_stages",
+          "create_opportunity",
+          "update_deal",
+          "get_deal",
+          "list_deals",
+          "list_segmentations",
+          "get_segmentation_contacts",
+          "update_lead_scoring",
+          "create_webhook"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 4715,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_contact",
+          "update_contact",
+          "upsert_contact",
+          "get_contact",
+          "list_contacts",
+          "delete_contact",
+          "create_event",
+          "list_funnels",
+          "get_funnel",
+          "list_deal_stages",
+          "create_opportunity",
+          "update_deal",
+          "get_deal",
+          "list_deals",
+          "list_segmentations",
+          "get_segmentation_contacts",
+          "update_lead_scoring",
+          "create_webhook"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 111323,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_contact",
+          "update_contact",
+          "upsert_contact",
+          "get_contact",
+          "list_contacts",
+          "delete_contact",
+          "create_event",
+          "list_funnels",
+          "get_funnel",
+          "list_deal_stages",
+          "create_opportunity",
+          "update_deal",
+          "get_deal",
+          "list_deals",
+          "list_segmentations",
+          "get_segmentation_contacts",
+          "update_lead_scoring",
+          "create_webhook"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-rd-station",
+  "slug": "io.github.codespar__mcp-rd-station"
+}

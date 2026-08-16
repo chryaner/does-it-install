@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: \"  npx pm-clau\"... is not valid JSON\nUnexpected token 'p', \"  npx pm-clau\"... is not valid JSON\nUnexpected token 'c', \"  cat notes.\"... is not valid JSON\nUnexpected token 'c', \"  cat notes.\"... is not valid JSON\nUnexpected token 'p', \"  npx pm-clau\"... is not valid JSON\nUnexpected token 'p', \"  npx pm-clau\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '⭐', \"⭐ Find thi\"... is not valid JSON\nUnexpected token '\ud83d', \"💛 The fre\"... is not valid JSON\nUnexpected end of JSON input",
+        "installMs": 6166,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: \"  npx pm-clau\"... is not valid JSON\nUnexpected token 'p', \"  npx pm-clau\"... is not valid JSON\nUnexpected token 'c', \"  cat notes.\"... is not valid JSON\nUnexpected token 'c', \"  cat notes.\"... is not valid JSON\nUnexpected token 'p', \"  npx pm-clau\"... is not valid JSON\nUnexpected token 'p', \"  npx pm-clau\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '⭐', \"⭐ Find thi\"... is not valid JSON\nUnexpected token '\ud83d', \"💛 The fre\"... is not valid JSON\nUnexpected end of JSON input",
+        "installMs": 11521,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: \"  npx pm-clau\"... is not valid JSON\nUnexpected token 'p', \"  npx pm-clau\"... is not valid JSON\nUnexpected token 'c', \"  cat notes.\"... is not valid JSON\nUnexpected token 'c', \"  cat notes.\"... is not valid JSON\nUnexpected token 'p', \"  npx pm-clau\"... is not valid JSON\nUnexpected token 'p', \"  npx pm-clau\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '⭐', \"⭐ Find thi\"... is not valid JSON\nUnexpected token '\ud83d', \"💛 The fre\"... is not valid JSON\nUnexpected end of JSON input",
+        "installMs": 106825,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.mohitagw15856/pm-claude-skills",
+  "slug": "io.github.mohitagw15856__pm-claude-skills"
+}

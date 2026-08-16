@@ -1,0 +1,105 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 23277,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "godot_scene",
+          "godot_node_read",
+          "godot_node_edit",
+          "godot_editor_read",
+          "godot_editor_edit",
+          "godot_project",
+          "godot_animation_read",
+          "godot_animation_edit",
+          "godot_tilemap_read",
+          "godot_tilemap_edit",
+          "godot_gridmap_read",
+          "godot_gridmap_edit",
+          "godot_resource",
+          "godot_scene3d",
+          "godot_docs",
+          "godot_input",
+          "godot_profiler",
+          "godot_runtime_state",
+          "godot_game_time",
+          "godot_exec",
+          "godot_validate_meshes"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 3013,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "godot_scene",
+          "godot_node_read",
+          "godot_node_edit",
+          "godot_editor_read",
+          "godot_editor_edit",
+          "godot_project",
+          "godot_animation_read",
+          "godot_animation_edit",
+          "godot_tilemap_read",
+          "godot_tilemap_edit",
+          "godot_gridmap_read",
+          "godot_gridmap_edit",
+          "godot_resource",
+          "godot_scene3d",
+          "godot_docs",
+          "godot_input",
+          "godot_profiler",
+          "godot_runtime_state",
+          "godot_game_time",
+          "godot_exec",
+          "godot_validate_meshes"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 154240,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "godot_scene",
+          "godot_node_read",
+          "godot_node_edit",
+          "godot_editor_read",
+          "godot_editor_edit",
+          "godot_project",
+          "godot_animation_read",
+          "godot_animation_edit",
+          "godot_tilemap_read",
+          "godot_tilemap_edit",
+          "godot_gridmap_read",
+          "godot_gridmap_edit",
+          "godot_resource",
+          "godot_scene3d",
+          "godot_docs",
+          "godot_input",
+          "godot_profiler",
+          "godot_runtime_state",
+          "godot_game_time",
+          "godot_exec",
+          "godot_validate_meshes"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.satelliteoflove/godot-mcp",
+  "slug": "io.github.satelliteoflove__godot-mcp"
+}

@@ -1,0 +1,54 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 41045,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "one_search",
+          "one_scrape",
+          "one_map",
+          "one_extract"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 7434,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "one_search",
+          "one_scrape",
+          "one_map",
+          "one_extract"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 320700,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "one_search",
+          "one_scrape",
+          "one_map",
+          "one_extract"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.yokingma/one-search-mcp",
+  "slug": "io.github.yokingma__one-search-mcp"
+}

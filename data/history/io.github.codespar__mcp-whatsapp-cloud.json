@@ -1,0 +1,108 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.629Z",
+        "installMs": 4382,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-27Z-f6fbcc",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "send_text_message",
+          "send_template_message",
+          "send_media_message",
+          "send_interactive_message",
+          "send_interactive_cta_url",
+          "send_interactive_flow",
+          "send_location_message",
+          "send_contacts_message",
+          "send_reaction_message",
+          "send_typing_indicator",
+          "mark_message_as_read",
+          "upload_media",
+          "retrieve_media_url",
+          "delete_media",
+          "list_templates",
+          "create_template",
+          "delete_template",
+          "get_business_profile",
+          "update_business_profile",
+          "list_phone_numbers",
+          "request_verification_code",
+          "verify_code"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:24.037Z",
+        "installMs": 3041,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-81bc39",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "send_text_message",
+          "send_template_message",
+          "send_media_message",
+          "send_interactive_message",
+          "send_interactive_cta_url",
+          "send_interactive_flow",
+          "send_location_message",
+          "send_contacts_message",
+          "send_reaction_message",
+          "send_typing_indicator",
+          "mark_message_as_read",
+          "upload_media",
+          "retrieve_media_url",
+          "delete_media",
+          "list_templates",
+          "create_template",
+          "delete_template",
+          "get_business_profile",
+          "update_business_profile",
+          "list_phone_numbers",
+          "request_verification_code",
+          "verify_code"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:42.768Z",
+        "installMs": 141152,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-42Z-6de339",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "send_text_message",
+          "send_template_message",
+          "send_media_message",
+          "send_interactive_message",
+          "send_interactive_cta_url",
+          "send_interactive_flow",
+          "send_location_message",
+          "send_contacts_message",
+          "send_reaction_message",
+          "send_typing_indicator",
+          "mark_message_as_read",
+          "upload_media",
+          "retrieve_media_url",
+          "delete_media",
+          "list_templates",
+          "create_template",
+          "delete_template",
+          "get_business_profile",
+          "update_business_profile",
+          "list_phone_numbers",
+          "request_verification_code",
+          "verify_code"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-whatsapp-cloud",
+  "slug": "io.github.codespar__mcp-whatsapp-cloud"
+}

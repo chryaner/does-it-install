@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:27.243Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":{\"code\":\"UNAUTHORIZED\",\"message\":\"Missing credentials. Use an API key from https://app.skyvern.com Settings (Claude Desktop: Settings -> Extensions -> Skyvern -> Configure) or connect with an OAuth-capable client. Docs: https://www.skyvern.com/docs/developers/getting-started/mcp\"}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-16T02-45-27Z-9a6687",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:19.430Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":{\"code\":\"UNAUTHORIZED\",\"message\":\"Missing credentials. Use an API key from https://app.skyvern.com Settings (Claude Desktop: Settings -> Extensions -> Skyvern -> Configure) or connect with an OAuth-capable client. Docs: https://www.skyvern.com/docs/developers/getting-started/mcp\"}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-16T02-45-19Z-fe02e7",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:39.090Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":{\"code\":\"UNAUTHORIZED\",\"message\":\"Missing credentials. Use an API key from https://app.skyvern.com Settings (Claude Desktop: Settings -> Extensions -> Skyvern -> Configure) or connect with an OAuth-capable client. Docs: https://www.skyvern.com/docs/developers/getting-started/mcp\"}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-16T02-45-39Z-5401c2",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "io.github.Skyvern-AI/skyvern",
+  "slug": "io.github.skyvern-ai__skyvern"
+}

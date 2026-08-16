@@ -1,0 +1,117 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 5772,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 25,
+        "toolNames": [
+          "create_payment",
+          "payment_details",
+          "capture_payment",
+          "cancel_payment",
+          "refund_payment",
+          "reverse_payment",
+          "update_amount",
+          "get_payment_methods",
+          "create_payment_link",
+          "get_payment_link",
+          "update_payment_link",
+          "create_donation",
+          "list_stored_payment_methods",
+          "disable_stored_payment_method",
+          "create_session",
+          "get_session",
+          "retrieve_applicable_defense_reasons",
+          "accept_dispute",
+          "defend_dispute",
+          "supply_defense_document",
+          "list_balance_accounts",
+          "get_balance_account",
+          "create_transfer",
+          "get_transfer",
+          "list_merchants"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 4755,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 25,
+        "toolNames": [
+          "create_payment",
+          "payment_details",
+          "capture_payment",
+          "cancel_payment",
+          "refund_payment",
+          "reverse_payment",
+          "update_amount",
+          "get_payment_methods",
+          "create_payment_link",
+          "get_payment_link",
+          "update_payment_link",
+          "create_donation",
+          "list_stored_payment_methods",
+          "disable_stored_payment_method",
+          "create_session",
+          "get_session",
+          "retrieve_applicable_defense_reasons",
+          "accept_dispute",
+          "defend_dispute",
+          "supply_defense_document",
+          "list_balance_accounts",
+          "get_balance_account",
+          "create_transfer",
+          "get_transfer",
+          "list_merchants"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 152659,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 25,
+        "toolNames": [
+          "create_payment",
+          "payment_details",
+          "capture_payment",
+          "cancel_payment",
+          "refund_payment",
+          "reverse_payment",
+          "update_amount",
+          "get_payment_methods",
+          "create_payment_link",
+          "get_payment_link",
+          "update_payment_link",
+          "create_donation",
+          "list_stored_payment_methods",
+          "disable_stored_payment_method",
+          "create_session",
+          "get_session",
+          "retrieve_applicable_defense_reasons",
+          "accept_dispute",
+          "defend_dispute",
+          "supply_defense_document",
+          "list_balance_accounts",
+          "get_balance_account",
+          "create_transfer",
+          "get_transfer",
+          "list_merchants"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.codespar/mcp-adyen",
+  "slug": "io.github.codespar__mcp-adyen"
+}

@@ -1,0 +1,51 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T02:45:24.166Z",
+        "installMs": 2377,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-24Z-dc7183",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "pdf_evidence",
+          "read_pdf",
+          "search_pdf"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T02:45:18.892Z",
+        "installMs": 1589,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-18Z-a0bb32",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "pdf_evidence",
+          "read_pdf",
+          "search_pdf"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T02:45:38.462Z",
+        "installMs": 4078,
+        "method": "npm",
+        "runId": "2026-08-16T02-45-38Z-130d60",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "pdf_evidence",
+          "read_pdf",
+          "search_pdf"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.SylphxAI/pdf-reader-mcp",
+  "slug": "io.github.sylphxai__pdf-reader-mcp"
+}
