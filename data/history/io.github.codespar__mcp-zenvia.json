@@ -2,6 +2,34 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:00.997Z",
+        "installMs": 3272,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-00Z-c4e177",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "send_sms",
+          "send_whatsapp",
+          "send_rcs",
+          "send_email",
+          "send_voice",
+          "send_facebook_message",
+          "get_message_status",
+          "list_channels",
+          "create_subscription",
+          "list_subscriptions",
+          "delete_subscription",
+          "list_contacts",
+          "create_contact",
+          "delete_contact",
+          "send_template",
+          "list_templates",
+          "get_report_entries",
+          "add_opt_out"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.243Z",
         "installMs": 8541,
         "method": "npm",
@@ -32,6 +60,34 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:56.759Z",
+        "installMs": 4781,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-56Z-6a1d71",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "send_sms",
+          "send_whatsapp",
+          "send_rcs",
+          "send_email",
+          "send_voice",
+          "send_facebook_message",
+          "get_message_status",
+          "list_channels",
+          "create_subscription",
+          "list_subscriptions",
+          "delete_subscription",
+          "list_contacts",
+          "create_contact",
+          "delete_contact",
+          "send_template",
+          "list_templates",
+          "get_report_entries",
+          "add_opt_out"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:19.430Z",
         "installMs": 4246,
         "method": "npm",
@@ -61,6 +117,34 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:18.905Z",
+        "installMs": 112185,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-18Z-c48a3e",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "send_sms",
+          "send_whatsapp",
+          "send_rcs",
+          "send_email",
+          "send_voice",
+          "send_facebook_message",
+          "get_message_status",
+          "list_channels",
+          "create_subscription",
+          "list_subscriptions",
+          "delete_subscription",
+          "list_contacts",
+          "create_contact",
+          "delete_contact",
+          "send_template",
+          "list_templates",
+          "get_report_entries",
+          "add_opt_out"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:39.090Z",
         "installMs": 173203,

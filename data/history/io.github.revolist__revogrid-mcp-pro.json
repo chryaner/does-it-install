@@ -2,6 +2,19 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:04.537Z",
+        "method": "remote-http",
+        "runId": "2026-08-16T15-42-04Z-eb2637",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "search_revogrid_docs",
+          "find_examples",
+          "resolve_feature_matrix",
+          "get_migration_notes"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.243Z",
         "method": "remote-http",
         "runId": "2026-08-16T02-45-27Z-9a6687",
@@ -17,6 +30,19 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:59.337Z",
+        "method": "remote-http",
+        "runId": "2026-08-16T15-41-59Z-e212f4",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "search_revogrid_docs",
+          "find_examples",
+          "resolve_feature_matrix",
+          "get_migration_notes"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:19.430Z",
         "method": "remote-http",
         "runId": "2026-08-16T02-45-19Z-fe02e7",
@@ -31,6 +57,19 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:13.871Z",
+        "method": "remote-http",
+        "runId": "2026-08-16T15-42-13Z-c3b399",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "search_revogrid_docs",
+          "find_examples",
+          "resolve_feature_matrix",
+          "get_migration_notes"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:39.090Z",
         "method": "remote-http",

@@ -2,6 +2,22 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:04.537Z",
+        "installMs": 1931,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-04Z-eb2637",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "recall",
+          "recall_context",
+          "blame",
+          "fix",
+          "how",
+          "remember"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.629Z",
         "installMs": 1806,
         "method": "npm",
@@ -20,6 +36,22 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:59.337Z",
+        "installMs": 1877,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-59Z-e212f4",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "recall",
+          "recall_context",
+          "blame",
+          "fix",
+          "how",
+          "remember"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:24.037Z",
         "installMs": 1604,
         "method": "npm",
@@ -37,6 +69,22 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:13.871Z",
+        "installMs": 2312,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-13Z-c3b399",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "recall",
+          "recall_context",
+          "blame",
+          "fix",
+          "how",
+          "remember"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:42.768Z",
         "installMs": 4155,

@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:00.997Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n× No solution found when resolving tool dependencies:\n  ╰─▶ Because tilion==0.1.3 has no wheels with a matching Python ABI tag\n      (e.g., `cp314`) and you require tilion==0.1.3, we can conclude that your\n      requirements are unsatisfiable.",
+        "method": "pypi",
+        "runId": "2026-08-16T15-42-00Z-c4e177",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-16T02:45:27.629Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n× No solution found when resolving tool dependencies:\n  ╰─▶ Because tilion==0.1.3 has no wheels with a matching Python ABI tag\n      (e.g., `cp314`) and you require tilion==0.1.3, we can conclude that your\n      requirements are unsatisfiable.",
         "method": "pypi",
@@ -11,6 +18,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:56.759Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 16 packages in 14ms\nusage: arham [-h] {install,verify,history,profiles} ...\narham: error: argument command: invalid choice: 'tilion-mcp' (choose from 'install', 'verify', 'history', 'profiles')",
+        "method": "pypi",
+        "runId": "2026-08-16T15-41-56Z-6a1d71",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-16T02:45:24.037Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 16 packages in 7ms\nusage: arham [-h] {install,verify,history,profiles} ...\narham: error: argument command: invalid choice: 'tilion-mcp' (choose from 'install', 'verify', 'history', 'profiles')",
         "method": "pypi",
@@ -19,6 +33,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:18.905Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 14 packages in 890ms\nusage: arham [-h] {install,verify,history,profiles} ...\r\narham: error: argument command: invalid choice: 'tilion-mcp' (choose from install, verify, history, profiles)",
+        "method": "pypi",
+        "runId": "2026-08-16T15-42-18Z-c48a3e",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-16T02:45:42.768Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 14 packages in 829ms\nusage: arham [-h] {install,verify,history,profiles} ...\r\narham: error: argument command: invalid choice: 'tilion-mcp' (choose from install, verify, history, profiles)",

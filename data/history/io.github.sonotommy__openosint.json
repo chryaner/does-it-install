@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:00.997Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: put\nUnexpected end of JSON input\nUnexpected token 'o', \"openosint \"... is not valid JSON\nUnexpected token 's', \"stId\":0,\"r\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected token 'o', ...\"          openosint \"... is not valid JSON\nUnexpected token 's', \"stId\":0,\"r\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'T', \"  Thinking...\" is not valid JSON\n--- stderr (tail) ---\nInstalled 58 packages in 355ms\nWarning: Input is not a terminal (fd=0).\n⭐ If OpenOSINT is useful, star it → https://github.com/OpenOSINT/OpenOSINT",
+        "method": "pypi",
+        "runId": "2026-08-16T15-42-00Z-c4e177",
+        "status": "timeout"
+      },
+      {
         "date": "2026-08-16T02:45:27.629Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: token 'T', \"  Thinking...\" is not valid JSON\nUnexpected end of JSON input\nUnexpected token '╭', \"╭─────────\"... is not valid JSON\nUnexpected token '│', \"│  Error: \"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'o', \"openosint ❯ \" is not valid JSON\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\n--- stderr (tail) ---\nInstalled 58 packages in 358ms\nWarning: Input is not a terminal (fd=0).\n⭐ If OpenOSINT is useful, star it → https://github.com/OpenOSINT/OpenOSINT",
         "method": "pypi",
@@ -11,6 +18,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:56.759Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: put\nUnexpected end of JSON input\nUnexpected token 'o', \"openosint \"... is not valid JSON\nUnexpected token 's', \"stId\":0,\"r\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected token 'o', ...\"          openosint \"... is not valid JSON\nUnexpected token 's', \"stId\":0,\"r\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'T', \"  Thinking...\" is not valid JSON\n--- stderr (tail) ---\nInstalled 58 packages in 59ms\nWarning: Input is not a terminal (fd=0).\n⭐ If OpenOSINT is useful, star it → https://github.com/OpenOSINT/OpenOSINT",
+        "method": "pypi",
+        "runId": "2026-08-16T15-41-56Z-6a1d71",
+        "status": "timeout"
+      },
+      {
         "date": "2026-08-16T02:45:24.037Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: put\nUnexpected end of JSON input\nUnexpected token 'o', \"openosint \"... is not valid JSON\nUnexpected token 's', \"stId\":0,\"r\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected token 'o', ...\"          openosint \"... is not valid JSON\nUnexpected token 's', \"stId\":0,\"r\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'T', \"  Thinking...\" is not valid JSON\n--- stderr (tail) ---\nDownloading aiohttp (1.7MiB)\n Downloaded aiohttp\nInstalled 58 packages in 67ms\nWarning: Input is not a terminal (fd=0).\n⭐ If OpenOSINT is useful, star it → https://github.com/OpenOSINT/OpenOSINT",
         "method": "pypi",
@@ -19,6 +33,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:18.905Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 60 packages in 25.18s\n[!] Fatal: No Windows console found. Are you running cmd.exe?",
+        "method": "pypi",
+        "runId": "2026-08-16T15-42-18Z-c48a3e",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-16T02:45:42.768Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading pywin32 (6.6MiB)\n Downloaded pywin32\nInstalled 60 packages in 43.88s\n[!] Fatal: No Windows console found. Are you running cmd.exe?",

@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:00.997Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading rapidfuzz (1.1MiB)\nDownloading pyarrow (34.2MiB)\nDownloading edgartools (3.3MiB)\nDownloading pandas (9.5MiB)\n Downloaded rapidfuzz\n Downloaded edgartools\n Downloaded pyarrow\n Downloaded pandas\nInstalled 69 packages in 726ms\nPackage `sec-edgar-mcp` does not provide any executables.",
+        "method": "pypi",
+        "runId": "2026-08-16T15-42-00Z-c4e177",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-16T02:45:27.629Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading edgartools (3.3MiB)\n Downloaded edgartools\nInstalled 69 packages in 1.48s\nPackage `sec-edgar-mcp` does not provide any executables.",
         "method": "pypi",
@@ -11,6 +18,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:56.759Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading rapidfuzz (3.0MiB)\nDownloading pandas (10.4MiB)\nDownloading pyarrow (47.8MiB)\nDownloading edgartools (3.3MiB)\n Downloaded rapidfuzz\n Downloaded edgartools\n Downloaded pyarrow\n Downloaded pandas\nInstalled 69 packages in 96ms\nPackage `sec-edgar-mcp` does not provide any executables.",
+        "method": "pypi",
+        "runId": "2026-08-16T15-41-56Z-6a1d71",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-16T02:45:24.037Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading rapidfuzz (3.0MiB)\nDownloading lxml (5.0MiB)\nDownloading pyarrow (47.8MiB)\nDownloading pandas (10.4MiB)\nDownloading edgartools (3.3MiB)\n Downloaded rapidfuzz\n Downloaded lxml\n Downloaded edgartools\n Downloaded pyarrow\n Downloaded pandas\nInstalled 69 packages in 55ms\nPackage `sec-edgar-mcp` does not provide any executables.",
         "method": "pypi",
@@ -19,6 +33,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:18.905Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading rapidfuzz (1.5MiB)\nDownloading edgartools (3.3MiB)\nDownloading pyarrow (26.7MiB)\nDownloading pandas (9.4MiB)\n Downloaded rapidfuzz\n Downloaded edgartools\n Downloaded pyarrow\n Downloaded pandas\nInstalled 72 packages in 30.86s\nPackage `sec-edgar-mcp` does not provide any executables.",
+        "method": "pypi",
+        "runId": "2026-08-16T15-42-18Z-c48a3e",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-16T02:45:42.768Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading edgartools (3.3MiB)\n Downloaded edgartools\nInstalled 72 packages in 25.48s\nPackage `sec-edgar-mcp` does not provide any executables.",

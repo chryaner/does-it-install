@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:04.537Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: Unexpected token '=', \"==========\"... is not valid JSON\nUnexpected token 'S', \"Select lan\"... is not valid JSON\nUnterminated fractional number in JSON at position 4 (line 1 column 5)\nUnterminated fractional number in JSON at position 4 (line 1 column 5)\nUnterminated fractional number in JSON at position 4 (line 1 column 5)\nUnexpected token '=', \"==========\"... is not valid JSON\nUnexpected token '>', \"> Invalid \"... is not valid JSON\nUnexpected token 'I', \"Invalid ch\"... is not valid JSON\n--- stderr (tail) ---\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/9jYyUEV_XDKBmwli/bin/flyto\", line 12, in <module>\n    sys.exit(main())\n             ~~~~^^\n  File \"/Users/runner/.cache/uv/archive-v0/9jYyUEV_XDKBmwli/lib/python3.14/site-packages/cli/main.py\", line 201, in main\n    lang = select_language()\n  File \"/Users/runner/.cache/uv/archive-v0/9jYyUEV_XDKBmwli/lib/python3.14/site-packages/cli/ui.py\", line 35, in select_language\n    choice = input(\"> \").strip()\n             ~~~~~^^^^^^\nEOFError: EOF when reading a line",
+        "method": "pypi",
+        "runId": "2026-08-16T15-42-04Z-eb2637",
+        "status": "timeout"
+      },
+      {
         "date": "2026-08-16T02:45:24.166Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: Unexpected token '=', \"==========\"... is not valid JSON\nUnexpected token 'S', \"Select lan\"... is not valid JSON\nUnterminated fractional number in JSON at position 4 (line 1 column 5)\nUnterminated fractional number in JSON at position 4 (line 1 column 5)\nUnterminated fractional number in JSON at position 4 (line 1 column 5)\nUnexpected token '=', \"==========\"... is not valid JSON\nUnexpected token '>', \"> Invalid \"... is not valid JSON\nUnexpected token 'I', \"Invalid ch\"... is not valid JSON\n--- stderr (tail) ---\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/HLKCbPMx5Hofobrd/bin/flyto\", line 12, in <module>\n    sys.exit(main())\n             ~~~~^^\n  File \"/Users/runner/.cache/uv/archive-v0/HLKCbPMx5Hofobrd/lib/python3.14/site-packages/cli/main.py\", line 201, in main\n    lang = select_language()\n  File \"/Users/runner/.cache/uv/archive-v0/HLKCbPMx5Hofobrd/lib/python3.14/site-packages/cli/ui.py\", line 35, in select_language\n    choice = input(\"> \").strip()\n             ~~~~~^^^^^^\nEOFError: EOF when reading a line",
         "method": "pypi",
@@ -18,6 +25,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:59.337Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: Unexpected token '=', \"==========\"... is not valid JSON\nUnexpected token 'S', \"Select lan\"... is not valid JSON\nUnterminated fractional number in JSON at position 4 (line 1 column 5)\nUnterminated fractional number in JSON at position 4 (line 1 column 5)\nUnterminated fractional number in JSON at position 4 (line 1 column 5)\nUnexpected token '=', \"==========\"... is not valid JSON\nUnexpected token '>', \"> Invalid \"... is not valid JSON\nUnexpected token 'I', \"Invalid ch\"... is not valid JSON\n--- stderr (tail) ---\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/BCrQx5fK3tRwnly-/bin/flyto\", line 12, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/runner/.cache/uv/archive-v0/BCrQx5fK3tRwnly-/lib/python3.12/site-packages/cli/main.py\", line 201, in main\n    lang = select_language()\n           ^^^^^^^^^^^^^^^^^\n  File \"/home/runner/.cache/uv/archive-v0/BCrQx5fK3tRwnly-/lib/python3.12/site-packages/cli/ui.py\", line 35, in select_language\n    choice = input(\"> \").strip()\n             ^^^^^^^^^^^\nEOFError: EOF when reading a line",
+        "method": "pypi",
+        "runId": "2026-08-16T15-41-59Z-e212f4",
+        "status": "timeout"
+      },
+      {
         "date": "2026-08-16T02:45:18.892Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: Unexpected token '=', \"==========\"... is not valid JSON\nUnexpected token 'S', \"Select lan\"... is not valid JSON\nUnterminated fractional number in JSON at position 4 (line 1 column 5)\nUnterminated fractional number in JSON at position 4 (line 1 column 5)\nUnterminated fractional number in JSON at position 4 (line 1 column 5)\nUnexpected token '=', \"==========\"... is not valid JSON\nUnexpected token '>', \"> Invalid \"... is not valid JSON\nUnexpected token 'I', \"Invalid ch\"... is not valid JSON\n--- stderr (tail) ---\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/f4GYL4vs0HdjZrv7/bin/flyto\", line 12, in <module>\n    sys.exit(main())\n             ~~~~^^\n  File \"/home/runner/.cache/uv/archive-v0/f4GYL4vs0HdjZrv7/lib/python3.13/site-packages/cli/main.py\", line 201, in main\n    lang = select_language()\n  File \"/home/runner/.cache/uv/archive-v0/f4GYL4vs0HdjZrv7/lib/python3.13/site-packages/cli/ui.py\", line 35, in select_language\n    choice = input(\"> \").strip()\n             ~~~~~^^^^^^\nEOFError: EOF when reading a line",
         "method": "pypi",
@@ -33,6 +47,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:13.871Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\L4HYXPE2Rw9phg_Y\\Scripts\\flyto-serve.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\L4HYXPE2Rw9phg_Y\\Lib\\site-packages\\core\\api\\__init__.py\", line 22, in <module>\r\n    from .server import create_app, main\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\L4HYXPE2Rw9phg_Y\\Lib\\site-packages\\core\\api\\server.py\", line 23, in <module>\r\n    from fastapi import FastAPI\r\nModuleNotFoundError: No module named 'fastapi'",
+        "method": "pypi",
+        "runId": "2026-08-16T15-42-13Z-c3b399",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-16T02:45:38.462Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\5zqiVc84aIl0djpe\\Scripts\\flyto-serve.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\5zqiVc84aIl0djpe\\Lib\\site-packages\\core\\api\\__init__.py\", line 22, in <module>\r\n    from .server import create_app, main\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\5zqiVc84aIl0djpe\\Lib\\site-packages\\core\\api\\server.py\", line 23, in <module>\r\n    from fastapi import FastAPI\r\nModuleNotFoundError: No module named 'fastapi'",

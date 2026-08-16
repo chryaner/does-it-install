@@ -2,6 +2,34 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:00.997Z",
+        "installMs": 4077,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-00Z-c4e177",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "send_message",
+          "get_contacts",
+          "create_contact",
+          "get_threads",
+          "send_notification",
+          "get_analytics",
+          "create_broadcast",
+          "get_chatbot_flow",
+          "update_contact",
+          "delete_contact",
+          "get_contact",
+          "get_thread",
+          "create_ticket",
+          "close_ticket",
+          "list_tickets",
+          "track_event",
+          "set_bot_resource",
+          "get_bot_resource"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.243Z",
         "installMs": 8432,
         "method": "npm",
@@ -32,6 +60,34 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:56.759Z",
+        "installMs": 4280,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-56Z-6a1d71",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "send_message",
+          "get_contacts",
+          "create_contact",
+          "get_threads",
+          "send_notification",
+          "get_analytics",
+          "create_broadcast",
+          "get_chatbot_flow",
+          "update_contact",
+          "delete_contact",
+          "get_contact",
+          "get_thread",
+          "create_ticket",
+          "close_ticket",
+          "list_tickets",
+          "track_event",
+          "set_bot_resource",
+          "get_bot_resource"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:19.430Z",
         "installMs": 3906,
         "method": "npm",
@@ -61,6 +117,34 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:18.905Z",
+        "installMs": 115345,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-18Z-c48a3e",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "send_message",
+          "get_contacts",
+          "create_contact",
+          "get_threads",
+          "send_notification",
+          "get_analytics",
+          "create_broadcast",
+          "get_chatbot_flow",
+          "update_contact",
+          "delete_contact",
+          "get_contact",
+          "get_thread",
+          "create_ticket",
+          "close_ticket",
+          "list_tickets",
+          "track_event",
+          "set_bot_resource",
+          "get_bot_resource"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:39.090Z",
         "installMs": 170996,

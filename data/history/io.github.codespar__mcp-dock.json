@@ -2,6 +2,36 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:00.997Z",
+        "installMs": 4848,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-00Z-c4e177",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_account",
+          "get_account",
+          "send_pix",
+          "get_pix",
+          "create_pix_qr_static",
+          "create_pix_qr_dynamic",
+          "refund_pix",
+          "resolve_dict_key",
+          "issue_card",
+          "get_card",
+          "list_accounts",
+          "freeze_account",
+          "unfreeze_account",
+          "block_card",
+          "unblock_card",
+          "change_card_status",
+          "list_transactions",
+          "get_transaction",
+          "create_webhook",
+          "list_webhooks"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.243Z",
         "installMs": 8424,
         "method": "npm",
@@ -34,6 +64,36 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:56.759Z",
+        "installMs": 4185,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-56Z-6a1d71",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_account",
+          "get_account",
+          "send_pix",
+          "get_pix",
+          "create_pix_qr_static",
+          "create_pix_qr_dynamic",
+          "refund_pix",
+          "resolve_dict_key",
+          "issue_card",
+          "get_card",
+          "list_accounts",
+          "freeze_account",
+          "unfreeze_account",
+          "block_card",
+          "unblock_card",
+          "change_card_status",
+          "list_transactions",
+          "get_transaction",
+          "create_webhook",
+          "list_webhooks"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:19.430Z",
         "installMs": 4376,
         "method": "npm",
@@ -65,6 +125,36 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:18.905Z",
+        "installMs": 116398,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-18Z-c48a3e",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_account",
+          "get_account",
+          "send_pix",
+          "get_pix",
+          "create_pix_qr_static",
+          "create_pix_qr_dynamic",
+          "refund_pix",
+          "resolve_dict_key",
+          "issue_card",
+          "get_card",
+          "list_accounts",
+          "freeze_account",
+          "unfreeze_account",
+          "block_card",
+          "unblock_card",
+          "change_card_status",
+          "list_transactions",
+          "get_transaction",
+          "create_webhook",
+          "list_webhooks"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:39.090Z",
         "installMs": 184298,

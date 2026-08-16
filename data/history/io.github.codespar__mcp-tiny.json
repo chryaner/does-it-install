@@ -2,6 +2,37 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:04.537Z",
+        "installMs": 6356,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-04Z-eb2637",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "list_products",
+          "get_product",
+          "list_orders",
+          "get_order",
+          "list_contacts",
+          "get_contact",
+          "create_invoice",
+          "get_invoice",
+          "get_stock",
+          "list_accounts_payable",
+          "update_stock",
+          "list_categories",
+          "list_warehouses",
+          "list_price_lists",
+          "update_order_status",
+          "list_invoices",
+          "get_invoice_xml",
+          "get_invoice_link",
+          "send_invoice_email",
+          "list_accounts_receivable",
+          "get_account_receivable"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.629Z",
         "installMs": 2993,
         "method": "npm",
@@ -35,6 +66,37 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:59.337Z",
+        "installMs": 2936,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-59Z-e212f4",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "list_products",
+          "get_product",
+          "list_orders",
+          "get_order",
+          "list_contacts",
+          "get_contact",
+          "create_invoice",
+          "get_invoice",
+          "get_stock",
+          "list_accounts_payable",
+          "update_stock",
+          "list_categories",
+          "list_warehouses",
+          "list_price_lists",
+          "update_order_status",
+          "list_invoices",
+          "get_invoice_xml",
+          "get_invoice_link",
+          "send_invoice_email",
+          "list_accounts_receivable",
+          "get_account_receivable"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:24.037Z",
         "installMs": 2901,
         "method": "npm",
@@ -67,6 +129,37 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:13.871Z",
+        "installMs": 95425,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-13Z-c3b399",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "list_products",
+          "get_product",
+          "list_orders",
+          "get_order",
+          "list_contacts",
+          "get_contact",
+          "create_invoice",
+          "get_invoice",
+          "get_stock",
+          "list_accounts_payable",
+          "update_stock",
+          "list_categories",
+          "list_warehouses",
+          "list_price_lists",
+          "update_order_status",
+          "list_invoices",
+          "get_invoice_xml",
+          "get_invoice_link",
+          "send_invoice_email",
+          "list_accounts_receivable",
+          "get_account_receivable"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:42.768Z",
         "installMs": 135558,

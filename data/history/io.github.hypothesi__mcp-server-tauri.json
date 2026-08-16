@@ -2,6 +2,36 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:00.997Z",
+        "installMs": 4127,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-00Z-c4e177",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "get_setup_instructions",
+          "list_devices",
+          "driver_session",
+          "webview_find_element",
+          "read_logs",
+          "webview_interact",
+          "webview_screenshot",
+          "webview_keyboard",
+          "webview_wait_for",
+          "webview_get_styles",
+          "webview_execute_js",
+          "webview_dom_snapshot",
+          "webview_select_element",
+          "webview_get_pointed_element",
+          "ipc_execute_command",
+          "ipc_monitor",
+          "ipc_get_captured",
+          "ipc_emit_event",
+          "ipc_get_backend_state",
+          "manage_window"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:24.166Z",
         "installMs": 10507,
         "method": "npm",
@@ -63,6 +93,36 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:56.759Z",
+        "installMs": 4044,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-56Z-6a1d71",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "get_setup_instructions",
+          "list_devices",
+          "driver_session",
+          "webview_find_element",
+          "read_logs",
+          "webview_interact",
+          "webview_screenshot",
+          "webview_keyboard",
+          "webview_wait_for",
+          "webview_get_styles",
+          "webview_execute_js",
+          "webview_dom_snapshot",
+          "webview_select_element",
+          "webview_get_pointed_element",
+          "ipc_execute_command",
+          "ipc_monitor",
+          "ipc_get_captured",
+          "ipc_emit_event",
+          "ipc_get_backend_state",
+          "manage_window"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:18.892Z",
         "installMs": 4129,
         "method": "npm",
@@ -123,6 +183,36 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:18.905Z",
+        "installMs": 149321,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-18Z-c48a3e",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "get_setup_instructions",
+          "list_devices",
+          "driver_session",
+          "webview_find_element",
+          "read_logs",
+          "webview_interact",
+          "webview_screenshot",
+          "webview_keyboard",
+          "webview_wait_for",
+          "webview_get_styles",
+          "webview_execute_js",
+          "webview_dom_snapshot",
+          "webview_select_element",
+          "webview_get_pointed_element",
+          "ipc_execute_command",
+          "ipc_monitor",
+          "ipc_get_captured",
+          "ipc_emit_event",
+          "ipc_get_backend_state",
+          "manage_window"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:38.462Z",
         "installMs": 182483,

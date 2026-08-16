@@ -2,6 +2,23 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:00.997Z",
+        "installMs": 7912,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-00Z-c4e177",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "browser_eval",
+          "enable_cache_components",
+          "init",
+          "nextjs_docs",
+          "nextjs_index",
+          "nextjs_call",
+          "upgrade_nextjs_16"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.243Z",
         "installMs": 9024,
         "method": "npm",
@@ -21,6 +38,23 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:56.759Z",
+        "installMs": 4687,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-56Z-6a1d71",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "browser_eval",
+          "enable_cache_components",
+          "init",
+          "nextjs_docs",
+          "nextjs_index",
+          "nextjs_call",
+          "upgrade_nextjs_16"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:19.430Z",
         "installMs": 4418,
         "method": "npm",
@@ -39,6 +73,23 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:18.905Z",
+        "installMs": 125475,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-18Z-c48a3e",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "browser_eval",
+          "enable_cache_components",
+          "init",
+          "nextjs_docs",
+          "nextjs_index",
+          "nextjs_call",
+          "upgrade_nextjs_16"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:39.090Z",
         "installMs": 182666,

@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:04.537Z",
+        "errorExcerpt": "@storybook/addon-mcp declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "installMs": 14466,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-04Z-eb2637",
+        "status": "needs_config"
+      },
+      {
         "date": "2026-08-16T02:45:27.629Z",
         "errorExcerpt": "@storybook/addon-mcp declares no runnable \"bin\" entry, so there is nothing to spawn",
         "installMs": 10423,
@@ -12,6 +20,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:59.337Z",
+        "errorExcerpt": "@storybook/addon-mcp declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "installMs": 6636,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-59Z-e212f4",
+        "status": "needs_config"
+      },
+      {
         "date": "2026-08-16T02:45:24.037Z",
         "errorExcerpt": "@storybook/addon-mcp declares no runnable \"bin\" entry, so there is nothing to spawn",
         "installMs": 7093,
@@ -21,6 +37,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:13.871Z",
+        "errorExcerpt": "@storybook/addon-mcp declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "installMs": 109901,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-13Z-c3b399",
+        "status": "needs_config"
+      },
       {
         "date": "2026-08-16T02:45:42.768Z",
         "errorExcerpt": "@storybook/addon-mcp declares no runnable \"bin\" entry, so there is nothing to spawn",

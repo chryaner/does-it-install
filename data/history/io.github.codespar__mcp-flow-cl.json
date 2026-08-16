@@ -2,6 +2,24 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:00.997Z",
+        "installMs": 4545,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-00Z-c4e177",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "create_payment",
+          "create_payment_by_email",
+          "get_payment_status",
+          "get_payment_status_by_commerce_id",
+          "get_payment_status_by_flow_order",
+          "list_payments",
+          "create_refund",
+          "get_refund_status"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.243Z",
         "installMs": 8465,
         "method": "npm",
@@ -22,6 +40,24 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:56.759Z",
+        "installMs": 4038,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-56Z-6a1d71",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "create_payment",
+          "create_payment_by_email",
+          "get_payment_status",
+          "get_payment_status_by_commerce_id",
+          "get_payment_status_by_flow_order",
+          "list_payments",
+          "create_refund",
+          "get_refund_status"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:19.430Z",
         "installMs": 4204,
         "method": "npm",
@@ -41,6 +77,24 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:18.905Z",
+        "installMs": 112829,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-18Z-c48a3e",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "create_payment",
+          "create_payment_by_email",
+          "get_payment_status",
+          "get_payment_status_by_commerce_id",
+          "get_payment_status_by_flow_order",
+          "list_payments",
+          "create_refund",
+          "get_refund_status"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:39.090Z",
         "installMs": 185248,

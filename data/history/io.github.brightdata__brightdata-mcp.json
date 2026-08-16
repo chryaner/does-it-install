@@ -2,6 +2,21 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:41:59.741Z",
+        "installMs": 16995,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-59Z-dbe80d",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "search_engine",
+          "scrape_as_markdown",
+          "search_engine_batch",
+          "scrape_batch",
+          "discover"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:24.166Z",
         "installMs": 13354,
         "method": "npm",
@@ -19,6 +34,21 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:42:02.544Z",
+        "installMs": 12620,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-02Z-d4ddba",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "search_engine",
+          "scrape_as_markdown",
+          "search_engine_batch",
+          "scrape_batch",
+          "discover"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:18.892Z",
         "installMs": 9412,
         "method": "npm",
@@ -35,6 +65,21 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:15.480Z",
+        "installMs": 341834,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-15Z-299164",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "search_engine",
+          "scrape_as_markdown",
+          "search_engine_batch",
+          "scrape_batch",
+          "discover"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:38.462Z",
         "installMs": 267505,

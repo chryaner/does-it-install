@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:00.997Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading tokenizers (2.9MiB)\nDownloading uvloop (1.3MiB)\nDownloading onnxruntime (18.3MiB)\nDownloading litellm (22.8MiB)\nDownloading hf-xet (3.7MiB)\nDownloading numpy (5.1MiB)\nDownloading openai (1.6MiB)\nDownloading pyright (5.9MiB)\n   Building pymeta3==0.5.1\n   Building pybars3==0.9.7\n      Built pymeta3==0.5.1\n      Built pybars3==0.9.7\n Downloaded uvloop\n Downloaded tokenizers\n Downloaded hf-xet\n Downloaded numpy\n Downloaded onnxruntime\n Downloaded openai\n Downloaded litellm\n Downloaded pyright\nInstalled 161 packages in 1.90s\nUsage: basic-memory [OPTIONS] COMMAND [ARGS]...\nTry 'basic-memory --help' for help.\n╭─ Error ──────────────────────────────────────────────────────────────────────╮\n│ Missing command.                                                             │\n╰──────────────────────────────────────────────────────────────────────────────╯",
+        "method": "pypi",
+        "runId": "2026-08-16T15-42-00Z-c4e177",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-16T02:45:24.166Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading beartype (1.3MiB)\nDownloading pyright (5.9MiB)\nDownloading onnxruntime (18.3MiB)\nDownloading pillow (4.6MiB)\n   Building pymeta3==0.5.1\n   Building pybars3==0.9.7\n      Built pybars3==0.9.7\n      Built pymeta3==0.5.1\n Downloaded pillow\n Downloaded beartype\n Downloaded onnxruntime\n Downloaded pyright\nInstalled 161 packages in 789ms\nUsage: basic-memory [OPTIONS] COMMAND [ARGS]...\nTry 'basic-memory --help' for help.\n╭─ Error ──────────────────────────────────────────────────────────────────────╮\n│ Missing command.                                                             │\n╰──────────────────────────────────────────────────────────────────────────────╯",
         "method": "pypi",
@@ -11,6 +18,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:56.759Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading tokenizers (3.2MiB)\nDownloading pillow (6.6MiB)\nDownloading numpy (15.9MiB)\nDownloading litellm (23.3MiB)\nDownloading uvloop (4.2MiB)\nDownloading sqlalchemy (3.2MiB)\nDownloading asyncpg (3.4MiB)\nDownloading hf-xet (4.3MiB)\nDownloading openai (1.6MiB)\nDownloading tiktoken (1.1MiB)\nDownloading pyright (5.9MiB)\nDownloading onnxruntime (18.3MiB)\nDownloading aiohttp (1.7MiB)\n   Building pymeta3==0.5.1\n   Building pybars3==0.9.7\n Downloaded tiktoken\n      Built pybars3==0.9.7\n      Built pymeta3==0.5.1\n Downloaded aiohttp\n Downloaded sqlalchemy\n Downloaded tokenizers\n Downloaded asyncpg\n Downloaded hf-xet\n Downloaded uvloop\n Downloaded pillow\n Downloaded openai\n Downloaded numpy\n Downloaded onnxruntime\n Downloaded litellm\n Downloaded pyright\nInstalled 163 packages in 518ms\nUsage: basic-memory [OPTIONS] COMMAND [ARGS]...\nTry 'basic-memory --help' for help.\n╭─ Error ──────────────────────────────────────────────────────────────────────╮\n│ Missing command.                                                             │\n╰──────────────────────────────────────────────────────────────────────────────╯",
+        "method": "pypi",
+        "runId": "2026-08-16T15-41-56Z-6a1d71",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-16T02:45:18.892Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading pillow (6.6MiB)\nDownloading beartype (1.3MiB)\nDownloading asyncpg (3.4MiB)\nDownloading pyright (5.9MiB)\nDownloading onnxruntime (18.3MiB)\n   Building pybars3==0.9.7\n   Building pymeta3==0.5.1\n      Built pybars3==0.9.7\n      Built pymeta3==0.5.1\n Downloaded asyncpg\n Downloaded pillow\n Downloaded beartype\n Downloaded onnxruntime\n Downloaded pyright\nInstalled 163 packages in 347ms\nUsage: basic-memory [OPTIONS] COMMAND [ARGS]...\nTry 'basic-memory --help' for help.\n╭─ Error ──────────────────────────────────────────────────────────────────────╮\n│ Missing command.                                                             │\n╰──────────────────────────────────────────────────────────────────────────────╯",
         "method": "pypi",
@@ -19,6 +33,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:18.905Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading openai (1.6MiB)\nDownloading hf-xet (3.8MiB)\nDownloading pyright (5.9MiB)\nDownloading tokenizers (2.7MiB)\nDownloading numpy (11.9MiB)\nDownloading onnxruntime (13.1MiB)\nDownloading litellm (23.2MiB)\n   Building pymeta3==0.5.1\n   Building pybars3==0.9.7\n      Built pybars3==0.9.7\n      Built pymeta3==0.5.1\n Downloaded tokenizers\n Downloaded hf-xet\n Downloaded numpy\n Downloaded onnxruntime\n Downloaded openai\n Downloaded litellm\n Downloaded pyright\nInstalled 165 packages in 1m 12s\nUsage: basic-memory [OPTIONS] COMMAND [ARGS]...\r\nTry 'basic-memory --help' for help.\r\n+- Error ---------------------------------------------------------------------+\r\n| Missing command.                                                            |\r\n+-----------------------------------------------------------------------------+",
+        "method": "pypi",
+        "runId": "2026-08-16T15-42-18Z-c48a3e",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-16T02:45:38.462Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nBuilding pymeta3==0.5.1\n   Building pybars3==0.9.7\nDownloading pillow (6.9MiB)\nDownloading beartype (1.3MiB)\nDownloading pyright (5.9MiB)\nDownloading onnxruntime (13.1MiB)\n      Built pymeta3==0.5.1\n      Built pybars3==0.9.7\n Downloaded pillow\n Downloaded onnxruntime\n Downloaded beartype\n Downloaded pyright\nInstalled 165 packages in 1m 05s\nUsage: basic-memory [OPTIONS] COMMAND [ARGS]...\r\nTry 'basic-memory --help' for help.\r\n+- Error ---------------------------------------------------------------------+\r\n| Missing command.                                                            |\r\n+-----------------------------------------------------------------------------+",

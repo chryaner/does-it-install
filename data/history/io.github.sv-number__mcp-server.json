@@ -2,6 +2,25 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:00.997Z",
+        "installMs": 7345,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-00Z-c4e177",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "get_balance",
+          "list_countries",
+          "list_services",
+          "order_number",
+          "wait_for_code",
+          "finish_activation",
+          "cancel_activation",
+          "request_another_sms",
+          "totp_code"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:24.166Z",
         "installMs": 3469,
         "method": "npm",
@@ -23,6 +42,25 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:56.759Z",
+        "installMs": 4756,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-56Z-6a1d71",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "get_balance",
+          "list_countries",
+          "list_services",
+          "order_number",
+          "wait_for_code",
+          "finish_activation",
+          "cancel_activation",
+          "request_another_sms",
+          "totp_code"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:18.892Z",
         "installMs": 2878,
         "method": "npm",
@@ -43,6 +81,25 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:18.905Z",
+        "installMs": 137752,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-18Z-c48a3e",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "get_balance",
+          "list_countries",
+          "list_services",
+          "order_number",
+          "wait_for_code",
+          "finish_activation",
+          "cancel_activation",
+          "request_another_sms",
+          "totp_code"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:38.462Z",
         "installMs": 35455,

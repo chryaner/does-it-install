@@ -2,6 +2,24 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:04.537Z",
+        "installMs": 6174,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-04Z-eb2637",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "validate_openflow_dsl",
+          "analyze_codebase",
+          "list_starter_templates",
+          "get_starter_template",
+          "list_diagram_node_types",
+          "server_info",
+          "find_icon",
+          "create_viewer_url"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.629Z",
         "installMs": 6312,
         "method": "npm",
@@ -22,6 +40,24 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:59.337Z",
+        "installMs": 3010,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-59Z-e212f4",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "validate_openflow_dsl",
+          "analyze_codebase",
+          "list_starter_templates",
+          "get_starter_template",
+          "list_diagram_node_types",
+          "server_info",
+          "find_icon",
+          "create_viewer_url"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:24.037Z",
         "installMs": 3063,
         "method": "npm",
@@ -41,6 +77,24 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:13.871Z",
+        "installMs": 91455,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-13Z-c3b399",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "validate_openflow_dsl",
+          "analyze_codebase",
+          "list_starter_templates",
+          "get_starter_template",
+          "list_diagram_node_types",
+          "server_info",
+          "find_icon",
+          "create_viewer_url"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:42.768Z",
         "installMs": 123749,

@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:04.537Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nERROR: Database connection configuration is required.\nPlease provide configuration in one of these ways (in order of priority):\n\n1. Use demo mode: --demo (uses in-memory SQLite with sample employee database)\n2. TOML config file: --config=path/to/dbhub.toml or ./dbhub.toml\n3. Command line argument: --dsn=\"your-connection-string\"\n4. Environment variable: export DSN=\"your-connection-string\"\n5. .env file: DSN=your-connection-string\n\nExample DSN formats:\n  - sqlserver: sqlserver://username:password@localhost:1433/database?sslmode=disable&instanceName=INSTANCE1\n  - sqlite: sqlite:///path/to/database.db\n  - mysql: mysql://root:password@localhost:3306/mysql?sslmode=require\n  - postgres: postgres://postgres:password@localhost:5432/postgres?sslmode=require\n  - mariadb: mariadb://root:password@localhost:3306/db?sslmode=require\n\nExample TOML config (dbhub.toml):\n  [[sources]]\n  id = \"my_db\"\n  dsn = \"postgres://user:pass@localhost:5432/dbname\"\n\nSee documentation for more details on configuring database connections.",
+        "installMs": 71031,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-04Z-eb2637",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-16T02:45:27.243Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nERROR: Database connection configuration is required.\nPlease provide configuration in one of these ways (in order of priority):\n\n1. Use demo mode: --demo (uses in-memory SQLite with sample employee database)\n2. TOML config file: --config=path/to/dbhub.toml or ./dbhub.toml\n3. Command line argument: --dsn=\"your-connection-string\"\n4. Environment variable: export DSN=\"your-connection-string\"\n5. .env file: DSN=your-connection-string\n\nExample DSN formats:\n  - sqlserver: sqlserver://username:password@localhost:1433/database?sslmode=disable&instanceName=INSTANCE1\n  - sqlite: sqlite:///path/to/database.db\n  - mysql: mysql://root:password@localhost:3306/mysql?sslmode=require\n  - postgres: postgres://postgres:password@localhost:5432/postgres?sslmode=require\n  - mariadb: mariadb://root:password@localhost:3306/db?sslmode=require\n\nExample TOML config (dbhub.toml):\n  [[sources]]\n  id = \"my_db\"\n  dsn = \"postgres://user:pass@localhost:5432/dbname\"\n\nSee documentation for more details on configuring database connections.",
         "installMs": 34574,
@@ -12,6 +20,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:59.337Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nERROR: Database connection configuration is required.\nPlease provide configuration in one of these ways (in order of priority):\n\n1. Use demo mode: --demo (uses in-memory SQLite with sample employee database)\n2. TOML config file: --config=path/to/dbhub.toml or ./dbhub.toml\n3. Command line argument: --dsn=\"your-connection-string\"\n4. Environment variable: export DSN=\"your-connection-string\"\n5. .env file: DSN=your-connection-string\n\nExample DSN formats:\n  - sqlserver: sqlserver://username:password@localhost:1433/database?sslmode=disable&instanceName=INSTANCE1\n  - sqlite: sqlite:///path/to/database.db\n  - mysql: mysql://root:password@localhost:3306/mysql?sslmode=require\n  - postgres: postgres://postgres:password@localhost:5432/postgres?sslmode=require\n  - mariadb: mariadb://root:password@localhost:3306/db?sslmode=require\n\nExample TOML config (dbhub.toml):\n  [[sources]]\n  id = \"my_db\"\n  dsn = \"postgres://user:pass@localhost:5432/dbname\"\n\nSee documentation for more details on configuring database connections.",
+        "installMs": 33025,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-59Z-e212f4",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-16T02:45:19.430Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nERROR: Database connection configuration is required.\nPlease provide configuration in one of these ways (in order of priority):\n\n1. Use demo mode: --demo (uses in-memory SQLite with sample employee database)\n2. TOML config file: --config=path/to/dbhub.toml or ./dbhub.toml\n3. Command line argument: --dsn=\"your-connection-string\"\n4. Environment variable: export DSN=\"your-connection-string\"\n5. .env file: DSN=your-connection-string\n\nExample DSN formats:\n  - sqlserver: sqlserver://username:password@localhost:1433/database?sslmode=disable&instanceName=INSTANCE1\n  - sqlite: sqlite:///path/to/database.db\n  - mysql: mysql://root:password@localhost:3306/mysql?sslmode=require\n  - postgres: postgres://postgres:password@localhost:5432/postgres?sslmode=require\n  - mariadb: mariadb://root:password@localhost:3306/db?sslmode=require\n\nExample TOML config (dbhub.toml):\n  [[sources]]\n  id = \"my_db\"\n  dsn = \"postgres://user:pass@localhost:5432/dbname\"\n\nSee documentation for more details on configuring database connections.",
         "installMs": 13648,
@@ -21,6 +37,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:13.871Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nERROR: Database connection configuration is required.\nPlease provide configuration in one of these ways (in order of priority):\n\n1. Use demo mode: --demo (uses in-memory SQLite with sample employee database)\n2. TOML config file: --config=path/to/dbhub.toml or ./dbhub.toml\n3. Command line argument: --dsn=\"your-connection-string\"\n4. Environment variable: export DSN=\"your-connection-string\"\n5. .env file: DSN=your-connection-string\n\nExample DSN formats:\n  - sqlserver: sqlserver://username:password@localhost:1433/database?sslmode=disable&instanceName=INSTANCE1\n  - sqlite: sqlite:///path/to/database.db\n  - mysql: mysql://root:password@localhost:3306/mysql?sslmode=require\n  - postgres: postgres://postgres:password@localhost:5432/postgres?sslmode=require\n  - mariadb: mariadb://root:password@localhost:3306/db?sslmode=require\n\nExample TOML config (dbhub.toml):\n  [[sources]]\n  id = \"my_db\"\n  dsn = \"postgres://user:pass@localhost:5432/dbname\"\n\nSee documentation for more details on configuring database connections.",
+        "installMs": 163695,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-13Z-c3b399",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-16T02:45:39.090Z",
         "errorExcerpt": "npm install @bytebase/dbhub@1.2.0 timed out after 600s",

@@ -1,0 +1,48 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T15:42:04.537Z",
+        "method": "pypi",
+        "runId": "2026-08-16T15-42-04Z-eb2637",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "list_databases",
+          "list_tables",
+          "run_query"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T15:41:59.337Z",
+        "method": "pypi",
+        "runId": "2026-08-16T15-41-59Z-e212f4",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "list_databases",
+          "list_tables",
+          "run_query"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T15:42:13.871Z",
+        "method": "pypi",
+        "runId": "2026-08-16T15-42-13Z-c3b399",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "list_databases",
+          "list_tables",
+          "run_query"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.ClickHouse/mcp-clickhouse",
+  "slug": "io.github.clickhouse__mcp-clickhouse"
+}

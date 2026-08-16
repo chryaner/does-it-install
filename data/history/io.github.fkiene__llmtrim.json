@@ -2,6 +2,19 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:00.997Z",
+        "installMs": 1990,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-00Z-c4e177",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "llmtrim_compress",
+          "llmtrim_compress_text",
+          "llmtrim_stats"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.243Z",
         "installMs": 3706,
         "method": "npm",
@@ -29,6 +42,19 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:56.759Z",
+        "installMs": 2219,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-56Z-6a1d71",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "llmtrim_compress",
+          "llmtrim_compress_text",
+          "llmtrim_stats"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:19.430Z",
         "installMs": 2294,
         "method": "npm",
@@ -55,6 +81,19 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:18.905Z",
+        "installMs": 4651,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-18Z-c48a3e",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "llmtrim_compress",
+          "llmtrim_compress_text",
+          "llmtrim_stats"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:39.090Z",
         "installMs": 6579,

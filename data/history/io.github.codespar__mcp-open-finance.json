@@ -2,6 +2,34 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:04.537Z",
+        "installMs": 5493,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-04Z-eb2637",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "list_accounts",
+          "get_account_balance",
+          "list_transactions",
+          "get_account_overdraft_limits",
+          "get_consent",
+          "create_consent",
+          "revoke_consent",
+          "list_credit_cards",
+          "get_credit_card_bills",
+          "get_credit_card_transactions",
+          "list_loans",
+          "get_loan_payments",
+          "list_financings",
+          "list_investments",
+          "create_payment_consent",
+          "create_payment",
+          "get_personal_qualifications",
+          "get_business_qualifications"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.629Z",
         "installMs": 4263,
         "method": "npm",
@@ -32,6 +60,34 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:59.337Z",
+        "installMs": 3031,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-59Z-e212f4",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "list_accounts",
+          "get_account_balance",
+          "list_transactions",
+          "get_account_overdraft_limits",
+          "get_consent",
+          "create_consent",
+          "revoke_consent",
+          "list_credit_cards",
+          "get_credit_card_bills",
+          "get_credit_card_transactions",
+          "list_loans",
+          "get_loan_payments",
+          "list_financings",
+          "list_investments",
+          "create_payment_consent",
+          "create_payment",
+          "get_personal_qualifications",
+          "get_business_qualifications"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:24.037Z",
         "installMs": 3038,
         "method": "npm",
@@ -61,6 +117,34 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:13.871Z",
+        "installMs": 95278,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-13Z-c3b399",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "list_accounts",
+          "get_account_balance",
+          "list_transactions",
+          "get_account_overdraft_limits",
+          "get_consent",
+          "create_consent",
+          "revoke_consent",
+          "list_credit_cards",
+          "get_credit_card_bills",
+          "get_credit_card_transactions",
+          "list_loans",
+          "get_loan_payments",
+          "list_financings",
+          "list_investments",
+          "create_payment_consent",
+          "create_payment",
+          "get_personal_qualifications",
+          "get_business_qualifications"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:42.768Z",
         "installMs": 132725,

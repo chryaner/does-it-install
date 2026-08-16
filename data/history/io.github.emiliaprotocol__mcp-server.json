@@ -2,6 +2,33 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:41:59.741Z",
+        "installMs": 5542,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-59Z-dbe80d",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "ep_guard_action",
+          "ep_check_signoff",
+          "ep_verify_receipt",
+          "ep_install_preflight",
+          "ep_list_policies",
+          "ep_create_delegation",
+          "ep_verify_delegation",
+          "ep_issue_commit",
+          "ep_verify_commit",
+          "ep_get_commit_status",
+          "ep_revoke_commit",
+          "ep_bind_receipt_to_commit",
+          "ep_initiate_handshake",
+          "ep_add_presentation",
+          "ep_verify_handshake",
+          "ep_get_handshake",
+          "ep_revoke_handshake"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:24.166Z",
         "installMs": 4504,
         "method": "npm",
@@ -57,6 +84,33 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:42:02.544Z",
+        "installMs": 4612,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-02Z-d4ddba",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "ep_guard_action",
+          "ep_check_signoff",
+          "ep_verify_receipt",
+          "ep_install_preflight",
+          "ep_list_policies",
+          "ep_create_delegation",
+          "ep_verify_delegation",
+          "ep_issue_commit",
+          "ep_verify_commit",
+          "ep_get_commit_status",
+          "ep_revoke_commit",
+          "ep_bind_receipt_to_commit",
+          "ep_initiate_handshake",
+          "ep_add_presentation",
+          "ep_verify_handshake",
+          "ep_get_handshake",
+          "ep_revoke_handshake"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:18.892Z",
         "installMs": 4069,
         "method": "npm",
@@ -111,6 +165,33 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:15.480Z",
+        "installMs": 94554,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-15Z-299164",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "ep_guard_action",
+          "ep_check_signoff",
+          "ep_verify_receipt",
+          "ep_install_preflight",
+          "ep_list_policies",
+          "ep_create_delegation",
+          "ep_verify_delegation",
+          "ep_issue_commit",
+          "ep_verify_commit",
+          "ep_get_commit_status",
+          "ep_revoke_commit",
+          "ep_bind_receipt_to_commit",
+          "ep_initiate_handshake",
+          "ep_add_presentation",
+          "ep_verify_handshake",
+          "ep_get_handshake",
+          "ep_revoke_handshake"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:38.462Z",
         "installMs": 102087,

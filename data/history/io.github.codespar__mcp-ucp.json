@@ -2,6 +2,36 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:00.997Z",
+        "installMs": 3203,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-00Z-c4e177",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "search_products",
+          "get_product",
+          "check_availability",
+          "list_merchants",
+          "create_cart",
+          "add_to_cart",
+          "remove_from_cart",
+          "get_cart",
+          "clear_cart",
+          "get_delivery_options",
+          "initiate_checkout",
+          "apply_payment",
+          "confirm_order",
+          "get_order",
+          "list_orders",
+          "cancel_order",
+          "request_return",
+          "track_shipment",
+          "link_identity",
+          "get_profile"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.243Z",
         "installMs": 8232,
         "method": "npm",
@@ -34,6 +64,36 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:56.759Z",
+        "installMs": 4172,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-56Z-6a1d71",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "search_products",
+          "get_product",
+          "check_availability",
+          "list_merchants",
+          "create_cart",
+          "add_to_cart",
+          "remove_from_cart",
+          "get_cart",
+          "clear_cart",
+          "get_delivery_options",
+          "initiate_checkout",
+          "apply_payment",
+          "confirm_order",
+          "get_order",
+          "list_orders",
+          "cancel_order",
+          "request_return",
+          "track_shipment",
+          "link_identity",
+          "get_profile"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:19.430Z",
         "installMs": 4069,
         "method": "npm",
@@ -65,6 +125,36 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:18.905Z",
+        "installMs": 118920,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-18Z-c48a3e",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "search_products",
+          "get_product",
+          "check_availability",
+          "list_merchants",
+          "create_cart",
+          "add_to_cart",
+          "remove_from_cart",
+          "get_cart",
+          "clear_cart",
+          "get_delivery_options",
+          "initiate_checkout",
+          "apply_payment",
+          "confirm_order",
+          "get_order",
+          "list_orders",
+          "cancel_order",
+          "request_return",
+          "track_shipment",
+          "link_identity",
+          "get_profile"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:39.090Z",
         "installMs": 175946,

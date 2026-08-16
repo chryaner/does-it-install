@@ -2,6 +2,37 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:00.997Z",
+        "method": "remote-http",
+        "runId": "2026-08-16T15-42-00Z-c4e177",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "get_batch_job_status",
+          "machine_translate",
+          "store_big_meta",
+          "list_branches",
+          "create_branch",
+          "delete_branch",
+          "list_keys",
+          "search_keys",
+          "create_keys",
+          "get_key",
+          "update_key",
+          "delete_keys",
+          "list_languages",
+          "create_language",
+          "list_namespaces",
+          "list_projects",
+          "create_project",
+          "get_project_language_statistics",
+          "list_tags",
+          "tag_keys",
+          "get_translations",
+          "set_translation"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.243Z",
         "method": "remote-http",
         "runId": "2026-08-16T02-45-27Z-9a6687",
@@ -35,6 +66,37 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:56.759Z",
+        "method": "remote-http",
+        "runId": "2026-08-16T15-41-56Z-6a1d71",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "get_batch_job_status",
+          "machine_translate",
+          "store_big_meta",
+          "list_branches",
+          "create_branch",
+          "delete_branch",
+          "list_keys",
+          "search_keys",
+          "create_keys",
+          "get_key",
+          "update_key",
+          "delete_keys",
+          "list_languages",
+          "create_language",
+          "list_namespaces",
+          "list_projects",
+          "create_project",
+          "get_project_language_statistics",
+          "list_tags",
+          "tag_keys",
+          "get_translations",
+          "set_translation"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:19.430Z",
         "method": "remote-http",
         "runId": "2026-08-16T02-45-19Z-fe02e7",
@@ -67,6 +129,37 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:18.905Z",
+        "method": "remote-http",
+        "runId": "2026-08-16T15-42-18Z-c48a3e",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "get_batch_job_status",
+          "machine_translate",
+          "store_big_meta",
+          "list_branches",
+          "create_branch",
+          "delete_branch",
+          "list_keys",
+          "search_keys",
+          "create_keys",
+          "get_key",
+          "update_key",
+          "delete_keys",
+          "list_languages",
+          "create_language",
+          "list_namespaces",
+          "list_projects",
+          "create_project",
+          "get_project_language_statistics",
+          "list_tags",
+          "tag_keys",
+          "get_translations",
+          "set_translation"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:39.090Z",
         "method": "remote-http",

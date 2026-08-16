@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:00.997Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nOuroboros collects anonymous usage data (commands, versions, success rates - never code, prompts, or file contents) to guide improvements and to publish aggregate adoption stats.\nOpt out anytime: export OUROBOROS_TELEMETRY=0  |  details: https://github.com/Q00/ouroboros/blob/main/TELEMETRY.md\n\nMCP dependencies not installed: MCP SDK v2 server API unavailable. Install with:\npip install 'ouroboros-ai[mcp]'\nRun MCP 2 in an isolated profile:\n  uvx --isolated --python '>=3.12' --from 'ouroboros-ai[mcp]' ouroboros mcp \nserve --runtime claude-cli\nor:\n  pipx run --spec 'ouroboros-ai[mcp]' ouroboros mcp serve --runtime claude-cli\nDo not combine it with the MCP 1.x-based [claude] or [claude-sdk] extras; use \n[claude-cli] for the CLI path.",
+        "method": "pypi",
+        "runId": "2026-08-16T15-42-00Z-c4e177",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-16T02:45:27.243Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nOuroboros collects anonymous usage data (commands, versions, success rates - never code, prompts, or file contents) to guide improvements and to publish aggregate adoption stats.\nOpt out anytime: export OUROBOROS_TELEMETRY=0  |  details: https://github.com/Q00/ouroboros/blob/main/TELEMETRY.md\n\nMCP dependencies not installed: MCP SDK v2 server API unavailable. Install with:\npip install 'ouroboros-ai[mcp]'\nRun MCP 2 in an isolated profile:\n  uvx --isolated --python '>=3.12' --from 'ouroboros-ai[mcp]' ouroboros mcp \nserve --runtime claude-cli\nor:\n  pipx run --spec 'ouroboros-ai[mcp]' ouroboros mcp serve --runtime claude-cli\nDo not combine it with the MCP 1.x-based [claude] or [claude-sdk] extras; use \n[claude-cli] for the CLI path.",
         "method": "pypi",
@@ -11,6 +18,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:56.759Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nOuroboros collects anonymous usage data (commands, versions, success rates - never code, prompts, or file contents) to guide improvements and to publish aggregate adoption stats.\nOpt out anytime: export OUROBOROS_TELEMETRY=0  |  details: https://github.com/Q00/ouroboros/blob/main/TELEMETRY.md\n\nMCP dependencies not installed: MCP SDK v2 server API unavailable. Install with:\npip install 'ouroboros-ai[mcp]'\nRun MCP 2 in an isolated profile:\n  uvx --isolated --python '>=3.12' --from 'ouroboros-ai[mcp]' ouroboros mcp \nserve --runtime claude-cli\nor:\n  pipx run --spec 'ouroboros-ai[mcp]' ouroboros mcp serve --runtime claude-cli\nDo not combine it with the MCP 1.x-based [claude] or [claude-sdk] extras; use \n[claude-cli] for the CLI path.",
+        "method": "pypi",
+        "runId": "2026-08-16T15-41-56Z-6a1d71",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-16T02:45:19.430Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nOuroboros collects anonymous usage data (commands, versions, success rates - never code, prompts, or file contents) to guide improvements and to publish aggregate adoption stats.\nOpt out anytime: export OUROBOROS_TELEMETRY=0  |  details: https://github.com/Q00/ouroboros/blob/main/TELEMETRY.md\n\nMCP dependencies not installed: MCP SDK v2 server API unavailable. Install with:\npip install 'ouroboros-ai[mcp]'\nRun MCP 2 in an isolated profile:\n  uvx --isolated --python '>=3.12' --from 'ouroboros-ai[mcp]' ouroboros mcp \nserve --runtime claude-cli\nor:\n  pipx run --spec 'ouroboros-ai[mcp]' ouroboros mcp serve --runtime claude-cli\nDo not combine it with the MCP 1.x-based [claude] or [claude-sdk] extras; use \n[claude-cli] for the CLI path.",
         "method": "pypi",
@@ -19,6 +33,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:18.905Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nOuroboros collects anonymous usage data (commands, versions, success rates - never code, prompts, or file contents) to guide improvements and to publish aggregate adoption stats.\r\nOpt out anytime: export OUROBOROS_TELEMETRY=0  |  details: https://github.com/Q00/ouroboros/blob/main/TELEMETRY.md\r\n\r\nMCP dependencies not installed: MCP SDK v2 server API unavailable. Install \r\nwith: pip install 'ouroboros-ai[mcp]'\r\nRun MCP 2 in an isolated profile:\r\n  uvx --isolated --python '>=3.12' --from 'ouroboros-ai[mcp]' ouroboros mcp \r\nserve --runtime claude-cli\r\nor:\r\n  pipx run --spec 'ouroboros-ai[mcp]' ouroboros mcp serve --runtime claude-cli\r\nDo not combine it with the MCP 1.x-based [claude] or [claude-sdk] extras; use \r\n[claude-cli] for the CLI path.",
+        "method": "pypi",
+        "runId": "2026-08-16T15-42-18Z-c48a3e",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-16T02:45:39.090Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nOuroboros collects anonymous usage data (commands, versions, success rates - never code, prompts, or file contents) to guide improvements and to publish aggregate adoption stats.\r\nOpt out anytime: export OUROBOROS_TELEMETRY=0  |  details: https://github.com/Q00/ouroboros/blob/main/TELEMETRY.md\r\n\r\nMCP dependencies not installed: MCP SDK v2 server API unavailable. Install \r\nwith: pip install 'ouroboros-ai[mcp]'\r\nRun MCP 2 in an isolated profile:\r\n  uvx --isolated --python '>=3.12' --from 'ouroboros-ai[mcp]' ouroboros mcp \r\nserve --runtime claude-cli\r\nor:\r\n  pipx run --spec 'ouroboros-ai[mcp]' ouroboros mcp serve --runtime claude-cli\r\nDo not combine it with the MCP 1.x-based [claude] or [claude-sdk] extras; use \r\n[claude-cli] for the CLI path.",

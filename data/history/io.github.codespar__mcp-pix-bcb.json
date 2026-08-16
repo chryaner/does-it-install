@@ -2,6 +2,34 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:04.537Z",
+        "installMs": 6076,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-04Z-eb2637",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_cob",
+          "get_cob",
+          "list_cobs",
+          "update_cob",
+          "create_cobv",
+          "list_cobv",
+          "update_cobv",
+          "get_pix",
+          "list_pix_received",
+          "create_devolucao",
+          "get_devolucao",
+          "create_pix_key",
+          "get_pix_key",
+          "list_pix_keys",
+          "request_key_portability",
+          "resolve_key_claim",
+          "set_webhook",
+          "delete_webhook"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.629Z",
         "installMs": 3865,
         "method": "npm",
@@ -32,6 +60,34 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:59.337Z",
+        "installMs": 2946,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-59Z-e212f4",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_cob",
+          "get_cob",
+          "list_cobs",
+          "update_cob",
+          "create_cobv",
+          "list_cobv",
+          "update_cobv",
+          "get_pix",
+          "list_pix_received",
+          "create_devolucao",
+          "get_devolucao",
+          "create_pix_key",
+          "get_pix_key",
+          "list_pix_keys",
+          "request_key_portability",
+          "resolve_key_claim",
+          "set_webhook",
+          "delete_webhook"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:24.037Z",
         "installMs": 3295,
         "method": "npm",
@@ -61,6 +117,34 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:13.871Z",
+        "installMs": 95574,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-13Z-c3b399",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_cob",
+          "get_cob",
+          "list_cobs",
+          "update_cob",
+          "create_cobv",
+          "list_cobv",
+          "update_cobv",
+          "get_pix",
+          "list_pix_received",
+          "create_devolucao",
+          "get_devolucao",
+          "create_pix_key",
+          "get_pix_key",
+          "list_pix_keys",
+          "request_key_portability",
+          "resolve_key_claim",
+          "set_webhook",
+          "delete_webhook"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:42.768Z",
         "installMs": 128631,

@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:04.537Z",
+        "errorExcerpt": "listTools failed: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"No valid authentication. Sign in at /connect to get your MCP token.\",\"oauth\":{\"protocol\":\"oauth_2_1\",\"preferred_flow\":\"authorization_code_pkce\",\"authorization_code_pkce\":true,\"resource_metadata\":\"https://notfair.co/.well-known/oauth-protected-resource/api/mcp/meta_ads\"},\"fallback\":{\"url\":\"https://notfair.co/connect\",\"label\":\"Legacy/manual token fallback\",\"preferred\":false}}",
+        "method": "remote-http",
+        "runId": "2026-08-16T15-42-04Z-eb2637",
+        "status": "tools_failed"
+      },
+      {
         "date": "2026-08-16T02:45:27.629Z",
         "errorExcerpt": "listTools failed: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"No valid authentication. Sign in at /connect to get your MCP token.\",\"oauth\":{\"protocol\":\"oauth_2_1\",\"preferred_flow\":\"authorization_code_pkce\",\"authorization_code_pkce\":true,\"resource_metadata\":\"https://notfair.co/.well-known/oauth-protected-resource/api/mcp/meta_ads\"},\"fallback\":{\"url\":\"https://notfair.co/connect\",\"label\":\"Legacy/manual token fallback\",\"preferred\":false}}",
         "method": "remote-http",
@@ -11,6 +18,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:59.337Z",
+        "errorExcerpt": "listTools failed: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"No valid authentication. Sign in at /connect to get your MCP token.\",\"oauth\":{\"protocol\":\"oauth_2_1\",\"preferred_flow\":\"authorization_code_pkce\",\"authorization_code_pkce\":true,\"resource_metadata\":\"https://notfair.co/.well-known/oauth-protected-resource/api/mcp/meta_ads\"},\"fallback\":{\"url\":\"https://notfair.co/connect\",\"label\":\"Legacy/manual token fallback\",\"preferred\":false}}",
+        "method": "remote-http",
+        "runId": "2026-08-16T15-41-59Z-e212f4",
+        "status": "tools_failed"
+      },
+      {
         "date": "2026-08-16T02:45:24.037Z",
         "errorExcerpt": "listTools failed: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"No valid authentication. Sign in at /connect to get your MCP token.\",\"oauth\":{\"protocol\":\"oauth_2_1\",\"preferred_flow\":\"authorization_code_pkce\",\"authorization_code_pkce\":true,\"resource_metadata\":\"https://notfair.co/.well-known/oauth-protected-resource/api/mcp/meta_ads\"},\"fallback\":{\"url\":\"https://notfair.co/connect\",\"label\":\"Legacy/manual token fallback\",\"preferred\":false}}",
         "method": "remote-http",
@@ -19,6 +33,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:13.871Z",
+        "errorExcerpt": "listTools failed: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"No valid authentication. Sign in at /connect to get your MCP token.\",\"oauth\":{\"protocol\":\"oauth_2_1\",\"preferred_flow\":\"authorization_code_pkce\",\"authorization_code_pkce\":true,\"resource_metadata\":\"https://notfair.co/.well-known/oauth-protected-resource/api/mcp/meta_ads\"},\"fallback\":{\"url\":\"https://notfair.co/connect\",\"label\":\"Legacy/manual token fallback\",\"preferred\":false}}",
+        "method": "remote-http",
+        "runId": "2026-08-16T15-42-13Z-c3b399",
+        "status": "tools_failed"
+      },
       {
         "date": "2026-08-16T02:45:42.768Z",
         "errorExcerpt": "listTools failed: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"No valid authentication. Sign in at /connect to get your MCP token.\",\"oauth\":{\"protocol\":\"oauth_2_1\",\"preferred_flow\":\"authorization_code_pkce\",\"authorization_code_pkce\":true,\"resource_metadata\":\"https://notfair.co/.well-known/oauth-protected-resource/api/mcp/meta_ads\"},\"fallback\":{\"url\":\"https://notfair.co/connect\",\"label\":\"Legacy/manual token fallback\",\"preferred\":false}}",

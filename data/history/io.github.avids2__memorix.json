@@ -2,6 +2,25 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:00.997Z",
+        "installMs": 23351,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-00Z-c4e177",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "memorix_store",
+          "memorix_search",
+          "memorix_project_context",
+          "memorix_codegraph_status",
+          "memorix_context_pack",
+          "memorix_resolve",
+          "memorix_detail",
+          "memorix_session_start",
+          "memorix_media"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:24.166Z",
         "installMs": 13961,
         "method": "npm",
@@ -23,6 +42,25 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:56.759Z",
+        "installMs": 13093,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-56Z-6a1d71",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "memorix_store",
+          "memorix_search",
+          "memorix_project_context",
+          "memorix_codegraph_status",
+          "memorix_context_pack",
+          "memorix_resolve",
+          "memorix_detail",
+          "memorix_session_start",
+          "memorix_media"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:18.892Z",
         "installMs": 8870,
         "method": "npm",
@@ -43,6 +81,25 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:18.905Z",
+        "installMs": 403258,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-18Z-c48a3e",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "memorix_store",
+          "memorix_search",
+          "memorix_project_context",
+          "memorix_codegraph_status",
+          "memorix_context_pack",
+          "memorix_resolve",
+          "memorix_detail",
+          "memorix_session_start",
+          "memorix_media"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:38.462Z",
         "installMs": 194271,

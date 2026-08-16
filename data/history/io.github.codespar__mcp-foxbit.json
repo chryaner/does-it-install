@@ -2,6 +2,37 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:04.537Z",
+        "installMs": 5436,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-04Z-eb2637",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "list_markets",
+          "list_currencies",
+          "get_currency",
+          "get_ticker",
+          "get_orderbook",
+          "get_market_trades",
+          "get_candles",
+          "get_account_balances",
+          "get_balance",
+          "create_order",
+          "get_order",
+          "list_orders",
+          "cancel_order",
+          "list_trades",
+          "list_deposits_withdrawals",
+          "create_pix_deposit",
+          "list_pix_deposits",
+          "create_pix_withdrawal",
+          "list_pix_withdrawals",
+          "create_crypto_withdrawal",
+          "get_trading_fees"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.629Z",
         "installMs": 3794,
         "method": "npm",
@@ -35,6 +66,37 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:59.337Z",
+        "installMs": 3029,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-59Z-e212f4",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "list_markets",
+          "list_currencies",
+          "get_currency",
+          "get_ticker",
+          "get_orderbook",
+          "get_market_trades",
+          "get_candles",
+          "get_account_balances",
+          "get_balance",
+          "create_order",
+          "get_order",
+          "list_orders",
+          "cancel_order",
+          "list_trades",
+          "list_deposits_withdrawals",
+          "create_pix_deposit",
+          "list_pix_deposits",
+          "create_pix_withdrawal",
+          "list_pix_withdrawals",
+          "create_crypto_withdrawal",
+          "get_trading_fees"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:24.037Z",
         "installMs": 3103,
         "method": "npm",
@@ -67,6 +129,37 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:13.871Z",
+        "installMs": 97834,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-13Z-c3b399",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "list_markets",
+          "list_currencies",
+          "get_currency",
+          "get_ticker",
+          "get_orderbook",
+          "get_market_trades",
+          "get_candles",
+          "get_account_balances",
+          "get_balance",
+          "create_order",
+          "get_order",
+          "list_orders",
+          "cancel_order",
+          "list_trades",
+          "list_deposits_withdrawals",
+          "create_pix_deposit",
+          "list_pix_deposits",
+          "create_pix_withdrawal",
+          "list_pix_withdrawals",
+          "create_crypto_withdrawal",
+          "get_trading_fees"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:42.768Z",
         "installMs": 129817,

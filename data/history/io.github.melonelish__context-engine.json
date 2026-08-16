@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:04.537Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: context-engine [OPTIONS] COMMAND [ARGS]...\nTry 'context-engine --help' for help.\n╭─ Error ──────────────────────────────────────────────────────────────────────╮\n│ Missing option '--input'.                                                    │\n╰──────────────────────────────────────────────────────────────────────────────╯",
+        "method": "pypi",
+        "runId": "2026-08-16T15-42-04Z-eb2637",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-16T02:45:24.166Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: context-engine [OPTIONS] COMMAND [ARGS]...\nTry 'context-engine --help' for help.\n╭─ Error ──────────────────────────────────────────────────────────────────────╮\n│ Missing option '--input'.                                                    │\n╰──────────────────────────────────────────────────────────────────────────────╯",
         "method": "pypi",
@@ -11,6 +18,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:59.337Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: context-engine [OPTIONS] COMMAND [ARGS]...\nTry 'context-engine --help' for help.\n╭─ Error ──────────────────────────────────────────────────────────────────────╮\n│ Missing option '--input'.                                                    │\n╰──────────────────────────────────────────────────────────────────────────────╯",
+        "method": "pypi",
+        "runId": "2026-08-16T15-41-59Z-e212f4",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-16T02:45:18.892Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: context-engine [OPTIONS] COMMAND [ARGS]...\nTry 'context-engine --help' for help.\n╭─ Error ──────────────────────────────────────────────────────────────────────╮\n│ Missing option '--input'.                                                    │\n╰──────────────────────────────────────────────────────────────────────────────╯",
         "method": "pypi",
@@ -19,6 +33,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:13.871Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\HAPtTbTg7Q1SOXr4\\Scripts\\context-engine-mcp.exe\\__main__.py\", line 10, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\HAPtTbTg7Q1SOXr4\\Lib\\site-packages\\context_engine\\mcp_server.py\", line 44, in main\r\n    get_mcp_server().run(transport=\"stdio\")\r\n    ^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\HAPtTbTg7Q1SOXr4\\Lib\\site-packages\\context_engine\\mcp_server.py\", line 39, in get_mcp_server\r\n    raise RuntimeError(\"fastmcp is not installed. Install with `python -m pip install -e .[mcp]`.\")\r\nRuntimeError: fastmcp is not installed. Install with `python -m pip install -e .[mcp]`.",
+        "method": "pypi",
+        "runId": "2026-08-16T15-42-13Z-c3b399",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-16T02:45:38.462Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\3osEbewvcE8qoLqK\\Scripts\\context-engine-mcp.exe\\__main__.py\", line 10, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\3osEbewvcE8qoLqK\\Lib\\site-packages\\context_engine\\mcp_server.py\", line 44, in main\r\n    get_mcp_server().run(transport=\"stdio\")\r\n    ^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\3osEbewvcE8qoLqK\\Lib\\site-packages\\context_engine\\mcp_server.py\", line 39, in get_mcp_server\r\n    raise RuntimeError(\"fastmcp is not installed. Install with `python -m pip install -e .[mcp]`.\")\r\nRuntimeError: fastmcp is not installed. Install with `python -m pip install -e .[mcp]`.",

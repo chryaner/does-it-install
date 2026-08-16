@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:00.997Z",
+        "errorExcerpt": "npm install neural-memory-mcp@4.27.2 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for neural-memory-mcp@4.27.2.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-KJDdGv/.npm-cache/_logs/2026-08-16T15_47_54_207Z-debug-0.log",
+        "installMs": 993,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-00Z-c4e177",
+        "status": "install_failed"
+      },
+      {
         "date": "2026-08-16T02:45:27.629Z",
         "errorExcerpt": "npm install neural-memory-mcp@4.27.2 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for neural-memory-mcp@4.27.2.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-fdpYbp/.npm-cache/_logs/2026-08-16T02_56_54_315Z-debug-0.log",
         "installMs": 428,
@@ -12,6 +20,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:56.759Z",
+        "errorExcerpt": "npm install neural-memory-mcp@4.27.2 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for neural-memory-mcp@4.27.2.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /tmp/does-it-install/dii-npm-M9vKXF/.npm-cache/_logs/2026-08-16T15_47_06_501Z-debug-0.log",
+        "installMs": 471,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-56Z-6a1d71",
+        "status": "install_failed"
+      },
+      {
         "date": "2026-08-16T02:45:24.037Z",
         "errorExcerpt": "npm install neural-memory-mcp@4.27.2 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for neural-memory-mcp@4.27.2.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /tmp/does-it-install/dii-npm-Xdo2su/.npm-cache/_logs/2026-08-16T02_54_21_117Z-debug-0.log",
         "installMs": 377,
@@ -21,6 +37,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:18.905Z",
+        "errorExcerpt": "npm install neural-memory-mcp@4.27.2 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for neural-memory-mcp@4.27.2.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-nEkJjl\\.npm-cache\\_logs\\2026-08-16T16_39_38_850Z-debug-0.log",
+        "installMs": 5324,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-18Z-c48a3e",
+        "status": "install_failed"
+      },
       {
         "date": "2026-08-16T02:45:42.768Z",
         "errorExcerpt": "npm install neural-memory-mcp@4.27.2 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for neural-memory-mcp@4.27.2.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-HZCqqW\\.npm-cache\\_logs\\2026-08-16T04_06_39_522Z-debug-0.log",

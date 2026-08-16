@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:04.537Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: 'h', \"  https://wo\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'T', \"Tools available:\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nUnexpected end of JSON input\nUnexpected token 'N', \"No authent\"... is not valid JSON\nUnexpected token 'M', \"More info:\"... is not valid JSON\nUnexpected end of JSON input",
+        "installMs": 1502,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-04Z-eb2637",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-16T02:45:27.629Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: 'h', \"  https://wo\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'T', \"Tools available:\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nUnexpected end of JSON input\nUnexpected token 'N', \"No authent\"... is not valid JSON\nUnexpected token 'M', \"More info:\"... is not valid JSON\nUnexpected end of JSON input",
         "installMs": 1060,
@@ -12,6 +20,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:59.337Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: 'h', \"  https://wo\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'T', \"Tools available:\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nUnexpected end of JSON input\nUnexpected token 'N', \"No authent\"... is not valid JSON\nUnexpected token 'M', \"More info:\"... is not valid JSON\nUnexpected end of JSON input",
+        "installMs": 758,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-59Z-e212f4",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-16T02:45:24.037Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: 'h', \"  https://wo\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'T', \"Tools available:\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nUnexpected end of JSON input\nUnexpected token 'N', \"No authent\"... is not valid JSON\nUnexpected token 'M', \"More info:\"... is not valid JSON\nUnexpected end of JSON input",
         "installMs": 769,
@@ -21,6 +37,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:13.871Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: 'h', \"  https://wo\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'T', \"Tools available:\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nUnexpected end of JSON input\nUnexpected token 'N', \"No authent\"... is not valid JSON\nUnexpected token 'M', \"More info:\"... is not valid JSON\nUnexpected end of JSON input",
+        "installMs": 6341,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-13Z-c3b399",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-16T02:45:42.768Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: 'h', \"  https://wo\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'T', \"Tools available:\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nUnexpected end of JSON input\nUnexpected token 'N', \"No authent\"... is not valid JSON\nUnexpected token 'M', \"More info:\"... is not valid JSON\nUnexpected end of JSON input",

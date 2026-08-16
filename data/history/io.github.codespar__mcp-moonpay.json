@@ -2,6 +2,36 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:04.537Z",
+        "installMs": 5832,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-04Z-eb2637",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "get_buy_quote",
+          "create_buy_transaction",
+          "get_buy_transaction",
+          "list_buy_transactions",
+          "get_sell_quote",
+          "create_sell_transaction",
+          "get_sell_transaction",
+          "refund_sell_transaction",
+          "create_customer",
+          "get_customer",
+          "get_customer_kyc_status",
+          "list_customer_transactions",
+          "get_transaction_receipt",
+          "list_currencies",
+          "get_currency",
+          "list_countries",
+          "list_payment_methods",
+          "get_user_country",
+          "sign_buy_url",
+          "sign_sell_url"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.629Z",
         "installMs": 3881,
         "method": "npm",
@@ -34,6 +64,36 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:59.337Z",
+        "installMs": 2999,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-59Z-e212f4",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "get_buy_quote",
+          "create_buy_transaction",
+          "get_buy_transaction",
+          "list_buy_transactions",
+          "get_sell_quote",
+          "create_sell_transaction",
+          "get_sell_transaction",
+          "refund_sell_transaction",
+          "create_customer",
+          "get_customer",
+          "get_customer_kyc_status",
+          "list_customer_transactions",
+          "get_transaction_receipt",
+          "list_currencies",
+          "get_currency",
+          "list_countries",
+          "list_payment_methods",
+          "get_user_country",
+          "sign_buy_url",
+          "sign_sell_url"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:24.037Z",
         "installMs": 3037,
         "method": "npm",
@@ -65,6 +125,36 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:13.871Z",
+        "installMs": 96107,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-13Z-c3b399",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "get_buy_quote",
+          "create_buy_transaction",
+          "get_buy_transaction",
+          "list_buy_transactions",
+          "get_sell_quote",
+          "create_sell_transaction",
+          "get_sell_transaction",
+          "refund_sell_transaction",
+          "create_customer",
+          "get_customer",
+          "get_customer_kyc_status",
+          "list_customer_transactions",
+          "get_transaction_receipt",
+          "list_currencies",
+          "get_currency",
+          "list_countries",
+          "list_payment_methods",
+          "get_user_country",
+          "sign_buy_url",
+          "sign_sell_url"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:42.768Z",
         "installMs": 129652,

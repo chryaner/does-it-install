@@ -2,6 +2,26 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:00.997Z",
+        "installMs": 8165,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-00Z-c4e177",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "get-server-info",
+          "get-opik-help",
+          "get-opik-examples",
+          "get-opik-metrics-info",
+          "get-opik-tracing-info",
+          "list-projects",
+          "list-traces",
+          "get-trace-by-id",
+          "get-trace-stats",
+          "get-trace-threads"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.243Z",
         "installMs": 20793,
         "method": "npm",
@@ -24,6 +44,26 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:56.759Z",
+        "installMs": 7982,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-56Z-6a1d71",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "get-server-info",
+          "get-opik-help",
+          "get-opik-examples",
+          "get-opik-metrics-info",
+          "get-opik-tracing-info",
+          "list-projects",
+          "list-traces",
+          "get-trace-by-id",
+          "get-trace-stats",
+          "get-trace-threads"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:19.430Z",
         "installMs": 7980,
         "method": "npm",
@@ -45,6 +85,26 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:18.905Z",
+        "installMs": 309207,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-18Z-c48a3e",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "get-server-info",
+          "get-opik-help",
+          "get-opik-examples",
+          "get-opik-metrics-info",
+          "get-opik-tracing-info",
+          "list-projects",
+          "list-traces",
+          "get-trace-by-id",
+          "get-trace-stats",
+          "get-trace-threads"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:39.090Z",
         "errorExcerpt": "npm install opik-mcp@2.0.2 timed out after 600s",

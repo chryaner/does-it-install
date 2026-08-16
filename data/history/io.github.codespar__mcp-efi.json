@@ -2,6 +2,34 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:04.537Z",
+        "installMs": 5003,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-04Z-eb2637",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_cob",
+          "get_cob",
+          "list_cobs",
+          "create_charge",
+          "get_charge",
+          "create_carnet",
+          "get_pix_key",
+          "create_pix_evp",
+          "create_cobv",
+          "get_cobv",
+          "update_cobv",
+          "create_devolucao",
+          "get_devolucao",
+          "list_pix_received",
+          "delete_pix_key",
+          "register_webhook",
+          "list_webhooks",
+          "delete_webhook"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.629Z",
         "installMs": 4489,
         "method": "npm",
@@ -32,6 +60,34 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:59.337Z",
+        "installMs": 3069,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-59Z-e212f4",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_cob",
+          "get_cob",
+          "list_cobs",
+          "create_charge",
+          "get_charge",
+          "create_carnet",
+          "get_pix_key",
+          "create_pix_evp",
+          "create_cobv",
+          "get_cobv",
+          "update_cobv",
+          "create_devolucao",
+          "get_devolucao",
+          "list_pix_received",
+          "delete_pix_key",
+          "register_webhook",
+          "list_webhooks",
+          "delete_webhook"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:24.037Z",
         "installMs": 3320,
         "method": "npm",
@@ -61,6 +117,34 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:13.871Z",
+        "installMs": 97220,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-13Z-c3b399",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_cob",
+          "get_cob",
+          "list_cobs",
+          "create_charge",
+          "get_charge",
+          "create_carnet",
+          "get_pix_key",
+          "create_pix_evp",
+          "create_cobv",
+          "get_cobv",
+          "update_cobv",
+          "create_devolucao",
+          "get_devolucao",
+          "list_pix_received",
+          "delete_pix_key",
+          "register_webhook",
+          "list_webhooks",
+          "delete_webhook"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:42.768Z",
         "installMs": 130082,

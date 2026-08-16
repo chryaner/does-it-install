@@ -2,6 +2,18 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:00.997Z",
+        "installMs": 9982,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-00Z-c4e177",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "run_audit",
+          "get_performance_score"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.243Z",
         "installMs": 20344,
         "method": "npm",
@@ -16,6 +28,18 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:56.759Z",
+        "installMs": 12948,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-56Z-6a1d71",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "run_audit",
+          "get_performance_score"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:19.430Z",
         "installMs": 14742,
         "method": "npm",
@@ -29,6 +53,18 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:18.905Z",
+        "installMs": 261336,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-18Z-c48a3e",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "run_audit",
+          "get_performance_score"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:39.090Z",
         "errorExcerpt": "npm install lighthouse-mcp@0.1.9 timed out after 600s",

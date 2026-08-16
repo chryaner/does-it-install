@@ -2,6 +2,38 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:04.537Z",
+        "installMs": 6042,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-04Z-eb2637",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "verify_account",
+          "authorize_payment",
+          "capture_payment",
+          "cancel_payment",
+          "refund_payment",
+          "reverse_payment",
+          "get_payment",
+          "create_token",
+          "get_token",
+          "update_token",
+          "delete_token",
+          "query_payment",
+          "list_payment_events",
+          "lookup_3ds",
+          "authenticate_3ds",
+          "challenge_3ds",
+          "get_dispute",
+          "defend_dispute",
+          "get_reconciliation_batch",
+          "accept_dispute",
+          "submit_dispute_evidence",
+          "fraud_screen"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.629Z",
         "installMs": 4803,
         "method": "npm",
@@ -36,6 +68,38 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:59.337Z",
+        "installMs": 3061,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-59Z-e212f4",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "verify_account",
+          "authorize_payment",
+          "capture_payment",
+          "cancel_payment",
+          "refund_payment",
+          "reverse_payment",
+          "get_payment",
+          "create_token",
+          "get_token",
+          "update_token",
+          "delete_token",
+          "query_payment",
+          "list_payment_events",
+          "lookup_3ds",
+          "authenticate_3ds",
+          "challenge_3ds",
+          "get_dispute",
+          "defend_dispute",
+          "get_reconciliation_batch",
+          "accept_dispute",
+          "submit_dispute_evidence",
+          "fraud_screen"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:24.037Z",
         "installMs": 3209,
         "method": "npm",
@@ -69,6 +133,38 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:13.871Z",
+        "installMs": 88305,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-13Z-c3b399",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "verify_account",
+          "authorize_payment",
+          "capture_payment",
+          "cancel_payment",
+          "refund_payment",
+          "reverse_payment",
+          "get_payment",
+          "create_token",
+          "get_token",
+          "update_token",
+          "delete_token",
+          "query_payment",
+          "list_payment_events",
+          "lookup_3ds",
+          "authenticate_3ds",
+          "challenge_3ds",
+          "get_dispute",
+          "defend_dispute",
+          "get_reconciliation_batch",
+          "accept_dispute",
+          "submit_dispute_evidence",
+          "fraud_screen"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:42.768Z",
         "installMs": 133005,

@@ -2,6 +2,27 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:00.997Z",
+        "installMs": 27728,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-00Z-c4e177",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "add_document",
+          "delete_document",
+          "search_documents",
+          "get_document",
+          "list_documents",
+          "search_all_documents",
+          "get_context_window",
+          "get_ui_url",
+          "get_uploads_path",
+          "process_uploads",
+          "list_uploads_files"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.629Z",
         "installMs": 26480,
         "method": "npm",
@@ -25,6 +46,27 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:56.759Z",
+        "installMs": 17768,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-56Z-6a1d71",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "add_document",
+          "delete_document",
+          "search_documents",
+          "get_document",
+          "list_documents",
+          "search_all_documents",
+          "get_context_window",
+          "get_ui_url",
+          "get_uploads_path",
+          "process_uploads",
+          "list_uploads_files"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:24.037Z",
         "installMs": 11979,
         "method": "npm",
@@ -47,6 +89,27 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:18.905Z",
+        "installMs": 313175,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-18Z-c48a3e",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "add_document",
+          "delete_document",
+          "search_documents",
+          "get_document",
+          "list_documents",
+          "search_all_documents",
+          "get_context_window",
+          "get_ui_url",
+          "get_uploads_path",
+          "process_uploads",
+          "list_uploads_files"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:42.768Z",
         "installMs": 481647,

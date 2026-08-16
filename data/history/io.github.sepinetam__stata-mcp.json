@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:04.537Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading openai-agents (1.0MiB)\n Downloaded openai-agents\nInstalled 74 packages in 1.02s\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/0AQ2sNpuJnR03Xxb/bin/stata-mcp\", line 6, in <module>\n    from stata_mcp.cli import main\n  File \"/Users/runner/.cache/uv/archive-v0/0AQ2sNpuJnR03Xxb/lib/python3.14/site-packages/stata_mcp/__init__.py\", line 4, in <module>\n    from .mcp_servers import stata_mcp\n  File \"/Users/runner/.cache/uv/archive-v0/0AQ2sNpuJnR03Xxb/lib/python3.14/site-packages/stata_mcp/mcp_servers.py\", line 17, in <module>\n    from mcp.server.fastmcp import FastMCP, Icon, Image\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-16T15-42-04Z-eb2637",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-16T02:45:27.629Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading openai-agents (1.0MiB)\n Downloaded openai-agents\nInstalled 74 packages in 622ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/l3RymdUqrIaczhrk/bin/stata-mcp\", line 6, in <module>\n    from stata_mcp.cli import main\n  File \"/Users/runner/.cache/uv/archive-v0/l3RymdUqrIaczhrk/lib/python3.14/site-packages/stata_mcp/__init__.py\", line 4, in <module>\n    from .mcp_servers import stata_mcp\n  File \"/Users/runner/.cache/uv/archive-v0/l3RymdUqrIaczhrk/lib/python3.14/site-packages/stata_mcp/mcp_servers.py\", line 17, in <module>\n    from mcp.server.fastmcp import FastMCP, Icon, Image\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
         "method": "pypi",
@@ -11,6 +18,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:59.337Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading openai-agents (1.0MiB)\nDownloading pyreadstat (2.6MiB)\n Downloaded pyreadstat\n Downloaded openai-agents\nInstalled 74 packages in 71ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/0zwMWrMSv1gWOgFF/bin/stata-mcp\", line 6, in <module>\n    from stata_mcp.cli import main\n  File \"/home/runner/.cache/uv/archive-v0/0zwMWrMSv1gWOgFF/lib/python3.12/site-packages/stata_mcp/__init__.py\", line 4, in <module>\n    from .mcp_servers import stata_mcp\n  File \"/home/runner/.cache/uv/archive-v0/0zwMWrMSv1gWOgFF/lib/python3.12/site-packages/stata_mcp/mcp_servers.py\", line 17, in <module>\n    from mcp.server.fastmcp import FastMCP, Icon, Image\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-16T15-41-59Z-e212f4",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-16T02:45:24.037Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading pyreadstat (2.5MiB)\nDownloading openai-agents (1.0MiB)\n Downloaded pyreadstat\n Downloaded openai-agents\nInstalled 74 packages in 80ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/mgbfwhWkEH_8MLhR/bin/stata-mcp\", line 6, in <module>\n    from stata_mcp.cli import main\n  File \"/home/runner/.cache/uv/archive-v0/mgbfwhWkEH_8MLhR/lib/python3.13/site-packages/stata_mcp/__init__.py\", line 4, in <module>\n    from .mcp_servers import stata_mcp\n  File \"/home/runner/.cache/uv/archive-v0/mgbfwhWkEH_8MLhR/lib/python3.13/site-packages/stata_mcp/mcp_servers.py\", line 17, in <module>\n    from mcp.server.fastmcp import FastMCP, Icon, Image\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
         "method": "pypi",
@@ -19,6 +33,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:13.871Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading pyreadstat (1.9MiB)\nDownloading openai-agents (1.0MiB)\n Downloaded pyreadstat\n Downloaded openai-agents\nInstalled 77 packages in 25.69s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\aw1eHk8jVQIHwO_7\\Scripts\\stata-mcp.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\aw1eHk8jVQIHwO_7\\Lib\\site-packages\\stata_mcp\\__init__.py\", line 4, in <module>\r\n    from .mcp_servers import stata_mcp\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\aw1eHk8jVQIHwO_7\\Lib\\site-packages\\stata_mcp\\mcp_servers.py\", line 17, in <module>\r\n    from mcp.server.fastmcp import FastMCP, Icon, Image\r\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-16T15-42-13Z-c3b399",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-16T02:45:42.768Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading pyreadstat (1.9MiB)\nDownloading openai-agents (1.0MiB)\n Downloaded pyreadstat\n Downloaded openai-agents\nInstalled 77 packages in 34.15s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\11c5l9WIwoUoLeIo\\Scripts\\stata-mcp.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\11c5l9WIwoUoLeIo\\Lib\\site-packages\\stata_mcp\\__init__.py\", line 4, in <module>\r\n    from .mcp_servers import stata_mcp\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\11c5l9WIwoUoLeIo\\Lib\\site-packages\\stata_mcp\\mcp_servers.py\", line 17, in <module>\r\n    from mcp.server.fastmcp import FastMCP, Icon, Image\r\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",

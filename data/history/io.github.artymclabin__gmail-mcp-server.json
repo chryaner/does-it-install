@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:00.997Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: OAuth keys file not found. Please place gcp-oauth.keys.json in current directory or /Users/runner/.gmail-mcp",
+        "installMs": 5712,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-00Z-c4e177",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-16T02:45:27.243Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: OAuth keys file not found. Please place gcp-oauth.keys.json in current directory or /Users/runner/.gmail-mcp",
         "installMs": 13283,
@@ -12,6 +20,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:56.759Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: OAuth keys file not found. Please place gcp-oauth.keys.json in current directory or /home/runner/.gmail-mcp",
+        "installMs": 5524,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-56Z-6a1d71",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-16T02:45:19.430Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: OAuth keys file not found. Please place gcp-oauth.keys.json in current directory or /home/runner/.gmail-mcp",
         "installMs": 6816,
@@ -21,6 +37,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:18.905Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: OAuth keys file not found. Please place gcp-oauth.keys.json in current directory or C:\\Users\\runneradmin\\.gmail-mcp",
+        "installMs": 416070,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-18Z-c48a3e",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-16T02:45:39.090Z",
         "errorExcerpt": "npm install @artymclabin/gmail-mcp@1.2.3 timed out after 600s",

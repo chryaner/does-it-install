@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:41:59.741Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInitializing Anytype MCP Server...\nCan't connect to API. Please ensure Anytype is running and reachable.",
+        "installMs": 5716,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-59Z-dbe80d",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-16T02:45:27.243Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInitializing Anytype MCP Server...\nCan't connect to API. Please ensure Anytype is running and reachable.",
         "installMs": 9062,
@@ -12,6 +20,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:42:02.544Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInitializing Anytype MCP Server...\nCan't connect to API. Please ensure Anytype is running and reachable.",
+        "installMs": 4560,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-02Z-d4ddba",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-16T02:45:19.430Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInitializing Anytype MCP Server...\nCan't connect to API. Please ensure Anytype is running and reachable.",
         "installMs": 4085,
@@ -21,6 +37,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:15.480Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInitializing Anytype MCP Server...\nCan't connect to API. Please ensure Anytype is running and reachable.",
+        "installMs": 50442,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-15Z-299164",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-16T02:45:39.090Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInitializing Anytype MCP Server...\nCan't connect to API. Please ensure Anytype is running and reachable.",

@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:04.537Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\": \"Unauthorized. Please provide your Klavis API key or Authorization header\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-16T15-42-04Z-eb2637",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-16T02:45:27.629Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\": \"Unauthorized. Please provide your Klavis API key or Authorization header\"} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -46,6 +53,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:59.337Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\": \"Unauthorized. Please provide your Klavis API key or Authorization header\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-16T15-41-59Z-e212f4",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-16T02:45:24.037Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\": \"Unauthorized. Please provide your Klavis API key or Authorization header\"} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -89,6 +103,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:13.871Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\": \"Unauthorized. Please provide your Klavis API key or Authorization header\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-16T15-42-13Z-c3b399",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-16T02:45:42.768Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\": \"Unauthorized. Please provide your Klavis API key or Authorization header\"} (endpoint reachable but requires credentials the harness does not send)",

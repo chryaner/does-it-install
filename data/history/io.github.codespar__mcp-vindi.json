@@ -2,6 +2,36 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:00.997Z",
+        "installMs": 3555,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-00Z-c4e177",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_subscription",
+          "get_subscription",
+          "list_subscriptions",
+          "create_bill",
+          "get_bill",
+          "list_bills",
+          "create_customer",
+          "get_customer",
+          "create_plan",
+          "list_plans",
+          "update_customer",
+          "create_product",
+          "list_products",
+          "cancel_subscription",
+          "reactivate_subscription",
+          "cancel_bill",
+          "charge_bill",
+          "refund_charge",
+          "create_payment_profile",
+          "list_payment_profiles"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.243Z",
         "installMs": 7474,
         "method": "npm",
@@ -34,6 +64,36 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:56.759Z",
+        "installMs": 4062,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-56Z-6a1d71",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_subscription",
+          "get_subscription",
+          "list_subscriptions",
+          "create_bill",
+          "get_bill",
+          "list_bills",
+          "create_customer",
+          "get_customer",
+          "create_plan",
+          "list_plans",
+          "update_customer",
+          "create_product",
+          "list_products",
+          "cancel_subscription",
+          "reactivate_subscription",
+          "cancel_bill",
+          "charge_bill",
+          "refund_charge",
+          "create_payment_profile",
+          "list_payment_profiles"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:19.430Z",
         "installMs": 4047,
         "method": "npm",
@@ -65,6 +125,36 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:18.905Z",
+        "installMs": 118262,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-18Z-c48a3e",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_subscription",
+          "get_subscription",
+          "list_subscriptions",
+          "create_bill",
+          "get_bill",
+          "list_bills",
+          "create_customer",
+          "get_customer",
+          "create_plan",
+          "list_plans",
+          "update_customer",
+          "create_product",
+          "list_products",
+          "cancel_subscription",
+          "reactivate_subscription",
+          "cancel_bill",
+          "charge_bill",
+          "refund_charge",
+          "create_payment_profile",
+          "list_payment_profiles"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:39.090Z",
         "installMs": 173437,

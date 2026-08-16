@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:04.537Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: ataconnec\"... is not valid JSON\nUnexpected token 'd', \"  dataconnec\"... is not valid JSON\nUnexpected token 'd', \"  dataconnec\"... is not valid JSON\nUnexpected token 'd', \"  dataconnec\"... is not valid JSON\nUnexpected token 'a', \"  target [typ\"... is not valid JSON\nUnexpected token 'a', \"  target:appl\"... is not valid JSON\nUnexpected token 'a', \"  target:clea\"... is not valid JSON\nUnexpected token 'a', \"  target:remo\"... is not valid JSON\nUnexpected token 'u', \"  use [optio\"... is not valid JSON",
+        "installMs": 52032,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-04Z-eb2637",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-16T02:45:27.629Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: ataconnec\"... is not valid JSON\nUnexpected token 'd', \"  dataconnec\"... is not valid JSON\nUnexpected token 'd', \"  dataconnec\"... is not valid JSON\nUnexpected token 'd', \"  dataconnec\"... is not valid JSON\nUnexpected token 'a', \"  target [typ\"... is not valid JSON\nUnexpected token 'a', \"  target:appl\"... is not valid JSON\nUnexpected token 'a', \"  target:clea\"... is not valid JSON\nUnexpected token 'a', \"  target:remo\"... is not valid JSON\nUnexpected token 'u', \"  use [optio\"... is not valid JSON",
         "installMs": 43444,
@@ -19,6 +27,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:59.337Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: ataconnec\"... is not valid JSON\nUnexpected token 'd', \"  dataconnec\"... is not valid JSON\nUnexpected token 'd', \"  dataconnec\"... is not valid JSON\nUnexpected token 'd', \"  dataconnec\"... is not valid JSON\nUnexpected token 'a', \"  target [typ\"... is not valid JSON\nUnexpected token 'a', \"  target:appl\"... is not valid JSON\nUnexpected token 'a', \"  target:clea\"... is not valid JSON\nUnexpected token 'a', \"  target:remo\"... is not valid JSON\nUnexpected token 'u', \"  use [optio\"... is not valid JSON",
+        "installMs": 28969,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-59Z-e212f4",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-16T02:45:24.037Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: ataconnec\"... is not valid JSON\nUnexpected token 'd', \"  dataconnec\"... is not valid JSON\nUnexpected token 'd', \"  dataconnec\"... is not valid JSON\nUnexpected token 'd', \"  dataconnec\"... is not valid JSON\nUnexpected token 'a', \"  target [typ\"... is not valid JSON\nUnexpected token 'a', \"  target:appl\"... is not valid JSON\nUnexpected token 'a', \"  target:clea\"... is not valid JSON\nUnexpected token 'a', \"  target:remo\"... is not valid JSON\nUnexpected token 'u', \"  use [optio\"... is not valid JSON",
         "installMs": 24410,
@@ -35,6 +51,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:13.871Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: ataconnec\"... is not valid JSON\nUnexpected token 'd', \"  dataconnec\"... is not valid JSON\nUnexpected token 'd', \"  dataconnec\"... is not valid JSON\nUnexpected token 'd', \"  dataconnec\"... is not valid JSON\nUnexpected token 'a', \"  target [typ\"... is not valid JSON\nUnexpected token 'a', \"  target:appl\"... is not valid JSON\nUnexpected token 'a', \"  target:clea\"... is not valid JSON\nUnexpected token 'a', \"  target:remo\"... is not valid JSON\nUnexpected token 'u', \"  use [optio\"... is not valid JSON",
+        "installMs": 180168,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-13Z-c3b399",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-16T02:45:42.768Z",
         "errorExcerpt": "npm install firebase-tools@14.27.0 timed out after 600s",

@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:00.997Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-16T15-42-00Z-c4e177",
+        "status": "skipped"
+      },
+      {
         "date": "2026-08-16T02:45:24.166Z",
         "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
         "installMs": 0,
@@ -12,6 +20,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:56.759Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: failed to read config file '/config.yaml': No such file or directory (os error 2)",
+        "installMs": 7585,
+        "method": "oci",
+        "runId": "2026-08-16T15-41-56Z-6a1d71",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-16T02:45:18.892Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: failed to read config file '/config.yaml': No such file or directory (os error 2)",
         "installMs": 2618,
@@ -21,6 +37,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:18.905Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-16T15-42-18Z-c48a3e",
+        "status": "skipped"
+      },
       {
         "date": "2026-08-16T02:45:38.462Z",
         "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",

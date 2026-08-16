@@ -2,6 +2,35 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:04.537Z",
+        "installMs": 4415,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-04Z-eb2637",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "sandbox_create",
+          "sandbox_template_list",
+          "sandbox_template_create",
+          "sandbox_list",
+          "sandbox_info",
+          "sandbox_pause",
+          "sandbox_resume",
+          "sandbox_kill",
+          "sandbox_update",
+          "sandbox_preview_url",
+          "sandbox_network_log",
+          "sandbox_exec",
+          "sandbox_files_read",
+          "sandbox_files_write",
+          "sandbox_files_list",
+          "sandbox_files_download_dir",
+          "secret_list",
+          "sandbox_attach_secret",
+          "sandbox_detach_secret"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.629Z",
         "installMs": 6303,
         "method": "npm",
@@ -33,6 +62,35 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:59.337Z",
+        "installMs": 3110,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-59Z-e212f4",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "sandbox_create",
+          "sandbox_template_list",
+          "sandbox_template_create",
+          "sandbox_list",
+          "sandbox_info",
+          "sandbox_pause",
+          "sandbox_resume",
+          "sandbox_kill",
+          "sandbox_update",
+          "sandbox_preview_url",
+          "sandbox_network_log",
+          "sandbox_exec",
+          "sandbox_files_read",
+          "sandbox_files_write",
+          "sandbox_files_list",
+          "sandbox_files_download_dir",
+          "secret_list",
+          "sandbox_attach_secret",
+          "sandbox_detach_secret"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:24.037Z",
         "installMs": 3979,
         "method": "npm",
@@ -63,6 +121,35 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:13.871Z",
+        "installMs": 105634,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-13Z-c3b399",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "sandbox_create",
+          "sandbox_template_list",
+          "sandbox_template_create",
+          "sandbox_list",
+          "sandbox_info",
+          "sandbox_pause",
+          "sandbox_resume",
+          "sandbox_kill",
+          "sandbox_update",
+          "sandbox_preview_url",
+          "sandbox_network_log",
+          "sandbox_exec",
+          "sandbox_files_read",
+          "sandbox_files_write",
+          "sandbox_files_list",
+          "sandbox_files_download_dir",
+          "secret_list",
+          "sandbox_attach_secret",
+          "sandbox_detach_secret"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:42.768Z",
         "installMs": 107467,

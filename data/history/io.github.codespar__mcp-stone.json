@@ -2,6 +2,37 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:04.537Z",
+        "installMs": 6781,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-04Z-eb2637",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "get_balance",
+          "list_transactions",
+          "get_statement",
+          "create_payment",
+          "get_payment",
+          "list_payments",
+          "create_transfer",
+          "create_pix_payment",
+          "create_pix_charge",
+          "create_boleto",
+          "create_card_charge",
+          "tokenize_card",
+          "refund_transaction",
+          "cancel_transaction",
+          "create_anticipation",
+          "get_anticipation_limits",
+          "list_receivables",
+          "list_terminals",
+          "get_terminal_status",
+          "register_webhook",
+          "list_webhooks"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.629Z",
         "installMs": 3281,
         "method": "npm",
@@ -35,6 +66,37 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:59.337Z",
+        "installMs": 2897,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-59Z-e212f4",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "get_balance",
+          "list_transactions",
+          "get_statement",
+          "create_payment",
+          "get_payment",
+          "list_payments",
+          "create_transfer",
+          "create_pix_payment",
+          "create_pix_charge",
+          "create_boleto",
+          "create_card_charge",
+          "tokenize_card",
+          "refund_transaction",
+          "cancel_transaction",
+          "create_anticipation",
+          "get_anticipation_limits",
+          "list_receivables",
+          "list_terminals",
+          "get_terminal_status",
+          "register_webhook",
+          "list_webhooks"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:24.037Z",
         "installMs": 3067,
         "method": "npm",
@@ -67,6 +129,37 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:13.871Z",
+        "installMs": 96413,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-13Z-c3b399",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "get_balance",
+          "list_transactions",
+          "get_statement",
+          "create_payment",
+          "get_payment",
+          "list_payments",
+          "create_transfer",
+          "create_pix_payment",
+          "create_pix_charge",
+          "create_boleto",
+          "create_card_charge",
+          "tokenize_card",
+          "refund_transaction",
+          "cancel_transaction",
+          "create_anticipation",
+          "get_anticipation_limits",
+          "list_receivables",
+          "list_terminals",
+          "get_terminal_status",
+          "register_webhook",
+          "list_webhooks"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:42.768Z",
         "installMs": 139409,

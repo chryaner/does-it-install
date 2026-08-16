@@ -2,6 +2,38 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:04.537Z",
+        "installMs": 6740,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-04Z-eb2637",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "send_text_message",
+          "send_template_message",
+          "send_media_message",
+          "send_interactive_message",
+          "send_interactive_cta_url",
+          "send_interactive_flow",
+          "send_location_message",
+          "send_contacts_message",
+          "send_reaction_message",
+          "send_typing_indicator",
+          "mark_message_as_read",
+          "upload_media",
+          "retrieve_media_url",
+          "delete_media",
+          "list_templates",
+          "create_template",
+          "delete_template",
+          "get_business_profile",
+          "update_business_profile",
+          "list_phone_numbers",
+          "request_verification_code",
+          "verify_code"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.629Z",
         "installMs": 4382,
         "method": "npm",
@@ -36,6 +68,38 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:59.337Z",
+        "installMs": 2905,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-59Z-e212f4",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "send_text_message",
+          "send_template_message",
+          "send_media_message",
+          "send_interactive_message",
+          "send_interactive_cta_url",
+          "send_interactive_flow",
+          "send_location_message",
+          "send_contacts_message",
+          "send_reaction_message",
+          "send_typing_indicator",
+          "mark_message_as_read",
+          "upload_media",
+          "retrieve_media_url",
+          "delete_media",
+          "list_templates",
+          "create_template",
+          "delete_template",
+          "get_business_profile",
+          "update_business_profile",
+          "list_phone_numbers",
+          "request_verification_code",
+          "verify_code"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:24.037Z",
         "installMs": 3041,
         "method": "npm",
@@ -69,6 +133,38 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:13.871Z",
+        "installMs": 91434,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-13Z-c3b399",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "send_text_message",
+          "send_template_message",
+          "send_media_message",
+          "send_interactive_message",
+          "send_interactive_cta_url",
+          "send_interactive_flow",
+          "send_location_message",
+          "send_contacts_message",
+          "send_reaction_message",
+          "send_typing_indicator",
+          "mark_message_as_read",
+          "upload_media",
+          "retrieve_media_url",
+          "delete_media",
+          "list_templates",
+          "create_template",
+          "delete_template",
+          "get_business_profile",
+          "update_business_profile",
+          "list_phone_numbers",
+          "request_verification_code",
+          "verify_code"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:42.768Z",
         "installMs": 141152,

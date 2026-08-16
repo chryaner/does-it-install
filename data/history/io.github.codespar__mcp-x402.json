@@ -2,6 +2,26 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:00.997Z",
+        "installMs": 4269,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-00Z-c4e177",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "pay_request",
+          "verify_payment",
+          "create_paywall",
+          "get_paywall",
+          "list_paywalls",
+          "delete_paywall",
+          "get_balance",
+          "list_payments",
+          "get_payment",
+          "get_supported_networks"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.243Z",
         "installMs": 8472,
         "method": "npm",
@@ -24,6 +44,26 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:56.759Z",
+        "installMs": 4012,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-56Z-6a1d71",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "pay_request",
+          "verify_payment",
+          "create_paywall",
+          "get_paywall",
+          "list_paywalls",
+          "delete_paywall",
+          "get_balance",
+          "list_payments",
+          "get_payment",
+          "get_supported_networks"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:19.430Z",
         "installMs": 4259,
         "method": "npm",
@@ -45,6 +85,26 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:18.905Z",
+        "installMs": 113361,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-18Z-c48a3e",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "pay_request",
+          "verify_payment",
+          "create_paywall",
+          "get_paywall",
+          "list_paywalls",
+          "delete_paywall",
+          "get_balance",
+          "list_payments",
+          "get_payment",
+          "get_supported_networks"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:39.090Z",
         "installMs": 169672,

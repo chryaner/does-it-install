@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:00.997Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-16T15-42-00Z-c4e177",
+        "status": "skipped"
+      },
+      {
         "date": "2026-08-16T02:45:24.166Z",
         "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
         "installMs": 0,
@@ -19,6 +27,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:56.759Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\ntime=2026-08-16T15:42:33.059Z level=ERROR msg=\"SECURITY: serving on a non-loopback address with NO caller authentication. Anyone who can reach this address can invoke MCP tools and use any Grafana credentials the server is configured with. This will become a startup error in a future release: set --server-auth-token (or MCP_GRAFANA_SERVER_TOKEN) to require a bearer token.\" address=0.0.0.0:8000\ntime=2026-08-16T15:42:33.059Z level=INFO msg=\"Starting Grafana MCP server using SSE transport\" version=(devel) address=0.0.0.0:8000 basePath=/ metrics=false",
+        "installMs": 7389,
+        "method": "oci",
+        "runId": "2026-08-16T15-41-56Z-6a1d71",
+        "status": "timeout"
+      },
+      {
         "date": "2026-08-16T02:45:18.892Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\ntime=2026-08-16T02:46:18.971Z level=ERROR msg=\"SECURITY: serving on a non-loopback address with NO caller authentication. Anyone who can reach this address can invoke MCP tools and use any Grafana credentials the server is configured with. This will become a startup error in a future release: set --server-auth-token (or MCP_GRAFANA_SERVER_TOKEN) to require a bearer token.\" address=0.0.0.0:8000\ntime=2026-08-16T02:46:18.972Z level=INFO msg=\"Starting Grafana MCP server using SSE transport\" version=(devel) address=0.0.0.0:8000 basePath=/ metrics=false",
         "installMs": 7119,
@@ -35,6 +51,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:18.905Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-16T15-42-18Z-c48a3e",
+        "status": "skipped"
+      },
       {
         "date": "2026-08-16T02:45:38.462Z",
         "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",

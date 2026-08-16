@@ -2,6 +2,37 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:00.997Z",
+        "installMs": 3889,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-00Z-c4e177",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "create_order",
+          "get_order",
+          "list_orders",
+          "create_customer",
+          "get_customer",
+          "list_customers",
+          "create_charge",
+          "refund_charge",
+          "list_payment_sources",
+          "get_webhook_events",
+          "get_webhook_event",
+          "update_customer",
+          "delete_customer",
+          "create_payment_source",
+          "delete_payment_source",
+          "update_order",
+          "cancel_order",
+          "capture_charge",
+          "create_webhook",
+          "update_webhook",
+          "delete_webhook"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.243Z",
         "installMs": 7598,
         "method": "npm",
@@ -35,6 +66,37 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:56.759Z",
+        "installMs": 4150,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-56Z-6a1d71",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "create_order",
+          "get_order",
+          "list_orders",
+          "create_customer",
+          "get_customer",
+          "list_customers",
+          "create_charge",
+          "refund_charge",
+          "list_payment_sources",
+          "get_webhook_events",
+          "get_webhook_event",
+          "update_customer",
+          "delete_customer",
+          "create_payment_source",
+          "delete_payment_source",
+          "update_order",
+          "cancel_order",
+          "capture_charge",
+          "create_webhook",
+          "update_webhook",
+          "delete_webhook"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:19.430Z",
         "installMs": 3982,
         "method": "npm",
@@ -67,6 +129,37 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:18.905Z",
+        "installMs": 101638,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-18Z-c48a3e",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "create_order",
+          "get_order",
+          "list_orders",
+          "create_customer",
+          "get_customer",
+          "list_customers",
+          "create_charge",
+          "refund_charge",
+          "list_payment_sources",
+          "get_webhook_events",
+          "get_webhook_event",
+          "update_customer",
+          "delete_customer",
+          "create_payment_source",
+          "delete_payment_source",
+          "update_order",
+          "cancel_order",
+          "capture_charge",
+          "create_webhook",
+          "update_webhook",
+          "delete_webhook"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:39.090Z",
         "installMs": 180234,

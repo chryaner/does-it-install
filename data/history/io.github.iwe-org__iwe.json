@@ -2,6 +2,30 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:04.537Z",
+        "installMs": 4067,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-04Z-eb2637",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "iwe_attach",
+          "iwe_create",
+          "iwe_delete",
+          "iwe_extract",
+          "iwe_find",
+          "iwe_inline",
+          "iwe_normalize",
+          "iwe_query",
+          "iwe_rename",
+          "iwe_retrieve",
+          "iwe_squash",
+          "iwe_stats",
+          "iwe_tree",
+          "iwe_update"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.629Z",
         "installMs": 6111,
         "method": "npm",
@@ -51,6 +75,30 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:59.337Z",
+        "installMs": 2736,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-59Z-e212f4",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "iwe_attach",
+          "iwe_create",
+          "iwe_delete",
+          "iwe_extract",
+          "iwe_find",
+          "iwe_inline",
+          "iwe_normalize",
+          "iwe_query",
+          "iwe_rename",
+          "iwe_retrieve",
+          "iwe_squash",
+          "iwe_stats",
+          "iwe_tree",
+          "iwe_update"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:24.037Z",
         "installMs": 3224,
         "method": "npm",
@@ -99,6 +147,30 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:13.871Z",
+        "installMs": 5361,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-13Z-c3b399",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "iwe_attach",
+          "iwe_create",
+          "iwe_delete",
+          "iwe_extract",
+          "iwe_find",
+          "iwe_inline",
+          "iwe_normalize",
+          "iwe_query",
+          "iwe_rename",
+          "iwe_retrieve",
+          "iwe_squash",
+          "iwe_stats",
+          "iwe_tree",
+          "iwe_update"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:42.768Z",
         "installMs": 3778,

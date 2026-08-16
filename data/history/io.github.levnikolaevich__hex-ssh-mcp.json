@@ -2,6 +2,30 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:00.997Z",
+        "installMs": 13088,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-00Z-c4e177",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "ssh-capabilities",
+          "ssh-session-open",
+          "ssh-session-exec",
+          "ssh-session-read",
+          "ssh-session-close",
+          "ssh-session-gc",
+          "remote-ssh",
+          "ssh-read-lines",
+          "ssh-edit-block",
+          "ssh-search-code",
+          "ssh-write-chunk",
+          "ssh-upload",
+          "ssh-download",
+          "ssh-verify"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:24.166Z",
         "installMs": 12370,
         "method": "npm",
@@ -28,6 +52,30 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:56.759Z",
+        "installMs": 9181,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-56Z-6a1d71",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "ssh-capabilities",
+          "ssh-session-open",
+          "ssh-session-exec",
+          "ssh-session-read",
+          "ssh-session-close",
+          "ssh-session-gc",
+          "remote-ssh",
+          "ssh-read-lines",
+          "ssh-edit-block",
+          "ssh-search-code",
+          "ssh-write-chunk",
+          "ssh-upload",
+          "ssh-download",
+          "ssh-verify"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:18.892Z",
         "installMs": 16997,
         "method": "npm",
@@ -53,6 +101,30 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:18.905Z",
+        "installMs": 36612,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-18Z-c48a3e",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "ssh-capabilities",
+          "ssh-session-open",
+          "ssh-session-exec",
+          "ssh-session-read",
+          "ssh-session-close",
+          "ssh-session-gc",
+          "remote-ssh",
+          "ssh-read-lines",
+          "ssh-edit-block",
+          "ssh-search-code",
+          "ssh-write-chunk",
+          "ssh-upload",
+          "ssh-download",
+          "ssh-verify"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:38.462Z",
         "installMs": 486967,

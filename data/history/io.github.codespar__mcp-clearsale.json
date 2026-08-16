@@ -2,6 +2,34 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:00.997Z",
+        "installMs": 4418,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-00Z-c4e177",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "send_order_for_analysis",
+          "get_order_analysis",
+          "update_order_status",
+          "list_orders",
+          "create_chargeback_notification",
+          "get_order_score",
+          "create_device_fingerprint_session",
+          "get_device_fingerprint",
+          "resolve_manual_review",
+          "get_score_by_document",
+          "get_score_by_contact",
+          "validate_document",
+          "validate_address",
+          "track_behavior_event",
+          "issue_challenge",
+          "validate_challenge_response",
+          "create_case",
+          "update_case"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.243Z",
         "installMs": 9088,
         "method": "npm",
@@ -32,6 +60,34 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:56.759Z",
+        "installMs": 3542,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-56Z-6a1d71",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "send_order_for_analysis",
+          "get_order_analysis",
+          "update_order_status",
+          "list_orders",
+          "create_chargeback_notification",
+          "get_order_score",
+          "create_device_fingerprint_session",
+          "get_device_fingerprint",
+          "resolve_manual_review",
+          "get_score_by_document",
+          "get_score_by_contact",
+          "validate_document",
+          "validate_address",
+          "track_behavior_event",
+          "issue_challenge",
+          "validate_challenge_response",
+          "create_case",
+          "update_case"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:19.430Z",
         "installMs": 4359,
         "method": "npm",
@@ -61,6 +117,34 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:18.905Z",
+        "installMs": 80132,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-18Z-c48a3e",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "send_order_for_analysis",
+          "get_order_analysis",
+          "update_order_status",
+          "list_orders",
+          "create_chargeback_notification",
+          "get_order_score",
+          "create_device_fingerprint_session",
+          "get_device_fingerprint",
+          "resolve_manual_review",
+          "get_score_by_document",
+          "get_score_by_contact",
+          "validate_document",
+          "validate_address",
+          "track_behavior_event",
+          "issue_challenge",
+          "validate_challenge_response",
+          "create_case",
+          "update_case"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:39.090Z",
         "installMs": 179975,

@@ -2,6 +2,23 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:04.537Z",
+        "method": "pypi",
+        "runId": "2026-08-16T15-42-04Z-eb2637",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "analyze_code",
+          "check_cohesion",
+          "check_complexity",
+          "check_coupling",
+          "detect_clones",
+          "detect_di_antipatterns",
+          "find_dead_code",
+          "get_health_score"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:24.166Z",
         "method": "pypi",
         "runId": "2026-08-16T02-45-24Z-dc7183",
@@ -21,6 +38,23 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:59.337Z",
+        "method": "pypi",
+        "runId": "2026-08-16T15-41-59Z-e212f4",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "analyze_code",
+          "check_cohesion",
+          "check_complexity",
+          "check_coupling",
+          "detect_clones",
+          "detect_di_antipatterns",
+          "find_dead_code",
+          "get_health_score"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:18.892Z",
         "method": "pypi",
         "runId": "2026-08-16T02-45-18Z-a0bb32",
@@ -39,6 +73,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:13.871Z",
+        "errorExcerpt": "handshake failed: handshake timed out after 632000ms\n--- stderr (tail) ---\nDownloading pyscn-mcp (5.7MiB)\n Downloaded pyscn-mcp\nInstalled 1 package in 128ms\n2026/08/16 16:05:18 main.go:44: Starting pyscn MCP server v1.0.0\n2026/08/16 16:05:18 main.go:45: Registered tools:\n2026/08/16 16:05:18 main.go:46:   - analyze_code: Comprehensive code analysis\n2026/08/16 16:05:18 main.go:47:   - check_complexity: Cyclomatic complexity analysis\n2026/08/16 16:05:18 main.go:48:   - detect_clones: Code clone detection\n2026/08/16 16:05:18 main.go:49:   - check_coupling: Class coupling analysis\n2026/08/16 16:05:18 main.go:50:   - find_dead_code: Dead code detection\n2026/08/16 16:05:18 main.go:51:   - get_health_score: Code health score\n2026/08/16 16:05:18 main.go:52: \n2026/08/16 16:05:18 main.go:53: Server ready - waiting for MCP client connection...",
+        "method": "pypi",
+        "runId": "2026-08-16T15-42-13Z-c3b399",
+        "status": "timeout"
+      },
       {
         "date": "2026-08-16T02:45:38.462Z",
         "errorExcerpt": "handshake failed: handshake timed out after 632000ms\n--- stderr (tail) ---\nDownloading pyscn-mcp (5.7MiB)\n Downloaded pyscn-mcp\nInstalled 1 package in 172ms\n2026/08/16 03:02:36 main.go:44: Starting pyscn MCP server v1.0.0\n2026/08/16 03:02:36 main.go:45: Registered tools:\n2026/08/16 03:02:36 main.go:46:   - analyze_code: Comprehensive code analysis\n2026/08/16 03:02:36 main.go:47:   - check_complexity: Cyclomatic complexity analysis\n2026/08/16 03:02:36 main.go:48:   - detect_clones: Code clone detection\n2026/08/16 03:02:36 main.go:49:   - check_coupling: Class coupling analysis\n2026/08/16 03:02:36 main.go:50:   - find_dead_code: Dead code detection\n2026/08/16 03:02:36 main.go:51:   - get_health_score: Code health score\n2026/08/16 03:02:36 main.go:52: \n2026/08/16 03:02:36 main.go:53: Server ready - waiting for MCP client connection...",

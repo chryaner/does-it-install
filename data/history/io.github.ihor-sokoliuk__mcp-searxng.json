@@ -2,6 +2,20 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:04.537Z",
+        "installMs": 8904,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-04Z-eb2637",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "searxng_web_search",
+          "searxng_search_suggestions",
+          "searxng_instance_info",
+          "web_url_read"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.629Z",
         "installMs": 11324,
         "method": "npm",
@@ -31,6 +45,20 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:59.337Z",
+        "installMs": 4606,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-59Z-e212f4",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "searxng_web_search",
+          "searxng_search_suggestions",
+          "searxng_instance_info",
+          "web_url_read"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:24.037Z",
         "installMs": 5304,
         "method": "npm",
@@ -59,6 +87,20 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:13.871Z",
+        "installMs": 171677,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-13Z-c3b399",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "searxng_web_search",
+          "searxng_search_suggestions",
+          "searxng_instance_info",
+          "web_url_read"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:42.768Z",
         "installMs": 183308,

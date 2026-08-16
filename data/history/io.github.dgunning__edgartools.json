@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:04.537Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/Ep3HE_11FlFRX-f0/bin/edgar-test\", line 6, in <module>\n    from tests.harness.cli import cli\nModuleNotFoundError: No module named 'tests'",
+        "method": "pypi",
+        "runId": "2026-08-16T15-42-04Z-eb2637",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-16T02:45:27.629Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/uzmk1BWtMUlKLENb/bin/edgar-test\", line 6, in <module>\n    from tests.harness.cli import cli\nModuleNotFoundError: No module named 'tests'",
         "method": "pypi",
@@ -18,6 +25,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:59.337Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/N-w8U9uJcl4eeeOz/bin/edgar-test\", line 6, in <module>\n    from tests.harness.cli import cli\nModuleNotFoundError: No module named 'tests'",
+        "method": "pypi",
+        "runId": "2026-08-16T15-41-59Z-e212f4",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-16T02:45:24.037Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/4I442LsUEkuZT0EO/bin/edgar-test\", line 6, in <module>\n    from tests.harness.cli import cli\nModuleNotFoundError: No module named 'tests'",
         "method": "pypi",
@@ -33,6 +47,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:13.871Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\ZT2u6_XJ-q5WneIF\\Scripts\\edgar-test.exe\\__main__.py\", line 4, in <module>\r\nModuleNotFoundError: No module named 'tests'",
+        "method": "pypi",
+        "runId": "2026-08-16T15-42-13Z-c3b399",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-16T02:45:42.768Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\7potATSdpUZMwSDl\\Scripts\\edgar-test.exe\\__main__.py\", line 4, in <module>\r\nModuleNotFoundError: No module named 'tests'",

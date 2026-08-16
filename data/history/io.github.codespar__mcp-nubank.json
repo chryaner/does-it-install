@@ -2,6 +2,38 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:00.997Z",
+        "installMs": 4158,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-00Z-c4e177",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "get_accounts",
+          "get_balance",
+          "get_transactions",
+          "get_credit_card_bill",
+          "get_investments",
+          "initiate_pix",
+          "get_pix_keys",
+          "get_statement",
+          "get_profile",
+          "list_cards",
+          "get_pix_transfer",
+          "schedule_pix",
+          "cancel_scheduled_pix",
+          "create_pix_key",
+          "delete_pix_key",
+          "get_card_details",
+          "block_card",
+          "unblock_card",
+          "get_credit_card_transactions",
+          "pay_credit_card_bill",
+          "get_boleto",
+          "pay_boleto"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.243Z",
         "installMs": 8493,
         "method": "npm",
@@ -36,6 +68,38 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:56.759Z",
+        "installMs": 3986,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-56Z-6a1d71",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "get_accounts",
+          "get_balance",
+          "get_transactions",
+          "get_credit_card_bill",
+          "get_investments",
+          "initiate_pix",
+          "get_pix_keys",
+          "get_statement",
+          "get_profile",
+          "list_cards",
+          "get_pix_transfer",
+          "schedule_pix",
+          "cancel_scheduled_pix",
+          "create_pix_key",
+          "delete_pix_key",
+          "get_card_details",
+          "block_card",
+          "unblock_card",
+          "get_credit_card_transactions",
+          "pay_credit_card_bill",
+          "get_boleto",
+          "pay_boleto"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:19.430Z",
         "installMs": 3951,
         "method": "npm",
@@ -69,6 +133,38 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:18.905Z",
+        "installMs": 113417,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-18Z-c48a3e",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "get_accounts",
+          "get_balance",
+          "get_transactions",
+          "get_credit_card_bill",
+          "get_investments",
+          "initiate_pix",
+          "get_pix_keys",
+          "get_statement",
+          "get_profile",
+          "list_cards",
+          "get_pix_transfer",
+          "schedule_pix",
+          "cancel_scheduled_pix",
+          "create_pix_key",
+          "delete_pix_key",
+          "get_card_details",
+          "block_card",
+          "unblock_card",
+          "get_credit_card_transactions",
+          "pay_credit_card_bill",
+          "get_boleto",
+          "pay_boleto"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:39.090Z",
         "installMs": 174452,

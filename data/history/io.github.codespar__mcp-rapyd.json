@@ -2,6 +2,38 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:00.997Z",
+        "installMs": 3801,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-00Z-c4e177",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "create_checkout_page",
+          "create_payment",
+          "get_payment",
+          "cancel_payment",
+          "create_refund",
+          "create_payout",
+          "get_payout",
+          "confirm_payout",
+          "list_payment_methods_by_country",
+          "list_payout_methods_by_country",
+          "create_wallet",
+          "list_payments",
+          "update_payment",
+          "create_payment_method",
+          "delete_payment_method",
+          "list_payouts",
+          "cancel_payout",
+          "get_wallet",
+          "update_wallet",
+          "list_wallets",
+          "wallet_contact_verify",
+          "transfer_between_wallets"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.243Z",
         "installMs": 9274,
         "method": "npm",
@@ -36,6 +68,38 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:56.759Z",
+        "installMs": 3774,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-56Z-6a1d71",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "create_checkout_page",
+          "create_payment",
+          "get_payment",
+          "cancel_payment",
+          "create_refund",
+          "create_payout",
+          "get_payout",
+          "confirm_payout",
+          "list_payment_methods_by_country",
+          "list_payout_methods_by_country",
+          "create_wallet",
+          "list_payments",
+          "update_payment",
+          "create_payment_method",
+          "delete_payment_method",
+          "list_payouts",
+          "cancel_payout",
+          "get_wallet",
+          "update_wallet",
+          "list_wallets",
+          "wallet_contact_verify",
+          "transfer_between_wallets"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:19.430Z",
         "installMs": 3983,
         "method": "npm",
@@ -69,6 +133,38 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:18.905Z",
+        "installMs": 117842,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-18Z-c48a3e",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "create_checkout_page",
+          "create_payment",
+          "get_payment",
+          "cancel_payment",
+          "create_refund",
+          "create_payout",
+          "get_payout",
+          "confirm_payout",
+          "list_payment_methods_by_country",
+          "list_payout_methods_by_country",
+          "create_wallet",
+          "list_payments",
+          "update_payment",
+          "create_payment_method",
+          "delete_payment_method",
+          "list_payouts",
+          "cancel_payout",
+          "get_wallet",
+          "update_wallet",
+          "list_wallets",
+          "wallet_contact_verify",
+          "transfer_between_wallets"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:39.090Z",
         "installMs": 177268,

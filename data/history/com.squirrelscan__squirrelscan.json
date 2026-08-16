@@ -2,6 +2,33 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:00.997Z",
+        "method": "remote-http",
+        "runId": "2026-08-16T15-42-00Z-c4e177",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "run_audit",
+          "get_audit_status",
+          "list_audits",
+          "list_websites",
+          "add_website",
+          "delete_website",
+          "delete_websites",
+          "get_report",
+          "list_issues",
+          "get_issue",
+          "comment_on_issue",
+          "list_rules",
+          "get_rule",
+          "whoami",
+          "get_credit_balance",
+          "list_credit_transactions",
+          "create_api_key",
+          "send_feedback"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.243Z",
         "method": "remote-http",
         "runId": "2026-08-16T02-45-27Z-9a6687",
@@ -31,6 +58,33 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:56.759Z",
+        "method": "remote-http",
+        "runId": "2026-08-16T15-41-56Z-6a1d71",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "run_audit",
+          "get_audit_status",
+          "list_audits",
+          "list_websites",
+          "add_website",
+          "delete_website",
+          "delete_websites",
+          "get_report",
+          "list_issues",
+          "get_issue",
+          "comment_on_issue",
+          "list_rules",
+          "get_rule",
+          "whoami",
+          "get_credit_balance",
+          "list_credit_transactions",
+          "create_api_key",
+          "send_feedback"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:19.430Z",
         "method": "remote-http",
         "runId": "2026-08-16T02-45-19Z-fe02e7",
@@ -59,6 +113,33 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:18.905Z",
+        "method": "remote-http",
+        "runId": "2026-08-16T15-42-18Z-c48a3e",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "run_audit",
+          "get_audit_status",
+          "list_audits",
+          "list_websites",
+          "add_website",
+          "delete_website",
+          "delete_websites",
+          "get_report",
+          "list_issues",
+          "get_issue",
+          "comment_on_issue",
+          "list_rules",
+          "get_rule",
+          "whoami",
+          "get_credit_balance",
+          "list_credit_transactions",
+          "create_api_key",
+          "send_feedback"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:39.090Z",
         "method": "remote-http",

@@ -2,6 +2,36 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:00.997Z",
+        "installMs": 4100,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-00Z-c4e177",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_payment_intent",
+          "confirm_payment_intent",
+          "retrieve_payment_intent",
+          "cancel_payment_intent",
+          "capture_payment_intent",
+          "list_payment_intents",
+          "create_refund",
+          "retrieve_refund",
+          "create_customer",
+          "retrieve_customer",
+          "update_customer",
+          "create_beneficiary",
+          "retrieve_beneficiary",
+          "list_beneficiaries",
+          "create_transfer",
+          "retrieve_transfer",
+          "cancel_transfer",
+          "list_transfers",
+          "create_conversion",
+          "retrieve_balance"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.243Z",
         "installMs": 9194,
         "method": "npm",
@@ -34,6 +64,36 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:56.759Z",
+        "installMs": 5089,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-56Z-6a1d71",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_payment_intent",
+          "confirm_payment_intent",
+          "retrieve_payment_intent",
+          "cancel_payment_intent",
+          "capture_payment_intent",
+          "list_payment_intents",
+          "create_refund",
+          "retrieve_refund",
+          "create_customer",
+          "retrieve_customer",
+          "update_customer",
+          "create_beneficiary",
+          "retrieve_beneficiary",
+          "list_beneficiaries",
+          "create_transfer",
+          "retrieve_transfer",
+          "cancel_transfer",
+          "list_transfers",
+          "create_conversion",
+          "retrieve_balance"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:19.430Z",
         "installMs": 4706,
         "method": "npm",
@@ -65,6 +125,36 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:18.905Z",
+        "installMs": 65431,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-18Z-c48a3e",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_payment_intent",
+          "confirm_payment_intent",
+          "retrieve_payment_intent",
+          "cancel_payment_intent",
+          "capture_payment_intent",
+          "list_payment_intents",
+          "create_refund",
+          "retrieve_refund",
+          "create_customer",
+          "retrieve_customer",
+          "update_customer",
+          "create_beneficiary",
+          "retrieve_beneficiary",
+          "list_beneficiaries",
+          "create_transfer",
+          "retrieve_transfer",
+          "cancel_transfer",
+          "list_transfers",
+          "create_conversion",
+          "retrieve_balance"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:39.090Z",
         "installMs": 200152,

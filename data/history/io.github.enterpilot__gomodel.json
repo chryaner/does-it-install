@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:00.997Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-16T15-42-00Z-c4e177",
+        "status": "skipped"
+      },
+      {
         "date": "2026-08-15T04:06:28.791Z",
         "errorExcerpt": "container (oci) distributions are not probed in v1",
         "method": "oci",
@@ -11,10 +19,28 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:56.759Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n{\"time\":\"2026-08-16T15:43:06.743915344Z\",\"level\":\"INFO\",\"msg\":\"starting gomodel\",\"version\":\"0.1.76\",\"commit\":\"d608211dfd6fcbf56205ce41f0fa62d8a9c4557e\",\"build_date\":\"2026-08-15T18:34:21Z\"}\n{\"time\":\"2026-08-16T15:43:06.744242868Z\",\"level\":\"INFO\",\"msg\":\"no config file found; using defaults and environment\",\"searched\":[\"config/config.yaml\",\"config.yaml\"]}\n{\"time\":\"2026-08-16T15:43:06.748478431Z\",\"level\":\"INFO\",\"msg\":\"providers resolved\",\"total\":0,\"from_config_file\":0,\"from_env\":0,\"config_file_providers\":null,\"env_providers\":null}\n{\"time\":\"2026-08-16T15:43:06.748614186Z\",\"level\":\"INFO\",\"msg\":\"using local file cache\",\"path\":\".cache/models.json\"}\n{\"time\":\"2026-08-16T15:43:06.748658092Z\",\"level\":\"WARN\",\"msg\":\"no providers configured via env vars or config.yaml; add provider credentials from the dashboard\"}\n{\"time\":\"2026-08-16T15:43:06.74870331Z\",\"level\":\"INFO\",\"msg\":\"model registry configured\",\"cached_models\":0,\"providers\":0}\n{\"time\":\"2026-08-16T15:43:06.778344411Z\",\"level\":\"WARN\",\"msg\":\"SECURITY WARNING: GOMODEL_MASTER_KEY not set - server running in UNSAFE MODE\",\"security_risk\":\"unauthenticated access allowed\",\"recommendation\":\"set GOMODEL_MASTER_KEY environment variable to secure this gateway\"}\n{\"time\":\"2026-08-16T15:43:06.77843703Z\",\"level\":\"INFO\",\"msg\":\"prometheus metrics disabled\"}\n{\"time\":\"2026-08-16T15:43:06.778470861Z\",\"level\":\"INFO\",\"msg\":\"storage configured\",\"type\":\"sqlite\",\"path\":\"data/gomodel.db\"}\n{\"time\":\"2026-08-16T15:43:06.778529209Z\",\"level\":\"INFO\",\"msg\":\"audit logging enabled\",\"log_bodies\":true,\"log_audio_bodies\":false,\"log_headers\":true,\"retention_days\":30}\n{\"time\":\"2026-08-16T15:43:06.778561057Z\",\"level\":\"INFO\",\"msg\":\"usage tracking enabled\",\"buffer_size\":1000,\"flush_interval\":5,\"retention_days\":90}\n{\"time\":\"2026-08-16T15:43:06.78123033Z\",\"level\":\"INFO\",\"msg\":\"mcp gateway enabled\",\"path\":\"/mcp\",\"configured_servers\":0}\n{\"time\":\"2026-08-16T15:43:06.781647909Z\",\"level\":\"INFO\",\"msg\":\"admin API enabled\",\"api\":\"/admin\",\"legacy_alias\":\"/admin/api/v1\",\"legacy_sunset\":\"2026-08-09\"}\n{\"time\":\"2026-08-16T15:43:06.78207999Z\",\"level\":\"INFO\",\"msg\":\"admin UI enabled\",\"url\":\"http://localhost:8080/admin/dashboard\"}\n{\"time\":\"2026-08-16T15:43:06.78247804Z\",\"level\":\"INFO\",\"msg\":\"provider passthrough enabled\",\"path\":\"/p/{provider}/{endpoint}\"}\n{\"time\":\"2026-08-16T15:43:06.78646911Z\",\"level\":\"INFO\",\"msg\":\"starting server\",\"address\":\"[::]:8080\"}\n{\"time\":\"2026-08-16T15:43:06.786845167Z\",\"level\":\"INFO\",\"msg\":\"http(s) server started\",\"address\":\"[::]:8080\"}\n{\"time\":\"2026-08-16T15:43:06.843953987Z\",\"level\":\"INFO\",\"msg\":\"model list loaded\",\"models\":788,\"providers\":20,\"provider_models\":1825,\"metadata_enriched\":0,\"metadata_total\":0,\"metadata_providers\":0}",
+        "installMs": 1261,
+        "method": "oci",
+        "runId": "2026-08-16T15-41-56Z-6a1d71",
+        "status": "timeout"
+      },
+      {
         "date": "2026-08-15T04:06:31.639Z",
         "errorExcerpt": "container (oci) distributions are not probed in v1",
         "method": "oci",
         "runId": "2026-08-15T04-06-31Z-5068b8",
+        "status": "skipped"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T15:42:18.905Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-16T15-42-18Z-c48a3e",
         "status": "skipped"
       }
     ]

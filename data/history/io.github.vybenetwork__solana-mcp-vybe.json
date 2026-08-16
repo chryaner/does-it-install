@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:00.997Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: unauthorized (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-16T15-42-00Z-c4e177",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-16T02:45:27.243Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: unauthorized (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -11,6 +18,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:56.759Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: unauthorized (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-16T15-41-56Z-6a1d71",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-16T02:45:19.430Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: unauthorized (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -19,6 +33,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:18.905Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: unauthorized (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-16T15-42-18Z-c48a3e",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-16T02:45:39.090Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: unauthorized (endpoint reachable but requires credentials the harness does not send)",

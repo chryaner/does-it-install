@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-16T15:42:04.537Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading hol-guard (4.4MiB)\nDownloading yara-x (8.0MiB)\nDownloading onnxruntime (18.3MiB)\nDownloading magika (13.2MiB)\n Downloaded yara-x\n Downloaded magika\n Downloaded onnxruntime\n Downloaded hol-guard\n   Building litellm==1.93.0\n      Built litellm==1.93.0\nInstalled 101 packages in 1.09s\n/Users/runner/.cache/uv/archive-v0/C-HAT9-nDXz5ljC6/lib/python3.14/site-packages/pydantic_settings/sources/utils.py:47: IncompleteFieldDefinitionWarning: Field 'lifespan' has an incomplete definition: its annotation contains an unresolved forward reference, so settings sources may fail to correctly resolve its value. Call `model_rebuild()` on the model where the field is defined, once all the referenced types are defined.\n  warnings.warn(\nUnable to evaluate type annotations for callable 'create_policy'",
+        "method": "pypi",
+        "runId": "2026-08-16T15-42-04Z-eb2637",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-16T15:41:59.337Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading onnxruntime (18.3MiB)\nDownloading magika (15.5MiB)\nDownloading litellm (19.2MiB)\nDownloading hol-guard (4.6MiB)\nDownloading yara-x (9.3MiB)\n Downloaded yara-x\n Downloaded magika\n Downloaded onnxruntime\n Downloaded hol-guard\n Downloaded litellm\nInstalled 103 packages in 110ms\n/home/runner/.cache/uv/archive-v0/8Tu1WsZed10WRzJx/lib/python3.12/site-packages/pydantic_settings/sources/utils.py:47: IncompleteFieldDefinitionWarning: Field 'lifespan' has an incomplete definition: its annotation contains an unresolved forward reference, so settings sources may fail to correctly resolve its value. Call `model_rebuild()` on the model where the field is defined, once all the referenced types are defined.\n  warnings.warn(\nUnable to evaluate type annotations for callable 'create_policy'",
+        "method": "pypi",
+        "runId": "2026-08-16T15-41-59Z-e212f4",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-16T15:42:13.871Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nBuilding win-unicode-console==0.5\nDownloading magika (12.5MiB)\nDownloading yara-x (7.8MiB)\nDownloading onnxruntime (13.1MiB)\nDownloading hol-guard (4.3MiB)\n      Built win-unicode-console==0.5\n Downloaded yara-x\n Downloaded magika\n Downloaded onnxruntime\n Downloaded hol-guard\n   Building litellm==1.93.0\n      Built litellm==1.93.0\nInstalled 104 packages in 39.68s\nC:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\qrwYoHYr2r9AKq8j\\Lib\\site-packages\\pydantic_settings\\sources\\utils.py:47: IncompleteFieldDefinitionWarning: Field 'lifespan' has an incomplete definition: its annotation contains an unresolved forward reference, so settings sources may fail to correctly resolve its value. Call `model_rebuild()` on the model where the field is defined, once all the referenced types are defined.\r\n  warnings.warn(\r\nUnable to evaluate type annotations for callable 'create_policy'",
+        "method": "pypi",
+        "runId": "2026-08-16T15-42-13Z-c3b399",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.hashgraph-online/hol-guard",
+  "slug": "io.github.hashgraph-online__hol-guard"
+}

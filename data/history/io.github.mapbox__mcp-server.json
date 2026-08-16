@@ -2,6 +2,35 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:04.537Z",
+        "installMs": 39098,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-04Z-eb2637",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "place_details_tool",
+          "simplify_tool",
+          "bbox_tool",
+          "centroid_tool",
+          "midpoint_tool",
+          "bearing_tool",
+          "area_tool",
+          "buffer_tool",
+          "point_in_polygon_tool",
+          "distance_tool",
+          "category_search_tool",
+          "directions_tool",
+          "isochrone_tool",
+          "map_matching_tool",
+          "matrix_tool",
+          "optimization_tool",
+          "reverse_geocode_tool",
+          "static_map_image_tool",
+          "search_and_geocode_tool"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:24.166Z",
         "installMs": 54471,
         "method": "npm",
@@ -33,6 +62,35 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:59.337Z",
+        "installMs": 22454,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-59Z-e212f4",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "place_details_tool",
+          "simplify_tool",
+          "bbox_tool",
+          "centroid_tool",
+          "midpoint_tool",
+          "bearing_tool",
+          "area_tool",
+          "buffer_tool",
+          "point_in_polygon_tool",
+          "distance_tool",
+          "category_search_tool",
+          "directions_tool",
+          "isochrone_tool",
+          "map_matching_tool",
+          "matrix_tool",
+          "optimization_tool",
+          "reverse_geocode_tool",
+          "static_map_image_tool",
+          "search_and_geocode_tool"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:18.892Z",
         "installMs": 27662,
         "method": "npm",
@@ -63,6 +121,35 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:13.871Z",
+        "installMs": 395382,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-13Z-c3b399",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "place_details_tool",
+          "simplify_tool",
+          "bbox_tool",
+          "centroid_tool",
+          "midpoint_tool",
+          "bearing_tool",
+          "area_tool",
+          "buffer_tool",
+          "point_in_polygon_tool",
+          "distance_tool",
+          "category_search_tool",
+          "directions_tool",
+          "isochrone_tool",
+          "map_matching_tool",
+          "matrix_tool",
+          "optimization_tool",
+          "reverse_geocode_tool",
+          "static_map_image_tool",
+          "search_and_geocode_tool"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:38.462Z",
         "installMs": 418287,

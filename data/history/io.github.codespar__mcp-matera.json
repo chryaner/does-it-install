@@ -2,6 +2,38 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:04.537Z",
+        "installMs": 5629,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-04Z-eb2637",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "create_pix_charge_static",
+          "create_pix_charge_dynamic",
+          "get_pix_charge",
+          "list_pix_charges",
+          "update_pix_charge",
+          "create_pix_charge_due",
+          "get_pix_charge_due",
+          "create_pix_payment",
+          "get_pix_payment",
+          "refund_pix_payment",
+          "list_pix_payments",
+          "list_pix_received",
+          "resolve_pix_key",
+          "list_dict_keys",
+          "register_dict_key",
+          "delete_dict_key",
+          "create_pix_automatico",
+          "get_pix_automatico",
+          "cancel_pix_automatico",
+          "get_account_balance",
+          "get_account_statement",
+          "internal_transfer"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.629Z",
         "installMs": 4003,
         "method": "npm",
@@ -36,6 +68,38 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:59.337Z",
+        "installMs": 3004,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-59Z-e212f4",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "create_pix_charge_static",
+          "create_pix_charge_dynamic",
+          "get_pix_charge",
+          "list_pix_charges",
+          "update_pix_charge",
+          "create_pix_charge_due",
+          "get_pix_charge_due",
+          "create_pix_payment",
+          "get_pix_payment",
+          "refund_pix_payment",
+          "list_pix_payments",
+          "list_pix_received",
+          "resolve_pix_key",
+          "list_dict_keys",
+          "register_dict_key",
+          "delete_dict_key",
+          "create_pix_automatico",
+          "get_pix_automatico",
+          "cancel_pix_automatico",
+          "get_account_balance",
+          "get_account_statement",
+          "internal_transfer"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:24.037Z",
         "installMs": 3131,
         "method": "npm",
@@ -69,6 +133,38 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:13.871Z",
+        "installMs": 97419,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-13Z-c3b399",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "create_pix_charge_static",
+          "create_pix_charge_dynamic",
+          "get_pix_charge",
+          "list_pix_charges",
+          "update_pix_charge",
+          "create_pix_charge_due",
+          "get_pix_charge_due",
+          "create_pix_payment",
+          "get_pix_payment",
+          "refund_pix_payment",
+          "list_pix_payments",
+          "list_pix_received",
+          "resolve_pix_key",
+          "list_dict_keys",
+          "register_dict_key",
+          "delete_dict_key",
+          "create_pix_automatico",
+          "get_pix_automatico",
+          "cancel_pix_automatico",
+          "get_account_balance",
+          "get_account_statement",
+          "internal_transfer"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:42.768Z",
         "installMs": 134523,

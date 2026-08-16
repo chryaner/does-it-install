@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:00.997Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n=====================================================================\n  Error: 'entroly' Python package is not installed.\n\n  The entroly-mcp package is a bridge. To use it,\n  you must have the Python engine installed on your system.\n\n  Please run:\n      pip install entroly\n  or\n      pipx install entroly\n=====================================================================",
+        "installMs": 765,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-00Z-c4e177",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-16T02:45:27.629Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n=====================================================================\n  Error: 'entroly' Python package is not installed.\n\n  The entroly-mcp package is a bridge. To use it,\n  you must have the Python engine installed on your system.\n\n  Please run:\n      pip install entroly\n  or\n      pipx install entroly\n=====================================================================",
         "installMs": 789,
@@ -12,6 +20,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:56.759Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n=====================================================================\n  Error: 'entroly' Python package is not installed.\n\n  The entroly-mcp package is a bridge. To use it,\n  you must have the Python engine installed on your system.\n\n  Please run:\n      pip install entroly\n  or\n      pipx install entroly\n=====================================================================",
+        "installMs": 718,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-56Z-6a1d71",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-16T02:45:24.037Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n=====================================================================\n  Error: 'entroly' Python package is not installed.\n\n  The entroly-mcp package is a bridge. To use it,\n  you must have the Python engine installed on your system.\n\n  Please run:\n      pip install entroly\n  or\n      pipx install entroly\n=====================================================================",
         "installMs": 599,
@@ -21,6 +37,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:18.905Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n=====================================================================\n  Error: 'entroly' Python package is not installed.\n\n  The entroly-mcp package is a bridge. To use it,\n  you must have the Python engine installed on your system.\n\n  Please run:\n      pip install entroly\n  or\n      pipx install entroly\n=====================================================================",
+        "installMs": 1925,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-18Z-c48a3e",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-16T02:45:42.768Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n=====================================================================\n  Error: 'entroly' Python package is not installed.\n\n  The entroly-mcp package is a bridge. To use it,\n  you must have the Python engine installed on your system.\n\n  Please run:\n      pip install entroly\n  or\n      pipx install entroly\n=====================================================================",

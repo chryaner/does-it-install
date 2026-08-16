@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:04.537Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-16T15-42-04Z-eb2637",
+        "status": "skipped"
+      },
+      {
         "date": "2026-08-16T02:45:27.629Z",
         "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
         "installMs": 0,
@@ -18,6 +26,60 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-08-16T15:41:59.337Z",
+        "installMs": 384,
+        "method": "oci",
+        "runId": "2026-08-16T15-41-59Z-e212f4",
+        "status": "pass",
+        "toolCount": 44,
+        "toolNames": [
+          "add_comment_to_pending_review",
+          "add_issue_comment",
+          "add_reply_to_pull_request_comment",
+          "assign_copilot_to_issue",
+          "create_branch",
+          "create_or_update_file",
+          "create_pull_request",
+          "create_repository",
+          "delete_file",
+          "fork_repository",
+          "get_commit",
+          "get_file_contents",
+          "get_label",
+          "get_latest_release",
+          "get_me",
+          "get_release_by_tag",
+          "get_tag",
+          "get_team_members",
+          "get_teams",
+          "issue_read",
+          "issue_write",
+          "list_branches",
+          "list_commits",
+          "list_issue_fields",
+          "list_issue_types",
+          "list_issues",
+          "list_pull_requests",
+          "list_releases",
+          "list_repository_collaborators",
+          "list_tags",
+          "merge_pull_request",
+          "pull_request_read",
+          "pull_request_review_write",
+          "push_files",
+          "request_copilot_review",
+          "search_code",
+          "search_commits",
+          "search_issues",
+          "search_pull_requests",
+          "search_repositories",
+          "search_users",
+          "sub_issue_write",
+          "update_pull_request",
+          "update_pull_request_branch"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:24.037Z",
         "installMs": 318,
@@ -81,6 +143,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:13.871Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-16T15-42-13Z-c3b399",
+        "status": "skipped"
+      },
       {
         "date": "2026-08-16T02:45:42.768Z",
         "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",

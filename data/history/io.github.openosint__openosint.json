@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:04.537Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: t\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected token 'o', \"openosint \"... is not valid JSON\nUnexpected token 's', \"stId\":0,\"r\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected token 'o', ...\"          openosint \"... is not valid JSON\nUnexpected token 's', \"stId\":0,\"r\"... is not valid JSON\n--- stderr (tail) ---\nDownloading reportlab (1.9MiB)\nDownloading uvloop (1.3MiB)\n Downloaded uvloop\n Downloaded reportlab\nInstalled 71 packages in 153ms\nWarning: Input is not a terminal (fd=0).\n⭐ If OpenOSINT is useful, star it → https://github.com/OpenOSINT/OpenOSINT",
+        "method": "pypi",
+        "runId": "2026-08-16T15-42-04Z-eb2637",
+        "status": "timeout"
+      },
+      {
         "date": "2026-08-16T02:45:24.166Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: token 'T', \"  Thinking...\" is not valid JSON\nUnexpected end of JSON input\nUnexpected token '╭', \"╭─────────\"... is not valid JSON\nUnexpected token '│', \"│  Error: \"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'o', \"openosint ❯ \" is not valid JSON\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\n--- stderr (tail) ---\nDownloading reportlab (1.9MiB)\n Downloaded reportlab\nInstalled 71 packages in 465ms\nWarning: Input is not a terminal (fd=0).\n⭐ If OpenOSINT is useful, star it → https://github.com/OpenOSINT/OpenOSINT",
         "method": "pypi",
@@ -11,6 +18,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:59.337Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: put\nUnexpected end of JSON input\nUnexpected token 'o', \"openosint \"... is not valid JSON\nUnexpected token 's', \"stId\":0,\"r\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected token 'o', ...\"          openosint \"... is not valid JSON\nUnexpected token 's', \"stId\":0,\"r\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'T', \"  Thinking...\" is not valid JSON\n--- stderr (tail) ---\nDownloading asyncpg (3.4MiB)\nDownloading reportlab (1.9MiB)\nDownloading uvloop (4.2MiB)\nDownloading aiohttp (1.7MiB)\n Downloaded aiohttp\n Downloaded asyncpg\n Downloaded uvloop\n Downloaded reportlab\nInstalled 71 packages in 92ms\nWarning: Input is not a terminal (fd=0).\n⭐ If OpenOSINT is useful, star it → https://github.com/OpenOSINT/OpenOSINT",
+        "method": "pypi",
+        "runId": "2026-08-16T15-41-59Z-e212f4",
+        "status": "timeout"
+      },
+      {
         "date": "2026-08-16T02:45:18.892Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: put\nUnexpected end of JSON input\nUnexpected token 'o', \"openosint \"... is not valid JSON\nUnexpected token 's', \"stId\":0,\"r\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected token 'o', ...\"          openosint \"... is not valid JSON\nUnexpected token 's', \"stId\":0,\"r\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'T', \"  Thinking...\" is not valid JSON\n--- stderr (tail) ---\nDownloading reportlab (1.9MiB)\n Downloaded reportlab\nInstalled 71 packages in 52ms\nWarning: Input is not a terminal (fd=0).\n⭐ If OpenOSINT is useful, star it → https://github.com/OpenOSINT/OpenOSINT",
         "method": "pypi",
@@ -19,6 +33,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:13.871Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading reportlab (1.9MiB)\nDownloading pywin32 (6.6MiB)\n Downloaded reportlab\n Downloaded pywin32\nInstalled 72 packages in 11.48s\n[!] Fatal: No Windows console found. Are you running cmd.exe?",
+        "method": "pypi",
+        "runId": "2026-08-16T15-42-13Z-c3b399",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-16T02:45:38.462Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading reportlab (1.9MiB)\n Downloaded reportlab\nInstalled 72 packages in 18.44s\n[!] Fatal: No Windows console found. Are you running cmd.exe?",

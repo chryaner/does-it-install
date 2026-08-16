@@ -2,6 +2,38 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:04.537Z",
+        "installMs": 5252,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-04Z-eb2637",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "create_boleto",
+          "get_boleto",
+          "list_boletos",
+          "cancel_boleto",
+          "get_boleto_pdf",
+          "create_pix",
+          "get_pix",
+          "list_pix",
+          "create_pix_cob",
+          "get_pix_cob",
+          "list_pix_cob",
+          "create_pix_cobv",
+          "get_pix_cobv",
+          "create_pix_devolucao",
+          "list_pix_keys",
+          "get_balance",
+          "get_statement",
+          "get_statement_enriched",
+          "get_statement_pdf",
+          "create_transfer",
+          "get_webhook",
+          "create_webhook"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.629Z",
         "installMs": 3897,
         "method": "npm",
@@ -36,6 +68,38 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:59.337Z",
+        "installMs": 2968,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-59Z-e212f4",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "create_boleto",
+          "get_boleto",
+          "list_boletos",
+          "cancel_boleto",
+          "get_boleto_pdf",
+          "create_pix",
+          "get_pix",
+          "list_pix",
+          "create_pix_cob",
+          "get_pix_cob",
+          "list_pix_cob",
+          "create_pix_cobv",
+          "get_pix_cobv",
+          "create_pix_devolucao",
+          "list_pix_keys",
+          "get_balance",
+          "get_statement",
+          "get_statement_enriched",
+          "get_statement_pdf",
+          "create_transfer",
+          "get_webhook",
+          "create_webhook"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:24.037Z",
         "installMs": 3110,
         "method": "npm",
@@ -69,6 +133,38 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:13.871Z",
+        "installMs": 85449,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-13Z-c3b399",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "create_boleto",
+          "get_boleto",
+          "list_boletos",
+          "cancel_boleto",
+          "get_boleto_pdf",
+          "create_pix",
+          "get_pix",
+          "list_pix",
+          "create_pix_cob",
+          "get_pix_cob",
+          "list_pix_cob",
+          "create_pix_cobv",
+          "get_pix_cobv",
+          "create_pix_devolucao",
+          "list_pix_keys",
+          "get_balance",
+          "get_statement",
+          "get_statement_enriched",
+          "get_statement_pdf",
+          "create_transfer",
+          "get_webhook",
+          "create_webhook"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:42.768Z",
         "installMs": 127929,

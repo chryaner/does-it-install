@@ -2,6 +2,21 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:00.997Z",
+        "method": "remote-http",
+        "runId": "2026-08-16T15-42-00Z-c4e177",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "search",
+          "exec",
+          "_exec_callback",
+          "_get_canvas_state",
+          "read_checkpoint",
+          "save_checkpoint"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:24.166Z",
         "method": "remote-http",
         "runId": "2026-08-16T02-45-24Z-dc7183",
@@ -19,6 +34,21 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:56.759Z",
+        "method": "remote-http",
+        "runId": "2026-08-16T15-41-56Z-6a1d71",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "search",
+          "exec",
+          "_exec_callback",
+          "_get_canvas_state",
+          "read_checkpoint",
+          "save_checkpoint"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:18.892Z",
         "method": "remote-http",
         "runId": "2026-08-16T02-45-18Z-a0bb32",
@@ -35,6 +65,21 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:18.905Z",
+        "method": "remote-http",
+        "runId": "2026-08-16T15-42-18Z-c48a3e",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "search",
+          "exec",
+          "_exec_callback",
+          "_get_canvas_state",
+          "read_checkpoint",
+          "save_checkpoint"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:38.462Z",
         "method": "remote-http",

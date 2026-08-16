@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:41:59.741Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/PAOdUNaZxVBJZSct/bin/financetoolkit-mcp\", line 6, in <module>\n    from financetoolkit.mcp_server.mcp_controller import main\n  File \"/Users/runner/.cache/uv/archive-v0/PAOdUNaZxVBJZSct/lib/python3.14/site-packages/financetoolkit/__init__.py\", line 8, in <module>\n    from .portfolio.portfolio_controller import Portfolio\n  File \"/Users/runner/.cache/uv/archive-v0/PAOdUNaZxVBJZSct/lib/python3.14/site-packages/financetoolkit/portfolio/portfolio_controller.py\", line 9, in <module>\n    from financetoolkit.portfolio import helpers, overview_model, portfolio_model\n  File \"/Users/runner/.cache/uv/archive-v0/PAOdUNaZxVBJZSct/lib/python3.14/site-packages/financetoolkit/portfolio/helpers.py\", line 6, in <module>\n    import yaml\nModuleNotFoundError: No module named 'yaml'",
+        "method": "pypi",
+        "runId": "2026-08-16T15-41-59Z-dbe80d",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-16T02:45:24.166Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/7HfsqhOgDNXS2tY3/bin/financetoolkit-mcp\", line 6, in <module>\n    from financetoolkit.mcp_server.mcp_controller import main\n  File \"/Users/runner/.cache/uv/archive-v0/7HfsqhOgDNXS2tY3/lib/python3.14/site-packages/financetoolkit/__init__.py\", line 8, in <module>\n    from .portfolio.portfolio_controller import Portfolio\n  File \"/Users/runner/.cache/uv/archive-v0/7HfsqhOgDNXS2tY3/lib/python3.14/site-packages/financetoolkit/portfolio/portfolio_controller.py\", line 9, in <module>\n    from financetoolkit.portfolio import helpers, overview_model, portfolio_model\n  File \"/Users/runner/.cache/uv/archive-v0/7HfsqhOgDNXS2tY3/lib/python3.14/site-packages/financetoolkit/portfolio/helpers.py\", line 6, in <module>\n    import yaml\nModuleNotFoundError: No module named 'yaml'",
         "method": "pypi",
@@ -18,6 +25,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:42:02.544Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/lmPqJ3WABWMzcgss/bin/financetoolkit-mcp\", line 6, in <module>\n    from financetoolkit.mcp_server.mcp_controller import main\n  File \"/home/runner/.cache/uv/archive-v0/lmPqJ3WABWMzcgss/lib/python3.12/site-packages/financetoolkit/__init__.py\", line 8, in <module>\n    from .portfolio.portfolio_controller import Portfolio\n  File \"/home/runner/.cache/uv/archive-v0/lmPqJ3WABWMzcgss/lib/python3.12/site-packages/financetoolkit/portfolio/portfolio_controller.py\", line 9, in <module>\n    from financetoolkit.portfolio import helpers, overview_model, portfolio_model\n  File \"/home/runner/.cache/uv/archive-v0/lmPqJ3WABWMzcgss/lib/python3.12/site-packages/financetoolkit/portfolio/helpers.py\", line 6, in <module>\n    import yaml\nModuleNotFoundError: No module named 'yaml'",
+        "method": "pypi",
+        "runId": "2026-08-16T15-42-02Z-d4ddba",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-16T02:45:18.892Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/qr0HiyZsfXMjQThS/bin/financetoolkit-mcp\", line 6, in <module>\n    from financetoolkit.mcp_server.mcp_controller import main\n  File \"/home/runner/.cache/uv/archive-v0/qr0HiyZsfXMjQThS/lib/python3.12/site-packages/financetoolkit/__init__.py\", line 8, in <module>\n    from .portfolio.portfolio_controller import Portfolio\n  File \"/home/runner/.cache/uv/archive-v0/qr0HiyZsfXMjQThS/lib/python3.12/site-packages/financetoolkit/portfolio/portfolio_controller.py\", line 9, in <module>\n    from financetoolkit.portfolio import helpers, overview_model, portfolio_model\n  File \"/home/runner/.cache/uv/archive-v0/qr0HiyZsfXMjQThS/lib/python3.12/site-packages/financetoolkit/portfolio/helpers.py\", line 6, in <module>\n    import yaml\nModuleNotFoundError: No module named 'yaml'",
         "method": "pypi",
@@ -33,6 +47,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:15.480Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\BTAE3nR7IJy7lywq\\Scripts\\financetoolkit-mcp-inspector.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\BTAE3nR7IJy7lywq\\Lib\\site-packages\\financetoolkit\\__init__.py\", line 8, in <module>\r\n    from .portfolio.portfolio_controller import Portfolio\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\BTAE3nR7IJy7lywq\\Lib\\site-packages\\financetoolkit\\portfolio\\portfolio_controller.py\", line 9, in <module>\r\n    from financetoolkit.portfolio import helpers, overview_model, portfolio_model\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\BTAE3nR7IJy7lywq\\Lib\\site-packages\\financetoolkit\\portfolio\\helpers.py\", line 6, in <module>\r\n    import yaml\r\nModuleNotFoundError: No module named 'yaml'",
+        "method": "pypi",
+        "runId": "2026-08-16T15-42-15Z-299164",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-16T02:45:38.462Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\3INuBeOGCGHquHgy\\Scripts\\financetoolkit-mcp-inspector.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\3INuBeOGCGHquHgy\\Lib\\site-packages\\financetoolkit\\__init__.py\", line 8, in <module>\r\n    from .portfolio.portfolio_controller import Portfolio\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\3INuBeOGCGHquHgy\\Lib\\site-packages\\financetoolkit\\portfolio\\portfolio_controller.py\", line 9, in <module>\r\n    from financetoolkit.portfolio import helpers, overview_model, portfolio_model\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\3INuBeOGCGHquHgy\\Lib\\site-packages\\financetoolkit\\portfolio\\helpers.py\", line 6, in <module>\r\n    import yaml\r\nModuleNotFoundError: No module named 'yaml'",

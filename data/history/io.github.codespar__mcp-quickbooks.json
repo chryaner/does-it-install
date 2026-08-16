@@ -2,6 +2,38 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:04.537Z",
+        "installMs": 5254,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-04Z-eb2637",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "create_customer",
+          "update_customer",
+          "get_customer",
+          "list_customers",
+          "create_invoice",
+          "update_invoice",
+          "void_invoice",
+          "delete_invoice",
+          "get_invoice",
+          "send_invoice",
+          "create_payment",
+          "get_payment",
+          "create_item",
+          "list_items",
+          "create_bill",
+          "list_bills",
+          "create_vendor",
+          "list_vendors",
+          "create_estimate",
+          "create_sales_receipt",
+          "list_accounts",
+          "get_profit_and_loss_report"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.629Z",
         "installMs": 5198,
         "method": "npm",
@@ -36,6 +68,38 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:59.337Z",
+        "installMs": 2987,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-59Z-e212f4",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "create_customer",
+          "update_customer",
+          "get_customer",
+          "list_customers",
+          "create_invoice",
+          "update_invoice",
+          "void_invoice",
+          "delete_invoice",
+          "get_invoice",
+          "send_invoice",
+          "create_payment",
+          "get_payment",
+          "create_item",
+          "list_items",
+          "create_bill",
+          "list_bills",
+          "create_vendor",
+          "list_vendors",
+          "create_estimate",
+          "create_sales_receipt",
+          "list_accounts",
+          "get_profit_and_loss_report"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:24.037Z",
         "installMs": 2921,
         "method": "npm",
@@ -69,6 +133,38 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:13.871Z",
+        "installMs": 95646,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-13Z-c3b399",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "create_customer",
+          "update_customer",
+          "get_customer",
+          "list_customers",
+          "create_invoice",
+          "update_invoice",
+          "void_invoice",
+          "delete_invoice",
+          "get_invoice",
+          "send_invoice",
+          "create_payment",
+          "get_payment",
+          "create_item",
+          "list_items",
+          "create_bill",
+          "list_bills",
+          "create_vendor",
+          "list_vendors",
+          "create_estimate",
+          "create_sales_receipt",
+          "list_accounts",
+          "get_profit_and_loss_report"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:42.768Z",
         "installMs": 130566,

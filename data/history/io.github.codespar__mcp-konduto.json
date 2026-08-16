@@ -2,6 +2,34 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:04.537Z",
+        "installMs": 5192,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-04Z-eb2637",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "send_order_for_analysis",
+          "get_order",
+          "update_order_status",
+          "report_chargeback",
+          "report_order_approved",
+          "report_order_declined",
+          "add_to_blocklist",
+          "query_blocklist",
+          "update_blocklist_entry",
+          "remove_from_blocklist",
+          "add_to_allowlist",
+          "query_allowlist",
+          "update_allowlist_entry",
+          "remove_from_allowlist",
+          "add_to_reviewlist",
+          "query_reviewlist",
+          "update_reviewlist_entry",
+          "remove_from_reviewlist"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.629Z",
         "installMs": 3927,
         "method": "npm",
@@ -32,6 +60,34 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:59.337Z",
+        "installMs": 3006,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-59Z-e212f4",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "send_order_for_analysis",
+          "get_order",
+          "update_order_status",
+          "report_chargeback",
+          "report_order_approved",
+          "report_order_declined",
+          "add_to_blocklist",
+          "query_blocklist",
+          "update_blocklist_entry",
+          "remove_from_blocklist",
+          "add_to_allowlist",
+          "query_allowlist",
+          "update_allowlist_entry",
+          "remove_from_allowlist",
+          "add_to_reviewlist",
+          "query_reviewlist",
+          "update_reviewlist_entry",
+          "remove_from_reviewlist"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:24.037Z",
         "installMs": 2967,
         "method": "npm",
@@ -61,6 +117,34 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:13.871Z",
+        "installMs": 97499,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-13Z-c3b399",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "send_order_for_analysis",
+          "get_order",
+          "update_order_status",
+          "report_chargeback",
+          "report_order_approved",
+          "report_order_declined",
+          "add_to_blocklist",
+          "query_blocklist",
+          "update_blocklist_entry",
+          "remove_from_blocklist",
+          "add_to_allowlist",
+          "query_allowlist",
+          "update_allowlist_entry",
+          "remove_from_allowlist",
+          "add_to_reviewlist",
+          "query_reviewlist",
+          "update_reviewlist_entry",
+          "remove_from_reviewlist"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:42.768Z",
         "installMs": 136351,

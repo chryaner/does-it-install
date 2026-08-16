@@ -2,6 +2,29 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:00.997Z",
+        "installMs": 4103,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-00Z-c4e177",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "get_oauth_token",
+          "create_pix_cob",
+          "get_pix_cob",
+          "list_pix_cob",
+          "create_pix_cobv",
+          "get_pix_cobv",
+          "lookup_dict_key",
+          "register_dict_key",
+          "delete_dict_key",
+          "create_boleto",
+          "get_boleto",
+          "cancel_boleto",
+          "get_account_balance"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.243Z",
         "installMs": 6973,
         "method": "npm",
@@ -27,6 +50,29 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:56.759Z",
+        "installMs": 4298,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-56Z-6a1d71",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "get_oauth_token",
+          "create_pix_cob",
+          "get_pix_cob",
+          "list_pix_cob",
+          "create_pix_cobv",
+          "get_pix_cobv",
+          "lookup_dict_key",
+          "register_dict_key",
+          "delete_dict_key",
+          "create_boleto",
+          "get_boleto",
+          "cancel_boleto",
+          "get_account_balance"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:19.430Z",
         "installMs": 4587,
         "method": "npm",
@@ -51,6 +97,29 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:18.905Z",
+        "installMs": 115628,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-18Z-c48a3e",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "get_oauth_token",
+          "create_pix_cob",
+          "get_pix_cob",
+          "list_pix_cob",
+          "create_pix_cobv",
+          "get_pix_cobv",
+          "lookup_dict_key",
+          "register_dict_key",
+          "delete_dict_key",
+          "create_boleto",
+          "get_boleto",
+          "cancel_boleto",
+          "get_account_balance"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:39.090Z",
         "installMs": 175387,

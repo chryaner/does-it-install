@@ -2,6 +2,35 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:04.537Z",
+        "installMs": 1135,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-04Z-eb2637",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "yolfi_agent_setup_start",
+          "yolfi_agent_checkin",
+          "yolfi_agent_register",
+          "yolfi_auth_status",
+          "yolfi_organization_get",
+          "yolfi_organization_update",
+          "yolfi_settlement_configure",
+          "yolfi_webhooks_configure",
+          "yolfi_webhooks_list",
+          "yolfi_webhooks_update",
+          "yolfi_webhooks_rotate_secret",
+          "yolfi_webhooks_delete",
+          "yolfi_paylinks_create",
+          "yolfi_paylinks_list",
+          "yolfi_paylinks_get",
+          "yolfi_paylinks_disable",
+          "yolfi_payments_create",
+          "yolfi_payments_status",
+          "yolfi_webhooks_verify"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.629Z",
         "installMs": 970,
         "method": "npm",
@@ -33,6 +62,35 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:59.337Z",
+        "installMs": 795,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-59Z-e212f4",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "yolfi_agent_setup_start",
+          "yolfi_agent_checkin",
+          "yolfi_agent_register",
+          "yolfi_auth_status",
+          "yolfi_organization_get",
+          "yolfi_organization_update",
+          "yolfi_settlement_configure",
+          "yolfi_webhooks_configure",
+          "yolfi_webhooks_list",
+          "yolfi_webhooks_update",
+          "yolfi_webhooks_rotate_secret",
+          "yolfi_webhooks_delete",
+          "yolfi_paylinks_create",
+          "yolfi_paylinks_list",
+          "yolfi_paylinks_get",
+          "yolfi_paylinks_disable",
+          "yolfi_payments_create",
+          "yolfi_payments_status",
+          "yolfi_webhooks_verify"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:24.037Z",
         "installMs": 806,
         "method": "npm",
@@ -63,6 +121,35 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:13.871Z",
+        "installMs": 5911,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-13Z-c3b399",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "yolfi_agent_setup_start",
+          "yolfi_agent_checkin",
+          "yolfi_agent_register",
+          "yolfi_auth_status",
+          "yolfi_organization_get",
+          "yolfi_organization_update",
+          "yolfi_settlement_configure",
+          "yolfi_webhooks_configure",
+          "yolfi_webhooks_list",
+          "yolfi_webhooks_update",
+          "yolfi_webhooks_rotate_secret",
+          "yolfi_webhooks_delete",
+          "yolfi_paylinks_create",
+          "yolfi_paylinks_list",
+          "yolfi_paylinks_get",
+          "yolfi_paylinks_disable",
+          "yolfi_payments_create",
+          "yolfi_payments_status",
+          "yolfi_webhooks_verify"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:42.768Z",
         "installMs": 10397,

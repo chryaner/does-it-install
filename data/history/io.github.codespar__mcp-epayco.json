@@ -2,6 +2,24 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:00.997Z",
+        "installMs": 6002,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-00Z-c4e177",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "tokenize_card",
+          "create_customer",
+          "charge_card",
+          "get_transaction",
+          "create_pse_payment",
+          "get_pse_transaction",
+          "list_pse_banks",
+          "create_cash_payment"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.243Z",
         "installMs": 7569,
         "method": "npm",
@@ -22,6 +40,24 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:56.759Z",
+        "installMs": 3881,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-56Z-6a1d71",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "tokenize_card",
+          "create_customer",
+          "charge_card",
+          "get_transaction",
+          "create_pse_payment",
+          "get_pse_transaction",
+          "list_pse_banks",
+          "create_cash_payment"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:19.430Z",
         "installMs": 4026,
         "method": "npm",
@@ -41,6 +77,24 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:18.905Z",
+        "installMs": 114531,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-18Z-c48a3e",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "tokenize_card",
+          "create_customer",
+          "charge_card",
+          "get_transaction",
+          "create_pse_payment",
+          "get_pse_transaction",
+          "list_pse_banks",
+          "create_cash_payment"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:39.090Z",
         "installMs": 185839,

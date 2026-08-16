@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:04.537Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nValidating MCP server configuration...\nUsing session directory: /app/sessions\nINFO: DOT_AI_SESSION_DIR not set, using default: /app/sessions\nFor custom session directory, set DOT_AI_SESSION_DIR environment variable\nFATAL: Session directory does not exist: /app/sessions\nSolution: Create the directory or update DOT_AI_SESSION_DIR",
+        "installMs": 11508,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-04Z-eb2637",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-16T02:45:24.166Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nValidating MCP server configuration...\nUsing session directory: /app/sessions\nINFO: DOT_AI_SESSION_DIR not set, using default: /app/sessions\nFor custom session directory, set DOT_AI_SESSION_DIR environment variable\nFATAL: Session directory does not exist: /app/sessions\nSolution: Create the directory or update DOT_AI_SESSION_DIR",
         "installMs": 13432,
@@ -12,6 +20,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:59.337Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nValidating MCP server configuration...\nUsing session directory: /app/sessions\nINFO: DOT_AI_SESSION_DIR not set, using default: /app/sessions\nFor custom session directory, set DOT_AI_SESSION_DIR environment variable\nFATAL: Session directory does not exist: /app/sessions\nSolution: Create the directory or update DOT_AI_SESSION_DIR",
+        "installMs": 8130,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-59Z-e212f4",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-16T02:45:18.892Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nValidating MCP server configuration...\nUsing session directory: /app/sessions\nINFO: DOT_AI_SESSION_DIR not set, using default: /app/sessions\nFor custom session directory, set DOT_AI_SESSION_DIR environment variable\nFATAL: Session directory does not exist: /app/sessions\nSolution: Create the directory or update DOT_AI_SESSION_DIR",
         "installMs": 11346,
@@ -21,6 +37,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:13.871Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nValidating MCP server configuration...\nUsing session directory: /app/sessions\nINFO: DOT_AI_SESSION_DIR not set, using default: /app/sessions\nFor custom session directory, set DOT_AI_SESSION_DIR environment variable\nFATAL: Session directory does not exist: /app/sessions\nSolution: Create the directory or update DOT_AI_SESSION_DIR",
+        "installMs": 486883,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-13Z-c3b399",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-16T02:45:38.462Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nValidating MCP server configuration...\nUsing session directory: /app/sessions\nINFO: DOT_AI_SESSION_DIR not set, using default: /app/sessions\nFor custom session directory, set DOT_AI_SESSION_DIR environment variable\nFATAL: Session directory does not exist: /app/sessions\nSolution: Create the directory or update DOT_AI_SESSION_DIR",

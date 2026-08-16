@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:41:59.741Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-16T15-41-59Z-dbe80d",
+        "status": "skipped"
+      },
+      {
         "date": "2026-08-16T02:45:24.166Z",
         "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
         "installMs": 0,
@@ -12,6 +20,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:42:02.544Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: unknown shorthand flag: 's' in -s\nRun 'vet --help' for usage.",
+        "installMs": 10004,
+        "method": "oci",
+        "runId": "2026-08-16T15-42-02Z-d4ddba",
+        "status": "needs_config"
+      },
+      {
         "date": "2026-08-16T02:45:18.892Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: unknown shorthand flag: 's' in -s\nRun 'vet --help' for usage.",
         "installMs": 9012,
@@ -21,6 +37,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:15.480Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-16T15-42-15Z-299164",
+        "status": "skipped"
+      },
       {
         "date": "2026-08-16T02:45:38.462Z",
         "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",

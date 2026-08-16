@@ -2,6 +2,29 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:41:59.741Z",
+        "installMs": 6087,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-59Z-dbe80d",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "get_sample",
+          "list_samples",
+          "get_setup",
+          "validate_code",
+          "get_migration_guide",
+          "get_node_reference",
+          "get_platform_roadmap",
+          "get_best_practices",
+          "get_ar_setup",
+          "get_troubleshooting",
+          "get_ios_setup",
+          "get_web_setup",
+          "render_3d_preview"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:24.166Z",
         "installMs": 3645,
         "method": "npm",
@@ -27,6 +50,29 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:42:02.544Z",
+        "installMs": 5067,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-02Z-d4ddba",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "get_sample",
+          "list_samples",
+          "get_setup",
+          "validate_code",
+          "get_migration_guide",
+          "get_node_reference",
+          "get_platform_roadmap",
+          "get_best_practices",
+          "get_ar_setup",
+          "get_troubleshooting",
+          "get_ios_setup",
+          "get_web_setup",
+          "render_3d_preview"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:18.892Z",
         "installMs": 3812,
         "method": "npm",
@@ -51,6 +97,29 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:15.480Z",
+        "installMs": 87727,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-15Z-299164",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "get_sample",
+          "list_samples",
+          "get_setup",
+          "validate_code",
+          "get_migration_guide",
+          "get_node_reference",
+          "get_platform_roadmap",
+          "get_best_practices",
+          "get_ar_setup",
+          "get_troubleshooting",
+          "get_ios_setup",
+          "get_web_setup",
+          "render_3d_preview"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:38.462Z",
         "installMs": 83846,

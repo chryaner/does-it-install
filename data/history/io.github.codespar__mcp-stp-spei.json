@@ -2,6 +2,34 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:00.997Z",
+        "installMs": 3442,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-00Z-c4e177",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_transfer",
+          "get_transfer",
+          "list_transfers",
+          "cancel_transfer",
+          "get_balance",
+          "list_account_balances",
+          "validate_account",
+          "validate_clabe",
+          "list_banks",
+          "lookup_bank_by_code",
+          "get_cep",
+          "register_beneficiary",
+          "create_refund",
+          "list_refunds",
+          "conciliation_report",
+          "register_webhook",
+          "list_webhooks",
+          "delete_webhook"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.243Z",
         "installMs": 8181,
         "method": "npm",
@@ -32,6 +60,34 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:56.759Z",
+        "installMs": 4010,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-56Z-6a1d71",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_transfer",
+          "get_transfer",
+          "list_transfers",
+          "cancel_transfer",
+          "get_balance",
+          "list_account_balances",
+          "validate_account",
+          "validate_clabe",
+          "list_banks",
+          "lookup_bank_by_code",
+          "get_cep",
+          "register_beneficiary",
+          "create_refund",
+          "list_refunds",
+          "conciliation_report",
+          "register_webhook",
+          "list_webhooks",
+          "delete_webhook"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:19.430Z",
         "installMs": 4001,
         "method": "npm",
@@ -61,6 +117,34 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:18.905Z",
+        "installMs": 118593,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-18Z-c48a3e",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_transfer",
+          "get_transfer",
+          "list_transfers",
+          "cancel_transfer",
+          "get_balance",
+          "list_account_balances",
+          "validate_account",
+          "validate_clabe",
+          "list_banks",
+          "lookup_bank_by_code",
+          "get_cep",
+          "register_beneficiary",
+          "create_refund",
+          "list_refunds",
+          "conciliation_report",
+          "register_webhook",
+          "list_webhooks",
+          "delete_webhook"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:39.090Z",
         "installMs": 170852,

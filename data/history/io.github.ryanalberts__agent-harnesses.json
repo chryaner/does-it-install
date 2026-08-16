@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:04.537Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 29 packages in 92ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/3XEzxWhx0RPCV4C_/bin/agent-harnesses-mcp\", line 6, in <module>\n    from agent_harnesses_mcp import main\n  File \"/Users/runner/.cache/uv/archive-v0/3XEzxWhx0RPCV4C_/lib/python3.14/site-packages/agent_harnesses_mcp/__init__.py\", line 22, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-16T15-42-04Z-eb2637",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-16T02:45:27.243Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 29 packages in 364ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/B0vlKVsha6iHinkd/bin/agent-harnesses-mcp\", line 6, in <module>\n    from agent_harnesses_mcp import main\n  File \"/Users/runner/.cache/uv/archive-v0/B0vlKVsha6iHinkd/lib/python3.14/site-packages/agent_harnesses_mcp/__init__.py\", line 22, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
         "method": "pypi",
@@ -11,6 +18,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:59.337Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 29 packages in 25ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/xZZxzulyuDb24JTK/bin/agent-harnesses-mcp\", line 6, in <module>\n    from agent_harnesses_mcp import main\n  File \"/home/runner/.cache/uv/archive-v0/xZZxzulyuDb24JTK/lib/python3.12/site-packages/agent_harnesses_mcp/__init__.py\", line 22, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-16T15-41-59Z-e212f4",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-16T02:45:19.430Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 29 packages in 139ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/xOA5dqoxgSLd3LX_/bin/agent-harnesses-mcp\", line 6, in <module>\n    from agent_harnesses_mcp import main\n  File \"/home/runner/.cache/uv/archive-v0/xOA5dqoxgSLd3LX_/lib/python3.13/site-packages/agent_harnesses_mcp/__init__.py\", line 22, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
         "method": "pypi",
@@ -19,6 +33,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:13.871Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 31 packages in 3.52s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\54hBrpoRwseONAW3\\Scripts\\agent-harnesses-mcp.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\54hBrpoRwseONAW3\\Lib\\site-packages\\agent_harnesses_mcp\\__init__.py\", line 22, in <module>\r\n    from mcp.server.fastmcp import FastMCP\r\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
+        "method": "pypi",
+        "runId": "2026-08-16T15-42-13Z-c3b399",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-16T02:45:39.090Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 31 packages in 13.80s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\bTsDQDFd_ZBtzuX0\\Scripts\\agent-harnesses-mcp.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\bTsDQDFd_ZBtzuX0\\Lib\\site-packages\\agent_harnesses_mcp\\__init__.py\", line 22, in <module>\r\n    from mcp.server.fastmcp import FastMCP\r\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",

@@ -2,6 +2,36 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:00.997Z",
+        "installMs": 3772,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-00Z-c4e177",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_inquiry",
+          "retrieve_inquiry",
+          "list_inquiries",
+          "approve_inquiry",
+          "decline_inquiry",
+          "redact_inquiry",
+          "create_account",
+          "retrieve_account",
+          "list_reports",
+          "retrieve_report",
+          "create_case",
+          "resume_inquiry",
+          "update_account",
+          "list_accounts",
+          "run_report",
+          "retrieve_case",
+          "list_cases",
+          "add_case_tag",
+          "list_templates",
+          "list_webhooks"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.243Z",
         "installMs": 10132,
         "method": "npm",
@@ -34,6 +64,36 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:56.759Z",
+        "installMs": 3975,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-56Z-6a1d71",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_inquiry",
+          "retrieve_inquiry",
+          "list_inquiries",
+          "approve_inquiry",
+          "decline_inquiry",
+          "redact_inquiry",
+          "create_account",
+          "retrieve_account",
+          "list_reports",
+          "retrieve_report",
+          "create_case",
+          "resume_inquiry",
+          "update_account",
+          "list_accounts",
+          "run_report",
+          "retrieve_case",
+          "list_cases",
+          "add_case_tag",
+          "list_templates",
+          "list_webhooks"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:19.430Z",
         "installMs": 4367,
         "method": "npm",
@@ -65,6 +125,36 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:18.905Z",
+        "installMs": 118399,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-18Z-c48a3e",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_inquiry",
+          "retrieve_inquiry",
+          "list_inquiries",
+          "approve_inquiry",
+          "decline_inquiry",
+          "redact_inquiry",
+          "create_account",
+          "retrieve_account",
+          "list_reports",
+          "retrieve_report",
+          "create_case",
+          "resume_inquiry",
+          "update_account",
+          "list_accounts",
+          "run_report",
+          "retrieve_case",
+          "list_cases",
+          "add_case_tag",
+          "list_templates",
+          "list_webhooks"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:39.090Z",
         "installMs": 175537,

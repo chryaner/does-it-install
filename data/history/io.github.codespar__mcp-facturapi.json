@@ -2,6 +2,36 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:04.537Z",
+        "installMs": 5415,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-04Z-eb2637",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_invoice",
+          "get_invoice",
+          "list_invoices",
+          "cancel_invoice",
+          "download_invoice_pdf",
+          "download_invoice_xml",
+          "send_invoice_email",
+          "create_customer",
+          "get_customer",
+          "list_customers",
+          "update_customer",
+          "delete_customer",
+          "create_product",
+          "get_product",
+          "list_products",
+          "update_product",
+          "delete_product",
+          "create_receipt",
+          "list_receipts",
+          "list_webhooks"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.629Z",
         "installMs": 4192,
         "method": "npm",
@@ -34,6 +64,36 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:59.337Z",
+        "installMs": 2962,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-59Z-e212f4",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_invoice",
+          "get_invoice",
+          "list_invoices",
+          "cancel_invoice",
+          "download_invoice_pdf",
+          "download_invoice_xml",
+          "send_invoice_email",
+          "create_customer",
+          "get_customer",
+          "list_customers",
+          "update_customer",
+          "delete_customer",
+          "create_product",
+          "get_product",
+          "list_products",
+          "update_product",
+          "delete_product",
+          "create_receipt",
+          "list_receipts",
+          "list_webhooks"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:24.037Z",
         "installMs": 2976,
         "method": "npm",
@@ -65,6 +125,36 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:13.871Z",
+        "installMs": 98401,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-13Z-c3b399",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_invoice",
+          "get_invoice",
+          "list_invoices",
+          "cancel_invoice",
+          "download_invoice_pdf",
+          "download_invoice_xml",
+          "send_invoice_email",
+          "create_customer",
+          "get_customer",
+          "list_customers",
+          "update_customer",
+          "delete_customer",
+          "create_product",
+          "get_product",
+          "list_products",
+          "update_product",
+          "delete_product",
+          "create_receipt",
+          "list_receipts",
+          "list_webhooks"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:42.768Z",
         "installMs": 130507,

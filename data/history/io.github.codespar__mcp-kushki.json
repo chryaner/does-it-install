@@ -2,6 +2,26 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:00.997Z",
+        "installMs": 4255,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-00Z-c4e177",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "tokenize_card",
+          "create_charge",
+          "create_preauthorization",
+          "capture_preauthorization",
+          "void_charge",
+          "create_transfer_token",
+          "create_transfer_charge",
+          "create_cash_charge",
+          "create_subscription",
+          "cancel_subscription"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.243Z",
         "installMs": 8801,
         "method": "npm",
@@ -24,6 +44,26 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:56.759Z",
+        "installMs": 3966,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-56Z-6a1d71",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "tokenize_card",
+          "create_charge",
+          "create_preauthorization",
+          "capture_preauthorization",
+          "void_charge",
+          "create_transfer_token",
+          "create_transfer_charge",
+          "create_cash_charge",
+          "create_subscription",
+          "cancel_subscription"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:19.430Z",
         "installMs": 4170,
         "method": "npm",
@@ -45,6 +85,26 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:18.905Z",
+        "installMs": 111516,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-18Z-c48a3e",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "tokenize_card",
+          "create_charge",
+          "create_preauthorization",
+          "capture_preauthorization",
+          "void_charge",
+          "create_transfer_token",
+          "create_transfer_charge",
+          "create_cash_charge",
+          "create_subscription",
+          "cancel_subscription"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:39.090Z",
         "installMs": 171322,

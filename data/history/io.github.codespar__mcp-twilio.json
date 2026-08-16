@@ -2,6 +2,38 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:04.537Z",
+        "installMs": 7063,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-04Z-eb2637",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "send_message",
+          "get_message",
+          "list_messages",
+          "delete_message",
+          "make_call",
+          "get_call",
+          "update_call",
+          "start_verification",
+          "check_verification",
+          "lookup_phone",
+          "list_incoming_numbers",
+          "buy_phone_number",
+          "list_recordings",
+          "create_verify_service",
+          "create_conversation",
+          "list_conversations",
+          "add_conversation_participant",
+          "send_conversation_message",
+          "list_messaging_services",
+          "execute_studio_flow",
+          "create_taskrouter_task",
+          "list_taskrouter_workers"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.629Z",
         "installMs": 4314,
         "method": "npm",
@@ -36,6 +68,38 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:59.337Z",
+        "installMs": 3131,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-59Z-e212f4",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "send_message",
+          "get_message",
+          "list_messages",
+          "delete_message",
+          "make_call",
+          "get_call",
+          "update_call",
+          "start_verification",
+          "check_verification",
+          "lookup_phone",
+          "list_incoming_numbers",
+          "buy_phone_number",
+          "list_recordings",
+          "create_verify_service",
+          "create_conversation",
+          "list_conversations",
+          "add_conversation_participant",
+          "send_conversation_message",
+          "list_messaging_services",
+          "execute_studio_flow",
+          "create_taskrouter_task",
+          "list_taskrouter_workers"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:24.037Z",
         "installMs": 2937,
         "method": "npm",
@@ -69,6 +133,38 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:13.871Z",
+        "installMs": 92773,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-13Z-c3b399",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "send_message",
+          "get_message",
+          "list_messages",
+          "delete_message",
+          "make_call",
+          "get_call",
+          "update_call",
+          "start_verification",
+          "check_verification",
+          "lookup_phone",
+          "list_incoming_numbers",
+          "buy_phone_number",
+          "list_recordings",
+          "create_verify_service",
+          "create_conversation",
+          "list_conversations",
+          "add_conversation_participant",
+          "send_conversation_message",
+          "list_messaging_services",
+          "execute_studio_flow",
+          "create_taskrouter_task",
+          "list_taskrouter_workers"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:42.768Z",
         "installMs": 134993,

@@ -2,6 +2,31 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-16T15:42:00.997Z",
+        "installMs": 3788,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-00Z-c4e177",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "create_subscription",
+          "retrieve_subscription",
+          "update_subscription",
+          "cancel_subscription",
+          "reactivate_subscription",
+          "list_subscriptions",
+          "create_customer",
+          "retrieve_customer",
+          "update_customer",
+          "list_customers",
+          "retrieve_invoice",
+          "list_invoices",
+          "create_payment_source_using_token",
+          "delete_payment_source",
+          "list_events"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.243Z",
         "installMs": 8670,
         "method": "npm",
@@ -29,6 +54,31 @@
     ],
     "linux": [
       {
+        "date": "2026-08-16T15:41:56.759Z",
+        "installMs": 4155,
+        "method": "npm",
+        "runId": "2026-08-16T15-41-56Z-6a1d71",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "create_subscription",
+          "retrieve_subscription",
+          "update_subscription",
+          "cancel_subscription",
+          "reactivate_subscription",
+          "list_subscriptions",
+          "create_customer",
+          "retrieve_customer",
+          "update_customer",
+          "list_customers",
+          "retrieve_invoice",
+          "list_invoices",
+          "create_payment_source_using_token",
+          "delete_payment_source",
+          "list_events"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:19.430Z",
         "installMs": 4356,
         "method": "npm",
@@ -55,6 +105,31 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-16T15:42:18.905Z",
+        "installMs": 82700,
+        "method": "npm",
+        "runId": "2026-08-16T15-42-18Z-c48a3e",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "create_subscription",
+          "retrieve_subscription",
+          "update_subscription",
+          "cancel_subscription",
+          "reactivate_subscription",
+          "list_subscriptions",
+          "create_customer",
+          "retrieve_customer",
+          "update_customer",
+          "list_customers",
+          "retrieve_invoice",
+          "list_invoices",
+          "create_payment_source_using_token",
+          "delete_payment_source",
+          "list_events"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:39.090Z",
         "installMs": 193103,
