@@ -27,6 +27,7 @@ const STATUS_FACES: Record<ProbeStatus, BadgeFace> = {
   connect_failed: { message: 'unreachable', color: 'red' },
   handshake_failed: { message: 'handshake fails', color: 'red' },
   needs_auth: { message: 'needs credentials', color: 'yellow' },
+  needs_config: { message: 'needs configuration', color: 'yellow' },
   tools_failed: { message: 'tools/list fails', color: 'red' },
   timeout: { message: 'times out', color: 'red' },
   skipped: UNTESTED,
@@ -34,22 +35,25 @@ const STATUS_FACES: Record<ProbeStatus, BadgeFace> = {
 
 /**
  * Worst-wins ranking for the overall badge, ordered by how early the probe
- * died: the earlier it broke, the more broken the server is. `needs_auth`
- * outranks `pass` on purpose, since it is not evidence of health. `timeout`
- * sits with the phase it most often hides (a spawn that never finishes
- * handshaking). `skipped` keeps a slot so the table stays total, but never
- * reaches the reduce: `overallBadge` drops untested platforms first.
+ * died: the earlier it broke, the more broken the server is. `needs_auth` and
+ * `needs_config` outrank `pass` on purpose, since neither is evidence of health;
+ * they sit next to each other because they are the same kind of answer, "it
+ * wanted something only a user can give it". `timeout` sits with the phase it
+ * most often hides (a spawn that never finishes handshaking). `skipped` keeps a
+ * slot so the table stays total, but never reaches the reduce: `overallBadge`
+ * drops untested platforms first.
  */
 const SEVERITY: Record<ProbeStatus, number> = {
   pass: 0,
   needs_auth: 1,
-  skipped: 2,
-  tools_failed: 3,
-  handshake_failed: 4,
-  timeout: 5,
-  connect_failed: 6,
-  spawn_failed: 7,
-  install_failed: 8,
+  needs_config: 2,
+  skipped: 3,
+  tools_failed: 4,
+  handshake_failed: 5,
+  timeout: 6,
+  connect_failed: 7,
+  spawn_failed: 8,
+  install_failed: 9,
 };
 
 export interface BadgeSet {
@@ -114,10 +118,10 @@ function overallBadge(statuses: readonly ProbeStatus[]): ShieldsBadge {
     });
   }
 
-  // A platform that passed proves the server works, and `needs_auth` elsewhere
-  // is the expected result of probing a credentialed server without
-  // credentials, so the pass wins outright instead of losing to `needs_auth` in
-  // the worst-wins reduce below.
+  // A platform that passed proves the server works, and `needs_auth` or
+  // `needs_config` elsewhere is the expected result of probing a server without
+  // the credentials or arguments only its user has, so the pass wins outright
+  // instead of losing to either in the worst-wins reduce below.
   if (passing > 0 && failing === 0) return badgeForStatus('pass');
 
   const worst = judged.reduce((a, b) => (SEVERITY[b] > SEVERITY[a] ? b : a));
@@ -125,12 +129,15 @@ function overallBadge(statuses: readonly ProbeStatus[]): ShieldsBadge {
 }
 
 /**
- * Neither `skipped` nor `needs_auth` is a failure: in one case we never got far
- * enough to know, in the other the server answered and asked for credentials
- * the harness does not have (see the ProbeStatus doc in types.ts).
+ * None of `skipped`, `needs_auth` and `needs_config` is a failure: in the first
+ * case we never got far enough to know, in the other two the server was gated on
+ * credentials or arguments the harness does not have rather than broken (see the
+ * ProbeStatus doc in types.ts).
  */
 function isFailure(status: ProbeStatus): boolean {
-  return status !== 'pass' && status !== 'skipped' && status !== 'needs_auth';
+  return (
+    status !== 'pass' && status !== 'skipped' && status !== 'needs_auth' && status !== 'needs_config'
+  );
 }
 
 function toBadge(face: BadgeFace): ShieldsBadge {

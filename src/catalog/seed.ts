@@ -119,6 +119,17 @@ function parsePackage(raw: unknown, at: string, label: string): PackageSpec {
   const packageArguments = parseStringArray(raw['packageArguments'], `${at}.packageArguments`, label);
   if (packageArguments.length > 0) pkg.packageArguments = packageArguments;
 
+  // A seed entry is written by hand, so its arguments are whatever we chose to
+  // put there. The flag is still accepted, for curating a server we know needs
+  // arguments we cannot supply; absent, as usual, means nothing was dropped.
+  const droppedArguments = raw['droppedArguments'];
+  if (droppedArguments !== undefined) {
+    if (typeof droppedArguments !== 'boolean') {
+      throw new Error(`${label}: ${at}.droppedArguments must be a boolean`);
+    }
+    if (droppedArguments) pkg.droppedArguments = true;
+  }
+
   return pkg;
 }
 

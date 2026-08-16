@@ -329,6 +329,26 @@ describe('parseServerHistory', () => {
     expect(parseServerHistory(JSON.parse(serializeHistory(gated)), gated.slug)).toEqual(gated);
   });
 
+  it('accepts needs_config as a status and round-trips it', () => {
+    const gated: ServerHistory = {
+      serverId: 'io.github.acme/configured',
+      slug: 'io.github.acme__configured',
+      platforms: {
+        linux: [
+          {
+            runId: 'run-4',
+            date: '2026-08-15T00:00:00.000Z',
+            status: 'needs_config',
+            method: 'npm',
+            errorExcerpt: 'spawn failed: usage: server --directory <path>',
+          },
+        ],
+      },
+    };
+
+    expect(parseServerHistory(JSON.parse(serializeHistory(gated)), gated.slug)).toEqual(gated);
+  });
+
   it('treats a tool name that is not a string as corrupt', () => {
     const document = {
       serverId: 'x',

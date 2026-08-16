@@ -121,6 +121,27 @@ describe('parseSeed', () => {
     ]);
   });
 
+  it('keeps a seed package that declares its arguments incomplete', () => {
+    const [entry] = parseSeed({
+      servers: [
+        {
+          id: 'seed/one',
+          packages: [
+            { kind: 'npm', identifier: '@acme/needs-args', droppedArguments: true },
+            { kind: 'npm', identifier: '@acme/complete', droppedArguments: false },
+            { kind: 'npm', identifier: '@acme/quiet' },
+          ],
+        },
+      ],
+    });
+
+    expect(entry?.packages[0]?.droppedArguments).toBe(true);
+    // False and absent mean the same thing, and the catalog only carries the flag
+    // where it applies.
+    expect(entry?.packages[1] && 'droppedArguments' in entry.packages[1]).toBe(false);
+    expect(entry?.packages[2] && 'droppedArguments' in entry.packages[2]).toBe(false);
+  });
+
   it.each([
     ['a document without servers', {}, /expected an object with a "servers" array/],
     ['a non-object entry', { servers: ['nope'] }, /servers\[0\] must be an object/],
@@ -145,6 +166,11 @@ describe('parseSeed', () => {
       'a non-string package argument',
       { servers: [{ id: 'a', packages: [{ kind: 'npm', identifier: 'x', packageArguments: [7] }] }] },
       /servers\[0\]\.packages\[0\]\.packageArguments\[0\] must be a string/,
+    ],
+    [
+      'a non-boolean droppedArguments',
+      { servers: [{ id: 'a', packages: [{ kind: 'npm', identifier: 'x', droppedArguments: 'yes' }] }] },
+      /servers\[0\]\.packages\[0\]\.droppedArguments must be a boolean/,
     ],
     [
       'a bad remote url',

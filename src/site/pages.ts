@@ -39,11 +39,12 @@ export interface Page {
 
 /**
  * How a server reads on the index. Any real failure wins, then any pass, then
- * "it answered and asked for credentials". `needs_auth` and `skipped` are not
- * failures (see the ProbeStatus doc in types.ts), so a server that passes on
- * one platform and asks for credentials on another still reads as passing.
+ * "it answered and asked for something we cannot supply". `needs_auth`,
+ * `needs_config` and `skipped` are not failures (see the ProbeStatus doc in
+ * types.ts), so a server that passes on one platform and asks for credentials
+ * on another still reads as passing.
  */
-type Verdict = 'passing' | 'failing' | 'needsAuth' | 'untested';
+type Verdict = 'passing' | 'failing' | 'needsSetup' | 'untested';
 
 /** Colour bucket for dots, squares and pills. */
 type Tone = 'pass' | 'fail' | 'auth' | 'none';
@@ -65,6 +66,7 @@ const STATUS_PHRASES: Record<ProbeStatus, string> = {
   connect_failed: 'endpoint unreachable',
   handshake_failed: 'MCP handshake failed',
   needs_auth: 'needs credentials',
+  needs_config: 'needs configuration',
   tools_failed: 'tools/list failed',
   timeout: 'timed out',
   skipped: 'not tested',
@@ -86,6 +88,12 @@ interface Install {
   hosted: boolean;
   /** Required env vars / headers the probe can only fill with placeholders. */
   requiresEnv: string[];
+  /**
+   * True when the distribution above declared arguments with no concrete value,
+   * which the catalog dropped rather than invent, so the probe ran the server
+   * without them. Always false for a hosted endpoint: there is nothing to pass.
+   */
+  needsArguments: boolean;
 }
 
 interface ServerView {
@@ -141,7 +149,7 @@ export function buildPages(
 // ---------------------------------------------------------------- index page
 
 function indexPage(catalog: Catalog, views: readonly ServerView[], options: ResolvedOptions): string {
-  const counts = { passing: 0, failing: 0, needsAuth: 0, untested: 0 };
+  const counts = { passing: 0, failing: 0, needsSetup: 0, untested: 0 };
   for (const view of views) counts[view.verdict]++;
 
   const rows =
@@ -154,7 +162,7 @@ function indexPage(catalog: Catalog, views: readonly ServerView[], options: Reso
 <div class="counts">
 ${countCard(counts.passing, 'passing', 'pass')}
 ${countCard(counts.failing, 'failing', 'fail')}
-${countCard(counts.needsAuth, 'needs credentials', 'auth')}
+${countCard(counts.needsSetup, 'needs setup', 'auth')}
 ${countCard(counts.untested, 'untested', 'none')}
 ${countCard(views.length, 'servers')}
 </div>
@@ -164,7 +172,7 @@ ${countCard(views.length, 'servers')}
 ${rows}
 </tbody>
 </table></div>
-<p class="legend">Status dots are ${PLATFORMS.map((platform) => escapeHtml(PLATFORM_LABELS[platform])).join(' &middot; ')}, in that order. Hover one for its result. A server counts as failing when its latest probe failed on any platform we tested. Amber means the server is alive but wants credentials the probe does not send, which is neither a pass nor a failure. Grey means we did not test that platform, so it is left out of the verdict rather than counted against the server.</p>
+<p class="legend">Status dots are ${PLATFORMS.map((platform) => escapeHtml(PLATFORM_LABELS[platform])).join(' &middot; ')}, in that order. Hover one for its result. A server counts as failing when its latest probe failed on any platform we tested. Amber means the server is alive but needs credentials or configuration the probe cannot supply, which is neither a pass nor a failure. Grey means we did not test that platform, so it is left out of the verdict rather than counted against the server.</p>
 <p class="legend">Rows are ordered by GitHub stars of the server's repository, most stars first, with servers we have no count for last. Stars measure the repository, not the server itself, and nothing here is ordered by who curated it.</p>
 <p class="legend">Site built ${escapeHtml(formatDateTime(options.generatedAt))}${catalog.generatedAt === '' ? '' : ` &middot; catalog generated ${escapeHtml(formatDateTime(catalog.generatedAt))}`}.</p>`;
 
@@ -254,15 +262,24 @@ function installBlock(install: Install, options: ResolvedOptions): string {
       ? 'The sweep pulls the image and runs it in a throwaway container, but this is the command a user would run:'
       : 'The sweep installs into a clean prefix, but this is the command a user would run:';
 
+  const goingGreen = `<a href="${href(options.base, 'methodology.html')}#going-green">how to go green</a>`;
+
   const credentials =
     install.requiresEnv.length === 0
       ? ''
       : `\n<p class="note">Needs credentials: ${install.requiresEnv
           .map((name) => `<code>${escapeHtml(name)}</code>`)
-          .join(', ')}. The probe used placeholder values, so an amber <b>needs credentials</b> result below means the server asked for the real ones, not that it is broken. Maintainers: <a href="${href(options.base, 'methodology.html')}#going-green">how to go green</a>.</p>`;
+          .join(', ')}. The probe used placeholder values, so an amber <b>needs credentials</b> result below means the server asked for the real ones, not that it is broken. Maintainers: ${goingGreen}.</p>`;
+
+  // The other half of the amber story: arguments the registry entry left as
+  // placeholders are dropped rather than invented, so a server that will not
+  // start without them is asking for something, not failing.
+  const args = install.needsArguments
+    ? `\n<p class="note">Needs arguments: the registry entry declares arguments only a user can fill, so the probe ran without them. An amber <b>needs configuration</b> result below means the server asked for them, not that it is broken. Maintainers: ${goingGreen}.</p>`
+    : '';
 
   return `<p class="muted">${escapeHtml(caption)}</p>
-<pre class="cmd"><code>${escapeHtml(install.command)}</code></pre>${credentials}`;
+<pre class="cmd"><code>${escapeHtml(install.command)}</code></pre>${credentials}${args}`;
 }
 
 function platformBlock(view: ServerView, platform: Platform): string {
@@ -284,9 +301,10 @@ function platformBlock(view: ServerView, platform: Platform): string {
       ? escapeHtml(formatDate(latest.date))
       : `${escapeHtml(formatDate(latest.date))} &middot; probed over ${escapeHtml(latest.method)}`;
 
-  // The excerpt is the evidence for every non-passing status, `needs_auth`
-  // included: "invalid API key" or "HTTP 401" is exactly what makes an amber
-  // verdict checkable. Its rule follows the verdict's tone so the two agree.
+  // The excerpt is the evidence for every non-passing status, the amber ones
+  // included: "invalid API key", "HTTP 401" or "missing --workspace" is exactly
+  // what makes an amber verdict checkable. Its rule follows the verdict's tone
+  // so the two agree.
   const excerptClass = toneOf(latest.status) === 'auth' ? 'err auth' : 'err';
 
   const parts = [
@@ -359,21 +377,24 @@ function methodologyPage(options: ResolvedOptions): string {
 <p>Every server in the catalog is probed independently, in a disposable CI runner, with no shared state between servers. The sweep picks the first distribution it supports (npm, then PyPI, then a container image, then a hosted endpoint) and walks these phases:</p>
 <ul>
 <li><b>install</b>: <code>npm install</code> into a fresh temporary prefix with a clean cache, <code>uv tool run</code> for PyPI, or <code>docker pull</code> for a container image. Nothing is installed globally.</li>
-<li><b>spawn / connect</b>: the server binary is started over stdio, a container is run with <code>docker run -i --rm</code> and removed afterwards, or the hosted endpoint is opened with the streamable-HTTP or legacy SSE transport.</li>
+<li><b>spawn / connect</b>: the server binary is started over stdio, a container is run with <code>docker run -i --rm</code>, capped at 2 GB of memory and 512 processes so one image cannot starve its neighbours, and removed afterwards, or the hosted endpoint is opened with the streamable-HTTP or legacy SSE transport.</li>
 <li><b>handshake</b>: an MCP <code>initialize</code> round trip with the official SDK client.</li>
 <li><b>tools/list</b>: the tool list is requested; the count on each page comes from this response.</li>
 </ul>
-<p>A server only shows green when every phase succeeded. Otherwise the status names the phase that broke, or says the server asked for credentials, and the newest stderr output is kept and shown verbatim on the server page either way.</p>
+<p>A server only shows green when every phase succeeded. Otherwise the status names the phase that broke, or says the server asked for something we do not have, and the newest stderr output is kept and shown verbatim on the server page either way.</p>
+<p>A PyPI package rarely names the console script it installs, so the probe guesses it from the package name. When that guess is wrong, <code>uv</code> normally names the executable it did find, and the probe re-runs once with that name: an entry point named differently from its package now passes instead of showing a red handshake failure. The guess only survives as a limitation when uv gives no hint at all.</p>
 
 <h2>Time budgets</h2>
 <p>Each phase has its own budget: 600s to install, 30s to spawn, 30s for the handshake, 15s for <code>tools/list</code>, and 20s to reach a hosted endpoint. Exceeding one records <em>timed out</em> against that phase rather than a generic failure.</p>
 <p>Probes run four at a time, so an install that ran out of time is probed once more on its own, with double the install budget, before the result stands. <em>Timed out</em> here therefore means the server exceeded its budget with the runner to itself. When a server passes but took more than a minute to install, its platform block says how long that took: a pass after ten minutes of installing is a different experience from a pass after twenty seconds.</p>
 
-<h2>Credentials</h2>
+<h2>Credentials and configuration</h2>
 <p>We probe with no accounts anywhere. Environment variables a server declares as required are filled with the literal placeholder <code>${escapeHtml(ENV_PLACEHOLDER)}</code>, and every affected server page says so above its results. A server that needs a real API key can therefore install perfectly and still refuse to start or to finish the handshake here. That outcome is recorded as <b>needs credentials</b>, in amber, rather than as a failure: the server declared what it wanted, and we did not bring it.</p>
+<p>Arguments work the same way. A registry entry sometimes declares arguments with no concrete value, a workspace path or an account id only the user knows, and the catalog drops those rather than invent them. A server that installs and then will not start or will not finish its handshake without them is recorded <b>needs configuration</b>, also in amber. When an entry declared both placeholder variables and placeholder arguments, the result reads <b>needs credentials</b>: a missing key is the commoner cause, and one phrase per platform is enough.</p>
 
 <h2 id="going-green">Going green (for maintainers)</h2>
 <p>The amber state resolves without anyone sharing a secret, and the fix is ordinary good server design: <b>validate credentials lazily</b>. Start, complete the <code>initialize</code> handshake, answer <code>tools/list</code>, and return a clear error from the tool call itself when the key is missing or wrong. A server built that way turns green here on its own, and real users get a visible tool list plus an error in context instead of a silent connection failure. Hosted servers can do the same over HTTP: allow anonymous <code>initialize</code> and <code>tools/list</code>, gate the tool calls. If your tools genuinely cannot be listed without a tenant, the standard OAuth challenge (a 401 with <code>WWW-Authenticate</code>) is correct, and amber is your accurate steady state: alive, gated, working as designed.</p>
+<p>The registry entry does half the work. Declaring the environment variables and the arguments a server actually requires is what lets a probe tell "it asked us for something" from "it broke", so an accurate entry is the difference between an amber result and a red one. A server that silently requires a key or a flag it never declared gets no benefit of the doubt, because there is nothing to give it.</p>
 <p>We do not accept test credentials, from anyone. The harness executes third-party code weekly, so holding real secrets would make every probe a liability, and probing with no accounts anywhere is what keeps the results comparable.</p>
 
 <h2>Platforms and cadence</h2>
@@ -381,7 +402,7 @@ function methodologyPage(options: ResolvedOptions): string {
 
 <h2>Caveats</h2>
 <ul>
-<li><b>Amber means the server is alive and wants credentials</b> we do not send. Red is kept for a real failure: the probe filled every declared required variable with a placeholder, and the server broke for a reason that has nothing to do with them.</li>
+<li><b>Amber means the server is alive and wants credentials</b> we do not send, or arguments we cannot invent. Red is kept for a real failure: the probe filled every declared required variable with a placeholder, and the server broke for a reason that has nothing to do with them or with the arguments the entry declared.</li>
 <li><b>Red still does not always mean broken for you.</b> It can mean the server needs a runtime the runner lacks, or was published for one platform only.</li>
 <li><b>Hosted endpoints that answer 401 or 403</b> are recorded as needs credentials with the HTTP detail, not as a failed handshake. They are reachable; they simply require auth we do not send.</li>
 <li><b>Grey means untested</b>, never "bad": no supported distribution, a container image on a runner that cannot run one, or a runner missing <code>uv</code>.</li>
@@ -479,8 +500,8 @@ interface Feed {
 /**
  * The whole dataset as JSON, for anyone who wants the results without scraping
  * the HTML. Same order as the index, most starred first. Statuses are carried
- * through verbatim, `needs_auth` included, so a consumer can bucket them its
- * own way. Platforms we never probed are absent rather than null, so
+ * through verbatim, `needs_auth` and `needs_config` included, so a consumer can
+ * bucket them its own way. Platforms we never probed are absent rather than null, so
  * `platforms` is empty for an untested server.
  */
 function feedFile(views: readonly ServerView[], options: ResolvedOptions): string {
@@ -541,8 +562,8 @@ function viewOf(entry: ServerEntry, history: ServerHistory | undefined): ServerV
     ? 'failing'
     : statuses.includes('pass')
       ? 'passing'
-      : statuses.includes('needs_auth')
-        ? 'needsAuth'
+      : statuses.some((status) => status === 'needs_auth' || status === 'needs_config')
+        ? 'needsSetup'
         : 'untested';
 
   const view: ServerView = {
@@ -626,6 +647,7 @@ function installOf(entry: ServerEntry): Install {
       command: `npx ${npm.identifier}`,
       hosted: false,
       requiresEnv: requiredNames(npm.env),
+      needsArguments: npm.droppedArguments === true,
     };
   }
 
@@ -636,6 +658,7 @@ function installOf(entry: ServerEntry): Install {
       command: `uvx ${pypi.identifier}`,
       hosted: false,
       requiresEnv: requiredNames(pypi.env),
+      needsArguments: pypi.droppedArguments === true,
     };
   }
 
@@ -646,6 +669,7 @@ function installOf(entry: ServerEntry): Install {
       command: `docker run -i --rm ${oci.identifier}`,
       hosted: false,
       requiresEnv: requiredNames(oci.env),
+      needsArguments: oci.droppedArguments === true,
     };
   }
 
@@ -659,10 +683,11 @@ function installOf(entry: ServerEntry): Install {
       ...(url === undefined ? {} : { command: url }),
       hosted: true,
       requiresEnv: requiredNames(remote.headers),
+      needsArguments: false,
     };
   }
 
-  return { label: 'none', hosted: false, requiresEnv: [] };
+  return { label: 'none', hosted: false, requiresEnv: [], needsArguments: false };
 }
 
 function requiredNames(specs: readonly { name: string; required: boolean }[]): string[] {
@@ -677,13 +702,14 @@ function statusPhrase(status: ProbeStatus | undefined): string {
 
 /**
  * `skipped` is grey, not red: we never learned whether it works. `needs_auth`
- * is amber for the opposite reason: we learned the server is alive and that it
- * wants credentials we do not send, which is neither a pass nor a break.
+ * and `needs_config` are amber for the opposite reason: we learned the server
+ * is alive and that it wants credentials or arguments we cannot supply, which
+ * is neither a pass nor a break.
  */
 function toneOf(status: ProbeStatus | undefined): Tone {
   if (status === undefined || status === 'skipped') return 'none';
   if (status === 'pass') return 'pass';
-  return status === 'needs_auth' ? 'auth' : 'fail';
+  return status === 'needs_auth' || status === 'needs_config' ? 'auth' : 'fail';
 }
 
 /**

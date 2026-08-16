@@ -93,23 +93,31 @@ export function resolveEnv(specs: readonly EnvVarSpec[]): { env: Record<string, 
 }
 
 /**
- * types.ts policy: a stdio server we started with `ENV_PLACEHOLDER` in place of
- * credentials it declared as required is gated, not broken, when it refuses to
- * start or to finish the handshake. Its stderr usually says so outright ("invalid
- * API key"), which is exactly the evidence we keep: phases, detail and excerpt
- * are left as captured and only the status changes.
+ * types.ts policy: a server we could not run the way its own entry describes is
+ * gated, not broken, when it refuses to start or to finish the handshake. Two
+ * things gate it, and both leave the evidence alone: phases, detail and excerpt
+ * stay exactly as captured, only the status changes.
  *
- * Deliberately narrow. `install_failed` happened before any placeholder was
- * used, `tools_failed` means the handshake already succeeded with them, and
- * `timeout` is a hang we have no reason to blame on credentials.
+ * `needs_auth` covers credentials we filled with `ENV_PLACEHOLDER`, whose stderr
+ * usually says so outright ("invalid API key"). `needs_config` covers arguments
+ * the catalog had to drop because the registry left them as placeholders
+ * (`PackageSpec.droppedArguments`), so the command line was never the one the
+ * entry declared. When both apply, `needs_auth` wins: credentials are the
+ * commoner cause, and it is the status the site already explains.
+ *
+ * Deliberately narrow. `install_failed` happened before any of this was used,
+ * `tools_failed` means the handshake already succeeded regardless, and
+ * `timeout` is a hang we have no reason to blame on either.
  */
-export function reclassifyGatedByCredentials(
+export function reclassifyGated(
   outcome: ProbeOutcome,
-  requiresEnv: readonly string[]
+  requiresEnv: readonly string[],
+  droppedArguments = false
 ): ProbeOutcome {
-  if (requiresEnv.length === 0) return outcome;
   if (outcome.status !== 'spawn_failed' && outcome.status !== 'handshake_failed') return outcome;
-  return { ...outcome, status: 'needs_auth' };
+  if (requiresEnv.length > 0) return { ...outcome, status: 'needs_auth' };
+  if (droppedArguments) return { ...outcome, status: 'needs_config' };
+  return outcome;
 }
 
 export async function probeServer(entry: ServerEntry, options: ProbeOptions = {}): Promise<ProbeResult> {
@@ -132,7 +140,11 @@ export async function probeServer(entry: ServerEntry, options: ProbeOptions = {}
         const resolved = resolveEnv(distribution.pkg.env ?? []);
         requiresEnv = resolved.requiresEnv;
         const ctx: ProbeContext = { workDir: opts.workDir, timeouts: opts.timeouts, env: resolved.env };
-        outcome = reclassifyGatedByCredentials(await probePackage(distribution, ctx), requiresEnv);
+        outcome = reclassifyGated(
+          await probePackage(distribution, ctx),
+          requiresEnv,
+          distribution.pkg.droppedArguments === true
+        );
         break;
       }
       case 'remote': {

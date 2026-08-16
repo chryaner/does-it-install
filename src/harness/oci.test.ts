@@ -161,6 +161,10 @@ describe('probeOci', () => {
       '-i',
       '--rm',
       '--pull=never',
+      '--memory',
+      '2g',
+      '--pids-limit',
+      '512',
       '--name',
       name,
       'ghcr.io/acme/server:1.2.3',
@@ -244,6 +248,10 @@ describe('buildRunArgs', () => {
       '-i',
       '--rm',
       '--pull=never',
+      '--memory',
+      '2g',
+      '--pids-limit',
+      '512',
       '--name',
       'dii-1',
       'alpine'
@@ -256,6 +264,10 @@ describe('buildRunArgs', () => {
       '-i',
       '--rm',
       '--pull=never',
+      '--memory',
+      '2g',
+      '--pids-limit',
+      '512',
       '--name',
       'dii-1',
       '-e',
@@ -263,6 +275,17 @@ describe('buildRunArgs', () => {
       'alpine',
       '--verbose'
     ]);
+  });
+
+  it('caps memory and process count, so one bad image cannot take the runner down', () => {
+    const args = buildRunArgs('alpine', 'dii-1', { A: '1' }, ['--verbose']);
+    const image = args.indexOf('alpine');
+
+    // Both limits are `docker run` flags, so both have to sit before the image.
+    expect(args[args.indexOf('--memory') + 1]).toBe('2g');
+    expect(args[args.indexOf('--pids-limit') + 1]).toBe('512');
+    expect(args.indexOf('--memory')).toBeLessThan(image);
+    expect(args.indexOf('--pids-limit')).toBeLessThan(image);
   });
 });
 

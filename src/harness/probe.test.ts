@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it, vi } from 'vitest';
 import {
   ENV_PLACEHOLDER,
   type EnvVarSpec,
@@ -8,7 +8,11 @@ import {
   type ServerEntry
 } from '../types.js';
 import type { ProbeOutcome } from './outcome.js';
-import { probeServer, reclassifyGatedByCredentials, resolveEnv, selectDistribution } from './probe.js';
+import { probeServer, reclassifyGated, resolveEnv, selectDistribution } from './probe.js';
+
+/** The npm probe stands in for "a package probe that got somewhere and failed". */
+const probeNpmMock = vi.hoisted(() => vi.fn());
+vi.mock('./npm.js', () => ({ probeNpm: probeNpmMock }));
 
 const entry = (overrides: Partial<ServerEntry> = {}): ServerEntry => ({
   id: 'io.github.acme/server',
@@ -134,7 +138,7 @@ describe('resolveEnv', () => {
   });
 });
 
-describe('reclassifyGatedByCredentials', () => {
+describe('reclassifyGated', () => {
   const outcome = (status: ProbeStatus): ProbeOutcome => ({
     method: 'npm',
     status,
@@ -146,16 +150,16 @@ describe('reclassifyGatedByCredentials', () => {
   });
 
   it('reads a refusal to start as a missing credential when placeholders were injected', () => {
-    expect(reclassifyGatedByCredentials(outcome('spawn_failed'), ['ACME_TOKEN']).status).toBe('needs_auth');
+    expect(reclassifyGated(outcome('spawn_failed'), ['ACME_TOKEN']).status).toBe('needs_auth');
   });
 
   it('reads a refused handshake the same way', () => {
-    expect(reclassifyGatedByCredentials(outcome('handshake_failed'), ['ACME_TOKEN']).status).toBe('needs_auth');
+    expect(reclassifyGated(outcome('handshake_failed'), ['ACME_TOKEN']).status).toBe('needs_auth');
   });
 
   it('keeps the phases, detail and excerpt that are the evidence', () => {
     const before = outcome('spawn_failed');
-    const after = reclassifyGatedByCredentials(before, ['ACME_TOKEN']);
+    const after = reclassifyGated(before, ['ACME_TOKEN']);
 
     expect(after).toEqual({ ...before, status: 'needs_auth' });
     expect(after.phases.spawn?.detail).toBe('exited with code 1');
@@ -163,14 +167,36 @@ describe('reclassifyGatedByCredentials', () => {
   });
 
   it('leaves a server that declared no required variables alone', () => {
-    expect(reclassifyGatedByCredentials(outcome('spawn_failed'), [])).toEqual(outcome('spawn_failed'));
-    expect(reclassifyGatedByCredentials(outcome('handshake_failed'), []).status).toBe('handshake_failed');
+    expect(reclassifyGated(outcome('spawn_failed'), [])).toEqual(outcome('spawn_failed'));
+    expect(reclassifyGated(outcome('handshake_failed'), []).status).toBe('handshake_failed');
+  });
+
+  it('reads a refusal to start as needs_config when the catalog dropped arguments', () => {
+    expect(reclassifyGated(outcome('spawn_failed'), [], true).status).toBe('needs_config');
+    expect(reclassifyGated(outcome('handshake_failed'), [], true).status).toBe('needs_config');
+  });
+
+  it('keeps the evidence when it reclassifies to needs_config too', () => {
+    const before = outcome('handshake_failed');
+    expect(reclassifyGated(before, [], true)).toEqual({ ...before, status: 'needs_config' });
+  });
+
+  it('lets needs_auth win when the server wants both credentials and arguments', () => {
+    // types.ts policy: credentials are the commoner cause, so they name the status.
+    expect(reclassifyGated(outcome('spawn_failed'), ['ACME_TOKEN'], true).status).toBe('needs_auth');
+    expect(reclassifyGated(outcome('handshake_failed'), ['ACME_TOKEN'], true).status).toBe('needs_auth');
+  });
+
+  it('defaults to no dropped arguments, so callers that have none behave as before', () => {
+    expect(reclassifyGated(outcome('spawn_failed'), [])).toEqual(outcome('spawn_failed'));
+    expect(reclassifyGated(outcome('spawn_failed'), [], false).status).toBe('spawn_failed');
   });
 
   it.each<ProbeStatus>(['install_failed', 'tools_failed', 'timeout', 'pass', 'skipped'])(
     'leaves %s alone even with placeholders in play',
     status => {
-      expect(reclassifyGatedByCredentials(outcome(status), ['ACME_TOKEN']).status).toBe(status);
+      expect(reclassifyGated(outcome(status), ['ACME_TOKEN']).status).toBe(status);
+      expect(reclassifyGated(outcome(status), [], true).status).toBe(status);
     }
   );
 });
@@ -226,6 +252,66 @@ describe('probeServer', () => {
     });
     expect(result.status).toBe('skipped');
     expect(result.method).toBe('none');
+  });
+
+  it('reports a package whose arguments the catalog dropped as needs_config', async () => {
+    probeNpmMock.mockResolvedValue({
+      method: 'npm',
+      status: 'spawn_failed',
+      phases: { install: { ok: true, durationMs: 10 } },
+      errorExcerpt: 'usage: server --directory <path>'
+    } satisfies ProbeOutcome);
+
+    const result = await probeServer(
+      entry({ packages: [{ kind: 'npm', identifier: '@acme/server', env: [], droppedArguments: true }] }),
+      { platform: 'linux' }
+    );
+
+    expect(result.status).toBe('needs_config');
+    // The evidence is untouched; only the verdict changed.
+    expect(result.errorExcerpt).toContain('--directory');
+    expect(result.requiresEnv).toBeUndefined();
+  });
+
+  it('prefers needs_auth when a package wants both credentials and arguments', async () => {
+    probeNpmMock.mockResolvedValue({
+      method: 'npm',
+      status: 'handshake_failed',
+      phases: {},
+      errorExcerpt: 'invalid ACME_TOKEN'
+    } satisfies ProbeOutcome);
+
+    const result = await probeServer(
+      entry({
+        packages: [
+          {
+            kind: 'npm',
+            identifier: '@acme/server',
+            env: [{ name: 'ACME_TOKEN', required: true, secret: true }],
+            droppedArguments: true
+          }
+        ]
+      }),
+      { platform: 'linux' }
+    );
+
+    expect(result.status).toBe('needs_auth');
+    expect(result.requiresEnv).toEqual(['ACME_TOKEN']);
+  });
+
+  it('leaves a package with all its arguments alone', async () => {
+    probeNpmMock.mockResolvedValue({
+      method: 'npm',
+      status: 'spawn_failed',
+      phases: {},
+      errorExcerpt: 'SyntaxError: Unexpected token'
+    } satisfies ProbeOutcome);
+
+    const result = await probeServer(entry({ packages: [pkg('npm', '@acme/server')] }), {
+      platform: 'linux'
+    });
+
+    expect(result.status).toBe('spawn_failed');
   });
 
   it('records declared remote headers as requiresEnv', async () => {

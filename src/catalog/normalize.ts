@@ -107,10 +107,14 @@ function normalizePackages(raw: unknown): PackageSpec[] {
     if (runtimeHint) pkg.runtimeHint = runtimeHint;
 
     const runtimeArguments = flattenArguments(candidate['runtimeArguments']);
-    if (runtimeArguments.length > 0) pkg.runtimeArguments = runtimeArguments;
+    if (runtimeArguments.args.length > 0) pkg.runtimeArguments = runtimeArguments.args;
 
     const packageArguments = flattenArguments(candidate['packageArguments']);
-    if (packageArguments.length > 0) pkg.packageArguments = packageArguments;
+    if (packageArguments.args.length > 0) pkg.packageArguments = packageArguments.args;
+
+    // Only set when something really was dropped: absent means "the invocation
+    // is what the registry declared", which is what the harness reads it as.
+    if (runtimeArguments.dropped || packageArguments.dropped) pkg.droppedArguments = true;
 
     const transport = asString(prop(candidate['transport'], 'type'));
     if (transport) pkg.transport = transport;
@@ -159,6 +163,12 @@ function toEnvVars(raw: unknown): EnvVarSpec[] {
   return vars;
 }
 
+/** An argv slice, plus whether any declared argument did not make it in. */
+interface FlattenedArguments {
+  args: string[];
+  dropped: boolean;
+}
+
 /**
  * Flatten registry argument objects into a plain argv slice.
  *
@@ -169,25 +179,34 @@ function toEnvVars(raw: unknown): EnvVarSpec[] {
  * `format` alone) are skipped entirely, flag included; the harness
  * runs unattended and has no value to put there, and a bare flag missing its
  * value usually breaks the invocation outright.
+ *
+ * `dropped` reports whether that happened, because the difference matters
+ * downstream: a server we launched with an incomplete command line and could
+ * not start is `needs_config`, not broken. Junk that is not an argument object
+ * at all does not count, but every argument object we could not turn into argv
+ * does, whatever the reason: what the flag says about the server is the same
+ * either way, that we did not run it as declared.
  */
-function flattenArguments(raw: unknown): string[] {
+function flattenArguments(raw: unknown): FlattenedArguments {
   const args: string[] = [];
+  let dropped = false;
+
   for (const candidate of asArray(raw)) {
     if (!isRecord(candidate)) continue;
 
     const type = asString(candidate['type']);
     const value = asString(candidate['value']);
-    if (!value) continue;
+    const name = asString(candidate['name']);
 
-    if (type === 'named') {
-      const name = asString(candidate['name']);
-      if (!name) continue;
+    if (value && type === 'named' && name) {
       args.push(name, value);
-    } else if (type === 'positional') {
+    } else if (value && type === 'positional') {
       args.push(value);
+    } else {
+      dropped = true;
     }
   }
-  return args;
+  return { args, dropped };
 }
 
 /** A syntactically valid http(s) URL, or undefined. Keeps `javascript:` and

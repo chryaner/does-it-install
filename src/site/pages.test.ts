@@ -91,6 +91,26 @@ const GATED: ServerEntry = {
   popularity: { stars: 5000 },
 };
 
+/** Installs fine; the registry entry declares arguments only a user can fill. */
+const UNCONFIGURED: ServerEntry = {
+  id: 'io.github.acme/unconfigured',
+  slug: 'io.github.acme__unconfigured',
+  title: 'Workspace tool',
+  packages: [
+    {
+      kind: 'npm',
+      identifier: '@acme/workspace-tool',
+      transport: 'stdio',
+      droppedArguments: true,
+      env: [],
+    },
+  ],
+  remotes: [],
+  source: 'registry',
+  rank: 5,
+  popularity: { stars: 120 },
+};
+
 const CATALOG: Catalog = {
   generatedAt: '2026-08-14T02:00:00.000Z',
   servers: [REMOTE, HOSTILE, PASSING, GATED], // deliberately unordered
@@ -297,18 +317,23 @@ describe('index page', () => {
     expect(page.indexOf('s/earlier.html')).toBeLessThan(page.indexOf('s/later.html'));
   });
 
-  it('summarizes passing, failing, needs credentials, untested and total', () => {
+  it('summarizes passing, failing, needs setup, untested and total', () => {
     expect(index).toContain('<div class="count pass"><b>1</b><span>passing</span></div>');
     expect(index).toContain('<div class="count fail"><b>1</b><span>failing</span></div>');
-    expect(index).toContain(
-      '<div class="count auth"><b>1</b><span>needs credentials</span></div>',
-    );
+    expect(index).toContain('<div class="count auth"><b>1</b><span>needs setup</span></div>');
     expect(index).toContain('<div class="count none"><b>1</b><span>untested</span></div>');
     expect(index).toContain('<div class="count"><b>4</b><span>servers</span></div>');
   });
 
-  it('puts the needs-credentials card before untested', () => {
-    expect(index.indexOf('needs credentials')).toBeLessThan(index.indexOf('untested'));
+  it('labels the amber card for both credentials and configuration', () => {
+    // The bucket holds needs_auth and needs_config alike, so the card cannot
+    // name only one of them.
+    expect(index).toContain('<span>needs setup</span>');
+    expect(index).not.toContain('<span>needs credentials</span>');
+  });
+
+  it('puts the needs-setup card before untested', () => {
+    expect(index.indexOf('needs setup')).toBeLessThan(index.indexOf('untested'));
   });
 
   it('shows a status dot per platform with a tooltip', () => {
@@ -372,9 +397,9 @@ describe('index page', () => {
     expect(index).not.toContain('seed servers first');
   });
 
-  it('explains what amber means in the legend', () => {
+  it('explains what amber means in the legend, credentials and configuration alike', () => {
     expect(index).toContain(
-      'Amber means the server is alive but wants credentials the probe does not send',
+      'Amber means the server is alive but needs credentials or configuration the probe cannot supply',
     );
   });
 
@@ -401,24 +426,24 @@ describe('needs credentials', () => {
   it('counts a pass elsewhere as passing, not as needing credentials', () => {
     const page = verdictOf('mixed-pass', ['pass', 'needs_auth']);
     expect(page).toContain('<div class="count pass"><b>1</b><span>passing</span></div>');
-    expect(page).toContain('<div class="count auth"><b>0</b><span>needs credentials</span></div>');
+    expect(page).toContain('<div class="count auth"><b>0</b><span>needs setup</span></div>');
   });
 
-  it('counts needing credentials on its own as needing credentials', () => {
+  it('counts needing credentials on its own as needing setup', () => {
     const page = verdictOf('only-auth', ['needs_auth']);
-    expect(page).toContain('<div class="count auth"><b>1</b><span>needs credentials</span></div>');
+    expect(page).toContain('<div class="count auth"><b>1</b><span>needs setup</span></div>');
     expect(page).toContain('<div class="count none"><b>0</b><span>untested</span></div>');
   });
 
   it('still counts a real failure elsewhere as failing', () => {
     const page = verdictOf('auth-and-failure', ['needs_auth', 'install_failed']);
     expect(page).toContain('<div class="count fail"><b>1</b><span>failing</span></div>');
-    expect(page).toContain('<div class="count auth"><b>0</b><span>needs credentials</span></div>');
+    expect(page).toContain('<div class="count auth"><b>0</b><span>needs setup</span></div>');
   });
 
   it('does not let an untestable platform outweigh one that answered', () => {
     const page = verdictOf('auth-and-skipped', ['needs_auth', 'skipped']);
-    expect(page).toContain('<div class="count auth"><b>1</b><span>needs credentials</span></div>');
+    expect(page).toContain('<div class="count auth"><b>1</b><span>needs setup</span></div>');
   });
 
   it('marks the index dot amber, distinctly from red and grey', () => {
@@ -455,6 +480,90 @@ describe('needs credentials', () => {
   it('passes the status through to index.json unchanged', () => {
     expect(serverOf(pages, GATED.slug).platforms).toEqual({
       linux: { status: 'needs_auth', date: '2026-08-14T03:00:00.000Z' },
+    });
+  });
+});
+
+describe('needs configuration', () => {
+  const history: ServerHistory = {
+    serverId: UNCONFIGURED.id,
+    slug: UNCONFIGURED.slug,
+    platforms: {
+      linux: [
+        entry({
+          date: '2026-08-14T03:00:00.000Z',
+          status: 'needs_config',
+          errorExcerpt: 'error: required argument --workspace was not provided',
+        }),
+      ],
+    },
+  };
+  const pages = build(
+    { generatedAt: '', servers: [UNCONFIGURED] },
+    OPTIONS,
+    new Map([[UNCONFIGURED.slug, history]]),
+  );
+  const index = pageOf(pages, 'index.html');
+  const page = pageOf(pages, `s/${UNCONFIGURED.slug}.html`);
+
+  it('spells the status out as "needs configuration"', () => {
+    expect(page).toContain('<span class="verdict auth">needs configuration</span>');
+    expect(index).toContain(
+      '<span class="dot auth" title="Linux: needs configuration (2026-08-14)"></span>',
+    );
+  });
+
+  it('shares the amber tone with needs credentials on the pill, dot and square', () => {
+    expect(page).toContain('<span class="sq auth" title="2026-08-14: needs_config"></span>');
+    expect(page).not.toContain('class="verdict fail"');
+    expect(index).not.toContain('class="dot fail"');
+  });
+
+  it('keeps the excerpt in the amber rule, because it is the evidence', () => {
+    expect(page).toContain(
+      '<pre class="err auth">error: required argument --workspace was not provided</pre>',
+    );
+  });
+
+  it('counts as needing setup, not as failing and not as untested', () => {
+    expect(index).toContain('<div class="count auth"><b>1</b><span>needs setup</span></div>');
+    expect(index).toContain('<div class="count fail"><b>0</b><span>failing</span></div>');
+    expect(index).toContain('<div class="count none"><b>0</b><span>untested</span></div>');
+  });
+
+  it('joins needs credentials in the one amber bucket', () => {
+    const both = verdictOf('auth-and-config', ['needs_auth', 'needs_config']);
+    expect(both).toContain('<div class="count auth"><b>1</b><span>needs setup</span></div>');
+
+    const alone = verdictOf('only-config', ['needs_config']);
+    expect(alone).toContain('<div class="count auth"><b>1</b><span>needs setup</span></div>');
+  });
+
+  it('still yields to a pass and to a real failure elsewhere', () => {
+    expect(verdictOf('config-and-pass', ['needs_config', 'pass'])).toContain(
+      '<div class="count pass"><b>1</b><span>passing</span></div>',
+    );
+    expect(verdictOf('config-and-failure', ['needs_config', 'install_failed'])).toContain(
+      '<div class="count fail"><b>1</b><span>failing</span></div>',
+    );
+  });
+
+  it('notes the dropped arguments above the results, with the going-green link', () => {
+    expect(page).toContain(
+      'Needs arguments: the registry entry declares arguments only a user can fill, so the probe ran without them.',
+    );
+    expect(page).toContain('An amber <b>needs configuration</b> result below');
+    expect(page).toContain('/dii/methodology.html#going-green');
+  });
+
+  it('leaves the note off an entry whose arguments were all concrete', () => {
+    const passing = pageOf(build(), 's/seed__everything.html');
+    expect(passing).not.toContain('Needs arguments');
+  });
+
+  it('passes the status through to index.json unchanged', () => {
+    expect(serverOf(pages, UNCONFIGURED.slug).platforms).toEqual({
+      linux: { status: 'needs_config', date: '2026-08-14T03:00:00.000Z' },
     });
   });
 });
@@ -688,6 +797,33 @@ describe('methodology and 404 pages', () => {
     expect(methodology).toContain('double the install budget');
     expect(methodology).toContain('exceeded its budget with the runner to itself');
     expect(methodology).toContain('took more than a minute to install');
+  });
+
+  it('explains the second guess at a PyPI console script', () => {
+    const methodology = pageOf(pages, 'methodology.html');
+    expect(methodology).toContain('the probe guesses it from the package name');
+    expect(methodology).toContain('re-runs once with that name');
+    expect(methodology).toContain('when uv gives no hint at all');
+  });
+
+  it('documents needs configuration next to needs credentials', () => {
+    const methodology = pageOf(pages, 'methodology.html');
+    expect(methodology).toContain('<b>needs configuration</b>');
+    expect(methodology).toContain('the catalog drops those rather than invent them');
+    // Credentials win when a server withheld both.
+    expect(methodology).toContain('the result reads <b>needs credentials</b>');
+  });
+
+  it('states the container resource limits', () => {
+    const methodology = pageOf(pages, 'methodology.html');
+    expect(methodology).toContain('capped at 2 GB of memory and 512 processes');
+  });
+
+  it('tells maintainers that an accurate entry is what earns amber', () => {
+    const methodology = pageOf(pages, 'methodology.html');
+    expect(methodology).toContain(
+      'Declaring the environment variables and the arguments a server actually requires',
+    );
   });
 
   it('keeps 404 minimal but navigable', () => {

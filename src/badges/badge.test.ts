@@ -23,6 +23,7 @@ const EXPECTED: Record<ProbeStatus, { message: string; color: string }> = {
   connect_failed: { message: 'unreachable', color: 'red' },
   handshake_failed: { message: 'handshake fails', color: 'red' },
   needs_auth: { message: 'needs credentials', color: 'yellow' },
+  needs_config: { message: 'needs configuration', color: 'yellow' },
   tools_failed: { message: 'tools/list fails', color: 'red' },
   timeout: { message: 'times out', color: 'red' },
   skipped: { message: 'untested', color: 'lightgrey' },
@@ -213,6 +214,68 @@ describe('badgeForHistory', () => {
     // produced a result decides.
     expect(gated.overall).toMatchObject({ message: 'passing' });
     expect(gatedOnly.overall).toMatchObject({ message: 'needs credentials', color: 'yellow' });
+  });
+
+  it('stays passing when a passing platform is paired with one that needs configuration', () => {
+    const { overall, perPlatform } = badgeForHistory(
+      history({ linux: [entry('pass')], win32: [entry('needs_config')] }),
+    );
+
+    // Same rule as needs_auth: a pass proves the server works, and a platform
+    // that asked for arguments we could not invent is not a failure.
+    expect(overall).toMatchObject({ message: 'passing', color: 'brightgreen' });
+    expect(perPlatform.win32).toMatchObject({ message: 'needs configuration', color: 'yellow' });
+  });
+
+  it('reports needs configuration when that is all the platforms with data say', () => {
+    const { overall } = badgeForHistory(
+      history({ linux: [entry('needs_config')], darwin: [entry('needs_config')] }),
+    );
+
+    expect(overall).toMatchObject({ message: 'needs configuration', color: 'yellow' });
+  });
+
+  it('does not count needs_config as a failure in the mixed badge', () => {
+    const { overall } = badgeForHistory(
+      history({
+        linux: [entry('pass')],
+        darwin: [entry('needs_config')],
+        win32: [entry('install_failed')],
+      }),
+    );
+
+    expect(overall).toMatchObject({ message: 'failing on 1/3 platforms', color: 'orange' });
+  });
+
+  it('lets a real failure outrank needs_config when nothing passes', () => {
+    const { overall } = badgeForHistory(
+      history({ linux: [entry('needs_config')], win32: [entry('tools_failed')] }),
+    );
+
+    expect(overall).toMatchObject({ message: 'tools/list fails', color: 'red' });
+  });
+
+  it('ranks needs_config just after needs_auth, and both after pass', () => {
+    // Worst-wins across platforms, which is a different question from how one
+    // probe gated both ways is classified (there needs_auth wins): here the two
+    // platforms disagree, and the further-from-working answer decides.
+    const both = badgeForHistory(
+      history({ linux: [entry('needs_auth')], win32: [entry('needs_config')] }),
+    );
+    const withPass = badgeForHistory(
+      history({ linux: [entry('pass')], win32: [entry('needs_config')] }),
+    );
+
+    expect(both.overall).toMatchObject({ message: 'needs configuration', color: 'yellow' });
+    expect(withPass.overall).toMatchObject({ message: 'passing' });
+  });
+
+  it('ignores a skip alongside a platform that needs configuration', () => {
+    const { overall } = badgeForHistory(
+      history({ linux: [entry('needs_config')], win32: [entry('skipped')] }),
+    );
+
+    expect(overall).toMatchObject({ message: 'needs configuration', color: 'yellow' });
   });
 
   it('judges a pass, a gated platform and a skipped one on the two with data', () => {

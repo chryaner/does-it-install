@@ -10,8 +10,9 @@
  * The stylesheet is inlined: the site must render with no network access, no
  * fonts, no JavaScript. It carries four status tones, used by dots, history
  * squares, verdict pills and the summary cards alike: green `pass`, red `fail`,
- * amber `auth` (alive, but asking for credentials the probe does not send) and
- * grey `none` (nothing was learned).
+ * amber `auth` (alive, but asking for credentials or configuration the probe
+ * cannot supply) and grey `none` (nothing was learned). `auth` is named for the
+ * commoner case and covers both: `needs_auth` and `needs_config` share it.
  */
 
 const HTML_ESCAPES: Record<string, string> = {

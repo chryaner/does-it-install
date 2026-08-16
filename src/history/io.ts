@@ -317,6 +317,7 @@ const PROBE_STATUSES: Record<ProbeStatus, true> = {
   connect_failed: true,
   handshake_failed: true,
   needs_auth: true,
+  needs_config: true,
   tools_failed: true,
   timeout: true,
   skipped: true,

@@ -42,6 +42,7 @@ a single platform, use `badge/<slug>-linux.json`, `-darwin` or `-win32`.
 | `install fails` / `won't start` / `handshake fails` / `tools/list fails` | it broke, and the page shows where and why |
 | `unreachable` / `times out` | remote endpoint did not answer in budget |
 | `needs credentials` | yellow, not red: it is alive and it wants credentials the probe does not send (a 401/403, or a server that will not start without the variables it declared). Never counted as a failure |
+| `needs configuration` | yellow too: it installed, but the registry entry declares arguments only a user can fill, so it will not start without them. Never counted as a failure |
 | `failing on 1/3 platforms` | works somewhere, broken elsewhere |
 | `untested` | no supported distribution, nothing we could test on any platform, or never probed |
 
@@ -74,8 +75,10 @@ Nothing is installed globally, temp dirs, containers and process trees are
 always cleaned up, and required environment variables are filled with a
 placeholder (never real credentials) and reported on the page. A server that answers 401/403, or that
 will not start without the variables it declared, is recorded as `needs
-credentials`: amber on the site, yellow on the badge, and not a failure. Red is
-kept for a break the placeholders do not explain.
+credentials`: amber on the site, yellow on the badge, and not a failure. A
+server that will not start without arguments only a user can fill, which the
+catalog drops rather than invent, is recorded as `needs configuration` in the
+same amber. Red is kept for a break the placeholders do not explain.
 
 Full details (catalog sources, ranking, sharding, the env and remote-auth
 policies, badge semantics, and the limitations that matter when you read a red
@@ -147,9 +150,10 @@ that part skips itself).
   arguments a server needs to start. The shape is `ServerEntry` in
   `src/types.ts` minus the fields the builder fills in (`slug`, `source`).
 - **Badge wrong?** Open an issue with a link to the server page and the error
-  excerpt it shows. Known causes of false negatives (placeholder credentials
-  and guessed PyPI console scripts) are listed under "Known limitations" in
-  the methodology.
+  excerpt it shows. Known causes of false negatives (placeholder credentials,
+  arguments the entry declared but left blank, and a guessed PyPI console script
+  in the cases where `uv` does not name the real one) are listed under "Known
+  limitations" in the methodology.
 
 Results are never edited by hand. If a server is red and should not be, the fix
 is in the catalog entry or in the harness, not in `data/history/`.

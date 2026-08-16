@@ -268,3 +268,132 @@ describe('catalog cli', () => {
     await expect(readFile(out, 'utf8')).rejects.toThrow(/ENOENT/);
   });
 });
+
+describe('catalog cli when the registry is unreachable', () => {
+  let workDir: string;
+
+  beforeAll(async () => {
+    workDir = await mkdtemp(join(tmpdir(), 'dii-catalog-outage-'));
+  });
+
+  afterAll(async () => {
+    await rm(workDir, { recursive: true, force: true });
+  });
+
+  const failingFetch = () =>
+    vi.fn<FetchLike>(async () => {
+      throw new TypeError('fetch failed');
+    });
+
+  /** A catalog on disk, written the way a previous run would have left it. */
+  async function writeExisting(name: string, catalog: unknown): Promise<string> {
+    const out = join(workDir, name);
+    await writeFile(out, `${JSON.stringify(catalog, null, 2)}\n`, 'utf8');
+    return out;
+  }
+
+  it('keeps last week’s catalog and exits zero so the sweep still runs', async () => {
+    const out = await writeExisting('kept.json', {
+      generatedAt: '2026-08-09T03:00:00.000Z',
+      servers: [{ id: 'reg/one', slug: 'reg__one', title: 'One', packages: [], remotes: [] }],
+    });
+
+    const logged = await captureStderr(async () => {
+      await run(['--out', out], { fetchImpl: failingFetch() });
+    });
+
+    expect(logged).toContain('registry unreachable');
+    expect(logged).toContain('fetch failed');
+    expect(logged).toContain('keeping the existing catalog from 2026-08-09T03:00:00.000Z');
+  });
+
+  it('leaves the existing file byte for byte as it was', async () => {
+    const out = await writeExisting('untouched.json', {
+      generatedAt: '2026-08-09T03:00:00.000Z',
+      servers: [{ id: 'reg/one', slug: 'reg__one', title: 'One', packages: [], remotes: [] }],
+    });
+    const before = await readFile(out);
+
+    await captureStderr(async () => {
+      await run(['--out', out], { fetchImpl: failingFetch() });
+    });
+
+    // Not rewritten, not reformatted, not rebuilt from the seed file: the sweep
+    // has to read exactly the catalog the last good build published.
+    expect(await readFile(out)).toEqual(before);
+  });
+
+  it('never reaches the star lookup, since there is nothing to rank', async () => {
+    const out = await writeExisting('no-stars.json', {
+      generatedAt: '2026-08-09T03:00:00.000Z',
+      servers: [{ id: 'reg/one', slug: 'reg__one', title: 'One', packages: [], remotes: [] }],
+    });
+    const starsFetchImpl = starsFetch();
+
+    await captureStderr(async () => {
+      await run(['--out', out], { fetchImpl: failingFetch(), starsFetchImpl, token: 'test-token' });
+    });
+
+    expect(starsFetchImpl).not.toHaveBeenCalled();
+  });
+
+  it('still fails when there is no catalog to fall back on', async () => {
+    const out = join(workDir, 'missing.json');
+
+    await expect(run(['--out', out], { fetchImpl: failingFetch() })).rejects.toThrow(
+      /registry fetch failed:.*--offline/s,
+    );
+    await expect(readFile(out, 'utf8')).rejects.toThrow(/ENOENT/);
+  });
+
+  it('still fails when the file on disk is not a catalog', async () => {
+    const corrupt = join(workDir, 'corrupt.json');
+    await writeFile(corrupt, '{ "servers": [', 'utf8');
+    const empty = await writeExisting('empty-servers.json', {
+      generatedAt: '2026-08-09T03:00:00.000Z',
+      servers: [],
+    });
+    const blank = join(workDir, 'blank.json');
+    await writeFile(blank, '', 'utf8');
+    const notAnObject = await writeExisting('array.json', [{ id: 'reg/one' }]);
+
+    for (const out of [corrupt, empty, blank, notAnObject]) {
+      // A half-written or empty catalog is not last week's data, and starting a
+      // sweep off it would report the whole index as untested.
+      await expect(run(['--out', out], { fetchImpl: failingFetch() })).rejects.toThrow(
+        /registry fetch failed:.*--offline/s,
+      );
+    }
+
+    expect(await readFile(corrupt, 'utf8')).toBe('{ "servers": [');
+  });
+
+  it('names an undated catalog rather than refusing to keep it', async () => {
+    const out = await writeExisting('undated.json', {
+      servers: [{ id: 'reg/one', slug: 'reg__one', title: 'One', packages: [], remotes: [] }],
+    });
+
+    const logged = await captureStderr(async () => {
+      await run(['--out', out], { fetchImpl: failingFetch() });
+    });
+
+    expect(logged).toContain('keeping the existing catalog from an unknown date');
+  });
+
+  it('does not swallow a registry outage on an --offline build, which never fetches', async () => {
+    const out = await writeExisting('offline.json', {
+      generatedAt: '2026-08-09T03:00:00.000Z',
+      servers: [{ id: 'stale/one', slug: 'stale__one', title: 'One', packages: [], remotes: [] }],
+    });
+    const fetchImpl = failingFetch();
+
+    await captureStderr(async () => {
+      await run(['--offline', '--out', out], { fetchImpl });
+    });
+
+    // --offline is a deliberate seed-only build, so it overwrites as always.
+    expect(fetchImpl).not.toHaveBeenCalled();
+    const catalog = JSON.parse(await readFile(out, 'utf8')) as Catalog;
+    expect(catalog.servers.every((server) => server.source === 'seed')).toBe(true);
+  });
+});

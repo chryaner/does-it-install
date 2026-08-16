@@ -4,11 +4,12 @@
  * Writes the catalog JSON; everything else goes to stderr.
  */
 
-import { mkdir, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { dirname } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import type { ServerEntry } from '../types.js';
 import { buildCatalog } from './build.js';
+import { asString, isRecord } from './json.js';
 import { registryRepoUrl } from './normalize.js';
 import { fetchAllServers, type FetchLike } from './registry.js';
 import { DEFAULT_SEED_PATH, loadSeed } from './seed.js';
@@ -125,8 +126,23 @@ export async function run(
         );
       }
     } catch (error) {
+      const reason = error instanceof Error ? error.message : String(error);
+
+      // A registry outage must not cost us the sweep. Last week's catalog is
+      // stale, not wrong, and probing it again is worth far more than a red
+      // build: the file is left byte for byte as it is and the run stops here,
+      // before anything downstream can rewrite it from a seed-only build.
+      const generatedAt = await existingCatalogDate(options.out);
+      if (generatedAt !== undefined) {
+        process.stderr.write(
+          `warning: registry unreachable (${reason}); ` +
+            `keeping the existing catalog from ${generatedAt}\n`,
+        );
+        return;
+      }
+
       throw new Error(
-        `registry fetch failed: ${error instanceof Error ? error.message : String(error)} ` +
+        `registry fetch failed: ${reason} ` +
           '(re-run with --offline to build a seed-only catalog on purpose)',
         { cause: error },
       );
@@ -156,6 +172,29 @@ export async function run(
       `(seed ${bySource.seed}, registry ${bySource.registry}; ` +
       `${pagesFetched} pages${starsSummary}, ${skipped} malformed, ${duplicates} duplicates)\n`,
   );
+}
+
+/**
+ * The `generatedAt` of a usable catalog already sitting at `path`, or undefined
+ * when there is nothing there worth keeping.
+ *
+ * "Usable" is deliberately shallow: a JSON object with at least one server. The
+ * entries themselves are not re-validated, since this file is one we wrote and
+ * the sweep parses it properly anyway. A missing, unreadable, corrupt or empty
+ * catalog is no fallback at all, and the caller fails the build instead.
+ */
+async function existingCatalogDate(path: string): Promise<string | undefined> {
+  let parsed: unknown;
+  try {
+    parsed = JSON.parse(await readFile(path, 'utf8'));
+  } catch {
+    return undefined;
+  }
+
+  if (!isRecord(parsed)) return undefined;
+  const servers = parsed['servers'];
+  if (!Array.isArray(servers) || servers.length === 0) return undefined;
+  return asString(parsed['generatedAt']) ?? 'an unknown date';
 }
 
 /**

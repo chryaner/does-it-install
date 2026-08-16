@@ -23,6 +23,10 @@ const DOCKER_VERSION_TIMEOUT_MS = 5_000;
 /** Removing a container is a local call: it answers quickly or it is stuck. */
 const TEARDOWN_TIMEOUT_MS = 15_000;
 
+/** A pathological image must not exhaust the runner; blast radius stays one probe. */
+const MEMORY_LIMIT = '2g';
+const PIDS_LIMIT = '512';
+
 /** Reported when the runner has no docker that can run our images. */
 const DOCKER_MISSING = 'docker not available on this runner';
 
@@ -105,7 +109,22 @@ export function buildRunArgs(
   packageArguments: readonly string[] = []
 ): string[] {
   const envFlags = Object.entries(env).flatMap(([key, value]) => ['-e', `${key}=${value}`]);
-  return ['run', '-i', '--rm', '--pull=never', '--name', name, ...envFlags, image, ...packageArguments];
+  return [
+    'run',
+    '-i',
+    '--rm',
+    '--pull=never',
+    // A pathological image must not exhaust the runner: blast radius stays one probe.
+    '--memory',
+    MEMORY_LIMIT,
+    '--pids-limit',
+    PIDS_LIMIT,
+    '--name',
+    name,
+    ...envFlags,
+    image,
+    ...packageArguments
+  ];
 }
 
 /** The docker calls a probe makes, as one seam the tests can replace. */

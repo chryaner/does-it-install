@@ -97,7 +97,9 @@ describe('layout', () => {
     expect(page).toContain('href="/does-it-install/methodology.html"');
   });
 
-  it('defines a needs-credentials tone distinct from pass, fail and untested', () => {
+  // One amber tone serves both needs_auth and needs_config: same colour, same
+  // meaning, "alive and asking for something we cannot supply".
+  it('defines an amber tone distinct from pass, fail and untested', () => {
     expect(page).toContain('--auth:#bf8700');
     expect(page).toContain('.dot.auth{background:var(--auth)}');
     expect(page).toContain('.sq.auth{background:var(--auth)}');

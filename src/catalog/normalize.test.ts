@@ -150,6 +150,7 @@ describe('normalizeRegistryItem', () => {
 
     expect(entry?.packages[0]?.runtimeArguments).toEqual(['--package', 'ok-pkg']);
     expect(entry?.packages[0]?.packageArguments).toBeUndefined();
+    expect(entry?.packages[0]?.droppedArguments).toBe(true);
   });
 
   it('skips arguments whose value the end user is meant to supply', () => {
@@ -158,6 +159,53 @@ describe('normalizeRegistryItem', () => {
     expect(entry.packages[0]?.runtimeArguments).toEqual(['--with', 'codenib[mcp]==0.2.0']);
     // packageArguments is [{positional "mcp"}, {positional with only a valueHint}].
     expect(entry.packages[0]?.packageArguments).toEqual(['mcp']);
+    // The dropped one is what the harness needs to tell "broken" from
+    // "we never had the checkout path it wanted".
+    expect(entry.packages[0]?.droppedArguments).toBe(true);
+  });
+
+  it('reports a dropped argument from either argument list', () => {
+    const dropping = (pkg: Record<string, unknown>) =>
+      normalizeRegistryItem({
+        server: { name: 'test/dropped', packages: [{ registryType: 'npm', identifier: 'ok-pkg', ...pkg }] },
+      })?.packages[0]?.droppedArguments;
+
+    expect(dropping({ runtimeArguments: [{ type: 'positional', valueHint: 'path' }] })).toBe(true);
+    expect(dropping({ packageArguments: [{ type: 'positional', valueHint: 'path' }] })).toBe(true);
+    // A named argument we cannot place is a drop too: no name, no argv.
+    expect(dropping({ packageArguments: [{ type: 'named', value: 'x' }] })).toBe(true);
+  });
+
+  it('leaves the flag off a package whose arguments all came through', () => {
+    const entry = normalizeRegistryItem({
+      server: {
+        name: 'test/complete-args',
+        packages: [
+          {
+            registryType: 'npm',
+            identifier: 'ok-pkg',
+            runtimeArguments: [{ type: 'named', name: '--package', value: 'ok-pkg' }],
+            packageArguments: [{ type: 'positional', value: 'serve' }],
+          },
+        ],
+      },
+    });
+
+    // Absent, not false: types.ts keeps the field optional so a catalog only
+    // carries the flag for the servers it actually applies to.
+    expect(entry?.packages[0]).toEqual({
+      kind: 'npm',
+      identifier: 'ok-pkg',
+      runtimeArguments: ['--package', 'ok-pkg'],
+      packageArguments: ['serve'],
+      env: [],
+    });
+    expect(entry?.packages[0] && 'droppedArguments' in entry.packages[0]).toBe(false);
+  });
+
+  it('leaves the flag off a package that declared no arguments at all', () => {
+    const entry = normalizeNamed('ai.agenttrust/mcp-server');
+    expect(entry.packages[0] && 'droppedArguments' in entry.packages[0]).toBe(false);
   });
 
   it('keeps every supported package of a multi-package entry, in order', () => {
@@ -252,6 +300,9 @@ describe('normalizeRegistryItem', () => {
         kind: 'npm',
         identifier: 'ok-pkg',
         env: [{ name: 'KEEP', required: false, secret: false }],
+        // `{type: "named"}` was an argument object we could not place, so the
+        // invocation is not the declared one; `42` is not an argument at all.
+        droppedArguments: true,
       },
     ]);
   });

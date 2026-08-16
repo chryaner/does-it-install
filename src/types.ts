@@ -40,6 +40,11 @@ export type ProbeStatus =
   // required headers), or an installed stdio server that would not start or
   // handshake after required env vars were filled with ENV_PLACEHOLDER.
   // Not evidence of breakage; not evidence of health.
+  | 'needs_config' // installed but requires arguments only a user can supply:
+  // the registry entry declared placeholder arguments the catalog dropped
+  // (PackageSpec.droppedArguments), and the server then would not start or
+  // handshake. When required env vars were also placeholder-filled,
+  // needs_auth wins: credentials are the commoner cause.
   | 'tools_failed' // initialized, but tools/list failed
   | 'timeout' // a phase exceeded its time budget
   | 'skipped'; // no supported distribution or intentionally excluded
@@ -66,6 +71,12 @@ export interface PackageSpec {
   packageArguments?: string[];
   /** Declared transport type, e.g. "stdio". */
   transport?: string;
+  /**
+   * True when the registry declared arguments with no concrete value
+   * (placeholders a user must fill) that the catalog therefore dropped. Lets
+   * the harness tell "broken" from "needs arguments we could not invent".
+   */
+  droppedArguments?: boolean;
   env: EnvVarSpec[];
 }
 

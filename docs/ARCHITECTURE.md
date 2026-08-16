@@ -42,8 +42,13 @@ nothing else defines data shapes.
 - `--limit` cuts the ranked list at the end; pagination is never capped with
   it, because ranking a prefix would rank an alphabetical sample.
 - `--offline` builds from the seed file only, with no registry and no star
-  lookup. Registry fetch failures must not produce a truncated catalog
-  silently: fail loudly, or fall back to seed with a clear warning.
+  lookup. Registry fetch failures must never produce a truncated catalog
+  silently: fail loudly, or fall back with a clear warning.
+- Registry outage fallback: when the registry is unreachable and a previous
+  catalog file exists at the output path, the build keeps that catalog and warns
+  loudly instead of failing, so the sweep probes last week's list rather than
+  skipping the week. With no previous file to fall back to, the build still
+  fails: a stale catalog is data, an empty one is not.
 - CLI: `npm run catalog -- [--out data/catalog.json] [--offline] [--limit N]`
 
 ### sweep (`src/harness/`)
@@ -54,14 +59,21 @@ then oci, then remote) and probe it:
   <pkg>` with a clean cache), locate the package `bin`, spawn over stdio with
   the SDK client, `initialize`, `tools/list`. No global state.
 - **pypi**: `uv tool run` (uvx) equivalent, spawned the same way. If `uv` is
-  missing on the runner the probe records `skipped`, never a failure.
+  missing on the runner the probe records `skipped`, never a failure. The
+  console script is guessed from the package identifier; when uv rejects the
+  guess and names the executable the package really installs, the probe re-runs
+  once with that name and records the second result. One retry, only for the
+  "no such executable" error, only when uv named a replacement.
 - **oci**: `docker pull <image>`, then `docker run -i --rm --pull=never --name
-  dii-<uuid>` with the declared env vars as `-e` pairs, spawned over stdio like
-  the others. The container is force-removed afterwards, whatever happened:
-  killing the docker client does not stop the container. A runner without a
-  daemon running Linux containers (`docker version --format {{.Server.Os}}`)
-  records `skipped`, never a failure: macOS has no daemon and Windows runs
-  Windows containers, so this is a Linux-only probe in practice.
+  dii-<uuid> --memory 2g --pids-limit 512` with the declared env vars as `-e`
+  pairs, spawned over stdio like the others. The limits are containment, not
+  benchmarking: third-party images share a runner with three other probes, and
+  one that exhausts memory or forks without bound must not take them down. The
+  container is force-removed afterwards, whatever happened: killing the docker
+  client does not stop the container. A runner without a daemon running Linux
+  containers (`docker version --format {{.Server.Os}}`) records `skipped`, never
+  a failure: macOS has no daemon and Windows runs Windows containers, so this is
+  a Linux-only probe in practice.
 - **remote-http / remote-sse**: connect with StreamableHTTP/SSE transports,
   `initialize`, `tools/list`. Endpoints that 401/403 without auth headers, and
   endpoints that reject an unauthenticated `initialize` while declaring headers
@@ -72,7 +84,13 @@ then oci, then remote) and probe it:
   `requiresEnv` so pages can caveat the result. A stdio server that then will
   not start or will not finish the handshake is recorded `needs_auth` instead of
   `spawn_failed`/`handshake_failed`: it asked for credentials we withheld.
-  `install_failed`, `tools_failed` and `timeout` are never reclassified.
+- Arguments the registry declared as placeholders are dropped by the catalog
+  rather than invented, and the package carries `droppedArguments`. A stdio
+  server with dropped arguments that will not start or will not handshake is
+  recorded `needs_config` for the same reason. `needs_auth` wins when both
+  applied, since a missing key is the commoner cause. Neither is a failure, and
+  `install_failed`, `tools_failed` and `timeout` are never reclassified either
+  way.
 - Per-phase timeouts (install 600s, which also covers `docker pull`, spawn 30s,
   handshake 30s, tools 15s, remote connect 20s). A phase timeout yields status
   `timeout` with the phase recorded in `phases`.
@@ -100,7 +118,8 @@ in the catalog are kept (rot data is the product).
 ### badges (`src/badges/`)
 Emits shields endpoint JSON per server: overall (`badge/<slug>.json`) and
 per-platform (`badge/<slug>-<platform>.json`). Green `passing`, red `failing`
-with the failing phase, yellow `needs credentials`, grey `unknown`/`skipped`.
+with the failing phase, yellow `needs credentials` (`needs_auth`) and
+`needs configuration` (`needs_config`), grey `unknown`/`skipped`.
 The overall badge is the worst recent status across the platforms that produced
 a result: `skipped` platforms are dropped before anything is counted, so a
 container skipped on macOS cannot grey out what Linux proved, and only a server
@@ -112,7 +131,8 @@ Static generator, no framework, inline CSS, output to `public/`:
 - `index.html`: status table (title, badge state per platform, star count,
   tool count, last checked), ordered by GitHub stars descending with entries
   that have no count last and ties broken by `rank`; summary counts of passing,
-  failing, needs credentials and untested. Display order is stars alone: `rank`
+  failing, needs setup (the amber bucket: `needs_auth` plus `needs_config`) and
+  untested. Display order is stars alone: `rank`
   puts the seed entries first for probing and sharding, and giving them the top
   of a neutral index on top of that would read as self-promotion.
 - `s/<slug>.html`: per-server page with the install command, a green/red

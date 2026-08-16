@@ -38,6 +38,15 @@ A registry fetch failure never produces a quietly truncated catalog: the
 catalog stage fails loudly, and building from the seed alone requires asking
 for it with `--offline`.
 
+There is one exception, for the one failure that is entirely ours to absorb.
+When the registry API is unreachable at catalog build time and a previous
+`data/catalog.json` exists, the build keeps that file and warns loudly rather
+than failing, so the sweep probes last week's list instead of skipping the week.
+A week of results against a catalog that is seven days stale is worth more than
+a hole in every history strip, and the warning is in the job log for whoever
+reads it. The fallback needs a previous catalog: with no file to fall back to,
+the build still fails.
+
 The weekly sweep does not publish the whole registry. It passes `--limit 1000`,
 which keeps the 1000 highest ranked entries of the merged list: headroom over
 the 300 servers it probes, and small enough that `data/catalog.json` is a sane
@@ -135,8 +144,9 @@ recorded in `phases`. A probe that clears every phase is `pass`, and its tool
 count and first 50 tool names are recorded.
 
 `spawn_failed` and `handshake_failed` are the two statuses that can be
-reclassified afterwards, to `needs_auth`, when the server declared credentials
-we withheld. Sections 4 and 5 give the exact rule.
+reclassified afterwards, to `needs_auth` when the server declared credentials we
+withheld, or to `needs_config` when it declared arguments we could not fill.
+Sections 4 and 5 give the exact rules.
 
 One deliberate exception: `uv tool run` starts instantly and *then* downloads
 the package, so the download lands inside the handshake window. PyPI probes get
@@ -152,6 +162,26 @@ If `uv` is not on the runner's PATH, PyPI servers are recorded `skipped`, never
 failed. The sweep workflow installs uv with `continue-on-error`, so an outage
 in that action degrades PyPI coverage for a week instead of taking the sweep
 down.
+
+### The PyPI console script gets a second guess
+
+`uv tool run --from <pkg> <console-script>` needs the name of the executable the
+package installs, and registry entries almost never carry it, so the harness
+guesses it from the package identifier. The guess is right most of the time, and
+when it is wrong `uv` exits with "executable not found" for a package that
+installed perfectly: a red result for a naming mismatch, which is exactly the
+kind of false negative this project must not publish.
+
+uv is helpful in that error, because it names the executable the package
+actually provides. When the first attempt fails that way, the probe re-runs once
+with the name uv gave, and the second attempt's result is the one recorded. A
+server whose entry point is simply named differently from its package therefore
+passes instead of showing `spawn_failed` or `handshake_failed`.
+
+The retry is narrow on purpose: only for that error shape, only when uv named a
+replacement, and only once, so a genuinely broken package is not probed twice
+for nothing. When uv gives no hint, the guess is all we have and a wrong entry
+point still reads red; a seed entry is the fix for those.
 
 ### Containers are a Linux-only probe
 
@@ -175,6 +205,13 @@ pairs, so the container is gated by credentials exactly as a local install is.
 The container is named `dii-<uuid>` and force-removed after the probe: killing
 the docker client does not stop the container it started, and `--rm` alone only
 covers a container that exits by itself.
+
+Containers also run under resource limits: `--memory 2g` and `--pids-limit 512`.
+We execute third-party images on a shared runner, and a probe that eats the
+runner's memory or forks until the kernel gives up takes its three neighbours
+down with it. The caps are generous for a server whose whole job is to answer
+`initialize` and `tools/list`; a server that genuinely needs more than 2 GB to
+start will show a failure here, and that fact belongs on its page.
 
 ### Install timeouts get a second, uncontended chance
 
@@ -210,7 +247,7 @@ install` is part of what using the server is like, and a green pill on its own
 hides it. `index.json` carries the raw `installMs` for every platform that has
 one, so a consumer can pick its own threshold.
 
-## 4. Environment variables
+## 4. Environment variables and arguments
 
 The harness has no credentials and does not want any.
 
@@ -244,6 +281,39 @@ result:
 renders it amber, between green and red, and the badge reads
 `needs credentials` in yellow.
 
+### Arguments only a user can fill
+
+Registry entries also declare command-line arguments, and some of them have no
+concrete value: a workspace path, an account id, a database url the user is
+expected to supply. The catalog keeps the arguments it can pass verbatim and
+drops the placeholders rather than invent values, recording that it did so on
+the package as `droppedArguments`. A server started without an argument it
+requires behaves exactly like one started without its API key: it installs, then
+refuses to run.
+
+The classification mirrors the credentials rule, and its limits are the same:
+
+- A stdio server whose chosen package has `droppedArguments`, and that then
+  records `spawn_failed` or `handshake_failed`, is recorded **`needs_config`**.
+  Phases, detail and stderr excerpt are kept exactly as captured; only the
+  status changes, and the excerpt ("usage: ...", "missing required argument")
+  is the evidence.
+- **`needs_auth` wins when both apply.** A server whose entry declared both
+  placeholder env vars and placeholder arguments reads `needs_auth`: a missing
+  key is the commoner cause, and one status per probe means one phrase per
+  platform on the page.
+- `install_failed`, `tools_failed` and `timeout` are never reclassified, for the
+  reasons above: the install died before an argument could matter, a failed
+  `tools/list` means the server started and finished its handshake without the
+  arguments, and a hang is not an argument problem.
+- A package with no dropped arguments is never reclassified. Nothing was
+  withheld from it.
+
+`needs_config` is not a failure, exactly like `needs_auth`. The site renders it
+in the same amber, the badge reads `needs configuration` in yellow, and the
+server page carries a note above the results saying the entry declares arguments
+only a user can fill, so the probe ran without them.
+
 ## 5. Remote endpoints and authentication
 
 No authentication headers are ever sent, including headers the registry entry
@@ -275,6 +345,13 @@ the same over HTTP: allow anonymous `initialize` and `tools/list`, gate the
 tool calls. If your tools genuinely cannot be listed without a tenant, the
 standard OAuth challenge (a 401 with `WWW-Authenticate`) is correct, and amber
 is your accurate steady state: alive, gated, working as designed.
+
+Your registry entry does the other half. Declaring the environment variables and
+the arguments your server actually requires is what makes an amber
+classification possible at all: it is the difference between "this server asked
+us for something we do not have" and "this server broke". An entry that declares
+nothing gets a red result the first time a missing key or a missing flag stops
+the server, and the fix is a more accurate entry, not a different probe.
 
 We do not accept test credentials, from anyone. The harness executes
 third-party code weekly, so holding real secrets would make every probe a
@@ -323,6 +400,7 @@ for that platform.
 | `connect_failed` | `unreachable` | red |
 | `handshake_failed` | `handshake fails` | red |
 | `needs_auth` | `needs credentials` | yellow |
+| `needs_config` | `needs configuration` | yellow |
 | `tools_failed` | `tools/list fails` | red |
 | `timeout` | `times out` | red |
 | `skipped`, or never probed | `untested` | lightgrey |
@@ -336,25 +414,29 @@ The overall badge judges only the platforms that produced a result. Platforms
 whose latest status is `skipped` are dropped first, denominator included: a skip
 means "we did not test here", never "it might be broken here", and containers
 are probeable on Linux alone. So `pass` + `skipped` is `passing`, `needs_auth` +
-`skipped` is `needs credentials`, and a failure plus a skip is that failure. When
-every platform with data is `skipped`, or there is no data at all, there is
-nothing to judge and the badge reads `untested`.
+`skipped` is `needs credentials`, `needs_config` + `skipped` is
+`needs configuration`, and a failure plus a skip is that failure. When every
+platform with data is `skipped`, or there is no data at all, there is nothing to
+judge and the badge reads `untested`.
 
 What is left is worst-wins over those statuses, ordered by how early the probe
 died (`install_failed` worst, then `spawn_failed`, `connect_failed`, `timeout`,
-`handshake_failed`, `tools_failed`, `needs_auth`, `pass`), except that a single
-`pass` with no failure anywhere wins outright: it is proof the server works, and
-`needs_auth` elsewhere is the expected result of probing a credentialed server
-without credentials. The mixed case gets its own orange badge rather than a red
-one, so a server that works everywhere except Windows is not painted as entirely
-broken.
+`handshake_failed`, `tools_failed`, then the two amber statuses `needs_config`
+and `needs_auth`, then `pass`), except that a single `pass` with no failure
+anywhere wins outright: it is proof the server works, and an amber result
+elsewhere is the expected outcome of probing a gated server with neither its
+credentials nor its arguments. The mixed case gets its own orange badge rather
+than a red one, so a server that works everywhere except Windows is not painted
+as entirely broken.
 
-Two statuses are not failures and are counted as such nowhere: `skipped` and
-`needs_auth`. A server that passes on one platform and asks for credentials on
-another is `passing`, on its badge and on the index alike; only a real failure
-somewhere turns it red. The site draws the same three-way split: green for a
-pass, red for a real failure, amber for `needs_auth`, grey for what we never
-learned.
+Three statuses are not failures and are counted as such nowhere: `skipped`,
+`needs_auth` and `needs_config`. A server that passes on one platform and asks
+for credentials on another is `passing`, on its badge and on the index alike;
+only a real failure somewhere turns it red. The site draws the same three-way
+split: green for a pass, red for a real failure, amber for `needs_auth` and
+`needs_config` alike, grey for what we never learned. The index summarizes the
+amber bucket as **needs setup**, since it now covers both credentials and
+configuration, while the per-platform pill keeps the specific phrase.
 
 ## 9. Known limitations
 
@@ -362,17 +444,21 @@ learned.
   Linux runner only, so a container-only server has one green square where an
   npm one has three, and nothing here says whether it runs under Docker Desktop
   on macOS or Windows.
-- **The PyPI console script is guessed** as the last segment of the package
-  identifier. A package whose entry point is named differently will show
-  `spawn_failed` or `handshake_failed` even though the right command works.
-  These are worth reporting, since a seed entry can override them.
-- **Placeholder credentials still cost coverage.** A server that validates keys
-  at startup is recorded `needs_auth` rather than red (see section 4), which is
-  honest but is not a test: we never learn whether it would have worked with a
-  real key. And the reclassification leans on what the entry declares, so a
-  server that requires a key it never declared can still show red for a
-  credentials problem. Check `requiresEnv` and the error excerpt on the server
-  page before believing a red badge.
+- **The PyPI console script is still guessed**, as the last segment of the
+  package identifier, and the guess is now corrected automatically when `uv`
+  names the real executable in its error (section 3). What remains is the case
+  where uv gives no usable hint: the wrong command then shows `spawn_failed` or
+  `handshake_failed` even though the right one works. Those are worth reporting,
+  since a seed entry can override the command.
+- **Placeholder credentials and dropped arguments still cost coverage.** A
+  server that validates keys at startup is recorded `needs_auth`, and one that
+  needs an argument the entry left as a placeholder is recorded `needs_config`
+  (see section 4), rather than red. That is honest, and it is not a test: we
+  never learn whether either would have worked with the real values. Both
+  classifications lean on what the entry declares, so a server that requires a
+  key or a flag it never declared can still show red for a problem that is not
+  its code. Check `requiresEnv`, the arguments note on the page and the error
+  excerpt before believing a red badge.
 - **Weekly granularity.** A result can be up to seven days old; the "last
   checked" timestamp on each page is authoritative, not the badge color.
 - **One version per server**: whatever `version=latest` resolves to, or the
