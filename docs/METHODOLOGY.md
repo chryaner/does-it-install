@@ -232,7 +232,11 @@ minutes is broken in practice.
 The retry result replaces the original whatever it says, a second timeout
 included: the uncontended measurement is the truer one. Retries respect the
 sweep deadline (`--deadline`), so entries it does not reach keep their original
-result. **`timed out` on this site therefore means the server exceeded its
+result. To make sure that window exists at all, the pool stops picking new
+entries 25 minutes before the deadline (at most a quarter of the whole window):
+the platform slow enough to produce install timeouts is exactly the platform
+whose pool would otherwise consume the entire deadline and starve the retries
+that exist for its sake. **`timed out` on this site therefore means the server exceeded its
 budget with the runner to itself**, not that it lost a race against its
 neighbours.
 

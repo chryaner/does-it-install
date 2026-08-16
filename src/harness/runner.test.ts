@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { HARNESS_VERSION, type Catalog, type ProbeResult, type ServerEntry } from '../types.js';
 import { DEFAULT_TIMEOUTS } from './options.js';
-import { newRunId, runSweep, selectEntries, summarize } from './runner.js';
+import { newRunId, poolDeadlineFor, runSweep, selectEntries, summarize } from './runner.js';
 
 const server = (rank: number): ServerEntry => ({
   id: `io.github.acme/server-${rank}`,
@@ -366,5 +366,19 @@ describe('runSweep second chance', () => {
     expect(lines.filter(line => line.startsWith('second chance [')).length).toBe(1);
     // Every entry was probed, so the sweep does not report a partial run.
     expect(lines.some(line => line.includes('deadline reached'))).toBe(false);
+  });
+});
+
+describe('poolDeadlineFor', () => {
+  it('reserves 25 minutes of a long window for the retries', () => {
+    const now = 1_000_000;
+    const deadline = now + 165 * 60_000;
+    expect(poolDeadlineFor(deadline, now)).toBe(deadline - 25 * 60_000);
+  });
+
+  it('caps the reserve at a quarter of a short window', () => {
+    const now = 1_000_000;
+    const deadline = now + 60_000;
+    expect(poolDeadlineFor(deadline, now)).toBe(deadline - 15_000);
   });
 });

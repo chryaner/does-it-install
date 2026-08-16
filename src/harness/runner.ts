@@ -87,6 +87,18 @@ export function selectEntries(catalog: Catalog, selection: EntrySelection = {}):
   return entries;
 }
 
+/** Time held back from the pool for the second-chance pass. */
+export const RETRY_RESERVE_MS = 25 * 60_000;
+
+/**
+ * When the pool must stop picking new entries: `RETRY_RESERVE_MS` before the
+ * overall deadline, but never more than a quarter of the whole window, so a
+ * short deadline still spends most of itself probing.
+ */
+export function poolDeadlineFor(deadline: number, now: number): number {
+  return deadline - Math.min(RETRY_RESERVE_MS, Math.max(0, deadline - now) / 4);
+}
+
 export async function runSweep(catalog: Catalog, options: SweepOptions = {}): Promise<RunFile> {
   const probeOptions = resolveProbeOptions(options);
   const entries = selectEntries(catalog, options);
@@ -104,6 +116,12 @@ export async function runSweep(catalog: Catalog, options: SweepOptions = {}): Pr
   let completed = 0;
 
   const pastDeadline = (): boolean => options.deadline !== undefined && Date.now() >= options.deadline;
+  // The pool stops early so the second-chance pass is guaranteed a window.
+  // Without the reserve, a platform slow enough to produce install timeouts is
+  // exactly the platform whose pool eats the whole deadline, and the retries
+  // that exist for its sake never run. Observed on the Windows shards.
+  const poolDeadline = options.deadline === undefined ? undefined : poolDeadlineFor(options.deadline, Date.now());
+  const pastPoolDeadline = (): boolean => poolDeadline !== undefined && Date.now() >= poolDeadline;
 
   const probeOnce = async (entry: ServerEntry, withOptions: ProbeOptions): Promise<ProbeResult> => {
     const probeStartedAt = new Date();
@@ -129,7 +147,7 @@ export async function runSweep(catalog: Catalog, options: SweepOptions = {}): Pr
 
   const worker = async (): Promise<void> => {
     for (;;) {
-      if (pastDeadline()) return;
+      if (pastPoolDeadline()) return;
       const index = nextIndex;
       nextIndex += 1;
       const entry = entries[index];
