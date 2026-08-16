@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:27.636Z",
+        "errorExcerpt": "npm install @businys/mcp-server@1.0.1 exited with code 1\n--- stderr (tail) ---\nnpm error code EUNSUPPORTEDPROTOCOL\nnpm error Unsupported URL Type \"workspace:\": workspace:*\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-OhHCBn/.npm-cache/_logs/2026-08-15T20_08_10_967Z-debug-0.log",
+        "installMs": 1005,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-27Z-87d108",
+        "status": "install_failed"
+      },
+      {
         "date": "2026-08-15T16:56:30.424Z",
         "errorExcerpt": "npm install @businys/mcp-server@1.0.1 exited with code 1\n--- stderr (tail) ---\nnpm error code EUNSUPPORTEDPROTOCOL\nnpm error Unsupported URL Type \"workspace:\": workspace:*\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-oOszul/.npm-cache/_logs/2026-08-15T17_00_09_558Z-debug-0.log",
         "installMs": 668,
@@ -19,6 +27,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:19.780Z",
+        "errorExcerpt": "npm install @businys/mcp-server@1.0.1 exited with code 1\n--- stderr (tail) ---\nnpm error code EUNSUPPORTEDPROTOCOL\nnpm error Unsupported URL Type \"workspace:\": workspace:*\nnpm error A complete log of this run can be found in: /tmp/does-it-install/dii-npm-wIdxzX/.npm-cache/_logs/2026-08-15T20_06_46_418Z-debug-0.log",
+        "installMs": 533,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-19Z-c79c0a",
+        "status": "install_failed"
+      },
+      {
         "date": "2026-08-15T16:56:31.954Z",
         "errorExcerpt": "npm install @businys/mcp-server@1.0.1 exited with code 1\n--- stderr (tail) ---\nnpm error code EUNSUPPORTEDPROTOCOL\nnpm error Unsupported URL Type \"workspace:\": workspace:*\nnpm error A complete log of this run can be found in: /tmp/does-it-install/dii-npm-CwmT6A/.npm-cache/_logs/2026-08-15T17_00_10_991Z-debug-0.log",
         "installMs": 398,
@@ -35,6 +51,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.931Z",
+        "errorExcerpt": "npm install @businys/mcp-server@1.0.1 exited with code 1\n--- stderr (tail) ---\nnpm error code EUNSUPPORTEDPROTOCOL\nnpm error Unsupported URL Type \"workspace:\": workspace:*\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-5VKsMo\\.npm-cache\\_logs\\2026-08-15T20_57_21_113Z-debug-0.log",
+        "installMs": 1476,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-37Z-81b797",
+        "status": "install_failed"
+      },
       {
         "date": "2026-08-15T16:56:50.470Z",
         "errorExcerpt": "npm install @businys/mcp-server@1.0.1 exited with code 1\n--- stderr (tail) ---\nnpm error code EUNSUPPORTEDPROTOCOL\nnpm error Unsupported URL Type \"workspace:\": workspace:*\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-vOSDhw\\.npm-cache\\_logs\\2026-08-15T18_00_15_996Z-debug-0.log",

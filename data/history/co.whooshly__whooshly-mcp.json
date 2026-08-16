@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:27.636Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: whooshly-mcp: server rejected the token (HTTP 401). Mint a fresh one at https://app.whooshly.co (Agents).",
+        "installMs": 603,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-27Z-87d108",
+        "status": "timeout"
+      },
+      {
         "date": "2026-08-15T16:56:30.424Z",
         "errorExcerpt": "handshake failed: MCP error -32001: whooshly-mcp: server rejected the token (HTTP 401). Mint a fresh one at https://app.whooshly.co (Agents).",
         "installMs": 448,
@@ -19,6 +27,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:19.780Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: whooshly-mcp: server rejected the token (HTTP 401). Mint a fresh one at https://app.whooshly.co (Agents).",
+        "installMs": 443,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-19Z-c79c0a",
+        "status": "timeout"
+      },
+      {
         "date": "2026-08-15T16:56:31.954Z",
         "errorExcerpt": "handshake failed: MCP error -32001: whooshly-mcp: server rejected the token (HTTP 401). Mint a fresh one at https://app.whooshly.co (Agents).",
         "installMs": 633,
@@ -35,6 +51,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.931Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: whooshly-mcp: server rejected the token (HTTP 401). Mint a fresh one at https://app.whooshly.co (Agents).",
+        "installMs": 5123,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-37Z-81b797",
+        "status": "timeout"
+      },
       {
         "date": "2026-08-15T16:56:50.470Z",
         "errorExcerpt": "handshake failed: MCP error -32001: whooshly-mcp: server rejected the token (HTTP 401). Mint a fresh one at https://app.whooshly.co (Agents).",

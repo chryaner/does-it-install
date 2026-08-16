@@ -2,6 +2,28 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:19.390Z",
+        "installMs": 358,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-19Z-d5e286",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "plan_staffing",
+          "save_staffing_plan",
+          "get_plan",
+          "get_cities",
+          "get_roles",
+          "check_availability",
+          "get_role_pricing",
+          "get_compliance_by_state",
+          "get_policies",
+          "get_rate_benchmark",
+          "request_quote",
+          "get_quote_status"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:29.657Z",
         "installMs": 770,
         "method": "npm",
@@ -47,6 +69,28 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:17.296Z",
+        "installMs": 678,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-17Z-9dcd14",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "plan_staffing",
+          "save_staffing_plan",
+          "get_plan",
+          "get_cities",
+          "get_roles",
+          "check_availability",
+          "get_role_pricing",
+          "get_compliance_by_state",
+          "get_policies",
+          "get_rate_benchmark",
+          "request_quote",
+          "get_quote_status"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:29.989Z",
         "installMs": 569,
         "method": "npm",
@@ -91,6 +135,28 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.930Z",
+        "installMs": 4321,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-37Z-a31ede",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "plan_staffing",
+          "save_staffing_plan",
+          "get_plan",
+          "get_cities",
+          "get_roles",
+          "check_availability",
+          "get_role_pricing",
+          "get_compliance_by_state",
+          "get_policies",
+          "get_rate_benchmark",
+          "request_quote",
+          "get_quote_status"
+        ]
+      },
       {
         "date": "2026-08-15T16:56:52.007Z",
         "installMs": 3502,

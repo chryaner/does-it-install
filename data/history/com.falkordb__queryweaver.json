@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:31.969Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-15T20-03-31Z-6fe095",
+        "status": "skipped"
+      },
+      {
         "date": "2026-08-15T16:56:30.932Z",
         "errorExcerpt": "container (oci) distributions are not probed in v1",
         "method": "oci",
@@ -25,6 +33,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:21.360Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: ted non-whitespace character after JSON at position 1 (line 1 column 2)\nUnexpected non-whitespace character after JSON at position 1 (line 1 column 2)\nUnexpected non-whitespace character after JSON at position 1 (line 1 column 2)\nUnexpected non-whitespace character after JSON at position 1 (line 1 column 2)\nUnexpected non-whitespace character after JSON at position 1 (line 1 column 2)\nUnexpected token 'F', \"FalkorDB i\"... is not valid JSON\nUnexpected token 'F', \"FalkorDB i\"... is not valid JSON\n--- stderr (tail) ---\nINFO:     Will watch for changes in these directories: ['/app']\nINFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)\nINFO:     Started reloader process [1] using StatReload\nWARNING:root:FASTAPI_SECRET_KEY not set, using generated key. Set this in production!\nINFO:     Started server process [27]\nINFO:     Waiting for application startup.\nINFO:     Application startup complete.",
+        "installMs": 30640,
+        "method": "oci",
+        "runId": "2026-08-15T20-03-21Z-32f7d0",
+        "status": "timeout"
+      },
+      {
         "date": "2026-08-15T16:56:35.852Z",
         "errorExcerpt": "container (oci) distributions are not probed in v1",
         "method": "oci",
@@ -47,6 +63,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:36.582Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-15T20-03-36Z-50d82d",
+        "status": "skipped"
+      },
       {
         "date": "2026-08-15T16:56:52.061Z",
         "errorExcerpt": "container (oci) distributions are not probed in v1",

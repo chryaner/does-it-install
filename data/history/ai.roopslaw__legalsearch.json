@@ -2,6 +2,21 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:27.636Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T20-03-27Z-87d108",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "roop.public.judgments.search",
+          "roop.public.judgments.get_packet",
+          "roop.public.judgments.get_segment",
+          "roop.public.statutes.search",
+          "roop.public.statutes.get_packet",
+          "roop.public.corpus.status"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:30.424Z",
         "method": "remote-http",
         "runId": "2026-08-15T16-56-30Z-74a61d",
@@ -49,6 +64,21 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:19.780Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T20-03-19Z-c79c0a",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "roop.public.judgments.search",
+          "roop.public.judgments.get_packet",
+          "roop.public.judgments.get_segment",
+          "roop.public.statutes.search",
+          "roop.public.statutes.get_packet",
+          "roop.public.corpus.status"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:31.954Z",
         "errorExcerpt": "connect failed: fetch failed caused by: Connect Timeout Error (attempted address: mcp.roopslaw.ai:443, timeout: 10000ms) (UND_ERR_CONNECT_TIMEOUT)",
         "method": "remote-http",
@@ -87,6 +117,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.931Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: Connect Timeout Error (attempted address: mcp.roopslaw.ai:443, timeout: 10000ms) (UND_ERR_CONNECT_TIMEOUT)",
+        "method": "remote-http",
+        "runId": "2026-08-15T20-03-37Z-81b797",
+        "status": "connect_failed"
+      },
       {
         "date": "2026-08-15T16:56:50.470Z",
         "method": "remote-http",

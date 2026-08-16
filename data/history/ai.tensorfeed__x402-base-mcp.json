@@ -2,6 +2,31 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:27.636Z",
+        "installMs": 13814,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-27Z-87d108",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "balance",
+          "usdc_balance",
+          "block_number",
+          "get_tx_receipt",
+          "call",
+          "recent_transfers",
+          "verify_x402_settlement",
+          "parse_x402_manifest",
+          "usdc_recent_payments_to",
+          "probe_x402_endpoint",
+          "decode_x402_payment_payload",
+          "verify_afta_federation",
+          "tf_payment_lookup",
+          "x402_publisher_health",
+          "afta_federation_members"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:30.424Z",
         "installMs": 11458,
         "method": "npm",
@@ -77,6 +102,31 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:19.780Z",
+        "installMs": 6899,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-19Z-c79c0a",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "balance",
+          "usdc_balance",
+          "block_number",
+          "get_tx_receipt",
+          "call",
+          "recent_transfers",
+          "verify_x402_settlement",
+          "parse_x402_manifest",
+          "usdc_recent_payments_to",
+          "probe_x402_endpoint",
+          "decode_x402_payment_payload",
+          "verify_afta_federation",
+          "tf_payment_lookup",
+          "x402_publisher_health",
+          "afta_federation_members"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:31.954Z",
         "installMs": 11507,
         "method": "npm",
@@ -151,6 +201,31 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.931Z",
+        "installMs": 107387,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-37Z-81b797",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "balance",
+          "usdc_balance",
+          "block_number",
+          "get_tx_receipt",
+          "call",
+          "recent_transfers",
+          "verify_x402_settlement",
+          "parse_x402_manifest",
+          "usdc_recent_payments_to",
+          "probe_x402_endpoint",
+          "decode_x402_payment_payload",
+          "verify_afta_federation",
+          "tf_payment_lookup",
+          "x402_publisher_health",
+          "afta_federation_members"
+        ]
+      },
       {
         "date": "2026-08-15T16:56:50.470Z",
         "installMs": 134601,

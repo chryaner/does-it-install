@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:19.390Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed",
+        "installMs": 20623,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-19Z-d5e286",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T16:56:29.657Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed",
         "installMs": 12799,
@@ -25,6 +33,37 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-08-15T20:03:17.296Z",
+        "installMs": 8213,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-17Z-9dcd14",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "get_wallet_address",
+          "build_swap",
+          "submit_signed_swap",
+          "auto_swap",
+          "get_holdings",
+          "get_mcap",
+          "get_flex_card",
+          "connect_websocket",
+          "connection_status",
+          "get_fill_log",
+          "place_limit_order",
+          "place_trailing_order",
+          "place_twap_order",
+          "place_limit_twap_order",
+          "place_trailing_twap_order",
+          "place_limit_trailing_order",
+          "place_limit_trailing_twap_order",
+          "list_orders",
+          "check_order",
+          "cancel_order",
+          "extend_order"
+        ]
+      },
       {
         "date": "2026-08-15T16:56:29.989Z",
         "installMs": 8473,
@@ -118,6 +157,37 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.930Z",
+        "installMs": 147833,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-37Z-a31ede",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "get_wallet_address",
+          "build_swap",
+          "submit_signed_swap",
+          "auto_swap",
+          "get_holdings",
+          "get_mcap",
+          "get_flex_card",
+          "connect_websocket",
+          "connection_status",
+          "get_fill_log",
+          "place_limit_order",
+          "place_trailing_order",
+          "place_twap_order",
+          "place_limit_twap_order",
+          "place_trailing_twap_order",
+          "place_limit_trailing_order",
+          "place_limit_trailing_twap_order",
+          "list_orders",
+          "check_order",
+          "cancel_order",
+          "extend_order"
+        ]
+      },
       {
         "date": "2026-08-15T16:56:52.007Z",
         "installMs": 172131,

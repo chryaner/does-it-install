@@ -2,6 +2,27 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:31.969Z",
+        "installMs": 7961,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-31Z-6fe095",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "request_payment",
+          "verify_mandate",
+          "get_audit_proof",
+          "spend_summary",
+          "list_decisions",
+          "explain_decision",
+          "sentinel_alerts",
+          "assess_action",
+          "anchor_artifact",
+          "check_artifact",
+          "upgrade"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:30.932Z",
         "installMs": 6271,
         "method": "npm",
@@ -45,6 +66,27 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:21.360Z",
+        "installMs": 3468,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-21Z-32f7d0",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "request_payment",
+          "verify_mandate",
+          "get_audit_proof",
+          "spend_summary",
+          "list_decisions",
+          "explain_decision",
+          "sentinel_alerts",
+          "assess_action",
+          "anchor_artifact",
+          "check_artifact",
+          "upgrade"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:35.852Z",
         "installMs": 3220,
         "method": "npm",
@@ -87,6 +129,27 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:36.582Z",
+        "installMs": 126690,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-36Z-50d82d",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "request_payment",
+          "verify_mandate",
+          "get_audit_proof",
+          "spend_summary",
+          "list_decisions",
+          "explain_decision",
+          "sentinel_alerts",
+          "assess_action",
+          "anchor_artifact",
+          "check_artifact",
+          "upgrade"
+        ]
+      },
       {
         "date": "2026-08-15T16:56:52.061Z",
         "installMs": 51809,

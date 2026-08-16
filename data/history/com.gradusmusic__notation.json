@@ -2,6 +2,26 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:31.969Z",
+        "installMs": 6350,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-31Z-6fe095",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "notation_render",
+          "notation_validate",
+          "knowledge_search",
+          "notation_examples",
+          "notation_schema",
+          "theory_validate_ranges",
+          "theory_respell",
+          "theory_parse_xml",
+          "theory_analyze_score",
+          "theory_pitch_utils"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:30.932Z",
         "installMs": 5021,
         "method": "npm",
@@ -43,6 +63,26 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:21.360Z",
+        "installMs": 4301,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-21Z-32f7d0",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "notation_render",
+          "notation_validate",
+          "knowledge_search",
+          "notation_examples",
+          "notation_schema",
+          "theory_validate_ranges",
+          "theory_respell",
+          "theory_parse_xml",
+          "theory_analyze_score",
+          "theory_pitch_utils"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:35.852Z",
         "installMs": 4582,
         "method": "npm",
@@ -83,6 +123,26 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:36.582Z",
+        "installMs": 153125,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-36Z-50d82d",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "notation_render",
+          "notation_validate",
+          "knowledge_search",
+          "notation_examples",
+          "notation_schema",
+          "theory_validate_ranges",
+          "theory_respell",
+          "theory_parse_xml",
+          "theory_analyze_score",
+          "theory_pitch_utils"
+        ]
+      },
       {
         "date": "2026-08-15T16:56:52.061Z",
         "installMs": 127825,

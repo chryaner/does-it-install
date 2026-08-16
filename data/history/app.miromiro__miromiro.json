@@ -2,6 +2,25 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:19.390Z",
+        "installMs": 5027,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-19Z-d5e286",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "extract_code",
+          "extract_brand",
+          "extract_design_tokens",
+          "extract_assets",
+          "extract_svgs",
+          "extract_fonts",
+          "extract_lottie",
+          "extract_videos",
+          "extract_audio"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:29.657Z",
         "installMs": 4319,
         "method": "npm",
@@ -41,6 +60,25 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:17.296Z",
+        "installMs": 3766,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-17Z-9dcd14",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "extract_code",
+          "extract_brand",
+          "extract_design_tokens",
+          "extract_assets",
+          "extract_svgs",
+          "extract_fonts",
+          "extract_lottie",
+          "extract_videos",
+          "extract_audio"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:29.989Z",
         "installMs": 4011,
         "method": "npm",
@@ -79,6 +117,25 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.930Z",
+        "installMs": 85671,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-37Z-a31ede",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "extract_code",
+          "extract_brand",
+          "extract_design_tokens",
+          "extract_assets",
+          "extract_svgs",
+          "extract_fonts",
+          "extract_lottie",
+          "extract_videos",
+          "extract_audio"
+        ]
+      },
       {
         "date": "2026-08-15T16:56:52.007Z",
         "installMs": 102401,

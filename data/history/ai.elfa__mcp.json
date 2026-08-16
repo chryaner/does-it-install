@@ -2,6 +2,27 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:19.390Z",
+        "installMs": 5020,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-19Z-d5e286",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "api_status",
+          "mentions",
+          "trending",
+          "narratives",
+          "account_stats",
+          "market_chat",
+          "auto_build",
+          "auto_validate",
+          "auto_query",
+          "auto_query_write",
+          "auto_draft"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:29.657Z",
         "installMs": 4689,
         "method": "npm",
@@ -85,6 +106,27 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:17.296Z",
+        "installMs": 5013,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-17Z-9dcd14",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "api_status",
+          "mentions",
+          "trending",
+          "narratives",
+          "account_stats",
+          "market_chat",
+          "auto_build",
+          "auto_validate",
+          "auto_query",
+          "auto_query_write",
+          "auto_draft"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:29.989Z",
         "installMs": 4327,
         "method": "npm",
@@ -167,6 +209,27 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.930Z",
+        "installMs": 152542,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-37Z-a31ede",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "api_status",
+          "mentions",
+          "trending",
+          "narratives",
+          "account_stats",
+          "market_chat",
+          "auto_build",
+          "auto_validate",
+          "auto_query",
+          "auto_query_write",
+          "auto_draft"
+        ]
+      },
       {
         "date": "2026-08-15T16:56:52.007Z",
         "installMs": 148953,

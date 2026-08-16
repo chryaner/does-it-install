@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:27.636Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: kernelcad [options] [command]\n\nkernelCAD — agent-first parametric CAD CLI\n\nOptions:\n  -V, --version                     output the version number\n  -h, --help                        display help for command\n\nCommands:\n  evaluate [options] <file>         Run a .kcad.ts script and report diagnostics\n  export [options] <format> <file>  Export a .kcad.ts script to STL or STEP\n  interference [options] <file>     Detect BREP interferences between Scene\n                                    parts (industry-standard clash detection)\n  mcp [options]                     Run the kernelCAD MCP server (stdio\n                                    transport).\n  render [options] <file>           Render a .kcad.ts script to multi-view PNG\n                                    (front, right, top, iso)\n  skill                             Install kernelCAD's skill tree into an agent\n                                    skills directory or emit it as a single\n                                    context file.\n  validate [options] <file>         Validate an assembly: floating parts, orphan\n                                    clusters, interferences\n  help [command]                    display help for command",
+        "installMs": 50298,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-27Z-87d108",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-15T16:56:30.424Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: kernelcad [options] [command]\n\nkernelCAD — agent-first parametric CAD CLI\n\nOptions:\n  -V, --version                     output the version number\n  -h, --help                        display help for command\n\nCommands:\n  evaluate [options] <file>         Run a .kcad.ts script and report diagnostics\n  export [options] <format> <file>  Export a .kcad.ts script to STL or STEP\n  interference [options] <file>     Detect BREP interferences between Scene\n                                    parts (industry-standard clash detection)\n  mcp [options]                     Run the kernelCAD MCP server (stdio\n                                    transport).\n  render [options] <file>           Render a .kcad.ts script to multi-view PNG\n                                    (front, right, top, iso)\n  skill                             Install kernelCAD's skill tree into an agent\n                                    skills directory or emit it as a single\n                                    context file.\n  validate [options] <file>         Validate an assembly: floating parts, orphan\n                                    clusters, interferences\n  help [command]                    display help for command",
         "installMs": 46221,
@@ -26,6 +34,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:19.780Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: kernelcad [options] [command]\n\nkernelCAD — agent-first parametric CAD CLI\n\nOptions:\n  -V, --version                     output the version number\n  -h, --help                        display help for command\n\nCommands:\n  evaluate [options] <file>         Run a .kcad.ts script and report diagnostics\n  export [options] <format> <file>  Export a .kcad.ts script to STL or STEP\n  interference [options] <file>     Detect BREP interferences between Scene\n                                    parts (industry-standard clash detection)\n  mcp [options]                     Run the kernelCAD MCP server (stdio\n                                    transport).\n  render [options] <file>           Render a .kcad.ts script to multi-view PNG\n                                    (front, right, top, iso)\n  skill                             Install kernelCAD's skill tree into an agent\n                                    skills directory or emit it as a single\n                                    context file.\n  validate [options] <file>         Validate an assembly: floating parts, orphan\n                                    clusters, interferences\n  help [command]                    display help for command",
+        "installMs": 30816,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-19Z-c79c0a",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-15T16:56:31.954Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: kernelcad [options] [command]\n\nkernelCAD — agent-first parametric CAD CLI\n\nOptions:\n  -V, --version                     output the version number\n  -h, --help                        display help for command\n\nCommands:\n  evaluate [options] <file>         Run a .kcad.ts script and report diagnostics\n  export [options] <format> <file>  Export a .kcad.ts script to STL or STEP\n  interference [options] <file>     Detect BREP interferences between Scene\n                                    parts (industry-standard clash detection)\n  mcp [options]                     Run the kernelCAD MCP server (stdio\n                                    transport).\n  render [options] <file>           Render a .kcad.ts script to multi-view PNG\n                                    (front, right, top, iso)\n  skill                             Install kernelCAD's skill tree into an agent\n                                    skills directory or emit it as a single\n                                    context file.\n  validate [options] <file>         Validate an assembly: floating parts, orphan\n                                    clusters, interferences\n  help [command]                    display help for command",
         "installMs": 45916,
@@ -49,6 +65,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.931Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: kernelcad [options] [command]\n\nkernelCAD — agent-first parametric CAD CLI\n\nOptions:\n  -V, --version                     output the version number\n  -h, --help                        display help for command\n\nCommands:\n  evaluate [options] <file>         Run a .kcad.ts script and report diagnostics\n  export [options] <format> <file>  Export a .kcad.ts script to STL or STEP\n  interference [options] <file>     Detect BREP interferences between Scene\n                                    parts (industry-standard clash detection)\n  mcp [options]                     Run the kernelCAD MCP server (stdio\n                                    transport).\n  render [options] <file>           Render a .kcad.ts script to multi-view PNG\n                                    (front, right, top, iso)\n  skill                             Install kernelCAD's skill tree into an agent\n                                    skills directory or emit it as a single\n                                    context file.\n  validate [options] <file>         Validate an assembly: floating parts, orphan\n                                    clusters, interferences\n  help [command]                    display help for command",
+        "installMs": 304423,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-37Z-81b797",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-15T16:56:50.470Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: kernelcad [options] [command]\n\nkernelCAD — agent-first parametric CAD CLI\n\nOptions:\n  -V, --version                     output the version number\n  -h, --help                        display help for command\n\nCommands:\n  evaluate [options] <file>         Run a .kcad.ts script and report diagnostics\n  export [options] <format> <file>  Export a .kcad.ts script to STL or STEP\n  interference [options] <file>     Detect BREP interferences between Scene\n                                    parts (industry-standard clash detection)\n  mcp [options]                     Run the kernelCAD MCP server (stdio\n                                    transport).\n  render [options] <file>           Render a .kcad.ts script to multi-view PNG\n                                    (front, right, top, iso)\n  skill                             Install kernelCAD's skill tree into an agent\n                                    skills directory or emit it as a single\n                                    context file.\n  validate [options] <file>         Validate an assembly: floating parts, orphan\n                                    clusters, interferences\n  help [command]                    display help for command",

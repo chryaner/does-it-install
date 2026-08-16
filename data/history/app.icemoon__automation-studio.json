@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:31.969Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nCould not find the Icemoon app (AutomationStudio.app).\n\nThis package is only a launcher — the MCP server ships inside the app.\n\n  1. Install Icemoon:            https://icemoon.app\n  2. Set up your Mac and iPhone: https://icemoon.app/install\n  3. Launch the app once and activate your licence.\n\nLooked in:\n  /Applications/AutomationStudio.app\n  /Users/runner/Applications/AutomationStudio.app\n\nIf the app lives somewhere else, point ICEMOON_APP at the bundle:\n  ICEMOON_APP=/path/to/AutomationStudio.app npx -y icemoon-mcp",
+        "installMs": 541,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-31Z-6fe095",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-15T16:56:30.932Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nCould not find the Icemoon app (AutomationStudio.app).\n\nThis package is only a launcher — the MCP server ships inside the app.\n\n  1. Install Icemoon:            https://icemoon.app\n  2. Set up your Mac and iPhone: https://icemoon.app/install\n  3. Launch the app once and activate your licence.\n\nLooked in:\n  /Applications/AutomationStudio.app\n  /Users/runner/Applications/AutomationStudio.app\n\nIf the app lives somewhere else, point ICEMOON_APP at the bundle:\n  ICEMOON_APP=/path/to/AutomationStudio.app npx -y icemoon-mcp",
         "installMs": 364,
@@ -19,6 +27,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:21.360Z",
+        "errorExcerpt": "npm install icemoon-mcp@1.0.1 exited with code 1\n--- stderr (tail) ---\nnpm error code EBADPLATFORM\nnpm error notsup Unsupported platform for icemoon-mcp@1.0.1: wanted {\"os\":\"darwin\",\"cpu\":\"arm64\"} (current: {\"os\":\"linux\",\"cpu\":\"x64\"})\nnpm error notsup Valid os:   darwin\nnpm error notsup Actual os:  linux\nnpm error notsup Valid cpu:  arm64\nnpm error notsup Actual cpu: x64\nnpm error A complete log of this run can be found in: /tmp/does-it-install/dii-npm-FFZVwb/.npm-cache/_logs/2026-08-15T20_08_19_938Z-debug-0.log",
+        "installMs": 545,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-21Z-32f7d0",
+        "status": "install_failed"
+      },
+      {
         "date": "2026-08-15T16:56:35.852Z",
         "errorExcerpt": "npm install icemoon-mcp@1.0.1 exited with code 1\n--- stderr (tail) ---\nnpm error code EBADPLATFORM\nnpm error notsup Unsupported platform for icemoon-mcp@1.0.1: wanted {\"os\":\"darwin\",\"cpu\":\"arm64\"} (current: {\"os\":\"linux\",\"cpu\":\"x64\"})\nnpm error notsup Valid os:   darwin\nnpm error notsup Actual os:  linux\nnpm error notsup Valid cpu:  arm64\nnpm error notsup Actual cpu: x64\nnpm error A complete log of this run can be found in: /tmp/does-it-install/dii-npm-PccNSb/.npm-cache/_logs/2026-08-15T17_01_08_782Z-debug-0.log",
         "installMs": 447,
@@ -35,6 +51,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:36.582Z",
+        "errorExcerpt": "npm install icemoon-mcp@1.0.1 exited with code 1\n--- stderr (tail) ---\nnpm error code EBADPLATFORM\nnpm error notsup Unsupported platform for icemoon-mcp@1.0.1: wanted {\"os\":\"darwin\",\"cpu\":\"arm64\"} (current: {\"os\":\"win32\",\"cpu\":\"x64\"})\nnpm error notsup Valid os:   darwin\nnpm error notsup Actual os:  win32\nnpm error notsup Valid cpu:  arm64\nnpm error notsup Actual cpu: x64\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-O67bZG\\.npm-cache\\_logs\\2026-08-15T21_09_47_649Z-debug-0.log",
+        "installMs": 1365,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-36Z-50d82d",
+        "status": "install_failed"
+      },
       {
         "date": "2026-08-15T16:56:52.061Z",
         "errorExcerpt": "npm install icemoon-mcp@1.0.1 exited with code 1\n--- stderr (tail) ---\nnpm error code EBADPLATFORM\nnpm error notsup Unsupported platform for icemoon-mcp@1.0.1: wanted {\"os\":\"darwin\",\"cpu\":\"arm64\"} (current: {\"os\":\"win32\",\"cpu\":\"x64\"})\nnpm error notsup Valid os:   darwin\nnpm error notsup Actual os:  win32\nnpm error notsup Valid cpu:  arm64\nnpm error notsup Actual cpu: x64\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-1uBUnR\\.npm-cache\\_logs\\2026-08-15T17_37_38_951Z-debug-0.log",

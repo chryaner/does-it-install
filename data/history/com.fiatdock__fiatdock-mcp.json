@@ -2,6 +2,34 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:27.636Z",
+        "installMs": 11234,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-27Z-87d108",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "get_quote",
+          "get_order_status",
+          "token_price",
+          "search_services",
+          "get_service",
+          "create_offramp_session",
+          "create_onramp_session",
+          "token_safety",
+          "stablecoin_intel",
+          "gas_price",
+          "block_number",
+          "eth_balance",
+          "usdc_balance",
+          "token_metadata",
+          "tx_status",
+          "address_intel",
+          "token_report",
+          "call_service"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:30.424Z",
         "installMs": 10989,
         "method": "npm",
@@ -59,6 +87,34 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:19.780Z",
+        "installMs": 6351,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-19Z-c79c0a",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "get_quote",
+          "get_order_status",
+          "token_price",
+          "search_services",
+          "get_service",
+          "create_offramp_session",
+          "create_onramp_session",
+          "token_safety",
+          "stablecoin_intel",
+          "gas_price",
+          "block_number",
+          "eth_balance",
+          "usdc_balance",
+          "token_metadata",
+          "tx_status",
+          "address_intel",
+          "token_report",
+          "call_service"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:31.954Z",
         "installMs": 12237,
         "method": "npm",
@@ -115,6 +171,34 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.931Z",
+        "installMs": 110606,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-37Z-81b797",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "get_quote",
+          "get_order_status",
+          "token_price",
+          "search_services",
+          "get_service",
+          "create_offramp_session",
+          "create_onramp_session",
+          "token_safety",
+          "stablecoin_intel",
+          "gas_price",
+          "block_number",
+          "eth_balance",
+          "usdc_balance",
+          "token_metadata",
+          "tx_status",
+          "address_intel",
+          "token_report",
+          "call_service"
+        ]
+      },
       {
         "date": "2026-08-15T16:56:50.470Z",
         "installMs": 137545,

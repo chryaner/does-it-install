@@ -2,6 +2,24 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:27.636Z",
+        "method": "pypi",
+        "runId": "2026-08-15T20-03-27Z-87d108",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "get_spec",
+          "parse_document",
+          "parse_pmcid",
+          "set_prespecified_confounders",
+          "specify_result",
+          "assess_result",
+          "submit_answers",
+          "render_report",
+          "export_robvis"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:30.424Z",
         "method": "pypi",
         "runId": "2026-08-15T16-56-30Z-74a61d",
@@ -40,6 +58,24 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:19.780Z",
+        "method": "pypi",
+        "runId": "2026-08-15T20-03-19Z-c79c0a",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "get_spec",
+          "parse_document",
+          "parse_pmcid",
+          "set_prespecified_confounders",
+          "specify_result",
+          "assess_result",
+          "submit_answers",
+          "render_report",
+          "export_robvis"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:31.954Z",
         "method": "pypi",
         "runId": "2026-08-15T16-56-31Z-197d91",
@@ -77,6 +113,24 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.931Z",
+        "method": "pypi",
+        "runId": "2026-08-15T20-03-37Z-81b797",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "get_spec",
+          "parse_document",
+          "parse_pmcid",
+          "set_prespecified_confounders",
+          "specify_result",
+          "assess_result",
+          "submit_answers",
+          "render_report",
+          "export_robvis"
+        ]
+      },
       {
         "date": "2026-08-15T16:56:50.470Z",
         "method": "pypi",

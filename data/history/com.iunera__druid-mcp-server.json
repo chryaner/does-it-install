@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:31.969Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-15T20-03-31Z-6fe095",
+        "status": "skipped"
+      },
+      {
         "date": "2026-08-15T16:56:30.932Z",
         "errorExcerpt": "container (oci) distributions are not probed in v1",
         "method": "oci",
@@ -25,6 +33,27 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:21.360Z",
+        "installMs": 7358,
+        "method": "oci",
+        "runId": "2026-08-15T20-03-21Z-32f7d0",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "getCompactionConfig",
+          "getCompactionStatus",
+          "getDatasources",
+          "getLookups",
+          "queryDruidSql",
+          "getRetentionRules",
+          "getSegmentLoadQueue",
+          "getSegments",
+          "getSupervisors",
+          "getTaskDetails",
+          "getTasks"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:35.852Z",
         "errorExcerpt": "container (oci) distributions are not probed in v1",
         "method": "oci",
@@ -47,6 +76,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:36.582Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-15T20-03-36Z-50d82d",
+        "status": "skipped"
+      },
       {
         "date": "2026-08-15T16:56:52.061Z",
         "errorExcerpt": "container (oci) distributions are not probed in v1",

@@ -2,6 +2,25 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:19.390Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T20-03-19Z-d5e286",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "swiftsign_send_envelope",
+          "swiftsign_confirm_send",
+          "swiftsign_send_from_template",
+          "swiftsign_check_status",
+          "swiftsign_list_envelopes",
+          "swiftsign_void_envelope",
+          "swiftsign_download_signed_pdf",
+          "swiftsign_upgrade",
+          "swiftsign_create_embedded_url",
+          "swiftsign_list_templates"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:29.657Z",
         "method": "remote-http",
         "runId": "2026-08-15T16-56-29Z-decde8",
@@ -42,6 +61,25 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:17.296Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T20-03-17Z-9dcd14",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "swiftsign_send_envelope",
+          "swiftsign_confirm_send",
+          "swiftsign_send_from_template",
+          "swiftsign_check_status",
+          "swiftsign_list_envelopes",
+          "swiftsign_void_envelope",
+          "swiftsign_download_signed_pdf",
+          "swiftsign_upgrade",
+          "swiftsign_create_embedded_url",
+          "swiftsign_list_templates"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:29.989Z",
         "method": "remote-http",
         "runId": "2026-08-15T16-56-29Z-c88e00",
@@ -81,6 +119,25 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.930Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T20-03-37Z-a31ede",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "swiftsign_send_envelope",
+          "swiftsign_confirm_send",
+          "swiftsign_send_from_template",
+          "swiftsign_check_status",
+          "swiftsign_list_envelopes",
+          "swiftsign_void_envelope",
+          "swiftsign_download_signed_pdf",
+          "swiftsign_upgrade",
+          "swiftsign_create_embedded_url",
+          "swiftsign_list_templates"
+        ]
+      },
       {
         "date": "2026-08-15T16:56:52.007Z",
         "method": "remote-http",

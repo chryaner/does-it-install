@@ -2,6 +2,32 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:31.969Z",
+        "method": "pypi",
+        "runId": "2026-08-15T20-03-31Z-6fe095",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "apply_spreadsheet_updates",
+          "create_spreadsheet",
+          "get_spreadsheet",
+          "retrieve_spreadsheet_by_data_filter",
+          "get_developer_metadata",
+          "search_developer_metadata",
+          "copy_sheet",
+          "append_sheet_values",
+          "clear_spreadsheet_values",
+          "clear_spreadsheet_values_by_filter",
+          "get_spreadsheet_values_batch",
+          "get_spreadsheet_values_by_filter",
+          "update_sheet_values_batch",
+          "update_spreadsheet_values_by_filter",
+          "clear_spreadsheet_values_range",
+          "read_spreadsheet_range",
+          "update_sheet_values"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:30.932Z",
         "method": "pypi",
         "runId": "2026-08-15T16-56-30Z-d2d89f",
@@ -82,6 +108,32 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:21.360Z",
+        "method": "pypi",
+        "runId": "2026-08-15T20-03-21Z-32f7d0",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "apply_spreadsheet_updates",
+          "create_spreadsheet",
+          "get_spreadsheet",
+          "retrieve_spreadsheet_by_data_filter",
+          "get_developer_metadata",
+          "search_developer_metadata",
+          "copy_sheet",
+          "append_sheet_values",
+          "clear_spreadsheet_values",
+          "clear_spreadsheet_values_by_filter",
+          "get_spreadsheet_values_batch",
+          "get_spreadsheet_values_by_filter",
+          "update_sheet_values_batch",
+          "update_spreadsheet_values_by_filter",
+          "clear_spreadsheet_values_range",
+          "read_spreadsheet_range",
+          "update_sheet_values"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:35.852Z",
         "method": "pypi",
         "runId": "2026-08-15T16-56-35Z-b0ddff",
@@ -161,6 +213,32 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:36.582Z",
+        "method": "pypi",
+        "runId": "2026-08-15T20-03-36Z-50d82d",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "apply_spreadsheet_updates",
+          "create_spreadsheet",
+          "get_spreadsheet",
+          "retrieve_spreadsheet_by_data_filter",
+          "get_developer_metadata",
+          "search_developer_metadata",
+          "copy_sheet",
+          "append_sheet_values",
+          "clear_spreadsheet_values",
+          "clear_spreadsheet_values_by_filter",
+          "get_spreadsheet_values_batch",
+          "get_spreadsheet_values_by_filter",
+          "update_sheet_values_batch",
+          "update_spreadsheet_values_by_filter",
+          "clear_spreadsheet_values_range",
+          "read_spreadsheet_range",
+          "update_sheet_values"
+        ]
+      },
       {
         "date": "2026-08-15T16:56:52.061Z",
         "method": "pypi",

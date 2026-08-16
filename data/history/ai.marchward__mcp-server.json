@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:27.636Z",
+        "errorExcerpt": "@marchward/mcp-server declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "installMs": 10040,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-27Z-87d108",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T16:56:30.424Z",
         "errorExcerpt": "@marchward/mcp-server declares no runnable \"bin\" entry, so there is nothing to spawn",
         "installMs": 6262,
@@ -26,6 +34,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:19.780Z",
+        "errorExcerpt": "@marchward/mcp-server declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "installMs": 3242,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-19Z-c79c0a",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T16:56:31.954Z",
         "errorExcerpt": "@marchward/mcp-server declares no runnable \"bin\" entry, so there is nothing to spawn",
         "installMs": 4341,
@@ -49,6 +65,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.931Z",
+        "errorExcerpt": "@marchward/mcp-server declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "installMs": 128120,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-37Z-81b797",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-15T16:56:50.470Z",
         "errorExcerpt": "@marchward/mcp-server declares no runnable \"bin\" entry, so there is nothing to spawn",

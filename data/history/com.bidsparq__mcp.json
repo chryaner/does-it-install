@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:31.969Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[bidsparq-mcp] Starting (base=https://bidsparq.com)\n[bidsparq-mcp] Fatal: Invalid BIDSPARQ_API_KEY. Create a new key at https://bidsparq.com/settings/api-keys.",
+        "installMs": 2993,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-31Z-6fe095",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T16:56:30.932Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[bidsparq-mcp] Starting (base=https://bidsparq.com)\n[bidsparq-mcp] Fatal: Invalid BIDSPARQ_API_KEY. Create a new key at https://bidsparq.com/settings/api-keys.",
         "installMs": 3040,
@@ -19,6 +27,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:21.360Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[bidsparq-mcp] Starting (base=https://bidsparq.com)\n[bidsparq-mcp] Fatal: Invalid BIDSPARQ_API_KEY. Create a new key at https://bidsparq.com/settings/api-keys.",
+        "installMs": 3758,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-21Z-32f7d0",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T16:56:35.852Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[bidsparq-mcp] Starting (base=https://bidsparq.com)\n[bidsparq-mcp] Fatal: Invalid BIDSPARQ_API_KEY. Create a new key at https://bidsparq.com/settings/api-keys.",
         "installMs": 4019,
@@ -35,6 +51,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:36.582Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[bidsparq-mcp] Starting (base=https://bidsparq.com)\n[bidsparq-mcp] Fatal: Invalid BIDSPARQ_API_KEY. Create a new key at https://bidsparq.com/settings/api-keys.",
+        "installMs": 174816,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-36Z-50d82d",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-15T16:56:52.061Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[bidsparq-mcp] Starting (base=https://bidsparq.com)\n[bidsparq-mcp] Fatal: Invalid BIDSPARQ_API_KEY. Create a new key at https://bidsparq.com/settings/api-keys.",

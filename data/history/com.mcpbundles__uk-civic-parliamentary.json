@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:19.390Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"unauthorized\",\"message\":\"Authentication required (Bearer token, API key, or session cookie)\",\"resource_metadata\":\"https://mcp.mcpbundles.com/bundle/uk-civic-parliamentary/.well-known/oauth-protected-resource\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-15T20-03-19Z-d5e286",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T16:56:29.657Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"unauthorized\",\"message\":\"Authentication required (Bearer token, API key, or session cookie)\",\"resource_metadata\":\"https://mcp.mcpbundles.com/bundle/uk-civic-parliamentary/.well-known/oauth-protected-resource\"} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -25,6 +32,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:17.296Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"unauthorized\",\"message\":\"Authentication required (Bearer token, API key, or session cookie)\",\"resource_metadata\":\"https://mcp.mcpbundles.com/bundle/uk-civic-parliamentary/.well-known/oauth-protected-resource\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-15T20-03-17Z-9dcd14",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T16:56:29.989Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"unauthorized\",\"message\":\"Authentication required (Bearer token, API key, or session cookie)\",\"resource_metadata\":\"https://mcp.mcpbundles.com/bundle/uk-civic-parliamentary/.well-known/oauth-protected-resource\"} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -47,6 +61,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.930Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"unauthorized\",\"message\":\"Authentication required (Bearer token, API key, or session cookie)\",\"resource_metadata\":\"https://mcp.mcpbundles.com/bundle/uk-civic-parliamentary/.well-known/oauth-protected-resource\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-15T20-03-37Z-a31ede",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-15T16:56:52.007Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"unauthorized\",\"message\":\"Authentication required (Bearer token, API key, or session cookie)\",\"resource_metadata\":\"https://mcp.mcpbundles.com/bundle/uk-civic-parliamentary/.well-known/oauth-protected-resource\"} (endpoint reachable but requires credentials the harness does not send)",

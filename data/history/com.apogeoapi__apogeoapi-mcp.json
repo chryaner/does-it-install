@@ -2,6 +2,24 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:27.636Z",
+        "installMs": 4153,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-27Z-87d108",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "get_country",
+          "list_countries",
+          "search_countries",
+          "get_states",
+          "get_cities",
+          "get_currency_rate",
+          "geolocate_ip",
+          "global_search"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:30.424Z",
         "installMs": 3092,
         "method": "npm",
@@ -39,6 +57,24 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:19.780Z",
+        "installMs": 3383,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-19Z-c79c0a",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "get_country",
+          "list_countries",
+          "search_countries",
+          "get_states",
+          "get_cities",
+          "get_currency_rate",
+          "geolocate_ip",
+          "global_search"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:31.954Z",
         "installMs": 4699,
         "method": "npm",
@@ -75,6 +111,24 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.931Z",
+        "installMs": 114914,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-37Z-81b797",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "get_country",
+          "list_countries",
+          "search_countries",
+          "get_states",
+          "get_cities",
+          "get_currency_rate",
+          "geolocate_ip",
+          "global_search"
+        ]
+      },
       {
         "date": "2026-08-15T16:56:50.470Z",
         "installMs": 161505,

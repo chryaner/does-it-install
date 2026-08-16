@@ -2,6 +2,31 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:19.390Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T20-03-19Z-d5e286",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "xmp4_callees",
+          "xmp4_callers",
+          "xmp4_deps",
+          "xmp4_grep",
+          "xmp4_guide",
+          "xmp4_hierarchy",
+          "xmp4_info",
+          "xmp4_outline",
+          "xmp4_projects",
+          "xmp4_search",
+          "xmp4_server",
+          "xmp4_source",
+          "xmp4_symbol_at",
+          "xmp4_tests_for",
+          "xmp4_usages",
+          "xmp4_view"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:29.657Z",
         "method": "remote-http",
         "runId": "2026-08-15T16-56-29Z-decde8",
@@ -104,6 +129,31 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:17.296Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T20-03-17Z-9dcd14",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "xmp4_callees",
+          "xmp4_callers",
+          "xmp4_deps",
+          "xmp4_grep",
+          "xmp4_guide",
+          "xmp4_hierarchy",
+          "xmp4_info",
+          "xmp4_outline",
+          "xmp4_projects",
+          "xmp4_search",
+          "xmp4_server",
+          "xmp4_source",
+          "xmp4_symbol_at",
+          "xmp4_tests_for",
+          "xmp4_usages",
+          "xmp4_view"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:29.989Z",
         "method": "remote-http",
         "runId": "2026-08-15T16-56-29Z-c88e00",
@@ -205,6 +255,31 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.930Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T20-03-37Z-a31ede",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "xmp4_callees",
+          "xmp4_callers",
+          "xmp4_deps",
+          "xmp4_grep",
+          "xmp4_guide",
+          "xmp4_hierarchy",
+          "xmp4_info",
+          "xmp4_outline",
+          "xmp4_projects",
+          "xmp4_search",
+          "xmp4_server",
+          "xmp4_source",
+          "xmp4_symbol_at",
+          "xmp4_tests_for",
+          "xmp4_usages",
+          "xmp4_view"
+        ]
+      },
       {
         "date": "2026-08-15T16:56:52.007Z",
         "method": "remote-http",

@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:27.636Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\neverypage-mcp: EVERYPAGE_API_KEY does not look like an EveryPage token: expected it to start with `ep_live_` (an API key from https://everypage.co/account) or `ep_at_` (an OAuth access token).",
+        "installMs": 3808,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-27Z-87d108",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T16:56:30.424Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\neverypage-mcp: EVERYPAGE_API_KEY does not look like an EveryPage token: expected it to start with `ep_live_` (an API key from https://everypage.co/account) or `ep_at_` (an OAuth access token).",
         "installMs": 3746,
@@ -19,6 +27,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:19.780Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\neverypage-mcp: EVERYPAGE_API_KEY does not look like an EveryPage token: expected it to start with `ep_live_` (an API key from https://everypage.co/account) or `ep_at_` (an OAuth access token).",
+        "installMs": 3143,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-19Z-c79c0a",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T16:56:31.954Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\neverypage-mcp: EVERYPAGE_API_KEY does not look like an EveryPage token: expected it to start with `ep_live_` (an API key from https://everypage.co/account) or `ep_at_` (an OAuth access token).",
         "installMs": 4412,
@@ -35,6 +51,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.931Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\neverypage-mcp: EVERYPAGE_API_KEY does not look like an EveryPage token: expected it to start with `ep_live_` (an API key from https://everypage.co/account) or `ep_at_` (an OAuth access token).",
+        "installMs": 141696,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-37Z-81b797",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-15T16:56:50.470Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\neverypage-mcp: EVERYPAGE_API_KEY does not look like an EveryPage token: expected it to start with `ep_live_` (an API key from https://everypage.co/account) or `ep_at_` (an OAuth access token).",

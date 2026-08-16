@@ -2,6 +2,29 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:31.969Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T20-03-31Z-6fe095",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "brainstorm_names",
+          "search_brandable_domains",
+          "check_domain_availability",
+          "generate_domain_names",
+          "appraise_domain",
+          "get_domain_details",
+          "screen_trademark_conflicts",
+          "get_checkout_link",
+          "register_domain",
+          "register_domain_spt",
+          "buy_ai_tokens",
+          "get_ai_tokens_pay_link",
+          "get_domain_register_pay_link",
+          "get_domain_purchase_pay_link"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:30.932Z",
         "method": "remote-http",
         "runId": "2026-08-15T16-56-30Z-d2d89f",
@@ -50,6 +73,29 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:21.360Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T20-03-21Z-32f7d0",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "brainstorm_names",
+          "search_brandable_domains",
+          "check_domain_availability",
+          "generate_domain_names",
+          "appraise_domain",
+          "get_domain_details",
+          "screen_trademark_conflicts",
+          "get_checkout_link",
+          "register_domain",
+          "register_domain_spt",
+          "buy_ai_tokens",
+          "get_ai_tokens_pay_link",
+          "get_domain_register_pay_link",
+          "get_domain_purchase_pay_link"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:35.852Z",
         "method": "remote-http",
         "runId": "2026-08-15T16-56-35Z-b0ddff",
@@ -97,6 +143,29 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:36.582Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T20-03-36Z-50d82d",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "brainstorm_names",
+          "search_brandable_domains",
+          "check_domain_availability",
+          "generate_domain_names",
+          "appraise_domain",
+          "get_domain_details",
+          "screen_trademark_conflicts",
+          "get_checkout_link",
+          "register_domain",
+          "register_domain_spt",
+          "buy_ai_tokens",
+          "get_ai_tokens_pay_link",
+          "get_domain_register_pay_link",
+          "get_domain_purchase_pay_link"
+        ]
+      },
       {
         "date": "2026-08-15T16:56:52.061Z",
         "method": "remote-http",

@@ -2,6 +2,35 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:19.390Z",
+        "installMs": 5390,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-19Z-d5e286",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "send_sms",
+          "send_mms",
+          "send_whatsapp",
+          "get_message",
+          "create_webhook",
+          "list_webhooks",
+          "delete_webhook",
+          "get_balance",
+          "create_list",
+          "get_lists",
+          "get_list",
+          "add_contact_to_list",
+          "remove_contact_from_list",
+          "delete_list",
+          "list_messages",
+          "list_specs",
+          "list_endpoints",
+          "search_endpoints",
+          "get_endpoint"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:29.657Z",
         "installMs": 6218,
         "method": "npm",
@@ -61,6 +90,35 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:17.296Z",
+        "installMs": 4675,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-17Z-9dcd14",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "send_sms",
+          "send_mms",
+          "send_whatsapp",
+          "get_message",
+          "create_webhook",
+          "list_webhooks",
+          "delete_webhook",
+          "get_balance",
+          "create_list",
+          "get_lists",
+          "get_list",
+          "add_contact_to_list",
+          "remove_contact_from_list",
+          "delete_list",
+          "list_messages",
+          "list_specs",
+          "list_endpoints",
+          "search_endpoints",
+          "get_endpoint"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:29.989Z",
         "installMs": 4024,
         "method": "npm",
@@ -119,6 +177,35 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.930Z",
+        "installMs": 119473,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-37Z-a31ede",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "send_sms",
+          "send_mms",
+          "send_whatsapp",
+          "get_message",
+          "create_webhook",
+          "list_webhooks",
+          "delete_webhook",
+          "get_balance",
+          "create_list",
+          "get_lists",
+          "get_list",
+          "add_contact_to_list",
+          "remove_contact_from_list",
+          "delete_list",
+          "list_messages",
+          "list_specs",
+          "list_endpoints",
+          "search_endpoints",
+          "get_endpoint"
+        ]
+      },
       {
         "date": "2026-08-15T16:56:52.007Z",
         "installMs": 129237,

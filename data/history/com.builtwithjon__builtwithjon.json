@@ -2,6 +2,26 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:27.636Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T20-03-27Z-87d108",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "start_here",
+          "list_use_case_categories",
+          "search_use_cases",
+          "get_use_case",
+          "run_scorecard",
+          "list_leak_calculators",
+          "calculate_leak",
+          "get_frameworks",
+          "get_hidden_profit_review_info",
+          "search_articles",
+          "get_article"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:30.424Z",
         "method": "remote-http",
         "runId": "2026-08-15T16-56-30Z-74a61d",
@@ -44,6 +64,26 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:19.780Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T20-03-19Z-c79c0a",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "start_here",
+          "list_use_case_categories",
+          "search_use_cases",
+          "get_use_case",
+          "run_scorecard",
+          "list_leak_calculators",
+          "calculate_leak",
+          "get_frameworks",
+          "get_hidden_profit_review_info",
+          "search_articles",
+          "get_article"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:31.954Z",
         "method": "remote-http",
         "runId": "2026-08-15T16-56-31Z-197d91",
@@ -85,6 +125,26 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.931Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T20-03-37Z-81b797",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "start_here",
+          "list_use_case_categories",
+          "search_use_cases",
+          "get_use_case",
+          "run_scorecard",
+          "list_leak_calculators",
+          "calculate_leak",
+          "get_frameworks",
+          "get_hidden_profit_review_info",
+          "search_articles",
+          "get_article"
+        ]
+      },
       {
         "date": "2026-08-15T16:56:50.470Z",
         "method": "remote-http",

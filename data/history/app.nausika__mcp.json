@@ -2,6 +2,34 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:19.390Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T20-03-19Z-d5e286",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "nausika_marine_forecast",
+          "nausika_seasonal_forecast",
+          "nausika_tides",
+          "nausika_search_places",
+          "nausika_get_place",
+          "nausika_sea_route",
+          "nausika_calculator",
+          "nausika_geocode",
+          "nausika_describe_place_schema",
+          "nausika_is_water",
+          "nausika_convert_coordinates",
+          "nausika_manage_boat_profile",
+          "nausika_get_boat_profile",
+          "nausika_manage_favorite",
+          "nausika_get_favorites",
+          "nausika_manage_rating",
+          "nausika_get_ratings",
+          "nausika_manage_route",
+          "nausika_get_routes"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:29.657Z",
         "method": "remote-http",
         "runId": "2026-08-15T16-56-29Z-decde8",
@@ -60,6 +88,34 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:17.296Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T20-03-17Z-9dcd14",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "nausika_marine_forecast",
+          "nausika_seasonal_forecast",
+          "nausika_tides",
+          "nausika_search_places",
+          "nausika_get_place",
+          "nausika_sea_route",
+          "nausika_calculator",
+          "nausika_geocode",
+          "nausika_describe_place_schema",
+          "nausika_is_water",
+          "nausika_convert_coordinates",
+          "nausika_manage_boat_profile",
+          "nausika_get_boat_profile",
+          "nausika_manage_favorite",
+          "nausika_get_favorites",
+          "nausika_manage_rating",
+          "nausika_get_ratings",
+          "nausika_manage_route",
+          "nausika_get_routes"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:29.989Z",
         "method": "remote-http",
         "runId": "2026-08-15T16-56-29Z-c88e00",
@@ -117,6 +173,34 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.930Z",
+        "method": "remote-http",
+        "runId": "2026-08-15T20-03-37Z-a31ede",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "nausika_marine_forecast",
+          "nausika_seasonal_forecast",
+          "nausika_tides",
+          "nausika_search_places",
+          "nausika_get_place",
+          "nausika_sea_route",
+          "nausika_calculator",
+          "nausika_geocode",
+          "nausika_describe_place_schema",
+          "nausika_is_water",
+          "nausika_convert_coordinates",
+          "nausika_manage_boat_profile",
+          "nausika_get_boat_profile",
+          "nausika_manage_favorite",
+          "nausika_get_favorites",
+          "nausika_manage_rating",
+          "nausika_get_ratings",
+          "nausika_manage_route",
+          "nausika_get_routes"
+        ]
+      },
       {
         "date": "2026-08-15T16:56:52.007Z",
         "method": "remote-http",

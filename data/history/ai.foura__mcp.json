@@ -2,6 +2,20 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:31.969Z",
+        "installMs": 8028,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-31Z-6fe095",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "foura_single",
+          "foura_proxy",
+          "foura_browser",
+          "foura_auto"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:30.932Z",
         "installMs": 3920,
         "method": "npm",
@@ -70,6 +84,20 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:21.360Z",
+        "installMs": 4486,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-21Z-32f7d0",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "foura_single",
+          "foura_proxy",
+          "foura_browser",
+          "foura_auto"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:35.852Z",
         "installMs": 3933,
         "method": "npm",
@@ -137,6 +165,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:36.582Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out",
+        "installMs": 139613,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-36Z-50d82d",
+        "status": "timeout"
+      },
       {
         "date": "2026-08-15T16:56:52.061Z",
         "installMs": 67475,

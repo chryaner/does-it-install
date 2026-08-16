@@ -2,6 +2,31 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:31.969Z",
+        "installMs": 3607,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-31Z-6fe095",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "uplink_connect",
+          "uplink_refresh_pairing_code",
+          "uplink_get_qr",
+          "uplink_wait_for_device",
+          "uplink_session_status",
+          "uplink_get_current_url",
+          "uplink_get_dom_snapshot",
+          "uplink_evaluate_javascript",
+          "uplink_await_network_request",
+          "uplink_run_script",
+          "uplink_read_logs",
+          "uplink_search_network",
+          "uplink_get_network_request",
+          "uplink_list_commands",
+          "uplink_get_command_result"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:30.932Z",
         "installMs": 4119,
         "method": "npm",
@@ -53,6 +78,31 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:21.360Z",
+        "installMs": 4778,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-21Z-32f7d0",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "uplink_connect",
+          "uplink_refresh_pairing_code",
+          "uplink_get_qr",
+          "uplink_wait_for_device",
+          "uplink_session_status",
+          "uplink_get_current_url",
+          "uplink_get_dom_snapshot",
+          "uplink_evaluate_javascript",
+          "uplink_await_network_request",
+          "uplink_run_script",
+          "uplink_read_logs",
+          "uplink_search_network",
+          "uplink_get_network_request",
+          "uplink_list_commands",
+          "uplink_get_command_result"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:35.852Z",
         "installMs": 4516,
         "method": "npm",
@@ -103,6 +153,31 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:36.582Z",
+        "installMs": 200432,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-36Z-50d82d",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "uplink_connect",
+          "uplink_refresh_pairing_code",
+          "uplink_get_qr",
+          "uplink_wait_for_device",
+          "uplink_session_status",
+          "uplink_get_current_url",
+          "uplink_get_dom_snapshot",
+          "uplink_evaluate_javascript",
+          "uplink_await_network_request",
+          "uplink_run_script",
+          "uplink_read_logs",
+          "uplink_search_network",
+          "uplink_get_network_request",
+          "uplink_list_commands",
+          "uplink_get_command_result"
+        ]
+      },
       {
         "date": "2026-08-15T16:56:52.061Z",
         "installMs": 102872,

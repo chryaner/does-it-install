@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:27.636Z",
+        "errorExcerpt": "@brick-byte/footnote declares bin \"./dist/mcp-server.js\" but /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-qoe3RY/node_modules/@brick-byte/footnote/dist/mcp-server.js does not exist",
+        "installMs": 6353,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-27Z-87d108",
+        "status": "spawn_failed"
+      },
+      {
         "date": "2026-08-15T16:56:30.424Z",
         "errorExcerpt": "@brick-byte/footnote declares bin \"./dist/mcp-server.js\" but /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-cmP7YY/node_modules/@brick-byte/footnote/dist/mcp-server.js does not exist",
         "installMs": 4877,
@@ -19,6 +27,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:19.780Z",
+        "errorExcerpt": "@brick-byte/footnote declares bin \"./dist/mcp-server.js\" but /tmp/does-it-install/dii-npm-ATm55J/node_modules/@brick-byte/footnote/dist/mcp-server.js does not exist",
+        "installMs": 3515,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-19Z-c79c0a",
+        "status": "spawn_failed"
+      },
+      {
         "date": "2026-08-15T16:56:31.954Z",
         "errorExcerpt": "@brick-byte/footnote declares bin \"./dist/mcp-server.js\" but /tmp/does-it-install/dii-npm-CBvMyl/node_modules/@brick-byte/footnote/dist/mcp-server.js does not exist",
         "installMs": 5597,
@@ -35,6 +51,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:37.931Z",
+        "errorExcerpt": "@brick-byte/footnote declares bin \"./dist/mcp-server.js\" but C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-5I2S52\\node_modules\\@brick-byte\\footnote\\dist\\mcp-server.js does not exist",
+        "installMs": 150538,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-37Z-81b797",
+        "status": "spawn_failed"
+      },
       {
         "date": "2026-08-15T16:56:50.470Z",
         "errorExcerpt": "@brick-byte/footnote declares bin \"./dist/mcp-server.js\" but C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-VWpPEI\\node_modules\\@brick-byte\\footnote\\dist\\mcp-server.js does not exist",

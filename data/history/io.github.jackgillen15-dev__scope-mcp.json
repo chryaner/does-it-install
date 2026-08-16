@@ -2,6 +2,21 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:31.969Z",
+        "installMs": 5402,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-31Z-6fe095",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "scope_list_categories",
+          "scope_list_vendors",
+          "scope_dispatch_matter",
+          "scope_get_matter",
+          "scope_list_matters"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:30.932Z",
         "installMs": 5242,
         "method": "npm",
@@ -33,6 +48,21 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:21.360Z",
+        "installMs": 3477,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-21Z-32f7d0",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "scope_list_categories",
+          "scope_list_vendors",
+          "scope_dispatch_matter",
+          "scope_get_matter",
+          "scope_list_matters"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:35.852Z",
         "installMs": 3618,
         "method": "npm",
@@ -63,6 +93,21 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:36.582Z",
+        "installMs": 174372,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-36Z-50d82d",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "scope_list_categories",
+          "scope_list_vendors",
+          "scope_dispatch_matter",
+          "scope_get_matter",
+          "scope_list_matters"
+        ]
+      },
       {
         "date": "2026-08-15T16:56:52.061Z",
         "installMs": 91074,

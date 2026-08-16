@@ -2,6 +2,34 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-15T20:03:31.969Z",
+        "installMs": 7371,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-31Z-6fe095",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "orangepro_start",
+          "orangepro_analyze_sources",
+          "orangepro_graph_score",
+          "orangepro_status",
+          "orangepro_doctor",
+          "orangepro_find_test_gaps",
+          "orangepro_record_run",
+          "orangepro_prove",
+          "orangepro_prove_loop",
+          "orangepro_stats",
+          "orangepro_rtm",
+          "orangepro_update_graph",
+          "orangepro_changed_impact",
+          "orangepro_ai_links",
+          "orangepro_ai_flows",
+          "orangepro_generate_tests",
+          "orangepro_explain_test",
+          "orangepro_export_evidence_pack"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:30.932Z",
         "installMs": 5620,
         "method": "npm",
@@ -86,6 +114,34 @@
     ],
     "linux": [
       {
+        "date": "2026-08-15T20:03:21.360Z",
+        "installMs": 5553,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-21Z-32f7d0",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "orangepro_start",
+          "orangepro_analyze_sources",
+          "orangepro_graph_score",
+          "orangepro_status",
+          "orangepro_doctor",
+          "orangepro_find_test_gaps",
+          "orangepro_record_run",
+          "orangepro_prove",
+          "orangepro_prove_loop",
+          "orangepro_stats",
+          "orangepro_rtm",
+          "orangepro_update_graph",
+          "orangepro_changed_impact",
+          "orangepro_ai_links",
+          "orangepro_ai_flows",
+          "orangepro_generate_tests",
+          "orangepro_explain_test",
+          "orangepro_export_evidence_pack"
+        ]
+      },
+      {
         "date": "2026-08-15T16:56:35.852Z",
         "installMs": 4839,
         "method": "npm",
@@ -169,6 +225,34 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-15T20:03:36.582Z",
+        "installMs": 167615,
+        "method": "npm",
+        "runId": "2026-08-15T20-03-36Z-50d82d",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "orangepro_start",
+          "orangepro_analyze_sources",
+          "orangepro_graph_score",
+          "orangepro_status",
+          "orangepro_doctor",
+          "orangepro_find_test_gaps",
+          "orangepro_record_run",
+          "orangepro_prove",
+          "orangepro_prove_loop",
+          "orangepro_stats",
+          "orangepro_rtm",
+          "orangepro_update_graph",
+          "orangepro_changed_impact",
+          "orangepro_ai_links",
+          "orangepro_ai_flows",
+          "orangepro_generate_tests",
+          "orangepro_explain_test",
+          "orangepro_export_evidence_pack"
+        ]
+      },
       {
         "date": "2026-08-15T16:56:52.061Z",
         "installMs": 97704,
