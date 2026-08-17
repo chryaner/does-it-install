@@ -2,6 +2,28 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-17T03:51:19.649Z",
+        "installMs": 10734,
+        "method": "npm",
+        "runId": "2026-08-17T03-51-19Z-87fe3c",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "vaaya_test_connection",
+          "vaaya_onboard",
+          "vaaya_account",
+          "vaaya_logout",
+          "consult",
+          "use",
+          "result",
+          "session",
+          "close",
+          "llm",
+          "logout",
+          "reauthorize"
+        ]
+      },
+      {
         "date": "2026-08-15T20:03:27.636Z",
         "installMs": 17592,
         "method": "npm",
@@ -111,6 +133,28 @@
     ],
     "linux": [
       {
+        "date": "2026-08-17T03:51:17.600Z",
+        "installMs": 11445,
+        "method": "npm",
+        "runId": "2026-08-17T03-51-17Z-94884b",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "vaaya_test_connection",
+          "vaaya_onboard",
+          "vaaya_account",
+          "vaaya_logout",
+          "consult",
+          "use",
+          "result",
+          "session",
+          "close",
+          "llm",
+          "logout",
+          "reauthorize"
+        ]
+      },
+      {
         "date": "2026-08-15T20:03:19.780Z",
         "installMs": 8478,
         "method": "npm",
@@ -219,6 +263,28 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-17T03:51:29.413Z",
+        "installMs": 163098,
+        "method": "npm",
+        "runId": "2026-08-17T03-51-29Z-614ad3",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "vaaya_test_connection",
+          "vaaya_onboard",
+          "vaaya_account",
+          "vaaya_logout",
+          "consult",
+          "use",
+          "result",
+          "session",
+          "close",
+          "llm",
+          "logout",
+          "reauthorize"
+        ]
+      },
       {
         "date": "2026-08-15T20:03:37.931Z",
         "installMs": 140857,

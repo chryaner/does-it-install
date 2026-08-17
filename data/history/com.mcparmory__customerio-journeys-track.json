@@ -2,6 +2,32 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-17T03:51:22.049Z",
+        "method": "pypi",
+        "runId": "2026-08-17T03-51-22Z-a4be9d",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "get_account_region",
+          "upsert_customer",
+          "delete_customer",
+          "register_device",
+          "remove_device",
+          "suppress_customer",
+          "unsuppress_customer",
+          "mark_delivery_unsubscribed",
+          "track_customer_event",
+          "log_anonymous_event",
+          "submit_form",
+          "merge_customers",
+          "report_metric",
+          "add_customers_to_segment",
+          "remove_customers_from_segment",
+          "manage_entity",
+          "batch_entities"
+        ]
+      },
+      {
         "date": "2026-08-15T20:03:19.390Z",
         "method": "pypi",
         "runId": "2026-08-15T20-03-19Z-d5e286",
@@ -108,6 +134,32 @@
     ],
     "linux": [
       {
+        "date": "2026-08-17T03:51:19.235Z",
+        "method": "pypi",
+        "runId": "2026-08-17T03-51-19Z-2fb08c",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "get_account_region",
+          "upsert_customer",
+          "delete_customer",
+          "register_device",
+          "remove_device",
+          "suppress_customer",
+          "unsuppress_customer",
+          "mark_delivery_unsubscribed",
+          "track_customer_event",
+          "log_anonymous_event",
+          "submit_form",
+          "merge_customers",
+          "report_metric",
+          "add_customers_to_segment",
+          "remove_customers_from_segment",
+          "manage_entity",
+          "batch_entities"
+        ]
+      },
+      {
         "date": "2026-08-15T20:03:17.296Z",
         "method": "pypi",
         "runId": "2026-08-15T20-03-17Z-9dcd14",
@@ -213,6 +265,32 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-17T03:51:31.244Z",
+        "method": "pypi",
+        "runId": "2026-08-17T03-51-31Z-c432fb",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "get_account_region",
+          "upsert_customer",
+          "delete_customer",
+          "register_device",
+          "remove_device",
+          "suppress_customer",
+          "unsuppress_customer",
+          "mark_delivery_unsubscribed",
+          "track_customer_event",
+          "log_anonymous_event",
+          "submit_form",
+          "merge_customers",
+          "report_metric",
+          "add_customers_to_segment",
+          "remove_customers_from_segment",
+          "manage_entity",
+          "batch_entities"
+        ]
+      },
       {
         "date": "2026-08-15T20:03:37.930Z",
         "method": "pypi",

@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-17T03:51:17.462Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: pected token '│', \"│ compile \"... is not valid JSON\nUnexpected token '│', \"│ verify  \"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ plugins \"... is not valid JSON\nUnexpected token '│', \"│ mcp     \"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ ontology\"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON",
+        "method": "pypi",
+        "runId": "2026-08-17T03-51-17Z-5e51c7",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-15T20:03:31.969Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading networkx (2.0MiB)\n Downloaded networkx\nInstalled 31 packages in 396ms\nwarning: The package `typer==0.27.1` does not have an extra named `all`\nAn executable named `graqle` is not provided by package `graqle`.\nThe following executables are available:\n- graq\n\nUse `uv tool run --from graqle graq` instead.",
         "method": "pypi",
@@ -32,6 +39,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-17T03:51:22.615Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: pected token '│', \"│ compile \"... is not valid JSON\nUnexpected token '│', \"│ verify  \"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ plugins \"... is not valid JSON\nUnexpected token '│', \"│ mcp     \"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ ontology\"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON",
+        "method": "pypi",
+        "runId": "2026-08-17T03-51-22Z-14d024",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-15T20:03:21.360Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading networkx (2.0MiB)\n Downloaded networkx\nInstalled 31 packages in 40ms\nwarning: The package `typer==0.27.1` does not have an extra named `all`\nAn executable named `graqle` is not provided by package `graqle`.\nThe following executables are available:\n- graq\n\nUse `uv tool run --from graqle graq` instead.",
         "method": "pypi",
@@ -61,6 +75,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-17T03:51:42.379Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: pected token '│', \"│ compile \"... is not valid JSON\nUnexpected token '│', \"│ verify  \"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ plugins \"... is not valid JSON\nUnexpected token '│', \"│ mcp     \"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ ontology\"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '└', \"└─────────\"... is not valid JSON",
+        "method": "pypi",
+        "runId": "2026-08-17T03-51-42Z-4ba1fe",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-15T20:03:36.582Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading networkx (2.0MiB)\n Downloaded networkx\nInstalled 31 packages in 9.41s\nwarning: The package `typer==0.27.1` does not have an extra named `all`\nAn executable named `graqle` is not provided by package `graqle`.\nThe following executables are available:\n- graq.exe\n\nUse `uv tool run --from graqle graq.exe` instead.",

@@ -2,6 +2,23 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-17T03:51:19.649Z",
+        "method": "remote-http",
+        "runId": "2026-08-17T03-51-19Z-87fe3c",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "create_board",
+          "get_board",
+          "list_columns",
+          "list_cards",
+          "create_card",
+          "move_card",
+          "update_card",
+          "delete_card"
+        ]
+      },
+      {
         "date": "2026-08-15T20:03:27.636Z",
         "method": "remote-http",
         "runId": "2026-08-15T20-03-27Z-87d108",
@@ -72,6 +89,23 @@
     ],
     "linux": [
       {
+        "date": "2026-08-17T03:51:17.600Z",
+        "method": "remote-http",
+        "runId": "2026-08-17T03-51-17Z-94884b",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "create_board",
+          "get_board",
+          "list_columns",
+          "list_cards",
+          "create_card",
+          "move_card",
+          "update_card",
+          "delete_card"
+        ]
+      },
+      {
         "date": "2026-08-15T20:03:19.780Z",
         "method": "remote-http",
         "runId": "2026-08-15T20-03-19Z-c79c0a",
@@ -141,6 +175,23 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-17T03:51:29.413Z",
+        "method": "remote-http",
+        "runId": "2026-08-17T03-51-29Z-614ad3",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "create_board",
+          "get_board",
+          "list_columns",
+          "list_cards",
+          "create_card",
+          "move_card",
+          "update_card",
+          "delete_card"
+        ]
+      },
       {
         "date": "2026-08-15T20:03:37.931Z",
         "method": "remote-http",

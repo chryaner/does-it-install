@@ -2,6 +2,19 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-17T03:51:22.049Z",
+        "method": "remote-http",
+        "runId": "2026-08-17T03-51-22Z-a4be9d",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "log_exchange",
+          "check_memory_status",
+          "recall_context",
+          "list_recent_memories"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.243Z",
         "method": "remote-http",
         "runId": "2026-08-16T02-45-27Z-9a6687",
@@ -82,6 +95,19 @@
     ],
     "linux": [
       {
+        "date": "2026-08-17T03:51:19.235Z",
+        "method": "remote-http",
+        "runId": "2026-08-17T03-51-19Z-2fb08c",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "log_exchange",
+          "check_memory_status",
+          "recall_context",
+          "list_recent_memories"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:19.430Z",
         "method": "remote-http",
         "runId": "2026-08-16T02-45-19Z-fe02e7",
@@ -161,6 +187,19 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-17T03:51:31.244Z",
+        "method": "remote-http",
+        "runId": "2026-08-17T03-51-31Z-c432fb",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "log_exchange",
+          "check_memory_status",
+          "recall_context",
+          "list_recent_memories"
+        ]
+      },
       {
         "date": "2026-08-15T20:03:37.931Z",
         "method": "remote-http",

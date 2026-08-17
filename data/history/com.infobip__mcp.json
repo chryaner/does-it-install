@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-17T03:51:19.649Z",
+        "errorExcerpt": "handshake failed: Streamable HTTP error: Error POSTing to endpoint: {\"errorCode\":\"MCP401\",\"description\":\"The request lacks valid authentication credentials for the requested resource.\",\"action\":\"Check the resources and adjust authentication credentials.\",\"violations\":[],\"resources\":[{\"name\":\"Infobip MCP\",\"url\":\"https://www.infobip.com/mcp\"}]} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-17T03-51-19Z-87fe3c",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T20:03:27.636Z",
         "errorExcerpt": "handshake failed: Streamable HTTP error: Error POSTing to endpoint: {\"errorCode\":\"MCP401\",\"description\":\"The request lacks valid authentication credentials for the requested resource.\",\"action\":\"Check the resources and adjust authentication credentials.\",\"violations\":[],\"resources\":[{\"name\":\"Infobip MCP\",\"url\":\"https://www.infobip.com/mcp\"}]} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -32,6 +39,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-17T03:51:17.600Z",
+        "errorExcerpt": "handshake failed: Streamable HTTP error: Error POSTing to endpoint: {\"errorCode\":\"MCP401\",\"description\":\"The request lacks valid authentication credentials for the requested resource.\",\"action\":\"Check the resources and adjust authentication credentials.\",\"violations\":[],\"resources\":[{\"name\":\"Infobip MCP\",\"url\":\"https://www.infobip.com/mcp\"}]} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-17T03-51-17Z-94884b",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T20:03:19.780Z",
         "errorExcerpt": "handshake failed: Streamable HTTP error: Error POSTing to endpoint: {\"errorCode\":\"MCP401\",\"description\":\"The request lacks valid authentication credentials for the requested resource.\",\"action\":\"Check the resources and adjust authentication credentials.\",\"violations\":[],\"resources\":[{\"name\":\"Infobip MCP\",\"url\":\"https://www.infobip.com/mcp\"}]} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -61,6 +75,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-17T03:51:29.413Z",
+        "errorExcerpt": "handshake failed: Streamable HTTP error: Error POSTing to endpoint: {\"errorCode\":\"MCP401\",\"description\":\"The request lacks valid authentication credentials for the requested resource.\",\"action\":\"Check the resources and adjust authentication credentials.\",\"violations\":[],\"resources\":[{\"name\":\"Infobip MCP\",\"url\":\"https://www.infobip.com/mcp\"}]} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-17T03-51-29Z-614ad3",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-15T20:03:37.931Z",
         "errorExcerpt": "handshake failed: Streamable HTTP error: Error POSTing to endpoint: {\"errorCode\":\"MCP401\",\"description\":\"The request lacks valid authentication credentials for the requested resource.\",\"action\":\"Check the resources and adjust authentication credentials.\",\"violations\":[],\"resources\":[{\"name\":\"Infobip MCP\",\"url\":\"https://www.infobip.com/mcp\"}]} (endpoint reachable but requires credentials the harness does not send)",

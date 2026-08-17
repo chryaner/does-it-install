@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-17T03:51:22.049Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"invalid_token\",\"error_description\":\"A valid OAuth Bearer token is required to access the MCP resource.\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-17T03-51-22Z-a4be9d",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T20:03:19.390Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"invalid_token\",\"error_description\":\"A valid OAuth Bearer token is required to access the MCP resource.\"} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -32,6 +39,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-17T03:51:19.235Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"invalid_token\",\"error_description\":\"A valid OAuth Bearer token is required to access the MCP resource.\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-17T03-51-19Z-2fb08c",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T20:03:17.296Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"invalid_token\",\"error_description\":\"A valid OAuth Bearer token is required to access the MCP resource.\"} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -61,6 +75,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-17T03:51:31.244Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"invalid_token\",\"error_description\":\"A valid OAuth Bearer token is required to access the MCP resource.\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-17T03-51-31Z-c432fb",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-15T20:03:37.930Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"invalid_token\",\"error_description\":\"A valid OAuth Bearer token is required to access the MCP resource.\"} (endpoint reachable but requires credentials the harness does not send)",

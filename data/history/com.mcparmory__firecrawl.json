@@ -2,6 +2,37 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-17T03:51:22.049Z",
+        "method": "pypi",
+        "runId": "2026-08-17T03-51-22Z-a4be9d",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "scrape_and_extract_webpage",
+          "scrape_and_extract_urls",
+          "get_batch_scrape_status",
+          "cancel_batch_scrape",
+          "list_batch_scrape_errors",
+          "get_crawl_status",
+          "cancel_crawl",
+          "list_crawl_errors",
+          "crawl_urls",
+          "crawl_urls_map",
+          "extract_structured_data",
+          "get_extraction_status",
+          "list_active_crawls",
+          "initiate_deep_research",
+          "get_deep_research_status",
+          "get_team_credit_usage",
+          "list_credit_usage_history",
+          "get_token_usage",
+          "list_token_usage_history",
+          "search_and_scrape_results",
+          "generate_llms_txt",
+          "get_llms_txt_generation_status"
+        ]
+      },
+      {
         "date": "2026-08-15T20:03:19.390Z",
         "method": "pypi",
         "runId": "2026-08-15T20-03-19Z-d5e286",
@@ -128,6 +159,37 @@
     ],
     "linux": [
       {
+        "date": "2026-08-17T03:51:19.235Z",
+        "method": "pypi",
+        "runId": "2026-08-17T03-51-19Z-2fb08c",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "scrape_and_extract_webpage",
+          "scrape_and_extract_urls",
+          "get_batch_scrape_status",
+          "cancel_batch_scrape",
+          "list_batch_scrape_errors",
+          "get_crawl_status",
+          "cancel_crawl",
+          "list_crawl_errors",
+          "crawl_urls",
+          "crawl_urls_map",
+          "extract_structured_data",
+          "get_extraction_status",
+          "list_active_crawls",
+          "initiate_deep_research",
+          "get_deep_research_status",
+          "get_team_credit_usage",
+          "list_credit_usage_history",
+          "get_token_usage",
+          "list_token_usage_history",
+          "search_and_scrape_results",
+          "generate_llms_txt",
+          "get_llms_txt_generation_status"
+        ]
+      },
+      {
         "date": "2026-08-15T20:03:17.296Z",
         "method": "pypi",
         "runId": "2026-08-15T20-03-17Z-9dcd14",
@@ -253,6 +315,37 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-17T03:51:31.244Z",
+        "method": "pypi",
+        "runId": "2026-08-17T03-51-31Z-c432fb",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "scrape_and_extract_webpage",
+          "scrape_and_extract_urls",
+          "get_batch_scrape_status",
+          "cancel_batch_scrape",
+          "list_batch_scrape_errors",
+          "get_crawl_status",
+          "cancel_crawl",
+          "list_crawl_errors",
+          "crawl_urls",
+          "crawl_urls_map",
+          "extract_structured_data",
+          "get_extraction_status",
+          "list_active_crawls",
+          "initiate_deep_research",
+          "get_deep_research_status",
+          "get_team_credit_usage",
+          "list_credit_usage_history",
+          "get_token_usage",
+          "list_token_usage_history",
+          "search_and_scrape_results",
+          "generate_llms_txt",
+          "get_llms_txt_generation_status"
+        ]
+      },
       {
         "date": "2026-08-15T20:03:37.930Z",
         "method": "pypi",

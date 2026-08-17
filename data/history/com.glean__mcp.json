@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-17T03:51:19.649Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND {baseurl}",
+        "method": "remote-http",
+        "runId": "2026-08-17T03-51-19Z-87fe3c",
+        "status": "connect_failed"
+      },
+      {
         "date": "2026-08-16T02:45:27.629Z",
         "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND {baseurl}",
         "method": "remote-http",
@@ -39,6 +46,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-17T03:51:17.600Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND {baseurl}",
+        "method": "remote-http",
+        "runId": "2026-08-17T03-51-17Z-94884b",
+        "status": "connect_failed"
+      },
+      {
         "date": "2026-08-16T02:45:24.037Z",
         "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND {baseurl}",
         "method": "remote-http",
@@ -75,6 +89,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-17T03:51:29.413Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND {baseurl}",
+        "method": "remote-http",
+        "runId": "2026-08-17T03-51-29Z-614ad3",
+        "status": "connect_failed"
+      },
       {
         "date": "2026-08-16T02:45:42.768Z",
         "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND {baseurl}",

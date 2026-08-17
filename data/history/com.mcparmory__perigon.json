@@ -2,6 +2,29 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-17T03:51:17.462Z",
+        "method": "pypi",
+        "runId": "2026-08-17T03-51-17Z-5e51c7",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "search_articles",
+          "search_companies",
+          "search_journalists",
+          "get_journalist",
+          "search_people",
+          "search_media_sources",
+          "search_stories",
+          "list_story_history",
+          "get_story_counts_by_time_interval",
+          "search_and_summarize_articles",
+          "search_topics",
+          "search_news_articles",
+          "search_wikipedia",
+          "search_wikipedia_pages"
+        ]
+      },
+      {
         "date": "2026-08-15T20:03:31.969Z",
         "method": "pypi",
         "runId": "2026-08-15T20-03-31Z-6fe095",
@@ -96,6 +119,29 @@
     ],
     "linux": [
       {
+        "date": "2026-08-17T03:51:22.615Z",
+        "method": "pypi",
+        "runId": "2026-08-17T03-51-22Z-14d024",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "search_articles",
+          "search_companies",
+          "search_journalists",
+          "get_journalist",
+          "search_people",
+          "search_media_sources",
+          "search_stories",
+          "list_story_history",
+          "get_story_counts_by_time_interval",
+          "search_and_summarize_articles",
+          "search_topics",
+          "search_news_articles",
+          "search_wikipedia",
+          "search_wikipedia_pages"
+        ]
+      },
+      {
         "date": "2026-08-15T20:03:21.360Z",
         "method": "pypi",
         "runId": "2026-08-15T20-03-21Z-32f7d0",
@@ -189,6 +235,29 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-17T03:51:42.379Z",
+        "method": "pypi",
+        "runId": "2026-08-17T03-51-42Z-4ba1fe",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "search_articles",
+          "search_companies",
+          "search_journalists",
+          "get_journalist",
+          "search_people",
+          "search_media_sources",
+          "search_stories",
+          "list_story_history",
+          "get_story_counts_by_time_interval",
+          "search_and_summarize_articles",
+          "search_topics",
+          "search_news_articles",
+          "search_wikipedia",
+          "search_wikipedia_pages"
+        ]
+      },
       {
         "date": "2026-08-15T20:03:36.582Z",
         "method": "pypi",

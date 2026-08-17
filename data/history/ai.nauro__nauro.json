@@ -2,6 +2,25 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-17T03:51:19.649Z",
+        "method": "pypi",
+        "runId": "2026-08-17T03-51-19Z-87fe3c",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "get_context",
+          "get_raw_file",
+          "list_decisions",
+          "get_decision",
+          "diff_since_last_session",
+          "search_decisions",
+          "check_decision",
+          "propose_decision",
+          "flag_question",
+          "update_state"
+        ]
+      },
+      {
         "date": "2026-08-15T20:03:19.390Z",
         "method": "pypi",
         "runId": "2026-08-15T20-03-19Z-d5e286",
@@ -99,6 +118,25 @@
     ],
     "linux": [
       {
+        "date": "2026-08-17T03:51:17.600Z",
+        "method": "pypi",
+        "runId": "2026-08-17T03-51-17Z-94884b",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "get_context",
+          "get_raw_file",
+          "list_decisions",
+          "get_decision",
+          "diff_since_last_session",
+          "search_decisions",
+          "check_decision",
+          "propose_decision",
+          "flag_question",
+          "update_state"
+        ]
+      },
+      {
         "date": "2026-08-15T20:03:17.296Z",
         "method": "pypi",
         "runId": "2026-08-15T20-03-17Z-9dcd14",
@@ -195,6 +233,25 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-17T03:51:29.413Z",
+        "method": "pypi",
+        "runId": "2026-08-17T03-51-29Z-614ad3",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "get_context",
+          "get_raw_file",
+          "list_decisions",
+          "get_decision",
+          "diff_since_last_session",
+          "search_decisions",
+          "check_decision",
+          "propose_decision",
+          "flag_question",
+          "update_state"
+        ]
+      },
       {
         "date": "2026-08-15T20:03:37.930Z",
         "method": "pypi",

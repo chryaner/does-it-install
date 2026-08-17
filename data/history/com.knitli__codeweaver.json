@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-17T03:51:22.049Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: ed token '/', \"/Users/run\"... is not valid JSON\nUnexpected token '/', \"/codeweave\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'C', \"CodeWeaver\"... is not valid JSON\nUnexpected token 'h', \"https://gi\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'I', \"If you're \"... is not valid JSON\nUnexpected token 'h', \"https://gi\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'T', \"Thank you \"... is not valid JSON\nUnexpected end of JSON input\n--- stderr (tail) ---\nDaemon did not become healthy within 30.0 seconds",
+        "method": "pypi",
+        "runId": "2026-08-17T03-51-22Z-a4be9d",
+        "status": "needs_config"
+      },
+      {
         "date": "2026-08-15T20:03:31.969Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading google-genai (1.0MiB)\nDownloading tokenizers (2.9MiB)\nDownloading pillow (4.6MiB)\nDownloading hf-xet (3.7MiB)\nDownloading openai (1.6MiB)\nDownloading pydantic-ai-slim (1.4MiB)\nDownloading grpcio (11.6MiB)\nDownloading onnxruntime (18.3MiB)\nDownloading ast-grep-py (5.3MiB)\n Downloaded hf-xet\n Downloaded tokenizers\n Downloaded ast-grep-py\n Downloaded pillow\n Downloaded grpcio\n Downloaded pydantic-ai-slim\n Downloaded onnxruntime\n Downloaded google-genai\n Downloaded openai\nInstalled 160 packages in 916ms\nAn executable named `code-weaver` is not provided by package `code-weaver`.\nThe following executables are available:\n- codeweaver\n- cw\n\nUse `uv tool run --from code-weaver <EXECUTABLE-NAME>` instead.",
         "method": "pypi",
@@ -32,6 +39,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-17T03:51:19.235Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: ed token '/', \"/home/runn\"... is not valid JSON\nUnexpected token 'c', \"codeweaver\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'C', \"CodeWeaver\"... is not valid JSON\nUnexpected token 'h', \"https://gi\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'I', \"If you're \"... is not valid JSON\nUnexpected token 'h', \"https://gi\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'T', \"Thank you \"... is not valid JSON\nUnexpected end of JSON input\n--- stderr (tail) ---\nDaemon did not become healthy within 30.0 seconds",
+        "method": "pypi",
+        "runId": "2026-08-17T03-51-19Z-2fb08c",
+        "status": "needs_config"
+      },
+      {
         "date": "2026-08-15T20:03:21.360Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading zstandard (5.3MiB)\nDownloading tokenizers (3.2MiB)\nDownloading hf-xet (4.3MiB)\nDownloading aiohttp (1.7MiB)\nDownloading openai (1.6MiB)\nDownloading onnxruntime (18.3MiB)\nDownloading pillow (6.6MiB)\nDownloading tiktoken (1.1MiB)\nDownloading grpcio (6.7MiB)\nDownloading google-genai (1.0MiB)\nDownloading ast-grep-py (5.2MiB)\nDownloading pydantic-ai-slim (1.4MiB)\n Downloaded tiktoken\n Downloaded aiohttp\n Downloaded tokenizers\n Downloaded hf-xet\n Downloaded ast-grep-py\n Downloaded zstandard\n Downloaded pillow\n Downloaded grpcio\n Downloaded pydantic-ai-slim\n Downloaded google-genai\n Downloaded onnxruntime\n Downloaded openai\nInstalled 163 packages in 232ms\nAn executable named `code-weaver` is not provided by package `code-weaver`.\nThe following executables are available:\n- codeweaver\n- cw\n\nUse `uv tool run --from code-weaver <EXECUTABLE-NAME>` instead.",
         "method": "pypi",
@@ -61,6 +75,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-17T03:51:31.244Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: 17 cl\"... is not valid JSON\nUnexpected token '|', \"|    18   \"... is not valid JSON\nUnexpected token '|', \"| >  19   \"... is not valid JSON\nUnexpected token '|', \"|    20   \"... is not valid JSON\nUnexpected token '|', \"|    21 cl\"... is not valid JSON\nUnexpected token '|', \"|    22   \"... is not valid JSON\nUnexpected token '+', \"+---------\"... is not valid JSON\nUnexpected token 'U', \"UnicodeEnc\"... is not valid JSON\nUnexpected non-whitespace character after JSON at position 1 (line 1 column 2)\n--- stderr (tail) ---\nDaemon did not become healthy within 30.0 seconds",
+        "method": "pypi",
+        "runId": "2026-08-17T03-51-31Z-c432fb",
+        "status": "needs_config"
+      },
       {
         "date": "2026-08-15T20:03:36.582Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading onnxruntime (13.1MiB)\nDownloading hf-xet (3.8MiB)\nDownloading pillow (6.9MiB)\nDownloading google-genai (1.0MiB)\nDownloading openai (1.6MiB)\nDownloading grpcio (4.9MiB)\nDownloading ast-grep-py (5.0MiB)\nDownloading tokenizers (2.7MiB)\nDownloading pydantic-ai-slim (1.4MiB)\n Downloaded tokenizers\n Downloaded hf-xet\n Downloaded ast-grep-py\n Downloaded pillow\n Downloaded grpcio\n Downloaded pydantic-ai-slim\n Downloaded onnxruntime\n Downloaded google-genai\n Downloaded openai\nInstalled 164 packages in 1m 47s\nAn executable named `code-weaver` is not provided by package `code-weaver`.\nThe following executables are available:\n- codeweaver.exe\n- cw.exe\n\nUse `uv tool run --from code-weaver <EXECUTABLE-NAME>` instead.",

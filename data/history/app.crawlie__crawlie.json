@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-17T03:51:17.462Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"id\":null,\"error\":{\"code\":-32001,\"message\":\"Unauthorized. Connect with OAuth (your MCP client will open a Spronta sign-in) or provide a Spronta API key as a Bearer token (create one at https://app.spronta.com → Settings → API keys).\"}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-17T03-51-17Z-5e51c7",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-16T02:45:27.629Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"id\":null,\"error\":{\"code\":-32001,\"message\":\"Unauthorized. Connect with OAuth (your MCP client will open a Spronta sign-in) or provide a Spronta API key as a Bearer token (create one at https://app.spronta.com → Settings → API keys).\"}} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -39,6 +46,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-17T03:51:22.615Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"id\":null,\"error\":{\"code\":-32001,\"message\":\"Unauthorized. Connect with OAuth (your MCP client will open a Spronta sign-in) or provide a Spronta API key as a Bearer token (create one at https://app.spronta.com → Settings → API keys).\"}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-17T03-51-22Z-14d024",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-16T02:45:24.037Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"id\":null,\"error\":{\"code\":-32001,\"message\":\"Unauthorized. Connect with OAuth (your MCP client will open a Spronta sign-in) or provide a Spronta API key as a Bearer token (create one at https://app.spronta.com → Settings → API keys).\"}} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -75,6 +89,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-17T03:51:42.379Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"id\":null,\"error\":{\"code\":-32001,\"message\":\"Unauthorized. Connect with OAuth (your MCP client will open a Spronta sign-in) or provide a Spronta API key as a Bearer token (create one at https://app.spronta.com → Settings → API keys).\"}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-17T03-51-42Z-4ba1fe",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-16T02:45:42.768Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"id\":null,\"error\":{\"code\":-32001,\"message\":\"Unauthorized. Connect with OAuth (your MCP client will open a Spronta sign-in) or provide a Spronta API key as a Bearer token (create one at https://app.spronta.com → Settings → API keys).\"}} (endpoint reachable but requires credentials the harness does not send)",

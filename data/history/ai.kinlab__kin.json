@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-17T03:51:19.649Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nNo .kin/ found. Run `kin init .` first, or set KIN_MCP_AUTO_INIT=1 to allow this wrapper to initialize the repo.",
+        "installMs": 942,
+        "method": "npm",
+        "runId": "2026-08-17T03-51-19Z-87fe3c",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-15T20:03:27.636Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nNo .kin/ found. Run `kin init .` first, or set KIN_MCP_AUTO_INIT=1 to allow this wrapper to initialize the repo.",
         "installMs": 1173,
@@ -34,6 +42,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-17T03:51:17.600Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nNo .kin/ found. Run `kin init .` first, or set KIN_MCP_AUTO_INIT=1 to allow this wrapper to initialize the repo.",
+        "installMs": 1047,
+        "method": "npm",
+        "runId": "2026-08-17T03-51-17Z-94884b",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-15T20:03:19.780Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nNo .kin/ found. Run `kin init .` first, or set KIN_MCP_AUTO_INIT=1 to allow this wrapper to initialize the repo.",
         "installMs": 587,
@@ -65,6 +81,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-17T03:51:29.413Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nNo .kin/ found. Run `kin init .` first, or set KIN_MCP_AUTO_INIT=1 to allow this wrapper to initialize the repo.",
+        "installMs": 3034,
+        "method": "npm",
+        "runId": "2026-08-17T03-51-29Z-614ad3",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-15T20:03:37.931Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nNo .kin/ found. Run `kin init .` first, or set KIN_MCP_AUTO_INIT=1 to allow this wrapper to initialize the repo.",
