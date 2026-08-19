@@ -122,3 +122,28 @@ describe('layout', () => {
     expect(page).not.toContain('@import');
   });
 });
+
+describe('layout canonical', () => {
+  it('declares the canonical url as a link and as og:url', () => {
+    const page = layout('T', '<p>b</p>', '/', 'D', 'https://example.test/dii/methodology.html');
+
+    expect(page).toContain('<link rel="canonical" href="https://example.test/dii/methodology.html">');
+    expect(page).toContain(
+      '<meta property="og:url" content="https://example.test/dii/methodology.html">',
+    );
+  });
+
+  it('emits neither tag when the page has no stable url', () => {
+    const page = layout('T', '<p>b</p>', '/', 'D');
+
+    expect(page).not.toContain('rel="canonical"');
+    expect(page).not.toContain('og:url');
+  });
+
+  it('escapes the url, which can carry a query string', () => {
+    const page = layout('T', '<p>b</p>', '/', 'D', 'https://example.test/x?a=1&b=2');
+
+    expect(page).toContain('<link rel="canonical" href="https://example.test/x?a=1&amp;b=2">');
+    expect(page).toContain('<meta property="og:url" content="https://example.test/x?a=1&amp;b=2">');
+  });
+});

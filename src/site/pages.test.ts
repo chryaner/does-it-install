@@ -833,6 +833,32 @@ describe('methodology and 404 pages', () => {
   });
 });
 
+describe('canonical urls', () => {
+  const pages = build();
+
+  it('points the index at the site root', () => {
+    expect(pageOf(pages, 'index.html')).toContain(
+      '<link rel="canonical" href="https://example.test/dii/">',
+    );
+  });
+
+  it('points a server page at its own absolute url', () => {
+    expect(pageOf(pages, 's/seed__everything.html')).toContain(
+      '<link rel="canonical" href="https://example.test/dii/s/seed__everything.html">',
+    );
+  });
+
+  it('points the methodology page at itself', () => {
+    expect(pageOf(pages, 'methodology.html')).toContain(
+      '<link rel="canonical" href="https://example.test/dii/methodology.html">',
+    );
+  });
+
+  it('leaves 404 without one, since it has no url of its own', () => {
+    expect(pageOf(pages, '404.html')).not.toContain('rel="canonical"');
+  });
+});
+
 describe('sitemap.xml', () => {
   const sitemap = pageOf(build(), 'sitemap.xml');
 
