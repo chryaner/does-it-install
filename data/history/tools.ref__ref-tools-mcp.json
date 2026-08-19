@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-19T20:22:56.626Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Unauthorized - Authentication required\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-19T20-22-56Z-621193",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-17T03:51:17.462Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Unauthorized - Authentication required\"} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -53,6 +60,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-19T20:22:50.238Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Unauthorized - Authentication required\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-19T20-22-50Z-12f191",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-17T03:51:22.615Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Unauthorized - Authentication required\"} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -103,6 +117,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-19T20:23:08.992Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Unauthorized - Authentication required\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-19T20-23-08Z-54c4ef",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-17T03:51:42.379Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Unauthorized - Authentication required\"} (endpoint reachable but requires credentials the harness does not send)",

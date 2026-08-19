@@ -2,6 +2,17 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-19T20:22:54.774Z",
+        "method": "remote-http",
+        "runId": "2026-08-19T20-22-54Z-abc0ad",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "search_cloudflare_documentation",
+          "migrate_pages_to_workers_guide"
+        ]
+      },
+      {
         "date": "2026-08-17T03:51:19.649Z",
         "method": "remote-http",
         "runId": "2026-08-17T03-51-19Z-87fe3c",
@@ -81,6 +92,17 @@
     ],
     "linux": [
       {
+        "date": "2026-08-19T20:22:49.421Z",
+        "method": "remote-http",
+        "runId": "2026-08-19T20-22-49Z-937a41",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "search_cloudflare_documentation",
+          "migrate_pages_to_workers_guide"
+        ]
+      },
+      {
         "date": "2026-08-17T03:51:17.600Z",
         "method": "remote-http",
         "runId": "2026-08-17T03-51-17Z-94884b",
@@ -159,6 +181,17 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-19T20:23:15.057Z",
+        "method": "remote-http",
+        "runId": "2026-08-19T20-23-15Z-07d2b8",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "search_cloudflare_documentation",
+          "migrate_pages_to_workers_guide"
+        ]
+      },
       {
         "date": "2026-08-17T03:51:29.413Z",
         "method": "remote-http",
