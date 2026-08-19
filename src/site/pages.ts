@@ -176,7 +176,13 @@ ${rows}
 <p class="legend">Rows are ordered by GitHub stars of the server's repository, most stars first, with servers we have no count for last. Stars measure the repository, not the server itself, and nothing here is ordered by who curated it.</p>
 <p class="legend">Site built ${escapeHtml(formatDateTime(options.generatedAt))}${catalog.generatedAt === '' ? '' : ` &middot; catalog generated ${escapeHtml(formatDateTime(catalog.generatedAt))}`}.</p>`;
 
-  return layout('does it install? · MCP server status', body, options.base, PITCH);
+  return layout(
+    'does it install? · MCP server status',
+    body,
+    options.base,
+    PITCH,
+    `${options.siteUrl}/`,
+  );
 }
 
 function countCard(value: number, label: string, tone?: Tone): string {
@@ -234,6 +240,7 @@ function serverPage(view: ServerView, options: ResolvedOptions): string {
     sections.filter(Boolean).join('\n'),
     options.base,
     `Install and MCP handshake test results for ${entry.title} on Linux, macOS and Windows, refreshed weekly with the actual error output.`,
+    pageUrl(entry, options),
   );
 }
 
@@ -419,6 +426,7 @@ function methodologyPage(options: ResolvedOptions): string {
     body,
     options.base,
     'How every MCP server is tested: probe phases, time budgets, the credential policy, and what each status does and does not mean.',
+    `${options.siteUrl}/methodology.html`,
   );
 }
 

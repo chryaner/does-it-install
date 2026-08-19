@@ -151,10 +151,23 @@ padding-top:16px;padding-bottom:16px;font-size:13px;color:var(--muted)}
  * Full HTML5 document: masthead, `body` as the main content, footer.
  * `description` feeds the meta description and OpenGraph tags, so search
  * results and link previews show something better than a bare URL.
+ * `canonical` is the page's absolute URL, and is what stops a crawler treating
+ * the same page reached two ways as duplicates. Pages without a stable public
+ * URL (404) pass none, and then neither tag is emitted.
  */
-export function layout(title: string, body: string, base: string, description: string): string {
+export function layout(
+  title: string,
+  body: string,
+  base: string,
+  description: string,
+  canonical?: string,
+): string {
   const root = escapeHtml(normalizeBase(base));
   const summary = escapeHtml(description);
+  const canonicalLink =
+    canonical === undefined ? '' : `\n<link rel="canonical" href="${escapeHtml(canonical)}">`;
+  const canonicalMeta =
+    canonical === undefined ? '' : `\n<meta property="og:url" content="${escapeHtml(canonical)}">`;
   return `<!doctype html>
 <html lang="en">
 <head>
@@ -162,10 +175,10 @@ export function layout(title: string, body: string, base: string, description: s
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="color-scheme" content="light">
 <title>${escapeHtml(title)}</title>
-<meta name="description" content="${summary}">
+<meta name="description" content="${summary}">${canonicalLink}
 <meta property="og:title" content="${escapeHtml(title)}">
 <meta property="og:description" content="${summary}">
-<meta property="og:type" content="website">
+<meta property="og:type" content="website">${canonicalMeta}
 <style>${STYLES}</style>
 </head>
 <body>
