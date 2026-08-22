@@ -1,7 +1,13 @@
 import { describe, expect, it } from 'vitest';
 import type { PackageSpec } from '../types.js';
 import { DEFAULT_TIMEOUTS } from './options.js';
-import { probeNpm, selectBinEntry, unscopedName } from './npm.js';
+import {
+  declaredBunRequirement,
+  missingBunRuntimeDetail,
+  probeNpm,
+  selectBinEntry,
+  unscopedName
+} from './npm.js';
 
 describe('unscopedName', () => {
   it('drops the scope', () => {
@@ -30,6 +36,34 @@ describe('selectBinEntry', () => {
     expect(selectBinEntry('@acme/server', undefined)).toBeUndefined();
     expect(selectBinEntry('@acme/server', null)).toBeUndefined();
     expect(selectBinEntry('@acme/server', {})).toBeUndefined();
+  });
+});
+
+describe('declaredBunRequirement', () => {
+  it('returns a non-empty Bun engine range', () => {
+    expect(declaredBunRequirement({ engines: { bun: '>=1.3.14' } })).toBe('>=1.3.14');
+  });
+
+  it('ignores missing, non-string and blank declarations', () => {
+    expect(declaredBunRequirement({})).toBeUndefined();
+    expect(declaredBunRequirement({ engines: { bun: 1 } })).toBeUndefined();
+    expect(declaredBunRequirement({ engines: { bun: '   ' } })).toBeUndefined();
+    expect(declaredBunRequirement(null)).toBeUndefined();
+  });
+});
+
+describe('missingBunRuntimeDetail', () => {
+  const manifest = { engines: { bun: '>=1.3.14' } };
+
+  it('explains why a declared Bun package cannot be probed', () => {
+    expect(missingBunRuntimeDetail('@acme/server', manifest, false)).toBe(
+      '@acme/server declares Bun >=1.3.14, but Bun is not available on this runner; install Bun to probe it'
+    );
+  });
+
+  it('does not skip packages when Bun is present or not declared', () => {
+    expect(missingBunRuntimeDetail('@acme/server', manifest, true)).toBeUndefined();
+    expect(missingBunRuntimeDetail('@acme/server', {}, false)).toBeUndefined();
   });
 });
 

@@ -99,8 +99,9 @@ your real tokens are not handed to anything it runs.
 
 ## Running it locally
 
-Requires Node 22. `uv` and Docker are optional: without them PyPI and container
-servers are recorded `skipped` rather than failed.
+Requires Node 22. `uv`, Bun and Docker are optional: without them PyPI packages,
+npm packages that explicitly declare `engines.bun`, and container servers are
+recorded `skipped` rather than failed.
 
 ```sh
 npm ci
