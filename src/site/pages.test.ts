@@ -771,6 +771,8 @@ describe('methodology and 404 pages', () => {
     expect(methodology).toContain('last 30 results per platform');
     expect(methodology).toContain('401 or 403');
     expect(methodology).toContain('Linux, macOS, Windows');
+    expect(methodology).toContain('declares <code>engines.bun</code>');
+    expect(methodology).toContain('Bun is not on the runner');
   });
 
   it('records 401 and 403 as needing credentials, not as a broken handshake', () => {

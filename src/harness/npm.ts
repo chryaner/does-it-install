@@ -3,6 +3,7 @@
  * find its `bin` script, and run it over stdio. Nothing is installed globally
  * and the prefix is removed whatever happens.
  */
+import { spawnSync } from 'node:child_process';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import type { PackageSpec } from '../types.js';
@@ -19,6 +20,8 @@ const NPM_COMMAND = process.platform === 'win32' ? 'npm.cmd' : 'npm';
 const NPM_IDENTIFIER = /^(@[a-z0-9][\w.-]*\/)?[a-z0-9][\w.-]*$/i;
 /** Version ranges are passed on the command line; keep them boring. */
 const NPM_VERSION = /^[\w.\-+~^><=*|\s]+$/;
+
+let bunChecked: boolean | undefined;
 
 export async function probeNpm(pkg: PackageSpec, ctx: ProbeContext): Promise<ProbeOutcome> {
   if (!NPM_IDENTIFIER.test(pkg.identifier)) {
@@ -90,6 +93,15 @@ async function probeInPrefix(pkg: PackageSpec, ctx: ProbeContext, prefix: string
     return { method: 'npm', status: 'spawn_failed', phases, errorExcerpt: resolved.error };
   }
 
+  const requiresBun = declaredBunRequirement(resolved.manifest) !== undefined;
+  const missingRuntime = requiresBun
+    ? missingBunRuntimeDetail(pkg.identifier, resolved.manifest, isBunAvailable())
+    : undefined;
+  if (missingRuntime !== undefined) {
+    phases.spawn = phaseSince(spawnAt, false, missingRuntime);
+    return { method: 'npm', status: 'skipped', phases, errorExcerpt: missingRuntime };
+  }
+
   // Run the script with our own node rather than the installed shim: no
   // dependency on shebangs, symlinks or executable bits.
   const stdio = await probeStdio(
@@ -130,7 +142,37 @@ export function selectBinEntry(identifier: string, bin: unknown): string | undef
   return (preferred ?? entries[0])?.[1];
 }
 
-type BinResolution = { script: string } | { error: string };
+/** A Bun engine range explicitly declared by an installed package. */
+export function declaredBunRequirement(manifest: unknown): string | undefined {
+  if (typeof manifest !== 'object' || manifest === null) return undefined;
+  const engines = (manifest as { engines?: unknown }).engines;
+  if (typeof engines !== 'object' || engines === null) return undefined;
+  const bun = (engines as { bun?: unknown }).bun;
+  if (typeof bun !== 'string' || bun.trim() === '') return undefined;
+  return bun.trim();
+}
+
+/** Why a package that explicitly requires Bun cannot be probed on this runner. */
+export function missingBunRuntimeDetail(
+  identifier: string,
+  manifest: unknown,
+  bunAvailable: boolean
+): string | undefined {
+  const requirement = declaredBunRequirement(manifest);
+  if (requirement === undefined || bunAvailable) return undefined;
+  return `${identifier} declares Bun ${requirement}, but Bun is not available on this runner; install Bun to probe it`;
+}
+
+/** Whether Bun is on PATH. Checked once per process, since it never changes. */
+function isBunAvailable(): boolean {
+  if (bunChecked === undefined) {
+    const result = spawnSync('bun', ['--version'], { stdio: 'ignore', windowsHide: true });
+    bunChecked = result.error === undefined && result.status === 0;
+  }
+  return bunChecked;
+}
+
+type BinResolution = { script: string; manifest: Record<string, unknown> } | { error: string };
 
 async function resolveBinScript(prefix: string, identifier: string): Promise<BinResolution> {
   const packageDir = path.join(prefix, 'node_modules', ...identifier.split('/'));
@@ -157,6 +199,5 @@ async function resolveBinScript(prefix: string, identifier: string): Promise<Bin
   } catch {
     return { error: `${identifier} declares bin "${relative}" but ${script} does not exist` };
   }
-  return { script };
+  return { script, manifest: manifest as Record<string, unknown> };
 }
-

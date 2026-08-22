@@ -163,6 +163,12 @@ failed. The sweep workflow installs uv with `continue-on-error`, so an outage
 in that action degrades PyPI coverage for a week instead of taking the sweep
 down.
 
+An npm package that explicitly declares `engines.bun` is handled the same way.
+After npm installs it, the harness checks for Bun before spawning the package.
+If Bun is not on the runner's PATH, the install remains recorded but the probe
+is `skipped`, not a red handshake failure. Packages without that declaration
+continue through the normal Node launch path.
+
 ### The PyPI console script gets a second guess
 
 `uv tool run --from <pkg> <console-script>` needs the name of the executable the
@@ -368,6 +374,7 @@ comparable.
 | --- | --- |
 | Platforms | `linux` (ubuntu-latest), `darwin` (macos-latest), `win32` (windows-latest) |
 | Runtime | Node 22, GitHub-hosted runners |
+| Bun runtime | Used when an npm package declares `engines.bun`; optional and checked on PATH |
 | PyPI runtime | `uv`, installed by `astral-sh/setup-uv` and treated as optional |
 | OCI runtime | Docker in Linux-container mode, which only the Linux runner has; treated as optional everywhere |
 | Layout | 3 shards × 3 operating systems = 9 probe jobs, `fail-fast: false`, 120 min per job |

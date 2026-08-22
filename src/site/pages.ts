@@ -389,6 +389,7 @@ function methodologyPage(options: ResolvedOptions): string {
 <li><b>tools/list</b>: the tool list is requested; the count on each page comes from this response.</li>
 </ul>
 <p>A server only shows green when every phase succeeded. Otherwise the status names the phase that broke, or says the server asked for something we do not have, and the newest stderr output is kept and shown verbatim on the server page either way.</p>
+<p>When an installed npm package declares <code>engines.bun</code>, the probe checks for Bun before spawning it. If Bun is not on the runner, the successful install is preserved but the result is grey and untested instead of a red handshake failure. Packages without that declaration keep the normal Node launch path.</p>
 <p>A PyPI package rarely names the console script it installs, so the probe guesses it from the package name. When that guess is wrong, <code>uv</code> normally names the executable it did find, and the probe re-runs once with that name: an entry point named differently from its package now passes instead of showing a red handshake failure. The guess only survives as a limitation when uv gives no hint at all.</p>
 
 <h2>Time budgets</h2>
@@ -412,7 +413,7 @@ function methodologyPage(options: ResolvedOptions): string {
 <li><b>Amber means the server is alive and wants credentials</b> we do not send, or arguments we cannot invent. Red is kept for a real failure: the probe filled every declared required variable with a placeholder, and the server broke for a reason that has nothing to do with them or with the arguments the entry declared.</li>
 <li><b>Red still does not always mean broken for you.</b> It can mean the server needs a runtime the runner lacks, or was published for one platform only.</li>
 <li><b>Hosted endpoints that answer 401 or 403</b> are recorded as needs credentials with the HTTP detail, not as a failed handshake. They are reachable; they simply require auth we do not send.</li>
-<li><b>Grey means untested</b>, never "bad": no supported distribution, a container image on a runner that cannot run one, or a runner missing <code>uv</code>.</li>
+<li><b>Grey means untested</b>, never "bad": no supported distribution, a container image on a runner that cannot run one, or a runner missing a declared runtime such as <code>uv</code> or Bun.</li>
 <li><b>We test installation and the handshake, not behaviour.</b> A green square says the server starts and lists its tools; it says nothing about whether those tools work well.</li>
 <li><b>Results are a snapshot.</b> Registries, package versions and hosted endpoints all move between sweeps.</li>
 </ul>
