@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-24T03:55:11.998Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"detail\":\"Unauthorized\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-24T03-55-11Z-b676ff",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-17T03:51:22.049Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"detail\":\"Unauthorized\"} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -46,6 +53,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-24T03:55:16.264Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"detail\":\"Unauthorized\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-24T03-55-16Z-ccc61b",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-17T03:51:19.235Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"detail\":\"Unauthorized\"} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -89,6 +103,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-24T03:55:34.076Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"detail\":\"Unauthorized\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-24T03-55-34Z-3d919d",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-17T03:51:31.244Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"detail\":\"Unauthorized\"} (endpoint reachable but requires credentials the harness does not send)",

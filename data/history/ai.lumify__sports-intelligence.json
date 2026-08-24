@@ -2,6 +2,36 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-24T03:55:12.736Z",
+        "method": "remote-http",
+        "runId": "2026-08-24T03-55-12Z-0c9bb4",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "list_sports",
+          "list_events",
+          "get_event",
+          "batch_get_events",
+          "query_events",
+          "get_live_score",
+          "get_odds",
+          "get_odds_history",
+          "get_stats",
+          "get_player_props",
+          "get_team_props",
+          "get_period_odds",
+          "get_splits",
+          "get_intelligence",
+          "list_teams",
+          "search_players",
+          "get_team",
+          "get_player",
+          "get_player_events",
+          "list_seasons",
+          "estimate_cost"
+        ]
+      },
+      {
         "date": "2026-08-15T20:03:31.969Z",
         "method": "remote-http",
         "runId": "2026-08-15T20-03-31Z-6fe095",
@@ -112,6 +142,36 @@
     ],
     "linux": [
       {
+        "date": "2026-08-24T03:55:10.120Z",
+        "method": "remote-http",
+        "runId": "2026-08-24T03-55-10Z-89df21",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "list_sports",
+          "list_events",
+          "get_event",
+          "batch_get_events",
+          "query_events",
+          "get_live_score",
+          "get_odds",
+          "get_odds_history",
+          "get_stats",
+          "get_player_props",
+          "get_team_props",
+          "get_period_odds",
+          "get_splits",
+          "get_intelligence",
+          "list_teams",
+          "search_players",
+          "get_team",
+          "get_player",
+          "get_player_events",
+          "list_seasons",
+          "estimate_cost"
+        ]
+      },
+      {
         "date": "2026-08-15T20:03:21.360Z",
         "method": "remote-http",
         "runId": "2026-08-15T20-03-21Z-32f7d0",
@@ -221,6 +281,36 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-24T03:55:32.271Z",
+        "method": "remote-http",
+        "runId": "2026-08-24T03-55-32Z-50efc3",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "list_sports",
+          "list_events",
+          "get_event",
+          "batch_get_events",
+          "query_events",
+          "get_live_score",
+          "get_odds",
+          "get_odds_history",
+          "get_stats",
+          "get_player_props",
+          "get_team_props",
+          "get_period_odds",
+          "get_splits",
+          "get_intelligence",
+          "list_teams",
+          "search_players",
+          "get_team",
+          "get_player",
+          "get_player_events",
+          "list_seasons",
+          "estimate_cost"
+        ]
+      },
       {
         "date": "2026-08-15T20:03:36.582Z",
         "method": "remote-http",

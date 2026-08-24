@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-24T03:55:12.736Z",
+        "errorExcerpt": "npm install cortex-rmcp@3.9.1 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for cortex-rmcp@3.9.1.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-ryQwwW/.npm-cache/_logs/2026-08-24T03_57_12_866Z-debug-0.log",
+        "installMs": 451,
+        "method": "npm",
+        "runId": "2026-08-24T03-55-12Z-0c9bb4",
+        "status": "install_failed"
+      },
+      {
         "date": "2026-08-15T20:03:27.636Z",
         "errorExcerpt": "npm install cortex-rmcp@3.9.1 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for cortex-rmcp@3.9.1.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-6qjWw9/.npm-cache/_logs/2026-08-15T20_06_17_163Z-debug-0.log",
         "installMs": 350,
@@ -41,6 +49,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-24T03:55:10.120Z",
+        "errorExcerpt": "npm install cortex-rmcp@3.9.1 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for cortex-rmcp@3.9.1.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /tmp/does-it-install/dii-npm-PUlDvA/.npm-cache/_logs/2026-08-24T03_57_08_331Z-debug-0.log",
+        "installMs": 426,
+        "method": "npm",
+        "runId": "2026-08-24T03-55-10Z-89df21",
+        "status": "install_failed"
+      },
+      {
         "date": "2026-08-15T20:03:19.780Z",
         "errorExcerpt": "npm install cortex-rmcp@3.9.1 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for cortex-rmcp@3.9.1.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /tmp/does-it-install/dii-npm-dhovQB/.npm-cache/_logs/2026-08-15T20_05_27_614Z-debug-0.log",
         "installMs": 279,
@@ -79,6 +95,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-24T03:55:32.271Z",
+        "errorExcerpt": "npm install cortex-rmcp@3.9.1 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for cortex-rmcp@3.9.1.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-4jct0G\\.npm-cache\\_logs\\2026-08-24T04_12_48_571Z-debug-0.log",
+        "installMs": 943,
+        "method": "npm",
+        "runId": "2026-08-24T03-55-32Z-50efc3",
+        "status": "install_failed"
+      },
       {
         "date": "2026-08-15T20:03:37.931Z",
         "errorExcerpt": "npm install cortex-rmcp@3.9.1 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for cortex-rmcp@3.9.1.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-iSGtb2\\.npm-cache\\_logs\\2026-08-15T20_30_09_508Z-debug-0.log",

@@ -2,6 +2,19 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-24T03:55:11.998Z",
+        "method": "remote-http",
+        "runId": "2026-08-24T03-55-11Z-b676ff",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "docs",
+          "demo",
+          "install",
+          "troubleshooting"
+        ]
+      },
+      {
         "date": "2026-08-15T20:03:19.390Z",
         "method": "remote-http",
         "runId": "2026-08-15T20-03-19Z-d5e286",
@@ -56,6 +69,19 @@
     ],
     "linux": [
       {
+        "date": "2026-08-24T03:55:16.264Z",
+        "method": "remote-http",
+        "runId": "2026-08-24T03-55-16Z-ccc61b",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "docs",
+          "demo",
+          "install",
+          "troubleshooting"
+        ]
+      },
+      {
         "date": "2026-08-15T20:03:17.296Z",
         "method": "remote-http",
         "runId": "2026-08-15T20-03-17Z-9dcd14",
@@ -109,6 +135,19 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-24T03:55:34.076Z",
+        "method": "remote-http",
+        "runId": "2026-08-24T03-55-34Z-3d919d",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "docs",
+          "demo",
+          "install",
+          "troubleshooting"
+        ]
+      },
       {
         "date": "2026-08-15T20:03:37.930Z",
         "method": "remote-http",

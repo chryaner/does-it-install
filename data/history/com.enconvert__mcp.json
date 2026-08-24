@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-24T03:55:16.126Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[enconvert-mcp] fatal: No API key found. Run `npx @enconvert/mcp setup` once to configure everything, or set ENCONVERT_API_KEY in your MCP client config. Get a key at https://enconvert.com/dashboard/api-keys.",
+        "installMs": 10556,
+        "method": "npm",
+        "runId": "2026-08-24T03-55-16Z-99731b",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-17T03:51:19.649Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[enconvert-mcp] fatal: No API key found. Run `npx @enconvert/mcp setup` once to configure everything, or set ENCONVERT_API_KEY in your MCP client config. Get a key at https://enconvert.com/dashboard/api-keys.",
         "installMs": 10196,
@@ -42,6 +50,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-24T03:55:14.308Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[enconvert-mcp] fatal: No API key found. Run `npx @enconvert/mcp setup` once to configure everything, or set ENCONVERT_API_KEY in your MCP client config. Get a key at https://enconvert.com/dashboard/api-keys.",
+        "installMs": 7963,
+        "method": "npm",
+        "runId": "2026-08-24T03-55-14Z-e203db",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-17T03:51:17.600Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[enconvert-mcp] fatal: No API key found. Run `npx @enconvert/mcp setup` once to configure everything, or set ENCONVERT_API_KEY in your MCP client config. Get a key at https://enconvert.com/dashboard/api-keys.",
         "installMs": 9000,
@@ -81,6 +97,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-24T03:55:29.849Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[enconvert-mcp] fatal: No API key found. Run `npx @enconvert/mcp setup` once to configure everything, or set ENCONVERT_API_KEY in your MCP client config. Get a key at https://enconvert.com/dashboard/api-keys.",
+        "installMs": 190882,
+        "method": "npm",
+        "runId": "2026-08-24T03-55-29Z-58153a",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-17T03:51:29.413Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[enconvert-mcp] fatal: No API key found. Run `npx @enconvert/mcp setup` once to configure everything, or set ENCONVERT_API_KEY in your MCP client config. Get a key at https://enconvert.com/dashboard/api-keys.",

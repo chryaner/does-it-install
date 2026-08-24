@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-24T03:55:12.736Z",
+        "errorExcerpt": "npm install @dinglebear/labby@1.8.9 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path /private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-ZDRHs5/node_modules/@dinglebear/labby\nnpm error command failed\nnpm error command sh -c node scripts/install.js\nnpm error labby: Unsupported platform darwin/arm64. Supported targets: linux/x64, win32/x64.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-ZDRHs5/.npm-cache/_logs/2026-08-24T03_57_05_155Z-debug-0.log",
+        "installMs": 720,
+        "method": "npm",
+        "runId": "2026-08-24T03-55-12Z-0c9bb4",
+        "status": "install_failed"
+      },
+      {
         "date": "2026-08-15T20:03:31.969Z",
         "errorExcerpt": "npm install @dinglebear/labby@1.8.9 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path /private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-XQW5sf/node_modules/@dinglebear/labby\nnpm error command failed\nnpm error command sh -c node scripts/install.js\nnpm error labby: Unsupported platform darwin/arm64. Supported targets: linux/x64, win32/x64.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-XQW5sf/.npm-cache/_logs/2026-08-15T20_06_48_273Z-debug-0.log",
         "installMs": 973,
@@ -47,6 +55,24 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-08-24T03:55:10.120Z",
+        "installMs": 2122,
+        "method": "npm",
+        "runId": "2026-08-24T03-55-10Z-89df21",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "gateway",
+          "doctor",
+          "setup",
+          "snippets",
+          "server_logs",
+          "fs",
+          "add_server",
+          "gateway_status"
+        ]
+      },
       {
         "date": "2026-08-15T20:03:21.360Z",
         "installMs": 1855,
@@ -153,6 +179,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-24T03:55:32.271Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n04:12:18   INFO  starting serve command  transport=Stdio  phase=serve.start  requested_service_count=0  subsystem=cli\n04:12:18   INFO  starting labby serve bootstrap  transport=Stdio  bind_host=127.0.0.1  bind_port=8765  config_path=C:\\Users\\runneradmin\\.config/labby/config.toml  phase=bootstrap.start  requested_service_count=0  subsystem=startup\n04:12:18   INFO  service registry ready  phase=bootstrap.registry  selected_service_count=6  subsystem=startup\n04:12:19   INFO  http auth configuration resolved  auth_mode=Bearer  bearer_token_configured=false  phase=auth.config  public_url_configured=false  subsystem=api_server\n04:12:19   INFO  upstream oauth runtime disabled because no public url is configured  phase=oauth.runtime.disabled  subsystem=gateway_client\n04:12:19   INFO  preparing lazy upstream gateway catalog  oauth_upstream_count=0  phase=discovery.lazy.start  subsystem=gateway_client  upstream_count=0",
+        "installMs": 35188,
+        "method": "npm",
+        "runId": "2026-08-24T03-55-32Z-50efc3",
+        "status": "timeout"
+      },
       {
         "date": "2026-08-15T20:03:36.582Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n20:35:54   INFO  starting serve command  transport=Stdio  phase=serve.start  requested_service_count=0  subsystem=cli\n20:35:54   INFO  starting labby serve bootstrap  transport=Stdio  bind_host=127.0.0.1  bind_port=8765  config_path=C:\\Users\\runneradmin\\.config/labby/config.toml  phase=bootstrap.start  requested_service_count=0  subsystem=startup\n20:35:54   INFO  service registry ready  phase=bootstrap.registry  selected_service_count=6  subsystem=startup\n20:35:55   INFO  http auth configuration resolved  auth_mode=Bearer  bearer_token_configured=false  phase=auth.config  public_url_configured=false  subsystem=api_server\n20:35:55   INFO  upstream oauth runtime disabled because no public url is configured  phase=oauth.runtime.disabled  subsystem=gateway_client\n20:35:55   INFO  preparing lazy upstream gateway catalog  oauth_upstream_count=0  phase=discovery.lazy.start  subsystem=gateway_client  upstream_count=0",

@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-24T03:55:12.736Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: pected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ plugins \"... is not valid JSON\nUnexpected token '│', \"│ mcp     \"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ govern  \"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ ontology\"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON",
+        "method": "pypi",
+        "runId": "2026-08-24T03-55-12Z-0c9bb4",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-17T03:51:17.462Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: pected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ plugins \"... is not valid JSON\nUnexpected token '│', \"│ mcp     \"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ govern  \"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ ontology\"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON",
         "method": "pypi",
@@ -39,6 +46,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-24T03:55:10.120Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: pected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ plugins \"... is not valid JSON\nUnexpected token '│', \"│ mcp     \"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ govern  \"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ ontology\"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON",
+        "method": "pypi",
+        "runId": "2026-08-24T03-55-10Z-89df21",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-17T03:51:22.615Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: pected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ plugins \"... is not valid JSON\nUnexpected token '│', \"│ mcp     \"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ govern  \"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ ontology\"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON",
         "method": "pypi",
@@ -75,6 +89,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-24T03:55:32.271Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: pected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ plugins \"... is not valid JSON\nUnexpected token '│', \"│ mcp     \"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ govern  \"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ ontology\"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '└', \"└─────────\"... is not valid JSON",
+        "method": "pypi",
+        "runId": "2026-08-24T03-55-32Z-50efc3",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-17T03:51:42.379Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: pected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ plugins \"... is not valid JSON\nUnexpected token '│', \"│ mcp     \"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ govern  \"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ ontology\"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '└', \"└─────────\"... is not valid JSON",

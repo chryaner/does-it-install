@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-24T03:55:11.998Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: r '}' in JSON at position 3 (line 1 column 4)\nUnexpected token 's', \"    serve     \"... is not valid JSON\nUnexpected token 'g', \"    generate  \"... is not valid JSON\nUnexpected token 's', \"    setup     \"... is not valid JSON\nUnexpected token 'p', \"    publish   \"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'o', \"options:\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)",
+        "method": "pypi",
+        "runId": "2026-08-24T03-55-11Z-b676ff",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T20:03:31.969Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 40 packages in 271ms\nAn executable named `sac-sdk` is not provided by package `sac-sdk`.\nThe following executables are available:\n- sac\n\nUse `uv tool run --from sac-sdk sac` instead.",
         "method": "pypi",
@@ -39,6 +46,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-24T03:55:16.264Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: r '}' in JSON at position 3 (line 1 column 4)\nUnexpected token 's', \"    serve     \"... is not valid JSON\nUnexpected token 'g', \"    generate  \"... is not valid JSON\nUnexpected token 's', \"    setup     \"... is not valid JSON\nUnexpected token 'p', \"    publish   \"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'o', \"options:\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)",
+        "method": "pypi",
+        "runId": "2026-08-24T03-55-16Z-ccc61b",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T20:03:21.360Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 40 packages in 35ms\nAn executable named `sac-sdk` is not provided by package `sac-sdk`.\nThe following executables are available:\n- sac\n\nUse `uv tool run --from sac-sdk sac` instead.",
         "method": "pypi",
@@ -75,6 +89,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-24T03:55:34.076Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: r '}' in JSON at position 3 (line 1 column 4)\nUnexpected token 's', \"    serve     \"... is not valid JSON\nUnexpected token 'g', \"    generate  \"... is not valid JSON\nUnexpected token 's', \"    setup     \"... is not valid JSON\nUnexpected token 'p', \"    publish   \"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'o', \"options:\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)",
+        "method": "pypi",
+        "runId": "2026-08-24T03-55-34Z-3d919d",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-15T20:03:36.582Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 41 packages in 9.71s\nAn executable named `sac-sdk` is not provided by package `sac-sdk`.\nThe following executables are available:\n- sac.exe\n\nUse `uv tool run --from sac-sdk sac.exe` instead.",

@@ -1,0 +1,60 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-24T03:55:12.736Z",
+        "installMs": 1175,
+        "method": "npm",
+        "runId": "2026-08-24T03-55-12Z-0c9bb4",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "sb_blast",
+          "sb_impact",
+          "sb_path",
+          "sb_keystones",
+          "sb_map",
+          "sb_ask"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-24T03:55:10.120Z",
+        "installMs": 1033,
+        "method": "npm",
+        "runId": "2026-08-24T03-55-10Z-89df21",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "sb_blast",
+          "sb_impact",
+          "sb_path",
+          "sb_keystones",
+          "sb_map",
+          "sb_ask"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-24T03:55:32.271Z",
+        "installMs": 4767,
+        "method": "npm",
+        "runId": "2026-08-24T03-55-32Z-50efc3",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "sb_blast",
+          "sb_impact",
+          "sb_path",
+          "sb_keystones",
+          "sb_map",
+          "sb_ask"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.spiderbrain/spiderbrain",
+  "slug": "ai.spiderbrain__spiderbrain"
+}

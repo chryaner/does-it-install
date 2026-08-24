@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-24T03:55:16.126Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":{\"code\":\"AuthenticationException\",\"message\":null}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-24T03-55-16Z-99731b",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T20:03:19.390Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":{\"code\":\"AuthenticationException\",\"message\":null}} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -25,6 +32,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-24T03:55:14.308Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":{\"code\":\"AuthenticationException\",\"message\":null}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-24T03-55-14Z-e203db",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T20:03:17.296Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":{\"code\":\"AuthenticationException\",\"message\":null}} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -47,6 +61,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-24T03:55:29.849Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":{\"code\":\"AuthenticationException\",\"message\":null}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-24T03-55-29Z-58153a",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-15T20:03:37.930Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":{\"code\":\"AuthenticationException\",\"message\":null}} (endpoint reachable but requires credentials the harness does not send)",

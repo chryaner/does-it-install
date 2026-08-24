@@ -2,6 +2,23 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-24T03:55:11.998Z",
+        "method": "remote-http",
+        "runId": "2026-08-24T03-55-11Z-b676ff",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "getEpisodes",
+          "getEpisodesGuest",
+          "getEpisodesGuestMetadatajson",
+          "getEpisodesGuestTranscriptformat",
+          "getEpisodesGuestChunks",
+          "getEpisodesGuestChunksChunkIdtxt",
+          "getSearch",
+          "postSearch"
+        ]
+      },
+      {
         "date": "2026-08-17T03:51:22.049Z",
         "method": "remote-http",
         "runId": "2026-08-17T03-51-22Z-a4be9d",
@@ -123,6 +140,23 @@
     ],
     "linux": [
       {
+        "date": "2026-08-24T03:55:16.264Z",
+        "method": "remote-http",
+        "runId": "2026-08-24T03-55-16Z-ccc61b",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "getEpisodes",
+          "getEpisodesGuest",
+          "getEpisodesGuestMetadatajson",
+          "getEpisodesGuestTranscriptformat",
+          "getEpisodesGuestChunks",
+          "getEpisodesGuestChunksChunkIdtxt",
+          "getSearch",
+          "postSearch"
+        ]
+      },
+      {
         "date": "2026-08-17T03:51:19.235Z",
         "method": "remote-http",
         "runId": "2026-08-17T03-51-19Z-2fb08c",
@@ -243,6 +277,23 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-24T03:55:34.076Z",
+        "method": "remote-http",
+        "runId": "2026-08-24T03-55-34Z-3d919d",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "getEpisodes",
+          "getEpisodesGuest",
+          "getEpisodesGuestMetadatajson",
+          "getEpisodesGuestTranscriptformat",
+          "getEpisodesGuestChunks",
+          "getEpisodesGuestChunksChunkIdtxt",
+          "getSearch",
+          "postSearch"
+        ]
+      },
       {
         "date": "2026-08-17T03:51:31.244Z",
         "method": "remote-http",

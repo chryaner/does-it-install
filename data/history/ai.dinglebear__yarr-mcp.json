@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-24T03:55:12.736Z",
+        "errorExcerpt": "npm install yarr-mcp@1.1.1 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for yarr-mcp@1.1.1.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-ke0Yws/.npm-cache/_logs/2026-08-24T03_56_54_478Z-debug-0.log",
+        "installMs": 433,
+        "method": "npm",
+        "runId": "2026-08-24T03-55-12Z-0c9bb4",
+        "status": "install_failed"
+      },
+      {
         "date": "2026-08-15T20:03:27.636Z",
         "errorExcerpt": "npm install yarr-mcp@1.1.1 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for yarr-mcp@1.1.1.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-wcehGm/.npm-cache/_logs/2026-08-15T20_06_10_904Z-debug-0.log",
         "installMs": 387,
@@ -48,6 +56,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-24T03:55:10.120Z",
+        "errorExcerpt": "npm install yarr-mcp@1.1.1 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for yarr-mcp@1.1.1.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /tmp/does-it-install/dii-npm-uK6YLM/.npm-cache/_logs/2026-08-24T03_56_39_952Z-debug-0.log",
+        "installMs": 344,
+        "method": "npm",
+        "runId": "2026-08-24T03-55-10Z-89df21",
+        "status": "install_failed"
+      },
+      {
         "date": "2026-08-15T20:03:19.780Z",
         "errorExcerpt": "npm install yarr-mcp@1.1.1 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for yarr-mcp@1.1.1.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /tmp/does-it-install/dii-npm-hVAnbV/.npm-cache/_logs/2026-08-15T20_05_20_995Z-debug-0.log",
         "installMs": 330,
@@ -93,6 +109,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-24T03:55:32.271Z",
+        "errorExcerpt": "npm install yarr-mcp@1.1.1 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for yarr-mcp@1.1.1.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-r2a2Rc\\.npm-cache\\_logs\\2026-08-24T04_08_19_351Z-debug-0.log",
+        "installMs": 962,
+        "method": "npm",
+        "runId": "2026-08-24T03-55-32Z-50efc3",
+        "status": "install_failed"
+      },
       {
         "date": "2026-08-15T20:03:37.931Z",
         "errorExcerpt": "npm install yarr-mcp@1.1.1 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for yarr-mcp@1.1.1.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-gyn0bS\\.npm-cache\\_logs\\2026-08-15T20_28_39_226Z-debug-0.log",

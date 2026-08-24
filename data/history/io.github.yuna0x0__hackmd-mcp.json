@@ -2,6 +2,28 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-24T03:55:12.736Z",
+        "installMs": 7137,
+        "method": "npm",
+        "runId": "2026-08-24T03-55-12Z-0c9bb4",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "get_user_info",
+          "list_teams",
+          "get_history",
+          "list_team_notes",
+          "create_team_note",
+          "update_team_note",
+          "delete_team_note",
+          "list_user_notes",
+          "get_note",
+          "create_note",
+          "update_note",
+          "delete_note"
+        ]
+      },
+      {
         "date": "2026-08-17T03:51:19.649Z",
         "installMs": 10645,
         "method": "npm",
@@ -134,6 +156,28 @@
     ],
     "linux": [
       {
+        "date": "2026-08-24T03:55:10.120Z",
+        "installMs": 3767,
+        "method": "npm",
+        "runId": "2026-08-24T03-55-10Z-89df21",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "get_user_info",
+          "list_teams",
+          "get_history",
+          "list_team_notes",
+          "create_team_note",
+          "update_team_note",
+          "delete_team_note",
+          "list_user_notes",
+          "get_note",
+          "create_note",
+          "update_note",
+          "delete_note"
+        ]
+      },
+      {
         "date": "2026-08-17T03:51:17.600Z",
         "installMs": 6641,
         "method": "npm",
@@ -265,6 +309,28 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-24T03:55:32.271Z",
+        "installMs": 64981,
+        "method": "npm",
+        "runId": "2026-08-24T03-55-32Z-50efc3",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "get_user_info",
+          "list_teams",
+          "get_history",
+          "list_team_notes",
+          "create_team_note",
+          "update_team_note",
+          "delete_team_note",
+          "list_user_notes",
+          "get_note",
+          "create_note",
+          "update_note",
+          "delete_note"
+        ]
+      },
       {
         "date": "2026-08-17T03:51:29.413Z",
         "installMs": 118718,

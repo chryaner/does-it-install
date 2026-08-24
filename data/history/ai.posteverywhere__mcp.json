@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-24T03:55:12.736Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: API key must start with \"pe_live_\".",
+        "installMs": 5588,
+        "method": "npm",
+        "runId": "2026-08-24T03-55-12Z-0c9bb4",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T20:03:31.969Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: API key must start with \"pe_live_\".",
         "installMs": 3270,
@@ -34,6 +42,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-24T03:55:10.120Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: API key must start with \"pe_live_\".",
+        "installMs": 4552,
+        "method": "npm",
+        "runId": "2026-08-24T03-55-10Z-89df21",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-15T20:03:21.360Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: API key must start with \"pe_live_\".",
         "installMs": 4207,
@@ -65,6 +81,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-24T03:55:32.271Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: API key must start with \"pe_live_\".",
+        "installMs": 85813,
+        "method": "npm",
+        "runId": "2026-08-24T03-55-32Z-50efc3",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-15T20:03:36.582Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: API key must start with \"pe_live_\".",

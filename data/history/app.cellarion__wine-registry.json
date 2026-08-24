@@ -2,6 +2,22 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-24T03:55:16.126Z",
+        "method": "remote-http",
+        "runId": "2026-08-24T03-55-16Z-99731b",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "get_source_info",
+          "search_registry",
+          "get_wine",
+          "find_similar_wines",
+          "drink_window_for",
+          "list_guides",
+          "read_guide"
+        ]
+      },
+      {
         "date": "2026-08-17T03:51:22.049Z",
         "method": "remote-http",
         "runId": "2026-08-17T03-51-22Z-a4be9d",
@@ -84,6 +100,22 @@
     ],
     "linux": [
       {
+        "date": "2026-08-24T03:55:14.308Z",
+        "method": "remote-http",
+        "runId": "2026-08-24T03-55-14Z-e203db",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "get_source_info",
+          "search_registry",
+          "get_wine",
+          "find_similar_wines",
+          "drink_window_for",
+          "list_guides",
+          "read_guide"
+        ]
+      },
+      {
         "date": "2026-08-17T03:51:19.235Z",
         "method": "remote-http",
         "runId": "2026-08-17T03-51-19Z-2fb08c",
@@ -165,6 +197,22 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-24T03:55:29.849Z",
+        "method": "remote-http",
+        "runId": "2026-08-24T03-55-29Z-58153a",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "get_source_info",
+          "search_registry",
+          "get_wine",
+          "find_similar_wines",
+          "drink_window_for",
+          "list_guides",
+          "read_guide"
+        ]
+      },
       {
         "date": "2026-08-17T03:51:31.244Z",
         "method": "remote-http",

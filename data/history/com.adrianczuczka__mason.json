@@ -2,6 +2,34 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-24T03:55:12.736Z",
+        "installMs": 8705,
+        "method": "npm",
+        "runId": "2026-08-24T03-55-12Z-0c9bb4",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "mason_init",
+          "mason_complete_init",
+          "mason_set_confluence",
+          "full_analysis",
+          "analyze_project",
+          "get_code_samples",
+          "get_snapshot",
+          "get_context",
+          "generate_snapshot_batch",
+          "save_partial_snapshot",
+          "reduce_snapshot",
+          "save_snapshot",
+          "save_decision",
+          "mason_check_drift",
+          "verify_snapshot",
+          "save_verification",
+          "get_impact",
+          "export_to_confluence"
+        ]
+      },
+      {
         "date": "2026-08-17T03:51:17.462Z",
         "installMs": 10377,
         "method": "npm",
@@ -142,6 +170,34 @@
     ],
     "linux": [
       {
+        "date": "2026-08-24T03:55:10.120Z",
+        "installMs": 5044,
+        "method": "npm",
+        "runId": "2026-08-24T03-55-10Z-89df21",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "mason_init",
+          "mason_complete_init",
+          "mason_set_confluence",
+          "full_analysis",
+          "analyze_project",
+          "get_code_samples",
+          "get_snapshot",
+          "get_context",
+          "generate_snapshot_batch",
+          "save_partial_snapshot",
+          "reduce_snapshot",
+          "save_snapshot",
+          "save_decision",
+          "mason_check_drift",
+          "verify_snapshot",
+          "save_verification",
+          "get_impact",
+          "export_to_confluence"
+        ]
+      },
+      {
         "date": "2026-08-17T03:51:22.615Z",
         "installMs": 7512,
         "method": "npm",
@@ -281,6 +337,34 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-24T03:55:32.271Z",
+        "installMs": 195627,
+        "method": "npm",
+        "runId": "2026-08-24T03-55-32Z-50efc3",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "mason_init",
+          "mason_complete_init",
+          "mason_set_confluence",
+          "full_analysis",
+          "analyze_project",
+          "get_code_samples",
+          "get_snapshot",
+          "get_context",
+          "generate_snapshot_batch",
+          "save_partial_snapshot",
+          "reduce_snapshot",
+          "save_snapshot",
+          "save_decision",
+          "mason_check_drift",
+          "verify_snapshot",
+          "save_verification",
+          "get_impact",
+          "export_to_confluence"
+        ]
+      },
       {
         "date": "2026-08-17T03:51:42.379Z",
         "installMs": 281027,

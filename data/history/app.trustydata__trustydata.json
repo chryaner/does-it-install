@@ -2,6 +2,24 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-24T03:55:11.998Z",
+        "method": "remote-http",
+        "runId": "2026-08-24T03-55-11Z-b676ff",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "verify_address",
+          "search_address",
+          "get_address_details",
+          "search_nearby",
+          "search_company",
+          "get_company_details",
+          "search_locality",
+          "route_matrix",
+          "compute_route"
+        ]
+      },
+      {
         "date": "2026-08-15T20:03:31.969Z",
         "method": "remote-http",
         "runId": "2026-08-15T20-03-31Z-6fe095",
@@ -58,6 +76,24 @@
     ],
     "linux": [
       {
+        "date": "2026-08-24T03:55:16.264Z",
+        "method": "remote-http",
+        "runId": "2026-08-24T03-55-16Z-ccc61b",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "verify_address",
+          "search_address",
+          "get_address_details",
+          "search_nearby",
+          "search_company",
+          "get_company_details",
+          "search_locality",
+          "route_matrix",
+          "compute_route"
+        ]
+      },
+      {
         "date": "2026-08-15T20:03:21.360Z",
         "method": "remote-http",
         "runId": "2026-08-15T20-03-21Z-32f7d0",
@@ -113,6 +149,24 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-24T03:55:34.076Z",
+        "method": "remote-http",
+        "runId": "2026-08-24T03-55-34Z-3d919d",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "verify_address",
+          "search_address",
+          "get_address_details",
+          "search_nearby",
+          "search_company",
+          "get_company_details",
+          "search_locality",
+          "route_matrix",
+          "compute_route"
+        ]
+      },
       {
         "date": "2026-08-15T20:03:36.582Z",
         "method": "remote-http",

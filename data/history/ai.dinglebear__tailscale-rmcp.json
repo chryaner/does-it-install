@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-24T03:55:11.998Z",
+        "errorExcerpt": "npm install tailscale-rmcp@0.1.3 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for tailscale-rmcp@0.1.3.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-hORjZe/.npm-cache/_logs/2026-08-24T03_56_03_902Z-debug-0.log",
+        "installMs": 476,
+        "method": "npm",
+        "runId": "2026-08-24T03-55-11Z-b676ff",
+        "status": "install_failed"
+      },
+      {
         "date": "2026-08-15T20:03:19.390Z",
         "errorExcerpt": "npm install tailscale-rmcp@0.1.3 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for tailscale-rmcp@0.1.3.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-0dp0gB/.npm-cache/_logs/2026-08-15T20_04_42_782Z-debug-0.log",
         "installMs": 658,
@@ -48,6 +56,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-24T03:55:16.264Z",
+        "errorExcerpt": "npm install tailscale-rmcp@0.1.3 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for tailscale-rmcp@0.1.3.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /tmp/does-it-install/dii-npm-T4PlMn/.npm-cache/_logs/2026-08-24T03_56_10_338Z-debug-0.log",
+        "installMs": 616,
+        "method": "npm",
+        "runId": "2026-08-24T03-55-16Z-ccc61b",
+        "status": "install_failed"
+      },
+      {
         "date": "2026-08-15T20:03:17.296Z",
         "errorExcerpt": "npm install tailscale-rmcp@0.1.3 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for tailscale-rmcp@0.1.3.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /tmp/does-it-install/dii-npm-3FYZmd/.npm-cache/_logs/2026-08-15T20_04_43_256Z-debug-0.log",
         "installMs": 528,
@@ -93,6 +109,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-24T03:55:34.076Z",
+        "errorExcerpt": "npm install tailscale-rmcp@0.1.3 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for tailscale-rmcp@0.1.3.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-w2ZAoN\\.npm-cache\\_logs\\2026-08-24T04_13_33_776Z-debug-0.log",
+        "installMs": 969,
+        "method": "npm",
+        "runId": "2026-08-24T03-55-34Z-3d919d",
+        "status": "install_failed"
+      },
       {
         "date": "2026-08-15T20:03:37.930Z",
         "errorExcerpt": "npm install tailscale-rmcp@0.1.3 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for tailscale-rmcp@0.1.3.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-OQoJ7l\\.npm-cache\\_logs\\2026-08-15T20_21_35_714Z-debug-0.log",

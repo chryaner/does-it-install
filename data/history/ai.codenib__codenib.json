@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-24T03:55:16.126Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading pydantic-core (1.9MiB)\nDownloading numpy (5.1MiB)\nDownloading pygments (1.2MiB)\nDownloading tree-sitter-language-pack (1.9MiB)\n Downloaded pydantic-core\n Downloaded tree-sitter-language-pack\n Downloaded pygments\n   Building codenib==0.2.2\n Downloaded numpy\n      Built codenib==0.2.2\nInstalled 25 packages in 89ms\nerror: the MCP server requires the `mcp` optional dependencies (missing: mcp). Install them with `pip install 'codenib[mcp]'`.",
+        "method": "pypi",
+        "runId": "2026-08-24T03-55-16Z-99731b",
+        "status": "needs_config"
+      },
+      {
         "date": "2026-08-17T03:51:17.462Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading numpy (5.1MiB)\nDownloading tree-sitter-language-pack (1.9MiB)\nDownloading codenib (2.8MiB)\n Downloaded tree-sitter-language-pack\n Downloaded codenib\n Downloaded numpy\nInstalled 25 packages in 66ms\nerror: the MCP server requires the `mcp` optional dependencies (missing: mcp). Install them with `pip install 'codenib[mcp]'`.",
         "method": "pypi",
@@ -60,6 +67,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-24T03:55:14.308Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading pygments (1.2MiB)\nDownloading pydantic-core (2.0MiB)\nDownloading numpy (15.9MiB)\nDownloading tree-sitter-language-pack (2.1MiB)\nDownloading codenib (3.1MiB)\n Downloaded pydantic-core\n Downloaded tree-sitter-language-pack\n Downloaded pygments\n Downloaded codenib\n Downloaded numpy\nInstalled 25 packages in 41ms\nerror: the MCP server requires the `mcp` optional dependencies (missing: mcp). Install them with `pip install 'codenib[mcp]'`.",
+        "method": "pypi",
+        "runId": "2026-08-24T03-55-14Z-e203db",
+        "status": "needs_config"
+      },
+      {
         "date": "2026-08-17T03:51:22.615Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading numpy (15.9MiB)\nDownloading codenib (2.8MiB)\nDownloading tree-sitter-language-pack (2.1MiB)\n Downloaded tree-sitter-language-pack\n Downloaded codenib\n Downloaded numpy\nInstalled 25 packages in 55ms\nerror: the MCP server requires the `mcp` optional dependencies (missing: mcp). Install them with `pip install 'codenib[mcp]'`.",
         "method": "pypi",
@@ -117,6 +131,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-24T03:55:29.849Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading pygments (1.2MiB)\nDownloading pydantic-core (2.0MiB)\nDownloading numpy (11.9MiB)\nDownloading tree-sitter-language-pack (1.9MiB)\n Downloaded tree-sitter-language-pack\n Downloaded pydantic-core\n Downloaded pygments\n   Building codenib==0.2.2\n Downloaded numpy\n      Built codenib==0.2.2\nInstalled 26 packages in 14.04s\nerror: the MCP server requires the `mcp` optional dependencies (missing: mcp). Install them with `pip install 'codenib[mcp]'`.",
+        "method": "pypi",
+        "runId": "2026-08-24T03-55-29Z-58153a",
+        "status": "needs_config"
+      },
       {
         "date": "2026-08-17T03:51:42.379Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading codenib (2.8MiB)\nDownloading tree-sitter-language-pack (1.9MiB)\nDownloading numpy (11.9MiB)\n Downloaded tree-sitter-language-pack\n Downloaded codenib\n Downloaded numpy\nInstalled 26 packages in 10.20s\nerror: the MCP server requires the `mcp` optional dependencies (missing: mcp). Install them with `pip install 'codenib[mcp]'`.",

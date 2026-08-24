@@ -2,6 +2,24 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-24T03:55:11.998Z",
+        "installMs": 33230,
+        "method": "npm",
+        "runId": "2026-08-24T03-55-11Z-b676ff",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "get_traveler_view_info",
+          "get_traveler_location",
+          "tips",
+          "get_setting",
+          "get_traveler_info",
+          "set_traveler_info",
+          "start_traveler_journey",
+          "stop_traveler_journey"
+        ]
+      },
+      {
         "date": "2026-08-17T03:51:17.462Z",
         "installMs": 50646,
         "method": "npm",
@@ -92,6 +110,24 @@
     ],
     "linux": [
       {
+        "date": "2026-08-24T03:55:16.264Z",
+        "installMs": 33501,
+        "method": "npm",
+        "runId": "2026-08-24T03-55-16Z-ccc61b",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "get_traveler_view_info",
+          "get_traveler_location",
+          "tips",
+          "get_setting",
+          "get_traveler_info",
+          "set_traveler_info",
+          "start_traveler_journey",
+          "stop_traveler_journey"
+        ]
+      },
+      {
         "date": "2026-08-17T03:51:22.615Z",
         "installMs": 29018,
         "method": "npm",
@@ -181,6 +217,24 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-24T03:55:34.076Z",
+        "installMs": 210647,
+        "method": "npm",
+        "runId": "2026-08-24T03-55-34Z-3d919d",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "get_traveler_view_info",
+          "get_traveler_location",
+          "tips",
+          "get_setting",
+          "get_traveler_info",
+          "set_traveler_info",
+          "start_traveler_journey",
+          "stop_traveler_journey"
+        ]
+      },
       {
         "date": "2026-08-17T03:51:42.379Z",
         "installMs": 183139,

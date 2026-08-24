@@ -2,6 +2,24 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-24T03:55:12.736Z",
+        "method": "pypi",
+        "runId": "2026-08-24T03-55-12Z-0c9bb4",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "analyze_dns_packets",
+          "analyze_dhcp_packets",
+          "analyze_icmp_packets",
+          "analyze_capinfos",
+          "analyze_tcp_connections",
+          "analyze_tcp_anomalies",
+          "analyze_tcp_retransmissions",
+          "analyze_traffic_flow",
+          "analyze_sip_packets"
+        ]
+      },
+      {
         "date": "2026-08-17T03:51:19.649Z",
         "method": "pypi",
         "runId": "2026-08-17T03-51-19Z-87fe3c",
@@ -112,6 +130,24 @@
     ],
     "linux": [
       {
+        "date": "2026-08-24T03:55:10.120Z",
+        "method": "pypi",
+        "runId": "2026-08-24T03-55-10Z-89df21",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "analyze_dns_packets",
+          "analyze_dhcp_packets",
+          "analyze_icmp_packets",
+          "analyze_capinfos",
+          "analyze_tcp_connections",
+          "analyze_tcp_anomalies",
+          "analyze_tcp_retransmissions",
+          "analyze_traffic_flow",
+          "analyze_sip_packets"
+        ]
+      },
+      {
         "date": "2026-08-17T03:51:17.600Z",
         "method": "pypi",
         "runId": "2026-08-17T03-51-17Z-94884b",
@@ -221,6 +257,24 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-24T03:55:32.271Z",
+        "method": "pypi",
+        "runId": "2026-08-24T03-55-32Z-50efc3",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "analyze_dns_packets",
+          "analyze_dhcp_packets",
+          "analyze_icmp_packets",
+          "analyze_capinfos",
+          "analyze_tcp_connections",
+          "analyze_tcp_anomalies",
+          "analyze_tcp_retransmissions",
+          "analyze_traffic_flow",
+          "analyze_sip_packets"
+        ]
+      },
       {
         "date": "2026-08-17T03:51:29.413Z",
         "method": "pypi",

@@ -1,0 +1,60 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-24T03:55:11.998Z",
+        "installMs": 5407,
+        "method": "npm",
+        "runId": "2026-08-24T03-55-11Z-b676ff",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "post--v3-sms-send",
+          "get--v3-search-contacts-lists",
+          "post--v3-sms-price",
+          "get--v3-sms-templates",
+          "get--v3-statistics-sms",
+          "get--v3-sms-history"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-24T03:55:16.264Z",
+        "installMs": 6975,
+        "method": "npm",
+        "runId": "2026-08-24T03-55-16Z-ccc61b",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "post--v3-sms-send",
+          "get--v3-search-contacts-lists",
+          "post--v3-sms-price",
+          "get--v3-sms-templates",
+          "get--v3-statistics-sms",
+          "get--v3-sms-history"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-24T03:55:34.076Z",
+        "installMs": 196472,
+        "method": "npm",
+        "runId": "2026-08-24T03-55-34Z-3d919d",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "post--v3-sms-send",
+          "get--v3-search-contacts-lists",
+          "post--v3-sms-price",
+          "get--v3-sms-templates",
+          "get--v3-statistics-sms",
+          "get--v3-sms-history"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.clicksend/clicksend-mcp-server",
+  "slug": "com.clicksend__clicksend-mcp-server"
+}
