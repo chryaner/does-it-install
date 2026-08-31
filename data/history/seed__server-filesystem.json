@@ -2,6 +2,30 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-31T09:25:08.808Z",
+        "installMs": 8309,
+        "method": "npm",
+        "runId": "2026-08-31T09-25-08Z-f48f19",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "read_file",
+          "read_text_file",
+          "read_media_file",
+          "read_multiple_files",
+          "write_file",
+          "edit_file",
+          "create_directory",
+          "list_directory",
+          "list_directory_with_sizes",
+          "directory_tree",
+          "move_file",
+          "search_files",
+          "get_file_info",
+          "list_allowed_directories"
+        ]
+      },
+      {
         "date": "2026-08-24T03:55:16.126Z",
         "installMs": 9160,
         "method": "npm",
@@ -263,6 +287,30 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-08-31T09:25:01.858Z",
+        "installMs": 7219,
+        "method": "npm",
+        "runId": "2026-08-31T09-25-01Z-84fff2",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "read_file",
+          "read_text_file",
+          "read_media_file",
+          "read_multiple_files",
+          "write_file",
+          "edit_file",
+          "create_directory",
+          "list_directory",
+          "list_directory_with_sizes",
+          "directory_tree",
+          "move_file",
+          "search_files",
+          "get_file_info",
+          "list_allowed_directories"
+        ]
+      },
       {
         "date": "2026-08-24T03:55:14.308Z",
         "installMs": 8711,
@@ -548,6 +596,30 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-31T09:25:18.401Z",
+        "installMs": 137778,
+        "method": "npm",
+        "runId": "2026-08-31T09-25-18Z-5a3709",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "read_file",
+          "read_text_file",
+          "read_media_file",
+          "read_multiple_files",
+          "write_file",
+          "edit_file",
+          "create_directory",
+          "list_directory",
+          "list_directory_with_sizes",
+          "directory_tree",
+          "move_file",
+          "search_files",
+          "get_file_info",
+          "list_allowed_directories"
+        ]
+      },
       {
         "date": "2026-08-24T03:55:29.849Z",
         "installMs": 188389,

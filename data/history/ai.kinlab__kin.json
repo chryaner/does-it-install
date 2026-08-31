@@ -2,6 +2,36 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-31T09:25:08.946Z",
+        "installMs": 550,
+        "method": "npm",
+        "runId": "2026-08-31T09-25-08Z-63eeb8",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "find_references",
+          "get_context_pack",
+          "get_entity_source",
+          "graph_neighborhood",
+          "impact_analysis",
+          "kin_artifact_list",
+          "kin_artifact_read",
+          "kin_graph_status",
+          "kin_provenance_query",
+          "kin_session_end",
+          "kin_session_heartbeat",
+          "kin_session_start",
+          "kin_transaction_abort",
+          "kin_transaction_begin",
+          "kin_transaction_commit",
+          "kin_transaction_stage",
+          "list_file_entities",
+          "semantic_locate",
+          "semantic_search",
+          "trace_data_flow"
+        ]
+      },
+      {
         "date": "2026-08-24T03:55:16.126Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nNo .kin/ found. Run `kin init .` first, or set KIN_MCP_AUTO_INIT=1 to allow this wrapper to initialize the repo.",
         "installMs": 1749,
@@ -50,6 +80,36 @@
     ],
     "linux": [
       {
+        "date": "2026-08-31T09:25:00.665Z",
+        "installMs": 1076,
+        "method": "npm",
+        "runId": "2026-08-31T09-25-00Z-713a67",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "find_references",
+          "get_context_pack",
+          "get_entity_source",
+          "graph_neighborhood",
+          "impact_analysis",
+          "kin_artifact_list",
+          "kin_artifact_read",
+          "kin_graph_status",
+          "kin_provenance_query",
+          "kin_session_end",
+          "kin_session_heartbeat",
+          "kin_session_start",
+          "kin_transaction_abort",
+          "kin_transaction_begin",
+          "kin_transaction_commit",
+          "kin_transaction_stage",
+          "list_file_entities",
+          "semantic_locate",
+          "semantic_search",
+          "trace_data_flow"
+        ]
+      },
+      {
         "date": "2026-08-24T03:55:14.308Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nNo .kin/ found. Run `kin init .` first, or set KIN_MCP_AUTO_INIT=1 to allow this wrapper to initialize the repo.",
         "installMs": 1029,
@@ -97,6 +157,36 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-31T09:25:22.660Z",
+        "installMs": 1608,
+        "method": "npm",
+        "runId": "2026-08-31T09-25-22Z-940db7",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "find_references",
+          "get_context_pack",
+          "get_entity_source",
+          "graph_neighborhood",
+          "impact_analysis",
+          "kin_artifact_list",
+          "kin_artifact_read",
+          "kin_graph_status",
+          "kin_provenance_query",
+          "kin_session_end",
+          "kin_session_heartbeat",
+          "kin_session_start",
+          "kin_transaction_abort",
+          "kin_transaction_begin",
+          "kin_transaction_commit",
+          "kin_transaction_stage",
+          "list_file_entities",
+          "semantic_locate",
+          "semantic_search",
+          "trace_data_flow"
+        ]
+      },
       {
         "date": "2026-08-24T03:55:29.849Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nNo .kin/ found. Run `kin init .` first, or set KIN_MCP_AUTO_INIT=1 to allow this wrapper to initialize the repo.",

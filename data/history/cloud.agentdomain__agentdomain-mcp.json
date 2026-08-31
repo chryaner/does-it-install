@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-31T09:25:08.808Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 32 packages in 83ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/kdXP22mg2v2cR1DK/bin/agentdomain-mcp\", line 6, in <module>\n    from agentdomain_mcp.server import main\n  File \"/Users/runner/.cache/uv/archive-v0/kdXP22mg2v2cR1DK/lib/python3.14/site-packages/agentdomain_mcp/server.py\", line 6, in <module>\n    from mcp.server.fastmcp import FastMCP\n  File \"/Users/runner/.cache/uv/archive-v0/kdXP22mg2v2cR1DK/lib/python3.14/site-packages/mcp/server/fastmcp.py\", line 16, in <module>\n    raise ModuleNotFoundError(_MESSAGE, name=__name__)\nModuleNotFoundError: No module named 'mcp.server.fastmcp'. This is mcp 2.x, where FastMCP was renamed to MCPServer (from mcp.server.mcpserver import MCPServer) and other APIs changed; see the migration guide at https://py.sdk.modelcontextprotocol.io/v2/migration/#fastmcp-renamed-to-mcpserver or pin 'mcp<2' to keep running v1 code.",
+        "method": "pypi",
+        "runId": "2026-08-31T09-25-08Z-f48f19",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-24T03:55:12.736Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 32 packages in 28ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/e7qp4Bgy7yuyrMQp/bin/agentdomain-mcp\", line 6, in <module>\n    from agentdomain_mcp.server import main\n  File \"/Users/runner/.cache/uv/archive-v0/e7qp4Bgy7yuyrMQp/lib/python3.14/site-packages/agentdomain_mcp/server.py\", line 6, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
         "method": "pypi",
@@ -32,6 +39,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-31T09:25:01.858Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 32 packages in 13ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/1VBEKR7DtVEHQ3FE/bin/agentdomain-mcp\", line 6, in <module>\n    from agentdomain_mcp.server import main\n  File \"/home/runner/.cache/uv/archive-v0/1VBEKR7DtVEHQ3FE/lib/python3.12/site-packages/agentdomain_mcp/server.py\", line 6, in <module>\n    from mcp.server.fastmcp import FastMCP\n  File \"/home/runner/.cache/uv/archive-v0/1VBEKR7DtVEHQ3FE/lib/python3.12/site-packages/mcp/server/fastmcp.py\", line 16, in <module>\n    raise ModuleNotFoundError(_MESSAGE, name=__name__)\nModuleNotFoundError: No module named 'mcp.server.fastmcp'. This is mcp 2.x, where FastMCP was renamed to MCPServer (from mcp.server.mcpserver import MCPServer) and other APIs changed; see the migration guide at https://py.sdk.modelcontextprotocol.io/v2/migration/#fastmcp-renamed-to-mcpserver or pin 'mcp<2' to keep running v1 code.",
+        "method": "pypi",
+        "runId": "2026-08-31T09-25-01Z-84fff2",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-24T03:55:10.120Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 32 packages in 17ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/92NDKElomOnDBUCL/bin/agentdomain-mcp\", line 6, in <module>\n    from agentdomain_mcp.server import main\n  File \"/home/runner/.cache/uv/archive-v0/92NDKElomOnDBUCL/lib/python3.12/site-packages/agentdomain_mcp/server.py\", line 6, in <module>\n    from mcp.server.fastmcp import FastMCP\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",
         "method": "pypi",
@@ -61,6 +75,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-31T09:25:18.401Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 33 packages in 4.29s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\HjBtcMXhpBreWhGj\\Scripts\\agentdomain-mcp.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\HjBtcMXhpBreWhGj\\Lib\\site-packages\\agentdomain_mcp\\server.py\", line 6, in <module>\r\n    from mcp.server.fastmcp import FastMCP\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\HjBtcMXhpBreWhGj\\Lib\\site-packages\\mcp\\server\\fastmcp.py\", line 16, in <module>\r\n    raise ModuleNotFoundError(_MESSAGE, name=__name__)\r\nModuleNotFoundError: No module named 'mcp.server.fastmcp'. This is mcp 2.x, where FastMCP was renamed to MCPServer (from mcp.server.mcpserver import MCPServer) and other APIs changed; see the migration guide at https://py.sdk.modelcontextprotocol.io/v2/migration/#fastmcp-renamed-to-mcpserver or pin 'mcp<2' to keep running v1 code.",
+        "method": "pypi",
+        "runId": "2026-08-31T09-25-18Z-5a3709",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-24T03:55:32.271Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 34 packages in 6.27s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\A01KC_YZ0aJVheL9\\Scripts\\agentdomain-mcp.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\A01KC_YZ0aJVheL9\\Lib\\site-packages\\agentdomain_mcp\\server.py\", line 6, in <module>\r\n    from mcp.server.fastmcp import FastMCP\r\nModuleNotFoundError: No module named 'mcp.server.fastmcp'",

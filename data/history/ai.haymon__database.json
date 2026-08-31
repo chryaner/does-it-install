@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-31T09:25:08.946Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-31T09-25-08Z-63eeb8",
+        "status": "skipped"
+      },
+      {
         "date": "2026-08-24T03:55:16.126Z",
         "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
         "installMs": 0,
@@ -56,6 +64,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-31T09:25:00.665Z",
+        "errorExcerpt": "docker pull ghcr.io/haymon-ai/database:0.7.0 exited with code 1\n--- stderr (tail) ---\nError response from daemon: Head \"https://ghcr.io/v2/haymon-ai/database/manifests/0.7.0\": denied",
+        "installMs": 85,
+        "method": "oci",
+        "runId": "2026-08-31T09-25-00Z-713a67",
+        "status": "install_failed"
+      },
+      {
         "date": "2026-08-24T03:55:14.308Z",
         "errorExcerpt": "docker pull ghcr.io/haymon-ai/database:0.7.0 exited with code 1\n--- stderr (tail) ---\nError response from daemon: Head \"https://ghcr.io/v2/haymon-ai/database/manifests/0.7.0\": denied",
         "installMs": 731,
@@ -109,6 +125,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-31T09:25:22.660Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-31T09-25-22Z-940db7",
+        "status": "skipped"
+      },
       {
         "date": "2026-08-24T03:55:29.849Z",
         "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",

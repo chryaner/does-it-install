@@ -1,0 +1,54 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-31T09:25:08.808Z",
+        "method": "pypi",
+        "runId": "2026-08-31T09-25-08Z-f48f19",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "list_rfo_parts",
+          "get_rfo_part",
+          "list_rfo_agency_deviations",
+          "get_rfo_agency_deviation",
+          "get_rfo_guidance"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-31T09:25:01.858Z",
+        "method": "pypi",
+        "runId": "2026-08-31T09-25-01Z-84fff2",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "list_rfo_parts",
+          "get_rfo_part",
+          "list_rfo_agency_deviations",
+          "get_rfo_agency_deviation",
+          "get_rfo_guidance"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-31T09:25:18.401Z",
+        "method": "pypi",
+        "runId": "2026-08-31T09-25-18Z-5a3709",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "list_rfo_parts",
+          "get_rfo_part",
+          "list_rfo_agency_deviations",
+          "get_rfo_agency_deviation",
+          "get_rfo_guidance"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.1102tools/acquisition-gov-mcp",
+  "slug": "com.1102tools__acquisition-gov-mcp"
+}

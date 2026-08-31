@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-31T09:25:02.965Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32001,\"message\":\"Authorization header with a JWT (carrying a `region` claim) is required.\"},\"id\":null} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-31T09-25-02Z-16d148",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-24T03:55:11.998Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32001,\"message\":\"Authorization header with a JWT (carrying a `region` claim) is required.\"},\"id\":null} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -46,6 +53,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-31T09:25:05.771Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32001,\"message\":\"Authorization header with a JWT (carrying a `region` claim) is required.\"},\"id\":null} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-31T09-25-05Z-a5971e",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-24T03:55:16.264Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32001,\"message\":\"Authorization header with a JWT (carrying a `region` claim) is required.\"},\"id\":null} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -89,6 +103,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-31T09:25:20.393Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32001,\"message\":\"Authorization header with a JWT (carrying a `region` claim) is required.\"},\"id\":null} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-31T09-25-20Z-818ef3",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-24T03:55:34.076Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32001,\"message\":\"Authorization header with a JWT (carrying a `region` claim) is required.\"},\"id\":null} (endpoint reachable but requires credentials the harness does not send)",

@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-31T09:25:08.946Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n[midplane] anonymous telemetry is enabled (install ID written to /Users/runner/.midplane/install-id).\n[midplane] see TELEMETRY.md for what's collected and how to disable.\n[midplane] disable: MIDPLANE_TELEMETRY=0  (or DO_NOT_TRACK=1)\n(node:10736) ExperimentalWarning: SQLite is an experimental feature and might change at any time\n(Use `node --trace-warnings ...` to show where the warning was created)\n{\"level\":30,\"time\":1788168389972,\"service\":\"midplane-mcp-server\",\"port\":8080,\"url\":\"http://0.0.0.0:8080/mcp\",\"msg\":\"http transport listening\"}",
+        "installMs": 6318,
+        "method": "npm",
+        "runId": "2026-08-31T09-25-08Z-63eeb8",
+        "status": "timeout"
+      },
+      {
         "date": "2026-08-24T03:55:11.998Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n[midplane] anonymous telemetry is enabled (install ID written to /Users/runner/.midplane/install-id).\n[midplane] see TELEMETRY.md for what's collected and how to disable.\n[midplane] disable: MIDPLANE_TELEMETRY=0  (or DO_NOT_TRACK=1)\n(node:8141) ExperimentalWarning: SQLite is an experimental feature and might change at any time\n(Use `node --trace-warnings ...` to show where the warning was created)\n{\"level\":30,\"time\":1787543773486,\"service\":\"midplane-mcp-server\",\"port\":8080,\"url\":\"http://0.0.0.0:8080/mcp\",\"msg\":\"http transport listening\"}",
         "installMs": 6420,
@@ -12,6 +20,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-31T09:25:00.665Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n[midplane] anonymous telemetry is enabled (install ID written to /home/runner/.midplane/install-id).\n[midplane] see TELEMETRY.md for what's collected and how to disable.\n[midplane] disable: MIDPLANE_TELEMETRY=0  (or DO_NOT_TRACK=1)\n(node:3754) ExperimentalWarning: SQLite is an experimental feature and might change at any time\n(Use `node --trace-warnings ...` to show where the warning was created)\n{\"level\":30,\"time\":1788168354409,\"service\":\"midplane-mcp-server\",\"port\":8080,\"url\":\"http://0.0.0.0:8080/mcp\",\"msg\":\"http transport listening\"}",
+        "installMs": 5167,
+        "method": "npm",
+        "runId": "2026-08-31T09-25-00Z-713a67",
+        "status": "timeout"
+      },
+      {
         "date": "2026-08-24T03:55:16.264Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n[midplane] anonymous telemetry is enabled (install ID written to /home/runner/.midplane/install-id).\n[midplane] see TELEMETRY.md for what's collected and how to disable.\n[midplane] disable: MIDPLANE_TELEMETRY=0  (or DO_NOT_TRACK=1)\n(node:3857) ExperimentalWarning: SQLite is an experimental feature and might change at any time\n(Use `node --trace-warnings ...` to show where the warning was created)\n{\"level\":30,\"time\":1787543780420,\"service\":\"midplane-mcp-server\",\"port\":8080,\"url\":\"http://0.0.0.0:8080/mcp\",\"msg\":\"http transport listening\"}",
         "installMs": 6460,
@@ -21,6 +37,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-31T09:25:22.660Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n[midplane] anonymous telemetry is enabled (install ID written to C:\\Users\\runneradmin\\.midplane\\install-id).\n[midplane] see TELEMETRY.md for what's collected and how to disable.\n[midplane] disable: MIDPLANE_TELEMETRY=0  (or DO_NOT_TRACK=1)\n(node:9492) ExperimentalWarning: SQLite is an experimental feature and might change at any time\n(Use `node --trace-warnings ...` to show where the warning was created)\n{\"level\":30,\"time\":1788169402600,\"service\":\"midplane-mcp-server\",\"port\":8080,\"url\":\"http://0.0.0.0:8080/mcp\",\"msg\":\"http transport listening\"}",
+        "installMs": 109771,
+        "method": "npm",
+        "runId": "2026-08-31T09-25-22Z-940db7",
+        "status": "timeout"
+      },
       {
         "date": "2026-08-24T03:55:34.076Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n[midplane] anonymous telemetry is enabled (install ID written to C:\\Users\\runneradmin\\.midplane\\install-id).\n[midplane] see TELEMETRY.md for what's collected and how to disable.\n[midplane] disable: MIDPLANE_TELEMETRY=0  (or DO_NOT_TRACK=1)\n(node:5752) ExperimentalWarning: SQLite is an experimental feature and might change at any time\n(Use `node --trace-warnings ...` to show where the warning was created)\n{\"level\":30,\"time\":1787545244276,\"service\":\"midplane-mcp-server\",\"port\":8080,\"url\":\"http://0.0.0.0:8080/mcp\",\"msg\":\"http transport listening\"}",

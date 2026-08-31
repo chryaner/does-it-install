@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-31T09:25:08.808Z",
+        "errorExcerpt": "handshake failed: Streamable HTTP error: Error POSTing to endpoint: {\"success\":false,\"error\":{\"message\":\"Missing or invalid Authorization header\",\"code\":401,\"timestamp\":\"2026-08-31T09:27:28+00:00\"}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-31T09-25-08Z-f48f19",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-24T03:55:16.126Z",
         "errorExcerpt": "handshake failed: Streamable HTTP error: Error POSTing to endpoint: {\"success\":false,\"error\":{\"message\":\"Missing or invalid Authorization header\",\"code\":401,\"timestamp\":\"2026-08-24T03:56:54+00:00\"}} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -39,6 +46,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-31T09:25:01.858Z",
+        "errorExcerpt": "handshake failed: Streamable HTTP error: Error POSTing to endpoint: {\"success\":false,\"error\":{\"message\":\"Missing or invalid Authorization header\",\"code\":401,\"timestamp\":\"2026-08-31T09:27:15+00:00\"}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-31T09-25-01Z-84fff2",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-24T03:55:14.308Z",
         "errorExcerpt": "handshake failed: Streamable HTTP error: Error POSTing to endpoint: {\"success\":false,\"error\":{\"message\":\"Missing or invalid Authorization header\",\"code\":401,\"timestamp\":\"2026-08-24T03:56:47+00:00\"}} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -75,6 +89,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-31T09:25:18.401Z",
+        "errorExcerpt": "handshake failed: Streamable HTTP error: Error POSTing to endpoint: {\"success\":false,\"error\":{\"message\":\"Missing or invalid Authorization header\",\"code\":401,\"timestamp\":\"2026-08-31T09:43:33+00:00\"}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-31T09-25-18Z-5a3709",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-24T03:55:29.849Z",
         "errorExcerpt": "handshake failed: Streamable HTTP error: Error POSTing to endpoint: {\"success\":false,\"error\":{\"message\":\"Missing or invalid Authorization header\",\"code\":401,\"timestamp\":\"2026-08-24T04:12:35+00:00\"}} (endpoint reachable but requires credentials the harness does not send)",

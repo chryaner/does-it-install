@@ -2,6 +2,30 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-31T09:25:02.965Z",
+        "installMs": 7946,
+        "method": "npm",
+        "runId": "2026-08-31T09-25-02Z-16d148",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "studio_start",
+          "studio_goto",
+          "studio_click",
+          "studio_type",
+          "studio_scroll",
+          "studio_caption",
+          "studio_narrate",
+          "studio_highlight",
+          "studio_zoom",
+          "studio_hold",
+          "studio_end_card",
+          "studio_screenshot",
+          "studio_finish",
+          "studio_cancel"
+        ]
+      },
+      {
         "date": "2026-08-24T03:55:11.998Z",
         "installMs": 4586,
         "method": "npm",
@@ -99,6 +123,30 @@
     ],
     "linux": [
       {
+        "date": "2026-08-31T09:25:05.771Z",
+        "installMs": 6786,
+        "method": "npm",
+        "runId": "2026-08-31T09-25-05Z-a5971e",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "studio_start",
+          "studio_goto",
+          "studio_click",
+          "studio_type",
+          "studio_scroll",
+          "studio_caption",
+          "studio_narrate",
+          "studio_highlight",
+          "studio_zoom",
+          "studio_hold",
+          "studio_end_card",
+          "studio_screenshot",
+          "studio_finish",
+          "studio_cancel"
+        ]
+      },
+      {
         "date": "2026-08-24T03:55:16.264Z",
         "installMs": 5467,
         "method": "npm",
@@ -195,6 +243,30 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-31T09:25:20.393Z",
+        "installMs": 144478,
+        "method": "npm",
+        "runId": "2026-08-31T09-25-20Z-818ef3",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "studio_start",
+          "studio_goto",
+          "studio_click",
+          "studio_type",
+          "studio_scroll",
+          "studio_caption",
+          "studio_narrate",
+          "studio_highlight",
+          "studio_zoom",
+          "studio_hold",
+          "studio_end_card",
+          "studio_screenshot",
+          "studio_finish",
+          "studio_cancel"
+        ]
+      },
       {
         "date": "2026-08-24T03:55:34.076Z",
         "installMs": 174297,

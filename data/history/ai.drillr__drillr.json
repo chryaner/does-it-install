@@ -2,6 +2,23 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-31T09:25:02.965Z",
+        "method": "remote-http",
+        "runId": "2026-08-31T09-25-02Z-16d148",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "sec_report_list",
+          "sec_report_search",
+          "company_search",
+          "ticker_lookup",
+          "run_sql",
+          "get_table_schema",
+          "list_tables",
+          "news_search"
+        ]
+      },
+      {
         "date": "2026-08-24T03:55:16.126Z",
         "method": "remote-http",
         "runId": "2026-08-24T03-55-16Z-99731b",
@@ -148,6 +165,23 @@
     ],
     "linux": [
       {
+        "date": "2026-08-31T09:25:05.771Z",
+        "method": "remote-http",
+        "runId": "2026-08-31T09-25-05Z-a5971e",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "sec_report_list",
+          "sec_report_search",
+          "company_search",
+          "ticker_lookup",
+          "run_sql",
+          "get_table_schema",
+          "list_tables",
+          "news_search"
+        ]
+      },
+      {
         "date": "2026-08-24T03:55:14.308Z",
         "method": "remote-http",
         "runId": "2026-08-24T03-55-14Z-e203db",
@@ -293,6 +327,23 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-31T09:25:20.393Z",
+        "method": "remote-http",
+        "runId": "2026-08-31T09-25-20Z-818ef3",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "sec_report_list",
+          "sec_report_search",
+          "company_search",
+          "ticker_lookup",
+          "run_sql",
+          "get_table_schema",
+          "list_tables",
+          "news_search"
+        ]
+      },
       {
         "date": "2026-08-24T03:55:29.849Z",
         "method": "remote-http",

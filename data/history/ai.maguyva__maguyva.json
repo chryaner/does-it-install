@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-31T09:25:08.946Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Authentication Required\",\"message\":\"Provide an API key via Authorization: Bearer <key> or X-API-Key header\",\"timestamp\":\"2026-08-31T09:26:26.209Z\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-31T09-25-08Z-63eeb8",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-24T03:55:16.126Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Authentication Required\",\"message\":\"Provide an API key via Authorization: Bearer <key> or X-API-Key header\",\"timestamp\":\"2026-08-24T03:56:56.795Z\"} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -39,6 +46,13 @@
     ],
     "linux": [
       {
+        "date": "2026-08-31T09:25:00.665Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Authentication Required\",\"message\":\"Provide an API key via Authorization: Bearer <key> or X-API-Key header\",\"timestamp\":\"2026-08-31T09:25:51.619Z\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-31T09-25-00Z-713a67",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-24T03:55:14.308Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Authentication Required\",\"message\":\"Provide an API key via Authorization: Bearer <key> or X-API-Key header\",\"timestamp\":\"2026-08-24T03:56:50.787Z\"} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -75,6 +89,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-31T09:25:22.660Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Authentication Required\",\"message\":\"Provide an API key via Authorization: Bearer <key> or X-API-Key header\",\"timestamp\":\"2026-08-31T09:42:14.610Z\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-31T09-25-22Z-940db7",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-24T03:55:29.849Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Authentication Required\",\"message\":\"Provide an API key via Authorization: Bearer <key> or X-API-Key header\",\"timestamp\":\"2026-08-24T04:12:38.468Z\"} (endpoint reachable but requires credentials the harness does not send)",

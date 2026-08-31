@@ -2,6 +2,29 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-31T09:25:08.808Z",
+        "installMs": 8749,
+        "method": "npm",
+        "runId": "2026-08-31T09-25-08Z-f48f19",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "vaaya_test_connection",
+          "vaaya_onboard",
+          "vaaya_account",
+          "vaaya_logout",
+          "docs",
+          "consult",
+          "use",
+          "result",
+          "session",
+          "close",
+          "llm",
+          "logout",
+          "reauthorize"
+        ]
+      },
+      {
         "date": "2026-08-24T03:55:16.126Z",
         "installMs": 15364,
         "method": "npm",
@@ -155,6 +178,29 @@
     ],
     "linux": [
       {
+        "date": "2026-08-31T09:25:01.858Z",
+        "installMs": 9077,
+        "method": "npm",
+        "runId": "2026-08-31T09-25-01Z-84fff2",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "vaaya_test_connection",
+          "vaaya_onboard",
+          "vaaya_account",
+          "vaaya_logout",
+          "docs",
+          "consult",
+          "use",
+          "result",
+          "session",
+          "close",
+          "llm",
+          "logout",
+          "reauthorize"
+        ]
+      },
+      {
         "date": "2026-08-24T03:55:14.308Z",
         "installMs": 9222,
         "method": "npm",
@@ -307,6 +353,29 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-31T09:25:18.401Z",
+        "installMs": 112542,
+        "method": "npm",
+        "runId": "2026-08-31T09-25-18Z-5a3709",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "vaaya_test_connection",
+          "vaaya_onboard",
+          "vaaya_account",
+          "vaaya_logout",
+          "docs",
+          "consult",
+          "use",
+          "result",
+          "session",
+          "close",
+          "llm",
+          "logout",
+          "reauthorize"
+        ]
+      },
       {
         "date": "2026-08-24T03:55:29.849Z",
         "installMs": 255287,

@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-31T09:25:08.946Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-31T09-25-08Z-63eeb8",
+        "status": "skipped"
+      },
+      {
         "date": "2026-08-24T03:55:12.736Z",
         "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
         "installMs": 0,
@@ -49,6 +57,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-31T09:25:00.665Z",
+        "errorExcerpt": "docker pull docker.io/writenotenow/memory-journal-mcp:v1.1.3 exited with code 1\n--- stderr (tail) ---\nError response from daemon: manifest for writenotenow/memory-journal-mcp:v1.1.3 not found: manifest unknown: manifest unknown",
+        "installMs": 123,
+        "method": "oci",
+        "runId": "2026-08-31T09-25-00Z-713a67",
+        "status": "install_failed"
+      },
+      {
         "date": "2026-08-24T03:55:10.120Z",
         "errorExcerpt": "docker pull docker.io/writenotenow/memory-journal-mcp:v1.1.3 exited with code 1\n--- stderr (tail) ---\nError response from daemon: manifest for writenotenow/memory-journal-mcp:v1.1.3 not found: manifest unknown: manifest unknown",
         "installMs": 334,
@@ -95,6 +111,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-31T09:25:22.660Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-08-31T09-25-22Z-940db7",
+        "status": "skipped"
+      },
       {
         "date": "2026-08-24T03:55:32.271Z",
         "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",

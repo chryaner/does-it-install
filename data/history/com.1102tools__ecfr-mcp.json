@@ -1,0 +1,78 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-31T09:25:02.965Z",
+        "method": "pypi",
+        "runId": "2026-08-31T09-25-02Z-16d148",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "get_latest_date",
+          "get_cfr_content",
+          "get_cfr_structure",
+          "get_version_history",
+          "get_ancestry",
+          "search_cfr",
+          "list_agencies",
+          "get_corrections",
+          "lookup_far_clause",
+          "compare_versions",
+          "list_sections_in_part",
+          "find_far_definition",
+          "find_recent_changes"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-31T09:25:05.771Z",
+        "method": "pypi",
+        "runId": "2026-08-31T09-25-05Z-a5971e",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "get_latest_date",
+          "get_cfr_content",
+          "get_cfr_structure",
+          "get_version_history",
+          "get_ancestry",
+          "search_cfr",
+          "list_agencies",
+          "get_corrections",
+          "lookup_far_clause",
+          "compare_versions",
+          "list_sections_in_part",
+          "find_far_definition",
+          "find_recent_changes"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-31T09:25:20.393Z",
+        "method": "pypi",
+        "runId": "2026-08-31T09-25-20Z-818ef3",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "get_latest_date",
+          "get_cfr_content",
+          "get_cfr_structure",
+          "get_version_history",
+          "get_ancestry",
+          "search_cfr",
+          "list_agencies",
+          "get_corrections",
+          "lookup_far_clause",
+          "compare_versions",
+          "list_sections_in_part",
+          "find_far_definition",
+          "find_recent_changes"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.1102tools/ecfr-mcp",
+  "slug": "com.1102tools__ecfr-mcp"
+}

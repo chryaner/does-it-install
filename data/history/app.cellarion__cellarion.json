@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-31T09:25:08.946Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\ncellarion-mcp: cannot reach https://cellarion.app/api/mcp — Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Invalid token\"}\nCheck CELLARION_URL, and that the token is valid and not revoked.",
+        "installMs": 4953,
+        "method": "npm",
+        "runId": "2026-08-31T09-25-08Z-63eeb8",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-24T03:55:12.736Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\ncellarion-mcp: cannot reach https://cellarion.app/api/mcp — Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Invalid token\"}\nCheck CELLARION_URL, and that the token is valid and not revoked.",
         "installMs": 5744,
@@ -50,6 +58,14 @@
     ],
     "linux": [
       {
+        "date": "2026-08-31T09:25:00.665Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\ncellarion-mcp: cannot reach https://cellarion.app/api/mcp — Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Invalid token\"}\nCheck CELLARION_URL, and that the token is valid and not revoked.",
+        "installMs": 4374,
+        "method": "npm",
+        "runId": "2026-08-31T09-25-00Z-713a67",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-24T03:55:10.120Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\ncellarion-mcp: cannot reach https://cellarion.app/api/mcp — Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Invalid token\"}\nCheck CELLARION_URL, and that the token is valid and not revoked.",
         "installMs": 4365,
@@ -97,6 +113,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-31T09:25:22.660Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\ncellarion-mcp: cannot reach https://cellarion.app/api/mcp — Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Invalid token\"}\nCheck CELLARION_URL, and that the token is valid and not revoked.",
+        "installMs": 140058,
+        "method": "npm",
+        "runId": "2026-08-31T09-25-22Z-940db7",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-24T03:55:32.271Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\ncellarion-mcp: cannot reach https://cellarion.app/api/mcp — Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Invalid token\"}\nCheck CELLARION_URL, and that the token is valid and not revoked.",

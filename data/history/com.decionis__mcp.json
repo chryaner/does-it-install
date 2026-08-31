@@ -2,6 +2,20 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-31T09:25:02.965Z",
+        "installMs": 5101,
+        "method": "npm",
+        "runId": "2026-08-31T09-25-02Z-16d148",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "decionis_read_policy",
+          "decionis_evaluate",
+          "decionis_demo",
+          "decionis_verdict_help"
+        ]
+      },
+      {
         "date": "2026-08-24T03:55:12.736Z",
         "installMs": 5087,
         "method": "npm",
@@ -82,6 +96,20 @@
     ],
     "linux": [
       {
+        "date": "2026-08-31T09:25:05.771Z",
+        "installMs": 4044,
+        "method": "npm",
+        "runId": "2026-08-31T09-25-05Z-a5971e",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "decionis_read_policy",
+          "decionis_evaluate",
+          "decionis_demo",
+          "decionis_verdict_help"
+        ]
+      },
+      {
         "date": "2026-08-24T03:55:10.120Z",
         "installMs": 3539,
         "method": "npm",
@@ -161,6 +189,20 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-31T09:25:20.393Z",
+        "installMs": 89577,
+        "method": "npm",
+        "runId": "2026-08-31T09-25-20Z-818ef3",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "decionis_read_policy",
+          "decionis_evaluate",
+          "decionis_demo",
+          "decionis_verdict_help"
+        ]
+      },
       {
         "date": "2026-08-24T03:55:32.271Z",
         "installMs": 62658,

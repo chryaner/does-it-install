@@ -1,0 +1,99 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-31T09:25:08.946Z",
+        "method": "pypi",
+        "runId": "2026-08-31T09-25-08Z-63eeb8",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "get_access_status",
+          "lookup_entity_by_uei",
+          "lookup_entity_by_cage",
+          "search_entities",
+          "get_entity_reps_and_certs",
+          "get_entity_integrity_info",
+          "check_exclusion_by_uei",
+          "search_exclusions",
+          "search_opportunities",
+          "get_opportunity_description",
+          "lookup_psc_code",
+          "search_psc_free_text",
+          "search_contract_awards",
+          "lookup_award_by_piid",
+          "search_deleted_awards",
+          "vendor_responsibility_check",
+          "search_federal_organizations",
+          "get_organization_hierarchy",
+          "search_acquisition_subawards",
+          "search_assistance_subawards"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-31T09:25:00.665Z",
+        "method": "pypi",
+        "runId": "2026-08-31T09-25-00Z-713a67",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "get_access_status",
+          "lookup_entity_by_uei",
+          "lookup_entity_by_cage",
+          "search_entities",
+          "get_entity_reps_and_certs",
+          "get_entity_integrity_info",
+          "check_exclusion_by_uei",
+          "search_exclusions",
+          "search_opportunities",
+          "get_opportunity_description",
+          "lookup_psc_code",
+          "search_psc_free_text",
+          "search_contract_awards",
+          "lookup_award_by_piid",
+          "search_deleted_awards",
+          "vendor_responsibility_check",
+          "search_federal_organizations",
+          "get_organization_hierarchy",
+          "search_acquisition_subawards",
+          "search_assistance_subawards"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-31T09:25:22.660Z",
+        "method": "pypi",
+        "runId": "2026-08-31T09-25-22Z-940db7",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "get_access_status",
+          "lookup_entity_by_uei",
+          "lookup_entity_by_cage",
+          "search_entities",
+          "get_entity_reps_and_certs",
+          "get_entity_integrity_info",
+          "check_exclusion_by_uei",
+          "search_exclusions",
+          "search_opportunities",
+          "get_opportunity_description",
+          "lookup_psc_code",
+          "search_psc_free_text",
+          "search_contract_awards",
+          "lookup_award_by_piid",
+          "search_deleted_awards",
+          "vendor_responsibility_check",
+          "search_federal_organizations",
+          "get_organization_hierarchy",
+          "search_acquisition_subawards",
+          "search_assistance_subawards"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.1102tools/sam-gov-mcp",
+  "slug": "com.1102tools__sam-gov-mcp"
+}

@@ -2,6 +2,22 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-31T09:25:08.946Z",
+        "method": "remote-http",
+        "runId": "2026-08-31T09-25-08Z-63eeb8",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "convert_file",
+          "list_conversions",
+          "translate_file",
+          "extract_tables",
+          "compress_file",
+          "do_file_job",
+          "check_job"
+        ]
+      },
+      {
         "date": "2026-08-24T03:55:12.736Z",
         "method": "remote-http",
         "runId": "2026-08-24T03-55-12Z-0c9bb4",
@@ -84,6 +100,22 @@
     ],
     "linux": [
       {
+        "date": "2026-08-31T09:25:00.665Z",
+        "method": "remote-http",
+        "runId": "2026-08-31T09-25-00Z-713a67",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "convert_file",
+          "list_conversions",
+          "translate_file",
+          "extract_tables",
+          "compress_file",
+          "do_file_job",
+          "check_job"
+        ]
+      },
+      {
         "date": "2026-08-24T03:55:10.120Z",
         "method": "remote-http",
         "runId": "2026-08-24T03-55-10Z-89df21",
@@ -165,6 +197,22 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-31T09:25:22.660Z",
+        "method": "remote-http",
+        "runId": "2026-08-31T09-25-22Z-940db7",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "convert_file",
+          "list_conversions",
+          "translate_file",
+          "extract_tables",
+          "compress_file",
+          "do_file_job",
+          "check_job"
+        ]
+      },
       {
         "date": "2026-08-24T03:55:32.271Z",
         "method": "remote-http",

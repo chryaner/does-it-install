@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-31T09:25:02.965Z",
+        "errorExcerpt": "npm install @dinglebear/rarcane@0.4.4 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path /private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-fcurjq/node_modules/@dinglebear/rarcane\nnpm error command failed\nnpm error command sh -c node scripts/install.js\nnpm error rarcane: Unsupported platform darwin/arm64. Supported targets: linux/x64, win32/x64.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-fcurjq/.npm-cache/_logs/2026-08-31T09_26_11_632Z-debug-0.log",
+        "installMs": 1145,
+        "method": "npm",
+        "runId": "2026-08-31T09-25-02Z-16d148",
+        "status": "install_failed"
+      },
+      {
         "date": "2026-08-15T20:03:31.969Z",
         "errorExcerpt": "npm install @dinglebear/rarcane@0.4.4 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path /private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-iG4Xxt/node_modules/@dinglebear/rarcane\nnpm error command failed\nnpm error command sh -c node scripts/install.js\nnpm error rarcane: Unsupported platform darwin/arm64. Supported targets: linux/x64, win32/x64.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-iG4Xxt/.npm-cache/_logs/2026-08-15T20_07_15_051Z-debug-0.log",
         "installMs": 871,
@@ -40,6 +48,17 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-08-31T09:25:05.771Z",
+        "installMs": 2807,
+        "method": "npm",
+        "runId": "2026-08-31T09-25-05Z-a5971e",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "arcane"
+        ]
+      },
       {
         "date": "2026-08-15T20:03:21.360Z",
         "installMs": 2070,
@@ -94,6 +113,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-31T09:25:20.393Z",
+        "errorExcerpt": "npm install @dinglebear/rarcane@0.4.4 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-4biEo8\\node_modules\\@dinglebear\\rarcane\nnpm error command failed\nnpm error command C:\\Windows\\system32\\cmd.exe /d /s /c node scripts/install.js\nnpm error rarcane: downloading https://github.com/dinglebear-ai/rarcane/releases/download/v0.4.4/rarcane-windows-x86_64.tar.gz\nnpm error rarcane: tar (child): Cannot connect to C: resolve failed\nnpm error\nnpm error gzip: stdin: unexpected end of file\nnpm error tar: Child returned status 128\nnpm error tar: Error is not recoverable: exiting now\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-4biEo8\\.npm-cache\\_logs\\2026-08-31T09_40_58_935Z-debug-0.log",
+        "installMs": 5848,
+        "method": "npm",
+        "runId": "2026-08-31T09-25-20Z-818ef3",
+        "status": "install_failed"
+      },
       {
         "date": "2026-08-15T20:03:36.582Z",
         "errorExcerpt": "npm install @dinglebear/rarcane@0.4.4 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-NPYMMF\\node_modules\\@dinglebear\\rarcane\nnpm error command failed\nnpm error command C:\\Windows\\system32\\cmd.exe /d /s /c node scripts/install.js\nnpm error rarcane: downloading https://github.com/dinglebear-ai/rarcane/releases/download/v0.4.4/rarcane-windows-x86_64.tar.gz\nnpm error rarcane: tar (child): Cannot connect to C: resolve failed\nnpm error\nnpm error gzip: stdin: unexpected end of file\nnpm error tar: Child returned status 128\nnpm error tar: Error is not recoverable: exiting now\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-NPYMMF\\.npm-cache\\_logs\\2026-08-15T20_42_09_426Z-debug-0.log",

@@ -2,6 +2,18 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-31T09:25:08.946Z",
+        "method": "remote-http",
+        "runId": "2026-08-31T09-25-08Z-63eeb8",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "trends___get_growth",
+          "trends___get_time_series",
+          "trends___get_top_trends"
+        ]
+      },
+      {
         "date": "2026-08-14T20:23:05.405Z",
         "errorExcerpt": "listTools failed: [\n  {\n    \"expected\": \"array\",\n    \"code\": \"invalid_type\",\n    \"path\": [\n      \"tools\"\n    ],\n    \"message\": \"Invalid input: expected array, received undefined\"\n  }\n]",
         "method": "remote-http",
@@ -11,6 +23,18 @@
     ],
     "linux": [
       {
+        "date": "2026-08-31T09:25:00.665Z",
+        "method": "remote-http",
+        "runId": "2026-08-31T09-25-00Z-713a67",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "trends___get_growth",
+          "trends___get_time_series",
+          "trends___get_top_trends"
+        ]
+      },
+      {
         "date": "2026-08-14T20:23:06.300Z",
         "errorExcerpt": "listTools failed: [\n  {\n    \"expected\": \"array\",\n    \"code\": \"invalid_type\",\n    \"path\": [\n      \"tools\"\n    ],\n    \"message\": \"Invalid input: expected array, received undefined\"\n  }\n]",
         "method": "remote-http",
@@ -19,6 +43,18 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-31T09:25:22.660Z",
+        "method": "remote-http",
+        "runId": "2026-08-31T09-25-22Z-940db7",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "trends___get_growth",
+          "trends___get_time_series",
+          "trends___get_top_trends"
+        ]
+      },
       {
         "date": "2026-08-14T20:23:24.859Z",
         "errorExcerpt": "listTools failed: [\n  {\n    \"expected\": \"array\",\n    \"code\": \"invalid_type\",\n    \"path\": [\n      \"tools\"\n    ],\n    \"message\": \"Invalid input: expected array, received undefined\"\n  }\n]",

@@ -1,0 +1,62 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-31T09:25:02.965Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed",
+        "installMs": 3679,
+        "method": "npm",
+        "runId": "2026-08-31T09-25-02Z-16d148",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-31T09:25:05.771Z",
+        "installMs": 4195,
+        "method": "npm",
+        "runId": "2026-08-31T09-25-05Z-a5971e",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "buywhere_agent_manifest",
+          "buywhere_capabilities",
+          "buywhere_data_inventory",
+          "buywhere_connection_status",
+          "search_products",
+          "get_product",
+          "compare_products",
+          "get_deals",
+          "list_categories",
+          "find_best_price",
+          "ingest_products"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-31T09:25:20.393Z",
+        "installMs": 163513,
+        "method": "npm",
+        "runId": "2026-08-31T09-25-20Z-818ef3",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "buywhere_agent_manifest",
+          "buywhere_capabilities",
+          "buywhere_data_inventory",
+          "buywhere_connection_status",
+          "search_products",
+          "get_product",
+          "compare_products",
+          "get_deals",
+          "list_categories",
+          "find_best_price",
+          "ingest_products"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.BuyWhere/buywhere-mcp",
+  "slug": "io.github.buywhere__buywhere-mcp"
+}

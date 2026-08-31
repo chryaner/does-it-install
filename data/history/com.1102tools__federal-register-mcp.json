@@ -1,0 +1,63 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-31T09:25:08.808Z",
+        "method": "pypi",
+        "runId": "2026-08-31T09-25-08Z-f48f19",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "search_documents",
+          "get_document",
+          "get_documents_batch",
+          "get_facet_counts",
+          "get_public_inspection",
+          "list_agencies",
+          "open_comment_periods",
+          "far_case_history"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-31T09:25:01.858Z",
+        "method": "pypi",
+        "runId": "2026-08-31T09-25-01Z-84fff2",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "search_documents",
+          "get_document",
+          "get_documents_batch",
+          "get_facet_counts",
+          "get_public_inspection",
+          "list_agencies",
+          "open_comment_periods",
+          "far_case_history"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-31T09:25:18.401Z",
+        "method": "pypi",
+        "runId": "2026-08-31T09-25-18Z-5a3709",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "search_documents",
+          "get_document",
+          "get_documents_batch",
+          "get_facet_counts",
+          "get_public_inspection",
+          "list_agencies",
+          "open_comment_periods",
+          "far_case_history"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.1102tools/federal-register-mcp",
+  "slug": "com.1102tools__federal-register-mcp"
+}

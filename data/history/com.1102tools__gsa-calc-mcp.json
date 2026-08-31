@@ -1,0 +1,63 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-31T09:25:08.946Z",
+        "method": "pypi",
+        "runId": "2026-08-31T09-25-08Z-63eeb8",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "keyword_search",
+          "exact_search",
+          "suggest_contains",
+          "filtered_browse",
+          "igce_benchmark",
+          "price_reasonableness_check",
+          "vendor_rate_card",
+          "sin_analysis"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-31T09:25:00.665Z",
+        "method": "pypi",
+        "runId": "2026-08-31T09-25-00Z-713a67",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "keyword_search",
+          "exact_search",
+          "suggest_contains",
+          "filtered_browse",
+          "igce_benchmark",
+          "price_reasonableness_check",
+          "vendor_rate_card",
+          "sin_analysis"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-31T09:25:22.660Z",
+        "method": "pypi",
+        "runId": "2026-08-31T09-25-22Z-940db7",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "keyword_search",
+          "exact_search",
+          "suggest_contains",
+          "filtered_browse",
+          "igce_benchmark",
+          "price_reasonableness_check",
+          "vendor_rate_card",
+          "sin_analysis"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.1102tools/gsa-calc-mcp",
+  "slug": "com.1102tools__gsa-calc-mcp"
+}

@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-31T09:25:08.808Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"detail\":\"OAuth bearer token required\",\"request_id\":\"5bbbf9f7-862b-4427-991d-42fe4750aa03\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-31T09-25-08Z-f48f19",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-31T09:25:01.858Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"detail\":\"OAuth bearer token required\",\"request_id\":\"efa657a9-29f5-4034-9809-d320a8a6e1de\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-31T09-25-01Z-84fff2",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-31T09:25:18.401Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"detail\":\"OAuth bearer token required\",\"request_id\":\"073de298-748e-43ca-a581-0f2245b24f30\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-08-31T09-25-18Z-5a3709",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "ai.robosystems/robosystems",
+  "slug": "ai.robosystems__robosystems"
+}

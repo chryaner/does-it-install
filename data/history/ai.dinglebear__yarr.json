@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-08-31T09:25:08.808Z",
+        "errorExcerpt": "npm install @dinglebear/yarr@2.2.2 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path /private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-tBSu7F/node_modules/@dinglebear/yarr\nnpm error command failed\nnpm error command sh -c node scripts/install.js\nnpm error yarr: Unsupported platform darwin/arm64. Supported targets: linux/x64, win32/x64.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-tBSu7F/.npm-cache/_logs/2026-08-31T09_27_14_100Z-debug-0.log",
+        "installMs": 907,
+        "method": "npm",
+        "runId": "2026-08-31T09-25-08Z-f48f19",
+        "status": "install_failed"
+      },
+      {
         "date": "2026-08-24T03:55:11.998Z",
         "errorExcerpt": "npm install @dinglebear/yarr@2.2.2 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path /private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-F3EFxk/node_modules/@dinglebear/yarr\nnpm error command failed\nnpm error command sh -c node scripts/install.js\nnpm error yarr: Unsupported platform darwin/arm64. Supported targets: linux/x64, win32/x64.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-F3EFxk/.npm-cache/_logs/2026-08-24T03_55_54_080Z-debug-0.log",
         "installMs": 1310,
@@ -55,6 +63,17 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-08-31T09:25:01.858Z",
+        "installMs": 2580,
+        "method": "npm",
+        "runId": "2026-08-31T09-25-01Z-84fff2",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "yarr"
+        ]
+      },
       {
         "date": "2026-08-24T03:55:16.264Z",
         "installMs": 2716,
@@ -130,6 +149,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-08-31T09:25:18.401Z",
+        "errorExcerpt": "npm install @dinglebear/yarr@2.2.2 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-ghzht7\\node_modules\\@dinglebear\\yarr\nnpm error command failed\nnpm error command C:\\Windows\\system32\\cmd.exe /d /s /c node scripts/install.js\nnpm error yarr: downloading verified https://github.com/dinglebear-ai/yarr/releases/download/v2.2.2/yarr-windows-x86_64.tar.gz\nnpm error yarr: tar (child): Cannot connect to C: resolve failed\nnpm error\nnpm error gzip: stdin: unexpected end of file\nnpm error tar: Child returned status 128\nnpm error tar: Error is not recoverable: exiting now\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-ghzht7\\.npm-cache\\_logs\\2026-08-31T09_41_01_988Z-debug-0.log",
+        "installMs": 6014,
+        "method": "npm",
+        "runId": "2026-08-31T09-25-18Z-5a3709",
+        "status": "install_failed"
+      },
       {
         "date": "2026-08-24T03:55:34.076Z",
         "errorExcerpt": "npm install @dinglebear/yarr@2.2.2 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-DsEdYD\\node_modules\\@dinglebear\\yarr\nnpm error command failed\nnpm error command C:\\Windows\\system32\\cmd.exe /d /s /c node scripts/install.js\nnpm error yarr: downloading verified https://github.com/dinglebear-ai/yarr/releases/download/v2.2.2/yarr-windows-x86_64.tar.gz\nnpm error yarr: tar (child): Cannot connect to C: resolve failed\nnpm error\nnpm error gzip: stdin: unexpected end of file\nnpm error tar: Child returned status 128\nnpm error tar: Error is not recoverable: exiting now\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-DsEdYD\\.npm-cache\\_logs\\2026-08-24T04_07_30_876Z-debug-0.log",

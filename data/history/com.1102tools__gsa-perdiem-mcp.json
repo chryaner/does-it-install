@@ -1,0 +1,60 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-08-31T09:25:02.965Z",
+        "method": "pypi",
+        "runId": "2026-08-31T09-25-02Z-16d148",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "get_access_status",
+          "lookup_city_perdiem",
+          "lookup_zip_perdiem",
+          "lookup_state_rates",
+          "get_mie_breakdown",
+          "estimate_travel_cost",
+          "compare_locations"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-08-31T09:25:05.771Z",
+        "method": "pypi",
+        "runId": "2026-08-31T09-25-05Z-a5971e",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "get_access_status",
+          "lookup_city_perdiem",
+          "lookup_zip_perdiem",
+          "lookup_state_rates",
+          "get_mie_breakdown",
+          "estimate_travel_cost",
+          "compare_locations"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-08-31T09:25:20.393Z",
+        "method": "pypi",
+        "runId": "2026-08-31T09-25-20Z-818ef3",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "get_access_status",
+          "lookup_city_perdiem",
+          "lookup_zip_perdiem",
+          "lookup_state_rates",
+          "get_mie_breakdown",
+          "estimate_travel_cost",
+          "compare_locations"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.1102tools/gsa-perdiem-mcp",
+  "slug": "com.1102tools__gsa-perdiem-mcp"
+}
