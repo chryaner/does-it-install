@@ -2,6 +2,18 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-09-07T08:04:40.480Z",
+        "method": "remote-http",
+        "runId": "2026-09-07T08-04-40Z-dbf1df",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "query_pol_certificates",
+          "query_agent_trust",
+          "verify_pm_trade"
+        ]
+      },
+      {
         "date": "2026-08-31T09:25:08.808Z",
         "method": "remote-http",
         "runId": "2026-08-31T09-25-08Z-f48f19",
@@ -88,6 +100,18 @@
     ],
     "linux": [
       {
+        "date": "2026-09-07T08:04:33.907Z",
+        "method": "remote-http",
+        "runId": "2026-09-07T08-04-33Z-5ca384",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "query_pol_certificates",
+          "query_agent_trust",
+          "verify_pm_trade"
+        ]
+      },
+      {
         "date": "2026-08-31T09:25:01.858Z",
         "method": "remote-http",
         "runId": "2026-08-31T09-25-01Z-84fff2",
@@ -173,6 +197,18 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-09-07T08:04:51.928Z",
+        "method": "remote-http",
+        "runId": "2026-09-07T08-04-51Z-f8b185",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "query_pol_certificates",
+          "query_agent_trust",
+          "verify_pm_trade"
+        ]
+      },
       {
         "date": "2026-08-31T09:25:18.401Z",
         "method": "remote-http",

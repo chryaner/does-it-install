@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-09-07T08:04:39.218Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading beartype (1.3MiB)\nDownloading pydantic-core (1.8MiB)\n Downloaded pydantic-core\n Downloaded beartype\nInstalled 78 packages in 177ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/_2Ici4JZoSGBK5WW/bin/oxylabs-mcp\", line 6, in <module>\n    from oxylabs_mcp import main\n  File \"/Users/runner/.cache/uv/archive-v0/_2Ici4JZoSGBK5WW/lib/python3.14/site-packages/oxylabs_mcp/__init__.py\", line 7, in <module>\n    from oxylabs_mcp.tools.ai_studio import mcp as ai_studio_mcp\n  File \"/Users/runner/.cache/uv/archive-v0/_2Ici4JZoSGBK5WW/lib/python3.14/site-packages/oxylabs_mcp/tools/ai_studio.py\", line 15, in <module>\n    from oxylabs_mcp.utils import get_and_verify_oxylabs_ai_studio_api_key\n  File \"/Users/runner/.cache/uv/archive-v0/_2Ici4JZoSGBK5WW/lib/python3.14/site-packages/oxylabs_mcp/utils.py\", line 24, in <module>\n    from mcp.server.fastmcp import Context\n  File \"/Users/runner/.cache/uv/archive-v0/_2Ici4JZoSGBK5WW/lib/python3.14/site-packages/mcp/server/fastmcp.py\", line 16, in <module>\n    raise ModuleNotFoundError(_MESSAGE, name=__name__)\nModuleNotFoundError: No module named 'mcp.server.fastmcp'. This is mcp 2.x, where FastMCP was renamed to MCPServer (from mcp.server.mcpserver import MCPServer) and other APIs changed; see the migration guide at https://py.sdk.modelcontextprotocol.io/v2/migration/#fastmcp-renamed-to-mcpserver or pin 'mcp<2' to keep running v1 code.",
+        "method": "pypi",
+        "runId": "2026-09-07T08-04-39Z-0b9eb7",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-31T09:25:02.965Z",
         "method": "pypi",
         "runId": "2026-08-31T09-25-02Z-16d148",
@@ -156,6 +163,13 @@
     ],
     "linux": [
       {
+        "date": "2026-09-07T08:04:39.282Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading pydantic-core (2.0MiB)\nDownloading beartype (1.3MiB)\n Downloaded beartype\n Downloaded pydantic-core\nInstalled 80 packages in 79ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/hW14WkFu5HZ89MN7/bin/oxylabs-mcp\", line 6, in <module>\n    from oxylabs_mcp import main\n  File \"/home/runner/.cache/uv/archive-v0/hW14WkFu5HZ89MN7/lib/python3.12/site-packages/oxylabs_mcp/__init__.py\", line 7, in <module>\n    from oxylabs_mcp.tools.ai_studio import mcp as ai_studio_mcp\n  File \"/home/runner/.cache/uv/archive-v0/hW14WkFu5HZ89MN7/lib/python3.12/site-packages/oxylabs_mcp/tools/ai_studio.py\", line 15, in <module>\n    from oxylabs_mcp.utils import get_and_verify_oxylabs_ai_studio_api_key\n  File \"/home/runner/.cache/uv/archive-v0/hW14WkFu5HZ89MN7/lib/python3.12/site-packages/oxylabs_mcp/utils.py\", line 24, in <module>\n    from mcp.server.fastmcp import Context\n  File \"/home/runner/.cache/uv/archive-v0/hW14WkFu5HZ89MN7/lib/python3.12/site-packages/mcp/server/fastmcp.py\", line 16, in <module>\n    raise ModuleNotFoundError(_MESSAGE, name=__name__)\nModuleNotFoundError: No module named 'mcp.server.fastmcp'. This is mcp 2.x, where FastMCP was renamed to MCPServer (from mcp.server.mcpserver import MCPServer) and other APIs changed; see the migration guide at https://py.sdk.modelcontextprotocol.io/v2/migration/#fastmcp-renamed-to-mcpserver or pin 'mcp<2' to keep running v1 code.",
+        "method": "pypi",
+        "runId": "2026-09-07T08-04-39Z-ae53cc",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-31T09:25:05.771Z",
         "method": "pypi",
         "runId": "2026-08-31T09-25-05Z-a5971e",
@@ -309,6 +323,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-09-07T08:04:54.652Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading pydantic-core (1.9MiB)\nDownloading beartype (1.3MiB)\n Downloaded pydantic-core\n Downloaded beartype\nInstalled 80 packages in 17.19s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\cSDaX9267qqgdqDQ\\Scripts\\oxylabs-mcp.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\cSDaX9267qqgdqDQ\\Lib\\site-packages\\oxylabs_mcp\\__init__.py\", line 7, in <module>\r\n    from oxylabs_mcp.tools.ai_studio import mcp as ai_studio_mcp\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\cSDaX9267qqgdqDQ\\Lib\\site-packages\\oxylabs_mcp\\tools\\ai_studio.py\", line 15, in <module>\r\n    from oxylabs_mcp.utils import get_and_verify_oxylabs_ai_studio_api_key\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\cSDaX9267qqgdqDQ\\Lib\\site-packages\\oxylabs_mcp\\utils.py\", line 24, in <module>\r\n    from mcp.server.fastmcp import Context\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\cSDaX9267qqgdqDQ\\Lib\\site-packages\\mcp\\server\\fastmcp.py\", line 16, in <module>\r\n    raise ModuleNotFoundError(_MESSAGE, name=__name__)\r\nModuleNotFoundError: No module named 'mcp.server.fastmcp'. This is mcp 2.x, where FastMCP was renamed to MCPServer (from mcp.server.mcpserver import MCPServer) and other APIs changed; see the migration guide at https://py.sdk.modelcontextprotocol.io/v2/migration/#fastmcp-renamed-to-mcpserver or pin 'mcp<2' to keep running v1 code.",
+        "method": "pypi",
+        "runId": "2026-09-07T08-04-54Z-45ba0f",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-31T09:25:20.393Z",
         "method": "pypi",

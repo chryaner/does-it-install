@@ -2,6 +2,31 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-09-07T08:04:39.087Z",
+        "method": "remote-http",
+        "runId": "2026-09-07T08-04-39Z-6e3558",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "__unlock_blockchain_analysis__",
+          "get_block_info",
+          "get_block_number",
+          "get_address_by_ens_name",
+          "get_transactions_by_address",
+          "get_token_transfers_by_address",
+          "lookup_token_by_symbol",
+          "get_contract_abi",
+          "inspect_contract_code",
+          "read_contract",
+          "get_address_info",
+          "get_tokens_by_address",
+          "nft_tokens_by_address",
+          "get_transaction_info",
+          "get_chains_list",
+          "direct_api_call"
+        ]
+      },
+      {
         "date": "2026-08-31T09:25:08.946Z",
         "method": "remote-http",
         "runId": "2026-08-31T09-25-08Z-63eeb8",
@@ -179,6 +204,31 @@
     ],
     "linux": [
       {
+        "date": "2026-09-07T08:04:38.389Z",
+        "method": "remote-http",
+        "runId": "2026-09-07T08-04-38Z-28ea18",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "__unlock_blockchain_analysis__",
+          "get_block_info",
+          "get_block_number",
+          "get_address_by_ens_name",
+          "get_transactions_by_address",
+          "get_token_transfers_by_address",
+          "lookup_token_by_symbol",
+          "get_contract_abi",
+          "inspect_contract_code",
+          "read_contract",
+          "get_address_info",
+          "get_tokens_by_address",
+          "nft_tokens_by_address",
+          "get_transaction_info",
+          "get_chains_list",
+          "direct_api_call"
+        ]
+      },
+      {
         "date": "2026-08-31T09:25:00.665Z",
         "method": "remote-http",
         "runId": "2026-08-31T09-25-00Z-713a67",
@@ -355,6 +405,31 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-09-07T08:05:06.232Z",
+        "method": "remote-http",
+        "runId": "2026-09-07T08-05-06Z-b382e1",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "__unlock_blockchain_analysis__",
+          "get_block_info",
+          "get_block_number",
+          "get_address_by_ens_name",
+          "get_transactions_by_address",
+          "get_token_transfers_by_address",
+          "lookup_token_by_symbol",
+          "get_contract_abi",
+          "inspect_contract_code",
+          "read_contract",
+          "get_address_info",
+          "get_tokens_by_address",
+          "nft_tokens_by_address",
+          "get_transaction_info",
+          "get_chains_list",
+          "direct_api_call"
+        ]
+      },
       {
         "date": "2026-08-31T09:25:22.660Z",
         "method": "remote-http",

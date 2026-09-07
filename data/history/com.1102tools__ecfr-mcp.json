@@ -2,6 +2,28 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-09-07T08:04:39.218Z",
+        "method": "pypi",
+        "runId": "2026-09-07T08-04-39Z-0b9eb7",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "get_latest_date",
+          "get_cfr_content",
+          "get_cfr_structure",
+          "get_version_history",
+          "get_ancestry",
+          "search_cfr",
+          "list_agencies",
+          "get_corrections",
+          "lookup_far_clause",
+          "compare_versions",
+          "list_sections_in_part",
+          "find_far_definition",
+          "find_recent_changes"
+        ]
+      },
+      {
         "date": "2026-08-31T09:25:02.965Z",
         "method": "pypi",
         "runId": "2026-08-31T09-25-02Z-16d148",
@@ -26,6 +48,28 @@
     ],
     "linux": [
       {
+        "date": "2026-09-07T08:04:39.282Z",
+        "method": "pypi",
+        "runId": "2026-09-07T08-04-39Z-ae53cc",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "get_latest_date",
+          "get_cfr_content",
+          "get_cfr_structure",
+          "get_version_history",
+          "get_ancestry",
+          "search_cfr",
+          "list_agencies",
+          "get_corrections",
+          "lookup_far_clause",
+          "compare_versions",
+          "list_sections_in_part",
+          "find_far_definition",
+          "find_recent_changes"
+        ]
+      },
+      {
         "date": "2026-08-31T09:25:05.771Z",
         "method": "pypi",
         "runId": "2026-08-31T09-25-05Z-a5971e",
@@ -49,6 +93,28 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-09-07T08:04:54.652Z",
+        "method": "pypi",
+        "runId": "2026-09-07T08-04-54Z-45ba0f",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "get_latest_date",
+          "get_cfr_content",
+          "get_cfr_structure",
+          "get_version_history",
+          "get_ancestry",
+          "search_cfr",
+          "list_agencies",
+          "get_corrections",
+          "lookup_far_clause",
+          "compare_versions",
+          "list_sections_in_part",
+          "find_far_definition",
+          "find_recent_changes"
+        ]
+      },
       {
         "date": "2026-08-31T09:25:20.393Z",
         "method": "pypi",

@@ -2,6 +2,21 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-09-07T08:04:39.087Z",
+        "method": "remote-http",
+        "runId": "2026-09-07T08-04-39Z-6e3558",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "get_scribble_service_info",
+          "create_scribe_animation",
+          "get_scribe_animation",
+          "get_scribe_animation_download",
+          "redeem_scribe_unlock_code",
+          "delete_scribe_animation"
+        ]
+      },
+      {
         "date": "2026-08-31T09:25:08.946Z",
         "method": "remote-http",
         "runId": "2026-08-31T09-25-08Z-63eeb8",
@@ -19,6 +34,21 @@
     ],
     "linux": [
       {
+        "date": "2026-09-07T08:04:38.389Z",
+        "method": "remote-http",
+        "runId": "2026-09-07T08-04-38Z-28ea18",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "get_scribble_service_info",
+          "create_scribe_animation",
+          "get_scribe_animation",
+          "get_scribe_animation_download",
+          "redeem_scribe_unlock_code",
+          "delete_scribe_animation"
+        ]
+      },
+      {
         "date": "2026-08-31T09:25:00.665Z",
         "method": "remote-http",
         "runId": "2026-08-31T09-25-00Z-713a67",
@@ -35,6 +65,21 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-09-07T08:05:06.232Z",
+        "method": "remote-http",
+        "runId": "2026-09-07T08-05-06Z-b382e1",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "get_scribble_service_info",
+          "create_scribe_animation",
+          "get_scribe_animation",
+          "get_scribe_animation_download",
+          "redeem_scribe_unlock_code",
+          "delete_scribe_animation"
+        ]
+      },
       {
         "date": "2026-08-31T09:25:22.660Z",
         "method": "remote-http",

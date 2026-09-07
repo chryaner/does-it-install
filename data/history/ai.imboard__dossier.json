@@ -2,6 +2,26 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-09-07T08:04:40.480Z",
+        "installMs": 13533,
+        "method": "npm",
+        "runId": "2026-09-07T08-04-40Z-dbf1df",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "verify_dossier",
+          "read_dossier",
+          "list_dossiers",
+          "search_dossiers",
+          "resolve_graph",
+          "verify_graph",
+          "start_journey",
+          "step_complete",
+          "get_journey_status",
+          "cancel_journey"
+        ]
+      },
+      {
         "date": "2026-08-31T09:25:08.808Z",
         "installMs": 7694,
         "method": "npm",
@@ -161,6 +181,26 @@
     ],
     "linux": [
       {
+        "date": "2026-09-07T08:04:33.907Z",
+        "installMs": 7124,
+        "method": "npm",
+        "runId": "2026-09-07T08-04-33Z-5ca384",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "verify_dossier",
+          "read_dossier",
+          "list_dossiers",
+          "search_dossiers",
+          "resolve_graph",
+          "verify_graph",
+          "start_journey",
+          "step_complete",
+          "get_journey_status",
+          "cancel_journey"
+        ]
+      },
+      {
         "date": "2026-08-31T09:25:01.858Z",
         "installMs": 7468,
         "method": "npm",
@@ -319,6 +359,26 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-09-07T08:04:51.928Z",
+        "installMs": 194505,
+        "method": "npm",
+        "runId": "2026-09-07T08-04-51Z-f8b185",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "verify_dossier",
+          "read_dossier",
+          "list_dossiers",
+          "search_dossiers",
+          "resolve_graph",
+          "verify_graph",
+          "start_journey",
+          "step_complete",
+          "get_journey_status",
+          "cancel_journey"
+        ]
+      },
       {
         "date": "2026-08-31T09:25:18.401Z",
         "installMs": 128001,

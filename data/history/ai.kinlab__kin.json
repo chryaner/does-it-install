@@ -2,6 +2,36 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-09-07T08:04:39.087Z",
+        "installMs": 963,
+        "method": "npm",
+        "runId": "2026-09-07T08-04-39Z-6e3558",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "find_references",
+          "get_context_pack",
+          "get_entity_source",
+          "graph_neighborhood",
+          "impact_analysis",
+          "kin_artifact_list",
+          "kin_artifact_read",
+          "kin_graph_status",
+          "kin_provenance_query",
+          "kin_session_end",
+          "kin_session_heartbeat",
+          "kin_session_start",
+          "kin_transaction_abort",
+          "kin_transaction_begin",
+          "kin_transaction_commit",
+          "kin_transaction_stage",
+          "list_file_entities",
+          "semantic_locate",
+          "semantic_search",
+          "trace_data_flow"
+        ]
+      },
+      {
         "date": "2026-08-31T09:25:08.946Z",
         "installMs": 550,
         "method": "npm",
@@ -80,6 +110,36 @@
     ],
     "linux": [
       {
+        "date": "2026-09-07T08:04:38.389Z",
+        "installMs": 874,
+        "method": "npm",
+        "runId": "2026-09-07T08-04-38Z-28ea18",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "find_references",
+          "get_context_pack",
+          "get_entity_source",
+          "graph_neighborhood",
+          "impact_analysis",
+          "kin_artifact_list",
+          "kin_artifact_read",
+          "kin_graph_status",
+          "kin_provenance_query",
+          "kin_session_end",
+          "kin_session_heartbeat",
+          "kin_session_start",
+          "kin_transaction_abort",
+          "kin_transaction_begin",
+          "kin_transaction_commit",
+          "kin_transaction_stage",
+          "list_file_entities",
+          "semantic_locate",
+          "semantic_search",
+          "trace_data_flow"
+        ]
+      },
+      {
         "date": "2026-08-31T09:25:00.665Z",
         "installMs": 1076,
         "method": "npm",
@@ -157,6 +217,36 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-09-07T08:05:06.232Z",
+        "installMs": 1538,
+        "method": "npm",
+        "runId": "2026-09-07T08-05-06Z-b382e1",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "find_references",
+          "get_context_pack",
+          "get_entity_source",
+          "graph_neighborhood",
+          "impact_analysis",
+          "kin_artifact_list",
+          "kin_artifact_read",
+          "kin_graph_status",
+          "kin_provenance_query",
+          "kin_session_end",
+          "kin_session_heartbeat",
+          "kin_session_start",
+          "kin_transaction_abort",
+          "kin_transaction_begin",
+          "kin_transaction_commit",
+          "kin_transaction_stage",
+          "list_file_entities",
+          "semantic_locate",
+          "semantic_search",
+          "trace_data_flow"
+        ]
+      },
       {
         "date": "2026-08-31T09:25:22.660Z",
         "installMs": 1608,

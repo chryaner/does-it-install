@@ -2,6 +2,24 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-09-07T08:04:39.218Z",
+        "installMs": 584,
+        "method": "npm",
+        "runId": "2026-09-07T08-04-39Z-0b9eb7",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "search_flights",
+          "resolve_location",
+          "unlock_flight_offer",
+          "book_flight",
+          "setup_payment",
+          "get_agent_profile",
+          "start_checkout",
+          "system_info"
+        ]
+      },
+      {
         "date": "2026-08-31T09:25:02.965Z",
         "installMs": 822,
         "method": "npm",
@@ -182,6 +200,24 @@
     ],
     "linux": [
       {
+        "date": "2026-09-07T08:04:39.282Z",
+        "installMs": 757,
+        "method": "npm",
+        "runId": "2026-09-07T08-04-39Z-ae53cc",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "search_flights",
+          "resolve_location",
+          "unlock_flight_offer",
+          "book_flight",
+          "setup_payment",
+          "get_agent_profile",
+          "start_checkout",
+          "system_info"
+        ]
+      },
+      {
         "date": "2026-08-31T09:25:05.771Z",
         "installMs": 759,
         "method": "npm",
@@ -361,6 +397,24 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-09-07T08:04:54.652Z",
+        "installMs": 5213,
+        "method": "npm",
+        "runId": "2026-09-07T08-04-54Z-45ba0f",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "search_flights",
+          "resolve_location",
+          "unlock_flight_offer",
+          "book_flight",
+          "setup_payment",
+          "get_agent_profile",
+          "start_checkout",
+          "system_info"
+        ]
+      },
       {
         "date": "2026-08-31T09:25:20.393Z",
         "installMs": 1982,

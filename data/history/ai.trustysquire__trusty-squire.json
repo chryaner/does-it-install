@@ -2,6 +2,32 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-09-07T08:04:39.218Z",
+        "installMs": 24014,
+        "method": "npm",
+        "runId": "2026-09-07T08-04-39Z-0b9eb7",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "list_credentials",
+          "store_credential",
+          "use_credential",
+          "grant_app_access",
+          "list_app_access",
+          "revoke_app_access",
+          "audit_log",
+          "list_payment_cards",
+          "operate_pay",
+          "operate_payment_status",
+          "operate_start",
+          "operate_observe",
+          "operate_act",
+          "operate_recipe_save",
+          "operate_recipe_run",
+          "operate_finish"
+        ]
+      },
+      {
         "date": "2026-08-31T09:25:02.965Z",
         "installMs": 14817,
         "method": "npm",
@@ -184,6 +210,32 @@
     ],
     "linux": [
       {
+        "date": "2026-09-07T08:04:39.282Z",
+        "installMs": 11750,
+        "method": "npm",
+        "runId": "2026-09-07T08-04-39Z-ae53cc",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "list_credentials",
+          "store_credential",
+          "use_credential",
+          "grant_app_access",
+          "list_app_access",
+          "revoke_app_access",
+          "audit_log",
+          "list_payment_cards",
+          "operate_pay",
+          "operate_payment_status",
+          "operate_start",
+          "operate_observe",
+          "operate_act",
+          "operate_recipe_save",
+          "operate_recipe_run",
+          "operate_finish"
+        ]
+      },
+      {
         "date": "2026-08-31T09:25:05.771Z",
         "installMs": 12101,
         "method": "npm",
@@ -365,6 +417,32 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-09-07T08:04:54.652Z",
+        "installMs": 216870,
+        "method": "npm",
+        "runId": "2026-09-07T08-04-54Z-45ba0f",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "list_credentials",
+          "store_credential",
+          "use_credential",
+          "grant_app_access",
+          "list_app_access",
+          "revoke_app_access",
+          "audit_log",
+          "list_payment_cards",
+          "operate_pay",
+          "operate_payment_status",
+          "operate_start",
+          "operate_observe",
+          "operate_act",
+          "operate_recipe_save",
+          "operate_recipe_run",
+          "operate_finish"
+        ]
+      },
       {
         "date": "2026-08-31T09:25:20.393Z",
         "installMs": 270973,

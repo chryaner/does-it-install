@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-09-07T08:04:39.087Z",
+        "errorExcerpt": "connect failed: SSE error: Non-200 status code (405)",
+        "method": "remote-sse",
+        "runId": "2026-09-07T08-04-39Z-6e3558",
+        "status": "connect_failed"
+      },
+      {
         "date": "2026-08-31T09:25:08.946Z",
         "errorExcerpt": "connect failed: SSE error: Non-200 status code (405)",
         "method": "remote-sse",
@@ -39,6 +46,13 @@
     ],
     "linux": [
       {
+        "date": "2026-09-07T08:04:38.389Z",
+        "errorExcerpt": "connect failed: SSE error: Non-200 status code (405)",
+        "method": "remote-sse",
+        "runId": "2026-09-07T08-04-38Z-28ea18",
+        "status": "connect_failed"
+      },
+      {
         "date": "2026-08-31T09:25:00.665Z",
         "errorExcerpt": "connect failed: SSE error: Non-200 status code (405)",
         "method": "remote-sse",
@@ -75,6 +89,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-09-07T08:05:06.232Z",
+        "errorExcerpt": "connect failed: SSE error: Non-200 status code (405)",
+        "method": "remote-sse",
+        "runId": "2026-09-07T08-05-06Z-b382e1",
+        "status": "connect_failed"
+      },
       {
         "date": "2026-08-31T09:25:22.660Z",
         "errorExcerpt": "connect failed: SSE error: Non-200 status code (405)",

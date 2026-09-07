@@ -2,6 +2,22 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-09-07T08:04:39.218Z",
+        "method": "pypi",
+        "runId": "2026-09-07T08-04-39Z-0b9eb7",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "get_access_status",
+          "lookup_city_perdiem",
+          "lookup_zip_perdiem",
+          "lookup_state_rates",
+          "get_mie_breakdown",
+          "estimate_travel_cost",
+          "compare_locations"
+        ]
+      },
+      {
         "date": "2026-08-31T09:25:02.965Z",
         "method": "pypi",
         "runId": "2026-08-31T09-25-02Z-16d148",
@@ -20,6 +36,22 @@
     ],
     "linux": [
       {
+        "date": "2026-09-07T08:04:39.282Z",
+        "method": "pypi",
+        "runId": "2026-09-07T08-04-39Z-ae53cc",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "get_access_status",
+          "lookup_city_perdiem",
+          "lookup_zip_perdiem",
+          "lookup_state_rates",
+          "get_mie_breakdown",
+          "estimate_travel_cost",
+          "compare_locations"
+        ]
+      },
+      {
         "date": "2026-08-31T09:25:05.771Z",
         "method": "pypi",
         "runId": "2026-08-31T09-25-05Z-a5971e",
@@ -37,6 +69,22 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-09-07T08:04:54.652Z",
+        "method": "pypi",
+        "runId": "2026-09-07T08-04-54Z-45ba0f",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "get_access_status",
+          "lookup_city_perdiem",
+          "lookup_zip_perdiem",
+          "lookup_state_rates",
+          "get_mie_breakdown",
+          "estimate_travel_cost",
+          "compare_locations"
+        ]
+      },
       {
         "date": "2026-08-31T09:25:20.393Z",
         "method": "pypi",

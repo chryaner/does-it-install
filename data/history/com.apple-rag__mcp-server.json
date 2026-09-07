@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-09-07T08:04:39.218Z",
+        "errorExcerpt": "connect failed: HTTP 400: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"id\":null,\"error\":{\"code\":-32600,\"message\":\"MCP-Protocol-Version must be 2026-07-28\"}}",
+        "method": "remote-http",
+        "runId": "2026-09-07T08-04-39Z-0b9eb7",
+        "status": "connect_failed"
+      },
+      {
         "date": "2026-08-31T09:25:02.965Z",
         "method": "remote-http",
         "runId": "2026-08-31T09-25-02Z-16d148",
@@ -92,6 +99,13 @@
     ],
     "linux": [
       {
+        "date": "2026-09-07T08:04:39.282Z",
+        "errorExcerpt": "connect failed: HTTP 400: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"id\":null,\"error\":{\"code\":-32600,\"message\":\"MCP-Protocol-Version must be 2026-07-28\"}}",
+        "method": "remote-http",
+        "runId": "2026-09-07T08-04-39Z-ae53cc",
+        "status": "connect_failed"
+      },
+      {
         "date": "2026-08-31T09:25:05.771Z",
         "method": "remote-http",
         "runId": "2026-08-31T09-25-05Z-a5971e",
@@ -181,6 +195,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-09-07T08:04:54.652Z",
+        "errorExcerpt": "connect failed: HTTP 400: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"id\":null,\"error\":{\"code\":-32600,\"message\":\"MCP-Protocol-Version must be 2026-07-28\"}}",
+        "method": "remote-http",
+        "runId": "2026-09-07T08-04-54Z-45ba0f",
+        "status": "connect_failed"
+      },
       {
         "date": "2026-08-31T09:25:20.393Z",
         "method": "remote-http",
