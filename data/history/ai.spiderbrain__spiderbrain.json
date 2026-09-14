@@ -2,6 +2,22 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-09-14T08:52:45.707Z",
+        "installMs": 2479,
+        "method": "npm",
+        "runId": "2026-09-14T08-52-45Z-36430b",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "sb_blast",
+          "sb_impact",
+          "sb_path",
+          "sb_keystones",
+          "sb_map",
+          "sb_ask"
+        ]
+      },
+      {
         "date": "2026-09-07T08:04:39.087Z",
         "installMs": 1484,
         "method": "npm",
@@ -52,6 +68,22 @@
     ],
     "linux": [
       {
+        "date": "2026-09-14T08:52:33.707Z",
+        "installMs": 1175,
+        "method": "npm",
+        "runId": "2026-09-14T08-52-33Z-79a627",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "sb_blast",
+          "sb_impact",
+          "sb_path",
+          "sb_keystones",
+          "sb_map",
+          "sb_ask"
+        ]
+      },
+      {
         "date": "2026-09-07T08:04:38.389Z",
         "installMs": 1476,
         "method": "npm",
@@ -101,6 +133,22 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-09-14T08:52:50.183Z",
+        "installMs": 3018,
+        "method": "npm",
+        "runId": "2026-09-14T08-52-50Z-d053f3",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "sb_blast",
+          "sb_impact",
+          "sb_path",
+          "sb_keystones",
+          "sb_map",
+          "sb_ask"
+        ]
+      },
       {
         "date": "2026-09-07T08:05:06.232Z",
         "installMs": 3578,

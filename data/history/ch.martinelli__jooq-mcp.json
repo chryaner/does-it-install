@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-09-14T08:52:40.878Z",
+        "errorExcerpt": "connect failed: SSE error: Non-200 status code (500)",
+        "method": "remote-sse",
+        "runId": "2026-09-14T08-52-40Z-7f3b71",
+        "status": "connect_failed"
+      },
+      {
         "date": "2026-09-07T08:04:40.480Z",
         "errorExcerpt": "connect failed: SSE error: Non-200 status code (500)",
         "method": "remote-sse",
@@ -53,6 +60,13 @@
     ],
     "linux": [
       {
+        "date": "2026-09-14T08:52:33.348Z",
+        "errorExcerpt": "connect failed: SSE error: Non-200 status code (500)",
+        "method": "remote-sse",
+        "runId": "2026-09-14T08-52-33Z-45048e",
+        "status": "connect_failed"
+      },
+      {
         "date": "2026-09-07T08:04:33.907Z",
         "errorExcerpt": "connect failed: SSE error: Non-200 status code (500)",
         "method": "remote-sse",
@@ -103,6 +117,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-09-14T08:53:01.857Z",
+        "errorExcerpt": "connect failed: SSE error: Non-200 status code (500)",
+        "method": "remote-sse",
+        "runId": "2026-09-14T08-53-01Z-3a0b54",
+        "status": "connect_failed"
+      },
       {
         "date": "2026-09-07T08:04:51.928Z",
         "errorExcerpt": "connect failed: SSE error: Non-200 status code (500)",

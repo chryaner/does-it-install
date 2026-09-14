@@ -2,6 +2,19 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-09-14T08:52:40.878Z",
+        "method": "remote-http",
+        "runId": "2026-09-14T08-52-40Z-7f3b71",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "query_pol_certificates",
+          "query_agent_trust",
+          "verify_pm_trade",
+          "verify_perp_trade"
+        ]
+      },
+      {
         "date": "2026-09-07T08:04:40.480Z",
         "method": "remote-http",
         "runId": "2026-09-07T08-04-40Z-dbf1df",
@@ -100,6 +113,19 @@
     ],
     "linux": [
       {
+        "date": "2026-09-14T08:52:33.348Z",
+        "method": "remote-http",
+        "runId": "2026-09-14T08-52-33Z-45048e",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "query_pol_certificates",
+          "query_agent_trust",
+          "verify_pm_trade",
+          "verify_perp_trade"
+        ]
+      },
+      {
         "date": "2026-09-07T08:04:33.907Z",
         "method": "remote-http",
         "runId": "2026-09-07T08-04-33Z-5ca384",
@@ -197,6 +223,19 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-09-14T08:53:01.857Z",
+        "method": "remote-http",
+        "runId": "2026-09-14T08-53-01Z-3a0b54",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "query_pol_certificates",
+          "query_agent_trust",
+          "verify_pm_trade",
+          "verify_perp_trade"
+        ]
+      },
       {
         "date": "2026-09-07T08:04:51.928Z",
         "method": "remote-http",
