@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-09-21T08:40:45.212Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-09-21T08-40-45Z-5a5658",
+        "status": "skipped"
+      },
+      {
         "date": "2026-09-14T08:52:40.878Z",
         "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
         "installMs": 0,
@@ -97,6 +105,14 @@
     ],
     "linux": [
       {
+        "date": "2026-09-21T08:40:31.373Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: , \"███████║██\"... is not valid JSON\nUnexpected token '█', \"██╔══██║██\"... is not valid JSON\nUnexpected token '█', \"██║  ██║██\"... is not valid JSON\nUnexpected token '╚', \"╚═╝  ╚═╝╚═\"... is not valid JSON\nUnexpected token 'P', \"PLAY WITH \"... is not valid JSON\nExpected ',' or ']' after array element in JSON at position 6 (line 1 column 7)\nExpected ',' or ']' after array element in JSON at position 6 (line 1 column 7)\nExpected ',' or ']' after array element in JSON at position 6 (line 1 column 7)\n--- stderr (tail) ---\nError: Could not create the Java Virtual Machine.\nError: A fatal exception has occurred. Program will exit.",
+        "installMs": 11118,
+        "method": "oci",
+        "runId": "2026-09-21T08-40-31Z-97fe9b",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-09-14T08:52:33.348Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: , \"███████║██\"... is not valid JSON\nUnexpected token '█', \"██╔══██║██\"... is not valid JSON\nUnexpected token '█', \"██║  ██║██\"... is not valid JSON\nUnexpected token '╚', \"╚═╝  ╚═╝╚═\"... is not valid JSON\nUnexpected token 'P', \"PLAY WITH \"... is not valid JSON\nExpected ',' or ']' after array element in JSON at position 6 (line 1 column 7)\nExpected ',' or ']' after array element in JSON at position 6 (line 1 column 7)\nExpected ',' or ']' after array element in JSON at position 6 (line 1 column 7)\n--- stderr (tail) ---\nError: Could not create the Java Virtual Machine.\nError: A fatal exception has occurred. Program will exit.",
         "installMs": 26248,
@@ -191,6 +207,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-09-21T08:41:00.356Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-09-21T08-41-00Z-3b8ecb",
+        "status": "skipped"
+      },
       {
         "date": "2026-09-14T08:53:01.857Z",
         "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",

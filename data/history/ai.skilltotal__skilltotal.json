@@ -1,0 +1,48 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-09-21T08:40:44.589Z",
+        "method": "pypi",
+        "runId": "2026-09-21T08-40-44Z-9ee708",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "scan_component",
+          "diff_components",
+          "list_rules"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-09-21T08:40:32.097Z",
+        "method": "pypi",
+        "runId": "2026-09-21T08-40-32Z-3468d5",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "scan_component",
+          "diff_components",
+          "list_rules"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-09-21T08:40:50.630Z",
+        "method": "pypi",
+        "runId": "2026-09-21T08-40-50Z-3f5f7c",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "scan_component",
+          "diff_components",
+          "list_rules"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.skilltotal/skilltotal",
+  "slug": "ai.skilltotal__skilltotal"
+}

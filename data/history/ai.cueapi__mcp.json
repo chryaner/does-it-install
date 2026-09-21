@@ -2,6 +2,24 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-09-21T08:40:44.589Z",
+        "installMs": 4557,
+        "method": "npm",
+        "runId": "2026-09-21T08-40-44Z-9ee708",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "cueapi_create_cue",
+          "cueapi_list_cues",
+          "cueapi_get_cue",
+          "cueapi_pause_cue",
+          "cueapi_resume_cue",
+          "cueapi_delete_cue",
+          "cueapi_list_executions",
+          "cueapi_report_outcome"
+        ]
+      },
+      {
         "date": "2026-08-15T20:03:27.636Z",
         "installMs": 5815,
         "method": "npm",
@@ -91,6 +109,24 @@
     ],
     "linux": [
       {
+        "date": "2026-09-21T08:40:32.097Z",
+        "installMs": 3963,
+        "method": "npm",
+        "runId": "2026-09-21T08-40-32Z-3468d5",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "cueapi_create_cue",
+          "cueapi_list_cues",
+          "cueapi_get_cue",
+          "cueapi_pause_cue",
+          "cueapi_resume_cue",
+          "cueapi_delete_cue",
+          "cueapi_list_executions",
+          "cueapi_report_outcome"
+        ]
+      },
+      {
         "date": "2026-08-15T20:03:19.780Z",
         "installMs": 3486,
         "method": "npm",
@@ -179,6 +215,24 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-09-21T08:40:50.630Z",
+        "installMs": 41939,
+        "method": "npm",
+        "runId": "2026-09-21T08-40-50Z-3f5f7c",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "cueapi_create_cue",
+          "cueapi_list_cues",
+          "cueapi_get_cue",
+          "cueapi_pause_cue",
+          "cueapi_resume_cue",
+          "cueapi_delete_cue",
+          "cueapi_list_executions",
+          "cueapi_report_outcome"
+        ]
+      },
       {
         "date": "2026-08-15T20:03:37.931Z",
         "installMs": 139540,

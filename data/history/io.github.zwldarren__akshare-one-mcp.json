@@ -1,0 +1,66 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-09-21T08:40:45.212Z",
+        "method": "pypi",
+        "runId": "2026-09-21T08-40-45Z-5a5658",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "get_hist_data",
+          "get_realtime_data",
+          "get_news_data",
+          "get_balance_sheet",
+          "get_income_statement",
+          "get_cash_flow",
+          "get_inner_trade_data",
+          "get_financial_metrics",
+          "get_time_info"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-09-21T08:40:31.373Z",
+        "method": "pypi",
+        "runId": "2026-09-21T08-40-31Z-97fe9b",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "get_hist_data",
+          "get_realtime_data",
+          "get_news_data",
+          "get_balance_sheet",
+          "get_income_statement",
+          "get_cash_flow",
+          "get_inner_trade_data",
+          "get_financial_metrics",
+          "get_time_info"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-09-21T08:41:00.356Z",
+        "method": "pypi",
+        "runId": "2026-09-21T08-41-00Z-3b8ecb",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "get_hist_data",
+          "get_realtime_data",
+          "get_news_data",
+          "get_balance_sheet",
+          "get_income_statement",
+          "get_cash_flow",
+          "get_inner_trade_data",
+          "get_financial_metrics",
+          "get_time_info"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.zwldarren/akshare-one-mcp",
+  "slug": "io.github.zwldarren__akshare-one-mcp"
+}

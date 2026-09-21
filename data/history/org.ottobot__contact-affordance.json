@@ -1,0 +1,42 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-09-21T08:40:43.680Z",
+        "method": "remote-http",
+        "runId": "2026-09-21T08-40-43Z-b4acbb",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "check_contact_path"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-09-21T08:40:34.919Z",
+        "method": "remote-http",
+        "runId": "2026-09-21T08-40-34Z-5c10e9",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "check_contact_path"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-09-21T08:40:53.412Z",
+        "method": "remote-http",
+        "runId": "2026-09-21T08-40-53Z-657a40",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "check_contact_path"
+        ]
+      }
+    ]
+  },
+  "serverId": "org.ottobot/contact-affordance",
+  "slug": "org.ottobot__contact-affordance"
+}

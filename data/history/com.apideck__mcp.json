@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-09-21T08:40:43.680Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: d JSON\nUnexpected end of JSON input\nUnexpected token 'M', \"MCP server CLI\" is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'F', \"FLAGS\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nUnexpected end of JSON input\nUnexpected token 'C', \"COMMANDS\" is not valid JSON\nUnexpected token 's', \"  start  Run\"... is not valid JSON\nUnexpected token 's', \"  serve  Run\"... is not valid JSON",
+        "installMs": 22538,
+        "method": "npm",
+        "runId": "2026-09-21T08-40-43Z-b4acbb",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-09-14T08:52:45.707Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: d JSON\nUnexpected end of JSON input\nUnexpected token 'M', \"MCP server CLI\" is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'F', \"FLAGS\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nUnexpected end of JSON input\nUnexpected token 'C', \"COMMANDS\" is not valid JSON\nUnexpected token 's', \"  start  Run\"... is not valid JSON\nUnexpected token 's', \"  serve  Run\"... is not valid JSON",
         "installMs": 20705,
@@ -74,6 +82,14 @@
     ],
     "linux": [
       {
+        "date": "2026-09-21T08:40:34.919Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: d JSON\nUnexpected end of JSON input\nUnexpected token 'M', \"MCP server CLI\" is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'F', \"FLAGS\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nUnexpected end of JSON input\nUnexpected token 'C', \"COMMANDS\" is not valid JSON\nUnexpected token 's', \"  start  Run\"... is not valid JSON\nUnexpected token 's', \"  serve  Run\"... is not valid JSON",
+        "installMs": 16100,
+        "method": "npm",
+        "runId": "2026-09-21T08-40-34Z-5c10e9",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-09-14T08:52:33.707Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: d JSON\nUnexpected end of JSON input\nUnexpected token 'M', \"MCP server CLI\" is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'F', \"FLAGS\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nUnexpected end of JSON input\nUnexpected token 'C', \"COMMANDS\" is not valid JSON\nUnexpected token 's', \"  start  Run\"... is not valid JSON\nUnexpected token 's', \"  serve  Run\"... is not valid JSON",
         "installMs": 19575,
@@ -145,6 +161,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-09-21T08:40:53.412Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: d JSON\nUnexpected end of JSON input\nUnexpected token 'M', \"MCP server CLI\" is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'F', \"FLAGS\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nUnexpected end of JSON input\nUnexpected token 'C', \"COMMANDS\" is not valid JSON\nUnexpected token 's', \"  start  Run\"... is not valid JSON\nUnexpected token 's', \"  serve  Run\"... is not valid JSON",
+        "installMs": 488520,
+        "method": "npm",
+        "runId": "2026-09-21T08-40-53Z-657a40",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-09-14T08:52:50.183Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: d JSON\nUnexpected end of JSON input\nUnexpected token 'M', \"MCP server CLI\" is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'F', \"FLAGS\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nUnexpected end of JSON input\nUnexpected token 'C', \"COMMANDS\" is not valid JSON\nUnexpected token 's', \"  start  Run\"... is not valid JSON\nUnexpected token 's', \"  serve  Run\"... is not valid JSON",

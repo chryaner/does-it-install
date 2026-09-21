@@ -2,6 +2,17 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-09-21T08:40:44.589Z",
+        "method": "remote-http",
+        "runId": "2026-09-21T08-40-44Z-9ee708",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "web_search_exa",
+          "web_fetch_exa"
+        ]
+      },
+      {
         "date": "2026-09-14T08:52:40.878Z",
         "method": "remote-http",
         "runId": "2026-09-14T08-52-40Z-7f3b71",
@@ -158,6 +169,17 @@
     ],
     "linux": [
       {
+        "date": "2026-09-21T08:40:32.097Z",
+        "method": "remote-http",
+        "runId": "2026-09-21T08-40-32Z-3468d5",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "web_search_exa",
+          "web_fetch_exa"
+        ]
+      },
+      {
         "date": "2026-09-14T08:52:33.348Z",
         "method": "remote-http",
         "runId": "2026-09-14T08-52-33Z-45048e",
@@ -313,6 +335,17 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-09-21T08:40:50.630Z",
+        "method": "remote-http",
+        "runId": "2026-09-21T08-40-50Z-3f5f7c",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "web_search_exa",
+          "web_fetch_exa"
+        ]
+      },
       {
         "date": "2026-09-14T08:53:01.857Z",
         "method": "remote-http",

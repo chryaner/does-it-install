@@ -2,6 +2,17 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-09-21T08:40:43.680Z",
+        "installMs": 11303,
+        "method": "npm",
+        "runId": "2026-09-21T08-40-43Z-b4acbb",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "unreal"
+        ]
+      },
+      {
         "date": "2026-09-14T08:52:40.878Z",
         "installMs": 8402,
         "method": "npm",
@@ -365,6 +376,17 @@
     ],
     "linux": [
       {
+        "date": "2026-09-21T08:40:34.919Z",
+        "installMs": 6985,
+        "method": "npm",
+        "runId": "2026-09-21T08-40-34Z-5c10e9",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "unreal"
+        ]
+      },
+      {
         "date": "2026-09-14T08:52:33.348Z",
         "installMs": 5654,
         "method": "npm",
@@ -727,6 +749,17 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-09-21T08:40:53.412Z",
+        "installMs": 236947,
+        "method": "npm",
+        "runId": "2026-09-21T08-40-53Z-657a40",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "unreal"
+        ]
+      },
       {
         "date": "2026-09-14T08:53:01.857Z",
         "installMs": 285110,

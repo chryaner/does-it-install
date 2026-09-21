@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-09-21T08:40:45.212Z",
+        "errorExcerpt": "npm install unifi-rmcp@0.2.4 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for unifi-rmcp@0.2.4.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /var/folders/36/tjdph2t965j8snz9_vkdnw0r0000gn/T/does-it-install/dii-npm-LAN2D7/.npm-cache/_logs/2026-09-21T08_42_23_188Z-debug-0.log",
+        "installMs": 691,
+        "method": "npm",
+        "runId": "2026-09-21T08-40-45Z-5a5658",
+        "status": "install_failed"
+      },
+      {
         "date": "2026-08-15T20:03:31.969Z",
         "errorExcerpt": "npm install unifi-rmcp@0.2.4 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for unifi-rmcp@0.2.4.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-fvaWYQ/.npm-cache/_logs/2026-08-15T20_07_16_615Z-debug-0.log",
         "installMs": 364,
@@ -41,6 +49,14 @@
     ],
     "linux": [
       {
+        "date": "2026-09-21T08:40:31.373Z",
+        "errorExcerpt": "npm install unifi-rmcp@0.2.4 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for unifi-rmcp@0.2.4.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /tmp/does-it-install/dii-npm-TT1A4c/.npm-cache/_logs/2026-09-21T08_41_43_157Z-debug-0.log",
+        "installMs": 528,
+        "method": "npm",
+        "runId": "2026-09-21T08-40-31Z-97fe9b",
+        "status": "install_failed"
+      },
+      {
         "date": "2026-08-15T20:03:21.360Z",
         "errorExcerpt": "npm install unifi-rmcp@0.2.4 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for unifi-rmcp@0.2.4.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: /tmp/does-it-install/dii-npm-Cg3yIT/.npm-cache/_logs/2026-08-15T20_06_41_731Z-debug-0.log",
         "installMs": 466,
@@ -79,6 +95,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-09-21T08:41:00.356Z",
+        "errorExcerpt": "npm install unifi-rmcp@0.2.4 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for unifi-rmcp@0.2.4.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-rMUadn\\.npm-cache\\_logs\\2026-09-21T09_06_23_959Z-debug-0.log",
+        "installMs": 1703,
+        "method": "npm",
+        "runId": "2026-09-21T08-41-00Z-3b8ecb",
+        "status": "install_failed"
+      },
       {
         "date": "2026-08-15T20:03:36.582Z",
         "errorExcerpt": "npm install unifi-rmcp@0.2.4 exited with code 1\n--- stderr (tail) ---\nnpm error code ETARGET\nnpm error notarget No matching version found for unifi-rmcp@0.2.4.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-YY2B6Q\\.npm-cache\\_logs\\2026-08-15T20_42_35_291Z-debug-0.log",

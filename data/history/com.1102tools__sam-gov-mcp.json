@@ -2,6 +2,35 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-09-21T08:40:43.680Z",
+        "method": "pypi",
+        "runId": "2026-09-21T08-40-43Z-b4acbb",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "get_access_status",
+          "lookup_entity_by_uei",
+          "lookup_entity_by_cage",
+          "search_entities",
+          "get_entity_reps_and_certs",
+          "get_entity_integrity_info",
+          "check_exclusion_by_uei",
+          "search_exclusions",
+          "search_opportunities",
+          "get_opportunity_description",
+          "lookup_psc_code",
+          "search_psc_free_text",
+          "search_contract_awards",
+          "lookup_award_by_piid",
+          "search_deleted_awards",
+          "vendor_responsibility_check",
+          "search_federal_organizations",
+          "get_organization_hierarchy",
+          "search_acquisition_subawards",
+          "search_assistance_subawards"
+        ]
+      },
+      {
         "date": "2026-09-14T08:52:45.707Z",
         "method": "pypi",
         "runId": "2026-09-14T08-52-45Z-36430b",
@@ -91,6 +120,35 @@
     ],
     "linux": [
       {
+        "date": "2026-09-21T08:40:34.919Z",
+        "method": "pypi",
+        "runId": "2026-09-21T08-40-34Z-5c10e9",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "get_access_status",
+          "lookup_entity_by_uei",
+          "lookup_entity_by_cage",
+          "search_entities",
+          "get_entity_reps_and_certs",
+          "get_entity_integrity_info",
+          "check_exclusion_by_uei",
+          "search_exclusions",
+          "search_opportunities",
+          "get_opportunity_description",
+          "lookup_psc_code",
+          "search_psc_free_text",
+          "search_contract_awards",
+          "lookup_award_by_piid",
+          "search_deleted_awards",
+          "vendor_responsibility_check",
+          "search_federal_organizations",
+          "get_organization_hierarchy",
+          "search_acquisition_subawards",
+          "search_assistance_subawards"
+        ]
+      },
+      {
         "date": "2026-09-14T08:52:33.707Z",
         "method": "pypi",
         "runId": "2026-09-14T08-52-33Z-79a627",
@@ -179,6 +237,35 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-09-21T08:40:53.412Z",
+        "method": "pypi",
+        "runId": "2026-09-21T08-40-53Z-657a40",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "get_access_status",
+          "lookup_entity_by_uei",
+          "lookup_entity_by_cage",
+          "search_entities",
+          "get_entity_reps_and_certs",
+          "get_entity_integrity_info",
+          "check_exclusion_by_uei",
+          "search_exclusions",
+          "search_opportunities",
+          "get_opportunity_description",
+          "lookup_psc_code",
+          "search_psc_free_text",
+          "search_contract_awards",
+          "lookup_award_by_piid",
+          "search_deleted_awards",
+          "vendor_responsibility_check",
+          "search_federal_organizations",
+          "get_organization_hierarchy",
+          "search_acquisition_subawards",
+          "search_assistance_subawards"
+        ]
+      },
       {
         "date": "2026-09-14T08:52:50.183Z",
         "method": "pypi",

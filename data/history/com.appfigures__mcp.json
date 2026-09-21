@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-09-21T08:40:45.212Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n✗ Not logged in. Sign-in command: `appfigures auth login`.\nTry: auth login",
+        "installMs": 1135,
+        "method": "npm",
+        "runId": "2026-09-21T08-40-45Z-5a5658",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-09-14T08:52:40.878Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n✗ Not logged in. Sign-in command: `appfigures auth login`.\nTry: auth login",
         "installMs": 1405,
@@ -74,6 +82,14 @@
     ],
     "linux": [
       {
+        "date": "2026-09-21T08:40:31.373Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n✗ Not logged in. Sign-in command: `appfigures auth login`.\nTry: auth login",
+        "installMs": 1133,
+        "method": "npm",
+        "runId": "2026-09-21T08-40-31Z-97fe9b",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-09-14T08:52:33.348Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n✗ Not logged in. Sign-in command: `appfigures auth login`.\nTry: auth login",
         "installMs": 1233,
@@ -145,6 +161,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-09-21T08:41:00.356Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n✗ Not logged in. Sign-in command: `appfigures auth login`.\nTry: auth login",
+        "installMs": 6456,
+        "method": "npm",
+        "runId": "2026-09-21T08-41-00Z-3b8ecb",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-09-14T08:53:01.857Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n✗ Not logged in. Sign-in command: `appfigures auth login`.\nTry: auth login",

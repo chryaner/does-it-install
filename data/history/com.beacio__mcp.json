@@ -2,6 +2,23 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-09-21T08:40:45.212Z",
+        "installMs": 5712,
+        "method": "npm",
+        "runId": "2026-09-21T08-40-45Z-5a5658",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "beacio_install_plan",
+          "beacio_verify_integration",
+          "beacio_example",
+          "beacio_detect_ios_support",
+          "beacio_premium_guide",
+          "beacio_troubleshoot",
+          "beacio_spec_citation"
+        ]
+      },
+      {
         "date": "2026-09-14T08:52:40.878Z",
         "installMs": 5176,
         "method": "npm",
@@ -155,6 +172,23 @@
     ],
     "linux": [
       {
+        "date": "2026-09-21T08:40:31.373Z",
+        "installMs": 4451,
+        "method": "npm",
+        "runId": "2026-09-21T08-40-31Z-97fe9b",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "beacio_install_plan",
+          "beacio_verify_integration",
+          "beacio_example",
+          "beacio_detect_ios_support",
+          "beacio_premium_guide",
+          "beacio_troubleshoot",
+          "beacio_spec_citation"
+        ]
+      },
+      {
         "date": "2026-09-14T08:52:33.348Z",
         "installMs": 3512,
         "method": "npm",
@@ -307,6 +341,23 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-09-21T08:41:00.356Z",
+        "installMs": 190622,
+        "method": "npm",
+        "runId": "2026-09-21T08-41-00Z-3b8ecb",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "beacio_install_plan",
+          "beacio_verify_integration",
+          "beacio_example",
+          "beacio_detect_ios_support",
+          "beacio_premium_guide",
+          "beacio_troubleshoot",
+          "beacio_spec_citation"
+        ]
+      },
       {
         "date": "2026-09-14T08:53:01.857Z",
         "installMs": 201486,

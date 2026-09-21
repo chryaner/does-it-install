@@ -1,0 +1,69 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-09-21T08:40:43.680Z",
+        "installMs": 16475,
+        "method": "npm",
+        "runId": "2026-09-21T08-40-43Z-b4acbb",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "ausca_lease_browser",
+          "ausca_analyze_document",
+          "ausca_extract_text",
+          "ausca_extend_inbox",
+          "ausca_open_inbox",
+          "ausca_transcribe_media",
+          "ausca_catalog",
+          "ausca_price",
+          "ausca_commit_artifact"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-09-21T08:40:34.919Z",
+        "installMs": 12994,
+        "method": "npm",
+        "runId": "2026-09-21T08-40-34Z-5c10e9",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "ausca_lease_browser",
+          "ausca_analyze_document",
+          "ausca_extract_text",
+          "ausca_extend_inbox",
+          "ausca_open_inbox",
+          "ausca_transcribe_media",
+          "ausca_catalog",
+          "ausca_price",
+          "ausca_commit_artifact"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-09-21T08:40:53.412Z",
+        "installMs": 438791,
+        "method": "npm",
+        "runId": "2026-09-21T08-40-53Z-657a40",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "ausca_lease_browser",
+          "ausca_analyze_document",
+          "ausca_extract_text",
+          "ausca_extend_inbox",
+          "ausca_open_inbox",
+          "ausca_transcribe_media",
+          "ausca_catalog",
+          "ausca_price",
+          "ausca_commit_artifact"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.ausca/agent-services",
+  "slug": "com.ausca__agent-services"
+}

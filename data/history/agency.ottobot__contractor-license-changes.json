@@ -1,0 +1,45 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-09-21T08:40:45.212Z",
+        "method": "remote-http",
+        "runId": "2026-09-21T08-40-45Z-5a5658",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "check_license_history",
+          "recent_license_changes"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-09-21T08:40:31.373Z",
+        "method": "remote-http",
+        "runId": "2026-09-21T08-40-31Z-97fe9b",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "check_license_history",
+          "recent_license_changes"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-09-21T08:41:00.356Z",
+        "method": "remote-http",
+        "runId": "2026-09-21T08-41-00Z-3b8ecb",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "check_license_history",
+          "recent_license_changes"
+        ]
+      }
+    ]
+  },
+  "serverId": "agency.ottobot/contractor-license-changes",
+  "slug": "agency.ottobot__contractor-license-changes"
+}

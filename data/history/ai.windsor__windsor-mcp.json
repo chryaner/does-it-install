@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-09-21T08:40:44.589Z",
+        "errorExcerpt": "handshake failed: SSE error: Non-200 status code (401) (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-sse",
+        "runId": "2026-09-21T08-40-44Z-9ee708",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-09-14T08:52:45.707Z",
         "errorExcerpt": "handshake failed: SSE error: Non-200 status code (401) (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-sse",
@@ -60,6 +67,13 @@
     ],
     "linux": [
       {
+        "date": "2026-09-21T08:40:32.097Z",
+        "errorExcerpt": "handshake failed: SSE error: Non-200 status code (401) (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-sse",
+        "runId": "2026-09-21T08-40-32Z-3468d5",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-09-14T08:52:33.707Z",
         "errorExcerpt": "handshake failed: SSE error: Non-200 status code (401) (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-sse",
@@ -117,6 +131,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-09-21T08:40:50.630Z",
+        "errorExcerpt": "handshake failed: SSE error: Non-200 status code (401) (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-sse",
+        "runId": "2026-09-21T08-40-50Z-3f5f7c",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-09-14T08:52:50.183Z",
         "errorExcerpt": "handshake failed: SSE error: Non-200 status code (401) (endpoint reachable but requires credentials the harness does not send)",

@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-09-21T08:40:43.680Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"id\":0,\"error\":{\"code\":-32001,\"message\":\"Authentication required. Use OAuth (/oauth/token) or pass your API key via X-WorldMonitor-Key header.\",\"data\":{\"reason\":\"no-account\",\"nextStep\":\"Sign in at the upgrade URL, connect WorldMonitor MCP with your account, or subscribe to Pro for the full daily allowance.\",\"upgradeUrl\":\"https://worldmonitor.app/pro?utm_source=mcp&utm_medium=agent&utm_campaign=mcp-paid-funnel\"}}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-09-21T08-40-43Z-b4acbb",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-09-14T08:52:40.878Z",
         "method": "remote-http",
         "runId": "2026-09-14T08-52-40Z-7f3b71",
@@ -660,6 +667,13 @@
     ],
     "linux": [
       {
+        "date": "2026-09-21T08:40:34.919Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"id\":0,\"error\":{\"code\":-32001,\"message\":\"Authentication required. Use OAuth (/oauth/token) or pass your API key via X-WorldMonitor-Key header.\",\"data\":{\"reason\":\"no-account\",\"nextStep\":\"Sign in at the upgrade URL, connect WorldMonitor MCP with your account, or subscribe to Pro for the full daily allowance.\",\"upgradeUrl\":\"https://worldmonitor.app/pro?utm_source=mcp&utm_medium=agent&utm_campaign=mcp-paid-funnel\"}}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-09-21T08-40-34Z-5c10e9",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-09-14T08:52:33.348Z",
         "method": "remote-http",
         "runId": "2026-09-14T08-52-33Z-45048e",
@@ -1317,6 +1331,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-09-21T08:40:53.412Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"id\":0,\"error\":{\"code\":-32001,\"message\":\"Authentication required. Use OAuth (/oauth/token) or pass your API key via X-WorldMonitor-Key header.\",\"data\":{\"reason\":\"no-account\",\"nextStep\":\"Sign in at the upgrade URL, connect WorldMonitor MCP with your account, or subscribe to Pro for the full daily allowance.\",\"upgradeUrl\":\"https://worldmonitor.app/pro?utm_source=mcp&utm_medium=agent&utm_campaign=mcp-paid-funnel\"}}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-09-21T08-40-53Z-657a40",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-09-14T08:53:01.857Z",
         "method": "remote-http",

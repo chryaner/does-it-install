@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-09-21T08:40:44.589Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n/private/var/folders/36/tjdph2t965j8snz9_vkdnw0r0000gn/T/does-it-install/dii-npm-Vz24OZ/node_modules/neo4j-driver/lib/index.js:192\n            throw new Error(\"Unknown scheme: \".concat(parsedUrl.scheme));\n                  ^\n\nError: Unknown scheme: null\n    at Object.driver (/private/var/folders/36/tjdph2t965j8snz9_vkdnw0r0000gn/T/does-it-install/dii-npm-Vz24OZ/node_modules/neo4j-driver/lib/index.js:192:19)\n    at new Neo4jClient (file:///private/var/folders/36/tjdph2t965j8snz9_vkdnw0r0000gn/T/does-it-install/dii-npm-Vz24OZ/node_modules/@knowall-ai/reverie/build/neo4j-client.js:19:29)\n    at new Neo4jServer (file:///private/var/folders/36/tjdph2t965j8snz9_vkdnw0r0000gn/T/does-it-install/dii-npm-Vz24OZ/node_modules/@knowall-ai/reverie/build/server.js:45:31)\n    at startStdio (file:///private/var/folders/36/tjdph2t965j8snz9_vkdnw0r0000gn/T/does-it-install/dii-npm-Vz24OZ/node_modules/@knowall-ai/reverie/build/index.js:37:20)\n    at file:///private/var/folders/36/tjdph2t965j8snz9_vkdnw0r0000gn/T/does-it-install/dii-npm-Vz24OZ/node_modules/@knowall-ai/reverie/build/index.js:34:5\n    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)\n\nNode.js v22.23.2",
+        "installMs": 27221,
+        "method": "npm",
+        "runId": "2026-09-21T08-40-44Z-9ee708",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-09-21T08:40:32.097Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n/tmp/does-it-install/dii-npm-gCNsVT/node_modules/neo4j-driver/lib/index.js:192\n            throw new Error(\"Unknown scheme: \".concat(parsedUrl.scheme));\n                  ^\n\nError: Unknown scheme: null\n    at Object.driver (/tmp/does-it-install/dii-npm-gCNsVT/node_modules/neo4j-driver/lib/index.js:192:19)\n    at new Neo4jClient (file:///tmp/does-it-install/dii-npm-gCNsVT/node_modules/@knowall-ai/reverie/build/neo4j-client.js:19:29)\n    at new Neo4jServer (file:///tmp/does-it-install/dii-npm-gCNsVT/node_modules/@knowall-ai/reverie/build/server.js:45:31)\n    at startStdio (file:///tmp/does-it-install/dii-npm-gCNsVT/node_modules/@knowall-ai/reverie/build/index.js:37:20)\n    at file:///tmp/does-it-install/dii-npm-gCNsVT/node_modules/@knowall-ai/reverie/build/index.js:34:5\n    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)\n\nNode.js v22.23.2",
+        "installMs": 19288,
+        "method": "npm",
+        "runId": "2026-09-21T08-40-32Z-3468d5",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-09-21T08:40:50.630Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nC:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-VsnD4z\\node_modules\\neo4j-driver\\lib\\index.js:192\r\n            throw new Error(\"Unknown scheme: \".concat(parsedUrl.scheme));\r\n                  ^\r\n\r\nError: Unknown scheme: null\r\n    at Object.driver (C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-VsnD4z\\node_modules\\neo4j-driver\\lib\\index.js:192:19)\r\n    at new Neo4jClient (file:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-VsnD4z/node_modules/@knowall-ai/reverie/build/neo4j-client.js:19:29)\r\n    at new Neo4jServer (file:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-VsnD4z/node_modules/@knowall-ai/reverie/build/server.js:45:31)\r\n    at startStdio (file:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-VsnD4z/node_modules/@knowall-ai/reverie/build/index.js:37:20)\r\n    at file:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-VsnD4z/node_modules/@knowall-ai/reverie/build/index.js:34:5\r\n    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)\r\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)\r\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)\r\n\r\nNode.js v22.23.2",
+        "installMs": 220899,
+        "method": "npm",
+        "runId": "2026-09-21T08-40-50Z-3f5f7c",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "ai.knowall/reverie",
+  "slug": "ai.knowall__reverie"
+}

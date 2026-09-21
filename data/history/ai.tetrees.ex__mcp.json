@@ -1,0 +1,117 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-09-21T08:40:43.680Z",
+        "method": "remote-http",
+        "runId": "2026-09-21T08-40-43Z-b4acbb",
+        "status": "pass",
+        "toolCount": 26,
+        "toolNames": [
+          "accept_ai_pack_terms",
+          "search_ai_packs",
+          "list_owned_ai_packs",
+          "acquire_free_ai_pack",
+          "download_ai_pack",
+          "get_ai_pack_report",
+          "list_agent_models",
+          "get_ai_pack_runtime_profile",
+          "quote_agent_run",
+          "run_ai_pack",
+          "prepare_local_ai_pack_run",
+          "execute_client_extension",
+          "propose_ai_pack_growth",
+          "accept_ai_pack_growth",
+          "list_ai_pack_growth",
+          "select_ai_pack_growth_version",
+          "create_ai_pack_draft",
+          "update_ai_pack_draft",
+          "upload_ai_pack",
+          "upload_ai_pack_image",
+          "get_ai_pack_submission_readiness",
+          "submit_ai_pack_for_audition",
+          "quote_ai_pack_audition",
+          "run_ai_pack_audition",
+          "get_ai_pack_private_report",
+          "publish_ai_pack"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-09-21T08:40:34.919Z",
+        "method": "remote-http",
+        "runId": "2026-09-21T08-40-34Z-5c10e9",
+        "status": "pass",
+        "toolCount": 26,
+        "toolNames": [
+          "accept_ai_pack_terms",
+          "search_ai_packs",
+          "list_owned_ai_packs",
+          "acquire_free_ai_pack",
+          "download_ai_pack",
+          "get_ai_pack_report",
+          "list_agent_models",
+          "get_ai_pack_runtime_profile",
+          "quote_agent_run",
+          "run_ai_pack",
+          "prepare_local_ai_pack_run",
+          "execute_client_extension",
+          "propose_ai_pack_growth",
+          "accept_ai_pack_growth",
+          "list_ai_pack_growth",
+          "select_ai_pack_growth_version",
+          "create_ai_pack_draft",
+          "update_ai_pack_draft",
+          "upload_ai_pack",
+          "upload_ai_pack_image",
+          "get_ai_pack_submission_readiness",
+          "submit_ai_pack_for_audition",
+          "quote_ai_pack_audition",
+          "run_ai_pack_audition",
+          "get_ai_pack_private_report",
+          "publish_ai_pack"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-09-21T08:40:53.412Z",
+        "method": "remote-http",
+        "runId": "2026-09-21T08-40-53Z-657a40",
+        "status": "pass",
+        "toolCount": 26,
+        "toolNames": [
+          "accept_ai_pack_terms",
+          "search_ai_packs",
+          "list_owned_ai_packs",
+          "acquire_free_ai_pack",
+          "download_ai_pack",
+          "get_ai_pack_report",
+          "list_agent_models",
+          "get_ai_pack_runtime_profile",
+          "quote_agent_run",
+          "run_ai_pack",
+          "prepare_local_ai_pack_run",
+          "execute_client_extension",
+          "propose_ai_pack_growth",
+          "accept_ai_pack_growth",
+          "list_ai_pack_growth",
+          "select_ai_pack_growth_version",
+          "create_ai_pack_draft",
+          "update_ai_pack_draft",
+          "upload_ai_pack",
+          "upload_ai_pack_image",
+          "get_ai_pack_submission_readiness",
+          "submit_ai_pack_for_audition",
+          "quote_ai_pack_audition",
+          "run_ai_pack_audition",
+          "get_ai_pack_private_report",
+          "publish_ai_pack"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.tetrees.ex/mcp",
+  "slug": "ai.tetrees.ex__mcp"
+}

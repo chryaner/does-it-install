@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-09-21T08:40:44.589Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"unauthorized\",\"error_description\":\"Authorization required. See WWW-Authenticate header.\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-09-21T08-40-44Z-9ee708",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-24T03:55:12.736Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"unauthorized\",\"error_description\":\"Authorization required. See WWW-Authenticate header.\"} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -32,6 +39,13 @@
     ],
     "linux": [
       {
+        "date": "2026-09-21T08:40:32.097Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"unauthorized\",\"error_description\":\"Authorization required. See WWW-Authenticate header.\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-09-21T08-40-32Z-3468d5",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-24T03:55:10.120Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"unauthorized\",\"error_description\":\"Authorization required. See WWW-Authenticate header.\"} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -61,6 +75,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-09-21T08:40:50.630Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"unauthorized\",\"error_description\":\"Authorization required. See WWW-Authenticate header.\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-09-21T08-40-50Z-3f5f7c",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-24T03:55:32.271Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"unauthorized\",\"error_description\":\"Authorization required. See WWW-Authenticate header.\"} (endpoint reachable but requires credentials the harness does not send)",
