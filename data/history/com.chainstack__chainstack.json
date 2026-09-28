@@ -2,6 +2,33 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-09-28T09:26:37.178Z",
+        "method": "remote-http",
+        "runId": "2026-09-28T09-26-37Z-763133",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "get_organization",
+          "get_deployment_options",
+          "list_projects",
+          "create_project",
+          "list_nodes",
+          "get_node",
+          "create_node",
+          "get_project",
+          "update_project",
+          "delete_project",
+          "update_node",
+          "delete_node",
+          "search_docs",
+          "get_doc_page",
+          "get_platform_status",
+          "contact_chainstack",
+          "request_testnet_funds",
+          "get_chainstack_pricing"
+        ]
+      },
+      {
         "date": "2026-09-21T08:40:43.680Z",
         "method": "remote-http",
         "runId": "2026-09-21T08-40-43Z-b4acbb",
@@ -220,6 +247,33 @@
     ],
     "linux": [
       {
+        "date": "2026-09-28T09:26:26.772Z",
+        "method": "remote-http",
+        "runId": "2026-09-28T09-26-26Z-0f1d3c",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "get_organization",
+          "get_deployment_options",
+          "list_projects",
+          "create_project",
+          "list_nodes",
+          "get_node",
+          "create_node",
+          "get_project",
+          "update_project",
+          "delete_project",
+          "update_node",
+          "delete_node",
+          "search_docs",
+          "get_doc_page",
+          "get_platform_status",
+          "contact_chainstack",
+          "request_testnet_funds",
+          "get_chainstack_pricing"
+        ]
+      },
+      {
         "date": "2026-09-21T08:40:34.919Z",
         "method": "remote-http",
         "runId": "2026-09-21T08-40-34Z-5c10e9",
@@ -437,6 +491,33 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-09-28T09:26:38.908Z",
+        "method": "remote-http",
+        "runId": "2026-09-28T09-26-38Z-992fa5",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "get_organization",
+          "get_deployment_options",
+          "list_projects",
+          "create_project",
+          "list_nodes",
+          "get_node",
+          "create_node",
+          "get_project",
+          "update_project",
+          "delete_project",
+          "update_node",
+          "delete_node",
+          "search_docs",
+          "get_doc_page",
+          "get_platform_status",
+          "contact_chainstack",
+          "request_testnet_funds",
+          "get_chainstack_pricing"
+        ]
+      },
       {
         "date": "2026-09-21T08:40:53.412Z",
         "method": "remote-http",

@@ -2,6 +2,20 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-09-28T09:26:38.430Z",
+        "installMs": 5189,
+        "method": "npm",
+        "runId": "2026-09-28T09-26-38Z-d047c1",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "foura_single",
+          "foura_proxy",
+          "foura_browser",
+          "foura_auto"
+        ]
+      },
+      {
         "date": "2026-09-21T08:40:44.589Z",
         "installMs": 3896,
         "method": "npm",
@@ -154,6 +168,20 @@
     ],
     "linux": [
       {
+        "date": "2026-09-28T09:26:19.956Z",
+        "installMs": 4044,
+        "method": "npm",
+        "runId": "2026-09-28T09-26-19Z-131103",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "foura_single",
+          "foura_proxy",
+          "foura_browser",
+          "foura_auto"
+        ]
+      },
+      {
         "date": "2026-09-21T08:40:32.097Z",
         "installMs": 3499,
         "method": "npm",
@@ -305,6 +333,20 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-09-28T09:26:44.362Z",
+        "installMs": 153466,
+        "method": "npm",
+        "runId": "2026-09-28T09-26-44Z-37c5cb",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "foura_single",
+          "foura_proxy",
+          "foura_browser",
+          "foura_auto"
+        ]
+      },
       {
         "date": "2026-09-21T08:40:50.630Z",
         "installMs": 68761,

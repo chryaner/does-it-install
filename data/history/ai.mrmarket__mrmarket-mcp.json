@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-09-28T09:26:38.430Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND mcp.mrmarket.ai",
+        "method": "remote-http",
+        "runId": "2026-09-28T09-26-38Z-d047c1",
+        "status": "connect_failed"
+      },
+      {
         "date": "2026-09-21T08:40:44.589Z",
         "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND mcp.mrmarket.ai",
         "method": "remote-http",
@@ -67,6 +74,13 @@
     ],
     "linux": [
       {
+        "date": "2026-09-28T09:26:19.956Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND mcp.mrmarket.ai",
+        "method": "remote-http",
+        "runId": "2026-09-28T09-26-19Z-131103",
+        "status": "connect_failed"
+      },
+      {
         "date": "2026-09-21T08:40:32.097Z",
         "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND mcp.mrmarket.ai",
         "method": "remote-http",
@@ -131,6 +145,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-09-28T09:26:44.362Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND mcp.mrmarket.ai",
+        "method": "remote-http",
+        "runId": "2026-09-28T09-26-44Z-37c5cb",
+        "status": "connect_failed"
+      },
       {
         "date": "2026-09-21T08:40:50.630Z",
         "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND mcp.mrmarket.ai",

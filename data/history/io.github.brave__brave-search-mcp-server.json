@@ -2,6 +2,24 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-09-28T09:26:37.178Z",
+        "installMs": 7726,
+        "method": "npm",
+        "runId": "2026-09-28T09-26-37Z-763133",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "brave_web_search",
+          "brave_local_search",
+          "brave_video_search",
+          "brave_image_search",
+          "brave_news_search",
+          "brave_summarizer",
+          "brave_llm_context",
+          "brave_place_search"
+        ]
+      },
+      {
         "date": "2026-09-21T08:40:43.680Z",
         "installMs": 8576,
         "method": "npm",
@@ -236,6 +254,24 @@
     ],
     "linux": [
       {
+        "date": "2026-09-28T09:26:26.772Z",
+        "installMs": 4681,
+        "method": "npm",
+        "runId": "2026-09-28T09-26-26Z-0f1d3c",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "brave_web_search",
+          "brave_local_search",
+          "brave_video_search",
+          "brave_image_search",
+          "brave_news_search",
+          "brave_summarizer",
+          "brave_llm_context",
+          "brave_place_search"
+        ]
+      },
+      {
         "date": "2026-09-21T08:40:34.919Z",
         "installMs": 4798,
         "method": "npm",
@@ -469,6 +505,24 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-09-28T09:26:38.908Z",
+        "installMs": 129371,
+        "method": "npm",
+        "runId": "2026-09-28T09-26-38Z-992fa5",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "brave_web_search",
+          "brave_local_search",
+          "brave_video_search",
+          "brave_image_search",
+          "brave_news_search",
+          "brave_summarizer",
+          "brave_llm_context",
+          "brave_place_search"
+        ]
+      },
       {
         "date": "2026-09-21T08:40:53.412Z",
         "installMs": 113845,

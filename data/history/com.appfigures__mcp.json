@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-09-28T09:26:34.194Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n✗ Not logged in. Sign-in command: `appfigures auth login`.\nTry: auth login",
+        "installMs": 1137,
+        "method": "npm",
+        "runId": "2026-09-28T09-26-34Z-a3af4f",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-09-21T08:40:45.212Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n✗ Not logged in. Sign-in command: `appfigures auth login`.\nTry: auth login",
         "installMs": 1135,
@@ -82,6 +90,14 @@
     ],
     "linux": [
       {
+        "date": "2026-09-28T09:26:18.811Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n✗ Not logged in. Sign-in command: `appfigures auth login`.\nTry: auth login",
+        "installMs": 1218,
+        "method": "npm",
+        "runId": "2026-09-28T09-26-18Z-39582e",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-09-21T08:40:31.373Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n✗ Not logged in. Sign-in command: `appfigures auth login`.\nTry: auth login",
         "installMs": 1133,
@@ -161,6 +177,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-09-28T09:26:46.798Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n✗ Not logged in. Sign-in command: `appfigures auth login`.\nTry: auth login",
+        "installMs": 12841,
+        "method": "npm",
+        "runId": "2026-09-28T09-26-46Z-5c5f5a",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-09-21T08:41:00.356Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n✗ Not logged in. Sign-in command: `appfigures auth login`.\nTry: auth login",

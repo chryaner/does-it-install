@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-09-28T09:26:34.194Z",
+        "errorExcerpt": "npm install @dinglebear/rtailscale@0.1.4 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path /private/var/folders/36/tjdph2t965j8snz9_vkdnw0r0000gn/T/does-it-install/dii-npm-y5D433/node_modules/@dinglebear/rtailscale\nnpm error command failed\nnpm error command sh -c node scripts/install.js\nnpm error tailscale-rmcp: Unsupported platform darwin/arm64. Supported targets: linux/x64, win32/x64.\nnpm error A complete log of this run can be found in: /var/folders/36/tjdph2t965j8snz9_vkdnw0r0000gn/T/does-it-install/dii-npm-y5D433/.npm-cache/_logs/2026-09-28T09_28_36_268Z-debug-0.log",
+        "installMs": 1501,
+        "method": "npm",
+        "runId": "2026-09-28T09-26-34Z-a3af4f",
+        "status": "install_failed"
+      },
+      {
         "date": "2026-09-21T08:40:45.212Z",
         "errorExcerpt": "npm install @dinglebear/rtailscale@0.1.4 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path /private/var/folders/36/tjdph2t965j8snz9_vkdnw0r0000gn/T/does-it-install/dii-npm-JH5JJL/node_modules/@dinglebear/rtailscale\nnpm error command failed\nnpm error command sh -c node scripts/install.js\nnpm error tailscale-rmcp: Unsupported platform darwin/arm64. Supported targets: linux/x64, win32/x64.\nnpm error A complete log of this run can be found in: /var/folders/36/tjdph2t965j8snz9_vkdnw0r0000gn/T/does-it-install/dii-npm-JH5JJL/.npm-cache/_logs/2026-09-21T08_42_19_506Z-debug-0.log",
         "installMs": 793,
@@ -87,6 +95,17 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-09-28T09:26:18.811Z",
+        "installMs": 1774,
+        "method": "npm",
+        "runId": "2026-09-28T09-26-18Z-39582e",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "tailscale"
+        ]
+      },
       {
         "date": "2026-09-21T08:40:31.373Z",
         "installMs": 1700,
@@ -206,6 +225,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-09-28T09:26:46.798Z",
+        "errorExcerpt": "npm install @dinglebear/rtailscale@0.1.4 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-vCfQV7\\node_modules\\@dinglebear\\rtailscale\nnpm error command failed\nnpm error command C:\\Windows\\system32\\cmd.exe /d /s /c node scripts/install.js\nnpm error tailscale-rmcp: downloading https://github.com/dinglebear-ai/rtailscale/releases/download/v0.1.4/rtailscale-windows-x86_64.tar.gz\nnpm error tailscale-rmcp: verified checksum for rtailscale-windows-x86_64.tar.gz\nnpm error tailscale-rmcp: tar (child): Cannot connect to C: resolve failed\nnpm error\nnpm error gzip: stdin: unexpected end of file\nnpm error tar: Child returned status 128\nnpm error tar: Error is not recoverable: exiting now\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-vCfQV7\\.npm-cache\\_logs\\2026-09-28T09_44_30_505Z-debug-0.log",
+        "installMs": 6035,
+        "method": "npm",
+        "runId": "2026-09-28T09-26-46Z-5c5f5a",
+        "status": "install_failed"
+      },
       {
         "date": "2026-09-21T08:41:00.356Z",
         "errorExcerpt": "npm install @dinglebear/rtailscale@0.1.4 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-vrH4f5\\node_modules\\@dinglebear\\rtailscale\nnpm error command failed\nnpm error command C:\\Windows\\system32\\cmd.exe /d /s /c node scripts/install.js\nnpm error tailscale-rmcp: downloading https://github.com/dinglebear-ai/rtailscale/releases/download/v0.1.4/rtailscale-windows-x86_64.tar.gz\nnpm error tailscale-rmcp: verified checksum for rtailscale-windows-x86_64.tar.gz\nnpm error tailscale-rmcp: tar (child): Cannot connect to C: resolve failed\nnpm error\nnpm error gzip: stdin: unexpected end of file\nnpm error tar: Child returned status 128\nnpm error tar: Error is not recoverable: exiting now\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-vrH4f5\\.npm-cache\\_logs\\2026-09-21T09_04_08_492Z-debug-0.log",

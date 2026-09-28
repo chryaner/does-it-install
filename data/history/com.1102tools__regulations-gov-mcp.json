@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-09-28T09:26:38.430Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nerror: Request failed after 3 retries in 5.3s\n  cause: Failed to fetch: `https://pypi.org/simple/regulationsgov-mcp/`\n  cause: HTTP status server error (503 Service Unavailable) for url (https://pypi.org/simple/regulationsgov-mcp/)",
+        "method": "pypi",
+        "runId": "2026-09-28T09-26-38Z-d047c1",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-09-21T08:40:44.589Z",
         "method": "pypi",
         "runId": "2026-09-21T08-40-44Z-9ee708",
@@ -76,6 +83,24 @@
     ],
     "linux": [
       {
+        "date": "2026-09-28T09:26:19.956Z",
+        "method": "pypi",
+        "runId": "2026-09-28T09-26-19Z-131103",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "get_access_status",
+          "search_documents",
+          "get_document_detail",
+          "search_comments",
+          "get_comment_detail",
+          "search_dockets",
+          "get_docket_detail",
+          "open_comment_periods",
+          "far_case_history"
+        ]
+      },
+      {
         "date": "2026-09-21T08:40:32.097Z",
         "method": "pypi",
         "runId": "2026-09-21T08-40-32Z-3468d5",
@@ -149,6 +174,24 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-09-28T09:26:44.362Z",
+        "method": "pypi",
+        "runId": "2026-09-28T09-26-44Z-37c5cb",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "get_access_status",
+          "search_documents",
+          "get_document_detail",
+          "search_comments",
+          "get_comment_detail",
+          "search_dockets",
+          "get_docket_detail",
+          "open_comment_periods",
+          "far_case_history"
+        ]
+      },
       {
         "date": "2026-09-21T08:40:50.630Z",
         "method": "pypi",

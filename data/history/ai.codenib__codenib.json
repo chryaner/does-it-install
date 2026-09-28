@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-09-28T09:26:34.194Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading tree-sitter-language-pack (1.9MiB)\n Downloaded tree-sitter-language-pack\n   Building codenib==0.2.3\n      Built codenib==0.2.3\nInstalled 25 packages in 207ms\nerror: the MCP server requires the `mcp` optional dependencies (missing: mcp). Install them with `pip install 'codenib[mcp]'`.",
+        "method": "pypi",
+        "runId": "2026-09-28T09-26-34Z-a3af4f",
+        "status": "needs_config"
+      },
+      {
         "date": "2026-09-21T08:40:45.212Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading tree-sitter-language-pack (1.9MiB)\n Downloaded tree-sitter-language-pack\n   Building codenib==0.2.3\n      Built codenib==0.2.3\nInstalled 25 packages in 264ms\nerror: the MCP server requires the `mcp` optional dependencies (missing: mcp). Install them with `pip install 'codenib[mcp]'`.",
         "method": "pypi",
@@ -95,6 +102,13 @@
     ],
     "linux": [
       {
+        "date": "2026-09-28T09:26:18.811Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading codenib (3.2MiB)\nDownloading tree-sitter-language-pack (2.1MiB)\n Downloaded tree-sitter-language-pack\n Downloaded codenib\nInstalled 25 packages in 67ms\nerror: the MCP server requires the `mcp` optional dependencies (missing: mcp). Install them with `pip install 'codenib[mcp]'`.",
+        "method": "pypi",
+        "runId": "2026-09-28T09-26-18Z-39582e",
+        "status": "needs_config"
+      },
+      {
         "date": "2026-09-21T08:40:31.373Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading codenib (3.2MiB)\nDownloading tree-sitter-language-pack (2.1MiB)\n Downloaded tree-sitter-language-pack\n Downloaded codenib\nInstalled 25 packages in 44ms\nerror: the MCP server requires the `mcp` optional dependencies (missing: mcp). Install them with `pip install 'codenib[mcp]'`.",
         "method": "pypi",
@@ -187,6 +201,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-09-28T09:26:46.798Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading tree-sitter-language-pack (1.9MiB)\n Downloaded tree-sitter-language-pack\n   Building codenib==0.2.3\n      Built codenib==0.2.3\nInstalled 25 packages in 10.99s\nerror: the MCP server requires the `mcp` optional dependencies (missing: mcp). Install them with `pip install 'codenib[mcp]'`.",
+        "method": "pypi",
+        "runId": "2026-09-28T09-26-46Z-5c5f5a",
+        "status": "needs_config"
+      },
       {
         "date": "2026-09-21T08:41:00.356Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading tree-sitter-language-pack (1.9MiB)\n Downloaded tree-sitter-language-pack\n   Building codenib==0.2.3\n      Built codenib==0.2.3\nInstalled 25 packages in 38.66s\nerror: the MCP server requires the `mcp` optional dependencies (missing: mcp). Install them with `pip install 'codenib[mcp]'`.",

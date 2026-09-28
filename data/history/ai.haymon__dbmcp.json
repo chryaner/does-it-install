@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-09-28T09:26:38.430Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-09-28T09-26-38Z-d047c1",
+        "status": "skipped"
+      },
+      {
         "date": "2026-09-21T08:40:44.589Z",
         "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
         "installMs": 0,
@@ -87,6 +95,24 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-09-28T09:26:19.956Z",
+        "installMs": 2598,
+        "method": "oci",
+        "runId": "2026-09-28T09-26-19Z-131103",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "explainQuery",
+          "listDatabases",
+          "listFunctions",
+          "listProcedures",
+          "listTables",
+          "listTriggers",
+          "listViews",
+          "readQuery"
+        ]
+      },
       {
         "date": "2026-09-21T08:40:32.097Z",
         "installMs": 2555,
@@ -243,6 +269,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-09-28T09:26:44.362Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-09-28T09-26-44Z-37c5cb",
+        "status": "skipped"
+      },
       {
         "date": "2026-09-21T08:40:50.630Z",
         "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",

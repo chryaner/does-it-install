@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-09-28T09:26:37.178Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed",
+        "installMs": 4353,
+        "method": "npm",
+        "runId": "2026-09-28T09-26-37Z-763133",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-09-21T08:40:43.680Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed",
         "installMs": 5211,
@@ -35,6 +43,27 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-09-28T09:26:26.772Z",
+        "installMs": 3879,
+        "method": "npm",
+        "runId": "2026-09-28T09-26-26Z-0f1d3c",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "buywhere_agent_manifest",
+          "buywhere_capabilities",
+          "buywhere_data_inventory",
+          "buywhere_connection_status",
+          "search_products",
+          "get_product",
+          "compare_products",
+          "get_deals",
+          "list_categories",
+          "find_best_price",
+          "ingest_products"
+        ]
+      },
       {
         "date": "2026-09-21T08:40:34.919Z",
         "installMs": 4655,
@@ -121,6 +150,27 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-09-28T09:26:38.908Z",
+        "installMs": 94705,
+        "method": "npm",
+        "runId": "2026-09-28T09-26-38Z-992fa5",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "buywhere_agent_manifest",
+          "buywhere_capabilities",
+          "buywhere_data_inventory",
+          "buywhere_connection_status",
+          "search_products",
+          "get_product",
+          "compare_products",
+          "get_deals",
+          "list_categories",
+          "find_best_price",
+          "ingest_products"
+        ]
+      },
       {
         "date": "2026-09-21T08:40:53.412Z",
         "installMs": 74277,

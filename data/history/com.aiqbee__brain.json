@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-09-28T09:26:38.430Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\": \"2.0\", \"error\": {\"code\": -32001, \"message\": \"Authentication required: Missing Bearer token\"}, \"id\": null} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-09-28T09-26-38Z-d047c1",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-09-21T08:40:44.589Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\": \"2.0\", \"error\": {\"code\": -32001, \"message\": \"Authentication required: Missing Bearer token\"}, \"id\": null} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -74,6 +81,13 @@
     ],
     "linux": [
       {
+        "date": "2026-09-28T09:26:19.956Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\": \"2.0\", \"error\": {\"code\": -32001, \"message\": \"Authentication required: Missing Bearer token\"}, \"id\": null} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-09-28T09-26-19Z-131103",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-09-21T08:40:32.097Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\": \"2.0\", \"error\": {\"code\": -32001, \"message\": \"Authentication required: Missing Bearer token\"}, \"id\": null} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -145,6 +159,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-09-28T09:26:44.362Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\": \"2.0\", \"error\": {\"code\": -32001, \"message\": \"Authentication required: Missing Bearer token\"}, \"id\": null} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-09-28T09-26-44Z-37c5cb",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-09-21T08:40:50.630Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\": \"2.0\", \"error\": {\"code\": -32001, \"message\": \"Authentication required: Missing Bearer token\"}, \"id\": null} (endpoint reachable but requires credentials the harness does not send)",

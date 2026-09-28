@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-09-28T09:26:37.178Z",
+        "errorExcerpt": "@scanbim-labs/scanbim-mcp declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "installMs": 561,
+        "method": "npm",
+        "runId": "2026-09-28T09-26-37Z-763133",
+        "status": "spawn_failed"
+      },
+      {
         "date": "2026-09-21T08:40:43.680Z",
         "errorExcerpt": "@scanbim-labs/scanbim-mcp declares no runnable \"bin\" entry, so there is nothing to spawn",
         "installMs": 1006,
@@ -74,6 +82,14 @@
     ],
     "linux": [
       {
+        "date": "2026-09-28T09:26:26.772Z",
+        "errorExcerpt": "@scanbim-labs/scanbim-mcp declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "installMs": 861,
+        "method": "npm",
+        "runId": "2026-09-28T09-26-26Z-0f1d3c",
+        "status": "spawn_failed"
+      },
+      {
         "date": "2026-09-21T08:40:34.919Z",
         "errorExcerpt": "@scanbim-labs/scanbim-mcp declares no runnable \"bin\" entry, so there is nothing to spawn",
         "installMs": 891,
@@ -145,6 +161,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-09-28T09:26:38.908Z",
+        "errorExcerpt": "@scanbim-labs/scanbim-mcp declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "installMs": 7851,
+        "method": "npm",
+        "runId": "2026-09-28T09-26-38Z-992fa5",
+        "status": "spawn_failed"
+      },
       {
         "date": "2026-09-21T08:40:53.412Z",
         "errorExcerpt": "@scanbim-labs/scanbim-mcp declares no runnable \"bin\" entry, so there is nothing to spawn",
