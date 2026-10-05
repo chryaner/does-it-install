@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-05T10:04:53.723Z",
+        "errorExcerpt": "npm install @dinglebear/cortex@3.13.2 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path /private/var/folders/36/tjdph2t965j8snz9_vkdnw0r0000gn/T/does-it-install/dii-npm-HfnVWQ/node_modules/@dinglebear/cortex\nnpm error command failed\nnpm error command sh -c node scripts/install.js\nnpm error cortex-rmcp: Unsupported platform darwin/arm64. Supported targets: linux/x64, win32/x64.\nnpm error A complete log of this run can be found in: /var/folders/36/tjdph2t965j8snz9_vkdnw0r0000gn/T/does-it-install/dii-npm-HfnVWQ/.npm-cache/_logs/2026-10-05T10_07_09_664Z-debug-0.log",
+        "installMs": 1211,
+        "method": "npm",
+        "runId": "2026-10-05T10-04-53Z-b837f2",
+        "status": "install_failed"
+      },
+      {
         "date": "2026-09-28T09:26:34.194Z",
         "errorExcerpt": "npm install @dinglebear/cortex@3.13.2 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path /private/var/folders/36/tjdph2t965j8snz9_vkdnw0r0000gn/T/does-it-install/dii-npm-Tca2KM/node_modules/@dinglebear/cortex\nnpm error command failed\nnpm error command sh -c node scripts/install.js\nnpm error cortex-rmcp: Unsupported platform darwin/arm64. Supported targets: linux/x64, win32/x64.\nnpm error A complete log of this run can be found in: /var/folders/36/tjdph2t965j8snz9_vkdnw0r0000gn/T/does-it-install/dii-npm-Tca2KM/.npm-cache/_logs/2026-09-28T09_28_49_594Z-debug-0.log",
         "installMs": 893,
@@ -89,6 +97,14 @@
     ],
     "linux": [
       {
+        "date": "2026-10-05T10:04:47.575Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nerror: Permission denied (os error 13)",
+        "installMs": 2335,
+        "method": "npm",
+        "runId": "2026-10-05T10-04-47Z-9a106c",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-09-28T09:26:18.811Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nerror: Permission denied (os error 13)",
         "installMs": 2375,
@@ -175,6 +191,17 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-05T10:05:13.673Z",
+        "installMs": 6336,
+        "method": "npm",
+        "runId": "2026-10-05T10-05-13Z-a1c1da",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "cortex"
+        ]
+      },
       {
         "date": "2026-09-28T09:26:46.798Z",
         "installMs": 7387,

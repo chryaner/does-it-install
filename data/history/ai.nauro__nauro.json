@@ -2,6 +2,25 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-05T10:04:47.905Z",
+        "method": "pypi",
+        "runId": "2026-10-05T10-04-47Z-ce8aa3",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "get_context",
+          "get_raw_file",
+          "list_decisions",
+          "get_decision",
+          "diff_since_last_session",
+          "search_decisions",
+          "check_decision",
+          "propose_decision",
+          "flag_question",
+          "update_state"
+        ]
+      },
+      {
         "date": "2026-09-28T09:26:38.430Z",
         "method": "pypi",
         "runId": "2026-09-28T09-26-38Z-d047c1",
@@ -232,6 +251,25 @@
     ],
     "linux": [
       {
+        "date": "2026-10-05T10:04:42.520Z",
+        "method": "pypi",
+        "runId": "2026-10-05T10-04-42Z-f647e4",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "get_context",
+          "get_raw_file",
+          "list_decisions",
+          "get_decision",
+          "diff_since_last_session",
+          "search_decisions",
+          "check_decision",
+          "propose_decision",
+          "flag_question",
+          "update_state"
+        ]
+      },
+      {
         "date": "2026-09-28T09:26:19.956Z",
         "method": "pypi",
         "runId": "2026-09-28T09-26-19Z-131103",
@@ -461,6 +499,25 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-05T10:05:00.204Z",
+        "method": "pypi",
+        "runId": "2026-10-05T10-05-00Z-c576ae",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "get_context",
+          "get_raw_file",
+          "list_decisions",
+          "get_decision",
+          "diff_since_last_session",
+          "search_decisions",
+          "check_decision",
+          "propose_decision",
+          "flag_question",
+          "update_state"
+        ]
+      },
       {
         "date": "2026-09-28T09:26:44.362Z",
         "method": "pypi",

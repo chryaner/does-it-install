@@ -2,6 +2,28 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-05T10:04:53.723Z",
+        "method": "pypi",
+        "runId": "2026-10-05T10-04-53Z-b837f2",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "get_latest_date",
+          "get_cfr_content",
+          "get_cfr_structure",
+          "get_version_history",
+          "get_ancestry",
+          "search_cfr",
+          "list_agencies",
+          "get_corrections",
+          "lookup_far_clause",
+          "compare_versions",
+          "list_sections_in_part",
+          "find_far_definition",
+          "find_recent_changes"
+        ]
+      },
+      {
         "date": "2026-09-28T09:26:34.194Z",
         "method": "pypi",
         "runId": "2026-09-28T09-26-34Z-a3af4f",
@@ -114,6 +136,28 @@
     ],
     "linux": [
       {
+        "date": "2026-10-05T10:04:47.575Z",
+        "method": "pypi",
+        "runId": "2026-10-05T10-04-47Z-9a106c",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "get_latest_date",
+          "get_cfr_content",
+          "get_cfr_structure",
+          "get_version_history",
+          "get_ancestry",
+          "search_cfr",
+          "list_agencies",
+          "get_corrections",
+          "lookup_far_clause",
+          "compare_versions",
+          "list_sections_in_part",
+          "find_far_definition",
+          "find_recent_changes"
+        ]
+      },
+      {
         "date": "2026-09-28T09:26:18.811Z",
         "method": "pypi",
         "runId": "2026-09-28T09-26-18Z-39582e",
@@ -225,6 +269,28 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-05T10:05:13.673Z",
+        "method": "pypi",
+        "runId": "2026-10-05T10-05-13Z-a1c1da",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "get_latest_date",
+          "get_cfr_content",
+          "get_cfr_structure",
+          "get_version_history",
+          "get_ancestry",
+          "search_cfr",
+          "list_agencies",
+          "get_corrections",
+          "lookup_far_clause",
+          "compare_versions",
+          "list_sections_in_part",
+          "find_far_definition",
+          "find_recent_changes"
+        ]
+      },
       {
         "date": "2026-09-28T09:26:46.798Z",
         "method": "pypi",

@@ -2,6 +2,23 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-05T10:04:50.844Z",
+        "method": "pypi",
+        "runId": "2026-10-05T10-04-50Z-edf3c4",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "get_access_status",
+          "get_wage_data",
+          "compare_metros",
+          "compare_occupations",
+          "igce_wage_benchmark",
+          "detect_latest_year",
+          "list_common_soc_codes",
+          "list_common_metros"
+        ]
+      },
+      {
         "date": "2026-09-28T09:26:37.178Z",
         "method": "pypi",
         "runId": "2026-09-28T09-26-37Z-763133",
@@ -89,6 +106,23 @@
     ],
     "linux": [
       {
+        "date": "2026-10-05T10:04:43.376Z",
+        "method": "pypi",
+        "runId": "2026-10-05T10-04-43Z-1d66ea",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "get_access_status",
+          "get_wage_data",
+          "compare_metros",
+          "compare_occupations",
+          "igce_wage_benchmark",
+          "detect_latest_year",
+          "list_common_soc_codes",
+          "list_common_metros"
+        ]
+      },
+      {
         "date": "2026-09-28T09:26:26.772Z",
         "method": "pypi",
         "runId": "2026-09-28T09-26-26Z-0f1d3c",
@@ -175,6 +209,23 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-05T10:05:17.875Z",
+        "method": "pypi",
+        "runId": "2026-10-05T10-05-17Z-410636",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "get_access_status",
+          "get_wage_data",
+          "compare_metros",
+          "compare_occupations",
+          "igce_wage_benchmark",
+          "detect_latest_year",
+          "list_common_soc_codes",
+          "list_common_metros"
+        ]
+      },
       {
         "date": "2026-09-28T09:26:38.908Z",
         "method": "pypi",

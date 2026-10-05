@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-05T10:04:50.844Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: , \"  Run:\" is not valid JSON\nUnexpected token 'h', \"    hypertool-\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'A', \"Advanced Options:\" is not valid JSON\nUnexpected token 'h', \"  hypertool-\"... is not valid JSON\nUnexpected token 'h', \"  hypertool-\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'T', \"Tool Organization:\" is not valid JSON\nUnexpected token 'B', \"  By default\"... is not valid JSON\nUnexpected token 'T', \"  To show al\"... is not valid JSON",
+        "installMs": 10845,
+        "method": "npm",
+        "runId": "2026-10-05T10-04-50Z-edf3c4",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-09-28T09:26:37.178Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: , \"  Run:\" is not valid JSON\nUnexpected token 'h', \"    hypertool-\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'A', \"Advanced Options:\" is not valid JSON\nUnexpected token 'h', \"  hypertool-\"... is not valid JSON\nUnexpected token 'h', \"  hypertool-\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'T', \"Tool Organization:\" is not valid JSON\nUnexpected token 'B', \"  By default\"... is not valid JSON\nUnexpected token 'T', \"  To show al\"... is not valid JSON",
         "installMs": 13514,
@@ -105,6 +113,14 @@
     ],
     "linux": [
       {
+        "date": "2026-10-05T10:04:43.376Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: , \"  Run:\" is not valid JSON\nUnexpected token 'h', \"    hypertool-\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'A', \"Advanced Options:\" is not valid JSON\nUnexpected token 'h', \"  hypertool-\"... is not valid JSON\nUnexpected token 'h', \"  hypertool-\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'T', \"Tool Organization:\" is not valid JSON\nUnexpected token 'B', \"  By default\"... is not valid JSON\nUnexpected token 'T', \"  To show al\"... is not valid JSON",
+        "installMs": 10887,
+        "method": "npm",
+        "runId": "2026-10-05T10-04-43Z-1d66ea",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-09-28T09:26:26.772Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: , \"  Run:\" is not valid JSON\nUnexpected token 'h', \"    hypertool-\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'A', \"Advanced Options:\" is not valid JSON\nUnexpected token 'h', \"  hypertool-\"... is not valid JSON\nUnexpected token 'h', \"  hypertool-\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'T', \"Tool Organization:\" is not valid JSON\nUnexpected token 'B', \"  By default\"... is not valid JSON\nUnexpected token 'T', \"  To show al\"... is not valid JSON",
         "installMs": 10167,
@@ -207,6 +223,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-05T10:05:17.875Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: , \"  Run:\" is not valid JSON\nUnexpected token 'h', \"    hypertool-\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'A', \"Advanced Options:\" is not valid JSON\nUnexpected token 'h', \"  hypertool-\"... is not valid JSON\nUnexpected token 'h', \"  hypertool-\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'T', \"Tool Organization:\" is not valid JSON\nUnexpected token 'B', \"  By default\"... is not valid JSON\nUnexpected token 'T', \"  To show al\"... is not valid JSON",
+        "installMs": 170853,
+        "method": "npm",
+        "runId": "2026-10-05T10-05-17Z-410636",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-09-28T09:26:38.908Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: , \"  Run:\" is not valid JSON\nUnexpected token 'h', \"    hypertool-\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'A', \"Advanced Options:\" is not valid JSON\nUnexpected token 'h', \"  hypertool-\"... is not valid JSON\nUnexpected token 'h', \"  hypertool-\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'T', \"Tool Organization:\" is not valid JSON\nUnexpected token 'B', \"  By default\"... is not valid JSON\nUnexpected token 'T', \"  To show al\"... is not valid JSON",

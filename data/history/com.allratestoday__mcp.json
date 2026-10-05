@@ -2,6 +2,24 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-05T10:04:53.723Z",
+        "method": "remote-http",
+        "runId": "2026-10-05T10-04-53Z-b837f2",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "get_exchange_rate",
+          "get_historical_rates",
+          "get_rates_authenticated",
+          "list_currencies",
+          "list_central_banks",
+          "get_official_rates",
+          "get_official_rate_history",
+          "compare_official_rates",
+          "get_publication_calendar"
+        ]
+      },
+      {
         "date": "2026-09-28T09:26:34.194Z",
         "method": "remote-http",
         "runId": "2026-09-28T09-26-34Z-a3af4f",
@@ -40,6 +58,24 @@
     ],
     "linux": [
       {
+        "date": "2026-10-05T10:04:47.575Z",
+        "method": "remote-http",
+        "runId": "2026-10-05T10-04-47Z-9a106c",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "get_exchange_rate",
+          "get_historical_rates",
+          "get_rates_authenticated",
+          "list_currencies",
+          "list_central_banks",
+          "get_official_rates",
+          "get_official_rate_history",
+          "compare_official_rates",
+          "get_publication_calendar"
+        ]
+      },
+      {
         "date": "2026-09-28T09:26:18.811Z",
         "method": "remote-http",
         "runId": "2026-09-28T09-26-18Z-39582e",
@@ -77,6 +113,24 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-05T10:05:13.673Z",
+        "method": "remote-http",
+        "runId": "2026-10-05T10-05-13Z-a1c1da",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "get_exchange_rate",
+          "get_historical_rates",
+          "get_rates_authenticated",
+          "list_currencies",
+          "list_central_banks",
+          "get_official_rates",
+          "get_official_rate_history",
+          "compare_official_rates",
+          "get_publication_calendar"
+        ]
+      },
       {
         "date": "2026-09-28T09:26:46.798Z",
         "method": "remote-http",

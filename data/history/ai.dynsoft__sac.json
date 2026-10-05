@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-05T10:04:47.905Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: r '}' in JSON at position 3 (line 1 column 4)\nUnexpected token 's', \"    serve     \"... is not valid JSON\nUnexpected token 'g', \"    generate  \"... is not valid JSON\nUnexpected token 's', \"    setup     \"... is not valid JSON\nUnexpected token 'p', \"    publish   \"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'o', \"options:\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)",
+        "method": "pypi",
+        "runId": "2026-10-05T10-04-47Z-ce8aa3",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-09-28T09:26:38.430Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: r '}' in JSON at position 3 (line 1 column 4)\nUnexpected token 's', \"    serve     \"... is not valid JSON\nUnexpected token 'g', \"    generate  \"... is not valid JSON\nUnexpected token 's', \"    setup     \"... is not valid JSON\nUnexpected token 'p', \"    publish   \"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'o', \"options:\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)",
         "method": "pypi",
@@ -81,6 +88,13 @@
     ],
     "linux": [
       {
+        "date": "2026-10-05T10:04:42.520Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: r '}' in JSON at position 3 (line 1 column 4)\nUnexpected token 's', \"    serve     \"... is not valid JSON\nUnexpected token 'g', \"    generate  \"... is not valid JSON\nUnexpected token 's', \"    setup     \"... is not valid JSON\nUnexpected token 'p', \"    publish   \"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'o', \"options:\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)",
+        "method": "pypi",
+        "runId": "2026-10-05T10-04-42Z-f647e4",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-09-28T09:26:19.956Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: r '}' in JSON at position 3 (line 1 column 4)\nUnexpected token 's', \"    serve     \"... is not valid JSON\nUnexpected token 'g', \"    generate  \"... is not valid JSON\nUnexpected token 's', \"    setup     \"... is not valid JSON\nUnexpected token 'p', \"    publish   \"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'o', \"options:\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)",
         "method": "pypi",
@@ -159,6 +173,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-05T10:05:00.204Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: r '}' in JSON at position 3 (line 1 column 4)\nUnexpected token 's', \"    serve     \"... is not valid JSON\nUnexpected token 'g', \"    generate  \"... is not valid JSON\nUnexpected token 's', \"    setup     \"... is not valid JSON\nUnexpected token 'p', \"    publish   \"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'o', \"options:\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)",
+        "method": "pypi",
+        "runId": "2026-10-05T10-05-00Z-c576ae",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-09-28T09:26:44.362Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: r '}' in JSON at position 3 (line 1 column 4)\nUnexpected token 's', \"    serve     \"... is not valid JSON\nUnexpected token 'g', \"    generate  \"... is not valid JSON\nUnexpected token 's', \"    setup     \"... is not valid JSON\nUnexpected token 'p', \"    publish   \"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'o', \"options:\" is not valid JSON\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)",

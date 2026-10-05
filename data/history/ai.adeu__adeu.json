@@ -2,6 +2,25 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-05T10:04:47.905Z",
+        "installMs": 3979,
+        "method": "npm",
+        "runId": "2026-10-05T10-04-47Z-ce8aa3",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "read_docx",
+          "process_document_batch",
+          "accept_all_changes",
+          "diff_docx_files",
+          "finalize_document",
+          "login_to_adeu_cloud",
+          "logout_of_adeu_cloud",
+          "search_and_fetch_emails",
+          "create_email_draft"
+        ]
+      },
+      {
         "date": "2026-09-28T09:26:38.430Z",
         "installMs": 8415,
         "method": "npm",
@@ -266,6 +285,25 @@
     ],
     "linux": [
       {
+        "date": "2026-10-05T10:04:42.520Z",
+        "installMs": 6002,
+        "method": "npm",
+        "runId": "2026-10-05T10-04-42Z-f647e4",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "read_docx",
+          "process_document_batch",
+          "accept_all_changes",
+          "diff_docx_files",
+          "finalize_document",
+          "login_to_adeu_cloud",
+          "logout_of_adeu_cloud",
+          "search_and_fetch_emails",
+          "create_email_draft"
+        ]
+      },
+      {
         "date": "2026-09-28T09:26:19.956Z",
         "installMs": 5625,
         "method": "npm",
@@ -529,6 +567,25 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-05T10:05:00.204Z",
+        "installMs": 114135,
+        "method": "npm",
+        "runId": "2026-10-05T10-05-00Z-c576ae",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "read_docx",
+          "process_document_batch",
+          "accept_all_changes",
+          "diff_docx_files",
+          "finalize_document",
+          "login_to_adeu_cloud",
+          "logout_of_adeu_cloud",
+          "search_and_fetch_emails",
+          "create_email_draft"
+        ]
+      },
       {
         "date": "2026-09-28T09:26:44.362Z",
         "installMs": 207646,

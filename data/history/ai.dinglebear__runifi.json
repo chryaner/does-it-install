@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-05T10:04:50.844Z",
+        "errorExcerpt": "npm install @dinglebear/runifi@0.2.5 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path /private/var/folders/36/tjdph2t965j8snz9_vkdnw0r0000gn/T/does-it-install/dii-npm-yM4IbQ/node_modules/@dinglebear/runifi\nnpm error command failed\nnpm error command sh -c node scripts/install.js\nnpm error unifi-rmcp: Unsupported platform darwin/arm64. Supported targets: linux/x64, win32/x64.\nnpm error A complete log of this run can be found in: /var/folders/36/tjdph2t965j8snz9_vkdnw0r0000gn/T/does-it-install/dii-npm-yM4IbQ/.npm-cache/_logs/2026-10-05T10_06_09_869Z-debug-0.log",
+        "installMs": 744,
+        "method": "npm",
+        "runId": "2026-10-05T10-04-50Z-edf3c4",
+        "status": "install_failed"
+      },
+      {
         "date": "2026-09-28T09:26:37.178Z",
         "errorExcerpt": "npm install @dinglebear/runifi@0.2.5 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path /private/var/folders/36/tjdph2t965j8snz9_vkdnw0r0000gn/T/does-it-install/dii-npm-b7mwiR/node_modules/@dinglebear/runifi\nnpm error command failed\nnpm error command sh -c node scripts/install.js\nnpm error unifi-rmcp: Unsupported platform darwin/arm64. Supported targets: linux/x64, win32/x64.\nnpm error A complete log of this run can be found in: /var/folders/36/tjdph2t965j8snz9_vkdnw0r0000gn/T/does-it-install/dii-npm-b7mwiR/.npm-cache/_logs/2026-09-28T09_28_13_923Z-debug-0.log",
         "installMs": 760,
@@ -56,6 +64,17 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-10-05T10:04:43.376Z",
+        "installMs": 1712,
+        "method": "npm",
+        "runId": "2026-10-05T10-04-43Z-1d66ea",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "unifi"
+        ]
+      },
       {
         "date": "2026-09-28T09:26:26.772Z",
         "installMs": 1635,
@@ -132,6 +151,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-05T10:05:17.875Z",
+        "errorExcerpt": "npm install @dinglebear/runifi@0.2.5 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-qVQmlh\\node_modules\\@dinglebear\\runifi\nnpm error command failed\nnpm error command C:\\Windows\\system32\\cmd.exe /d /s /c node scripts/install.js\nnpm error unifi-rmcp: downloading https://github.com/dinglebear-ai/runifi/releases/download/v0.2.5/runifi-windows-x86_64.tar.gz\nnpm error unifi-rmcp: verified checksum for runifi-windows-x86_64.tar.gz\nnpm error unifi-rmcp: tar (child): Cannot connect to C: resolve failed\nnpm error\nnpm error gzip: stdin: unexpected end of file\nnpm error tar: Child returned status 128\nnpm error tar: Error is not recoverable: exiting now\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-qVQmlh\\.npm-cache\\_logs\\2026-10-05T10_23_11_842Z-debug-0.log",
+        "installMs": 7901,
+        "method": "npm",
+        "runId": "2026-10-05T10-05-17Z-410636",
+        "status": "install_failed"
+      },
       {
         "date": "2026-09-28T09:26:38.908Z",
         "errorExcerpt": "npm install @dinglebear/runifi@0.2.5 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-YP8r16\\node_modules\\@dinglebear\\runifi\nnpm error command failed\nnpm error command C:\\Windows\\system32\\cmd.exe /d /s /c node scripts/install.js\nnpm error unifi-rmcp: downloading https://github.com/dinglebear-ai/runifi/releases/download/v0.2.5/runifi-windows-x86_64.tar.gz\nnpm error unifi-rmcp: verified checksum for runifi-windows-x86_64.tar.gz\nnpm error unifi-rmcp: tar (child): Cannot connect to C: resolve failed\nnpm error\nnpm error gzip: stdin: unexpected end of file\nnpm error tar: Child returned status 128\nnpm error tar: Error is not recoverable: exiting now\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-YP8r16\\.npm-cache\\_logs\\2026-09-28T09_50_19_237Z-debug-0.log",

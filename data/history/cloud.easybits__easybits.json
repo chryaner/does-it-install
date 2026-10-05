@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-05T10:04:50.844Z",
+        "errorExcerpt": "handshake failed: MCP error -32603: HTTP 401: {\"error\":\"Unauthorized\"}\n--- stderr (tail) ---\nEasybits MCP proxy → https://www.easybits.cloud/api/mcp\nHTTP 401: {\"error\":\"Unauthorized\"}",
+        "installMs": 979,
+        "method": "npm",
+        "runId": "2026-10-05T10-04-50Z-edf3c4",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-09-28T09:26:37.178Z",
         "errorExcerpt": "handshake failed: MCP error -32603: HTTP 401: {\"error\":\"Unauthorized\"}\n--- stderr (tail) ---\nEasybits MCP proxy → https://www.easybits.cloud/api/mcp\nHTTP 401: {\"error\":\"Unauthorized\"}",
         "installMs": 743,
@@ -20,6 +28,14 @@
     ],
     "linux": [
       {
+        "date": "2026-10-05T10:04:43.376Z",
+        "errorExcerpt": "handshake failed: MCP error -32603: HTTP 401: {\"error\":\"Unauthorized\"}\n--- stderr (tail) ---\nEasybits MCP proxy → https://www.easybits.cloud/api/mcp\nHTTP 401: {\"error\":\"Unauthorized\"}",
+        "installMs": 937,
+        "method": "npm",
+        "runId": "2026-10-05T10-04-43Z-1d66ea",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-09-28T09:26:26.772Z",
         "errorExcerpt": "handshake failed: MCP error -32603: HTTP 401: {\"error\":\"Unauthorized\"}\n--- stderr (tail) ---\nEasybits MCP proxy → https://www.easybits.cloud/api/mcp\nHTTP 401: {\"error\":\"Unauthorized\"}",
         "installMs": 901,
@@ -37,6 +53,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-05T10:05:17.875Z",
+        "errorExcerpt": "handshake failed: MCP error -32603: HTTP 401: {\"error\":\"Unauthorized\"}\n--- stderr (tail) ---\nEasybits MCP proxy → https://www.easybits.cloud/api/mcp\nHTTP 401: {\"error\":\"Unauthorized\"}",
+        "installMs": 2043,
+        "method": "npm",
+        "runId": "2026-10-05T10-05-17Z-410636",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-09-28T09:26:38.908Z",
         "errorExcerpt": "handshake failed: MCP error -32603: HTTP 401: {\"error\":\"Unauthorized\"}\n--- stderr (tail) ---\nEasybits MCP proxy → https://www.easybits.cloud/api/mcp\nHTTP 401: {\"error\":\"Unauthorized\"}",

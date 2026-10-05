@@ -2,6 +2,28 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-05T10:04:47.905Z",
+        "method": "remote-http",
+        "runId": "2026-10-05T10-04-47Z-ce8aa3",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "search_docs",
+          "get_doc",
+          "get_start_path",
+          "recommend_next_docs",
+          "answer_how_to",
+          "get_tandem_guide",
+          "warmup_docs_cache",
+          "get_docs_cache_status",
+          "refresh_docs_index",
+          "refresh_doc_page",
+          "invalidate_docs_cache",
+          "compare_docs_index_refresh",
+          "compare_doc_page_refresh"
+        ]
+      },
+      {
         "date": "2026-09-28T09:26:38.430Z",
         "method": "remote-http",
         "runId": "2026-09-28T09-26-38Z-d047c1",
@@ -312,6 +334,28 @@
     ],
     "linux": [
       {
+        "date": "2026-10-05T10:04:42.520Z",
+        "method": "remote-http",
+        "runId": "2026-10-05T10-04-42Z-f647e4",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "search_docs",
+          "get_doc",
+          "get_start_path",
+          "recommend_next_docs",
+          "answer_how_to",
+          "get_tandem_guide",
+          "warmup_docs_cache",
+          "get_docs_cache_status",
+          "refresh_docs_index",
+          "refresh_doc_page",
+          "invalidate_docs_cache",
+          "compare_docs_index_refresh",
+          "compare_doc_page_refresh"
+        ]
+      },
+      {
         "date": "2026-09-28T09:26:19.956Z",
         "method": "remote-http",
         "runId": "2026-09-28T09-26-19Z-131103",
@@ -606,6 +650,28 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-05T10:05:00.204Z",
+        "method": "remote-http",
+        "runId": "2026-10-05T10-05-00Z-c576ae",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "search_docs",
+          "get_doc",
+          "get_start_path",
+          "recommend_next_docs",
+          "answer_how_to",
+          "get_tandem_guide",
+          "warmup_docs_cache",
+          "get_docs_cache_status",
+          "refresh_docs_index",
+          "refresh_doc_page",
+          "invalidate_docs_cache",
+          "compare_docs_index_refresh",
+          "compare_doc_page_refresh"
+        ]
+      },
       {
         "date": "2026-09-28T09:26:44.362Z",
         "method": "remote-http",

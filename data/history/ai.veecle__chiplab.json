@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-05T10:04:47.905Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: missing authorization header (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-10-05T10-04-47Z-ce8aa3",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-09-28T09:26:38.430Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: missing authorization header (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -88,6 +95,13 @@
     ],
     "linux": [
       {
+        "date": "2026-10-05T10:04:42.520Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: missing authorization header (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-10-05T10-04-42Z-f647e4",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-09-28T09:26:19.956Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: missing authorization header (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -173,6 +187,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-05T10:05:00.204Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: missing authorization header (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-10-05T10-05-00Z-c576ae",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-09-28T09:26:44.362Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: missing authorization header (endpoint reachable but requires credentials the harness does not send)",

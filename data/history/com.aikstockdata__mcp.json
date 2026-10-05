@@ -2,6 +2,27 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-05T10:04:53.723Z",
+        "method": "remote-http",
+        "runId": "2026-10-05T10-04-53Z-b837f2",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "get_today",
+          "search_stock",
+          "get_stock",
+          "get_rankings",
+          "get_market_summary",
+          "get_data_urls",
+          "get_earnings",
+          "get_history",
+          "get_disclosure_impact",
+          "get_earnings_calendar",
+          "get_disclosures",
+          "list_stocks"
+        ]
+      },
+      {
         "date": "2026-09-28T09:26:34.194Z",
         "method": "remote-http",
         "runId": "2026-09-28T09-26-34Z-a3af4f",
@@ -214,6 +235,27 @@
     ],
     "linux": [
       {
+        "date": "2026-10-05T10:04:47.575Z",
+        "method": "remote-http",
+        "runId": "2026-10-05T10-04-47Z-9a106c",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "get_today",
+          "search_stock",
+          "get_stock",
+          "get_rankings",
+          "get_market_summary",
+          "get_data_urls",
+          "get_earnings",
+          "get_history",
+          "get_disclosure_impact",
+          "get_earnings_calendar",
+          "get_disclosures",
+          "list_stocks"
+        ]
+      },
+      {
         "date": "2026-09-28T09:26:18.811Z",
         "method": "remote-http",
         "runId": "2026-09-28T09-26-18Z-39582e",
@@ -425,6 +467,27 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-05T10:05:13.673Z",
+        "method": "remote-http",
+        "runId": "2026-10-05T10-05-13Z-a1c1da",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "get_today",
+          "search_stock",
+          "get_stock",
+          "get_rankings",
+          "get_market_summary",
+          "get_data_urls",
+          "get_earnings",
+          "get_history",
+          "get_disclosure_impact",
+          "get_earnings_calendar",
+          "get_disclosures",
+          "list_stocks"
+        ]
+      },
       {
         "date": "2026-09-28T09:26:46.798Z",
         "method": "remote-http",

@@ -2,6 +2,33 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-05T10:04:53.723Z",
+        "installMs": 54425,
+        "method": "npm",
+        "runId": "2026-10-05T10-04-53Z-b837f2",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "multi_browserbase_stagehand_session_create",
+          "multi_browserbase_stagehand_session_list",
+          "multi_browserbase_stagehand_session_close",
+          "multi_browserbase_stagehand_navigate_session",
+          "multi_browserbase_stagehand_act_session",
+          "multi_browserbase_stagehand_extract_session",
+          "multi_browserbase_stagehand_observe_session",
+          "multi_browserbase_stagehand_get_url_session",
+          "browserbase_stagehand_get_all_urls",
+          "browserbase_session_create",
+          "browserbase_session_close",
+          "browserbase_stagehand_navigate",
+          "browserbase_stagehand_act",
+          "browserbase_stagehand_extract",
+          "browserbase_stagehand_observe",
+          "browserbase_screenshot",
+          "browserbase_stagehand_get_url"
+        ]
+      },
+      {
         "date": "2026-09-28T09:26:34.194Z",
         "installMs": 55136,
         "method": "npm",
@@ -380,6 +407,33 @@
     ],
     "linux": [
       {
+        "date": "2026-10-05T10:04:47.575Z",
+        "installMs": 25126,
+        "method": "npm",
+        "runId": "2026-10-05T10-04-47Z-9a106c",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "multi_browserbase_stagehand_session_create",
+          "multi_browserbase_stagehand_session_list",
+          "multi_browserbase_stagehand_session_close",
+          "multi_browserbase_stagehand_navigate_session",
+          "multi_browserbase_stagehand_act_session",
+          "multi_browserbase_stagehand_extract_session",
+          "multi_browserbase_stagehand_observe_session",
+          "multi_browserbase_stagehand_get_url_session",
+          "browserbase_stagehand_get_all_urls",
+          "browserbase_session_create",
+          "browserbase_session_close",
+          "browserbase_stagehand_navigate",
+          "browserbase_stagehand_act",
+          "browserbase_stagehand_extract",
+          "browserbase_stagehand_observe",
+          "browserbase_screenshot",
+          "browserbase_stagehand_get_url"
+        ]
+      },
+      {
         "date": "2026-09-28T09:26:18.811Z",
         "installMs": 33391,
         "method": "npm",
@@ -757,6 +811,33 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-05T10:05:13.673Z",
+        "installMs": 432610,
+        "method": "npm",
+        "runId": "2026-10-05T10-05-13Z-a1c1da",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "multi_browserbase_stagehand_session_create",
+          "multi_browserbase_stagehand_session_list",
+          "multi_browserbase_stagehand_session_close",
+          "multi_browserbase_stagehand_navigate_session",
+          "multi_browserbase_stagehand_act_session",
+          "multi_browserbase_stagehand_extract_session",
+          "multi_browserbase_stagehand_observe_session",
+          "multi_browserbase_stagehand_get_url_session",
+          "browserbase_stagehand_get_all_urls",
+          "browserbase_session_create",
+          "browserbase_session_close",
+          "browserbase_stagehand_navigate",
+          "browserbase_stagehand_act",
+          "browserbase_stagehand_extract",
+          "browserbase_stagehand_observe",
+          "browserbase_screenshot",
+          "browserbase_stagehand_get_url"
+        ]
+      },
       {
         "date": "2026-09-28T09:26:46.798Z",
         "installMs": 452402,

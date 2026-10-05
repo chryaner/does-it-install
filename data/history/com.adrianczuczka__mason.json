@@ -2,6 +2,38 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-05T10:04:47.905Z",
+        "installMs": 5304,
+        "method": "npm",
+        "runId": "2026-10-05T10-04-47Z-ce8aa3",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "mason_init",
+          "mason_automation",
+          "mason_repair",
+          "review_advisory",
+          "mason_complete_init",
+          "mason_set_confluence",
+          "full_analysis",
+          "analyze_project",
+          "get_code_samples",
+          "get_snapshot",
+          "get_context",
+          "generate_snapshot_batch",
+          "save_partial_snapshot",
+          "reduce_snapshot",
+          "save_snapshot",
+          "save_decision",
+          "review_decision",
+          "mason_check_drift",
+          "verify_snapshot",
+          "save_verification",
+          "get_impact",
+          "export_to_confluence"
+        ]
+      },
+      {
         "date": "2026-09-28T09:26:38.430Z",
         "installMs": 11046,
         "method": "npm",
@@ -318,6 +350,38 @@
     ],
     "linux": [
       {
+        "date": "2026-10-05T10:04:42.520Z",
+        "installMs": 7506,
+        "method": "npm",
+        "runId": "2026-10-05T10-04-42Z-f647e4",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "mason_init",
+          "mason_automation",
+          "mason_repair",
+          "review_advisory",
+          "mason_complete_init",
+          "mason_set_confluence",
+          "full_analysis",
+          "analyze_project",
+          "get_code_samples",
+          "get_snapshot",
+          "get_context",
+          "generate_snapshot_batch",
+          "save_partial_snapshot",
+          "reduce_snapshot",
+          "save_snapshot",
+          "save_decision",
+          "review_decision",
+          "mason_check_drift",
+          "verify_snapshot",
+          "save_verification",
+          "get_impact",
+          "export_to_confluence"
+        ]
+      },
+      {
         "date": "2026-09-28T09:26:19.956Z",
         "installMs": 6764,
         "method": "npm",
@@ -633,6 +697,38 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-05T10:05:00.204Z",
+        "installMs": 222000,
+        "method": "npm",
+        "runId": "2026-10-05T10-05-00Z-c576ae",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "mason_init",
+          "mason_automation",
+          "mason_repair",
+          "review_advisory",
+          "mason_complete_init",
+          "mason_set_confluence",
+          "full_analysis",
+          "analyze_project",
+          "get_code_samples",
+          "get_snapshot",
+          "get_context",
+          "generate_snapshot_batch",
+          "save_partial_snapshot",
+          "reduce_snapshot",
+          "save_snapshot",
+          "save_decision",
+          "review_decision",
+          "mason_check_drift",
+          "verify_snapshot",
+          "save_verification",
+          "get_impact",
+          "export_to_confluence"
+        ]
+      },
       {
         "date": "2026-09-28T09:26:44.362Z",
         "installMs": 471929,

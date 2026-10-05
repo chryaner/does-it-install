@@ -2,6 +2,30 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-05T10:04:47.905Z",
+        "installMs": 2025,
+        "method": "npm",
+        "runId": "2026-10-05T10-04-47Z-ce8aa3",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "access",
+          "agents",
+          "artifacts",
+          "browser",
+          "dev_containers",
+          "doctor",
+          "fs",
+          "gateway",
+          "mcp_app",
+          "projects",
+          "server_logs",
+          "setup",
+          "snippets",
+          "tasks"
+        ]
+      },
+      {
         "date": "2026-09-28T09:26:38.430Z",
         "installMs": 2949,
         "method": "npm",
@@ -127,6 +151,31 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-10-05T10:04:42.520Z",
+        "installMs": 2220,
+        "method": "npm",
+        "runId": "2026-10-05T10-04-42Z-f647e4",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "access",
+          "agents",
+          "artifacts",
+          "browser",
+          "dev_containers",
+          "doctor",
+          "fs",
+          "gateway",
+          "mcp_app",
+          "projects",
+          "server_logs",
+          "setup",
+          "snippets",
+          "stash",
+          "tasks"
+        ]
+      },
       {
         "date": "2026-09-28T09:26:19.956Z",
         "installMs": 2367,
@@ -355,6 +404,30 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-05T10:05:00.204Z",
+        "installMs": 47544,
+        "method": "npm",
+        "runId": "2026-10-05T10-05-00Z-c576ae",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "access",
+          "agents",
+          "artifacts",
+          "browser",
+          "dev_containers",
+          "doctor",
+          "fs",
+          "gateway",
+          "mcp_app",
+          "projects",
+          "server_logs",
+          "setup",
+          "snippets",
+          "tasks"
+        ]
+      },
       {
         "date": "2026-09-28T09:26:44.362Z",
         "installMs": 88710,

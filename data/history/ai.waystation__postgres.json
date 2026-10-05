@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-05T10:04:53.723Z",
+        "errorExcerpt": "connect failed: Streamable HTTP error: Error POSTing to endpoint: {\"error\": {\"code\": \"402\", \"message\": \"Payment required\"}}",
+        "method": "remote-http",
+        "runId": "2026-10-05T10-04-53Z-b837f2",
+        "status": "connect_failed"
+      },
+      {
         "date": "2026-09-28T09:26:34.194Z",
         "errorExcerpt": "connect failed: Streamable HTTP error: Error POSTing to endpoint: {\"error\": {\"code\": \"402\", \"message\": \"Payment required\"}}",
         "method": "remote-http",
@@ -88,6 +95,13 @@
     ],
     "linux": [
       {
+        "date": "2026-10-05T10:04:47.575Z",
+        "errorExcerpt": "connect failed: Streamable HTTP error: Error POSTing to endpoint: {\"error\": {\"code\": \"402\", \"message\": \"Payment required\"}}",
+        "method": "remote-http",
+        "runId": "2026-10-05T10-04-47Z-9a106c",
+        "status": "connect_failed"
+      },
+      {
         "date": "2026-09-28T09:26:18.811Z",
         "errorExcerpt": "connect failed: Streamable HTTP error: Error POSTing to endpoint: {\"error\": {\"code\": \"402\", \"message\": \"Payment required\"}}",
         "method": "remote-http",
@@ -173,6 +187,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-05T10:05:13.673Z",
+        "errorExcerpt": "connect failed: Streamable HTTP error: Error POSTing to endpoint: {\"error\": {\"code\": \"402\", \"message\": \"Payment required\"}}",
+        "method": "remote-http",
+        "runId": "2026-10-05T10-05-13Z-a1c1da",
+        "status": "connect_failed"
+      },
       {
         "date": "2026-09-28T09:26:46.798Z",
         "errorExcerpt": "connect failed: Streamable HTTP error: Error POSTing to endpoint: {\"error\": {\"code\": \"402\", \"message\": \"Payment required\"}}",

@@ -2,6 +2,23 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-05T10:04:47.905Z",
+        "method": "pypi",
+        "runId": "2026-10-05T10-04-47Z-ce8aa3",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "search_documents",
+          "get_document",
+          "get_documents_batch",
+          "get_facet_counts",
+          "get_public_inspection",
+          "list_agencies",
+          "open_comment_periods",
+          "far_case_history"
+        ]
+      },
+      {
         "date": "2026-09-28T09:26:38.430Z",
         "method": "pypi",
         "runId": "2026-09-28T09-26-38Z-d047c1",
@@ -89,6 +106,23 @@
     ],
     "linux": [
       {
+        "date": "2026-10-05T10:04:42.520Z",
+        "method": "pypi",
+        "runId": "2026-10-05T10-04-42Z-f647e4",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "search_documents",
+          "get_document",
+          "get_documents_batch",
+          "get_facet_counts",
+          "get_public_inspection",
+          "list_agencies",
+          "open_comment_periods",
+          "far_case_history"
+        ]
+      },
+      {
         "date": "2026-09-28T09:26:19.956Z",
         "method": "pypi",
         "runId": "2026-09-28T09-26-19Z-131103",
@@ -175,6 +209,23 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-05T10:05:00.204Z",
+        "method": "pypi",
+        "runId": "2026-10-05T10-05-00Z-c576ae",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "search_documents",
+          "get_document",
+          "get_documents_batch",
+          "get_facet_counts",
+          "get_public_inspection",
+          "list_agencies",
+          "open_comment_periods",
+          "far_case_history"
+        ]
+      },
       {
         "date": "2026-09-28T09:26:44.362Z",
         "method": "pypi",
