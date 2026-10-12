@@ -2,6 +2,29 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-12T10:26:27.188Z",
+        "installMs": 10475,
+        "method": "npm",
+        "runId": "2026-10-12T10-26-27Z-8a9bb5",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "echo",
+          "get-annotated-message",
+          "get-env",
+          "get-resource-links",
+          "get-resource-reference",
+          "get-structured-content",
+          "get-sum",
+          "get-tiny-image",
+          "gzip-file-as-resource",
+          "toggle-simulated-logging",
+          "toggle-subscriber-updates",
+          "trigger-long-running-operation",
+          "simulate-research-query"
+        ]
+      },
+      {
         "date": "2026-10-05T10:04:53.723Z",
         "installMs": 6022,
         "method": "npm",
@@ -390,6 +413,29 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-10-12T10:26:22.072Z",
+        "installMs": 4883,
+        "method": "npm",
+        "runId": "2026-10-12T10-26-22Z-119528",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "echo",
+          "get-annotated-message",
+          "get-env",
+          "get-resource-links",
+          "get-resource-reference",
+          "get-structured-content",
+          "get-sum",
+          "get-tiny-image",
+          "gzip-file-as-resource",
+          "toggle-simulated-logging",
+          "toggle-subscriber-updates",
+          "trigger-long-running-operation",
+          "simulate-research-query"
+        ]
+      },
       {
         "date": "2026-10-05T10:04:47.575Z",
         "installMs": 6002,
@@ -801,6 +847,29 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-12T10:26:41.865Z",
+        "installMs": 143570,
+        "method": "npm",
+        "runId": "2026-10-12T10-26-41Z-6ac242",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "echo",
+          "get-annotated-message",
+          "get-env",
+          "get-resource-links",
+          "get-resource-reference",
+          "get-structured-content",
+          "get-sum",
+          "get-tiny-image",
+          "gzip-file-as-resource",
+          "toggle-simulated-logging",
+          "toggle-subscriber-updates",
+          "trigger-long-running-operation",
+          "simulate-research-query"
+        ]
+      },
       {
         "date": "2026-10-05T10:05:13.673Z",
         "installMs": 123394,

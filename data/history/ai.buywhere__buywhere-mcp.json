@@ -2,6 +2,21 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-12T10:26:27.188Z",
+        "installMs": 4802,
+        "method": "npm",
+        "runId": "2026-10-12T10-26-27Z-8a9bb5",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "search_products",
+          "get_product",
+          "compare_products",
+          "get_deals",
+          "list_categories"
+        ]
+      },
+      {
         "date": "2026-10-05T10:04:53.723Z",
         "installMs": 6772,
         "method": "npm",
@@ -210,6 +225,21 @@
     ],
     "linux": [
       {
+        "date": "2026-10-12T10:26:22.072Z",
+        "installMs": 3675,
+        "method": "npm",
+        "runId": "2026-10-12T10-26-22Z-119528",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "search_products",
+          "get_product",
+          "compare_products",
+          "get_deals",
+          "list_categories"
+        ]
+      },
+      {
         "date": "2026-10-05T10:04:47.575Z",
         "installMs": 4184,
         "method": "npm",
@@ -417,6 +447,21 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-12T10:26:41.865Z",
+        "installMs": 176086,
+        "method": "npm",
+        "runId": "2026-10-12T10-26-41Z-6ac242",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "search_products",
+          "get_product",
+          "compare_products",
+          "get_deals",
+          "list_categories"
+        ]
+      },
       {
         "date": "2026-10-05T10:05:13.673Z",
         "installMs": 145798,

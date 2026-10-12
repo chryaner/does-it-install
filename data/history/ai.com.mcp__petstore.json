@@ -2,6 +2,34 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-12T10:26:30.842Z",
+        "method": "remote-http",
+        "runId": "2026-10-12T10-26-30Z-9f2e76",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "updatePet",
+          "addPet",
+          "findPetsByStatus",
+          "findPetsByTags",
+          "getPetById",
+          "updatePetWithForm",
+          "deletePet",
+          "uploadFile",
+          "getInventory",
+          "placeOrder",
+          "getOrderById",
+          "deleteOrder",
+          "createUser",
+          "createUsersWithListInput",
+          "loginUser",
+          "logoutUser",
+          "getUserByName",
+          "updateUser",
+          "deleteUser"
+        ]
+      },
+      {
         "date": "2026-10-05T10:04:50.844Z",
         "method": "remote-http",
         "runId": "2026-10-05T10-04-50Z-edf3c4",
@@ -396,6 +424,34 @@
     ],
     "linux": [
       {
+        "date": "2026-10-12T10:26:18.864Z",
+        "method": "remote-http",
+        "runId": "2026-10-12T10-26-18Z-331913",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "updatePet",
+          "addPet",
+          "findPetsByStatus",
+          "findPetsByTags",
+          "getPetById",
+          "updatePetWithForm",
+          "deletePet",
+          "uploadFile",
+          "getInventory",
+          "placeOrder",
+          "getOrderById",
+          "deleteOrder",
+          "createUser",
+          "createUsersWithListInput",
+          "loginUser",
+          "logoutUser",
+          "getUserByName",
+          "updateUser",
+          "deleteUser"
+        ]
+      },
+      {
         "date": "2026-10-05T10:04:43.376Z",
         "method": "remote-http",
         "runId": "2026-10-05T10-04-43Z-1d66ea",
@@ -789,6 +845,34 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-12T10:26:43.783Z",
+        "method": "remote-http",
+        "runId": "2026-10-12T10-26-43Z-22b0f9",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "updatePet",
+          "addPet",
+          "findPetsByStatus",
+          "findPetsByTags",
+          "getPetById",
+          "updatePetWithForm",
+          "deletePet",
+          "uploadFile",
+          "getInventory",
+          "placeOrder",
+          "getOrderById",
+          "deleteOrder",
+          "createUser",
+          "createUsersWithListInput",
+          "loginUser",
+          "logoutUser",
+          "getUserByName",
+          "updateUser",
+          "deleteUser"
+        ]
+      },
       {
         "date": "2026-10-05T10:05:17.875Z",
         "method": "remote-http",

@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-12T10:26:27.188Z",
+        "errorExcerpt": "korea-stock-mcp declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "installMs": 11374,
+        "method": "npm",
+        "runId": "2026-10-12T10-26-27Z-8a9bb5",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-10-05T10:04:53.723Z",
         "errorExcerpt": "korea-stock-mcp declares no runnable \"bin\" entry, so there is nothing to spawn",
         "installMs": 8103,
@@ -106,6 +114,14 @@
     ],
     "linux": [
       {
+        "date": "2026-10-12T10:26:22.072Z",
+        "errorExcerpt": "korea-stock-mcp declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "installMs": 4876,
+        "method": "npm",
+        "runId": "2026-10-12T10-26-22Z-119528",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-10-05T10:04:47.575Z",
         "errorExcerpt": "korea-stock-mcp declares no runnable \"bin\" entry, so there is nothing to spawn",
         "installMs": 4437,
@@ -209,6 +225,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-12T10:26:41.865Z",
+        "errorExcerpt": "korea-stock-mcp declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "installMs": 139115,
+        "method": "npm",
+        "runId": "2026-10-12T10-26-41Z-6ac242",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-10-05T10:05:13.673Z",
         "errorExcerpt": "korea-stock-mcp declares no runnable \"bin\" entry, so there is nothing to spawn",

@@ -2,6 +2,18 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-12T10:26:27.188Z",
+        "method": "remote-http",
+        "runId": "2026-10-12T10-26-27Z-8a9bb5",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "biel_ai",
+          "biel_search",
+          "biel_get_document"
+        ]
+      },
+      {
         "date": "2026-10-05T10:04:53.723Z",
         "method": "remote-http",
         "runId": "2026-10-05T10-04-53Z-b837f2",
@@ -124,6 +136,18 @@
     ],
     "linux": [
       {
+        "date": "2026-10-12T10:26:22.072Z",
+        "method": "remote-http",
+        "runId": "2026-10-12T10-26-22Z-119528",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "biel_ai",
+          "biel_search",
+          "biel_get_document"
+        ]
+      },
+      {
         "date": "2026-10-05T10:04:47.575Z",
         "method": "remote-http",
         "runId": "2026-10-05T10-04-47Z-9a106c",
@@ -245,6 +269,18 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-12T10:26:41.865Z",
+        "method": "remote-http",
+        "runId": "2026-10-12T10-26-41Z-6ac242",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "biel_ai",
+          "biel_search",
+          "biel_get_document"
+        ]
+      },
       {
         "date": "2026-10-05T10:05:13.673Z",
         "method": "remote-http",

@@ -2,6 +2,20 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-12T10:26:28.032Z",
+        "method": "pypi",
+        "runId": "2026-10-12T10-26-28Z-87351b",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "list_rfo_parts",
+          "get_rfo_part",
+          "list_rfo_agency_deviations",
+          "get_rfo_agency_deviation",
+          "get_rfo_guidance"
+        ]
+      },
+      {
         "date": "2026-10-05T10:04:47.905Z",
         "method": "pypi",
         "runId": "2026-10-05T10-04-47Z-ce8aa3",
@@ -88,6 +102,20 @@
     ],
     "linux": [
       {
+        "date": "2026-10-12T10:26:27.225Z",
+        "method": "pypi",
+        "runId": "2026-10-12T10-26-27Z-5719b7",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "list_rfo_parts",
+          "get_rfo_part",
+          "list_rfo_agency_deviations",
+          "get_rfo_agency_deviation",
+          "get_rfo_guidance"
+        ]
+      },
+      {
         "date": "2026-10-05T10:04:42.520Z",
         "method": "pypi",
         "runId": "2026-10-05T10-04-42Z-f647e4",
@@ -173,6 +201,20 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-12T10:26:37.428Z",
+        "method": "pypi",
+        "runId": "2026-10-12T10-26-37Z-d77427",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "list_rfo_parts",
+          "get_rfo_part",
+          "list_rfo_agency_deviations",
+          "get_rfo_agency_deviation",
+          "get_rfo_guidance"
+        ]
+      },
       {
         "date": "2026-10-05T10:05:00.204Z",
         "method": "pypi",

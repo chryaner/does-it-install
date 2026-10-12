@@ -2,6 +2,38 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-12T10:26:30.842Z",
+        "method": "remote-http",
+        "runId": "2026-10-12T10-26-30Z-9f2e76",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "get_organization",
+          "get_deployment_options",
+          "list_projects",
+          "create_project",
+          "list_nodes",
+          "get_node",
+          "create_node",
+          "get_project",
+          "update_project",
+          "delete_project",
+          "update_node",
+          "delete_node",
+          "list_node_access_rules",
+          "create_node_access_rule",
+          "update_node_access_rule",
+          "delete_node_access_rule",
+          "set_node_access_rules_status",
+          "search_docs",
+          "get_doc_page",
+          "get_platform_status",
+          "contact_chainstack",
+          "request_testnet_funds",
+          "get_chainstack_pricing"
+        ]
+      },
+      {
         "date": "2026-10-05T10:04:50.844Z",
         "method": "remote-http",
         "runId": "2026-10-05T10-04-50Z-edf3c4",
@@ -274,6 +306,38 @@
     ],
     "linux": [
       {
+        "date": "2026-10-12T10:26:18.864Z",
+        "method": "remote-http",
+        "runId": "2026-10-12T10-26-18Z-331913",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "get_organization",
+          "get_deployment_options",
+          "list_projects",
+          "create_project",
+          "list_nodes",
+          "get_node",
+          "create_node",
+          "get_project",
+          "update_project",
+          "delete_project",
+          "update_node",
+          "delete_node",
+          "list_node_access_rules",
+          "create_node_access_rule",
+          "update_node_access_rule",
+          "delete_node_access_rule",
+          "set_node_access_rules_status",
+          "search_docs",
+          "get_doc_page",
+          "get_platform_status",
+          "contact_chainstack",
+          "request_testnet_funds",
+          "get_chainstack_pricing"
+        ]
+      },
+      {
         "date": "2026-10-05T10:04:43.376Z",
         "method": "remote-http",
         "runId": "2026-10-05T10-04-43Z-1d66ea",
@@ -545,6 +609,38 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-12T10:26:43.783Z",
+        "method": "remote-http",
+        "runId": "2026-10-12T10-26-43Z-22b0f9",
+        "status": "pass",
+        "toolCount": 23,
+        "toolNames": [
+          "get_organization",
+          "get_deployment_options",
+          "list_projects",
+          "create_project",
+          "list_nodes",
+          "get_node",
+          "create_node",
+          "get_project",
+          "update_project",
+          "delete_project",
+          "update_node",
+          "delete_node",
+          "list_node_access_rules",
+          "create_node_access_rule",
+          "update_node_access_rule",
+          "delete_node_access_rule",
+          "set_node_access_rules_status",
+          "search_docs",
+          "get_doc_page",
+          "get_platform_status",
+          "contact_chainstack",
+          "request_testnet_funds",
+          "get_chainstack_pricing"
+        ]
+      },
       {
         "date": "2026-10-05T10:05:17.875Z",
         "method": "remote-http",

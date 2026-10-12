@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-12T10:26:27.188Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"detail\":\"OAuth bearer token required\",\"request_id\":\"87141c1d-a0c7-4453-aa44-a701a0eeee52\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-10-12T10-26-27Z-8a9bb5",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-10-05T10:04:53.723Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"detail\":\"OAuth bearer token required\",\"request_id\":\"9a8589ce-407a-4a41-a7b9-8f282cc104af\"} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -46,6 +53,13 @@
     ],
     "linux": [
       {
+        "date": "2026-10-12T10:26:22.072Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"detail\":\"OAuth bearer token required\",\"request_id\":\"2750f256-fa3a-42a3-9e45-3beac2b222e4\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-10-12T10-26-22Z-119528",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-10-05T10:04:47.575Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"detail\":\"OAuth bearer token required\",\"request_id\":\"4d579122-4c76-426d-9a09-5f3f81e439df\"} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -89,6 +103,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-12T10:26:41.865Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"detail\":\"OAuth bearer token required\",\"request_id\":\"a8aeb232-819e-4348-b40c-6d852186ef6d\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-10-12T10-26-41Z-6ac242",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-10-05T10:05:13.673Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"detail\":\"OAuth bearer token required\",\"request_id\":\"4dcea015-01d7-4288-aa5d-ba91b01f009b\"} (endpoint reachable but requires credentials the harness does not send)",

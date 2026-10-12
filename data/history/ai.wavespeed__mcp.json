@@ -2,6 +2,23 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-12T10:26:30.842Z",
+        "installMs": 7030,
+        "method": "npm",
+        "runId": "2026-10-12T10-26-30Z-9f2e76",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "list_models",
+          "get_model_schema",
+          "run_model",
+          "get_price",
+          "get_balance",
+          "upload_file",
+          "get_prediction"
+        ]
+      },
+      {
         "date": "2026-10-05T10:04:50.844Z",
         "installMs": 2620,
         "method": "npm",
@@ -123,6 +140,23 @@
     ],
     "linux": [
       {
+        "date": "2026-10-12T10:26:18.864Z",
+        "installMs": 3931,
+        "method": "npm",
+        "runId": "2026-10-12T10-26-18Z-331913",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "list_models",
+          "get_model_schema",
+          "run_model",
+          "get_price",
+          "get_balance",
+          "upload_file",
+          "get_prediction"
+        ]
+      },
+      {
         "date": "2026-10-05T10:04:43.376Z",
         "installMs": 3436,
         "method": "npm",
@@ -243,6 +277,23 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-12T10:26:43.783Z",
+        "installMs": 78611,
+        "method": "npm",
+        "runId": "2026-10-12T10-26-43Z-22b0f9",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "list_models",
+          "get_model_schema",
+          "run_model",
+          "get_price",
+          "get_balance",
+          "upload_file",
+          "get_prediction"
+        ]
+      },
       {
         "date": "2026-10-05T10:05:17.875Z",
         "installMs": 113357,

@@ -2,6 +2,36 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-12T10:26:30.842Z",
+        "installMs": 9961,
+        "method": "npm",
+        "runId": "2026-10-12T10-26-30Z-9f2e76",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "list_styles",
+          "get_style_guide",
+          "train_style",
+          "create_style_from_dials",
+          "update_style",
+          "fork_style",
+          "delete_style",
+          "set_default_style",
+          "check_voice_match",
+          "check_self_repetition",
+          "audit_text",
+          "second_read",
+          "add_banned_word",
+          "remove_banned_word",
+          "add_custom_word",
+          "remove_custom_word",
+          "list_dictionary",
+          "set_style_instructions",
+          "clear_style_instructions",
+          "get_style_instructions"
+        ]
+      },
+      {
         "date": "2026-10-05T10:04:50.844Z",
         "installMs": 4325,
         "method": "npm",
@@ -318,6 +348,36 @@
     ],
     "linux": [
       {
+        "date": "2026-10-12T10:26:18.864Z",
+        "installMs": 4567,
+        "method": "npm",
+        "runId": "2026-10-12T10-26-18Z-331913",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "list_styles",
+          "get_style_guide",
+          "train_style",
+          "create_style_from_dials",
+          "update_style",
+          "fork_style",
+          "delete_style",
+          "set_default_style",
+          "check_voice_match",
+          "check_self_repetition",
+          "audit_text",
+          "second_read",
+          "add_banned_word",
+          "remove_banned_word",
+          "add_custom_word",
+          "remove_custom_word",
+          "list_dictionary",
+          "set_style_instructions",
+          "clear_style_instructions",
+          "get_style_instructions"
+        ]
+      },
+      {
         "date": "2026-10-05T10:04:43.376Z",
         "installMs": 4207,
         "method": "npm",
@@ -633,6 +693,36 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-12T10:26:43.783Z",
+        "installMs": 70005,
+        "method": "npm",
+        "runId": "2026-10-12T10-26-43Z-22b0f9",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "list_styles",
+          "get_style_guide",
+          "train_style",
+          "create_style_from_dials",
+          "update_style",
+          "fork_style",
+          "delete_style",
+          "set_default_style",
+          "check_voice_match",
+          "check_self_repetition",
+          "audit_text",
+          "second_read",
+          "add_banned_word",
+          "remove_banned_word",
+          "add_custom_word",
+          "remove_custom_word",
+          "list_dictionary",
+          "set_style_instructions",
+          "clear_style_instructions",
+          "get_style_instructions"
+        ]
+      },
       {
         "date": "2026-10-05T10:05:17.875Z",
         "installMs": 83039,

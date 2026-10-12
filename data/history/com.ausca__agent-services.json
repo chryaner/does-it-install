@@ -2,6 +2,25 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-12T10:26:30.842Z",
+        "installMs": 25847,
+        "method": "npm",
+        "runId": "2026-10-12T10-26-30Z-9f2e76",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "ausca_lease_browser",
+          "ausca_analyze_document",
+          "ausca_extract_text",
+          "ausca_extend_inbox",
+          "ausca_open_inbox",
+          "ausca_transcribe_media",
+          "ausca_catalog",
+          "ausca_price",
+          "ausca_commit_artifact"
+        ]
+      },
+      {
         "date": "2026-10-05T10:04:50.844Z",
         "installMs": 8302,
         "method": "npm",
@@ -61,6 +80,25 @@
     ],
     "linux": [
       {
+        "date": "2026-10-12T10:26:18.864Z",
+        "installMs": 12249,
+        "method": "npm",
+        "runId": "2026-10-12T10-26-18Z-331913",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "ausca_lease_browser",
+          "ausca_analyze_document",
+          "ausca_extract_text",
+          "ausca_extend_inbox",
+          "ausca_open_inbox",
+          "ausca_transcribe_media",
+          "ausca_catalog",
+          "ausca_price",
+          "ausca_commit_artifact"
+        ]
+      },
+      {
         "date": "2026-10-05T10:04:43.376Z",
         "installMs": 11766,
         "method": "npm",
@@ -119,6 +157,25 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-12T10:26:43.783Z",
+        "installMs": 455344,
+        "method": "npm",
+        "runId": "2026-10-12T10-26-43Z-22b0f9",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "ausca_lease_browser",
+          "ausca_analyze_document",
+          "ausca_extract_text",
+          "ausca_extend_inbox",
+          "ausca_open_inbox",
+          "ausca_transcribe_media",
+          "ausca_catalog",
+          "ausca_price",
+          "ausca_commit_artifact"
+        ]
+      },
       {
         "date": "2026-10-05T10:05:17.875Z",
         "installMs": 313556,

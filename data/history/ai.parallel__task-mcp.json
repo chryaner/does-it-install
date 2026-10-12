@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-12T10:26:27.188Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Authentication required\",\"detail\":\"Missing x-api-key or Authorization header. Please provide a valid API key.\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-10-12T10-26-27Z-8a9bb5",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-10-05T10:04:53.723Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Authentication required\",\"detail\":\"Missing x-api-key or Authorization header. Please provide a valid API key.\"} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -95,6 +102,13 @@
     ],
     "linux": [
       {
+        "date": "2026-10-12T10:26:22.072Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Authentication required\",\"detail\":\"Missing x-api-key or Authorization header. Please provide a valid API key.\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-10-12T10-26-22Z-119528",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-10-05T10:04:47.575Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Authentication required\",\"detail\":\"Missing x-api-key or Authorization header. Please provide a valid API key.\"} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -187,6 +201,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-12T10:26:41.865Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Authentication required\",\"detail\":\"Missing x-api-key or Authorization header. Please provide a valid API key.\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-10-12T10-26-41Z-6ac242",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-10-05T10:05:13.673Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Authentication required\",\"detail\":\"Missing x-api-key or Authorization header. Please provide a valid API key.\"} (endpoint reachable but requires credentials the harness does not send)",

@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-12T10:26:27.188Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed",
+        "installMs": 7401,
+        "method": "npm",
+        "runId": "2026-10-12T10-26-27Z-8a9bb5",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-10-05T10:04:53.723Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed",
         "installMs": 8742,
@@ -51,6 +59,20 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-10-12T10:26:22.072Z",
+        "installMs": 5444,
+        "method": "npm",
+        "runId": "2026-10-12T10-26-22Z-119528",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "zenbrain_store",
+          "zenbrain_recall",
+          "zenbrain_consolidate",
+          "zenbrain_health"
+        ]
+      },
       {
         "date": "2026-10-05T10:04:47.575Z",
         "installMs": 5427,
@@ -137,6 +159,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-12T10:26:41.865Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed",
+        "installMs": 151161,
+        "method": "npm",
+        "runId": "2026-10-12T10-26-41Z-6ac242",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-10-05T10:05:13.673Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed",

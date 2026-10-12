@@ -2,6 +2,24 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-12T10:26:27.188Z",
+        "method": "pypi",
+        "runId": "2026-10-12T10-26-27Z-8a9bb5",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "get_hist_data",
+          "get_realtime_data",
+          "get_news_data",
+          "get_balance_sheet",
+          "get_income_statement",
+          "get_cash_flow",
+          "get_inner_trade_data",
+          "get_financial_metrics",
+          "get_time_info"
+        ]
+      },
+      {
         "date": "2026-10-05T10:04:53.723Z",
         "method": "pypi",
         "runId": "2026-10-05T10-04-53Z-b837f2",
@@ -58,6 +76,24 @@
     ],
     "linux": [
       {
+        "date": "2026-10-12T10:26:22.072Z",
+        "method": "pypi",
+        "runId": "2026-10-12T10-26-22Z-119528",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "get_hist_data",
+          "get_realtime_data",
+          "get_news_data",
+          "get_balance_sheet",
+          "get_income_statement",
+          "get_cash_flow",
+          "get_inner_trade_data",
+          "get_financial_metrics",
+          "get_time_info"
+        ]
+      },
+      {
         "date": "2026-10-05T10:04:47.575Z",
         "method": "pypi",
         "runId": "2026-10-05T10-04-47Z-9a106c",
@@ -113,6 +149,24 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-12T10:26:41.865Z",
+        "method": "pypi",
+        "runId": "2026-10-12T10-26-41Z-6ac242",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "get_hist_data",
+          "get_realtime_data",
+          "get_news_data",
+          "get_balance_sheet",
+          "get_income_statement",
+          "get_cash_flow",
+          "get_inner_trade_data",
+          "get_financial_metrics",
+          "get_time_info"
+        ]
+      },
       {
         "date": "2026-10-05T10:05:13.673Z",
         "method": "pypi",

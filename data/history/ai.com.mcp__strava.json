@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-12T10:26:27.188Z",
+        "errorExcerpt": "listTools failed: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"unauthorized\",\"error_description\":\"Bearer token required\"}",
+        "method": "remote-http",
+        "runId": "2026-10-12T10-26-27Z-8a9bb5",
+        "status": "tools_failed"
+      },
+      {
         "date": "2026-10-05T10:04:53.723Z",
         "errorExcerpt": "listTools failed: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"unauthorized\",\"error_description\":\"Bearer token required\"}",
         "method": "remote-http",
@@ -252,6 +259,13 @@
     ],
     "linux": [
       {
+        "date": "2026-10-12T10:26:22.072Z",
+        "errorExcerpt": "listTools failed: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"unauthorized\",\"error_description\":\"Bearer token required\"}",
+        "method": "remote-http",
+        "runId": "2026-10-12T10-26-22Z-119528",
+        "status": "tools_failed"
+      },
+      {
         "date": "2026-10-05T10:04:47.575Z",
         "errorExcerpt": "listTools failed: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"unauthorized\",\"error_description\":\"Bearer token required\"}",
         "method": "remote-http",
@@ -501,6 +515,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-12T10:26:41.865Z",
+        "errorExcerpt": "listTools failed: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"unauthorized\",\"error_description\":\"Bearer token required\"}",
+        "method": "remote-http",
+        "runId": "2026-10-12T10-26-41Z-6ac242",
+        "status": "tools_failed"
+      },
       {
         "date": "2026-10-05T10:05:13.673Z",
         "errorExcerpt": "listTools failed: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"unauthorized\",\"error_description\":\"Bearer token required\"}",

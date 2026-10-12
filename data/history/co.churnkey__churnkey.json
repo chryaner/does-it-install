@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-12T10:26:30.842Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: Missing Churnkey App ID. Send x-ck-app or set CHURNKEY_APP_ID. (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-10-12T10-26-30Z-9f2e76",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-10-05T10:04:50.844Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: Missing Churnkey App ID. Send x-ck-app or set CHURNKEY_APP_ID. (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -88,6 +95,13 @@
     ],
     "linux": [
       {
+        "date": "2026-10-12T10:26:18.864Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: Missing Churnkey App ID. Send x-ck-app or set CHURNKEY_APP_ID. (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-10-12T10-26-18Z-331913",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-10-05T10:04:43.376Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: Missing Churnkey App ID. Send x-ck-app or set CHURNKEY_APP_ID. (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -173,6 +187,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-12T10:26:43.783Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: Missing Churnkey App ID. Send x-ck-app or set CHURNKEY_APP_ID. (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-10-12T10-26-43Z-22b0f9",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-10-05T10:05:17.875Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: Missing Churnkey App ID. Send x-ck-app or set CHURNKEY_APP_ID. (endpoint reachable but requires credentials the harness does not send)",

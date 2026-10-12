@@ -2,6 +2,23 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-12T10:26:27.188Z",
+        "installMs": 23165,
+        "method": "npm",
+        "runId": "2026-10-12T10-26-27Z-8a9bb5",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "search",
+          "execute",
+          "observe",
+          "get_job_result",
+          "list_jobs",
+          "cancel_job",
+          "connect_tab"
+        ]
+      },
+      {
         "date": "2026-10-05T10:04:53.723Z",
         "installMs": 23706,
         "method": "npm",
@@ -189,6 +206,23 @@
     ],
     "linux": [
       {
+        "date": "2026-10-12T10:26:22.072Z",
+        "installMs": 3966,
+        "method": "npm",
+        "runId": "2026-10-12T10-26-22Z-119528",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "search",
+          "execute",
+          "observe",
+          "get_job_result",
+          "list_jobs",
+          "cancel_job",
+          "connect_tab"
+        ]
+      },
+      {
         "date": "2026-10-05T10:04:47.575Z",
         "installMs": 4660,
         "method": "npm",
@@ -375,6 +409,23 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-12T10:26:41.865Z",
+        "installMs": 154766,
+        "method": "npm",
+        "runId": "2026-10-12T10-26-41Z-6ac242",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "search",
+          "execute",
+          "observe",
+          "get_job_result",
+          "list_jobs",
+          "cancel_job",
+          "connect_tab"
+        ]
+      },
       {
         "date": "2026-10-05T10:05:13.673Z",
         "installMs": 125086,
