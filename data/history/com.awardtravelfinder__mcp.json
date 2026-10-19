@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-19T08:32:43.888Z",
+        "errorExcerpt": "listTools failed: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32001,\"message\":\"Authorization required\"},\"id\":null}",
+        "method": "remote-http",
+        "runId": "2026-10-19T08-32-43Z-80ae6c",
+        "status": "tools_failed"
+      },
+      {
         "date": "2026-10-12T10:26:30.842Z",
         "errorExcerpt": "listTools failed: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32001,\"message\":\"Authorization required\"},\"id\":null}",
         "method": "remote-http",
@@ -209,6 +216,13 @@
     ],
     "linux": [
       {
+        "date": "2026-10-19T08:32:36.383Z",
+        "errorExcerpt": "listTools failed: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32001,\"message\":\"Authorization required\"},\"id\":null}",
+        "method": "remote-http",
+        "runId": "2026-10-19T08-32-36Z-4a45af",
+        "status": "tools_failed"
+      },
+      {
         "date": "2026-10-12T10:26:18.864Z",
         "errorExcerpt": "listTools failed: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32001,\"message\":\"Authorization required\"},\"id\":null}",
         "method": "remote-http",
@@ -415,6 +429,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-19T08:33:01.714Z",
+        "errorExcerpt": "listTools failed: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32001,\"message\":\"Authorization required\"},\"id\":null}",
+        "method": "remote-http",
+        "runId": "2026-10-19T08-33-01Z-ea3211",
+        "status": "tools_failed"
+      },
       {
         "date": "2026-10-12T10:26:43.783Z",
         "errorExcerpt": "listTools failed: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32001,\"message\":\"Authorization required\"},\"id\":null}",

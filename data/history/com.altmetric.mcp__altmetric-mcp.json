@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-19T08:32:43.888Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: At least one API configuration is required\nPlease configure either:\n  1. Details Page API: ALTMETRIC_DETAILS_API_KEY\n  2. Explorer API: ALTMETRIC_EXPLORER_API_KEY and ALTMETRIC_EXPLORER_API_SECRET\n\nSet these in:\n  - A .env file in the project root, or\n  - Environment variables\n\nGet API credentials at: https://www.altmetric.com/solutions/altmetric-api/",
+        "installMs": 10224,
+        "method": "npm",
+        "runId": "2026-10-19T08-32-43Z-80ae6c",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-10-12T10:26:30.842Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: At least one API configuration is required\nPlease configure either:\n  1. Details Page API: ALTMETRIC_DETAILS_API_KEY\n  2. Explorer API: ALTMETRIC_EXPLORER_API_KEY and ALTMETRIC_EXPLORER_API_SECRET\n\nSet these in:\n  - A .env file in the project root, or\n  - Environment variables\n\nGet API credentials at: https://www.altmetric.com/solutions/altmetric-api/",
         "installMs": 6320,
@@ -106,6 +114,14 @@
     ],
     "linux": [
       {
+        "date": "2026-10-19T08:32:36.383Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: At least one API configuration is required\nPlease configure either:\n  1. Details Page API: ALTMETRIC_DETAILS_API_KEY\n  2. Explorer API: ALTMETRIC_EXPLORER_API_KEY and ALTMETRIC_EXPLORER_API_SECRET\n\nSet these in:\n  - A .env file in the project root, or\n  - Environment variables\n\nGet API credentials at: https://www.altmetric.com/solutions/altmetric-api/",
+        "installMs": 3687,
+        "method": "npm",
+        "runId": "2026-10-19T08-32-36Z-4a45af",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-10-12T10:26:18.864Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: At least one API configuration is required\nPlease configure either:\n  1. Details Page API: ALTMETRIC_DETAILS_API_KEY\n  2. Explorer API: ALTMETRIC_EXPLORER_API_KEY and ALTMETRIC_EXPLORER_API_SECRET\n\nSet these in:\n  - A .env file in the project root, or\n  - Environment variables\n\nGet API credentials at: https://www.altmetric.com/solutions/altmetric-api/",
         "installMs": 4346,
@@ -209,6 +225,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-19T08:33:01.714Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: At least one API configuration is required\nPlease configure either:\n  1. Details Page API: ALTMETRIC_DETAILS_API_KEY\n  2. Explorer API: ALTMETRIC_EXPLORER_API_KEY and ALTMETRIC_EXPLORER_API_SECRET\n\nSet these in:\n  - A .env file in the project root, or\n  - Environment variables\n\nGet API credentials at: https://www.altmetric.com/solutions/altmetric-api/",
+        "installMs": 73663,
+        "method": "npm",
+        "runId": "2026-10-19T08-33-01Z-ea3211",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-10-12T10:26:43.783Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: At least one API configuration is required\nPlease configure either:\n  1. Details Page API: ALTMETRIC_DETAILS_API_KEY\n  2. Explorer API: ALTMETRIC_EXPLORER_API_KEY and ALTMETRIC_EXPLORER_API_SECRET\n\nSet these in:\n  - A .env file in the project root, or\n  - Environment variables\n\nGet API credentials at: https://www.altmetric.com/solutions/altmetric-api/",

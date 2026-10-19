@@ -2,6 +2,17 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-19T08:32:43.888Z",
+        "method": "remote-http",
+        "runId": "2026-10-19T08-32-43Z-80ae6c",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "search",
+          "fetch"
+        ]
+      },
+      {
         "date": "2026-10-12T10:26:30.842Z",
         "errorExcerpt": "connect failed: HTTP 400: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32022,\"message\":\"Unsupported protocol version: 2025-11-25\",\"data\":{\"supported\":[\"2026-07-28\"],\"requested\":\"2025-11-25\"}},\"id\":0}",
         "method": "remote-http",
@@ -134,6 +145,17 @@
     ],
     "linux": [
       {
+        "date": "2026-10-19T08:32:36.383Z",
+        "method": "remote-http",
+        "runId": "2026-10-19T08-32-36Z-4a45af",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "search",
+          "fetch"
+        ]
+      },
+      {
         "date": "2026-10-12T10:26:18.864Z",
         "errorExcerpt": "connect failed: HTTP 400: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32022,\"message\":\"Unsupported protocol version: 2025-11-25\",\"data\":{\"supported\":[\"2026-07-28\"],\"requested\":\"2025-11-25\"}},\"id\":0}",
         "method": "remote-http",
@@ -265,6 +287,17 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-19T08:33:01.714Z",
+        "method": "remote-http",
+        "runId": "2026-10-19T08-33-01Z-ea3211",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "search",
+          "fetch"
+        ]
+      },
       {
         "date": "2026-10-12T10:26:43.783Z",
         "errorExcerpt": "connect failed: HTTP 400: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32022,\"message\":\"Unsupported protocol version: 2025-11-25\",\"data\":{\"supported\":[\"2026-07-28\"],\"requested\":\"2025-11-25\"}},\"id\":0}",

@@ -2,6 +2,38 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-19T08:32:43.888Z",
+        "installMs": 707,
+        "method": "npm",
+        "runId": "2026-10-19T08-32-43Z-80ae6c",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "find_references",
+          "get_context_pack",
+          "get_entity_source",
+          "graph_neighborhood",
+          "impact_analysis",
+          "kin_artifact_list",
+          "kin_artifact_read",
+          "kin_graph_status",
+          "kin_mutate",
+          "kin_provenance_query",
+          "kin_session_end",
+          "kin_session_heartbeat",
+          "kin_session_start",
+          "kin_transaction_abort",
+          "kin_transaction_begin",
+          "kin_transaction_commit",
+          "kin_transaction_stage",
+          "list_file_entities",
+          "semantic_locate",
+          "semantic_search",
+          "trace_data_flow",
+          "trace_path"
+        ]
+      },
+      {
         "date": "2026-10-12T10:26:30.842Z",
         "installMs": 1098,
         "method": "npm",
@@ -268,6 +300,38 @@
     ],
     "linux": [
       {
+        "date": "2026-10-19T08:32:36.383Z",
+        "installMs": 651,
+        "method": "npm",
+        "runId": "2026-10-19T08-32-36Z-4a45af",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "find_references",
+          "get_context_pack",
+          "get_entity_source",
+          "graph_neighborhood",
+          "impact_analysis",
+          "kin_artifact_list",
+          "kin_artifact_read",
+          "kin_graph_status",
+          "kin_mutate",
+          "kin_provenance_query",
+          "kin_session_end",
+          "kin_session_heartbeat",
+          "kin_session_start",
+          "kin_transaction_abort",
+          "kin_transaction_begin",
+          "kin_transaction_commit",
+          "kin_transaction_stage",
+          "list_file_entities",
+          "semantic_locate",
+          "semantic_search",
+          "trace_data_flow",
+          "trace_path"
+        ]
+      },
+      {
         "date": "2026-10-12T10:26:18.864Z",
         "installMs": 1021,
         "method": "npm",
@@ -533,6 +597,38 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-19T08:33:01.714Z",
+        "installMs": 2125,
+        "method": "npm",
+        "runId": "2026-10-19T08-33-01Z-ea3211",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "find_references",
+          "get_context_pack",
+          "get_entity_source",
+          "graph_neighborhood",
+          "impact_analysis",
+          "kin_artifact_list",
+          "kin_artifact_read",
+          "kin_graph_status",
+          "kin_mutate",
+          "kin_provenance_query",
+          "kin_session_end",
+          "kin_session_heartbeat",
+          "kin_session_start",
+          "kin_transaction_abort",
+          "kin_transaction_begin",
+          "kin_transaction_commit",
+          "kin_transaction_stage",
+          "list_file_entities",
+          "semantic_locate",
+          "semantic_search",
+          "trace_data_flow",
+          "trace_path"
+        ]
+      },
       {
         "date": "2026-10-12T10:26:43.783Z",
         "installMs": 3126,

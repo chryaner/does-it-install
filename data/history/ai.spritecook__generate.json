@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-19T08:32:38.849Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\": \"invalid_token\", \"error_description\": \"Authentication failed. The provided bearer token is invalid, expired, or no longer recognized by the server. To resolve: clear authentication tokens in your MCP client and reconnect. Your client should automatically re-register and obtain new tokens.\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-10-19T08-32-38Z-3e3f33",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-10-12T10:26:28.032Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\": \"invalid_token\", \"error_description\": \"Authentication failed. The provided bearer token is invalid, expired, or no longer recognized by the server. To resolve: clear authentication tokens in your MCP client and reconnect. Your client should automatically re-register and obtain new tokens.\"} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -88,6 +95,13 @@
     ],
     "linux": [
       {
+        "date": "2026-10-19T08:32:36.094Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\": \"invalid_token\", \"error_description\": \"Authentication failed. The provided bearer token is invalid, expired, or no longer recognized by the server. To resolve: clear authentication tokens in your MCP client and reconnect. Your client should automatically re-register and obtain new tokens.\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-10-19T08-32-36Z-47b225",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-10-12T10:26:27.225Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\": \"invalid_token\", \"error_description\": \"Authentication failed. The provided bearer token is invalid, expired, or no longer recognized by the server. To resolve: clear authentication tokens in your MCP client and reconnect. Your client should automatically re-register and obtain new tokens.\"} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -173,6 +187,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-19T08:33:06.762Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\": \"invalid_token\", \"error_description\": \"Authentication failed. The provided bearer token is invalid, expired, or no longer recognized by the server. To resolve: clear authentication tokens in your MCP client and reconnect. Your client should automatically re-register and obtain new tokens.\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-10-19T08-33-06Z-972b8c",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-10-12T10:26:37.428Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\": \"invalid_token\", \"error_description\": \"Authentication failed. The provided bearer token is invalid, expired, or no longer recognized by the server. To resolve: clear authentication tokens in your MCP client and reconnect. Your client should automatically re-register and obtain new tokens.\"} (endpoint reachable but requires credentials the harness does not send)",

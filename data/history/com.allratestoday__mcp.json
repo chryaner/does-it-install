@@ -2,6 +2,26 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-19T08:32:37.593Z",
+        "method": "remote-http",
+        "runId": "2026-10-19T08-32-37Z-848f99",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "get_exchange_rate",
+          "get_historical_rates",
+          "get_rates_authenticated",
+          "list_currencies",
+          "list_central_banks",
+          "get_official_rates",
+          "get_official_rate_history",
+          "compare_official_rates",
+          "get_publication_calendar",
+          "get_reference_rate",
+          "request_trial_key"
+        ]
+      },
+      {
         "date": "2026-10-12T10:26:27.188Z",
         "method": "remote-http",
         "runId": "2026-10-12T10-26-27Z-8a9bb5",
@@ -78,6 +98,26 @@
     ],
     "linux": [
       {
+        "date": "2026-10-19T08:32:31.287Z",
+        "method": "remote-http",
+        "runId": "2026-10-19T08-32-31Z-92d986",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "get_exchange_rate",
+          "get_historical_rates",
+          "get_rates_authenticated",
+          "list_currencies",
+          "list_central_banks",
+          "get_official_rates",
+          "get_official_rate_history",
+          "compare_official_rates",
+          "get_publication_calendar",
+          "get_reference_rate",
+          "request_trial_key"
+        ]
+      },
+      {
         "date": "2026-10-12T10:26:22.072Z",
         "method": "remote-http",
         "runId": "2026-10-12T10-26-22Z-119528",
@@ -153,6 +193,26 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-19T08:32:56.955Z",
+        "method": "remote-http",
+        "runId": "2026-10-19T08-32-56Z-1ac963",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "get_exchange_rate",
+          "get_historical_rates",
+          "get_rates_authenticated",
+          "list_currencies",
+          "list_central_banks",
+          "get_official_rates",
+          "get_official_rate_history",
+          "compare_official_rates",
+          "get_publication_calendar",
+          "get_reference_rate",
+          "request_trial_key"
+        ]
+      },
       {
         "date": "2026-10-12T10:26:41.865Z",
         "method": "remote-http",

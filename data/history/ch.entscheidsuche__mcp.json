@@ -2,6 +2,21 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-19T08:32:38.849Z",
+        "method": "remote-http",
+        "runId": "2026-10-19T08-32-38Z-3e3f33",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "search",
+          "search_by_case_number",
+          "fetch_document",
+          "list_hierarchy",
+          "list_facets",
+          "server_info"
+        ]
+      },
+      {
         "date": "2026-10-12T10:26:28.032Z",
         "method": "remote-http",
         "runId": "2026-10-12T10-26-28Z-87351b",
@@ -161,6 +176,13 @@
     ],
     "linux": [
       {
+        "date": "2026-10-19T08:32:36.094Z",
+        "errorExcerpt": "listTools failed: fetch failed caused by: Connect Timeout Error (attempted address: mcp.entscheidsuche.ch:443, timeout: 10000ms) (UND_ERR_CONNECT_TIMEOUT)",
+        "method": "remote-http",
+        "runId": "2026-10-19T08-32-36Z-47b225",
+        "status": "tools_failed"
+      },
+      {
         "date": "2026-10-12T10:26:27.225Z",
         "method": "remote-http",
         "runId": "2026-10-12T10-26-27Z-5719b7",
@@ -319,6 +341,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-19T08:33:06.762Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: Connect Timeout Error (attempted address: mcp.entscheidsuche.ch:443, timeout: 10000ms) (UND_ERR_CONNECT_TIMEOUT)",
+        "method": "remote-http",
+        "runId": "2026-10-19T08-33-06Z-972b8c",
+        "status": "connect_failed"
+      },
       {
         "date": "2026-10-12T10:26:37.428Z",
         "method": "remote-http",

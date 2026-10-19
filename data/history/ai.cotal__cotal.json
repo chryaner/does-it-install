@@ -2,6 +2,27 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-19T08:32:37.593Z",
+        "method": "remote-http",
+        "runId": "2026-10-19T08-32-37Z-848f99",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "cotal_submit_feedback",
+          "cotal_join_waitlist",
+          "cotal_subscribe_newsletter",
+          "cotal_request_call",
+          "cotal_overview",
+          "cotal_search",
+          "cotal_list_posts",
+          "cotal_get_post",
+          "cotal_draft_post",
+          "cotal_update_post",
+          "cotal_list_my_posts",
+          "cotal_get_my_post"
+        ]
+      },
+      {
         "date": "2026-10-12T10:26:27.188Z",
         "method": "remote-http",
         "runId": "2026-10-12T10-26-27Z-8a9bb5",
@@ -72,6 +93,27 @@
     ],
     "linux": [
       {
+        "date": "2026-10-19T08:32:31.287Z",
+        "method": "remote-http",
+        "runId": "2026-10-19T08-32-31Z-92d986",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "cotal_submit_feedback",
+          "cotal_join_waitlist",
+          "cotal_subscribe_newsletter",
+          "cotal_request_call",
+          "cotal_overview",
+          "cotal_search",
+          "cotal_list_posts",
+          "cotal_get_post",
+          "cotal_draft_post",
+          "cotal_update_post",
+          "cotal_list_my_posts",
+          "cotal_get_my_post"
+        ]
+      },
+      {
         "date": "2026-10-12T10:26:22.072Z",
         "method": "remote-http",
         "runId": "2026-10-12T10-26-22Z-119528",
@@ -141,6 +183,27 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-19T08:32:56.955Z",
+        "method": "remote-http",
+        "runId": "2026-10-19T08-32-56Z-1ac963",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "cotal_submit_feedback",
+          "cotal_join_waitlist",
+          "cotal_subscribe_newsletter",
+          "cotal_request_call",
+          "cotal_overview",
+          "cotal_search",
+          "cotal_list_posts",
+          "cotal_get_post",
+          "cotal_draft_post",
+          "cotal_update_post",
+          "cotal_list_my_posts",
+          "cotal_get_my_post"
+        ]
+      },
       {
         "date": "2026-10-12T10:26:41.865Z",
         "method": "remote-http",
