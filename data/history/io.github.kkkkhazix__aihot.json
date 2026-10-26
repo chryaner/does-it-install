@@ -1,0 +1,63 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-10-26T08:41:40.406Z",
+        "method": "remote-http",
+        "runId": "2026-10-26T08-41-40Z-988c6c",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "aihot_get_latest",
+          "aihot_search",
+          "aihot_get_hot_topics",
+          "aihot_get_story",
+          "aihot_get_daily",
+          "aihot_get_weekly",
+          "aihot_get_monthly",
+          "aihot_get_codex_resets"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-10-26T08:41:31.457Z",
+        "method": "remote-http",
+        "runId": "2026-10-26T08-41-31Z-3127ad",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "aihot_get_latest",
+          "aihot_search",
+          "aihot_get_hot_topics",
+          "aihot_get_story",
+          "aihot_get_daily",
+          "aihot_get_weekly",
+          "aihot_get_monthly",
+          "aihot_get_codex_resets"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-10-26T08:41:59.389Z",
+        "method": "remote-http",
+        "runId": "2026-10-26T08-41-59Z-6e4c78",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "aihot_get_latest",
+          "aihot_search",
+          "aihot_get_hot_topics",
+          "aihot_get_story",
+          "aihot_get_daily",
+          "aihot_get_weekly",
+          "aihot_get_monthly",
+          "aihot_get_codex_resets"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.KKKKhazix/aihot",
+  "slug": "io.github.kkkkhazix__aihot"
+}

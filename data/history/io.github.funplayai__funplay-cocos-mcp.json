@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-26T08:41:39.792Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Proxy transport error: connect ECONNREFUSED 127.0.0.1:8765\n--- stderr (tail) ---\n[Funplay Cocos MCP] Bridging stdio to http://127.0.0.1:8765/\n[Funplay Cocos MCP] connect ECONNREFUSED 127.0.0.1:8765",
+        "installMs": 3473,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-39Z-9fba12",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-16T02:45:27.243Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n[Funplay Cocos MCP] Bridging stdio to http://127.0.0.1:8765/",
         "installMs": 670,
@@ -12,6 +20,14 @@
     ],
     "linux": [
       {
+        "date": "2026-10-26T08:41:32.163Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Proxy transport error: connect ECONNREFUSED 127.0.0.1:8765\n--- stderr (tail) ---\n[Funplay Cocos MCP] Bridging stdio to http://127.0.0.1:8765/\n[Funplay Cocos MCP] connect ECONNREFUSED 127.0.0.1:8765",
+        "installMs": 405,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-32Z-1a3acc",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-16T02:45:19.430Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n[Funplay Cocos MCP] Bridging stdio to http://127.0.0.1:8765/",
         "installMs": 681,
@@ -21,6 +37,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-26T08:41:54.532Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Proxy transport error: connect ECONNREFUSED 127.0.0.1:8765\n--- stderr (tail) ---\n[Funplay Cocos MCP] Bridging stdio to http://127.0.0.1:8765/\n[Funplay Cocos MCP] connect ECONNREFUSED 127.0.0.1:8765",
+        "installMs": 7941,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-54Z-7481d3",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-16T02:45:39.090Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n[Funplay Cocos MCP] Bridging stdio to http://127.0.0.1:8765/",

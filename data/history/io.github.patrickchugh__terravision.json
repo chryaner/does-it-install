@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-26T08:41:38.518Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading botocore (15.4MiB)\nDownloading terravision (25.9MiB)\n Downloaded botocore\n Downloaded terravision\nInstalled 32 packages in 315ms\nError: The MCP server needs the optional 'mcp' dependency.\n  If you installed with pipx:  pipx inject terravision mcp\n  If you installed with pip:   pip install \"terravision[mcp]\"\n  (No module named 'mcp')",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-38Z-f793a6",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-16T15:42:04.537Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nBuilding ipaddr==2.2.0\nDownloading botocore (14.9MiB)\nDownloading terravision (21.1MiB)\nDownloading debugpy (2.4MiB)\n      Built ipaddr==2.2.0\n Downloaded debugpy\n Downloaded botocore\n Downloaded terravision\nInstalled 34 packages in 137ms\nError: The MCP server needs the optional 'mcp' dependency.\n  If you installed with pipx:  pipx inject terravision mcp\n  If you installed with pip:   pip install \"terravision[mcp]\"\n  (No module named 'mcp')",
         "method": "pypi",
@@ -18,6 +25,13 @@
     ],
     "linux": [
       {
+        "date": "2026-10-26T08:41:31.617Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading botocore (15.4MiB)\nDownloading terravision (25.9MiB)\n Downloaded botocore\n Downloaded terravision\nInstalled 32 packages in 101ms\nError: The MCP server needs the optional 'mcp' dependency.\n  If you installed with pipx:  pipx inject terravision mcp\n  If you installed with pip:   pip install \"terravision[mcp]\"\n  (No module named 'mcp')",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-31Z-5a4525",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-16T15:41:59.337Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nBuilding ipaddr==2.2.0\nDownloading botocore (14.9MiB)\nDownloading debugpy (3.8MiB)\nDownloading terravision (21.1MiB)\n      Built ipaddr==2.2.0\n Downloaded debugpy\n Downloaded terravision\n Downloaded botocore\nInstalled 34 packages in 115ms\nError: The MCP server needs the optional 'mcp' dependency.\n  If you installed with pipx:  pipx inject terravision mcp\n  If you installed with pip:   pip install \"terravision[mcp]\"\n  (No module named 'mcp')",
         "method": "pypi",
@@ -33,6 +47,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-26T08:41:52.818Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading botocore (15.4MiB)\nDownloading terravision (25.9MiB)\n Downloaded terravision\n Downloaded botocore\nInstalled 33 packages in 17.59s\nError: The MCP server needs the optional 'mcp' dependency.\r\n  If you installed with pipx:  pipx inject terravision mcp\r\n  If you installed with pip:   pip install \"terravision[mcp]\"\r\n  (No module named 'mcp')",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-52Z-c114d1",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-16T15:42:13.871Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nBuilding ipaddr==2.2.0\nDownloading botocore (14.9MiB)\nDownloading debugpy (5.1MiB)\nDownloading terravision (21.1MiB)\n      Built ipaddr==2.2.0\n Downloaded debugpy\n Downloaded terravision\n Downloaded botocore\nInstalled 35 packages in 7.38s\nError: The MCP server needs the optional 'mcp' dependency.\r\n  If you installed with pipx:  pipx inject terravision mcp\r\n  If you installed with pip:   pip install \"terravision[mcp]\"\r\n  (No module named 'mcp')",

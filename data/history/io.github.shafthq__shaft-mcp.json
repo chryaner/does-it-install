@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-26T08:41:40.406Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-10-26T08-41-40Z-988c6c",
+        "status": "skipped"
+      },
+      {
         "date": "2026-08-16T15:42:04.537Z",
         "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
         "installMs": 0,
@@ -19,6 +27,66 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-10-26T08:41:31.457Z",
+        "installMs": 12446,
+        "method": "oci",
+        "runId": "2026-10-26T08-41-31Z-3127ad",
+        "status": "pass",
+        "toolCount": 122,
+        "toolNames": [
+          "trace_latest",
+          "capture_target_candidates",
+          "mobile_get_contexts",
+          "design_gap_map",
+          "doctor_propose_healed_locator",
+          "report_mute",
+          "element_is_selected",
+          "browser_set_window_size",
+          "autobot_provider_status",
+          "autobot_provider_models",
+          "report_clusters",
+          "test_plan_explore",
+          "setup_start",
+          "browser_accessibility_audit",
+          "design_analyze",
+          "mobile_swipe",
+          "driver_initialize",
+          "design_lexicon",
+          "capture_api_start",
+          "browser_route",
+          "browser_storage_state_load",
+          "doctor_managed_local_ai_status",
+          "browser_network_requests",
+          "browser_get_page_dom",
+          "browser_navigate_forward",
+          "autobot_provider_chat",
+          "report_open",
+          "design_readiness",
+          "report_merge_shards",
+          "design_ingest",
+          "doctor_suggest_fix",
+          "element_is_displayed",
+          "browser_delete_cookies",
+          "setup_stop",
+          "capture_codegen_features",
+          "element_type",
+          "test_automation_scenarios",
+          "shaft_coding_partner_diff",
+          "design_gherkin_draft",
+          "shaft_coding_partner_plan",
+          "browser_refresh",
+          "report_history",
+          "doctor_analyze_failed_allure",
+          "mobile_inspector_record_start",
+          "mobile_keyboard_key",
+          "browser_take_screenshot",
+          "setup_doctor",
+          "capture_api_response_leaves",
+          "browser_navigate_back",
+          "report_heal"
+        ]
+      },
       {
         "date": "2026-08-16T15:41:59.337Z",
         "installMs": 16656,
@@ -141,6 +209,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-26T08:41:59.389Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-10-26T08-41-59Z-6e4c78",
+        "status": "skipped"
+      },
       {
         "date": "2026-08-16T15:42:13.871Z",
         "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",

@@ -1,0 +1,57 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-10-26T08:41:39.792Z",
+        "method": "remote-http",
+        "runId": "2026-10-26T08-41-39Z-9fba12",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "grandet_find_cheapest_api",
+          "grandet_list_apps",
+          "grandet_resolve_model",
+          "grandet_quote_evidence",
+          "grandet_glossary",
+          "grandet_find_free_credits"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-10-26T08:41:32.163Z",
+        "method": "remote-http",
+        "runId": "2026-10-26T08-41-32Z-1a3acc",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "grandet_find_cheapest_api",
+          "grandet_list_apps",
+          "grandet_resolve_model",
+          "grandet_quote_evidence",
+          "grandet_glossary",
+          "grandet_find_free_credits"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-10-26T08:41:54.532Z",
+        "method": "remote-http",
+        "runId": "2026-10-26T08-41-54Z-7481d3",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "grandet_find_cheapest_api",
+          "grandet_list_apps",
+          "grandet_resolve_model",
+          "grandet_quote_evidence",
+          "grandet_glossary",
+          "grandet_find_free_credits"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.hanzohanzhe/grandet",
+  "slug": "io.github.hanzohanzhe__grandet"
+}

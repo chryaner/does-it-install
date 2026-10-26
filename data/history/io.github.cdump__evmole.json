@@ -2,6 +2,17 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-26T08:41:39.792Z",
+        "installMs": 8647,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-39Z-9fba12",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "analyze_evm_bytecode"
+        ]
+      },
+      {
         "date": "2026-08-16T15:41:59.741Z",
         "installMs": 7745,
         "method": "npm",
@@ -26,6 +37,17 @@
     ],
     "linux": [
       {
+        "date": "2026-10-26T08:41:32.163Z",
+        "installMs": 2137,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-32Z-1a3acc",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "analyze_evm_bytecode"
+        ]
+      },
+      {
         "date": "2026-08-16T15:42:02.544Z",
         "installMs": 4302,
         "method": "npm",
@@ -49,6 +71,17 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-26T08:41:54.532Z",
+        "installMs": 109200,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-54Z-7481d3",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "analyze_evm_bytecode"
+        ]
+      },
       {
         "date": "2026-08-16T15:42:15.480Z",
         "installMs": 80314,

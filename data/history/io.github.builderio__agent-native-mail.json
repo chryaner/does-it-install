@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-10-26T08:41:38.518Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Unauthorized\",\"message\":\"Authentication required. Run `npx -y @agent-native/core@latest reconnect https://mail.agent-native.com` to re-authenticate this MCP connector without reinstalling it (or, in a Claude Code host, run /mcp and choose Authenticate), then retry. For first-time setup, run `npx @agent-native/core@latest connect https://mail.agent-native.com`.\",\"authenticate\":{\"command\":\"npx -y @agent-native/core@latest reconnect https://mail.agent-native.com\",\"firstTimeCommand\":\"npx @agent-native/core@latest connect https://mail.agent-native.com\",\"authorizeUrl\":\"https://mail.agent-native.com/mcp/oauth/authorize\",\"resourceMetadataUrl\":\"https://mail.agent-native.com/.well-known/oauth-protected-resource\",\"mcpUrl\":\"https://mail.agent-native.com/mcp\"}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-10-26T08-41-38Z-f793a6",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-10-26T08:41:31.617Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Unauthorized\",\"message\":\"Authentication required. Run `npx -y @agent-native/core@latest reconnect https://mail.agent-native.com` to re-authenticate this MCP connector without reinstalling it (or, in a Claude Code host, run /mcp and choose Authenticate), then retry. For first-time setup, run `npx @agent-native/core@latest connect https://mail.agent-native.com`.\",\"authenticate\":{\"command\":\"npx -y @agent-native/core@latest reconnect https://mail.agent-native.com\",\"firstTimeCommand\":\"npx @agent-native/core@latest connect https://mail.agent-native.com\",\"authorizeUrl\":\"https://mail.agent-native.com/mcp/oauth/authorize\",\"resourceMetadataUrl\":\"https://mail.agent-native.com/.well-known/oauth-protected-resource\",\"mcpUrl\":\"https://mail.agent-native.com/mcp\"}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-10-26T08-41-31Z-5a4525",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-10-26T08:41:52.818Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Unauthorized\",\"message\":\"Authentication required. Run `npx -y @agent-native/core@latest reconnect https://mail.agent-native.com` to re-authenticate this MCP connector without reinstalling it (or, in a Claude Code host, run /mcp and choose Authenticate), then retry. For first-time setup, run `npx @agent-native/core@latest connect https://mail.agent-native.com`.\",\"authenticate\":{\"command\":\"npx -y @agent-native/core@latest reconnect https://mail.agent-native.com\",\"firstTimeCommand\":\"npx @agent-native/core@latest connect https://mail.agent-native.com\",\"authorizeUrl\":\"https://mail.agent-native.com/mcp/oauth/authorize\",\"resourceMetadataUrl\":\"https://mail.agent-native.com/.well-known/oauth-protected-resource\",\"mcpUrl\":\"https://mail.agent-native.com/mcp\"}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-10-26T08-41-52Z-c114d1",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "io.github.BuilderIO/agent-native-mail",
+  "slug": "io.github.builderio__agent-native-mail"
+}

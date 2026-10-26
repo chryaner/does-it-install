@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-26T08:41:38.518Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"unauthorized\",\"error_description\":\"Sign in to Keploy. An MCP client that supports OAuth signs in from this response by itself (see https://api.keploy.io/.well-known/oauth-protected-resource/client/v1/mcp). A client that does not can send a Personal Access Token instead: create a Personal Access Token at https://app.keploy.io/settings/api-keys and send it as `Authorization: Bearer kep_...`.\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-10-26T08-41-38Z-f793a6",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-16T15:42:00.997Z",
         "method": "remote-http",
         "runId": "2026-08-16T15-42-00Z-c4e177",
@@ -36,6 +43,13 @@
     ],
     "linux": [
       {
+        "date": "2026-10-26T08:41:31.617Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"unauthorized\",\"error_description\":\"Sign in to Keploy. An MCP client that supports OAuth signs in from this response by itself (see https://api.keploy.io/.well-known/oauth-protected-resource/client/v1/mcp). A client that does not can send a Personal Access Token instead: create a Personal Access Token at https://app.keploy.io/settings/api-keys and send it as `Authorization: Bearer kep_...`.\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-10-26T08-41-31Z-5a4525",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-16T15:41:56.759Z",
         "method": "remote-http",
         "runId": "2026-08-16T15-41-56Z-6a1d71",
@@ -69,6 +83,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-26T08:41:52.818Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"unauthorized\",\"error_description\":\"Sign in to Keploy. An MCP client that supports OAuth signs in from this response by itself (see https://api.keploy.io/.well-known/oauth-protected-resource/client/v1/mcp). A client that does not can send a Personal Access Token instead: create a Personal Access Token at https://app.keploy.io/settings/api-keys and send it as `Authorization: Bearer kep_...`.\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-10-26T08-41-52Z-c114d1",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-16T15:42:18.905Z",
         "method": "remote-http",

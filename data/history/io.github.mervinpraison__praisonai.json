@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-26T08:41:39.792Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\nDownloading praisonaiagents (2.7MiB)\nDownloading openai (1.6MiB)\nDownloading pydantic-core (1.9MiB)\n   Building jiter==0.14.0\n Downloaded pydantic-core\n   Building pyyaml==6.0.3\n Downloaded praisonaiagents\n Downloaded openai\n      Built pyyaml==6.0.3\n      Built jiter==0.14.0\nInstalled 68 packages in 487ms\n/Users/runner/.cache/uv/archive-v0/fQQ4D9O4mJddzf_f/lib/python3.15/site-packages/praisonaiagents/_warning_patch.py:50: RuntimeWarning: Failed to read version from pyproject.toml: pyproject.toml not found at /Users/runner/.cache/uv/archive-v0/fQQ4D9O4mJddzf_f/lib/python3.15/site-packages/pyproject.toml. Using 'unknown'.\n  _original_warn(message, category, stacklevel, source)\n/Users/runner/.cache/uv/archive-v0/fQQ4D9O4mJddzf_f/lib/python3.15/site-packages/praisonaiagents/tools/call_executor.py:140: SyntaxWarning: 'return' in a 'finally' block\n  return",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-39Z-9fba12",
+        "status": "timeout"
+      },
+      {
         "date": "2026-08-16T15:41:59.741Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\nDownloading openai (1.6MiB)\nDownloading praisonaiagents (2.1MiB)\nDownloading pydantic-core (1.9MiB)\n Downloaded pydantic-core\n Downloaded praisonaiagents\n Downloaded openai\nInstalled 66 packages in 212ms\n/Users/runner/.cache/uv/archive-v0/yx46lZXlGH-s8yP6/lib/python3.14/site-packages/praisonaiagents/_warning_patch.py:50: RuntimeWarning: Failed to read version from pyproject.toml: pyproject.toml not found at /Users/runner/.cache/uv/archive-v0/yx46lZXlGH-s8yP6/lib/python3.14/site-packages/pyproject.toml. Using 'unknown'.\n  _original_warn(message, category, stacklevel, source)",
         "method": "pypi",
@@ -18,6 +25,13 @@
     ],
     "linux": [
       {
+        "date": "2026-10-26T08:41:32.163Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\nDownloading pydantic-core (2.1MiB)\nDownloading praisonaiagents (2.7MiB)\nDownloading aiohttp (1.8MiB)\nDownloading openai (1.6MiB)\n Downloaded pydantic-core\n Downloaded aiohttp\n Downloaded praisonaiagents\n Downloaded openai\nInstalled 68 packages in 95ms\n/home/runner/.cache/uv/archive-v0/sycbCCgpdr75I9HD/lib/python3.14/site-packages/praisonaiagents/_warning_patch.py:50: RuntimeWarning: Failed to read version from pyproject.toml: pyproject.toml not found at /home/runner/.cache/uv/archive-v0/sycbCCgpdr75I9HD/lib/python3.14/site-packages/pyproject.toml. Using 'unknown'.\n  _original_warn(message, category, stacklevel, source)\n/home/runner/.cache/uv/archive-v0/sycbCCgpdr75I9HD/lib/python3.14/site-packages/praisonaiagents/tools/call_executor.py:140: SyntaxWarning: 'return' in a 'finally' block\n  return",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-32Z-1a3acc",
+        "status": "timeout"
+      },
+      {
         "date": "2026-08-16T15:42:02.544Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\nDownloading aiohttp (1.7MiB)\nDownloading pydantic-core (2.0MiB)\nDownloading openai (1.6MiB)\nDownloading praisonaiagents (2.1MiB)\n Downloaded pydantic-core\n Downloaded aiohttp\n Downloaded praisonaiagents\n Downloaded openai\nInstalled 66 packages in 87ms\n/home/runner/.cache/uv/archive-v0/bGCqHjO68zgCFCBf/lib/python3.12/site-packages/praisonaiagents/_warning_patch.py:50: RuntimeWarning: Failed to read version from pyproject.toml: pyproject.toml not found at /home/runner/.cache/uv/archive-v0/bGCqHjO68zgCFCBf/lib/python3.12/site-packages/pyproject.toml. Using 'unknown'.\n  _original_warn(message, category, stacklevel, source)",
         "method": "pypi",
@@ -33,6 +47,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-26T08:41:54.532Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\nDownloading pydantic-core (2.1MiB)\nDownloading praisonaiagents (2.7MiB)\nDownloading openai (1.6MiB)\n Downloaded pydantic-core\n Downloaded praisonaiagents\n Downloaded openai\nInstalled 70 packages in 16.27s\nC:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\tQHmmnv1TjPPo91U\\Lib\\site-packages\\praisonaiagents\\_warning_patch.py:50: RuntimeWarning: Failed to read version from pyproject.toml: pyproject.toml not found at C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\tQHmmnv1TjPPo91U\\Lib\\site-packages\\pyproject.toml. Using 'unknown'.\r\n  _original_warn(message, category, stacklevel, source)",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-54Z-7481d3",
+        "status": "timeout"
+      },
       {
         "date": "2026-08-16T15:42:15.480Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\nDownloading openai (1.6MiB)\nDownloading praisonaiagents (2.1MiB)\nDownloading pydantic-core (2.0MiB)\n Downloaded pydantic-core\n Downloaded praisonaiagents\n Downloaded openai\nInstalled 68 packages in 35.81s\nC:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\IPUCVAKZKFwf211A\\Lib\\site-packages\\praisonaiagents\\_warning_patch.py:50: RuntimeWarning: Failed to read version from pyproject.toml: pyproject.toml not found at C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\IPUCVAKZKFwf211A\\Lib\\site-packages\\pyproject.toml. Using 'unknown'.\r\n  _original_warn(message, category, stacklevel, source)",

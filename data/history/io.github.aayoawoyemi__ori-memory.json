@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-26T08:41:39.792Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: ori [options] [command]\n\nOri Mnemos - markdown-native cognitive harness for persistent agent memory\n\nOptions:\n  -V, --version                  output the version number\n  -h, --help                     display help for command\n\nCommands:\n  init [dir]\n  status\n  health\n  query [options] <kind> [note]\n  validate <note>\n  add [options] <title>\n  promote [options] [note]\n  archive [options]\n  bridge [options] <target>\n  serve [options]\n  index [options] <action>\n  graph <action>\n  help [command]                 display help for command",
+        "installMs": 24970,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-39Z-9fba12",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-16T15:41:59.741Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: ori [options] [command]\n\nOri Mnemos - markdown-native cognitive harness for persistent agent memory\n\nOptions:\n  -V, --version                  output the version number\n  -h, --help                     display help for command\n\nCommands:\n  init [dir]\n  status\n  health\n  query [options] <kind> [note]\n  validate <note>\n  add [options] <title>\n  promote [options] [note]\n  archive [options]\n  bridge [options] <target>\n  serve [options]\n  index [options] <action>\n  graph <action>\n  help [command]                 display help for command",
         "installMs": 13050,
@@ -20,6 +28,14 @@
     ],
     "linux": [
       {
+        "date": "2026-10-26T08:41:32.163Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: ori [options] [command]\n\nOri Mnemos - markdown-native cognitive harness for persistent agent memory\n\nOptions:\n  -V, --version                  output the version number\n  -h, --help                     display help for command\n\nCommands:\n  init [dir]\n  status\n  health\n  query [options] <kind> [note]\n  validate <note>\n  add [options] <title>\n  promote [options] [note]\n  archive [options]\n  bridge [options] <target>\n  serve [options]\n  index [options] <action>\n  graph <action>\n  help [command]                 display help for command",
+        "installMs": 8570,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-32Z-1a3acc",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-16T15:42:02.544Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: ori [options] [command]\n\nOri Mnemos - markdown-native cognitive harness for persistent agent memory\n\nOptions:\n  -V, --version                  output the version number\n  -h, --help                     display help for command\n\nCommands:\n  init [dir]\n  status\n  health\n  query [options] <kind> [note]\n  validate <note>\n  add [options] <title>\n  promote [options] [note]\n  archive [options]\n  bridge [options] <target>\n  serve [options]\n  index [options] <action>\n  graph <action>\n  help [command]                 display help for command",
         "installMs": 15257,
@@ -37,6 +53,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-26T08:41:54.532Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: ori [options] [command]\n\nOri Mnemos - markdown-native cognitive harness for persistent agent memory\n\nOptions:\n  -V, --version                  output the version number\n  -h, --help                     display help for command\n\nCommands:\n  init [dir]\n  status\n  health\n  query [options] <kind> [note]\n  validate <note>\n  add [options] <title>\n  promote [options] [note]\n  archive [options]\n  bridge [options] <target>\n  serve [options]\n  index [options] <action>\n  graph <action>\n  help [command]                 display help for command",
+        "installMs": 80623,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-54Z-7481d3",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-16T15:42:15.480Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: ori [options] [command]\n\nOri Mnemos - markdown-native cognitive harness for persistent agent memory\n\nOptions:\n  -V, --version                  output the version number\n  -h, --help                     display help for command\n\nCommands:\n  init [dir]\n  status\n  health\n  query [options] <kind> [note]\n  validate <note>\n  add [options] <title>\n  promote [options] [note]\n  archive [options]\n  bridge [options] <target>\n  serve [options]\n  index [options] <action>\n  graph <action>\n  help [command]                 display help for command",

@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-26T08:41:39.792Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\noctocode: downloading 0.28.1...",
+        "installMs": 1598,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-39Z-9fba12",
+        "status": "timeout"
+      },
+      {
         "date": "2026-08-16T15:42:00.997Z",
         "errorExcerpt": "no npm, pypi, oci or remote distribution to probe",
         "method": "none",
@@ -18,6 +26,20 @@
     ],
     "linux": [
       {
+        "date": "2026-10-26T08:41:32.163Z",
+        "installMs": 660,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-32Z-1a3acc",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "graphrag",
+          "semantic_search",
+          "structural_search",
+          "view_signatures"
+        ]
+      },
+      {
         "date": "2026-08-16T15:41:56.759Z",
         "errorExcerpt": "no npm, pypi, oci or remote distribution to probe",
         "method": "none",
@@ -33,6 +55,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-26T08:41:54.532Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\noctocode: downloading 0.28.1...\ntar: Cannot connect to C: resolve failed\noctocode: Command failed: tar -xf C:\\Users\\runneradmin\\.cache\\muvon\\octocode\\0.28.1.7752\\archive.zip -C C:\\Users\\runneradmin\\.cache\\muvon\\octocode\\0.28.1.7752",
+        "installMs": 3098,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-54Z-7481d3",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-16T15:42:18.905Z",
         "errorExcerpt": "no npm, pypi, oci or remote distribution to probe",

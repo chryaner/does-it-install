@@ -2,6 +2,37 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-26T08:41:40.406Z",
+        "installMs": 10736,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-40Z-988c6c",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "claudexor_ask",
+          "claudexor_run",
+          "claudexor_best_of",
+          "claudexor_plan",
+          "claudexor_create",
+          "claudexor_thread_create",
+          "claudexor_thread_turn",
+          "claudexor_thread_read",
+          "claudexor_status",
+          "claudexor_capabilities",
+          "claudexor_accounts",
+          "claudexor_runs",
+          "claudexor_inspect",
+          "claudexor_run_status",
+          "claudexor_run_result",
+          "claudexor_run_cancel",
+          "claudexor_run_interactions",
+          "claudexor_answer_interaction",
+          "claudexor_apply_check",
+          "claudexor_journal_recovery",
+          "claudexor_quarantine_journal"
+        ]
+      },
+      {
         "date": "2026-08-16T15:42:00.997Z",
         "installMs": 7646,
         "method": "npm",
@@ -58,6 +89,37 @@
     ],
     "linux": [
       {
+        "date": "2026-10-26T08:41:31.457Z",
+        "installMs": 9132,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-31Z-3127ad",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "claudexor_ask",
+          "claudexor_run",
+          "claudexor_best_of",
+          "claudexor_plan",
+          "claudexor_create",
+          "claudexor_thread_create",
+          "claudexor_thread_turn",
+          "claudexor_thread_read",
+          "claudexor_status",
+          "claudexor_capabilities",
+          "claudexor_accounts",
+          "claudexor_runs",
+          "claudexor_inspect",
+          "claudexor_run_status",
+          "claudexor_run_result",
+          "claudexor_run_cancel",
+          "claudexor_run_interactions",
+          "claudexor_answer_interaction",
+          "claudexor_apply_check",
+          "claudexor_journal_recovery",
+          "claudexor_quarantine_journal"
+        ]
+      },
+      {
         "date": "2026-08-16T15:41:56.759Z",
         "installMs": 7236,
         "method": "npm",
@@ -113,6 +175,37 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-26T08:41:59.389Z",
+        "installMs": 254112,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-59Z-6e4c78",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "claudexor_ask",
+          "claudexor_run",
+          "claudexor_best_of",
+          "claudexor_plan",
+          "claudexor_create",
+          "claudexor_thread_create",
+          "claudexor_thread_turn",
+          "claudexor_thread_read",
+          "claudexor_status",
+          "claudexor_capabilities",
+          "claudexor_accounts",
+          "claudexor_runs",
+          "claudexor_inspect",
+          "claudexor_run_status",
+          "claudexor_run_result",
+          "claudexor_run_cancel",
+          "claudexor_run_interactions",
+          "claudexor_answer_interaction",
+          "claudexor_apply_check",
+          "claudexor_journal_recovery",
+          "claudexor_quarantine_journal"
+        ]
+      },
       {
         "date": "2026-08-16T15:42:18.905Z",
         "installMs": 142202,

@@ -1,0 +1,57 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-10-26T08:41:38.518Z",
+        "installMs": 10581,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-38Z-f793a6",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "start_work",
+          "inspect_work",
+          "update_work",
+          "transfer_work",
+          "finish_work"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-10-26T08:41:31.617Z",
+        "installMs": 7368,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-31Z-5a4525",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "start_work",
+          "inspect_work",
+          "update_work",
+          "transfer_work",
+          "finish_work"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-10-26T08:41:52.818Z",
+        "installMs": 288691,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-52Z-c114d1",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "start_work",
+          "inspect_work",
+          "update_work",
+          "transfer_work",
+          "finish_work"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.Get-Concord-AI/concord-mcp",
+  "slug": "io.github.get-concord-ai__concord-mcp"
+}

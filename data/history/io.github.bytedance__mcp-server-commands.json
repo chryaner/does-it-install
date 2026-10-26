@@ -2,6 +2,18 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-26T08:41:39.792Z",
+        "installMs": 10837,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-39Z-9fba12",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "run_command",
+          "run_script"
+        ]
+      },
+      {
         "date": "2026-08-16T15:42:00.997Z",
         "installMs": 6528,
         "method": "npm",
@@ -28,6 +40,18 @@
     ],
     "linux": [
       {
+        "date": "2026-10-26T08:41:32.163Z",
+        "installMs": 3943,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-32Z-1a3acc",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "run_command",
+          "run_script"
+        ]
+      },
+      {
         "date": "2026-08-16T15:41:56.759Z",
         "installMs": 5059,
         "method": "npm",
@@ -53,6 +77,18 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-26T08:41:54.532Z",
+        "installMs": 90157,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-54Z-7481d3",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "run_command",
+          "run_script"
+        ]
+      },
       {
         "date": "2026-08-16T15:42:18.905Z",
         "installMs": 74267,

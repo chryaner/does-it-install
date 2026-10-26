@@ -1,0 +1,69 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-10-26T08:41:39.792Z",
+        "method": "remote-http",
+        "runId": "2026-10-26T08-41-39Z-9fba12",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "search_law",
+          "get_law_text",
+          "ordinance_radar",
+          "get_annexes",
+          "legal_research",
+          "legal_analysis",
+          "discover_tools",
+          "execute_tool",
+          "search_decisions",
+          "get_decision_text"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-10-26T08:41:32.163Z",
+        "method": "remote-http",
+        "runId": "2026-10-26T08-41-32Z-1a3acc",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "search_law",
+          "get_law_text",
+          "ordinance_radar",
+          "get_annexes",
+          "legal_research",
+          "legal_analysis",
+          "discover_tools",
+          "execute_tool",
+          "search_decisions",
+          "get_decision_text"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-10-26T08:41:54.532Z",
+        "method": "remote-http",
+        "runId": "2026-10-26T08-41-54Z-7481d3",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "search_law",
+          "get_law_text",
+          "ordinance_radar",
+          "get_annexes",
+          "legal_research",
+          "legal_analysis",
+          "discover_tools",
+          "execute_tool",
+          "search_decisions",
+          "get_decision_text"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.chrisryugj/korean-law-mcp",
+  "slug": "io.github.chrisryugj__korean-law-mcp"
+}

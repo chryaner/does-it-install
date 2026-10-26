@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-10-26T08:41:39.792Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND {installation_domain}",
+        "method": "remote-http",
+        "runId": "2026-10-26T08-41-39Z-9fba12",
+        "status": "connect_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-10-26T08:41:32.163Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND {installation_domain}",
+        "method": "remote-http",
+        "runId": "2026-10-26T08-41-32Z-1a3acc",
+        "status": "connect_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-10-26T08:41:54.532Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND {installation_domain}",
+        "method": "remote-http",
+        "runId": "2026-10-26T08-41-54Z-7481d3",
+        "status": "connect_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.HQBase/hqbase",
+  "slug": "io.github.hqbase__hqbase"
+}

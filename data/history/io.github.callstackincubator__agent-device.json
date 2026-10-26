@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-26T08:41:39.792Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: f JSON input\nUnexpected token 'E', \"Examples:\" is not valid JSON\nUnexpected token 'a', \"  agent-devi\"... is not valid JSON\nUnexpected token 'a', \"  agent-devi\"... is not valid JSON\nUnexpected token 'a', \"  agent-devi\"... is not valid JSON\nUnexpected token 'a', \"  agent-devi\"... is not valid JSON\nUnexpected token 'a', \"  agent-devi\"... is not valid JSON\nUnexpected token 'a', \"  agent-devi\"... is not valid JSON\nUnexpected token 'a', \"  agent-devi\"... is not valid JSON\nUnexpected end of JSON input",
+        "installMs": 2660,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-39Z-9fba12",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-16T15:41:59.741Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: f JSON input\nUnexpected token 'E', \"Examples:\" is not valid JSON\nUnexpected token 'a', \"  agent-devi\"... is not valid JSON\nUnexpected token 'a', \"  agent-devi\"... is not valid JSON\nUnexpected token 'a', \"  agent-devi\"... is not valid JSON\nUnexpected token 'a', \"  agent-devi\"... is not valid JSON\nUnexpected token 'a', \"  agent-devi\"... is not valid JSON\nUnexpected token 'a', \"  agent-devi\"... is not valid JSON\nUnexpected token 'a', \"  agent-devi\"... is not valid JSON\nUnexpected end of JSON input",
         "installMs": 609,
@@ -20,6 +28,14 @@
     ],
     "linux": [
       {
+        "date": "2026-10-26T08:41:32.163Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: f JSON input\nUnexpected token 'E', \"Examples:\" is not valid JSON\nUnexpected token 'a', \"  agent-devi\"... is not valid JSON\nUnexpected token 'a', \"  agent-devi\"... is not valid JSON\nUnexpected token 'a', \"  agent-devi\"... is not valid JSON\nUnexpected token 'a', \"  agent-devi\"... is not valid JSON\nUnexpected token 'a', \"  agent-devi\"... is not valid JSON\nUnexpected token 'a', \"  agent-devi\"... is not valid JSON\nUnexpected token 'a', \"  agent-devi\"... is not valid JSON\nUnexpected end of JSON input",
+        "installMs": 635,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-32Z-1a3acc",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-16T15:42:02.544Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: f JSON input\nUnexpected token 'E', \"Examples:\" is not valid JSON\nUnexpected token 'a', \"  agent-devi\"... is not valid JSON\nUnexpected token 'a', \"  agent-devi\"... is not valid JSON\nUnexpected token 'a', \"  agent-devi\"... is not valid JSON\nUnexpected token 'a', \"  agent-devi\"... is not valid JSON\nUnexpected token 'a', \"  agent-devi\"... is not valid JSON\nUnexpected token 'a', \"  agent-devi\"... is not valid JSON\nUnexpected token 'a', \"  agent-devi\"... is not valid JSON\nUnexpected end of JSON input",
         "installMs": 922,
@@ -37,6 +53,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-26T08:41:54.532Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: f JSON input\nUnexpected token 'E', \"Examples:\" is not valid JSON\nUnexpected token 'a', \"  agent-devi\"... is not valid JSON\nUnexpected token 'a', \"  agent-devi\"... is not valid JSON\nUnexpected token 'a', \"  agent-devi\"... is not valid JSON\nUnexpected token 'a', \"  agent-devi\"... is not valid JSON\nUnexpected token 'a', \"  agent-devi\"... is not valid JSON\nUnexpected token 'a', \"  agent-devi\"... is not valid JSON\nUnexpected token 'a', \"  agent-devi\"... is not valid JSON\nUnexpected end of JSON input",
+        "installMs": 15252,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-54Z-7481d3",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-16T15:42:15.480Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: f JSON input\nUnexpected token 'E', \"Examples:\" is not valid JSON\nUnexpected token 'a', \"  agent-devi\"... is not valid JSON\nUnexpected token 'a', \"  agent-devi\"... is not valid JSON\nUnexpected token 'a', \"  agent-devi\"... is not valid JSON\nUnexpected token 'a', \"  agent-devi\"... is not valid JSON\nUnexpected token 'a', \"  agent-devi\"... is not valid JSON\nUnexpected token 'a', \"  agent-devi\"... is not valid JSON\nUnexpected token 'a', \"  agent-devi\"... is not valid JSON\nUnexpected end of JSON input",

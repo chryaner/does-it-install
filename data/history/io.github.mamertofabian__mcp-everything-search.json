@@ -1,0 +1,39 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-10-26T08:41:38.518Z",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-38Z-f793a6",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "search"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-10-26T08:41:31.617Z",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-31Z-5a4525",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "search"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-10-26T08:41:52.818Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 30 packages in 6.27s\n2026-10-26 09:11:44,764 - root - ERROR - Server error: EVERYTHING_SDK_PATH is not set. Set it to the full path of Everything64.dll from the Everything SDK.\r\nTraceback (most recent call last):\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\u26W1V5CDuX9qfOP\\Lib\\site-packages\\mcp_server_everything_search\\server.py\", line 396, in main\r\n    asyncio.run(serve())\r\n  File \"C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\asyncio\\runners.py\", line 195, in run\r\n    return runner.run(main)\r\n           ^^^^^^^^^^^^^^^^\r\n  File \"C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\asyncio\\runners.py\", line 118, in run\r\n    return self._loop.run_until_complete(task)\r\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\asyncio\\base_events.py\", line 691, in run_until_complete\r\n    return future.result()\r\n           ^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\u26W1V5CDuX9qfOP\\Lib\\site-packages\\mcp_server_everything_search\\server.py\", line 355, in serve\r\n    SearchProvider.get_provider(), platform.system().lower(), tool_name\r\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\u26W1V5CDuX9qfOP\\Lib\\site-packages\\mcp_server_everything_search\\search_interface.py\", line 89, in get_provider\r\n    return WindowsSearchProvider(dll_path=os.environ.get(\"EVERYTHING_SDK_PATH\"))\r\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\u26W1V5CDuX9qfOP\\Lib\\site-packages\\mcp_server_everything_search\\search_interface.py\", line 289, in __init__\r\n    raise RuntimeError(\r\nRuntimeError: EVERYTHING_SDK_PATH is not set. Set it to the full path of Everything64.dll from the Everything SDK.",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-52Z-c114d1",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.mamertofabian/mcp-everything-search",
+  "slug": "io.github.mamertofabian__mcp-everything-search"
+}

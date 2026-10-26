@@ -1,0 +1,78 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-10-26T08:41:39.792Z",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-39Z-9fba12",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "search_markets",
+          "get_market",
+          "get_orderbook",
+          "get_quote",
+          "trading_fee",
+          "check_constraint",
+          "check_constraint_live",
+          "list_relation_types",
+          "fair_value",
+          "list_relations",
+          "paper_order",
+          "paper_portfolio",
+          "paper_reset"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-10-26T08:41:32.163Z",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-32Z-1a3acc",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "search_markets",
+          "get_market",
+          "get_orderbook",
+          "get_quote",
+          "trading_fee",
+          "check_constraint",
+          "check_constraint_live",
+          "list_relation_types",
+          "fair_value",
+          "list_relations",
+          "paper_order",
+          "paper_portfolio",
+          "paper_reset"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-10-26T08:41:54.532Z",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-54Z-7481d3",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "search_markets",
+          "get_market",
+          "get_orderbook",
+          "get_quote",
+          "trading_fee",
+          "check_constraint",
+          "check_constraint_live",
+          "list_relation_types",
+          "fair_value",
+          "list_relations",
+          "paper_order",
+          "paper_portfolio",
+          "paper_reset"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.YichengYang-Ethan/oracle3",
+  "slug": "io.github.yichengyang-ethan__oracle3"
+}

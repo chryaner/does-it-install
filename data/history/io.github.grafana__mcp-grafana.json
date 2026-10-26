@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-26T08:41:40.406Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-10-26T08-41-40Z-988c6c",
+        "status": "skipped"
+      },
+      {
         "date": "2026-08-16T15:42:00.997Z",
         "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
         "installMs": 0,
@@ -27,6 +35,14 @@
     ],
     "linux": [
       {
+        "date": "2026-10-26T08:41:31.457Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\ntime=2026-10-26T08:42:25.245Z level=INFO msg=\"Anonymous usage statistics are being reported to Grafana Labs: per-process tool-usage counts, server configuration by flag name, and a coarse description of the Grafana target. Nothing is collected about the MCP clients that connect, and no Grafana URL, credentials, tool arguments or resource names are sent. Opt out with --usage-stats=disabled, GRAFANA_USAGE_STATS=disabled or DO_NOT_TRACK=1, or inspect what would be sent with GRAFANA_USAGE_STATS=log.\" mode=enabled docs=https://grafana.com/docs/grafana/latest/developer-resources/mcp/anonymous-usage-statistics/\ntime=2026-10-26T08:42:25.281Z level=ERROR msg=\"SECURITY: serving on a non-loopback address with NO caller authentication. Anyone who can reach this address can invoke MCP tools and use any Grafana credentials the server is configured with. This will become a startup error in a future release: set --server-auth-token (or MCP_GRAFANA_SERVER_TOKEN) to require a bearer token.\" address=0.0.0.0:8000\ntime=2026-10-26T08:42:25.281Z level=INFO msg=\"Starting Grafana MCP server using SSE transport\" version=2.1.1 address=0.0.0.0:8000 ssePath=/sse metrics=false",
+        "installMs": 4319,
+        "method": "oci",
+        "runId": "2026-10-26T08-41-31Z-3127ad",
+        "status": "timeout"
+      },
+      {
         "date": "2026-08-16T15:41:56.759Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\ntime=2026-08-16T15:42:33.059Z level=ERROR msg=\"SECURITY: serving on a non-loopback address with NO caller authentication. Anyone who can reach this address can invoke MCP tools and use any Grafana credentials the server is configured with. This will become a startup error in a future release: set --server-auth-token (or MCP_GRAFANA_SERVER_TOKEN) to require a bearer token.\" address=0.0.0.0:8000\ntime=2026-08-16T15:42:33.059Z level=INFO msg=\"Starting Grafana MCP server using SSE transport\" version=(devel) address=0.0.0.0:8000 basePath=/ metrics=false",
         "installMs": 7389,
@@ -51,6 +67,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-26T08:41:59.389Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-10-26T08-41-59Z-6e4c78",
+        "status": "skipped"
+      },
       {
         "date": "2026-08-16T15:42:18.905Z",
         "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",

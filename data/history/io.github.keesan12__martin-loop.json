@@ -1,0 +1,114 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-10-26T08:41:38.518Z",
+        "installMs": 10004,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-38Z-f793a6",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "martin_run",
+          "martin_inspect",
+          "martin_status",
+          "martin_doctor",
+          "martin_plan",
+          "martin_preflight",
+          "martin_logs",
+          "martin_pause",
+          "martin_cancel",
+          "martin_continue",
+          "martin_list_runs",
+          "martin_triage_runs",
+          "martin_get_run",
+          "martin_get_attempt",
+          "martin_get_verification_results",
+          "martin_run_dossier",
+          "martin_dossier",
+          "martin_eval",
+          "martin_pr_summary",
+          "martin_create_pr",
+          "martin_review_pr",
+          "martin_estimate",
+          "martin_arcade",
+          "martin_arcade_status"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-10-26T08:41:31.617Z",
+        "installMs": 6333,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-31Z-5a4525",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "martin_run",
+          "martin_inspect",
+          "martin_status",
+          "martin_doctor",
+          "martin_plan",
+          "martin_preflight",
+          "martin_logs",
+          "martin_pause",
+          "martin_cancel",
+          "martin_continue",
+          "martin_list_runs",
+          "martin_triage_runs",
+          "martin_get_run",
+          "martin_get_attempt",
+          "martin_get_verification_results",
+          "martin_run_dossier",
+          "martin_dossier",
+          "martin_eval",
+          "martin_pr_summary",
+          "martin_create_pr",
+          "martin_review_pr",
+          "martin_estimate",
+          "martin_arcade",
+          "martin_arcade_status"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-10-26T08:41:52.818Z",
+        "installMs": 176844,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-52Z-c114d1",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "martin_run",
+          "martin_inspect",
+          "martin_status",
+          "martin_doctor",
+          "martin_plan",
+          "martin_preflight",
+          "martin_logs",
+          "martin_pause",
+          "martin_cancel",
+          "martin_continue",
+          "martin_list_runs",
+          "martin_triage_runs",
+          "martin_get_run",
+          "martin_get_attempt",
+          "martin_get_verification_results",
+          "martin_run_dossier",
+          "martin_dossier",
+          "martin_eval",
+          "martin_pr_summary",
+          "martin_create_pr",
+          "martin_review_pr",
+          "martin_estimate",
+          "martin_arcade",
+          "martin_arcade_status"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.Keesan12/martin-loop",
+  "slug": "io.github.keesan12__martin-loop"
+}

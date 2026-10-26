@@ -1,0 +1,93 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-10-26T08:41:39.792Z",
+        "installMs": 18020,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-39Z-9fba12",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "search_guide",
+          "read_section",
+          "list_topics",
+          "get_example",
+          "get_changelog",
+          "get_digest",
+          "get_cheatsheet",
+          "list_examples",
+          "get_release",
+          "compare_versions",
+          "get_threat",
+          "list_threats",
+          "search_examples",
+          "init_official_docs",
+          "refresh_official_docs",
+          "diff_official_docs",
+          "search_official_docs"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-10-26T08:41:32.163Z",
+        "installMs": 2517,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-32Z-1a3acc",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "search_guide",
+          "read_section",
+          "list_topics",
+          "get_example",
+          "get_changelog",
+          "get_digest",
+          "get_cheatsheet",
+          "list_examples",
+          "get_release",
+          "compare_versions",
+          "get_threat",
+          "list_threats",
+          "search_examples",
+          "init_official_docs",
+          "refresh_official_docs",
+          "diff_official_docs",
+          "search_official_docs"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-10-26T08:41:54.532Z",
+        "installMs": 81268,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-54Z-7481d3",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "search_guide",
+          "read_section",
+          "list_topics",
+          "get_example",
+          "get_changelog",
+          "get_digest",
+          "get_cheatsheet",
+          "list_examples",
+          "get_release",
+          "compare_versions",
+          "get_threat",
+          "list_threats",
+          "search_examples",
+          "init_official_docs",
+          "refresh_official_docs",
+          "diff_official_docs",
+          "search_official_docs"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.FlorianBruniaux/claude-code-guide",
+  "slug": "io.github.florianbruniaux__claude-code-guide"
+}

@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-10-26T08:41:39.792Z",
+        "errorExcerpt": "handshake failed: Streamable HTTP error: Error POSTing to endpoint: {\"success\":false,\"error\":{\"message\":\"A valid API key is required. Get one at https://enter.pollinations.ai/keys, or buy one with USDC (x402) at https://enter.pollinations.ai/api/x402/keys\",\"code\":\"UNAUTHORIZED\",\"timestamp\":\"2026-10-26T08:42:31.318Z\"},\"status\":401} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-10-26T08-41-39Z-9fba12",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-10-26T08:41:32.163Z",
+        "errorExcerpt": "handshake failed: Streamable HTTP error: Error POSTing to endpoint: {\"success\":false,\"error\":{\"message\":\"A valid API key is required. Get one at https://enter.pollinations.ai/keys, or buy one with USDC (x402) at https://enter.pollinations.ai/api/x402/keys\",\"code\":\"UNAUTHORIZED\",\"timestamp\":\"2026-10-26T08:41:55.968Z\"},\"status\":401} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-10-26T08-41-32Z-1a3acc",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-10-26T08:41:54.532Z",
+        "errorExcerpt": "handshake failed: Streamable HTTP error: Error POSTing to endpoint: {\"success\":false,\"error\":{\"message\":\"A valid API key is required. Get one at https://enter.pollinations.ai/keys, or buy one with USDC (x402) at https://enter.pollinations.ai/api/x402/keys\",\"code\":\"UNAUTHORIZED\",\"timestamp\":\"2026-10-26T08:45:29.974Z\"},\"status\":401} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-10-26T08-41-54Z-7481d3",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "io.github.pollinations/computer",
+  "slug": "io.github.pollinations__computer"
+}

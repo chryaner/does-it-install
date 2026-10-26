@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-26T08:41:40.406Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: ataconnec\"... is not valid JSON\nUnexpected token 'd', \"  dataconnec\"... is not valid JSON\nUnexpected token 'd', \"  dataconnec\"... is not valid JSON\nUnexpected token 'd', \"  dataconnec\"... is not valid JSON\nUnexpected token 'a', \"  target [typ\"... is not valid JSON\nUnexpected token 'a', \"  target:appl\"... is not valid JSON\nUnexpected token 'a', \"  target:clea\"... is not valid JSON\nUnexpected token 'a', \"  target:remo\"... is not valid JSON\nUnexpected token 'u', \"  use [optio\"... is not valid JSON",
+        "installMs": 46346,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-40Z-988c6c",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-16T15:42:04.537Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: ataconnec\"... is not valid JSON\nUnexpected token 'd', \"  dataconnec\"... is not valid JSON\nUnexpected token 'd', \"  dataconnec\"... is not valid JSON\nUnexpected token 'd', \"  dataconnec\"... is not valid JSON\nUnexpected token 'a', \"  target [typ\"... is not valid JSON\nUnexpected token 'a', \"  target:appl\"... is not valid JSON\nUnexpected token 'a', \"  target:clea\"... is not valid JSON\nUnexpected token 'a', \"  target:remo\"... is not valid JSON\nUnexpected token 'u', \"  use [optio\"... is not valid JSON",
         "installMs": 52032,
@@ -27,6 +35,14 @@
     ],
     "linux": [
       {
+        "date": "2026-10-26T08:41:31.457Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: ataconnec\"... is not valid JSON\nUnexpected token 'd', \"  dataconnec\"... is not valid JSON\nUnexpected token 'd', \"  dataconnec\"... is not valid JSON\nUnexpected token 'd', \"  dataconnec\"... is not valid JSON\nUnexpected token 'a', \"  target [typ\"... is not valid JSON\nUnexpected token 'a', \"  target:appl\"... is not valid JSON\nUnexpected token 'a', \"  target:clea\"... is not valid JSON\nUnexpected token 'a', \"  target:remo\"... is not valid JSON\nUnexpected token 'u', \"  use [optio\"... is not valid JSON",
+        "installMs": 26484,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-31Z-3127ad",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-16T15:41:59.337Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: ataconnec\"... is not valid JSON\nUnexpected token 'd', \"  dataconnec\"... is not valid JSON\nUnexpected token 'd', \"  dataconnec\"... is not valid JSON\nUnexpected token 'd', \"  dataconnec\"... is not valid JSON\nUnexpected token 'a', \"  target [typ\"... is not valid JSON\nUnexpected token 'a', \"  target:appl\"... is not valid JSON\nUnexpected token 'a', \"  target:clea\"... is not valid JSON\nUnexpected token 'a', \"  target:remo\"... is not valid JSON\nUnexpected token 'u', \"  use [optio\"... is not valid JSON",
         "installMs": 28969,
@@ -51,6 +67,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-26T08:41:59.389Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: ataconnec\"... is not valid JSON\nUnexpected token 'd', \"  dataconnec\"... is not valid JSON\nUnexpected token 'd', \"  dataconnec\"... is not valid JSON\nUnexpected token 'd', \"  dataconnec\"... is not valid JSON\nUnexpected token 'a', \"  target [typ\"... is not valid JSON\nUnexpected token 'a', \"  target:appl\"... is not valid JSON\nUnexpected token 'a', \"  target:clea\"... is not valid JSON\nUnexpected token 'a', \"  target:remo\"... is not valid JSON\nUnexpected token 'u', \"  use [optio\"... is not valid JSON",
+        "installMs": 241490,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-59Z-6e4c78",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-16T15:42:13.871Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: ataconnec\"... is not valid JSON\nUnexpected token 'd', \"  dataconnec\"... is not valid JSON\nUnexpected token 'd', \"  dataconnec\"... is not valid JSON\nUnexpected token 'd', \"  dataconnec\"... is not valid JSON\nUnexpected token 'a', \"  target [typ\"... is not valid JSON\nUnexpected token 'a', \"  target:appl\"... is not valid JSON\nUnexpected token 'a', \"  target:clea\"... is not valid JSON\nUnexpected token 'a', \"  target:remo\"... is not valid JSON\nUnexpected token 'u', \"  use [optio\"... is not valid JSON",

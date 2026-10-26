@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-10-26T08:41:39.792Z",
+        "errorExcerpt": "no npm, pypi, oci or remote distribution to probe",
+        "method": "none",
+        "runId": "2026-10-26T08-41-39Z-9fba12",
+        "status": "skipped"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-10-26T08:41:32.163Z",
+        "errorExcerpt": "no npm, pypi, oci or remote distribution to probe",
+        "method": "none",
+        "runId": "2026-10-26T08-41-32Z-1a3acc",
+        "status": "skipped"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-10-26T08:41:54.532Z",
+        "errorExcerpt": "no npm, pypi, oci or remote distribution to probe",
+        "method": "none",
+        "runId": "2026-10-26T08-41-54Z-7481d3",
+        "status": "skipped"
+      }
+    ]
+  },
+  "serverId": "io.github.matlab/matlab-mcp-server",
+  "slug": "io.github.matlab__matlab-mcp-server"
+}

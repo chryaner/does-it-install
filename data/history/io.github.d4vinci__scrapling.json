@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-26T08:41:38.518Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading lxml (8.2MiB)\n Downloaded lxml\nInstalled 7 packages in 47ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/8xrgVhca45SMu5m6/lib/python3.15/site-packages/scrapling/cli.py\", line 15, in <module>\n    from click import command, option, Choice, group, argument, version_option, UsageError\nModuleNotFoundError: No module named 'click'\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/8xrgVhca45SMu5m6/bin/scrapling\", line 6, in <module>\n    from scrapling.cli import main\n  File \"/Users/runner/.cache/uv/archive-v0/8xrgVhca45SMu5m6/lib/python3.15/site-packages/scrapling/cli.py\", line 17, in <module>\n    raise ModuleNotFoundError(\n        \"You need to install scrapling with any of the extras to enable Shell commands. See: https://scrapling.readthedocs.io/en/latest/#installation\"\n    ) from e\nModuleNotFoundError: You need to install scrapling with any of the extras to enable Shell commands. See: https://scrapling.readthedocs.io/en/latest/#installation",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-38Z-f793a6",
+        "status": "needs_config"
+      },
+      {
         "date": "2026-08-15T04:06:28.791Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading lxml (8.2MiB)\n Downloaded lxml\nInstalled 7 packages in 30ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/JFkFirWv-8OmF-Uj/lib/python3.14/site-packages/scrapling/cli.py\", line 15, in <module>\n    from click import command, option, Choice, group, argument, version_option\nModuleNotFoundError: No module named 'click'\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/JFkFirWv-8OmF-Uj/bin/scrapling\", line 6, in <module>\n    from scrapling.cli import main\n  File \"/Users/runner/.cache/uv/archive-v0/JFkFirWv-8OmF-Uj/lib/python3.14/site-packages/scrapling/cli.py\", line 17, in <module>\n    raise ModuleNotFoundError(\n        \"You need to install scrapling with any of the extras to enable Shell commands. See: https://scrapling.readthedocs.io/en/latest/#installation\"\n    ) from e\nModuleNotFoundError: You need to install scrapling with any of the extras to enable Shell commands. See: https://scrapling.readthedocs.io/en/latest/#installation",
         "method": "pypi",
@@ -11,11 +18,27 @@
     ],
     "linux": [
       {
+        "date": "2026-10-26T08:41:31.617Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading lxml (5.0MiB)\n Downloaded lxml\nInstalled 7 packages in 20ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/29e3_9HgZwxXcrkl/lib/python3.14/site-packages/scrapling/cli.py\", line 15, in <module>\n    from click import command, option, Choice, group, argument, version_option, UsageError\nModuleNotFoundError: No module named 'click'\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/29e3_9HgZwxXcrkl/bin/scrapling\", line 6, in <module>\n    from scrapling.cli import main\n  File \"/home/runner/.cache/uv/archive-v0/29e3_9HgZwxXcrkl/lib/python3.14/site-packages/scrapling/cli.py\", line 17, in <module>\n    raise ModuleNotFoundError(\n        \"You need to install scrapling with any of the extras to enable Shell commands. See: https://scrapling.readthedocs.io/en/latest/#installation\"\n    ) from e\nModuleNotFoundError: You need to install scrapling with any of the extras to enable Shell commands. See: https://scrapling.readthedocs.io/en/latest/#installation",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-31Z-5a4525",
+        "status": "needs_config"
+      },
+      {
         "date": "2026-08-15T04:06:31.639Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading lxml (5.0MiB)\n Downloaded lxml\nInstalled 7 packages in 18ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/XD1TRiL93vuXJPVE/lib/python3.12/site-packages/scrapling/cli.py\", line 15, in <module>\n    from click import command, option, Choice, group, argument, version_option\nModuleNotFoundError: No module named 'click'\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/XD1TRiL93vuXJPVE/bin/scrapling\", line 6, in <module>\n    from scrapling.cli import main\n  File \"/home/runner/.cache/uv/archive-v0/XD1TRiL93vuXJPVE/lib/python3.12/site-packages/scrapling/cli.py\", line 17, in <module>\n    raise ModuleNotFoundError(\nModuleNotFoundError: You need to install scrapling with any of the extras to enable Shell commands. See: https://scrapling.readthedocs.io/en/latest/#installation",
         "method": "pypi",
         "runId": "2026-08-15T04-06-31Z-5068b8",
         "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-10-26T08:41:52.818Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading lxml (3.8MiB)\n Downloaded lxml\nInstalled 7 packages in 248ms\nTraceback (most recent call last):\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\ietG5L8-4FVaFfLK\\Lib\\site-packages\\scrapling\\cli.py\", line 15, in <module>\r\n    from click import command, option, Choice, group, argument, version_option, UsageError\r\nModuleNotFoundError: No module named 'click'\r\n\r\nThe above exception was the direct cause of the following exception:\r\n\r\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\ietG5L8-4FVaFfLK\\Scripts\\scrapling.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\ietG5L8-4FVaFfLK\\Lib\\site-packages\\scrapling\\cli.py\", line 17, in <module>\r\n    raise ModuleNotFoundError(\r\nModuleNotFoundError: You need to install scrapling with any of the extras to enable Shell commands. See: https://scrapling.readthedocs.io/en/latest/#installation",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-52Z-c114d1",
+        "status": "needs_config"
       }
     ]
   },

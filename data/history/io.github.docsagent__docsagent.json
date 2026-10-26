@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-10-26T08:41:39.792Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[docsagent] DocsAgent Core is not running.\n\nStart it with:    docsagent start\nCheck status:     docsagent status\nCore log:         see core.log next to the config file",
+        "installMs": 5677,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-39Z-9fba12",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-10-26T08:41:32.163Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[docsagent] DocsAgent Core is not running.\n\nStart it with:    docsagent start\nCheck status:     docsagent status\nCore log:         see core.log next to the config file",
+        "installMs": 3144,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-32Z-1a3acc",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-10-26T08:41:54.532Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[docsagent] DocsAgent Core is not running.\n\nStart it with:    docsagent start\nCheck status:     docsagent status\nCore log:         see core.log next to the config file",
+        "installMs": 99349,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-54Z-7481d3",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.docsagent/docsagent",
+  "slug": "io.github.docsagent__docsagent"
+}

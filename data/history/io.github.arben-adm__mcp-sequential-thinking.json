@@ -1,0 +1,72 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-10-26T08:41:38.518Z",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-38Z-f793a6",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "create_session",
+          "add_step",
+          "list_sessions",
+          "read_session",
+          "finalize_session",
+          "delete_session",
+          "process_thought",
+          "generate_summary",
+          "clear_history",
+          "export_session",
+          "import_session"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-10-26T08:41:31.617Z",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-31Z-5a4525",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "create_session",
+          "add_step",
+          "list_sessions",
+          "read_session",
+          "finalize_session",
+          "delete_session",
+          "process_thought",
+          "generate_summary",
+          "clear_history",
+          "export_session",
+          "import_session"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-10-26T08:41:52.818Z",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-52Z-c114d1",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "create_session",
+          "add_step",
+          "list_sessions",
+          "read_session",
+          "finalize_session",
+          "delete_session",
+          "process_thought",
+          "generate_summary",
+          "clear_history",
+          "export_session",
+          "import_session"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.arben-adm/mcp-sequential-thinking",
+  "slug": "io.github.arben-adm__mcp-sequential-thinking"
+}

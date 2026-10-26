@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-26T08:41:40.406Z",
+        "errorExcerpt": "connect failed: HTTP 404: Streamable HTTP error: Error POSTing to endpoint: Server not found",
+        "method": "remote-http",
+        "runId": "2026-10-26T08-41-40Z-988c6c",
+        "status": "connect_failed"
+      },
+      {
         "date": "2026-10-19T08:32:37.593Z",
         "errorExcerpt": "connect failed: HTTP 404: Streamable HTTP error: Error POSTing to endpoint: Server not found",
         "method": "remote-http",
@@ -123,6 +130,13 @@
     ],
     "linux": [
       {
+        "date": "2026-10-26T08:41:31.457Z",
+        "errorExcerpt": "connect failed: HTTP 404: Streamable HTTP error: Error POSTing to endpoint: Server not found",
+        "method": "remote-http",
+        "runId": "2026-10-26T08-41-31Z-3127ad",
+        "status": "connect_failed"
+      },
+      {
         "date": "2026-10-19T08:32:31.287Z",
         "errorExcerpt": "connect failed: HTTP 404: Streamable HTTP error: Error POSTing to endpoint: Server not found",
         "method": "remote-http",
@@ -243,6 +257,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-26T08:41:59.389Z",
+        "errorExcerpt": "connect failed: HTTP 404: Streamable HTTP error: Error POSTing to endpoint: Server not found",
+        "method": "remote-http",
+        "runId": "2026-10-26T08-41-59Z-6e4c78",
+        "status": "connect_failed"
+      },
       {
         "date": "2026-10-19T08:32:56.955Z",
         "errorExcerpt": "connect failed: HTTP 404: Streamable HTTP error: Error POSTing to endpoint: Server not found",

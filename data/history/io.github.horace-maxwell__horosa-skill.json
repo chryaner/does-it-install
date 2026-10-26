@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-10-26T08:41:38.518Z",
+        "errorExcerpt": "no npm, pypi, oci or remote distribution to probe",
+        "method": "none",
+        "runId": "2026-10-26T08-41-38Z-f793a6",
+        "status": "skipped"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-10-26T08:41:31.617Z",
+        "errorExcerpt": "no npm, pypi, oci or remote distribution to probe",
+        "method": "none",
+        "runId": "2026-10-26T08-41-31Z-5a4525",
+        "status": "skipped"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-10-26T08:41:52.818Z",
+        "errorExcerpt": "no npm, pypi, oci or remote distribution to probe",
+        "method": "none",
+        "runId": "2026-10-26T08-41-52Z-c114d1",
+        "status": "skipped"
+      }
+    ]
+  },
+  "serverId": "io.github.Horace-Maxwell/horosa-skill",
+  "slug": "io.github.horace-maxwell__horosa-skill"
+}

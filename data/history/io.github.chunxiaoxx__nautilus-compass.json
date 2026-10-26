@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-10-26T08:41:38.518Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nerror: No solution found when resolving tool dependencies\n  cause: Because torch>=1.11.0 has no wheels with a matching Python ABI tag (e.g., `cp315`) and sentence-transformers>=2.7.0,<=5.7.0 depends on torch>=1.11.0, we can conclude that sentence-transformers>=2.7.0,<=5.7.0 cannot be used.\n         And because only the following versions of sentence-transformers are available:\n             sentence-transformers<=5.7.0\n             sentence-transformers>=6.0.0\n         we can conclude that sentence-transformers>=2.7.0,<6.0.0 cannot be used. (1)\n\n         Because torch>=2.2.0 has no wheels with a matching Python ABI tag (e.g., `cp315`) and sentence-transformers>=6.0.0 depends on torch>=2.2, we can conclude that sentence-transformers>=6.0.0 cannot be used.\n         And because we know from (1) that sentence-transformers>=2.7.0,<6.0.0 cannot be used, we can conclude that sentence-transformers>=2.7.0 cannot be used.\n         And because nautilus-compass==3.2.0 depends on sentence-transformers>=2.7 and you require nautilus-compass==3.2.0, we can conclude that your requirements are unsatisfiable.\n\nhint: You require CPython 3.15 (`cp315`), but we only found wheels for `torch` (v2.14.1) with the following Python ABI tags: `cp310`, `cp311`, `cp312`, `cp313`, `cp314`, `cp314t`",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-38Z-f793a6",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-10-26T08:41:31.617Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: ... is not valid JSON\nUnexpected token 's', \"  session-wr\"... is not valid JSON\nUnexpected token 'm', \"  mcp       \"... is not valid JSON\nUnexpected token 'a', \"  a2a       \"... is not valid JSON\nUnexpected end of JSON input\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nUnexpected end of JSON input\nUnexpected token 'e', \"each subco\"... is not valid JSON\nUnexpected token 'r', \"run `nauti\"... is not valid JSON\n--- stderr (tail) ---\nDownloading nvidia-nccl-cu13 (206.0MiB)\nDownloading nvidia-cusparselt-cu13 (162.3MiB)\nDownloading tokenizers (3.2MiB)\nDownloading nvidia-cuda-runtime (2.1MiB)\nDownloading nvidia-cuda-nvrtc (86.0MiB)\nDownloading scipy (33.7MiB)\nDownloading transformers (12.2MiB)\nDownloading nvidia-cublas (403.5MiB)\nDownloading nvidia-cuda-cupti (10.2MiB)\nDownloading nvidia-cufft (204.2MiB)\nDownloading nvidia-cudnn-cu13 (527.5MiB)\nDownloading sympy (6.0MiB)\nDownloading networkx (2.0MiB)\nDownloading nvidia-cusparse (139.2MiB)\nDownloading nvidia-nvjitlink (40.5MiB)\nDownloading nvidia-cusolver (191.6MiB)\nDownloading scikit-learn (8.7MiB)\nDownloading nvidia-cufile (1.2MiB)\nDownloading torch (528.9MiB)\nDownloading nvidia-curand (56.8MiB)\nDownloading nvidia-nvshmem-cu13 (57.6MiB)\nDownloading cuda-bindings (6.7MiB)\nDownloading triton (236.5MiB)\n Downloaded nvidia-cufile\n Downloaded nvidia-cuda-runtime\n Downloaded networkx\n Downloaded tokenizers\n Downloaded sympy\n Downloaded cuda-bindings\n Downloaded scikit-learn\n Downloaded nvidia-cuda-cupti\n Downloaded transformers\n Downloaded scipy\n Downloaded nvidia-nvjitlink\n Downloaded nvidia-curand\n Downloaded nvidia-nvshmem-cu13\n Downloaded nvidia-cuda-nvrtc\n Downloaded nvidia-cusparse\n Downloaded nvidia-cusparselt-cu13\n Downloaded nvidia-cusolver\n Downloaded nvidia-cufft\n Downloaded nvidia-nccl-cu13\n Downloaded triton\n Downloaded nvidia-cublas\n Downloaded torch\n Downloaded nvidia-cudnn-cu13\nInstalled 61 packages in 1.70s",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-31Z-5a4525",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-10-26T08:41:52.818Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: ... is not valid JSON\nUnexpected token 's', \"  session-wr\"... is not valid JSON\nUnexpected token 'm', \"  mcp       \"... is not valid JSON\nUnexpected token 'a', \"  a2a       \"... is not valid JSON\nUnexpected end of JSON input\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nNo number after minus sign in JSON at position 3 (line 1 column 4)\nUnexpected end of JSON input\nUnexpected token 'e', \"each subco\"... is not valid JSON\nUnexpected token 'r', \"run `nauti\"... is not valid JSON\n--- stderr (tail) ---\nDownloading networkx (2.0MiB)\nDownloading sympy (6.0MiB)\nDownloading transformers (12.2MiB)\nDownloading tokenizers (2.7MiB)\nDownloading scipy (35.0MiB)\nDownloading scikit-learn (7.9MiB)\nDownloading torch (118.4MiB)\n Downloaded tokenizers\n Downloaded networkx\n Downloaded scikit-learn\n Downloaded sympy\n Downloaded scipy\n Downloaded transformers\n Downloaded torch\nInstalled 43 packages in 42.56s",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-52Z-c114d1",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.chunxiaoxx/nautilus-compass",
+  "slug": "io.github.chunxiaoxx__nautilus-compass"
+}

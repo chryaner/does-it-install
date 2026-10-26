@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-26T08:41:38.518Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-10-26T08-41-38Z-f793a6",
+        "status": "skipped"
+      },
+      {
         "date": "2026-08-16T15:42:00.997Z",
         "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
         "installMs": 0,
@@ -20,6 +28,14 @@
     ],
     "linux": [
       {
+        "date": "2026-10-26T08:41:31.617Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: has \"... is not valid JSON\nUnexpected token 'i', \"info: Micr\"... is not valid JSON\nUnexpected token 'N', \"      Now listen\"... is not valid JSON\nUnexpected token 'i', \"info: Micr\"... is not valid JSON\nUnexpected token 'A', \"      Applicatio\"... is not valid JSON\nUnexpected token 'i', \"info: Micr\"... is not valid JSON\nUnexpected token 'H', \"      Hosting en\"... is not valid JSON\nUnexpected token 'i', \"info: Micr\"... is not valid JSON\nUnexpected token 'C', \"      Content ro\"... is not valid JSON",
+        "installMs": 29319,
+        "method": "oci",
+        "runId": "2026-10-26T08-41-31Z-5a4525",
+        "status": "timeout"
+      },
+      {
         "date": "2026-08-16T15:41:56.759Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: position 1 (line 1 column 2)\nUnexpected token '\ud83d', \" 🚀 MAGIC IS LIVE! \" is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'N', \" Need a han\"... is not valid JSON\nUnexpected token '\ud83d', \" 👉 https:/\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'N', \" Need Profe\"... is not valid JSON\nUnexpected token '\ud83d', \" 👉 https:/\"... is not valid JSON\nNo number after minus sign in JSON at position 1 (line 1 column 2)\nUnexpected token 'M', \"Magic has \"... is not valid JSON",
         "installMs": 20086,
@@ -37,6 +53,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-26T08:41:52.818Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-10-26T08-41-52Z-c114d1",
+        "status": "skipped"
+      },
       {
         "date": "2026-08-16T15:42:18.905Z",
         "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",

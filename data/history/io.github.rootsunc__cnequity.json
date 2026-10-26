@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-10-26T08:41:40.406Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nBuilding snownlp==0.12.3\nDownloading polars-runtime-32 (45.4MiB)\nDownloading pyarrow (34.7MiB)\nDownloading duckdb (16.8MiB)\nDownloading cnequity (2.4MiB)\nDownloading curl-cffi (2.8MiB)\n Downloaded curl-cffi\n Downloaded cnequity\n Downloaded duckdb\n Downloaded pyarrow\n Downloaded polars-runtime-32\n      Built snownlp==0.12.3\nInstalled 38 packages in 1.00s\nError: No config found: looked for configs/cnequity.toml in the current directory and /Users/runner/.config/cnequity/config.toml. On first use, just run `cne init`: it writes /Users/runner/.config/cnequity/config.toml and starts initializing. To only write the config, use `cne config create`. A config elsewhere is named with --config or CNE_CONFIG.",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-40Z-988c6c",
+        "status": "needs_config"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-10-26T08:41:31.457Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nBuilding snownlp==0.12.3\nDownloading duckdb (23.2MiB)\nDownloading curl-cffi (13.4MiB)\nDownloading pyarrow (51.5MiB)\nDownloading polars-runtime-32 (51.4MiB)\nDownloading cnequity (2.4MiB)\n Downloaded cnequity\n Downloaded curl-cffi\n Downloaded duckdb\n Downloaded pyarrow\n Downloaded polars-runtime-32\n      Built snownlp==0.12.3\nInstalled 38 packages in 160ms\nError: No config found: looked for configs/cnequity.toml in the current directory and /home/runner/.config/cnequity/config.toml. On first use, just run `cne init`: it writes /home/runner/.config/cnequity/config.toml and starts initializing. To only write the config, use `cne config create`. A config elsewhere is named with --config or CNE_CONFIG.",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-31Z-3127ad",
+        "status": "needs_config"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-10-26T08:41:59.389Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nBuilding snownlp==0.12.3\nDownloading pyarrow (27.2MiB)\nDownloading cnequity (2.4MiB)\nDownloading duckdb (14.7MiB)\nDownloading curl-cffi (2.0MiB)\nDownloading polars-runtime-32 (51.4MiB)\n Downloaded curl-cffi\n Downloaded duckdb\n Downloaded polars-runtime-32\n Downloaded cnequity\n      Built snownlp==0.12.3\n Downloaded pyarrow\nInstalled 38 packages in 27.25s\nError: No config found: looked for configs/cnequity.toml in the current directory and C:\\Users\\runneradmin\\AppData\\Roaming\\cnequity\\config.toml. On first use, just run `cne init`: it writes C:\\Users\\runneradmin\\AppData\\Roaming\\cnequity\\config.toml and starts initializing. To only write the config, use `cne config create`. A config elsewhere is named with --config or CNE_CONFIG.",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-59Z-6e4c78",
+        "status": "needs_config"
+      }
+    ]
+  },
+  "serverId": "io.github.rootSunc/cnequity",
+  "slug": "io.github.rootsunc__cnequity"
+}

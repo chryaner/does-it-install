@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-26T08:41:39.792Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[abell-ai]: Correct usage of the script `npx abell-ai mcp`\n[abell-ai]: Received args: [\n  '/Users/runner/hostedtoolcache/node/22.23.3/arm64/bin/node',\n  '/var/folders/n6/hn37q6pj7sj_9dmqqc2113800000gn/T/does-it-install/dii-npm-dPQP3m/node_modules/abell-ai/dist/bin.js'\n]",
+        "installMs": 9876,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-39Z-9fba12",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-16T15:42:04.537Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[abell-ai]: Correct usage of the script `npx abell-ai mcp`\n[abell-ai]: Received args: [\n  '/Users/runner/hostedtoolcache/node/22.23.1/arm64/bin/node',\n  '/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-MzGZh0/node_modules/abell-ai/dist/bin.js'\n]",
         "installMs": 4700,
@@ -20,6 +28,14 @@
     ],
     "linux": [
       {
+        "date": "2026-10-26T08:41:32.163Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[abell-ai]: Correct usage of the script `npx abell-ai mcp`\n[abell-ai]: Received args: [\n  '/opt/hostedtoolcache/node/22.23.3/x64/bin/node',\n  '/tmp/does-it-install/dii-npm-DYcW12/node_modules/abell-ai/dist/bin.js'\n]",
+        "installMs": 2248,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-32Z-1a3acc",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-16T15:41:59.337Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[abell-ai]: Correct usage of the script `npx abell-ai mcp`\n[abell-ai]: Received args: [\n  '/opt/hostedtoolcache/node/22.23.2/x64/bin/node',\n  '/tmp/does-it-install/dii-npm-1eiRu8/node_modules/abell-ai/dist/bin.js'\n]",
         "installMs": 2873,
@@ -37,6 +53,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-26T08:41:54.532Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[abell-ai]: Correct usage of the script `npx abell-ai mcp`\n[abell-ai]: Received args: [\n  'C:\\\\hostedtoolcache\\\\windows\\\\node\\\\22.23.4\\\\x64\\\\node.exe',\n  'C:\\\\Users\\\\RUNNER~1\\\\AppData\\\\Local\\\\Temp\\\\does-it-install\\\\dii-npm-nwaD2V\\\\node_modules\\\\abell-ai\\\\dist\\\\bin.js'\n]",
+        "installMs": 110190,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-54Z-7481d3",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-16T15:42:13.871Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[abell-ai]: Correct usage of the script `npx abell-ai mcp`\n[abell-ai]: Received args: [\n  'C:\\\\hostedtoolcache\\\\windows\\\\node\\\\22.23.2\\\\x64\\\\node.exe',\n  'C:\\\\Users\\\\RUNNER~1\\\\AppData\\\\Local\\\\Temp\\\\does-it-install\\\\dii-npm-8MrhPF\\\\node_modules\\\\abell-ai\\\\dist\\\\bin.js'\n]",

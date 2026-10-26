@@ -1,0 +1,93 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-10-26T08:41:40.406Z",
+        "installMs": 7522,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-40Z-988c6c",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "index_repository",
+          "search_graph",
+          "query_graph",
+          "trace_path",
+          "get_code_snippet",
+          "get_file_outline",
+          "get_graph_schema",
+          "compare_graphs",
+          "get_architecture",
+          "search_code",
+          "list_projects",
+          "delete_project",
+          "index_status",
+          "check_index_coverage",
+          "detect_changes",
+          "manage_adr",
+          "ingest_traces"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-10-26T08:41:31.457Z",
+        "installMs": 5223,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-31Z-3127ad",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "index_repository",
+          "search_graph",
+          "query_graph",
+          "trace_path",
+          "get_code_snippet",
+          "get_file_outline",
+          "get_graph_schema",
+          "compare_graphs",
+          "get_architecture",
+          "search_code",
+          "list_projects",
+          "delete_project",
+          "index_status",
+          "check_index_coverage",
+          "detect_changes",
+          "manage_adr",
+          "ingest_traces"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-10-26T08:41:59.389Z",
+        "installMs": 74583,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-59Z-6e4c78",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "index_repository",
+          "search_graph",
+          "query_graph",
+          "trace_path",
+          "get_code_snippet",
+          "get_file_outline",
+          "get_graph_schema",
+          "compare_graphs",
+          "get_architecture",
+          "search_code",
+          "list_projects",
+          "delete_project",
+          "index_status",
+          "check_index_coverage",
+          "detect_changes",
+          "manage_adr",
+          "ingest_traces"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.DeusData/codebase-memory-mcp",
+  "slug": "io.github.deusdata__codebase-memory-mcp"
+}

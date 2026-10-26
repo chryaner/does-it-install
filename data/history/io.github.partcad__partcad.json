@@ -1,0 +1,61 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-10-26T08:41:38.518Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n…acks.h -> build/lib.macosx-26.0-arm64-cpython-315/pygit2/decl\n         copying pygit2/decl/submodule.h -> build/lib.macosx-26.0-arm64-cpython-315/pygit2/decl\n         copying pygit2/decl/errors.h -> build/lib.macosx-26.0-arm64-cpython-315/pygit2/decl\n         copying pygit2/decl/merge.h -> build/lib.macosx-26.0-arm64-cpython-315/pygit2/decl\n         copying pygit2/decl/options.h -> build/lib.macosx-26.0-arm64-cpython-315/pygit2/decl\n         copying pygit2/decl/graph.h -> build/lib.macosx-26.0-arm64-cpython-315/pygit2/decl\n         copying pygit2/decl/describe.h -> build/lib.macosx-26.0-arm64-cpython-315/pygit2/decl\n         copying pygit2/decl/rebase.h -> build/lib.macosx-26.0-arm64-cpython-315/pygit2/decl\n         copying pygit2/decl/stash.h -> build/lib.macosx-26.0-arm64-cpython-315/pygit2/decl\n         copying pygit2/decl/remote.h -> build/lib.macosx-26.0-arm64-cpython-315/pygit2/decl\n         copying pygit2/decl/strarray.h -> build/lib.macosx-26.0-arm64-cpython-315/pygit2/decl\n         copying pygit2/decl/buffer.h -> build/lib.macosx-26.0-arm64-cpython-315/pygit2/decl\n         copying pygit2/decl/diff.h -> build/lib.macosx-26.0-arm64-cpython-315/pygit2/decl\n         copying pygit2/decl/common.h -> build/lib.macosx-26.0-arm64-cpython-315/pygit2/decl\n         copying pygit2/decl/proxy.h -> build/lib.macosx-26.0-arm64-cpython-315/pygit2/decl\n         copying pygit2/decl/indexer.h -> build/lib.macosx-26.0-arm64-cpython-315/pygit2/decl\n         copying pygit2/decl/refspec.h -> build/lib.macosx-26.0-arm64-cpython-315/pygit2/decl\n         copying pygit2/decl/transport.h -> build/lib.macosx-26.0-arm64-cpython-315/pygit2/decl\n         copying pygit2/decl/checkout.h -> build/lib.macosx-26.0-arm64-cpython-315/pygit2/decl\n         copying pygit2/decl/filter.h -> build/lib.macosx-26.0-arm64-cpython-315/pygit2/decl\n         copying pygit2/decl/transaction.h -> build/lib.macosx-26.0-arm64-cpython-315/pygit2/decl\n         copying pygit2/decl/commit.h -> build/lib.macosx-26.0-arm64-cpython-315/pygit2/decl\n         running build_ext\n         generating cffi module 'build/temp.macosx-26.0-arm64-cpython-315/pygit2._libgit2.c'\n         creating build/temp.macosx-26.0-arm64-cpython-315\n         building 'pygit2._pygit2' extension\n         clang -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fno-strict-overflow -Wsign-compare -Wunreachable-code -fno-common -dynamic -DNDEBUG -g -O3 -Wall -I/usr/local/include -I/Users/runner/.cache/uv/builds-v0/.tmpkGksqv/include -I/opt/homebrew/opt/python@3.15/Frameworks/Python.framework/Versions/3.15/include/python3.15 -c /Users/runner/.cache/uv/sdists-v10/pypi/pygit2/1.20.0/WQiKS6Sf8ky9GuWt/src/src/blob.c -o build/temp.macosx-26.0-arm64-cpython-315/Users/runner/.cache/uv/sdists-v10/pypi/pygit2/1.20.0/WQiKS6Sf8ky9GuWt/src/src/blob.o\n\n         [stderr]\n         /Users/runner/.cache/uv/sdists-v10/pypi/pygit2/1.20.0/WQiKS6Sf8ky9GuWt/src/src/blob.c:30:10: fatal error: 'git2.h' file not found\n            30 | #include <git2.h>\n               |          ^~~~~~~~\n         1 error generated.\n         error: Command '['clang', '-fno-omit-frame-pointer', '-mno-omit-leaf-frame-pointer', '-fno-strict-overflow', '-Wsign-compare', '-Wunreachable-code', '-fno-common', '-dynamic', '-DNDEBUG', '-g', '-O3', '-Wall', '-I/usr/local/include', '-I/Users/runner/.cache/uv/builds-v0/.tmpkGksqv/include', '-I/opt/homebrew/opt/python@3.15/Frameworks/Python.framework/Versions/3.15/include/python3.15', '-c', '/Users/runner/.cache/uv/sdists-v10/pypi/pygit2/1.20.0/WQiKS6Sf8ky9GuWt/src/src/blob.c', '-o', 'build/temp.macosx-26.0-arm64-cpython-315/Users/runner/.cache/uv/sdists-v10/pypi/pygit2/1.20.0/WQiKS6Sf8ky9GuWt/src/src/blob.o']' returned non-zero exit status 1.\n\nhint: `pygit2` (v1.20.0) was included because `partcad` (v0.8.235) depends on `pygit2`\n\nhint: This error likely indicates that you need to install a library that provides `git2.h` for `pygit2@1.20.0`",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-38Z-f793a6",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-10-26T08:41:31.617Z",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-31Z-5a4525",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "list_objects",
+          "info",
+          "render",
+          "export",
+          "test",
+          "lint",
+          "bom",
+          "search",
+          "instructions",
+          "version",
+          "list_methods",
+          "execute"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-10-26T08:41:52.818Z",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-52Z-c114d1",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "list_objects",
+          "info",
+          "render",
+          "export",
+          "test",
+          "lint",
+          "bom",
+          "search",
+          "instructions",
+          "version",
+          "list_methods",
+          "execute"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.partcad/partcad",
+  "slug": "io.github.partcad__partcad"
+}

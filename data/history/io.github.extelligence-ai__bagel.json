@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-26T08:41:39.792Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-10-26T08-41-39Z-9fba12",
+        "status": "skipped"
+      },
+      {
         "date": "2026-08-16T15:41:59.741Z",
         "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
         "installMs": 0,
@@ -27,6 +35,14 @@
     ],
     "linux": [
       {
+        "date": "2026-10-26T08:41:32.163Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\nDisk usage: cache /home/ubuntu/.cache/bagel = 0 bytes, artifacts /home/ubuntu/.bagel/artifacts = 0 bytes\nINFO:     Started server process [17]\nINFO:     Waiting for application startup.\nStreamableHTTP session manager started\nINFO:     Application startup complete.\nINFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)",
+        "installMs": 15554,
+        "method": "oci",
+        "runId": "2026-10-26T08-41-32Z-1a3acc",
+        "status": "timeout"
+      },
+      {
         "date": "2026-08-16T15:42:02.544Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\nINFO:     Started server process [17]\nINFO:     Waiting for application startup.\nINFO:     Application startup complete.\nINFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)",
         "installMs": 36144,
@@ -51,6 +67,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-26T08:41:54.532Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-10-26T08-41-54Z-7481d3",
+        "status": "skipped"
+      },
       {
         "date": "2026-08-16T15:42:15.480Z",
         "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",

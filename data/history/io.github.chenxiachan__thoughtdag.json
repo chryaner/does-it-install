@@ -1,0 +1,54 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-10-26T08:41:38.518Z",
+        "installMs": 586,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-38Z-f793a6",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "why_check",
+          "why_file",
+          "find",
+          "recall_turn"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-10-26T08:41:31.617Z",
+        "installMs": 561,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-31Z-5a4525",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "why_check",
+          "why_file",
+          "find",
+          "recall_turn"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-10-26T08:41:52.818Z",
+        "installMs": 2378,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-52Z-c114d1",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "why_check",
+          "why_file",
+          "find",
+          "recall_turn"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.chenxiachan/thoughtdag",
+  "slug": "io.github.chenxiachan__thoughtdag"
+}

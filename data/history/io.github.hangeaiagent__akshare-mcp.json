@@ -1,0 +1,48 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-10-26T08:41:39.792Z",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-39Z-9fba12",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "akshare_search",
+          "akshare_signature",
+          "akshare_call"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-10-26T08:41:32.163Z",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-32Z-1a3acc",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "akshare_search",
+          "akshare_signature",
+          "akshare_call"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-10-26T08:41:54.532Z",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-54Z-7481d3",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "akshare_search",
+          "akshare_signature",
+          "akshare_call"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.hangeaiagent/akshare-mcp",
+  "slug": "io.github.hangeaiagent__akshare-mcp"
+}

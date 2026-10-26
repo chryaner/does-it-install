@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-26T08:41:38.518Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: Unauthorized (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-10-26T08-41-38Z-f793a6",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-09-14T08:52:40.878Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: Unauthorized (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -88,6 +95,13 @@
     ],
     "linux": [
       {
+        "date": "2026-10-26T08:41:31.617Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: Unauthorized (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-10-26T08-41-31Z-5a4525",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-09-14T08:52:33.348Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: Unauthorized (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -173,6 +187,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-26T08:41:52.818Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: Unauthorized (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-10-26T08-41-52Z-c114d1",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-09-14T08:53:01.857Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: Unauthorized (endpoint reachable but requires credentials the harness does not send)",

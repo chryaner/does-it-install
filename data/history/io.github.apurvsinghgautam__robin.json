@@ -1,0 +1,47 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-10-26T08:41:40.406Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-10-26T08-41-40Z-988c6c",
+        "status": "skipped"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-10-26T08:41:31.457Z",
+        "installMs": 19403,
+        "method": "oci",
+        "runId": "2026-10-26T08-41-31Z-3127ad",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "robin_search",
+          "robin_refine",
+          "robin_filter",
+          "robin_scrape",
+          "robin_investigate",
+          "robin_save_investigation",
+          "robin_list_models",
+          "robin_health",
+          "robin_list_investigations"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-10-26T08:41:59.389Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-10-26T08-41-59Z-6e4c78",
+        "status": "skipped"
+      }
+    ]
+  },
+  "serverId": "io.github.apurvsinghgautam/robin",
+  "slug": "io.github.apurvsinghgautam__robin"
+}

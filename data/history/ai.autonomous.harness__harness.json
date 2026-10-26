@@ -1,0 +1,45 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-10-26T08:41:40.406Z",
+        "installMs": 887,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-40Z-988c6c",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "harness_setup"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-10-26T08:41:31.457Z",
+        "installMs": 942,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-31Z-3127ad",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "harness_setup"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-10-26T08:41:59.389Z",
+        "installMs": 2126,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-59Z-6e4c78",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "harness_setup"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.autonomous.harness/harness",
+  "slug": "ai.autonomous.harness__harness"
+}

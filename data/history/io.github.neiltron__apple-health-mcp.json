@@ -2,6 +2,19 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-26T08:41:38.518Z",
+        "installMs": 14261,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-38Z-f793a6",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "health_query",
+          "health_report",
+          "health_schema"
+        ]
+      },
+      {
         "date": "2026-08-16T15:41:59.741Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed",
         "installMs": 19725,
@@ -20,6 +33,19 @@
     ],
     "linux": [
       {
+        "date": "2026-10-26T08:41:31.617Z",
+        "installMs": 9024,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-31Z-5a4525",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "health_query",
+          "health_report",
+          "health_schema"
+        ]
+      },
+      {
         "date": "2026-08-16T15:42:02.544Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed",
         "installMs": 10821,
@@ -37,6 +63,19 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-26T08:41:52.818Z",
+        "installMs": 473129,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-52Z-c114d1",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "health_query",
+          "health_report",
+          "health_schema"
+        ]
+      },
       {
         "date": "2026-08-16T15:42:15.480Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed",

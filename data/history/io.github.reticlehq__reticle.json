@@ -1,0 +1,72 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-10-26T08:41:40.406Z",
+        "installMs": 11127,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-40Z-988c6c",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "reticle_navigate",
+          "reticle_act_and_wait",
+          "reticle_session",
+          "reticle_verify",
+          "reticle_look",
+          "reticle_observe",
+          "reticle_assert",
+          "reticle_act",
+          "reticle_tools",
+          "reticle_run"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-10-26T08:41:31.457Z",
+        "installMs": 6031,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-31Z-3127ad",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "reticle_navigate",
+          "reticle_act_and_wait",
+          "reticle_session",
+          "reticle_verify",
+          "reticle_look",
+          "reticle_observe",
+          "reticle_assert",
+          "reticle_act",
+          "reticle_tools",
+          "reticle_run"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-10-26T08:41:59.389Z",
+        "installMs": 381031,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-59Z-6e4c78",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "reticle_navigate",
+          "reticle_act_and_wait",
+          "reticle_session",
+          "reticle_verify",
+          "reticle_look",
+          "reticle_observe",
+          "reticle_assert",
+          "reticle_act",
+          "reticle_tools",
+          "reticle_run"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.reticlehq/reticle",
+  "slug": "io.github.reticlehq__reticle"
+}

@@ -2,6 +2,28 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-26T08:41:40.406Z",
+        "installMs": 16079,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-40Z-988c6c",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "obsidian_get_note",
+          "obsidian_list_notes",
+          "obsidian_list_tags",
+          "obsidian_open_in_ui",
+          "obsidian_search_notes",
+          "obsidian_write_note",
+          "obsidian_append_to_note",
+          "obsidian_patch_note",
+          "obsidian_replace_in_note",
+          "obsidian_manage_frontmatter",
+          "obsidian_manage_tags",
+          "obsidian_delete_note"
+        ]
+      },
+      {
         "date": "2026-08-16T15:42:04.537Z",
         "installMs": 27069,
         "method": "npm",
@@ -48,6 +70,28 @@
     ],
     "linux": [
       {
+        "date": "2026-10-26T08:41:31.457Z",
+        "installMs": 9585,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-31Z-3127ad",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "obsidian_get_note",
+          "obsidian_list_notes",
+          "obsidian_list_tags",
+          "obsidian_open_in_ui",
+          "obsidian_search_notes",
+          "obsidian_write_note",
+          "obsidian_append_to_note",
+          "obsidian_patch_note",
+          "obsidian_replace_in_note",
+          "obsidian_manage_frontmatter",
+          "obsidian_manage_tags",
+          "obsidian_delete_note"
+        ]
+      },
+      {
         "date": "2026-08-16T15:41:59.337Z",
         "installMs": 18700,
         "method": "npm",
@@ -93,6 +137,28 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-26T08:41:59.389Z",
+        "installMs": 243694,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-59Z-6e4c78",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "obsidian_get_note",
+          "obsidian_list_notes",
+          "obsidian_list_tags",
+          "obsidian_open_in_ui",
+          "obsidian_search_notes",
+          "obsidian_write_note",
+          "obsidian_append_to_note",
+          "obsidian_patch_note",
+          "obsidian_replace_in_note",
+          "obsidian_manage_frontmatter",
+          "obsidian_manage_tags",
+          "obsidian_delete_note"
+        ]
+      },
       {
         "date": "2026-08-16T15:42:13.871Z",
         "installMs": 161021,

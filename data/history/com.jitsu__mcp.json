@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-26T08:41:38.518Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"missing_token\",\"error_description\":\"Authorization header either missing or malformed\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-10-26T08-41-38Z-f793a6",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-19T20:22:54.774Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"missing_token\",\"error_description\":\"Authorization header either missing or malformed\"} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -60,6 +67,13 @@
     ],
     "linux": [
       {
+        "date": "2026-10-26T08:41:31.617Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"missing_token\",\"error_description\":\"Authorization header either missing or malformed\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-10-26T08-41-31Z-5a4525",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-19T20:22:49.421Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"missing_token\",\"error_description\":\"Authorization header either missing or malformed\"} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -117,6 +131,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-26T08:41:52.818Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"missing_token\",\"error_description\":\"Authorization header either missing or malformed\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-10-26T08-41-52Z-c114d1",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-19T20:23:15.057Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"missing_token\",\"error_description\":\"Authorization header either missing or malformed\"} (endpoint reachable but requires credentials the harness does not send)",

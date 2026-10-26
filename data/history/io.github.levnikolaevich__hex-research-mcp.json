@@ -2,6 +2,32 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-26T08:41:39.792Z",
+        "installMs": 6288,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-39Z-9fba12",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "index_hypotheses",
+          "verify_index",
+          "find_hypotheses",
+          "inspect_hypothesis",
+          "find_evidence",
+          "find_runs",
+          "trace_lineage",
+          "analyze_topology",
+          "audit_orphans",
+          "inspect_goal",
+          "trace_goal_tree",
+          "audit_goal_alignment",
+          "analyze_progress",
+          "analyze_proposed",
+          "export_canvas",
+          "export_research_map"
+        ]
+      },
+      {
         "date": "2026-08-16T15:42:04.537Z",
         "installMs": 7292,
         "method": "npm",
@@ -56,6 +82,32 @@
     ],
     "linux": [
       {
+        "date": "2026-10-26T08:41:32.163Z",
+        "installMs": 3386,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-32Z-1a3acc",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "index_hypotheses",
+          "verify_index",
+          "find_hypotheses",
+          "inspect_hypothesis",
+          "find_evidence",
+          "find_runs",
+          "trace_lineage",
+          "analyze_topology",
+          "audit_orphans",
+          "inspect_goal",
+          "trace_goal_tree",
+          "audit_goal_alignment",
+          "analyze_progress",
+          "analyze_proposed",
+          "export_canvas",
+          "export_research_map"
+        ]
+      },
+      {
         "date": "2026-08-16T15:41:59.337Z",
         "installMs": 4793,
         "method": "npm",
@@ -109,6 +161,32 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-26T08:41:54.532Z",
+        "installMs": 113636,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-54Z-7481d3",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "index_hypotheses",
+          "verify_index",
+          "find_hypotheses",
+          "inspect_hypothesis",
+          "find_evidence",
+          "find_runs",
+          "trace_lineage",
+          "analyze_topology",
+          "audit_orphans",
+          "inspect_goal",
+          "trace_goal_tree",
+          "audit_goal_alignment",
+          "analyze_progress",
+          "analyze_proposed",
+          "export_canvas",
+          "export_research_map"
+        ]
+      },
       {
         "date": "2026-08-16T15:42:13.871Z",
         "installMs": 74871,

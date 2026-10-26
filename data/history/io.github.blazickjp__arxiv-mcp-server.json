@@ -2,6 +2,34 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-26T08:41:40.406Z",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-40Z-988c6c",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "search_papers",
+          "download_paper",
+          "list_papers",
+          "read_paper",
+          "get_abstract",
+          "semantic_search",
+          "reindex",
+          "citation_graph",
+          "export_citations",
+          "watch_topic",
+          "check_alerts",
+          "list_watches",
+          "unwatch_topic",
+          "get_paper_latex",
+          "list_paper_latex_sections",
+          "get_paper_latex_section",
+          "get_paper_outline",
+          "read_paper_section",
+          "search_paper_text"
+        ]
+      },
+      {
         "date": "2026-08-16T15:42:00.997Z",
         "method": "pypi",
         "runId": "2026-08-16T15-42-00Z-c4e177",
@@ -50,6 +78,34 @@
     ],
     "linux": [
       {
+        "date": "2026-10-26T08:41:31.457Z",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-31Z-3127ad",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "search_papers",
+          "download_paper",
+          "list_papers",
+          "read_paper",
+          "get_abstract",
+          "semantic_search",
+          "reindex",
+          "citation_graph",
+          "export_citations",
+          "watch_topic",
+          "check_alerts",
+          "list_watches",
+          "unwatch_topic",
+          "get_paper_latex",
+          "list_paper_latex_sections",
+          "get_paper_latex_section",
+          "get_paper_outline",
+          "read_paper_section",
+          "search_paper_text"
+        ]
+      },
+      {
         "date": "2026-08-16T15:41:56.759Z",
         "method": "pypi",
         "runId": "2026-08-16T15-41-56Z-6a1d71",
@@ -97,6 +153,34 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-26T08:41:59.389Z",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-59Z-6e4c78",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "search_papers",
+          "download_paper",
+          "list_papers",
+          "read_paper",
+          "get_abstract",
+          "semantic_search",
+          "reindex",
+          "citation_graph",
+          "export_citations",
+          "watch_topic",
+          "check_alerts",
+          "list_watches",
+          "unwatch_topic",
+          "get_paper_latex",
+          "list_paper_latex_sections",
+          "get_paper_latex_section",
+          "get_paper_outline",
+          "read_paper_section",
+          "search_paper_text"
+        ]
+      },
       {
         "date": "2026-08-16T15:42:18.905Z",
         "method": "pypi",

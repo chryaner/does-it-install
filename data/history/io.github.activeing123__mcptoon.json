@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-10-26T08:41:39.792Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: JSON\nUnexpected token 'e', \"    echo '{\"hu\"... is not valid JSON\nUnexpected token 'm', \"    mcptoon discover\" is not valid JSON\nUnexpected token 'm', \"    mcptoon doctor\" is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'E', \"Environment:\" is not valid JSON\nUnexpected token 'M', \"MCPTOON_AG\"... is not valid JSON\nUnexpected token 'M', \"MCPTOON_AG\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'C', \"Config: ~/\"... is not valid JSON\nUnexpected end of JSON input\n--- stderr (tail) ---\nInstalled 1 package in 3ms",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-39Z-9fba12",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-10-26T08:41:32.163Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: JSON\nUnexpected token 'e', \"    echo '{\"hu\"... is not valid JSON\nUnexpected token 'm', \"    mcptoon discover\" is not valid JSON\nUnexpected token 'm', \"    mcptoon doctor\" is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'E', \"Environment:\" is not valid JSON\nUnexpected token 'M', \"MCPTOON_AG\"... is not valid JSON\nUnexpected token 'M', \"MCPTOON_AG\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'C', \"Config: ~/\"... is not valid JSON\nUnexpected end of JSON input\n--- stderr (tail) ---\nInstalled 1 package in 2ms",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-32Z-1a3acc",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-10-26T08:41:54.532Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: JSON\nUnexpected token 'e', \"    echo '{\"hu\"... is not valid JSON\nUnexpected token 'm', \"    mcptoon discover\" is not valid JSON\nUnexpected token 'm', \"    mcptoon doctor\" is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'E', \"Environment:\" is not valid JSON\nUnexpected token 'M', \"MCPTOON_AG\"... is not valid JSON\nUnexpected token 'M', \"MCPTOON_AG\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'C', \"Config: ~/\"... is not valid JSON\nUnexpected end of JSON input\n--- stderr (tail) ---\nInstalled 1 package in 210ms",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-54Z-7481d3",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.activeing123/mcptoon",
+  "slug": "io.github.activeing123__mcptoon"
+}

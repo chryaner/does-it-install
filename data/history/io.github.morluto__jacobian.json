@@ -1,0 +1,44 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-10-26T08:41:40.406Z",
+        "installMs": 2235,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-40Z-988c6c",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "math.find",
+          "math.run"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-10-26T08:41:31.457Z",
+        "installMs": 1421,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-31Z-3127ad",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "math.find",
+          "math.run"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-10-26T08:41:59.389Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\nDownloading sympy (6.0MiB)\nDownloading networkx (2.0MiB)\nDownloading gmpy2 (1.1MiB)\nDownloading python-flint (9.1MiB)\nDownloading z3-solver (16.3MiB)\nDownloading scipy (36.7MiB)\nDownloading cypari (7.2MiB)\nDownloading jacobian (5.4MiB)\n Downloaded gmpy2\n   Building pplpy==0.9.0\n Downloaded networkx\n Downloaded cypari\n Downloaded python-flint\n Downloaded z3-solver\n Downloaded sympy\n Downloaded scipy",
+        "installMs": 44944,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-59Z-6e4c78",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "io.github.morluto/jacobian",
+  "slug": "io.github.morluto__jacobian"
+}

@@ -2,6 +2,17 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-26T08:41:39.792Z",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-39Z-9fba12",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "browser_exec",
+          "browser_screenshot"
+        ]
+      },
+      {
         "date": "2026-10-19T08:32:38.849Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n… stable_deref_trait v1.2.0\n            Compiling autocfg v1.3.0\n            Compiling writeable v0.5.5\n            Compiling litemap v0.7.3\n            Compiling libc v0.2.155\n            Compiling pyo3-build-config v0.26.0\n            Compiling quote v1.0.36\n            Compiling heck v0.5.0\n            Compiling syn v2.0.82\n            Compiling num-traits v0.2.19\n            Compiling version_check v0.9.5\n            Compiling icu_locid_transform_data v1.5.0\n            Compiling smallvec v1.15.1\n            Compiling pyo3-ffi v0.26.0\n            Compiling pyo3-macros-backend v0.26.0\n            Compiling icu_properties_data v1.5.0\n            Compiling static_assertions v1.1.0\n            Compiling lexical-util v1.0.6\n         error: failed to run custom build command for `pyo3-ffi v0.26.0`\n\n         Caused by:\n           process didn't exit successfully: `/Users/runner/.cache/uv/sdists-v10/pypi/pydantic-core/2.41.5/IkVQRVhZRNjtlcsw/src/target/release/build/pyo3-ffi-320804025e912c55/build-script-build` (exit status: 1)\n           --- stdout\n           cargo:rustc-check-cfg=cfg(Py_LIMITED_API)\n           cargo:rustc-check-cfg=cfg(Py_GIL_DISABLED)\n           cargo:rustc-check-cfg=cfg(PyPy)\n           cargo:rustc-check-cfg=cfg(GraalPy)\n           cargo:rustc-check-cfg=cfg(py_sys_config, values(\"Py_DEBUG\", \"Py_REF_DEBUG\", \"Py_TRACE_REFS\", \"COUNT_ALLOCS\"))\n           cargo:rustc-check-cfg=cfg(pyo3_disable_reference_pool)\n           cargo:rustc-check-cfg=cfg(pyo3_leak_on_drop_without_reference_pool)\n           cargo:rustc-check-cfg=cfg(Py_3_7)\n           cargo:rustc-check-cfg=cfg(Py_3_8)\n           cargo:rustc-check-cfg=cfg(Py_3_9)\n           cargo:rustc-check-cfg=cfg(Py_3_10)\n           cargo:rustc-check-cfg=cfg(Py_3_11)\n           cargo:rustc-check-cfg=cfg(Py_3_12)\n           cargo:rustc-check-cfg=cfg(Py_3_13)\n           cargo:rustc-check-cfg=cfg(Py_3_14)\n           cargo:rustc-check-cfg=cfg(Py_3_15)\n           cargo:rerun-if-env-changed=PYO3_CROSS\n           cargo:rerun-if-env-changed=PYO3_CROSS_LIB_DIR\n           cargo:rerun-if-env-changed=PYO3_CROSS_PYTHON_VERSION\n           cargo:rerun-if-env-changed=PYO3_CROSS_PYTHON_IMPLEMENTATION\n           cargo:rerun-if-env-changed=PYO3_PRINT_CONFIG\n           cargo:rerun-if-env-changed=PYO3_USE_ABI3_FORWARD_COMPATIBILITY\n\n           --- stderr\n           error: the configured Python interpreter version (3.15) is newer than PyO3's maximum supported version (3.14)\n           = help: please check if an updated version of PyO3 is available. Current version: 0.26.0\n           = help: set PYO3_USE_ABI3_FORWARD_COMPATIBILITY=1 to suppress this check and build anyway using the stable ABI\n         warning: build failed, waiting for other jobs to finish...\n         💥 maturin failed\n           Caused by: Failed to build a native library through cargo\n           Caused by: Cargo build finished with \"exit status: 101\": `env -u CARGO MACOSX_DEPLOYMENT_TARGET=\"11.0\" PYO3_BUILD_EXTENSION_MODULE=\"1\" PYO3_ENVIRONMENT_SIGNATURE=\"cpython-3.15-64bit\" PYO3_PYTHON=\"/Users/runner/.cache/uv/builds-v0/.tmpBC3GHc/bin/python\" PYTHON_SYS_EXECUTABLE=\"/Users/runner/.cache/uv/builds-v0/.tmpBC3GHc/bin/python\" \"cargo\" \"rustc\" \"--profile\" \"release\" \"--message-format\" \"json-render-diagnostics\" \"--manifest-path\" \"/Users/runner/.cache/uv/sdists-v10/pypi/pydantic-core/2.41.5/IkVQRVhZRNjtlcsw/src/Cargo.toml\" \"--lib\" \"--crate-type\" \"cdylib\" \"--\" \"-C\" \"link-args=-Wl,-install_name,@rpath/pydantic_core._pydantic_core.cpython-315-darwin.so\"`\n         Error: command ['maturin', 'pep517', 'build-wheel', '-i', '/Users/runner/.cache/uv/builds-v0/.tmpBC3GHc/bin/python', '--compatibility', 'off'] returned non-zero exit status 1\n\nhint: `pydantic-core` (v2.41.5) was included because `browser-use` (v0.13.5) depends on `pydantic` (v2.12.5) which depends on `pydantic-core`\n\nhint: Build failures usually indicate a problem with the package or the build environment",
         "method": "pypi",
@@ -186,6 +197,17 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-10-26T08:41:32.163Z",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-32Z-1a3acc",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "browser_exec",
+          "browser_screenshot"
+        ]
+      },
       {
         "date": "2026-10-19T08:32:36.094Z",
         "method": "pypi",
@@ -375,6 +397,17 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-26T08:41:54.532Z",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-54Z-7481d3",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "browser_exec",
+          "browser_screenshot"
+        ]
+      },
       {
         "date": "2026-10-19T08:33:06.762Z",
         "method": "pypi",

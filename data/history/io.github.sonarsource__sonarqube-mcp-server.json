@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-26T08:41:40.406Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-10-26T08-41-40Z-988c6c",
+        "status": "skipped"
+      },
+      {
         "date": "2026-08-16T15:42:04.537Z",
         "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
         "installMs": 0,
@@ -20,6 +28,14 @@
     ],
     "linux": [
       {
+        "date": "2026-10-26T08:41:31.457Z",
+        "errorExcerpt": "handshake failed: MCP error -32603: Failed to list SonarQube Cloud organizations for the provided token. Verify the token is valid, or set SONARQUBE_ORG explicitly.\n--- stderr (tail) ---\nERROR SonarQube MCP Server - Failed to start SonarQube MCP Server\njava.lang.IllegalStateException: Failed to list SonarQube Cloud organizations for the provided token. Verify the token is valid, or set SONARQUBE_ORG explicitly.\n\tat org.sonarsource.sonarqube.mcp.SonarQubeMcpServer.resolveOrganizationAtStartup(SonarQubeMcpServer.java:733)\n\tat org.sonarsource.sonarqube.mcp.SonarQubeMcpServer.initializeBasicServicesAndTools(SonarQubeMcpServer.java:301)\n\tat org.sonarsource.sonarqube.mcp.SonarQubeMcpServer.<init>(SonarQubeMcpServer.java:244)\n\tat org.sonarsource.sonarqube.mcp.SonarQubeMcpServer.main(SonarQubeMcpServer.java:214)\nCaused by: org.sonarsource.sonarqube.mcp.serverapi.exception.ForbiddenException: SonarQube answered with Forbidden\n\tat org.sonarsource.sonarqube.mcp.serverapi.ServerApiHelper.handleError(ServerApiHelper.java:206)\n\tat org.sonarsource.sonarqube.mcp.serverapi.ServerApiHelper.getApiSubdomain(ServerApiHelper.java:123)\n\tat org.sonarsource.sonarqube.mcp.serverapi.organizations.OrganizationsApi.listOrganizations(OrganizationsApi.java:69)\n\tat org.sonarsource.sonarqube.mcp.SonarQubeMcpServer.resolveOrganizationAtStartup(SonarQubeMcpServer.java:731)\n\t... 3 more",
+        "installMs": 3882,
+        "method": "oci",
+        "runId": "2026-10-26T08-41-31Z-3127ad",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-16T15:41:59.337Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nException in thread \"main\" java.lang.IllegalArgumentException: SONARQUBE_URL or SONARQUBE_ORG must be set. Set SONARQUBE_URL to your SonarQube Server URL or SonarQube Cloud URL, or set SONARQUBE_ORG to connect to SonarQube Cloud.\n\tat org.sonarsource.sonarqube.mcp.configuration.McpServerLaunchConfiguration.validateStdioConfiguration(McpServerLaunchConfiguration.java:411)\n\tat org.sonarsource.sonarqube.mcp.configuration.McpServerLaunchConfiguration.<init>(McpServerLaunchConfiguration.java:170)\n\tat org.sonarsource.sonarqube.mcp.SonarQubeMcpServer.<init>(SonarQubeMcpServer.java:203)\n\tat org.sonarsource.sonarqube.mcp.SonarQubeMcpServer.main(SonarQubeMcpServer.java:199)",
         "installMs": 2585,
@@ -37,6 +53,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-26T08:41:59.389Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-10-26T08-41-59Z-6e4c78",
+        "status": "skipped"
+      },
       {
         "date": "2026-08-16T15:42:13.871Z",
         "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",

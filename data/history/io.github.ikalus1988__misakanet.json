@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-26T08:41:38.518Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 2 packages in 22ms\nusage: misakanet [-h] [--top TOP] [--json] [--token TOKEN]\n                 [--client-id CLIENT_ID] [--endpoint ENDPOINT]\n                 query\nmisakanet: error: the following arguments are required: query",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-38Z-f793a6",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-16T02:45:27.243Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 2 packages in 5ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/Iel1z_gFAMAdF2La/bin/misakanet\", line 6, in <module>\n    from search_knowledge import main\nModuleNotFoundError: No module named 'search_knowledge'",
         "method": "pypi",
@@ -11,6 +18,13 @@
     ],
     "linux": [
       {
+        "date": "2026-10-26T08:41:31.617Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 2 packages in 4ms\nusage: misakanet [-h] [--top TOP] [--json] [--token TOKEN]\n                 [--client-id CLIENT_ID] [--endpoint ENDPOINT]\n                 query\nmisakanet: error: the following arguments are required: query",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-31Z-5a4525",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-16T02:45:19.430Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 2 packages in 3ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/Io6DIuhrU8-ZV1TH/bin/misakanet\", line 6, in <module>\n    from search_knowledge import main\nModuleNotFoundError: No module named 'search_knowledge'",
         "method": "pypi",
@@ -19,6 +33,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-26T08:41:52.818Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 2 packages in 319ms\nusage: misakanet [-h] [--top TOP] [--json] [--token TOKEN]\r\n                 [--client-id CLIENT_ID] [--endpoint ENDPOINT]\r\n                 query\r\nmisakanet: error: the following arguments are required: query",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-52Z-c114d1",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-16T02:45:39.090Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 2 packages in 442ms\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\lig3POvj4vSOTFuZ\\Scripts\\misakanet.exe\\__main__.py\", line 4, in <module>\r\nModuleNotFoundError: No module named 'search_knowledge'",

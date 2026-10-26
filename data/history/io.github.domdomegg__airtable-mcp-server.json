@@ -2,6 +2,32 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-26T08:41:38.518Z",
+        "installMs": 6024,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-38Z-f793a6",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "list_records",
+          "search_records",
+          "list_bases",
+          "list_tables",
+          "describe_table",
+          "get_record",
+          "create_record",
+          "update_records",
+          "delete_records",
+          "create_table",
+          "update_table",
+          "create_field",
+          "update_field",
+          "create_comment",
+          "list_comments",
+          "upload_attachment"
+        ]
+      },
+      {
         "date": "2026-08-16T15:42:00.997Z",
         "installMs": 3927,
         "method": "npm",
@@ -56,6 +82,32 @@
     ],
     "linux": [
       {
+        "date": "2026-10-26T08:41:31.617Z",
+        "installMs": 3455,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-31Z-5a4525",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "list_records",
+          "search_records",
+          "list_bases",
+          "list_tables",
+          "describe_table",
+          "get_record",
+          "create_record",
+          "update_records",
+          "delete_records",
+          "create_table",
+          "update_table",
+          "create_field",
+          "update_field",
+          "create_comment",
+          "list_comments",
+          "upload_attachment"
+        ]
+      },
+      {
         "date": "2026-08-16T15:41:56.759Z",
         "installMs": 4551,
         "method": "npm",
@@ -109,6 +161,32 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-26T08:41:52.818Z",
+        "installMs": 45508,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-52Z-c114d1",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "list_records",
+          "search_records",
+          "list_bases",
+          "list_tables",
+          "describe_table",
+          "get_record",
+          "create_record",
+          "update_records",
+          "delete_records",
+          "create_table",
+          "update_table",
+          "create_field",
+          "update_field",
+          "create_comment",
+          "list_comments",
+          "upload_attachment"
+        ]
+      },
       {
         "date": "2026-08-16T15:42:18.905Z",
         "installMs": 91796,

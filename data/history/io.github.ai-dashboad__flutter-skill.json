@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-26T08:41:40.406Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: spawn ENOEXEC\n    at ChildProcess.spawn (node:internal/child_process:420:11)\n    at spawn (node:child_process:787:9)\n    at runNativeBinary (/private/var/folders/n6/hn37q6pj7sj_9dmqqc2113800000gn/T/does-it-install/dii-npm-jN9f1d/node_modules/flutter-skill/bin/cli.js:125:18)\n    at main (/private/var/folders/n6/hn37q6pj7sj_9dmqqc2113800000gn/T/does-it-install/dii-npm-jN9f1d/node_modules/flutter-skill/bin/cli.js:93:5)\n    at Object.<anonymous> (/private/var/folders/n6/hn37q6pj7sj_9dmqqc2113800000gn/T/does-it-install/dii-npm-jN9f1d/node_modules/flutter-skill/bin/cli.js:321:1)\n    at Module._compile (node:internal/modules/cjs/loader:1781:14)\n    at Object..js (node:internal/modules/cjs/loader:1913:10)\n    at Module.load (node:internal/modules/cjs/loader:1505:32)\n    at Function._load (node:internal/modules/cjs/loader:1309:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19) {\n  errno: -8,\n  code: 'ENOEXEC',\n  syscall: 'spawn'\n}",
+        "installMs": 1042,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-40Z-988c6c",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-16T15:42:00.997Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: spawn ENOEXEC\n    at ChildProcess.spawn (node:internal/child_process:420:11)\n    at spawn (node:child_process:787:9)\n    at runNativeBinary (/private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-1TexNy/node_modules/flutter-skill/bin/cli.js:125:18)\n    at main (/private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-1TexNy/node_modules/flutter-skill/bin/cli.js:93:5)\n    at Object.<anonymous> (/private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-1TexNy/node_modules/flutter-skill/bin/cli.js:321:1)\n    at Module._compile (node:internal/modules/cjs/loader:1781:14)\n    at Object..js (node:internal/modules/cjs/loader:1913:10)\n    at Module.load (node:internal/modules/cjs/loader:1505:32)\n    at Function._load (node:internal/modules/cjs/loader:1309:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19) {\n  errno: -8,\n  code: 'ENOEXEC',\n  syscall: 'spawn'\n}",
         "installMs": 1825,
@@ -20,6 +28,14 @@
     ],
     "linux": [
       {
+        "date": "2026-10-26T08:41:31.457Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed",
+        "installMs": 1105,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-31Z-3127ad",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-16T15:41:56.759Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed",
         "installMs": 1142,
@@ -37,6 +53,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-26T08:41:59.389Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: spawn EFTYPE\n    at ChildProcess.spawn (node:internal/child_process:420:11)\n    at spawn (node:child_process:787:9)\n    at runNativeBinary (C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-femdCw\\node_modules\\flutter-skill\\bin\\cli.js:125:18)\n    at main (C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-femdCw\\node_modules\\flutter-skill\\bin\\cli.js:93:5)\n    at Object.<anonymous> (C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-femdCw\\node_modules\\flutter-skill\\bin\\cli.js:321:1)\n    at Module._compile (node:internal/modules/cjs/loader:1781:14)\n    at Object..js (node:internal/modules/cjs/loader:1913:10)\n    at Module.load (node:internal/modules/cjs/loader:1505:32)\n    at Function._load (node:internal/modules/cjs/loader:1309:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19) {\n  errno: -4028,\n  code: 'EFTYPE',\n  syscall: 'spawn'\n}",
+        "installMs": 5869,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-59Z-6e4c78",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-16T15:42:18.905Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: spawn EFTYPE\n    at ChildProcess.spawn (node:internal/child_process:420:11)\n    at spawn (node:child_process:787:9)\n    at runNativeBinary (C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-4TYYi5\\node_modules\\flutter-skill\\bin\\cli.js:125:18)\n    at main (C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-4TYYi5\\node_modules\\flutter-skill\\bin\\cli.js:93:5)\n    at Object.<anonymous> (C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-4TYYi5\\node_modules\\flutter-skill\\bin\\cli.js:321:1)\n    at Module._compile (node:internal/modules/cjs/loader:1781:14)\n    at Object..js (node:internal/modules/cjs/loader:1913:10)\n    at Module.load (node:internal/modules/cjs/loader:1505:32)\n    at Function._load (node:internal/modules/cjs/loader:1309:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19) {\n  errno: -4028,\n  code: 'EFTYPE',\n  syscall: 'spawn'\n}",

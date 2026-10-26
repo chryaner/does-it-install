@@ -2,6 +2,34 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-26T08:41:39.792Z",
+        "installMs": 666,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-39Z-9fba12",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "fablecut_status",
+          "fablecut_docs",
+          "fablecut_get_project",
+          "fablecut_patch_project",
+          "fablecut_set_project",
+          "fablecut_frame",
+          "fablecut_analyze_reference",
+          "fablecut_import_media",
+          "fablecut_encode_profiles",
+          "fablecut_normalize_audio",
+          "fablecut_auto_duck",
+          "fablecut_denoise",
+          "fablecut_projects",
+          "fablecut_versions",
+          "fablecut_proxy",
+          "fablecut_export",
+          "fablecut_scopes",
+          "fablecut_track"
+        ]
+      },
+      {
         "date": "2026-08-16T15:42:04.537Z",
         "errorExcerpt": "no npm, pypi, oci or remote distribution to probe",
         "method": "none",
@@ -18,6 +46,34 @@
     ],
     "linux": [
       {
+        "date": "2026-10-26T08:41:32.163Z",
+        "installMs": 425,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-32Z-1a3acc",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "fablecut_status",
+          "fablecut_docs",
+          "fablecut_get_project",
+          "fablecut_patch_project",
+          "fablecut_set_project",
+          "fablecut_frame",
+          "fablecut_analyze_reference",
+          "fablecut_import_media",
+          "fablecut_encode_profiles",
+          "fablecut_normalize_audio",
+          "fablecut_auto_duck",
+          "fablecut_denoise",
+          "fablecut_projects",
+          "fablecut_versions",
+          "fablecut_proxy",
+          "fablecut_export",
+          "fablecut_scopes",
+          "fablecut_track"
+        ]
+      },
+      {
         "date": "2026-08-16T15:41:59.337Z",
         "errorExcerpt": "no npm, pypi, oci or remote distribution to probe",
         "method": "none",
@@ -33,6 +89,34 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-26T08:41:54.532Z",
+        "installMs": 17302,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-54Z-7481d3",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "fablecut_status",
+          "fablecut_docs",
+          "fablecut_get_project",
+          "fablecut_patch_project",
+          "fablecut_set_project",
+          "fablecut_frame",
+          "fablecut_analyze_reference",
+          "fablecut_import_media",
+          "fablecut_encode_profiles",
+          "fablecut_normalize_audio",
+          "fablecut_auto_duck",
+          "fablecut_denoise",
+          "fablecut_projects",
+          "fablecut_versions",
+          "fablecut_proxy",
+          "fablecut_export",
+          "fablecut_scopes",
+          "fablecut_track"
+        ]
+      },
       {
         "date": "2026-08-16T15:42:13.871Z",
         "errorExcerpt": "no npm, pypi, oci or remote distribution to probe",

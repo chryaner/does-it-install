@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-26T08:41:38.518Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: d JSON\nUnexpected token '\ud83d', \"📬 Bugs, i\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'P', \"Press Ctrl\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '\ud83d', \"📦 Update \"... is not valid JSON\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected token '\ud83d', \"  📦 New ver\"... is not valid JSON\nUnexpected token 'R', \"     Run: npx @\"... is not valid JSON\nUnexpected token 'O', \"     Or:  npm u\"... is not valid JSON\nUnexpected end of JSON input",
+        "installMs": 8491,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-38Z-f793a6",
+        "status": "timeout"
+      },
+      {
         "date": "2026-08-16T15:42:04.537Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n✗ Cannot read /Users/runner/.claude\n\n  Claude Code stores its config in ~/.claude/ but this directory\n  either doesn't exist or isn't readable by your current user.\n\n  To fix:\n    1. Make sure Claude Code has been run at least once\n    2. Check permissions: ls -la ~/.claude/\n    3. If needed:  chmod u+r ~/.claude",
         "installMs": 4806,
@@ -20,6 +28,14 @@
     ],
     "linux": [
       {
+        "date": "2026-10-26T08:41:31.617Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: d JSON\nUnexpected token '\ud83d', \"📬 Bugs, i\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'P', \"Press Ctrl\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected token '\ud83d', \"  📦 New ver\"... is not valid JSON\nUnexpected token 'R', \"     Run: npx @\"... is not valid JSON\nUnexpected token 'O', \"     Or:  npm u\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '\ud83d', \"📦 Update \"... is not valid JSON\nUnexpected end of JSON input",
+        "installMs": 4394,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-31Z-5a4525",
+        "status": "timeout"
+      },
+      {
         "date": "2026-08-16T15:41:59.337Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n✗ Cannot read /home/runner/.claude\n\n  Claude Code stores its config in ~/.claude/ but this directory\n  either doesn't exist or isn't readable by your current user.\n\n  To fix:\n    1. Make sure Claude Code has been run at least once\n    2. Check permissions: ls -la ~/.claude/\n    3. If needed:  chmod u+r ~/.claude",
         "installMs": 3638,
@@ -37,6 +53,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-26T08:41:52.818Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: d JSON\nUnexpected token '\ud83d', \"📬 Bugs, i\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'P', \"Press Ctrl\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '\ud83d', \"📦 Update \"... is not valid JSON\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected token '\ud83d', \"  📦 New ver\"... is not valid JSON\nUnexpected token 'R', \"     Run: npx @\"... is not valid JSON\nUnexpected token 'O', \"     Or:  npm u\"... is not valid JSON\nUnexpected end of JSON input",
+        "installMs": 103755,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-52Z-c114d1",
+        "status": "timeout"
+      },
       {
         "date": "2026-08-16T15:42:13.871Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n✗ Cannot read C:\\Users\\runneradmin\\.claude\n\n  Claude Code stores its config in ~/.claude/ but this directory\n  either doesn't exist or isn't readable by your current user.\n\n  To fix:\n    1. Make sure Claude Code has been run at least once\n    2. Check permissions: ls -la ~/.claude/\n    3. If needed:  chmod u+r ~/.claude",

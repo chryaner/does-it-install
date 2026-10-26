@@ -2,6 +2,32 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-26T08:41:40.406Z",
+        "installMs": 8505,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-40Z-988c6c",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "index_project",
+          "install_graph_providers",
+          "export_scip",
+          "import_scip_overlay",
+          "find_symbols",
+          "inspect_symbol",
+          "trace_paths",
+          "find_references",
+          "find_implementations",
+          "trace_dataflow",
+          "analyze_changes",
+          "analyze_edit_region",
+          "api_impact",
+          "diagnose_graph",
+          "analyze_architecture",
+          "audit_workspace"
+        ]
+      },
+      {
         "date": "2026-08-16T15:42:00.997Z",
         "installMs": 14038,
         "method": "npm",
@@ -56,6 +82,32 @@
     ],
     "linux": [
       {
+        "date": "2026-10-26T08:41:31.457Z",
+        "installMs": 6855,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-31Z-3127ad",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "index_project",
+          "install_graph_providers",
+          "export_scip",
+          "import_scip_overlay",
+          "find_symbols",
+          "inspect_symbol",
+          "trace_paths",
+          "find_references",
+          "find_implementations",
+          "trace_dataflow",
+          "analyze_changes",
+          "analyze_edit_region",
+          "api_impact",
+          "diagnose_graph",
+          "analyze_architecture",
+          "audit_workspace"
+        ]
+      },
+      {
         "date": "2026-08-16T15:41:56.759Z",
         "installMs": 7292,
         "method": "npm",
@@ -109,6 +161,32 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-26T08:41:59.389Z",
+        "installMs": 178420,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-59Z-6e4c78",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "index_project",
+          "install_graph_providers",
+          "export_scip",
+          "import_scip_overlay",
+          "find_symbols",
+          "inspect_symbol",
+          "trace_paths",
+          "find_references",
+          "find_implementations",
+          "trace_dataflow",
+          "analyze_changes",
+          "analyze_edit_region",
+          "api_impact",
+          "diagnose_graph",
+          "analyze_architecture",
+          "audit_workspace"
+        ]
+      },
       {
         "date": "2026-08-16T15:42:18.905Z",
         "installMs": 165456,

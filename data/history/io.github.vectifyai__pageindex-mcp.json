@@ -2,6 +2,26 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-26T08:41:39.792Z",
+        "installMs": 14460,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-39Z-9fba12",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "process_document",
+          "browse_documents",
+          "search_documents",
+          "get_folder_structure",
+          "get_metadata_schema",
+          "get_document",
+          "get_document_structure",
+          "get_page_content",
+          "get_document_image",
+          "remove_document"
+        ]
+      },
+      {
         "date": "2026-08-16T15:42:04.537Z",
         "errorExcerpt": "listTools failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\nNo existing OAuth tokens found, starting fresh authentication.\n\nNo existing OAuth tokens found, starting fresh authentication.\n\nAuthentication required, starting OAuth flow...\n\nListening for OAuth callback on port 8090...",
         "installMs": 8823,
@@ -20,6 +40,26 @@
     ],
     "linux": [
       {
+        "date": "2026-10-26T08:41:32.163Z",
+        "installMs": 3415,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-32Z-1a3acc",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "process_document",
+          "browse_documents",
+          "search_documents",
+          "get_folder_structure",
+          "get_metadata_schema",
+          "get_document",
+          "get_document_structure",
+          "get_page_content",
+          "get_document_image",
+          "remove_document"
+        ]
+      },
+      {
         "date": "2026-08-16T15:41:59.337Z",
         "errorExcerpt": "listTools failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\nNo existing OAuth tokens found, starting fresh authentication.\n\nNo existing OAuth tokens found, starting fresh authentication.\n\nAuthentication required, starting OAuth flow...\n\nListening for OAuth callback on port 8090...",
         "installMs": 4456,
@@ -37,6 +77,26 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-26T08:41:54.532Z",
+        "installMs": 263279,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-54Z-7481d3",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "process_document",
+          "browse_documents",
+          "search_documents",
+          "get_folder_structure",
+          "get_metadata_schema",
+          "get_document",
+          "get_document_structure",
+          "get_page_content",
+          "get_document_image",
+          "remove_document"
+        ]
+      },
       {
         "date": "2026-08-16T15:42:13.871Z",
         "errorExcerpt": "listTools failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\nNo existing OAuth tokens found, starting fresh authentication.\n\nNo existing OAuth tokens found, starting fresh authentication.\n\nAuthentication required, starting OAuth flow...\n\nListening for OAuth callback on port 8090...",

@@ -1,0 +1,69 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-10-26T08:41:38.518Z",
+        "installMs": 3260,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-38Z-f793a6",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "convert",
+          "gamut",
+          "css",
+          "space",
+          "spaces",
+          "cube",
+          "shader",
+          "icc",
+          "code"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-10-26T08:41:31.617Z",
+        "installMs": 850,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-31Z-5a4525",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "convert",
+          "gamut",
+          "css",
+          "space",
+          "spaces",
+          "cube",
+          "shader",
+          "icc",
+          "code"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-10-26T08:41:52.818Z",
+        "installMs": 51126,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-52Z-c114d1",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "convert",
+          "gamut",
+          "css",
+          "space",
+          "spaces",
+          "cube",
+          "shader",
+          "icc",
+          "code"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.colorjs/color-space",
+  "slug": "io.github.colorjs__color-space"
+}

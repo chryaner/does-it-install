@@ -1,0 +1,48 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-10-26T08:41:39.792Z",
+        "method": "remote-http",
+        "runId": "2026-10-26T08-41-39Z-9fba12",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "get_repository_diagram",
+          "find_repository_diagrams",
+          "get_explainer_video"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-10-26T08:41:32.163Z",
+        "method": "remote-http",
+        "runId": "2026-10-26T08-41-32Z-1a3acc",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "get_repository_diagram",
+          "find_repository_diagrams",
+          "get_explainer_video"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-10-26T08:41:54.532Z",
+        "method": "remote-http",
+        "runId": "2026-10-26T08-41-54Z-7481d3",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "get_repository_diagram",
+          "find_repository_diagrams",
+          "get_explainer_video"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.gitdiagram/gitdiagram",
+  "slug": "com.gitdiagram__gitdiagram"
+}

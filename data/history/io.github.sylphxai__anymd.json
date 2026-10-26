@@ -1,0 +1,54 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-10-26T08:41:39.792Z",
+        "installMs": 1666,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-39Z-9fba12",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "inspect",
+          "outline",
+          "read",
+          "search"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-10-26T08:41:32.163Z",
+        "installMs": 1406,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-32Z-1a3acc",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "inspect",
+          "outline",
+          "read",
+          "search"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-10-26T08:41:54.532Z",
+        "installMs": 2514,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-54Z-7481d3",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "inspect",
+          "outline",
+          "read",
+          "search"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.SylphxAI/anymd",
+  "slug": "io.github.sylphxai__anymd"
+}

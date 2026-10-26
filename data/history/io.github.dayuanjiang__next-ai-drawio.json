@@ -1,0 +1,90 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-10-26T08:41:40.406Z",
+        "installMs": 16716,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-40Z-988c6c",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "get_drawing_guide",
+          "get_shape_library",
+          "start_session",
+          "list_saved_diagrams",
+          "create_new_diagram",
+          "load_diagram",
+          "edit_diagram",
+          "get_diagram",
+          "get_selection",
+          "screenshot_diagram",
+          "export_diagram",
+          "list_pages",
+          "add_page",
+          "rename_page",
+          "delete_page",
+          "restore_version"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-10-26T08:41:31.457Z",
+        "installMs": 9543,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-31Z-3127ad",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "get_drawing_guide",
+          "get_shape_library",
+          "start_session",
+          "list_saved_diagrams",
+          "create_new_diagram",
+          "load_diagram",
+          "edit_diagram",
+          "get_diagram",
+          "get_selection",
+          "screenshot_diagram",
+          "export_diagram",
+          "list_pages",
+          "add_page",
+          "rename_page",
+          "delete_page",
+          "restore_version"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-10-26T08:41:59.389Z",
+        "installMs": 340584,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-59Z-6e4c78",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "get_drawing_guide",
+          "get_shape_library",
+          "start_session",
+          "list_saved_diagrams",
+          "create_new_diagram",
+          "load_diagram",
+          "edit_diagram",
+          "get_diagram",
+          "get_selection",
+          "screenshot_diagram",
+          "export_diagram",
+          "list_pages",
+          "add_page",
+          "rename_page",
+          "delete_page",
+          "restore_version"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.DayuanJiang/next-ai-drawio",
+  "slug": "io.github.dayuanjiang__next-ai-drawio"
+}

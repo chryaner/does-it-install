@@ -1,0 +1,68 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-10-26T08:41:39.792Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: pm-trader [OPTIONS] COMMAND [ARGS]...\n\n  pm-trader — your AI agent trades Polymarket.\n\nOptions:\n  --data-dir PATH  Data directory for SQLite database.\n  --account TEXT   Account name (each account gets its own database).\n  --help           Show this message and exit.\n\nCommands:\n  accounts     Manage named accounts.\n  balance      Show account balance (cash, reserved/available cash) and...\n  benchmark    Run and compare trading strategies (alias of 'strategy').\n  book         Show the order book for a market's YES token.\n  buy          Buy shares: spend USD, buy at market price.\n  export       Export trades or positions to CSV/JSON.\n  history      Show trade history.\n  init         Initialize a paper trading account.\n  kalshi       Read-only Kalshi market data (no trading).\n  leaderboard  Generate a leaderboard entry for ranking and PK.\n  markets      Market data commands.\n  mcp          Start MCP server (stdio or streamable-http transport) for...\n  orders       Manage limit orders (GTC/GTD).\n  pk           Battle: who's the better trader? Compare two accounts...\n  portfolio    Show open positions with live prices and unrealized P&L.\n  price        Show YES/NO midpoint prices and spread.\n  reset        Wipe all data and start fresh.\n  resolve      Resolve a market or all closed markets.\n  sell         Sell shares: receive USD at market price.\n  stats        Show performance analytics (win rate, ROI, profit, max...\n  strategy     Run and compare trading strategies.\n  watch        Get live midpoint prices for markets.",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-39Z-9fba12",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-10-26T08:41:32.163Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: pm-trader [OPTIONS] COMMAND [ARGS]...\n\n  pm-trader — your AI agent trades Polymarket.\n\nOptions:\n  --data-dir PATH  Data directory for SQLite database.\n  --account TEXT   Account name (each account gets its own database).\n  --help           Show this message and exit.\n\nCommands:\n  accounts     Manage named accounts.\n  balance      Show account balance (cash, reserved/available cash) and...\n  benchmark    Run and compare trading strategies (alias of 'strategy').\n  book         Show the order book for a market's YES token.\n  buy          Buy shares: spend USD, buy at market price.\n  export       Export trades or positions to CSV/JSON.\n  history      Show trade history.\n  init         Initialize a paper trading account.\n  kalshi       Read-only Kalshi market data (no trading).\n  leaderboard  Generate a leaderboard entry for ranking and PK.\n  markets      Market data commands.\n  mcp          Start MCP server (stdio or streamable-http transport) for...\n  orders       Manage limit orders (GTC/GTD).\n  pk           Battle: who's the better trader? Compare two accounts...\n  portfolio    Show open positions with live prices and unrealized P&L.\n  price        Show YES/NO midpoint prices and spread.\n  reset        Wipe all data and start fresh.\n  resolve      Resolve a market or all closed markets.\n  sell         Sell shares: receive USD at market price.\n  stats        Show performance analytics (win rate, ROI, profit, max...\n  strategy     Run and compare trading strategies.\n  watch        Get live midpoint prices for markets.",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-32Z-1a3acc",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-10-26T08:41:54.532Z",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-54Z-7481d3",
+        "status": "pass",
+        "toolCount": 33,
+        "toolNames": [
+          "init_account",
+          "get_balance",
+          "reset_account",
+          "search_markets",
+          "list_markets",
+          "get_market",
+          "get_order_book",
+          "kalshi_markets",
+          "kalshi_market",
+          "kalshi_book",
+          "get_tags",
+          "get_markets_by_tag",
+          "get_event",
+          "watch_prices",
+          "buy",
+          "sell",
+          "portfolio",
+          "history",
+          "place_limit_order",
+          "list_orders",
+          "cancel_order",
+          "cancel_all_orders",
+          "check_orders",
+          "stats",
+          "stats_card",
+          "leaderboard_entry",
+          "share_content",
+          "pk_card",
+          "leaderboard_card",
+          "pk_battle",
+          "resolve",
+          "resolve_all",
+          "backtest"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.agent-next/polymarket-paper-trader",
+  "slug": "io.github.agent-next__polymarket-paper-trader"
+}

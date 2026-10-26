@@ -2,6 +2,21 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-26T08:41:38.518Z",
+        "method": "remote-http",
+        "runId": "2026-10-26T08-41-38Z-f793a6",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "list_strategies",
+          "get_strategy",
+          "get_stock_evidence",
+          "get_data_catalog",
+          "get_finlab_docs",
+          "how_to_start"
+        ]
+      },
+      {
         "date": "2026-08-16T15:42:04.537Z",
         "method": "remote-http",
         "runId": "2026-08-16T15-42-04Z-eb2637",
@@ -34,6 +49,21 @@
     ],
     "linux": [
       {
+        "date": "2026-10-26T08:41:31.617Z",
+        "method": "remote-http",
+        "runId": "2026-10-26T08-41-31Z-5a4525",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "list_strategies",
+          "get_strategy",
+          "get_stock_evidence",
+          "get_data_catalog",
+          "get_finlab_docs",
+          "how_to_start"
+        ]
+      },
+      {
         "date": "2026-08-16T15:41:59.337Z",
         "method": "remote-http",
         "runId": "2026-08-16T15-41-59Z-e212f4",
@@ -65,6 +95,21 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-26T08:41:52.818Z",
+        "method": "remote-http",
+        "runId": "2026-10-26T08-41-52Z-c114d1",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "list_strategies",
+          "get_strategy",
+          "get_stock_evidence",
+          "get_data_catalog",
+          "get_finlab_docs",
+          "how_to_start"
+        ]
+      },
       {
         "date": "2026-08-16T15:42:13.871Z",
         "method": "remote-http",

@@ -2,6 +2,20 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-26T08:41:38.518Z",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-38Z-f793a6",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "veritasgraph_ingest_document",
+          "veritasgraph_query",
+          "veritasgraph_search_entities",
+          "veritasgraph_get_graph",
+          "veritasgraph_clear_graph"
+        ]
+      },
+      {
         "date": "2026-08-16T15:42:00.997Z",
         "method": "pypi",
         "runId": "2026-08-16T15-42-00Z-c4e177",
@@ -32,6 +46,20 @@
     ],
     "linux": [
       {
+        "date": "2026-10-26T08:41:31.617Z",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-31Z-5a4525",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "veritasgraph_ingest_document",
+          "veritasgraph_query",
+          "veritasgraph_search_entities",
+          "veritasgraph_get_graph",
+          "veritasgraph_clear_graph"
+        ]
+      },
+      {
         "date": "2026-08-16T15:41:56.759Z",
         "method": "pypi",
         "runId": "2026-08-16T15-41-56Z-6a1d71",
@@ -61,6 +89,20 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-26T08:41:52.818Z",
+        "method": "pypi",
+        "runId": "2026-10-26T08-41-52Z-c114d1",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "veritasgraph_ingest_document",
+          "veritasgraph_query",
+          "veritasgraph_search_entities",
+          "veritasgraph_get_graph",
+          "veritasgraph_clear_graph"
+        ]
+      },
       {
         "date": "2026-08-16T15:42:18.905Z",
         "method": "pypi",

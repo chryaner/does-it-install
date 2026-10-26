@@ -1,0 +1,87 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-10-26T08:41:39.792Z",
+        "installMs": 642,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-39Z-9fba12",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "search_screens",
+          "get_screen",
+          "get_design_system",
+          "find_similar",
+          "compare",
+          "find_by_color",
+          "find_examples_for_macrostructure",
+          "list_collections",
+          "get_filters",
+          "get_site_pages",
+          "find_components",
+          "get_collection",
+          "find_reference_components",
+          "recommend",
+          "get_reference_jsx"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-10-26T08:41:32.163Z",
+        "installMs": 337,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-32Z-1a3acc",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "search_screens",
+          "get_screen",
+          "get_design_system",
+          "find_similar",
+          "compare",
+          "find_by_color",
+          "find_examples_for_macrostructure",
+          "list_collections",
+          "get_filters",
+          "get_site_pages",
+          "find_components",
+          "get_collection",
+          "find_reference_components",
+          "recommend",
+          "get_reference_jsx"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-10-26T08:41:54.532Z",
+        "installMs": 1430,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-54Z-7481d3",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "search_screens",
+          "get_screen",
+          "get_design_system",
+          "find_similar",
+          "compare",
+          "find_by_color",
+          "find_examples_for_macrostructure",
+          "list_collections",
+          "get_filters",
+          "get_site_pages",
+          "find_components",
+          "get_collection",
+          "find_reference_components",
+          "recommend",
+          "get_reference_jsx"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.Nutlope/inspo",
+  "slug": "io.github.nutlope__inspo"
+}

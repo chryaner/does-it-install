@@ -1,0 +1,60 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-10-26T08:41:40.406Z",
+        "method": "remote-http",
+        "runId": "2026-10-26T08-41-40Z-988c6c",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "compile",
+          "list_compilers",
+          "list_languages",
+          "list_libraries",
+          "lookup_asm_instruction",
+          "generate_short_url",
+          "get_shortlink_info"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-10-26T08:41:31.457Z",
+        "method": "remote-http",
+        "runId": "2026-10-26T08-41-31Z-3127ad",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "compile",
+          "list_compilers",
+          "list_languages",
+          "list_libraries",
+          "lookup_asm_instruction",
+          "generate_short_url",
+          "get_shortlink_info"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-10-26T08:41:59.389Z",
+        "method": "remote-http",
+        "runId": "2026-10-26T08-41-59Z-6e4c78",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "compile",
+          "list_compilers",
+          "list_languages",
+          "list_libraries",
+          "lookup_asm_instruction",
+          "generate_short_url",
+          "get_shortlink_info"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.compiler-explorer/compiler-explorer",
+  "slug": "io.github.compiler-explorer__compiler-explorer"
+}

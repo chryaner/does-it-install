@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-26T08:41:40.406Z",
+        "errorExcerpt": "strava-mcp-server declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "installMs": 7862,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-40Z-988c6c",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-16T15:42:04.537Z",
         "errorExcerpt": "strava-mcp-server declares no runnable \"bin\" entry, so there is nothing to spawn",
         "installMs": 4945,
@@ -20,6 +28,14 @@
     ],
     "linux": [
       {
+        "date": "2026-10-26T08:41:31.457Z",
+        "errorExcerpt": "strava-mcp-server declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "installMs": 3815,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-31Z-3127ad",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-16T15:41:59.337Z",
         "errorExcerpt": "strava-mcp-server declares no runnable \"bin\" entry, so there is nothing to spawn",
         "installMs": 2954,
@@ -37,6 +53,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-26T08:41:59.389Z",
+        "errorExcerpt": "strava-mcp-server declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "installMs": 156230,
+        "method": "npm",
+        "runId": "2026-10-26T08-41-59Z-6e4c78",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-16T15:42:13.871Z",
         "errorExcerpt": "strava-mcp-server declares no runnable \"bin\" entry, so there is nothing to spawn",

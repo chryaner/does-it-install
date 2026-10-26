@@ -2,6 +2,23 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-10-26T08:41:39.792Z",
+        "method": "remote-http",
+        "runId": "2026-10-26T08-41-39Z-9fba12",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "search_revogrid_docs",
+          "find_examples",
+          "resolve_feature_matrix",
+          "get_migration_notes",
+          "list_revogrid_capabilities",
+          "inspect_revogrid_api",
+          "plan_revogrid_implementation",
+          "validate_revogrid_usage"
+        ]
+      },
+      {
         "date": "2026-08-16T15:42:04.537Z",
         "method": "remote-http",
         "runId": "2026-08-16T15-42-04Z-eb2637",
@@ -30,6 +47,23 @@
     ],
     "linux": [
       {
+        "date": "2026-10-26T08:41:32.163Z",
+        "method": "remote-http",
+        "runId": "2026-10-26T08-41-32Z-1a3acc",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "search_revogrid_docs",
+          "find_examples",
+          "resolve_feature_matrix",
+          "get_migration_notes",
+          "list_revogrid_capabilities",
+          "inspect_revogrid_api",
+          "plan_revogrid_implementation",
+          "validate_revogrid_usage"
+        ]
+      },
+      {
         "date": "2026-08-16T15:41:59.337Z",
         "method": "remote-http",
         "runId": "2026-08-16T15-41-59Z-e212f4",
@@ -57,6 +91,23 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-10-26T08:41:54.532Z",
+        "method": "remote-http",
+        "runId": "2026-10-26T08-41-54Z-7481d3",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "search_revogrid_docs",
+          "find_examples",
+          "resolve_feature_matrix",
+          "get_migration_notes",
+          "list_revogrid_capabilities",
+          "inspect_revogrid_api",
+          "plan_revogrid_implementation",
+          "validate_revogrid_usage"
+        ]
+      },
       {
         "date": "2026-08-16T15:42:13.871Z",
         "method": "remote-http",
