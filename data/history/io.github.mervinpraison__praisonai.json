@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-02T10:46:36.472Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\nDownloading cryptography (3.9MiB)\nDownloading pygments (1.2MiB)\nDownloading openai (1.6MiB)\nDownloading pydantic-core (2.0MiB)\nDownloading praisonaiagents (2.8MiB)\n Downloaded pygments\n   Building jiter==0.14.0\n Downloaded pydantic-core\n Downloaded cryptography\n   Building pyyaml==6.0.3\n Downloaded praisonaiagents\n Downloaded openai\n      Built pyyaml==6.0.3\n      Built jiter==0.14.0\nInstalled 67 packages in 498ms\n/Users/runner/.cache/uv/archive-v0/RZ7El0WG05iiy74x/lib/python3.15/site-packages/praisonaiagents/_version.py:43: RuntimeWarning: Failed to read version from pyproject.toml: pyproject.toml not found at /Users/runner/.cache/uv/archive-v0/RZ7El0WG05iiy74x/lib/python3.15/site-packages/pyproject.toml. Using 'unknown'.\n  warnings.warn(\n/Users/runner/.cache/uv/archive-v0/RZ7El0WG05iiy74x/lib/python3.15/site-packages/praisonaiagents/tools/call_executor.py:140: SyntaxWarning: 'return' in a 'finally' block\n  return",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-36Z-011438",
+        "status": "timeout"
+      },
+      {
         "date": "2026-10-26T08:41:39.792Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\nDownloading praisonaiagents (2.7MiB)\nDownloading openai (1.6MiB)\nDownloading pydantic-core (1.9MiB)\n   Building jiter==0.14.0\n Downloaded pydantic-core\n   Building pyyaml==6.0.3\n Downloaded praisonaiagents\n Downloaded openai\n      Built pyyaml==6.0.3\n      Built jiter==0.14.0\nInstalled 68 packages in 487ms\n/Users/runner/.cache/uv/archive-v0/fQQ4D9O4mJddzf_f/lib/python3.15/site-packages/praisonaiagents/_warning_patch.py:50: RuntimeWarning: Failed to read version from pyproject.toml: pyproject.toml not found at /Users/runner/.cache/uv/archive-v0/fQQ4D9O4mJddzf_f/lib/python3.15/site-packages/pyproject.toml. Using 'unknown'.\n  _original_warn(message, category, stacklevel, source)\n/Users/runner/.cache/uv/archive-v0/fQQ4D9O4mJddzf_f/lib/python3.15/site-packages/praisonaiagents/tools/call_executor.py:140: SyntaxWarning: 'return' in a 'finally' block\n  return",
         "method": "pypi",
@@ -25,6 +32,13 @@
     ],
     "linux": [
       {
+        "date": "2026-11-02T10:46:31.258Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\nDownloading pygments (1.2MiB)\nDownloading aiohttp (1.8MiB)\nDownloading pydantic-core (2.1MiB)\nDownloading cryptography (4.5MiB)\nDownloading praisonaiagents (2.8MiB)\nDownloading openai (1.6MiB)\n Downloaded pygments\n Downloaded pydantic-core\n Downloaded aiohttp\n Downloaded cryptography\n Downloaded praisonaiagents\n Downloaded openai\nInstalled 67 packages in 315ms\n/home/runner/.cache/uv/archive-v0/Oo9_dp3iLUmT0xJc/lib/python3.14/site-packages/praisonaiagents/_version.py:43: RuntimeWarning: Failed to read version from pyproject.toml: pyproject.toml not found at /home/runner/.cache/uv/archive-v0/Oo9_dp3iLUmT0xJc/lib/python3.14/site-packages/pyproject.toml. Using 'unknown'.\n  warnings.warn(\n/home/runner/.cache/uv/archive-v0/Oo9_dp3iLUmT0xJc/lib/python3.14/site-packages/praisonaiagents/tools/call_executor.py:140: SyntaxWarning: 'return' in a 'finally' block\n  return",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-31Z-a5d113",
+        "status": "timeout"
+      },
+      {
         "date": "2026-10-26T08:41:32.163Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\nDownloading pydantic-core (2.1MiB)\nDownloading praisonaiagents (2.7MiB)\nDownloading aiohttp (1.8MiB)\nDownloading openai (1.6MiB)\n Downloaded pydantic-core\n Downloaded aiohttp\n Downloaded praisonaiagents\n Downloaded openai\nInstalled 68 packages in 95ms\n/home/runner/.cache/uv/archive-v0/sycbCCgpdr75I9HD/lib/python3.14/site-packages/praisonaiagents/_warning_patch.py:50: RuntimeWarning: Failed to read version from pyproject.toml: pyproject.toml not found at /home/runner/.cache/uv/archive-v0/sycbCCgpdr75I9HD/lib/python3.14/site-packages/pyproject.toml. Using 'unknown'.\n  _original_warn(message, category, stacklevel, source)\n/home/runner/.cache/uv/archive-v0/sycbCCgpdr75I9HD/lib/python3.14/site-packages/praisonaiagents/tools/call_executor.py:140: SyntaxWarning: 'return' in a 'finally' block\n  return",
         "method": "pypi",
@@ -47,6 +61,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-02T10:46:54.855Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\nDownloading praisonaiagents (2.8MiB)\nDownloading openai (1.6MiB)\nDownloading pydantic-core (2.1MiB)\n Downloaded pydantic-core\n Downloaded praisonaiagents\n Downloaded openai\nInstalled 69 packages in 22.19s\nC:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\TiDIA1bHiVC5rEEB\\Lib\\site-packages\\praisonaiagents\\_version.py:43: RuntimeWarning: Failed to read version from pyproject.toml: pyproject.toml not found at C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\TiDIA1bHiVC5rEEB\\Lib\\site-packages\\pyproject.toml. Using 'unknown'.\r\n  warnings.warn(",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-54Z-35520a",
+        "status": "timeout"
+      },
       {
         "date": "2026-10-26T08:41:54.532Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\nDownloading pydantic-core (2.1MiB)\nDownloading praisonaiagents (2.7MiB)\nDownloading openai (1.6MiB)\n Downloaded pydantic-core\n Downloaded praisonaiagents\n Downloaded openai\nInstalled 70 packages in 16.27s\nC:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\tQHmmnv1TjPPo91U\\Lib\\site-packages\\praisonaiagents\\_warning_patch.py:50: RuntimeWarning: Failed to read version from pyproject.toml: pyproject.toml not found at C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\tQHmmnv1TjPPo91U\\Lib\\site-packages\\pyproject.toml. Using 'unknown'.\r\n  _original_warn(message, category, stacklevel, source)",

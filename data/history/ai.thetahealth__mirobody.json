@@ -1,0 +1,57 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-02T10:46:39.955Z",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-39Z-d55a12",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "standardize_reading",
+          "standardize_complaint",
+          "standardize_report",
+          "resolve_indicator",
+          "normalize_unit",
+          "convert_unit"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-02T10:46:27.782Z",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-27Z-a02207",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "standardize_reading",
+          "standardize_complaint",
+          "standardize_report",
+          "resolve_indicator",
+          "normalize_unit",
+          "convert_unit"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-02T10:47:04.266Z",
+        "method": "pypi",
+        "runId": "2026-11-02T10-47-04Z-712b71",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "standardize_reading",
+          "standardize_complaint",
+          "standardize_report",
+          "resolve_indicator",
+          "normalize_unit",
+          "convert_unit"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.thetahealth/mirobody",
+  "slug": "ai.thetahealth__mirobody"
+}

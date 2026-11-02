@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-02T10:46:36.004Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\nBuilding duckdb==1.5.6",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-36Z-c02362",
+        "status": "timeout"
+      },
+      {
         "date": "2026-10-26T08:41:39.792Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\nBuilding duckdb==1.5.6",
         "method": "pypi",
@@ -25,6 +32,13 @@
     ],
     "linux": [
       {
+        "date": "2026-11-02T10:46:43.068Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading duckdb (20.6MiB)\n Downloaded duckdb\nInstalled 65 packages in 65ms\nUsage: mcp-server-motherduck [OPTIONS]\nTry 'mcp-server-motherduck --help' for help.\n\nError: In-memory databases require the --read-write flag.\nOptions:\n  - Add --read-write to allow writes (data won't persist anyway)\n  - Use --db-path with a file path for read-only access to a DuckDB file\n  - Use --db-path md: with a MotherDuck token for cloud database access",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-43Z-fd3aa1",
+        "status": "needs_config"
+      },
+      {
         "date": "2026-10-26T08:41:32.163Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading duckdb (20.6MiB)\n Downloaded duckdb\nInstalled 65 packages in 27ms\nUsage: mcp-server-motherduck [OPTIONS]\nTry 'mcp-server-motherduck --help' for help.\n\nError: In-memory databases require the --read-write flag.\nOptions:\n  - Add --read-write to allow writes (data won't persist anyway)\n  - Use --db-path with a file path for read-only access to a DuckDB file\n  - Use --db-path md: with a MotherDuck token for cloud database access",
         "method": "pypi",
@@ -47,6 +61,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-02T10:46:49.167Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading duckdb (12.6MiB)\n Downloaded duckdb\nInstalled 66 packages in 24.12s\nUsage: mcp-server-motherduck [OPTIONS]\r\nTry 'mcp-server-motherduck --help' for help.\r\n\r\nError: In-memory databases require the --read-write flag.\r\nOptions:\r\n  - Add --read-write to allow writes (data won't persist anyway)\r\n  - Use --db-path with a file path for read-only access to a DuckDB file\r\n  - Use --db-path md: with a MotherDuck token for cloud database access",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-49Z-7aea8e",
+        "status": "needs_config"
+      },
       {
         "date": "2026-10-26T08:41:54.532Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading duckdb (12.6MiB)\n Downloaded duckdb\nInstalled 66 packages in 8.16s\nUsage: mcp-server-motherduck [OPTIONS]\r\nTry 'mcp-server-motherduck --help' for help.\r\n\r\nError: In-memory databases require the --read-write flag.\r\nOptions:\r\n  - Add --read-write to allow writes (data won't persist anyway)\r\n  - Use --db-path with a file path for read-only access to a DuckDB file\r\n  - Use --db-path md: with a MotherDuck token for cloud database access",

@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-02T10:46:36.472Z",
+        "errorExcerpt": "no npm, pypi, oci or remote distribution to probe",
+        "method": "none",
+        "runId": "2026-11-02T10-46-36Z-011438",
+        "status": "skipped"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-02T10:46:31.258Z",
+        "errorExcerpt": "no npm, pypi, oci or remote distribution to probe",
+        "method": "none",
+        "runId": "2026-11-02T10-46-31Z-a5d113",
+        "status": "skipped"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-02T10:46:54.855Z",
+        "errorExcerpt": "no npm, pypi, oci or remote distribution to probe",
+        "method": "none",
+        "runId": "2026-11-02T10-46-54Z-35520a",
+        "status": "skipped"
+      }
+    ]
+  },
+  "serverId": "io.github.Oleafly/oleafly",
+  "slug": "io.github.oleafly__oleafly"
+}

@@ -2,6 +2,27 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-02T10:46:36.004Z",
+        "installMs": 4932,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-36Z-c02362",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "decionis_read_policy",
+          "decionis_evaluate",
+          "decionis_list_policy_packs",
+          "decionis_demo",
+          "decionis_verdict_help",
+          "shield.pair",
+          "shield.request_purchase",
+          "shield.check_spending_authority",
+          "shield.get_permission",
+          "shield.request_approval",
+          "shield.get_decision"
+        ]
+      },
+      {
         "date": "2026-10-26T08:41:38.518Z",
         "installMs": 3874,
         "method": "npm",
@@ -145,6 +166,27 @@
     ],
     "linux": [
       {
+        "date": "2026-11-02T10:46:43.068Z",
+        "installMs": 2886,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-43Z-fd3aa1",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "decionis_read_policy",
+          "decionis_evaluate",
+          "decionis_list_policy_packs",
+          "decionis_demo",
+          "decionis_verdict_help",
+          "shield.pair",
+          "shield.request_purchase",
+          "shield.check_spending_authority",
+          "shield.get_permission",
+          "shield.request_approval",
+          "shield.get_decision"
+        ]
+      },
+      {
         "date": "2026-10-26T08:41:31.617Z",
         "installMs": 2452,
         "method": "npm",
@@ -287,6 +329,27 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-02T10:46:49.167Z",
+        "installMs": 95991,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-49Z-7aea8e",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "decionis_read_policy",
+          "decionis_evaluate",
+          "decionis_list_policy_packs",
+          "decionis_demo",
+          "decionis_verdict_help",
+          "shield.pair",
+          "shield.request_purchase",
+          "shield.check_spending_authority",
+          "shield.get_permission",
+          "shield.request_approval",
+          "shield.get_decision"
+        ]
+      },
       {
         "date": "2026-10-26T08:41:52.818Z",
         "installMs": 91125,

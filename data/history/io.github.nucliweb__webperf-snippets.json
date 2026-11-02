@@ -1,0 +1,69 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-02T10:46:36.004Z",
+        "installMs": 5736,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-36Z-c02362",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "list_snippets",
+          "run_snippet",
+          "run_workflow",
+          "get_crux",
+          "open_page",
+          "interact",
+          "read_results",
+          "get_details",
+          "close_page"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-02T10:46:43.068Z",
+        "installMs": 2694,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-43Z-fd3aa1",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "list_snippets",
+          "run_snippet",
+          "run_workflow",
+          "get_crux",
+          "open_page",
+          "interact",
+          "read_results",
+          "get_details",
+          "close_page"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-02T10:46:49.167Z",
+        "installMs": 113275,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-49Z-7aea8e",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "list_snippets",
+          "run_snippet",
+          "run_workflow",
+          "get_crux",
+          "open_page",
+          "interact",
+          "read_results",
+          "get_details",
+          "close_page"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.nucliweb/webperf-snippets",
+  "slug": "io.github.nucliweb__webperf-snippets"
+}

@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-02T10:46:39.955Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":{\"code\":-32000,\"message\":\"unauthorized\"},\"id\":null,\"jsonrpc\":\"2.0\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-02T10-46-39Z-d55a12",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-02T10:46:27.782Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":{\"code\":-32000,\"message\":\"unauthorized\"},\"id\":null,\"jsonrpc\":\"2.0\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-02T10-46-27Z-a02207",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-02T10:47:04.266Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":{\"code\":-32000,\"message\":\"unauthorized\"},\"id\":null,\"jsonrpc\":\"2.0\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-02T10-47-04Z-712b71",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "io.github.agentrq/agentrq",
+  "slug": "io.github.agentrq__agentrq"
+}

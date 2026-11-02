@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-02T10:46:39.955Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND skills-sh.run.mcp.com.ai",
+        "method": "remote-http",
+        "runId": "2026-11-02T10-46-39Z-d55a12",
+        "status": "connect_failed"
+      },
+      {
         "date": "2026-10-26T08:41:39.792Z",
         "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND skills-sh.run.mcp.com.ai",
         "method": "remote-http",
@@ -144,6 +151,13 @@
     ],
     "linux": [
       {
+        "date": "2026-11-02T10:46:27.782Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND skills-sh.run.mcp.com.ai",
+        "method": "remote-http",
+        "runId": "2026-11-02T10-46-27Z-a02207",
+        "status": "connect_failed"
+      },
+      {
         "date": "2026-10-26T08:41:32.163Z",
         "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND skills-sh.run.mcp.com.ai",
         "method": "remote-http",
@@ -285,6 +299,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-02T10:47:04.266Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND skills-sh.run.mcp.com.ai",
+        "method": "remote-http",
+        "runId": "2026-11-02T10-47-04Z-712b71",
+        "status": "connect_failed"
+      },
       {
         "date": "2026-10-26T08:41:54.532Z",
         "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND skills-sh.run.mcp.com.ai",

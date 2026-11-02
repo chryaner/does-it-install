@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-02T10:46:36.472Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading deno (37.0MiB)\nDownloading pycryptodomex (2.4MiB)\nDownloading yt-dlp (3.0MiB)\n Downloaded pycryptodomex\n Downloaded yt-dlp\n Downloaded deno\nInstalled 14 packages in 166ms\nusage: claude-real-video [-h] [-o OUT] [--overwrite] [--scene SCENE]\n                         [--fps-floor FPS_FLOOR] [--max-frames MAX_FRAMES]\n                         [--from TIMECODE] [--to TIMECODE] [--frame-width PX]\n                         [--adaptive] [--text-anchors] [--export {llc}]\n                         [--speakers] [--lang LANG] [--cookies COOKIES]\n                         [--cookies-from-browser BROWSER] [--yt-dlp-arg ARG]\n                         [--no-transcribe] [--viewer]\n                         [--whisper-model {tiny,base,small,medium,large,turbo}]\n                         [--dedup-threshold DEDUP_THRESHOLD]\n                         [--dedup-window DEDUP_WINDOW] [--report] [--why WHY]\n                         [--grid] [--kb DIR] [--keep-audio]\n                         source\nclaude-real-video: error: the following arguments are required: source",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-36Z-011438",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-10-26T08:41:40.406Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading yt-dlp (3.0MiB)\nDownloading deno (37.0MiB)\nDownloading pycryptodomex (2.4MiB)\n Downloaded pycryptodomex\n Downloaded yt-dlp\n Downloaded deno\nInstalled 14 packages in 91ms\nusage: claude-real-video [-h] [-o OUT] [--overwrite] [--scene SCENE]\n                         [--fps-floor FPS_FLOOR] [--max-frames MAX_FRAMES]\n                         [--from TIMECODE] [--to TIMECODE] [--frame-width PX]\n                         [--adaptive] [--text-anchors] [--export {llc}]\n                         [--speakers] [--lang LANG] [--cookies COOKIES]\n                         [--cookies-from-browser BROWSER] [--yt-dlp-arg ARG]\n                         [--no-transcribe] [--viewer]\n                         [--whisper-model {tiny,base,small,medium,large,turbo}]\n                         [--dedup-threshold DEDUP_THRESHOLD]\n                         [--dedup-window DEDUP_WINDOW] [--report] [--why WHY]\n                         [--grid] [--kb DIR] [--keep-audio]\n                         source\nclaude-real-video: error: the following arguments are required: source",
         "method": "pypi",
@@ -25,6 +32,13 @@
     ],
     "linux": [
       {
+        "date": "2026-11-02T10:46:31.258Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading pycryptodomex (2.2MiB)\nDownloading brotli (1.4MiB)\nDownloading yt-dlp (3.0MiB)\nDownloading deno (40.0MiB)\n Downloaded brotli\n Downloaded pycryptodomex\n Downloaded yt-dlp\n Downloaded deno\nInstalled 14 packages in 45ms\nusage: claude-real-video [-h] [-o OUT] [--overwrite] [--scene SCENE]\n                         [--fps-floor FPS_FLOOR] [--max-frames MAX_FRAMES]\n                         [--from TIMECODE] [--to TIMECODE] [--frame-width PX]\n                         [--adaptive] [--text-anchors] [--export {llc}]\n                         [--speakers] [--lang LANG] [--cookies COOKIES]\n                         [--cookies-from-browser BROWSER] [--yt-dlp-arg ARG]\n                         [--no-transcribe] [--viewer]\n                         [--whisper-model {tiny,base,small,medium,large,turbo}]\n                         [--dedup-threshold DEDUP_THRESHOLD]\n                         [--dedup-window DEDUP_WINDOW] [--report] [--why WHY]\n                         [--grid] [--kb DIR] [--keep-audio]\n                         source\nclaude-real-video: error: the following arguments are required: source",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-31Z-a5d113",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-10-26T08:41:31.457Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading yt-dlp (3.0MiB)\nDownloading brotli (1.4MiB)\nDownloading pycryptodomex (2.2MiB)\nDownloading deno (40.0MiB)\n Downloaded brotli\n Downloaded pycryptodomex\n Downloaded yt-dlp\n Downloaded deno\nInstalled 14 packages in 55ms\nusage: claude-real-video [-h] [-o OUT] [--overwrite] [--scene SCENE]\n                         [--fps-floor FPS_FLOOR] [--max-frames MAX_FRAMES]\n                         [--from TIMECODE] [--to TIMECODE] [--frame-width PX]\n                         [--adaptive] [--text-anchors] [--export {llc}]\n                         [--speakers] [--lang LANG] [--cookies COOKIES]\n                         [--cookies-from-browser BROWSER] [--yt-dlp-arg ARG]\n                         [--no-transcribe] [--viewer]\n                         [--whisper-model {tiny,base,small,medium,large,turbo}]\n                         [--dedup-threshold DEDUP_THRESHOLD]\n                         [--dedup-window DEDUP_WINDOW] [--report] [--why WHY]\n                         [--grid] [--kb DIR] [--keep-audio]\n                         source\nclaude-real-video: error: the following arguments are required: source",
         "method": "pypi",
@@ -47,6 +61,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-02T10:46:54.855Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading yt-dlp (3.0MiB)\nDownloading deno (39.9MiB)\nDownloading pycryptodomex (1.7MiB)\n Downloaded deno\n Downloaded pycryptodomex\n Downloaded yt-dlp\nInstalled 14 packages in 5.02s\nusage: claude-real-video [-h] [-o OUT] [--overwrite] [--scene SCENE]\r\n                         [--fps-floor FPS_FLOOR] [--max-frames MAX_FRAMES]\r\n                         [--from TIMECODE] [--to TIMECODE] [--frame-width PX]\r\n                         [--adaptive] [--text-anchors] [--export {llc}]\r\n                         [--speakers] [--lang LANG] [--cookies COOKIES]\r\n                         [--cookies-from-browser BROWSER] [--yt-dlp-arg ARG]\r\n                         [--no-transcribe] [--viewer]\r\n                         [--whisper-model {tiny,base,small,medium,large,turbo}]\r\n                         [--dedup-threshold DEDUP_THRESHOLD]\r\n                         [--dedup-window DEDUP_WINDOW] [--report] [--why WHY]\r\n                         [--grid] [--kb DIR] [--keep-audio]\r\n                         source\r\nclaude-real-video: error: the following arguments are required: source",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-54Z-35520a",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-10-26T08:41:59.389Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading yt-dlp (3.0MiB)\nDownloading deno (39.9MiB)\nDownloading pycryptodomex (1.7MiB)\n Downloaded deno\n Downloaded pycryptodomex\n Downloaded yt-dlp\nInstalled 14 packages in 4.85s\nusage: claude-real-video [-h] [-o OUT] [--overwrite] [--scene SCENE]\r\n                         [--fps-floor FPS_FLOOR] [--max-frames MAX_FRAMES]\r\n                         [--from TIMECODE] [--to TIMECODE] [--frame-width PX]\r\n                         [--adaptive] [--text-anchors] [--export {llc}]\r\n                         [--speakers] [--lang LANG] [--cookies COOKIES]\r\n                         [--cookies-from-browser BROWSER] [--yt-dlp-arg ARG]\r\n                         [--no-transcribe] [--viewer]\r\n                         [--whisper-model {tiny,base,small,medium,large,turbo}]\r\n                         [--dedup-threshold DEDUP_THRESHOLD]\r\n                         [--dedup-window DEDUP_WINDOW] [--report] [--why WHY]\r\n                         [--grid] [--kb DIR] [--keep-audio]\r\n                         source\r\nclaude-real-video: error: the following arguments are required: source",

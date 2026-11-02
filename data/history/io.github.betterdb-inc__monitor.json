@@ -2,6 +2,37 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-02T10:46:39.955Z",
+        "installMs": 10932,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-39Z-d55a12",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "list_instances",
+          "select_instance",
+          "get_info",
+          "get_slowlog",
+          "get_commandlog",
+          "get_latency",
+          "get_memory",
+          "get_clients",
+          "get_health",
+          "get_slowlog_patterns",
+          "get_commandlog_history",
+          "get_commandlog_patterns",
+          "get_anomalies",
+          "get_client_activity",
+          "get_hot_keys",
+          "get_cluster_nodes",
+          "get_cluster_node_stats",
+          "get_cluster_slowlog",
+          "get_slot_stats",
+          "get_latency_history",
+          "get_acl_audit"
+        ]
+      },
+      {
         "date": "2026-08-16T15:42:00.997Z",
         "installMs": 6166,
         "method": "npm",
@@ -96,6 +127,37 @@
     ],
     "linux": [
       {
+        "date": "2026-11-02T10:46:27.782Z",
+        "installMs": 4594,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-27Z-a02207",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "list_instances",
+          "select_instance",
+          "get_info",
+          "get_slowlog",
+          "get_commandlog",
+          "get_latency",
+          "get_memory",
+          "get_clients",
+          "get_health",
+          "get_slowlog_patterns",
+          "get_commandlog_history",
+          "get_commandlog_patterns",
+          "get_anomalies",
+          "get_client_activity",
+          "get_hot_keys",
+          "get_cluster_nodes",
+          "get_cluster_node_stats",
+          "get_cluster_slowlog",
+          "get_slot_stats",
+          "get_latency_history",
+          "get_acl_audit"
+        ]
+      },
+      {
         "date": "2026-08-16T15:41:56.759Z",
         "installMs": 4027,
         "method": "npm",
@@ -189,6 +251,37 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-02T10:47:04.266Z",
+        "installMs": 106359,
+        "method": "npm",
+        "runId": "2026-11-02T10-47-04Z-712b71",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "list_instances",
+          "select_instance",
+          "get_info",
+          "get_slowlog",
+          "get_commandlog",
+          "get_latency",
+          "get_memory",
+          "get_clients",
+          "get_health",
+          "get_slowlog_patterns",
+          "get_commandlog_history",
+          "get_commandlog_patterns",
+          "get_anomalies",
+          "get_client_activity",
+          "get_hot_keys",
+          "get_cluster_nodes",
+          "get_cluster_node_stats",
+          "get_cluster_slowlog",
+          "get_slot_stats",
+          "get_latency_history",
+          "get_acl_audit"
+        ]
+      },
       {
         "date": "2026-08-16T15:42:18.905Z",
         "installMs": 110857,

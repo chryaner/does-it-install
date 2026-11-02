@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-02T10:46:39.955Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n2026-11-02 10:54:41,858 - docling_mcp - INFO - loading conversion tools...\n2026-11-02 10:54:41,891 - docling_mcp - INFO - loading generation tools...\n2026-11-02 10:54:42,800 - docling_mcp - INFO - loading manipulation tools...\n2026-11-02 10:54:42,816 - docling_mcp - INFO - loading prompts...\n2026-11-02 10:54:42,838 - docling_mcp - INFO - starting up Docling MCP-server ...\nINFO:     Started server process [21107]\nINFO:     Waiting for application startup.\n[11/02/26 10:54:43] INFO     StreamableHTTP       streamable_http_manager.py:162\n                             session manager                                    \n                             started                                            \nINFO:     Application startup complete.\nINFO:     Uvicorn running on http://localhost:8000 (Press CTRL+C to quit)",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-39Z-d55a12",
+        "status": "timeout"
+      },
+      {
         "date": "2026-10-26T08:41:40.406Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: Unexpected token 'I', \"INFO:     \"... is not valid JSON\n--- stderr (tail) ---\n2026-10-26 08:44:41,605 - docling_mcp - INFO - loading conversion tools...\n2026-10-26 08:44:41,665 - docling_mcp - INFO - loading generation tools...\n2026-10-26 08:44:43,081 - docling_mcp - INFO - loading manipulation tools...\n2026-10-26 08:44:43,101 - docling_mcp - INFO - loading prompts...\n2026-10-26 08:44:43,111 - docling_mcp - INFO - starting up Docling MCP-server ...\nINFO:     Started server process [14898]\nINFO:     Waiting for application startup.\n[10/26/26 08:44:43] INFO     StreamableHTTP       streamable_http_manager.py:162\n                             session manager                                    \n                             started                                            \nINFO:     Application startup complete.\nINFO:     Uvicorn running on http://localhost:8000 (Press CTRL+C to quit)",
         "method": "pypi",
@@ -25,6 +32,13 @@
     ],
     "linux": [
       {
+        "date": "2026-11-02T10:46:27.782Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n2026-11-02 10:48:45,729 - docling_mcp - INFO - loading conversion tools...\n2026-11-02 10:48:45,739 - docling_mcp - INFO - loading generation tools...\n2026-11-02 10:48:46,102 - docling_mcp - INFO - loading manipulation tools...\n2026-11-02 10:48:46,109 - docling_mcp - INFO - loading prompts...\n2026-11-02 10:48:46,115 - docling_mcp - INFO - starting up Docling MCP-server ...\nINFO:     Started server process [5721]\nINFO:     Waiting for application startup.\n[11/02/26 10:48:46] INFO     StreamableHTTP       streamable_http_manager.py:162\n                             session manager                                    \n                             started                                            \nINFO:     Application startup complete.\nINFO:     Uvicorn running on http://localhost:8000 (Press CTRL+C to quit)",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-27Z-a02207",
+        "status": "timeout"
+      },
+      {
         "date": "2026-10-26T08:41:31.457Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: Unexpected token 'I', \"INFO:     \"... is not valid JSON\n--- stderr (tail) ---\n2026-10-26 08:43:30,078 - docling_mcp - INFO - loading conversion tools...\n2026-10-26 08:43:30,094 - docling_mcp - INFO - loading generation tools...\n2026-10-26 08:43:30,713 - docling_mcp - INFO - loading manipulation tools...\n2026-10-26 08:43:30,726 - docling_mcp - INFO - loading prompts...\n2026-10-26 08:43:30,737 - docling_mcp - INFO - starting up Docling MCP-server ...\nINFO:     Started server process [6052]\nINFO:     Waiting for application startup.\n[10/26/26 08:43:30] INFO     StreamableHTTP       streamable_http_manager.py:162\n                             session manager                                    \n                             started                                            \nINFO:     Application startup complete.\nINFO:     Uvicorn running on http://localhost:8000 (Press CTRL+C to quit)",
         "method": "pypi",
@@ -47,6 +61,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-02T10:47:04.266Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n2026-11-02 11:15:18,880 - docling_mcp - INFO - loading conversion tools...\r\n2026-11-02 11:15:18,956 - docling_mcp - INFO - loading generation tools...\r\n2026-11-02 11:15:20,870 - docling_mcp - INFO - loading manipulation tools...\r\n2026-11-02 11:15:20,884 - docling_mcp - INFO - loading prompts...\r\n2026-11-02 11:15:21,328 - docling_mcp - INFO - starting up Docling MCP-server ...\r\nINFO:     Started server process [8320]\r\nINFO:     Waiting for application startup.\r\n[11/02/26 11:15:21] INFO     StreamableHTTP      streamable_http_manager.py:162\r\n                             session manager                                   \r\n                             started                                           \r\nINFO:     Application startup complete.\r\nINFO:     Uvicorn running on http://localhost:8000 (Press CTRL+C to quit)",
+        "method": "pypi",
+        "runId": "2026-11-02T10-47-04Z-712b71",
+        "status": "timeout"
+      },
       {
         "date": "2026-10-26T08:41:59.389Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: pected token 'I', \"INFO:     \"... is not valid JSON\nUnexpected token 'I', \"INFO:     \"... is not valid JSON\nUnexpected token 'I', \"INFO:     \"... is not valid JSON\nUnexpected token 'I', \"INFO:     \"... is not valid JSON\nUnexpected token 'I', \"INFO:     \"... is not valid JSON\nUnexpected token 'I', \"INFO:     \"... is not valid JSON\nUnexpected token 'I', \"INFO:     \"... is not valid JSON\nUnexpected token 'I', \"INFO:     \"... is not valid JSON\nUnexpected token 'I', \"INFO:     \"... is not valid JSON\n--- stderr (tail) ---\n2026-10-26 09:14:03,335 - docling_mcp - INFO - loading conversion tools...\r\n2026-10-26 09:14:03,414 - docling_mcp - INFO - loading generation tools...\r\n2026-10-26 09:14:06,968 - docling_mcp - INFO - loading manipulation tools...\r\n2026-10-26 09:14:06,980 - docling_mcp - INFO - loading prompts...\r\n2026-10-26 09:14:07,039 - docling_mcp - INFO - starting up Docling MCP-server ...\r\nINFO:     Started server process [6236]\r\nINFO:     Waiting for application startup.\r\n[10/26/26 09:14:07] INFO     StreamableHTTP      streamable_http_manager.py:162\r\n                             session manager                                   \r\n                             started                                           \r\nINFO:     Application startup complete.\r\nINFO:     Uvicorn running on http://localhost:8000 (Press CTRL+C to quit)",

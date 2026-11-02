@@ -1,0 +1,78 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-02T10:46:36.004Z",
+        "installMs": 25885,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-36Z-c02362",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "seo_sites",
+          "seo_report",
+          "seo_page",
+          "seo_compare",
+          "seo_index",
+          "seo_research",
+          "seo_data",
+          "seo_crawl",
+          "seo_internal_links",
+          "seo_list_providers",
+          "seo_describe_provider",
+          "seo_run_provider"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-02T10:46:43.068Z",
+        "installMs": 12078,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-43Z-fd3aa1",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "seo_sites",
+          "seo_report",
+          "seo_page",
+          "seo_compare",
+          "seo_index",
+          "seo_research",
+          "seo_data",
+          "seo_crawl",
+          "seo_internal_links",
+          "seo_list_providers",
+          "seo_describe_provider",
+          "seo_run_provider"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-02T10:46:49.167Z",
+        "installMs": 566533,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-49Z-7aea8e",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "seo_sites",
+          "seo_report",
+          "seo_page",
+          "seo_compare",
+          "seo_index",
+          "seo_research",
+          "seo_data",
+          "seo_crawl",
+          "seo_internal_links",
+          "seo_list_providers",
+          "seo_describe_provider",
+          "seo_run_provider"
+        ]
+      }
+    ]
+  },
+  "serverId": "dev.seoskill/seo",
+  "slug": "dev.seoskill__seo"
+}

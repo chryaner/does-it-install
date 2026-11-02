@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-02T10:46:36.472Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: pected token '│', \"│ --help  \"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON\nUnexpected token '╭', \"╭─ Command\"... is not valid JSON\nUnexpected token '│', \"│ generate\"... is not valid JSON\nUnexpected token '│', \"│ plot    \"... is not valid JSON\nUnexpected token '│', \"│ setup   \"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ evaluate\"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON\n--- stderr (tail) ---\nDownloading google-genai (1.2MiB)\nDownloading fonttools (3.0MiB)\nDownloading matplotlib (8.9MiB)\n Downloaded fonttools\n Downloaded google-genai\n Downloaded matplotlib\nInstalled 50 packages in 2.57s",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-36Z-011438",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-10-26T08:41:40.406Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: pected token '│', \"│ --help  \"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON\nUnexpected token '╭', \"╭─ Command\"... is not valid JSON\nUnexpected token '│', \"│ generate\"... is not valid JSON\nUnexpected token '│', \"│ plot    \"... is not valid JSON\nUnexpected token '│', \"│ setup   \"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ evaluate\"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON\n--- stderr (tail) ---\nDownloading google-genai (1.2MiB)\nDownloading pygments (1.2MiB)\nDownloading fonttools (3.0MiB)\nDownloading numpy (5.2MiB)\nDownloading matplotlib (8.9MiB)\nDownloading pandas (10.7MiB)\nDownloading pillow (4.6MiB)\n Downloaded google-genai\n Downloaded pygments\n   Building pyyaml==6.0.3\n Downloaded pillow\n Downloaded fonttools\n Downloaded matplotlib\n Downloaded numpy\n Downloaded pandas\n      Built pyyaml==6.0.3\nInstalled 51 packages in 205ms",
         "method": "pypi",
@@ -25,6 +32,13 @@
     ],
     "linux": [
       {
+        "date": "2026-11-02T10:46:31.258Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: pected token '│', \"│ --help  \"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON\nUnexpected token '╭', \"╭─ Command\"... is not valid JSON\nUnexpected token '│', \"│ generate\"... is not valid JSON\nUnexpected token '│', \"│ plot    \"... is not valid JSON\nUnexpected token '│', \"│ setup   \"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ evaluate\"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON\n--- stderr (tail) ---\nDownloading kiwisolver (1.4MiB)\nDownloading google-genai (1.2MiB)\nDownloading matplotlib (10.4MiB)\nDownloading fonttools (5.1MiB)\n Downloaded kiwisolver\n Downloaded google-genai\n Downloaded fonttools\n Downloaded matplotlib\nInstalled 50 packages in 109ms",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-31Z-a5d113",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-10-26T08:41:31.457Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: pected token '│', \"│ --help  \"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON\nUnexpected token '╭', \"╭─ Command\"... is not valid JSON\nUnexpected token '│', \"│ generate\"... is not valid JSON\nUnexpected token '│', \"│ plot    \"... is not valid JSON\nUnexpected token '│', \"│ setup   \"... is not valid JSON\nUnexpected token '│', \"│         \"... is not valid JSON\nUnexpected token '│', \"│ evaluate\"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON\n--- stderr (tail) ---\nDownloading matplotlib (10.4MiB)\nDownloading kiwisolver (1.4MiB)\nDownloading fonttools (5.1MiB)\nDownloading pandas (11.5MiB)\nDownloading google-genai (1.2MiB)\n Downloaded kiwisolver\n Downloaded google-genai\n Downloaded fonttools\n Downloaded matplotlib\n Downloaded pandas\nInstalled 51 packages in 113ms",
         "method": "pypi",
@@ -47,6 +61,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-02T10:46:54.855Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: pected token '|', \"| --help  \"... is not valid JSON\nUnexpected token '+', \"+---------\"... is not valid JSON\nUnexpected token '+', \"+- Command\"... is not valid JSON\nUnexpected token '|', \"| generate\"... is not valid JSON\nUnexpected token '|', \"| plot    \"... is not valid JSON\nUnexpected token '|', \"| setup   \"... is not valid JSON\nUnexpected token '|', \"|         \"... is not valid JSON\nUnexpected token '|', \"| evaluate\"... is not valid JSON\nUnexpected token '+', \"+---------\"... is not valid JSON\n--- stderr (tail) ---\nDownloading fonttools (2.4MiB)\nDownloading matplotlib (8.9MiB)\nDownloading google-genai (1.2MiB)\n Downloaded fonttools\n Downloaded matplotlib\n Downloaded google-genai\nInstalled 51 packages in 24.43s",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-54Z-35520a",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-10-26T08:41:59.389Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: pected token '|', \"| --help  \"... is not valid JSON\nUnexpected token '+', \"+---------\"... is not valid JSON\nUnexpected token '+', \"+- Command\"... is not valid JSON\nUnexpected token '|', \"| generate\"... is not valid JSON\nUnexpected token '|', \"| plot    \"... is not valid JSON\nUnexpected token '|', \"| setup   \"... is not valid JSON\nUnexpected token '|', \"|         \"... is not valid JSON\nUnexpected token '|', \"| evaluate\"... is not valid JSON\nUnexpected token '+', \"+---------\"... is not valid JSON\n--- stderr (tail) ---\nDownloading google-genai (1.2MiB)\nDownloading fonttools (2.4MiB)\nDownloading pandas (10.3MiB)\nDownloading matplotlib (8.9MiB)\n Downloaded fonttools\n Downloaded matplotlib\n Downloaded google-genai\n Downloaded pandas\nInstalled 52 packages in 25.54s",

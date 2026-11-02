@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-02T10:46:39.955Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: Claude Code src/ directory not found at /private/var/folders/n6/hn37q6pj7sj_9dmqqc2113800000gn/T/does-it-install/dii-npm-ABqIfz/node_modules/@divyesh2000/codemaster/src\nSet CLAUDE_CODE_SRC_ROOT environment variable to the src/ directory path.",
+        "installMs": 13000,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-39Z-d55a12",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-16T15:42:00.997Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: Claude Code src/ directory not found at /private/var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T/does-it-install/dii-npm-lfklo3/node_modules/@divyesh2000/codemaster/src\nSet CLAUDE_CODE_SRC_ROOT environment variable to the src/ directory path.",
         "installMs": 6721,
@@ -27,6 +35,14 @@
     ],
     "linux": [
       {
+        "date": "2026-11-02T10:46:27.782Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: Claude Code src/ directory not found at /tmp/does-it-install/dii-npm-Q5XH4l/node_modules/@divyesh2000/codemaster/src\nSet CLAUDE_CODE_SRC_ROOT environment variable to the src/ directory path.",
+        "installMs": 5873,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-27Z-a02207",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-16T15:41:56.759Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: Claude Code src/ directory not found at /tmp/does-it-install/dii-npm-NQTg2q/node_modules/@divyesh2000/codemaster/src\nSet CLAUDE_CODE_SRC_ROOT environment variable to the src/ directory path.",
         "installMs": 6076,
@@ -51,6 +67,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-02T10:47:04.266Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: Claude Code src/ directory not found at C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-NkFDgB\\node_modules\\@divyesh2000\\codemaster\\src\nSet CLAUDE_CODE_SRC_ROOT environment variable to the src/ directory path.",
+        "installMs": 168034,
+        "method": "npm",
+        "runId": "2026-11-02T10-47-04Z-712b71",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-16T15:42:18.905Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: Claude Code src/ directory not found at C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-QSXtvV\\node_modules\\@divyesh2000\\codemaster\\src\nSet CLAUDE_CODE_SRC_ROOT environment variable to the src/ directory path.",

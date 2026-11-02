@@ -2,6 +2,26 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-02T10:46:36.004Z",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-36Z-c02362",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "create_session",
+          "add_step",
+          "list_sessions",
+          "read_session",
+          "finalize_session",
+          "delete_session",
+          "process_thought",
+          "generate_summary",
+          "clear_history",
+          "export_session",
+          "import_session"
+        ]
+      },
+      {
         "date": "2026-10-26T08:41:38.518Z",
         "method": "pypi",
         "runId": "2026-10-26T08-41-38Z-f793a6",
@@ -24,6 +44,26 @@
     ],
     "linux": [
       {
+        "date": "2026-11-02T10:46:43.068Z",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-43Z-fd3aa1",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "create_session",
+          "add_step",
+          "list_sessions",
+          "read_session",
+          "finalize_session",
+          "delete_session",
+          "process_thought",
+          "generate_summary",
+          "clear_history",
+          "export_session",
+          "import_session"
+        ]
+      },
+      {
         "date": "2026-10-26T08:41:31.617Z",
         "method": "pypi",
         "runId": "2026-10-26T08-41-31Z-5a4525",
@@ -45,6 +85,26 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-02T10:46:49.167Z",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-49Z-7aea8e",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "create_session",
+          "add_step",
+          "list_sessions",
+          "read_session",
+          "finalize_session",
+          "delete_session",
+          "process_thought",
+          "generate_summary",
+          "clear_history",
+          "export_session",
+          "import_session"
+        ]
+      },
       {
         "date": "2026-10-26T08:41:52.818Z",
         "method": "pypi",

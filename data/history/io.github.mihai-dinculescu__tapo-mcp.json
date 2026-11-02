@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-02T10:46:36.004Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-11-02T10-46-36Z-c02362",
+        "status": "skipped"
+      },
+      {
         "date": "2026-10-26T08:41:39.792Z",
         "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
         "installMs": 0,
@@ -28,6 +36,14 @@
     ],
     "linux": [
       {
+        "date": "2026-11-02T10:46:43.068Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: Refusing to start: TAPO_MCP_HTTP_ADDR binds to a non-loopback address (0.0.0.0:3000) with no TAPO_MCP_API_KEY set, exposing unauthenticated smart-home control to the network. Set TAPO_MCP_API_KEY to require bearer authentication, or bind to a loopback address.",
+        "installMs": 3622,
+        "method": "oci",
+        "runId": "2026-11-02T10-46-43Z-fd3aa1",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-10-26T08:41:32.163Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: Refusing to start: TAPO_MCP_HTTP_ADDR binds to a non-loopback address (0.0.0.0:3000) with no TAPO_MCP_API_KEY set, exposing unauthenticated smart-home control to the network. Set TAPO_MCP_API_KEY to require bearer authentication, or bind to a loopback address.",
         "installMs": 1433,
@@ -53,6 +69,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-02T10:46:49.167Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-11-02T10-46-49Z-7aea8e",
+        "status": "skipped"
+      },
       {
         "date": "2026-10-26T08:41:54.532Z",
         "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",

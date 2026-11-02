@@ -1,0 +1,48 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-02T10:46:36.004Z",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-36Z-c02362",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "search_interfaces",
+          "describe_interface",
+          "get_data"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-02T10:46:43.068Z",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-43Z-fd3aa1",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "search_interfaces",
+          "describe_interface",
+          "get_data"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-02T10:46:49.167Z",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-49Z-7aea8e",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "search_interfaces",
+          "describe_interface",
+          "get_data"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.akfamily/aktools",
+  "slug": "io.github.akfamily__aktools"
+}

@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-02T10:46:36.472Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out",
+        "installMs": 12583,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-36Z-011438",
+        "status": "timeout"
+      },
+      {
         "date": "2026-08-16T15:42:04.537Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out",
         "installMs": 23162,
@@ -27,6 +35,14 @@
     ],
     "linux": [
       {
+        "date": "2026-11-02T10:46:31.258Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out",
+        "installMs": 9797,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-31Z-a5d113",
+        "status": "timeout"
+      },
+      {
         "date": "2026-08-16T15:41:59.337Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out",
         "installMs": 10729,
@@ -51,6 +67,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-02T10:46:54.855Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out",
+        "installMs": 510085,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-54Z-35520a",
+        "status": "timeout"
+      },
       {
         "date": "2026-08-16T15:42:13.871Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out",

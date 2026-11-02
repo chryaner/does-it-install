@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-02T10:46:36.004Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Unauthorized\",\"message\":\"Authentication required. Run `npx -y @agent-native/core@latest reconnect https://clips.agent-native.com` to re-authenticate this MCP connector without reinstalling it (or, in a Claude Code host, run /mcp and choose Authenticate), then retry. For first-time setup, run `npx @agent-native/core@latest connect https://clips.agent-native.com`.\",\"authenticate\":{\"command\":\"npx -y @agent-native/core@latest reconnect https://clips.agent-native.com\",\"firstTimeCommand\":\"npx @agent-native/core@latest connect https://clips.agent-native.com\",\"authorizeUrl\":\"https://clips.agent-native.com/mcp/oauth/authorize\",\"resourceMetadataUrl\":\"https://clips.agent-native.com/.well-known/oauth-protected-resource\",\"mcpUrl\":\"https://clips.agent-native.com/mcp\"}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-02T10-46-36Z-c02362",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-10-26T08:41:39.792Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Unauthorized\",\"message\":\"Authentication required. Run `npx -y @agent-native/core@latest reconnect https://clips.agent-native.com` to re-authenticate this MCP connector without reinstalling it (or, in a Claude Code host, run /mcp and choose Authenticate), then retry. For first-time setup, run `npx @agent-native/core@latest connect https://clips.agent-native.com`.\",\"authenticate\":{\"command\":\"npx -y @agent-native/core@latest reconnect https://clips.agent-native.com\",\"firstTimeCommand\":\"npx @agent-native/core@latest connect https://clips.agent-native.com\",\"authorizeUrl\":\"https://clips.agent-native.com/mcp/oauth/authorize\",\"resourceMetadataUrl\":\"https://clips.agent-native.com/.well-known/oauth-protected-resource\",\"mcpUrl\":\"https://clips.agent-native.com/mcp\"}} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -11,6 +18,13 @@
     ],
     "linux": [
       {
+        "date": "2026-11-02T10:46:43.068Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Unauthorized\",\"message\":\"Authentication required. Run `npx -y @agent-native/core@latest reconnect https://clips.agent-native.com` to re-authenticate this MCP connector without reinstalling it (or, in a Claude Code host, run /mcp and choose Authenticate), then retry. For first-time setup, run `npx @agent-native/core@latest connect https://clips.agent-native.com`.\",\"authenticate\":{\"command\":\"npx -y @agent-native/core@latest reconnect https://clips.agent-native.com\",\"firstTimeCommand\":\"npx @agent-native/core@latest connect https://clips.agent-native.com\",\"authorizeUrl\":\"https://clips.agent-native.com/mcp/oauth/authorize\",\"resourceMetadataUrl\":\"https://clips.agent-native.com/.well-known/oauth-protected-resource\",\"mcpUrl\":\"https://clips.agent-native.com/mcp\"}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-02T10-46-43Z-fd3aa1",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-10-26T08:41:32.163Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Unauthorized\",\"message\":\"Authentication required. Run `npx -y @agent-native/core@latest reconnect https://clips.agent-native.com` to re-authenticate this MCP connector without reinstalling it (or, in a Claude Code host, run /mcp and choose Authenticate), then retry. For first-time setup, run `npx @agent-native/core@latest connect https://clips.agent-native.com`.\",\"authenticate\":{\"command\":\"npx -y @agent-native/core@latest reconnect https://clips.agent-native.com\",\"firstTimeCommand\":\"npx @agent-native/core@latest connect https://clips.agent-native.com\",\"authorizeUrl\":\"https://clips.agent-native.com/mcp/oauth/authorize\",\"resourceMetadataUrl\":\"https://clips.agent-native.com/.well-known/oauth-protected-resource\",\"mcpUrl\":\"https://clips.agent-native.com/mcp\"}} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -19,6 +33,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-02T10:46:49.167Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Unauthorized\",\"message\":\"Authentication required. Run `npx -y @agent-native/core@latest reconnect https://clips.agent-native.com` to re-authenticate this MCP connector without reinstalling it (or, in a Claude Code host, run /mcp and choose Authenticate), then retry. For first-time setup, run `npx @agent-native/core@latest connect https://clips.agent-native.com`.\",\"authenticate\":{\"command\":\"npx -y @agent-native/core@latest reconnect https://clips.agent-native.com\",\"firstTimeCommand\":\"npx @agent-native/core@latest connect https://clips.agent-native.com\",\"authorizeUrl\":\"https://clips.agent-native.com/mcp/oauth/authorize\",\"resourceMetadataUrl\":\"https://clips.agent-native.com/.well-known/oauth-protected-resource\",\"mcpUrl\":\"https://clips.agent-native.com/mcp\"}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-02T10-46-49Z-7aea8e",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-10-26T08:41:54.532Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Unauthorized\",\"message\":\"Authentication required. Run `npx -y @agent-native/core@latest reconnect https://clips.agent-native.com` to re-authenticate this MCP connector without reinstalling it (or, in a Claude Code host, run /mcp and choose Authenticate), then retry. For first-time setup, run `npx @agent-native/core@latest connect https://clips.agent-native.com`.\",\"authenticate\":{\"command\":\"npx -y @agent-native/core@latest reconnect https://clips.agent-native.com\",\"firstTimeCommand\":\"npx @agent-native/core@latest connect https://clips.agent-native.com\",\"authorizeUrl\":\"https://clips.agent-native.com/mcp/oauth/authorize\",\"resourceMetadataUrl\":\"https://clips.agent-native.com/.well-known/oauth-protected-resource\",\"mcpUrl\":\"https://clips.agent-native.com/mcp\"}} (endpoint reachable but requires credentials the harness does not send)",

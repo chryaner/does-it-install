@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-02T10:46:36.004Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-11-02T10-46-36Z-c02362",
+        "status": "skipped"
+      },
+      {
         "date": "2026-10-26T08:41:39.792Z",
         "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
         "installMs": 0,
@@ -27,6 +35,14 @@
     ],
     "linux": [
       {
+        "date": "2026-11-02T10:46:43.068Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out",
+        "installMs": 1918,
+        "method": "oci",
+        "runId": "2026-11-02T10-46-43Z-fd3aa1",
+        "status": "timeout"
+      },
+      {
         "date": "2026-10-26T08:41:32.163Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n{\"time\":\"2026-10-26T08:42:41.220478853Z\",\"level\":\"INFO\",\"msg\":\"starting gomodel\",\"version\":\"0.1.108\",\"commit\":\"9fbdd7843eef4abfa6bc6ba74bb7b25d7ff72ee3\",\"build_date\":\"2026-10-25T07:32:35Z\"}\n{\"time\":\"2026-10-26T08:42:41.220647487Z\",\"level\":\"INFO\",\"msg\":\"no config file found; using defaults and environment\",\"searched\":[\"config/config.yaml\",\"config.yaml\"]}\n{\"time\":\"2026-10-26T08:42:41.223378992Z\",\"level\":\"INFO\",\"msg\":\"plugin system disabled\",\"hint\":\"set PLUGINS_ENABLED=true (or GUARDRAILS_ENABLED=true) to load plugins and guardrails\"}\n{\"time\":\"2026-10-26T08:42:41.223491602Z\",\"level\":\"INFO\",\"msg\":\"providers resolved\",\"total\":0,\"from_config_file\":0,\"from_env\":0,\"config_file_providers\":null,\"env_providers\":null}\n{\"time\":\"2026-10-26T08:42:41.223541727Z\",\"level\":\"INFO\",\"msg\":\"using local file cache\",\"path\":\".cache/models.json\"}\n{\"time\":\"2026-10-26T08:42:41.22356352Z\",\"level\":\"WARN\",\"msg\":\"no providers configured via env vars or config.yaml; add provider credentials from the dashboard\"}\n{\"time\":\"2026-10-26T08:42:41.223582409Z\",\"level\":\"INFO\",\"msg\":\"model registry configured\",\"cached_models\":0,\"providers\":0}\n{\"time\":\"2026-10-26T08:42:41.231400197Z\",\"level\":\"WARN\",\"msg\":\"SECURITY WARNING: GOMODEL_MASTER_KEY not set - server running in UNSAFE MODE\",\"security_risk\":\"unauthenticated access allowed\",\"recommendation\":\"set GOMODEL_MASTER_KEY environment variable to secure this gateway\"}\n{\"time\":\"2026-10-26T08:42:41.231442531Z\",\"level\":\"INFO\",\"msg\":\"prometheus metrics disabled\"}\n{\"time\":\"2026-10-26T08:42:41.231458625Z\",\"level\":\"INFO\",\"msg\":\"storage configured\",\"type\":\"sqlite\",\"path\":\"data/gomodel.db\"}\n{\"time\":\"2026-10-26T08:42:41.231472616Z\",\"level\":\"INFO\",\"msg\":\"media storage configured\",\"type\":\"filesystem\",\"path\":\"data/media\"}\n{\"time\":\"2026-10-26T08:42:41.23148795Z\",\"level\":\"INFO\",\"msg\":\"audit logging enabled\",\"log_bodies\":true,\"log_audio_bodies\":false,\"log_image_bodies\":false,\"log_image_bodies_scope\":\"all\",\"log_headers\":true,\"retention_days\":30}\n{\"time\":\"2026-10-26T08:42:41.231517214Z\",\"level\":\"INFO\",\"msg\":\"usage tracking enabled\",\"buffer_size\":1000,\"flush_interval\":5,\"retention_days\":90}\n{\"time\":\"2026-10-26T08:42:41.231975044Z\",\"level\":\"INFO\",\"msg\":\"mcp gateway enabled\",\"path\":\"/mcp\",\"configured_servers\":0}\n{\"time\":\"2026-10-26T08:42:41.232246663Z\",\"level\":\"INFO\",\"msg\":\"install id created\",\"source\":\"generated\"}\n{\"time\":\"2026-10-26T08:42:41.232434606Z\",\"level\":\"WARN\",\"msg\":\"data directory is on the container's own filesystem, not a volume: the database (audit logs, usage, budgets, keys) and the install identity are lost when the container is recreated; mount a volume there or use PostgreSQL/MongoDB\",\"dir\":\"data\"}\n{\"time\":\"2026-10-26T08:42:41.232517911Z\",\"level\":\"INFO\",\"msg\":\"admin API enabled\",\"api\":\"/admin\",\"legacy_alias\":\"/admin/api/v1\",\"legacy_sunset\":\"2026-08-09\"}\n{\"time\":\"2026-10-26T08:42:41.232534617Z\",\"level\":\"INFO\",\"msg\":\"admin UI enabled\",\"url\":\"http://localhost:8080/admin/dashboard\"}\n{\"time\":\"2026-10-26T08:42:41.232548297Z\",\"level\":\"INFO\",\"msg\":\"provider passthrough enabled\",\"path\":\"/p/{provider}/{endpoint}\"}\n{\"time\":\"2026-10-26T08:42:41.233836748Z\",\"level\":\"INFO\",\"msg\":\"starting server\",\"address\":\"[::]:8080\"}\n{\"time\":\"2026-10-26T08:42:41.234165974Z\",\"level\":\"INFO\",\"msg\":\"http(s) server started\",\"address\":\"[::]:8080\"}\n{\"time\":\"2026-10-26T08:42:41.458436919Z\",\"level\":\"INFO\",\"msg\":\"model list loaded\",\"models\":1024,\"providers\":20,\"provider_models\":2373,\"metadata_enriched\":0,\"metadata_total\":0,\"metadata_providers\":0}",
         "installMs": 1346,
@@ -51,6 +67,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-02T10:46:49.167Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-11-02T10-46-49Z-7aea8e",
+        "status": "skipped"
+      },
       {
         "date": "2026-10-26T08:41:54.532Z",
         "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",

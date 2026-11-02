@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-02T10:46:36.004Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-11-02T10-46-36Z-c02362",
+        "status": "skipped"
+      },
+      {
         "date": "2026-10-26T08:41:38.518Z",
         "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
         "installMs": 0,
@@ -35,6 +43,14 @@
     ],
     "linux": [
       {
+        "date": "2026-11-02T10:46:43.068Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n2026-11-02T10:47:01.154687703Z ERROR \"unable to read config file at \\\"tools.yaml\\\": open tools.yaml: no such file or directory\"",
+        "installMs": 7040,
+        "method": "oci",
+        "runId": "2026-11-02T10-46-43Z-fd3aa1",
+        "status": "needs_config"
+      },
+      {
         "date": "2026-10-26T08:41:31.617Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n2026-10-26T08:41:45.107691129Z ERROR \"unable to read config file at \\\"tools.yaml\\\": open tools.yaml: no such file or directory\"",
         "installMs": 4827,
@@ -67,6 +83,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-02T10:46:49.167Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-11-02T10-46-49Z-7aea8e",
+        "status": "skipped"
+      },
       {
         "date": "2026-10-26T08:41:52.818Z",
         "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",

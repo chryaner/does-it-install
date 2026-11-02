@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-02T10:46:36.004Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nerror: No solution found when resolving tool dependencies\n  cause: Because aihawk was not found in the package registry and you require aihawk==0.69.2, we can conclude that your requirements are unsatisfiable.",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-36Z-c02362",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-02T10:46:43.068Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nerror: No solution found when resolving tool dependencies\n  cause: Because aihawk was not found in the package registry and you require aihawk==0.69.2, we can conclude that your requirements are unsatisfiable.",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-43Z-fd3aa1",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-02T10:46:49.167Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nerror: No solution found when resolving tool dependencies\n  cause: Because aihawk was not found in the package registry and you require aihawk==0.69.2, we can conclude that your requirements are unsatisfiable.",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-49Z-7aea8e",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.feder-cr/aihawk",
+  "slug": "io.github.feder-cr__aihawk"
+}

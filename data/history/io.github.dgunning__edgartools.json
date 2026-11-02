@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-02T10:46:36.472Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading rapidfuzz (1.2MiB)\nDownloading edgartools (3.4MiB)\n Downloaded rapidfuzz\n Downloaded edgartools\nInstalled 42 packages in 641ms\nedgartools mcp needs the [ai] extra (No module named 'mcp'). Run: uvx --from 'edgartools[ai]' edgartools mcp",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-36Z-011438",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-16T15:42:04.537Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/Ep3HE_11FlFRX-f0/bin/edgar-test\", line 6, in <module>\n    from tests.harness.cli import cli\nModuleNotFoundError: No module named 'tests'",
         "method": "pypi",
@@ -25,6 +32,13 @@
     ],
     "linux": [
       {
+        "date": "2026-11-02T10:46:31.258Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading edgartools (3.4MiB)\nDownloading rapidfuzz (3.0MiB)\n Downloaded rapidfuzz\n Downloaded edgartools\nInstalled 42 packages in 79ms\nedgartools mcp needs the [ai] extra (No module named 'mcp'). Run: uvx --from 'edgartools[ai]' edgartools mcp",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-31Z-a5d113",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-16T15:41:59.337Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/N-w8U9uJcl4eeeOz/bin/edgar-test\", line 6, in <module>\n    from tests.harness.cli import cli\nModuleNotFoundError: No module named 'tests'",
         "method": "pypi",
@@ -47,6 +61,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-02T10:46:54.855Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading rapidfuzz (1.7MiB)\nDownloading edgartools (3.4MiB)\n Downloaded rapidfuzz\n Downloaded edgartools\nInstalled 43 packages in 26.38s\nedgartools mcp needs the [ai] extra (No module named 'mcp'). Run: uvx --from 'edgartools[ai]' edgartools mcp",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-54Z-35520a",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-16T15:42:13.871Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\ZT2u6_XJ-q5WneIF\\Scripts\\edgar-test.exe\\__main__.py\", line 4, in <module>\r\nModuleNotFoundError: No module named 'tests'",

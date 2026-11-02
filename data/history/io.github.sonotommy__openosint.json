@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-02T10:46:39.955Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: token 'T', \"  Thinking...\" is not valid JSON\nUnexpected end of JSON input\nUnexpected token '╭', \"╭─────────\"... is not valid JSON\nUnexpected token '│', \"│  Error: \"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'o', \"openosint ❯ \" is not valid JSON\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\n--- stderr (tail) ---\nDownloading anthropic (2.1MiB)\n Downloaded anthropic\nInstalled 55 packages in 501ms\nWarning: Input is not a terminal (fd=0).\n⭐ If OpenOSINT is useful, star it → https://github.com/OpenOSINT/OpenOSINT",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-39Z-d55a12",
+        "status": "timeout"
+      },
+      {
         "date": "2026-10-26T08:41:39.792Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: token 'T', \"  Thinking...\" is not valid JSON\nUnexpected end of JSON input\nUnexpected token '╭', \"╭─────────\"... is not valid JSON\nUnexpected token '│', \"│  Error: \"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'o', \"openosint ❯ \" is not valid JSON\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\n--- stderr (tail) ---\nDownloading anthropic (2.1MiB)\n Downloaded anthropic\nInstalled 56 packages in 360ms\nWarning: Input is not a terminal (fd=0).\n⭐ If OpenOSINT is useful, star it → https://github.com/OpenOSINT/OpenOSINT",
         "method": "pypi",
@@ -25,6 +32,13 @@
     ],
     "linux": [
       {
+        "date": "2026-11-02T10:46:27.782Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: put\nUnexpected end of JSON input\nUnexpected token 'o', \"openosint \"... is not valid JSON\nUnexpected token 's', \"stId\":0,\"r\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected token 'o', ...\"          openosint \"... is not valid JSON\nUnexpected token 's', \"stId\":0,\"r\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'T', \"  Thinking...\" is not valid JSON\n--- stderr (tail) ---\nDownloading anthropic (2.1MiB)\n Downloaded anthropic\nInstalled 55 packages in 69ms\nWarning: Input is not a terminal (fd=0).\n⭐ If OpenOSINT is useful, star it → https://github.com/OpenOSINT/OpenOSINT",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-27Z-a02207",
+        "status": "timeout"
+      },
+      {
         "date": "2026-10-26T08:41:32.163Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: put\nUnexpected end of JSON input\nUnexpected token 'o', \"openosint \"... is not valid JSON\nUnexpected token 's', \"stId\":0,\"r\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected token 'o', ...\"          openosint \"... is not valid JSON\nUnexpected token 's', \"stId\":0,\"r\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'T', \"  Thinking...\" is not valid JSON\n--- stderr (tail) ---\nDownloading anthropic (2.1MiB)\n Downloaded anthropic\nInstalled 56 packages in 66ms\nWarning: Input is not a terminal (fd=0).\n⭐ If OpenOSINT is useful, star it → https://github.com/OpenOSINT/OpenOSINT",
         "method": "pypi",
@@ -47,6 +61,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-02T10:47:04.266Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading anthropic (2.1MiB)\n Downloaded anthropic\nInstalled 56 packages in 26.37s\n[!] Fatal: No Windows console found. Are you running cmd.exe?",
+        "method": "pypi",
+        "runId": "2026-11-02T10-47-04Z-712b71",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-10-26T08:41:54.532Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading anthropic (2.1MiB)\n Downloaded anthropic\nInstalled 57 packages in 31.50s\n[!] Fatal: No Windows console found. Are you running cmd.exe?",

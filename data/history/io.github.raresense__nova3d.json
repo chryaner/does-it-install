@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-02T10:46:36.004Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 40 packages in 325ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/9bqCfDZfv2j0bzXQ/bin/nova3d-mcp\", line 6, in <module>\n    from nova3d_mcp.server import main\n  File \"/Users/runner/.cache/uv/archive-v0/9bqCfDZfv2j0bzXQ/lib/python3.15/site-packages/nova3d_mcp/server.py\", line 32, in <module>\n    from mcp.server.fastmcp import FastMCP\n  File \"/Users/runner/.cache/uv/archive-v0/9bqCfDZfv2j0bzXQ/lib/python3.15/site-packages/mcp/server/fastmcp.py\", line 16, in <module>\n    raise ModuleNotFoundError(_MESSAGE, name=__name__)\nModuleNotFoundError: No module named 'mcp.server.fastmcp'. This is mcp 2.x, where FastMCP was renamed to MCPServer (from mcp.server.mcpserver import MCPServer) and other APIs changed; see the migration guide at https://py.sdk.modelcontextprotocol.io/v2/migration/#fastmcp-renamed-to-mcpserver or pin 'mcp<2' to keep running v1 code.. Did you mean: 'mcp.server.auth'?",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-36Z-c02362",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-10-26T08:41:39.792Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 40 packages in 204ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/yCskmnkVr5Ugbo9u/bin/nova3d-mcp\", line 6, in <module>\n    from nova3d_mcp.server import main\n  File \"/Users/runner/.cache/uv/archive-v0/yCskmnkVr5Ugbo9u/lib/python3.15/site-packages/nova3d_mcp/server.py\", line 32, in <module>\n    from mcp.server.fastmcp import FastMCP\n  File \"/Users/runner/.cache/uv/archive-v0/yCskmnkVr5Ugbo9u/lib/python3.15/site-packages/mcp/server/fastmcp.py\", line 16, in <module>\n    raise ModuleNotFoundError(_MESSAGE, name=__name__)\nModuleNotFoundError: No module named 'mcp.server.fastmcp'. This is mcp 2.x, where FastMCP was renamed to MCPServer (from mcp.server.mcpserver import MCPServer) and other APIs changed; see the migration guide at https://py.sdk.modelcontextprotocol.io/v2/migration/#fastmcp-renamed-to-mcpserver or pin 'mcp<2' to keep running v1 code.. Did you mean: 'mcp.server.auth'?",
         "method": "pypi",
@@ -25,6 +32,13 @@
     ],
     "linux": [
       {
+        "date": "2026-11-02T10:46:43.068Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 40 packages in 36ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/i0oF21tQ4_gZOyRN/bin/nova3d-mcp\", line 6, in <module>\n    from nova3d_mcp.server import main\n  File \"/home/runner/.cache/uv/archive-v0/i0oF21tQ4_gZOyRN/lib/python3.14/site-packages/nova3d_mcp/server.py\", line 32, in <module>\n    from mcp.server.fastmcp import FastMCP\n  File \"/home/runner/.cache/uv/archive-v0/i0oF21tQ4_gZOyRN/lib/python3.14/site-packages/mcp/server/fastmcp.py\", line 16, in <module>\n    raise ModuleNotFoundError(_MESSAGE, name=__name__)\nModuleNotFoundError: No module named 'mcp.server.fastmcp'. This is mcp 2.x, where FastMCP was renamed to MCPServer (from mcp.server.mcpserver import MCPServer) and other APIs changed; see the migration guide at https://py.sdk.modelcontextprotocol.io/v2/migration/#fastmcp-renamed-to-mcpserver or pin 'mcp<2' to keep running v1 code.",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-43Z-fd3aa1",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-10-26T08:41:32.163Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 40 packages in 15ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/hPIHGRAbnjaHfCT6/bin/nova3d-mcp\", line 6, in <module>\n    from nova3d_mcp.server import main\n  File \"/home/runner/.cache/uv/archive-v0/hPIHGRAbnjaHfCT6/lib/python3.14/site-packages/nova3d_mcp/server.py\", line 32, in <module>\n    from mcp.server.fastmcp import FastMCP\n  File \"/home/runner/.cache/uv/archive-v0/hPIHGRAbnjaHfCT6/lib/python3.14/site-packages/mcp/server/fastmcp.py\", line 16, in <module>\n    raise ModuleNotFoundError(_MESSAGE, name=__name__)\nModuleNotFoundError: No module named 'mcp.server.fastmcp'. This is mcp 2.x, where FastMCP was renamed to MCPServer (from mcp.server.mcpserver import MCPServer) and other APIs changed; see the migration guide at https://py.sdk.modelcontextprotocol.io/v2/migration/#fastmcp-renamed-to-mcpserver or pin 'mcp<2' to keep running v1 code.",
         "method": "pypi",
@@ -47,6 +61,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-02T10:46:49.167Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 42 packages in 9.82s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\rI_Ogv2nawGcucOn\\Scripts\\nova3d-mcp.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\rI_Ogv2nawGcucOn\\Lib\\site-packages\\nova3d_mcp\\server.py\", line 32, in <module>\r\n    from mcp.server.fastmcp import FastMCP\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\rI_Ogv2nawGcucOn\\Lib\\site-packages\\mcp\\server\\fastmcp.py\", line 16, in <module>\r\n    raise ModuleNotFoundError(_MESSAGE, name=__name__)\r\nModuleNotFoundError: No module named 'mcp.server.fastmcp'. This is mcp 2.x, where FastMCP was renamed to MCPServer (from mcp.server.mcpserver import MCPServer) and other APIs changed; see the migration guide at https://py.sdk.modelcontextprotocol.io/v2/migration/#fastmcp-renamed-to-mcpserver or pin 'mcp<2' to keep running v1 code.",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-49Z-7aea8e",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-10-26T08:41:54.532Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 42 packages in 7.56s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\VdVKVWjrSlIEpOQ9\\Scripts\\nova3d-mcp.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\VdVKVWjrSlIEpOQ9\\Lib\\site-packages\\nova3d_mcp\\server.py\", line 32, in <module>\r\n    from mcp.server.fastmcp import FastMCP\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\VdVKVWjrSlIEpOQ9\\Lib\\site-packages\\mcp\\server\\fastmcp.py\", line 16, in <module>\r\n    raise ModuleNotFoundError(_MESSAGE, name=__name__)\r\nModuleNotFoundError: No module named 'mcp.server.fastmcp'. This is mcp 2.x, where FastMCP was renamed to MCPServer (from mcp.server.mcpserver import MCPServer) and other APIs changed; see the migration guide at https://py.sdk.modelcontextprotocol.io/v2/migration/#fastmcp-renamed-to-mcpserver or pin 'mcp<2' to keep running v1 code.",

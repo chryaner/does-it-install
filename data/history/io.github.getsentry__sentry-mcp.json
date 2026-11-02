@@ -2,6 +2,25 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-02T10:46:36.004Z",
+        "installMs": 18447,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-36Z-c02362",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "find_organizations",
+          "find_projects",
+          "update_issue",
+          "search_events",
+          "analyze_issue_with_seer",
+          "search_issues",
+          "get_sentry_resource",
+          "search_sentry_tools",
+          "execute_sentry_tool"
+        ]
+      },
+      {
         "date": "2026-10-26T08:41:40.406Z",
         "installMs": 14442,
         "method": "npm",
@@ -109,6 +128,25 @@
     ],
     "linux": [
       {
+        "date": "2026-11-02T10:46:43.068Z",
+        "installMs": 8815,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-43Z-fd3aa1",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "find_organizations",
+          "find_projects",
+          "update_issue",
+          "search_events",
+          "analyze_issue_with_seer",
+          "search_issues",
+          "get_sentry_resource",
+          "search_sentry_tools",
+          "execute_sentry_tool"
+        ]
+      },
+      {
         "date": "2026-10-26T08:41:31.457Z",
         "installMs": 12317,
         "method": "npm",
@@ -215,6 +253,25 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-02T10:46:49.167Z",
+        "installMs": 416355,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-49Z-7aea8e",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "find_organizations",
+          "find_projects",
+          "update_issue",
+          "search_events",
+          "analyze_issue_with_seer",
+          "search_issues",
+          "get_sentry_resource",
+          "search_sentry_tools",
+          "execute_sentry_tool"
+        ]
+      },
       {
         "date": "2026-10-26T08:41:59.389Z",
         "installMs": 454470,

@@ -2,6 +2,35 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-02T10:46:39.955Z",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-39Z-d55a12",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "get_strategy_performance",
+          "get_trade_reflection",
+          "remember_trade",
+          "recall_memories",
+          "get_behavioral_analysis",
+          "get_agent_state",
+          "create_trading_plan",
+          "check_active_plans",
+          "evolution_fetch_market_data",
+          "evolution_discover_patterns",
+          "evolution_run_backtest",
+          "evolution_evolve_strategy",
+          "evolution_get_log",
+          "export_audit_trail",
+          "verify_audit_hash",
+          "verify_audit_chain",
+          "get_daily_root",
+          "validate_strategy",
+          "check_trade_legitimacy",
+          "compute_dqs"
+        ]
+      },
+      {
         "date": "2026-10-26T08:41:39.792Z",
         "method": "pypi",
         "runId": "2026-10-26T08-41-39Z-9fba12",
@@ -91,6 +120,35 @@
     ],
     "linux": [
       {
+        "date": "2026-11-02T10:46:27.782Z",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-27Z-a02207",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "get_strategy_performance",
+          "get_trade_reflection",
+          "remember_trade",
+          "recall_memories",
+          "get_behavioral_analysis",
+          "get_agent_state",
+          "create_trading_plan",
+          "check_active_plans",
+          "evolution_fetch_market_data",
+          "evolution_discover_patterns",
+          "evolution_run_backtest",
+          "evolution_evolve_strategy",
+          "evolution_get_log",
+          "export_audit_trail",
+          "verify_audit_hash",
+          "verify_audit_chain",
+          "get_daily_root",
+          "validate_strategy",
+          "check_trade_legitimacy",
+          "compute_dqs"
+        ]
+      },
+      {
         "date": "2026-10-26T08:41:32.163Z",
         "method": "pypi",
         "runId": "2026-10-26T08-41-32Z-1a3acc",
@@ -179,6 +237,35 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-02T10:47:04.266Z",
+        "method": "pypi",
+        "runId": "2026-11-02T10-47-04Z-712b71",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "get_strategy_performance",
+          "get_trade_reflection",
+          "remember_trade",
+          "recall_memories",
+          "get_behavioral_analysis",
+          "get_agent_state",
+          "create_trading_plan",
+          "check_active_plans",
+          "evolution_fetch_market_data",
+          "evolution_discover_patterns",
+          "evolution_run_backtest",
+          "evolution_evolve_strategy",
+          "evolution_get_log",
+          "export_audit_trail",
+          "verify_audit_hash",
+          "verify_audit_chain",
+          "get_daily_root",
+          "validate_strategy",
+          "check_trade_legitimacy",
+          "compute_dqs"
+        ]
+      },
       {
         "date": "2026-10-26T08:41:54.532Z",
         "method": "pypi",

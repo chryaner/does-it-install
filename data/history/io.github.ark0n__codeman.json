@@ -1,0 +1,63 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-02T10:46:36.472Z",
+        "installMs": 18680,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-36Z-011438",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "list_sessions",
+          "start_session",
+          "send_prompt",
+          "wait_for_session",
+          "read_output",
+          "interrupt_session",
+          "delete_session"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-02T10:46:31.258Z",
+        "installMs": 8547,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-31Z-a5d113",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "list_sessions",
+          "start_session",
+          "send_prompt",
+          "wait_for_session",
+          "read_output",
+          "interrupt_session",
+          "delete_session"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-02T10:46:54.855Z",
+        "installMs": 446689,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-54Z-35520a",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "list_sessions",
+          "start_session",
+          "send_prompt",
+          "wait_for_session",
+          "read_output",
+          "interrupt_session",
+          "delete_session"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.Ark0N/codeman",
+  "slug": "io.github.ark0n__codeman"
+}

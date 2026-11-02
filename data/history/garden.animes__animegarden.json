@@ -1,0 +1,42 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-02T10:46:36.004Z",
+        "method": "remote-http",
+        "runId": "2026-11-02T10-46-36Z-c02362",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "search_resources"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-02T10:46:43.068Z",
+        "method": "remote-http",
+        "runId": "2026-11-02T10-46-43Z-fd3aa1",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "search_resources"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-02T10:46:49.167Z",
+        "method": "remote-http",
+        "runId": "2026-11-02T10-46-49Z-7aea8e",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "search_resources"
+        ]
+      }
+    ]
+  },
+  "serverId": "garden.animes/animegarden",
+  "slug": "garden.animes__animegarden"
+}

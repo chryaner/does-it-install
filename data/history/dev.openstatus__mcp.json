@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-02T10:46:39.955Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"code\":\"UNAUTHORIZED\",\"message\":\"Missing credentials: send an 'x-openstatus-key' header or 'Authorization: Bearer <token>'\",\"docs\":\"https://www.openstatus.dev/docs/api-references/errors/code/UNAUTHORIZED\",\"requestId\":\"0c9d6d6f-7989-424f-a0b1-60e1a9851de0\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-02T10-46-39Z-d55a12",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-02T10:46:27.782Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"code\":\"UNAUTHORIZED\",\"message\":\"Missing credentials: send an 'x-openstatus-key' header or 'Authorization: Bearer <token>'\",\"docs\":\"https://www.openstatus.dev/docs/api-references/errors/code/UNAUTHORIZED\",\"requestId\":\"f6f9055a-1e69-43da-a7bd-867f0a4f7969\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-02T10-46-27Z-a02207",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-02T10:47:04.266Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"code\":\"UNAUTHORIZED\",\"message\":\"Missing credentials: send an 'x-openstatus-key' header or 'Authorization: Bearer <token>'\",\"docs\":\"https://www.openstatus.dev/docs/api-references/errors/code/UNAUTHORIZED\",\"requestId\":\"2059db94-fe8d-450a-a154-7293f93e5361\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-02T10-47-04Z-712b71",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "dev.openstatus/mcp",
+  "slug": "dev.openstatus__mcp"
+}

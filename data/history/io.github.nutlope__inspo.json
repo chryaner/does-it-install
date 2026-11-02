@@ -2,6 +2,31 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-02T10:46:36.472Z",
+        "installMs": 2085,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-36Z-011438",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "search_screens",
+          "get_screen",
+          "get_design_system",
+          "find_similar",
+          "compare",
+          "find_by_color",
+          "find_examples_for_macrostructure",
+          "list_collections",
+          "get_filters",
+          "get_site_pages",
+          "find_components",
+          "get_collection",
+          "find_reference_components",
+          "recommend",
+          "get_reference_jsx"
+        ]
+      },
+      {
         "date": "2026-10-26T08:41:39.792Z",
         "installMs": 642,
         "method": "npm",
@@ -29,6 +54,31 @@
     ],
     "linux": [
       {
+        "date": "2026-11-02T10:46:31.258Z",
+        "installMs": 569,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-31Z-a5d113",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "search_screens",
+          "get_screen",
+          "get_design_system",
+          "find_similar",
+          "compare",
+          "find_by_color",
+          "find_examples_for_macrostructure",
+          "list_collections",
+          "get_filters",
+          "get_site_pages",
+          "find_components",
+          "get_collection",
+          "find_reference_components",
+          "recommend",
+          "get_reference_jsx"
+        ]
+      },
+      {
         "date": "2026-10-26T08:41:32.163Z",
         "installMs": 337,
         "method": "npm",
@@ -55,6 +105,31 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-02T10:46:54.855Z",
+        "installMs": 7850,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-54Z-35520a",
+        "status": "pass",
+        "toolCount": 15,
+        "toolNames": [
+          "search_screens",
+          "get_screen",
+          "get_design_system",
+          "find_similar",
+          "compare",
+          "find_by_color",
+          "find_examples_for_macrostructure",
+          "list_collections",
+          "get_filters",
+          "get_site_pages",
+          "find_components",
+          "get_collection",
+          "find_reference_components",
+          "recommend",
+          "get_reference_jsx"
+        ]
+      },
       {
         "date": "2026-10-26T08:41:54.532Z",
         "installMs": 1430,

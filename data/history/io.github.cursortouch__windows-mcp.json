@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-02T10:46:36.472Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nerror: No solution found when resolving tool dependencies\n  cause: Because pywin32==311 has no wheels with a matching Python ABI tag (e.g., `cp315`) and only the following versions of pywin32 are available:\n             pywin32<=311\n             pywin32==312\n         we can conclude that all of:\n             pywin32>=311,<312\n             pywin32>312\n          cannot be used.\n         And because pywin32==312 has no wheels with a matching platform tag (e.g., `macosx_26_0_arm64`), we can conclude that pywin32>=311 cannot be used.\n         And because windows-mcp==0.8.1 depends on pywin32>=311 and you require windows-mcp==0.8.1, we can conclude that your requirements are unsatisfiable.\n\nhint: Wheels are available for `pywin32` (v312) on the following platforms: `win32`, `win_amd64`, `win_arm64`\n\nhint: You require CPython 3.15 (`cp315`), but we only found wheels for `pywin32` (v311) with the following Python ABI tags: `cp38`, `cp39`, `cp310`, `cp311`, `cp312`, `cp313`, `cp314`",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-36Z-011438",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-10-26T08:41:40.406Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nerror: No solution found when resolving tool dependencies\n  cause: Because pywin32==311 has no wheels with a matching Python ABI tag (e.g., `cp315`) and only the following versions of pywin32 are available:\n             pywin32<=311\n             pywin32==312\n         we can conclude that all of:\n             pywin32>=311,<312\n             pywin32>312\n          cannot be used.\n         And because pywin32==312 has no wheels with a matching platform tag (e.g., `macosx_26_0_arm64`), we can conclude that pywin32>=311 cannot be used.\n         And because windows-mcp==0.8.1 depends on pywin32>=311 and you require windows-mcp==0.8.1, we can conclude that your requirements are unsatisfiable.\n\nhint: Wheels are available for `pywin32` (v312) on the following platforms: `win32`, `win_amd64`, `win_arm64`\n\nhint: You require CPython 3.15 (`cp315`), but we only found wheels for `pywin32` (v311) with the following Python ABI tags: `cp38`, `cp39`, `cp310`, `cp311`, `cp312`, `cp313`, `cp314`",
         "method": "pypi",
@@ -18,6 +25,13 @@
     ],
     "linux": [
       {
+        "date": "2026-11-02T10:46:31.258Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nerror: No solution found when resolving tool dependencies\n  cause: Because pywin32>=311 has no wheels with a matching platform tag (e.g., `manylinux_2_43_x86_64`) and windows-mcp==0.8.1 depends on pywin32>=311, we can conclude that windows-mcp==0.8.1 cannot be used.\n         And because you require windows-mcp==0.8.1, we can conclude that your requirements are unsatisfiable.\n\nhint: Wheels are available for `pywin32` (v312) on the following platforms: `win32`, `win_amd64`, `win_arm64`",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-31Z-a5d113",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-10-26T08:41:31.457Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nerror: No solution found when resolving tool dependencies\n  cause: Because pywin32>=311 has no wheels with a matching platform tag (e.g., `manylinux_2_43_x86_64`) and windows-mcp==0.8.1 depends on pywin32>=311, we can conclude that windows-mcp==0.8.1 cannot be used.\n         And because you require windows-mcp==0.8.1, we can conclude that your requirements are unsatisfiable.\n\nhint: Wheels are available for `pywin32` (v312) on the following platforms: `win32`, `win_amd64`, `win_arm64`",
         "method": "pypi",
@@ -33,6 +47,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-02T10:46:54.855Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading pywin32 (6.6MiB)\nDownloading cryptography (3.6MiB)\nDownloading pygments (1.2MiB)\nDownloading beartype (1.5MiB)\nDownloading pillow (6.9MiB)\nDownloading rapidfuzz (1.6MiB)\nDownloading pydantic-core (2.1MiB)\nDownloading numpy (12.0MiB)\n Downloaded rapidfuzz\n Downloaded pygments\n Downloaded pydantic-core\n Downloaded pillow\n Downloaded cryptography\n Downloaded beartype\n Downloaded numpy\n Downloaded pywin32\nInstalled 86 packages in 16.97s\nUsage: windows-mcp [OPTIONS] COMMAND [ARGS]...\r\n\r\n  Windows-MCP: MCP server for Windows desktop automation.\r\n\r\nOptions:\r\n  --help  Show this message and exit.\r\n\r\nCommands:\r\n  auth       Generate an auth key (and optionally TLS certs) and save to...\r\n  install    Install windows-mcp as a scheduled task that starts at login.\r\n  serve\r\n  uninstall  Remove the windows-mcp scheduled task and stop the...",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-54Z-35520a",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-10-26T08:41:59.389Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading cryptography (3.6MiB)\nDownloading beartype (1.5MiB)\nDownloading pygments (1.2MiB)\nDownloading pywin32 (6.6MiB)\nDownloading rapidfuzz (1.6MiB)\nDownloading pillow (6.9MiB)\nDownloading pydantic-core (2.1MiB)\nDownloading numpy (12.0MiB)\n Downloaded pydantic-core\n Downloaded rapidfuzz\n Downloaded pygments\n Downloaded beartype\n Downloaded pillow\n Downloaded cryptography\n Downloaded numpy\n Downloaded pywin32\nInstalled 86 packages in 43.13s\nUsage: windows-mcp [OPTIONS] COMMAND [ARGS]...\r\n\r\n  Windows-MCP: MCP server for Windows desktop automation.\r\n\r\nOptions:\r\n  --help  Show this message and exit.\r\n\r\nCommands:\r\n  auth       Generate an auth key (and optionally TLS certs) and save to...\r\n  install    Install windows-mcp as a scheduled task that starts at login.\r\n  serve\r\n  uninstall  Remove the windows-mcp scheduled task and stop the...",

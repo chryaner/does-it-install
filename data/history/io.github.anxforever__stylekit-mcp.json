@@ -1,0 +1,72 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-02T10:46:36.472Z",
+        "installMs": 4683,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-36Z-011438",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "stylekit_search_styles",
+          "stylekit_list_assets",
+          "stylekit_get_asset",
+          "stylekit_get_style",
+          "stylekit_get_style_tokens",
+          "stylekit_get_component_recipe",
+          "stylekit_get_shadcn_install",
+          "stylekit_lint_code",
+          "stylekit_repair_code",
+          "stylekit_get_implementation_brief"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-02T10:46:31.258Z",
+        "installMs": 1833,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-31Z-a5d113",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "stylekit_search_styles",
+          "stylekit_list_assets",
+          "stylekit_get_asset",
+          "stylekit_get_style",
+          "stylekit_get_style_tokens",
+          "stylekit_get_component_recipe",
+          "stylekit_get_shadcn_install",
+          "stylekit_lint_code",
+          "stylekit_repair_code",
+          "stylekit_get_implementation_brief"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-02T10:46:54.855Z",
+        "installMs": 82276,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-54Z-35520a",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "stylekit_search_styles",
+          "stylekit_list_assets",
+          "stylekit_get_asset",
+          "stylekit_get_style",
+          "stylekit_get_style_tokens",
+          "stylekit_get_component_recipe",
+          "stylekit_get_shadcn_install",
+          "stylekit_lint_code",
+          "stylekit_repair_code",
+          "stylekit_get_implementation_brief"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.AnxForever/stylekit-mcp",
+  "slug": "io.github.anxforever__stylekit-mcp"
+}

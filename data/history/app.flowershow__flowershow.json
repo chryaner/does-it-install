@@ -2,6 +2,16 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-02T10:46:36.472Z",
+        "method": "remote-http",
+        "runId": "2026-11-02T10-46-36Z-011438",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "publish"
+        ]
+      },
+      {
         "date": "2026-10-26T08:41:38.518Z",
         "method": "remote-http",
         "runId": "2026-10-26T08-41-38Z-f793a6",
@@ -14,6 +24,16 @@
     ],
     "linux": [
       {
+        "date": "2026-11-02T10:46:31.258Z",
+        "method": "remote-http",
+        "runId": "2026-11-02T10-46-31Z-a5d113",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "publish"
+        ]
+      },
+      {
         "date": "2026-10-26T08:41:31.617Z",
         "method": "remote-http",
         "runId": "2026-10-26T08-41-31Z-5a4525",
@@ -25,6 +45,16 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-02T10:46:54.855Z",
+        "method": "remote-http",
+        "runId": "2026-11-02T10-46-54Z-35520a",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "publish"
+        ]
+      },
       {
         "date": "2026-10-26T08:41:52.818Z",
         "method": "remote-http",

@@ -2,6 +2,35 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-02T10:46:36.004Z",
+        "installMs": 21994,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-36Z-c02362",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "token_audit",
+          "install_doctor",
+          "fleet_audit",
+          "wiki_write",
+          "wiki_read",
+          "wiki_query",
+          "expand",
+          "waste_audit",
+          "cache_audit",
+          "model_routing",
+          "optimize_text",
+          "get_cached",
+          "optimize_session",
+          "smart_read",
+          "smart_write",
+          "smart_edit",
+          "smart_glob",
+          "smart_grep",
+          "get_optimization_report"
+        ]
+      },
+      {
         "date": "2026-08-16T15:42:00.997Z",
         "installMs": 7491,
         "method": "npm",
@@ -124,6 +153,35 @@
     ],
     "linux": [
       {
+        "date": "2026-11-02T10:46:43.068Z",
+        "installMs": 9072,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-43Z-fd3aa1",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "token_audit",
+          "install_doctor",
+          "fleet_audit",
+          "wiki_write",
+          "wiki_read",
+          "wiki_query",
+          "expand",
+          "waste_audit",
+          "cache_audit",
+          "model_routing",
+          "optimize_text",
+          "get_cached",
+          "optimize_session",
+          "smart_read",
+          "smart_write",
+          "smart_edit",
+          "smart_glob",
+          "smart_grep",
+          "get_optimization_report"
+        ]
+      },
+      {
         "date": "2026-08-16T15:41:56.759Z",
         "installMs": 7154,
         "method": "npm",
@@ -245,6 +303,35 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-02T10:46:49.167Z",
+        "installMs": 366153,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-49Z-7aea8e",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "token_audit",
+          "install_doctor",
+          "fleet_audit",
+          "wiki_write",
+          "wiki_read",
+          "wiki_query",
+          "expand",
+          "waste_audit",
+          "cache_audit",
+          "model_routing",
+          "optimize_text",
+          "get_cached",
+          "optimize_session",
+          "smart_read",
+          "smart_write",
+          "smart_edit",
+          "smart_glob",
+          "smart_grep",
+          "get_optimization_report"
+        ]
+      },
       {
         "date": "2026-08-16T15:42:18.905Z",
         "installMs": 155747,

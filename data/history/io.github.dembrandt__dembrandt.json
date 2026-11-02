@@ -1,0 +1,105 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-02T10:46:36.472Z",
+        "installMs": 24368,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-36Z-011438",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "get_design_tokens",
+          "get_color_palette",
+          "get_typography",
+          "get_component_styles",
+          "get_surfaces",
+          "get_spacing",
+          "get_motion",
+          "get_brand_identity",
+          "compute_drift",
+          "render_report",
+          "get_findings",
+          "export_dtcg",
+          "generate_design_md",
+          "export_tailwind",
+          "export_shadcn",
+          "validate_dtcg",
+          "check_contrast",
+          "check_robots",
+          "get_job_status",
+          "list_jobs",
+          "cancel_job"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-02T10:46:31.258Z",
+        "installMs": 12298,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-31Z-a5d113",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "get_design_tokens",
+          "get_color_palette",
+          "get_typography",
+          "get_component_styles",
+          "get_surfaces",
+          "get_spacing",
+          "get_motion",
+          "get_brand_identity",
+          "compute_drift",
+          "render_report",
+          "get_findings",
+          "export_dtcg",
+          "generate_design_md",
+          "export_tailwind",
+          "export_shadcn",
+          "validate_dtcg",
+          "check_contrast",
+          "check_robots",
+          "get_job_status",
+          "list_jobs",
+          "cancel_job"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-02T10:46:54.855Z",
+        "installMs": 186362,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-54Z-35520a",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "get_design_tokens",
+          "get_color_palette",
+          "get_typography",
+          "get_component_styles",
+          "get_surfaces",
+          "get_spacing",
+          "get_motion",
+          "get_brand_identity",
+          "compute_drift",
+          "render_report",
+          "get_findings",
+          "export_dtcg",
+          "generate_design_md",
+          "export_tailwind",
+          "export_shadcn",
+          "validate_dtcg",
+          "check_contrast",
+          "check_robots",
+          "get_job_status",
+          "list_jobs",
+          "cancel_job"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.dembrandt/dembrandt",
+  "slug": "io.github.dembrandt__dembrandt"
+}

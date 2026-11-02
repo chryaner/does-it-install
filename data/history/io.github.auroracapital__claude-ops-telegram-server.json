@@ -2,6 +2,20 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-02T10:46:36.472Z",
+        "installMs": 12762,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-36Z-011438",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "list_dialogs",
+          "get_messages",
+          "send_message",
+          "search_messages"
+        ]
+      },
+      {
         "date": "2026-10-26T08:41:40.406Z",
         "installMs": 8389,
         "method": "npm",
@@ -32,6 +46,20 @@
     ],
     "linux": [
       {
+        "date": "2026-11-02T10:46:31.258Z",
+        "installMs": 4897,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-31Z-a5d113",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "list_dialogs",
+          "get_messages",
+          "send_message",
+          "search_messages"
+        ]
+      },
+      {
         "date": "2026-10-26T08:41:31.457Z",
         "installMs": 6511,
         "method": "npm",
@@ -61,6 +89,20 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-02T10:46:54.855Z",
+        "installMs": 251752,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-54Z-35520a",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "list_dialogs",
+          "get_messages",
+          "send_message",
+          "search_messages"
+        ]
+      },
       {
         "date": "2026-10-26T08:41:59.389Z",
         "installMs": 148013,

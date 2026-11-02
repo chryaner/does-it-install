@@ -1,0 +1,117 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-02T10:46:36.004Z",
+        "installMs": 1421,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-36Z-c02362",
+        "status": "pass",
+        "toolCount": 25,
+        "toolNames": [
+          "bridge_status",
+          "run_status",
+          "select_browser",
+          "open_panel",
+          "list_macros",
+          "open_macro",
+          "get_authoring_guide",
+          "get_macro",
+          "send_chat",
+          "get_chat",
+          "reload_extension",
+          "run_selftest",
+          "get_ai_settings",
+          "set_ai_settings",
+          "set_macro",
+          "create_macro",
+          "delete_macro",
+          "run_macro",
+          "browser_snapshot",
+          "click_at",
+          "type_at",
+          "screenshot",
+          "save_element_image",
+          "save_relative_image",
+          "get_page"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-02T10:46:43.068Z",
+        "installMs": 658,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-43Z-fd3aa1",
+        "status": "pass",
+        "toolCount": 25,
+        "toolNames": [
+          "bridge_status",
+          "run_status",
+          "select_browser",
+          "open_panel",
+          "list_macros",
+          "open_macro",
+          "get_authoring_guide",
+          "get_macro",
+          "send_chat",
+          "get_chat",
+          "reload_extension",
+          "run_selftest",
+          "get_ai_settings",
+          "set_ai_settings",
+          "set_macro",
+          "create_macro",
+          "delete_macro",
+          "run_macro",
+          "browser_snapshot",
+          "click_at",
+          "type_at",
+          "screenshot",
+          "save_element_image",
+          "save_relative_image",
+          "get_page"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-02T10:46:49.167Z",
+        "installMs": 4500,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-49Z-7aea8e",
+        "status": "pass",
+        "toolCount": 25,
+        "toolNames": [
+          "bridge_status",
+          "run_status",
+          "select_browser",
+          "open_panel",
+          "list_macros",
+          "open_macro",
+          "get_authoring_guide",
+          "get_macro",
+          "send_chat",
+          "get_chat",
+          "reload_extension",
+          "run_selftest",
+          "get_ai_settings",
+          "set_ai_settings",
+          "set_macro",
+          "create_macro",
+          "delete_macro",
+          "run_macro",
+          "browser_snapshot",
+          "click_at",
+          "type_at",
+          "screenshot",
+          "save_element_image",
+          "save_relative_image",
+          "get_page"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.A9T9/uivision-mcp",
+  "slug": "io.github.a9t9__uivision-mcp"
+}

@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-02T10:46:36.004Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 65 packages in 403ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/oOK0QDU9Q0QTP27H/bin/mcp-neo4j-memory\", line 6, in <module>\n    from mcp_neo4j_memory import main\n  File \"/Users/runner/.cache/uv/archive-v0/oOK0QDU9Q0QTP27H/lib/python3.15/site-packages/mcp_neo4j_memory/__init__.py\", line 1, in <module>\n    from . import server\n  File \"/Users/runner/.cache/uv/archive-v0/oOK0QDU9Q0QTP27H/lib/python3.15/site-packages/mcp_neo4j_memory/server.py\", line 13, in <module>\n    from fastmcp.tools.tool import ToolResult\nModuleNotFoundError: No module named 'fastmcp.tools.tool'. Did you mean: 'fastmcp.tools.base'?",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-36Z-c02362",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-10-26T08:41:40.406Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 65 packages in 342ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/yBnsMnajy_687hJJ/bin/mcp-neo4j-memory\", line 6, in <module>\n    from mcp_neo4j_memory import main\n  File \"/Users/runner/.cache/uv/archive-v0/yBnsMnajy_687hJJ/lib/python3.15/site-packages/mcp_neo4j_memory/__init__.py\", line 1, in <module>\n    from . import server\n  File \"/Users/runner/.cache/uv/archive-v0/yBnsMnajy_687hJJ/lib/python3.15/site-packages/mcp_neo4j_memory/server.py\", line 13, in <module>\n    from fastmcp.tools.tool import ToolResult\nModuleNotFoundError: No module named 'fastmcp.tools.tool'. Did you mean: 'fastmcp.tools.base'?",
         "method": "pypi",
@@ -25,6 +32,13 @@
     ],
     "linux": [
       {
+        "date": "2026-11-02T10:46:43.068Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 65 packages in 377ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/HGxN7ORFec2a-VRZ/bin/mcp-neo4j-memory\", line 6, in <module>\n    from mcp_neo4j_memory import main\n  File \"/home/runner/.cache/uv/archive-v0/HGxN7ORFec2a-VRZ/lib/python3.14/site-packages/mcp_neo4j_memory/__init__.py\", line 1, in <module>\n    from . import server\n  File \"/home/runner/.cache/uv/archive-v0/HGxN7ORFec2a-VRZ/lib/python3.14/site-packages/mcp_neo4j_memory/server.py\", line 13, in <module>\n    from fastmcp.tools.tool import ToolResult\nModuleNotFoundError: No module named 'fastmcp.tools.tool'",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-43Z-fd3aa1",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-10-26T08:41:31.457Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 65 packages in 101ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/gzgL03YGrmWmH3X8/bin/mcp-neo4j-memory\", line 6, in <module>\n    from mcp_neo4j_memory import main\n  File \"/home/runner/.cache/uv/archive-v0/gzgL03YGrmWmH3X8/lib/python3.14/site-packages/mcp_neo4j_memory/__init__.py\", line 1, in <module>\n    from . import server\n  File \"/home/runner/.cache/uv/archive-v0/gzgL03YGrmWmH3X8/lib/python3.14/site-packages/mcp_neo4j_memory/server.py\", line 13, in <module>\n    from fastmcp.tools.tool import ToolResult\nModuleNotFoundError: No module named 'fastmcp.tools.tool'",
         "method": "pypi",
@@ -47,6 +61,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-02T10:46:49.167Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 66 packages in 20.25s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\ECKozeNjTyA8pxWE\\Scripts\\mcp-neo4j-memory.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\ECKozeNjTyA8pxWE\\Lib\\site-packages\\mcp_neo4j_memory\\__init__.py\", line 1, in <module>\r\n    from . import server\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\ECKozeNjTyA8pxWE\\Lib\\site-packages\\mcp_neo4j_memory\\server.py\", line 13, in <module>\r\n    from fastmcp.tools.tool import ToolResult\r\nModuleNotFoundError: No module named 'fastmcp.tools.tool'",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-49Z-7aea8e",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-10-26T08:41:59.389Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 66 packages in 22.49s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\cldYQHKSkbsdANFj\\Scripts\\mcp-neo4j-memory.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\cldYQHKSkbsdANFj\\Lib\\site-packages\\mcp_neo4j_memory\\__init__.py\", line 1, in <module>\r\n    from . import server\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\cldYQHKSkbsdANFj\\Lib\\site-packages\\mcp_neo4j_memory\\server.py\", line 13, in <module>\r\n    from fastmcp.tools.tool import ToolResult\r\nModuleNotFoundError: No module named 'fastmcp.tools.tool'",

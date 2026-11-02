@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-02T10:46:36.472Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: Unexpected end of JSON input\nUnexpected token '⠋', \" ⠋ Starting\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '\u001b', \"\u001b[2K\u001b[1A\u001b[\"... is not valid JSON\nUnexpected token '✗', \" ✗ Failed t\"... is not valid JSON\nUnexpected token 'O', \" Only URLs \"... is not valid JSON\nUnexpected token 'E', \" ESM loader\"... is not valid JSON\nUnexpected end of JSON input",
+        "installMs": 168848,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-36Z-011438",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-02T10:46:31.258Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: Unexpected end of JSON input\nUnexpected token '⠋', \" ⠋ Starting\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '\u001b', \"\u001b[2K\u001b[1A\u001b[\"... is not valid JSON\nUnexpected token '✗', \" ✗ Failed t\"... is not valid JSON\nUnexpected token 'O', \" Only URLs \"... is not valid JSON\nUnexpected token 'E', \" ESM loader\"... is not valid JSON\nUnexpected end of JSON input",
+        "installMs": 69860,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-31Z-a5d113",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-02T10:46:54.855Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: Unexpected end of JSON input\nUnexpected token '⠋', \" ⠋ Starting\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '\u001b', \"\u001b[2K\u001b[1A\u001b[\"... is not valid JSON\nUnexpected token '✗', \" ✗ Failed t\"... is not valid JSON\nUnexpected token 'O', \" Only URLs \"... is not valid JSON\nUnexpected token 'E', \" ESM loader\"... is not valid JSON\nUnexpected end of JSON input",
+        "installMs": 812133,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-54Z-35520a",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "io.github.desplega-ai/agent-swarm",
+  "slug": "io.github.desplega-ai__agent-swarm"
+}

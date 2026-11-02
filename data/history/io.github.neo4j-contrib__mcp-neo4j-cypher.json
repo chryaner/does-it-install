@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-02T10:46:36.472Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading beartype (1.5MiB)\n Downloaded beartype\nInstalled 70 packages in 425ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/VEyEhzv1y4UAOzWN/bin/mcp-neo4j-cypher\", line 6, in <module>\n    from mcp_neo4j_cypher import main\n  File \"/Users/runner/.cache/uv/archive-v0/VEyEhzv1y4UAOzWN/lib/python3.15/site-packages/mcp_neo4j_cypher/__init__.py\", line 4, in <module>\n    from . import server\n  File \"/Users/runner/.cache/uv/archive-v0/VEyEhzv1y4UAOzWN/lib/python3.15/site-packages/mcp_neo4j_cypher/server.py\", line 8, in <module>\n    from fastmcp.tools.tool import TextContent, ToolResult\nModuleNotFoundError: No module named 'fastmcp.tools.tool'. Did you mean: 'fastmcp.tools.base'?",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-36Z-011438",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-10-26T08:41:38.518Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 70 packages in 272ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/C0FPbtcl9sG1y7K9/bin/mcp-neo4j-cypher\", line 6, in <module>\n    from mcp_neo4j_cypher import main\n  File \"/Users/runner/.cache/uv/archive-v0/C0FPbtcl9sG1y7K9/lib/python3.15/site-packages/mcp_neo4j_cypher/__init__.py\", line 4, in <module>\n    from . import server\n  File \"/Users/runner/.cache/uv/archive-v0/C0FPbtcl9sG1y7K9/lib/python3.15/site-packages/mcp_neo4j_cypher/server.py\", line 8, in <module>\n    from fastmcp.tools.tool import TextContent, ToolResult\nModuleNotFoundError: No module named 'fastmcp.tools.tool'. Did you mean: 'fastmcp.tools.base'?",
         "method": "pypi",
@@ -25,6 +32,13 @@
     ],
     "linux": [
       {
+        "date": "2026-11-02T10:46:31.258Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading beartype (1.5MiB)\n Downloaded beartype\nInstalled 70 packages in 64ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/1ijiHwMsY9zRSDIr/bin/mcp-neo4j-cypher\", line 6, in <module>\n    from mcp_neo4j_cypher import main\n  File \"/home/runner/.cache/uv/archive-v0/1ijiHwMsY9zRSDIr/lib/python3.14/site-packages/mcp_neo4j_cypher/__init__.py\", line 4, in <module>\n    from . import server\n  File \"/home/runner/.cache/uv/archive-v0/1ijiHwMsY9zRSDIr/lib/python3.14/site-packages/mcp_neo4j_cypher/server.py\", line 8, in <module>\n    from fastmcp.tools.tool import TextContent, ToolResult\nModuleNotFoundError: No module named 'fastmcp.tools.tool'",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-31Z-a5d113",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-10-26T08:41:31.617Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading tiktoken (1.1MiB)\n Downloaded tiktoken\nInstalled 70 packages in 351ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/9Fnl9B0BMD6-T019/bin/mcp-neo4j-cypher\", line 6, in <module>\n    from mcp_neo4j_cypher import main\n  File \"/home/runner/.cache/uv/archive-v0/9Fnl9B0BMD6-T019/lib/python3.14/site-packages/mcp_neo4j_cypher/__init__.py\", line 4, in <module>\n    from . import server\n  File \"/home/runner/.cache/uv/archive-v0/9Fnl9B0BMD6-T019/lib/python3.14/site-packages/mcp_neo4j_cypher/server.py\", line 8, in <module>\n    from fastmcp.tools.tool import TextContent, ToolResult\nModuleNotFoundError: No module named 'fastmcp.tools.tool'",
         "method": "pypi",
@@ -47,6 +61,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-02T10:46:54.855Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 71 packages in 23.52s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\ScSnz4-WhfcxJLpv\\Scripts\\mcp-neo4j-cypher.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\ScSnz4-WhfcxJLpv\\Lib\\site-packages\\mcp_neo4j_cypher\\__init__.py\", line 4, in <module>\r\n    from . import server\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\ScSnz4-WhfcxJLpv\\Lib\\site-packages\\mcp_neo4j_cypher\\server.py\", line 8, in <module>\r\n    from fastmcp.tools.tool import TextContent, ToolResult\r\nModuleNotFoundError: No module named 'fastmcp.tools.tool'",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-54Z-35520a",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-10-26T08:41:52.818Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 71 packages in 18.53s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\YkKJK_3BdmLNm2kt\\Scripts\\mcp-neo4j-cypher.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\YkKJK_3BdmLNm2kt\\Lib\\site-packages\\mcp_neo4j_cypher\\__init__.py\", line 4, in <module>\r\n    from . import server\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\YkKJK_3BdmLNm2kt\\Lib\\site-packages\\mcp_neo4j_cypher\\server.py\", line 8, in <module>\r\n    from fastmcp.tools.tool import TextContent, ToolResult\r\nModuleNotFoundError: No module named 'fastmcp.tools.tool'",

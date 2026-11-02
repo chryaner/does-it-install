@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-02T10:46:39.955Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: ot valid JSON\nUnexpected token '}', \"  }\" is not valid JSON\nUnexpected token '}', \"}\" is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'V', \"Visual Stu\"... is not valid JSON\nUnexpected token 'h', \"https://vs\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'W', \"Warning: P\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'M', \"More infor\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'P', \"Press any \"... is not valid JSON\n--- stderr (tail) ---\nUnhandled exception. System.InvalidOperationException: Cannot read keys when either application does not have a console or when console input has been redirected. Try Console.Read.\n   at System.ConsolePal.ReadKey(Boolean intercept)\n   at Program.<>c__DisplayClass0_0.<<Main>$>g__PrintWelcomeInfo|15()\n   at Program.<Main>$(String[] args)\n   at Program.<Main>(String[] args)",
+        "installMs": 3025,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-39Z-d55a12",
+        "status": "needs_config"
+      },
+      {
         "date": "2026-08-16T15:41:59.741Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: ot valid JSON\nUnexpected token '}', \"  }\" is not valid JSON\nUnexpected token '}', \"}\" is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'V', \"Visual Stu\"... is not valid JSON\nUnexpected token 'h', \"https://vs\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'W', \"Warning: P\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'M', \"More infor\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'P', \"Press any \"... is not valid JSON\n--- stderr (tail) ---\nUnhandled exception. System.InvalidOperationException: Cannot read keys when either application does not have a console or when console input has been redirected. Try Console.Read.\n   at System.ConsolePal.ReadKey(Boolean intercept)\n   at Program.<>c__DisplayClass0_0.<<Main>$>g__PrintWelcomeInfo|13()\n   at Program.<Main>$(String[] args)\n   at Program.<Main>(String[] args)",
         "installMs": 2025,
@@ -20,6 +28,14 @@
     ],
     "linux": [
       {
+        "date": "2026-11-02T10:46:27.782Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: ot valid JSON\nUnexpected token '}', \"  }\" is not valid JSON\nUnexpected token '}', \"}\" is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'V', \"Visual Stu\"... is not valid JSON\nUnexpected token 'h', \"https://vs\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'W', \"Warning: P\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'M', \"More infor\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'P', \"Press any \"... is not valid JSON\n--- stderr (tail) ---\nUnhandled exception. System.InvalidOperationException: Cannot read keys when either application does not have a console or when console input has been redirected. Try Console.Read.\n   at System.ConsolePal.ReadKey(Boolean intercept)\n   at Program.<>c__DisplayClass0_0.<<Main>$>g__PrintWelcomeInfo|15()\n   at Program.<Main>$(String[] args)\n   at Program.<Main>(String[] args)",
+        "installMs": 1662,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-27Z-a02207",
+        "status": "needs_config"
+      },
+      {
         "date": "2026-08-16T15:42:02.544Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: ot valid JSON\nUnexpected token '}', \"  }\" is not valid JSON\nUnexpected token '}', \"}\" is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'V', \"Visual Stu\"... is not valid JSON\nUnexpected token 'h', \"https://vs\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'W', \"Warning: P\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'M', \"More infor\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'P', \"Press any \"... is not valid JSON\n--- stderr (tail) ---\nUnhandled exception. System.InvalidOperationException: Cannot read keys when either application does not have a console or when console input has been redirected. Try Console.Read.\n   at System.ConsolePal.ReadKey(Boolean intercept)\n   at Program.<>c__DisplayClass0_0.<<Main>$>g__PrintWelcomeInfo|13()\n   at Program.<Main>$(String[] args)\n   at Program.<Main>(String[] args)",
         "installMs": 2581,
@@ -37,6 +53,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-02T10:47:04.266Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: ot valid JSON\nUnexpected token '}', \"  }\" is not valid JSON\nUnexpected token '}', \"}\" is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'V', \"Visual Stu\"... is not valid JSON\nUnexpected token 'h', \"https://vs\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'W', \"Warning: P\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'M', \"More infor\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'P', \"Press any \"... is not valid JSON\n--- stderr (tail) ---\nUnhandled exception. System.InvalidOperationException: Cannot read keys when either application does not have a console or when console input has been redirected. Try Console.Read.\r\n   at System.ConsolePal.ReadKey(Boolean intercept)\r\n   at Program.<>c__DisplayClass0_0.<<Main>$>g__PrintWelcomeInfo|15()\r\n   at Program.<Main>$(String[] args)\r\n   at Program.<Main>(String[] args)",
+        "installMs": 17865,
+        "method": "npm",
+        "runId": "2026-11-02T10-47-04Z-712b71",
+        "status": "needs_config"
+      },
       {
         "date": "2026-08-16T15:42:15.480Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: ot valid JSON\nUnexpected token '}', \"  }\" is not valid JSON\nUnexpected token '}', \"}\" is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'V', \"Visual Stu\"... is not valid JSON\nUnexpected token 'h', \"https://vs\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'W', \"Warning: P\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'M', \"More infor\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'P', \"Press any \"... is not valid JSON\n--- stderr (tail) ---\nUnhandled exception. System.InvalidOperationException: Cannot read keys when either application does not have a console or when console input has been redirected. Try Console.Read.\r\n   at System.ConsolePal.ReadKey(Boolean intercept)\r\n   at Program.<>c__DisplayClass0_0.<<Main>$>g__PrintWelcomeInfo|13()\r\n   at Program.<Main>$(String[] args)\r\n   at Program.<Main>(String[] args)",

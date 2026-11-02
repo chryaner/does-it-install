@@ -2,6 +2,17 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-02T10:46:36.004Z",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-36Z-c02362",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "kronos_health",
+          "kronos_predict"
+        ]
+      },
+      {
         "date": "2026-10-26T08:41:40.406Z",
         "method": "pypi",
         "runId": "2026-10-26T08-41-40Z-988c6c",
@@ -15,6 +26,17 @@
     ],
     "linux": [
       {
+        "date": "2026-11-02T10:46:43.068Z",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-43Z-fd3aa1",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "kronos_health",
+          "kronos_predict"
+        ]
+      },
+      {
         "date": "2026-10-26T08:41:31.457Z",
         "method": "pypi",
         "runId": "2026-10-26T08-41-31Z-3127ad",
@@ -27,6 +49,17 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-02T10:46:49.167Z",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-49Z-7aea8e",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "kronos_health",
+          "kronos_predict"
+        ]
+      },
       {
         "date": "2026-10-26T08:41:59.389Z",
         "method": "pypi",

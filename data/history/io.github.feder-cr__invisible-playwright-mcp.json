@@ -1,0 +1,90 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-02T10:46:39.955Z",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-39Z-d55a12",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "browser_open",
+          "browser_close",
+          "browser_list",
+          "browser_status",
+          "browser_navigate",
+          "browser_read_text",
+          "browser_snapshot",
+          "browser_read_html",
+          "browser_take_screenshot",
+          "browser_watch",
+          "browser_click",
+          "browser_click_at",
+          "browser_type",
+          "browser_select_option",
+          "browser_upload_files",
+          "browser_press_key",
+          "browser_evaluate"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-02T10:46:27.782Z",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-27Z-a02207",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "browser_open",
+          "browser_close",
+          "browser_list",
+          "browser_status",
+          "browser_navigate",
+          "browser_read_text",
+          "browser_snapshot",
+          "browser_read_html",
+          "browser_take_screenshot",
+          "browser_watch",
+          "browser_click",
+          "browser_click_at",
+          "browser_type",
+          "browser_select_option",
+          "browser_upload_files",
+          "browser_press_key",
+          "browser_evaluate"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-02T10:47:04.266Z",
+        "method": "pypi",
+        "runId": "2026-11-02T10-47-04Z-712b71",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "browser_open",
+          "browser_close",
+          "browser_list",
+          "browser_status",
+          "browser_navigate",
+          "browser_read_text",
+          "browser_snapshot",
+          "browser_read_html",
+          "browser_take_screenshot",
+          "browser_watch",
+          "browser_click",
+          "browser_click_at",
+          "browser_type",
+          "browser_select_option",
+          "browser_upload_files",
+          "browser_press_key",
+          "browser_evaluate"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.feder-cr/invisible-playwright-mcp",
+  "slug": "io.github.feder-cr__invisible-playwright-mcp"
+}

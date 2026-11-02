@@ -2,6 +2,33 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-02T10:46:36.004Z",
+        "installMs": 7800,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-36Z-c02362",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "index_repository",
+          "search_graph",
+          "query_graph",
+          "trace_path",
+          "get_code_snippet",
+          "get_file_outline",
+          "get_graph_schema",
+          "compare_graphs",
+          "get_architecture",
+          "search_code",
+          "list_projects",
+          "delete_project",
+          "index_status",
+          "check_index_coverage",
+          "detect_changes",
+          "manage_adr",
+          "ingest_traces"
+        ]
+      },
+      {
         "date": "2026-10-26T08:41:40.406Z",
         "installMs": 7522,
         "method": "npm",
@@ -31,6 +58,33 @@
     ],
     "linux": [
       {
+        "date": "2026-11-02T10:46:43.068Z",
+        "installMs": 4440,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-43Z-fd3aa1",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "index_repository",
+          "search_graph",
+          "query_graph",
+          "trace_path",
+          "get_code_snippet",
+          "get_file_outline",
+          "get_graph_schema",
+          "compare_graphs",
+          "get_architecture",
+          "search_code",
+          "list_projects",
+          "delete_project",
+          "index_status",
+          "check_index_coverage",
+          "detect_changes",
+          "manage_adr",
+          "ingest_traces"
+        ]
+      },
+      {
         "date": "2026-10-26T08:41:31.457Z",
         "installMs": 5223,
         "method": "npm",
@@ -59,6 +113,33 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-02T10:46:49.167Z",
+        "installMs": 55625,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-49Z-7aea8e",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "index_repository",
+          "search_graph",
+          "query_graph",
+          "trace_path",
+          "get_code_snippet",
+          "get_file_outline",
+          "get_graph_schema",
+          "compare_graphs",
+          "get_architecture",
+          "search_code",
+          "list_projects",
+          "delete_project",
+          "index_status",
+          "check_index_coverage",
+          "detect_changes",
+          "manage_adr",
+          "ingest_traces"
+        ]
+      },
       {
         "date": "2026-10-26T08:41:59.389Z",
         "installMs": 74583,

@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-02T10:46:36.472Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"resourceType\":\"OperationOutcome\",\"id\":\"unauthorized\",\"issue\":[{\"severity\":\"error\",\"code\":\"login\",\"details\":{\"text\":\"Unauthorized\"}}],\"extension\":[{\"url\":\"https://medplum.com/fhir/StructureDefinition/tracing\",\"extension\":[{\"url\":\"requestId\",\"valueId\":\"1cc741a1-5fc8-4a48-947a-ec856095f729\"},{\"url\":\"traceId\",\"valueId\":\"6ae86aad76561c9a50bafcc44a79f98b\"}]}]} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-02T10-46-36Z-011438",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-16T15:42:00.997Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"resourceType\":\"OperationOutcome\",\"id\":\"unauthorized\",\"issue\":[{\"severity\":\"error\",\"code\":\"login\",\"details\":{\"text\":\"Unauthorized\"}}],\"extension\":[{\"url\":\"https://medplum.com/fhir/StructureDefinition/tracing\",\"extension\":[{\"url\":\"requestId\",\"valueId\":\"fa38fc6d-c079-430b-93ad-876b0449aabd\"},{\"url\":\"traceId\",\"valueId\":\"1-6a81da82-61c2b92947ae44a300d3440a\"}]}]} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -46,6 +53,13 @@
     ],
     "linux": [
       {
+        "date": "2026-11-02T10:46:31.258Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"resourceType\":\"OperationOutcome\",\"id\":\"unauthorized\",\"issue\":[{\"severity\":\"error\",\"code\":\"login\",\"details\":{\"text\":\"Unauthorized\"}}],\"extension\":[{\"url\":\"https://medplum.com/fhir/StructureDefinition/tracing\",\"extension\":[{\"url\":\"requestId\",\"valueId\":\"808214db-b667-428b-b7d0-69abe8e2c8fa\"},{\"url\":\"traceId\",\"valueId\":\"6ae86a4e6f089a515fdecd6e74b02975\"}]}]} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-02T10-46-31Z-a5d113",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-16T15:41:56.759Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"resourceType\":\"OperationOutcome\",\"id\":\"unauthorized\",\"issue\":[{\"severity\":\"error\",\"code\":\"login\",\"details\":{\"text\":\"Unauthorized\"}}],\"extension\":[{\"url\":\"https://medplum.com/fhir/StructureDefinition/tracing\",\"extension\":[{\"url\":\"requestId\",\"valueId\":\"2dcd8503-ac65-48c4-9415-45c8c1f0b2f4\"},{\"url\":\"traceId\",\"valueId\":\"1-6a81da64-14bd0de52dd4d5a26a7f8dd5\"}]}]} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -89,6 +103,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-02T10:46:54.855Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"resourceType\":\"OperationOutcome\",\"id\":\"unauthorized\",\"issue\":[{\"severity\":\"error\",\"code\":\"login\",\"details\":{\"text\":\"Unauthorized\"}}],\"extension\":[{\"url\":\"https://medplum.com/fhir/StructureDefinition/tracing\",\"extension\":[{\"url\":\"requestId\",\"valueId\":\"b3ea8e52-36f5-4da4-b568-383a0b754302\"},{\"url\":\"traceId\",\"valueId\":\"6ae86dbe7567a3ab2fa5fbdc0bc4b615\"}]}]} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-02T10-46-54Z-35520a",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-16T15:42:18.905Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"resourceType\":\"OperationOutcome\",\"id\":\"unauthorized\",\"issue\":[{\"severity\":\"error\",\"code\":\"login\",\"details\":{\"text\":\"Unauthorized\"}}],\"extension\":[{\"url\":\"https://medplum.com/fhir/StructureDefinition/tracing\",\"extension\":[{\"url\":\"requestId\",\"valueId\":\"06319e5e-bdab-40a1-a587-9c3650e21c22\"},{\"url\":\"traceId\",\"valueId\":\"1-6a81dbc9-0b67f7445bb8c3c3703f4b02\"}]}]} (endpoint reachable but requires credentials the harness does not send)",

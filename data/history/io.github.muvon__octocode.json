@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-02T10:46:39.955Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\noctocode: downloading 0.29.0...",
+        "installMs": 993,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-39Z-d55a12",
+        "status": "timeout"
+      },
+      {
         "date": "2026-10-26T08:41:39.792Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\noctocode: downloading 0.28.1...",
         "installMs": 1598,
@@ -25,6 +33,20 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-11-02T10:46:27.782Z",
+        "installMs": 869,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-27Z-a02207",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "graphrag",
+          "semantic_search",
+          "structural_search",
+          "view_signatures"
+        ]
+      },
       {
         "date": "2026-10-26T08:41:32.163Z",
         "installMs": 660,
@@ -55,6 +77,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-02T10:47:04.266Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\noctocode: downloading 0.29.0...\ntar: Cannot connect to C: resolve failed\noctocode: Command failed: tar -xf C:\\Users\\runneradmin\\.cache\\muvon\\octocode\\0.29.0.7236\\archive.zip -C C:\\Users\\runneradmin\\.cache\\muvon\\octocode\\0.29.0.7236",
+        "installMs": 1741,
+        "method": "npm",
+        "runId": "2026-11-02T10-47-04Z-712b71",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-10-26T08:41:54.532Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\noctocode: downloading 0.28.1...\ntar: Cannot connect to C: resolve failed\noctocode: Command failed: tar -xf C:\\Users\\runneradmin\\.cache\\muvon\\octocode\\0.28.1.7752\\archive.zip -C C:\\Users\\runneradmin\\.cache\\muvon\\octocode\\0.28.1.7752",

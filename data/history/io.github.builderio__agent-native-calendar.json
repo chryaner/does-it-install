@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-02T10:46:36.472Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Unauthorized\",\"message\":\"Authentication required. Run `npx -y @agent-native/core@latest reconnect https://calendar.agent-native.com` to re-authenticate this MCP connector without reinstalling it (or, in a Claude Code host, run /mcp and choose Authenticate), then retry. For first-time setup, run `npx @agent-native/core@latest connect https://calendar.agent-native.com`.\",\"authenticate\":{\"command\":\"npx -y @agent-native/core@latest reconnect https://calendar.agent-native.com\",\"firstTimeCommand\":\"npx @agent-native/core@latest connect https://calendar.agent-native.com\",\"authorizeUrl\":\"https://calendar.agent-native.com/mcp/oauth/authorize\",\"resourceMetadataUrl\":\"https://calendar.agent-native.com/.well-known/oauth-protected-resource\",\"mcpUrl\":\"https://calendar.agent-native.com/mcp\"}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-02T10-46-36Z-011438",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-10-26T08:41:40.406Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Unauthorized\",\"message\":\"Authentication required. Run `npx -y @agent-native/core@latest reconnect https://calendar.agent-native.com` to re-authenticate this MCP connector without reinstalling it (or, in a Claude Code host, run /mcp and choose Authenticate), then retry. For first-time setup, run `npx @agent-native/core@latest connect https://calendar.agent-native.com`.\",\"authenticate\":{\"command\":\"npx -y @agent-native/core@latest reconnect https://calendar.agent-native.com\",\"firstTimeCommand\":\"npx @agent-native/core@latest connect https://calendar.agent-native.com\",\"authorizeUrl\":\"https://calendar.agent-native.com/mcp/oauth/authorize\",\"resourceMetadataUrl\":\"https://calendar.agent-native.com/.well-known/oauth-protected-resource\",\"mcpUrl\":\"https://calendar.agent-native.com/mcp\"}} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -11,6 +18,13 @@
     ],
     "linux": [
       {
+        "date": "2026-11-02T10:46:31.258Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Unauthorized\",\"message\":\"Authentication required. Run `npx -y @agent-native/core@latest reconnect https://calendar.agent-native.com` to re-authenticate this MCP connector without reinstalling it (or, in a Claude Code host, run /mcp and choose Authenticate), then retry. For first-time setup, run `npx @agent-native/core@latest connect https://calendar.agent-native.com`.\",\"authenticate\":{\"command\":\"npx -y @agent-native/core@latest reconnect https://calendar.agent-native.com\",\"firstTimeCommand\":\"npx @agent-native/core@latest connect https://calendar.agent-native.com\",\"authorizeUrl\":\"https://calendar.agent-native.com/mcp/oauth/authorize\",\"resourceMetadataUrl\":\"https://calendar.agent-native.com/.well-known/oauth-protected-resource\",\"mcpUrl\":\"https://calendar.agent-native.com/mcp\"}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-02T10-46-31Z-a5d113",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-10-26T08:41:31.457Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Unauthorized\",\"message\":\"Authentication required. Run `npx -y @agent-native/core@latest reconnect https://calendar.agent-native.com` to re-authenticate this MCP connector without reinstalling it (or, in a Claude Code host, run /mcp and choose Authenticate), then retry. For first-time setup, run `npx @agent-native/core@latest connect https://calendar.agent-native.com`.\",\"authenticate\":{\"command\":\"npx -y @agent-native/core@latest reconnect https://calendar.agent-native.com\",\"firstTimeCommand\":\"npx @agent-native/core@latest connect https://calendar.agent-native.com\",\"authorizeUrl\":\"https://calendar.agent-native.com/mcp/oauth/authorize\",\"resourceMetadataUrl\":\"https://calendar.agent-native.com/.well-known/oauth-protected-resource\",\"mcpUrl\":\"https://calendar.agent-native.com/mcp\"}} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -19,6 +33,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-02T10:46:54.855Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Unauthorized\",\"message\":\"Authentication required. Run `npx -y @agent-native/core@latest reconnect https://calendar.agent-native.com` to re-authenticate this MCP connector without reinstalling it (or, in a Claude Code host, run /mcp and choose Authenticate), then retry. For first-time setup, run `npx @agent-native/core@latest connect https://calendar.agent-native.com`.\",\"authenticate\":{\"command\":\"npx -y @agent-native/core@latest reconnect https://calendar.agent-native.com\",\"firstTimeCommand\":\"npx @agent-native/core@latest connect https://calendar.agent-native.com\",\"authorizeUrl\":\"https://calendar.agent-native.com/mcp/oauth/authorize\",\"resourceMetadataUrl\":\"https://calendar.agent-native.com/.well-known/oauth-protected-resource\",\"mcpUrl\":\"https://calendar.agent-native.com/mcp\"}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-02T10-46-54Z-35520a",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-10-26T08:41:59.389Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Unauthorized\",\"message\":\"Authentication required. Run `npx -y @agent-native/core@latest reconnect https://calendar.agent-native.com` to re-authenticate this MCP connector without reinstalling it (or, in a Claude Code host, run /mcp and choose Authenticate), then retry. For first-time setup, run `npx @agent-native/core@latest connect https://calendar.agent-native.com`.\",\"authenticate\":{\"command\":\"npx -y @agent-native/core@latest reconnect https://calendar.agent-native.com\",\"firstTimeCommand\":\"npx @agent-native/core@latest connect https://calendar.agent-native.com\",\"authorizeUrl\":\"https://calendar.agent-native.com/mcp/oauth/authorize\",\"resourceMetadataUrl\":\"https://calendar.agent-native.com/.well-known/oauth-protected-resource\",\"mcpUrl\":\"https://calendar.agent-native.com/mcp\"}} (endpoint reachable but requires credentials the harness does not send)",

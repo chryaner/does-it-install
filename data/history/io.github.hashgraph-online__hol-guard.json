@@ -2,6 +2,21 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-02T10:46:36.004Z",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-36Z-c02362",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "search",
+          "fetch",
+          "get_guard_status",
+          "validate_policy",
+          "create_policy",
+          "get_policy_creation"
+        ]
+      },
+      {
         "date": "2026-10-26T08:41:39.792Z",
         "method": "pypi",
         "runId": "2026-10-26T08-41-39Z-9fba12",
@@ -26,6 +41,21 @@
     ],
     "linux": [
       {
+        "date": "2026-11-02T10:46:43.068Z",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-43Z-fd3aa1",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "search",
+          "fetch",
+          "get_guard_status",
+          "validate_policy",
+          "create_policy",
+          "get_policy_creation"
+        ]
+      },
+      {
         "date": "2026-10-26T08:41:32.163Z",
         "method": "pypi",
         "runId": "2026-10-26T08-41-32Z-1a3acc",
@@ -49,6 +79,21 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-02T10:46:49.167Z",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-49Z-7aea8e",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "search",
+          "fetch",
+          "get_guard_status",
+          "validate_policy",
+          "create_policy",
+          "get_policy_creation"
+        ]
+      },
       {
         "date": "2026-10-26T08:41:54.532Z",
         "method": "pypi",

@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-02T10:46:36.004Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nerror: No solution found when resolving tool dependencies\n  cause: Because onnxruntime>=1.17.0 has no wheels with a matching Python ABI tag (e.g., `cp315`) and compartment>=4.13.0 depends on onnxruntime>=1.17, we can conclude that compartment>=4.13.0 cannot be used.\n         And because you require compartment==4.13.0, we can conclude that your requirements are unsatisfiable.\n\nhint: You require CPython 3.15 (`cp315`), but we only found wheels for `onnxruntime` (v1.31.1) with the following Python ABI tags: `cp311`, `cp312`, `cp313`, `cp313t`, `cp314`, `cp314t`",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-36Z-c02362",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-10-26T08:41:40.406Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nerror: No solution found when resolving tool dependencies\n  cause: Because onnxruntime>=1.17.0 has no wheels with a matching Python ABI tag (e.g., `cp315`) and compartment>=4.13.0 depends on onnxruntime>=1.17, we can conclude that compartment>=4.13.0 cannot be used.\n         And because you require compartment==4.13.0, we can conclude that your requirements are unsatisfiable.\n\nhint: You require CPython 3.15 (`cp315`), but we only found wheels for `onnxruntime` (v1.31.0) with the following Python ABI tags: `cp311`, `cp312`, `cp313`, `cp313t`, `cp314`, `cp314t`",
         "method": "pypi",
@@ -56,6 +63,29 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-11-02T10:46:43.068Z",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-43Z-fd3aa1",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "memory_store",
+          "memory_store_many",
+          "memory_search",
+          "memory_link",
+          "memory_relations",
+          "memory_unlink",
+          "memory_get",
+          "memory_forget",
+          "memory_list_namespaces",
+          "memory_recent",
+          "memory_status",
+          "memory_selftest",
+          "memory_lock",
+          "memory_unlock"
+        ]
+      },
       {
         "date": "2026-10-26T08:41:31.457Z",
         "method": "pypi",
@@ -127,6 +157,29 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-02T10:46:49.167Z",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-49Z-7aea8e",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "memory_store",
+          "memory_store_many",
+          "memory_search",
+          "memory_link",
+          "memory_relations",
+          "memory_unlink",
+          "memory_get",
+          "memory_forget",
+          "memory_list_namespaces",
+          "memory_recent",
+          "memory_status",
+          "memory_selftest",
+          "memory_lock",
+          "memory_unlock"
+        ]
+      },
       {
         "date": "2026-10-26T08:41:59.389Z",
         "method": "pypi",

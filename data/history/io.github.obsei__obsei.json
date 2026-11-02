@@ -1,0 +1,45 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-02T10:46:36.472Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\nBuilding duckdb==1.5.6",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-36Z-011438",
+        "status": "timeout"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-02T10:46:31.258Z",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-31Z-a5d113",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "search_feedback",
+          "feedback_stats",
+          "get_feedback",
+          "list_themes"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-02T10:46:54.855Z",
+        "method": "pypi",
+        "runId": "2026-11-02T10-46-54Z-35520a",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "search_feedback",
+          "feedback_stats",
+          "get_feedback",
+          "list_themes"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.obsei/obsei",
+  "slug": "io.github.obsei__obsei"
+}

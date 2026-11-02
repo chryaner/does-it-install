@@ -2,6 +2,21 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-02T10:46:39.955Z",
+        "installMs": 5313,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-39Z-d55a12",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "create_app",
+          "get_component_api",
+          "get_documentation",
+          "get_public_utils",
+          "list_components"
+        ]
+      },
+      {
         "date": "2026-10-26T08:41:39.792Z",
         "installMs": 4964,
         "method": "npm",
@@ -49,6 +64,21 @@
     ],
     "linux": [
       {
+        "date": "2026-11-02T10:46:27.782Z",
+        "installMs": 3380,
+        "method": "npm",
+        "runId": "2026-11-02T10-46-27Z-a02207",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "create_app",
+          "get_component_api",
+          "get_documentation",
+          "get_public_utils",
+          "list_components"
+        ]
+      },
+      {
         "date": "2026-10-26T08:41:32.163Z",
         "installMs": 2382,
         "method": "npm",
@@ -95,6 +125,21 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-02T10:47:04.266Z",
+        "installMs": 64316,
+        "method": "npm",
+        "runId": "2026-11-02T10-47-04Z-712b71",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "create_app",
+          "get_component_api",
+          "get_documentation",
+          "get_public_utils",
+          "list_components"
+        ]
+      },
       {
         "date": "2026-10-26T08:41:54.532Z",
         "installMs": 87394,
