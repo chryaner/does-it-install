@@ -2,6 +2,24 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-09T11:02:05.987Z",
+        "installMs": 2421,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-05Z-6ec359",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "sem_find",
+          "sem_grep",
+          "sem_impact",
+          "sem_check",
+          "sem_certify",
+          "sem_diff",
+          "sem_graph",
+          "sem_history"
+        ]
+      },
+      {
         "date": "2026-11-02T10:46:36.472Z",
         "installMs": 4928,
         "method": "npm",
@@ -72,6 +90,24 @@
     ],
     "linux": [
       {
+        "date": "2026-11-09T11:01:54.903Z",
+        "installMs": 2685,
+        "method": "npm",
+        "runId": "2026-11-09T11-01-54Z-9aacb2",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "sem_find",
+          "sem_grep",
+          "sem_impact",
+          "sem_check",
+          "sem_certify",
+          "sem_diff",
+          "sem_graph",
+          "sem_history"
+        ]
+      },
+      {
         "date": "2026-11-02T10:46:31.258Z",
         "installMs": 2288,
         "method": "npm",
@@ -141,6 +177,24 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-09T11:02:25.384Z",
+        "installMs": 22205,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-25Z-d0a634",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "sem_find",
+          "sem_grep",
+          "sem_impact",
+          "sem_check",
+          "sem_certify",
+          "sem_diff",
+          "sem_graph",
+          "sem_history"
+        ]
+      },
       {
         "date": "2026-11-02T10:46:54.855Z",
         "installMs": 11396,

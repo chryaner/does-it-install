@@ -2,6 +2,25 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-09T11:02:04.817Z",
+        "installMs": 13713,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-04Z-fd792b",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "read_file",
+          "edit_file",
+          "write_file",
+          "grep_search",
+          "outline",
+          "verify",
+          "inspect_path",
+          "changes",
+          "bulk_replace"
+        ]
+      },
+      {
         "date": "2026-11-02T10:46:36.004Z",
         "installMs": 11206,
         "method": "npm",
@@ -80,6 +99,25 @@
     ],
     "linux": [
       {
+        "date": "2026-11-09T11:02:02.710Z",
+        "installMs": 6057,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-02Z-7c6953",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "read_file",
+          "edit_file",
+          "write_file",
+          "grep_search",
+          "outline",
+          "verify",
+          "inspect_path",
+          "changes",
+          "bulk_replace"
+        ]
+      },
+      {
         "date": "2026-11-02T10:46:43.068Z",
         "installMs": 5528,
         "method": "npm",
@@ -157,6 +195,25 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-09T11:02:18.514Z",
+        "installMs": 123364,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-18Z-b5cca2",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "read_file",
+          "edit_file",
+          "write_file",
+          "grep_search",
+          "outline",
+          "verify",
+          "inspect_path",
+          "changes",
+          "bulk_replace"
+        ]
+      },
       {
         "date": "2026-11-02T10:46:49.167Z",
         "installMs": 244643,

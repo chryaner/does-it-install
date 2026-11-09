@@ -2,6 +2,32 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-09T11:02:04.817Z",
+        "method": "pypi",
+        "runId": "2026-11-09T11-02-04Z-fd792b",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "browser_open",
+          "browser_close",
+          "browser_list",
+          "browser_status",
+          "browser_navigate",
+          "browser_read_text",
+          "browser_snapshot",
+          "browser_read_html",
+          "browser_take_screenshot",
+          "browser_watch",
+          "browser_click",
+          "browser_click_at",
+          "browser_type",
+          "browser_select_option",
+          "browser_upload_files",
+          "browser_press_key",
+          "browser_evaluate"
+        ]
+      },
+      {
         "date": "2026-11-02T10:46:39.955Z",
         "method": "pypi",
         "runId": "2026-11-02T10-46-39Z-d55a12",
@@ -30,6 +56,32 @@
     ],
     "linux": [
       {
+        "date": "2026-11-09T11:02:02.710Z",
+        "method": "pypi",
+        "runId": "2026-11-09T11-02-02Z-7c6953",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "browser_open",
+          "browser_close",
+          "browser_list",
+          "browser_status",
+          "browser_navigate",
+          "browser_read_text",
+          "browser_snapshot",
+          "browser_read_html",
+          "browser_take_screenshot",
+          "browser_watch",
+          "browser_click",
+          "browser_click_at",
+          "browser_type",
+          "browser_select_option",
+          "browser_upload_files",
+          "browser_press_key",
+          "browser_evaluate"
+        ]
+      },
+      {
         "date": "2026-11-02T10:46:27.782Z",
         "method": "pypi",
         "runId": "2026-11-02T10-46-27Z-a02207",
@@ -57,6 +109,32 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-09T11:02:18.514Z",
+        "method": "pypi",
+        "runId": "2026-11-09T11-02-18Z-b5cca2",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "browser_open",
+          "browser_close",
+          "browser_list",
+          "browser_status",
+          "browser_navigate",
+          "browser_read_text",
+          "browser_snapshot",
+          "browser_read_html",
+          "browser_take_screenshot",
+          "browser_watch",
+          "browser_click",
+          "browser_click_at",
+          "browser_type",
+          "browser_select_option",
+          "browser_upload_files",
+          "browser_press_key",
+          "browser_evaluate"
+        ]
+      },
       {
         "date": "2026-11-02T10:47:04.266Z",
         "method": "pypi",

@@ -2,6 +2,34 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-09T11:02:05.987Z",
+        "installMs": 6050,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-05Z-6ec359",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "calculate_shipping",
+          "create_shipment",
+          "track_shipment",
+          "generate_label",
+          "list_agencies",
+          "cancel_shipment",
+          "get_balance",
+          "add_cart",
+          "checkout_cart",
+          "preview_label",
+          "print_label",
+          "get_shipment",
+          "list_shipments",
+          "get_store",
+          "search_agencies",
+          "create_address",
+          "list_services_available",
+          "get_tracking_history"
+        ]
+      },
+      {
         "date": "2026-08-16T15:42:00.997Z",
         "installMs": 4219,
         "method": "npm",
@@ -60,6 +88,34 @@
     ],
     "linux": [
       {
+        "date": "2026-11-09T11:01:54.903Z",
+        "installMs": 3652,
+        "method": "npm",
+        "runId": "2026-11-09T11-01-54Z-9aacb2",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "calculate_shipping",
+          "create_shipment",
+          "track_shipment",
+          "generate_label",
+          "list_agencies",
+          "cancel_shipment",
+          "get_balance",
+          "add_cart",
+          "checkout_cart",
+          "preview_label",
+          "print_label",
+          "get_shipment",
+          "list_shipments",
+          "get_store",
+          "search_agencies",
+          "create_address",
+          "list_services_available",
+          "get_tracking_history"
+        ]
+      },
+      {
         "date": "2026-08-16T15:41:56.759Z",
         "installMs": 4152,
         "method": "npm",
@@ -117,6 +173,34 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-09T11:02:25.384Z",
+        "installMs": 203730,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-25Z-d0a634",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "calculate_shipping",
+          "create_shipment",
+          "track_shipment",
+          "generate_label",
+          "list_agencies",
+          "cancel_shipment",
+          "get_balance",
+          "add_cart",
+          "checkout_cart",
+          "preview_label",
+          "print_label",
+          "get_shipment",
+          "list_shipments",
+          "get_store",
+          "search_agencies",
+          "create_address",
+          "list_services_available",
+          "get_tracking_history"
+        ]
+      },
       {
         "date": "2026-08-16T15:42:18.905Z",
         "installMs": 111811,

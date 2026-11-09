@@ -2,6 +2,36 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-09T11:02:05.987Z",
+        "installMs": 6709,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-05Z-6ec359",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "initiate_account",
+          "initiate_transaction",
+          "get_transaction",
+          "list_transactions",
+          "get_transaction_details",
+          "retrieve_document_data",
+          "retrieve_similarity_score",
+          "delete_transaction",
+          "update_transaction_status",
+          "retrieve_credentials",
+          "cancel_transaction",
+          "retry_transaction",
+          "retrieve_extraction_data",
+          "retrieve_liveness_result",
+          "retrieve_facemap",
+          "retrieve_screening_result",
+          "retrieve_data_export",
+          "register_callback_url",
+          "delete_account",
+          "list_accounts"
+        ]
+      },
+      {
         "date": "2026-08-16T15:42:00.997Z",
         "installMs": 3434,
         "method": "npm",
@@ -64,6 +94,36 @@
     ],
     "linux": [
       {
+        "date": "2026-11-09T11:01:54.903Z",
+        "installMs": 3694,
+        "method": "npm",
+        "runId": "2026-11-09T11-01-54Z-9aacb2",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "initiate_account",
+          "initiate_transaction",
+          "get_transaction",
+          "list_transactions",
+          "get_transaction_details",
+          "retrieve_document_data",
+          "retrieve_similarity_score",
+          "delete_transaction",
+          "update_transaction_status",
+          "retrieve_credentials",
+          "cancel_transaction",
+          "retry_transaction",
+          "retrieve_extraction_data",
+          "retrieve_liveness_result",
+          "retrieve_facemap",
+          "retrieve_screening_result",
+          "retrieve_data_export",
+          "register_callback_url",
+          "delete_account",
+          "list_accounts"
+        ]
+      },
+      {
         "date": "2026-08-16T15:41:56.759Z",
         "installMs": 4148,
         "method": "npm",
@@ -125,6 +185,36 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-09T11:02:25.384Z",
+        "installMs": 208139,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-25Z-d0a634",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "initiate_account",
+          "initiate_transaction",
+          "get_transaction",
+          "list_transactions",
+          "get_transaction_details",
+          "retrieve_document_data",
+          "retrieve_similarity_score",
+          "delete_transaction",
+          "update_transaction_status",
+          "retrieve_credentials",
+          "cancel_transaction",
+          "retry_transaction",
+          "retrieve_extraction_data",
+          "retrieve_liveness_result",
+          "retrieve_facemap",
+          "retrieve_screening_result",
+          "retrieve_data_export",
+          "register_callback_url",
+          "delete_account",
+          "list_accounts"
+        ]
+      },
       {
         "date": "2026-08-16T15:42:18.905Z",
         "installMs": 115991,

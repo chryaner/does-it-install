@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-09T11:02:00.484Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nBlitz.app not found. Install from: https://github.com/blitzdotdev/blitz-mac/releases",
+        "installMs": 1779,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-00Z-bfcf75",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-11-02T10:46:36.004Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nBlitz.app not found. Install from: https://github.com/blitzdotdev/blitz-mac/releases",
         "installMs": 1060,
@@ -36,6 +44,14 @@
     ],
     "linux": [
       {
+        "date": "2026-11-09T11:01:54.894Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nBlitz.app not found. Install from: https://github.com/blitzdotdev/blitz-mac/releases",
+        "installMs": 885,
+        "method": "npm",
+        "runId": "2026-11-09T11-01-54Z-e62c88",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-11-02T10:46:43.068Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nBlitz.app not found. Install from: https://github.com/blitzdotdev/blitz-mac/releases",
         "installMs": 707,
@@ -69,6 +85,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-09T11:02:21.452Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nBlitz.app not found. Install from: https://github.com/blitzdotdev/blitz-mac/releases",
+        "installMs": 2146,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-21Z-cbb6d9",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-11-02T10:46:49.167Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nBlitz.app not found. Install from: https://github.com/blitzdotdev/blitz-mac/releases",

@@ -2,6 +2,37 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-09T11:02:04.817Z",
+        "installMs": 14851,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-04Z-fd792b",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "get_design_tokens",
+          "get_color_palette",
+          "get_typography",
+          "get_component_styles",
+          "get_surfaces",
+          "get_spacing",
+          "get_motion",
+          "get_brand_identity",
+          "compute_drift",
+          "render_report",
+          "get_findings",
+          "export_dtcg",
+          "generate_design_md",
+          "export_tailwind",
+          "export_shadcn",
+          "validate_dtcg",
+          "check_contrast",
+          "check_robots",
+          "get_job_status",
+          "list_jobs",
+          "cancel_job"
+        ]
+      },
+      {
         "date": "2026-11-02T10:46:36.472Z",
         "installMs": 24368,
         "method": "npm",
@@ -35,6 +66,37 @@
     ],
     "linux": [
       {
+        "date": "2026-11-09T11:02:02.710Z",
+        "installMs": 16832,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-02Z-7c6953",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "get_design_tokens",
+          "get_color_palette",
+          "get_typography",
+          "get_component_styles",
+          "get_surfaces",
+          "get_spacing",
+          "get_motion",
+          "get_brand_identity",
+          "compute_drift",
+          "render_report",
+          "get_findings",
+          "export_dtcg",
+          "generate_design_md",
+          "export_tailwind",
+          "export_shadcn",
+          "validate_dtcg",
+          "check_contrast",
+          "check_robots",
+          "get_job_status",
+          "list_jobs",
+          "cancel_job"
+        ]
+      },
+      {
         "date": "2026-11-02T10:46:31.258Z",
         "installMs": 12298,
         "method": "npm",
@@ -67,6 +129,37 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-09T11:02:18.514Z",
+        "installMs": 120849,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-18Z-b5cca2",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "get_design_tokens",
+          "get_color_palette",
+          "get_typography",
+          "get_component_styles",
+          "get_surfaces",
+          "get_spacing",
+          "get_motion",
+          "get_brand_identity",
+          "compute_drift",
+          "render_report",
+          "get_findings",
+          "export_dtcg",
+          "generate_design_md",
+          "export_tailwind",
+          "export_shadcn",
+          "validate_dtcg",
+          "check_contrast",
+          "check_robots",
+          "get_job_status",
+          "list_jobs",
+          "cancel_job"
+        ]
+      },
       {
         "date": "2026-11-02T10:46:54.855Z",
         "installMs": 186362,

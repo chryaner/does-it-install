@@ -2,6 +2,32 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-09T11:02:04.817Z",
+        "installMs": 10234,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-04Z-fd792b",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "get_exchange_rates",
+          "list_currencies",
+          "get_official_rate",
+          "get_currency_history",
+          "list_variables",
+          "get_variable_history",
+          "get_uva_value",
+          "get_monetary_base",
+          "get_reserves",
+          "get_interest_rates",
+          "get_inflation",
+          "get_badlar_rate",
+          "get_tm20_rate",
+          "get_leliq_rate",
+          "list_cheque_entities",
+          "validate_cheque"
+        ]
+      },
+      {
         "date": "2026-08-16T15:41:59.741Z",
         "installMs": 4007,
         "method": "npm",
@@ -56,6 +82,32 @@
     ],
     "linux": [
       {
+        "date": "2026-11-09T11:02:02.710Z",
+        "installMs": 4514,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-02Z-7c6953",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "get_exchange_rates",
+          "list_currencies",
+          "get_official_rate",
+          "get_currency_history",
+          "list_variables",
+          "get_variable_history",
+          "get_uva_value",
+          "get_monetary_base",
+          "get_reserves",
+          "get_interest_rates",
+          "get_inflation",
+          "get_badlar_rate",
+          "get_tm20_rate",
+          "get_leliq_rate",
+          "list_cheque_entities",
+          "validate_cheque"
+        ]
+      },
+      {
         "date": "2026-08-16T15:42:02.544Z",
         "installMs": 4201,
         "method": "npm",
@@ -109,6 +161,32 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-09T11:02:18.514Z",
+        "installMs": 139319,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-18Z-b5cca2",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "get_exchange_rates",
+          "list_currencies",
+          "get_official_rate",
+          "get_currency_history",
+          "list_variables",
+          "get_variable_history",
+          "get_uva_value",
+          "get_monetary_base",
+          "get_reserves",
+          "get_interest_rates",
+          "get_inflation",
+          "get_badlar_rate",
+          "get_tm20_rate",
+          "get_leliq_rate",
+          "list_cheque_entities",
+          "validate_cheque"
+        ]
+      },
       {
         "date": "2026-08-16T15:42:15.480Z",
         "installMs": 113328,

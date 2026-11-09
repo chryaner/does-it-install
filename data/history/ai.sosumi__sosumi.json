@@ -1,0 +1,51 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-09T11:02:04.817Z",
+        "method": "remote-http",
+        "runId": "2026-11-09T11-02-04Z-fd792b",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "searchAppleDocumentation",
+          "fetchAppleDocumentation",
+          "fetchExternalDocumentation",
+          "fetchAppleVideoTranscript"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-09T11:02:02.710Z",
+        "method": "remote-http",
+        "runId": "2026-11-09T11-02-02Z-7c6953",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "searchAppleDocumentation",
+          "fetchAppleDocumentation",
+          "fetchExternalDocumentation",
+          "fetchAppleVideoTranscript"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-09T11:02:18.514Z",
+        "method": "remote-http",
+        "runId": "2026-11-09T11-02-18Z-b5cca2",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "searchAppleDocumentation",
+          "fetchAppleDocumentation",
+          "fetchExternalDocumentation",
+          "fetchAppleVideoTranscript"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.sosumi/sosumi",
+  "slug": "ai.sosumi__sosumi"
+}

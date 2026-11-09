@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-09T11:02:05.987Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading plotly (9.2MiB)\nDownloading polars-runtime-32 (45.4MiB)\nDownloading akquant (6.9MiB)\n Downloaded akquant\n Downloaded polars-runtime-32\n Downloaded plotly\nInstalled 17 packages in 589ms\n缺少 MCP SDK(需要 mcp>=2.3), 请先安装: pip install \"akquant[mcp]\"",
+        "method": "pypi",
+        "runId": "2026-11-09T11-02-05Z-6ec359",
+        "status": "needs_config"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-09T11:01:54.903Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading polars-runtime-32 (51.4MiB)\nDownloading plotly (9.2MiB)\nDownloading akquant (7.9MiB)\n Downloaded akquant\n Downloaded plotly\n Downloaded polars-runtime-32\nInstalled 17 packages in 661ms\n缺少 MCP SDK(需要 mcp>=2.3), 请先安装: pip install \"akquant[mcp]\"",
+        "method": "pypi",
+        "runId": "2026-11-09T11-01-54Z-9aacb2",
+        "status": "needs_config"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-09T11:02:25.384Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading plotly (9.2MiB)\nDownloading akquant (8.4MiB)\nDownloading polars-runtime-32 (51.4MiB)\n Downloaded polars-runtime-32\n Downloaded akquant\n Downloaded plotly\nInstalled 18 packages in 33.50s\n\\u7f3a\\u5c11 MCP SDK(\\u9700\\u8981 mcp>=2.3), \\u8bf7\\u5148\\u5b89\\u88c5: pip install \"akquant[mcp]\"",
+        "method": "pypi",
+        "runId": "2026-11-09T11-02-25Z-d0a634",
+        "status": "needs_config"
+      }
+    ]
+  },
+  "serverId": "io.github.akfamily/akquant",
+  "slug": "io.github.akfamily__akquant"
+}

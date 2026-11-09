@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-09T11:02:05.987Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading rapidfuzz (1.2MiB)\nDownloading pygments (1.2MiB)\nDownloading pandas (10.7MiB)\nDownloading edgartools (3.4MiB)\nDownloading pyarrow (35.6MiB)\nDownloading numpy (5.2MiB)\n Downloaded rapidfuzz\n Downloaded pygments\n Downloaded edgartools\n Downloaded numpy\n Downloaded pandas\n Downloaded pyarrow\nInstalled 42 packages in 336ms\nedgartools mcp needs the [ai] extra (No module named 'mcp'). Run: uvx --from 'edgartools[ai]' edgartools mcp",
+        "method": "pypi",
+        "runId": "2026-11-09T11-02-05Z-6ec359",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-11-02T10:46:36.472Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading rapidfuzz (1.2MiB)\nDownloading edgartools (3.4MiB)\n Downloaded rapidfuzz\n Downloaded edgartools\nInstalled 42 packages in 641ms\nedgartools mcp needs the [ai] extra (No module named 'mcp'). Run: uvx --from 'edgartools[ai]' edgartools mcp",
         "method": "pypi",
@@ -32,6 +39,13 @@
     ],
     "linux": [
       {
+        "date": "2026-11-09T11:01:54.903Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading numpy (15.9MiB)\nDownloading pandas (11.5MiB)\nDownloading rapidfuzz (3.0MiB)\nDownloading pygments (1.2MiB)\nDownloading pyarrow (52.5MiB)\nDownloading edgartools (3.4MiB)\n Downloaded pygments\n Downloaded rapidfuzz\n Downloaded edgartools\n Downloaded pandas\n Downloaded numpy\n Downloaded pyarrow\nInstalled 42 packages in 73ms\nedgartools mcp needs the [ai] extra (No module named 'mcp'). Run: uvx --from 'edgartools[ai]' edgartools mcp",
+        "method": "pypi",
+        "runId": "2026-11-09T11-01-54Z-9aacb2",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-11-02T10:46:31.258Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading edgartools (3.4MiB)\nDownloading rapidfuzz (3.0MiB)\n Downloaded rapidfuzz\n Downloaded edgartools\nInstalled 42 packages in 79ms\nedgartools mcp needs the [ai] extra (No module named 'mcp'). Run: uvx --from 'edgartools[ai]' edgartools mcp",
         "method": "pypi",
@@ -61,6 +75,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-09T11:02:25.384Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading pygments (1.2MiB)\nDownloading pandas (10.3MiB)\nDownloading edgartools (3.4MiB)\nDownloading numpy (12.0MiB)\nDownloading rapidfuzz (1.7MiB)\nDownloading pyarrow (27.7MiB)\n Downloaded rapidfuzz\n Downloaded pygments\n Downloaded edgartools\n Downloaded numpy\n Downloaded pyarrow\n Downloaded pandas\nInstalled 43 packages in 38.30s\nedgartools mcp needs the [ai] extra (No module named 'mcp'). Run: uvx --from 'edgartools[ai]' edgartools mcp",
+        "method": "pypi",
+        "runId": "2026-11-09T11-02-25Z-d0a634",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-11-02T10:46:54.855Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading rapidfuzz (1.7MiB)\nDownloading edgartools (3.4MiB)\n Downloaded rapidfuzz\n Downloaded edgartools\nInstalled 43 packages in 26.38s\nedgartools mcp needs the [ai] extra (No module named 'mcp'). Run: uvx --from 'edgartools[ai]' edgartools mcp",

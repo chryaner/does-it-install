@@ -2,6 +2,36 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-09T11:02:04.817Z",
+        "installMs": 7387,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-04Z-fd792b",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "get_ticker",
+          "list_orderbook",
+          "create_order",
+          "get_order",
+          "cancel_order",
+          "list_orders",
+          "get_balance",
+          "list_trades",
+          "get_candles",
+          "withdraw",
+          "cancel_all_orders",
+          "list_account_trades",
+          "list_deposits",
+          "list_withdrawals",
+          "get_withdrawal",
+          "list_symbols",
+          "list_assets",
+          "list_networks",
+          "get_fees",
+          "list_positions"
+        ]
+      },
+      {
         "date": "2026-08-16T15:41:59.741Z",
         "installMs": 3685,
         "method": "npm",
@@ -64,6 +94,36 @@
     ],
     "linux": [
       {
+        "date": "2026-11-09T11:02:02.710Z",
+        "installMs": 4774,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-02Z-7c6953",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "get_ticker",
+          "list_orderbook",
+          "create_order",
+          "get_order",
+          "cancel_order",
+          "list_orders",
+          "get_balance",
+          "list_trades",
+          "get_candles",
+          "withdraw",
+          "cancel_all_orders",
+          "list_account_trades",
+          "list_deposits",
+          "list_withdrawals",
+          "get_withdrawal",
+          "list_symbols",
+          "list_assets",
+          "list_networks",
+          "get_fees",
+          "list_positions"
+        ]
+      },
+      {
         "date": "2026-08-16T15:42:02.544Z",
         "installMs": 4191,
         "method": "npm",
@@ -125,6 +185,36 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-09T11:02:18.514Z",
+        "installMs": 136325,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-18Z-b5cca2",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "get_ticker",
+          "list_orderbook",
+          "create_order",
+          "get_order",
+          "cancel_order",
+          "list_orders",
+          "get_balance",
+          "list_trades",
+          "get_candles",
+          "withdraw",
+          "cancel_all_orders",
+          "list_account_trades",
+          "list_deposits",
+          "list_withdrawals",
+          "get_withdrawal",
+          "list_symbols",
+          "list_assets",
+          "list_networks",
+          "get_fees",
+          "list_positions"
+        ]
+      },
       {
         "date": "2026-08-16T15:42:15.480Z",
         "installMs": 117785,

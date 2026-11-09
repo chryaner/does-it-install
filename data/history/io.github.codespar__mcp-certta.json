@@ -2,6 +2,27 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-09T11:02:00.484Z",
+        "installMs": 4419,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-00Z-bfcf75",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "kyc_lookup_cpf",
+          "kyb_lookup_cnpj",
+          "biometrics_face_match",
+          "biometrics_liveness",
+          "documents_ocr",
+          "antifraud_score",
+          "signature_icp_create",
+          "signature_electronic_create",
+          "signature_get_envelope",
+          "onboarding_process_create",
+          "onboarding_process_get"
+        ]
+      },
+      {
         "date": "2026-08-16T15:42:04.537Z",
         "installMs": 4008,
         "method": "npm",
@@ -46,6 +67,27 @@
     ],
     "linux": [
       {
+        "date": "2026-11-09T11:01:54.894Z",
+        "installMs": 2809,
+        "method": "npm",
+        "runId": "2026-11-09T11-01-54Z-e62c88",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "kyc_lookup_cpf",
+          "kyb_lookup_cnpj",
+          "biometrics_face_match",
+          "biometrics_liveness",
+          "documents_ocr",
+          "antifraud_score",
+          "signature_icp_create",
+          "signature_electronic_create",
+          "signature_get_envelope",
+          "onboarding_process_create",
+          "onboarding_process_get"
+        ]
+      },
+      {
         "date": "2026-08-16T15:41:59.337Z",
         "installMs": 3106,
         "method": "npm",
@@ -89,6 +131,27 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-09T11:02:21.452Z",
+        "installMs": 119987,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-21Z-cbb6d9",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "kyc_lookup_cpf",
+          "kyb_lookup_cnpj",
+          "biometrics_face_match",
+          "biometrics_liveness",
+          "documents_ocr",
+          "antifraud_score",
+          "signature_icp_create",
+          "signature_electronic_create",
+          "signature_get_envelope",
+          "onboarding_process_create",
+          "onboarding_process_get"
+        ]
+      },
       {
         "date": "2026-08-16T15:42:13.871Z",
         "installMs": 96629,

@@ -2,6 +2,36 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-09T11:02:04.817Z",
+        "installMs": 8636,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-04Z-fd792b",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "list_customers",
+          "create_customer",
+          "update_customer",
+          "delete_customer",
+          "list_products",
+          "create_product",
+          "update_product",
+          "delete_product",
+          "list_sales",
+          "create_sale",
+          "get_sale",
+          "cancel_sale",
+          "list_services",
+          "create_service",
+          "update_service",
+          "delete_service",
+          "get_financial_summary",
+          "list_categories",
+          "list_bank_accounts",
+          "list_accounts_receivable"
+        ]
+      },
+      {
         "date": "2026-08-16T15:41:59.741Z",
         "installMs": 3286,
         "method": "npm",
@@ -64,6 +94,36 @@
     ],
     "linux": [
       {
+        "date": "2026-11-09T11:02:02.710Z",
+        "installMs": 4828,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-02Z-7c6953",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "list_customers",
+          "create_customer",
+          "update_customer",
+          "delete_customer",
+          "list_products",
+          "create_product",
+          "update_product",
+          "delete_product",
+          "list_sales",
+          "create_sale",
+          "get_sale",
+          "cancel_sale",
+          "list_services",
+          "create_service",
+          "update_service",
+          "delete_service",
+          "get_financial_summary",
+          "list_categories",
+          "list_bank_accounts",
+          "list_accounts_receivable"
+        ]
+      },
+      {
         "date": "2026-08-16T15:42:02.544Z",
         "installMs": 4253,
         "method": "npm",
@@ -125,6 +185,36 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-09T11:02:18.514Z",
+        "installMs": 129305,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-18Z-b5cca2",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "list_customers",
+          "create_customer",
+          "update_customer",
+          "delete_customer",
+          "list_products",
+          "create_product",
+          "update_product",
+          "delete_product",
+          "list_sales",
+          "create_sale",
+          "get_sale",
+          "cancel_sale",
+          "list_services",
+          "create_service",
+          "update_service",
+          "delete_service",
+          "get_financial_summary",
+          "list_categories",
+          "list_bank_accounts",
+          "list_accounts_receivable"
+        ]
+      },
       {
         "date": "2026-08-16T15:42:15.480Z",
         "installMs": 115341,

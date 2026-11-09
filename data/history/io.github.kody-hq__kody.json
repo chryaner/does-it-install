@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-09T11:02:05.987Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error_description\":\"Authentication required. Obtain an access token via OAuth and retry with Authorization: Bearer.\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-09T11-02-05Z-6ec359",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-11-02T10:46:36.004Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error_description\":\"Authentication required. Obtain an access token via OAuth and retry with Authorization: Bearer.\"} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -18,6 +25,13 @@
     ],
     "linux": [
       {
+        "date": "2026-11-09T11:01:54.903Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error_description\":\"Authentication required. Obtain an access token via OAuth and retry with Authorization: Bearer.\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-09T11-01-54Z-9aacb2",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-11-02T10:46:43.068Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error_description\":\"Authentication required. Obtain an access token via OAuth and retry with Authorization: Bearer.\"} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -33,6 +47,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-09T11:02:25.384Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error_description\":\"Authentication required. Obtain an access token via OAuth and retry with Authorization: Bearer.\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-09T11-02-25Z-d0a634",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-11-02T10:46:49.167Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error_description\":\"Authentication required. Obtain an access token via OAuth and retry with Authorization: Bearer.\"} (endpoint reachable but requires credentials the harness does not send)",

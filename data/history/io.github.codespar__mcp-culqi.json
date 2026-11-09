@@ -2,6 +2,36 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-09T11:02:04.817Z",
+        "installMs": 10414,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-04Z-fd792b",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_token",
+          "create_charge",
+          "get_charge",
+          "list_charges",
+          "capture_charge",
+          "refund_charge",
+          "get_refund",
+          "create_customer",
+          "get_customer",
+          "list_customers",
+          "create_card",
+          "delete_card",
+          "create_order",
+          "confirm_order",
+          "list_orders",
+          "create_plan",
+          "create_subscription",
+          "cancel_subscription",
+          "list_events",
+          "get_event"
+        ]
+      },
+      {
         "date": "2026-08-16T15:41:59.741Z",
         "installMs": 3415,
         "method": "npm",
@@ -64,6 +94,36 @@
     ],
     "linux": [
       {
+        "date": "2026-11-09T11:02:02.710Z",
+        "installMs": 4888,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-02Z-7c6953",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_token",
+          "create_charge",
+          "get_charge",
+          "list_charges",
+          "capture_charge",
+          "refund_charge",
+          "get_refund",
+          "create_customer",
+          "get_customer",
+          "list_customers",
+          "create_card",
+          "delete_card",
+          "create_order",
+          "confirm_order",
+          "list_orders",
+          "create_plan",
+          "create_subscription",
+          "cancel_subscription",
+          "list_events",
+          "get_event"
+        ]
+      },
+      {
         "date": "2026-08-16T15:42:02.544Z",
         "installMs": 4501,
         "method": "npm",
@@ -125,6 +185,36 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-09T11:02:18.514Z",
+        "installMs": 126760,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-18Z-b5cca2",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_token",
+          "create_charge",
+          "get_charge",
+          "list_charges",
+          "capture_charge",
+          "refund_charge",
+          "get_refund",
+          "create_customer",
+          "get_customer",
+          "list_customers",
+          "create_card",
+          "delete_card",
+          "create_order",
+          "confirm_order",
+          "list_orders",
+          "create_plan",
+          "create_subscription",
+          "cancel_subscription",
+          "list_events",
+          "get_event"
+        ]
+      },
       {
         "date": "2026-08-16T15:42:15.480Z",
         "installMs": 116884,

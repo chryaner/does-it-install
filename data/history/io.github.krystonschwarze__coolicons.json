@@ -1,0 +1,54 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-09T11:02:04.817Z",
+        "installMs": 2355,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-04Z-fd792b",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "describe_set",
+          "search_icons",
+          "get_icon",
+          "get_usage"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-09T11:02:02.710Z",
+        "installMs": 1028,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-02Z-7c6953",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "describe_set",
+          "search_icons",
+          "get_icon",
+          "get_usage"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-09T11:02:18.514Z",
+        "installMs": 6612,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-18Z-b5cca2",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "describe_set",
+          "search_icons",
+          "get_icon",
+          "get_usage"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.krystonschwarze/coolicons",
+  "slug": "io.github.krystonschwarze__coolicons"
+}

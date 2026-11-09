@@ -2,6 +2,35 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-09T11:02:04.817Z",
+        "installMs": 7951,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-04Z-fd792b",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "create_nfe",
+          "get_nfe",
+          "cancel_nfe",
+          "get_nfe_pdf",
+          "send_correction_letter",
+          "create_nfse",
+          "get_nfse",
+          "cancel_nfse",
+          "create_nfce",
+          "get_nfce",
+          "cancel_nfce",
+          "create_cte",
+          "get_cte",
+          "cancel_cte",
+          "create_mdfe",
+          "close_mdfe",
+          "register_webhook",
+          "list_webhooks",
+          "delete_webhook"
+        ]
+      },
+      {
         "date": "2026-08-16T15:41:59.741Z",
         "installMs": 3303,
         "method": "npm",
@@ -62,6 +91,35 @@
     ],
     "linux": [
       {
+        "date": "2026-11-09T11:02:02.710Z",
+        "installMs": 4909,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-02Z-7c6953",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "create_nfe",
+          "get_nfe",
+          "cancel_nfe",
+          "get_nfe_pdf",
+          "send_correction_letter",
+          "create_nfse",
+          "get_nfse",
+          "cancel_nfse",
+          "create_nfce",
+          "get_nfce",
+          "cancel_nfce",
+          "create_cte",
+          "get_cte",
+          "cancel_cte",
+          "create_mdfe",
+          "close_mdfe",
+          "register_webhook",
+          "list_webhooks",
+          "delete_webhook"
+        ]
+      },
+      {
         "date": "2026-08-16T15:42:02.544Z",
         "installMs": 4454,
         "method": "npm",
@@ -121,6 +179,35 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-09T11:02:18.514Z",
+        "installMs": 136549,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-18Z-b5cca2",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "create_nfe",
+          "get_nfe",
+          "cancel_nfe",
+          "get_nfe_pdf",
+          "send_correction_letter",
+          "create_nfse",
+          "get_nfse",
+          "cancel_nfse",
+          "create_nfce",
+          "get_nfce",
+          "cancel_nfce",
+          "create_cte",
+          "get_cte",
+          "cancel_cte",
+          "create_mdfe",
+          "close_mdfe",
+          "register_webhook",
+          "list_webhooks",
+          "delete_webhook"
+        ]
+      },
       {
         "date": "2026-08-16T15:42:15.480Z",
         "installMs": 113803,

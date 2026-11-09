@@ -2,6 +2,25 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-09T11:02:04.817Z",
+        "method": "remote-http",
+        "runId": "2026-11-09T11-02-04Z-fd792b",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "aihot_get_latest",
+          "aihot_search",
+          "aihot_get_hot_topics",
+          "aihot_get_story",
+          "aihot_get_daily",
+          "aihot_get_weekly",
+          "aihot_get_monthly",
+          "aihot_get_codex_resets",
+          "aihot_get_antigravity_resets",
+          "aihot_get_claude_resets"
+        ]
+      },
+      {
         "date": "2026-11-02T10:46:36.004Z",
         "method": "remote-http",
         "runId": "2026-11-02T10-46-36Z-c02362",
@@ -38,6 +57,25 @@
     ],
     "linux": [
       {
+        "date": "2026-11-09T11:02:02.710Z",
+        "method": "remote-http",
+        "runId": "2026-11-09T11-02-02Z-7c6953",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "aihot_get_latest",
+          "aihot_search",
+          "aihot_get_hot_topics",
+          "aihot_get_story",
+          "aihot_get_daily",
+          "aihot_get_weekly",
+          "aihot_get_monthly",
+          "aihot_get_codex_resets",
+          "aihot_get_antigravity_resets",
+          "aihot_get_claude_resets"
+        ]
+      },
+      {
         "date": "2026-11-02T10:46:43.068Z",
         "method": "remote-http",
         "runId": "2026-11-02T10-46-43Z-fd3aa1",
@@ -73,6 +111,25 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-09T11:02:18.514Z",
+        "method": "remote-http",
+        "runId": "2026-11-09T11-02-18Z-b5cca2",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "aihot_get_latest",
+          "aihot_search",
+          "aihot_get_hot_topics",
+          "aihot_get_story",
+          "aihot_get_daily",
+          "aihot_get_weekly",
+          "aihot_get_monthly",
+          "aihot_get_codex_resets",
+          "aihot_get_antigravity_resets",
+          "aihot_get_claude_resets"
+        ]
+      },
       {
         "date": "2026-11-02T10:46:49.167Z",
         "method": "remote-http",

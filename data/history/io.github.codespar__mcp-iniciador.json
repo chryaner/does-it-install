@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-09T11:02:04.817Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[mcp-iniciador] missing INICIADOR_API_KEY — refusing to start.",
+        "installMs": 8106,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-04Z-fd792b",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-16T15:41:59.741Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[mcp-iniciador] missing INICIADOR_API_KEY — refusing to start.",
         "installMs": 3743,
@@ -20,6 +28,14 @@
     ],
     "linux": [
       {
+        "date": "2026-11-09T11:02:02.710Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[mcp-iniciador] missing INICIADOR_API_KEY — refusing to start.",
+        "installMs": 4895,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-02Z-7c6953",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-08-16T15:42:02.544Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[mcp-iniciador] missing INICIADOR_API_KEY — refusing to start.",
         "installMs": 4024,
@@ -37,6 +53,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-09T11:02:18.514Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[mcp-iniciador] missing INICIADOR_API_KEY — refusing to start.",
+        "installMs": 133077,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-18Z-b5cca2",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-08-16T15:42:15.480Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[mcp-iniciador] missing INICIADOR_API_KEY — refusing to start.",

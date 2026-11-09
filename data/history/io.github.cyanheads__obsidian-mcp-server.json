@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-09T11:02:05.987Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n------------------------------------------------------------\n Configuration error — server failed to start\n------------------------------------------------------------\n@cyanheads/mcp-ts-core requires Node.js >=24.0.0, but this server is running Node.js 22.23.4 (/Users/runner/hostedtoolcache/node/22.23.4/arm64/bin/node). Point the client's command at a Node.js 24+ binary, or run the server under Bun >=1.4.4.\n\nSet DEBUG=true for the full stack trace.\n------------------------------------------------------------",
+        "installMs": 26064,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-05Z-6ec359",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-11-02T10:46:36.472Z",
         "installMs": 15578,
         "method": "npm",
@@ -92,6 +100,14 @@
     ],
     "linux": [
       {
+        "date": "2026-11-09T11:01:54.903Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n------------------------------------------------------------\n Configuration error — server failed to start\n------------------------------------------------------------\n@cyanheads/mcp-ts-core requires Node.js >=24.0.0, but this server is running Node.js 22.23.4 (/opt/hostedtoolcache/node/22.23.4/x64/bin/node). Point the client's command at a Node.js 24+ binary, or run the server under Bun >=1.4.4.\n\nSet DEBUG=true for the full stack trace.\n------------------------------------------------------------",
+        "installMs": 10569,
+        "method": "npm",
+        "runId": "2026-11-09T11-01-54Z-9aacb2",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-11-02T10:46:31.258Z",
         "installMs": 10283,
         "method": "npm",
@@ -181,6 +197,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-09T11:02:25.384Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n------------------------------------------------------------\n Configuration error — server failed to start\n------------------------------------------------------------\n@cyanheads/mcp-ts-core requires Node.js >=24.0.0, but this server is running Node.js 22.23.4 (C:\\hostedtoolcache\\windows\\node\\22.23.4\\x64\\node.exe). Point the client's command at a Node.js 24+ binary, or run the server under Bun >=1.4.4.\n\nSet DEBUG=true for the full stack trace.\n------------------------------------------------------------",
+        "installMs": 331373,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-25Z-d0a634",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-11-02T10:46:54.855Z",
         "installMs": 183944,

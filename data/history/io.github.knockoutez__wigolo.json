@@ -2,6 +2,26 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-09T11:02:05.987Z",
+        "installMs": 101955,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-05Z-6ec359",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "fetch",
+          "search",
+          "crawl",
+          "cache",
+          "extract",
+          "find_similar",
+          "research",
+          "agent",
+          "diff",
+          "watch"
+        ]
+      },
+      {
         "date": "2026-11-02T10:46:36.004Z",
         "installMs": 55467,
         "method": "npm",
@@ -84,6 +104,26 @@
     ],
     "linux": [
       {
+        "date": "2026-11-09T11:01:54.903Z",
+        "installMs": 28723,
+        "method": "npm",
+        "runId": "2026-11-09T11-01-54Z-9aacb2",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "fetch",
+          "search",
+          "crawl",
+          "cache",
+          "extract",
+          "find_similar",
+          "research",
+          "agent",
+          "diff",
+          "watch"
+        ]
+      },
+      {
         "date": "2026-11-02T10:46:43.068Z",
         "installMs": 24243,
         "method": "npm",
@@ -165,6 +205,26 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-09T11:02:25.384Z",
+        "installMs": 317729,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-25Z-d0a634",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "fetch",
+          "search",
+          "crawl",
+          "cache",
+          "extract",
+          "find_similar",
+          "research",
+          "agent",
+          "diff",
+          "watch"
+        ]
+      },
       {
         "date": "2026-11-02T10:46:49.167Z",
         "installMs": 210685,

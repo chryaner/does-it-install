@@ -1,0 +1,99 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-09T11:02:00.484Z",
+        "installMs": 4375,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-00Z-bfcf75",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "cockpit_overview",
+          "cockpit_plan",
+          "cockpit_stage",
+          "cockpit_task",
+          "cockpit_run",
+          "cockpit_claim",
+          "cockpit_hypothesis",
+          "cockpit_premise",
+          "cockpit_decide",
+          "cockpit_decisions",
+          "cockpit_report",
+          "cockpit_review",
+          "canvas_list",
+          "canvas_read",
+          "canvas_search",
+          "canvas_createNode",
+          "canvas_link",
+          "canvas_diagram",
+          "canvas_structure"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-09T11:01:54.894Z",
+        "installMs": 2617,
+        "method": "npm",
+        "runId": "2026-11-09T11-01-54Z-e62c88",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "cockpit_overview",
+          "cockpit_plan",
+          "cockpit_stage",
+          "cockpit_task",
+          "cockpit_run",
+          "cockpit_claim",
+          "cockpit_hypothesis",
+          "cockpit_premise",
+          "cockpit_decide",
+          "cockpit_decisions",
+          "cockpit_report",
+          "cockpit_review",
+          "canvas_list",
+          "canvas_read",
+          "canvas_search",
+          "canvas_createNode",
+          "canvas_link",
+          "canvas_diagram",
+          "canvas_structure"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-09T11:02:21.452Z",
+        "installMs": 103255,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-21Z-cbb6d9",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "cockpit_overview",
+          "cockpit_plan",
+          "cockpit_stage",
+          "cockpit_task",
+          "cockpit_run",
+          "cockpit_claim",
+          "cockpit_hypothesis",
+          "cockpit_premise",
+          "cockpit_decide",
+          "cockpit_decisions",
+          "cockpit_report",
+          "cockpit_review",
+          "canvas_list",
+          "canvas_read",
+          "canvas_search",
+          "canvas_createNode",
+          "canvas_link",
+          "canvas_diagram",
+          "canvas_structure"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.chutingyean/agent-cockpit",
+  "slug": "io.github.chutingyean__agent-cockpit"
+}

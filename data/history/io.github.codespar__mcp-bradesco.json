@@ -2,6 +2,38 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-09T11:02:00.484Z",
+        "installMs": 3229,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-00Z-bfcf75",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "get_oauth_token",
+          "send_pix",
+          "create_pix_qr",
+          "get_pix",
+          "resolve_dict_key",
+          "refund_pix",
+          "create_boleto",
+          "get_boleto",
+          "cancel_boleto",
+          "get_statement",
+          "arrecadacao_pay",
+          "list_pix_received",
+          "create_pix_due_charge",
+          "get_pix_due_charge",
+          "update_pix_due_charge",
+          "register_dict_key",
+          "delete_dict_key",
+          "list_boletos",
+          "get_boleto_pdf",
+          "get_account_balance",
+          "transfer_ted",
+          "pay_tax_darf"
+        ]
+      },
+      {
         "date": "2026-08-16T15:42:04.537Z",
         "installMs": 3973,
         "method": "npm",
@@ -68,6 +100,38 @@
     ],
     "linux": [
       {
+        "date": "2026-11-09T11:01:54.894Z",
+        "installMs": 2657,
+        "method": "npm",
+        "runId": "2026-11-09T11-01-54Z-e62c88",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "get_oauth_token",
+          "send_pix",
+          "create_pix_qr",
+          "get_pix",
+          "resolve_dict_key",
+          "refund_pix",
+          "create_boleto",
+          "get_boleto",
+          "cancel_boleto",
+          "get_statement",
+          "arrecadacao_pay",
+          "list_pix_received",
+          "create_pix_due_charge",
+          "get_pix_due_charge",
+          "update_pix_due_charge",
+          "register_dict_key",
+          "delete_dict_key",
+          "list_boletos",
+          "get_boleto_pdf",
+          "get_account_balance",
+          "transfer_ted",
+          "pay_tax_darf"
+        ]
+      },
+      {
         "date": "2026-08-16T15:41:59.337Z",
         "installMs": 3177,
         "method": "npm",
@@ -133,6 +197,38 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-09T11:02:21.452Z",
+        "installMs": 111214,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-21Z-cbb6d9",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "get_oauth_token",
+          "send_pix",
+          "create_pix_qr",
+          "get_pix",
+          "resolve_dict_key",
+          "refund_pix",
+          "create_boleto",
+          "get_boleto",
+          "cancel_boleto",
+          "get_statement",
+          "arrecadacao_pay",
+          "list_pix_received",
+          "create_pix_due_charge",
+          "get_pix_due_charge",
+          "update_pix_due_charge",
+          "register_dict_key",
+          "delete_dict_key",
+          "list_boletos",
+          "get_boleto_pdf",
+          "get_account_balance",
+          "transfer_ted",
+          "pay_tax_darf"
+        ]
+      },
       {
         "date": "2026-08-16T15:42:13.871Z",
         "installMs": 94996,

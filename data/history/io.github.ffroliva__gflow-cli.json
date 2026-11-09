@@ -1,0 +1,99 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-09T11:02:00.484Z",
+        "method": "pypi",
+        "runId": "2026-11-09T11-02-00Z-bfcf75",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "gflow_generate_image",
+          "gflow_generate_video",
+          "gflow_list_tools",
+          "gflow_list_models",
+          "gflow_get_credits",
+          "gflow_character_list",
+          "gflow_character_voices",
+          "gflow_character_show",
+          "gflow_download_media",
+          "gflow_upscale_image",
+          "gflow_upscale_video",
+          "gflow_list_projects",
+          "gflow_usage_stats",
+          "gflow_auth_status",
+          "gflow_instructions_list",
+          "gflow_instructions_add",
+          "gflow_instructions_set_enabled",
+          "gflow_instructions_rm",
+          "gflow_instructions_toggle_mode",
+          "gflow_instructions_apply"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-09T11:01:54.894Z",
+        "method": "pypi",
+        "runId": "2026-11-09T11-01-54Z-e62c88",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "gflow_generate_image",
+          "gflow_generate_video",
+          "gflow_list_tools",
+          "gflow_list_models",
+          "gflow_get_credits",
+          "gflow_character_list",
+          "gflow_character_voices",
+          "gflow_character_show",
+          "gflow_download_media",
+          "gflow_upscale_image",
+          "gflow_upscale_video",
+          "gflow_list_projects",
+          "gflow_usage_stats",
+          "gflow_auth_status",
+          "gflow_instructions_list",
+          "gflow_instructions_add",
+          "gflow_instructions_set_enabled",
+          "gflow_instructions_rm",
+          "gflow_instructions_toggle_mode",
+          "gflow_instructions_apply"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-09T11:02:21.452Z",
+        "method": "pypi",
+        "runId": "2026-11-09T11-02-21Z-cbb6d9",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "gflow_generate_image",
+          "gflow_generate_video",
+          "gflow_list_tools",
+          "gflow_list_models",
+          "gflow_get_credits",
+          "gflow_character_list",
+          "gflow_character_voices",
+          "gflow_character_show",
+          "gflow_download_media",
+          "gflow_upscale_image",
+          "gflow_upscale_video",
+          "gflow_list_projects",
+          "gflow_usage_stats",
+          "gflow_auth_status",
+          "gflow_instructions_list",
+          "gflow_instructions_add",
+          "gflow_instructions_set_enabled",
+          "gflow_instructions_rm",
+          "gflow_instructions_toggle_mode",
+          "gflow_instructions_apply"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.ffroliva/gflow-cli",
+  "slug": "io.github.ffroliva__gflow-cli"
+}

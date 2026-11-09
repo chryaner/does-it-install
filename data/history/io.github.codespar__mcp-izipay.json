@@ -2,6 +2,36 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-09T11:02:00.484Z",
+        "installMs": 4012,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-00Z-bfcf75",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_charge",
+          "capture_charge",
+          "cancel_charge",
+          "refund_charge",
+          "get_charge",
+          "tokenize_card",
+          "delete_token",
+          "create_installment_plan",
+          "list_transactions",
+          "get_settlement",
+          "get_charge_by_order",
+          "list_installment_options",
+          "list_settlements",
+          "create_payment_link",
+          "get_payment_link",
+          "pay_yape",
+          "pay_plin",
+          "authenticate_3ds",
+          "create_subscription",
+          "cancel_subscription"
+        ]
+      },
+      {
         "date": "2026-08-16T15:42:04.537Z",
         "installMs": 5381,
         "method": "npm",
@@ -64,6 +94,36 @@
     ],
     "linux": [
       {
+        "date": "2026-11-09T11:01:54.894Z",
+        "installMs": 3086,
+        "method": "npm",
+        "runId": "2026-11-09T11-01-54Z-e62c88",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_charge",
+          "capture_charge",
+          "cancel_charge",
+          "refund_charge",
+          "get_charge",
+          "tokenize_card",
+          "delete_token",
+          "create_installment_plan",
+          "list_transactions",
+          "get_settlement",
+          "get_charge_by_order",
+          "list_installment_options",
+          "list_settlements",
+          "create_payment_link",
+          "get_payment_link",
+          "pay_yape",
+          "pay_plin",
+          "authenticate_3ds",
+          "create_subscription",
+          "cancel_subscription"
+        ]
+      },
+      {
         "date": "2026-08-16T15:41:59.337Z",
         "installMs": 2993,
         "method": "npm",
@@ -125,6 +185,36 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-09T11:02:21.452Z",
+        "installMs": 116376,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-21Z-cbb6d9",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_charge",
+          "capture_charge",
+          "cancel_charge",
+          "refund_charge",
+          "get_charge",
+          "tokenize_card",
+          "delete_token",
+          "create_installment_plan",
+          "list_transactions",
+          "get_settlement",
+          "get_charge_by_order",
+          "list_installment_options",
+          "list_settlements",
+          "create_payment_link",
+          "get_payment_link",
+          "pay_yape",
+          "pay_plin",
+          "authenticate_3ds",
+          "create_subscription",
+          "cancel_subscription"
+        ]
+      },
       {
         "date": "2026-08-16T15:42:13.871Z",
         "installMs": 99386,

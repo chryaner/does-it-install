@@ -1,0 +1,69 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-09T11:02:04.817Z",
+        "method": "remote-http",
+        "runId": "2026-11-09T11-02-04Z-fd792b",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "synaplan_chat",
+          "rag_search",
+          "memory_search",
+          "memory_add",
+          "file_ingest",
+          "rag_similar",
+          "list_chats",
+          "get_messages",
+          "list_prompts",
+          "list_assistants"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-09T11:02:02.710Z",
+        "method": "remote-http",
+        "runId": "2026-11-09T11-02-02Z-7c6953",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "synaplan_chat",
+          "rag_search",
+          "memory_search",
+          "memory_add",
+          "file_ingest",
+          "rag_similar",
+          "list_chats",
+          "get_messages",
+          "list_prompts",
+          "list_assistants"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-09T11:02:18.514Z",
+        "method": "remote-http",
+        "runId": "2026-11-09T11-02-18Z-b5cca2",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "synaplan_chat",
+          "rag_search",
+          "memory_search",
+          "memory_add",
+          "file_ingest",
+          "rag_similar",
+          "list_chats",
+          "get_messages",
+          "list_prompts",
+          "list_assistants"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.metadist/synaplan",
+  "slug": "io.github.metadist__synaplan"
+}

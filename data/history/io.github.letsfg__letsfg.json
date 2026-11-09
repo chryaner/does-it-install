@@ -2,6 +2,30 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-09T11:02:05.987Z",
+        "installMs": 2573,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-05Z-6ec359",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "search_flights",
+          "resolve_location",
+          "book_flight",
+          "get_flight_booking",
+          "answer_booking_question",
+          "resolve_hotel_city",
+          "search_hotels",
+          "book_hotel",
+          "get_hotel_booking",
+          "cancel_hotel_booking",
+          "authenticate",
+          "connect_payment",
+          "get_agent_profile",
+          "load_resources"
+        ]
+      },
+      {
         "date": "2026-11-02T10:46:39.955Z",
         "installMs": 1089,
         "method": "npm",
@@ -52,6 +76,30 @@
     ],
     "linux": [
       {
+        "date": "2026-11-09T11:01:54.903Z",
+        "installMs": 763,
+        "method": "npm",
+        "runId": "2026-11-09T11-01-54Z-9aacb2",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "search_flights",
+          "resolve_location",
+          "book_flight",
+          "get_flight_booking",
+          "answer_booking_question",
+          "resolve_hotel_city",
+          "search_hotels",
+          "book_hotel",
+          "get_hotel_booking",
+          "cancel_hotel_booking",
+          "authenticate",
+          "connect_payment",
+          "get_agent_profile",
+          "load_resources"
+        ]
+      },
+      {
         "date": "2026-11-02T10:46:27.782Z",
         "installMs": 623,
         "method": "npm",
@@ -101,6 +149,30 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-09T11:02:25.384Z",
+        "installMs": 5000,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-25Z-d0a634",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "search_flights",
+          "resolve_location",
+          "book_flight",
+          "get_flight_booking",
+          "answer_booking_question",
+          "resolve_hotel_city",
+          "search_hotels",
+          "book_hotel",
+          "get_hotel_booking",
+          "cancel_hotel_booking",
+          "authenticate",
+          "connect_payment",
+          "get_agent_profile",
+          "load_resources"
+        ]
+      },
       {
         "date": "2026-11-02T10:47:04.266Z",
         "installMs": 3246,

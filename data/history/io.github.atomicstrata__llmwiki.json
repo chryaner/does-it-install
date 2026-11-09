@@ -2,6 +2,32 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-09T11:02:04.817Z",
+        "installMs": 27631,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-04Z-fd792b",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "ingest_source",
+          "compile_wiki",
+          "query_wiki",
+          "search_pages",
+          "read_page",
+          "lint_wiki",
+          "wiki_status",
+          "get_context_pack",
+          "run_eval",
+          "verify_artifact",
+          "export_okf",
+          "import_okf",
+          "list_workflow_actions",
+          "describe_workflow_action",
+          "run_workflow_action",
+          "workflow_run_status"
+        ]
+      },
+      {
         "date": "2026-11-02T10:46:39.955Z",
         "installMs": 32638,
         "method": "npm",
@@ -56,6 +82,32 @@
     ],
     "linux": [
       {
+        "date": "2026-11-09T11:02:02.710Z",
+        "installMs": 15504,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-02Z-7c6953",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "ingest_source",
+          "compile_wiki",
+          "query_wiki",
+          "search_pages",
+          "read_page",
+          "lint_wiki",
+          "wiki_status",
+          "get_context_pack",
+          "run_eval",
+          "verify_artifact",
+          "export_okf",
+          "import_okf",
+          "list_workflow_actions",
+          "describe_workflow_action",
+          "run_workflow_action",
+          "workflow_run_status"
+        ]
+      },
+      {
         "date": "2026-11-02T10:46:27.782Z",
         "installMs": 11166,
         "method": "npm",
@@ -109,6 +161,32 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-09T11:02:18.514Z",
+        "installMs": 500332,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-18Z-b5cca2",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "ingest_source",
+          "compile_wiki",
+          "query_wiki",
+          "search_pages",
+          "read_page",
+          "lint_wiki",
+          "wiki_status",
+          "get_context_pack",
+          "run_eval",
+          "verify_artifact",
+          "export_okf",
+          "import_okf",
+          "list_workflow_actions",
+          "describe_workflow_action",
+          "run_workflow_action",
+          "workflow_run_status"
+        ]
+      },
       {
         "date": "2026-11-02T10:47:04.266Z",
         "installMs": 308486,

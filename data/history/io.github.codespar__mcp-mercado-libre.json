@@ -2,6 +2,38 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-09T11:02:00.484Z",
+        "installMs": 3921,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-00Z-bfcf75",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "search_products",
+          "get_product",
+          "get_product_description",
+          "list_categories",
+          "get_category",
+          "predict_category",
+          "get_trends",
+          "list_listings",
+          "update_item",
+          "get_seller",
+          "list_orders",
+          "get_order",
+          "get_user",
+          "get_shipment",
+          "get_shipment_history",
+          "get_shipping_label",
+          "list_questions",
+          "answer_question",
+          "list_messages",
+          "send_message",
+          "list_reviews",
+          "create_promotion"
+        ]
+      },
+      {
         "date": "2026-08-16T15:42:04.537Z",
         "installMs": 6117,
         "method": "npm",
@@ -68,6 +100,38 @@
     ],
     "linux": [
       {
+        "date": "2026-11-09T11:01:54.894Z",
+        "installMs": 3096,
+        "method": "npm",
+        "runId": "2026-11-09T11-01-54Z-e62c88",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "search_products",
+          "get_product",
+          "get_product_description",
+          "list_categories",
+          "get_category",
+          "predict_category",
+          "get_trends",
+          "list_listings",
+          "update_item",
+          "get_seller",
+          "list_orders",
+          "get_order",
+          "get_user",
+          "get_shipment",
+          "get_shipment_history",
+          "get_shipping_label",
+          "list_questions",
+          "answer_question",
+          "list_messages",
+          "send_message",
+          "list_reviews",
+          "create_promotion"
+        ]
+      },
+      {
         "date": "2026-08-16T15:41:59.337Z",
         "installMs": 2964,
         "method": "npm",
@@ -133,6 +197,38 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-09T11:02:21.452Z",
+        "installMs": 114816,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-21Z-cbb6d9",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "search_products",
+          "get_product",
+          "get_product_description",
+          "list_categories",
+          "get_category",
+          "predict_category",
+          "get_trends",
+          "list_listings",
+          "update_item",
+          "get_seller",
+          "list_orders",
+          "get_order",
+          "get_user",
+          "get_shipment",
+          "get_shipment_history",
+          "get_shipping_label",
+          "list_questions",
+          "answer_question",
+          "list_messages",
+          "send_message",
+          "list_reviews",
+          "create_promotion"
+        ]
+      },
       {
         "date": "2026-08-16T15:42:13.871Z",
         "installMs": 89791,

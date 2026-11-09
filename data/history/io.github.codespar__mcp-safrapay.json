@@ -2,6 +2,38 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-09T11:02:04.817Z",
+        "installMs": 14652,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-04Z-fd792b",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "authorize_payment",
+          "capture_payment",
+          "cancel_payment",
+          "refund_payment",
+          "create_pix",
+          "create_boleto",
+          "get_payment",
+          "tokenize_card",
+          "create_split_rule",
+          "get_statement",
+          "list_transactions",
+          "delete_card_token",
+          "search_by_merchant_order",
+          "query_chargeback",
+          "query_installments",
+          "authenticate_3ds",
+          "create_recurrence",
+          "get_recurrence",
+          "cancel_recurrence",
+          "get_settlement_report",
+          "create_payment_link",
+          "register_webhook"
+        ]
+      },
+      {
         "date": "2026-08-16T15:41:59.741Z",
         "installMs": 3565,
         "method": "npm",
@@ -68,6 +100,38 @@
     ],
     "linux": [
       {
+        "date": "2026-11-09T11:02:02.710Z",
+        "installMs": 3497,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-02Z-7c6953",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "authorize_payment",
+          "capture_payment",
+          "cancel_payment",
+          "refund_payment",
+          "create_pix",
+          "create_boleto",
+          "get_payment",
+          "tokenize_card",
+          "create_split_rule",
+          "get_statement",
+          "list_transactions",
+          "delete_card_token",
+          "search_by_merchant_order",
+          "query_chargeback",
+          "query_installments",
+          "authenticate_3ds",
+          "create_recurrence",
+          "get_recurrence",
+          "cancel_recurrence",
+          "get_settlement_report",
+          "create_payment_link",
+          "register_webhook"
+        ]
+      },
+      {
         "date": "2026-08-16T15:42:02.544Z",
         "installMs": 4210,
         "method": "npm",
@@ -133,6 +197,38 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-09T11:02:18.514Z",
+        "installMs": 72698,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-18Z-b5cca2",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "authorize_payment",
+          "capture_payment",
+          "cancel_payment",
+          "refund_payment",
+          "create_pix",
+          "create_boleto",
+          "get_payment",
+          "tokenize_card",
+          "create_split_rule",
+          "get_statement",
+          "list_transactions",
+          "delete_card_token",
+          "search_by_merchant_order",
+          "query_chargeback",
+          "query_installments",
+          "authenticate_3ds",
+          "create_recurrence",
+          "get_recurrence",
+          "cancel_recurrence",
+          "get_settlement_report",
+          "create_payment_link",
+          "register_webhook"
+        ]
+      },
       {
         "date": "2026-08-16T15:42:15.480Z",
         "installMs": 114745,

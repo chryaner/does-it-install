@@ -2,6 +2,24 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-09T11:02:00.484Z",
+        "installMs": 5814,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-00Z-bfcf75",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "list_balances",
+          "get_balance",
+          "create_counterparty",
+          "list_counterparties",
+          "get_counterparty",
+          "create_money_movement",
+          "get_money_movement",
+          "list_money_movements"
+        ]
+      },
+      {
         "date": "2026-08-16T15:42:04.537Z",
         "installMs": 4606,
         "method": "npm",
@@ -40,6 +58,24 @@
     ],
     "linux": [
       {
+        "date": "2026-11-09T11:01:54.894Z",
+        "installMs": 2864,
+        "method": "npm",
+        "runId": "2026-11-09T11-01-54Z-e62c88",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "list_balances",
+          "get_balance",
+          "create_counterparty",
+          "list_counterparties",
+          "get_counterparty",
+          "create_money_movement",
+          "get_money_movement",
+          "list_money_movements"
+        ]
+      },
+      {
         "date": "2026-08-16T15:41:59.337Z",
         "installMs": 3109,
         "method": "npm",
@@ -77,6 +113,24 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-09T11:02:21.452Z",
+        "installMs": 112019,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-21Z-cbb6d9",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "list_balances",
+          "get_balance",
+          "create_counterparty",
+          "list_counterparties",
+          "get_counterparty",
+          "create_money_movement",
+          "get_money_movement",
+          "list_money_movements"
+        ]
+      },
       {
         "date": "2026-08-16T15:42:13.871Z",
         "installMs": 99567,

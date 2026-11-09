@@ -2,6 +2,37 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-09T11:02:05.987Z",
+        "installMs": 14281,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-05Z-6ec359",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "browser_navigate",
+          "browser_go_back",
+          "browser_go_forward",
+          "browser_form_input_fill",
+          "browser_get_markdown",
+          "browser_get_text",
+          "browser_read_links",
+          "browser_new_tab",
+          "browser_tab_list",
+          "browser_switch_tab",
+          "browser_close_tab",
+          "browser_evaluate",
+          "browser_get_download_list",
+          "browser_screenshot",
+          "browser_click",
+          "browser_select",
+          "browser_hover",
+          "browser_get_clickable_elements",
+          "browser_scroll",
+          "browser_close",
+          "browser_press_key"
+        ]
+      },
+      {
         "date": "2026-11-02T10:46:39.955Z",
         "installMs": 32663,
         "method": "npm",
@@ -128,6 +159,37 @@
     ],
     "linux": [
       {
+        "date": "2026-11-09T11:01:54.903Z",
+        "installMs": 11407,
+        "method": "npm",
+        "runId": "2026-11-09T11-01-54Z-9aacb2",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "browser_navigate",
+          "browser_go_back",
+          "browser_go_forward",
+          "browser_form_input_fill",
+          "browser_get_markdown",
+          "browser_get_text",
+          "browser_read_links",
+          "browser_new_tab",
+          "browser_tab_list",
+          "browser_switch_tab",
+          "browser_close_tab",
+          "browser_evaluate",
+          "browser_get_download_list",
+          "browser_screenshot",
+          "browser_click",
+          "browser_select",
+          "browser_hover",
+          "browser_get_clickable_elements",
+          "browser_scroll",
+          "browser_close",
+          "browser_press_key"
+        ]
+      },
+      {
         "date": "2026-11-02T10:46:27.782Z",
         "installMs": 9907,
         "method": "npm",
@@ -253,6 +315,37 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-09T11:02:25.384Z",
+        "installMs": 145169,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-25Z-d0a634",
+        "status": "pass",
+        "toolCount": 21,
+        "toolNames": [
+          "browser_navigate",
+          "browser_go_back",
+          "browser_go_forward",
+          "browser_form_input_fill",
+          "browser_get_markdown",
+          "browser_get_text",
+          "browser_read_links",
+          "browser_new_tab",
+          "browser_tab_list",
+          "browser_switch_tab",
+          "browser_close_tab",
+          "browser_evaluate",
+          "browser_get_download_list",
+          "browser_screenshot",
+          "browser_click",
+          "browser_select",
+          "browser_hover",
+          "browser_get_clickable_elements",
+          "browser_scroll",
+          "browser_close",
+          "browser_press_key"
+        ]
+      },
       {
         "date": "2026-11-02T10:47:04.266Z",
         "installMs": 350247,

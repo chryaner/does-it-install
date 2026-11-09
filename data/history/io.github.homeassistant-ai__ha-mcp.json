@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-09T11:02:04.817Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\nDownloading beartype (1.5MiB)\nDownloading ha-mcp (3.9MiB)\n Downloaded beartype\n   Building pydantic-monty==0.0.18\n Downloaded ha-mcp",
+        "method": "pypi",
+        "runId": "2026-11-09T11-02-04Z-fd792b",
+        "status": "timeout"
+      },
+      {
         "date": "2026-11-02T10:46:39.955Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\nDownloading ha-mcp (3.8MiB)\n   Building pydantic-monty==0.0.18\n Downloaded ha-mcp",
         "method": "pypi",
@@ -32,6 +39,13 @@
     ],
     "linux": [
       {
+        "date": "2026-11-09T11:02:02.710Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading beartype (1.5MiB)\nDownloading pydantic-monty (8.8MiB)\nDownloading ha-mcp (3.9MiB)\n Downloaded beartype\n Downloaded ha-mcp\n Downloaded pydantic-monty\nInstalled 71 packages in 63ms\n\n==============================================================================\n                    Home Assistant MCP Server - Configuration Error\n==============================================================================\n\nMissing required environment variables:\n  - HOMEASSISTANT_URL\n  - HOMEASSISTANT_TOKEN\n\nTo fix this, you need to provide your Home Assistant connection details:\n\n  1. HOMEASSISTANT_URL - Your Home Assistant instance URL\n     Example: http://homeassistant.local:8123\n\n  2. HOMEASSISTANT_TOKEN - A long-lived access token (an administrator's is recommended)\n     Get one from: Home Assistant -> Profile -> Long-Lived Access Tokens\n\nConfiguration options:\n  - Set environment variables directly:\n      export HOMEASSISTANT_URL=http://homeassistant.local:8123\n      export HOMEASSISTANT_TOKEN=your_token_here\n\n  - Or create a .env file in the project directory (copy from .env.example)\n\nFor detailed setup instructions, see:\n  https://github.com/homeassistant-ai/ha-mcp#-installation\n\n==============================================================================",
+        "method": "pypi",
+        "runId": "2026-11-09T11-02-02Z-7c6953",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-11-02T10:46:27.782Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading ha-mcp (3.8MiB)\nDownloading pydantic-monty (8.8MiB)\n Downloaded ha-mcp\n Downloaded pydantic-monty\nInstalled 71 packages in 62ms\n\n==============================================================================\n                    Home Assistant MCP Server - Configuration Error\n==============================================================================\n\nMissing required environment variables:\n  - HOMEASSISTANT_URL\n  - HOMEASSISTANT_TOKEN\n\nTo fix this, you need to provide your Home Assistant connection details:\n\n  1. HOMEASSISTANT_URL - Your Home Assistant instance URL\n     Example: http://homeassistant.local:8123\n\n  2. HOMEASSISTANT_TOKEN - A long-lived access token (an administrator's is recommended)\n     Get one from: Home Assistant -> Profile -> Long-Lived Access Tokens\n\nConfiguration options:\n  - Set environment variables directly:\n      export HOMEASSISTANT_URL=http://homeassistant.local:8123\n      export HOMEASSISTANT_TOKEN=your_token_here\n\n  - Or create a .env file in the project directory (copy from .env.example)\n\nFor detailed setup instructions, see:\n  https://github.com/homeassistant-ai/ha-mcp#-installation\n\n==============================================================================",
         "method": "pypi",
@@ -61,6 +75,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-09T11:02:18.514Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading beartype (1.5MiB)\nDownloading pywin32 (6.6MiB)\nDownloading ha-mcp (3.9MiB)\nDownloading pydantic-monty (9.0MiB)\nDownloading pydantic-core (2.2MiB)\n Downloaded pydantic-core\n Downloaded pydantic-monty\n Downloaded beartype\n Downloaded pywin32\n Downloaded ha-mcp\nInstalled 71 packages in 9.80s\n\r\n==============================================================================\r\n                    Home Assistant MCP Server - Configuration Error\r\n==============================================================================\r\n\r\nMissing required environment variables:\r\n  - HOMEASSISTANT_URL\r\n  - HOMEASSISTANT_TOKEN\r\n\r\nTo fix this, you need to provide your Home Assistant connection details:\r\n\r\n  1. HOMEASSISTANT_URL - Your Home Assistant instance URL\r\n     Example: http://homeassistant.local:8123\r\n\r\n  2. HOMEASSISTANT_TOKEN - A long-lived access token (an administrator's is recommended)\r\n     Get one from: Home Assistant -> Profile -> Long-Lived Access Tokens\r\n\r\nConfiguration options:\r\n  - Set environment variables directly:\r\n      export HOMEASSISTANT_URL=http://homeassistant.local:8123\r\n      export HOMEASSISTANT_TOKEN=your_token_here\r\n\r\n  - Or create a .env file in the project directory (copy from .env.example)\r\n\r\nFor detailed setup instructions, see:\r\n  https://github.com/homeassistant-ai/ha-mcp#-installation\r\n\r\n==============================================================================",
+        "method": "pypi",
+        "runId": "2026-11-09T11-02-18Z-b5cca2",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-11-02T10:47:04.266Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading pywin32 (6.6MiB)\nDownloading pydantic-core (2.1MiB)\nDownloading ha-mcp (3.8MiB)\nDownloading pydantic-monty (9.0MiB)\n Downloaded pydantic-core\n Downloaded pydantic-monty\n Downloaded pywin32\n Downloaded ha-mcp\nInstalled 71 packages in 9.65s\n\r\n==============================================================================\r\n                    Home Assistant MCP Server - Configuration Error\r\n==============================================================================\r\n\r\nMissing required environment variables:\r\n  - HOMEASSISTANT_URL\r\n  - HOMEASSISTANT_TOKEN\r\n\r\nTo fix this, you need to provide your Home Assistant connection details:\r\n\r\n  1. HOMEASSISTANT_URL - Your Home Assistant instance URL\r\n     Example: http://homeassistant.local:8123\r\n\r\n  2. HOMEASSISTANT_TOKEN - A long-lived access token (an administrator's is recommended)\r\n     Get one from: Home Assistant -> Profile -> Long-Lived Access Tokens\r\n\r\nConfiguration options:\r\n  - Set environment variables directly:\r\n      export HOMEASSISTANT_URL=http://homeassistant.local:8123\r\n      export HOMEASSISTANT_TOKEN=your_token_here\r\n\r\n  - Or create a .env file in the project directory (copy from .env.example)\r\n\r\nFor detailed setup instructions, see:\r\n  https://github.com/homeassistant-ai/ha-mcp#-installation\r\n\r\n==============================================================================",

@@ -1,0 +1,45 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-09T11:02:05.987Z",
+        "method": "remote-http",
+        "runId": "2026-11-09T11-02-05Z-6ec359",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "judge_idea",
+          "get_stats"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-09T11:01:54.903Z",
+        "method": "remote-http",
+        "runId": "2026-11-09T11-01-54Z-9aacb2",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "judge_idea",
+          "get_stats"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-09T11:02:25.384Z",
+        "method": "remote-http",
+        "runId": "2026-11-09T11-02-25Z-d0a634",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "judge_idea",
+          "get_stats"
+        ]
+      }
+    ]
+  },
+  "serverId": "biz.killmyidea/killmyidea",
+  "slug": "biz.killmyidea__killmyidea"
+}

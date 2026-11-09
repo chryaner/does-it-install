@@ -2,6 +2,38 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-09T11:02:05.987Z",
+        "installMs": 6467,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-05Z-6ec359",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "authorize_transaction",
+          "charge_transaction",
+          "capture_transaction",
+          "refund_transaction",
+          "void_transaction",
+          "vault_payment_method",
+          "delete_payment_method",
+          "create_customer",
+          "update_customer",
+          "get_transaction",
+          "get_customer",
+          "submit_for_settlement",
+          "update_payment_method",
+          "verify_payment_method",
+          "delete_customer",
+          "find_customer",
+          "search_transactions",
+          "find_dispute",
+          "accept_dispute",
+          "finalize_dispute",
+          "find_merchant_account",
+          "create_client_token"
+        ]
+      },
+      {
         "date": "2026-08-16T15:42:00.997Z",
         "installMs": 3354,
         "method": "npm",
@@ -68,6 +100,38 @@
     ],
     "linux": [
       {
+        "date": "2026-11-09T11:01:54.903Z",
+        "installMs": 3660,
+        "method": "npm",
+        "runId": "2026-11-09T11-01-54Z-9aacb2",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "authorize_transaction",
+          "charge_transaction",
+          "capture_transaction",
+          "refund_transaction",
+          "void_transaction",
+          "vault_payment_method",
+          "delete_payment_method",
+          "create_customer",
+          "update_customer",
+          "get_transaction",
+          "get_customer",
+          "submit_for_settlement",
+          "update_payment_method",
+          "verify_payment_method",
+          "delete_customer",
+          "find_customer",
+          "search_transactions",
+          "find_dispute",
+          "accept_dispute",
+          "finalize_dispute",
+          "find_merchant_account",
+          "create_client_token"
+        ]
+      },
+      {
         "date": "2026-08-16T15:41:56.759Z",
         "installMs": 3959,
         "method": "npm",
@@ -133,6 +197,38 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-09T11:02:25.384Z",
+        "installMs": 208123,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-25Z-d0a634",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "authorize_transaction",
+          "charge_transaction",
+          "capture_transaction",
+          "refund_transaction",
+          "void_transaction",
+          "vault_payment_method",
+          "delete_payment_method",
+          "create_customer",
+          "update_customer",
+          "get_transaction",
+          "get_customer",
+          "submit_for_settlement",
+          "update_payment_method",
+          "verify_payment_method",
+          "delete_customer",
+          "find_customer",
+          "search_transactions",
+          "find_dispute",
+          "accept_dispute",
+          "finalize_dispute",
+          "find_merchant_account",
+          "create_client_token"
+        ]
+      },
       {
         "date": "2026-08-16T15:42:18.905Z",
         "installMs": 85046,

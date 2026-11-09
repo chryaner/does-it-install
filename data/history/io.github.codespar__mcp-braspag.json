@@ -2,6 +2,38 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-09T11:02:00.484Z",
+        "installMs": 3335,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-00Z-bfcf75",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "create_sale",
+          "capture_sale",
+          "void_sale",
+          "create_recurrent",
+          "disable_recurrent",
+          "update_recurrent_amount",
+          "get_sale",
+          "get_sale_by_order_id",
+          "get_recurrent",
+          "tokenize_card",
+          "get_card_token",
+          "create_split_sale",
+          "create_sale_3ds",
+          "create_zero_auth",
+          "create_boleto_sale",
+          "create_pix_sale",
+          "reactivate_recurrent",
+          "update_recurrent_next_payment",
+          "update_recurrent_payment",
+          "create_antifraud_analysis",
+          "delete_card_token",
+          "create_split_capture"
+        ]
+      },
+      {
         "date": "2026-08-16T15:42:04.537Z",
         "installMs": 4194,
         "method": "npm",
@@ -68,6 +100,38 @@
     ],
     "linux": [
       {
+        "date": "2026-11-09T11:01:54.894Z",
+        "installMs": 2759,
+        "method": "npm",
+        "runId": "2026-11-09T11-01-54Z-e62c88",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "create_sale",
+          "capture_sale",
+          "void_sale",
+          "create_recurrent",
+          "disable_recurrent",
+          "update_recurrent_amount",
+          "get_sale",
+          "get_sale_by_order_id",
+          "get_recurrent",
+          "tokenize_card",
+          "get_card_token",
+          "create_split_sale",
+          "create_sale_3ds",
+          "create_zero_auth",
+          "create_boleto_sale",
+          "create_pix_sale",
+          "reactivate_recurrent",
+          "update_recurrent_next_payment",
+          "update_recurrent_payment",
+          "create_antifraud_analysis",
+          "delete_card_token",
+          "create_split_capture"
+        ]
+      },
+      {
         "date": "2026-08-16T15:41:59.337Z",
         "installMs": 3006,
         "method": "npm",
@@ -133,6 +197,38 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-09T11:02:21.452Z",
+        "installMs": 110633,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-21Z-cbb6d9",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "create_sale",
+          "capture_sale",
+          "void_sale",
+          "create_recurrent",
+          "disable_recurrent",
+          "update_recurrent_amount",
+          "get_sale",
+          "get_sale_by_order_id",
+          "get_recurrent",
+          "tokenize_card",
+          "get_card_token",
+          "create_split_sale",
+          "create_sale_3ds",
+          "create_zero_auth",
+          "create_boleto_sale",
+          "create_pix_sale",
+          "reactivate_recurrent",
+          "update_recurrent_next_payment",
+          "update_recurrent_payment",
+          "create_antifraud_analysis",
+          "delete_card_token",
+          "create_split_capture"
+        ]
+      },
       {
         "date": "2026-08-16T15:42:13.871Z",
         "installMs": 101152,

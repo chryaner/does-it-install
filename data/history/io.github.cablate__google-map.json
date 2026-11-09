@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-09T11:02:00.484Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n[INFO] 🗺️  Google Maps MCP Server\n[INFO]    A Model Context Protocol server for Google Maps services\n[INFO] \n[INFO] 🚀 Starting Google Maps MCP Server...\n[INFO] 📍 18 tools registered (set GOOGLE_MAPS_ENABLED_TOOLS to limit)\n[INFO] ℹ️  Reminder: enable Places API (New) in https://console.cloud.google.com before using the new Place features.\n[INFO] \n[INFO] 🔧 [MCP-Server] Initializing MCP Server in HTTP mode on 0.0.0.0:3000...\n[INFO] ✅ [MCP-Server] MCP Server started successfully!\n[INFO]    🌐 Endpoint: http://localhost:3000/mcp\n[INFO]    📚 Tools: 18 available\n[INFO] \n[INFO] 🎉 Server initialization completed!\n[INFO] 💡 Need help? Check the README.md for configuration details.\n[INFO] [MCP-Server] HTTP server listening on 0.0.0.0:3000\n[INFO] [MCP-Server] MCP endpoint available at http://localhost:3000/mcp",
+        "installMs": 9421,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-00Z-bfcf75",
+        "status": "timeout"
+      },
+      {
         "date": "2026-10-26T08:41:39.792Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n[INFO] 🗺️  Google Maps MCP Server\n[INFO]    A Model Context Protocol server for Google Maps services\n[INFO] \n[INFO] 🚀 Starting Google Maps MCP Server...\n[INFO] 📍 18 tools registered (set GOOGLE_MAPS_ENABLED_TOOLS to limit)\n[INFO] ℹ️  Reminder: enable Places API (New) in https://console.cloud.google.com before using the new Place features.\n[INFO] \n[INFO] 🔧 [MCP-Server] Initializing MCP Server in HTTP mode on 0.0.0.0:3000...\n[INFO] ✅ [MCP-Server] MCP Server started successfully!\n[INFO]    🌐 Endpoint: http://localhost:3000/mcp\n[INFO]    📚 Tools: 18 available\n[INFO] \n[INFO] 🎉 Server initialization completed!\n[INFO] 💡 Need help? Check the README.md for configuration details.\n[INFO] [MCP-Server] HTTP server listening on 0.0.0.0:3000\n[INFO] [MCP-Server] MCP endpoint available at http://localhost:3000/mcp",
         "installMs": 16667,
@@ -28,6 +36,14 @@
     ],
     "linux": [
       {
+        "date": "2026-11-09T11:01:54.894Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n[INFO] 🗺️  Google Maps MCP Server\n[INFO]    A Model Context Protocol server for Google Maps services\n[INFO] \n[INFO] 🚀 Starting Google Maps MCP Server...\n[INFO] 📍 18 tools registered (set GOOGLE_MAPS_ENABLED_TOOLS to limit)\n[INFO] ℹ️  Reminder: enable Places API (New) in https://console.cloud.google.com before using the new Place features.\n[INFO] \n[INFO] 🔧 [MCP-Server] Initializing MCP Server in HTTP mode on 0.0.0.0:3000...\n[INFO] ✅ [MCP-Server] MCP Server started successfully!\n[INFO]    🌐 Endpoint: http://localhost:3000/mcp\n[INFO]    📚 Tools: 18 available\n[INFO] \n[INFO] 🎉 Server initialization completed!\n[INFO] 💡 Need help? Check the README.md for configuration details.\n[INFO] [MCP-Server] HTTP server listening on 0.0.0.0:3000\n[INFO] [MCP-Server] MCP endpoint available at http://localhost:3000/mcp",
+        "installMs": 5474,
+        "method": "npm",
+        "runId": "2026-11-09T11-01-54Z-e62c88",
+        "status": "timeout"
+      },
+      {
         "date": "2026-10-26T08:41:32.163Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n[INFO] 🗺️  Google Maps MCP Server\n[INFO]    A Model Context Protocol server for Google Maps services\n[INFO] \n[INFO] 🚀 Starting Google Maps MCP Server...\n[INFO] 📍 18 tools registered (set GOOGLE_MAPS_ENABLED_TOOLS to limit)\n[INFO] ℹ️  Reminder: enable Places API (New) in https://console.cloud.google.com before using the new Place features.\n[INFO] \n[INFO] 🔧 [MCP-Server] Initializing MCP Server in HTTP mode on 0.0.0.0:3000...\n[INFO] ✅ [MCP-Server] MCP Server started successfully!\n[INFO]    🌐 Endpoint: http://localhost:3000/mcp\n[INFO]    📚 Tools: 18 available\n[INFO] \n[INFO] 🎉 Server initialization completed!\n[INFO] 💡 Need help? Check the README.md for configuration details.\n[INFO] [MCP-Server] HTTP server listening on 0.0.0.0:3000\n[INFO] [MCP-Server] MCP endpoint available at http://localhost:3000/mcp",
         "installMs": 4964,
@@ -53,6 +69,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-09T11:02:21.452Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n[INFO] 🗺️  Google Maps MCP Server\n[INFO]    A Model Context Protocol server for Google Maps services\n[INFO] \n[INFO] 🚀 Starting Google Maps MCP Server...\n[INFO] 📍 18 tools registered (set GOOGLE_MAPS_ENABLED_TOOLS to limit)\n[INFO] ℹ️  Reminder: enable Places API (New) in https://console.cloud.google.com before using the new Place features.\n[INFO] \n[INFO] 🔧 [MCP-Server] Initializing MCP Server in HTTP mode on 0.0.0.0:3000...\n[INFO] ✅ [MCP-Server] MCP Server started successfully!\n[INFO]    🌐 Endpoint: http://localhost:3000/mcp\n[INFO]    📚 Tools: 18 available\n[INFO] \n[INFO] 🎉 Server initialization completed!\n[INFO] 💡 Need help? Check the README.md for configuration details.\n[INFO] [MCP-Server] HTTP server listening on 0.0.0.0:3000\n[INFO] [MCP-Server] MCP endpoint available at http://localhost:3000/mcp",
+        "installMs": 192650,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-21Z-cbb6d9",
+        "status": "timeout"
+      },
       {
         "date": "2026-10-26T08:41:54.532Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n[INFO] 🗺️  Google Maps MCP Server\n[INFO]    A Model Context Protocol server for Google Maps services\n[INFO] \n[INFO] 🚀 Starting Google Maps MCP Server...\n[INFO] 📍 18 tools registered (set GOOGLE_MAPS_ENABLED_TOOLS to limit)\n[INFO] ℹ️  Reminder: enable Places API (New) in https://console.cloud.google.com before using the new Place features.\n[INFO] \n[INFO] 🔧 [MCP-Server] Initializing MCP Server in HTTP mode on 0.0.0.0:3000...\n[INFO] ✅ [MCP-Server] MCP Server started successfully!\n[INFO]    🌐 Endpoint: http://localhost:3000/mcp\n[INFO]    📚 Tools: 18 available\n[INFO] \n[INFO] 🎉 Server initialization completed!\n[INFO] 💡 Need help? Check the README.md for configuration details.\n[INFO] [MCP-Server] HTTP server listening on 0.0.0.0:3000\n[INFO] [MCP-Server] MCP endpoint available at http://localhost:3000/mcp",

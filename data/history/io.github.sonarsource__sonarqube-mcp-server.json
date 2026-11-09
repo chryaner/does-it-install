@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-09T11:02:04.817Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-11-09T11-02-04Z-fd792b",
+        "status": "skipped"
+      },
+      {
         "date": "2026-11-02T10:46:36.472Z",
         "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
         "installMs": 0,
@@ -36,6 +44,14 @@
     ],
     "linux": [
       {
+        "date": "2026-11-09T11:02:02.710Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out",
+        "installMs": 9367,
+        "method": "oci",
+        "runId": "2026-11-09T11-02-02Z-7c6953",
+        "status": "timeout"
+      },
+      {
         "date": "2026-11-02T10:46:31.258Z",
         "errorExcerpt": "handshake failed: MCP error -32603: Failed to list SonarQube Cloud organizations for the provided token. Verify the token is valid, or set SONARQUBE_ORG explicitly.\n--- stderr (tail) ---\nERROR SonarQube MCP Server - Failed to start SonarQube MCP Server\njava.lang.IllegalStateException: Failed to list SonarQube Cloud organizations for the provided token. Verify the token is valid, or set SONARQUBE_ORG explicitly.\n\tat org.sonarsource.sonarqube.mcp.SonarQubeMcpServer.resolveOrganizationAtStartup(SonarQubeMcpServer.java:733)\n\tat org.sonarsource.sonarqube.mcp.SonarQubeMcpServer.initializeBasicServicesAndTools(SonarQubeMcpServer.java:301)\n\tat org.sonarsource.sonarqube.mcp.SonarQubeMcpServer.<init>(SonarQubeMcpServer.java:244)\n\tat org.sonarsource.sonarqube.mcp.SonarQubeMcpServer.main(SonarQubeMcpServer.java:214)\nCaused by: org.sonarsource.sonarqube.mcp.serverapi.exception.ForbiddenException: SonarQube answered with Forbidden\n\tat org.sonarsource.sonarqube.mcp.serverapi.ServerApiHelper.handleError(ServerApiHelper.java:206)\n\tat org.sonarsource.sonarqube.mcp.serverapi.ServerApiHelper.getApiSubdomain(ServerApiHelper.java:123)\n\tat org.sonarsource.sonarqube.mcp.serverapi.organizations.OrganizationsApi.listOrganizations(OrganizationsApi.java:69)\n\tat org.sonarsource.sonarqube.mcp.SonarQubeMcpServer.resolveOrganizationAtStartup(SonarQubeMcpServer.java:731)\n\t... 3 more",
         "installMs": 3268,
@@ -69,6 +85,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-09T11:02:18.514Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-11-09T11-02-18Z-b5cca2",
+        "status": "skipped"
+      },
       {
         "date": "2026-11-02T10:46:54.855Z",
         "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",

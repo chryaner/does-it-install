@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-09T11:02:05.987Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: There is no CartCut token in /Users/runner/Library/Application Support/cartcut-app/config.json. Open CartCut once so it creates one, or set CARTCUT_MCP_TOKEN to the token shown under the lightning icon at the bottom right of the CartCut window.",
+        "installMs": 3538,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-05Z-6ec359",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-11-02T10:46:36.004Z",
         "errorExcerpt": "handshake failed: MCP error -32000: There is no CartCut token in /Users/runner/Library/Application Support/cartcut-app/config.json. Open CartCut once so it creates one, or set CARTCUT_MCP_TOKEN to the token shown under the lightning icon at the bottom right of the CartCut window.",
         "installMs": 3153,
@@ -20,6 +28,14 @@
     ],
     "linux": [
       {
+        "date": "2026-11-09T11:01:54.903Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: There is no CartCut token in /home/runner/.config/cartcut-app/config.json. Open CartCut once so it creates one, or set CARTCUT_MCP_TOKEN to the token shown under the lightning icon at the bottom right of the CartCut window.",
+        "installMs": 883,
+        "method": "npm",
+        "runId": "2026-11-09T11-01-54Z-9aacb2",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-11-02T10:46:43.068Z",
         "errorExcerpt": "handshake failed: MCP error -32000: There is no CartCut token in /home/runner/.config/cartcut-app/config.json. Open CartCut once so it creates one, or set CARTCUT_MCP_TOKEN to the token shown under the lightning icon at the bottom right of the CartCut window.",
         "installMs": 819,
@@ -37,6 +53,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-09T11:02:25.384Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: There is no CartCut token in C:\\Users\\runneradmin\\AppData\\Roaming\\cartcut-app\\config.json. Open CartCut once so it creates one, or set CARTCUT_MCP_TOKEN to the token shown under the lightning icon at the bottom right of the CartCut window.",
+        "installMs": 5036,
+        "method": "npm",
+        "runId": "2026-11-09T11-02-25Z-d0a634",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-11-02T10:46:49.167Z",
         "errorExcerpt": "handshake failed: MCP error -32000: There is no CartCut token in C:\\Users\\runneradmin\\AppData\\Roaming\\cartcut-app\\config.json. Open CartCut once so it creates one, or set CARTCUT_MCP_TOKEN to the token shown under the lightning icon at the bottom right of the CartCut window.",

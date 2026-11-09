@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-09T11:02:04.817Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"invalid_token\",\"error_description\":\"Authentication required. Discover the authorization server via the resource_metadata URL and present a Bearer access token.\",\"resource_metadata\":\"https://ai-game.dev/.well-known/oauth-protected-resource/mcp\",\"scope\":\"mcp:agent\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-09T11-02-04Z-fd792b",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-11-02T10:46:36.004Z",
         "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
         "installMs": 0,
@@ -35,6 +42,13 @@
     ],
     "linux": [
       {
+        "date": "2026-11-09T11:02:02.710Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"invalid_token\",\"error_description\":\"Authentication required. Discover the authorization server via the resource_metadata URL and present a Bearer access token.\",\"resource_metadata\":\"https://ai-game.dev/.well-known/oauth-protected-resource/mcp\",\"scope\":\"mcp:agent\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-09T11-02-02Z-7c6953",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-11-02T10:46:43.068Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: 1 column 4)\nUnexpected token 'R', \"      Registered\"... is not valid JSON\nExpected ',' or ']' after array element in JSON at position 3 (line 1 column 4)\nUnexpected token 'M', \"      McpPlugin \"... is not valid JSON\nExpected ',' or ']' after array element in JSON at position 3 (line 1 column 4)\nUnexpected token 'S', \"      Start list\"... is not valid JSON\nExpected ',' or ']' after array element in JSON at position 3 (line 1 column 4)\nUnexpected token 'H', \"      Http trans\"... is not valid JSON",
         "installMs": 4321,
@@ -67,6 +81,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-09T11:02:18.514Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"invalid_token\",\"error_description\":\"Authentication required. Discover the authorization server via the resource_metadata URL and present a Bearer access token.\",\"resource_metadata\":\"https://ai-game.dev/.well-known/oauth-protected-resource/mcp\",\"scope\":\"mcp:agent\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-09T11-02-18Z-b5cca2",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-11-02T10:46:49.167Z",
         "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
