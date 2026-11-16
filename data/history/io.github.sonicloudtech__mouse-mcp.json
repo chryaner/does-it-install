@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-16T10:50:54.649Z",
+        "errorExcerpt": "no npm, pypi, oci or remote distribution to probe",
+        "method": "none",
+        "runId": "2026-11-16T10-50-54Z-9f87e0",
+        "status": "skipped"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-16T10:50:46.214Z",
+        "errorExcerpt": "no npm, pypi, oci or remote distribution to probe",
+        "method": "none",
+        "runId": "2026-11-16T10-50-46Z-5c023d",
+        "status": "skipped"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-16T10:51:03.688Z",
+        "errorExcerpt": "no npm, pypi, oci or remote distribution to probe",
+        "method": "none",
+        "runId": "2026-11-16T10-51-03Z-277d06",
+        "status": "skipped"
+      }
+    ]
+  },
+  "serverId": "io.github.SonicloudTech/mouse-mcp",
+  "slug": "io.github.sonicloudtech__mouse-mcp"
+}

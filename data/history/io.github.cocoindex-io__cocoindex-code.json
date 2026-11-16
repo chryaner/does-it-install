@@ -2,6 +2,16 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-16T10:50:54.649Z",
+        "method": "pypi",
+        "runId": "2026-11-16T10-50-54Z-9f87e0",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "search"
+        ]
+      },
+      {
         "date": "2026-11-09T11:02:00.484Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n…GET=11.0` for aarch64-apple-darwin by default\n            Compiling target-lexicon v0.13.3\n            Compiling libc v0.2.177\n            Compiling version_check v0.9.5\n            Compiling typenum v1.19.0\n            Compiling generic-array v0.14.9\n            Compiling cfg-if v1.0.4\n            Compiling proc-macro2 v1.0.101\n            Compiling pyo3-build-config v0.26.0\n            Compiling unicode-ident v1.0.19\n            Compiling quote v1.0.41\n            Compiling zerocopy v0.8.27\n            Compiling pyo3-macros-backend v0.26.0\n            Compiling pyo3-ffi v0.26.0\n            Compiling autocfg v1.5.0\n         error: failed to run custom build command for `pyo3-ffi v0.26.0`\n\n         Caused by:\n           process didn't exit successfully: `/Users/runner/.cache/uv/sdists-v10/pypi/fastuuid/0.14.0/kffHqUe8LaMI9GOp/src/target/release/build/pyo3-ffi-f22d52de2f1ce238/build-script-build` (exit status: 1)\n           --- stdout\n           cargo:rustc-check-cfg=cfg(Py_LIMITED_API)\n           cargo:rustc-check-cfg=cfg(Py_GIL_DISABLED)\n           cargo:rustc-check-cfg=cfg(PyPy)\n           cargo:rustc-check-cfg=cfg(GraalPy)\n           cargo:rustc-check-cfg=cfg(py_sys_config, values(\"Py_DEBUG\", \"Py_REF_DEBUG\", \"Py_TRACE_REFS\", \"COUNT_ALLOCS\"))\n           cargo:rustc-check-cfg=cfg(pyo3_disable_reference_pool)\n           cargo:rustc-check-cfg=cfg(pyo3_leak_on_drop_without_reference_pool)\n           cargo:rustc-check-cfg=cfg(Py_3_7)\n           cargo:rustc-check-cfg=cfg(Py_3_8)\n           cargo:rustc-check-cfg=cfg(Py_3_9)\n           cargo:rustc-check-cfg=cfg(Py_3_10)\n           cargo:rustc-check-cfg=cfg(Py_3_11)\n           cargo:rustc-check-cfg=cfg(Py_3_12)\n           cargo:rustc-check-cfg=cfg(Py_3_13)\n           cargo:rustc-check-cfg=cfg(Py_3_14)\n           cargo:rustc-check-cfg=cfg(Py_3_15)\n           cargo:rerun-if-env-changed=PYO3_CROSS\n           cargo:rerun-if-env-changed=PYO3_CROSS_LIB_DIR\n           cargo:rerun-if-env-changed=PYO3_CROSS_PYTHON_VERSION\n           cargo:rerun-if-env-changed=PYO3_CROSS_PYTHON_IMPLEMENTATION\n           cargo:rerun-if-env-changed=PYO3_PRINT_CONFIG\n           cargo:rerun-if-env-changed=PYO3_USE_ABI3_FORWARD_COMPATIBILITY\n\n           --- stderr\n           error: the configured Python interpreter version (3.15) is newer than PyO3's maximum supported version (3.14)\n           = help: please check if an updated version of PyO3 is available. Current version: 0.26.0\n           = help: set PYO3_USE_ABI3_FORWARD_COMPATIBILITY=1 to suppress this check and build anyway using the stable ABI\n         warning: build failed, waiting for other jobs to finish...\n         💥 maturin failed\n           Caused by: Failed to build a native library through cargo\n           Caused by: Cargo build finished with \"exit status: 101\": `env -u CARGO CARGO_ENCODED_RUSTFLAGS=\"--cfg\\u{1f}uuid_unstable\\u{1f}-C\\u{1f}link-arg=-undefined\\u{1f}-C\\u{1f}link-arg=dynamic_lookup\" MACOSX_DEPLOYMENT_TARGET=\"11.0\" PYO3_BUILD_EXTENSION_MODULE=\"1\" PYO3_ENVIRONMENT_SIGNATURE=\"cpython-3.15-64bit\" PYO3_PYTHON=\"/Users/runner/.cache/uv/builds-v0/.tmpf9ESqr/bin/python\" PYTHON_SYS_EXECUTABLE=\"/Users/runner/.cache/uv/builds-v0/.tmpf9ESqr/bin/python\" \"cargo\" \"rustc\" \"--profile\" \"release\" \"--message-format\" \"json-render-diagnostics\" \"--manifest-path\" \"/Users/runner/.cache/uv/sdists-v10/pypi/fastuuid/0.14.0/kffHqUe8LaMI9GOp/src/Cargo.toml\" \"--lib\" \"--\" \"-C\" \"link-args=-Wl,-install_name,@rpath/fastuuid.cpython-315-darwin.so\"`\n         Error: command ['maturin', 'pep517', 'build-wheel', '-i', '/Users/runner/.cache/uv/builds-v0/.tmpf9ESqr/bin/python', '--compatibility', 'off'] returned non-zero exit status 1\n\nhint: `fastuuid` (v0.14.0) was included because `cocoindex-code` (v0.2.43) depends on `cocoindex[litellm]` (v1.0.26) which depends on `litellm` (v1.108.3) which depends on `fastuuid`\n\nhint: Build failures usually indicate a problem with the package or the build environment",
         "method": "pypi",
@@ -10,6 +20,16 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-11-16T10:50:46.214Z",
+        "method": "pypi",
+        "runId": "2026-11-16T10-50-46Z-5c023d",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "search"
+        ]
+      },
       {
         "date": "2026-11-09T11:01:54.894Z",
         "method": "pypi",
@@ -22,6 +42,16 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-16T10:51:03.688Z",
+        "method": "pypi",
+        "runId": "2026-11-16T10-51-03Z-277d06",
+        "status": "pass",
+        "toolCount": 1,
+        "toolNames": [
+          "search"
+        ]
+      },
       {
         "date": "2026-11-09T11:02:21.452Z",
         "method": "pypi",

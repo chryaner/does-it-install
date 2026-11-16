@@ -1,0 +1,51 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-16T10:50:47.927Z",
+        "method": "remote-http",
+        "runId": "2026-11-16T10-50-47Z-0ce22b",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "search_components",
+          "get_component",
+          "plan_video",
+          "preview_component"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-16T10:50:42.587Z",
+        "method": "remote-http",
+        "runId": "2026-11-16T10-50-42Z-ab6ac8",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "search_components",
+          "get_component",
+          "plan_video",
+          "preview_component"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-16T10:51:04.903Z",
+        "method": "remote-http",
+        "runId": "2026-11-16T10-51-04Z-d20df4",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "search_components",
+          "get_component",
+          "plan_video",
+          "preview_component"
+        ]
+      }
+    ]
+  },
+  "serverId": "dev.remocn/remocn",
+  "slug": "dev.remocn__remocn"
+}

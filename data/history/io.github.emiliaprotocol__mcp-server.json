@@ -2,6 +2,19 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-16T10:50:47.927Z",
+        "installMs": 1783,
+        "method": "npm",
+        "runId": "2026-11-16T10-50-47Z-0ce22b",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "ep_guard_action",
+          "ep_check_signoff",
+          "ep_verify_receipt"
+        ]
+      },
+      {
         "date": "2026-11-09T11:02:05.987Z",
         "installMs": 2609,
         "method": "npm",
@@ -110,6 +123,19 @@
     ],
     "linux": [
       {
+        "date": "2026-11-16T10:50:42.587Z",
+        "installMs": 1771,
+        "method": "npm",
+        "runId": "2026-11-16T10-50-42Z-ab6ac8",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "ep_guard_action",
+          "ep_check_signoff",
+          "ep_verify_receipt"
+        ]
+      },
+      {
         "date": "2026-11-09T11:01:54.903Z",
         "installMs": 1524,
         "method": "npm",
@@ -217,6 +243,19 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-16T10:51:04.903Z",
+        "installMs": 88611,
+        "method": "npm",
+        "runId": "2026-11-16T10-51-04Z-d20df4",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "ep_guard_action",
+          "ep_check_signoff",
+          "ep_verify_receipt"
+        ]
+      },
       {
         "date": "2026-11-09T11:02:25.384Z",
         "installMs": 156258,

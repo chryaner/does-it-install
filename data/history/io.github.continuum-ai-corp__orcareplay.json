@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-16T10:50:54.649Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: ],\n          \"message\": \"Invalid input: expected object, received undefined\"\n        },\n        {\n          \"code\": \"unrecognized_keys\",\n          \"keys\": [\n            \"command\",\n            \"args\"\n          ],\n          \"path\": [],\n          \"message\": \"Unrecognized keys: \\\"command\\\", \\\"args\\\"\"\n        }\n      ]\n    ],\n    \"path\": [],\n    \"message\": \"Invalid input\"\n  }\n]\nUnexpected end of JSON input\nUnexpected token 'D', \"Docs: http\"... is not valid JSON\nUnexpected end of JSON input",
+        "installMs": 5006,
+        "method": "npm",
+        "runId": "2026-11-16T10-50-54Z-9f87e0",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-16T10:50:46.214Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: ],\n          \"message\": \"Invalid input: expected object, received undefined\"\n        },\n        {\n          \"code\": \"unrecognized_keys\",\n          \"keys\": [\n            \"command\",\n            \"args\"\n          ],\n          \"path\": [],\n          \"message\": \"Unrecognized keys: \\\"command\\\", \\\"args\\\"\"\n        }\n      ]\n    ],\n    \"path\": [],\n    \"message\": \"Invalid input\"\n  }\n]\nUnexpected end of JSON input\nUnexpected token 'D', \"Docs: http\"... is not valid JSON\nUnexpected end of JSON input",
+        "installMs": 2554,
+        "method": "npm",
+        "runId": "2026-11-16T10-50-46Z-5c023d",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-16T10:51:03.688Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: ],\n          \"message\": \"Invalid input: expected object, received undefined\"\n        },\n        {\n          \"code\": \"unrecognized_keys\",\n          \"keys\": [\n            \"command\",\n            \"args\"\n          ],\n          \"path\": [],\n          \"message\": \"Unrecognized keys: \\\"command\\\", \\\"args\\\"\"\n        }\n      ]\n    ],\n    \"path\": [],\n    \"message\": \"Invalid input\"\n  }\n]\nUnexpected end of JSON input\nUnexpected token 'D', \"Docs: http\"... is not valid JSON\nUnexpected end of JSON input",
+        "installMs": 44996,
+        "method": "npm",
+        "runId": "2026-11-16T10-51-03Z-277d06",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.Continuum-AI-Corp/orcareplay",
+  "slug": "io.github.continuum-ai-corp__orcareplay"
+}

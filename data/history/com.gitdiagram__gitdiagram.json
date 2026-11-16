@@ -2,6 +2,18 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-16T10:50:54.649Z",
+        "method": "remote-http",
+        "runId": "2026-11-16T10-50-54Z-9f87e0",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "get_repository_diagram",
+          "find_repository_diagrams",
+          "get_explainer_video"
+        ]
+      },
+      {
         "date": "2026-11-02T10:46:36.472Z",
         "method": "remote-http",
         "runId": "2026-11-02T10-46-36Z-011438",
@@ -28,6 +40,18 @@
     ],
     "linux": [
       {
+        "date": "2026-11-16T10:50:46.214Z",
+        "method": "remote-http",
+        "runId": "2026-11-16T10-50-46Z-5c023d",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "get_repository_diagram",
+          "find_repository_diagrams",
+          "get_explainer_video"
+        ]
+      },
+      {
         "date": "2026-11-02T10:46:31.258Z",
         "method": "remote-http",
         "runId": "2026-11-02T10-46-31Z-a5d113",
@@ -53,6 +77,18 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-16T10:51:03.688Z",
+        "method": "remote-http",
+        "runId": "2026-11-16T10-51-03Z-277d06",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "get_repository_diagram",
+          "find_repository_diagrams",
+          "get_explainer_video"
+        ]
+      },
       {
         "date": "2026-11-02T10:46:54.855Z",
         "method": "remote-http",

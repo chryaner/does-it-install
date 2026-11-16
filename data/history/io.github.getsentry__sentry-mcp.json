@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-16T10:50:47.927Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: Not authenticated. Run 'sentry-mcp auth login' first.",
+        "installMs": 544,
+        "method": "npm",
+        "runId": "2026-11-16T10-50-47Z-0ce22b",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-11-09T11:02:05.987Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: Not authenticated. Run 'sentry-mcp auth login' first.",
         "installMs": 1409,
@@ -136,6 +144,14 @@
     ],
     "linux": [
       {
+        "date": "2026-11-16T10:50:42.587Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: Not authenticated. Run 'sentry-mcp auth login' first.",
+        "installMs": 545,
+        "method": "npm",
+        "runId": "2026-11-16T10-50-42Z-ab6ac8",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-11-09T11:01:54.903Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: Not authenticated. Run 'sentry-mcp auth login' first.",
         "installMs": 475,
@@ -269,6 +285,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-16T10:51:04.903Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: Not authenticated. Run 'sentry-mcp auth login' first.",
+        "installMs": 1576,
+        "method": "npm",
+        "runId": "2026-11-16T10-51-04Z-d20df4",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-11-09T11:02:25.384Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: Not authenticated. Run 'sentry-mcp auth login' first.",

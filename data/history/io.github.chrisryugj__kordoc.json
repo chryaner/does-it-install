@@ -2,6 +2,38 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-16T10:50:47.927Z",
+        "installMs": 19757,
+        "method": "npm",
+        "runId": "2026-11-16T10-50-47Z-0ce22b",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "parse_document",
+          "detect_format",
+          "parse_metadata",
+          "parse_pages",
+          "parse_table",
+          "compare_documents",
+          "parse_chunks",
+          "parse_form",
+          "fill_form",
+          "place_seal",
+          "add_memo",
+          "patch_document",
+          "redact_document",
+          "render_document",
+          "crop_regions",
+          "extract_tables",
+          "extract_profile",
+          "generate_document",
+          "build_agency_pack",
+          "agency_pack_info",
+          "lint_document",
+          "convert_to_hwpx"
+        ]
+      },
+      {
         "date": "2026-11-09T11:02:04.817Z",
         "installMs": 16329,
         "method": "npm",
@@ -96,6 +128,38 @@
     ],
     "linux": [
       {
+        "date": "2026-11-16T10:50:42.587Z",
+        "installMs": 19013,
+        "method": "npm",
+        "runId": "2026-11-16T10-50-42Z-ab6ac8",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "parse_document",
+          "detect_format",
+          "parse_metadata",
+          "parse_pages",
+          "parse_table",
+          "compare_documents",
+          "parse_chunks",
+          "parse_form",
+          "fill_form",
+          "place_seal",
+          "add_memo",
+          "patch_document",
+          "redact_document",
+          "render_document",
+          "crop_regions",
+          "extract_tables",
+          "extract_profile",
+          "generate_document",
+          "build_agency_pack",
+          "agency_pack_info",
+          "lint_document",
+          "convert_to_hwpx"
+        ]
+      },
+      {
         "date": "2026-11-09T11:02:02.710Z",
         "installMs": 17692,
         "method": "npm",
@@ -189,6 +253,38 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-16T10:51:04.903Z",
+        "installMs": 255865,
+        "method": "npm",
+        "runId": "2026-11-16T10-51-04Z-d20df4",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "parse_document",
+          "detect_format",
+          "parse_metadata",
+          "parse_pages",
+          "parse_table",
+          "compare_documents",
+          "parse_chunks",
+          "parse_form",
+          "fill_form",
+          "place_seal",
+          "add_memo",
+          "patch_document",
+          "redact_document",
+          "render_document",
+          "crop_regions",
+          "extract_tables",
+          "extract_profile",
+          "generate_document",
+          "build_agency_pack",
+          "agency_pack_info",
+          "lint_document",
+          "convert_to_hwpx"
+        ]
+      },
       {
         "date": "2026-11-09T11:02:18.514Z",
         "installMs": 296744,

@@ -2,6 +2,28 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-16T10:50:54.649Z",
+        "installMs": 7343,
+        "method": "npm",
+        "runId": "2026-11-16T10-50-54Z-9f87e0",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "get_sample",
+          "list_samples",
+          "get_setup",
+          "validate_code",
+          "get_migration_guide",
+          "get_node_reference",
+          "get_platform_roadmap",
+          "get_best_practices",
+          "get_ar_setup",
+          "get_troubleshooting",
+          "get_ios_setup",
+          "get_web_setup"
+        ]
+      },
+      {
         "date": "2026-11-02T10:46:36.472Z",
         "installMs": 7041,
         "method": "npm",
@@ -92,6 +114,28 @@
     ],
     "linux": [
       {
+        "date": "2026-11-16T10:50:46.214Z",
+        "installMs": 3201,
+        "method": "npm",
+        "runId": "2026-11-16T10-50-46Z-5c023d",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "get_sample",
+          "list_samples",
+          "get_setup",
+          "validate_code",
+          "get_migration_guide",
+          "get_node_reference",
+          "get_platform_roadmap",
+          "get_best_practices",
+          "get_ar_setup",
+          "get_troubleshooting",
+          "get_ios_setup",
+          "get_web_setup"
+        ]
+      },
+      {
         "date": "2026-11-02T10:46:31.258Z",
         "installMs": 3310,
         "method": "npm",
@@ -181,6 +225,28 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-16T10:51:03.688Z",
+        "installMs": 76640,
+        "method": "npm",
+        "runId": "2026-11-16T10-51-03Z-277d06",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "get_sample",
+          "list_samples",
+          "get_setup",
+          "validate_code",
+          "get_migration_guide",
+          "get_node_reference",
+          "get_platform_roadmap",
+          "get_best_practices",
+          "get_ar_setup",
+          "get_troubleshooting",
+          "get_ios_setup",
+          "get_web_setup"
+        ]
+      },
       {
         "date": "2026-11-02T10:46:54.855Z",
         "installMs": 201435,

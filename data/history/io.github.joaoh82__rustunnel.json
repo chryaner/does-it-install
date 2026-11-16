@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-16T10:50:54.649Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-11-16T10-50-54Z-9f87e0",
+        "status": "skipped"
+      },
+      {
         "date": "2026-11-02T10:46:39.955Z",
         "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
         "installMs": 0,
@@ -34,6 +42,22 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-11-16T10:50:46.214Z",
+        "installMs": 2178,
+        "method": "oci",
+        "runId": "2026-11-16T10-50-46Z-5c023d",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "create_tunnel",
+          "list_tunnels",
+          "close_tunnel",
+          "get_connection_info",
+          "list_regions",
+          "get_tunnel_history"
+        ]
+      },
       {
         "date": "2026-11-02T10:46:27.782Z",
         "installMs": 2412,
@@ -91,6 +115,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-16T10:51:03.688Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-11-16T10-51-03Z-277d06",
+        "status": "skipped"
+      },
       {
         "date": "2026-11-02T10:47:04.266Z",
         "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",

@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-16T10:50:54.649Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nagentmesh: invalid control plane URL \"DOES_IT_INSTALL_PLACEHOLDER\"",
+        "installMs": 15830,
+        "method": "npm",
+        "runId": "2026-11-16T10-50-54Z-9f87e0",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-16T10:50:46.214Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nagentmesh: invalid control plane URL \"DOES_IT_INSTALL_PLACEHOLDER\"",
+        "installMs": 7987,
+        "method": "npm",
+        "runId": "2026-11-16T10-50-46Z-5c023d",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-16T10:51:03.688Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nagentmesh: invalid control plane URL \"DOES_IT_INSTALL_PLACEHOLDER\"",
+        "installMs": 243403,
+        "method": "npm",
+        "runId": "2026-11-16T10-51-03Z-277d06",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "io.github.google/agentmesh",
+  "slug": "io.github.google__agentmesh"
+}

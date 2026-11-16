@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-16T10:50:47.927Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"code\":\"UNAUTHORIZED\",\"message\":\"Missing credentials: send an 'x-openstatus-key' header or 'Authorization: Bearer <token>'\",\"docs\":\"https://www.openstatus.dev/docs/api-references/errors/code/UNAUTHORIZED\",\"requestId\":\"29da80d4-c6e8-48a6-9b9c-5aa92ad283a6\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-16T10-50-47Z-0ce22b",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-11-09T11:02:05.987Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"code\":\"UNAUTHORIZED\",\"message\":\"Missing credentials: send an 'x-openstatus-key' header or 'Authorization: Bearer <token>'\",\"docs\":\"https://www.openstatus.dev/docs/api-references/errors/code/UNAUTHORIZED\",\"requestId\":\"278f2820-4b9e-41c5-976d-ac25611acff4\"} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -18,6 +25,13 @@
     ],
     "linux": [
       {
+        "date": "2026-11-16T10:50:42.587Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"code\":\"UNAUTHORIZED\",\"message\":\"Missing credentials: send an 'x-openstatus-key' header or 'Authorization: Bearer <token>'\",\"docs\":\"https://www.openstatus.dev/docs/api-references/errors/code/UNAUTHORIZED\",\"requestId\":\"41848744-84bc-4f10-9d8f-98c3e2a63ef9\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-16T10-50-42Z-ab6ac8",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-11-09T11:01:54.903Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"code\":\"UNAUTHORIZED\",\"message\":\"Missing credentials: send an 'x-openstatus-key' header or 'Authorization: Bearer <token>'\",\"docs\":\"https://www.openstatus.dev/docs/api-references/errors/code/UNAUTHORIZED\",\"requestId\":\"cf114610-3daf-4a22-b855-51e9a98598cd\"} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -33,6 +47,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-16T10:51:04.903Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"code\":\"UNAUTHORIZED\",\"message\":\"Missing credentials: send an 'x-openstatus-key' header or 'Authorization: Bearer <token>'\",\"docs\":\"https://www.openstatus.dev/docs/api-references/errors/code/UNAUTHORIZED\",\"requestId\":\"5f501611-d076-42b7-97ce-45bb871550f6\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-16T10-51-04Z-d20df4",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-11-09T11:02:25.384Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"code\":\"UNAUTHORIZED\",\"message\":\"Missing credentials: send an 'x-openstatus-key' header or 'Authorization: Bearer <token>'\",\"docs\":\"https://www.openstatus.dev/docs/api-references/errors/code/UNAUTHORIZED\",\"requestId\":\"a9ebb7e2-85a0-4943-ad36-1214c33febd5\"} (endpoint reachable but requires credentials the harness does not send)",

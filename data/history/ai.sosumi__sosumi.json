@@ -2,6 +2,19 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-16T10:50:47.927Z",
+        "method": "remote-http",
+        "runId": "2026-11-16T10-50-47Z-0ce22b",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "searchAppleDocumentation",
+          "fetchAppleDocumentation",
+          "fetchExternalDocumentation",
+          "fetchAppleVideoTranscript"
+        ]
+      },
+      {
         "date": "2026-11-09T11:02:04.817Z",
         "method": "remote-http",
         "runId": "2026-11-09T11-02-04Z-fd792b",
@@ -17,6 +30,19 @@
     ],
     "linux": [
       {
+        "date": "2026-11-16T10:50:42.587Z",
+        "method": "remote-http",
+        "runId": "2026-11-16T10-50-42Z-ab6ac8",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "searchAppleDocumentation",
+          "fetchAppleDocumentation",
+          "fetchExternalDocumentation",
+          "fetchAppleVideoTranscript"
+        ]
+      },
+      {
         "date": "2026-11-09T11:02:02.710Z",
         "method": "remote-http",
         "runId": "2026-11-09T11-02-02Z-7c6953",
@@ -31,6 +57,19 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-16T10:51:04.903Z",
+        "method": "remote-http",
+        "runId": "2026-11-16T10-51-04Z-d20df4",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "searchAppleDocumentation",
+          "fetchAppleDocumentation",
+          "fetchExternalDocumentation",
+          "fetchAppleVideoTranscript"
+        ]
+      },
       {
         "date": "2026-11-09T11:02:18.514Z",
         "method": "remote-http",

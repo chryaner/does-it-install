@@ -1,0 +1,93 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-16T10:50:54.649Z",
+        "method": "remote-http",
+        "runId": "2026-11-16T10-50-54Z-9f87e0",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "list_jurisdictions",
+          "find_provision",
+          "read_law",
+          "world_on_date",
+          "who_wrote",
+          "compare_dates",
+          "provision_history",
+          "laws_between",
+          "search_law",
+          "changes_between",
+          "list_provisions",
+          "search_changes",
+          "resolve_citations",
+          "check_precedent",
+          "what_else_changes",
+          "phrase_history",
+          "applies_to_case",
+          "law_details"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-16T10:50:46.214Z",
+        "method": "remote-http",
+        "runId": "2026-11-16T10-50-46Z-5c023d",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "list_jurisdictions",
+          "find_provision",
+          "read_law",
+          "world_on_date",
+          "who_wrote",
+          "compare_dates",
+          "provision_history",
+          "laws_between",
+          "search_law",
+          "changes_between",
+          "list_provisions",
+          "search_changes",
+          "resolve_citations",
+          "check_precedent",
+          "what_else_changes",
+          "phrase_history",
+          "applies_to_case",
+          "law_details"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-16T10:51:03.688Z",
+        "method": "remote-http",
+        "runId": "2026-11-16T10-51-03Z-277d06",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "list_jurisdictions",
+          "find_provision",
+          "read_law",
+          "world_on_date",
+          "who_wrote",
+          "compare_dates",
+          "provision_history",
+          "laws_between",
+          "search_law",
+          "changes_between",
+          "list_provisions",
+          "search_changes",
+          "resolve_citations",
+          "check_precedent",
+          "what_else_changes",
+          "phrase_history",
+          "applies_to_case",
+          "law_details"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.lexifina/global-law",
+  "slug": "com.lexifina__global-law"
+}

@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-16T10:50:49.802Z",
+        "errorExcerpt": "connect failed: Streamable HTTP error: Error POSTing to endpoint: <!doctype html>\n<html lang=en>\n<title>404 Not Found</title>\n<h1>Not Found</h1>\n<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>",
+        "method": "remote-http",
+        "runId": "2026-11-16T10-50-49Z-4e08cd",
+        "status": "connect_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-16T10:50:47.770Z",
+        "errorExcerpt": "connect failed: Streamable HTTP error: Error POSTing to endpoint: <!doctype html>\n<html lang=en>\n<title>404 Not Found</title>\n<h1>Not Found</h1>\n<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>",
+        "method": "remote-http",
+        "runId": "2026-11-16T10-50-47Z-276095",
+        "status": "connect_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-16T10:51:00.349Z",
+        "errorExcerpt": "connect failed: Streamable HTTP error: Error POSTing to endpoint: <!doctype html>\n<html lang=en>\n<title>404 Not Found</title>\n<h1>Not Found</h1>\n<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>",
+        "method": "remote-http",
+        "runId": "2026-11-16T10-51-00Z-93ae93",
+        "status": "connect_failed"
+      }
+    ]
+  },
+  "serverId": "io.changedetection/mcp",
+  "slug": "io.changedetection__mcp"
+}

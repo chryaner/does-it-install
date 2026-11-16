@@ -1,0 +1,78 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-16T10:50:54.649Z",
+        "method": "pypi",
+        "runId": "2026-11-16T10-50-54Z-9f87e0",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "tavotto_health",
+          "tavotto_open_figure",
+          "tavotto_apply_overrides",
+          "tavotto_normalize_figure",
+          "tavotto_preflight",
+          "tavotto_export",
+          "tavotto_verify_replay",
+          "tavotto_refresh_project",
+          "tavotto_session_state",
+          "tavotto_close_session",
+          "tavotto_guide",
+          "tavotto_fix_to_journal",
+          "tavotto_list_journals"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-16T10:50:46.214Z",
+        "method": "pypi",
+        "runId": "2026-11-16T10-50-46Z-5c023d",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "tavotto_health",
+          "tavotto_open_figure",
+          "tavotto_apply_overrides",
+          "tavotto_normalize_figure",
+          "tavotto_preflight",
+          "tavotto_export",
+          "tavotto_verify_replay",
+          "tavotto_refresh_project",
+          "tavotto_session_state",
+          "tavotto_close_session",
+          "tavotto_guide",
+          "tavotto_fix_to_journal",
+          "tavotto_list_journals"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-16T10:51:03.688Z",
+        "method": "pypi",
+        "runId": "2026-11-16T10-51-03Z-277d06",
+        "status": "pass",
+        "toolCount": 13,
+        "toolNames": [
+          "tavotto_health",
+          "tavotto_open_figure",
+          "tavotto_apply_overrides",
+          "tavotto_normalize_figure",
+          "tavotto_preflight",
+          "tavotto_export",
+          "tavotto_verify_replay",
+          "tavotto_refresh_project",
+          "tavotto_session_state",
+          "tavotto_close_session",
+          "tavotto_guide",
+          "tavotto_fix_to_journal",
+          "tavotto_list_journals"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.Tavotto/tavotto",
+  "slug": "io.github.tavotto__tavotto"
+}

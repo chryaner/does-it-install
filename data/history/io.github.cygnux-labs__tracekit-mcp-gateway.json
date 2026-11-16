@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-16T10:50:54.649Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND {tracekit_gateway}",
+        "method": "remote-http",
+        "runId": "2026-11-16T10-50-54Z-9f87e0",
+        "status": "connect_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-16T10:50:46.214Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND {tracekit_gateway}",
+        "method": "remote-http",
+        "runId": "2026-11-16T10-50-46Z-5c023d",
+        "status": "connect_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-16T10:51:03.688Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND {tracekit_gateway}",
+        "method": "remote-http",
+        "runId": "2026-11-16T10-51-03Z-277d06",
+        "status": "connect_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.Cygnux-Labs/tracekit-mcp-gateway",
+  "slug": "io.github.cygnux-labs__tracekit-mcp-gateway"
+}

@@ -2,6 +2,23 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-16T10:50:47.927Z",
+        "installMs": 19460,
+        "method": "npm",
+        "runId": "2026-11-16T10-50-47Z-0ce22b",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "list_sessions",
+          "start_session",
+          "send_prompt",
+          "wait_for_session",
+          "read_output",
+          "interrupt_session",
+          "delete_session"
+        ]
+      },
+      {
         "date": "2026-11-02T10:46:36.472Z",
         "installMs": 18680,
         "method": "npm",
@@ -21,6 +38,23 @@
     ],
     "linux": [
       {
+        "date": "2026-11-16T10:50:42.587Z",
+        "installMs": 12937,
+        "method": "npm",
+        "runId": "2026-11-16T10-50-42Z-ab6ac8",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "list_sessions",
+          "start_session",
+          "send_prompt",
+          "wait_for_session",
+          "read_output",
+          "interrupt_session",
+          "delete_session"
+        ]
+      },
+      {
         "date": "2026-11-02T10:46:31.258Z",
         "installMs": 8547,
         "method": "npm",
@@ -39,6 +73,23 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-16T10:51:04.903Z",
+        "installMs": 498694,
+        "method": "npm",
+        "runId": "2026-11-16T10-51-04Z-d20df4",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "list_sessions",
+          "start_session",
+          "send_prompt",
+          "wait_for_session",
+          "read_output",
+          "interrupt_session",
+          "delete_session"
+        ]
+      },
       {
         "date": "2026-11-02T10:46:54.855Z",
         "installMs": 446689,

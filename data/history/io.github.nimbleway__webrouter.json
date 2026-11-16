@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-16T10:50:54.649Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nThe MCP server needs the 'anyio' package, which the 'mcp' extra installs: pip install \"webrouter[mcp]\" (or uv sync --extra mcp in a web-router clone).",
+        "method": "pypi",
+        "runId": "2026-11-16T10-50-54Z-9f87e0",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-16T10:50:46.214Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nThe MCP server needs the 'anyio' package, which the 'mcp' extra installs: pip install \"webrouter[mcp]\" (or uv sync --extra mcp in a web-router clone).",
+        "method": "pypi",
+        "runId": "2026-11-16T10-50-46Z-5c023d",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-16T10:51:03.688Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nThe MCP server needs the 'anyio' package, which the 'mcp' extra installs: pip install \"webrouter[mcp]\" (or uv sync --extra mcp in a web-router clone).",
+        "method": "pypi",
+        "runId": "2026-11-16T10-51-03Z-277d06",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.Nimbleway/webrouter",
+  "slug": "io.github.nimbleway__webrouter"
+}

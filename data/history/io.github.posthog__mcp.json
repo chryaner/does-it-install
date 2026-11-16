@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-16T10:50:49.802Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: No token provided, please provide a valid API token. View the documentation for more information: https://posthog.com/docs/model-context-protocol (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-16T10-50-49Z-4e08cd",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-11-09T11:02:00.484Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: No token provided, please provide a valid API token. View the documentation for more information: https://posthog.com/docs/model-context-protocol (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -39,6 +46,13 @@
     ],
     "linux": [
       {
+        "date": "2026-11-16T10:50:47.770Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: No token provided, please provide a valid API token. View the documentation for more information: https://posthog.com/docs/model-context-protocol (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-16T10-50-47Z-276095",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-11-09T11:01:54.894Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: No token provided, please provide a valid API token. View the documentation for more information: https://posthog.com/docs/model-context-protocol (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -75,6 +89,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-16T10:51:00.349Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: No token provided, please provide a valid API token. View the documentation for more information: https://posthog.com/docs/model-context-protocol (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-16T10-51-00Z-93ae93",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-11-09T11:02:21.452Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: No token provided, please provide a valid API token. View the documentation for more information: https://posthog.com/docs/model-context-protocol (endpoint reachable but requires credentials the harness does not send)",

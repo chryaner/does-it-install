@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-16T10:50:49.802Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[docsagent] DocsAgent Core is not running.\n\nStart it with:    docsagent start\nCheck status:     docsagent status\nCore log:         see core.log next to the config file",
+        "installMs": 9199,
+        "method": "npm",
+        "runId": "2026-11-16T10-50-49Z-4e08cd",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-11-09T11:02:00.484Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[docsagent] DocsAgent Core is not running.\n\nStart it with:    docsagent start\nCheck status:     docsagent status\nCore log:         see core.log next to the config file",
         "installMs": 5924,
@@ -28,6 +36,14 @@
     ],
     "linux": [
       {
+        "date": "2026-11-16T10:50:47.770Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[docsagent] DocsAgent Core is not running.\n\nStart it with:    docsagent start\nCheck status:     docsagent status\nCore log:         see core.log next to the config file",
+        "installMs": 4345,
+        "method": "npm",
+        "runId": "2026-11-16T10-50-47Z-276095",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-11-09T11:01:54.894Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[docsagent] DocsAgent Core is not running.\n\nStart it with:    docsagent start\nCheck status:     docsagent status\nCore log:         see core.log next to the config file",
         "installMs": 3324,
@@ -53,6 +69,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-16T10:51:00.349Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[docsagent] DocsAgent Core is not running.\n\nStart it with:    docsagent start\nCheck status:     docsagent status\nCore log:         see core.log next to the config file",
+        "installMs": 67910,
+        "method": "npm",
+        "runId": "2026-11-16T10-51-00Z-93ae93",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-11-09T11:02:21.452Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[docsagent] DocsAgent Core is not running.\n\nStart it with:    docsagent start\nCheck status:     docsagent status\nCore log:         see core.log next to the config file",

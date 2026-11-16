@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-16T10:50:54.649Z",
+        "errorExcerpt": "handshake failed: Streamable HTTP error: Error POSTing to endpoint: {\"message\":\"Unauthorized\",\"statusCode\":401} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-16T10-50-54Z-9f87e0",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-11-09T11:02:05.987Z",
         "errorExcerpt": "handshake failed: Streamable HTTP error: Error POSTing to endpoint: {\"message\":\"Unauthorized\",\"statusCode\":401} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -39,6 +46,13 @@
     ],
     "linux": [
       {
+        "date": "2026-11-16T10:50:46.214Z",
+        "errorExcerpt": "handshake failed: Streamable HTTP error: Error POSTing to endpoint: {\"message\":\"Unauthorized\",\"statusCode\":401} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-16T10-50-46Z-5c023d",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-11-09T11:01:54.903Z",
         "errorExcerpt": "handshake failed: Streamable HTTP error: Error POSTing to endpoint: {\"message\":\"Unauthorized\",\"statusCode\":401} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -75,6 +89,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-16T10:51:03.688Z",
+        "errorExcerpt": "handshake failed: Streamable HTTP error: Error POSTing to endpoint: {\"message\":\"Unauthorized\",\"statusCode\":401} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-16T10-51-03Z-277d06",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-11-09T11:02:25.384Z",
         "errorExcerpt": "handshake failed: Streamable HTTP error: Error POSTing to endpoint: {\"message\":\"Unauthorized\",\"statusCode\":401} (endpoint reachable but requires credentials the harness does not send)",

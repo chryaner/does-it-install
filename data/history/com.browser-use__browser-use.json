@@ -2,6 +2,17 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-16T10:50:47.927Z",
+        "method": "pypi",
+        "runId": "2026-11-16T10-50-47Z-0ce22b",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "browser_exec",
+          "browser_screenshot"
+        ]
+      },
+      {
         "date": "2026-11-02T10:46:39.955Z",
         "method": "pypi",
         "runId": "2026-11-02T10-46-39Z-d55a12",
@@ -208,6 +219,17 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-11-16T10:50:42.587Z",
+        "method": "pypi",
+        "runId": "2026-11-16T10-50-42Z-ab6ac8",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "browser_exec",
+          "browser_screenshot"
+        ]
+      },
       {
         "date": "2026-11-02T10:46:27.782Z",
         "method": "pypi",
@@ -419,6 +441,17 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-16T10:51:04.903Z",
+        "method": "pypi",
+        "runId": "2026-11-16T10-51-04Z-d20df4",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "browser_exec",
+          "browser_screenshot"
+        ]
+      },
       {
         "date": "2026-11-02T10:47:04.266Z",
         "method": "pypi",

@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-16T10:50:54.649Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[commonly-mcp] fatal: The runtime token must be a cm_agent_* token, whichever channel delivered it (a user login token is refused). Run `commonly mcp config` to get a working config for an attached agent, or `commonly agent attach` first",
+        "installMs": 10479,
+        "method": "npm",
+        "runId": "2026-11-16T10-50-54Z-9f87e0",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-11-02T10:46:39.955Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[commonly-mcp] fatal: The runtime token must be a cm_agent_* token, whichever channel delivered it (a user login token is refused). Run `commonly mcp config` to get a working config for an attached agent, or `commonly agent attach` first",
         "installMs": 6767,
@@ -20,6 +28,14 @@
     ],
     "linux": [
       {
+        "date": "2026-11-16T10:50:46.214Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[commonly-mcp] fatal: The runtime token must be a cm_agent_* token, whichever channel delivered it (a user login token is refused). Run `commonly mcp config` to get a working config for an attached agent, or `commonly agent attach` first",
+        "installMs": 3619,
+        "method": "npm",
+        "runId": "2026-11-16T10-50-46Z-5c023d",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-11-02T10:46:27.782Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[commonly-mcp] fatal: The runtime token must be a cm_agent_* token, whichever channel delivered it (a user login token is refused). Run `commonly mcp config` to get a working config for an attached agent, or `commonly agent attach` first",
         "installMs": 4110,
@@ -37,6 +53,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-16T10:51:03.688Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[commonly-mcp] fatal: The runtime token must be a cm_agent_* token, whichever channel delivered it (a user login token is refused). Run `commonly mcp config` to get a working config for an attached agent, or `commonly agent attach` first",
+        "installMs": 79732,
+        "method": "npm",
+        "runId": "2026-11-16T10-51-03Z-277d06",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-11-02T10:47:04.266Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[commonly-mcp] fatal: The runtime token must be a cm_agent_* token, whichever channel delivered it (a user login token is refused). Run `commonly mcp config` to get a working config for an attached agent, or `commonly agent attach` first",

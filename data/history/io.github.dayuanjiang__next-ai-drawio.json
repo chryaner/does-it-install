@@ -2,6 +2,32 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-16T10:50:47.927Z",
+        "installMs": 19033,
+        "method": "npm",
+        "runId": "2026-11-16T10-50-47Z-0ce22b",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "get_drawing_guide",
+          "get_shape_library",
+          "start_session",
+          "list_saved_diagrams",
+          "create_new_diagram",
+          "load_diagram",
+          "edit_diagram",
+          "get_diagram",
+          "get_selection",
+          "screenshot_diagram",
+          "export_diagram",
+          "list_pages",
+          "add_page",
+          "rename_page",
+          "delete_page",
+          "restore_version"
+        ]
+      },
+      {
         "date": "2026-11-02T10:46:36.472Z",
         "installMs": 16393,
         "method": "npm",
@@ -56,6 +82,32 @@
     ],
     "linux": [
       {
+        "date": "2026-11-16T10:50:42.587Z",
+        "installMs": 7483,
+        "method": "npm",
+        "runId": "2026-11-16T10-50-42Z-ab6ac8",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "get_drawing_guide",
+          "get_shape_library",
+          "start_session",
+          "list_saved_diagrams",
+          "create_new_diagram",
+          "load_diagram",
+          "edit_diagram",
+          "get_diagram",
+          "get_selection",
+          "screenshot_diagram",
+          "export_diagram",
+          "list_pages",
+          "add_page",
+          "rename_page",
+          "delete_page",
+          "restore_version"
+        ]
+      },
+      {
         "date": "2026-11-02T10:46:31.258Z",
         "installMs": 11569,
         "method": "npm",
@@ -109,6 +161,32 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-16T10:51:04.903Z",
+        "installMs": 400189,
+        "method": "npm",
+        "runId": "2026-11-16T10-51-04Z-d20df4",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "get_drawing_guide",
+          "get_shape_library",
+          "start_session",
+          "list_saved_diagrams",
+          "create_new_diagram",
+          "load_diagram",
+          "edit_diagram",
+          "get_diagram",
+          "get_selection",
+          "screenshot_diagram",
+          "export_diagram",
+          "list_pages",
+          "add_page",
+          "rename_page",
+          "delete_page",
+          "restore_version"
+        ]
+      },
       {
         "date": "2026-11-02T10:46:54.855Z",
         "installMs": 292145,

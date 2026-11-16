@@ -1,0 +1,57 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-16T10:50:54.649Z",
+        "installMs": 21979,
+        "method": "npm",
+        "runId": "2026-11-16T10-50-54Z-9f87e0",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "open_session",
+          "tools",
+          "call",
+          "close_session",
+          "run_tests"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-16T10:50:46.214Z",
+        "installMs": 6239,
+        "method": "npm",
+        "runId": "2026-11-16T10-50-46Z-5c023d",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "open_session",
+          "tools",
+          "call",
+          "close_session",
+          "run_tests"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-16T10:51:03.688Z",
+        "installMs": 78533,
+        "method": "npm",
+        "runId": "2026-11-16T10-51-03Z-277d06",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "open_session",
+          "tools",
+          "call",
+          "close_session",
+          "run_tests"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.e2e-inc/e2e",
+  "slug": "io.github.e2e-inc__e2e"
+}

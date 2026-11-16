@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-16T10:50:49.802Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"missing_mcp_token\",\"message\":\"Provide a Bearer token with MCP scope to access this resource.\",\"referenceId\":\"req_01m7hzpbbfe2qa0817npdgkzth\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-16T10-50-49Z-4e08cd",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-11-02T10:46:36.472Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"missing_mcp_token\",\"message\":\"Provide a Bearer token with MCP scope to access this resource.\",\"referenceId\":\"req_01m6dxwt4nebhtf046nxa6gb43\"} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -11,6 +18,13 @@
     ],
     "linux": [
       {
+        "date": "2026-11-16T10:50:47.770Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"missing_mcp_token\",\"message\":\"Provide a Bearer token with MCP scope to access this resource.\",\"referenceId\":\"req_01m7hzp8jse6ps43xfjwpz132e\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-16T10-50-47Z-276095",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-11-02T10:46:31.258Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"missing_mcp_token\",\"message\":\"Provide a Bearer token with MCP scope to access this resource.\",\"referenceId\":\"req_01m6dxwhwrevpsd5vvqmv4ec7h\"} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -19,6 +33,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-16T10:51:00.349Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"missing_mcp_token\",\"message\":\"Provide a Bearer token with MCP scope to access this resource.\",\"referenceId\":\"req_01m7hzpmkzepm9xaw92tm2d6bf\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-16T10-51-00Z-93ae93",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-11-02T10:46:54.855Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"missing_mcp_token\",\"message\":\"Provide a Bearer token with MCP scope to access this resource.\",\"referenceId\":\"req_01m6dy25qxekztchafd1v5x3g8\"} (endpoint reachable but requires credentials the harness does not send)",

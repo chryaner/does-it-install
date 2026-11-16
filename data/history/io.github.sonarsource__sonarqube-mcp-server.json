@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-16T10:50:49.802Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-11-16T10-50-49Z-4e08cd",
+        "status": "skipped"
+      },
+      {
         "date": "2026-11-09T11:02:04.817Z",
         "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
         "installMs": 0,
@@ -44,6 +52,14 @@
     ],
     "linux": [
       {
+        "date": "2026-11-16T10:50:47.770Z",
+        "errorExcerpt": "handshake failed: MCP error -32603: Failed to list SonarQube Cloud organizations for the provided token. Verify the token is valid, or set SONARQUBE_ORG explicitly.\n--- stderr (tail) ---\nERROR SonarQube MCP Server - Failed to start SonarQube MCP Server\njava.lang.IllegalStateException: Failed to list SonarQube Cloud organizations for the provided token. Verify the token is valid, or set SONARQUBE_ORG explicitly.\n\tat org.sonarsource.sonarqube.mcp.SonarQubeMcpServer.resolveOrganizationAtStartup(SonarQubeMcpServer.java:773)\n\tat org.sonarsource.sonarqube.mcp.SonarQubeMcpServer.initializeBasicServicesAndTools(SonarQubeMcpServer.java:315)\n\tat org.sonarsource.sonarqube.mcp.SonarQubeMcpServer.<init>(SonarQubeMcpServer.java:253)\n\tat org.sonarsource.sonarqube.mcp.SonarQubeMcpServer.main(SonarQubeMcpServer.java:217)\nCaused by: org.sonarsource.sonarqube.mcp.serverapi.exception.ForbiddenException: SonarQube answered with Forbidden\n\tat org.sonarsource.sonarqube.mcp.serverapi.ServerApiHelper.handleError(ServerApiHelper.java:261)\n\tat org.sonarsource.sonarqube.mcp.serverapi.ServerApiHelper.getApiSubdomain(ServerApiHelper.java:136)\n\tat org.sonarsource.sonarqube.mcp.serverapi.organizations.OrganizationsApi.listOrganizations(OrganizationsApi.java:69)\n\tat org.sonarsource.sonarqube.mcp.SonarQubeMcpServer.resolveOrganizationAtStartup(SonarQubeMcpServer.java:771)\n\t... 3 more",
+        "installMs": 4434,
+        "method": "oci",
+        "runId": "2026-11-16T10-50-47Z-276095",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-11-09T11:02:02.710Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out",
         "installMs": 9367,
@@ -85,6 +101,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-16T10:51:00.349Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-11-16T10-51-00Z-93ae93",
+        "status": "skipped"
+      },
       {
         "date": "2026-11-09T11:02:18.514Z",
         "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",

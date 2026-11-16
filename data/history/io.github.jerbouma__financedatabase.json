@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-16T10:50:49.802Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/eZtwD7NKQ-pmXj8e/bin/financedatabase-mcp\", line 6, in <module>\n    from financedatabase.mcp_server.mcp_controller import main\n  File \"/Users/runner/.cache/uv/archive-v0/eZtwD7NKQ-pmXj8e/lib/python3.15/site-packages/financedatabase/mcp_server/mcp_controller.py\", line 14, in <module>\n    import anyio\nModuleNotFoundError: No module named 'anyio'. Did you mean: '_pyio'?",
+        "method": "pypi",
+        "runId": "2026-11-16T10-50-49Z-4e08cd",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-16T10:50:47.770Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/MNn4O21P81RkT40j/bin/financedatabase-mcp\", line 6, in <module>\n    from financedatabase.mcp_server.mcp_controller import main\n  File \"/home/runner/.cache/uv/archive-v0/MNn4O21P81RkT40j/lib/python3.14/site-packages/financedatabase/mcp_server/mcp_controller.py\", line 14, in <module>\n    import anyio\nModuleNotFoundError: No module named 'anyio'",
+        "method": "pypi",
+        "runId": "2026-11-16T10-50-47Z-276095",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-16T10:51:00.349Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\IL67SEtYAa0yDLNU\\Scripts\\financedatabase-mcp-inspector.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\IL67SEtYAa0yDLNU\\Lib\\site-packages\\financedatabase\\mcp_server\\mcp_controller.py\", line 14, in <module>\r\n    import anyio\r\nModuleNotFoundError: No module named 'anyio'",
+        "method": "pypi",
+        "runId": "2026-11-16T10-51-00Z-93ae93",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.JerBouma/financedatabase",
+  "slug": "io.github.jerbouma__financedatabase"
+}

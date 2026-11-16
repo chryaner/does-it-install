@@ -1,0 +1,66 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-16T10:50:47.927Z",
+        "installMs": 545,
+        "method": "npm",
+        "runId": "2026-11-16T10-50-47Z-0ce22b",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "generate_image",
+          "edit_image",
+          "edit_images",
+          "outpaint_image",
+          "inpaint_image",
+          "upscale_image",
+          "get_image_info",
+          "get_generator_status"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-16T10:50:42.587Z",
+        "installMs": 899,
+        "method": "npm",
+        "runId": "2026-11-16T10-50-42Z-ab6ac8",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "generate_image",
+          "edit_image",
+          "edit_images",
+          "outpaint_image",
+          "inpaint_image",
+          "upscale_image",
+          "get_image_info",
+          "get_generator_status"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-16T10:51:04.903Z",
+        "installMs": 3472,
+        "method": "npm",
+        "runId": "2026-11-16T10-51-04Z-d20df4",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "generate_image",
+          "edit_image",
+          "edit_images",
+          "outpaint_image",
+          "inpaint_image",
+          "upscale_image",
+          "get_image_info",
+          "get_generator_status"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.GabrieleLozupone/kokon",
+  "slug": "io.github.gabrielelozupone__kokon"
+}

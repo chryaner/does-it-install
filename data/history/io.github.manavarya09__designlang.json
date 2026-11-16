@@ -1,0 +1,93 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-16T10:50:47.927Z",
+        "installMs": 9552,
+        "method": "npm",
+        "runId": "2026-11-16T10-50-47Z-0ce22b",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "extract_design",
+          "verify_ui",
+          "get_job_status",
+          "list_jobs",
+          "cancel_job",
+          "get_tokens",
+          "get_colors",
+          "get_typography",
+          "get_components",
+          "compute_drift",
+          "get_findings",
+          "export",
+          "search_tokens",
+          "find_nearest_color",
+          "get_region",
+          "get_component",
+          "list_failing_contrast_pairs"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-16T10:50:42.587Z",
+        "installMs": 8404,
+        "method": "npm",
+        "runId": "2026-11-16T10-50-42Z-ab6ac8",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "extract_design",
+          "verify_ui",
+          "get_job_status",
+          "list_jobs",
+          "cancel_job",
+          "get_tokens",
+          "get_colors",
+          "get_typography",
+          "get_components",
+          "compute_drift",
+          "get_findings",
+          "export",
+          "search_tokens",
+          "find_nearest_color",
+          "get_region",
+          "get_component",
+          "list_failing_contrast_pairs"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-16T10:51:04.903Z",
+        "installMs": 235913,
+        "method": "npm",
+        "runId": "2026-11-16T10-51-04Z-d20df4",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "extract_design",
+          "verify_ui",
+          "get_job_status",
+          "list_jobs",
+          "cancel_job",
+          "get_tokens",
+          "get_colors",
+          "get_typography",
+          "get_components",
+          "compute_drift",
+          "get_findings",
+          "export",
+          "search_tokens",
+          "find_nearest_color",
+          "get_region",
+          "get_component",
+          "list_failing_contrast_pairs"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.Manavarya09/designlang",
+  "slug": "io.github.manavarya09__designlang"
+}

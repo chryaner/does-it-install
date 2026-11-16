@@ -1,0 +1,54 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-16T10:50:54.649Z",
+        "method": "remote-http",
+        "runId": "2026-11-16T10-50-54Z-9f87e0",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "classify_texts",
+          "classify_dimensions",
+          "classify_multi_label",
+          "count_labels",
+          "review_uncertain"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-16T10:50:46.214Z",
+        "method": "remote-http",
+        "runId": "2026-11-16T10-50-46Z-5c023d",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "classify_texts",
+          "classify_dimensions",
+          "classify_multi_label",
+          "count_labels",
+          "review_uncertain"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-16T10:51:03.688Z",
+        "method": "remote-http",
+        "runId": "2026-11-16T10-51-03Z-277d06",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "classify_texts",
+          "classify_dimensions",
+          "classify_multi_label",
+          "count_labels",
+          "review_uncertain"
+        ]
+      }
+    ]
+  },
+  "serverId": "dev.classifier/classifier",
+  "slug": "dev.classifier__classifier"
+}

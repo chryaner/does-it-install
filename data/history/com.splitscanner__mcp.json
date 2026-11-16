@@ -1,0 +1,111 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-16T10:50:47.927Z",
+        "method": "remote-http",
+        "runId": "2026-11-16T10-50-47Z-0ce22b",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "search_companies",
+          "get_company_profile",
+          "get_quote",
+          "get_float",
+          "get_float_history",
+          "search_sec_filings",
+          "get_filing_documents",
+          "get_filing_document",
+          "get_filing_exhibits",
+          "get_exhibit_content",
+          "search_filing_text",
+          "lookup_accession_number",
+          "get_compliance",
+          "get_split_history",
+          "get_split_performance",
+          "get_upcoming_reverse_splits",
+          "get_reverse_split_lifecycle",
+          "get_ended_reverse_splits",
+          "get_reverse_split_authority",
+          "get_reverse_splits_list",
+          "search_learn_guides",
+          "get_learn_guide",
+          "define_term",
+          "get_signal8_pro_coverage"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-16T10:50:42.587Z",
+        "method": "remote-http",
+        "runId": "2026-11-16T10-50-42Z-ab6ac8",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "search_companies",
+          "get_company_profile",
+          "get_quote",
+          "get_float",
+          "get_float_history",
+          "search_sec_filings",
+          "get_filing_documents",
+          "get_filing_document",
+          "get_filing_exhibits",
+          "get_exhibit_content",
+          "search_filing_text",
+          "lookup_accession_number",
+          "get_compliance",
+          "get_split_history",
+          "get_split_performance",
+          "get_upcoming_reverse_splits",
+          "get_reverse_split_lifecycle",
+          "get_ended_reverse_splits",
+          "get_reverse_split_authority",
+          "get_reverse_splits_list",
+          "search_learn_guides",
+          "get_learn_guide",
+          "define_term",
+          "get_signal8_pro_coverage"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-16T10:51:04.903Z",
+        "method": "remote-http",
+        "runId": "2026-11-16T10-51-04Z-d20df4",
+        "status": "pass",
+        "toolCount": 24,
+        "toolNames": [
+          "search_companies",
+          "get_company_profile",
+          "get_quote",
+          "get_float",
+          "get_float_history",
+          "search_sec_filings",
+          "get_filing_documents",
+          "get_filing_document",
+          "get_filing_exhibits",
+          "get_exhibit_content",
+          "search_filing_text",
+          "lookup_accession_number",
+          "get_compliance",
+          "get_split_history",
+          "get_split_performance",
+          "get_upcoming_reverse_splits",
+          "get_reverse_split_lifecycle",
+          "get_ended_reverse_splits",
+          "get_reverse_split_authority",
+          "get_reverse_splits_list",
+          "search_learn_guides",
+          "get_learn_guide",
+          "define_term",
+          "get_signal8_pro_coverage"
+        ]
+      }
+    ]
+  },
+  "serverId": "com.splitscanner/mcp",
+  "slug": "com.splitscanner__mcp"
+}

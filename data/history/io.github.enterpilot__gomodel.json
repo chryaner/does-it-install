@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-16T10:50:54.649Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-11-16T10-50-54Z-9f87e0",
+        "status": "skipped"
+      },
+      {
         "date": "2026-11-02T10:46:36.004Z",
         "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
         "installMs": 0,
@@ -35,6 +43,14 @@
     ],
     "linux": [
       {
+        "date": "2026-11-16T10:50:46.214Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n{\"time\":\"2026-11-16T10:51:49.217910595Z\",\"level\":\"INFO\",\"msg\":\"starting gomodel\",\"version\":\"0.2.4\",\"commit\":\"1ad54808d102f859674d83f2394d1bbb9d0329c8\",\"build_date\":\"2026-11-15T17:19:59Z\"}\n{\"time\":\"2026-11-16T10:51:49.218849889Z\",\"level\":\"INFO\",\"msg\":\"no config file found; using defaults and environment\",\"searched\":[\"config/config.yaml\",\"config.yaml\"]}\n{\"time\":\"2026-11-16T10:51:49.222721722Z\",\"level\":\"INFO\",\"msg\":\"plugin system disabled\",\"hint\":\"set PLUGINS_ENABLED=true (or GUARDRAILS_ENABLED=true) to load plugins and guardrails\"}\n{\"time\":\"2026-11-16T10:51:49.222898795Z\",\"level\":\"INFO\",\"msg\":\"providers resolved\",\"total\":0,\"from_config_file\":0,\"from_env\":0,\"config_file_providers\":null,\"env_providers\":null}\n{\"time\":\"2026-11-16T10:51:49.222973786Z\",\"level\":\"INFO\",\"msg\":\"using local file cache\",\"path\":\".cache/models.json\"}\n{\"time\":\"2026-11-16T10:51:49.223027957Z\",\"level\":\"WARN\",\"msg\":\"no providers configured via env vars or config.yaml; add provider credentials from the dashboard\"}\n{\"time\":\"2026-11-16T10:51:49.223058976Z\",\"level\":\"INFO\",\"msg\":\"model registry configured\",\"cached_models\":0,\"providers\":0}\n{\"time\":\"2026-11-16T10:51:49.242908291Z\",\"level\":\"WARN\",\"msg\":\"SECURITY WARNING: GOMODEL_MASTER_KEY not set - server running in UNSAFE MODE\",\"security_risk\":\"unauthenticated access allowed\",\"recommendation\":\"set GOMODEL_MASTER_KEY environment variable to secure this gateway\"}\n{\"time\":\"2026-11-16T10:51:49.242927126Z\",\"level\":\"INFO\",\"msg\":\"prometheus metrics disabled\"}\n{\"time\":\"2026-11-16T10:51:49.242931234Z\",\"level\":\"INFO\",\"msg\":\"storage configured\",\"type\":\"sqlite\",\"path\":\"data/gomodel.db\"}\n{\"time\":\"2026-11-16T10:51:49.242934791Z\",\"level\":\"INFO\",\"msg\":\"media storage configured\",\"type\":\"filesystem\",\"path\":\"data/media\"}\n{\"time\":\"2026-11-16T10:51:49.242938407Z\",\"level\":\"INFO\",\"msg\":\"audit logging enabled\",\"log_bodies\":true,\"log_audio_bodies\":false,\"log_embedding_bodies\":true,\"log_image_bodies\":false,\"log_image_bodies_scope\":\"all\",\"log_headers\":true,\"retention_days\":30}\n{\"time\":\"2026-11-16T10:51:49.242965709Z\",\"level\":\"INFO\",\"msg\":\"usage tracking enabled\",\"buffer_size\":1000,\"flush_interval\":5,\"retention_days\":90}\n{\"time\":\"2026-11-16T10:51:49.244921503Z\",\"level\":\"INFO\",\"msg\":\"mcp gateway enabled\",\"path\":\"/mcp\",\"configured_servers\":0,\"provider_servers\":null}\n{\"time\":\"2026-11-16T10:51:49.245439866Z\",\"level\":\"INFO\",\"msg\":\"install id created\",\"source\":\"generated\"}\n{\"time\":\"2026-11-16T10:51:49.245657505Z\",\"level\":\"WARN\",\"msg\":\"data directory is on the container's own filesystem, not a volume: the database (audit logs, usage, budgets, keys) and the install identity are lost when the container is recreated; mount a volume there or use PostgreSQL/MongoDB\",\"dir\":\"data\"}\n{\"time\":\"2026-11-16T10:51:49.245788331Z\",\"level\":\"INFO\",\"msg\":\"admin API enabled\",\"api\":\"/admin\",\"legacy_alias\":\"/admin/api/v1\",\"legacy_sunset\":\"2026-08-09\"}\n{\"time\":\"2026-11-16T10:51:49.245800163Z\",\"level\":\"INFO\",\"msg\":\"admin UI enabled\",\"url\":\"http://localhost:8080/admin/dashboard\"}\n{\"time\":\"2026-11-16T10:51:49.245806245Z\",\"level\":\"INFO\",\"msg\":\"provider passthrough enabled\",\"path\":\"/p/{provider}/{endpoint}\"}\n{\"time\":\"2026-11-16T10:51:49.247573926Z\",\"level\":\"INFO\",\"msg\":\"starting server\",\"address\":\"[::]:8080\"}\n{\"time\":\"2026-11-16T10:51:49.247605866Z\",\"level\":\"INFO\",\"msg\":\"http(s) server started\",\"address\":\"[::]:8080\"}\n{\"time\":\"2026-11-16T10:51:49.411755224Z\",\"level\":\"INFO\",\"msg\":\"model list loaded\",\"models\":1044,\"providers\":20,\"provider_models\":2459,\"metadata_enriched\":0,\"metadata_total\":0,\"metadata_providers\":0}",
+        "installMs": 1496,
+        "method": "oci",
+        "runId": "2026-11-16T10-50-46Z-5c023d",
+        "status": "timeout"
+      },
+      {
         "date": "2026-11-02T10:46:43.068Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out",
         "installMs": 1918,
@@ -67,6 +83,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-16T10:51:03.688Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-11-16T10-51-03Z-277d06",
+        "status": "skipped"
+      },
       {
         "date": "2026-11-02T10:46:49.167Z",
         "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",

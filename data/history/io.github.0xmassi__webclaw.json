@@ -1,0 +1,68 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-16T10:50:47.927Z",
+        "installMs": 1328,
+        "method": "npm",
+        "runId": "2026-11-16T10-50-47Z-0ce22b",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "batch",
+          "brand",
+          "crawl",
+          "diff",
+          "extract",
+          "list_extractors",
+          "map",
+          "research",
+          "scrape",
+          "screenshot",
+          "search",
+          "select",
+          "summarize",
+          "vertical_scrape"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-16T10:50:42.587Z",
+        "installMs": 976,
+        "method": "npm",
+        "runId": "2026-11-16T10-50-42Z-ab6ac8",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "batch",
+          "brand",
+          "crawl",
+          "diff",
+          "extract",
+          "list_extractors",
+          "map",
+          "research",
+          "scrape",
+          "screenshot",
+          "search",
+          "select",
+          "summarize",
+          "vertical_scrape"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-16T10:51:04.903Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n[@webclaw/mcp] fetching webclaw-v0.7.1-x86_64-pc-windows-msvc.zip (first run for v0.7.1) ...",
+        "installMs": 1784,
+        "method": "npm",
+        "runId": "2026-11-16T10-51-04Z-d20df4",
+        "status": "timeout"
+      }
+    ]
+  },
+  "serverId": "io.github.0xMassi/webclaw",
+  "slug": "io.github.0xmassi__webclaw"
+}

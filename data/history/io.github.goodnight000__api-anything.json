@@ -1,0 +1,72 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-16T10:50:54.649Z",
+        "installMs": 11436,
+        "method": "npm",
+        "runId": "2026-11-16T10-50-54Z-9f87e0",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "list_sites",
+          "find_sites",
+          "list_operations",
+          "call_operation",
+          "call_batch",
+          "get_result",
+          "get_job",
+          "site_status",
+          "login",
+          "learn_site"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-16T10:50:46.214Z",
+        "installMs": 5147,
+        "method": "npm",
+        "runId": "2026-11-16T10-50-46Z-5c023d",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "list_sites",
+          "find_sites",
+          "list_operations",
+          "call_operation",
+          "call_batch",
+          "get_result",
+          "get_job",
+          "site_status",
+          "login",
+          "learn_site"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-16T10:51:03.688Z",
+        "installMs": 103060,
+        "method": "npm",
+        "runId": "2026-11-16T10-51-03Z-277d06",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "list_sites",
+          "find_sites",
+          "list_operations",
+          "call_operation",
+          "call_batch",
+          "get_result",
+          "get_job",
+          "site_status",
+          "login",
+          "learn_site"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.goodnight000/api-anything",
+  "slug": "io.github.goodnight000__api-anything"
+}

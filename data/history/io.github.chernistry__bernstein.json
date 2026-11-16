@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-16T10:50:47.927Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: Unexpected token '─', \"──────────\"... is not valid JSON\nUnexpected token 'B', \"  BERNSTEIN \"... is not valid JSON\nUnexpected token '─', \"──────────\"... is not valid JSON\nUnexpected token '─', \"──────────\"... is not valid JSON\nUnexpected token 'P', \"Preparing.\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'P', \"Proceed wi\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'E', \"Error: invalid input\" is not valid JSON\nUnexpected end of JSON input\n--- stderr (tail) ---\nDownloading openai (2.3MiB)\nDownloading pillow (4.6MiB)\nDownloading pyfiglet (1.7MiB)\nDownloading bernstein (2.3MiB)\nDownloading grpcio (12.1MiB)\n Downloaded pyfiglet\n Downloaded pillow\n Downloaded bernstein\n Downloaded grpcio\n Downloaded openai\nInstalled 71 packages in 282ms\nAborted!",
+        "method": "pypi",
+        "runId": "2026-11-16T10-50-47Z-0ce22b",
+        "status": "timeout"
+      },
+      {
         "date": "2026-11-02T10:46:39.955Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: Unexpected token '─', \"──────────\"... is not valid JSON\nUnexpected token 'B', \"  BERNSTEIN \"... is not valid JSON\nUnexpected token '─', \"──────────\"... is not valid JSON\nUnexpected token '─', \"──────────\"... is not valid JSON\nUnexpected token 'P', \"Preparing.\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'P', \"Proceed wi\"... is not valid JSON\nUnexpected end of JSON input\n--- stderr (tail) ---\nDownloading openai (2.3MiB)\nDownloading pyfiglet (1.7MiB)\nDownloading grpcio (12.1MiB)\nDownloading bernstein (2.3MiB)\n Downloaded pyfiglet\n Downloaded bernstein\n Downloaded grpcio\n Downloaded openai\nInstalled 71 packages in 399ms",
         "method": "pypi",
@@ -32,6 +39,13 @@
     ],
     "linux": [
       {
+        "date": "2026-11-16T10:50:42.587Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: Unexpected token '─', \"──────────\"... is not valid JSON\nUnexpected token 'B', \"  BERNSTEIN \"... is not valid JSON\nUnexpected token '─', \"──────────\"... is not valid JSON\nUnexpected token '─', \"──────────\"... is not valid JSON\nUnexpected token 'P', \"Preparing.\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'P', \"Proceed wi\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'E', \"Error: invalid input\" is not valid JSON\nUnexpected end of JSON input\n--- stderr (tail) ---\nDownloading grpcio (7.0MiB)\nDownloading pyfiglet (1.7MiB)\nDownloading bernstein (2.3MiB)\n Downloaded bernstein\n Downloaded pyfiglet\n Downloaded grpcio\nInstalled 71 packages in 136ms\nAborted!",
+        "method": "pypi",
+        "runId": "2026-11-16T10-50-42Z-ab6ac8",
+        "status": "timeout"
+      },
+      {
         "date": "2026-11-02T10:46:27.782Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: Unexpected token '─', \"──────────\"... is not valid JSON\nUnexpected token 'B', \"  BERNSTEIN \"... is not valid JSON\nUnexpected token '─', \"──────────\"... is not valid JSON\nUnexpected token '─', \"──────────\"... is not valid JSON\nUnexpected token 'P', \"Preparing.\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'P', \"Proceed wi\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'E', \"Error: invalid input\" is not valid JSON\nUnexpected end of JSON input\n--- stderr (tail) ---\nDownloading grpcio (7.0MiB)\nDownloading pyfiglet (1.7MiB)\nDownloading bernstein (2.3MiB)\n Downloaded pyfiglet\n Downloaded bernstein\n Downloaded grpcio\nInstalled 71 packages in 61ms\nAborted!",
         "method": "pypi",
@@ -61,6 +75,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-16T10:51:04.903Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading pyfiglet (1.7MiB)\nDownloading grpcio (5.3MiB)\nDownloading bernstein (2.3MiB)\n Downloaded grpcio\n Downloaded pyfiglet\n Downloaded bernstein\nInstalled 72 packages in 23.57s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\zxhrsC1QP25vvwuH\\Scripts\\bernstein.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\zxhrsC1QP25vvwuH\\Lib\\site-packages\\bernstein\\cli\\main.py\", line 29, in <module>\r\n    from bernstein.cli.advanced_cmd import (\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\zxhrsC1QP25vvwuH\\Lib\\site-packages\\bernstein\\cli\\advanced_cmd.py\", line 36, in <module>\r\n    from bernstein.core.runtime_state import read_session_replay_metadata\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\zxhrsC1QP25vvwuH\\Lib\\site-packages\\bernstein\\core\\runtime_state.py\", line 13, in <module>\r\n    import resource\r\nModuleNotFoundError: No module named 'resource'",
+        "method": "pypi",
+        "runId": "2026-11-16T10-51-04Z-d20df4",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-11-02T10:47:04.266Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading pyfiglet (1.7MiB)\nDownloading grpcio (5.3MiB)\nDownloading bernstein (2.3MiB)\n Downloaded grpcio\n Downloaded pyfiglet\n Downloaded bernstein\nInstalled 72 packages in 20.81s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\d8ZFwRujQrqWPd2w\\Scripts\\bernstein.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\d8ZFwRujQrqWPd2w\\Lib\\site-packages\\bernstein\\cli\\main.py\", line 29, in <module>\r\n    from bernstein.cli.advanced_cmd import (\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\d8ZFwRujQrqWPd2w\\Lib\\site-packages\\bernstein\\cli\\advanced_cmd.py\", line 36, in <module>\r\n    from bernstein.core.runtime_state import read_session_replay_metadata\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\d8ZFwRujQrqWPd2w\\Lib\\site-packages\\bernstein\\core\\runtime_state.py\", line 13, in <module>\r\n    import resource\r\nModuleNotFoundError: No module named 'resource'",

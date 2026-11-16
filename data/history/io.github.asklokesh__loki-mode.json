@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-16T10:50:54.649Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n/private/var/folders/h5/t85nd63d71x27_8gl5gw3l_w0000gn/T/does-it-install/dii-npm-6SF0AW/node_modules/loki-mode/bin/loki:2\n#===============================================================================\n^\n\nSyntaxError: Invalid or unexpected token\n    at wrapSafe (node:internal/modules/cjs/loader:1713:18)\n    at Module._compile (node:internal/modules/cjs/loader:1755:20)\n    at Object..js (node:internal/modules/cjs/loader:1913:10)\n    at Module.load (node:internal/modules/cjs/loader:1505:32)\n    at Function._load (node:internal/modules/cjs/loader:1309:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n    at node:internal/main/run_main_module:36:49\n\nNode.js v22.23.4",
+        "installMs": 17510,
+        "method": "npm",
+        "runId": "2026-11-16T10-50-54Z-9f87e0",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-11-09T11:02:00.484Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n/private/var/folders/h5/t85nd63d71x27_8gl5gw3l_w0000gn/T/does-it-install/dii-npm-seGdjB/node_modules/loki-mode/bin/loki:2\n#===============================================================================\n^\n\nSyntaxError: Invalid or unexpected token\n    at wrapSafe (node:internal/modules/cjs/loader:1713:18)\n    at Module._compile (node:internal/modules/cjs/loader:1755:20)\n    at Object..js (node:internal/modules/cjs/loader:1913:10)\n    at Module.load (node:internal/modules/cjs/loader:1505:32)\n    at Function._load (node:internal/modules/cjs/loader:1309:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n    at node:internal/main/run_main_module:36:49\n\nNode.js v22.23.4",
         "installMs": 16847,
@@ -44,6 +52,14 @@
     ],
     "linux": [
       {
+        "date": "2026-11-16T10:50:46.214Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n/tmp/does-it-install/dii-npm-HVkDhg/node_modules/loki-mode/bin/loki:2\n#===============================================================================\n^\n\nSyntaxError: Invalid or unexpected token\n    at wrapSafe (node:internal/modules/cjs/loader:1713:18)\n    at Module._compile (node:internal/modules/cjs/loader:1755:20)\n    at Object..js (node:internal/modules/cjs/loader:1913:10)\n    at Module.load (node:internal/modules/cjs/loader:1505:32)\n    at Function._load (node:internal/modules/cjs/loader:1309:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n    at node:internal/main/run_main_module:36:49\n\nNode.js v22.23.4",
+        "installMs": 10658,
+        "method": "npm",
+        "runId": "2026-11-16T10-50-46Z-5c023d",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-11-09T11:01:54.894Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n/tmp/does-it-install/dii-npm-iycPOy/node_modules/loki-mode/bin/loki:2\n#===============================================================================\n^\n\nSyntaxError: Invalid or unexpected token\n    at wrapSafe (node:internal/modules/cjs/loader:1713:18)\n    at Module._compile (node:internal/modules/cjs/loader:1755:20)\n    at Object..js (node:internal/modules/cjs/loader:1913:10)\n    at Module.load (node:internal/modules/cjs/loader:1505:32)\n    at Function._load (node:internal/modules/cjs/loader:1309:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n    at node:internal/main/run_main_module:36:49\n\nNode.js v22.23.4",
         "installMs": 7725,
@@ -85,6 +101,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-16T10:51:03.688Z",
+        "errorExcerpt": "npm install loki-mode@10.9.1 exited with code 1\n--- stderr (tail) ---\nnpm error code EBADPLATFORM\nnpm error notsup Unsupported platform for loki-mode@10.9.1: wanted {\"os\":\"darwin,linux\"} (current: {\"os\":\"win32\"})\nnpm error notsup Valid os:  darwin,linux\nnpm error notsup Actual os: win32\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-dMQk2Y\\.npm-cache\\_logs\\2026-11-16T11_05_00_805Z-debug-0.log",
+        "installMs": 6673,
+        "method": "npm",
+        "runId": "2026-11-16T10-51-03Z-277d06",
+        "status": "install_failed"
+      },
       {
         "date": "2026-11-09T11:02:21.452Z",
         "errorExcerpt": "npm install loki-mode@10.9.1 exited with code 1\n--- stderr (tail) ---\nnpm error code EBADPLATFORM\nnpm error notsup Unsupported platform for loki-mode@10.9.1: wanted {\"os\":\"darwin,linux\"} (current: {\"os\":\"win32\"})\nnpm error notsup Valid os:  darwin,linux\nnpm error notsup Actual os: win32\nnpm error A complete log of this run can be found in: C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-khlS2F\\.npm-cache\\_logs\\2026-11-09T11_12_26_602Z-debug-0.log",

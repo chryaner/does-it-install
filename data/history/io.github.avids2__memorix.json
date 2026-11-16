@@ -2,6 +2,25 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-16T10:50:47.927Z",
+        "installMs": 25567,
+        "method": "npm",
+        "runId": "2026-11-16T10-50-47Z-0ce22b",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "memorix_store",
+          "memorix_search",
+          "memorix_project_context",
+          "memorix_codegraph_status",
+          "memorix_context_pack",
+          "memorix_resolve",
+          "memorix_detail",
+          "memorix_session_start",
+          "memorix_media"
+        ]
+      },
+      {
         "date": "2026-11-09T11:02:04.817Z",
         "installMs": 56278,
         "method": "npm",
@@ -80,6 +99,25 @@
     ],
     "linux": [
       {
+        "date": "2026-11-16T10:50:42.587Z",
+        "installMs": 21867,
+        "method": "npm",
+        "runId": "2026-11-16T10-50-42Z-ab6ac8",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "memorix_store",
+          "memorix_search",
+          "memorix_project_context",
+          "memorix_codegraph_status",
+          "memorix_context_pack",
+          "memorix_resolve",
+          "memorix_detail",
+          "memorix_session_start",
+          "memorix_media"
+        ]
+      },
+      {
         "date": "2026-11-09T11:02:02.710Z",
         "installMs": 41866,
         "method": "npm",
@@ -157,6 +195,25 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-16T10:51:04.903Z",
+        "installMs": 142709,
+        "method": "npm",
+        "runId": "2026-11-16T10-51-04Z-d20df4",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "memorix_store",
+          "memorix_search",
+          "memorix_project_context",
+          "memorix_codegraph_status",
+          "memorix_context_pack",
+          "memorix_resolve",
+          "memorix_detail",
+          "memorix_session_start",
+          "memorix_media"
+        ]
+      },
       {
         "date": "2026-11-09T11:02:18.514Z",
         "installMs": 493826,

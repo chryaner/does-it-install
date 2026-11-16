@@ -2,6 +2,26 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-16T10:50:47.927Z",
+        "method": "remote-http",
+        "runId": "2026-11-16T10-50-47Z-0ce22b",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "aihot_get_latest",
+          "aihot_search",
+          "aihot_get_hot_topics",
+          "aihot_get_story",
+          "aihot_get_daily",
+          "aihot_get_weekly",
+          "aihot_get_monthly",
+          "aihot_get_codex_resets",
+          "aihot_get_antigravity_resets",
+          "aihot_get_claude_resets",
+          "aihot_get_grok_bot_resets"
+        ]
+      },
+      {
         "date": "2026-11-09T11:02:04.817Z",
         "method": "remote-http",
         "runId": "2026-11-09T11-02-04Z-fd792b",
@@ -57,6 +77,26 @@
     ],
     "linux": [
       {
+        "date": "2026-11-16T10:50:42.587Z",
+        "method": "remote-http",
+        "runId": "2026-11-16T10-50-42Z-ab6ac8",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "aihot_get_latest",
+          "aihot_search",
+          "aihot_get_hot_topics",
+          "aihot_get_story",
+          "aihot_get_daily",
+          "aihot_get_weekly",
+          "aihot_get_monthly",
+          "aihot_get_codex_resets",
+          "aihot_get_antigravity_resets",
+          "aihot_get_claude_resets",
+          "aihot_get_grok_bot_resets"
+        ]
+      },
+      {
         "date": "2026-11-09T11:02:02.710Z",
         "method": "remote-http",
         "runId": "2026-11-09T11-02-02Z-7c6953",
@@ -111,6 +151,26 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-16T10:51:04.903Z",
+        "method": "remote-http",
+        "runId": "2026-11-16T10-51-04Z-d20df4",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "aihot_get_latest",
+          "aihot_search",
+          "aihot_get_hot_topics",
+          "aihot_get_story",
+          "aihot_get_daily",
+          "aihot_get_weekly",
+          "aihot_get_monthly",
+          "aihot_get_codex_resets",
+          "aihot_get_antigravity_resets",
+          "aihot_get_claude_resets",
+          "aihot_get_grok_bot_resets"
+        ]
+      },
       {
         "date": "2026-11-09T11:02:18.514Z",
         "method": "remote-http",

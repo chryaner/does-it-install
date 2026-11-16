@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-16T10:50:54.649Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed",
+        "installMs": 4036,
+        "method": "npm",
+        "runId": "2026-11-16T10-50-54Z-9f87e0",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-11-02T10:46:36.472Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed",
         "installMs": 3603,
@@ -28,6 +36,14 @@
     ],
     "linux": [
       {
+        "date": "2026-11-16T10:50:46.214Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed",
+        "installMs": 2972,
+        "method": "npm",
+        "runId": "2026-11-16T10-50-46Z-5c023d",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-11-02T10:46:31.258Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed",
         "installMs": 2691,
@@ -53,6 +69,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-16T10:51:03.688Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed",
+        "installMs": 6189,
+        "method": "npm",
+        "runId": "2026-11-16T10-51-03Z-277d06",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-11-02T10:46:54.855Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed",
