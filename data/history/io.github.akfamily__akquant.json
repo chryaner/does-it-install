@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:39.889Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading plotly (9.2MiB)\nDownloading polars-runtime-32 (45.4MiB)\nDownloading pyarrow (35.6MiB)\nDownloading pandas (10.7MiB)\nDownloading akquant (7.0MiB)\n Downloaded akquant\n Downloaded plotly\n Downloaded pandas\n Downloaded pyarrow\n Downloaded polars-runtime-32\nInstalled 17 packages in 197ms\n缺少 MCP SDK(需要 mcp>=2.3), 请先安装: pip install \"akquant[mcp]\"",
+        "method": "pypi",
+        "runId": "2026-11-23T11-58-39Z-0cc398",
+        "status": "needs_config"
+      },
+      {
         "date": "2026-11-16T10:50:54.649Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading plotly (9.2MiB)\nDownloading polars-runtime-32 (45.4MiB)\nDownloading pyarrow (35.6MiB)\nDownloading pandas (10.7MiB)\nDownloading akquant (7.0MiB)\n Downloaded akquant\n Downloaded pandas\n Downloaded plotly\n Downloaded pyarrow\n Downloaded polars-runtime-32\nInstalled 17 packages in 268ms\n缺少 MCP SDK(需要 mcp>=2.3), 请先安装: pip install \"akquant[mcp]\"",
         "method": "pypi",
@@ -18,6 +25,13 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:35.779Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading plotly (9.2MiB)\nDownloading pyarrow (52.5MiB)\nDownloading polars-runtime-32 (51.4MiB)\nDownloading pandas (11.5MiB)\nDownloading akquant (8.0MiB)\n Downloaded akquant\n Downloaded plotly\n Downloaded pandas\n Downloaded polars-runtime-32\n Downloaded pyarrow\nInstalled 17 packages in 533ms\n缺少 MCP SDK(需要 mcp>=2.3), 请先安装: pip install \"akquant[mcp]\"",
+        "method": "pypi",
+        "runId": "2026-11-23T11-58-35Z-28b592",
+        "status": "needs_config"
+      },
+      {
         "date": "2026-11-16T10:50:46.214Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading plotly (9.2MiB)\nDownloading polars-runtime-32 (51.4MiB)\nDownloading pyarrow (52.5MiB)\nDownloading pandas (11.5MiB)\nDownloading akquant (7.9MiB)\n Downloaded plotly\n Downloaded pandas\n Downloaded akquant\n Downloaded pyarrow\n Downloaded polars-runtime-32\nInstalled 17 packages in 90ms\n缺少 MCP SDK(需要 mcp>=2.3), 请先安装: pip install \"akquant[mcp]\"",
         "method": "pypi",
@@ -33,6 +47,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:58:56.670Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading plotly (9.2MiB)\nDownloading akquant (8.6MiB)\nDownloading pandas (10.3MiB)\nDownloading polars-runtime-32 (51.4MiB)\nDownloading pyarrow (27.7MiB)\n Downloaded akquant\n Downloaded polars-runtime-32\n Downloaded pyarrow\n Downloaded plotly\n Downloaded pandas\nInstalled 18 packages in 29.66s\n\\u7f3a\\u5c11 MCP SDK(\\u9700\\u8981 mcp>=2.3), \\u8bf7\\u5148\\u5b89\\u88c5: pip install \"akquant[mcp]\"",
+        "method": "pypi",
+        "runId": "2026-11-23T11-58-56Z-0e7bf5",
+        "status": "needs_config"
+      },
       {
         "date": "2026-11-16T10:51:03.688Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading plotly (9.2MiB)\nDownloading pandas (10.3MiB)\nDownloading akquant (8.5MiB)\nDownloading polars-runtime-32 (51.4MiB)\nDownloading pyarrow (27.7MiB)\n Downloaded akquant\n Downloaded polars-runtime-32\n Downloaded pyarrow\n Downloaded pandas\n Downloaded plotly\nInstalled 18 packages in 11.23s\n\\u7f3a\\u5c11 MCP SDK(\\u9700\\u8981 mcp>=2.3), \\u8bf7\\u5148\\u5b89\\u88c5: pip install \"akquant[mcp]\"",

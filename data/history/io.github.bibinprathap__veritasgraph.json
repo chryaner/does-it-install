@@ -2,6 +2,32 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:40.736Z",
+        "method": "pypi",
+        "runId": "2026-11-23T11-58-40Z-f7f282",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "veritasgraph_check_answerable",
+          "veritasgraph_query",
+          "veritasgraph_search_entities",
+          "veritasgraph_get_entity",
+          "veritasgraph_get_graph",
+          "veritasgraph_get_ontology",
+          "veritasgraph_search_terms",
+          "veritasgraph_get_term",
+          "veritasgraph_get_answer_receipt",
+          "veritasgraph_compile_status",
+          "veritasgraph_structured_search",
+          "veritasgraph_structured_get_term",
+          "veritasgraph_structured_list_measures",
+          "veritasgraph_structured_ask",
+          "veritasgraph_ingest_document",
+          "veritasgraph_import_graph",
+          "veritasgraph_propose_term"
+        ]
+      },
+      {
         "date": "2026-11-09T11:02:05.987Z",
         "method": "pypi",
         "runId": "2026-11-09T11-02-05Z-6ec359",
@@ -72,6 +98,32 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:37.996Z",
+        "method": "pypi",
+        "runId": "2026-11-23T11-58-37Z-f970bd",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "veritasgraph_check_answerable",
+          "veritasgraph_query",
+          "veritasgraph_search_entities",
+          "veritasgraph_get_entity",
+          "veritasgraph_get_graph",
+          "veritasgraph_get_ontology",
+          "veritasgraph_search_terms",
+          "veritasgraph_get_term",
+          "veritasgraph_get_answer_receipt",
+          "veritasgraph_compile_status",
+          "veritasgraph_structured_search",
+          "veritasgraph_structured_get_term",
+          "veritasgraph_structured_list_measures",
+          "veritasgraph_structured_ask",
+          "veritasgraph_ingest_document",
+          "veritasgraph_import_graph",
+          "veritasgraph_propose_term"
+        ]
+      },
+      {
         "date": "2026-11-09T11:01:54.903Z",
         "method": "pypi",
         "runId": "2026-11-09T11-01-54Z-9aacb2",
@@ -141,6 +193,32 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:58:54.641Z",
+        "method": "pypi",
+        "runId": "2026-11-23T11-58-54Z-d40aaf",
+        "status": "pass",
+        "toolCount": 17,
+        "toolNames": [
+          "veritasgraph_check_answerable",
+          "veritasgraph_query",
+          "veritasgraph_search_entities",
+          "veritasgraph_get_entity",
+          "veritasgraph_get_graph",
+          "veritasgraph_get_ontology",
+          "veritasgraph_search_terms",
+          "veritasgraph_get_term",
+          "veritasgraph_get_answer_receipt",
+          "veritasgraph_compile_status",
+          "veritasgraph_structured_search",
+          "veritasgraph_structured_get_term",
+          "veritasgraph_structured_list_measures",
+          "veritasgraph_structured_ask",
+          "veritasgraph_ingest_document",
+          "veritasgraph_import_graph",
+          "veritasgraph_propose_term"
+        ]
+      },
       {
         "date": "2026-11-09T11:02:25.384Z",
         "method": "pypi",

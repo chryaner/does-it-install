@@ -1,0 +1,90 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-23T11:58:40.736Z",
+        "installMs": 2088,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-40Z-f7f282",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "analyze",
+          "bridge",
+          "refresh",
+          "record",
+          "build",
+          "diff",
+          "profile",
+          "bench",
+          "shadow",
+          "map",
+          "gate",
+          "app_record",
+          "app_replay",
+          "app_front_door",
+          "app_wire",
+          "app_lift"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-23T11:58:37.996Z",
+        "installMs": 1602,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-37Z-f970bd",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "analyze",
+          "bridge",
+          "refresh",
+          "record",
+          "build",
+          "diff",
+          "profile",
+          "bench",
+          "shadow",
+          "map",
+          "gate",
+          "app_record",
+          "app_replay",
+          "app_front_door",
+          "app_wire",
+          "app_lift"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-23T11:58:54.641Z",
+        "installMs": 3957,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-54Z-d40aaf",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "analyze",
+          "bridge",
+          "refresh",
+          "record",
+          "build",
+          "diff",
+          "profile",
+          "bench",
+          "shadow",
+          "map",
+          "gate",
+          "app_record",
+          "app_replay",
+          "app_front_door",
+          "app_wire",
+          "app_lift"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.erkamyaman/rust-anything",
+  "slug": "io.github.erkamyaman__rust-anything"
+}

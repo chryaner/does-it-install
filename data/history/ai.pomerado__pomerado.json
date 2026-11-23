@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-23T11:58:40.736Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The request's credentials were missing, expired or rejected. Sign in again, or send a valid API key or access token.\",\"retryable\":false,\"docs_url\":\"https://docs.pomerado.ai/errors#unauthorized\",\"details\":{}}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-23T11-58-40Z-f7f282",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-23T11:58:37.996Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The request's credentials were missing, expired or rejected. Sign in again, or send a valid API key or access token.\",\"retryable\":false,\"docs_url\":\"https://docs.pomerado.ai/errors#unauthorized\",\"details\":{}}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-23T11-58-37Z-f970bd",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-23T11:58:54.641Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The request's credentials were missing, expired or rejected. Sign in again, or send a valid API key or access token.\",\"retryable\":false,\"docs_url\":\"https://docs.pomerado.ai/errors#unauthorized\",\"details\":{}}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-23T11-58-54Z-d40aaf",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "ai.pomerado/pomerado",
+  "slug": "ai.pomerado__pomerado"
+}

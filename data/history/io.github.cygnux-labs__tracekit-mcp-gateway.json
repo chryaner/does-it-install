@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:40.736Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND {tracekit_gateway}",
+        "method": "remote-http",
+        "runId": "2026-11-23T11-58-40Z-f7f282",
+        "status": "connect_failed"
+      },
+      {
         "date": "2026-11-16T10:50:54.649Z",
         "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND {tracekit_gateway}",
         "method": "remote-http",
@@ -11,6 +18,13 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:37.996Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND {tracekit_gateway}",
+        "method": "remote-http",
+        "runId": "2026-11-23T11-58-37Z-f970bd",
+        "status": "connect_failed"
+      },
+      {
         "date": "2026-11-16T10:50:46.214Z",
         "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND {tracekit_gateway}",
         "method": "remote-http",
@@ -19,6 +33,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:58:54.641Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND {tracekit_gateway}",
+        "method": "remote-http",
+        "runId": "2026-11-23T11-58-54Z-d40aaf",
+        "status": "connect_failed"
+      },
       {
         "date": "2026-11-16T10:51:03.688Z",
         "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND {tracekit_gateway}",

@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:39.889Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n2026-11-23 12:00:10,980 - docling_mcp - INFO - loading conversion tools...\n2026-11-23 12:00:10,998 - docling_mcp - INFO - loading generation tools...\n2026-11-23 12:00:11,592 - docling_mcp - INFO - loading manipulation tools...\n2026-11-23 12:00:11,600 - docling_mcp - INFO - loading prompts...\n2026-11-23 12:00:11,608 - docling_mcp - INFO - starting up Docling MCP-server ...\nINFO:     Started server process [6381]\nINFO:     Waiting for application startup.\n[11/23/26 12:00:11] INFO     StreamableHTTP       streamable_http_manager.py:162\n                             session manager                                    \n                             started                                            \nINFO:     Application startup complete.\nINFO:     Uvicorn running on http://localhost:8000 (Press CTRL+C to quit)",
+        "method": "pypi",
+        "runId": "2026-11-23T11-58-39Z-0cc398",
+        "status": "timeout"
+      },
+      {
         "date": "2026-11-16T10:50:54.649Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n2026-11-16 10:58:40,113 - docling_mcp - INFO - loading conversion tools...\n2026-11-16 10:58:40,146 - docling_mcp - INFO - loading generation tools...\n2026-11-16 10:58:41,207 - docling_mcp - INFO - loading manipulation tools...\n2026-11-16 10:58:41,225 - docling_mcp - INFO - loading prompts...\n2026-11-16 10:58:41,262 - docling_mcp - INFO - starting up Docling MCP-server ...\nINFO:     Started server process [19504]\nINFO:     Waiting for application startup.\n[11/16/26 10:58:41] INFO     StreamableHTTP       streamable_http_manager.py:162\n                             session manager                                    \n                             started                                            \nINFO:     Application startup complete.\nINFO:     Uvicorn running on http://localhost:8000 (Press CTRL+C to quit)",
         "method": "pypi",
@@ -46,6 +53,13 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:35.779Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n2026-11-23 11:59:57,284 - docling_mcp - INFO - loading conversion tools...\n2026-11-23 11:59:57,296 - docling_mcp - INFO - loading generation tools...\n2026-11-23 11:59:57,765 - docling_mcp - INFO - loading manipulation tools...\n2026-11-23 11:59:57,776 - docling_mcp - INFO - loading prompts...\n2026-11-23 11:59:57,786 - docling_mcp - INFO - starting up Docling MCP-server ...\nINFO:     Started server process [4366]\nINFO:     Waiting for application startup.\n[11/23/26 11:59:57] INFO     StreamableHTTP       streamable_http_manager.py:162\n                             session manager                                    \n                             started                                            \nINFO:     Application startup complete.\nINFO:     Uvicorn running on http://localhost:8000 (Press CTRL+C to quit)",
+        "method": "pypi",
+        "runId": "2026-11-23T11-58-35Z-28b592",
+        "status": "timeout"
+      },
+      {
         "date": "2026-11-16T10:50:46.214Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n2026-11-16 10:53:10,393 - docling_mcp - INFO - loading conversion tools...\n2026-11-16 10:53:10,405 - docling_mcp - INFO - loading generation tools...\n2026-11-16 10:53:10,839 - docling_mcp - INFO - loading manipulation tools...\n2026-11-16 10:53:10,847 - docling_mcp - INFO - loading prompts...\n2026-11-16 10:53:10,855 - docling_mcp - INFO - starting up Docling MCP-server ...\nINFO:     Started server process [5304]\nINFO:     Waiting for application startup.\n[11/16/26 10:53:10] INFO     StreamableHTTP       streamable_http_manager.py:162\n                             session manager                                    \n                             started                                            \nINFO:     Application startup complete.\nINFO:     Uvicorn running on http://localhost:8000 (Press CTRL+C to quit)",
         "method": "pypi",
@@ -89,6 +103,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:58:56.670Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n2026-11-23 12:21:12,764 - docling_mcp - INFO - loading conversion tools...\r\n2026-11-23 12:21:12,808 - docling_mcp - INFO - loading generation tools...\r\n2026-11-23 12:21:14,400 - docling_mcp - INFO - loading manipulation tools...\r\n2026-11-23 12:21:14,410 - docling_mcp - INFO - loading prompts...\r\n2026-11-23 12:21:14,472 - docling_mcp - INFO - starting up Docling MCP-server ...\r\nINFO:     Started server process [7860]\r\nINFO:     Waiting for application startup.\r\n[11/23/26 12:21:14] INFO     StreamableHTTP      streamable_http_manager.py:162\r\n                             session manager                                   \r\n                             started                                           \r\nINFO:     Application startup complete.\r\nINFO:     Uvicorn running on http://localhost:8000 (Press CTRL+C to quit)",
+        "method": "pypi",
+        "runId": "2026-11-23T11-58-56Z-0e7bf5",
+        "status": "timeout"
+      },
       {
         "date": "2026-11-16T10:51:03.688Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: Unexpected token 'I', \"INFO:     \"... is not valid JSON\n--- stderr (tail) ---\n2026-11-16 11:10:37,223 - docling_mcp - INFO - loading conversion tools...\r\n2026-11-16 11:10:37,308 - docling_mcp - INFO - loading generation tools...\r\n2026-11-16 11:10:39,315 - docling_mcp - INFO - loading manipulation tools...\r\n2026-11-16 11:10:39,328 - docling_mcp - INFO - loading prompts...\r\n2026-11-16 11:10:39,991 - docling_mcp - INFO - starting up Docling MCP-server ...\r\nINFO:     Started server process [9888]\r\nINFO:     Waiting for application startup.\r\n[11/16/26 11:10:40] INFO     StreamableHTTP      streamable_http_manager.py:162\r\n                             session manager                                   \r\n                             started                                           \r\nINFO:     Application startup complete.\r\nINFO:     Uvicorn running on http://localhost:8000 (Press CTRL+C to quit)",

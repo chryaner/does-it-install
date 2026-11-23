@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:41.956Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nerror: No solution found when resolving tool dependencies\n  cause: Because onnxruntime>=1.24.2 has no wheels with a matching Python ABI tag (e.g., `cp315`) and fastembed>=0.8.0 depends on onnxruntime>=1.24.2, we can conclude that fastembed>=0.8.0 cannot be used.\n         And because marm-mcp-server>=2.60.1 depends on fastembed>=0.8.0 and you require marm-mcp-server==2.60.1, we can conclude that your requirements are unsatisfiable.\n\nhint: You require CPython 3.15 (`cp315`), but we only found wheels for `onnxruntime` (v1.32.0) with the following Python ABI tags: `cp311`, `cp312`, `cp313`, `cp313t`, `cp314`, `cp314t`",
+        "method": "pypi",
+        "runId": "2026-11-23T11-58-41Z-598376",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-11-16T10:50:49.802Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nerror: No solution found when resolving tool dependencies\n  cause: Because onnxruntime>=1.24.2 has no wheels with a matching Python ABI tag (e.g., `cp315`) and fastembed>=0.8.0 depends on onnxruntime>=1.24.2, we can conclude that fastembed>=0.8.0 cannot be used.\n         And because marm-mcp-server>=2.60.1 depends on fastembed>=0.8.0 and you require marm-mcp-server==2.60.1, we can conclude that your requirements are unsatisfiable.\n\nhint: You require CPython 3.15 (`cp315`), but we only found wheels for `onnxruntime` (v1.32.0) with the following Python ABI tags: `cp311`, `cp312`, `cp313`, `cp313t`, `cp314`, `cp314t`",
         "method": "pypi",
@@ -38,6 +45,31 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-11-23T11:58:39.705Z",
+        "method": "pypi",
+        "runId": "2026-11-23T11-58-39Z-025f37",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "marm_smart_recall",
+          "marm_log_entry",
+          "marm_log_show",
+          "marm_delete",
+          "marm_notebook",
+          "marm_summary",
+          "marm_compaction",
+          "marm_distill",
+          "marm_graph_index",
+          "marm_code_lookup",
+          "marm_code_context",
+          "marm_graph_trace",
+          "marm_graph_architecture",
+          "marm_graph_impact",
+          "marm_concept_build",
+          "marm_concept_recall"
+        ]
+      },
       {
         "date": "2026-11-16T10:50:47.770Z",
         "method": "pypi",
@@ -129,6 +161,31 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:59:27.112Z",
+        "method": "pypi",
+        "runId": "2026-11-23T11-59-27Z-8b35cc",
+        "status": "pass",
+        "toolCount": 16,
+        "toolNames": [
+          "marm_smart_recall",
+          "marm_log_entry",
+          "marm_log_show",
+          "marm_delete",
+          "marm_notebook",
+          "marm_summary",
+          "marm_compaction",
+          "marm_distill",
+          "marm_graph_index",
+          "marm_code_lookup",
+          "marm_code_context",
+          "marm_graph_trace",
+          "marm_graph_architecture",
+          "marm_graph_impact",
+          "marm_concept_build",
+          "marm_concept_recall"
+        ]
+      },
       {
         "date": "2026-11-16T10:51:00.349Z",
         "method": "pypi",

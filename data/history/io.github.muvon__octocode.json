@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:39.889Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\noctocode: downloading 0.29.2...",
+        "installMs": 712,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-39Z-0cc398",
+        "status": "timeout"
+      },
+      {
         "date": "2026-11-16T10:50:47.927Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\noctocode: downloading 0.29.2...",
         "installMs": 856,
@@ -49,6 +57,20 @@
       }
     ],
     "linux": [
+      {
+        "date": "2026-11-23T11:58:35.779Z",
+        "installMs": 757,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-35Z-28b592",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "graphrag",
+          "semantic_search",
+          "structural_search",
+          "view_signatures"
+        ]
+      },
       {
         "date": "2026-11-16T10:50:42.587Z",
         "installMs": 981,
@@ -121,6 +143,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:58:56.670Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\noctocode: downloading 0.29.2...\ntar: Cannot connect to C: resolve failed\noctocode: Command failed: tar -xf C:\\Users\\runneradmin\\.cache\\muvon\\octocode\\0.29.2.5668\\archive.zip -C C:\\Users\\runneradmin\\.cache\\muvon\\octocode\\0.29.2.5668",
+        "installMs": 3035,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-56Z-0e7bf5",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-11-16T10:51:04.903Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\noctocode: downloading 0.29.2...\ntar: Cannot connect to C: resolve failed\noctocode: Command failed: tar -xf C:\\Users\\runneradmin\\.cache\\muvon\\octocode\\0.29.2.5872\\archive.zip -C C:\\Users\\runneradmin\\.cache\\muvon\\octocode\\0.29.2.5872",

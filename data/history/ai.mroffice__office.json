@@ -1,0 +1,75 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-23T11:58:40.736Z",
+        "installMs": 6279,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-40Z-f7f282",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "create_document",
+          "open_document",
+          "update_document",
+          "get_document",
+          "render_page",
+          "export_document",
+          "list_documents",
+          "sign_in",
+          "sign_out",
+          "widget_load",
+          "widget_save"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-23T11:58:37.996Z",
+        "installMs": 4959,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-37Z-f970bd",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "create_document",
+          "open_document",
+          "update_document",
+          "get_document",
+          "render_page",
+          "export_document",
+          "list_documents",
+          "sign_in",
+          "sign_out",
+          "widget_load",
+          "widget_save"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-23T11:58:54.641Z",
+        "installMs": 177145,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-54Z-d40aaf",
+        "status": "pass",
+        "toolCount": 11,
+        "toolNames": [
+          "create_document",
+          "open_document",
+          "update_document",
+          "get_document",
+          "render_page",
+          "export_document",
+          "list_documents",
+          "sign_in",
+          "sign_out",
+          "widget_load",
+          "widget_save"
+        ]
+      }
+    ]
+  },
+  "serverId": "ai.mroffice/office",
+  "slug": "ai.mroffice__office"
+}

@@ -2,6 +2,26 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:40.736Z",
+        "installMs": 5187,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-40Z-f7f282",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "persons_lookup",
+          "companies_lookup",
+          "vehicles_lookup",
+          "properties_lookup",
+          "financial_data",
+          "employment_data",
+          "sanctions_check",
+          "social_signals",
+          "antifraud_score",
+          "address_validation"
+        ]
+      },
+      {
         "date": "2026-11-09T11:02:05.987Z",
         "installMs": 6361,
         "method": "npm",
@@ -64,6 +84,26 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:37.996Z",
+        "installMs": 3474,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-37Z-f970bd",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "persons_lookup",
+          "companies_lookup",
+          "vehicles_lookup",
+          "properties_lookup",
+          "financial_data",
+          "employment_data",
+          "sanctions_check",
+          "social_signals",
+          "antifraud_score",
+          "address_validation"
+        ]
+      },
+      {
         "date": "2026-11-09T11:01:54.903Z",
         "installMs": 3648,
         "method": "npm",
@@ -125,6 +165,26 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:58:54.641Z",
+        "installMs": 112619,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-54Z-d40aaf",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "persons_lookup",
+          "companies_lookup",
+          "vehicles_lookup",
+          "properties_lookup",
+          "financial_data",
+          "employment_data",
+          "sanctions_check",
+          "social_signals",
+          "antifraud_score",
+          "address_validation"
+        ]
+      },
       {
         "date": "2026-11-09T11:02:25.384Z",
         "installMs": 201378,

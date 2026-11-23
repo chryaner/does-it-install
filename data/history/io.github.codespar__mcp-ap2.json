@@ -2,6 +2,38 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:39.889Z",
+        "installMs": 4251,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-39Z-0cc398",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "register_agent",
+          "get_agent",
+          "list_agents",
+          "revoke_agent",
+          "authorize_payment",
+          "get_authorization",
+          "list_authorizations",
+          "execute_payment",
+          "get_audit_trail",
+          "list_audit_events",
+          "list_payment_methods",
+          "get_transaction",
+          "list_transactions",
+          "create_intent_mandate",
+          "create_cart_mandate",
+          "create_payment_mandate",
+          "verify_credential",
+          "create_presentation",
+          "verify_presentation",
+          "resolve_did",
+          "create_receipt",
+          "verify_receipt"
+        ]
+      },
+      {
         "date": "2026-11-09T11:02:04.817Z",
         "installMs": 11104,
         "method": "npm",
@@ -100,6 +132,38 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:35.779Z",
+        "installMs": 3829,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-35Z-28b592",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "register_agent",
+          "get_agent",
+          "list_agents",
+          "revoke_agent",
+          "authorize_payment",
+          "get_authorization",
+          "list_authorizations",
+          "execute_payment",
+          "get_audit_trail",
+          "list_audit_events",
+          "list_payment_methods",
+          "get_transaction",
+          "list_transactions",
+          "create_intent_mandate",
+          "create_cart_mandate",
+          "create_payment_mandate",
+          "verify_credential",
+          "create_presentation",
+          "verify_presentation",
+          "resolve_did",
+          "create_receipt",
+          "verify_receipt"
+        ]
+      },
+      {
         "date": "2026-11-09T11:02:02.710Z",
         "installMs": 4616,
         "method": "npm",
@@ -197,6 +261,38 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:58:56.670Z",
+        "installMs": 186137,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-56Z-0e7bf5",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "register_agent",
+          "get_agent",
+          "list_agents",
+          "revoke_agent",
+          "authorize_payment",
+          "get_authorization",
+          "list_authorizations",
+          "execute_payment",
+          "get_audit_trail",
+          "list_audit_events",
+          "list_payment_methods",
+          "get_transaction",
+          "list_transactions",
+          "create_intent_mandate",
+          "create_cart_mandate",
+          "create_payment_mandate",
+          "verify_credential",
+          "create_presentation",
+          "verify_presentation",
+          "resolve_did",
+          "create_receipt",
+          "verify_receipt"
+        ]
+      },
       {
         "date": "2026-11-09T11:02:18.514Z",
         "installMs": 140576,

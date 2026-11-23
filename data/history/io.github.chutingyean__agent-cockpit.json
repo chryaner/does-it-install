@@ -2,6 +2,35 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:40.736Z",
+        "installMs": 5393,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-40Z-f7f282",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "cockpit_overview",
+          "cockpit_plan",
+          "cockpit_stage",
+          "cockpit_task",
+          "cockpit_run",
+          "cockpit_claim",
+          "cockpit_hypothesis",
+          "cockpit_premise",
+          "cockpit_decide",
+          "cockpit_decisions",
+          "cockpit_report",
+          "cockpit_review",
+          "canvas_list",
+          "canvas_read",
+          "canvas_search",
+          "canvas_createNode",
+          "canvas_link",
+          "canvas_diagram",
+          "canvas_structure"
+        ]
+      },
+      {
         "date": "2026-11-16T10:50:49.802Z",
         "installMs": 9010,
         "method": "npm",
@@ -62,6 +91,35 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:37.996Z",
+        "installMs": 3757,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-37Z-f970bd",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "cockpit_overview",
+          "cockpit_plan",
+          "cockpit_stage",
+          "cockpit_task",
+          "cockpit_run",
+          "cockpit_claim",
+          "cockpit_hypothesis",
+          "cockpit_premise",
+          "cockpit_decide",
+          "cockpit_decisions",
+          "cockpit_report",
+          "cockpit_review",
+          "canvas_list",
+          "canvas_read",
+          "canvas_search",
+          "canvas_createNode",
+          "canvas_link",
+          "canvas_diagram",
+          "canvas_structure"
+        ]
+      },
+      {
         "date": "2026-11-16T10:50:47.770Z",
         "installMs": 4060,
         "method": "npm",
@@ -121,6 +179,35 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:58:54.641Z",
+        "installMs": 85969,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-54Z-d40aaf",
+        "status": "pass",
+        "toolCount": 19,
+        "toolNames": [
+          "cockpit_overview",
+          "cockpit_plan",
+          "cockpit_stage",
+          "cockpit_task",
+          "cockpit_run",
+          "cockpit_claim",
+          "cockpit_hypothesis",
+          "cockpit_premise",
+          "cockpit_decide",
+          "cockpit_decisions",
+          "cockpit_report",
+          "cockpit_review",
+          "canvas_list",
+          "canvas_read",
+          "canvas_search",
+          "canvas_createNode",
+          "canvas_link",
+          "canvas_diagram",
+          "canvas_structure"
+        ]
+      },
       {
         "date": "2026-11-16T10:51:00.349Z",
         "installMs": 107284,

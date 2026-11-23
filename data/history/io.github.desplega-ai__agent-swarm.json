@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:41.956Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: Unexpected end of JSON input\nUnexpected token '⠋', \" ⠋ Starting\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '\u001b', \"\u001b[2K\u001b[1A\u001b[\"... is not valid JSON\nUnexpected token '✗', \" ✗ Failed t\"... is not valid JSON\nUnexpected token 'O', \" Only URLs \"... is not valid JSON\nUnexpected token 'E', \" ESM loader\"... is not valid JSON\nUnexpected end of JSON input",
+        "installMs": 98814,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-41Z-598376",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-11-16T10:50:47.927Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: Unexpected end of JSON input\nUnexpected token '⠋', \" ⠋ Starting\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '\u001b', \"\u001b[2K\u001b[1A\u001b[\"... is not valid JSON\nUnexpected token '✗', \" ✗ Failed t\"... is not valid JSON\nUnexpected token 'O', \" Only URLs \"... is not valid JSON\nUnexpected token 'E', \" ESM loader\"... is not valid JSON\nUnexpected end of JSON input",
         "installMs": 112985,
@@ -28,6 +36,14 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:39.705Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: Unexpected end of JSON input\nUnexpected token '⠋', \" ⠋ Starting\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '\u001b', \"\u001b[2K\u001b[1A\u001b[\"... is not valid JSON\nUnexpected token '✗', \" ✗ Failed t\"... is not valid JSON\nUnexpected token 'O', \" Only URLs \"... is not valid JSON\nUnexpected token 'E', \" ESM loader\"... is not valid JSON\nUnexpected end of JSON input",
+        "installMs": 76789,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-39Z-025f37",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-11-16T10:50:42.587Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: Unexpected end of JSON input\nUnexpected token '⠋', \" ⠋ Starting\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '\u001b', \"\u001b[2K\u001b[1A\u001b[\"... is not valid JSON\nUnexpected token '✗', \" ✗ Failed t\"... is not valid JSON\nUnexpected token 'O', \" Only URLs \"... is not valid JSON\nUnexpected token 'E', \" ESM loader\"... is not valid JSON\nUnexpected end of JSON input",
         "installMs": 72301,
@@ -53,6 +69,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:59:27.112Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: Unexpected end of JSON input\nUnexpected token '⠋', \" ⠋ Starting\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '\u001b', \"\u001b[2K\u001b[1A\u001b[\"... is not valid JSON\nUnexpected token '✗', \" ✗ Failed t\"... is not valid JSON\nUnexpected token 'O', \" Only URLs \"... is not valid JSON\nUnexpected token 'E', \" ESM loader\"... is not valid JSON\nUnexpected end of JSON input",
+        "installMs": 822390,
+        "method": "npm",
+        "runId": "2026-11-23T11-59-27Z-8b35cc",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-11-16T10:51:04.903Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: Unexpected end of JSON input\nUnexpected token '⠋', \" ⠋ Starting\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token '\u001b', \"\u001b[2K\u001b[1A\u001b[\"... is not valid JSON\nUnexpected token '✗', \" ✗ Failed t\"... is not valid JSON\nUnexpected token 'O', \" Only URLs \"... is not valid JSON\nUnexpected token 'E', \" ESM loader\"... is not valid JSON\nUnexpected end of JSON input",

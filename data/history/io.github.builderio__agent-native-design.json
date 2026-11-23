@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:40.736Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Unauthorized\",\"message\":\"Authentication required. Run `npx -y @agent-native/core@latest reconnect https://design.agent-native.com` to re-authenticate this MCP connector without reinstalling it (or, in a Claude Code host, run /mcp and choose Authenticate), then retry. For first-time setup, run `npx @agent-native/core@latest connect https://design.agent-native.com`.\",\"authenticate\":{\"command\":\"npx -y @agent-native/core@latest reconnect https://design.agent-native.com\",\"firstTimeCommand\":\"npx @agent-native/core@latest connect https://design.agent-native.com\",\"authorizeUrl\":\"https://design.agent-native.com/mcp/oauth/authorize\",\"resourceMetadataUrl\":\"https://design.agent-native.com/.well-known/oauth-protected-resource\",\"mcpUrl\":\"https://design.agent-native.com/mcp\"}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-23T11-58-40Z-f7f282",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-11-16T10:50:54.649Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Unauthorized\",\"message\":\"Authentication required. Run `npx -y @agent-native/core@latest reconnect https://design.agent-native.com` to re-authenticate this MCP connector without reinstalling it (or, in a Claude Code host, run /mcp and choose Authenticate), then retry. For first-time setup, run `npx @agent-native/core@latest connect https://design.agent-native.com`.\",\"authenticate\":{\"command\":\"npx -y @agent-native/core@latest reconnect https://design.agent-native.com\",\"firstTimeCommand\":\"npx @agent-native/core@latest connect https://design.agent-native.com\",\"authorizeUrl\":\"https://design.agent-native.com/mcp/oauth/authorize\",\"resourceMetadataUrl\":\"https://design.agent-native.com/.well-known/oauth-protected-resource\",\"mcpUrl\":\"https://design.agent-native.com/mcp\"}} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -25,6 +32,13 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:37.996Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Unauthorized\",\"message\":\"Authentication required. Run `npx -y @agent-native/core@latest reconnect https://design.agent-native.com` to re-authenticate this MCP connector without reinstalling it (or, in a Claude Code host, run /mcp and choose Authenticate), then retry. For first-time setup, run `npx @agent-native/core@latest connect https://design.agent-native.com`.\",\"authenticate\":{\"command\":\"npx -y @agent-native/core@latest reconnect https://design.agent-native.com\",\"firstTimeCommand\":\"npx @agent-native/core@latest connect https://design.agent-native.com\",\"authorizeUrl\":\"https://design.agent-native.com/mcp/oauth/authorize\",\"resourceMetadataUrl\":\"https://design.agent-native.com/.well-known/oauth-protected-resource\",\"mcpUrl\":\"https://design.agent-native.com/mcp\"}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-23T11-58-37Z-f970bd",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-11-16T10:50:46.214Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Unauthorized\",\"message\":\"Authentication required. Run `npx -y @agent-native/core@latest reconnect https://design.agent-native.com` to re-authenticate this MCP connector without reinstalling it (or, in a Claude Code host, run /mcp and choose Authenticate), then retry. For first-time setup, run `npx @agent-native/core@latest connect https://design.agent-native.com`.\",\"authenticate\":{\"command\":\"npx -y @agent-native/core@latest reconnect https://design.agent-native.com\",\"firstTimeCommand\":\"npx @agent-native/core@latest connect https://design.agent-native.com\",\"authorizeUrl\":\"https://design.agent-native.com/mcp/oauth/authorize\",\"resourceMetadataUrl\":\"https://design.agent-native.com/.well-known/oauth-protected-resource\",\"mcpUrl\":\"https://design.agent-native.com/mcp\"}} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -47,6 +61,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:58:54.641Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Unauthorized\",\"message\":\"Authentication required. Run `npx -y @agent-native/core@latest reconnect https://design.agent-native.com` to re-authenticate this MCP connector without reinstalling it (or, in a Claude Code host, run /mcp and choose Authenticate), then retry. For first-time setup, run `npx @agent-native/core@latest connect https://design.agent-native.com`.\",\"authenticate\":{\"command\":\"npx -y @agent-native/core@latest reconnect https://design.agent-native.com\",\"firstTimeCommand\":\"npx @agent-native/core@latest connect https://design.agent-native.com\",\"authorizeUrl\":\"https://design.agent-native.com/mcp/oauth/authorize\",\"resourceMetadataUrl\":\"https://design.agent-native.com/.well-known/oauth-protected-resource\",\"mcpUrl\":\"https://design.agent-native.com/mcp\"}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-23T11-58-54Z-d40aaf",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-11-16T10:51:03.688Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"Unauthorized\",\"message\":\"Authentication required. Run `npx -y @agent-native/core@latest reconnect https://design.agent-native.com` to re-authenticate this MCP connector without reinstalling it (or, in a Claude Code host, run /mcp and choose Authenticate), then retry. For first-time setup, run `npx @agent-native/core@latest connect https://design.agent-native.com`.\",\"authenticate\":{\"command\":\"npx -y @agent-native/core@latest reconnect https://design.agent-native.com\",\"firstTimeCommand\":\"npx @agent-native/core@latest connect https://design.agent-native.com\",\"authorizeUrl\":\"https://design.agent-native.com/mcp/oauth/authorize\",\"resourceMetadataUrl\":\"https://design.agent-native.com/.well-known/oauth-protected-resource\",\"mcpUrl\":\"https://design.agent-native.com/mcp\"}} (endpoint reachable but requires credentials the harness does not send)",

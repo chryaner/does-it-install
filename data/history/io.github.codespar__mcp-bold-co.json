@@ -2,6 +2,23 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:39.889Z",
+        "installMs": 3664,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-39Z-0cc398",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "create_payment_link",
+          "create_pse_payment_link",
+          "create_card_payment_link",
+          "get_payment_link",
+          "list_payment_methods",
+          "generate_checkout_signature",
+          "validate_webhook_signature"
+        ]
+      },
+      {
         "date": "2026-11-09T11:02:04.817Z",
         "installMs": 10700,
         "method": "npm",
@@ -55,6 +72,23 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:35.779Z",
+        "installMs": 3473,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-35Z-28b592",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "create_payment_link",
+          "create_pse_payment_link",
+          "create_card_payment_link",
+          "get_payment_link",
+          "list_payment_methods",
+          "generate_checkout_signature",
+          "validate_webhook_signature"
+        ]
+      },
+      {
         "date": "2026-11-09T11:02:02.710Z",
         "installMs": 4534,
         "method": "npm",
@@ -107,6 +141,23 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:58:56.670Z",
+        "installMs": 134865,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-56Z-0e7bf5",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "create_payment_link",
+          "create_pse_payment_link",
+          "create_card_payment_link",
+          "get_payment_link",
+          "list_payment_methods",
+          "generate_checkout_signature",
+          "validate_webhook_signature"
+        ]
+      },
       {
         "date": "2026-11-09T11:02:18.514Z",
         "installMs": 126039,

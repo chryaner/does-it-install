@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:39.889Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: ori [options] [command]\n\nOri Mnemos - markdown-native cognitive harness for persistent agent memory\n\nOptions:\n  -V, --version                  output the version number\n  -h, --help                     display help for command\n\nCommands:\n  init [dir]\n  status\n  health\n  query [options] <kind> [note]\n  validate <note>\n  add [options] <title>\n  promote [options] [note]\n  archive [options]\n  bridge [options] <target>\n  serve [options]\n  index [options] <action>\n  graph <action>\n  help [command]                 display help for command",
+        "installMs": 25269,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-39Z-0cc398",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-11-09T11:02:04.817Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: ori [options] [command]\n\nOri Mnemos - markdown-native cognitive harness for persistent agent memory\n\nOptions:\n  -V, --version                  output the version number\n  -h, --help                     display help for command\n\nCommands:\n  init [dir]\n  status\n  health\n  query [options] <kind> [note]\n  validate <note>\n  add [options] <title>\n  promote [options] [note]\n  archive [options]\n  bridge [options] <target>\n  serve [options]\n  index [options] <action>\n  graph <action>\n  help [command]                 display help for command",
         "installMs": 24524,
@@ -36,6 +44,14 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:35.779Z",
+        "errorExcerpt": "npm install ori-memory@0.3.0 exited with code 1\n--- stderr (tail) ---\nnpm error code 1\nnpm error path /tmp/does-it-install/dii-npm-LD2z96/node_modules/onnxruntime-node\nnpm error command failed\nnpm error command sh -c node ./script/install\nnpm error Downloading \"https://github.com/microsoft/onnxruntime/releases/download/v1.21.0/onnxruntime-linux-x64-gpu-1.21.0.tgz\"...\nnpm error `nvcc` not found. Assuming CUDA 12.\nnpm error /tmp/does-it-install/dii-npm-LD2z96/node_modules/onnxruntime-node/script/install.js:112\nnpm error         throw new Error(`Failed to download the binaries: ${res.statusCode} ${res.statusMessage}.\nnpm error         ^\nnpm error\nnpm error Error: Failed to download the binaries: 404 Not Found.\nnpm error\nnpm error Use \"--onnxruntime-node-install-cuda=skip\" to skip the installation. You will still be able to use ONNX Runtime, but the CUDA EP will not be available.\nnpm error     at ClientRequest.<anonymous> (/tmp/does-it-install/dii-npm-LD2z96/node_modules/onnxruntime-node/script/install.js:112:15)\nnpm error     at Object.onceWrapper (node:events:634:26)\nnpm error     at ClientRequest.emit (node:events:519:28)\nnpm error     at ClientRequest.emit (node:domain:489:12)\nnpm error     at HTTPParser.parserOnIncomingClient [as onIncoming] (node:_http_client:780:27)\nnpm error     at HTTPParser.parserOnHeadersComplete (node:_http_common:125:17)\nnpm error     at TLSSocket.socketOnData (node:_http_client:615:22)\nnpm error     at TLSSocket.emit (node:events:519:28)\nnpm error     at TLSSocket.emit (node:domain:489:12)\nnpm error     at addChunk (node:internal/streams/readable:561:12)\nnpm error\nnpm error Node.js v22.23.5\nnpm error A complete log of this run can be found in: /tmp/does-it-install/dii-npm-LD2z96/.npm-cache/_logs/2026-11-23T12_01_42_914Z-debug-0.log",
+        "installMs": 8170,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-35Z-28b592",
+        "status": "install_failed"
+      },
+      {
         "date": "2026-11-09T11:02:02.710Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: ori [options] [command]\n\nOri Mnemos - markdown-native cognitive harness for persistent agent memory\n\nOptions:\n  -V, --version                  output the version number\n  -h, --help                     display help for command\n\nCommands:\n  init [dir]\n  status\n  health\n  query [options] <kind> [note]\n  validate <note>\n  add [options] <title>\n  promote [options] [note]\n  archive [options]\n  bridge [options] <target>\n  serve [options]\n  index [options] <action>\n  graph <action>\n  help [command]                 display help for command",
         "installMs": 16517,
@@ -69,6 +85,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:58:56.670Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: ori [options] [command]\n\nOri Mnemos - markdown-native cognitive harness for persistent agent memory\n\nOptions:\n  -V, --version                  output the version number\n  -h, --help                     display help for command\n\nCommands:\n  init [dir]\n  status\n  health\n  query [options] <kind> [note]\n  validate <note>\n  add [options] <title>\n  promote [options] [note]\n  archive [options]\n  bridge [options] <target>\n  serve [options]\n  index [options] <action>\n  graph <action>\n  help [command]                 display help for command",
+        "installMs": 348482,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-56Z-0e7bf5",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-11-09T11:02:18.514Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: ori [options] [command]\n\nOri Mnemos - markdown-native cognitive harness for persistent agent memory\n\nOptions:\n  -V, --version                  output the version number\n  -h, --help                     display help for command\n\nCommands:\n  init [dir]\n  status\n  health\n  query [options] <kind> [note]\n  validate <note>\n  add [options] <title>\n  promote [options] [note]\n  archive [options]\n  bridge [options] <target>\n  serve [options]\n  index [options] <action>\n  graph <action>\n  help [command]                 display help for command",

@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:41.956Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nnode:internal/modules/package_json_reader:314\n  throw new ERR_MODULE_NOT_FOUND(packageName, fileURLToPath(base), null);\n        ^\n\nError [ERR_MODULE_NOT_FOUND]: Cannot find package 'pg' imported from /private/var/folders/q2/p1t6rgxj5fj32g1dc7dmd49r0000gn/T/does-it-install/dii-npm-TAlrUS/node_modules/@butterbase/mcp/dist/eligibility-listener.js\n    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:314:9)\n    at packageResolve (node:internal/modules/esm/resolve:772:81)\n    at moduleResolve (node:internal/modules/esm/resolve:859:18)\n    at defaultResolve (node:internal/modules/esm/resolve:989:11)\n    at #cachedDefaultResolve (node:internal/modules/esm/loader:747:20)\n    at ModuleLoader.resolve (node:internal/modules/esm/loader:724:38)\n    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:320:38)\n    at ModuleJob._link (node:internal/modules/esm/module_job:182:49) {\n  code: 'ERR_MODULE_NOT_FOUND'\n}\n\nNode.js v22.23.5",
+        "installMs": 7138,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-41Z-598376",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-11-16T10:50:49.802Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nnode:internal/modules/package_json_reader:314\n  throw new ERR_MODULE_NOT_FOUND(packageName, fileURLToPath(base), null);\n        ^\n\nError [ERR_MODULE_NOT_FOUND]: Cannot find package 'pg' imported from /private/var/folders/h5/t85nd63d71x27_8gl5gw3l_w0000gn/T/does-it-install/dii-npm-qFgG0R/node_modules/@butterbase/mcp/dist/eligibility-listener.js\n    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:314:9)\n    at packageResolve (node:internal/modules/esm/resolve:772:81)\n    at moduleResolve (node:internal/modules/esm/resolve:859:18)\n    at defaultResolve (node:internal/modules/esm/resolve:989:11)\n    at #cachedDefaultResolve (node:internal/modules/esm/loader:747:20)\n    at ModuleLoader.resolve (node:internal/modules/esm/loader:724:38)\n    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:320:38)\n    at ModuleJob._link (node:internal/modules/esm/module_job:182:49) {\n  code: 'ERR_MODULE_NOT_FOUND'\n}\n\nNode.js v22.23.4",
         "installMs": 15497,
@@ -52,6 +60,14 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:39.705Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nnode:internal/modules/package_json_reader:314\n  throw new ERR_MODULE_NOT_FOUND(packageName, fileURLToPath(base), null);\n        ^\n\nError [ERR_MODULE_NOT_FOUND]: Cannot find package 'pg' imported from /tmp/does-it-install/dii-npm-u1B0Kq/node_modules/@butterbase/mcp/dist/eligibility-listener.js\n    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:314:9)\n    at packageResolve (node:internal/modules/esm/resolve:772:81)\n    at moduleResolve (node:internal/modules/esm/resolve:859:18)\n    at defaultResolve (node:internal/modules/esm/resolve:989:11)\n    at #cachedDefaultResolve (node:internal/modules/esm/loader:747:20)\n    at ModuleLoader.resolve (node:internal/modules/esm/loader:724:38)\n    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:320:38)\n    at ModuleJob._link (node:internal/modules/esm/module_job:182:49) {\n  code: 'ERR_MODULE_NOT_FOUND'\n}\n\nNode.js v22.23.5",
+        "installMs": 7861,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-39Z-025f37",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-11-16T10:50:47.770Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nnode:internal/modules/package_json_reader:314\n  throw new ERR_MODULE_NOT_FOUND(packageName, fileURLToPath(base), null);\n        ^\n\nError [ERR_MODULE_NOT_FOUND]: Cannot find package 'pg' imported from /tmp/does-it-install/dii-npm-WqN8vI/node_modules/@butterbase/mcp/dist/eligibility-listener.js\n    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:314:9)\n    at packageResolve (node:internal/modules/esm/resolve:772:81)\n    at moduleResolve (node:internal/modules/esm/resolve:859:18)\n    at defaultResolve (node:internal/modules/esm/resolve:989:11)\n    at #cachedDefaultResolve (node:internal/modules/esm/loader:747:20)\n    at ModuleLoader.resolve (node:internal/modules/esm/loader:724:38)\n    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:320:38)\n    at ModuleJob._link (node:internal/modules/esm/module_job:182:49) {\n  code: 'ERR_MODULE_NOT_FOUND'\n}\n\nNode.js v22.23.4",
         "installMs": 4510,
@@ -101,6 +117,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:59:27.112Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nnode:internal/modules/package_json_reader:314\r\n  throw new ERR_MODULE_NOT_FOUND(packageName, fileURLToPath(base), null);\r\n        ^\r\n\r\nError [ERR_MODULE_NOT_FOUND]: Cannot find package 'pg' imported from C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-MurGRK\\node_modules\\@butterbase\\mcp\\dist\\eligibility-listener.js\r\n    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:314:9)\r\n    at packageResolve (node:internal/modules/esm/resolve:772:81)\r\n    at moduleResolve (node:internal/modules/esm/resolve:859:18)\r\n    at defaultResolve (node:internal/modules/esm/resolve:989:11)\r\n    at #cachedDefaultResolve (node:internal/modules/esm/loader:747:20)\r\n    at ModuleLoader.resolve (node:internal/modules/esm/loader:724:38)\r\n    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:320:38)\r\n    at ModuleJob._link (node:internal/modules/esm/module_job:182:49) {\r\n  code: 'ERR_MODULE_NOT_FOUND'\r\n}\r\n\r\nNode.js v22.23.5",
+        "installMs": 197456,
+        "method": "npm",
+        "runId": "2026-11-23T11-59-27Z-8b35cc",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-11-16T10:51:00.349Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nnode:internal/modules/package_json_reader:314\r\n  throw new ERR_MODULE_NOT_FOUND(packageName, fileURLToPath(base), null);\r\n        ^\r\n\r\nError [ERR_MODULE_NOT_FOUND]: Cannot find package 'pg' imported from C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\does-it-install\\dii-npm-F4hMqm\\node_modules\\@butterbase\\mcp\\dist\\eligibility-listener.js\r\n    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:314:9)\r\n    at packageResolve (node:internal/modules/esm/resolve:772:81)\r\n    at moduleResolve (node:internal/modules/esm/resolve:859:18)\r\n    at defaultResolve (node:internal/modules/esm/resolve:989:11)\r\n    at #cachedDefaultResolve (node:internal/modules/esm/loader:747:20)\r\n    at ModuleLoader.resolve (node:internal/modules/esm/loader:724:38)\r\n    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:320:38)\r\n    at ModuleJob._link (node:internal/modules/esm/module_job:182:49) {\r\n  code: 'ERR_MODULE_NOT_FOUND'\r\n}\r\n\r\nNode.js v22.23.4",

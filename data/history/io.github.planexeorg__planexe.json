@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:41.956Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND mcp.planexe.org",
+        "method": "remote-http",
+        "runId": "2026-11-23T11-58-41Z-598376",
+        "status": "connect_failed"
+      },
+      {
         "date": "2026-11-09T11:02:04.817Z",
         "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND mcp.planexe.org",
         "method": "remote-http",
@@ -58,6 +65,13 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:39.705Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND mcp.planexe.org",
+        "method": "remote-http",
+        "runId": "2026-11-23T11-58-39Z-025f37",
+        "status": "connect_failed"
+      },
+      {
         "date": "2026-11-09T11:02:02.710Z",
         "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND mcp.planexe.org",
         "method": "remote-http",
@@ -113,6 +127,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:59:27.112Z",
+        "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND mcp.planexe.org",
+        "method": "remote-http",
+        "runId": "2026-11-23T11-59-27Z-8b35cc",
+        "status": "connect_failed"
+      },
       {
         "date": "2026-11-09T11:02:18.514Z",
         "errorExcerpt": "connect failed: fetch failed caused by: getaddrinfo ENOTFOUND mcp.planexe.org",

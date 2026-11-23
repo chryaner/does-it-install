@@ -2,6 +2,23 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:39.889Z",
+        "method": "pypi",
+        "runId": "2026-11-23T11-58-39Z-0cc398",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "add_memory",
+          "search_memories",
+          "get_memories",
+          "get_memory",
+          "update_memory",
+          "delete_memory",
+          "delete_all_memories",
+          "memory_history"
+        ]
+      },
+      {
         "date": "2026-11-16T10:50:54.649Z",
         "method": "pypi",
         "runId": "2026-11-16T10-50-54Z-9f87e0",
@@ -89,6 +106,23 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:35.779Z",
+        "method": "pypi",
+        "runId": "2026-11-23T11-58-35Z-28b592",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "add_memory",
+          "search_memories",
+          "get_memories",
+          "get_memory",
+          "update_memory",
+          "delete_memory",
+          "delete_all_memories",
+          "memory_history"
+        ]
+      },
+      {
         "date": "2026-11-16T10:50:46.214Z",
         "method": "pypi",
         "runId": "2026-11-16T10-50-46Z-5c023d",
@@ -175,6 +209,23 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:58:56.670Z",
+        "method": "pypi",
+        "runId": "2026-11-23T11-58-56Z-0e7bf5",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "add_memory",
+          "search_memories",
+          "get_memories",
+          "get_memory",
+          "update_memory",
+          "delete_memory",
+          "delete_all_memories",
+          "memory_history"
+        ]
+      },
       {
         "date": "2026-11-16T10:51:03.688Z",
         "method": "pypi",

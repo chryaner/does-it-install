@@ -2,6 +2,18 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:41.956Z",
+        "installMs": 8695,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-41Z-598376",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "search-DOES_IT_INSTALL_PLACEHOLDER",
+          "get-config"
+        ]
+      },
+      {
         "date": "2026-11-16T10:50:47.927Z",
         "installMs": 16653,
         "method": "npm",
@@ -76,6 +88,18 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:39.705Z",
+        "installMs": 8155,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-39Z-025f37",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "search-DOES_IT_INSTALL_PLACEHOLDER",
+          "get-config"
+        ]
+      },
+      {
         "date": "2026-11-16T10:50:42.587Z",
         "installMs": 9460,
         "method": "npm",
@@ -149,6 +173,18 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:59:27.112Z",
+        "installMs": 172115,
+        "method": "npm",
+        "runId": "2026-11-23T11-59-27Z-8b35cc",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "search-DOES_IT_INSTALL_PLACEHOLDER",
+          "get-config"
+        ]
+      },
       {
         "date": "2026-11-16T10:51:04.903Z",
         "installMs": 191230,

@@ -2,6 +2,21 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:39.889Z",
+        "installMs": 9581,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-39Z-0cc398",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "githubSearchCode",
+          "githubGetFileContent",
+          "githubViewRepoStructure",
+          "githubSearchRepositories",
+          "githubSearchPullRequests"
+        ]
+      },
+      {
         "date": "2026-11-16T10:50:54.649Z",
         "installMs": 16980,
         "method": "npm",
@@ -94,6 +109,21 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:35.779Z",
+        "installMs": 7787,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-35Z-28b592",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "githubSearchCode",
+          "githubGetFileContent",
+          "githubViewRepoStructure",
+          "githubSearchRepositories",
+          "githubSearchPullRequests"
+        ]
+      },
+      {
         "date": "2026-11-16T10:50:46.214Z",
         "installMs": 7146,
         "method": "npm",
@@ -185,6 +215,21 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:58:56.670Z",
+        "installMs": 285415,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-56Z-0e7bf5",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "githubSearchCode",
+          "githubGetFileContent",
+          "githubViewRepoStructure",
+          "githubSearchRepositories",
+          "githubSearchPullRequests"
+        ]
+      },
       {
         "date": "2026-11-16T10:51:03.688Z",
         "installMs": 203098,

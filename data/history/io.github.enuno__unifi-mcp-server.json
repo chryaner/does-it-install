@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:40.736Z",
+        "errorExcerpt": "unifi-mcp-server declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "installMs": 750,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-40Z-f7f282",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-11-09T11:02:04.817Z",
         "errorExcerpt": "unifi-mcp-server declares no runnable \"bin\" entry, so there is nothing to spawn",
         "installMs": 1796,
@@ -35,6 +43,14 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:37.996Z",
+        "errorExcerpt": "unifi-mcp-server declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "installMs": 489,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-37Z-f970bd",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-11-09T11:02:02.710Z",
         "errorExcerpt": "unifi-mcp-server declares no runnable \"bin\" entry, so there is nothing to spawn",
         "installMs": 673,
@@ -67,6 +83,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:58:54.641Z",
+        "errorExcerpt": "unifi-mcp-server declares no runnable \"bin\" entry, so there is nothing to spawn",
+        "installMs": 22985,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-54Z-d40aaf",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-11-09T11:02:18.514Z",
         "errorExcerpt": "unifi-mcp-server declares no runnable \"bin\" entry, so there is nothing to spawn",

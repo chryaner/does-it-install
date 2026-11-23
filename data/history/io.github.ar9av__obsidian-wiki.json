@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-23T11:58:40.736Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading obsidian-wiki (1.6MiB)\n Downloaded obsidian-wiki\nInstalled 1 package in 5ms\n⚠️  obsidian-wiki 2026.11.8 is installed but setup has never been run.\n   Run: obsidian-wiki setup --vault /path/to/your/vault\nobsidian-wiki mcp: No vault configured. Pass Memory('/path/to/vault'), set OBSIDIAN_VAULT_PATH, or run `obsidian-wiki setup`.",
+        "method": "pypi",
+        "runId": "2026-11-23T11-58-40Z-f7f282",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-23T11:58:37.996Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading obsidian-wiki (1.6MiB)\n Downloaded obsidian-wiki\nInstalled 1 package in 6ms\n⚠️  obsidian-wiki 2026.11.8 is installed but setup has never been run.\n   Run: obsidian-wiki setup --vault /path/to/your/vault\nobsidian-wiki mcp: No vault configured. Pass Memory('/path/to/vault'), set OBSIDIAN_VAULT_PATH, or run `obsidian-wiki setup`.",
+        "method": "pypi",
+        "runId": "2026-11-23T11-58-37Z-f970bd",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-23T11:58:54.641Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading obsidian-wiki (1.6MiB)\n Downloaded obsidian-wiki\nInstalled 1 package in 890ms\n??  obsidian-wiki 2026.11.8 is installed but setup has never been run.\r\n   Run: obsidian-wiki setup --vault /path/to/your/vault\r\nobsidian-wiki mcp: No vault configured. Pass Memory('/path/to/vault'), set OBSIDIAN_VAULT_PATH, or run `obsidian-wiki setup`.",
+        "method": "pypi",
+        "runId": "2026-11-23T11-58-54Z-d40aaf",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.Ar9av/obsidian-wiki",
+  "slug": "io.github.ar9av__obsidian-wiki"
+}

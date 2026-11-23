@@ -2,6 +2,18 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:39.889Z",
+        "installMs": 16580,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-39Z-0cc398",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "get_figma_data",
+          "download_figma_images"
+        ]
+      },
+      {
         "date": "2026-11-16T10:50:49.802Z",
         "installMs": 18268,
         "method": "npm",
@@ -64,6 +76,18 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:35.779Z",
+        "installMs": 9707,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-35Z-28b592",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "get_figma_data",
+          "download_figma_images"
+        ]
+      },
+      {
         "date": "2026-11-16T10:50:47.770Z",
         "installMs": 7526,
         "method": "npm",
@@ -125,6 +149,18 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:58:56.670Z",
+        "installMs": 170701,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-56Z-0e7bf5",
+        "status": "pass",
+        "toolCount": 2,
+        "toolNames": [
+          "get_figma_data",
+          "download_figma_images"
+        ]
+      },
       {
         "date": "2026-11-16T10:51:00.349Z",
         "installMs": 144450,

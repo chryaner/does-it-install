@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:41.956Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: unable to create kubernetes target provider: no current-context is set and no contexts are defined in kubeconfig.\nConfigure a context with 'kubectl config set-context <name>' and 'kubectl config use-context <name>'\nUsage:\n  kubernetes-mcp-server [flags]\n\nExamples:\n  # show this help\n  kubernetes-mcp-server -h\n  \n  # shows version information\n  kubernetes-mcp-server --version\n  \n  # start STDIO server\n  kubernetes-mcp-server\n  \n  # start a Streamable HTTP server using a TOML config file\n  kubernetes-mcp-server --config /path/to/config.toml\n  \n  # start using only a drop-in directory\n  kubernetes-mcp-server --config-dir /path/to/conf.d\n  \n  # start a Streamable HTTP server reading the TOML config from stdin\n  echo 'port = \"8080\"' | kubernetes-mcp-server --config -\n\nFlags:\n      --config string       Path of the config file, or - to read it from stdin (HTTP mode only).\n      --config-dir string   Directory of lexical .toml files. Usable alone or with --config. Omitted means no drop-ins. Relative paths are resolved against the working directory.\n  -h, --help                help for kubernetes-mcp-server\n      --version             Print version information and quit",
+        "installMs": 3161,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-41Z-598376",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-11-16T10:50:47.927Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: unable to create kubernetes target provider: no current-context is set and no contexts are defined in kubeconfig.\nConfigure a context with 'kubectl config set-context <name>' and 'kubectl config use-context <name>'\nUsage:\n  kubernetes-mcp-server [flags]\n\nExamples:\n  # show this help\n  kubernetes-mcp-server -h\n  \n  # shows version information\n  kubernetes-mcp-server --version\n  \n  # start STDIO server\n  kubernetes-mcp-server\n  \n  # start a Streamable HTTP server using a TOML config file\n  kubernetes-mcp-server --config /path/to/config.toml\n  \n  # start using only a drop-in directory\n  kubernetes-mcp-server --config-dir /path/to/conf.d\n  \n  # start a Streamable HTTP server reading the TOML config from stdin\n  echo 'port = \"8080\"' | kubernetes-mcp-server --config -\n\nFlags:\n      --config string       Path of the config file, or - to read it from stdin (HTTP mode only).\n      --config-dir string   Directory of lexical .toml files. Usable alone or with --config. Omitted means no drop-ins. Relative paths are resolved against the working directory.\n  -h, --help                help for kubernetes-mcp-server\n      --version             Print version information and quit",
         "installMs": 2738,
@@ -52,6 +60,14 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:39.705Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: unable to create kubernetes target provider: no current-context is set and no contexts are defined in kubeconfig.\nConfigure a context with 'kubectl config set-context <name>' and 'kubectl config use-context <name>'\nUsage:\n  kubernetes-mcp-server [flags]\n\nExamples:\n  # show this help\n  kubernetes-mcp-server -h\n  \n  # shows version information\n  kubernetes-mcp-server --version\n  \n  # start STDIO server\n  kubernetes-mcp-server\n  \n  # start a Streamable HTTP server using a TOML config file\n  kubernetes-mcp-server --config /path/to/config.toml\n  \n  # start using only a drop-in directory\n  kubernetes-mcp-server --config-dir /path/to/conf.d\n  \n  # start a Streamable HTTP server reading the TOML config from stdin\n  echo 'port = \"8080\"' | kubernetes-mcp-server --config -\n\nFlags:\n      --config string       Path of the config file, or - to read it from stdin (HTTP mode only).\n      --config-dir string   Directory of lexical .toml files. Usable alone or with --config. Omitted means no drop-ins. Relative paths are resolved against the working directory.\n  -h, --help                help for kubernetes-mcp-server\n      --version             Print version information and quit",
+        "installMs": 3728,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-39Z-025f37",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-11-16T10:50:42.587Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: unable to create kubernetes target provider: no current-context is set and no contexts are defined in kubeconfig.\nConfigure a context with 'kubectl config set-context <name>' and 'kubectl config use-context <name>'\nUsage:\n  kubernetes-mcp-server [flags]\n\nExamples:\n  # show this help\n  kubernetes-mcp-server -h\n  \n  # shows version information\n  kubernetes-mcp-server --version\n  \n  # start STDIO server\n  kubernetes-mcp-server\n  \n  # start a Streamable HTTP server using a TOML config file\n  kubernetes-mcp-server --config /path/to/config.toml\n  \n  # start using only a drop-in directory\n  kubernetes-mcp-server --config-dir /path/to/conf.d\n  \n  # start a Streamable HTTP server reading the TOML config from stdin\n  echo 'port = \"8080\"' | kubernetes-mcp-server --config -\n\nFlags:\n      --config string       Path of the config file, or - to read it from stdin (HTTP mode only).\n      --config-dir string   Directory of lexical .toml files. Usable alone or with --config. Omitted means no drop-ins. Relative paths are resolved against the working directory.\n  -h, --help                help for kubernetes-mcp-server\n      --version             Print version information and quit",
         "installMs": 1803,
@@ -101,6 +117,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:59:27.112Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: unable to create kubernetes target provider: no current-context is set and no contexts are defined in kubeconfig.\nConfigure a context with 'kubectl config set-context <name>' and 'kubectl config use-context <name>'\nUsage:\n  kubernetes-mcp-server [flags]\n\nExamples:\n  # show this help\n  kubernetes-mcp-server -h\n  \n  # shows version information\n  kubernetes-mcp-server --version\n  \n  # start STDIO server\n  kubernetes-mcp-server\n  \n  # start a Streamable HTTP server using a TOML config file\n  kubernetes-mcp-server --config /path/to/config.toml\n  \n  # start using only a drop-in directory\n  kubernetes-mcp-server --config-dir /path/to/conf.d\n  \n  # start a Streamable HTTP server reading the TOML config from stdin\n  echo 'port = \"8080\"' | kubernetes-mcp-server --config -\n\nFlags:\n      --config string       Path of the config file, or - to read it from stdin (HTTP mode only).\n      --config-dir string   Directory of lexical .toml files. Usable alone or with --config. Omitted means no drop-ins. Relative paths are resolved against the working directory.\n  -h, --help                help for kubernetes-mcp-server\n      --version             Print version information and quit",
+        "installMs": 4203,
+        "method": "npm",
+        "runId": "2026-11-23T11-59-27Z-8b35cc",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-11-16T10:51:04.903Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nError: unable to create kubernetes target provider: no current-context is set and no contexts are defined in kubeconfig.\nConfigure a context with 'kubectl config set-context <name>' and 'kubectl config use-context <name>'\nUsage:\n  kubernetes-mcp-server [flags]\n\nExamples:\n  # show this help\n  kubernetes-mcp-server -h\n  \n  # shows version information\n  kubernetes-mcp-server --version\n  \n  # start STDIO server\n  kubernetes-mcp-server\n  \n  # start a Streamable HTTP server using a TOML config file\n  kubernetes-mcp-server --config /path/to/config.toml\n  \n  # start using only a drop-in directory\n  kubernetes-mcp-server --config-dir /path/to/conf.d\n  \n  # start a Streamable HTTP server reading the TOML config from stdin\n  echo 'port = \"8080\"' | kubernetes-mcp-server --config -\n\nFlags:\n      --config string       Path of the config file, or - to read it from stdin (HTTP mode only).\n      --config-dir string   Directory of lexical .toml files. Usable alone or with --config. Omitted means no drop-ins. Relative paths are resolved against the working directory.\n  -h, --help                help for kubernetes-mcp-server\n      --version             Print version information and quit",

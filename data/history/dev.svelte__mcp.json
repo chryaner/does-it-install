@@ -2,6 +2,20 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:39.889Z",
+        "installMs": 4188,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-39Z-0cc398",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "get-documentation",
+          "list-sections",
+          "playground-link",
+          "svelte-autofixer"
+        ]
+      },
+      {
         "date": "2026-08-16T15:41:59.741Z",
         "installMs": 4536,
         "method": "npm",
@@ -45,6 +59,20 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:35.779Z",
+        "installMs": 2800,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-35Z-28b592",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "get-documentation",
+          "list-sections",
+          "playground-link",
+          "svelte-autofixer"
+        ]
+      },
+      {
         "date": "2026-08-16T15:42:02.544Z",
         "installMs": 3979,
         "method": "npm",
@@ -87,6 +115,20 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:58:56.670Z",
+        "installMs": 77770,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-56Z-0e7bf5",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "get-documentation",
+          "list-sections",
+          "playground-link",
+          "svelte-autofixer"
+        ]
+      },
       {
         "date": "2026-08-16T15:42:15.480Z",
         "installMs": 93000,

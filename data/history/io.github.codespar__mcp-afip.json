@@ -2,6 +2,36 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:41.956Z",
+        "installMs": 4828,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-41Z-598376",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_invoice",
+          "get_invoice",
+          "get_last_invoice_number",
+          "get_cae_status",
+          "list_invoice_types",
+          "list_tax_types",
+          "get_server_status",
+          "get_authorized_points_of_sale",
+          "create_invoice_batch",
+          "create_credit_note",
+          "create_debit_note",
+          "cancel_invoice",
+          "get_invoice_total_x_request",
+          "list_concept_types",
+          "list_doc_types",
+          "list_iva_types",
+          "list_currency_types",
+          "get_currency_rate",
+          "lookup_taxpayer",
+          "get_registration_certificate"
+        ]
+      },
+      {
         "date": "2026-11-09T11:02:00.484Z",
         "installMs": 3250,
         "method": "npm",
@@ -94,6 +124,36 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:39.705Z",
+        "installMs": 4131,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-39Z-025f37",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_invoice",
+          "get_invoice",
+          "get_last_invoice_number",
+          "get_cae_status",
+          "list_invoice_types",
+          "list_tax_types",
+          "get_server_status",
+          "get_authorized_points_of_sale",
+          "create_invoice_batch",
+          "create_credit_note",
+          "create_debit_note",
+          "cancel_invoice",
+          "get_invoice_total_x_request",
+          "list_concept_types",
+          "list_doc_types",
+          "list_iva_types",
+          "list_currency_types",
+          "get_currency_rate",
+          "lookup_taxpayer",
+          "get_registration_certificate"
+        ]
+      },
+      {
         "date": "2026-11-09T11:01:54.894Z",
         "installMs": 2713,
         "method": "npm",
@@ -185,6 +245,36 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:59:27.112Z",
+        "installMs": 134642,
+        "method": "npm",
+        "runId": "2026-11-23T11-59-27Z-8b35cc",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_invoice",
+          "get_invoice",
+          "get_last_invoice_number",
+          "get_cae_status",
+          "list_invoice_types",
+          "list_tax_types",
+          "get_server_status",
+          "get_authorized_points_of_sale",
+          "create_invoice_batch",
+          "create_credit_note",
+          "create_debit_note",
+          "cancel_invoice",
+          "get_invoice_total_x_request",
+          "list_concept_types",
+          "list_doc_types",
+          "list_iva_types",
+          "list_currency_types",
+          "get_currency_rate",
+          "lookup_taxpayer",
+          "get_registration_certificate"
+        ]
+      },
       {
         "date": "2026-11-09T11:02:21.452Z",
         "installMs": 130399,

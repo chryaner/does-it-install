@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:41.956Z",
+        "errorExcerpt": "connect failed: Streamable HTTP error: Error POSTing to endpoint: <html>\r\n<head><title>405 Not Allowed</title></head>\r\n<body>\r\n<center><h1>405 Not Allowed</h1></center>\r\n<hr><center>nginx/1.29.8</center>\r\n</body>\r\n</html>",
+        "method": "remote-http",
+        "runId": "2026-11-23T11-58-41Z-598376",
+        "status": "connect_failed"
+      },
+      {
         "date": "2026-11-09T11:02:00.484Z",
         "errorExcerpt": "connect failed: Streamable HTTP error: Error POSTing to endpoint: <html>\r\n<head><title>405 Not Allowed</title></head>\r\n<body>\r\n<center><h1>405 Not Allowed</h1></center>\r\n<hr><center>nginx/1.29.8</center>\r\n</body>\r\n</html>",
         "method": "remote-http",
@@ -137,6 +144,13 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:39.705Z",
+        "errorExcerpt": "connect failed: Streamable HTTP error: Error POSTing to endpoint: <html>\r\n<head><title>405 Not Allowed</title></head>\r\n<body>\r\n<center><h1>405 Not Allowed</h1></center>\r\n<hr><center>nginx/1.29.8</center>\r\n</body>\r\n</html>",
+        "method": "remote-http",
+        "runId": "2026-11-23T11-58-39Z-025f37",
+        "status": "connect_failed"
+      },
+      {
         "date": "2026-11-09T11:01:54.894Z",
         "errorExcerpt": "connect failed: Streamable HTTP error: Error POSTing to endpoint: <html>\r\n<head><title>405 Not Allowed</title></head>\r\n<body>\r\n<center><h1>405 Not Allowed</h1></center>\r\n<hr><center>nginx/1.29.8</center>\r\n</body>\r\n</html>",
         "method": "remote-http",
@@ -271,6 +285,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:59:27.112Z",
+        "errorExcerpt": "connect failed: Streamable HTTP error: Error POSTing to endpoint: <html>\r\n<head><title>405 Not Allowed</title></head>\r\n<body>\r\n<center><h1>405 Not Allowed</h1></center>\r\n<hr><center>nginx/1.29.8</center>\r\n</body>\r\n</html>",
+        "method": "remote-http",
+        "runId": "2026-11-23T11-59-27Z-8b35cc",
+        "status": "connect_failed"
+      },
       {
         "date": "2026-11-09T11:02:21.452Z",
         "errorExcerpt": "connect failed: Streamable HTTP error: Error POSTing to endpoint: <html>\r\n<head><title>405 Not Allowed</title></head>\r\n<body>\r\n<center><h1>405 Not Allowed</h1></center>\r\n<hr><center>nginx/1.29.8</center>\r\n</body>\r\n</html>",

@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:39.889Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32001,\"message\":\"Authentication required\"},\"id\":null} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-23T11-58-39Z-0cc398",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-11-09T11:02:04.817Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32001,\"message\":\"Authentication required\"},\"id\":null} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -32,6 +39,13 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:35.779Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32001,\"message\":\"Authentication required\"},\"id\":null} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-23T11-58-35Z-28b592",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-11-09T11:02:02.710Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32001,\"message\":\"Authentication required\"},\"id\":null} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -61,6 +75,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:58:56.670Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32001,\"message\":\"Authentication required\"},\"id\":null} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-23T11-58-56Z-0e7bf5",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-11-09T11:02:18.514Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32001,\"message\":\"Authentication required\"},\"id\":null} (endpoint reachable but requires credentials the harness does not send)",

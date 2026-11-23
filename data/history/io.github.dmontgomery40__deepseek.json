@@ -2,6 +2,22 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:41.956Z",
+        "installMs": 8525,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-41Z-598376",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "chat_completion",
+          "completion",
+          "list_models",
+          "get_user_balance",
+          "reset_conversation",
+          "list_conversations"
+        ]
+      },
+      {
         "date": "2026-10-26T08:41:38.518Z",
         "installMs": 17707,
         "method": "npm",
@@ -35,6 +51,22 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:39.705Z",
+        "installMs": 5407,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-39Z-025f37",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "chat_completion",
+          "completion",
+          "list_models",
+          "get_user_balance",
+          "reset_conversation",
+          "list_conversations"
+        ]
+      },
+      {
         "date": "2026-10-26T08:41:31.617Z",
         "installMs": 3441,
         "method": "npm",
@@ -67,6 +99,22 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:59:27.112Z",
+        "installMs": 144037,
+        "method": "npm",
+        "runId": "2026-11-23T11-59-27Z-8b35cc",
+        "status": "pass",
+        "toolCount": 6,
+        "toolNames": [
+          "chat_completion",
+          "completion",
+          "list_models",
+          "get_user_balance",
+          "reset_conversation",
+          "list_conversations"
+        ]
+      },
       {
         "date": "2026-10-26T08:41:52.818Z",
         "installMs": 81061,

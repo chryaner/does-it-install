@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:39.889Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[token-savior:memory] sqlite-vec not installed; vector search disabled. Install with: pip install 'token-savior-recall[memory-vector]'\n[token-savior:memory] fastembed not installed; embedding disabled. Install with: pip install 'token-savior-recall[memory-vector]'\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/wPJbUkRphrLR1BL9/bin/token-savior\", line 12, in <module>\n    sys.exit(main_sync())\n             ~~~~~~~~~^^\n  File \"/Users/runner/.cache/uv/archive-v0/wPJbUkRphrLR1BL9/lib/python3.15/site-packages/token_savior/server.py\", line 1213, in main_sync\n    asyncio.run(main())\n    ~~~~~~~~~~~^^^^^^^^\n  File \"/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/asyncio/runners.py\", line 205, in run\n    return runner.run(main)\n           ~~~~~~~~~~^^^^^^\n  File \"/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/asyncio/runners.py\", line 128, in run\n    return self._loop.run_until_complete(task)\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^\n  File \"/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/asyncio/base_events.py\", line 724, in run_until_complete\n    return future.result()\n           ~~~~~~~~~~~~~^^\n  File \"/Users/runner/.cache/uv/archive-v0/wPJbUkRphrLR1BL9/lib/python3.15/site-packages/token_savior/server.py\", line 1177, in main\n    from mcp.server.stdio import stdio_server\nModuleNotFoundError: No module named 'mcp'",
+        "method": "pypi",
+        "runId": "2026-11-23T11-58-39Z-0cc398",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-11-16T10:50:49.802Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[token-savior:memory] sqlite-vec not installed; vector search disabled. Install with: pip install 'token-savior-recall[memory-vector]'\n[token-savior:memory] fastembed not installed; embedding disabled. Install with: pip install 'token-savior-recall[memory-vector]'\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/VPAlSPLLdMpYigKg/bin/token-savior\", line 12, in <module>\n    sys.exit(main_sync())\n             ~~~~~~~~~^^\n  File \"/Users/runner/.cache/uv/archive-v0/VPAlSPLLdMpYigKg/lib/python3.15/site-packages/token_savior/server.py\", line 1213, in main_sync\n    asyncio.run(main())\n    ~~~~~~~~~~~^^^^^^^^\n  File \"/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/asyncio/runners.py\", line 205, in run\n    return runner.run(main)\n           ~~~~~~~~~~^^^^^^\n  File \"/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/asyncio/runners.py\", line 128, in run\n    return self._loop.run_until_complete(task)\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^\n  File \"/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/asyncio/base_events.py\", line 724, in run_until_complete\n    return future.result()\n           ~~~~~~~~~~~~~^^\n  File \"/Users/runner/.cache/uv/archive-v0/VPAlSPLLdMpYigKg/lib/python3.15/site-packages/token_savior/server.py\", line 1177, in main\n    from mcp.server.stdio import stdio_server\nModuleNotFoundError: No module named 'mcp'",
         "method": "pypi",
@@ -46,6 +53,13 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:35.779Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[token-savior:memory] sqlite-vec not installed; vector search disabled. Install with: pip install 'token-savior-recall[memory-vector]'\n[token-savior:memory] fastembed not installed; embedding disabled. Install with: pip install 'token-savior-recall[memory-vector]'\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/7wFpwRxLHwnyFvj6/bin/token-savior\", line 12, in <module>\n    sys.exit(main_sync())\n             ~~~~~~~~~^^\n  File \"/home/runner/.cache/uv/archive-v0/7wFpwRxLHwnyFvj6/lib/python3.14/site-packages/token_savior/server.py\", line 1213, in main_sync\n    asyncio.run(main())\n    ~~~~~~~~~~~^^^^^^^^\n  File \"/usr/lib/python3.14/asyncio/runners.py\", line 204, in run\n    return runner.run(main)\n           ~~~~~~~~~~^^^^^^\n  File \"/usr/lib/python3.14/asyncio/runners.py\", line 127, in run\n    return self._loop.run_until_complete(task)\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^\n  File \"/usr/lib/python3.14/asyncio/base_events.py\", line 719, in run_until_complete\n    return future.result()\n           ~~~~~~~~~~~~~^^\n  File \"/home/runner/.cache/uv/archive-v0/7wFpwRxLHwnyFvj6/lib/python3.14/site-packages/token_savior/server.py\", line 1177, in main\n    from mcp.server.stdio import stdio_server\nModuleNotFoundError: No module named 'mcp'",
+        "method": "pypi",
+        "runId": "2026-11-23T11-58-35Z-28b592",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-11-16T10:50:47.770Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\n[token-savior:memory] sqlite-vec not installed; vector search disabled. Install with: pip install 'token-savior-recall[memory-vector]'\n[token-savior:memory] fastembed not installed; embedding disabled. Install with: pip install 'token-savior-recall[memory-vector]'\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/KFJwu6V28-WJEfG1/bin/token-savior\", line 12, in <module>\n    sys.exit(main_sync())\n             ~~~~~~~~~^^\n  File \"/home/runner/.cache/uv/archive-v0/KFJwu6V28-WJEfG1/lib/python3.14/site-packages/token_savior/server.py\", line 1213, in main_sync\n    asyncio.run(main())\n    ~~~~~~~~~~~^^^^^^^^\n  File \"/usr/lib/python3.14/asyncio/runners.py\", line 204, in run\n    return runner.run(main)\n           ~~~~~~~~~~^^^^^^\n  File \"/usr/lib/python3.14/asyncio/runners.py\", line 127, in run\n    return self._loop.run_until_complete(task)\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^\n  File \"/usr/lib/python3.14/asyncio/base_events.py\", line 719, in run_until_complete\n    return future.result()\n           ~~~~~~~~~~~~~^^\n  File \"/home/runner/.cache/uv/archive-v0/KFJwu6V28-WJEfG1/lib/python3.14/site-packages/token_savior/server.py\", line 1177, in main\n    from mcp.server.stdio import stdio_server\nModuleNotFoundError: No module named 'mcp'",
         "method": "pypi",
@@ -89,6 +103,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:58:56.670Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\eKnDuRvOYC_szz8q\\Scripts\\token-savior-bench.exe\\__main__.py\", line 4, in <module>\r\nModuleNotFoundError: No module named 'benchmarks'",
+        "method": "pypi",
+        "runId": "2026-11-23T11-58-56Z-0e7bf5",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-11-16T10:51:00.349Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\TMNfUW8rJaolMAnm\\Scripts\\token-savior-bench.exe\\__main__.py\", line 4, in <module>\r\nModuleNotFoundError: No module named 'benchmarks'",

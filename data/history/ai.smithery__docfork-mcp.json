@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:39.889Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"invalid_token\",\"error_description\":\"Missing Authorization header\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-23T11-58-39Z-0cc398",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-11-16T10:50:47.927Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"invalid_token\",\"error_description\":\"Missing Authorization header\"} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -144,6 +151,13 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:35.779Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"invalid_token\",\"error_description\":\"Missing Authorization header\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-23T11-58-35Z-28b592",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-11-16T10:50:42.587Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"invalid_token\",\"error_description\":\"Missing Authorization header\"} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -285,6 +299,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:58:56.670Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"invalid_token\",\"error_description\":\"Missing Authorization header\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-23T11-58-56Z-0e7bf5",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-11-16T10:51:04.903Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\":\"invalid_token\",\"error_description\":\"Missing Authorization header\"} (endpoint reachable but requires credentials the harness does not send)",

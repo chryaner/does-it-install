@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-23T11:58:41.956Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 20 packages in 41ms\nllmwiki2: the memory needs the mcp extra: pip install 'llmwiki2[mcp]' (or uv tool install 'llmwiki2[mcp]')",
+        "method": "pypi",
+        "runId": "2026-11-23T11-58-41Z-598376",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-23T11:58:39.705Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 20 packages in 23ms\nllmwiki2: the memory needs the mcp extra: pip install 'llmwiki2[mcp]' (or uv tool install 'llmwiki2[mcp]')",
+        "method": "pypi",
+        "runId": "2026-11-23T11-58-39Z-025f37",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-23T11:59:27.112Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 20 packages in 4.02s\nllmwiki2: the memory needs the mcp extra: pip install 'llmwiki2[mcp]' (or uv tool install 'llmwiki2[mcp]')",
+        "method": "pypi",
+        "runId": "2026-11-23T11-59-27Z-8b35cc",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.github.crow-hq/llm-wiki-v2",
+  "slug": "io.github.crow-hq__llm-wiki-v2"
+}

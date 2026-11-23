@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:39.889Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: mcp-server-filesystem --allowed-directories <allowed-directories>",
+        "installMs": 5482,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-39Z-0cc398",
+        "status": "needs_config"
+      },
+      {
         "date": "2026-11-16T10:50:49.802Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: mcp-server-filesystem --allowed-directories <allowed-directories>",
         "installMs": 7422,
@@ -52,6 +60,14 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:35.779Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: mcp-server-filesystem --allowed-directories <allowed-directories>",
+        "installMs": 5462,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-35Z-28b592",
+        "status": "needs_config"
+      },
+      {
         "date": "2026-11-16T10:50:47.770Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: mcp-server-filesystem --allowed-directories <allowed-directories>",
         "installMs": 3551,
@@ -101,6 +117,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:58:56.670Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: mcp-server-filesystem --allowed-directories <allowed-directories>",
+        "installMs": 115230,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-56Z-0e7bf5",
+        "status": "needs_config"
+      },
       {
         "date": "2026-11-16T10:51:00.349Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nUsage: mcp-server-filesystem --allowed-directories <allowed-directories>",

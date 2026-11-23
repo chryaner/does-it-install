@@ -2,6 +2,22 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:40.736Z",
+        "method": "remote-http",
+        "runId": "2026-11-23T11-58-40Z-f7f282",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "compile",
+          "list_compilers",
+          "list_languages",
+          "list_libraries",
+          "lookup_asm_instruction",
+          "generate_short_url",
+          "get_shortlink_info"
+        ]
+      },
+      {
         "date": "2026-11-16T10:50:49.802Z",
         "method": "remote-http",
         "runId": "2026-11-16T10-50-49Z-4e08cd",
@@ -68,6 +84,22 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:37.996Z",
+        "method": "remote-http",
+        "runId": "2026-11-23T11-58-37Z-f970bd",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "compile",
+          "list_compilers",
+          "list_languages",
+          "list_libraries",
+          "lookup_asm_instruction",
+          "generate_short_url",
+          "get_shortlink_info"
+        ]
+      },
+      {
         "date": "2026-11-16T10:50:47.770Z",
         "method": "remote-http",
         "runId": "2026-11-16T10-50-47Z-276095",
@@ -133,6 +165,22 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:58:54.641Z",
+        "method": "remote-http",
+        "runId": "2026-11-23T11-58-54Z-d40aaf",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "compile",
+          "list_compilers",
+          "list_languages",
+          "list_libraries",
+          "lookup_asm_instruction",
+          "generate_short_url",
+          "get_shortlink_info"
+        ]
+      },
       {
         "date": "2026-11-16T10:51:00.349Z",
         "method": "remote-http",

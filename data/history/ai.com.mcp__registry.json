@@ -2,6 +2,18 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:40.736Z",
+        "method": "remote-http",
+        "runId": "2026-11-23T11-58-40Z-f7f282",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "getV01Servers",
+          "getV01ServersServerNameVersions",
+          "getV01ServersServerNameVersionsVersion"
+        ]
+      },
+      {
         "date": "2026-11-16T10:50:54.649Z",
         "method": "remote-http",
         "runId": "2026-11-16T10-50-54Z-9f87e0",
@@ -280,6 +292,18 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:37.996Z",
+        "method": "remote-http",
+        "runId": "2026-11-23T11-58-37Z-f970bd",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "getV01Servers",
+          "getV01ServersServerNameVersions",
+          "getV01ServersServerNameVersionsVersion"
+        ]
+      },
+      {
         "date": "2026-11-16T10:50:46.214Z",
         "method": "remote-http",
         "runId": "2026-11-16T10-50-46Z-5c023d",
@@ -557,6 +581,18 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:58:54.641Z",
+        "method": "remote-http",
+        "runId": "2026-11-23T11-58-54Z-d40aaf",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "getV01Servers",
+          "getV01ServersServerNameVersions",
+          "getV01ServersServerNameVersionsVersion"
+        ]
+      },
       {
         "date": "2026-11-16T10:51:03.688Z",
         "method": "remote-http",

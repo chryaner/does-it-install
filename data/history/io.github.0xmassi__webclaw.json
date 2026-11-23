@@ -2,6 +2,30 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:39.889Z",
+        "installMs": 1578,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-39Z-0cc398",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "batch",
+          "brand",
+          "crawl",
+          "diff",
+          "extract",
+          "list_extractors",
+          "map",
+          "research",
+          "scrape",
+          "screenshot",
+          "search",
+          "select",
+          "summarize",
+          "vertical_scrape"
+        ]
+      },
+      {
         "date": "2026-11-16T10:50:47.927Z",
         "installMs": 1328,
         "method": "npm",
@@ -28,6 +52,30 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:35.779Z",
+        "installMs": 1062,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-35Z-28b592",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "batch",
+          "brand",
+          "crawl",
+          "diff",
+          "extract",
+          "list_extractors",
+          "map",
+          "research",
+          "scrape",
+          "screenshot",
+          "search",
+          "select",
+          "summarize",
+          "vertical_scrape"
+        ]
+      },
+      {
         "date": "2026-11-16T10:50:42.587Z",
         "installMs": 976,
         "method": "npm",
@@ -53,6 +101,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:58:56.670Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n[@webclaw/mcp] fetching webclaw-v0.7.1-x86_64-pc-windows-msvc.zip (first run for v0.7.1) ...",
+        "installMs": 2068,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-56Z-0e7bf5",
+        "status": "timeout"
+      },
       {
         "date": "2026-11-16T10:51:04.903Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\n[@webclaw/mcp] fetching webclaw-v0.7.1-x86_64-pc-windows-msvc.zip (first run for v0.7.1) ...",

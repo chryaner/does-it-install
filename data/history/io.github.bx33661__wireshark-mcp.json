@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:41.956Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 29 packages in 49ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/VMf7cV4nxOKfCwd0/bin/wireshark-mcp\", line 6, in <module>\n    from wireshark_mcp.server import main\n  File \"/Users/runner/.cache/uv/archive-v0/VMf7cV4nxOKfCwd0/lib/python3.15/site-packages/wireshark_mcp/server.py\", line 7, in <module>\n    from mcp.server.fastmcp import FastMCP\n  File \"/Users/runner/.cache/uv/archive-v0/VMf7cV4nxOKfCwd0/lib/python3.15/site-packages/mcp/server/fastmcp.py\", line 16, in <module>\n    raise ModuleNotFoundError(_MESSAGE, name=__name__)\nModuleNotFoundError: No module named 'mcp.server.fastmcp'. This is mcp 2.x, where FastMCP was renamed to MCPServer (from mcp.server.mcpserver import MCPServer) and other APIs changed; see the migration guide at https://py.sdk.modelcontextprotocol.io/v2/migration/#fastmcp-renamed-to-mcpserver or pin 'mcp<2' to keep running v1 code.. Did you mean: 'mcp.server.auth'?",
+        "method": "pypi",
+        "runId": "2026-11-23T11-58-41Z-598376",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-11-09T11:02:05.987Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 29 packages in 153ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/A44l9qjc_DQR7mjZ/bin/wireshark-mcp\", line 6, in <module>\n    from wireshark_mcp.server import main\n  File \"/Users/runner/.cache/uv/archive-v0/A44l9qjc_DQR7mjZ/lib/python3.15/site-packages/wireshark_mcp/server.py\", line 7, in <module>\n    from mcp.server.fastmcp import FastMCP\n  File \"/Users/runner/.cache/uv/archive-v0/A44l9qjc_DQR7mjZ/lib/python3.15/site-packages/mcp/server/fastmcp.py\", line 16, in <module>\n    raise ModuleNotFoundError(_MESSAGE, name=__name__)\nModuleNotFoundError: No module named 'mcp.server.fastmcp'. This is mcp 2.x, where FastMCP was renamed to MCPServer (from mcp.server.mcpserver import MCPServer) and other APIs changed; see the migration guide at https://py.sdk.modelcontextprotocol.io/v2/migration/#fastmcp-renamed-to-mcpserver or pin 'mcp<2' to keep running v1 code.. Did you mean: 'mcp.server.auth'?",
         "method": "pypi",
@@ -25,6 +32,13 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:39.705Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 29 packages in 25ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/zlqpkc57YOP7cwY4/bin/wireshark-mcp\", line 6, in <module>\n    from wireshark_mcp.server import main\n  File \"/home/runner/.cache/uv/archive-v0/zlqpkc57YOP7cwY4/lib/python3.14/site-packages/wireshark_mcp/server.py\", line 7, in <module>\n    from mcp.server.fastmcp import FastMCP\n  File \"/home/runner/.cache/uv/archive-v0/zlqpkc57YOP7cwY4/lib/python3.14/site-packages/mcp/server/fastmcp.py\", line 16, in <module>\n    raise ModuleNotFoundError(_MESSAGE, name=__name__)\nModuleNotFoundError: No module named 'mcp.server.fastmcp'. This is mcp 2.x, where FastMCP was renamed to MCPServer (from mcp.server.mcpserver import MCPServer) and other APIs changed; see the migration guide at https://py.sdk.modelcontextprotocol.io/v2/migration/#fastmcp-renamed-to-mcpserver or pin 'mcp<2' to keep running v1 code.",
+        "method": "pypi",
+        "runId": "2026-11-23T11-58-39Z-025f37",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-11-09T11:01:54.903Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 29 packages in 26ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/H0BJg2qBgUrPaRv2/bin/wireshark-mcp\", line 6, in <module>\n    from wireshark_mcp.server import main\n  File \"/home/runner/.cache/uv/archive-v0/H0BJg2qBgUrPaRv2/lib/python3.14/site-packages/wireshark_mcp/server.py\", line 7, in <module>\n    from mcp.server.fastmcp import FastMCP\n  File \"/home/runner/.cache/uv/archive-v0/H0BJg2qBgUrPaRv2/lib/python3.14/site-packages/mcp/server/fastmcp.py\", line 16, in <module>\n    raise ModuleNotFoundError(_MESSAGE, name=__name__)\nModuleNotFoundError: No module named 'mcp.server.fastmcp'. This is mcp 2.x, where FastMCP was renamed to MCPServer (from mcp.server.mcpserver import MCPServer) and other APIs changed; see the migration guide at https://py.sdk.modelcontextprotocol.io/v2/migration/#fastmcp-renamed-to-mcpserver or pin 'mcp<2' to keep running v1 code.",
         "method": "pypi",
@@ -47,6 +61,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:59:27.112Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 30 packages in 4.71s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\X_09jqhZLuP1-8oa\\Scripts\\wireshark-mcp.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\X_09jqhZLuP1-8oa\\Lib\\site-packages\\wireshark_mcp\\server.py\", line 7, in <module>\r\n    from mcp.server.fastmcp import FastMCP\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\X_09jqhZLuP1-8oa\\Lib\\site-packages\\mcp\\server\\fastmcp.py\", line 16, in <module>\r\n    raise ModuleNotFoundError(_MESSAGE, name=__name__)\r\nModuleNotFoundError: No module named 'mcp.server.fastmcp'. This is mcp 2.x, where FastMCP was renamed to MCPServer (from mcp.server.mcpserver import MCPServer) and other APIs changed; see the migration guide at https://py.sdk.modelcontextprotocol.io/v2/migration/#fastmcp-renamed-to-mcpserver or pin 'mcp<2' to keep running v1 code.",
+        "method": "pypi",
+        "runId": "2026-11-23T11-59-27Z-8b35cc",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-11-09T11:02:25.384Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 30 packages in 5.86s\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\HeC0pO8_1Mueu_Ho\\Scripts\\wireshark-mcp.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\HeC0pO8_1Mueu_Ho\\Lib\\site-packages\\wireshark_mcp\\server.py\", line 7, in <module>\r\n    from mcp.server.fastmcp import FastMCP\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\HeC0pO8_1Mueu_Ho\\Lib\\site-packages\\mcp\\server\\fastmcp.py\", line 16, in <module>\r\n    raise ModuleNotFoundError(_MESSAGE, name=__name__)\r\nModuleNotFoundError: No module named 'mcp.server.fastmcp'. This is mcp 2.x, where FastMCP was renamed to MCPServer (from mcp.server.mcpserver import MCPServer) and other APIs changed; see the migration guide at https://py.sdk.modelcontextprotocol.io/v2/migration/#fastmcp-renamed-to-mcpserver or pin 'mcp<2' to keep running v1 code.",

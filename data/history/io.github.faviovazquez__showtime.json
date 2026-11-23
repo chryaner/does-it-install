@@ -1,0 +1,72 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-23T11:58:40.736Z",
+        "installMs": 1090,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-40Z-f7f282",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "doctor",
+          "guide",
+          "status",
+          "receipt",
+          "new_project",
+          "render",
+          "check",
+          "qa",
+          "export_html",
+          "deliver_exports"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-23T11:58:37.996Z",
+        "installMs": 959,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-37Z-f970bd",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "doctor",
+          "guide",
+          "status",
+          "receipt",
+          "new_project",
+          "render",
+          "check",
+          "qa",
+          "export_html",
+          "deliver_exports"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-23T11:58:54.641Z",
+        "installMs": 27249,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-54Z-d40aaf",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "doctor",
+          "guide",
+          "status",
+          "receipt",
+          "new_project",
+          "render",
+          "check",
+          "qa",
+          "export_html",
+          "deliver_exports"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.FavioVazquez/showtime",
+  "slug": "io.github.faviovazquez__showtime"
+}

@@ -2,6 +2,19 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:41.956Z",
+        "method": "remote-http",
+        "runId": "2026-11-23T11-58-41Z-598376",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "create_diagram",
+          "create_semantic_diagram",
+          "search_shapes",
+          "get_drawio_reference"
+        ]
+      },
+      {
         "date": "2026-11-16T10:50:49.802Z",
         "method": "remote-http",
         "runId": "2026-11-16T10-50-49Z-4e08cd",
@@ -50,6 +63,19 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:39.705Z",
+        "method": "remote-http",
+        "runId": "2026-11-23T11-58-39Z-025f37",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "create_diagram",
+          "create_semantic_diagram",
+          "search_shapes",
+          "get_drawio_reference"
+        ]
+      },
+      {
         "date": "2026-11-16T10:50:47.770Z",
         "method": "remote-http",
         "runId": "2026-11-16T10-50-47Z-276095",
@@ -97,6 +123,19 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:59:27.112Z",
+        "method": "remote-http",
+        "runId": "2026-11-23T11-59-27Z-8b35cc",
+        "status": "pass",
+        "toolCount": 4,
+        "toolNames": [
+          "create_diagram",
+          "create_semantic_diagram",
+          "search_shapes",
+          "get_drawio_reference"
+        ]
+      },
       {
         "date": "2026-11-16T10:51:00.349Z",
         "method": "remote-http",

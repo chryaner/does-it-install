@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:41.956Z",
+        "errorExcerpt": "connect failed: Streamable HTTP error: Error POSTing to endpoint: <html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>",
+        "method": "remote-http",
+        "runId": "2026-11-23T11-58-41Z-598376",
+        "status": "connect_failed"
+      },
+      {
         "date": "2026-11-16T10:50:47.927Z",
         "errorExcerpt": "connect failed: Streamable HTTP error: Error POSTing to endpoint: <html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>",
         "method": "remote-http",
@@ -67,6 +74,13 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:39.705Z",
+        "errorExcerpt": "connect failed: Streamable HTTP error: Error POSTing to endpoint: <html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>",
+        "method": "remote-http",
+        "runId": "2026-11-23T11-58-39Z-025f37",
+        "status": "connect_failed"
+      },
+      {
         "date": "2026-11-16T10:50:42.587Z",
         "errorExcerpt": "connect failed: Streamable HTTP error: Error POSTing to endpoint: <html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>",
         "method": "remote-http",
@@ -131,6 +145,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:59:27.112Z",
+        "errorExcerpt": "connect failed: Streamable HTTP error: Error POSTing to endpoint: <html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>",
+        "method": "remote-http",
+        "runId": "2026-11-23T11-59-27Z-8b35cc",
+        "status": "connect_failed"
+      },
       {
         "date": "2026-11-16T10:51:04.903Z",
         "errorExcerpt": "connect failed: Streamable HTTP error: Error POSTing to endpoint: <html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>",

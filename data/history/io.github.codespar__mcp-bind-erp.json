@@ -2,6 +2,36 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:39.889Z",
+        "installMs": 4160,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-39Z-0cc398",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "list_customers",
+          "create_customer",
+          "list_products",
+          "create_product",
+          "list_invoices",
+          "create_invoice",
+          "list_orders",
+          "create_order",
+          "get_balance",
+          "list_accounts",
+          "update_customer",
+          "delete_customer",
+          "update_product",
+          "delete_product",
+          "get_invoice",
+          "cancel_invoice",
+          "list_suppliers",
+          "create_supplier",
+          "list_payments",
+          "create_payment"
+        ]
+      },
+      {
         "date": "2026-11-09T11:02:04.817Z",
         "installMs": 10918,
         "method": "npm",
@@ -94,6 +124,36 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:35.779Z",
+        "installMs": 3212,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-35Z-28b592",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "list_customers",
+          "create_customer",
+          "list_products",
+          "create_product",
+          "list_invoices",
+          "create_invoice",
+          "list_orders",
+          "create_order",
+          "get_balance",
+          "list_accounts",
+          "update_customer",
+          "delete_customer",
+          "update_product",
+          "delete_product",
+          "get_invoice",
+          "cancel_invoice",
+          "list_suppliers",
+          "create_supplier",
+          "list_payments",
+          "create_payment"
+        ]
+      },
+      {
         "date": "2026-11-09T11:02:02.710Z",
         "installMs": 4824,
         "method": "npm",
@@ -185,6 +245,36 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:58:56.670Z",
+        "installMs": 147560,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-56Z-0e7bf5",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "list_customers",
+          "create_customer",
+          "list_products",
+          "create_product",
+          "list_invoices",
+          "create_invoice",
+          "list_orders",
+          "create_order",
+          "get_balance",
+          "list_accounts",
+          "update_customer",
+          "delete_customer",
+          "update_product",
+          "delete_product",
+          "get_invoice",
+          "cancel_invoice",
+          "list_suppliers",
+          "create_supplier",
+          "list_payments",
+          "create_payment"
+        ]
+      },
       {
         "date": "2026-11-09T11:02:18.514Z",
         "installMs": 136873,

@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-23T11:58:41.956Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\": \"invalid_token\", \"error_description\": \"Sign in to connect to LearnHouse\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-23T11-58-41Z-598376",
+        "status": "needs_auth"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-23T11:58:39.705Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\": \"invalid_token\", \"error_description\": \"Sign in to connect to LearnHouse\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-23T11-58-39Z-025f37",
+        "status": "needs_auth"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-23T11:59:27.112Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"error\": \"invalid_token\", \"error_description\": \"Sign in to connect to LearnHouse\"} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-23T11-59-27Z-8b35cc",
+        "status": "needs_auth"
+      }
+    ]
+  },
+  "serverId": "app.learnhouse/learnhouse",
+  "slug": "app.learnhouse__learnhouse"
+}

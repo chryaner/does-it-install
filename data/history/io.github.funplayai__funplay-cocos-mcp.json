@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:40.736Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Proxy transport error: connect ECONNREFUSED 127.0.0.1:8765\n--- stderr (tail) ---\n[Funplay Cocos MCP] Bridging stdio to http://127.0.0.1:8765/\n[Funplay Cocos MCP] connect ECONNREFUSED 127.0.0.1:8765",
+        "installMs": 447,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-40Z-f7f282",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-10-26T08:41:39.792Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Proxy transport error: connect ECONNREFUSED 127.0.0.1:8765\n--- stderr (tail) ---\n[Funplay Cocos MCP] Bridging stdio to http://127.0.0.1:8765/\n[Funplay Cocos MCP] connect ECONNREFUSED 127.0.0.1:8765",
         "installMs": 3473,
@@ -20,6 +28,14 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:37.996Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Proxy transport error: connect ECONNREFUSED 127.0.0.1:8765\n--- stderr (tail) ---\n[Funplay Cocos MCP] Bridging stdio to http://127.0.0.1:8765/\n[Funplay Cocos MCP] connect ECONNREFUSED 127.0.0.1:8765",
+        "installMs": 514,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-37Z-f970bd",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-10-26T08:41:32.163Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Proxy transport error: connect ECONNREFUSED 127.0.0.1:8765\n--- stderr (tail) ---\n[Funplay Cocos MCP] Bridging stdio to http://127.0.0.1:8765/\n[Funplay Cocos MCP] connect ECONNREFUSED 127.0.0.1:8765",
         "installMs": 405,
@@ -37,6 +53,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:58:54.641Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Proxy transport error: connect ECONNREFUSED 127.0.0.1:8765\n--- stderr (tail) ---\n[Funplay Cocos MCP] Bridging stdio to http://127.0.0.1:8765/\n[Funplay Cocos MCP] connect ECONNREFUSED 127.0.0.1:8765",
+        "installMs": 9246,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-54Z-d40aaf",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-10-26T08:41:54.532Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Proxy transport error: connect ECONNREFUSED 127.0.0.1:8765\n--- stderr (tail) ---\n[Funplay Cocos MCP] Bridging stdio to http://127.0.0.1:8765/\n[Funplay Cocos MCP] connect ECONNREFUSED 127.0.0.1:8765",

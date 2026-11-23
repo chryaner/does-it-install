@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:40.736Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"id\":null,\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32603,\"message\":\"Sign-in required. Connect with OAuth or send a valid API key in the x-api-key header.\"}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-23T11-58-40Z-f7f282",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-11-16T10:50:49.802Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"id\":null,\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32603,\"message\":\"Sign-in required. Connect with OAuth or send a valid API key in the x-api-key header.\"}} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -46,6 +53,13 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:37.996Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"id\":null,\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32603,\"message\":\"Sign-in required. Connect with OAuth or send a valid API key in the x-api-key header.\"}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-23T11-58-37Z-f970bd",
+        "status": "needs_auth"
+      },
+      {
         "date": "2026-11-16T10:50:47.770Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"id\":null,\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32603,\"message\":\"Sign-in required. Connect with OAuth or send a valid API key in the x-api-key header.\"}} (endpoint reachable but requires credentials the harness does not send)",
         "method": "remote-http",
@@ -89,6 +103,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:58:54.641Z",
+        "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"id\":null,\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32603,\"message\":\"Sign-in required. Connect with OAuth or send a valid API key in the x-api-key header.\"}} (endpoint reachable but requires credentials the harness does not send)",
+        "method": "remote-http",
+        "runId": "2026-11-23T11-58-54Z-d40aaf",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-11-16T10:51:00.349Z",
         "errorExcerpt": "handshake failed: HTTP 401: Streamable HTTP error: Error POSTing to endpoint: {\"id\":null,\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32603,\"message\":\"Sign-in required. Connect with OAuth or send a valid API key in the x-api-key header.\"}} (endpoint reachable but requires credentials the harness does not send)",

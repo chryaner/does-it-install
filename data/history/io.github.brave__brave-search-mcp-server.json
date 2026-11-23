@@ -2,6 +2,25 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:39.889Z",
+        "installMs": 6158,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-39Z-0cc398",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "brave_web_search",
+          "brave_local_search",
+          "brave_video_search",
+          "brave_image_search",
+          "brave_news_search",
+          "brave_summarizer",
+          "brave_llm_context",
+          "brave_place_search",
+          "brave_answers"
+        ]
+      },
+      {
         "date": "2026-11-16T10:50:49.802Z",
         "installMs": 6813,
         "method": "npm",
@@ -380,6 +399,25 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:35.779Z",
+        "installMs": 4842,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-35Z-28b592",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "brave_web_search",
+          "brave_local_search",
+          "brave_video_search",
+          "brave_image_search",
+          "brave_news_search",
+          "brave_summarizer",
+          "brave_llm_context",
+          "brave_place_search",
+          "brave_answers"
+        ]
+      },
+      {
         "date": "2026-11-16T10:50:47.770Z",
         "installMs": 2646,
         "method": "npm",
@@ -757,6 +795,25 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:58:56.670Z",
+        "installMs": 181445,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-56Z-0e7bf5",
+        "status": "pass",
+        "toolCount": 9,
+        "toolNames": [
+          "brave_web_search",
+          "brave_local_search",
+          "brave_video_search",
+          "brave_image_search",
+          "brave_news_search",
+          "brave_summarizer",
+          "brave_llm_context",
+          "brave_place_search",
+          "brave_answers"
+        ]
+      },
       {
         "date": "2026-11-16T10:51:00.349Z",
         "installMs": 116397,

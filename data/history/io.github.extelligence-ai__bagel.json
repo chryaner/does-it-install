@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:39.889Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-11-23T11-58-39Z-0cc398",
+        "status": "skipped"
+      },
+      {
         "date": "2026-10-26T08:41:39.792Z",
         "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
         "installMs": 0,
@@ -35,6 +43,14 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:35.779Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\nDisk usage: cache /home/ubuntu/.cache/bagel = 0 bytes, artifacts /home/ubuntu/.bagel/artifacts = 0 bytes\nINFO:     Started server process [17]\nINFO:     Waiting for application startup.\nStreamableHTTP session manager started\nINFO:     Application startup complete.\nINFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)",
+        "installMs": 30857,
+        "method": "oci",
+        "runId": "2026-11-23T11-58-35Z-28b592",
+        "status": "timeout"
+      },
+      {
         "date": "2026-10-26T08:41:32.163Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\n--- stderr (tail) ---\nDisk usage: cache /home/ubuntu/.cache/bagel = 0 bytes, artifacts /home/ubuntu/.bagel/artifacts = 0 bytes\nINFO:     Started server process [17]\nINFO:     Waiting for application startup.\nStreamableHTTP session manager started\nINFO:     Application startup complete.\nINFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)",
         "installMs": 15554,
@@ -67,6 +83,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:58:56.670Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-11-23T11-58-56Z-0e7bf5",
+        "status": "skipped"
+      },
       {
         "date": "2026-10-26T08:41:54.532Z",
         "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",

@@ -2,6 +2,28 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:40.736Z",
+        "installMs": 4015,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-40Z-f7f282",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "get_oauth_token",
+          "create_pix_cob",
+          "get_pix_cob",
+          "create_boleto",
+          "get_boleto",
+          "get_account_balance",
+          "get_account_statement",
+          "list_investment_positions",
+          "get_portfolio_summary",
+          "list_funds_available",
+          "subscribe_to_fund",
+          "redeem_from_fund"
+        ]
+      },
+      {
         "date": "2026-11-09T11:02:05.987Z",
         "installMs": 6494,
         "method": "npm",
@@ -70,6 +92,28 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:37.996Z",
+        "installMs": 3190,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-37Z-f970bd",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "get_oauth_token",
+          "create_pix_cob",
+          "get_pix_cob",
+          "create_boleto",
+          "get_boleto",
+          "get_account_balance",
+          "get_account_statement",
+          "list_investment_positions",
+          "get_portfolio_summary",
+          "list_funds_available",
+          "subscribe_to_fund",
+          "redeem_from_fund"
+        ]
+      },
+      {
         "date": "2026-11-09T11:01:54.903Z",
         "installMs": 3791,
         "method": "npm",
@@ -137,6 +181,28 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:58:54.641Z",
+        "installMs": 64250,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-54Z-d40aaf",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "get_oauth_token",
+          "create_pix_cob",
+          "get_pix_cob",
+          "create_boleto",
+          "get_boleto",
+          "get_account_balance",
+          "get_account_statement",
+          "list_investment_positions",
+          "get_portfolio_summary",
+          "list_funds_available",
+          "subscribe_to_fund",
+          "redeem_from_fund"
+        ]
+      },
       {
         "date": "2026-11-09T11:02:25.384Z",
         "installMs": 214330,

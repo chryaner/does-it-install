@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:41.956Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nFailed to start server: Error: Failed to initialize server: Sorry, this server is not yet available in the browser. Please use the CLI mode.\n    at startServer (file:///private/var/folders/q2/p1t6rgxj5fj32g1dc7dmd49r0000gn/T/does-it-install/dii-npm-DsWQsX/node_modules/touchdesigner-mcp-server/dist/cli.js:57:15)\n    at file:///private/var/folders/q2/p1t6rgxj5fj32g1dc7dmd49r0000gn/T/does-it-install/dii-npm-DsWQsX/node_modules/touchdesigner-mcp-server/dist/cli.js:61:1\n    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)",
+        "installMs": 9281,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-41Z-598376",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-11-16T10:50:54.649Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nFailed to start server: Error: Failed to initialize server: Sorry, this server is not yet available in the browser. Please use the CLI mode.\n    at startServer (file:///private/var/folders/h5/t85nd63d71x27_8gl5gw3l_w0000gn/T/does-it-install/dii-npm-q3eTs8/node_modules/touchdesigner-mcp-server/dist/cli.js:57:15)\n    at file:///private/var/folders/h5/t85nd63d71x27_8gl5gw3l_w0000gn/T/does-it-install/dii-npm-q3eTs8/node_modules/touchdesigner-mcp-server/dist/cli.js:61:1\n    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)",
         "installMs": 8268,
@@ -43,6 +51,14 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:39.705Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nFailed to start server: Error: Failed to initialize server: Sorry, this server is not yet available in the browser. Please use the CLI mode.\n    at startServer (file:///tmp/does-it-install/dii-npm-Lc35UM/node_modules/touchdesigner-mcp-server/dist/cli.js:57:15)\n    at file:///tmp/does-it-install/dii-npm-Lc35UM/node_modules/touchdesigner-mcp-server/dist/cli.js:61:1\n    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)",
+        "installMs": 6001,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-39Z-025f37",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-11-16T10:50:46.214Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nFailed to start server: Error: Failed to initialize server: Sorry, this server is not yet available in the browser. Please use the CLI mode.\n    at startServer (file:///tmp/does-it-install/dii-npm-naq4a7/node_modules/touchdesigner-mcp-server/dist/cli.js:57:15)\n    at file:///tmp/does-it-install/dii-npm-naq4a7/node_modules/touchdesigner-mcp-server/dist/cli.js:61:1\n    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)",
         "installMs": 3667,
@@ -83,6 +99,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:59:27.112Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nFailed to start server: Error: Failed to initialize server: Sorry, this server is not yet available in the browser. Please use the CLI mode.\n    at startServer (file:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-4ek2rW/node_modules/touchdesigner-mcp-server/dist/cli.js:57:15)\n    at file:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-4ek2rW/node_modules/touchdesigner-mcp-server/dist/cli.js:61:1\n    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)",
+        "installMs": 142581,
+        "method": "npm",
+        "runId": "2026-11-23T11-59-27Z-8b35cc",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-11-16T10:51:03.688Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nFailed to start server: Error: Failed to initialize server: Sorry, this server is not yet available in the browser. Please use the CLI mode.\n    at startServer (file:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-RYZsKn/node_modules/touchdesigner-mcp-server/dist/cli.js:57:15)\n    at file:///C:/Users/RUNNER%7E1/AppData/Local/Temp/does-it-install/dii-npm-RYZsKn/node_modules/touchdesigner-mcp-server/dist/cli.js:61:1\n    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)",

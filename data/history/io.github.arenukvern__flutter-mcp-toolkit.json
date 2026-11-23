@@ -1,0 +1,72 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-23T11:58:40.736Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-11-23T11-58-40Z-f7f282",
+        "status": "skipped"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-23T11:58:37.996Z",
+        "installMs": 25748,
+        "method": "oci",
+        "runId": "2026-11-23T11-58-37Z-f970bd",
+        "status": "pass",
+        "toolCount": 34,
+        "toolNames": [
+          "fmt_hot_reload_flutter",
+          "fmt_hot_restart_flutter",
+          "fmt_connect_debug_app",
+          "fmt_discover_debug_apps",
+          "fmt_get_vm",
+          "fmt_get_extension_rpcs",
+          "fmt_tap_widget",
+          "fmt_enter_text",
+          "fmt_reveal_search",
+          "fmt_scroll",
+          "fmt_long_press",
+          "fmt_swipe",
+          "fmt_drag",
+          "fmt_hover",
+          "fmt_focus_widget",
+          "fmt_press_key",
+          "fmt_evaluate_dart_expression",
+          "fmt_hot_reload_and_capture",
+          "fmt_handle_dialog",
+          "fmt_navigate",
+          "fmt_get_recent_logs",
+          "fmt_migrate_agent_entries",
+          "fmt_semantic_snapshot",
+          "fmt_get_view_details",
+          "fmt_inspect_widget_at_point",
+          "fmt_get_app_errors",
+          "fmt_get_screenshots",
+          "fmt_capture_ui_snapshot",
+          "fmt_focus_window",
+          "fmt_wait_for",
+          "fmt_fill_form",
+          "fmt_list_client_tools_and_resources",
+          "fmt_client_tool",
+          "fmt_client_resource"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-23T11:58:54.641Z",
+        "errorExcerpt": "docker not available on this runner, so container distributions are probed on Linux only",
+        "installMs": 0,
+        "method": "oci",
+        "runId": "2026-11-23T11-58-54Z-d40aaf",
+        "status": "skipped"
+      }
+    ]
+  },
+  "serverId": "io.github.Arenukvern/flutter-mcp-toolkit",
+  "slug": "io.github.arenukvern__flutter-mcp-toolkit"
+}

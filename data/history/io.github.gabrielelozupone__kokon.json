@@ -2,6 +2,24 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:41.956Z",
+        "installMs": 691,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-41Z-598376",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "generate_image",
+          "edit_image",
+          "edit_images",
+          "outpaint_image",
+          "inpaint_image",
+          "upscale_image",
+          "get_image_info",
+          "get_generator_status"
+        ]
+      },
+      {
         "date": "2026-11-16T10:50:47.927Z",
         "installMs": 545,
         "method": "npm",
@@ -22,6 +40,24 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:39.705Z",
+        "installMs": 656,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-39Z-025f37",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "generate_image",
+          "edit_image",
+          "edit_images",
+          "outpaint_image",
+          "inpaint_image",
+          "upscale_image",
+          "get_image_info",
+          "get_generator_status"
+        ]
+      },
+      {
         "date": "2026-11-16T10:50:42.587Z",
         "installMs": 899,
         "method": "npm",
@@ -41,6 +77,24 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:59:27.112Z",
+        "installMs": 1762,
+        "method": "npm",
+        "runId": "2026-11-23T11-59-27Z-8b35cc",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "generate_image",
+          "edit_image",
+          "edit_images",
+          "outpaint_image",
+          "inpaint_image",
+          "upscale_image",
+          "get_image_info",
+          "get_generator_status"
+        ]
+      },
       {
         "date": "2026-11-16T10:51:04.903Z",
         "installMs": 3472,

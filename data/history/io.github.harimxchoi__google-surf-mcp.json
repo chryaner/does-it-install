@@ -2,6 +2,23 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:39.889Z",
+        "installMs": 22937,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-39Z-0cc398",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "search",
+          "scholar_search",
+          "search_parallel",
+          "extract",
+          "project_memory_search",
+          "project_memory",
+          "health"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:27.243Z",
         "installMs": 25712,
         "method": "npm",
@@ -33,6 +50,23 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:35.779Z",
+        "installMs": 21832,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-35Z-28b592",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "search",
+          "scholar_search",
+          "search_parallel",
+          "extract",
+          "project_memory_search",
+          "project_memory",
+          "health"
+        ]
+      },
+      {
         "date": "2026-08-16T02:45:19.430Z",
         "installMs": 8919,
         "method": "npm",
@@ -63,6 +97,23 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:58:56.670Z",
+        "installMs": 549979,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-56Z-0e7bf5",
+        "status": "pass",
+        "toolCount": 7,
+        "toolNames": [
+          "search",
+          "scholar_search",
+          "search_parallel",
+          "extract",
+          "project_memory_search",
+          "project_memory",
+          "health"
+        ]
+      },
       {
         "date": "2026-08-16T02:45:39.090Z",
         "installMs": 306601,

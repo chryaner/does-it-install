@@ -1,0 +1,66 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-23T11:58:40.736Z",
+        "installMs": 3099,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-40Z-f7f282",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "route_task",
+          "check_anti_slop",
+          "tokens_lint",
+          "acceptance_bar",
+          "ux_coverage",
+          "score_ui",
+          "fold_candidates",
+          "check_fold"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-23T11:58:37.996Z",
+        "installMs": 3009,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-37Z-f970bd",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "route_task",
+          "check_anti_slop",
+          "tokens_lint",
+          "acceptance_bar",
+          "ux_coverage",
+          "score_ui",
+          "fold_candidates",
+          "check_fold"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-23T11:58:54.641Z",
+        "installMs": 98707,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-54Z-d40aaf",
+        "status": "pass",
+        "toolCount": 8,
+        "toolNames": [
+          "route_task",
+          "check_anti_slop",
+          "tokens_lint",
+          "acceptance_bar",
+          "ux_coverage",
+          "score_ui",
+          "fold_candidates",
+          "check_fold"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.educlopez/ui-craft",
+  "slug": "io.github.educlopez__ui-craft"
+}

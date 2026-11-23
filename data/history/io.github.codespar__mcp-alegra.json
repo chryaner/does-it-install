@@ -2,6 +2,36 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:39.889Z",
+        "installMs": 4099,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-39Z-0cc398",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_invoice",
+          "get_invoice",
+          "list_invoices",
+          "void_invoice",
+          "get_invoice_pdf",
+          "send_invoice",
+          "create_contact",
+          "update_contact",
+          "delete_contact",
+          "list_contacts",
+          "create_item",
+          "update_item",
+          "list_items",
+          "list_payments",
+          "get_payment",
+          "create_payment",
+          "void_payment",
+          "list_categories",
+          "list_bank_accounts",
+          "get_company"
+        ]
+      },
+      {
         "date": "2026-11-09T11:02:04.817Z",
         "installMs": 12662,
         "method": "npm",
@@ -94,6 +124,36 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:35.779Z",
+        "installMs": 3729,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-35Z-28b592",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_invoice",
+          "get_invoice",
+          "list_invoices",
+          "void_invoice",
+          "get_invoice_pdf",
+          "send_invoice",
+          "create_contact",
+          "update_contact",
+          "delete_contact",
+          "list_contacts",
+          "create_item",
+          "update_item",
+          "list_items",
+          "list_payments",
+          "get_payment",
+          "create_payment",
+          "void_payment",
+          "list_categories",
+          "list_bank_accounts",
+          "get_company"
+        ]
+      },
+      {
         "date": "2026-11-09T11:02:02.710Z",
         "installMs": 4354,
         "method": "npm",
@@ -185,6 +245,36 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:58:56.670Z",
+        "installMs": 184487,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-56Z-0e7bf5",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "create_invoice",
+          "get_invoice",
+          "list_invoices",
+          "void_invoice",
+          "get_invoice_pdf",
+          "send_invoice",
+          "create_contact",
+          "update_contact",
+          "delete_contact",
+          "list_contacts",
+          "create_item",
+          "update_item",
+          "list_items",
+          "list_payments",
+          "get_payment",
+          "create_payment",
+          "void_payment",
+          "list_categories",
+          "list_bank_accounts",
+          "get_company"
+        ]
+      },
       {
         "date": "2026-11-09T11:02:18.514Z",
         "installMs": 136430,

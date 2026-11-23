@@ -2,6 +2,36 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:41.956Z",
+        "installMs": 5583,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-41Z-598376",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "get_ticker",
+          "list_orderbook",
+          "create_order",
+          "get_order",
+          "cancel_order",
+          "list_orders",
+          "get_balances",
+          "list_trades",
+          "list_funding_sources",
+          "create_withdrawal",
+          "list_ledger",
+          "list_open_orders",
+          "lookup_order",
+          "cancel_all_orders",
+          "list_fundings",
+          "list_withdrawals",
+          "get_withdrawal",
+          "list_fees",
+          "get_account_status",
+          "list_funding_destinations"
+        ]
+      },
+      {
         "date": "2026-11-09T11:02:00.484Z",
         "installMs": 3607,
         "method": "npm",
@@ -94,6 +124,36 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:39.705Z",
+        "installMs": 4812,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-39Z-025f37",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "get_ticker",
+          "list_orderbook",
+          "create_order",
+          "get_order",
+          "cancel_order",
+          "list_orders",
+          "get_balances",
+          "list_trades",
+          "list_funding_sources",
+          "create_withdrawal",
+          "list_ledger",
+          "list_open_orders",
+          "lookup_order",
+          "cancel_all_orders",
+          "list_fundings",
+          "list_withdrawals",
+          "get_withdrawal",
+          "list_fees",
+          "get_account_status",
+          "list_funding_destinations"
+        ]
+      },
+      {
         "date": "2026-11-09T11:01:54.894Z",
         "installMs": 2619,
         "method": "npm",
@@ -185,6 +245,36 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:59:27.112Z",
+        "installMs": 125578,
+        "method": "npm",
+        "runId": "2026-11-23T11-59-27Z-8b35cc",
+        "status": "pass",
+        "toolCount": 20,
+        "toolNames": [
+          "get_ticker",
+          "list_orderbook",
+          "create_order",
+          "get_order",
+          "cancel_order",
+          "list_orders",
+          "get_balances",
+          "list_trades",
+          "list_funding_sources",
+          "create_withdrawal",
+          "list_ledger",
+          "list_open_orders",
+          "lookup_order",
+          "cancel_all_orders",
+          "list_fundings",
+          "list_withdrawals",
+          "get_withdrawal",
+          "list_fees",
+          "get_account_status",
+          "list_funding_destinations"
+        ]
+      },
       {
         "date": "2026-11-09T11:02:21.452Z",
         "installMs": 103371,

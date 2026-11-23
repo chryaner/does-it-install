@@ -1,0 +1,105 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-23T11:58:41.956Z",
+        "method": "pypi",
+        "runId": "2026-11-23T11-58-41Z-598376",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "setup_status",
+          "image_generate",
+          "list_image_models",
+          "video_generate",
+          "list_video_models",
+          "audio_generate",
+          "list_audio_models",
+          "list_voices",
+          "url_extraction",
+          "image_analysis",
+          "video_analysis",
+          "social_research",
+          "list_research_sources",
+          "transcribe",
+          "video_stitch",
+          "caption_video",
+          "video_overlay",
+          "job_status",
+          "calendar_list",
+          "calendar_add",
+          "calendar_update",
+          "calendar_remove"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-23T11:58:39.705Z",
+        "method": "pypi",
+        "runId": "2026-11-23T11-58-39Z-025f37",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "setup_status",
+          "image_generate",
+          "list_image_models",
+          "video_generate",
+          "list_video_models",
+          "audio_generate",
+          "list_audio_models",
+          "list_voices",
+          "url_extraction",
+          "image_analysis",
+          "video_analysis",
+          "social_research",
+          "list_research_sources",
+          "transcribe",
+          "video_stitch",
+          "caption_video",
+          "video_overlay",
+          "job_status",
+          "calendar_list",
+          "calendar_add",
+          "calendar_update",
+          "calendar_remove"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-23T11:59:27.112Z",
+        "method": "pypi",
+        "runId": "2026-11-23T11-59-27Z-8b35cc",
+        "status": "pass",
+        "toolCount": 22,
+        "toolNames": [
+          "setup_status",
+          "image_generate",
+          "list_image_models",
+          "video_generate",
+          "list_video_models",
+          "audio_generate",
+          "list_audio_models",
+          "list_voices",
+          "url_extraction",
+          "image_analysis",
+          "video_analysis",
+          "social_research",
+          "list_research_sources",
+          "transcribe",
+          "video_stitch",
+          "caption_video",
+          "video_overlay",
+          "job_status",
+          "calendar_list",
+          "calendar_add",
+          "calendar_update",
+          "calendar_remove"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.SupercmoHQ/supercmo",
+  "slug": "io.github.supercmohq__supercmo"
+}

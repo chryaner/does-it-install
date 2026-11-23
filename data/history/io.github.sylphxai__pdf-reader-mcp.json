@@ -2,6 +2,19 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:39.889Z",
+        "installMs": 1877,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-39Z-0cc398",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "pdf_evidence",
+          "read_pdf",
+          "search_pdf"
+        ]
+      },
+      {
         "date": "2026-11-16T10:50:54.649Z",
         "installMs": 3529,
         "method": "npm",
@@ -69,6 +82,19 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:35.779Z",
+        "installMs": 1782,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-35Z-28b592",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "pdf_evidence",
+          "read_pdf",
+          "search_pdf"
+        ]
+      },
+      {
         "date": "2026-11-16T10:50:46.214Z",
         "installMs": 1581,
         "method": "npm",
@@ -135,6 +161,19 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:58:56.670Z",
+        "installMs": 4221,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-56Z-0e7bf5",
+        "status": "pass",
+        "toolCount": 3,
+        "toolNames": [
+          "pdf_evidence",
+          "read_pdf",
+          "search_pdf"
+        ]
+      },
       {
         "date": "2026-11-16T10:51:03.688Z",
         "installMs": 4854,

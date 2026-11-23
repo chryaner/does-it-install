@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:41.956Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 41 packages in 159ms\nUsage: attestix [OPTIONS] COMMAND [ARGS]...\n\n  Attestix - Attestation Infrastructure for AI Agents.\n\n  Manage agent identities, compliance profiles, credentials, and audit trails\n  from the command line.\n\nOptions:\n  --version  Show the version and exit.\n  --help     Show this message and exit.\n\nCommands:\n  audit       Show audit trail for an agent.\n  compliance  Show compliance status for an agent, or create a new...\n  credential  Issue, verify, list, or revoke W3C Verifiable Credentials.\n  export      Export local OSS state as an Attestix portability bundle...\n  import      Import an Attestix portability bundle (M6 cloud export)...\n  init        Create a new agent identity.\n  list        List all agent identities.\n  status      Show system status: data directory, version, and resource...\n  verify      Verify an agent identity by its ID.",
+        "method": "pypi",
+        "runId": "2026-11-23T11-58-41Z-598376",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-11-16T10:50:47.927Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 41 packages in 329ms\nUsage: attestix [OPTIONS] COMMAND [ARGS]...\n\n  Attestix - Attestation Infrastructure for AI Agents.\n\n  Manage agent identities, compliance profiles, credentials, and audit trails\n  from the command line.\n\nOptions:\n  --version  Show the version and exit.\n  --help     Show this message and exit.\n\nCommands:\n  audit       Show audit trail for an agent.\n  compliance  Show compliance status for an agent, or create a new...\n  credential  Issue, verify, list, or revoke W3C Verifiable Credentials.\n  export      Export local OSS state as an Attestix portability bundle...\n  import      Import an Attestix portability bundle (M6 cloud export)...\n  init        Create a new agent identity.\n  list        List all agent identities.\n  status      Show system status: data directory, version, and resource...\n  verify      Verify an agent identity by its ID.",
         "method": "pypi",
@@ -25,6 +32,13 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:39.705Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 41 packages in 43ms\nUsage: attestix [OPTIONS] COMMAND [ARGS]...\n\n  Attestix - Attestation Infrastructure for AI Agents.\n\n  Manage agent identities, compliance profiles, credentials, and audit trails\n  from the command line.\n\nOptions:\n  --version  Show the version and exit.\n  --help     Show this message and exit.\n\nCommands:\n  audit       Show audit trail for an agent.\n  compliance  Show compliance status for an agent, or create a new...\n  credential  Issue, verify, list, or revoke W3C Verifiable Credentials.\n  export      Export local OSS state as an Attestix portability bundle...\n  import      Import an Attestix portability bundle (M6 cloud export)...\n  init        Create a new agent identity.\n  list        List all agent identities.\n  status      Show system status: data directory, version, and resource...\n  verify      Verify an agent identity by its ID.",
+        "method": "pypi",
+        "runId": "2026-11-23T11-58-39Z-025f37",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-11-16T10:50:42.587Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 41 packages in 23ms\nUsage: attestix [OPTIONS] COMMAND [ARGS]...\n\n  Attestix - Attestation Infrastructure for AI Agents.\n\n  Manage agent identities, compliance profiles, credentials, and audit trails\n  from the command line.\n\nOptions:\n  --version  Show the version and exit.\n  --help     Show this message and exit.\n\nCommands:\n  audit       Show audit trail for an agent.\n  compliance  Show compliance status for an agent, or create a new...\n  credential  Issue, verify, list, or revoke W3C Verifiable Credentials.\n  export      Export local OSS state as an Attestix portability bundle...\n  import      Import an Attestix portability bundle (M6 cloud export)...\n  init        Create a new agent identity.\n  list        List all agent identities.\n  status      Show system status: data directory, version, and resource...\n  verify      Verify an agent identity by its ID.",
         "method": "pypi",
@@ -47,6 +61,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:59:27.112Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 43 packages in 18.55s\nUsage: attestix [OPTIONS] COMMAND [ARGS]...\r\n\r\n  Attestix - Attestation Infrastructure for AI Agents.\r\n\r\n  Manage agent identities, compliance profiles, credentials, and audit trails\r\n  from the command line.\r\n\r\nOptions:\r\n  --version  Show the version and exit.\r\n  --help     Show this message and exit.\r\n\r\nCommands:\r\n  audit       Show audit trail for an agent.\r\n  compliance  Show compliance status for an agent, or create a new...\r\n  credential  Issue, verify, list, or revoke W3C Verifiable Credentials.\r\n  export      Export local OSS state as an Attestix portability bundle...\r\n  import      Import an Attestix portability bundle (M6 cloud export)...\r\n  init        Create a new agent identity.\r\n  list        List all agent identities.\r\n  status      Show system status: data directory, version, and resource...\r\n  verify      Verify an agent identity by its ID.",
+        "method": "pypi",
+        "runId": "2026-11-23T11-59-27Z-8b35cc",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-11-16T10:51:04.903Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 43 packages in 8.16s\nUsage: attestix [OPTIONS] COMMAND [ARGS]...\r\n\r\n  Attestix - Attestation Infrastructure for AI Agents.\r\n\r\n  Manage agent identities, compliance profiles, credentials, and audit trails\r\n  from the command line.\r\n\r\nOptions:\r\n  --version  Show the version and exit.\r\n  --help     Show this message and exit.\r\n\r\nCommands:\r\n  audit       Show audit trail for an agent.\r\n  compliance  Show compliance status for an agent, or create a new...\r\n  credential  Issue, verify, list, or revoke W3C Verifiable Credentials.\r\n  export      Export local OSS state as an Attestix portability bundle...\r\n  import      Import an Attestix portability bundle (M6 cloud export)...\r\n  init        Create a new agent identity.\r\n  list        List all agent identities.\r\n  status      Show system status: data directory, version, and resource...\r\n  verify      Verify an agent identity by its ID.",

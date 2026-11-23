@@ -2,6 +2,29 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:41.956Z",
+        "method": "pypi",
+        "runId": "2026-11-23T11-58-41Z-598376",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "search_markets",
+          "get_market",
+          "get_orderbook",
+          "get_quote",
+          "trading_fee",
+          "check_constraint",
+          "check_constraint_live",
+          "list_relation_types",
+          "fair_value",
+          "model_probability",
+          "list_relations",
+          "paper_order",
+          "paper_portfolio",
+          "paper_reset"
+        ]
+      },
+      {
         "date": "2026-11-16T10:50:54.649Z",
         "method": "pypi",
         "runId": "2026-11-16T10-50-54Z-9f87e0",
@@ -71,6 +94,29 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:39.705Z",
+        "method": "pypi",
+        "runId": "2026-11-23T11-58-39Z-025f37",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "search_markets",
+          "get_market",
+          "get_orderbook",
+          "get_quote",
+          "trading_fee",
+          "check_constraint",
+          "check_constraint_live",
+          "list_relation_types",
+          "fair_value",
+          "model_probability",
+          "list_relations",
+          "paper_order",
+          "paper_portfolio",
+          "paper_reset"
+        ]
+      },
+      {
         "date": "2026-11-16T10:50:46.214Z",
         "method": "pypi",
         "runId": "2026-11-16T10-50-46Z-5c023d",
@@ -139,6 +185,29 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:59:27.112Z",
+        "method": "pypi",
+        "runId": "2026-11-23T11-59-27Z-8b35cc",
+        "status": "pass",
+        "toolCount": 14,
+        "toolNames": [
+          "search_markets",
+          "get_market",
+          "get_orderbook",
+          "get_quote",
+          "trading_fee",
+          "check_constraint",
+          "check_constraint_live",
+          "list_relation_types",
+          "fair_value",
+          "model_probability",
+          "list_relations",
+          "paper_order",
+          "paper_portfolio",
+          "paper_reset"
+        ]
+      },
       {
         "date": "2026-11-16T10:51:03.688Z",
         "method": "pypi",

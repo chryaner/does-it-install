@@ -2,6 +2,34 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:40.736Z",
+        "installMs": 5532,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-40Z-f7f282",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_shipment",
+          "get_shipment",
+          "track_shipment",
+          "get_rates",
+          "list_branches",
+          "create_label",
+          "get_tracking_history",
+          "cancel_shipment",
+          "get_label_pdf",
+          "list_tracking_by_date",
+          "validate_postal_code",
+          "create_pickup",
+          "list_pickups",
+          "cancel_pickup",
+          "create_return",
+          "list_returns",
+          "list_products",
+          "get_invoice"
+        ]
+      },
+      {
         "date": "2026-11-09T11:02:05.987Z",
         "installMs": 12400,
         "method": "npm",
@@ -88,6 +116,34 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:37.996Z",
+        "installMs": 3279,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-37Z-f970bd",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_shipment",
+          "get_shipment",
+          "track_shipment",
+          "get_rates",
+          "list_branches",
+          "create_label",
+          "get_tracking_history",
+          "cancel_shipment",
+          "get_label_pdf",
+          "list_tracking_by_date",
+          "validate_postal_code",
+          "create_pickup",
+          "list_pickups",
+          "cancel_pickup",
+          "create_return",
+          "list_returns",
+          "list_products",
+          "get_invoice"
+        ]
+      },
+      {
         "date": "2026-11-09T11:01:54.903Z",
         "installMs": 3697,
         "method": "npm",
@@ -173,6 +229,34 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:58:54.641Z",
+        "installMs": 114319,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-54Z-d40aaf",
+        "status": "pass",
+        "toolCount": 18,
+        "toolNames": [
+          "create_shipment",
+          "get_shipment",
+          "track_shipment",
+          "get_rates",
+          "list_branches",
+          "create_label",
+          "get_tracking_history",
+          "cancel_shipment",
+          "get_label_pdf",
+          "list_tracking_by_date",
+          "validate_postal_code",
+          "create_pickup",
+          "list_pickups",
+          "cancel_pickup",
+          "create_return",
+          "list_returns",
+          "list_products",
+          "get_invoice"
+        ]
+      },
       {
         "date": "2026-11-09T11:02:25.384Z",
         "installMs": 195238,

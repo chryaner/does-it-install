@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:39.889Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nerror: No solution found when resolving tool dependencies\n  cause: Because onnxruntime>=1.20.1 has no wheels with a matching Python ABI tag (e.g., `cp315`) and fastembed==0.7.4 depends on onnxruntime>1.20.0, we can conclude that fastembed==0.7.4 cannot be used.\n         And because only the following versions of fastembed are available:\n             fastembed<=0.7.4\n             fastembed>=0.8.0\n         we can conclude that fastembed>=0.7.4,<0.8.0 cannot be used. (1)\n\n         Because onnxruntime>=1.24.2 has no wheels with a matching Python ABI tag (e.g., `cp315`) and fastembed>=0.8.0 depends on onnxruntime>=1.24.2, we can conclude that fastembed>=0.8.0 cannot be used.\n         And because we know from (1) that fastembed>=0.7.4,<0.8.0 cannot be used, we can conclude that fastembed>=0.7.4 cannot be used.\n         And because basic-memory>=1.0.0 depends on fastembed>=0.7.4 and you require basic-memory==1.0.0, we can conclude that your requirements are unsatisfiable.\n\nhint: You require CPython 3.15 (`cp315`), but we only found wheels for `onnxruntime` (v1.32.0) with the following Python ABI tags: `cp311`, `cp312`, `cp313`, `cp313t`, `cp314`, `cp314t`",
+        "method": "pypi",
+        "runId": "2026-11-23T11-58-39Z-0cc398",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-11-16T10:50:47.927Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nerror: No solution found when resolving tool dependencies\n  cause: Because onnxruntime>=1.20.1 has no wheels with a matching Python ABI tag (e.g., `cp315`) and fastembed==0.7.4 depends on onnxruntime>1.20.0, we can conclude that fastembed==0.7.4 cannot be used.\n         And because only the following versions of fastembed are available:\n             fastembed<=0.7.4\n             fastembed>=0.8.0\n         we can conclude that fastembed>=0.7.4,<0.8.0 cannot be used. (1)\n\n         Because onnxruntime>=1.24.2 has no wheels with a matching Python ABI tag (e.g., `cp315`) and fastembed>=0.8.0 depends on onnxruntime>=1.24.2, we can conclude that fastembed>=0.8.0 cannot be used.\n         And because we know from (1) that fastembed>=0.7.4,<0.8.0 cannot be used, we can conclude that fastembed>=0.7.4 cannot be used.\n         And because basic-memory>=1.0.0 depends on fastembed>=0.7.4 and you require basic-memory==1.0.0, we can conclude that your requirements are unsatisfiable.\n\nhint: You require CPython 3.15 (`cp315`), but we only found wheels for `onnxruntime` (v1.32.0) with the following Python ABI tags: `cp311`, `cp312`, `cp313`, `cp313t`, `cp314`, `cp314t`",
         "method": "pypi",
@@ -46,6 +53,13 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:35.779Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading pyright (5.9MiB)\nDownloading numpy (15.0MiB)\nDownloading logfire-cli (3.7MiB)\nDownloading uvloop (4.2MiB)\nDownloading tokenizers (3.2MiB)\nDownloading asyncpg (3.6MiB)\nDownloading onnxruntime (26.5MiB)\nDownloading openai (2.3MiB)\nDownloading sqlalchemy (4.4MiB)\nDownloading basic-memory (1.8MiB)\nDownloading hf-xet (4.1MiB)\nDownloading pillow (6.8MiB)\n   Building pymeta3==0.5.1\n   Building pybars3==0.9.7\n      Built pybars3==0.9.7\n Downloaded basic-memory\n      Built pymeta3==0.5.1\n Downloaded tokenizers\n Downloaded logfire-cli\n Downloaded asyncpg\n Downloaded sqlalchemy\n Downloaded hf-xet\n Downloaded uvloop\n Downloaded openai\n Downloaded pillow\n Downloaded numpy\n Downloaded onnxruntime\n Downloaded pyright\nInstalled 160 packages in 733ms\nUsage: basic-memory [OPTIONS] COMMAND [ARGS]...\nTry 'basic-memory --help' for help.\n╭─ Error ──────────────────────────────────────────────────────────────────────╮\n│ Missing command.                                                             │\n╰──────────────────────────────────────────────────────────────────────────────╯",
+        "method": "pypi",
+        "runId": "2026-11-23T11-58-35Z-28b592",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-11-16T10:50:42.587Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nBuilding pymeta3==0.5.1\nDownloading pillow (6.8MiB)\nDownloading numpy (15.0MiB)\nDownloading asyncpg (3.6MiB)\nDownloading sqlalchemy (4.4MiB)\nDownloading onnxruntime (26.5MiB)\nDownloading pyright (5.9MiB)\nDownloading openai (2.3MiB)\nDownloading basic-memory (1.8MiB)\nDownloading tokenizers (3.2MiB)\nDownloading hf-xet (4.1MiB)\nDownloading uvloop (4.2MiB)\n   Building pybars3==0.9.7\n      Built pymeta3==0.5.1\n Downloaded basic-memory\n      Built pybars3==0.9.7\n Downloaded tokenizers\n Downloaded asyncpg\n Downloaded hf-xet\n Downloaded sqlalchemy\n Downloaded uvloop\n Downloaded pillow\n Downloaded openai\n Downloaded numpy\n Downloaded onnxruntime\n Downloaded pyright\nInstalled 159 packages in 536ms\nUsage: basic-memory [OPTIONS] COMMAND [ARGS]...\nTry 'basic-memory --help' for help.\n╭─ Error ──────────────────────────────────────────────────────────────────────╮\n│ Missing command.                                                             │\n╰──────────────────────────────────────────────────────────────────────────────╯",
         "method": "pypi",
@@ -89,6 +103,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:58:56.670Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading openai (2.3MiB)\nDownloading pillow (6.9MiB)\nDownloading pyright (5.9MiB)\nDownloading tokenizers (2.7MiB)\nDownloading sqlalchemy (2.3MiB)\nDownloading logfire-cli (3.2MiB)\nDownloading onnxruntime (15.9MiB)\nDownloading hf-xet (3.7MiB)\nDownloading basic-memory (1.8MiB)\nDownloading numpy (12.0MiB)\n   Building pybars3==0.9.7\n   Building pymeta3==0.5.1\n      Built pybars3==0.9.7\n      Built pymeta3==0.5.1\n Downloaded tokenizers\n Downloaded sqlalchemy\n Downloaded logfire-cli\n Downloaded hf-xet\n Downloaded basic-memory\n Downloaded pillow\n Downloaded numpy\n Downloaded onnxruntime\n Downloaded openai\n Downloaded pyright\nInstalled 161 packages in 2m 38s\nUsage: basic-memory [OPTIONS] COMMAND [ARGS]...\r\nTry 'basic-memory --help' for help.\r\n+- Error ---------------------------------------------------------------------+\r\n| Missing command.                                                            |\r\n+-----------------------------------------------------------------------------+",
+        "method": "pypi",
+        "runId": "2026-11-23T11-58-56Z-0e7bf5",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-11-16T10:51:04.903Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading openai (2.3MiB)\nDownloading pyright (5.9MiB)\nDownloading basic-memory (1.8MiB)\nDownloading pillow (6.9MiB)\nDownloading hf-xet (3.7MiB)\nDownloading onnxruntime (15.9MiB)\nDownloading numpy (12.0MiB)\nDownloading sqlalchemy (2.3MiB)\nDownloading tokenizers (2.7MiB)\n   Building pymeta3==0.5.1\n   Building pybars3==0.9.7\n      Built pybars3==0.9.7\n      Built pymeta3==0.5.1\n Downloaded tokenizers\n Downloaded sqlalchemy\n Downloaded hf-xet\n Downloaded basic-memory\n Downloaded pillow\n Downloaded numpy\n Downloaded onnxruntime\n Downloaded openai\n Downloaded pyright\nInstalled 160 packages in 1m 36s\nUsage: basic-memory [OPTIONS] COMMAND [ARGS]...\r\nTry 'basic-memory --help' for help.\r\n+- Error ---------------------------------------------------------------------+\r\n| Missing command.                                                            |\r\n+-----------------------------------------------------------------------------+",

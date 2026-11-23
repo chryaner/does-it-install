@@ -2,6 +2,28 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:40.736Z",
+        "installMs": 4410,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-40Z-f7f282",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "process_document",
+          "browse_documents",
+          "search_documents",
+          "get_folder_structure",
+          "get_document",
+          "get_document_structure",
+          "search_pages",
+          "get_page_content",
+          "view_pages",
+          "zoom_page",
+          "get_document_image",
+          "remove_document"
+        ]
+      },
+      {
         "date": "2026-10-26T08:41:39.792Z",
         "installMs": 14460,
         "method": "npm",
@@ -40,6 +62,28 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:37.996Z",
+        "installMs": 4186,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-37Z-f970bd",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "process_document",
+          "browse_documents",
+          "search_documents",
+          "get_folder_structure",
+          "get_document",
+          "get_document_structure",
+          "search_pages",
+          "get_page_content",
+          "view_pages",
+          "zoom_page",
+          "get_document_image",
+          "remove_document"
+        ]
+      },
+      {
         "date": "2026-10-26T08:41:32.163Z",
         "installMs": 3415,
         "method": "npm",
@@ -77,6 +121,28 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:58:54.641Z",
+        "installMs": 249297,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-54Z-d40aaf",
+        "status": "pass",
+        "toolCount": 12,
+        "toolNames": [
+          "process_document",
+          "browse_documents",
+          "search_documents",
+          "get_folder_structure",
+          "get_document",
+          "get_document_structure",
+          "search_pages",
+          "get_page_content",
+          "view_pages",
+          "zoom_page",
+          "get_document_image",
+          "remove_document"
+        ]
+      },
       {
         "date": "2026-10-26T08:41:54.532Z",
         "installMs": 263279,

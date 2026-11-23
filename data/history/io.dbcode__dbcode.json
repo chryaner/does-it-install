@@ -1,0 +1,36 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-23T11:58:39.889Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDBCode is not installed. Install the DBCode extension in VS Code, Cursor, Windsurf, Antigravity or Kiro (https://dbcode.io/docs/get-started/install), then restart your agent.",
+        "installMs": 1088,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-39Z-0cc398",
+        "status": "handshake_failed"
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-23T11:58:35.779Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDBCode is not installed. Install the DBCode extension in VS Code, Cursor, Windsurf, Antigravity or Kiro (https://dbcode.io/docs/get-started/install), then restart your agent.",
+        "installMs": 583,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-35Z-28b592",
+        "status": "handshake_failed"
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-23T11:58:56.670Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDBCode is not installed. Install the DBCode extension in VS Code, Cursor, Windsurf, Antigravity or Kiro (https://dbcode.io/docs/get-started/install), then restart your agent.",
+        "installMs": 4427,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-56Z-0e7bf5",
+        "status": "handshake_failed"
+      }
+    ]
+  },
+  "serverId": "io.dbcode/dbcode",
+  "slug": "io.dbcode__dbcode"
+}

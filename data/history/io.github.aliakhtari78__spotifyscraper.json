@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:39.889Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 7 packages in 22ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/rlpxQWtAMNPVkZYd/lib/python3.15/site-packages/spotify_scraper/cli/__init__.py\", line 11, in <module>\n    from spotify_scraper.cli.main import app\n  File \"/Users/runner/.cache/uv/archive-v0/rlpxQWtAMNPVkZYd/lib/python3.15/site-packages/spotify_scraper/cli/main.py\", line 16, in <module>\n    import typer\nModuleNotFoundError: No module named 'typer'. Did you mean: 'types'?\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/rlpxQWtAMNPVkZYd/bin/spotifyscraper\", line 6, in <module>\n    from spotify_scraper.cli import app\n  File \"/Users/runner/.cache/uv/archive-v0/rlpxQWtAMNPVkZYd/lib/python3.15/site-packages/spotify_scraper/cli/__init__.py\", line 13, in <module>\n    raise ImportError('The CLI requires the cli extra: pip install \"spotifyscraper[cli]\"') from exc\nImportError: The CLI requires the cli extra: pip install \"spotifyscraper[cli]\"",
+        "method": "pypi",
+        "runId": "2026-11-23T11-58-39Z-0cc398",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-16T02:45:27.629Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 7 packages in 10ms\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/a2P1xNhMvtHAC24x/lib/python3.14/site-packages/spotify_scraper/cli/__init__.py\", line 11, in <module>\n    from spotify_scraper.cli.main import app\n  File \"/Users/runner/.cache/uv/archive-v0/a2P1xNhMvtHAC24x/lib/python3.14/site-packages/spotify_scraper/cli/main.py\", line 16, in <module>\n    import typer\nModuleNotFoundError: No module named 'typer'\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/Users/runner/.cache/uv/archive-v0/a2P1xNhMvtHAC24x/bin/spotifyscraper\", line 6, in <module>\n    from spotify_scraper.cli import app\n  File \"/Users/runner/.cache/uv/archive-v0/a2P1xNhMvtHAC24x/lib/python3.14/site-packages/spotify_scraper/cli/__init__.py\", line 13, in <module>\n    raise ImportError('The CLI requires the cli extra: pip install \"spotifyscraper[cli]\"') from exc\nImportError: The CLI requires the cli extra: pip install \"spotifyscraper[cli]\"",
         "method": "pypi",
@@ -18,6 +25,13 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:35.779Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 8 packages in 4ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/cXryHbVIam7oumC_/lib/python3.14/site-packages/spotify_scraper/cli/__init__.py\", line 11, in <module>\n    from spotify_scraper.cli.main import app\n  File \"/home/runner/.cache/uv/archive-v0/cXryHbVIam7oumC_/lib/python3.14/site-packages/spotify_scraper/cli/main.py\", line 16, in <module>\n    import typer\nModuleNotFoundError: No module named 'typer'\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/cXryHbVIam7oumC_/bin/spotifyscraper\", line 6, in <module>\n    from spotify_scraper.cli import app\n  File \"/home/runner/.cache/uv/archive-v0/cXryHbVIam7oumC_/lib/python3.14/site-packages/spotify_scraper/cli/__init__.py\", line 13, in <module>\n    raise ImportError('The CLI requires the cli extra: pip install \"spotifyscraper[cli]\"') from exc\nImportError: The CLI requires the cli extra: pip install \"spotifyscraper[cli]\"",
+        "method": "pypi",
+        "runId": "2026-11-23T11-58-35Z-28b592",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-08-16T02:45:24.037Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 7 packages in 4ms\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/1VppeszL_4jF4Bqq/lib/python3.13/site-packages/spotify_scraper/cli/__init__.py\", line 11, in <module>\n    from spotify_scraper.cli.main import app\n  File \"/home/runner/.cache/uv/archive-v0/1VppeszL_4jF4Bqq/lib/python3.13/site-packages/spotify_scraper/cli/main.py\", line 16, in <module>\n    import typer\nModuleNotFoundError: No module named 'typer'\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/home/runner/.cache/uv/archive-v0/1VppeszL_4jF4Bqq/bin/spotifyscraper\", line 6, in <module>\n    from spotify_scraper.cli import app\n  File \"/home/runner/.cache/uv/archive-v0/1VppeszL_4jF4Bqq/lib/python3.13/site-packages/spotify_scraper/cli/__init__.py\", line 13, in <module>\n    raise ImportError('The CLI requires the cli extra: pip install \"spotifyscraper[cli]\"') from exc\nImportError: The CLI requires the cli extra: pip install \"spotifyscraper[cli]\"",
         "method": "pypi",
@@ -33,6 +47,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:58:56.670Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 8 packages in 1.81s\nTraceback (most recent call last):\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\u_Z-_mQoopbDR2yb\\Lib\\site-packages\\spotify_scraper\\cli\\__init__.py\", line 11, in <module>\r\n    from spotify_scraper.cli.main import app\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\u_Z-_mQoopbDR2yb\\Lib\\site-packages\\spotify_scraper\\cli\\main.py\", line 16, in <module>\r\n    import typer\r\nModuleNotFoundError: No module named 'typer'\r\n\r\nThe above exception was the direct cause of the following exception:\r\n\r\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\u_Z-_mQoopbDR2yb\\Scripts\\spotifyscraper.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\u_Z-_mQoopbDR2yb\\Lib\\site-packages\\spotify_scraper\\cli\\__init__.py\", line 13, in <module>\r\n    raise ImportError('The CLI requires the cli extra: pip install \"spotifyscraper[cli]\"') from exc\r\nImportError: The CLI requires the cli extra: pip install \"spotifyscraper[cli]\"",
+        "method": "pypi",
+        "runId": "2026-11-23T11-58-56Z-0e7bf5",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-08-16T02:45:42.768Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nInstalled 8 packages in 314ms\nTraceback (most recent call last):\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\NnvyZi4YodZj8EIQ\\Lib\\site-packages\\spotify_scraper\\cli\\__init__.py\", line 11, in <module>\r\n    from spotify_scraper.cli.main import app\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\NnvyZi4YodZj8EIQ\\Lib\\site-packages\\spotify_scraper\\cli\\main.py\", line 16, in <module>\r\n    import typer\r\nModuleNotFoundError: No module named 'typer'\r\n\r\nThe above exception was the direct cause of the following exception:\r\n\r\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\NnvyZi4YodZj8EIQ\\Scripts\\spotifyscraper.exe\\__main__.py\", line 4, in <module>\r\n  File \"C:\\Users\\runneradmin\\AppData\\Local\\uv\\cache\\archive-v0\\NnvyZi4YodZj8EIQ\\Lib\\site-packages\\spotify_scraper\\cli\\__init__.py\", line 13, in <module>\r\n    raise ImportError('The CLI requires the cli extra: pip install \"spotifyscraper[cli]\"') from exc\r\nImportError: The CLI requires the cli extra: pip install \"spotifyscraper[cli]\"",

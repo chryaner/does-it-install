@@ -2,6 +2,13 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:40.736Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: token 'T', \"  Thinking...\" is not valid JSON\nUnexpected end of JSON input\nUnexpected token '╭', \"╭─────────\"... is not valid JSON\nUnexpected token '│', \"│  Error: \"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'o', \"openosint ❯ \" is not valid JSON\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\n--- stderr (tail) ---\nDownloading reportlab (1.9MiB)\nDownloading anthropic (2.4MiB)\nDownloading uvloop (1.4MiB)\nDownloading pillow (4.6MiB)\n Downloaded uvloop\n Downloaded reportlab\n Downloaded pillow\n Downloaded anthropic\nInstalled 74 packages in 184ms\nWarning: Input is not a terminal (fd=0).\n⭐ If OpenOSINT is useful, star it → https://github.com/OpenOSINT/OpenOSINT",
+        "method": "pypi",
+        "runId": "2026-11-23T11-58-40Z-f7f282",
+        "status": "timeout"
+      },
+      {
         "date": "2026-11-16T10:50:49.802Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: token 'T', \"  Thinking...\" is not valid JSON\nUnexpected end of JSON input\nUnexpected token '╭', \"╭─────────\"... is not valid JSON\nUnexpected token '│', \"│  Error: \"... is not valid JSON\nUnexpected token '╰', \"╰─────────\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'o', \"openosint ❯ \" is not valid JSON\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\n--- stderr (tail) ---\nDownloading reportlab (1.9MiB)\nDownloading anthropic (2.3MiB)\n Downloaded reportlab\n Downloaded anthropic\nInstalled 74 packages in 600ms\nWarning: Input is not a terminal (fd=0).\n⭐ If OpenOSINT is useful, star it → https://github.com/OpenOSINT/OpenOSINT",
         "method": "pypi",
@@ -46,6 +53,13 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:37.996Z",
+        "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: put\nUnexpected end of JSON input\nUnexpected token 'o', \"openosint \"... is not valid JSON\nUnexpected token 's', \"stId\":0,\"r\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected token 'o', ...\"          openosint \"... is not valid JSON\nUnexpected token 's', \"stId\":0,\"r\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected token 'T', \"  Thinking...\" is not valid JSON\n--- stderr (tail) ---\nDownloading anthropic (2.4MiB)\nDownloading pillow (6.8MiB)\nDownloading reportlab (1.9MiB)\nDownloading uvloop (4.2MiB)\nDownloading asyncpg (3.6MiB)\n Downloaded reportlab\n Downloaded uvloop\n Downloaded asyncpg\n Downloaded pillow\n Downloaded anthropic\nInstalled 74 packages in 78ms\nWarning: Input is not a terminal (fd=0).\n⭐ If OpenOSINT is useful, star it → https://github.com/OpenOSINT/OpenOSINT",
+        "method": "pypi",
+        "runId": "2026-11-23T11-58-37Z-f970bd",
+        "status": "timeout"
+      },
+      {
         "date": "2026-11-16T10:50:47.770Z",
         "errorExcerpt": "handshake failed: MCP error -32001: Request timed out\ntransport: t\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected token 'o', \"openosint \"... is not valid JSON\nUnexpected token 's', \"stId\":0,\"r\"... is not valid JSON\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected end of JSON input\nUnexpected token 'o', ...\"          openosint \"... is not valid JSON\nUnexpected token 's', \"stId\":0,\"r\"... is not valid JSON\n--- stderr (tail) ---\nDownloading reportlab (1.9MiB)\nDownloading anthropic (2.3MiB)\nDownloading asyncpg (3.6MiB)\n Downloaded reportlab\n Downloaded asyncpg\n Downloaded anthropic\nInstalled 74 packages in 79ms\nWarning: Input is not a terminal (fd=0).\n⭐ If OpenOSINT is useful, star it → https://github.com/OpenOSINT/OpenOSINT",
         "method": "pypi",
@@ -89,6 +103,13 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:58:54.641Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading reportlab (1.9MiB)\nDownloading anthropic (2.4MiB)\nDownloading pillow (6.9MiB)\n Downloaded pillow\n Downloaded reportlab\n Downloaded anthropic\nInstalled 74 packages in 1m 05s\n[!] Fatal: No Windows console found. Are you running cmd.exe?",
+        "method": "pypi",
+        "runId": "2026-11-23T11-58-54Z-d40aaf",
+        "status": "needs_auth"
+      },
       {
         "date": "2026-11-16T10:51:00.349Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\n--- stderr (tail) ---\nDownloading reportlab (1.9MiB)\nDownloading anthropic (2.3MiB)\n Downloaded reportlab\n Downloaded anthropic\nInstalled 74 packages in 49.54s\n[!] Fatal: No Windows console found. Are you running cmd.exe?",

@@ -2,6 +2,14 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:41.956Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: ],\n          \"message\": \"Invalid input: expected object, received undefined\"\n        },\n        {\n          \"code\": \"unrecognized_keys\",\n          \"keys\": [\n            \"command\",\n            \"args\"\n          ],\n          \"path\": [],\n          \"message\": \"Unrecognized keys: \\\"command\\\", \\\"args\\\"\"\n        }\n      ]\n    ],\n    \"path\": [],\n    \"message\": \"Invalid input\"\n  }\n]\nUnexpected end of JSON input\nUnexpected token 'D', \"Docs: http\"... is not valid JSON\nUnexpected end of JSON input",
+        "installMs": 4085,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-41Z-598376",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-11-16T10:50:54.649Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: ],\n          \"message\": \"Invalid input: expected object, received undefined\"\n        },\n        {\n          \"code\": \"unrecognized_keys\",\n          \"keys\": [\n            \"command\",\n            \"args\"\n          ],\n          \"path\": [],\n          \"message\": \"Unrecognized keys: \\\"command\\\", \\\"args\\\"\"\n        }\n      ]\n    ],\n    \"path\": [],\n    \"message\": \"Invalid input\"\n  }\n]\nUnexpected end of JSON input\nUnexpected token 'D', \"Docs: http\"... is not valid JSON\nUnexpected end of JSON input",
         "installMs": 5006,
@@ -12,6 +20,14 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:39.705Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: ],\n          \"message\": \"Invalid input: expected object, received undefined\"\n        },\n        {\n          \"code\": \"unrecognized_keys\",\n          \"keys\": [\n            \"command\",\n            \"args\"\n          ],\n          \"path\": [],\n          \"message\": \"Unrecognized keys: \\\"command\\\", \\\"args\\\"\"\n        }\n      ]\n    ],\n    \"path\": [],\n    \"message\": \"Invalid input\"\n  }\n]\nUnexpected end of JSON input\nUnexpected token 'D', \"Docs: http\"... is not valid JSON\nUnexpected end of JSON input",
+        "installMs": 3711,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-39Z-025f37",
+        "status": "handshake_failed"
+      },
+      {
         "date": "2026-11-16T10:50:46.214Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: ],\n          \"message\": \"Invalid input: expected object, received undefined\"\n        },\n        {\n          \"code\": \"unrecognized_keys\",\n          \"keys\": [\n            \"command\",\n            \"args\"\n          ],\n          \"path\": [],\n          \"message\": \"Unrecognized keys: \\\"command\\\", \\\"args\\\"\"\n        }\n      ]\n    ],\n    \"path\": [],\n    \"message\": \"Invalid input\"\n  }\n]\nUnexpected end of JSON input\nUnexpected token 'D', \"Docs: http\"... is not valid JSON\nUnexpected end of JSON input",
         "installMs": 2554,
@@ -21,6 +37,14 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:59:27.112Z",
+        "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: ],\n          \"message\": \"Invalid input: expected object, received undefined\"\n        },\n        {\n          \"code\": \"unrecognized_keys\",\n          \"keys\": [\n            \"command\",\n            \"args\"\n          ],\n          \"path\": [],\n          \"message\": \"Unrecognized keys: \\\"command\\\", \\\"args\\\"\"\n        }\n      ]\n    ],\n    \"path\": [],\n    \"message\": \"Invalid input\"\n  }\n]\nUnexpected end of JSON input\nUnexpected token 'D', \"Docs: http\"... is not valid JSON\nUnexpected end of JSON input",
+        "installMs": 40992,
+        "method": "npm",
+        "runId": "2026-11-23T11-59-27Z-8b35cc",
+        "status": "handshake_failed"
+      },
       {
         "date": "2026-11-16T10:51:03.688Z",
         "errorExcerpt": "handshake failed: MCP error -32000: Connection closed\ntransport: ],\n          \"message\": \"Invalid input: expected object, received undefined\"\n        },\n        {\n          \"code\": \"unrecognized_keys\",\n          \"keys\": [\n            \"command\",\n            \"args\"\n          ],\n          \"path\": [],\n          \"message\": \"Unrecognized keys: \\\"command\\\", \\\"args\\\"\"\n        }\n      ]\n    ],\n    \"path\": [],\n    \"message\": \"Invalid input\"\n  }\n]\nUnexpected end of JSON input\nUnexpected token 'D', \"Docs: http\"... is not valid JSON\nUnexpected end of JSON input",

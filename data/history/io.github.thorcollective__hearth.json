@@ -1,0 +1,57 @@
+{
+  "platforms": {
+    "darwin": [
+      {
+        "date": "2026-11-23T11:58:39.889Z",
+        "installMs": 1705,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-39Z-0cc398",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "get_hunt",
+          "search_hunts",
+          "hunts_for_actor",
+          "hunts_for_datasources",
+          "coverage_gaps"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "date": "2026-11-23T11:58:35.779Z",
+        "installMs": 1122,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-35Z-28b592",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "get_hunt",
+          "search_hunts",
+          "hunts_for_actor",
+          "hunts_for_datasources",
+          "coverage_gaps"
+        ]
+      }
+    ],
+    "win32": [
+      {
+        "date": "2026-11-23T11:58:56.670Z",
+        "installMs": 89854,
+        "method": "npm",
+        "runId": "2026-11-23T11-58-56Z-0e7bf5",
+        "status": "pass",
+        "toolCount": 5,
+        "toolNames": [
+          "get_hunt",
+          "search_hunts",
+          "hunts_for_actor",
+          "hunts_for_datasources",
+          "coverage_gaps"
+        ]
+      }
+    ]
+  },
+  "serverId": "io.github.THORCollective/hearth",
+  "slug": "io.github.thorcollective__hearth"
+}

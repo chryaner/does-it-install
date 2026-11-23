@@ -2,6 +2,25 @@
   "platforms": {
     "darwin": [
       {
+        "date": "2026-11-23T11:58:41.956Z",
+        "method": "remote-http",
+        "runId": "2026-11-23T11-58-41Z-598376",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "search_law",
+          "get_law_text",
+          "ordinance_radar",
+          "get_annexes",
+          "legal_research",
+          "legal_analysis",
+          "discover_tools",
+          "execute_tool",
+          "search_decisions",
+          "get_decision_text"
+        ]
+      },
+      {
         "date": "2026-11-16T10:50:47.927Z",
         "method": "remote-http",
         "runId": "2026-11-16T10-50-47Z-0ce22b",
@@ -80,6 +99,25 @@
     ],
     "linux": [
       {
+        "date": "2026-11-23T11:58:39.705Z",
+        "method": "remote-http",
+        "runId": "2026-11-23T11-58-39Z-025f37",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "search_law",
+          "get_law_text",
+          "ordinance_radar",
+          "get_annexes",
+          "legal_research",
+          "legal_analysis",
+          "discover_tools",
+          "execute_tool",
+          "search_decisions",
+          "get_decision_text"
+        ]
+      },
+      {
         "date": "2026-11-16T10:50:42.587Z",
         "method": "remote-http",
         "runId": "2026-11-16T10-50-42Z-ab6ac8",
@@ -157,6 +195,25 @@
       }
     ],
     "win32": [
+      {
+        "date": "2026-11-23T11:59:27.112Z",
+        "method": "remote-http",
+        "runId": "2026-11-23T11-59-27Z-8b35cc",
+        "status": "pass",
+        "toolCount": 10,
+        "toolNames": [
+          "search_law",
+          "get_law_text",
+          "ordinance_radar",
+          "get_annexes",
+          "legal_research",
+          "legal_analysis",
+          "discover_tools",
+          "execute_tool",
+          "search_decisions",
+          "get_decision_text"
+        ]
+      },
       {
         "date": "2026-11-16T10:51:04.903Z",
         "method": "remote-http",
